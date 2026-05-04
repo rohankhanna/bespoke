@@ -84,7 +84,7 @@
   "normalized_form": "manual-release",
   "observation_id": "c5a1f745e62274bc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "Manual Release",
   "source_context_snippet": "Manual Release",
   "source_file": ".github/workflows/force-release.yml",

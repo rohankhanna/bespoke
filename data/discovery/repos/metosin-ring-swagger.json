@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3fe9b3ae632c6758d0b7757b0838606ef4287b08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/ring-swagger",
+      "target": "metosin/fnhouse-swagger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/ring-swagger",
+      "target": "frankiesardo/route-swagger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/ring-swagger",
+      "target": "juxt/yada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/ring-swagger",
+      "target": "metosin/kekkonen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "actions/setup-java@v3.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "DeLaGuardo/setup-clojure@3fe9b3ae632c6758d0b7757b0838606ef4287b08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "metosin-stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "schema-elements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:56:37.082951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26925
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 3026
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swagger Spec for Clojure Web Apps",
+    "fork": false,
+    "full_name": "metosin/ring-swagger",
+    "html_url": "https://github.com/metosin/ring-swagger",
+    "language": "Clojure",
+    "pushed_at": "2026-03-20T06:30:58Z",
+    "stargazers_count": 374,
+    "topics": [
+      "clojure",
+      "json-schema",
+      "metosin-stable",
+      "openapi",
+      "rest",
+      "schema-elements",
+      "swagger"
+    ],
+    "updated_at": "2026-04-15T03:16:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frankiesardo/route-swagger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juxt/yada",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/fnhouse-swagger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/kekkonen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-schema"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-stable"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema-elements"
+    },
+    {
+      "context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

@@ -115,6 +115,18 @@
       "source_repo": "ianstormtaylor/superstruct",
       "status": "candidate-context",
       "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "A Julia Protocol for Geospatial Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "ianstormtaylor/superstruct",
       "status": "candidate",
       "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
     }
   ],
   "candidate_related_terms": [
@@ -361,11 +379,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "ianstormtaylor/superstruct"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeoInterface.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

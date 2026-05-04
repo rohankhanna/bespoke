@@ -211,14 +211,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/basecoin-rs",
+      "target": "informalsystems/sovereign-ibc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/sovereign-ibc",
+      "target": "octopus-network/near-ibc",
       "target_type": "repository"
     },
     {
@@ -481,7 +481,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:23:34.486474+00:00",
+  "fetched_at": "2026-05-04T13:05:11.784125+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -548,17 +548,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "informalsystems/basecoin-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "informalsystems/cosmwasm-ibc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "informalsystems/sovereign-ibc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/near-ibc",
       "source_file": "README.md"
     }
   ],

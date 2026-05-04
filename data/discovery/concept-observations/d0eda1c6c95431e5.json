@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bayesian Statistics using Julia and Turing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CC BY-SA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CC BY-SA"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bayesian-statistics",
+      "sense_id": "bayesian-statistics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bayesian-statistics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bayesian-statistics",
+  "observation_id": "d0eda1c6c95431e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "bayesian-statistics",
+  "source_context_snippet": "[![CC BY-SA",
+  "source_file": null,
+  "source_repo": "storopoli/Bayesian-Julia",
+  "source_repo_description": "Bayesian Statistics using Julia and Turing"
+}

@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Twinklebear/tobj",
+      "target": "syoyo/tinyobjloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Twinklebear/tobj",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Twinklebear/tobj",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:53:45.205678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7695
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1266
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tiny OBJ Loader in Rust",
+    "fork": false,
+    "full_name": "Twinklebear/tobj",
+    "html_url": "https://github.com/Twinklebear/tobj",
+    "language": "Rust",
+    "pushed_at": "2025-01-20T22:02:13Z",
+    "stargazers_count": 266,
+    "topics": [],
+    "updated_at": "2026-05-03T08:21:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syoyo/tinyobjloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

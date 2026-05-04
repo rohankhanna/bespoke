@@ -772,7 +772,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T09:39:09.788787+00:00",
+  "fetched_at": "2026-05-04T12:57:22.502325+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -813,7 +813,7 @@
     "html_url": "https://github.com/DioxusLabs/dioxus",
     "language": "Rust",
     "pushed_at": "2026-05-01T23:24:59Z",
-    "stargazers_count": 35907,
+    "stargazers_count": 35909,
     "topics": [
       "android",
       "css",
@@ -829,7 +829,7 @@
       "wasm",
       "web"
     ],
-    "updated_at": "2026-05-04T09:29:44Z"
+    "updated_at": "2026-05-04T12:42:25Z"
   },
   "repo_links": [
     {

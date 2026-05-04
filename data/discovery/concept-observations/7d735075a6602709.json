@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nginx with automatic let's encrypt (docker image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ssl-certificates",
+      "sense_id": "ssl-certificates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ssl-certificates",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ssl-certificates",
+  "observation_id": "7d735075a6602709",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "ssl-certificates",
+  "source_context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+  "source_file": null,
+  "source_repo": "nginx-le/nginx-le",
+  "source_repo_description": "Nginx with automatic let's encrypt (docker image)"
+}

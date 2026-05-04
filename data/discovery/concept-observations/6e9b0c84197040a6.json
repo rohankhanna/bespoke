@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Swagger Spec for Clojure Web Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json-schema",
+      "sense_id": "json-schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "json-schema",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "json-schema",
+  "observation_id": "6e9b0c84197040a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "json-schema",
+  "source_context_snippet": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026",
+  "source_file": null,
+  "source_repo": "metosin/ring-swagger",
+  "source_repo_description": "Swagger Spec for Clojure Web Apps"
+}

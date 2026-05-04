@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "better-auth/better-auth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zcash/zips"
     }
   ]
 }

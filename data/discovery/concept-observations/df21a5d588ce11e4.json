@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Foundry-based template for developing Solidity smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859561,
+      "status": "candidate",
+      "text": "metalworks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863284,
+      "status": "candidate",
+      "text": "smelting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863036,
+      "status": "candidate",
+      "text": "refinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862179,
+      "status": "candidate",
+      "text": "smelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861872,
+      "status": "candidate",
+      "text": "die-cast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foundry",
+      "sense_id": "foundry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "metalworks"
+    }
+  ],
+  "concept_id": "foundry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foundry",
+  "observation_id": "df21a5d588ce11e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "foundry",
+  "source_context_snippet": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template",
+  "source_file": null,
+  "source_repo": "PaulRBerg/foundry-template",
+  "source_repo_description": "Foundry-based template for developing Solidity smart contracts"
+}

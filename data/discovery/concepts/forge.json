@@ -19,6 +19,18 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate-context",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "Foundry-based template for developing Solidity smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "foundry-rs/forge-std",
       "status": "candidate",
       "text": "Forge Standard Library is a collection of helpful contracts and libraries for use with [Forge and Foundry](https://github.com/foundry-rs/foundry). It leverages Forge's cheatcodes to make writing tests easier and faster, while improving the UX of cheatcodes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/forge-std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "PaulRBerg/foundry-template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

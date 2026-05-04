@@ -1131,6 +1131,18 @@
       "source_repo": "AtomEcho/AtomBulb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">AtomBulb</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_glosses": [
@@ -1697,6 +1709,12 @@
       "source_repo": "AtomEcho/AtomBulb",
       "status": "candidate",
       "text": "<h1 align=\"center\">AtomBulb</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_related_terms": [
@@ -2376,11 +2394,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "AtomEcho/AtomBulb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -106,7 +106,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T09:36:14.764040+00:00",
+  "fetched_at": "2026-05-04T12:53:47.275222+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,11 +114,11 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 167
+      "size": 107
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 3649
+      "size": 3511
     }
   ],
   "related_repositories": [],
@@ -130,14 +130,14 @@
     "full_name": "ash-rs/ash",
     "html_url": "https://github.com/ash-rs/ash",
     "language": "Rust",
-    "pushed_at": "2026-05-01T18:10:31Z",
-    "stargazers_count": 2253,
+    "pushed_at": "2026-05-04T12:53:41Z",
+    "stargazers_count": 2255,
     "topics": [
       "gamedev",
       "rust",
       "vulkan"
     ],
-    "updated_at": "2026-05-03T18:08:40Z"
+    "updated_at": "2026-05-04T12:53:40Z"
   },
   "repo_links": [
     {

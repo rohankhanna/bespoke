@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "outlier-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "source_repo": "mala-lab/deviation-network-image"
+}

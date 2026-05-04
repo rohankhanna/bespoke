@@ -12,25 +12,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "privacycg/CHIPS",
-      "target": "privacycg/storage-partitioning",
+      "target": "wanderview/quota-storage-partitioning",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "privacycg/CHIPS",
-      "target": "michaelkleber/privacy-model",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "privacycg/CHIPS",
-      "target": "mikewest/http-state-tokens",
+      "target": "sbingler/origin-bound-cookies",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T20:43:20.038127+00:00",
+  "fetched_at": "2026-05-04T12:51:56.380571+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +47,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "michaelkleber/privacy-model",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mikewest/http-state-tokens",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "privacycg/first-party-sets",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "privacycg/storage-partitioning",
+      "full_name": "sbingler/origin-bound-cookies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wanderview/quota-storage-partitioning",
       "source_file": "README.md"
     }
   ],

@@ -1417,11 +1417,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/pypi.yml",
       "source_repo": "dpryan79/pyBigWig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

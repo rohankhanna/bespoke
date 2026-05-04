@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ed25519",
+      "sense_id": "ed25519#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ed25519",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ed25519",
+  "observation_id": "f3c6a5c2a44bb142",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "ed25519",
+  "source_context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+  "source_file": null,
+  "source_repo": "dalek-cryptography/ed25519-dalek",
+  "source_repo_description": "ARCHIVED/MOVED: please visit the new location"
+}

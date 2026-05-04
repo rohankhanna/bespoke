@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "typicode/json-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "breejs/bree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "@ladjs/graceful",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "bree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "json-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "path",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "source_repo": "effofxprime/Cosmregistry-API"
+}

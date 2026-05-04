@@ -1,7 +1,7 @@
 {
   "component": "codacy/codacy-coverage-reporter-action@master",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "robotology/yarp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug"
     }
   ]
 }

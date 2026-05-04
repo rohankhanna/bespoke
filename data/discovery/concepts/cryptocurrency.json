@@ -151,6 +151,18 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": "Zcash Improvement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": ".. Title: Specifications and Zcash Improvement Proposals"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate",
+      "text": ".. Title: Specifications and Zcash Improvement Proposals"
     }
   ],
   "candidate_related_terms": [
@@ -442,11 +460,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "zcash/zips"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload precompiled CosmWasm clients"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate-context",
+      "text": "Facilities for implementing ibc-rs-powered light clients and applications as CosmWasm contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate-context",
+      "text": "Upload precompiled CosmWasm clients"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate",
+      "text": "Upload precompiled CosmWasm clients"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22263,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15014,
+      "status": "candidate",
+      "text": "toolbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14253,
+      "status": "candidate",
+      "text": "heading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "trimmer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11249,
+      "status": "candidate",
+      "text": "downloadable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload precompiled CosmWasm clients",
+  "concept_id": "upload-precompiled-cosmwasm-clients",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/upload-cw-clients.yaml",
+      "source_repo": "informalsystems/cosmwasm-ibc"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload precompiled CosmWasm clients",
+      "sense_id": "upload-precompiled-cosmwasm-clients#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

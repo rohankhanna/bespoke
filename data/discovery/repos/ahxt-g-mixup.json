@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:49:57.034637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICML2022] G-Mixup: Graph Data Augmentation for Graph Classification",
+    "fork": false,
+    "full_name": "ahxt/g-mixup",
+    "html_url": "https://github.com/ahxt/g-mixup",
+    "language": "Python",
+    "pushed_at": "2024-02-29T17:09:31Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-01T08:50:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

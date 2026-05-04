@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tla-specification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate-context",
+      "text": "TLA+ snippets, operators, and modules contributed and curated by the TLA+ community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate-context",
+      "text": "Community Repository"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate",
+      "text": "Community Repository"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tla-specification",
+  "concept_id": "tla-specification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/CommunityModules"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tla-specification",
+      "sense_id": "tla-specification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

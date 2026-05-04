@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image augmentation for machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018484,
+      "status": "candidate",
+      "text": "hachure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018483,
+      "status": "candidate",
+      "text": "geohash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018482,
+      "status": "candidate",
+      "text": "jellygraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018481,
+      "status": "candidate",
+      "text": "hot patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018480,
+      "status": "candidate",
+      "text": "heliotype"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heatmap",
+      "sense_id": "heatmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "heatmap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "heatmap",
+  "observation_id": "af1cbdae6f603f39",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "heatmap",
+  "source_context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+  "source_file": null,
+  "source_repo": "aleju/imgaug",
+  "source_repo_description": "Image augmentation for machine learning experiments."
+}

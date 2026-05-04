@@ -44,6 +44,18 @@
       "source_repo": "vercel/swr",
       "status": "candidate-context",
       "text": "Test and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "Test and Release"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vercel/swr",
+      "status": "candidate",
+      "text": "Test and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
       "status": "candidate",
       "text": "Test and Release"
     }
@@ -155,11 +173,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "dropzone/dropzone"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

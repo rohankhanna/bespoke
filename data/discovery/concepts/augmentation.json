@@ -103,6 +103,18 @@
       "source_repo": "TorchIO-project/torchio",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "Image augmentation for machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "TorchIO-project/torchio",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +310,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "aleju/imgaug"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

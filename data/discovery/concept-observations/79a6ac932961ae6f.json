@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official PyTorch implementation of the paper \u201cExplainable Deep Few-shot Anomaly Detection with Deviation Networks\u201d, weakly/partially supervised anomaly detection, few-shot anomaly detection, image defect detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "outlier-detection",
+      "sense_id": "outlier-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "outlier-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "outlier-detection",
+  "observation_id": "79a6ac932961ae6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "outlier-detection",
+  "source_context_snippet": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel",
+  "source_file": null,
+  "source_repo": "mala-lab/deviation-network-image",
+  "source_repo_description": "Official PyTorch implementation of the paper \u201cExplainable Deep Few-shot Anomaly Detection with Deviation Networks\u201d, weakly/partially supervised anomaly detection, few-shot anomaly detection, image defect detection."
+}

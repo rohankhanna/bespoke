@@ -292,6 +292,18 @@
       "source_repo": "dimforge/kiss3d",
       "status": "candidate-context",
       "text": "CI build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate-context",
+      "text": "Nginx with automatic let's encrypt (docker image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "dimforge/kiss3d",
       "status": "candidate",
       "text": "CI build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate",
+      "text": "CI Build"
     }
   ],
   "candidate_related_terms": [
@@ -901,11 +919,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

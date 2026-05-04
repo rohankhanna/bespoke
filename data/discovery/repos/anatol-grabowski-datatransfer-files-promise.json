@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "anatol-grabowski/datatransfer-files-promise",
+      "target": "grabantot/datatransfer-files-promise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anatol-grabowski/datatransfer-files-promise",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "anatol-grabowski/datatransfer-files-promise",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:56:39.656590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1043
+    },
+    {
+      "path": "package.json",
+      "size": 821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "anatol-grabowski/datatransfer-files-promise",
+    "html_url": "https://github.com/anatol-grabowski/datatransfer-files-promise",
+    "language": "TypeScript",
+    "pushed_at": "2024-01-24T21:05:55Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2025-12-25T20:23:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grabantot/datatransfer-files-promise",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

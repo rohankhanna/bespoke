@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geopandas/governance",
+      "target": "geopandas/community",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:52:25.658787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GeoPandas project governance process",
+    "fork": false,
+    "full_name": "geopandas/governance",
+    "html_url": "https://github.com/geopandas/governance",
+    "language": null,
+    "pushed_at": "2025-11-27T17:18:36Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-28T11:52:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geopandas/community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

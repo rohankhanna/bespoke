@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1197,6 +1197,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-ci.yml",
       "source_repo": "erew123/alltalk_tts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_jsons.yml",
+      "source_repo": "dydxprotocol/v4-localization"
     }
   ]
 }

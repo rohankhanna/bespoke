@@ -1,32 +1,7 @@
 {
-  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "flightcontrolhq/superjson"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "unum-cloud/UStore"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "stdlib-js/complex-reviver"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/full-stack-fastapi-template"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dwyl/quotes"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -40,7 +15,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "vincentlaucsb/csv-parser"
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
     }
   ],
   "term": "json"

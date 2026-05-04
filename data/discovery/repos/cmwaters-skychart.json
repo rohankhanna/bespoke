@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T13:05:49.997950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1596
+    },
+    {
+      "path": "go.mod",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple and convenient Golang server and client library for the Cosmos chain-registry",
+    "fork": false,
+    "full_name": "cmwaters/skychart",
+    "html_url": "https://github.com/cmwaters/skychart",
+    "language": "Go",
+    "pushed_at": "2023-05-04T19:59:31Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-05-20T12:42:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

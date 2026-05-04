@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:57:17.344162+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sort completion candidates by previous completion choices",
+    "fork": false,
+    "full_name": "company-mode/company-statistics",
+    "html_url": "https://github.com/company-mode/company-statistics",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-08-05T15:24:37Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-01-23T16:28:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

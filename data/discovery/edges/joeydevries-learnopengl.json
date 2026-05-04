@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoeyDeVries/LearnOpenGL",
+      "target": "polytonic/glitter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoeyDeVries/LearnOpenGL",
+      "target": "srcres258/learnopengl-rust",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "source_repo": "JoeyDeVries/LearnOpenGL"
+}

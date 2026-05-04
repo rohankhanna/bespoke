@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "graph-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "image-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "novelty-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "out-of-distribution-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "semi-supervised-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "time-series-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "unsupervised-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "video-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "weakly-supervised-anomaly-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:50:03.566665+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+    "fork": false,
+    "full_name": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+    "html_url": "https://github.com/mala-lab/ADBenchmarks-anomaly-detection-datasets",
+    "language": null,
+    "pushed_at": "2025-10-01T13:16:29Z",
+    "stargazers_count": 438,
+    "topics": [
+      "anomaly-detection",
+      "dataset",
+      "graph-anomaly-detection",
+      "image-anomaly-detection",
+      "novelty-detection",
+      "out-of-distribution-detection",
+      "outlier-detection",
+      "semi-supervised-anomaly-detection",
+      "time-series-anomaly-detection",
+      "unsupervised-anomaly-detection",
+      "video-anomaly-detection",
+      "weakly-supervised-anomaly-detection"
+    ],
+    "updated_at": "2026-05-01T06:20:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novelty-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "out-of-distribution-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-anomaly-detection"
+    },
+    {
+      "context_snippet": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-anomaly-detection"
+    }
+  ]
+}

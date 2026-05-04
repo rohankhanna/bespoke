@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "tuvistavie/atomic-chrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "stsquad/emacs_chrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "ghosttext/ghosttext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:57:15.565083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Edit text area on Chrome with Emacs using Atomic Chrome",
+    "fork": false,
+    "full_name": "alpha22jp/atomic-chrome",
+    "html_url": "https://github.com/alpha22jp/atomic-chrome",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-03-13T08:36:05Z",
+    "stargazers_count": 419,
+    "topics": [],
+    "updated_at": "2026-03-26T17:37:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghosttext/ghosttext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stsquad/emacs_chrome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tuvistavie/atomic-chrome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

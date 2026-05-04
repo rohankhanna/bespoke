@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -9762,6 +9762,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "XantreDev/preact-signals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Build.yml",
+      "source_repo": "storopoli/Bayesian-Julia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "storopoli/Bayesian-Julia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors-png.yml",
+      "source_repo": "processing/processing4"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_main.yml",
+      "source_repo": "kwonoj/swc-plugin-coverage-instrument"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-labs/yui-ibc-solidity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dydxprotocol/v4-localization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml",
+      "source_repo": "tlaplus/Examples"
     }
   ]
 }

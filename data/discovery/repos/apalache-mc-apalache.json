@@ -226,14 +226,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apalache-mc/apalache",
-      "target": "informalsystems/cosmos.nix",
+      "target": "z3prover/z3",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apalache-mc/apalache",
-      "target": "apalache-mc/apalache-tests",
+      "target": "tlaplus/examples",
       "target_type": "repository"
     },
     {
@@ -247,7 +247,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "apalache-mc/apalache",
-      "target": "informalsystems/tla-apalache-workshop",
+      "target": "konnov/apalache-examples",
       "target_type": "repository"
     },
     {
@@ -517,7 +517,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T07:24:41.162762+00:00",
+  "fetched_at": "2026-05-04T13:05:57.169603+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -577,22 +577,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apalache-mc/apalache-tests",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "informalsystems/cosmos.nix",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "informalsystems/tendermint-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "informalsystems/tla-apalache-workshop",
+      "full_name": "konnov/apalache-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "z3prover/z3",
       "source_file": "README.md"
     }
   ],

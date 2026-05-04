@@ -43,6 +43,18 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate-context",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "gary23ai/ARPL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

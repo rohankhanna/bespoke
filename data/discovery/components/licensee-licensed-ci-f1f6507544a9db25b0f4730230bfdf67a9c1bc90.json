@@ -1,7 +1,7 @@
 {
   "component": "licensee/licensed-ci@f1f6507544a9db25b0f4730230bfdf67a9c1bc90",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

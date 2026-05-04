@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check dependencies of rendered ZIPs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": "Zcash Improvement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": "Check dependencies of rendered ZIPs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate",
+      "text": "Check dependencies of rendered ZIPs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "bondage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21651,
+      "status": "candidate",
+      "text": "hematocrit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21651,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21651,
+      "status": "candidate",
+      "text": "nonsupport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21651,
+      "status": "candidate",
+      "text": "nox"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check dependencies of rendered ZIPs",
+  "concept_id": "check-dependencies-of-rendered-zips",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/updatecheck.yml",
+      "source_repo": "zcash/zips"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check dependencies of rendered ZIPs",
+      "sense_id": "check-dependencies-of-rendered-zips#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

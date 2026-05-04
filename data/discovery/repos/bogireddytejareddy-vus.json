@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bogireddytejareddy/VUS",
+      "target": "johnpaparrizos/vus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:50:06.389752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6983
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "bogireddytejareddy/VUS",
+    "html_url": "https://github.com/bogireddytejareddy/VUS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-11T19:15:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-10-04T15:13:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johnpaparrizos/vus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

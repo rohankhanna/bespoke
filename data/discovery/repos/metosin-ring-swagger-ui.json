@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger-ui",
+      "target": "metosin-stable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:56:38.663655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swagger UI packaged for Ring Apps",
+    "fork": false,
+    "full_name": "metosin/ring-swagger-ui",
+    "html_url": "https://github.com/metosin/ring-swagger-ui",
+    "language": "Clojure",
+    "pushed_at": "2026-03-25T08:05:47Z",
+    "stargazers_count": 54,
+    "topics": [
+      "metosin-stable"
+    ],
+    "updated_at": "2026-03-25T08:05:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](http://clojars.org/metosin/ring-swagger-ui/latest-version.svg)](http://clojars.org/metosin/ring-swagger-ui)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-stable"
+    }
+  ]
+}

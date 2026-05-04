@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/book.yaml",
       "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zcash/zips"
     }
   ]
 }

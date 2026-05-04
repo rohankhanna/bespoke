@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "pluscal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/Examples",
+      "status": "candidate-context",
+      "text": "A collection of TLA\u207a specifications of varying complexities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/Examples",
+      "status": "candidate-context",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate-context",
+      "text": "TLA+ snippets, operators, and modules contributed and curated by the TLA+ community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate-context",
+      "text": "Community Repository"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate-context",
+      "text": "TLA+ language support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/Examples",
+      "status": "candidate",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/CommunityModules",
+      "status": "candidate",
+      "text": "Community Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pluscal",
+  "concept_id": "pluscal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/Examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/CommunityModules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/vscode-tlaplus"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pluscal",
+      "sense_id": "pluscal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

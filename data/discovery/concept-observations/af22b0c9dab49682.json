@@ -84,7 +84,7 @@
   "normalized_form": "cosmwasm-compilation-check",
   "observation_id": "af22b0c9dab49682",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "CosmWasm Compilation Check",
   "source_context_snippet": "CosmWasm Compilation Check",
   "source_file": ".github/workflows/cw-check.yaml",

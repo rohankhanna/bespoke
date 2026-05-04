@@ -8566,6 +8566,114 @@
       "source_repo": "ShelbyJenkins/llm_client",
       "status": "candidate-context",
       "text": "<!-- PROJECT SHIELDS -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "visioncortex/vtracer",
+      "status": "candidate-context",
+      "text": "Raster to Vector Graphics Converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visioncortex/vtracer",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visioncortex/vtracer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "Translation support for mdbook. The plugins here give you a structured way to maintain a translated book."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate-context",
+      "text": "Facilities for implementing ibc-rs-powered light clients and applications as CosmWasm contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/sovereign-ibc",
+      "status": "candidate-context",
+      "text": "Implementation of IBC modules by `ibc-rs` that can run with Sovereign SDK rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/sovereign-ibc",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "This is a WIP implementation of the ibc-lite specs purely in CosmWasm. It can communicate over IBC without using `ibc-go`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate-context",
+      "text": "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek). Please direct all issues and pull requests to the new repo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate-context",
+      "text": "Zcash - Financial Privacy in Rust \ud83e\udd93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate-context",
+      "text": "![Zebra logotype](https://zfnd.org/wp-content/uploads/2022/03/zebra-logotype.png)"
     }
   ],
   "candidate_glosses": [
@@ -12972,6 +13080,66 @@
       "source_repo": "ShelbyJenkins/llm_client",
       "status": "candidate",
       "text": "<!-- PROJECT SHIELDS -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visioncortex/vtracer",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "visioncortex/vtracer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmwasm-ibc",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/sovereign-ibc",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek). Please direct all issues and pull requests to the new repo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate",
+      "text": "![Zebra logotype](https://zfnd.org/wp-content/uploads/2022/03/zebra-logotype.png)"
     }
   ],
   "candidate_related_terms": [
@@ -21091,11 +21259,245 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "ShelbyJenkins/llm_client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/glutin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "visioncortex/vtracer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "visioncortex/vtracer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "google/mdbook-i18n-helpers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/cosmwasm-ibc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "informalsystems/sovereign-ibc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "srdtrk/cw-ibc-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dalek-cryptography/x25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/x25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "bheisler/criterion.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ZcashFoundation/zebra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

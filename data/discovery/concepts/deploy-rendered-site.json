@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Rendered Site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": "Zcash Improvement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate-context",
+      "text": "Deploy Rendered Site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zcash/zips",
+      "status": "candidate",
+      "text": "Deploy Rendered Site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25115,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25049,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25049,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25049,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23267,
+      "status": "candidate",
+      "text": "pay"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Rendered Site",
+  "concept_id": "deploy-rendered-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "zcash/zips"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Rendered Site",
+      "sense_id": "deploy-rendered-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

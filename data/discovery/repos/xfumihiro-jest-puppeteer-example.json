@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xfumihiro/jest-puppeteer-example",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xfumihiro/jest-puppeteer-example",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xfumihiro/jest-puppeteer-example",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xfumihiro/jest-puppeteer-example",
+      "target": "puppeteer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "xfumihiro/jest-puppeteer-example",
+      "target": "rimraf",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:04:36.939627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 461
+    },
+    {
+      "path": "package.json",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A working example of jest with puppeteer",
+    "fork": false,
+    "full_name": "xfumihiro/jest-puppeteer-example",
+    "html_url": "https://github.com/xfumihiro/jest-puppeteer-example",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-03T18:23:17Z",
+    "stargazers_count": 371,
+    "topics": [],
+    "updated_at": "2025-10-24T06:34:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

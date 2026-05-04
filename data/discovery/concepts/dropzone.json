@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dropzone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024631,
+      "status": "candidate",
+      "text": "drop zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024630,
+      "status": "candidate",
+      "text": "dropsite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024629,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024628,
+      "status": "candidate",
+      "text": "paradrop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024627,
+      "status": "candidate",
+      "text": "dropship"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dropzone",
+  "concept_id": "dropzone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dropzone/dropzone"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dropzone",
+      "sense_id": "dropzone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

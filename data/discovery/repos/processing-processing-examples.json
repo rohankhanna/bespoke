@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:55:17.333611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example files for \"processing4\" and \"processing-website\"",
+    "fork": false,
+    "full_name": "processing/processing-examples",
+    "html_url": "https://github.com/processing/processing-examples",
+    "language": "Processing",
+    "pushed_at": "2025-01-14T18:31:21Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-01-21T17:03:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

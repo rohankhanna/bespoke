@@ -1222,6 +1222,18 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/sovereign-ibc",
+      "status": "candidate-context",
+      "text": "Implementation of IBC modules by `ibc-rs` that can run with Sovereign SDK rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/sovereign-ibc",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -1828,6 +1840,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/sovereign-ibc",
       "status": "candidate",
       "text": "\"Dependency Review\""
     }
@@ -2641,11 +2659,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/dependencies-review.yml",
       "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/dependency_review.yml",
+      "source_repo": "informalsystems/sovereign-ibc"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

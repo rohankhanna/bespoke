@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/basecoin-rs",
+      "target": "informalsystems/sovereign-ibc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "informalsystems/ibc-rs",
-      "target": "informalsystems/sovereign-ibc",
+      "target": "octopus-network/near-ibc",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
   "source_repo": "informalsystems/ibc-rs"
 }

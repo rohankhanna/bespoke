@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing-doclet",
+      "target": "processing/processing4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing-doclet",
+      "target": "processing/processing-video",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:55:16.662152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "processing/processing-doclet",
+    "html_url": "https://github.com/processing/processing-doclet",
+    "language": "Java",
+    "pushed_at": "2024-08-12T09:11:56Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-07-18T11:24:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

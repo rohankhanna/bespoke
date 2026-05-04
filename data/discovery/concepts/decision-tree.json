@@ -19,6 +19,12 @@
       "source_repo": "asafschers/scoruby",
       "status": "candidate-context",
       "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-lucic/focus",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +33,12 @@
       "source_repo": "asafschers/scoruby",
       "status": "candidate",
       "text": "<a href=\"https://codeclimate.com/github/asafschers/scoruby\"><img src=\"https://codeclimate.com/github/asafschers/scoruby/badges/gpa.svg\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-lucic/focus",
+      "status": "candidate",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +52,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "asafschers/scoruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "a-lucic/focus"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -113,7 +113,7 @@
   "normalized_form": "authorization",
   "observation_id": "624ca2e8f074edee",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "authorization",
   "source_context_snippet": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)",
   "source_file": null,

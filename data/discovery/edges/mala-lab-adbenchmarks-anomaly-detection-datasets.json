@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "graph-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "image-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "novelty-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "out-of-distribution-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "semi-supervised-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "time-series-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "unsupervised-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "video-anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "target": "weakly-supervised-anomaly-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "javascript-library",
+      "sense_id": "javascript-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "javascript-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "javascript-library",
+  "observation_id": "c005f46258d29b24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "javascript-library",
+  "source_context_snippet": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />",
+  "source_file": null,
+  "source_repo": "dropzone/dropzone",
+  "source_repo_description": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+}

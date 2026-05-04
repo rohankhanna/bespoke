@@ -67,6 +67,18 @@
       "source_repo": "processing/processing-docs",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing4",
+      "status": "candidate-context",
+      "text": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing4",
+      "status": "candidate-context",
+      "text": "<!-- Uncomment the shield below once the repo is made public -->"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "processing/processing-docs",
       "status": "candidate",
       "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing4",
+      "status": "candidate",
+      "text": "<!-- Uncomment the shield below once the repo is made public -->"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "processing/processing-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing4"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

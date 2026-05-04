@@ -1,0 +1,12 @@
+{
+  "component": "kwonoj/gha-cargo-upgrade@latest",
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-swc-core.yml",
+      "source_repo": "kwonoj/swc-plugin-coverage-instrument"
+    }
+  ]
+}

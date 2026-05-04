@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "target": "michael-f-bryan/mdbook-linkcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "target": "Continuous integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:01:24.024916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5117
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A backend for `mdbook` which will check your links for you.",
+    "fork": false,
+    "full_name": "marxin/mdbook-linkcheck2",
+    "html_url": "https://github.com/marxin/mdbook-linkcheck2",
+    "language": "Rust",
+    "pushed_at": "2026-02-28T17:56:07Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-28T17:56:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michael-f-bryan/mdbook-linkcheck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Continuous integration"
+    }
+  ]
+}

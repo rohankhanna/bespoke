@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check typos"
+    "Check typos",
+    "Check Typos"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "zip-rs/zip2",
       "status": "candidate-context",
       "text": "Check typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "Bayesian Statistics using Julia and Turing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "Check Typos"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "zip-rs/zip2",
       "status": "candidate",
       "text": "Check typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate",
+      "text": "Check Typos"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +149,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/typos.yml",
       "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "storopoli/Bayesian-Julia"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:57:02.495066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4608
+    },
+    {
+      "path": "package.json",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small decorator for the JavaScript WebSocket API that automatically reconnects",
+    "fork": false,
+    "full_name": "joewalnes/reconnecting-websocket",
+    "html_url": "https://github.com/joewalnes/reconnecting-websocket",
+    "language": "JavaScript",
+    "pushed_at": "2022-07-26T18:35:34Z",
+    "stargazers_count": 4325,
+    "topics": [],
+    "updated_at": "2026-05-01T22:56:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

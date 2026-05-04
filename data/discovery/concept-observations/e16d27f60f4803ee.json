@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Branch Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Branch Builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12869,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12270,
+      "status": "candidate",
+      "text": "aerospace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12270,
+      "status": "candidate",
+      "text": "bodybuilding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12270,
+      "status": "candidate",
+      "text": "constructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12270,
+      "status": "candidate",
+      "text": "pecs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Branch Builds",
+      "sense_id": "branch-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "branch-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "branch-builds",
+  "observation_id": "e16d27f60f4803ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "Branch Builds",
+  "source_context_snippet": "Branch Builds",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "processing/processing4",
+  "source_repo_description": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+}

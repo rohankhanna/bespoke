@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/audit-check@35b7b53b1e25b55642157ac01b4adceb5b9ebef3",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

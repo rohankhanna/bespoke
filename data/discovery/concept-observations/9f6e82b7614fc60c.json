@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018831,
+      "status": "candidate",
+      "text": "drag and drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018830,
+      "status": "candidate",
+      "text": "drag-drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018829,
+      "status": "candidate",
+      "text": "draggable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018828,
+      "status": "candidate",
+      "text": "droppable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018827,
+      "status": "candidate",
+      "text": "sortable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drag-and-drop",
+      "sense_id": "drag-and-drop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drag-and-drop",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drag-and-drop",
+  "observation_id": "9f6e82b7614fc60c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "drag-and-drop",
+  "source_context_snippet": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />",
+  "source_file": null,
+  "source_repo": "dropzone/dropzone",
+  "source_repo_description": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+}

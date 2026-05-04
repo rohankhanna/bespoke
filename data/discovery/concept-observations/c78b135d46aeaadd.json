@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zcash - Financial Privacy in Rust \ud83e\udd93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Zebra logotype](https://zfnd.org/wp-content/uploads/2022/03/zebra-logotype.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Zebra logotype](https://zfnd.org/wp-content/uploads/2022/03/zebra-logotype.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034451,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013265,
+      "status": "candidate",
+      "text": "mussel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003485,
+      "status": "candidate",
+      "text": "finch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038587,
+      "status": "candidate",
+      "text": "equus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038587,
+      "status": "candidate",
+      "text": "finches"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zebra",
+      "sense_id": "zebra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zebra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zebra",
+  "observation_id": "c78b135d46aeaadd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "zebra",
+  "source_context_snippet": "![Zebra logotype](https://zfnd.org/wp-content/uploads/2022/03/zebra-logotype.png)",
+  "source_file": null,
+  "source_repo": "ZcashFoundation/zebra",
+  "source_repo_description": "Zcash - Financial Privacy in Rust \ud83e\udd93"
+}

@@ -19,6 +19,18 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate-context",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing4",
+      "status": "candidate-context",
+      "text": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing4",
+      "status": "candidate-context",
+      "text": "<!-- Uncomment the shield below once the repo is made public -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aldernero/sketchy",
       "status": "candidate",
       "text": "![sketchy_logo](assets/images/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing4",
+      "status": "candidate",
+      "text": "<!-- Uncomment the shield below once the repo is made public -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "aldernero/sketchy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing4"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

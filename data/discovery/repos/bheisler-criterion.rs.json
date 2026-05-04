@@ -63,13 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "bheisler/criterion.rs",
-      "target": "criterion-rs/criterion.rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "bheisler/criterion.rs",
@@ -168,7 +161,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:38:24.351795+00:00",
+  "fetched_at": "2026-05-04T13:05:38.858200+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -197,7 +190,7 @@
     "html_url": "https://github.com/bheisler/criterion.rs",
     "language": "Rust",
     "pushed_at": "2026-04-23T01:57:38Z",
-    "stargazers_count": 5461,
+    "stargazers_count": 5470,
     "topics": [
       "benchmark",
       "criterion",
@@ -205,15 +198,9 @@
       "rust",
       "statistics"
     ],
-    "updated_at": "2026-04-23T20:31:59Z"
+    "updated_at": "2026-05-04T01:38:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "criterion-rs/criterion.rs",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Security audit",

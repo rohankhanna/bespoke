@@ -1415,6 +1415,9 @@
   "affine-shape-estimator": [
     "affine-shape-estimator"
   ],
+  "affine-transformation": [
+    "affine-transformation"
+  ],
   "affinity-matrix": [
     "affinity-matrix"
   ],
@@ -5288,6 +5291,9 @@
   ],
   "audits": [
     "audits"
+  ],
+  "augment-images": [
+    "augment-images"
   ],
   "augmentation": [
     "augmentation"
@@ -9454,6 +9460,9 @@
   "bounding-box": [
     "bounding-box"
   ],
+  "bounding-boxes": [
+    "bounding-boxes"
+  ],
   "boundingbox": [
     "boundingbox"
   ],
@@ -9519,6 +9528,9 @@
   ],
   "branch build": [
     "branch-build"
+  ],
+  "branch builds": [
+    "branch-builds"
   ],
   "branch checks": [
     "branch-checks"
@@ -11916,6 +11928,9 @@
   ],
   "build libctru": [
     "build-libctru"
+  ],
+  "build libdifferent": [
+    "build-libdifferent"
   ],
   "build libnrepl native library": [
     "build-libnrepl-native-library"
@@ -15863,6 +15878,9 @@
   "check dependencies": [
     "check-dependencies"
   ],
+  "check dependencies of rendered zips": [
+    "check-dependencies-of-rendered-zips"
+  ],
   "check dependencies update": [
     "check-dependencies-update"
   ],
@@ -16030,6 +16048,9 @@
   ],
   "check for tab characters": [
     "check-for-tab-characters"
+  ],
+  "check for typos": [
+    "check-for-typos"
   ],
   "check for upcoming web certificate expiry": [
     "check-for-upcoming-web-certificate-expiry"
@@ -16505,6 +16526,9 @@
   "check releases": [
     "check-releases"
   ],
+  "check renderability": [
+    "check-renderability"
+  ],
   "check repository health": [
     "check-repository-health"
   ],
@@ -16585,6 +16609,9 @@
   ],
   "check spec references": [
     "check-spec-references"
+  ],
+  "check specs & metadata": [
+    "check-specs-metadata"
   ],
   "check spelling": [
     "check-spelling"
@@ -16879,6 +16906,9 @@
   ],
   "checkpoint": [
     "checkpoint"
+  ],
+  "checkpoint update": [
+    "checkpoint-update"
   ],
   "checkpointing": [
     "checkpointing"
@@ -17663,6 +17693,9 @@
   "ci for code un-related changes": [
     "ci-for-code-un-related-changes"
   ],
+  "ci for ewd998 trace validation": [
+    "ci-for-ewd998-trace-validation"
+  ],
   "ci for general build": [
     "ci-for-general-build"
   ],
@@ -17969,8 +18002,14 @@
   "ci with coverage": [
     "ci-with-coverage"
   ],
+  "ci with docker": [
+    "ci-with-docker"
+  ],
   "ci with eol ruby versions": [
     "ci-with-eol-ruby-versions"
+  ],
+  "ci without docker": [
+    "ci-without-docker"
   ],
   "ci workflow": [
     "ci-workflow"
@@ -23447,6 +23486,12 @@
   "cosmos-sdk": [
     "cosmos-sdk"
   ],
+  "cosmwasm": [
+    "cosmwasm"
+  ],
+  "cosmwasm check": [
+    "cosmwasm-check"
+  ],
   "cosmwasm compilation check": [
     "cosmwasm-compilation-check"
   ],
@@ -23908,6 +23953,9 @@
   ],
   "crdts": [
     "crdts"
+  ],
+  "create": [
+    "create"
   ],
   "create 'preview' release": [
     "create-preview-release"
@@ -27728,6 +27776,9 @@
   "deploy release documentation": [
     "deploy-release-documentation"
   ],
+  "deploy rendered site": [
+    "deploy-rendered-site"
+  ],
   "deploy repository to gcs": [
     "deploy-repository-to-gcs"
   ],
@@ -30874,6 +30925,9 @@
   ],
   "dropwizard": [
     "dropwizard"
+  ],
+  "dropzone": [
+    "dropzone"
   ],
   "drug-discovery": [
     "drug-discovery"
@@ -37410,6 +37464,9 @@
   "generate contributor certificate preview": [
     "generate-contributor-certificate-preview"
   ],
+  "generate contributors png": [
+    "generate-contributors-png"
+  ],
   "generate deploy scaffolding": [
     "generate-deploy-scaffolding"
   ],
@@ -37773,6 +37830,9 @@
   "gentoo": [
     "gentoo"
   ],
+  "gentx": [
+    "gentx"
+  ],
   "geo-localization": [
     "geo-localization"
   ],
@@ -37808,6 +37868,9 @@
   ],
   "geography": [
     "geography"
+  ],
+  "geointerfacerecipes ci": [
+    "geointerfacerecipes-ci"
   ],
   "geoip": [
     "geoip"
@@ -37976,6 +38039,9 @@
   ],
   "getshell": [
     "getshell"
+  ],
+  "gettext": [
+    "gettext"
   ],
   "gettext updates": [
     "gettext-updates"
@@ -42510,6 +42576,9 @@
   "hyperedge": [
     "hyperedge"
   ],
+  "hyperledger-besu": [
+    "hyperledger-besu"
+  ],
   "hyperlinks": [
     "hyperlinks"
   ],
@@ -43289,6 +43358,9 @@
   ],
   "image-preprocessing": [
     "image-preprocessing"
+  ],
+  "image-procesing": [
+    "image-procesing"
   ],
   "image-processing": [
     "image-processing"
@@ -46839,6 +46911,9 @@
   "keycloak-clojure": [
     "keycloak-clojure"
   ],
+  "keyexchange": [
+    "keyexchange"
+  ],
   "keyframe": [
     "keyframe"
   ],
@@ -49470,6 +49545,9 @@
   ],
   "lint test": [
     "lint-test"
+  ],
+  "lint test charts": [
+    "lint-test-charts"
   ],
   "lint tests": [
     "lint-tests"
@@ -52649,6 +52727,9 @@
   ],
   "mdbook-preprocessor": [
     "mdbook-preprocessor"
+  ],
+  "mdbook-renderer": [
+    "mdbook-renderer"
   ],
   "mdbx": [
     "mdbx"
@@ -62657,6 +62738,9 @@
   "plus": [
     "en-preposition-plus"
   ],
+  "pluscal": [
+    "pluscal"
+  ],
   "pluto backend tests": [
     "pluto-backend-tests"
   ],
@@ -70643,6 +70727,9 @@
   "release wasi": [
     "release-wasi"
   ],
+  "release wasm": [
+    "release-wasm"
+  ],
   "release webhook": [
     "release-webhook"
   ],
@@ -72229,6 +72316,9 @@
   ],
   "risc-v rvv cross-compilation build": [
     "risc-v-rvv-cross-compilation-build"
+  ],
+  "risc0 compatibility": [
+    "risc0-compatibility"
   ],
   "risc0-ethereum ci": [
     "risc0-ethereum-ci"
@@ -74537,6 +74627,9 @@
   "schema-checks": [
     "schema-checks"
   ],
+  "schema-elements": [
+    "schema-elements"
+  ],
   "schema-first": [
     "schema-first"
   ],
@@ -75206,6 +75299,9 @@
   "segmentation-foundation-model": [
     "segmentation-foundation-model"
   ],
+  "segmentation-maps": [
+    "segmentation-maps"
+  ],
   "segmentation-models": [
     "segmentation-models"
   ],
@@ -75493,6 +75589,9 @@
   ],
   "semi-siamese-training": [
     "semi-siamese-training"
+  ],
+  "semi-supervised-anomaly-detection": [
+    "semi-supervised-anomaly-detection"
   ],
   "semi-supervised-learning": [
     "semi-supervised-learning"
@@ -79282,6 +79381,9 @@
   "status checker": [
     "status-checker"
   ],
+  "status of dependency check": [
+    "status-of-dependency-check"
+  ],
   "status updater": [
     "status-updater"
   ],
@@ -82762,6 +82864,9 @@
   "test macos": [
     "test-macos"
   ],
+  "test master": [
+    "test-master"
+  ],
   "test melange test command": [
     "test-melange-test-command"
   ],
@@ -82938,6 +83043,9 @@
   ],
   "test pull request": [
     "test-pull-request"
+  ],
+  "test pull requests": [
+    "test-pull-requests"
   ],
   "test pylint": [
     "test-pylint"
@@ -84579,6 +84687,12 @@
   "tla+ pr validation": [
     "tla-pr-validation"
   ],
+  "tla-specification": [
+    "tla-specification"
+  ],
+  "tlai linter": [
+    "tlai-linter"
+  ],
   "tlaplus": [
     "tlaplus"
   ],
@@ -85367,6 +85481,9 @@
   ],
   "tree-diffing": [
     "tree-diffing"
+  ],
+  "tree-ensembles": [
+    "tree-ensembles"
   ],
   "tree-of-thoughts": [
     "tree-of-thoughts"
@@ -87099,6 +87216,9 @@
   "unsupervised": [
     "unsupervised"
   ],
+  "unsupervised-anomaly-detection": [
+    "unsupervised-anomaly-detection"
+  ],
   "unsupervised-learning": [
     "unsupervised-learning"
   ],
@@ -88275,6 +88395,9 @@
   ],
   "upload pr documentation": [
     "upload-pr-documentation"
+  ],
+  "upload precompiled cosmwasm clients": [
+    "upload-precompiled-cosmwasm-clients"
   ],
   "upload pypi": [
     "upload-pypi"
@@ -89610,6 +89733,9 @@
   ],
   "video-annotation": [
     "video-annotation"
+  ],
+  "video-anomaly-detection": [
+    "video-anomaly-detection"
   ],
   "video-call": [
     "video-call"
@@ -91374,6 +91500,9 @@
   ],
   "weak-supervision": [
     "weak-supervision"
+  ],
+  "weakly-supervised-anomaly-detection": [
+    "weakly-supervised-anomaly-detection"
   ],
   "weakly-supervised-learning": [
     "weakly-supervised-learning"
@@ -93656,6 +93785,15 @@
   ],
   "zarr": [
     "zarr"
+  ],
+  "zcash": [
+    "zcash"
+  ],
+  "zcash-node": [
+    "zcash-node"
+  ],
+  "zebra": [
+    "zebra"
   ],
   "zed-editor": [
     "zed-editor"

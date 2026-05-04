@@ -1555,6 +1555,12 @@
       "source_repo": "brightmart/text_classification",
       "status": "candidate-context",
       "text": "Text Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-lucic/focus",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
     }
   ],
   "candidate_glosses": [
@@ -2331,6 +2337,12 @@
       "source_repo": "brightmart/text_classification",
       "status": "candidate",
       "text": "Text Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-lucic/focus",
+      "status": "candidate",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
     }
   ],
   "candidate_related_terms": [
@@ -3856,11 +3868,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "brightmart/text_classification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "a-lucic/focus"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

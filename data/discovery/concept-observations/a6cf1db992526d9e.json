@@ -84,7 +84,7 @@
   "normalized_form": "kotlin",
   "observation_id": "a6cf1db992526d9e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "kotlin",
   "source_context_snippet": "[![Build Status](https://badge.buildkite.com/a8860e94a7378491ce8f50480e3605b49eb2558cfa851bbf9b.svg)](https://buildkite.com/bazel/kotlin-postsubmit)",
   "source_file": null,

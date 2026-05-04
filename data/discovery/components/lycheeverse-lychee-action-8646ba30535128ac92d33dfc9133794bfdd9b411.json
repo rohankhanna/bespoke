@@ -1,7 +1,7 @@
 {
   "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-check.yml",
+      "source_repo": "ZcashFoundation/zebra"
     }
   ]
 }

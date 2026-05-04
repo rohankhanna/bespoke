@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "helm/chart-releaser-action@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "Release helm chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "helm/chart-testing-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "groundhog2k/helm-charts",
+      "target": "Lint test charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:52:53.292674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1113
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 674
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "size": 459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helm charts for open source applications - ready to use for deployment on Kubernetes",
+    "fork": false,
+    "full_name": "groundhog2k/helm-charts",
+    "html_url": "https://github.com/groundhog2k/helm-charts",
+    "language": "Go Template",
+    "pushed_at": "2026-04-30T14:51:30Z",
+    "stargazers_count": 177,
+    "topics": [],
+    "updated_at": "2026-04-30T14:55:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release helm chart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release helm chart"
+    },
+    {
+      "context_snippet": "Lint test charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yml",
+      "term": "Lint test charts"
+    }
+  ]
+}

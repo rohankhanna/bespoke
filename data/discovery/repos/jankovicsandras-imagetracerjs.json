@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jankovicsandras/imagetracerjs",
+      "target": "arian/pngjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jankovicsandras/imagetracerjs",
+      "target": "mourner/simplify-js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:56:43.148921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10521
+    },
+    {
+      "path": "package.json",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple raster image tracer and vectorizer written in JavaScript.",
+    "fork": false,
+    "full_name": "jankovicsandras/imagetracerjs",
+    "html_url": "https://github.com/jankovicsandras/imagetracerjs",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-09T14:37:05Z",
+    "stargazers_count": 1504,
+    "topics": [],
+    "updated_at": "2026-04-27T14:57:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arian/pngjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mourner/simplify-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -48,7 +48,7 @@
   "normalized_form": "bug-bounty",
   "observation_id": "2fc11f23d5f54f48",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "bug-bounty",
   "source_context_snippet": "[![Tests](https://github.com/Uniswap/uniswap-v3-periphery/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-v3-periphery/actions?query=workflow%3ATests)",
   "source_file": null,

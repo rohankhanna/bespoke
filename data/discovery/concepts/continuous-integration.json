@@ -2627,6 +2627,30 @@
       "source_repo": "alphagov/govuk_publishing_components",
       "status": "candidate-context",
       "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "status": "candidate-context",
+      "text": "A backend for `mdbook` which will check your links for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "penumbra-zone/ed25519-consensus",
+      "status": "candidate-context",
+      "text": "Ed25519 suitable for use in consensus-critical contexts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/ed25519-consensus",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -3947,6 +3971,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alphagov/govuk_publishing_components",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marxin/mdbook-linkcheck2",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/ed25519-consensus",
       "status": "candidate",
       "text": "Continuous integration"
     }
@@ -6134,11 +6170,47 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alphagov/govuk_publishing_components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "marxin/mdbook-linkcheck2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "penumbra-zone/ed25519-consensus"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

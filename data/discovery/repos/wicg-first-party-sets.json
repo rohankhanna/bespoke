@@ -16,28 +16,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
-      "target": "disconnectme/disconnect-tracking-protection",
+      "target": "privacycg/first-party-sets",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
-      "target": "googlechrome/ip-protection",
+      "target": "mreichhoff/requeststorageaccessforsite",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
-      "target": "googlechrome/related-website-sets",
+      "target": "sleevi/psl-problems",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
-      "target": "cfredric/sameparty",
+      "target": "mozilla-services/shavar-prod-lists",
       "target_type": "repository"
     },
     {
@@ -55,7 +55,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T02:10:18.772569+00:00",
+  "fetched_at": "2026-05-04T12:52:00.434058+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,22 +83,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cfredric/sameparty",
+      "full_name": "mozilla-services/shavar-prod-lists",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "disconnectme/disconnect-tracking-protection",
+      "full_name": "mreichhoff/requeststorageaccessforsite",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googlechrome/ip-protection",
+      "full_name": "privacycg/first-party-sets",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googlechrome/related-website-sets",
+      "full_name": "sleevi/psl-problems",
       "source_file": "README.md"
     }
   ],

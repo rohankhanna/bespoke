@@ -422,6 +422,18 @@
       "source_repo": "aeharding/voyager",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "This is a WIP implementation of the ibc-lite specs purely in CosmWasm. It can communicate over IBC without using `ibc-go`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -632,6 +644,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aeharding/voyager",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
       "status": "candidate",
       "text": "e2e"
     }
@@ -1259,11 +1277,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "srdtrk/cw-ibc-lite"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

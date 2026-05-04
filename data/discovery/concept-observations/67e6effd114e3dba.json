@@ -84,7 +84,7 @@
   "normalized_form": "godot",
   "observation_id": "67e6effd114e3dba",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "godot",
   "source_context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
   "source_file": null,

@@ -118,6 +118,18 @@
       "source_repo": "mozillazg/pypinyin-g2pW",
       "status": "candidate-context",
       "text": "cron"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Topics in several mathematics using Julialang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Cron"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "mozillazg/pypinyin-g2pW",
       "status": "candidate",
       "text": "cron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate",
+      "text": "Cron"
     }
   ],
   "candidate_related_terms": [
@@ -403,11 +421,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "terasakisatoshi/MathSeminar.jl"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "weakly-supervised-anomaly-detection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "weakly-supervised-anomaly-detection",
+  "concept_id": "weakly-supervised-anomaly-detection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "weakly-supervised-anomaly-detection",
+      "sense_id": "weakly-supervised-anomaly-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

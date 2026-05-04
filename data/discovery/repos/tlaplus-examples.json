@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ewd998.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ewd998.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus/Examples",
+      "target": "alexander-n/tla-specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus/Examples",
+      "target": "dranov/raft-tla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus/Examples",
+      "target": "elem-azar-unis/crdt-redis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus/Examples",
+      "target": "cjen1/tla_increment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "Check Specs & Metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TLAi.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TLAi.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "TLAi linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ewd998.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ewd998.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ewd998.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "CI for EWD998 Trace Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "tlaplus/Examples",
+      "target": "manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/Examples",
+      "target": "pluscal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/Examples",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:06:05.842402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37578
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 7174
+    },
+    {
+      "path": ".github/workflows/TLAi.yml",
+      "size": 2182
+    },
+    {
+      "path": ".github/workflows/ewd998.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/run.sh",
+      "size": 6163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of TLA\u207a specifications of varying complexities.",
+    "fork": false,
+    "full_name": "tlaplus/Examples",
+    "html_url": "https://github.com/tlaplus/Examples",
+    "language": "TLA",
+    "pushed_at": "2026-05-01T14:59:04Z",
+    "stargazers_count": 1497,
+    "topics": [
+      "pluscal",
+      "tlaplus"
+    ],
+    "updated_at": "2026-05-02T14:20:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexander-n/tla-specs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjen1/tla_increment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dranov/raft-tla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elem-azar-unis/crdt-redis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Specs & Metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "Check Specs & Metadata"
+    },
+    {
+      "context_snippet": "TLAi linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TLAi.yml",
+      "term": "TLAi linter"
+    },
+    {
+      "context_snippet": "CI for EWD998 Trace Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ewd998.yml",
+      "term": "CI for EWD998 Trace Validation"
+    },
+    {
+      "context_snippet": "manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "manual"
+    },
+    {
+      "context_snippet": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pluscal"
+    },
+    {
+      "context_snippet": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

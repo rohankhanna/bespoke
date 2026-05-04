@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "curve25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:05:34.453227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ARCHIVED/MOVED: please visit the new location",
+    "fork": false,
+    "full_name": "dalek-cryptography/ed25519-dalek",
+    "html_url": "https://github.com/dalek-cryptography/ed25519-dalek",
+    "language": null,
+    "pushed_at": "2025-12-06T22:55:41Z",
+    "stargazers_count": 704,
+    "topics": [
+      "cryptography",
+      "curve25519",
+      "ed25519",
+      "rust",
+      "signing",
+      "verification"
+    ],
+    "updated_at": "2026-04-16T17:16:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curve25519"
+    },
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ed25519"
+    },
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signing"
+    },
+    {
+      "context_snippet": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

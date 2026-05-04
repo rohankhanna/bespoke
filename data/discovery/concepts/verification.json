@@ -127,6 +127,30 @@
       "source_repo": "tlaplus/tlaplus",
       "status": "candidate-context",
       "text": "Overview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate-context",
+      "text": "TLA+ language support for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "tlaplus/tlaplus",
       "status": "candidate",
       "text": "Overview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/vscode-tlaplus",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -392,11 +428,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "tlaplus/tlaplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/vscode-tlaplus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

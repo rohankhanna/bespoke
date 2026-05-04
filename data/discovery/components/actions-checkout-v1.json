@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v1",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2177,6 +2177,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gradle.yml",
       "source_repo": "simonpoole/osm-area-tags"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ewd998.yml",
+      "source_repo": "tlaplus/Examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "tlaplus/Examples"
     }
   ]
 }

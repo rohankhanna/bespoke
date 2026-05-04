@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-gentx.yaml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-gentx.yaml"
+    },
+    {
+      "component": "mshick/add-pr-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-gentx.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-gentx.yaml",
+      "source_repo": "cosmos/testnets",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-gentx.yaml",
+      "source_repo": "cosmos/testnets",
+      "target": "mshick/add-pr-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-gentx.yaml",
+      "source_repo": "cosmos/testnets",
+      "target": "Gentx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:05:05.444590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1418
+    },
+    {
+      "path": ".github/workflows/verify-gentx.yaml",
+      "size": 729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cosmos Testnets",
+    "fork": false,
+    "full_name": "cosmos/testnets",
+    "html_url": "https://github.com/cosmos/testnets",
+    "language": "HTML",
+    "pushed_at": "2026-04-30T20:52:52Z",
+    "stargazers_count": 177,
+    "topics": [],
+    "updated_at": "2026-04-30T20:52:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Gentx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-gentx.yaml",
+      "term": "Gentx"
+    }
+  ]
+}

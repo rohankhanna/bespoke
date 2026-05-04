@@ -826,6 +826,18 @@
       "source_repo": "cosmos/gaia",
       "status": "candidate-context",
       "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "Foundry-based template for developing Solidity smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_glosses": [
@@ -1236,6 +1248,12 @@
       "source_repo": "cosmos/gaia",
       "status": "candidate",
       "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_related_terms": [
@@ -2299,11 +2317,47 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "cosmos/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "PaulRBerg/foundry-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

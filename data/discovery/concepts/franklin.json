@@ -55,6 +55,18 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate-context",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Topics in several mathematics using Julialang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/terasakisatoshi/MathSeminar.jl)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/terasakisatoshi/MathSeminar.jl)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "SciML/sciml.ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "terasakisatoshi/MathSeminar.jl"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

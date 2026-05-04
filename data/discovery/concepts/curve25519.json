@@ -19,6 +19,30 @@
       "source_repo": "dalek-cryptography/curve25519-dalek",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate-context",
+      "text": "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek). Please direct all issues and pull requests to the new repo."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "dalek-cryptography/curve25519-dalek",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/x25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek). Please direct all issues and pull requests to the new repo."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dalek-cryptography/curve25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/x25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -481,6 +481,18 @@
       "source_repo": "metosin/compojure-api",
       "status": "candidate-context",
       "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/ring-swagger",
+      "status": "candidate-context",
+      "text": "Swagger Spec for Clojure Web Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/ring-swagger",
+      "status": "candidate-context",
+      "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
     }
   ],
   "candidate_glosses": [
@@ -723,6 +735,12 @@
       "source_repo": "metosin/compojure-api",
       "status": "candidate",
       "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/ring-swagger",
+      "status": "candidate",
+      "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1258,11 +1276,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "metosin/compojure-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "metosin/ring-swagger"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

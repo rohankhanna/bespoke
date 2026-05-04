@@ -418,6 +418,30 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate-context",
       "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "Bayesian Statistics using Julia and Turing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Topics in several mathematics using Julialang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Build and Deploy"
     }
   ],
   "candidate_glosses": [
@@ -622,6 +646,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SciML/sciml.ai",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate",
+      "text": "Build and Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
       "status": "candidate",
       "text": "Build and Deploy"
     }
@@ -985,11 +1021,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "storopoli/Bayesian-Julia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "terasakisatoshi/MathSeminar.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

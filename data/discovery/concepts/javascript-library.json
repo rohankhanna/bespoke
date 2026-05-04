@@ -115,6 +115,18 @@
       "source_repo": "infernojs/inferno",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "infernojs/inferno",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://infernojs.org/\" target=\"_blank\"><img width=\"150\" alt=\"Inferno\" title=\"Inferno\" src=\"https://user-images.githubusercontent.com/2021355/36063342-626d7ea8-0e84-11e8-84e1-f22bb3b8c4d5.png\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "infernojs/inferno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dropzone/dropzone"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

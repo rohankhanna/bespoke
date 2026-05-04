@@ -19,6 +19,18 @@
       "source_repo": "dcampbell24/mdbook-djot",
       "status": "candidate-context",
       "text": "<!-- >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "Translation support for mdbook. The plugins here give you a structured way to maintain a translated book."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dcampbell24/mdbook-djot",
       "status": "candidate",
       "text": "<!-- >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dcampbell24/mdbook-djot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "google/mdbook-i18n-helpers"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

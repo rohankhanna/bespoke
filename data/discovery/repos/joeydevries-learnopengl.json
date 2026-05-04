@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoeyDeVries/LearnOpenGL",
+      "target": "polytonic/glitter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoeyDeVries/LearnOpenGL",
+      "target": "srcres258/learnopengl-rust",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:53:40.897658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code repository of all OpenGL chapters from the book and its accompanying website https://learnopengl.com",
+    "fork": false,
+    "full_name": "JoeyDeVries/LearnOpenGL",
+    "html_url": "https://github.com/JoeyDeVries/LearnOpenGL",
+    "language": "C++",
+    "pushed_at": "2024-08-06T15:57:52Z",
+    "stargazers_count": 12420,
+    "topics": [],
+    "updated_at": "2026-05-04T07:41:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "polytonic/glitter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srcres258/learnopengl-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

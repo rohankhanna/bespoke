@@ -84,7 +84,7 @@
   "normalized_form": "update-schema",
   "observation_id": "f602aa8f0e79f8ff",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "Update schema",
   "source_context_snippet": "Update schema",
   "source_file": ".github/workflows/schema.yml",

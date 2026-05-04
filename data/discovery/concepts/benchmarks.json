@@ -623,6 +623,18 @@
       "source_repo": "joewalnes/websocketd",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate-context",
+      "text": "Zcash - Financial Privacy in Rust \ud83e\udd93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -929,6 +941,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "joewalnes/websocketd",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZcashFoundation/zebra",
       "status": "candidate",
       "text": "Benchmarks"
     }
@@ -1555,11 +1573,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "joewalnes/websocketd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ZcashFoundation/zebra"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

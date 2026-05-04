@@ -43,6 +43,18 @@
       "source_repo": "libimobiledevice/idevicerestore",
       "status": "candidate-context",
       "text": "*A command-line application to restore firmware files to iOS devices.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "libimobiledevice/idevicerestore",
       "status": "candidate",
       "text": "*A command-line application to restore firmware files to iOS devices.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "libimobiledevice/idevicerestore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

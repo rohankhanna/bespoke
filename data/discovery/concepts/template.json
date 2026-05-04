@@ -655,6 +655,30 @@
       "source_repo": "theplant/htmlgo",
       "status": "candidate-context",
       "text": "Type safe and modularize way to generate html on server side."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jarcane/clojurice",
+      "status": "candidate-context",
+      "text": "An opinionated starter app for full-stack web applications in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarcane/clojurice",
+      "status": "candidate-context",
+      "text": "![clojurice](resources/brand/clojurice-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "Foundry-based template for developing Solidity smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate-context",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_glosses": [
@@ -981,6 +1005,18 @@
       "source_repo": "theplant/htmlgo",
       "status": "candidate",
       "text": "Type safe and modularize way to generate html on server side."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jarcane/clojurice",
+      "status": "candidate",
+      "text": "![clojurice](resources/brand/clojurice-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulRBerg/foundry-template",
+      "status": "candidate",
+      "text": "[gitpod]: https://gitpod.io/#https://github.com/PaulRBerg/foundry-template"
     }
   ],
   "candidate_related_terms": [
@@ -1573,11 +1609,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "theplant/htmlgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "jarcane/clojurice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "PaulRBerg/foundry-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

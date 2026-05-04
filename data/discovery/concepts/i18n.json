@@ -435,6 +435,18 @@
       "source_repo": "alerque/fluent-lua",
       "status": "candidate-context",
       "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "Translation support for mdbook. The plugins here give you a structured way to maintain a translated book."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate-context",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
     }
   ],
   "candidate_glosses": [
@@ -653,6 +665,12 @@
       "source_repo": "alerque/fluent-lua",
       "status": "candidate",
       "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/mdbook-i18n-helpers",
+      "status": "candidate",
+      "text": "[![Visit crates.io](https://img.shields.io/crates/v/mdbook-i18n-helpers?style=flat-square)](https://crates.io/crates/mdbook-i18n-helpers)"
     }
   ],
   "candidate_related_terms": [
@@ -1200,11 +1218,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "google/mdbook-i18n-helpers"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

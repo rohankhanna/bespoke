@@ -1,0 +1,52 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decision-tree",
+      "sense_id": "decision-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "decision-tree",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decision-tree",
+  "observation_id": "1ca4c61b9bbf9b23",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "decision-tree",
+  "source_context_snippet": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199).",
+  "source_file": null,
+  "source_repo": "a-lucic/focus",
+  "source_repo_description": null
+}

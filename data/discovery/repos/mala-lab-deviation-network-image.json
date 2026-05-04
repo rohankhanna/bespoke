@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image",
+      "target": "outlier-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:50:02.641392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2658
+    },
+    {
+      "path": "requirements.txt",
+      "size": 94
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of the paper \u201cExplainable Deep Few-shot Anomaly Detection with Deviation Networks\u201d, weakly/partially supervised anomaly detection, few-shot anomaly detection, image defect detection.",
+    "fork": false,
+    "full_name": "mala-lab/deviation-network-image",
+    "html_url": "https://github.com/mala-lab/deviation-network-image",
+    "language": "Python",
+    "pushed_at": "2022-10-29T05:17:12Z",
+    "stargazers_count": 89,
+    "topics": [
+      "anomaly-detection",
+      "deep-learning",
+      "outlier-detection"
+    ],
+    "updated_at": "2026-04-08T16:57:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-detection"
+    }
+  ]
+}

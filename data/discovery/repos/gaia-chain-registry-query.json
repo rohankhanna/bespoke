@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T13:05:53.063731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1662
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLI tool to query the Cosmos Chain Registry.",
+    "fork": false,
+    "full_name": "gaia/chain-registry-query",
+    "html_url": "https://github.com/gaia/chain-registry-query",
+    "language": "Python",
+    "pushed_at": "2024-03-05T23:57:26Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-10-15T16:22:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

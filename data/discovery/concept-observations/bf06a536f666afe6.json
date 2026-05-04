@@ -84,7 +84,7 @@
   "normalized_form": "curve25519-rust",
   "observation_id": "bf06a536f666afe6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "curve25519 Rust",
   "source_context_snippet": "curve25519 Rust",
   "source_file": ".github/workflows/curve25519-dalek.yml",

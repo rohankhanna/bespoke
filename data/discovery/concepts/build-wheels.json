@@ -2,7 +2,8 @@
   "aliases": [
     "Build wheels",
     "Build Wheels",
-    "build-wheels"
+    "build-wheels",
+    "build wheels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -573,6 +574,18 @@
       "source_repo": "developmentseed/obstore",
       "status": "candidate-context",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "Image augmentation for machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "build wheels"
     }
   ],
   "candidate_glosses": [
@@ -863,6 +876,12 @@
       "source_repo": "developmentseed/obstore",
       "status": "candidate",
       "text": "Build wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate",
+      "text": "build wheels"
     }
   ],
   "candidate_related_terms": [
@@ -1368,11 +1387,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/wheels.yml",
       "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

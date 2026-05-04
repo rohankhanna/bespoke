@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cosmwasm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "This is a WIP implementation of the ibc-lite specs purely in CosmWasm. It can communicate over IBC without using `ibc-go`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate-context",
+      "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srdtrk/cw-ibc-lite",
+      "status": "candidate",
+      "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cosmwasm",
+  "concept_id": "cosmwasm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "srdtrk/cw-ibc-lite"
+    }
+  ],
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cosmwasm",
+      "sense_id": "cosmwasm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

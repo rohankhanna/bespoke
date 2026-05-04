@@ -1,0 +1,12 @@
+{
+  "component": "jontze/action-mdbook@6c0be56d14c4bf16861b00af61f50ff7400ce502",
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ZcashFoundation/zebra"
+    }
+  ]
+}

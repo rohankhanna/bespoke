@@ -31,6 +31,18 @@
       "source_repo": "placemark/flat-drop-files",
       "status": "candidate-context",
       "text": "The Drag & Drop [dataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "Dropzone is an easy to use drag'n'drop library. It supports image previews and shows nice progress bars."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate-context",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "placemark/flat-drop-files",
       "status": "candidate",
       "text": "The Drag & Drop [dataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropzone/dropzone",
+      "status": "candidate",
+      "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "placemark/flat-drop-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dropzone/dropzone"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

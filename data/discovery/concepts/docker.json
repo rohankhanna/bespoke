@@ -3694,6 +3694,18 @@
       "source_repo": "aeharding/voyager",
       "status": "candidate-context",
       "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate-context",
+      "text": "Nginx with automatic let's encrypt (docker image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate-context",
+      "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
     }
   ],
   "candidate_glosses": [
@@ -5556,6 +5568,12 @@
       "source_repo": "aeharding/voyager",
       "status": "candidate",
       "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nginx-le/nginx-le",
+      "status": "candidate",
+      "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
     }
   ],
   "candidate_related_terms": [
@@ -9205,11 +9223,47 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -7939,6 +7939,30 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "Image augmentation for machine learning experiments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate-context",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of the paper \u201cExplainable Deep Few-shot Anomaly Detection with Deviation Networks\u201d, weakly/partially supervised anomaly detection, few-shot anomaly detection, image defect detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
     }
   ],
   "candidate_glosses": [
@@ -11913,6 +11937,18 @@
       "source_repo": "triton-inference-server/server",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleju/imgaug",
+      "status": "candidate",
+      "text": "This python library helps you with augmenting images for your machine learning projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
     }
   ],
   "candidate_related_terms": [],
@@ -19270,11 +19306,65 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "triton-inference-server/server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "aleju/imgaug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

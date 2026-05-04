@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cosmiconfig/cosmiconfig",
-      "target": "sindresorhus/env-paths",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "cosmiconfig/cosmiconfig",
@@ -218,6 +211,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
   "source_repo": "cosmiconfig/cosmiconfig"
 }

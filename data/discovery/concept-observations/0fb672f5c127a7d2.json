@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of TLA\u207a specifications of varying complexities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pluscal",
+      "sense_id": "pluscal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pluscal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pluscal",
+  "observation_id": "0fb672f5c127a7d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "pluscal",
+  "source_context_snippet": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--spec-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/tlaplus/examples/)",
+  "source_file": null,
+  "source_repo": "tlaplus/Examples",
+  "source_repo_description": "A collection of TLA\u207a specifications of varying complexities."
+}

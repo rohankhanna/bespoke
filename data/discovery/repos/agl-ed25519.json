@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T13:05:33.928311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ed25519 for Go",
+    "fork": false,
+    "full_name": "agl/ed25519",
+    "html_url": "https://github.com/agl/ed25519",
+    "language": null,
+    "pushed_at": "2021-12-17T21:18:54Z",
+    "stargazers_count": 188,
+    "topics": [],
+    "updated_at": "2026-04-22T14:50:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "pull-request-check",
   "observation_id": "154ad12250138ba0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "Pull request check",
   "source_context_snippet": "Pull request check",
   "source_file": ".github/workflows/pr_check.yml",

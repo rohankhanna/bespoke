@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Generate Contributors PNG"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Generate Contributors PNG"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22731,
+      "status": "candidate",
+      "text": "factory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22731,
+      "status": "candidate",
+      "text": "penetration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22395,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "spork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14311,
+      "status": "candidate",
+      "text": "allegiance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Contributors PNG",
+      "sense_id": "generate-contributors-png#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-contributors-png",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-contributors-png",
+  "observation_id": "e966610af8472888",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "Generate Contributors PNG",
+  "source_context_snippet": "Generate Contributors PNG",
+  "source_file": ".github/workflows/contributors-png.yml",
+  "source_repo": "processing/processing4",
+  "source_repo_description": "Source code for Processing, the software sketchbook and Java-based programming language for students, artists, designers, educators, hobbyists, and creative coders. Includes the core library, and editor (PDE)"
+}

@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "@ladjs/graceful",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bree",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "typicode/json-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "breejs/bree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "@ladjs/graceful",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "bree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "json-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "effofxprime/Cosmregistry-API",
+      "target": "path",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T13:05:51.041837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11952
+    },
+    {
+      "path": "package.json",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Basic API to be ran for Cosmos Repository",
+    "fork": false,
+    "full_name": "effofxprime/Cosmregistry-API",
+    "html_url": "https://github.com/effofxprime/Cosmregistry-API",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-02T16:37:49Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-06-28T23:32:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breejs/bree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "typicode/json-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

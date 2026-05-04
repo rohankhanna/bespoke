@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:49:56.146905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarking study of feature extraction methods for cancer diagnosis using blood-based biomarkers. Feature extraction methods are compared both in terms of their performance and robustness",
+    "fork": false,
+    "full_name": "abhivij/bloodbased-pancancer-diagnosis",
+    "html_url": "https://github.com/abhivij/bloodbased-pancancer-diagnosis",
+    "language": "R",
+    "pushed_at": "2023-12-10T10:42:37Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-05-25T01:54:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

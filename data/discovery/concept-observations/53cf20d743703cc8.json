@@ -84,7 +84,7 @@
   "normalized_form": "bundle-size-comment",
   "observation_id": "53cf20d743703cc8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "Bundle Size Comment",
   "source_context_snippet": "Bundle Size Comment",
   "source_file": ".github/workflows/bundle-size-comment.yml",

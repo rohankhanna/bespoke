@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a WIP implementation of the ibc-lite specs purely in CosmWasm. It can communicate over IBC without using `ibc-go`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826534,
+      "status": "candidate",
+      "text": "intrachain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826533,
+      "status": "candidate",
+      "text": "interbond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826532,
+      "status": "candidate",
+      "text": "interstrand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826531,
+      "status": "candidate",
+      "text": "chainwise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826530,
+      "status": "candidate",
+      "text": "intramolecular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interchain",
+      "sense_id": "interchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interchain",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interchain",
+  "observation_id": "b832ca4a9dca4a1b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_text": "interchain",
+  "source_context_snippet": "This workspace contains the CosmWasm IBC Lite implementation. IBC lite is a work in progress trimmed down specification of the IBC protocol. It is designed to be simpler to implement and be as secure as the full IBC protocol. Learn more about IBC lite in the [IBC Lite Spec](http\u2026",
+  "source_file": null,
+  "source_repo": "srdtrk/cw-ibc-lite",
+  "source_repo_description": "This is a WIP implementation of the ibc-lite specs purely in CosmWasm. It can communicate over IBC without using `ibc-go`."
+}

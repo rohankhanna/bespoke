@@ -1429,6 +1429,54 @@
       "source_repo": "JuliaGeo/GeometryOps.jl",
       "status": "candidate-context",
       "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "A Julia Protocol for Geospatial Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/Proj.jl",
+      "status": "candidate-context",
+      "text": "Julia wrapper for the PROJ cartographic projections library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/Proj.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "Bayesian Statistics using Julia and Turing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate-context",
+      "text": "[![CC BY-SA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "Topics in several mathematics using Julialang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate-context",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/terasakisatoshi/MathSeminar.jl)"
     }
   ],
   "candidate_glosses": [
@@ -2145,6 +2193,30 @@
       "source_repo": "JuliaGeo/GeometryOps.jl",
       "status": "candidate",
       "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/Proj.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storopoli/Bayesian-Julia",
+      "status": "candidate",
+      "text": "[![CC BY-SA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terasakisatoshi/MathSeminar.jl",
+      "status": "candidate",
+      "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/terasakisatoshi/MathSeminar.jl)"
     }
   ],
   "candidate_related_terms": [
@@ -3268,11 +3340,83 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeoInterface.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/Proj.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "terasakisatoshi/MathSeminar.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

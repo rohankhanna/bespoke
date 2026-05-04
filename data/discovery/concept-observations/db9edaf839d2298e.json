@@ -84,7 +84,7 @@
   "normalized_form": "npm-test",
   "observation_id": "db9edaf839d2298e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T12:47:39.186442+00:00",
   "observed_text": "NPM Test",
   "source_context_snippet": "NPM Test",
   "source_file": ".github/workflows/npm-test.yml",

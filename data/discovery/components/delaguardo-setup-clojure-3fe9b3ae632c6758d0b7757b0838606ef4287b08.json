@@ -1,0 +1,12 @@
+{
+  "component": "DeLaGuardo/setup-clojure@3fe9b3ae632c6758d0b7757b0838606ef4287b08",
+  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger"
+    }
+  ]
+}

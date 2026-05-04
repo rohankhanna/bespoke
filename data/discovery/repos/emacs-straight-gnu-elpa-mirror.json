@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T12:57:14.351888+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List packages mirrored from GNU ELPA",
+    "fork": false,
+    "full_name": "emacs-straight/gnu-elpa-mirror",
+    "html_url": "https://github.com/emacs-straight/gnu-elpa-mirror",
+    "language": null,
+    "pushed_at": "2026-04-29T00:20:16Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-29T00:20:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

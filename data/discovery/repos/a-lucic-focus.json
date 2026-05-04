@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-lucic/focus",
+      "target": "decision-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-lucic/focus",
+      "target": "random-forest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-lucic/focus",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a-lucic/focus",
+      "target": "tree-ensembles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:49:55.027017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "a-lucic/focus",
+    "html_url": "https://github.com/a-lucic/focus",
+    "language": "Python",
+    "pushed_at": "2022-05-09T13:19:51Z",
+    "stargazers_count": 16,
+    "topics": [
+      "decision-tree",
+      "random-forest",
+      "tensorflow",
+      "tree-ensembles"
+    ],
+    "updated_at": "2024-10-09T02:38:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-tree"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-forest"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of the [AAAI 2022 paper \"FOCUS: Flexible Optimizable Counterfactual Explanations for Tree Ensembles\"](https://arxiv.org/abs/1911.12199).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-ensembles"
+    }
+  ]
+}

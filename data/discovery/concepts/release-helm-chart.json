@@ -51,6 +51,18 @@
       "source_repo": "siderolabs/talos-cloud-controller-manager",
       "status": "candidate-context",
       "text": "Release Helm Chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "groundhog2k/helm-charts",
+      "status": "candidate-context",
+      "text": "Helm charts for open source applications - ready to use for deployment on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groundhog2k/helm-charts",
+      "status": "candidate-context",
+      "text": "Release helm chart"
     }
   ],
   "candidate_glosses": [
@@ -77,6 +89,12 @@
       "source_repo": "siderolabs/talos-cloud-controller-manager",
       "status": "candidate",
       "text": "Release Helm Chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groundhog2k/helm-charts",
+      "status": "candidate",
+      "text": "Release helm chart"
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +162,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/release-charts.yaml",
       "source_repo": "siderolabs/talos-cloud-controller-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "groundhog2k/helm-charts"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

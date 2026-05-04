@@ -199,6 +199,18 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate-context",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "A Julia Protocol for Geospatial Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate-context",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeoInterface.jl",
+      "status": "candidate",
+      "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
     }
   ],
   "candidate_related_terms": [
@@ -448,11 +466,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "kadyb/vector-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeoInterface.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

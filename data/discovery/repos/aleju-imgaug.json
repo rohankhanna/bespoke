@@ -1,0 +1,493 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aleju/imgaug",
+      "target": "aleju/imgaug-doc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "codacy/codacy-coverage-reporter-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_master.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "test master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "codacy/codacy-coverage-reporter-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "source_repo": "aleju/imgaug",
+      "target": "test pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "affine-transformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "augment-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "bounding-boxes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "contrast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "heatmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "image-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "keypoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "polygon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleju/imgaug",
+      "target": "segmentation-maps",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:49:58.482075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 83801
+    },
+    {
+      "path": "requirements.txt",
+      "size": 407
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 3421
+    },
+    {
+      "path": ".github/workflows/test_master.yml",
+      "size": 4971
+    },
+    {
+      "path": ".github/workflows/test_pull_requests.yml",
+      "size": 5277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image augmentation for machine learning experiments.",
+    "fork": false,
+    "full_name": "aleju/imgaug",
+    "html_url": "https://github.com/aleju/imgaug",
+    "language": "Python",
+    "pushed_at": "2024-07-30T01:38:33Z",
+    "stargazers_count": 14739,
+    "topics": [
+      "affine-transformation",
+      "augment-images",
+      "augmentation",
+      "bounding-boxes",
+      "contrast",
+      "crop",
+      "deep-learning",
+      "heatmap",
+      "image-augmentation",
+      "images",
+      "keypoints",
+      "machine-learning",
+      "polygon",
+      "segmentation-maps"
+    ],
+    "updated_at": "2026-05-04T11:06:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aleju/imgaug-doc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "term": "build wheels"
+    },
+    {
+      "context_snippet": "test master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_master.yml",
+      "term": "test master"
+    },
+    {
+      "context_snippet": "test pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_pull_requests.yml",
+      "term": "test pull requests"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "affine-transformation"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "augment-images"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "augmentation"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bounding-boxes"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrast"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heatmap"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-augmentation"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keypoints"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polygon"
+    },
+    {
+      "context_snippet": "This python library helps you with augmenting images for your machine learning projects.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation-maps"
+    }
+  ]
+}

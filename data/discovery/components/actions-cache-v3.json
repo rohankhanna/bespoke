@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2762,6 +2762,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pytorch_version_test.yaml",
       "source_repo": "notmahi/miniBET"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/ring-swagger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-swc-core.yml",
+      "source_repo": "kwonoj/swc-plugin-coverage-instrument"
     }
   ]
 }

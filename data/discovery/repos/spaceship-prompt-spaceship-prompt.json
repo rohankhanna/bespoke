@@ -63,6 +63,13 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spaceship-prompt/spaceship-prompt",
+      "target": "matchai/spacefish",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deps.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
@@ -245,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T09:35:55.440154+00:00",
+  "fetched_at": "2026-05-04T12:53:12.576684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -309,7 +316,13 @@
     ],
     "updated_at": "2026-05-02T18:35:21Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchai/spacefish",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "deps",

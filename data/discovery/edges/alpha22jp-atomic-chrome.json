@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "tuvistavie/atomic-chrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "stsquad/emacs_chrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alpha22jp/atomic-chrome",
+      "target": "ghosttext/ghosttext",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "source_repo": "alpha22jp/atomic-chrome"
+}

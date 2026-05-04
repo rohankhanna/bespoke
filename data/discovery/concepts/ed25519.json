@@ -69,6 +69,18 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate-context",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "ARCHIVED/MOVED: please visit the new location"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate-context",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "cloudflare/circl",
       "status": "candidate",
       "text": "<img src=\".etc/icon.png\" align=\"right\" height=\"300\" width=\"300\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dalek-cryptography/ed25519-dalek",
+      "status": "candidate",
+      "text": "This repo has been [moved](https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek)."
     }
   ],
   "candidate_related_terms": [],
@@ -150,11 +168,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "cloudflare/circl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "dalek-cryptography/ed25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "umputun/nginx-le",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "artyom/leproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nginx-le/nginx-le",
+      "target": "CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "letsencrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "nginx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le",
+      "target": "ssl-certificates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T12:52:55.167933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7100
+    },
+    {
+      "path": "Dockerfile",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nginx with automatic let's encrypt (docker image)",
+    "fork": false,
+    "full_name": "nginx-le/nginx-le",
+    "html_url": "https://github.com/nginx-le/nginx-le",
+    "language": "Shell",
+    "pushed_at": "2026-04-05T04:19:23Z",
+    "stargazers_count": 686,
+    "topics": [
+      "automation",
+      "docker",
+      "letsencrypt",
+      "nginx",
+      "proxy",
+      "ssl-certificates"
+    ],
+    "updated_at": "2026-04-28T15:16:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artyom/leproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "umputun/nginx-le",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CI Build"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nginx"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ssl-certificates"
+    }
+  ]
+}

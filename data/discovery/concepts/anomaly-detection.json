@@ -187,6 +187,30 @@
       "source_repo": "thedatumorg/VUS",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of the paper \u201cExplainable Deep Few-shot Anomaly Detection with Deviation Networks\u201d, weakly/partially supervised anomaly detection, few-shot anomaly detection, image defect detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate-context",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "thedatumorg/VUS",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/deviation-network-image",
+      "status": "candidate",
+      "text": "By Guansong Pang, Choubo Ding, Chunhua Shen, Anton van den Hengel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
+      "status": "candidate",
+      "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
     }
   ],
   "candidate_related_terms": [],
@@ -454,11 +490,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "thedatumorg/VUS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/deviation-network-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T12:47:39.186442+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
   "lexical_providers": [
     "datamuse"
   ],
