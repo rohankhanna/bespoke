@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deploy-mudblazor-nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate-context",
+      "text": "Blazor Component Library based on Material Design principles. Do more with Blazor, utilizing CSS and keeping JavaScript to a bare minimum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate-context",
+      "text": "deploy-mudblazor-nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate",
+      "text": "deploy-mudblazor-nightly"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deploy-mudblazor-nightly",
+  "concept_id": "deploy-mudblazor-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "deploy-mudblazor-nightly",
+      "sense_id": "deploy-mudblazor-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

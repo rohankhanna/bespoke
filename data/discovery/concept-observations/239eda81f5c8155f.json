@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9342431,
+      "status": "candidate",
+      "text": "lucia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9342430,
+      "status": "candidate",
+      "text": "lucy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9342429,
+      "status": "candidate",
+      "text": "lucie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9342428,
+      "status": "candidate",
+      "text": "lucina"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9342427,
+      "status": "candidate",
+      "text": "lucilla"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "luci",
+      "sense_id": "luci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "luci",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "luci",
+  "observation_id": "239eda81f5c8155f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "luci",
+  "source_context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+  "source_file": null,
+  "source_repo": "shadowsocks/luci-app-shadowsocks",
+  "source_repo_description": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:46:20.805857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python bindings to connect to a LibreTranslate API",
+    "fork": false,
+    "full_name": "argosopentech/LibreTranslate-py",
+    "html_url": "https://github.com/argosopentech/LibreTranslate-py",
+    "language": "Python",
+    "pushed_at": "2025-03-02T18:48:20Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-23T02:35:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

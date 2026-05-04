@@ -19,6 +19,18 @@
       "source_repo": "hazelcast/hazelcast-csharp-client",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hazelcast/hazelcast-csharp-client",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hazelcast/hazelcast-csharp-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

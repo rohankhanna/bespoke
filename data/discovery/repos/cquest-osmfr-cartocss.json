@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cquest/osmfr-cartocss",
+      "target": "gravitystorm/openstreetmap-carto",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:53:49.121366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Une adaptation \"FR\" de la r\u00e9-impl\u00e9mentation du style Mapnik d'OpenStreetMap en CartoCSS",
+    "fork": true,
+    "full_name": "cquest/osmfr-cartocss",
+    "html_url": "https://github.com/cquest/osmfr-cartocss",
+    "language": "CartoCSS",
+    "pushed_at": "2022-03-09T17:45:21Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2025-11-29T11:00:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gravitystorm/openstreetmap-carto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

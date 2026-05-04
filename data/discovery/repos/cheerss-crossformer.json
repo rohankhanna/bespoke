@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:38.047625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official code for the paper: https://openreview.net/forum?id=_PHymLIxuI",
+    "fork": false,
+    "full_name": "cheerss/CrossFormer",
+    "html_url": "https://github.com/cheerss/CrossFormer",
+    "language": "Python",
+    "pushed_at": "2024-01-14T03:20:05Z",
+    "stargazers_count": 402,
+    "topics": [
+      "classification",
+      "deep-learning",
+      "instance-segmentation",
+      "object-detection",
+      "pytorch",
+      "semantic-segmentation",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-18T15:17:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This repository is the code for our papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

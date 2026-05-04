@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:00:24.279978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "dayu1979/stylegan3encoder",
+    "html_url": "https://github.com/dayu1979/stylegan3encoder",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-02-19T04:09:44Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-21T08:42:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

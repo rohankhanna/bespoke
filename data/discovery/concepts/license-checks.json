@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "license checks"
+    "license checks",
+    "License checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate-context",
       "text": "license checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "Outline Client and Manager, developed by Jigsaw. Outline Manager makes it easy to create your own VPN server. Outline Client lets you share access to your VPN with anyone in your network, giving them access to the free and open internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "License checks"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "apache/incubator-tuweni",
       "status": "candidate",
       "text": "license checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate",
+      "text": "License checks"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/license-checks.yml",
       "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "OutlineFoundation/outline-apps"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

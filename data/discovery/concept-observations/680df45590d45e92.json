@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pure Clojure Webdriver protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028643,
+      "status": "candidate",
+      "text": "chromium-plate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028636,
+      "status": "candidate",
+      "text": "chrome-plated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011348,
+      "status": "candidate",
+      "text": "vanadium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011030,
+      "status": "candidate",
+      "text": "plated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010895,
+      "status": "candidate",
+      "text": "spinel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chrome",
+      "sense_id": "chrome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "chromium-plate"
+    }
+  ],
+  "concept_id": "chrome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chrome",
+  "observation_id": "680df45590d45e92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "chrome",
+  "source_context_snippet": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026",
+  "source_file": null,
+  "source_repo": "clj-commons/etaoin",
+  "source_repo_description": "Pure Clojure Webdriver protocol implementation"
+}

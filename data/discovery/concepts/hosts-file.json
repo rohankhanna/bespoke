@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hosts-file"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hosts-file",
+  "concept_id": "hosts-file",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hosts-file",
+      "sense_id": "hosts-file#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Test Package on PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Build Test Package on PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "Build Test Package on PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29407,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29407,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29407,
+      "status": "candidate",
+      "text": "plotting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29111,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28933,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Test Package on PR",
+  "concept_id": "build-test-package-on-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Test Package on PR",
+      "sense_id": "build-test-package-on-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

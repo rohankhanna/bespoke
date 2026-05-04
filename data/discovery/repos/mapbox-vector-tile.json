@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:54:16.996169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1137
+    },
+    {
+      "path": "package.json",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++14 library for decoding Mapbox Vector Tiles",
+    "fork": false,
+    "full_name": "mapbox/vector-tile",
+    "html_url": "https://github.com/mapbox/vector-tile",
+    "language": "C++",
+    "pushed_at": "2023-03-10T20:20:29Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-02-09T12:41:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

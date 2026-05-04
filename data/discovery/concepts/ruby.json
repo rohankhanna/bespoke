@@ -2230,6 +2230,18 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate-context",
       "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
     }
   ],
   "candidate_glosses": [
@@ -3366,6 +3378,12 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate",
       "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -4939,11 +4957,47 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bryanp/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AaronC81/sord"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

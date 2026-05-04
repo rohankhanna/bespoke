@@ -133,7 +133,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:43:31.336723+00:00",
+  "fetched_at": "2026-05-04T20:53:35.835993+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -157,14 +157,14 @@
     "full_name": "adamchainz/blacken-docs",
     "html_url": "https://github.com/adamchainz/blacken-docs",
     "language": "Python",
-    "pushed_at": "2026-04-21T22:05:01Z",
-    "stargazers_count": 680,
+    "pushed_at": "2026-05-04T18:14:16Z",
+    "stargazers_count": 681,
     "topics": [
       "black",
       "docs",
       "pre-commit"
     ],
-    "updated_at": "2026-04-23T09:38:13Z"
+    "updated_at": "2026-05-04T12:05:17Z"
   },
   "repo_links": [
     {

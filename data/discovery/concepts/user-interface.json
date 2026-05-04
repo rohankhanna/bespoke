@@ -67,6 +67,18 @@
       "source_repo": "ptsochantaris/emeltal",
       "status": "candidate-context",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ptsochantaris/emeltal",
       "status": "candidate",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ptsochantaris/emeltal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

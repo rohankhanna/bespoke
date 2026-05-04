@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Haskell re-implementation of the Nix expression language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Quality checks\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Quality checks\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100112699,
+      "status": "candidate",
+      "text": "quality control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100111699,
+      "status": "candidate",
+      "text": "quality assurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "control"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quality checks",
+      "sense_id": "quality-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "quality-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quality-checks",
+  "observation_id": "b4014dcdb197c1b6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Quality checks",
+  "source_context_snippet": "\"Quality checks\"",
+  "source_file": ".github/workflows/Quality.yml",
+  "source_repo": "haskell-nix/hnix",
+  "source_repo_description": "A Haskell re-implementation of the Nix expression language"
+}

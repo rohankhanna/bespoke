@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbingler/Origin-Bound-Cookies",
+      "target": "mikewest/scheming-cookies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbingler/Origin-Bound-Cookies",
+      "target": "sbingler/schemeful-same-site",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:58:30.345339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "sbingler/Origin-Bound-Cookies",
+    "html_url": "https://github.com/sbingler/Origin-Bound-Cookies",
+    "language": null,
+    "pushed_at": "2022-06-16T21:33:42Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-09-23T09:42:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikewest/scheming-cookies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sbingler/schemeful-same-site",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

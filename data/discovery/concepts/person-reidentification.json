@@ -79,6 +79,18 @@
       "source_repo": "layumi/Image-Text-Embedding",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/person-reid-3d",
+      "status": "candidate-context",
+      "text": "TNNLS'22 :statue_of_liberty: Parameter-Efficient Person Re-identification in the 3D Space :statue_of_liberty:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/person-reid-3d",
+      "status": "candidate-context",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "layumi/Image-Text-Embedding",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/person-reid-3d",
+      "status": "candidate",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "layumi/Image-Text-Embedding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

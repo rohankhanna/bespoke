@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Known filters subscriptions transformed for better compatibility with AdGuard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filters-subscriptions",
+      "sense_id": "filters-subscriptions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "filters-subscriptions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filters-subscriptions",
+  "observation_id": "e929b20e23c08a1b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "filters-subscriptions",
+  "source_context_snippet": "AdGuard Filters Registry is the canonical repository of filter list subscriptions",
+  "source_file": null,
+  "source_repo": "AdguardTeam/FiltersRegistry",
+  "source_repo_description": "Known filters subscriptions transformed for better compatibility with AdGuard"
+}

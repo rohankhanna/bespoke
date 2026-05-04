@@ -84,7 +84,7 @@
   "normalized_form": "update-cloudformation-schemas",
   "observation_id": "4f096721c3b522d1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Update CloudFormation schemas",
   "source_context_snippet": "Update CloudFormation schemas",
   "source_file": ".github/workflows/template-schema-updater.yaml",

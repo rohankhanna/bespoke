@@ -1,7 +1,7 @@
 {
   "component": "pullfrog/pullfrog@v0",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pullfrog.yml",
       "source_repo": "remotion-dev/remotion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pullfrog.yml",
+      "source_repo": "arktypeio/arktype"
     }
   ]
 }

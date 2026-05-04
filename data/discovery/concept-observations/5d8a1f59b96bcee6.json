@@ -84,7 +84,7 @@
   "normalized_form": "run-safari-tests",
   "observation_id": "5d8a1f59b96bcee6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Run Safari Tests",
   "source_context_snippet": "Run Safari Tests",
   "source_file": ".github/workflows/safari-wptrunner.yml",

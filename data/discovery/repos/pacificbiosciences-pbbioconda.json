@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbioconda",
+      "target": "pacificbiosciences/isoseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbioconda",
+      "target": "pacificbiosciences/barcoding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbioconda",
+      "target": "pacificbiosciences/pbaa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbioconda",
+      "target": "pacificbiosciences/pbbam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:54:36.139668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PacBio Secondary Analysis Tools on Bioconda. Contains list of PacBio packages available via conda.",
+    "fork": false,
+    "full_name": "PacificBiosciences/pbbioconda",
+    "html_url": "https://github.com/PacificBiosciences/pbbioconda",
+    "language": null,
+    "pushed_at": "2025-02-04T02:57:22Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-04-28T08:24:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/barcoding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/isoseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/pbaa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/pbbam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

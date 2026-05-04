@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MacOS CI (Build from source dependencies)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Jiminy: a fast and portable Python/C++ simulator of poly-articulated robots with OpenAI Gym interface for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "MacOS CI (Build from source dependencies)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate",
+      "text": "MacOS CI (Build from source dependencies)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22074,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22074,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22064,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16004,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15004,
+      "status": "candidate",
+      "text": "aire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MacOS CI (Build from source dependencies)",
+  "concept_id": "macos-ci-build-from-source-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "duburcqa/jiminy"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MacOS CI (Build from source dependencies)",
+      "sense_id": "macos-ci-build-from-source-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,30 @@
       "source_repo": "autonomousvision/transfuser",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "A Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry (LIVO)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "autonomousvision/transfuser",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/transfuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

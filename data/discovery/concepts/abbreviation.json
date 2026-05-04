@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "abbreviation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "The essential toolkit for web-developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039570,
+      "status": "candidate",
+      "text": "brevity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036693,
+      "status": "candidate",
+      "text": "shorthand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033939,
+      "status": "candidate",
+      "text": "mention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033754,
+      "status": "candidate",
+      "text": "symbol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032396,
+      "status": "candidate",
+      "text": "acronym"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "abbreviation",
+  "concept_id": "abbreviation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "emmetio/emmet"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abbreviation",
+      "sense_id": "abbreviation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

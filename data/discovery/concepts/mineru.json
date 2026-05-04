@@ -100,11 +100,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "opendatalab/magic-doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "opendatalab/magic-doc"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

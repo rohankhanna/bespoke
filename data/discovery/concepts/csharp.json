@@ -991,6 +991,42 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate-context",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate-context",
+      "text": "Blazor Component Library based on Material Design principles. Do more with Blazor, utilizing CSS and keeping JavaScript to a bare minimum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mudblazor/mudblazor/build-test-mudblazor.yml?branch=dev&logo=github&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "UniTask"
     }
   ],
   "candidate_glosses": [
@@ -1485,6 +1521,24 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MudBlazor/MudBlazor",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mudblazor/mudblazor/build-test-mudblazor.yml?branch=dev&logo=github&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "UniTask"
     }
   ],
   "candidate_related_terms": [],
@@ -2050,11 +2104,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

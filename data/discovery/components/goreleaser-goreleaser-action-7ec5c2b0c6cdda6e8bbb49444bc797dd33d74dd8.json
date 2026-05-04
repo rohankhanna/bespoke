@@ -1,0 +1,17 @@
+{
+  "component": "goreleaser/goreleaser-action@7ec5c2b0c6cdda6e8bbb49444bc797dd33d74dd8",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "containrrr/watchtower"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containrrr/watchtower"
+    }
+  ]
+}

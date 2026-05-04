@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/Mercury",
+      "target": "waterfoxco/waterfox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alex313031/Mercury",
+      "target": "alex313031/thorium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "avx-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "compiler-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "firefox-fork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "firefox-forking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "mercury",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "sse3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "web-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "web-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury",
+      "target": "webbrowser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:22.204986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat.",
+    "fork": false,
+    "full_name": "Alex313031/Mercury",
+    "html_url": "https://github.com/Alex313031/Mercury",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-03T02:25:36Z",
+    "stargazers_count": 1530,
+    "topics": [
+      "avx",
+      "avx-instructions",
+      "browser",
+      "compiler-optimization",
+      "firefox",
+      "firefox-fork",
+      "firefox-forking",
+      "mercury",
+      "optimization",
+      "privacy",
+      "sse3",
+      "web-browser",
+      "web-platform",
+      "webbrowser"
+    ],
+    "updated_at": "2026-05-02T08:17:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex313031/thorium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waterfoxco/waterfox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx-instructions"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler-optimization"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-fork"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-forking"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercury"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse3"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-browser"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-platform"
+    },
+    {
+      "context_snippet": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webbrowser"
+    }
+  ]
+}

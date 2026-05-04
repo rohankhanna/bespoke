@@ -310,6 +310,30 @@
       "source_repo": "j20001970/GDMP-demo",
       "status": "candidate-context",
       "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate-context",
+      "text": "A zero-config, fast and small (~3kB) virtual list (and grid) component for React, Vue, Solid and Svelte."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate-context",
+      "text": "demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "Collection of demos for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +486,18 @@
       "source_repo": "j20001970/GDMP-demo",
       "status": "candidate",
       "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_related_terms": [
@@ -955,11 +991,41 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

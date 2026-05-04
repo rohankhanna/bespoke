@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbuijs/hagezi",
+      "target": "blacklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbuijs/hagezi",
+      "target": "blocklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbuijs/hagezi",
+      "target": "hagezi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbuijs/hagezi",
+      "target": "optimized",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:41.866277+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Optimized version of HAGEZI BlockLists",
+    "fork": false,
+    "full_name": "cbuijs/hagezi",
+    "html_url": "https://github.com/cbuijs/hagezi",
+    "language": null,
+    "pushed_at": "2026-05-04T02:31:38Z",
+    "stargazers_count": 91,
+    "topics": [
+      "blacklist",
+      "blocklist",
+      "dns",
+      "hagezi",
+      "optimized"
+    ],
+    "updated_at": "2026-05-04T02:32:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Optimized version of HAGEZI BlockLists",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blacklist"
+    },
+    {
+      "context_snippet": "Optimized version of HAGEZI BlockLists",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocklist"
+    },
+    {
+      "context_snippet": "Optimized version of HAGEZI BlockLists",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hagezi"
+    },
+    {
+      "context_snippet": "Optimized version of HAGEZI BlockLists",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimized"
+    }
+  ]
+}

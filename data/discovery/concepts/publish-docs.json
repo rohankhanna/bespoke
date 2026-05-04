@@ -388,6 +388,18 @@
       "source_repo": "corteva/rioxarray",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -580,6 +592,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "corteva/rioxarray",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
       "status": "candidate",
       "text": "Publish Docs"
     }
@@ -1003,11 +1021,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "containrrr/watchtower"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

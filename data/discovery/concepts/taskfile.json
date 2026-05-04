@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "taskfile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "Ansible IDE extension: auto-completion and integrating quality assurance tools like ansible-lint, ansible syntax check, yamllint, molecule and ansible-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "taskfile",
+  "concept_id": "taskfile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ansible/vscode-ansible"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "taskfile",
+      "sense_id": "taskfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

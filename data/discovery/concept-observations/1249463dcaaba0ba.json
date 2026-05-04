@@ -84,7 +84,7 @@
   "normalized_form": "spec-main",
   "observation_id": "1249463dcaaba0ba",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Spec Main",
   "source_context_snippet": "Spec Main",
   "source_file": ".github/workflows/spec.main.yml",

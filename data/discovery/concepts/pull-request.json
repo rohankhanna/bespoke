@@ -642,6 +642,30 @@
       "source_repo": "casparwylie/cascii-server",
       "status": "candidate-context",
       "text": "pull-request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -956,6 +980,18 @@
       "source_repo": "casparwylie/cascii-server",
       "status": "candidate",
       "text": "pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -1809,11 +1845,47 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "brave/brave-browser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "containrrr/watchtower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

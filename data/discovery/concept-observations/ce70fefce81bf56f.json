@@ -84,7 +84,7 @@
   "normalized_form": "moby",
   "observation_id": "ce70fefce81bf56f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "moby",
   "source_context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
   "source_file": null,

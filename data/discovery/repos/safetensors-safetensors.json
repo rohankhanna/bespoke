@@ -504,7 +504,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:24:32.891877+00:00",
+  "fetched_at": "2026-05-04T19:44:59.879910+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -536,7 +536,7 @@
     },
     {
       "path": ".github/workflows/python.yml",
-      "size": 6917
+      "size": 6909
     },
     {
       "path": ".github/workflows/rust-release.yml",
@@ -556,10 +556,10 @@
     "full_name": "safetensors/safetensors",
     "html_url": "https://github.com/safetensors/safetensors",
     "language": "Python",
-    "pushed_at": "2026-05-01T14:11:59Z",
-    "stargazers_count": 3736,
+    "pushed_at": "2026-05-04T12:51:21Z",
+    "stargazers_count": 3734,
     "topics": [],
-    "updated_at": "2026-05-04T03:54:52Z"
+    "updated_at": "2026-05-04T15:19:10Z"
   },
   "repo_links": [
     {

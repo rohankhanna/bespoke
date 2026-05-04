@@ -67,6 +67,18 @@
       "source_repo": "certbot/certbot",
       "status": "candidate-context",
       "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "certbot/certbot",
       "status": "candidate",
       "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "certbot/certbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

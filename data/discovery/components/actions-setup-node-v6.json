@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -6777,6 +6777,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "openwrt/luci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-config.yml",
+      "source_repo": "ghostery/broken-page-reports"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "proj4js/proj4js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "proj4js/proj4js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "proj4js/proj4js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/stylelint-config-gds"
     }
   ]
 }

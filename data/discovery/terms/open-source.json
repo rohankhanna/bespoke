@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -526,6 +526,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "argosopentech/argos-translate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/HostlistCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/Scriptlets"
     }
   ],
   "term": "Open Source"

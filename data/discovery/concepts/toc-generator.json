@@ -70,6 +70,18 @@
       "source_repo": "elm-tooling/elm-language-server",
       "status": "candidate-context",
       "text": "TOC Generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "TOC Generator"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate",
+      "text": "TOC Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
       "status": "candidate",
       "text": "TOC Generator"
     }
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/toc.yml",
       "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/UniTask"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:52:13.601131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code examples used for the LAC LLVM course",
+    "fork": false,
+    "full_name": "lac-dcc/llvm-course",
+    "html_url": "https://github.com/lac-dcc/llvm-course",
+    "language": "C++",
+    "pushed_at": "2024-11-08T12:42:11Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-02-28T12:31:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

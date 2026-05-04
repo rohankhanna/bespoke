@@ -223,6 +223,30 @@
       "source_repo": "d-li14/mobilenetv3.pytorch",
       "status": "candidate-context",
       "text": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of \"All Tokens Matter: Token Labeling for Training Better Vision Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "status": "candidate-context",
+      "text": "This is a Pytorch implementation of our paper."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/nested-transformer",
+      "status": "candidate-context",
+      "text": "Nested Hierarchical Transformer https://arxiv.org/pdf/2105.12723.pdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/nested-transformer",
+      "status": "candidate-context",
+      "text": "NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy."
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "d-li14/mobilenetv3.pytorch",
       "status": "candidate",
       "text": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "status": "candidate",
+      "text": "This is a Pytorch implementation of our paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/nested-transformer",
+      "status": "candidate",
+      "text": "NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy."
     }
   ],
   "candidate_related_terms": [
@@ -712,11 +748,41 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "google-research/nested-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

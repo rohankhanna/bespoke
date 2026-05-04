@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "BLE Examples Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "BLE Examples Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate",
+      "text": "BLE Examples Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22738,
+      "status": "candidate",
+      "text": "hank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22715,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22692,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22692,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22692,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "BLE Examples Test",
+  "concept_id": "ble-examples-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BLE Examples Test",
+      "sense_id": "ble-examples-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:45:03.339925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3913
+    },
+    {
+      "path": "go.mod",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror only. Official repository is at https://git.zx2c4.com/wireguard-go",
+    "fork": false,
+    "full_name": "WireGuard/wireguard-go",
+    "html_url": "https://github.com/WireGuard/wireguard-go",
+    "language": "Go",
+    "pushed_at": "2025-05-21T23:45:10Z",
+    "stargazers_count": 4180,
+    "topics": [],
+    "updated_at": "2026-05-04T16:03:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

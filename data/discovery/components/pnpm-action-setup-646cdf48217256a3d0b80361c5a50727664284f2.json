@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@646cdf48217256a3d0b80361c5a50727664284f2",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

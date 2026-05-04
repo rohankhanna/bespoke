@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:59:55.551515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1706
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rewrite of LearnOpenGL example source code in Rust language.",
+    "fork": false,
+    "full_name": "srcres258/learnopengl-rust",
+    "html_url": "https://github.com/srcres258/learnopengl-rust",
+    "language": "Rust",
+    "pushed_at": "2024-06-01T12:03:11Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-28T17:52:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

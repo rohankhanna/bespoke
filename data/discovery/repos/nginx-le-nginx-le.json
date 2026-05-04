@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nginx-le/nginx-le",
-      "target": "artyom/leproxy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "nginx-le/nginx-le",
@@ -102,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T12:52:55.167933+00:00",
+  "fetched_at": "2026-05-04T20:59:09.787308+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -139,11 +132,6 @@
     "updated_at": "2026-04-28T15:16:04Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "artyom/leproxy",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "umputun/nginx-le",

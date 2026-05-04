@@ -127,6 +127,54 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "a stealthy browser automation framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "Automated driver management and other helper features for Selenium WebDriver in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate-context",
+      "text": "Pure Clojure Webdriver protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate-context",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate",
+      "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "Badisi/wdio-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

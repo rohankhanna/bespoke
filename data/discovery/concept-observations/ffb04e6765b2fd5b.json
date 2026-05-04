@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040497,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040202,
+      "status": "candidate",
+      "text": "medicament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040634,
+      "status": "candidate",
+      "text": "medicinal drug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040633,
+      "status": "candidate",
+      "text": "dosage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040572,
+      "status": "candidate",
+      "text": "dose"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "medication",
+      "sense_id": "medication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4056,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "medicament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "medicinal drug"
+    }
+  ],
+  "concept_id": "medication",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "medication",
+  "observation_id": "ffb04e6765b2fd5b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "medication",
+  "source_context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+  "source_file": null,
+  "source_repo": "citiususc/calendula",
+  "source_repo_description": "An Android assistant for personal medication management"
+}

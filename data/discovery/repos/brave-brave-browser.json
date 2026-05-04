@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-issue-labels.yml"
+    },
+    {
+      "component": "technote-space/assign-author@9558557c5c4816f38bd06176fbc324ba14bb3160",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "nearform-actions/github-action-notify-twitter@b3fa623c2f320117e8a08e20564c4ce0a5e67930",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tweet-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brave/brave-browser",
+      "target": "brave/brave-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-issue-labels.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-issue-labels.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "Assign issue labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ignore-some-audit-findings.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "Ignore some audit findings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "technote-space/assign-author@9558557c5c4816f38bd06176fbc324ba14bb3160",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tweet-nightly.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "nearform-actions/github-action-notify-twitter@b3fa623c2f320117e8a08e20564c4ce0a5e67930",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tweet-nightly.yml",
+      "source_repo": "brave/brave-browser",
+      "target": "Tweet nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "brave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brave/brave-browser",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:43.899111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1537
+    },
+    {
+      "path": "package.json",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/assign-issue-labels.yml",
+      "size": 441
+    },
+    {
+      "path": ".github/workflows/ignore-some-audit-findings.yml",
+      "size": 1537
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/tweet-nightly.yml",
+      "size": 991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Brave browser for Android, iOS, Linux, macOS, Windows.",
+    "fork": false,
+    "full_name": "brave/brave-browser",
+    "html_url": "https://github.com/brave/brave-browser",
+    "language": null,
+    "pushed_at": "2026-05-04T16:19:32Z",
+    "stargazers_count": 22437,
+    "topics": [
+      "brave",
+      "browser",
+      "chromium",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "updated_at": "2026-05-04T18:03:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brave/brave-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Assign issue labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-issue-labels.yml",
+      "term": "Assign issue labels"
+    },
+    {
+      "context_snippet": "Ignore some audit findings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ignore-some-audit-findings.yml",
+      "term": "Ignore some audit findings"
+    },
+    {
+      "context_snippet": "Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Request"
+    },
+    {
+      "context_snippet": "Tweet nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tweet-nightly.yml",
+      "term": "Tweet nightly"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brave"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

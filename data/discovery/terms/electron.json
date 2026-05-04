@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -241,6 +241,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "czytelny/backlog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "OutlineFoundation/outline-apps"
     }
   ],
   "term": "electron"

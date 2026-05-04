@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "hku-mars/fast-livo2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "sheng00125/liv_handhold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "uzh-rpg/rpg_vikit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "uzh-rpg/rpg_svo_pro_open",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "lidar-camera-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "lidar-camera-synchronization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "sensor-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:43.411107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry (LIVO).",
+    "fork": false,
+    "full_name": "hku-mars/FAST-LIVO",
+    "html_url": "https://github.com/hku-mars/FAST-LIVO",
+    "language": "C++",
+    "pushed_at": "2025-09-12T17:47:07Z",
+    "stargazers_count": 1583,
+    "topics": [
+      "3d-reconstruction",
+      "lidar-camera-fusion",
+      "lidar-camera-synchronization",
+      "sensor-fusion",
+      "slam"
+    ],
+    "updated_at": "2026-05-02T11:34:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast-livo2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sheng00125/liv_handhold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uzh-rpg/rpg_svo_pro_open",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uzh-rpg/rpg_vikit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-camera-fusion"
+    },
+    {
+      "context_snippet": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-camera-synchronization"
+    },
+    {
+      "context_snippet": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensor-fusion"
+    },
+    {
+      "context_snippet": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

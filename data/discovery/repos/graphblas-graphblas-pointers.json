@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/GraphBLAS-Pointers",
+      "target": "accla/d4m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/GraphBLAS-Pointers",
+      "target": "accla/d4m.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/GraphBLAS-Pointers",
+      "target": "accla/d4m.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/GraphBLAS-Pointers",
+      "target": "accla/graphulo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:43:53.052531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resources on the GraphBLAS standard for graph algorithms in the language of linear algebra",
+    "fork": false,
+    "full_name": "GraphBLAS/GraphBLAS-Pointers",
+    "html_url": "https://github.com/GraphBLAS/GraphBLAS-Pointers",
+    "language": null,
+    "pushed_at": "2025-11-20T18:09:08Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-04-05T22:56:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accla/d4m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accla/d4m.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accla/d4m.py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accla/graphulo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

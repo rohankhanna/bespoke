@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A python extension for quick access to bigWig and bigBed files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041204,
+      "status": "candidate",
+      "text": "top banana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891652,
+      "status": "candidate",
+      "text": "kingpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938433,
+      "status": "candidate",
+      "text": "vip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922082,
+      "status": "candidate",
+      "text": "nabob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042580,
+      "status": "candidate",
+      "text": "big wig"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bigwig",
+      "sense_id": "bigwig#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10025,
+      "status": "candidate",
+      "text": "top banana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "kingpin"
+    }
+  ],
+  "concept_id": "bigwig",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bigwig",
+  "observation_id": "95bedcf67231a0d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "bigwig",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026",
+  "source_file": null,
+  "source_repo": "deeptools/pyBigWig",
+  "source_repo_description": "A python extension for quick access to bigWig and bigBed files"
+}

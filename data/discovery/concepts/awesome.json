@@ -823,6 +823,42 @@
       "source_repo": "layumi/Vehicle_reID-Collection",
       "status": "candidate-context",
       "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tavish9/any4lerobot",
+      "status": "candidate-context",
+      "text": "\ud83c\udf81 A collection of utilities for LeRobot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tavish9/any4lerobot",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate-context",
+      "text": "400+ AI Models: Rich, high-quality AI models, including CV, NLP, Speech, Video and Cross-Modal. Easy to Use: 3 lines of code to predict 400+ AI models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "\ud83d\udd76Awesome Jest packages and resources "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
     }
   ],
   "candidate_glosses": [
@@ -1227,6 +1263,24 @@
       "source_repo": "layumi/Vehicle_reID-Collection",
       "status": "candidate",
       "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tavish9/any4lerobot",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate",
+      "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
     }
   ],
   "candidate_related_terms": [
@@ -1750,11 +1804,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "layumi/Vehicle_reID-Collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Tavish9/any4lerobot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleHub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jest-community/awesome-jest"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

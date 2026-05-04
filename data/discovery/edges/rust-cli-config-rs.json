@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "ethiraric/yaml-rust2",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "zonyitoo/rust-ini",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "ron-rs/ron",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "callum-oakley/json5-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-cli/config-rs",
@@ -260,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "rust-cli/config-rs"
 }

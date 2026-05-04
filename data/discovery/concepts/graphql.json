@@ -859,6 +859,30 @@
       "source_repo": "graphql/graphql-playground",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate-context",
+      "text": "A GraphQL query generator and response parser in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "Tidy, feature-complete Web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Dream</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1293,6 +1317,18 @@
       "source_repo": "graphql/graphql-playground",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Dream</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -2500,11 +2536,77 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "graphql/graphql-playground"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "canduma/canduma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "camlworks/dream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

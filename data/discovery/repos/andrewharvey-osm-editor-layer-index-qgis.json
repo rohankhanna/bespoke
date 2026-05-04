@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewharvey/osm-editor-layer-index-qgis",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewharvey/osm-editor-layer-index-qgis",
+      "target": "xml",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:54:11.233684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 853
+    },
+    {
+      "path": "package.json",
+      "size": 254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert OSM Editor Layer Index to QGIS XYZ Tiles Connections",
+    "fork": false,
+    "full_name": "andrewharvey/osm-editor-layer-index-qgis",
+    "html_url": "https://github.com/andrewharvey/osm-editor-layer-index-qgis",
+    "language": "JavaScript",
+    "pushed_at": "2022-03-24T05:03:59Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-01-12T23:00:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

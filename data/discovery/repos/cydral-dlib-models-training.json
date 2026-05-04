@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:00:00.695953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3000
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Training pipelines and scripts for models using Dlib. Includes pre-configured setups for fine-tuning and evaluating models from the \"davisking/dlib-models\" repository.",
+    "fork": false,
+    "full_name": "Cydral/dlib-models-training",
+    "html_url": "https://github.com/Cydral/dlib-models-training",
+    "language": "C++",
+    "pushed_at": "2025-06-24T11:18:48Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-01-08T20:48:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

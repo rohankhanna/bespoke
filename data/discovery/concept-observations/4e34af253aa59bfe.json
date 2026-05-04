@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimized version of HAGEZI BlockLists"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Optimized version of HAGEZI BlockLists"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Optimized version of HAGEZI BlockLists"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999302,
+      "status": "candidate",
+      "text": "shitlist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987830,
+      "status": "candidate",
+      "text": "black book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014306,
+      "status": "candidate",
+      "text": "ready"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20004650,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997510,
+      "status": "candidate",
+      "text": "charter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blacklist",
+      "sense_id": "blacklist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "black book"
+    }
+  ],
+  "concept_id": "blacklist",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blacklist",
+  "observation_id": "4e34af253aa59bfe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "blacklist",
+  "source_context_snippet": "Optimized version of HAGEZI BlockLists",
+  "source_file": null,
+  "source_repo": "cbuijs/hagezi",
+  "source_repo_description": "Optimized version of HAGEZI BlockLists"
+}

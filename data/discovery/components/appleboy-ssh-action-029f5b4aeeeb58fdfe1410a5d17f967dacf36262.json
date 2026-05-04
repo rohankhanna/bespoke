@@ -1,0 +1,12 @@
+{
+  "component": "appleboy/ssh-action@029f5b4aeeeb58fdfe1410a5d17f967dacf36262",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "vincentlaucsb/experiencer"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/mapnik-vector-tile",
+      "target": "opensciencemap/vtm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:54:16.348259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2559
+    },
+    {
+      "path": "package.json",
+      "size": 251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mapnik implemention of Mapbox Vector Tile specification",
+    "fork": false,
+    "full_name": "mapbox/mapnik-vector-tile",
+    "html_url": "https://github.com/mapbox/mapnik-vector-tile",
+    "language": "C++",
+    "pushed_at": "2026-04-13T23:07:34Z",
+    "stargazers_count": 555,
+    "topics": [],
+    "updated_at": "2026-04-23T18:15:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensciencemap/vtm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

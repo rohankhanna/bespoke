@@ -649,6 +649,30 @@
       "source_repo": "processing/processing-docs",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "Helix Toolkit is a collection of 3D components for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Polytonic/Glitter",
+      "status": "candidate-context",
+      "text": "Dead Simple OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polytonic/Glitter",
+      "status": "candidate-context",
+      "text": "Dead Simple OpenGL"
     }
   ],
   "candidate_glosses": [
@@ -975,6 +999,18 @@
       "source_repo": "processing/processing-docs",
       "status": "candidate",
       "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Polytonic/Glitter",
+      "status": "candidate",
+      "text": "Dead Simple OpenGL"
     }
   ],
   "candidate_related_terms": [
@@ -1520,11 +1556,47 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "helix-toolkit/helix-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

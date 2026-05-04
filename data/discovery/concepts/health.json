@@ -166,6 +166,18 @@
       "source_repo": "dart-lang/native",
       "status": "candidate-context",
       "text": "Health"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +258,12 @@
       "source_repo": "dart-lang/native",
       "status": "candidate",
       "text": "Health"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
     }
   ],
   "candidate_related_terms": [
@@ -463,11 +481,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/health.yaml",
       "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "citiususc/calendula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

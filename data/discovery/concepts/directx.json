@@ -151,6 +151,18 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate-context",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "Helix Toolkit is a collection of 3D components for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "LuisaGroup/luisa-compute-rs",
       "status": "candidate",
       "text": "Rust frontend to LuisaCompute and more! Unified API and embedded DSL for high performance computing on stream architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +358,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "LuisaGroup/luisa-compute-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "helix-toolkit/helix-toolkit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

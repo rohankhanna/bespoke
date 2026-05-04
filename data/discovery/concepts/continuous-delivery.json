@@ -406,6 +406,18 @@
       "source_repo": "flyway/flyway-community-db-support",
       "status": "candidate-context",
       "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -606,6 +618,12 @@
       "source_repo": "flyway/flyway-community-db-support",
       "status": "candidate",
       "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -943,11 +961,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "containrrr/watchtower"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

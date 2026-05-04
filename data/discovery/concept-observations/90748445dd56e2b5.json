@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C++ Algorithmic Differentiation Package: Home Page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "conda-windows-v142"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "conda-windows-v142"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "conda-windows-v142",
+      "sense_id": "conda-windows-v142#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conda-windows-v142",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conda-windows-v142",
+  "observation_id": "90748445dd56e2b5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "conda-windows-v142",
+  "source_context_snippet": "conda-windows-v142",
+  "source_file": ".github/workflows/conda-windows-v142.yml",
+  "source_repo": "coin-or/CppAD",
+  "source_repo_description": "A C++ Algorithmic Differentiation Package: Home Page"
+}

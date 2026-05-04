@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimized version of HAGEZI BlockLists"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Optimized version of HAGEZI BlockLists"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Optimized version of HAGEZI BlockLists"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hagezi",
+      "sense_id": "hagezi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hagezi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hagezi",
+  "observation_id": "ae335b6e6bec492a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "hagezi",
+  "source_context_snippet": "Optimized version of HAGEZI BlockLists",
+  "source_file": null,
+  "source_repo": "cbuijs/hagezi",
+  "source_repo_description": "Optimized version of HAGEZI BlockLists"
+}

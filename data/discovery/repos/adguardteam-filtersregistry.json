@@ -1,0 +1,522 @@
+{
+  "components": [
+    {
+      "component": "@adguard/agtree",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@adguard/dead-domains-linter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@adguard/diff-builder",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@adguard/filters-compiler",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "add",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crypto-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/crypto-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tldts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml"
+    },
+    {
+      "component": "actions-js/push@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml"
+    },
+    {
+      "component": "8398a7/action-slack@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml"
+    },
+    {
+      "component": "actions-js/push@v1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml"
+    },
+    {
+      "component": "8398a7/action-slack@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "adguardteam/filterscompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@adguard/agtree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@adguard/dead-domains-linter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@adguard/diff-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@adguard/filters-compiler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "add",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@types/crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "eslint-config-airbnb-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "markdownlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "simple-git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "tldts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions-js/push@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "Build Third-party filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "actions-js/push@v1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "8398a7/action-slack@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "Build AdGuard filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "filters-metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "target": "filters-subscriptions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:18.579304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15651
+    },
+    {
+      "path": "package.json",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/build-3p.yaml",
+      "size": 2427
+    },
+    {
+      "path": ".github/workflows/build-adguard.yaml",
+      "size": 2319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Known filters subscriptions transformed for better compatibility with AdGuard",
+    "fork": false,
+    "full_name": "AdguardTeam/FiltersRegistry",
+    "html_url": "https://github.com/AdguardTeam/FiltersRegistry",
+    "language": "Adblock Filter List",
+    "pushed_at": "2026-05-04T17:41:50Z",
+    "stargazers_count": 339,
+    "topics": [
+      "adguard",
+      "filters",
+      "filters-metadata",
+      "filters-subscriptions"
+    ],
+    "updated_at": "2026-05-04T17:42:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/filterscompiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Third-party filters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "term": "Build Third-party filters"
+    },
+    {
+      "context_snippet": "Build AdGuard filters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-adguard.yaml",
+      "term": "Build AdGuard filters"
+    },
+    {
+      "context_snippet": "AdGuard Filters Registry is the canonical repository of filter list subscriptions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "AdGuard Filters Registry is the canonical repository of filter list subscriptions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filters"
+    },
+    {
+      "context_snippet": "AdGuard Filters Registry is the canonical repository of filter list subscriptions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filters-metadata"
+    },
+    {
+      "context_snippet": "AdGuard Filters Registry is the canonical repository of filter list subscriptions",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filters-subscriptions"
+    }
+  ]
+}

@@ -58,6 +58,18 @@
       "source_repo": "d99kris/doxygenmd",
       "status": "candidate-context",
       "text": "Doxygenmd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doxygen/doxygen",
+      "status": "candidate-context",
+      "text": "Official doxygen git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doxygen/doxygen",
+      "status": "candidate-context",
+      "text": "Doxygen"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "d99kris/doxygenmd",
       "status": "candidate",
       "text": "Doxygenmd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doxygen/doxygen",
+      "status": "candidate",
+      "text": "Doxygen"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +169,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "d99kris/doxygenmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "doxygen/doxygen"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

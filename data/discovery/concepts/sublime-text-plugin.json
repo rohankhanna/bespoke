@@ -67,6 +67,18 @@
       "source_repo": "aerobounce/Sublime-Swift-Format",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate-context",
+      "text": "{ \"private\": true, \"scripts\": { \"build\": \"parcel build source/manifest.json --dist-dir distribution --no-cache --no-source-maps\", \"lint\": \"xo\", \"pack:safari\": \"xcodebuild -project 'safari/GhostText.xcodeproj'\", \"pre:build\": \"rm -rf distribution && node pre-build.mjs\", \"pre:watch\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "aerobounce/Sublime-Swift-Format",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate",
+      "text": "{ \"private\": true, \"scripts\": { \"build\": \"parcel build source/manifest.json --dist-dir distribution --no-cache --no-source-maps\", \"lint\": \"xo\", \"pack:safari\": \"xcodebuild -project 'safari/GhostText.xcodeproj'\", \"pre:build\": \"rm -rf distribution && node pre-build.mjs\", \"pre:watch\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Swift-Format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fregante/GhostText"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

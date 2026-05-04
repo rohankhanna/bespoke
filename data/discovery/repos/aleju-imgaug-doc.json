@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:56:39.333159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 874
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code and assets to generate the documentation of imgaug",
+    "fork": false,
+    "full_name": "aleju/imgaug-doc",
+    "html_url": "https://github.com/aleju/imgaug-doc",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-12-02T19:42:17Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2025-12-01T10:56:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "Update the ClearURLs uBo list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "ad-blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "adblock-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "adblocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "brave-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "filterlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "hosts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "hosts-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "hostsfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "manifest-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "manifestv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "opera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "ublock-origin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt",
+      "target": "vivaldi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:46.389660+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/generate_clearurlsubo.yml",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really.",
+    "fork": false,
+    "full_name": "DandelionSprout/adfilt",
+    "html_url": "https://github.com/DandelionSprout/adfilt",
+    "language": "Adblock Filter List",
+    "pushed_at": "2026-05-04T16:55:57Z",
+    "stargazers_count": 2123,
+    "topics": [
+      "ad-blocker",
+      "adblock",
+      "adblock-plus",
+      "adblocking",
+      "adguard",
+      "brave-browser",
+      "filterlist",
+      "firefox",
+      "hosts",
+      "hosts-file",
+      "hostsfile",
+      "json",
+      "manifest-v2",
+      "manifestv2",
+      "mv2",
+      "opera",
+      "ublock-origin",
+      "vivaldi"
+    ],
+    "updated_at": "2026-05-04T16:56:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "term": "Update the ClearURLs uBo list"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ad-blocker"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock-plus"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocking"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brave-browser"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filterlist"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosts"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosts-file"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hostsfile"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifest-v2"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifestv2"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opera"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock-origin"
+    },
+    {
+      "context_snippet": "Update the ClearURLs uBo list",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vivaldi"
+    }
+  ]
+}

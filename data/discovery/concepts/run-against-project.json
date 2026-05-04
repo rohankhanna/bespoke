@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run against project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alphagov/rubocop-govuk",
+      "status": "candidate-context",
+      "text": "RuboCop style rules for GOV.UK's Ruby projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/rubocop-govuk",
+      "status": "candidate-context",
+      "text": "Run against project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/rubocop-govuk",
+      "status": "candidate",
+      "text": "Run against project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35314,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34861,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34763,
+      "status": "candidate",
+      "text": "befoul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34567,
+      "status": "candidate",
+      "text": "jostle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34567,
+      "status": "candidate",
+      "text": "oppose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run against project",
+  "concept_id": "run-against-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/run-against-project.yml",
+      "source_repo": "alphagov/rubocop-govuk"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run against project",
+      "sense_id": "run-against-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

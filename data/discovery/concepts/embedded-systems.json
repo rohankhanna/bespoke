@@ -43,6 +43,18 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate-context",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "olikraus/u8g2",
       "status": "candidate",
       "text": "[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/olikraus/u8g2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate",
+      "text": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "olikraus/u8g2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

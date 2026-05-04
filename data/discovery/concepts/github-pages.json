@@ -908,6 +908,18 @@
       "source_repo": "Dawn-LX/CausalCache-VDM",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwrt/luci",
+      "status": "candidate-context",
+      "text": "LuCI - OpenWrt Configuration Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/luci",
+      "status": "candidate-context",
+      "text": "GitHub pages"
     }
   ],
   "candidate_glosses": [
@@ -1360,6 +1372,12 @@
       "source_repo": "Dawn-LX/CausalCache-VDM",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/luci",
+      "status": "candidate",
+      "text": "GitHub pages"
     }
   ],
   "candidate_related_terms": [
@@ -2129,11 +2147,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/jsdoc.yml",
+      "source_repo": "openwrt/luci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

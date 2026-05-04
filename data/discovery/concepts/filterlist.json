@@ -43,6 +43,30 @@
       "source_repo": "lynxthecat/adblock-lean",
       "status": "candidate-context",
       "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "lynxthecat/adblock-lean",
       "status": "candidate",
       "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "lynxthecat/adblock-lean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "easylist/easylist"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1366,6 +1366,30 @@
       "source_repo": "ptsochantaris/trailer-cli",
       "status": "candidate-context",
       "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-json",
+      "status": "candidate-context",
+      "text": "A feather-weight JSON decoder in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-json",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate-context",
+      "text": "A GraphQL query generator and response parser in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -2058,6 +2082,18 @@
       "source_repo": "ptsochantaris/trailer-cli",
       "status": "candidate",
       "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-json",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-ql",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -3361,11 +3397,65 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

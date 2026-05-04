@@ -55,6 +55,18 @@
       "source_repo": "cucumber/aruba",
       "status": "candidate-context",
       "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "cucumber/aruba",
       "status": "candidate",
       "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -170,11 +188,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cucumber/aruba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cucumber/cucumber-js"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

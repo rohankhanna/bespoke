@@ -427,6 +427,18 @@
       "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate-context",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate-context",
+      "text": "Adlik: Toolkit for Accelerating Deep Learning Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/Adlik/GitHub/_apis/build/status/Adlik.Adlik?branchName=master)](https://dev.azure.com/Adlik/GitHub/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate",
       "text": "<div align=\"center\" markdown=\"1\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/Adlik/GitHub/_apis/build/status/Adlik.Adlik?branchName=master)](https://dev.azure.com/Adlik/GitHub/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -862,11 +880,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "mikel-brostrom/boxmot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Adlik/Adlik"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

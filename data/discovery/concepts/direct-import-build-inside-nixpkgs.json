@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Direct import & build inside Nixpkgs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "A Haskell re-implementation of the Nix expression language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "\"Direct import & build inside Nixpkgs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate",
+      "text": "\"Direct import & build inside Nixpkgs\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27875,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27875,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27875,
+      "status": "candidate",
+      "text": "charged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27875,
+      "status": "candidate",
+      "text": "charging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27736,
+      "status": "candidate",
+      "text": "purpose"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Direct import & build inside Nixpkgs",
+  "concept_id": "direct-import-build-inside-nixpkgs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Direct import & build inside Nixpkgs",
+      "sense_id": "direct-import-build-inside-nixpkgs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,12 +19,30 @@
       "source_repo": "google/closure-library",
       "status": "candidate-context",
       "text": "Draft GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proj4js/proj4js",
+      "status": "candidate-context",
+      "text": "JavaScript library to transform coordinates from one coordinate system to another, including datum transformations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proj4js/proj4js",
+      "status": "candidate-context",
+      "text": "Draft GitHub Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "google/closure-library",
+      "status": "candidate",
+      "text": "Draft GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proj4js/proj4js",
       "status": "candidate",
       "text": "Draft GitHub Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/draft-github-release.yml",
       "source_repo": "google/closure-library"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "proj4js/proj4js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cysharp/UniTask",
+      "target": "cysharp/runtimeunittesttoolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cysharp/UniTask",
+      "target": "cysharp/docfxtemplate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cysharp/UniTask",
+      "target": "cysharp/magiconion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cysharp/UniTask",
+      "target": "cysharp/valuetasksupplement",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/check-metas@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Build-Debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "build-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/update-packagejson.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/actions/check-metas@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/clean-packagejson-branch.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "build-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/prevent-github-change.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Prevent github change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/stale-issue.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "Cysharp/Actions/.github/workflows/toc-generator.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/UniTask",
+      "target": "TOC Generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask",
+      "target": "coroutine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask",
+      "target": "task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask",
+      "target": "thread",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/UniTask",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "Cysharp/UniTask"
+}

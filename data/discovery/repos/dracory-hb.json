@@ -30,14 +30,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "theplant/htmlgo",
+      "target": "julvo/htmlgo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "julvo/htmlgo",
+      "target": "uberswe/html",
       "target_type": "repository"
     },
     {
@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:28:45.744174+00:00",
+  "fetched_at": "2026-05-04T19:50:03.700073+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -109,7 +109,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "theplant/htmlgo",
+      "full_name": "uberswe/html",
       "source_file": "README.md"
     }
   ],

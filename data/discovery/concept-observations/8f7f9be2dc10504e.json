@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030092,
+      "status": "candidate",
+      "text": "lintard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030091,
+      "status": "candidate",
+      "text": "lewdster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030090,
+      "status": "candidate",
+      "text": "lidderon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030089,
+      "status": "candidate",
+      "text": "lardhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030088,
+      "status": "candidate",
+      "text": "leg man"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lede",
+      "sense_id": "lede#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lede",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lede",
+  "observation_id": "8f7f9be2dc10504e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "lede",
+  "source_context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+  "source_file": null,
+  "source_repo": "honwen/openwrt-dnsmasq-extra",
+  "source_repo_description": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+}

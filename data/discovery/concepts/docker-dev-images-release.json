@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Dev Images Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "Docker Dev Images Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate",
+      "text": "Docker Dev Images Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32306,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25720,
+      "status": "candidate",
+      "text": "automatism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21306,
+      "status": "candidate",
+      "text": "loading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21213,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21213,
+      "status": "candidate",
+      "text": "draft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Dev Images Release",
+  "concept_id": "docker-dev-images-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "danny-avila/rag_api"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Dev Images Release",
+      "sense_id": "docker-dev-images-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

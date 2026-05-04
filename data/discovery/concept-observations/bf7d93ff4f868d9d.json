@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pure Clojure Webdriver protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024504,
+      "status": "candidate",
+      "text": "specter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024445,
+      "status": "candidate",
+      "text": "spectre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999146,
+      "status": "candidate",
+      "text": "apparition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39935122,
+      "status": "candidate",
+      "text": "shadow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933924,
+      "status": "candidate",
+      "text": "unreal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "phantom",
+      "sense_id": "phantom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52034,
+      "status": "candidate",
+      "text": "specter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34039,
+      "status": "candidate",
+      "text": "apparition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "spectre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "shadow"
+    }
+  ],
+  "concept_id": "phantom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "phantom",
+  "observation_id": "bf7d93ff4f868d9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "phantom",
+  "source_context_snippet": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026",
+  "source_file": null,
+  "source_repo": "clj-commons/etaoin",
+  "source_repo_description": "Pure Clojure Webdriver protocol implementation"
+}

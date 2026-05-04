@@ -1,0 +1,12 @@
+{
+  "component": "devmasx/merge-branch@1.4.0",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "black7375/Firefox-UI-Fix"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "target": "shadowsocks/openwrt-shadowsocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "target": "lede",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "target": "luci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "target": "openwrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "target": "shadowsocks-libev",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:45:21.090263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenWrt/LEDE LuCI for Shadowsocks-libev",
+    "fork": false,
+    "full_name": "shadowsocks/luci-app-shadowsocks",
+    "html_url": "https://github.com/shadowsocks/luci-app-shadowsocks",
+    "language": "Lua",
+    "pushed_at": "2023-05-28T16:53:00Z",
+    "stargazers_count": 1154,
+    "topics": [
+      "lede",
+      "luci",
+      "openwrt",
+      "shadowsocks-libev"
+    ],
+    "updated_at": "2026-04-25T07:57:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadowsocks/openwrt-shadowsocks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lede"
+    },
+    {
+      "context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luci"
+    },
+    {
+      "context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openwrt"
+    },
+    {
+      "context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadowsocks-libev"
+    }
+  ]
+}

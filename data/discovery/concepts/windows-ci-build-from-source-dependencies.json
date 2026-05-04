@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows CI (Build from source dependencies)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Jiminy: a fast and portable Python/C++ simulator of poly-articulated robots with OpenAI Gym interface for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Windows CI (Build from source dependencies)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate",
+      "text": "Windows CI (Build from source dependencies)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32297,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22609,
+      "status": "candidate",
+      "text": "daylight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22545,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22545,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22326,
+      "status": "candidate",
+      "text": "scrape"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows CI (Build from source dependencies)",
+  "concept_id": "windows-ci-build-from-source-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/win.yml",
+      "source_repo": "duburcqa/jiminy"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows CI (Build from source dependencies)",
+      "sense_id": "windows-ci-build-from-source-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

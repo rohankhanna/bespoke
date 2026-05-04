@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035317,
+      "status": "candidate",
+      "text": "pitchfork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017886,
+      "status": "candidate",
+      "text": "branch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014457,
+      "status": "candidate",
+      "text": "branching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972003,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965820,
+      "status": "candidate",
+      "text": "crotch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fork",
+      "sense_id": "fork#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16044,
+      "status": "candidate",
+      "text": "crotch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8040,
+      "status": "candidate",
+      "text": "ramification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5034,
+      "status": "candidate",
+      "text": "ramify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "branching"
+    }
+  ],
+  "concept_id": "fork",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fork",
+  "observation_id": "be3a1071b768e1cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "fork",
+  "source_context_snippet": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system.",
+  "source_file": null,
+  "source_repo": "garuda-linux/firedragon",
+  "source_repo_description": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+}

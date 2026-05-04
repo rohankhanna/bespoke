@@ -4895,6 +4895,30 @@
       "source_repo": "bfenetworks/bfe",
       "status": "candidate-context",
       "text": "[![GitHub](https://img.shields.io/github/license/bfenetworks/bfe)](https://github.com/bfenetworks/bfe/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "Go CGO cross compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "https reverse proxy with automatic Letsencrypt usage for multiple hostnames/backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_glosses": [
@@ -7351,6 +7375,18 @@
       "source_repo": "bfenetworks/bfe",
       "status": "candidate",
       "text": "[![GitHub](https://img.shields.io/github/license/bfenetworks/bfe)](https://github.com/bfenetworks/bfe/blob/develop/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_related_terms": [],
@@ -10766,11 +10802,83 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/xgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "artyom/leproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

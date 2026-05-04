@@ -304,6 +304,78 @@
       "source_repo": "Jamir-boop/minimalisticfox",
       "status": "candidate-context",
       "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative \ud83e\udd8a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "A browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate-context",
+      "text": "Pure Clojure Webdriver protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate-context",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
     }
   ],
   "candidate_glosses": [
@@ -456,6 +528,42 @@
       "source_repo": "Jamir-boop/minimalisticfox",
       "status": "candidate",
       "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate",
+      "text": "A browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/etaoin",
+      "status": "candidate",
+      "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -835,11 +943,65 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "Jamir-boop/minimalisticfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "garuda-linux/firedragon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Floorp-Projects/Floorp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

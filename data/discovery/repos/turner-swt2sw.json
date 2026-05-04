@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turner/swt2sw",
+      "target": "jrobinso/hdf5-indexer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "turner/swt2sw",
+      "target": "turner/sw2swb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:54:57.488016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to convert Spacewalk text-based files (.swt) to Spacewalk binary files (.sw). This format based on the Hierarchical Data Format (HDF5).",
+    "fork": false,
+    "full_name": "turner/swt2sw",
+    "html_url": "https://github.com/turner/swt2sw",
+    "language": "Python",
+    "pushed_at": "2025-02-27T22:49:14Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-01T14:33:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrobinso/hdf5-indexer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turner/sw2swb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

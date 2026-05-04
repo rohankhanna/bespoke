@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -271,6 +271,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "processing/processing-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "helix-toolkit/helix-toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter"
     }
   ],
   "term": "graphics"

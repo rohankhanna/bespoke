@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official doxygen git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Coverity for doxygen"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Coverity for doxygen"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coverity for doxygen",
+      "sense_id": "coverity-for-doxygen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "coverity-for-doxygen",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coverity-for-doxygen",
+  "observation_id": "77c32a14bc0c7819",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Coverity for doxygen",
+  "source_context_snippet": "Coverity for doxygen",
+  "source_file": ".github/workflows/coverity.yml",
+  "source_repo": "doxygen/doxygen",
+  "source_repo_description": "Official doxygen git repository"
+}

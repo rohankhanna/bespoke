@@ -163,6 +163,66 @@
       "source_repo": "yokoffing/filterlists",
       "status": "candidate-context",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "Known filters subscriptions transformed for better compatibility with AdGuard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "status": "candidate-context",
+      "text": "AdGuard Extra is designed to solve complicated cases when regular ad blocking rules aren't enough."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "status": "candidate-context",
+      "text": "AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "AdGuard scriptlets library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +303,36 @@
       "source_repo": "yokoffing/filterlists",
       "status": "candidate",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "status": "candidate",
+      "text": "AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate",
+      "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +454,41 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "yokoffing/filterlists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardExtra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/Scriptlets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "badmojr/1Hosts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

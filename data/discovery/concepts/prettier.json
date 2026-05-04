@@ -232,6 +232,18 @@
       "source_repo": "nelson-lang/nelson-website",
       "status": "candidate-context",
       "text": "Prettier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "\ud83d\udd76Awesome Jest packages and resources "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "Prettier"
     }
   ],
   "candidate_glosses": [
@@ -346,6 +358,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nelson-lang/nelson-website",
+      "status": "candidate",
+      "text": "Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
       "status": "candidate",
       "text": "Prettier"
     }
@@ -511,11 +529,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/prettier.yml",
       "source_repo": "seamapi/node-websocat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "jest-community/awesome-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "seamapi/node-websocat"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

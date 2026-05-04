@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Hackage, Cabal, Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/HLint.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/HLint.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "haskell-actions/hlint-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/HLint.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "haskell-actions/hlint-run@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/HLint.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Checking code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Release testing, Hackage, Cabal, Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Anton-Latukha/test-haskell-nixpkgs-integration-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Direct import & build inside Nixpkgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix",
+      "target": "Quality checks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "haskell-nix/hnix"
+}

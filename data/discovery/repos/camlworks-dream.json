@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-esy.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-esy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-opam.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-opam.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml"
+    },
+    {
+      "component": "esy/github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/systemd.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/systemd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camlworks/dream",
+      "target": "dinosaure/emile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camlworks/dream",
+      "target": "jsthomas/dream-email-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camlworks/dream",
+      "target": "emiletrotignon/embedded_ocaml_templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "camlworks/dream",
+      "target": "dmbaturin/soupault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-esy.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-esy.yml",
+      "source_repo": "camlworks/dream",
+      "target": "webfactory/ssh-agent@v0.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-esy.yml",
+      "source_repo": "camlworks/dream",
+      "target": "docker-esy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-opam.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-opam.yml",
+      "source_repo": "camlworks/dream",
+      "target": "webfactory/ssh-agent@v0.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-opam.yml",
+      "source_repo": "camlworks/dream",
+      "target": "docker-opam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heroku.yml",
+      "source_repo": "camlworks/dream",
+      "target": "esy/github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/heroku.yml",
+      "source_repo": "camlworks/dream",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/systemd.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/systemd.yml",
+      "source_repo": "camlworks/dream",
+      "target": "webfactory/ssh-agent@v0.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/systemd.yml",
+      "source_repo": "camlworks/dream",
+      "target": "systemd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "camlworks/dream",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "camlworks/dream",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "camlworks/dream",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "reasonml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camlworks/dream",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:47:20.727697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12093
+    },
+    {
+      "path": ".github/workflows/docker-esy.yml",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/docker-opam.yml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/heroku.yml",
+      "size": 1134
+    },
+    {
+      "path": ".github/workflows/systemd.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 5373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tidy, feature-complete Web framework",
+    "fork": false,
+    "full_name": "camlworks/dream",
+    "html_url": "https://github.com/camlworks/dream",
+    "language": "OCaml",
+    "pushed_at": "2026-03-25T18:25:42Z",
+    "stargazers_count": 1845,
+    "topics": [
+      "framework",
+      "graphql",
+      "http",
+      "ocaml",
+      "reasonml",
+      "web",
+      "websockets"
+    ],
+    "updated_at": "2026-05-02T20:11:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/emile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmbaturin/soupault",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emiletrotignon/embedded_ocaml_templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jsthomas/dream-email-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docker-esy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-esy.yml",
+      "term": "docker-esy"
+    },
+    {
+      "context_snippet": "docker-opam",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-opam.yml",
+      "term": "docker-opam"
+    },
+    {
+      "context_snippet": "heroku",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/heroku.yml",
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "systemd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/systemd.yml",
+      "term": "systemd"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasonml"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Dream</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

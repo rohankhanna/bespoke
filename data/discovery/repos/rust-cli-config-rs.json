@@ -238,34 +238,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "ethiraric/yaml-rust2",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "zonyitoo/rust-ini",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "ron-rs/ron",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rust-cli/config-rs",
-      "target": "callum-oakley/json5-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-cli/config-rs",
@@ -497,7 +469,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T02:48:31.276795+00:00",
+  "fetched_at": "2026-05-04T18:49:39.514403+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -546,7 +518,7 @@
     "html_url": "https://github.com/rust-cli/config-rs",
     "language": "Rust",
     "pushed_at": "2026-05-01T01:20:34Z",
-    "stargazers_count": 3142,
+    "stargazers_count": 3144,
     "topics": [
       "config",
       "config-management",
@@ -556,30 +528,9 @@
       "rust",
       "toml"
     ],
-    "updated_at": "2026-05-01T01:20:37Z"
+    "updated_at": "2026-05-04T13:48:44Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "callum-oakley/json5-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ethiraric/yaml-rust2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ron-rs/ron",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zonyitoo/rust-ini",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Security audit",

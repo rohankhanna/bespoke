@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "uBO Lite beta"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "status": "candidate-context",
+      "text": "uBO Lite home (MV3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "status": "candidate-context",
+      "text": "uBO Lite beta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "status": "candidate",
+      "text": "uBO Lite beta"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11301,
+      "status": "candidate",
+      "text": "toy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "antic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "asinine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "brainless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "bugger"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "uBO Lite beta",
+  "concept_id": "ubo-lite-beta",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/create_beta.yml",
+      "source_repo": "uBlockOrigin/uBOL-home"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "uBO Lite beta",
+      "sense_id": "ubo-lite-beta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

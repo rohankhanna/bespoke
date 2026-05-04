@@ -1,0 +1,12 @@
+{
+  "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/lock-board@v1.1",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk"
+    }
+  ]
+}

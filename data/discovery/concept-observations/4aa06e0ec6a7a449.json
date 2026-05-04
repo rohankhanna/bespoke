@@ -79,7 +79,7 @@
   "normalized_form": "node.js-ci---ubuntu-latest",
   "observation_id": "4aa06e0ec6a7a449",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Node.js CI - ubuntu-latest",
   "source_context_snippet": "Node.js CI - ubuntu-latest",
   "source_file": ".github/workflows/nodejs-ubuntu-latest.yml",

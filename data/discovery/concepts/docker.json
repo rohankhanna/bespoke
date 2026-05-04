@@ -3706,6 +3706,42 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate-context",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "Go CGO cross compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "Automated driver management and other helper features for Selenium WebDriver in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -5574,6 +5610,24 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/crazy-max/xgo.svg?style=flat-square)](https://github.com/crazy-max/xgo/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -9259,11 +9313,143 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/xgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "containrrr/watchtower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

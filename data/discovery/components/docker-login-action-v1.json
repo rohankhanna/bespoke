@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -537,6 +537,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "empowerchain/cosmos-chain-directory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/covidnet_ui"
     }
   ]
 }

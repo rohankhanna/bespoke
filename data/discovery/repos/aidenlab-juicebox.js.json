@@ -83,20 +83,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aidenlab/juicebox.js",
-      "target": "igvteam/igv.js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/juicebox.js",
-      "target": "aidenlab/juicebox-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/juicebox.js",
       "target": "igvteam/juicebox-web",
       "target_type": "repository"
     },
@@ -199,7 +185,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T10:35:54.159630+00:00",
+  "fetched_at": "2026-05-04T18:54:56.596155+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,16 +211,6 @@
     "updated_at": "2026-04-04T08:42:42Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/juicebox-web",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "igvteam/igv.js",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "igvteam/juicebox-web",

@@ -295,6 +295,18 @@
       "source_repo": "americanexpress/jest-image-snapshot",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "\ud83d\udd76Awesome Jest packages and resources "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate-context",
+      "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "americanexpress/jest-image-snapshot",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jest-community/awesome-jest",
+      "status": "candidate",
+      "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
     }
   ],
   "candidate_related_terms": [
@@ -754,11 +772,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "americanexpress/jest-image-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme-matchers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jest-community/awesome-jest"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T21:02:59.018881+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository with examples of using dropzone",
+    "fork": false,
+    "full_name": "dropzone/dropzone-examples",
+    "html_url": "https://github.com/dropzone/dropzone-examples",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-22T19:47:15Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-10-04T04:35:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

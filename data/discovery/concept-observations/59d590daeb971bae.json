@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check for Stale Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check for Stale Pull Requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28236,
+      "status": "candidate",
+      "text": "baffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28236,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28096,
+      "status": "candidate",
+      "text": "desire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28096,
+      "status": "candidate",
+      "text": "flake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28068,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check for Stale Pull Requests",
+      "sense_id": "check-for-stale-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-for-stale-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-for-stale-pull-requests",
+  "observation_id": "59d590daeb971bae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Check for Stale Pull Requests",
+  "source_context_snippet": "Check for Stale Pull Requests",
+  "source_file": ".github/workflows/Stale_PR.yml",
+  "source_repo": "analogdevicesinc/msdk",
+  "source_repo_description": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+}

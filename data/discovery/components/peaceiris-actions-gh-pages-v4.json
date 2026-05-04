@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -627,6 +627,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "allenai/vla-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jsdoc.yml",
+      "source_repo": "openwrt/luci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_cmake.yml",
+      "source_repo": "doxygen/doxygen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/demo.yml",
+      "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos"
     }
   ]
 }

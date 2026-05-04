@@ -296,7 +296,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:36:41.528598+00:00",
+  "fetched_at": "2026-05-04T18:55:43.434384+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -341,14 +341,14 @@
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
     "pushed_at": "2026-05-03T22:41:02Z",
-    "stargazers_count": 3732,
+    "stargazers_count": 3731,
     "topics": [
       "c-plus-plus-14",
       "multidimensional-arrays",
       "numpy",
       "tensors"
     ],
-    "updated_at": "2026-05-04T05:39:32Z"
+    "updated_at": "2026-05-04T15:15:39Z"
   },
   "repo_links": [],
   "terms": [

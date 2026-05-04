@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "layumi/Pedestrian_Alignment",
-      "target": "zhunzhong07/person-re-ranking",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "layumi/Pedestrian_Alignment",
       "target": "layumi/person_re-id_stn",
       "target_type": "repository"
     },
@@ -79,7 +72,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:40:52.058815+00:00",
+  "fetched_at": "2026-05-04T20:50:01.801204+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,11 +107,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "layumi/person_re-id_stn",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zhunzhong07/person-re-ranking",
       "source_file": "README.md"
     }
   ],

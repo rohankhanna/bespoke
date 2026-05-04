@@ -43,6 +43,30 @@
       "source_repo": "crazy-max/WindowsSpyBlocker",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate-context",
+      "text": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate-context",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate-context",
+      "text": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate-context",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "crazy-max/WindowsSpyBlocker",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "crazy-max/WindowsSpyBlocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

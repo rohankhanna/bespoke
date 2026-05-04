@@ -2020,6 +2020,54 @@
       "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate-context",
       "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "Outline Client and Manager, developed by Jigsaw. Outline Manager makes it easy to create your own VPN server. Outline Client lets you share access to your VPN with anyone in your network, giving them access to the free and open internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "[![Reddit](https://badgen.net/badge/Reddit/r%2Foutlinevpn/orange)](https://www.reddit.com/r/outlinevpn/) [![Mattermost](https://badgen.net/badge/Mattermost/Outline%20Community/blue)](https://community.internetfreedomfestival.org/community/channels/outline-community) [![Code Styl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debajyotibasak/MyTimes",
+      "status": "candidate-context",
+      "text": "News Reader App using NewsApi.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debajyotibasak/MyTimes",
+      "status": "candidate-context",
+      "text": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)"
     }
   ],
   "candidate_glosses": [
@@ -3048,6 +3096,30 @@
       "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate",
       "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate",
+      "text": "[![Reddit](https://badgen.net/badge/Reddit/r%2Foutlinevpn/orange)](https://www.reddit.com/r/outlinevpn/) [![Mattermost](https://badgen.net/badge/Mattermost/Outline%20Community/blue)](https://community.internetfreedomfestival.org/community/channels/outline-community) [![Code Styl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debajyotibasak/MyTimes",
+      "status": "candidate",
+      "text": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)"
     }
   ],
   "candidate_related_terms": [
@@ -4600,11 +4672,77 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "badmojr/1Hosts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "OutlineFoundation/outline-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "citiususc/calendula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

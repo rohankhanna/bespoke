@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run Sord on examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run Sord on examples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12180,
+      "status": "candidate",
+      "text": "paramilitary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "dap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "practice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12090,
+      "status": "candidate",
+      "text": "still"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11362,
+      "status": "candidate",
+      "text": "adduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Sord on examples",
+      "sense_id": "run-sord-on-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-sord-on-examples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-sord-on-examples",
+  "observation_id": "d82897008d8a36e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Run Sord on examples",
+  "source_context_snippet": "Run Sord on examples",
+  "source_file": ".github/workflows/examples.yml",
+  "source_repo": "AaronC81/sord",
+  "source_repo_description": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+}

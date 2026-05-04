@@ -1,0 +1,412 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "kaliiiiiiiiii-vinyzu/patchright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "kaliiiiiiiiii-vinyzu/patchright-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "deventerprisesoftware/patchright-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "kaliiiiiiiiii-vinyzu/cdp-patches",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "ts-morph",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "vegardit/fast-apt-mirror.sh@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Build Test Package on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_patch_impact.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Check Patch Impact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "vegardit/fast-apt-mirror.sh@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Patchright Driver .Patch File Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "vegardit/fast-apt-mirror.sh@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Patchright Release Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "vegardit/fast-apt-mirror.sh@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Patchright Chromium Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_build_artifacts_comment.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_build_artifacts_comment.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "Post Build Artifacts Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "antidetect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "botting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "cloudflare-bypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "stealth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "undetectable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "undetected",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "web-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "web-scraping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "webautomation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "webdriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "target": "webscraping",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+}

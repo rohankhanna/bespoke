@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:57:51.461323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the paper Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models (ICLR 2022 Outstanding Paper Award)",
+    "fork": false,
+    "full_name": "baofff/Analytic-DPM",
+    "html_url": "https://github.com/baofff/Analytic-DPM",
+    "language": "Python",
+    "pushed_at": "2022-05-18T05:46:59Z",
+    "stargazers_count": 173,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

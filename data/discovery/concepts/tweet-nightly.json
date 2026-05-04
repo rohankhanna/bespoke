@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tweet nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Tweet nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate",
+      "text": "Tweet nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10476,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "acne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "beau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "boa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "cram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tweet nightly",
+  "concept_id": "tweet-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/tweet-nightly.yml",
+      "source_repo": "brave/brave-browser"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tweet nightly",
+      "sense_id": "tweet-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

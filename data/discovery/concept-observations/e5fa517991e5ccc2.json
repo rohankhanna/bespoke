@@ -70,7 +70,7 @@
   "normalized_form": "adaptivecpp-llvm-macos",
   "observation_id": "e5fa517991e5ccc2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "AdaptiveCpp-LLVM macOS",
   "source_context_snippet": "AdaptiveCpp-LLVM macOS",
   "source_file": ".github/workflows/macos-acppllvm.yml",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Table-R1/Table-R1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:45:16.374501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP 2025] Code for paper \"Table-R1: Inference-Time Scaling for Table Reasoning\"",
+    "fork": false,
+    "full_name": "Table-R1/Table-R1",
+    "html_url": "https://github.com/Table-R1/Table-R1",
+    "language": "Python",
+    "pushed_at": "2025-06-03T01:44:01Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-12-30T13:45:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

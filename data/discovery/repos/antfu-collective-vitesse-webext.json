@@ -191,14 +191,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse-webext",
-      "target": "antfu/vueuse",
+      "target": "mozilla/webextension-polyfill",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vitesse-webext",
-      "target": "antfu/esno",
+      "target": "mysticatea/npm-run-all",
       "target_type": "repository"
     },
     {
@@ -496,7 +496,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:39:23.579665+00:00",
+  "fetched_at": "2026-05-04T20:47:59.076097+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,11 +528,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antfu/esno",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "antfu/vitesse",
       "source_file": "README.md"
     },
@@ -543,7 +538,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antfu/vueuse",
+      "full_name": "mozilla/webextension-polyfill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mysticatea/npm-run-all",
       "source_file": "README.md"
     }
   ],

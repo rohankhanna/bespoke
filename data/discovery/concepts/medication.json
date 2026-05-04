@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "medication"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040497,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040202,
+      "status": "candidate",
+      "text": "medicament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040634,
+      "status": "candidate",
+      "text": "medicinal drug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040633,
+      "status": "candidate",
+      "text": "dosage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040572,
+      "status": "candidate",
+      "text": "dose"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4056,
+      "status": "candidate",
+      "text": "medicine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "medicament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "medicinal drug"
+    }
+  ],
+  "canonical_name": "medication",
+  "concept_id": "medication",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "citiususc/calendula"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "medication",
+      "sense_id": "medication#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

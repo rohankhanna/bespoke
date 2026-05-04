@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sass"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sass"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049750,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871554,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839817,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047693,
+      "status": "candidate",
+      "text": "impudence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040247,
+      "status": "candidate",
+      "text": "defy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sass",
+      "sense_id": "sass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "mouth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6015,
+      "status": "candidate",
+      "text": "backtalk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4078,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "sassing"
+    }
+  ],
+  "concept_id": "sass",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sass",
+  "observation_id": "8d989d6fcfc33909",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Sass",
+  "source_context_snippet": "Sass",
+  "source_file": ".github/workflows/sass.yaml",
+  "source_repo": "alphagov/govuk-frontend",
+  "source_repo_description": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+}

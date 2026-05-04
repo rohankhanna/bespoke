@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/govuk-frontend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/stylelint-config-gds"
+    }
+  ],
+  "term": "govuk-design-system"
+}

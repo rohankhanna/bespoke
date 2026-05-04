@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "marbl/chm13-issues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "genome-in-a-bottle/giab_data_indexes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "jessicastorer88/repeatmasker_library_chm13",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "josephlalli/phasing_t2t",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "marbl/CHM13"
+}

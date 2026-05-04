@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prevent github change"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Prevent github change"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "Prevent github change"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28145,
+      "status": "candidate",
+      "text": "disguise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28145,
+      "status": "candidate",
+      "text": "reflect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28132,
+      "status": "candidate",
+      "text": "preserve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28052,
+      "status": "candidate",
+      "text": "entrench"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11745,
+      "status": "candidate",
+      "text": "block"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prevent github change",
+  "concept_id": "prevent-github-change",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "source_repo": "Cysharp/UniTask"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prevent github change",
+      "sense_id": "prevent-github-change#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

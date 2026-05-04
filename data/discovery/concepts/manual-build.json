@@ -1,7 +1,8 @@
 {
   "aliases": [
     "\ud83d\udd28 Manual Build",
-    "Manual Build"
+    "Manual Build",
+    "Manual build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate-context",
       "text": "Manual Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "Helix Toolkit is a collection of 3D components for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "Manual build"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate",
       "text": "Manual Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate",
+      "text": "Manual build"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +168,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/manual_build.yml",
       "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/manual-build.yml",
+      "source_repo": "helix-toolkit/helix-toolkit"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "close-inactive-issues",
   "observation_id": "f564dc7621eecb23",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Close inactive issues",
   "source_context_snippet": "Close inactive issues",
   "source_file": ".github/workflows/cron.yml",

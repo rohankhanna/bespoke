@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Third-party filters"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "Known filters subscriptions transformed for better compatibility with AdGuard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "Build Third-party filters"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate",
+      "text": "Build Third-party filters"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11807,
+      "status": "candidate",
+      "text": "filter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11656,
+      "status": "candidate",
+      "text": "trance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11415,
+      "status": "candidate",
+      "text": "glomerulus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11415,
+      "status": "candidate",
+      "text": "kidney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11415,
+      "status": "candidate",
+      "text": "synthesizer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Third-party filters",
+  "concept_id": "build-third-party-filters",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-3p.yaml",
+      "source_repo": "AdguardTeam/FiltersRegistry"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Third-party filters",
+      "sense_id": "build-third-party-filters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

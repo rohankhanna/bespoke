@@ -143,6 +143,18 @@
       "source_repo": "coverlet-coverage/coverlet",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafuse-extras/xorfilter",
+      "status": "candidate-context",
+      "text": "Rust library implementing xor-filters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/xorfilter",
+      "status": "candidate-context",
+      "text": "unittest"
     }
   ],
   "candidate_glosses": [
@@ -217,6 +229,12 @@
       "source_repo": "coverlet-coverage/coverlet",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/xorfilter",
+      "status": "candidate",
+      "text": "unittest"
     }
   ],
   "candidate_related_terms": [
@@ -350,11 +368,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

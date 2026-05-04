@@ -79,6 +79,18 @@
       "source_repo": "xtensor-stack/xtensor",
       "status": "candidate-context",
       "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative \ud83e\udd8a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "Close inactive issues and PRs"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xtensor-stack/xtensor",
+      "status": "candidate",
+      "text": "Close inactive issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
       "status": "candidate",
       "text": "Close inactive issues and PRs"
     }
@@ -250,11 +268,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/issue-close.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/organize_issue.yml",
+      "source_repo": "Floorp-Projects/Floorp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/issue-close.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

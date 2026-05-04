@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shadowsocks-libev",
+      "sense_id": "shadowsocks-libev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shadowsocks-libev",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shadowsocks-libev",
+  "observation_id": "0cb8253525780e54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "shadowsocks-libev",
+  "source_context_snippet": "OpenWrt LuCI for Shadowsocks-libev",
+  "source_file": null,
+  "source_repo": "shadowsocks/luci-app-shadowsocks",
+  "source_repo_description": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Swift-Format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fregante/GhostText"
     }
   ],
   "term": "sublime-text-plugin"

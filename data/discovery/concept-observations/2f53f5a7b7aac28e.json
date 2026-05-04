@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tweet nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tweet nightly"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10476,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "acne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "beau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "boa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10400,
+      "status": "candidate",
+      "text": "cram"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tweet nightly",
+      "sense_id": "tweet-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tweet-nightly",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tweet-nightly",
+  "observation_id": "2f53f5a7b7aac28e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Tweet nightly",
+  "source_context_snippet": "Tweet nightly",
+  "source_file": ".github/workflows/tweet-nightly.yml",
+  "source_repo": "brave/brave-browser",
+  "source_repo_description": "Brave browser for Android, iOS, Linux, macOS, Windows."
+}

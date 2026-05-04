@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
+      "target": "adri326/wombot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
+      "target": "pdillis/stylegan3-fun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
+      "target": "edstoica/stylegan3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edstoica/lucid_stylegan3_datasets_models",
+      "target": "edstoica/lucid_stylegan3_models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:25.845878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "artistic stylegan3 datasets and models we created during our ongoing stylegan3 trip.",
+    "fork": false,
+    "full_name": "edstoica/lucid_stylegan3_datasets_models",
+    "html_url": "https://github.com/edstoica/lucid_stylegan3_datasets_models",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-02-21T02:16:06Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2024-03-07T10:30:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adri326/wombot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edstoica/lucid_stylegan3_models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edstoica/stylegan3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pdillis/stylegan3-fun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

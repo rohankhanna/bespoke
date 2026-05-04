@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "firedragon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009748,
+      "status": "candidate",
+      "text": "fenne"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009747,
+      "status": "candidate",
+      "text": "firey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009746,
+      "status": "candidate",
+      "text": "firefountain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009745,
+      "status": "candidate",
+      "text": "firecan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10009744,
+      "status": "candidate",
+      "text": "fire machine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "firedragon",
+  "concept_id": "firedragon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "garuda-linux/firedragon"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firedragon",
+      "sense_id": "firedragon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

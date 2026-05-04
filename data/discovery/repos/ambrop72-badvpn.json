@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:44:57.401481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "NCD scripting language, tun2socks proxifier, P2P VPN",
+    "fork": false,
+    "full_name": "ambrop72/badvpn",
+    "html_url": "https://github.com/ambrop72/badvpn",
+    "language": "C",
+    "pushed_at": "2021-08-22T15:44:42Z",
+    "stargazers_count": 1931,
+    "topics": [],
+    "updated_at": "2026-05-02T05:32:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

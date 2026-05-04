@@ -19,6 +19,18 @@
       "source_repo": "python/typing",
       "status": "candidate-context",
       "text": "The documentation for Python's static typing can be found at"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arktypeio/arktype",
+      "status": "candidate-context",
+      "text": "TypeScript's 1:1 validator, optimized from editor to runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arktypeio/arktype",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">ArkType</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "python/typing",
       "status": "candidate",
       "text": "The documentation for Python's static typing can be found at"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arktypeio/arktype",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">ArkType</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "python/typing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "arktypeio/arktype"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

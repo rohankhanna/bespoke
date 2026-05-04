@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:44:45.393204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example data for Reexpress one (macOS application)",
+    "fork": false,
+    "full_name": "ReexpressAI/Example_Data",
+    "html_url": "https://github.com/ReexpressAI/Example_Data",
+    "language": "Python",
+    "pushed_at": "2024-08-10T01:35:48Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-04-13T10:43:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

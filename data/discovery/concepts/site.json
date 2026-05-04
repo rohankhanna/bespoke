@@ -70,6 +70,18 @@
       "source_repo": "umputun/remark42",
       "status": "candidate-context",
       "text": "site"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Site"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "umputun/remark42",
       "status": "candidate",
       "text": "site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate",
+      "text": "Site"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/ci-site.yml",
       "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "cucumber/cucumber-js"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

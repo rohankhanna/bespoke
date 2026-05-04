@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/fil_backend",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/fil_backend",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/fil_backend",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/fil_backend",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:53:55.936753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10002
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2243
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FIL backend for the Triton Inference Server",
+    "fork": false,
+    "full_name": "triton-inference-server/fil_backend",
+    "html_url": "https://github.com/triton-inference-server/fil_backend",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-30T00:42:01Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-08T06:31:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "polygon-clipping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-geo-polygon",
+      "status": "candidate-context",
+      "text": "Clipping and geometric operations for spherical polygons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo-polygon",
+      "status": "candidate-context",
+      "text": "Clipping and geometric operations for spherical polygons."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo-polygon",
+      "status": "candidate",
+      "text": "Clipping and geometric operations for spherical polygons."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "polygon-clipping",
+  "concept_id": "polygon-clipping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "d3/d3-geo-polygon"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polygon-clipping",
+      "sense_id": "polygon-clipping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

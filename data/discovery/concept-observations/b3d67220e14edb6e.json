@@ -113,7 +113,7 @@
   "normalized_form": "validation",
   "observation_id": "b3d67220e14edb6e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "validation",
   "source_context_snippet": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
   "source_file": null,

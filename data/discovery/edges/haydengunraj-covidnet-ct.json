@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "aalhaimi/covid-net-cxr-shuffle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "chest-ct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus-detect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covid-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covidx-ct-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "sars-cov-2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "haydengunraj/COVIDNet-CT"
+}

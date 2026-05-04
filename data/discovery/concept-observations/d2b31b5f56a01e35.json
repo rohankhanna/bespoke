@@ -48,7 +48,7 @@
   "normalized_form": "format-pr",
   "observation_id": "d2b31b5f56a01e35",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "format-pr",
   "source_context_snippet": "format-pr",
   "source_file": ".github/workflows/fix-format.yml",

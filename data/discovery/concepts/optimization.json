@@ -523,6 +523,18 @@
       "source_repo": "Tokazama/StaticRanges.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/Tokazama/StaticRanges.jl.svg?branch=master)](https://travis-ci.com/Tokazama/StaticRanges.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "Tokazama/StaticRanges.jl",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/Tokazama/StaticRanges.jl.svg?branch=master)](https://travis-ci.com/Tokazama/StaticRanges.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [
@@ -1408,11 +1426,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

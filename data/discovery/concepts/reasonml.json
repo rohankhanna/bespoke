@@ -55,6 +55,18 @@
       "source_repo": "reasonml-community/reason-react-hacker-news",
       "status": "candidate-context",
       "text": "Reason React Hacker News"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "Tidy, feature-complete Web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Dream</h1>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "reasonml-community/reason-react-hacker-news",
       "status": "candidate",
       "text": "Reason React Hacker News"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Dream</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "reasonml-community/reason-react-hacker-news"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "camlworks/dream"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

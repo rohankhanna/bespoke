@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "form-validation",
+      "sense_id": "form-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "form-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "form-validation",
+  "observation_id": "c3a3a558cd7b4cca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "form-validation",
+  "source_context_snippet": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)",
+  "source_file": null,
+  "source_repo": "ftonato/nope-validator",
+  "source_repo_description": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+}

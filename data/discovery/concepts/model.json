@@ -127,6 +127,18 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate-context",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate-context",
+      "text": "400+ AI Models: Rich, high-quality AI models, including CV, NLP, Speech, Video and Cross-Modal. Easy to Use: 3 lines of code to predict 400+ AI models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "yfeng95/DECA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleHub"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:44:09.573793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "version1",
+    "description": "In-depth Understanding of BFE\u300a\u6df1\u5165\u7406\u89e3BFE\u300b\uff08Book for BFE, a CNCF open source project. both in English and in Chinese\uff09",
+    "fork": false,
+    "full_name": "baidu/bfe-book",
+    "html_url": "https://github.com/baidu/bfe-book",
+    "language": null,
+    "pushed_at": "2024-01-21T05:59:08Z",
+    "stargazers_count": 1295,
+    "topics": [],
+    "updated_at": "2026-04-29T03:26:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

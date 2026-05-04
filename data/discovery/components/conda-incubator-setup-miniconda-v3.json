@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -417,6 +417,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python.yml",
       "source_repo": "isciences/exactextract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-bash.yml",
+      "source_repo": "coin-or/CppAD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "source_repo": "coin-or/CppAD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-eigen.yml",
+      "source_repo": "coin-or/CppAD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-v142.yml",
+      "source_repo": "coin-or/CppAD"
     }
   ]
 }

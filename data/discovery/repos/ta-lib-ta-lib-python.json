@@ -236,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T08:18:40.268783+00:00",
+  "fetched_at": "2026-05-04T18:51:16.327669+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -273,7 +273,7 @@
     "html_url": "https://github.com/TA-Lib/ta-lib-python",
     "language": "Cython",
     "pushed_at": "2026-03-16T16:55:43Z",
-    "stargazers_count": 11929,
+    "stargazers_count": 11932,
     "topics": [
       "finance",
       "pattern-recognition",
@@ -282,7 +282,7 @@
       "ta-lib",
       "technical-analysis"
     ],
-    "updated_at": "2026-05-04T07:04:59Z"
+    "updated_at": "2026-05-04T18:02:09Z"
   },
   "repo_links": [],
   "terms": [

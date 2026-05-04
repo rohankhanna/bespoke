@@ -259,6 +259,18 @@
       "source_repo": "fabio-sim/LightGlue-ONNX",
       "status": "candidate-context",
       "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate-context",
+      "text": "Adlik: Toolkit for Accelerating Deep Learning Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/Adlik/GitHub/_apis/build/status/Adlik.Adlik?branchName=master)](https://dev.azure.com/Adlik/GitHub/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "fabio-sim/LightGlue-ONNX",
       "status": "candidate",
       "text": "<div align=\"right\"> English | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.zh.md\">\u7b80\u4f53\u4e2d\u6587</a> | <a href=\"https://github.com/fabio-sim/LightGlue-ONNX/blob/main/docs/README.ja.md\">\u65e5\u672c\u8a9e</a></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/Adlik",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/Adlik/GitHub/_apis/build/status/Adlik.Adlik?branchName=master)](https://dev.azure.com/Adlik/GitHub/_build/latest?definitionId=1&branchName=master)"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +586,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/openvino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Adlik/Adlik"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

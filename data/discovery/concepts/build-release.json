@@ -215,6 +215,30 @@
       "source_repo": "boozook/mdbook-svgbob",
       "status": "candidate-context",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "build-release"
     }
   ],
   "candidate_glosses": [
@@ -319,6 +343,18 @@
       "source_repo": "boozook/mdbook-svgbob",
       "status": "candidate",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "build-release"
     }
   ],
   "candidate_related_terms": [
@@ -464,11 +500,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "boozook/mdbook-svgbob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

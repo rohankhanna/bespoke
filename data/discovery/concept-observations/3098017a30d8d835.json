@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stylelint configuration for SCSS and CSS projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This provides a [Stylelint](https://stylelint.io/) configuration for linting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This provides a [Stylelint](https://stylelint.io/) configuration for linting"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "govuk-design-system-team",
+      "sense_id": "govuk-design-system-team#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "govuk-design-system-team",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "govuk-design-system-team",
+  "observation_id": "3098017a30d8d835",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "govuk-design-system-team",
+  "source_context_snippet": "This provides a [Stylelint](https://stylelint.io/) configuration for linting",
+  "source_file": null,
+  "source_repo": "alphagov/stylelint-config-gds",
+  "source_repo_description": "Stylelint configuration for SCSS and CSS projects"
+}

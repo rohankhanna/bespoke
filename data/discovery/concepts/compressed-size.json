@@ -176,6 +176,18 @@
       "source_repo": "react-hook-form/resolvers",
       "status": "candidate-context",
       "text": "Compressed Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "Compressed Size"
     }
   ],
   "candidate_glosses": [
@@ -260,6 +272,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "react-hook-form/resolvers",
+      "status": "candidate",
+      "text": "Compressed Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
       "status": "candidate",
       "text": "Compressed Size"
     }
@@ -401,11 +419,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/compressedSize.yml",
       "source_repo": "react-hook-form/resolvers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "ftonato/nope-validator"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

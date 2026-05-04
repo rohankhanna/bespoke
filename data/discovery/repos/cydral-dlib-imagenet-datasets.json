@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:00:00.219952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Preprocessed Stable ImageNet-1K datasets in multiple resolutions (32x32 to 256x256) for Dlib, with tools for dataset creation and loading.",
+    "fork": false,
+    "full_name": "Cydral/Dlib-ImageNet-Datasets",
+    "html_url": "https://github.com/Cydral/Dlib-ImageNet-Datasets",
+    "language": "C++",
+    "pushed_at": "2025-05-08T16:50:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-05-08T16:50:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "ci-with-eol-ruby-versions",
   "observation_id": "53114b0955000a0e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "CI with EOL ruby versions",
   "source_context_snippet": "CI with EOL ruby versions",
   "source_file": ".github/workflows/ci_legacy.yml",

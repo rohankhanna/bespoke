@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "apple/swift-corelibs-foundation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-json",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:39.823824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A feather-weight JSON decoder in Swift",
+    "fork": false,
+    "full_name": "ptsochantaris/trailer-json",
+    "html_url": "https://github.com/ptsochantaris/trailer-json",
+    "language": "Swift",
+    "pushed_at": "2026-03-23T19:11:04Z",
+    "stargazers_count": 4,
+    "topics": [
+      "ios",
+      "json",
+      "macos",
+      "performance",
+      "swift",
+      "watchos"
+    ],
+    "updated_at": "2026-03-23T19:11:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-corelibs-foundation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerJsonLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

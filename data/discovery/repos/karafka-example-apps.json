@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -94,7 +94,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "karafka/example-apps",
-      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "target_type": "component"
     },
     {
@@ -154,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:25:05.876091+00:00",
+  "fetched_at": "2026-05-04T18:40:25.419658+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,7 +182,7 @@
     "full_name": "karafka/example-apps",
     "html_url": "https://github.com/karafka/example-apps",
     "language": "Ruby",
-    "pushed_at": "2026-05-03T22:00:46Z",
+    "pushed_at": "2026-05-04T14:09:03Z",
     "stargazers_count": 58,
     "topics": [
       "kafka",
@@ -192,7 +192,7 @@
       "waterdrop",
       "zookeeper"
     ],
-    "updated_at": "2026-04-29T05:04:50Z"
+    "updated_at": "2026-05-04T14:12:15Z"
   },
   "repo_links": [
     {

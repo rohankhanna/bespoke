@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhuiyiTechnology/pretrained-models",
+      "target": "zhuiyitechnology/wobert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhuiyiTechnology/pretrained-models",
+      "target": "zhuiyitechnology/t5-pegasus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:47.419620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open Language Pre-trained Model Zoo",
+    "fork": false,
+    "full_name": "ZhuiyiTechnology/pretrained-models",
+    "html_url": "https://github.com/ZhuiyiTechnology/pretrained-models",
+    "language": null,
+    "pushed_at": "2021-11-18T03:35:49Z",
+    "stargazers_count": 1006,
+    "topics": [],
+    "updated_at": "2026-04-06T05:25:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuiyitechnology/t5-pegasus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuiyitechnology/wobert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

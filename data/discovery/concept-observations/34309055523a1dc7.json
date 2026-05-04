@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bayesian statistics graduate course"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Slides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Slides"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11968,
+      "status": "candidate",
+      "text": "plank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11968,
+      "status": "candidate",
+      "text": "slip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "magazine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10845,
+      "status": "candidate",
+      "text": "runner"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Slides",
+      "sense_id": "build-slides#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-slides",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-slides",
+  "observation_id": "34309055523a1dc7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Build Slides",
+  "source_context_snippet": "Build Slides",
+  "source_file": ".github/workflows/build-slides.yml",
+  "source_repo": "storopoli/Bayesian-Statistics",
+  "source_repo_description": "Bayesian statistics graduate course"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "uBO Lite home (MV3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "uBO Lite beta"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "uBO Lite beta"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11301,
+      "status": "candidate",
+      "text": "toy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "antic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "asinine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "brainless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10977,
+      "status": "candidate",
+      "text": "bugger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "uBO Lite beta",
+      "sense_id": "ubo-lite-beta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ubo-lite-beta",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ubo-lite-beta",
+  "observation_id": "ad0605e3135ac035",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "uBO Lite beta",
+  "source_context_snippet": "uBO Lite beta",
+  "source_file": ".github/workflows/create_beta.yml",
+  "source_repo": "uBlockOrigin/uBOL-home",
+  "source_repo_description": "uBO Lite home (MV3)"
+}

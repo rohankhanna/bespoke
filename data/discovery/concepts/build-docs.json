@@ -586,6 +586,18 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "build-docs"
     }
   ],
   "candidate_glosses": [
@@ -882,6 +894,12 @@
       "source_repo": "cosmos/cosmos-sdk",
       "status": "candidate",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "build-docs"
     }
   ],
   "candidate_related_terms": [
@@ -1633,11 +1651,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

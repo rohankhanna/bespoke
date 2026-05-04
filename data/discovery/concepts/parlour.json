@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "parlour"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000471,
+      "status": "candidate",
+      "text": "livingroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000279,
+      "status": "candidate",
+      "text": "sitting room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000005,
+      "status": "candidate",
+      "text": "parlor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999802,
+      "status": "candidate",
+      "text": "living room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999436,
+      "status": "candidate",
+      "text": "front room"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "parlor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "living room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "front room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3004,
+      "status": "candidate",
+      "text": "livingroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "sitting room"
+    }
+  ],
+  "canonical_name": "parlour",
+  "concept_id": "parlour",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AaronC81/sord"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parlour",
+      "sense_id": "parlour#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

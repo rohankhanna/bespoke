@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "shadowsocks/openwrt-feeds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "chenhw2/openwrt-dnsmasq-extra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "chnroute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "gfwlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "lede",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "target": "openwrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:45:15.458813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Anti Pollution/ADs DNS for OpenWrt/LEDE",
+    "fork": false,
+    "full_name": "honwen/openwrt-dnsmasq-extra",
+    "html_url": "https://github.com/honwen/openwrt-dnsmasq-extra",
+    "language": "Shell",
+    "pushed_at": "2026-04-27T07:53:19Z",
+    "stargazers_count": 36,
+    "topics": [
+      "chnroute",
+      "dns",
+      "gfwlist",
+      "lede",
+      "openwrt"
+    ],
+    "updated_at": "2026-04-27T07:53:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenhw2/openwrt-dnsmasq-extra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadowsocks/openwrt-feeds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chnroute"
+    },
+    {
+      "context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gfwlist"
+    },
+    {
+      "context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lede"
+    },
+    {
+      "context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openwrt"
+    }
+  ]
+}

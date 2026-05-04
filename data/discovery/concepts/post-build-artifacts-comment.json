@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post Build Artifacts Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Post Build Artifacts Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "Post Build Artifacts Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30163,
+      "status": "candidate",
+      "text": "mount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030,
+      "status": "candidate",
+      "text": "fic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030,
+      "status": "candidate",
+      "text": "fix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938,
+      "status": "candidate",
+      "text": "cognize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938,
+      "status": "candidate",
+      "text": "objectified"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post Build Artifacts Comment",
+  "concept_id": "post-build-artifacts-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/post_build_artifacts_comment.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Build Artifacts Comment",
+      "sense_id": "post-build-artifacts-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "component": "DeterminateSystems/nix-installer-action@v20",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    }
+  ]
+}

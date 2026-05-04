@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artyom/leproxy",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artyom/leproxy",
+      "target": "https-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artyom/leproxy",
+      "target": "https-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artyom/leproxy",
+      "target": "letsencrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artyom/leproxy",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:59:07.754367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1451
+    },
+    {
+      "path": "go.mod",
+      "size": 238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "https reverse proxy with automatic Letsencrypt usage for multiple hostnames/backends",
+    "fork": false,
+    "full_name": "artyom/leproxy",
+    "html_url": "https://github.com/artyom/leproxy",
+    "language": "Go",
+    "pushed_at": "2023-10-10T17:34:16Z",
+    "stargazers_count": 100,
+    "topics": [
+      "go",
+      "golang",
+      "https-proxy",
+      "https-server",
+      "letsencrypt",
+      "reverse-proxy"
+    ],
+    "updated_at": "2025-11-03T17:03:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Command leproxy implements https reverse proxy with automatic Letsencrypt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Command leproxy implements https reverse proxy with automatic Letsencrypt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https-proxy"
+    },
+    {
+      "context_snippet": "Command leproxy implements https reverse proxy with automatic Letsencrypt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https-server"
+    },
+    {
+      "context_snippet": "Command leproxy implements https reverse proxy with automatic Letsencrypt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    },
+    {
+      "context_snippet": "Command leproxy implements https reverse proxy with automatic Letsencrypt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    }
+  ]
+}

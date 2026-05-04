@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- - [News](#news-fire) -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- - [News](#news-fire) -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551483,
+      "status": "candidate",
+      "text": "carli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551481,
+      "status": "candidate",
+      "text": "carly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28551467,
+      "status": "candidate",
+      "text": "karla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28550869,
+      "status": "candidate",
+      "text": "valerie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28544713,
+      "status": "candidate",
+      "text": "karl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "carla",
+      "sense_id": "carla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "carla",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "carla",
+  "observation_id": "353a2d9708cdd7f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "carla",
+  "source_context_snippet": "<!-- - [News](#news-fire) -->",
+  "source_file": null,
+  "source_repo": "PJLab-ADG/PCSim",
+  "source_repo_description": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\"."
+}

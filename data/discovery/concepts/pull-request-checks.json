@@ -31,6 +31,18 @@
       "source_repo": "Azure-Samples/azureai-samples",
       "status": "candidate-context",
       "text": "Pull Request Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "Outline Client and Manager, developed by Jigsaw. Outline Manager makes it easy to create your own VPN server. Outline Client lets you share access to your VPN with anyone in your network, giving them access to the free and open internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "Pull Request Checks"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure-Samples/azureai-samples",
+      "status": "candidate",
+      "text": "Pull Request Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate",
       "text": "Pull Request Checks"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pull-request-checks.yml",
       "source_repo": "Azure-Samples/azureai-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pull_request_checks.yml",
+      "source_repo": "OutlineFoundation/outline-apps"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

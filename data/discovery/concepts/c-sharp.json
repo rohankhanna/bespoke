@@ -319,6 +319,18 @@
       "source_repo": "jpbruyere/Crow",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "Helix Toolkit is a collection of 3D components for .NET."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate-context",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "jpbruyere/Crow",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit",
+      "status": "candidate",
+      "text": "[![HelixToolkit](https://img.shields.io/badge/-Helix%20Toolkit-blue)](https://github.com/helix-toolkit/helix-toolkit)"
     }
   ],
   "candidate_related_terms": [
@@ -694,11 +712,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "jpbruyere/Crow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "helix-toolkit/helix-toolkit"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

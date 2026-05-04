@@ -84,7 +84,7 @@
   "normalized_form": "build-autogptq-wheels-with-rocm",
   "observation_id": "7c4b903fa1021f0b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Build AutoGPTQ Wheels with ROCm",
   "source_context_snippet": "Build AutoGPTQ Wheels with ROCm",
   "source_file": ".github/workflows/build_wheels_rocm.yml",

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful Clojure web library, full HTTP, full async - see https://juxt.pro/yada/index.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953517,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950027,
+      "status": "candidate",
+      "text": "multiply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932192,
+      "status": "candidate",
+      "text": "multiplex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953803,
+      "status": "candidate",
+      "text": "multifold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953596,
+      "status": "candidate",
+      "text": "multifarious"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manifold",
+      "sense_id": "manifold#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15042,
+      "status": "candidate",
+      "text": "multiplex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2037,
+      "status": "candidate",
+      "text": "multiply"
+    }
+  ],
+  "concept_id": "manifold",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "manifold",
+  "observation_id": "b3b5749aad79eba4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "manifold",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+  "source_file": null,
+  "source_repo": "juxt/yada",
+  "source_repo_description": "A powerful Clojure web library, full HTTP, full async - see https://juxt.pro/yada/index.html"
+}

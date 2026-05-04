@@ -1,7 +1,7 @@
 {
   "component": "dependabot/fetch-metadata@v2",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automerge-dependabot.yml",
       "source_repo": "storybook-community/addon-queryparams"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "vincentlaucsb/experiencer"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -247,6 +247,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/book.yml",
       "source_repo": "ZcashFoundation/zebra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "cucumber/cucumber-js"
     }
   ]
 }

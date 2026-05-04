@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "horseee/deepcache",
+      "target": "luping-liu/pndm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "horseee/learning-to-cache",
+      "target": "liuzuyan/elasticcache",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "haozheliu-st/t-gate",
+      "target": "liewfeng/teacache",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "jjihwan/fifo-diffusion_public",
+      "target": "mit-han-lab/nunchaku",
       "target_type": "repository"
     },
     {
@@ -99,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "xlite-dev/Awesome-DiT-Inference"
 }

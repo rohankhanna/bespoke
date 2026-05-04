@@ -1,0 +1,17 @@
+{
+  "component": "dominikh/staticcheck-action@ba605356b4b29a60e87ab9404b712f3461e566dc",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "containrrr/watchtower"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containrrr/watchtower"
+    }
+  ]
+}

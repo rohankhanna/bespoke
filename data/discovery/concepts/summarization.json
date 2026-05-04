@@ -43,6 +43,18 @@
       "source_repo": "opea-project/GenAIExamples",
       "status": "candidate-context",
       "text": "GenAIExamples are designed to give developers an easy entry into generative AI, featuring microservice-based samples that simplify the processes of deploying, testing, and scaling GenAI applications. All examples are fully compatible with both Docker and Kubernetes, supporting a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate-context",
+      "text": "Large-scale multi-document summarization dataset and code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate-context",
+      "text": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "opea-project/GenAIExamples",
       "status": "candidate",
       "text": "GenAIExamples are designed to give developers an easy entry into generative AI, featuring microservice-based samples that simplify the processes of deploying, testing, and scaling GenAI applications. All examples are fully compatible with both Docker and Kubernetes, supporting a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate",
+      "text": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf)."
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "opea-project/GenAIExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex-Fabbri/Multi-News"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

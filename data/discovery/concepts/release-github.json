@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release-github"
+    "release-github",
+    "Release GitHub"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "release-github"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Release GitHub"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "release-github"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate",
+      "text": "Release GitHub"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "release-github",
   "concept_id": "release-github",
@@ -64,11 +119,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release-github.yml",
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release-github.yml",
+      "source_repo": "cucumber/cucumber-js"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

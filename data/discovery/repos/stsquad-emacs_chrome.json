@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "jquery/jquery-color",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "frankkohlhepp/fancy-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "rafaelw/mutation-summary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "emacs-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stsquad/emacs_chrome",
+      "target": "firefox-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T21:03:36.485250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6037
+    },
+    {
+      "path": "package.json",
+      "size": 116
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Firefox \"clone\" of It's All Text for spawning an editor to edit text areas in browsers. Based on David Hilley's original Chromium extension.",
+    "fork": false,
+    "full_name": "stsquad/emacs_chrome",
+    "html_url": "https://github.com/stsquad/emacs_chrome",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-05T09:07:01Z",
+    "stargazers_count": 538,
+    "topics": [
+      "emacs-package",
+      "firefox-extension"
+    ],
+    "updated_at": "2026-04-24T18:13:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frankkohlhepp/fancy-settings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jquery/jquery-color",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rafaelw/mutation-summary",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml/badge.svg)](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-package"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml/badge.svg)](https://github.com/stsquad/emacs_chrome/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-extension"
+    }
+  ]
+}

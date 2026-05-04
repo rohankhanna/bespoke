@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "vivaldi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8525401,
+      "status": "candidate",
+      "text": "vitello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8525400,
+      "status": "candidate",
+      "text": "vultaggio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8525399,
+      "status": "candidate",
+      "text": "vitelli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8525398,
+      "status": "candidate",
+      "text": "vella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8525397,
+      "status": "candidate",
+      "text": "vitaliano"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "vivaldi",
+  "concept_id": "vivaldi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vivaldi",
+      "sense_id": "vivaldi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

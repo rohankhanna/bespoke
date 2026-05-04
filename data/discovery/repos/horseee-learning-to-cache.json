@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "horseee/learning-to-cache",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "horseee/learning-to-cache",
+      "target": "efficient-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:52:22.518492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Learning-to-Cache: Accelerating Diffusion Transformer via Layer Caching",
+    "fork": false,
+    "full_name": "horseee/learning-to-cache",
+    "html_url": "https://github.com/horseee/learning-to-cache",
+    "language": "Python",
+    "pushed_at": "2024-07-15T03:49:52Z",
+    "stargazers_count": 119,
+    "topics": [
+      "diffusion-models",
+      "efficient-inference"
+    ],
+    "updated_at": "2026-04-01T11:10:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-inference"
+    }
+  ]
+}

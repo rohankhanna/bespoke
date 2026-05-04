@@ -120,7 +120,7 @@
   "normalized_form": "security",
   "observation_id": "6d09395dc6353756",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Security",
   "source_context_snippet": "Security",
   "source_file": ".github/workflows/security.yml",

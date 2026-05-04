@@ -1,0 +1,12 @@
+{
+  "component": "nearform-actions/github-action-notify-twitter@b3fa623c2f320117e8a08e20564c4ce0a5e67930",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tweet-nightly.yml",
+      "source_repo": "brave/brave-browser"
+    }
+  ]
+}

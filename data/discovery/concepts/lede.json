@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "lede"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate-context",
+      "text": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate-context",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate-context",
+      "text": "OpenWrt/LEDE LuCI for Shadowsocks-libev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate-context",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honwen/openwrt-dnsmasq-extra",
+      "status": "candidate",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shadowsocks/luci-app-shadowsocks",
+      "status": "candidate",
+      "text": "OpenWrt LuCI for Shadowsocks-libev"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030092,
+      "status": "candidate",
+      "text": "lintard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030091,
+      "status": "candidate",
+      "text": "lewdster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030090,
+      "status": "candidate",
+      "text": "lidderon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030089,
+      "status": "candidate",
+      "text": "lardhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030088,
+      "status": "candidate",
+      "text": "leg man"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lede",
+  "concept_id": "lede",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "honwen/openwrt-dnsmasq-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "shadowsocks/luci-app-shadowsocks"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lede",
+      "sense_id": "lede#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:46:20.295885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Argos Translate package index",
+    "fork": false,
+    "full_name": "argosopentech/argospm-index",
+    "html_url": "https://github.com/argosopentech/argospm-index",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-26T08:23:46Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-05-03T11:14:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -106,7 +106,7 @@
   "normalized_form": "radar",
   "observation_id": "eb9a9609108fa66e",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "radar",
   "source_context_snippet": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026",
   "source_file": null,

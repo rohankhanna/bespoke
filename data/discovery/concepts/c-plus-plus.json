@@ -1243,6 +1243,30 @@
       "source_repo": "mapbox/protozero",
       "status": "candidate-context",
       "text": "Minimalistic protocol buffer decoder and encoder in C++."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Jiminy: a fast and portable Python/C++ simulator of poly-articulated robots with OpenAI Gym interface for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmcode/libosmium",
+      "status": "candidate-context",
+      "text": "Fast and flexible C++ library for working with OpenStreetMap data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmcode/libosmium",
+      "status": "candidate-context",
+      "text": "https://osmcode.org/libosmium"
     }
   ],
   "candidate_glosses": [
@@ -1863,6 +1887,18 @@
       "source_repo": "mapbox/protozero",
       "status": "candidate",
       "text": "Minimalistic protocol buffer decoder and encoder in C++."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmcode/libosmium",
+      "status": "candidate",
+      "text": "https://osmcode.org/libosmium"
     }
   ],
   "candidate_related_terms": [],
@@ -3004,11 +3040,53 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "duburcqa/jiminy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "osmcode/libosmium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "tinyobjloader/tinyobjloader"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

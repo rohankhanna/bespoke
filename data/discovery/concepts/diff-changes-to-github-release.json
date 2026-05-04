@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Diff changes to GitHub release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate-context",
+      "text": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate-context",
+      "text": "Diff changes to GitHub release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate",
+      "text": "Diff changes to GitHub release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "alteration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "disguise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "disguised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "index"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Diff changes to GitHub release",
+  "concept_id": "diff-changes-to-github-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/diff-change-to-dist.yaml",
+      "source_repo": "alphagov/govuk-frontend"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Diff changes to GitHub release",
+      "sense_id": "diff-changes-to-github-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

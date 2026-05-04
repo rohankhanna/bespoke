@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "COVID-Net Open Source Initiative - Models and Data for COVID-19 Detection in Chest CT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chest-ct",
+      "sense_id": "chest-ct#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chest-ct",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chest-ct",
+  "observation_id": "5cb107b72967e3f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "chest-ct",
+  "source_context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+  "source_file": null,
+  "source_repo": "haydengunraj/COVIDNet-CT",
+  "source_repo_description": "COVID-Net Open Source Initiative - Models and Data for COVID-19 Detection in Chest CT"
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "target": "livox-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "target": "mid-100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "target": "mid-40",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:47.527648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Drivers for receiving LiDAR data and more, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia.",
+    "fork": false,
+    "full_name": "Livox-SDK/Livox-SDK",
+    "html_url": "https://github.com/Livox-SDK/Livox-SDK",
+    "language": "C++",
+    "pushed_at": "2024-12-17T13:20:09Z",
+    "stargazers_count": 638,
+    "topics": [
+      "lidar",
+      "livox-sdk",
+      "mid-100",
+      "mid-40"
+    ],
+    "updated_at": "2026-04-29T09:20:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livox-sdk"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mid-100"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mid-40"
+    }
+  ]
+}

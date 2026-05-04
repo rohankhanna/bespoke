@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[RAL' 25 & IROS\u2018 25] MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slam-benchmarcking",
+      "sense_id": "slam-benchmarcking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slam-benchmarcking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slam-benchmarcking",
+  "observation_id": "93b97f64ba893ede",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "slam-benchmarcking",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+  "source_repo_description": "[RAL' 25 & IROS\u2018 25] MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework."
+}

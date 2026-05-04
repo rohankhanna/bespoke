@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Assign issue labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Assign issue labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate",
+      "text": "Assign issue labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26111,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22470,
+      "status": "candidate",
+      "text": "number"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22414,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21442,
+      "status": "candidate",
+      "text": "labeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21442,
+      "status": "candidate",
+      "text": "labelled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign issue labels",
+  "concept_id": "assign-issue-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/assign-issue-labels.yml",
+      "source_repo": "brave/brave-browser"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign issue labels",
+      "sense_id": "assign-issue-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

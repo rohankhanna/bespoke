@@ -166,6 +166,18 @@
       "source_repo": "ansible/ansible-language-server",
       "status": "candidate-context",
       "text": "push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "Ansible IDE extension: auto-completion and integrating quality assurance tools like ansible-lint, ansible syntax check, yamllint, molecule and ansible-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "push"
     }
   ],
   "candidate_glosses": [
@@ -244,6 +256,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ansible/ansible-language-server",
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
       "status": "candidate",
       "text": "push"
     }
@@ -439,11 +457,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ansible/vscode-ansible"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

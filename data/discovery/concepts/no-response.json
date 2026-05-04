@@ -2,7 +2,8 @@
   "aliases": [
     "No Response",
     "no-response",
-    "No response"
+    "No response",
+    "\ud83e\udd7a No Response"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -225,6 +226,18 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "\ud83e\udd7a No Response"
     }
   ],
   "candidate_glosses": [
@@ -335,6 +348,12 @@
       "source_repo": "DevExpress/testcafe",
       "status": "candidate",
       "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate",
+      "text": "\ud83e\udd7a No Response"
     }
   ],
   "candidate_related_terms": [
@@ -372,6 +391,41 @@
       "score": 73342,
       "status": "candidate",
       "text": "no dice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48346,
+      "status": "candidate",
+      "text": "answers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48346,
+      "status": "candidate",
+      "text": "anything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48346,
+      "status": "candidate",
+      "text": "nothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48346,
+      "status": "candidate",
+      "text": "replies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48346,
+      "status": "candidate",
+      "text": "strange"
     }
   ],
   "candidate_synonyms": [],
@@ -492,11 +546,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "ftonato/nope-validator"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

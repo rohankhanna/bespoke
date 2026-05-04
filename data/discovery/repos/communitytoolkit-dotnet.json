@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "communitytoolkit/windowscommunitytoolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "CI-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "maui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "mvvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "netcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "netframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "netstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet",
+      "target": "uno-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:28.709383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6251
+    },
+    {
+      "path": ".github/workflows/SignClientFileList.txt",
+      "size": 22
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 7307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+    "fork": false,
+    "full_name": "CommunityToolkit/dotnet",
+    "html_url": "https://github.com/CommunityToolkit/dotnet",
+    "language": "C#",
+    "pushed_at": "2026-03-25T20:27:06Z",
+    "stargazers_count": 3661,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "maui",
+      "mvvm",
+      "netcore",
+      "netframework",
+      "netstandard",
+      "uno-platform",
+      "uwp",
+      "wpf"
+    ],
+    "updated_at": "2026-05-04T04:11:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "communitytoolkit/windowscommunitytoolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "term": "CI-build"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maui"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mvvm"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netframework"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netstandard"
+    },
+    {
+      "context_snippet": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uno-platform"
+    }
+  ]
+}

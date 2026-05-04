@@ -127,6 +127,18 @@
       "source_repo": "dropzone/dropzone",
       "status": "candidate-context",
       "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obartra/ssim",
+      "status": "candidate-context",
+      "text": "\ud83d\uddbc\ud83d\udd2c JavaScript Image Comparison"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obartra/ssim",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/obartra/ssim/tree/master.svg?style=shield)](https://circleci.com/gh/obartra/ssim/tree/master) [![Test Coverage](https://codeclimate.com/github/obartra/ssim/badges/coverage.svg)](https://codeclimate.com/github/obartra/ssim/coverage) [![license\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "dropzone/dropzone",
       "status": "candidate",
       "text": "<img alt=\"Dropzone.js\" src=\"https://raw.githubusercontent.com/dropzone/dropzone/assets/github-logo.svg\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obartra/ssim",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/obartra/ssim/tree/master.svg?style=shield)](https://circleci.com/gh/obartra/ssim/tree/master) [![Test Coverage](https://codeclimate.com/github/obartra/ssim/badges/coverage.svg)](https://codeclimate.com/github/obartra/ssim/coverage) [![license\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "dropzone/dropzone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "obartra/ssim"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

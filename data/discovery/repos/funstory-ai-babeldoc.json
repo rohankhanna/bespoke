@@ -163,13 +163,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
-      "target": "surya-is/surya",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "funstory-ai/BabelDOC",
       "target": "byaidu/pdfmathtranslate",
       "target_type": "repository"
     },
@@ -405,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:25:43.306852+00:00",
+  "fetched_at": "2026-05-04T19:46:13.139990+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -454,9 +447,9 @@
     "html_url": "https://github.com/funstory-ai/BabelDOC",
     "language": "Python",
     "pushed_at": "2026-04-13T22:19:45Z",
-    "stargazers_count": 8381,
+    "stargazers_count": 8383,
     "topics": [],
-    "updated_at": "2026-05-04T07:20:57Z"
+    "updated_at": "2026-05-04T13:02:22Z"
   },
   "repo_links": [
     {
@@ -472,11 +465,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "multimeric/asynchronize",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "surya-is/surya",
       "source_file": "README.md"
     }
   ],

@@ -487,6 +487,30 @@
       "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "The official code for the paper: https://openreview.net/forum?id=_PHymLIxuI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "This repository is the code for our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/CrossViT",
+      "status": "candidate-context",
+      "text": "Official implementation of CrossViT. https://arxiv.org/abs/2103.14899"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/CrossViT",
+      "status": "candidate-context",
+      "text": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +753,18 @@
       "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate",
+      "text": "This repository is the code for our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/CrossViT",
+      "status": "candidate",
+      "text": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)"
     }
   ],
   "candidate_related_terms": [],
@@ -1012,11 +1048,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "anyantudre/Florence-2-Vision-Language-Model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "IBM/CrossViT"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

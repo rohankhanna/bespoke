@@ -199,6 +199,42 @@
       "source_repo": "yokoffing/NextDNS-Config",
       "status": "candidate-context",
       "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "The place where I, DandelionSprout, store my web filter lists for countless topics, including my Nordic adblock list. As simple as that, really."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate-context",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "yokoffing/NextDNS-Config",
       "status": "candidate",
       "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DandelionSprout/adfilt",
+      "status": "candidate",
+      "text": "Update the ClearURLs uBo list"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +490,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "yokoffing/NextDNS-Config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "badmojr/1Hosts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DandelionSprout/adfilt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "easylist/easylist"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

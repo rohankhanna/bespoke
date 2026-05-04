@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "square/retrofit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "materialdrawer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "newsapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "newsapp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "newsreader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "debajyotibasak/MyTimes",
+      "target": "retrofit2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:45:29.975986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "News Reader App using NewsApi.org",
+    "fork": false,
+    "full_name": "debajyotibasak/MyTimes",
+    "html_url": "https://github.com/debajyotibasak/MyTimes",
+    "language": "Java",
+    "pushed_at": "2021-05-31T09:57:40Z",
+    "stargazers_count": 55,
+    "topics": [
+      "android",
+      "api",
+      "json",
+      "materialdrawer",
+      "news",
+      "newsapi",
+      "newsapp",
+      "newsreader",
+      "retrofit2"
+    ],
+    "updated_at": "2025-04-23T16:09:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "square/retrofit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "materialdrawer"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newsapi"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newsapp"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newsreader"
+    },
+    {
+      "context_snippet": "![ic_back](https://user-images.githubusercontent.com/16916934/27370350-c82d1c44-5679-11e7-9147-2e8adeb4c515.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrofit2"
+    }
+  ]
+}

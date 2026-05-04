@@ -151,6 +151,18 @@
       "source_repo": "PRBonn/MapMOS",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "PRBonn/MapMOS",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_related_terms": [
@@ -369,11 +387,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "PRBonn/MapMOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ftonato/nope-validator"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "SonarSource/sonarqube-scan-action@v8",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ansible/vscode-ansible"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post.yml",
+      "source_repo": "ansible/vscode-ansible"
+    }
+  ]
+}

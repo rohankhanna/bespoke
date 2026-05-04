@@ -67,6 +67,18 @@
       "source_repo": "Blinue/Magpie",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-video",
+      "status": "candidate-context",
+      "text": "GStreamer-based video library for Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-video",
+      "status": "candidate-context",
+      "text": "Processing Video"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Blinue/Magpie",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-video",
+      "status": "candidate",
+      "text": "Processing Video"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Blinue/Magpie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-video"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "jaredpalmer/formik",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate-context",
+      "text": "Browser API's turned into declarative React components and HoC's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate-context",
+      "text": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jaredpalmer/formik",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate",
+      "text": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/react-fns"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

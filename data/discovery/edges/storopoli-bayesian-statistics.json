@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/nix-installer-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/magic-nix-cache-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "Build Slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/nix-installer-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/magic-nix-cache-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "Test Models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/nix-installer-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/magic-nix-cache-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "Build and Release Slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/nix-installer-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "DeterminateSystems/update-flake-lock@v27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "Update Flake Lock File",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "bayesian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "bayesian-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "course",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "probabilistic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "probability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "stan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "storopoli/Bayesian-Statistics",
+      "target": "turing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "storopoli/Bayesian-Statistics"
+}

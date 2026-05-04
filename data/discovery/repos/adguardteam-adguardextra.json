@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "target": "adblock-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdGuardExtra",
+      "target": "userscript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:33.788458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AdGuard Extra is designed to solve complicated cases when regular ad blocking rules aren't enough.",
+    "fork": false,
+    "full_name": "AdguardTeam/AdGuardExtra",
+    "html_url": "https://github.com/AdguardTeam/AdGuardExtra",
+    "language": null,
+    "pushed_at": "2025-03-11T15:12:57Z",
+    "stargazers_count": 1208,
+    "topics": [
+      "adblock-circumvention",
+      "adguard",
+      "userscript"
+    ],
+    "updated_at": "2026-05-03T22:33:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock-circumvention"
+    },
+    {
+      "context_snippet": "AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "AdGuard Extra is a userscript (or a browser extension) that is supposed to fight ad blocking circumvention attempts which become more and more and popular. Regular ad blocking rules do not allow us being as flexible as it's necessary, that's why AdGuard Extra was developed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userscript"
+    }
+  ]
+}

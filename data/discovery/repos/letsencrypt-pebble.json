@@ -1,0 +1,478 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "letsencrypt/pebble",
+      "target": "letsencrypt/boulder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "letsencrypt/pebble",
+      "target": "ietf-wg-acme/acme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "Go Build Matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "letsencrypt/pebble",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "acme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "acme-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "certificate-authority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "letsencrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "rfc-8555",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble",
+      "target": "x509",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:14.541908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17681
+    },
+    {
+      "path": "go.mod",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/go-cross.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5070
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 3760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority.",
+    "fork": false,
+    "full_name": "letsencrypt/pebble",
+    "html_url": "https://github.com/letsencrypt/pebble",
+    "language": "Go",
+    "pushed_at": "2026-04-20T20:51:42Z",
+    "stargazers_count": 770,
+    "topics": [
+      "acme",
+      "acme-server",
+      "certificate-authority",
+      "https",
+      "letsencrypt",
+      "pki",
+      "rfc-8555",
+      "testing",
+      "x509"
+    ],
+    "updated_at": "2026-04-28T13:19:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ietf-wg-acme/acme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letsencrypt/boulder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Go Build Matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross.yml",
+      "term": "Go Build Matrix"
+    },
+    {
+      "context_snippet": "Build Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-server"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate-authority"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-8555"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x509"
+    }
+  ]
+}

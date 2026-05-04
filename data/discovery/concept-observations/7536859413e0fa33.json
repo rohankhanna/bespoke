@@ -48,7 +48,7 @@
   "normalized_form": "dockerfile",
   "observation_id": "7536859413e0fa33",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "dockerfile",
   "source_context_snippet": "[![Build Status](https://travis-ci.com/ExiaSR/vscode-hadolint.svg?branch=master)](https://travis-ci.com/ExiaSR/vscode-hadolint)",
   "source_file": null,

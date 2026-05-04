@@ -237,6 +237,18 @@
       "source_repo": "BerkleyTechnologyServices/restdocs-spec",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "Automated driver management and other helper features for Selenium WebDriver in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +365,12 @@
       "source_repo": "BerkleyTechnologyServices/restdocs-spec",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/io.github.bonigarcia/webdrivermanager.svg)](https://search.maven.org/search?q=g:io.github.bonigarcia%20a:webdrivermanager)"
     }
   ],
   "candidate_related_terms": [
@@ -618,11 +636,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bonigarcia/webdrivermanager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

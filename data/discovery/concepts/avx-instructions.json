@@ -31,6 +31,18 @@
       "source_repo": "minio/sha256-simd",
       "status": "candidate-context",
       "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "minio/sha256-simd",
       "status": "candidate",
       "text": "Accelerate SHA256 computations in pure Go using AVX512, SHA Extensions for x86 and ARM64 for ARM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "minio/sha256-simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

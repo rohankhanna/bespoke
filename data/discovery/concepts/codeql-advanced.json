@@ -655,6 +655,18 @@
       "source_repo": "zoom/karpenter-oci",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "Outline Client and Manager, developed by Jigsaw. Outline Manager makes it easy to create your own VPN server. Outline Client lets you share access to your VPN with anyone in your network, giving them access to the free and open internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -979,6 +991,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zoom/karpenter-oci",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlineFoundation/outline-apps",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -1570,11 +1588,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "OutlineFoundation/outline-apps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "googleapis/google-cloud-node"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

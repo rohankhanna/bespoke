@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd8a I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "userchrome-styles",
+      "sense_id": "userchrome-styles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "userchrome-styles",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "userchrome-styles",
+  "observation_id": "70fa4cec31afb364",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "userchrome-styles",
+  "source_context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+  "source_file": null,
+  "source_repo": "black7375/Firefox-UI-Fix",
+  "source_repo_description": "\ud83e\udd8a I respect proton UI and aim to improve it."
+}

@@ -871,6 +871,18 @@
       "source_repo": "microcosm-cc/bluemonday",
       "status": "candidate-context",
       "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "The essential toolkit for web-developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
     }
   ],
   "candidate_glosses": [
@@ -1305,6 +1317,12 @@
       "source_repo": "microcosm-cc/bluemonday",
       "status": "candidate",
       "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
     }
   ],
   "candidate_related_terms": [
@@ -2148,11 +2166,59 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "emmetio/emmet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "Vampire/setup-wsl@d1da7f2c0322a5ee4f24975344f67fc0f5baf364",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "jkroepke/helm-secrets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ansible/vscode-ansible"
     }
   ]
 }

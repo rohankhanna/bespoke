@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Moderate Content"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative \ud83e\udd8a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate-context",
+      "text": "Moderate Content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Floorp-Projects/Floorp",
+      "status": "candidate",
+      "text": "Moderate Content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "contained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "even"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11614,
+      "status": "candidate",
+      "text": "slack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "moisture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "smile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Moderate Content",
+  "concept_id": "moderate-content",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/moderation.yml",
+      "source_repo": "Floorp-Projects/Floorp"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Moderate Content",
+      "sense_id": "moderate-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

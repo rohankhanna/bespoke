@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:52:17.002508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR 2025 Spotlight] Vision-RWKV: Efficient and Scalable Visual Perception with RWKV-Like Architectures",
+    "fork": false,
+    "full_name": "OpenGVLab/Vision-RWKV",
+    "html_url": "https://github.com/OpenGVLab/Vision-RWKV",
+    "language": "Python",
+    "pushed_at": "2025-02-18T05:46:38Z",
+    "stargazers_count": 549,
+    "topics": [],
+    "updated_at": "2026-04-28T05:02:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

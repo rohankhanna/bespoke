@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "kosmtik/kosmtik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "gravitystorm/openstreetmap-carto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "mapbox/osm-bright",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:53:50.227330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Carto template for OpenStreetMap data",
+    "fork": true,
+    "full_name": "geofabrik/osm-bright",
+    "html_url": "https://github.com/geofabrik/osm-bright",
+    "language": "CartoCSS",
+    "pushed_at": "2025-08-21T23:36:42Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-02-08T15:44:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gravitystorm/openstreetmap-carto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosmtik/kosmtik",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/osm-bright",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

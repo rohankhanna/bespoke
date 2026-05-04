@@ -19,6 +19,18 @@
       "source_repo": "readthedocs/addons",
       "status": "candidate-context",
       "text": "This repository contains a self-contained JavaScript client that will empower your docs,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "Additional classes for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "readthedocs/addons",
       "status": "candidate",
       "text": "This repository contains a self-contained JavaScript client that will empower your docs,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "readthedocs/addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-addons"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

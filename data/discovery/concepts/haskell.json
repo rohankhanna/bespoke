@@ -379,6 +379,18 @@
       "source_repo": "mrkkrp/megaparsec",
       "status": "candidate-context",
       "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmark-md/mmark",
+      "status": "candidate-context",
+      "text": "Strict markdown processor for writers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +585,12 @@
       "source_repo": "mrkkrp/megaparsec",
       "status": "candidate",
       "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/mmark",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_related_terms": [
@@ -862,11 +880,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "mmark-md/mmark"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

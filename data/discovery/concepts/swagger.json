@@ -493,6 +493,18 @@
       "source_repo": "metosin/ring-swagger",
       "status": "candidate-context",
       "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juxt/yada",
+      "status": "candidate-context",
+      "text": "A powerful Clojure web library, full HTTP, full async - see https://juxt.pro/yada/index.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juxt/yada",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +753,12 @@
       "source_repo": "metosin/ring-swagger",
       "status": "candidate",
       "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juxt/yada",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
     }
   ],
   "candidate_related_terms": [
@@ -1294,11 +1312,35 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "metosin/ring-swagger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "juxt/yada"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

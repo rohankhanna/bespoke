@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:59:06.802791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1371
+    },
+    {
+      "path": "requirements.txt",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "DeyvidKochanov-TomTom/kprnet",
+    "html_url": "https://github.com/DeyvidKochanov-TomTom/kprnet",
+    "language": "Python",
+    "pushed_at": "2021-11-22T07:53:30Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2025-10-08T09:41:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

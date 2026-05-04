@@ -1,7 +1,7 @@
 {
   "component": "vegardit/fast-apt-mirror.sh@v1",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_test_package_on_pr.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patch_file_updater.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
     }
   ]
 }

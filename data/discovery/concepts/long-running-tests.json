@@ -31,6 +31,18 @@
       "source_repo": "ChillFish8/tantivy",
       "status": "candidate-context",
       "text": "Long running tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafuse-extras/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/tantivy",
+      "status": "candidate-context",
+      "text": "Long running tests"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ChillFish8/tantivy",
+      "status": "candidate",
+      "text": "Long running tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/tantivy",
       "status": "candidate",
       "text": "Long running tests"
     }
@@ -166,11 +184,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/long_running.yml",
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/long_running.yml",
+      "source_repo": "datafuse-extras/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/long_running.yml",
+      "source_repo": "quickwit-oss/tantivy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

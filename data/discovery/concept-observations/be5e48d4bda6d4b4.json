@@ -84,7 +84,7 @@
   "normalized_form": "append-api-node-pr-template",
   "observation_id": "be5e48d4bda6d4b4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Append API Node PR template",
   "source_context_snippet": "Append API Node PR template",
   "source_file": ".github/workflows/api-node-template.yml",

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -61,6 +61,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "LibreChat-AI/librechat.ai"
     }
   ],
   "term": "blog"

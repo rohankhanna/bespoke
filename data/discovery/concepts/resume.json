@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "resume"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate-context",
+      "text": "An interactive resume editor made with React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate-context",
+      "text": "**Are you tired of fighting with Microsoft Word? Want the power of HTML and CSS but less of the boilerplate?** Experiencer is an intuitive, flexible HTML & CSS based resume editor written using React supporting rich text, icons, and multiple-column layouts. While it would help t\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate",
+      "text": "**Are you tired of fighting with Microsoft Word? Want the power of HTML and CSS but less of the boilerplate?** Experiencer is an intuitive, flexible HTML & CSS based resume editor written using React supporting rich text, icons, and multiple-column layouts. While it would help t\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035277,
+      "status": "candidate",
+      "text": "restart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025450,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021584,
+      "status": "candidate",
+      "text": "take up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012867,
+      "status": "candidate",
+      "text": "sum up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006044,
+      "status": "candidate",
+      "text": "summarize"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18057,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "sketch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "curriculum vitae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "summarize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "restart"
+    }
+  ],
+  "canonical_name": "resume",
+  "concept_id": "resume",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/experiencer"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resume",
+      "sense_id": "resume#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -259,6 +259,18 @@
       "source_repo": "mswjs/interceptors",
       "status": "candidate-context",
       "text": "[![Latest version](https://img.shields.io/npm/v/@mswjs/interceptors.svg)](https://www.npmjs.com/package/@mswjs/interceptors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "mswjs/interceptors",
       "status": "candidate",
       "text": "[![Latest version](https://img.shields.io/npm/v/@mswjs/interceptors.svg)](https://www.npmjs.com/package/@mswjs/interceptors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -561,11 +579,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "mswjs/interceptors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

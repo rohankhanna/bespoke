@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -141,6 +141,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "PRBonn/semantic-kitti-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/xgo"
     }
   ],
   "term": "Labels"

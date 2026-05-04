@@ -1,7 +1,7 @@
 {
   "component": "jlumbroso/free-disk-space@v1.3.1",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -207,6 +207,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-x86-image.yaml",
       "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "duburcqa/jiminy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "duburcqa/jiminy"
     }
   ]
 }

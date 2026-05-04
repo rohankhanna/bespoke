@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "argosopentech/argospm-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "libretranslate/locomotive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "interaction-bot/opus-nlp-downloader",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "argosopentech/argos-train"
+}

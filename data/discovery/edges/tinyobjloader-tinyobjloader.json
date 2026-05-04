@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "iorange/rtxon",
+      "target": "lace/lacecore",
       "target_type": "repository"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "karimnaaji/voxelizer",
+      "target": "kayru/probulator",
       "target_type": "repository"
     },
     {
@@ -120,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "tinyobjloader/tinyobjloader"
 }

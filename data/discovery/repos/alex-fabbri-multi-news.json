@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "target": "multi-document-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "target": "multi-news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "target": "summarization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:50.717349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Large-scale multi-document summarization dataset and code",
+    "fork": false,
+    "full_name": "Alex-Fabbri/Multi-News",
+    "html_url": "https://github.com/Alex-Fabbri/Multi-News",
+    "language": "Python",
+    "pushed_at": "2023-05-08T15:20:16Z",
+    "stargazers_count": 295,
+    "topics": [
+      "multi-document-summarization",
+      "multi-news",
+      "summarization"
+    ],
+    "updated_at": "2026-04-16T07:52:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-document-summarization"
+    },
+    {
+      "context_snippet": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-news"
+    },
+    {
+      "context_snippet": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "summarization"
+    }
+  ]
+}

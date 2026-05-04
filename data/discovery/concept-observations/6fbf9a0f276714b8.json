@@ -84,7 +84,7 @@
   "normalized_form": "prettier",
   "observation_id": "6fbf9a0f276714b8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Prettier",
   "source_context_snippet": "Prettier",
   "source_file": ".github/workflows/prettier.yml",

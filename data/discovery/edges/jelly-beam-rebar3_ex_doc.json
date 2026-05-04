@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jelly-beam/rebar3_ex_doc",
-      "target": "namespace/your_app",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jelly-beam/rebar3_ex_doc",
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "jelly-beam/rebar3_ex_doc"
 }

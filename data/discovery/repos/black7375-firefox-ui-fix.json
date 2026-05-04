@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "csstree-validator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-node-single-context",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass-true",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "devmasx/merge-branch@1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "devmasx/merge-branch@1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "csstree-validator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "fast-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "jest-environment-node-single-context",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "sass-true",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "devmasx/merge-branch@1.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "firefox-css",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "firefox-customization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "firefox-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "firefox-tweaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "unixporn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "userchrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "userchrome-styles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "userchromecss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "target": "userstyles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:25.098881+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1416
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd8a I respect proton UI and aim to improve it.",
+    "fork": false,
+    "full_name": "black7375/Firefox-UI-Fix",
+    "html_url": "https://github.com/black7375/Firefox-UI-Fix",
+    "language": "SCSS",
+    "pushed_at": "2026-02-06T00:06:12Z",
+    "stargazers_count": 5810,
+    "topics": [
+      "firefox",
+      "firefox-css",
+      "firefox-customization",
+      "firefox-theme",
+      "firefox-tweaks",
+      "hacktoberfest",
+      "theme",
+      "unixporn",
+      "user-interface",
+      "userchrome",
+      "userchrome-styles",
+      "userchromecss",
+      "userstyles"
+    ],
+    "updated_at": "2026-05-03T14:17:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-css"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-customization"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-theme"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-tweaks"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unixporn"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-interface"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userchrome"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userchrome-styles"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userchromecss"
+    },
+    {
+      "context_snippet": "Lepton \u2014 I respect proton UI and aim to improve it.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userstyles"
+    }
+  ]
+}

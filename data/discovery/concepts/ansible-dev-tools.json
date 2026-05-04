@@ -19,6 +19,18 @@
       "source_repo": "ansible/ansible-lint",
       "status": "candidate-context",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "Ansible IDE extension: auto-completion and integrating quality assurance tools like ansible-lint, ansible syntax check, yamllint, molecule and ansible-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ansible/ansible-lint",
       "status": "candidate",
       "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ansible/ansible-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ansible/vscode-ansible"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

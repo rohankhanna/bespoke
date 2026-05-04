@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "hkust-aerial-robotics/vins-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "imaging-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "lio-sam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "loop-closure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "loop-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "ouster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:30.295453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ICRA 2021 - Robust Place Recognition using an Imaging Lidar",
+    "fork": false,
+    "full_name": "TixiaoShan/imaging_lidar_place_recognition",
+    "html_url": "https://github.com/TixiaoShan/imaging_lidar_place_recognition",
+    "language": "C++",
+    "pushed_at": "2024-08-05T06:49:11Z",
+    "stargazers_count": 432,
+    "topics": [
+      "imaging-lidar",
+      "lidar-odometry",
+      "lio-sam",
+      "loop-closure",
+      "loop-detection",
+      "ouster",
+      "place-recognition"
+    ],
+    "updated_at": "2026-04-24T14:23:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/vins-mono",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imaging-lidar"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-odometry"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lio-sam"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-closure"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-detection"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ouster"
+    },
+    {
+      "context_snippet": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    }
+  ]
+}

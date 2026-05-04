@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "pengyu-team/geode_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "cloudcompare/cloudcompare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "dongjae0107/elite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "evaluation-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "lidar-point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "map-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "open3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "pointcloud-registration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "slam-benchmarcking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "target": "wasserstein-distance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:33.364307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14821
+    },
+    {
+      "path": ".github/workflows/cmake-single-platform.yml",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[RAL' 25 & IROS\u2018 25] MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework.",
+    "fork": false,
+    "full_name": "JokerJohn/Cloud_Map_Evaluation",
+    "html_url": "https://github.com/JokerJohn/Cloud_Map_Evaluation",
+    "language": "C++",
+    "pushed_at": "2026-03-22T06:35:28Z",
+    "stargazers_count": 458,
+    "topics": [
+      "evaluation-metrics",
+      "lidar-point-cloud",
+      "map-evaluation",
+      "open3d",
+      "pointcloud-registration",
+      "robotics",
+      "slam",
+      "slam-benchmarcking",
+      "wasserstein-distance"
+    ],
+    "updated_at": "2026-05-04T02:12:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudcompare/cloudcompare",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dongjae0107/elite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengyu-team/geode_dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-point-cloud"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "map-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open3d"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud-registration"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam-benchmarcking"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasserstein-distance"
+    }
+  ]
+}

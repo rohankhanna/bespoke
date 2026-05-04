@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cydral/Colorify",
+      "target": "cydral/ffspider",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:59:59.782252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI-based colorizer in c++ using the Dlib library",
+    "fork": false,
+    "full_name": "Cydral/Colorify",
+    "html_url": "https://github.com/Cydral/Colorify",
+    "language": "C++",
+    "pushed_at": "2025-02-20T20:44:18Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-08-23T09:18:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cydral/ffspider",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

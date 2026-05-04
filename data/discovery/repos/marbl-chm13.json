@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "marbl/chm13-issues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "genome-in-a-bottle/giab_data_indexes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "jessicastorer88/repeatmasker_library_chm13",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13",
+      "target": "josephlalli/phasing_t2t",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:54:26.935257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The complete sequence of a human genome",
+    "fork": false,
+    "full_name": "marbl/CHM13",
+    "html_url": "https://github.com/marbl/CHM13",
+    "language": null,
+    "pushed_at": "2025-07-14T15:51:56Z",
+    "stargazers_count": 1035,
+    "topics": [],
+    "updated_at": "2026-05-02T22:52:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genome-in-a-bottle/giab_data_indexes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jessicastorer88/repeatmasker_library_chm13",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josephlalli/phasing_t2t",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marbl/chm13-issues",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

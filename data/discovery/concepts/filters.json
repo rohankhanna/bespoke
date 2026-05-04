@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "filters"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "Known filters subscriptions transformed for better compatibility with AdGuard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate-context",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "A simple tool that compiles hosts blocklists from multiple sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/FiltersRegistry",
+      "status": "candidate",
+      "text": "AdGuard Filters Registry is the canonical repository of filter list subscriptions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050687,
+      "status": "candidate",
+      "text": "filtrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047797,
+      "status": "candidate",
+      "text": "filter out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045542,
+      "status": "candidate",
+      "text": "percolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043471,
+      "status": "candidate",
+      "text": "permeate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031385,
+      "status": "candidate",
+      "text": "trickle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "filters",
+  "concept_id": "filters",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/FiltersRegistry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/HostlistCompiler"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filters",
+      "sense_id": "filters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

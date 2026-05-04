@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-command.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-command.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/l0-test.yml"
+    },
+    {
+      "component": "test-summary/action@dist",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/l0-test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/l0-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_community_pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_community_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "nvidia/trt-llm-rag-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "Auto Assign PR to Author",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "auto-assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-command.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-command.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "Bot-Command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/l0-test.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/l0-test.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "test-summary/action@dist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/l0-test.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "L0-Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_community_pr.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label_community_pr.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_community_pr.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "target": "Label Community PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:54:02.761714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25940
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 77761
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2179
+    },
+    {
+      "path": ".github/workflows/auto-assign-author.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/auto-assign.yml",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/auto-close-inactive-issues.yml",
+      "size": 1265
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 10737
+    },
+    {
+      "path": ".github/workflows/bot-command.yml",
+      "size": 7514
+    },
+    {
+      "path": ".github/workflows/l0-test.yml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/label_community_pr.yml",
+      "size": 1098
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.",
+    "fork": true,
+    "full_name": "triton-inference-server/TensorRT-LLM",
+    "html_url": "https://github.com/triton-inference-server/TensorRT-LLM",
+    "language": "Python",
+    "pushed_at": "2026-05-04T20:08:12Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-05-04T20:08:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/trt-llm-rag-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Assign PR to Author",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "term": "Auto Assign PR to Author"
+    },
+    {
+      "context_snippet": "auto-assign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "term": "auto-assign"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "Bot-Command",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-command.yml",
+      "term": "Bot-Command"
+    },
+    {
+      "context_snippet": "L0-Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/l0-test.yml",
+      "term": "L0-Test"
+    },
+    {
+      "context_snippet": "Label Community PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label_community_pr.yml",
+      "term": "Label Community PR"
+    }
+  ]
+}

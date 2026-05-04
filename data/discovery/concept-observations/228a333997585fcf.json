@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29975954,
+      "status": "candidate",
+      "text": "espionage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971900,
+      "status": "candidate",
+      "text": "spying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964577,
+      "status": "candidate",
+      "text": "spy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029974,
+      "status": "candidate",
+      "text": "spy ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029973,
+      "status": "candidate",
+      "text": "cybersurveillance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spyware",
+      "sense_id": "spyware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spyware",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spyware",
+  "observation_id": "228a333997585fcf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "spyware",
+  "source_context_snippet": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>",
+  "source_file": null,
+  "source_repo": "badmojr/1Hosts",
+  "source_repo_description": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+}

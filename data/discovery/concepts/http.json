@@ -1387,6 +1387,30 @@
       "source_repo": "metosin/compojure-api",
       "status": "candidate-context",
       "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "Tidy, feature-complete Web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Dream</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juxt/yada",
+      "status": "candidate-context",
+      "text": "A powerful Clojure web library, full HTTP, full async - see https://juxt.pro/yada/index.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juxt/yada",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2103,18 @@
       "source_repo": "metosin/compojure-api",
       "status": "candidate",
       "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Dream</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juxt/yada",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
     }
   ],
   "candidate_related_terms": [
@@ -3204,11 +3240,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "camlworks/dream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "juxt/yada"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

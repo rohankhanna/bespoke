@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:44:44.930967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2026] Knowledge-to-Verification: Exploring RLVR for LLMs in Knowledge-Intensive Domains",
+    "fork": false,
+    "full_name": "superfarther/K2V",
+    "html_url": "https://github.com/superfarther/K2V",
+    "language": "Python",
+    "pushed_at": "2026-04-30T09:18:13Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T09:18:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -48,13 +48,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "imgui-rs/imgui-rs",
-      "target": "yatekii/imgui-wgpu-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "imgui-rs/imgui-rs",
@@ -104,7 +97,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T09:36:10.641564+00:00",
+  "fetched_at": "2026-05-04T20:59:46.117426+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -136,15 +129,9 @@
       "rust",
       "rust-library"
     ],
-    "updated_at": "2026-05-03T05:40:52Z"
+    "updated_at": "2026-05-04T15:14:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "yatekii/imgui-wgpu-rs",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)",

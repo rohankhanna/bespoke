@@ -91,6 +91,42 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate-context",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "Automatically provision and manage TLS certificates in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "https reverse proxy with automatic Letsencrypt usage for multiple hostnames/backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "nginx-le/nginx-le",
       "status": "candidate",
       "text": "Simple nginx image (alpine based) with integrated [Let's Encrypt](https://letsencrypt.org) support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +304,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "nginx-le/nginx-le"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cert-manager/cert-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "artyom/leproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "nginx-le/nginx-le"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

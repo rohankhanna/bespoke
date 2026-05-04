@@ -84,7 +84,7 @@
   "normalized_form": "template-validation-sample-workflow",
   "observation_id": "e26ad8d656ca3ac6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Template Validation Sample Workflow",
   "source_context_snippet": "Template Validation Sample Workflow",
   "source_file": ".github/workflows/template-validation.yaml",

@@ -43,6 +43,18 @@
       "source_repo": "url-kaist/outlier-robust-radar-odometry",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "status": "candidate-context",
+      "text": "Unsupervised radar odometry combining deep learning with classical state estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "status": "candidate-context",
+      "text": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "url-kaist/outlier-robust-radar-odometry",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "status": "candidate",
+      "text": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "url-kaist/outlier-robust-radar-odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "utiasASRL/hero_radar_odometry"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

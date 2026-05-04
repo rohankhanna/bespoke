@@ -190,6 +190,18 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/pixelmatch",
+      "status": "candidate-context",
+      "text": "The smallest, simplest and fastest JavaScript pixel-level image comparison library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pixelmatch",
+      "status": "candidate-context",
+      "text": "[![Node](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml)"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "juji-io/editscript",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/pixelmatch",
+      "status": "candidate",
+      "text": "[![Node](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +445,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "juji-io/editscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/pixelmatch"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

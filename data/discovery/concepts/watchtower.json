@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "watchtower"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986615,
+      "status": "candidate",
+      "text": "tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024876,
+      "status": "candidate",
+      "text": "watch tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024875,
+      "status": "candidate",
+      "text": "watch-tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024874,
+      "status": "candidate",
+      "text": "lookout tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024873,
+      "status": "candidate",
+      "text": "watchpost"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "watchtower",
+  "concept_id": "watchtower",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "containrrr/watchtower"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "watchtower",
+      "sense_id": "watchtower#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

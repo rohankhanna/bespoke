@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -291,6 +291,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/changelog.yaml",
       "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator"
     }
   ],
   "term": "Changelog"

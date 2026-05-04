@@ -43,6 +43,18 @@
       "source_repo": "yokoffing/filterlists",
       "status": "candidate-context",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "EasyList filter subscription (EasyList, EasyPrivacy, EasyList Cookie, Fanboy's Social/Annoyances/Notifications Blocking List)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate-context",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "yokoffing/filterlists",
       "status": "candidate",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easylist/easylist",
+      "status": "candidate",
+      "text": "These lists are maintained by Fanboy (a.k.a. ryanbr), MonztA, Khrin and Yuki2718."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "yokoffing/filterlists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "easylist/easylist"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

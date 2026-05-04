@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -221,6 +221,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Tokazama/StaticRanges.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury"
     }
   ],
   "term": "optimization"

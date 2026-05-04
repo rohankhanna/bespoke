@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ignore some audit findings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Ignore some audit findings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate",
+      "text": "Ignore some audit findings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52928,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51727,
+      "status": "candidate",
+      "text": "study"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51327,
+      "status": "candidate",
+      "text": "reporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45030,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42288,
+      "status": "candidate",
+      "text": "decision"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ignore some audit findings",
+  "concept_id": "ignore-some-audit-findings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/ignore-some-audit-findings.yml",
+      "source_repo": "brave/brave-browser"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ignore some audit findings",
+      "sense_id": "ignore-some-audit-findings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

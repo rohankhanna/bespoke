@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu CI (Easy install dependencies)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Jiminy: a fast and portable Python/C++ simulator of poly-articulated robots with OpenAI Gym interface for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Ubuntu CI (Easy install dependencies)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate",
+      "text": "Ubuntu CI (Easy install dependencies)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11102,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10754,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10754,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10754,
+      "status": "candidate",
+      "text": "marie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10754,
+      "status": "candidate",
+      "text": "pole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu CI (Easy install dependencies)",
+  "concept_id": "ubuntu-ci-easy-install-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "duburcqa/jiminy"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu CI (Easy install dependencies)",
+      "sense_id": "ubuntu-ci-easy-install-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

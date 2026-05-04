@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfenetworks/api-server",
+      "target": "bfenetworks/dashboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfenetworks/api-server",
+      "target": "bfenetworks/conf-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "bfenetworks/api-server",
+      "target": "bfenetworks/dashboard",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:10.808178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1556
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2645
+    },
+    {
+      "path": "go.mod",
+      "size": 1990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "API server for BFE control plane",
+    "fork": false,
+    "full_name": "bfenetworks/api-server",
+    "html_url": "https://github.com/bfenetworks/api-server",
+    "language": "Go",
+    "pushed_at": "2026-01-31T06:49:01Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-01-31T06:49:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfenetworks/conf-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfenetworks/dashboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfenetworks/dashboard",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:01:22.076280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Audio and MIDI library for .NET",
+    "fork": false,
+    "full_name": "naudio/NAudio",
+    "html_url": "https://github.com/naudio/NAudio",
+    "language": "C#",
+    "pushed_at": "2026-05-02T20:53:00Z",
+    "stargazers_count": 6134,
+    "topics": [],
+    "updated_at": "2026-05-04T19:15:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -160,6 +160,18 @@
       "source_repo": "lakekeeper/lakekeeper-operator",
       "status": "candidate-context",
       "text": "Test Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwrt/luci",
+      "status": "candidate-context",
+      "text": "LuCI - OpenWrt Configuration Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/luci",
+      "status": "candidate-context",
+      "text": "Test Build"
     }
   ],
   "candidate_glosses": [
@@ -232,6 +244,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate",
+      "text": "Test Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwrt/luci",
       "status": "candidate",
       "text": "Test Build"
     }
@@ -367,11 +385,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/test-build.yml",
       "source_repo": "lakekeeper/lakekeeper-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openwrt/luci"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

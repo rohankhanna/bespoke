@@ -116,6 +116,18 @@
       "source_repo": "actions/starter-workflows",
       "status": "candidate-context",
       "text": "'Auto Assign'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "auto-assign"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
       "source_repo": "actions/starter-workflows",
       "status": "candidate",
       "text": "'Auto Assign'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate",
+      "text": "auto-assign"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/auto-assign.yml",
       "source_repo": "actions/starter-workflows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "derrickxunu/v2x-vit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "puffyyy/pcsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "ucla-mobility/opencda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "carla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim",
+      "target": "simulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:28.199653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\".",
+    "fork": false,
+    "full_name": "PJLab-ADG/PCSim",
+    "html_url": "https://github.com/PJLab-ADG/PCSim",
+    "language": "Python",
+    "pushed_at": "2025-06-12T02:39:50Z",
+    "stargazers_count": 272,
+    "topics": [
+      "autonomous-driving",
+      "carla",
+      "simulator"
+    ],
+    "updated_at": "2026-04-27T03:12:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrickxunu/v2x-vit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "puffyyy/pcsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucla-mobility/opencda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- - [News](#news-fire) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<!-- - [News](#news-fire) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "carla"
+    },
+    {
+      "context_snippet": "<!-- - [News](#news-fire) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    }
+  ]
+}

@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
+      "target": "wicg/chips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/first-party-sets",
       "target": "mreichhoff/requeststorageaccessforsite",
       "target_type": "repository"
     },
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
       "target": "sleevi/psl-problems",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WICG/first-party-sets",
-      "target": "mozilla-services/shavar-prod-lists",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-04T12:47:39.186442+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "WICG/first-party-sets"
 }

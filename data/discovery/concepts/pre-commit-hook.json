@@ -43,6 +43,18 @@
       "source_repo": "espressif/conventional-precommit-linter",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compilerla/conventional-pre-commit",
+      "status": "candidate-context",
+      "text": "A pre-commit hook that checks commit messages for Conventional Commits formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compilerla/conventional-pre-commit",
+      "status": "candidate-context",
+      "text": "A [`pre-commit`](https://pre-commit.com) hook to check commit messages for"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "espressif/conventional-precommit-linter",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compilerla/conventional-pre-commit",
+      "status": "candidate",
+      "text": "A [`pre-commit`](https://pre-commit.com) hook to check commit messages for"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "compilerla/conventional-pre-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

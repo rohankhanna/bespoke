@@ -175,6 +175,18 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate-context",
       "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "Vue tooling for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "microsoft/vscode-cmake-tools",
       "status": "candidate",
       "text": "<h1 align=center> <img align=center width=48 src=\"res/logo-margin-bottom.png\" alt=\"CMake Logo\"/> CMake Tools </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,29 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vetur"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

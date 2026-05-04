@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Long running tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Long running tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38194,
+      "status": "candidate",
+      "text": "fixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34868,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34794,
+      "status": "candidate",
+      "text": "saga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29449,
+      "status": "candidate",
+      "text": "experimentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28353,
+      "status": "candidate",
+      "text": "feud"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Long running tests",
+      "sense_id": "long-running-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "long-running-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "long-running-tests",
+  "observation_id": "3a8fba30719718d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Long running tests",
+  "source_context_snippet": "Long running tests",
+  "source_file": ".github/workflows/long_running.yml",
+  "source_repo": "datafuse-extras/tantivy",
+  "source_repo_description": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+}

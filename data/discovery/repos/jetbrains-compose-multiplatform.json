@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T08:30:05.144577+00:00",
+  "fetched_at": "2026-05-04T19:47:52.351645+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,8 +254,8 @@
     "full_name": "JetBrains/compose-multiplatform",
     "html_url": "https://github.com/JetBrains/compose-multiplatform",
     "language": "Kotlin",
-    "pushed_at": "2026-05-02T03:02:26Z",
-    "stargazers_count": 19024,
+    "pushed_at": "2026-05-04T14:58:44Z",
+    "stargazers_count": 19025,
     "topics": [
       "android",
       "awt",
@@ -274,7 +274,7 @@
       "web",
       "webassembly"
     ],
-    "updated_at": "2026-05-04T03:51:54Z"
+    "updated_at": "2026-05-04T12:46:39Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing-video",
+      "target": "gstreamer-java/gst1-java-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-video",
+      "target": "capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-video",
+      "target": "gstreamer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-video",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-video",
+      "target": "playback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-video",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T21:01:42.466576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GStreamer-based video library for Processing",
+    "fork": false,
+    "full_name": "processing/processing-video",
+    "html_url": "https://github.com/processing/processing-video",
+    "language": "Java",
+    "pushed_at": "2024-07-16T09:10:09Z",
+    "stargazers_count": 287,
+    "topics": [
+      "capture",
+      "gstreamer",
+      "java",
+      "playback",
+      "video"
+    ],
+    "updated_at": "2026-02-08T19:13:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gstreamer-java/gst1-java-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Processing Video",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "capture"
+    },
+    {
+      "context_snippet": "Processing Video",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gstreamer"
+    },
+    {
+      "context_snippet": "Processing Video",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Processing Video",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playback"
+    },
+    {
+      "context_snippet": "Processing Video",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

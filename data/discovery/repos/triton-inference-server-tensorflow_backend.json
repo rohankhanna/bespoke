@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/tensorflow_backend",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/tensorflow_backend",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/tensorflow_backend",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/tensorflow_backend",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:54:09.509168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15573
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2243
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Triton backend for TensorFlow.",
+    "fork": false,
+    "full_name": "triton-inference-server/tensorflow_backend",
+    "html_url": "https://github.com/triton-inference-server/tensorflow_backend",
+    "language": "C++",
+    "pushed_at": "2025-11-22T19:42:34Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-03-31T18:24:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

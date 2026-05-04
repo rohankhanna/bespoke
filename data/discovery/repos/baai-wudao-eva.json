@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-WuDao/EVA",
+      "target": "thu-coai/cdial-gpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-WuDao/EVA",
+      "target": "tsinghuaai/cpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-WuDao/EVA",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-WuDao/EVA",
+      "target": "tsinghuaai/cpm-2-finetune",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:49.250503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "BAAI-WuDao/EVA",
+    "html_url": "https://github.com/BAAI-WuDao/EVA",
+    "language": "Python",
+    "pushed_at": "2021-09-29T04:14:01Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2024-04-09T10:15:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-coai/cdial-gpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-2-finetune",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewharvey/osm-editor-layer-index-qgis",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "andrewharvey/osm-editor-layer-index-qgis",
+      "target": "xml",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "andrewharvey/osm-editor-layer-index-qgis"
+}

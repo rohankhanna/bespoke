@@ -84,7 +84,7 @@
   "normalized_form": "check-transpiled-javascript",
   "observation_id": "df625016a6342d71",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Check Transpiled JavaScript",
   "source_context_snippet": "Check Transpiled JavaScript",
   "source_file": ".github/workflows/check-dist.yml",

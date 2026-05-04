@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronC81/sord",
+      "target": "sorbet/sorbet-typed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "Run Sord on examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "AaronC81/sord",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "parlour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "ruby3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "sorbet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "yard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AaronC81/sord",
+      "target": "yardoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:49:41.645501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8352
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files",
+    "fork": false,
+    "full_name": "AaronC81/sord",
+    "html_url": "https://github.com/AaronC81/sord",
+    "language": "Ruby",
+    "pushed_at": "2025-07-07T21:21:09Z",
+    "stargazers_count": 332,
+    "topics": [
+      "parlour",
+      "rbs",
+      "ruby",
+      "ruby3",
+      "sorbet",
+      "yard",
+      "yardoc"
+    ],
+    "updated_at": "2026-03-11T21:51:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sorbet/sorbet-typed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Sord on examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "Run Sord on examples"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parlour"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby3"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sorbet"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yard"
+    },
+    {
+      "context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yardoc"
+    }
+  ]
+}

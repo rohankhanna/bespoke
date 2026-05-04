@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mid-40"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "status": "candidate-context",
+      "text": "Drivers for receiving LiDAR data and more, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/Livox-SDK",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mid-40",
+  "concept_id": "mid-40",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Livox-SDK/Livox-SDK"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mid-40",
+      "sense_id": "mid-40#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

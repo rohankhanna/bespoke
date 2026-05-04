@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/changed-files@0b975f61488402a699abcebd6a1e25924cf85218",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OutlineFoundation/outline-apps"
+    }
+  ]
+}

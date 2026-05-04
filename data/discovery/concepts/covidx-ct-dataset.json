@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "covidx-ct-dataset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate-context",
+      "text": "COVID-Net Open Source Initiative - Models and Data for COVID-19 Detection in Chest CT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate-context",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "covidx-ct-dataset",
+  "concept_id": "covidx-ct-dataset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "covidx-ct-dataset",
+      "sense_id": "covidx-ct-dataset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -79,6 +79,18 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate-context",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate-context",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CommunityToolkit/dotnet",
+      "status": "candidate",
+      "text": ".NET Community Toolkit is a collection of helpers and APIs that work for all .NET developers and are agnostic of any specific UI platform. The toolkit is maintained and published by Microsoft, and part of the .NET Foundation."
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "LucasGinard/AireLibre-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "CommunityToolkit/dotnet"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

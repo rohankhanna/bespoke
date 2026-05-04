@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/requestStorageAccessFor",
+      "target": "mreichhoff/requeststorageaccessfororigin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "privacycg/requestStorageAccessFor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "privacycg/requestStorageAccessFor",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:58:34.879078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24461
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A proposed extension to the Storage Access API and discussion of how it may be integrated with First-Party Sets.",
+    "fork": false,
+    "full_name": "privacycg/requestStorageAccessFor",
+    "html_url": "https://github.com/privacycg/requestStorageAccessFor",
+    "language": "Bikeshed",
+    "pushed_at": "2025-10-17T14:39:56Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-03-30T09:43:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mreichhoff/requeststorageaccessfororigin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

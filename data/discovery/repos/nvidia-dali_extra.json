@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:00:15.996156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test data for DALI project",
+    "fork": false,
+    "full_name": "NVIDIA/DALI_extra",
+    "html_url": "https://github.com/NVIDIA/DALI_extra",
+    "language": "HTML",
+    "pushed_at": "2026-04-28T18:20:51Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-20T14:45:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

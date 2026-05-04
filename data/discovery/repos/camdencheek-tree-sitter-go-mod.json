@@ -68,16 +68,9 @@
       "source_repo": "camdencheek/tree-sitter-go-mod",
       "target": "tree-sitter",
       "target_type": "component"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "camdencheek/tree-sitter-go-mod",
-      "target": "tree-sitter/tree-sitter-gomod",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T11:35:08.224958+00:00",
+  "fetched_at": "2026-05-04T19:58:19.019450+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,11 +112,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "camdencheek/tree-sitter-gomod",
       "source_file": "package.json"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tree-sitter/tree-sitter-gomod",
-      "source_file": "pyproject.toml"
     }
   ],
   "terms": []

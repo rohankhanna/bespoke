@@ -181,6 +181,18 @@
       "source_repo": "dynaconf/dynaconf",
       "status": "candidate-context",
       "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +285,12 @@
       "source_repo": "dynaconf/dynaconf",
       "status": "candidate",
       "text": "<!-- [![Dynaconf](docs/img/logo_400.svg?sanitize=true)](http://dynaconf.com) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_related_terms": [
@@ -892,11 +910,47 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

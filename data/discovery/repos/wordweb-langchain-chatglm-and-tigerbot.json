@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "imclumsypanda/langchain-chatglm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:49.854974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8857
+    },
+    {
+      "path": "Dockerfile",
+      "size": 868
+    },
+    {
+      "path": "requirements.txt",
+      "size": 738
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4ecelangchain-ChatGLM\u57fa\u7840\u4e0a\u4fee\u6539\u7684\u4e00\u4e2a\u53ef\u4ee5\u52a0\u8f7dTigerBot\u6a21\u578b\u7684\u57fa\u4e8e\u672c\u5730\u77e5\u8bc6\u5e93\u7684\u95ee\u7b54\u5e94\u7528\uff0c\u76ee\u6807\u671f\u671b\u5efa\u7acb\u4e00\u5957\u5bf9\u4e2d\u6587\u573a\u666f\u4e0e\u5f00\u6e90\u6a21\u578b\u652f\u6301\u53cb\u597d\u3001\u53ef\u79bb\u7ebf\u8fd0\u884c\u7684\u77e5\u8bc6\u5e93\u95ee\u7b54\u89e3\u51b3\u65b9\u6848\u3002",
+    "fork": false,
+    "full_name": "wordweb/langchain-ChatGLM-and-TigerBot",
+    "html_url": "https://github.com/wordweb/langchain-ChatGLM-and-TigerBot",
+    "language": "Python",
+    "pushed_at": "2023-07-17T01:25:27Z",
+    "stargazers_count": 108,
+    "topics": [],
+    "updated_at": "2026-04-10T01:47:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hwchase17/langchain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imclumsypanda/langchain-chatglm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

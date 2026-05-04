@@ -158,20 +158,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "redis/redis-om-python",
-      "target": "redis-om/redis-om-js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-python",
-      "target": "redis-om/redis-om-spring",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "redis/redis-om-python",
       "target": "samuelcolvin/pydantic",
       "target_type": "repository"
     },
@@ -393,7 +379,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:32:11.563130+00:00",
+  "fetched_at": "2026-05-04T18:50:16.927884+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -455,16 +441,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "redis-developer/redis-om-python",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-om/redis-om-js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "redis-om/redis-om-spring",
       "source_file": "README.md"
     },
     {

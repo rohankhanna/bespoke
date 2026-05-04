@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "systemd/systemd",
       "status": "candidate-context",
       "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "Tidy, feature-complete Web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "systemd"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "systemd/systemd",
       "status": "candidate",
       "text": "![Systemd](http://brand.systemd.io/assets/page-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate",
+      "text": "systemd"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "systemd/systemd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/systemd.yml",
+      "source_repo": "camlworks/dream"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

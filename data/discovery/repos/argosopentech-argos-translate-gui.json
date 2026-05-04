@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:46:19.838860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Graphical user interface for Argos Translate",
+    "fork": false,
+    "full_name": "argosopentech/argos-translate-gui",
+    "html_url": "https://github.com/argosopentech/argos-translate-gui",
+    "language": "Python",
+    "pushed_at": "2025-03-26T10:28:58Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-22T17:00:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

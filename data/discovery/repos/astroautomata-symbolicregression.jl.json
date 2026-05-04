@@ -463,7 +463,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T12:49:51.660151+00:00",
+  "fetched_at": "2026-05-04T20:56:35.241998+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -508,7 +508,7 @@
     "html_url": "https://github.com/astroautomata/SymbolicRegression.jl",
     "language": "Julia",
     "pushed_at": "2026-04-17T06:33:16Z",
-    "stargazers_count": 783,
+    "stargazers_count": 784,
     "topics": [
       "automl",
       "data-science",
@@ -525,7 +525,7 @@
       "symbolic-computation",
       "symbolic-regression"
     ],
-    "updated_at": "2026-05-03T16:16:21Z"
+    "updated_at": "2026-05-04T20:08:43Z"
   },
   "repo_links": [
     {

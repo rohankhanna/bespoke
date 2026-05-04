@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Patchright Chromium Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Patchright Chromium Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "Patchright Chromium Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10503,
+      "status": "candidate",
+      "text": "crib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10448,
+      "status": "candidate",
+      "text": "arena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10448,
+      "status": "candidate",
+      "text": "boron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10448,
+      "status": "candidate",
+      "text": "bubble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10448,
+      "status": "candidate",
+      "text": "color"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Patchright Chromium Tests",
+  "concept_id": "patchright-chromium-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Patchright Chromium Tests",
+      "sense_id": "patchright-chromium-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

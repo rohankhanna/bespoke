@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:52:12.981066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch implementation of BRECQ, ICLR 2021",
+    "fork": false,
+    "full_name": "yhhhli/BRECQ",
+    "html_url": "https://github.com/yhhhli/BRECQ",
+    "language": "Python",
+    "pushed_at": "2021-08-01T05:35:52Z",
+    "stargazers_count": 298,
+    "topics": [],
+    "updated_at": "2026-05-01T18:16:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/sled",
+      "target": "eyre-rs/eyre",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/tantivy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/tantivy-jieba",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/xorfilter",
+      "target": "youngsofun/rust-csv",
       "target_type": "repository"
     },
     {
@@ -302,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "databendlabs/databend"
 }

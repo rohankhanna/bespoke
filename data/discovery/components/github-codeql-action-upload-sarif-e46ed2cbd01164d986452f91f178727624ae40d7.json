@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "cert-manager/cert-manager"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-close.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/organize_issue.yml",
+      "source_repo": "Floorp-Projects/Floorp"
     }
   ],
   "term": "Close inactive issues and PRs"

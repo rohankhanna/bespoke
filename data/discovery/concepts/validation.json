@@ -418,6 +418,42 @@
       "source_repo": "react-hook-form/resolvers",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "status": "candidate-context",
+      "text": "A TypeScript-first library for building strongly-typed validation rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arcanis/typanion",
+      "status": "candidate-context",
+      "text": "Static and runtime type assertion library with no dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcanis/typanion",
+      "status": "candidate-context",
+      "text": "> Static and runtime type assertion library with no dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +660,24 @@
       "source_repo": "react-hook-form/resolvers",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcanis/typanion",
+      "status": "candidate",
+      "text": "> Static and runtime type assertion library with no dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_related_terms": [
@@ -1050,11 +1104,41 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "react-hook-form/resolvers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "arcanis/typanion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ftonato/nope-validator"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-ql",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:41.083384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GraphQL query generator and response parser in Swift",
+    "fork": false,
+    "full_name": "ptsochantaris/trailer-ql",
+    "html_url": "https://github.com/ptsochantaris/trailer-ql",
+    "language": "Swift",
+    "pushed_at": "2025-04-09T07:11:14Z",
+    "stargazers_count": 2,
+    "topics": [
+      "graphql",
+      "ios",
+      "macos",
+      "swift",
+      "watchos"
+    ],
+    "updated_at": "2025-10-22T08:56:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/TrailerQLLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

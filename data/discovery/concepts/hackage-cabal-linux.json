@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Hackage, Cabal, Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "A Haskell re-implementation of the Nix expression language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "\"Hackage, Cabal, Linux\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate",
+      "text": "\"Hackage, Cabal, Linux\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "gommal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10482,
+      "status": "candidate",
+      "text": "mobbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10423,
+      "status": "candidate",
+      "text": "cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10358,
+      "status": "candidate",
+      "text": "bracelet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hackage, Cabal, Linux",
+  "concept_id": "hackage-cabal-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hackage, Cabal, Linux",
+      "sense_id": "hackage-cabal-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

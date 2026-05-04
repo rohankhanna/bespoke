@@ -166,6 +166,30 @@
       "source_repo": "gorhill/uBlock",
       "status": "candidate-context",
       "text": "[![Badge Commits]][Commit Rate]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "Brave browser for Android, iOS, Linux, macOS, Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate-context",
+      "text": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +270,18 @@
       "source_repo": "gorhill/uBlock",
       "status": "candidate",
       "text": "[![Badge Commits]][Commit Rate]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brave/brave-browser",
+      "status": "candidate",
+      "text": "This repository is not needed for building the browser and only holds issues, releases and the wiki. The source code and contributions are at https://github.com/brave/brave-core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -524,11 +560,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "brave/brave-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

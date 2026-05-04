@@ -84,7 +84,7 @@
   "normalized_form": "build-of-the-database",
   "observation_id": "0ba088d3828f9e48",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Build of the database",
   "source_context_snippet": "Build of the database",
   "source_file": ".github/workflows/build.yml",

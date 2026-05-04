@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "@eslint/compat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-formatter-compact",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_beta.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    },
+    {
+      "component": "devops-infra/action-commit-push@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "@eslint/compat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "@eslint/json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "eslint-formatter-compact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_beta.yml",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_beta.yml",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "uBO Lite beta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "devops-infra/action-commit-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "uBlockOrigin/uBOL-home",
+      "target": "uBO Lite release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:56.664427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3091
+    },
+    {
+      "path": "package.json",
+      "size": 814
+    },
+    {
+      "path": ".github/workflows/BETA_BODY.md",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/RELEASE_BODY.md",
+      "size": 1121
+    },
+    {
+      "path": ".github/workflows/create_beta.yml",
+      "size": 3360
+    },
+    {
+      "path": ".github/workflows/create_release.yml",
+      "size": 3870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "uBO Lite home (MV3)",
+    "fork": false,
+    "full_name": "uBlockOrigin/uBOL-home",
+    "html_url": "https://github.com/uBlockOrigin/uBOL-home",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-04T16:36:17Z",
+    "stargazers_count": 3327,
+    "topics": [],
+    "updated_at": "2026-05-04T17:45:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "uBO Lite beta",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_beta.yml",
+      "term": "uBO Lite beta"
+    },
+    {
+      "context_snippet": "uBO Lite release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "term": "uBO Lite release"
+    }
+  ]
+}

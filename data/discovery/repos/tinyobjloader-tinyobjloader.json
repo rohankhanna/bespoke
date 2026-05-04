@@ -106,7 +106,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "iorange/rtxon",
+      "target": "lace/lacecore",
       "target_type": "repository"
     },
     {
@@ -120,7 +120,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "karimnaaji/voxelizer",
+      "target": "kayru/probulator",
       "target_type": "repository"
     },
     {
@@ -222,7 +222,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T13:35:33.986720+00:00",
+  "fetched_at": "2026-05-04T21:00:02.579229+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -255,7 +255,7 @@
     "html_url": "https://github.com/tinyobjloader/tinyobjloader",
     "language": "C++",
     "pushed_at": "2026-03-27T19:49:36Z",
-    "stargazers_count": 3786,
+    "stargazers_count": 3787,
     "topics": [
       "3d",
       "c-plus-plus",
@@ -263,7 +263,7 @@
       "loader",
       "wavefront"
     ],
-    "updated_at": "2026-04-30T08:59:54Z"
+    "updated_at": "2026-05-03T15:31:25Z"
   },
   "repo_links": [
     {
@@ -278,12 +278,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "iorange/rtxon",
+      "full_name": "kayru/probulator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "karimnaaji/voxelizer",
+      "full_name": "lace/lacecore",
       "source_file": "README.md"
     }
   ],

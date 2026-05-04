@@ -115,6 +115,18 @@
       "source_repo": "ElsaTam/obsidian-fancy-a-story",
       "status": "candidate-context",
       "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chaijs.github.io",
+      "status": "candidate-context",
+      "text": "The chaijs.com website source code. Contributions welcome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chaijs.github.io",
+      "status": "candidate-context",
+      "text": "Deploy Jekyll site to Pages"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "status": "candidate",
+      "text": "Deploy Jekyll site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chaijs.github.io",
       "status": "candidate",
       "text": "Deploy Jekyll site to Pages"
     }
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "ElsaTam/obsidian-fancy-a-story"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "chaijs/chaijs.github.io"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

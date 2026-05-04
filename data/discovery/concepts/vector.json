@@ -211,6 +211,18 @@
       "source_repo": "JuliaGeo/GeoInterface.jl",
       "status": "candidate-context",
       "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "JuliaGeo/GeoInterface.jl",
       "status": "candidate",
       "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliageo.github.io/GeoInterface.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +490,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "JuliaGeo/GeoInterface.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

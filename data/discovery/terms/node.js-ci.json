@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -581,6 +581,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "berniegp/mock-xmlhttprequest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "emmetio/emmet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-geo-polygon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "proj4js/proj4js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "arcanis/typanion"
     }
   ],
   "term": "Node.js CI"

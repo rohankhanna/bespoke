@@ -19,6 +19,30 @@
       "source_repo": "HaxeFlixel/flixel",
       "status": "candidate-context",
       "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "Additional classes for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "Collection of demos for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "HaxeFlixel/flixel",
       "status": "candidate",
       "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "HaxeFlixel/flixel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-addons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

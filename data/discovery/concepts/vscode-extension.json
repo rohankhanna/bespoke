@@ -568,6 +568,30 @@
       "source_repo": "tlaplus/vscode-tlaplus",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "Ansible IDE extension: auto-completion and integrating quality assurance tools like ansible-lint, ansible syntax check, yamllint, molecule and ansible-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate-context",
+      "text": "\ud83d\udc7b Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate-context",
+      "text": "{ \"private\": true, \"scripts\": { \"build\": \"parcel build source/manifest.json --dist-dir distribution --no-cache --no-source-maps\", \"lint\": \"xo\", \"pack:safari\": \"xcodebuild -project 'safari/GhostText.xcodeproj'\", \"pre:build\": \"rm -rf distribution && node pre-build.mjs\", \"pre:watch\u2026"
     }
   ],
   "candidate_glosses": [
@@ -852,6 +876,18 @@
       "source_repo": "tlaplus/vscode-tlaplus",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/tlaplus/vscode-tlaplus/ci.yml?branch=master)](https://github.com/tlaplus/vscode-tlaplus/actions?query=workflow%3ARelease) [![VS Code extension version](https://img.shields.io/visual-studio-marketplace/i/tlapl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate",
+      "text": "<!-- This *Overview* page for extension should only advertise main features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fregante/GhostText",
+      "status": "candidate",
+      "text": "{ \"private\": true, \"scripts\": { \"build\": \"parcel build source/manifest.json --dist-dir distribution --no-cache --no-source-maps\", \"lint\": \"xo\", \"pack:safari\": \"xcodebuild -project 'safari/GhostText.xcodeproj'\", \"pre:build\": \"rm -rf distribution && node pre-build.mjs\", \"pre:watch\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1519,11 +1555,53 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "tlaplus/vscode-tlaplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ansible/vscode-ansible"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fregante/GhostText"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:54:50.461988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Homepage for the Large Scale Genomics Work Stream",
+    "fork": false,
+    "full_name": "ga4gh/large-scale-genomics-wiki",
+    "html_url": "https://github.com/ga4gh/large-scale-genomics-wiki",
+    "language": null,
+    "pushed_at": "2025-06-02T16:25:15Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-06-02T16:25:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

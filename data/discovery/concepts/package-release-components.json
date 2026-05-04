@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package Release Components"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "\"Package Release Components\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate",
+      "text": "\"Package Release Components\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19186,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19115,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19115,
+      "status": "candidate",
+      "text": "solution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18150,
+      "status": "candidate",
+      "text": "whole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18080,
+      "status": "candidate",
+      "text": "sack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package Release Components",
+  "concept_id": "package-release-components",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "analogdevicesinc/msdk"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Release Components",
+      "sense_id": "package-release-components#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

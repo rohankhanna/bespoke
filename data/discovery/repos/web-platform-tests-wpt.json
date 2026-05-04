@@ -118,13 +118,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "web-platform-tests/wpt",
-      "target": "web-platform-tests/wpt.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-workflow-run.yml",
       "source_repo": "web-platform-tests/wpt",
@@ -447,7 +440,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:42:00.579304+00:00",
+  "fetched_at": "2026-05-04T20:51:36.910783+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -499,7 +492,7 @@
     "full_name": "web-platform-tests/wpt",
     "html_url": "https://github.com/web-platform-tests/wpt",
     "language": "HTML",
-    "pushed_at": "2026-05-04T11:39:33Z",
+    "pushed_at": "2026-05-04T20:45:17Z",
     "stargazers_count": 5915,
     "topics": [
       "blink",
@@ -522,15 +515,9 @@
       "webkit",
       "whatwg"
     ],
-    "updated_at": "2026-05-04T11:34:57Z"
+    "updated_at": "2026-05-04T20:40:42Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "web-platform-tests/wpt.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish Docker image",

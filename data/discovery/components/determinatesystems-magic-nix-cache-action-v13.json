@@ -1,12 +1,27 @@
 {
   "component": "DeterminateSystems/magic-nix-cache-action@v13",
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Fission-AI/OpenSpec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/models.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-slides.yml",
+      "source_repo": "storopoli/Bayesian-Statistics"
     }
   ]
 }

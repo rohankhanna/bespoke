@@ -1,0 +1,504 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-markdown-link.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@963b6264d7de32c904942a70b488d3407453049e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-markdown-link.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-issue.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-junit-report.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-junit-report.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-junit-report.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly.yaml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "open-telemetry/opentelemetry-helm-charts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "open-telemetry/opentelemetry-dotnet-instrumentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "open-telemetry/opentelemetry-go-instrumentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "open-telemetry/opentelemetry-cpp-contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-markdown-link.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-markdown-link.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "umbrelladocs/action-linkspector@963b6264d7de32c904942a70b488d3407453049e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "github/codeql-action/autobuild@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release-issue.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-issue.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "Create release issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-junit-report.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "dawidd6/action-download-artifact@b6e2e70617bc3265edd6dab6c906732b2f1ae151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-junit-report.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "EnricoMi/publish-unit-test-result-action@c950f6fb443cb5af20a377fd0dfaa78838901040",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-junit-report.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "E2E Junit Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly.yaml",
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "Nightly End-to-end tests with contrib-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "kubernetes-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-operator",
+      "target": "opentelemetry-collector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:49:31.690986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40535
+    },
+    {
+      "path": "Dockerfile",
+      "size": 449
+    },
+    {
+      "path": "go.mod",
+      "size": 14932
+    },
+    {
+      "path": ".github/workflows/changelog.yaml",
+      "size": 2995
+    },
+    {
+      "path": ".github/workflows/ci-markdown-link.yml",
+      "size": 663
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yaml",
+      "size": 3692
+    },
+    {
+      "path": ".github/workflows/create-release-issue.yaml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 803
+    },
+    {
+      "path": ".github/workflows/e2e-junit-report.yml",
+      "size": 1446
+    },
+    {
+      "path": ".github/workflows/e2e-nightly.yaml",
+      "size": 3958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes Operator for OpenTelemetry Collector",
+    "fork": false,
+    "full_name": "open-telemetry/opentelemetry-operator",
+    "html_url": "https://github.com/open-telemetry/opentelemetry-operator",
+    "language": "Go",
+    "pushed_at": "2026-05-04T14:45:46Z",
+    "stargazers_count": 1681,
+    "topics": [
+      "hacktoberfest",
+      "kubernetes-operator",
+      "opentelemetry",
+      "opentelemetry-collector"
+    ],
+    "updated_at": "2026-05-04T13:15:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-cpp-contrib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-dotnet-instrumentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-go-instrumentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-helm-charts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "\"Continuous Integration\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "\"Create release issue\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release-issue.yaml",
+      "term": "Create release issue"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "E2E Junit Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-junit-report.yml",
+      "term": "E2E Junit Report"
+    },
+    {
+      "context_snippet": "\"Nightly End-to-end tests with contrib-dev\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly.yaml",
+      "term": "Nightly End-to-end tests with contrib-dev"
+    },
+    {
+      "context_snippet": "[![Continuous Integration][github-workflow-img]][github-workflow] [![Go Report Card][goreport-img]][goreport] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/open-telemetry/opentelemetry-operator/badge)](https://securitys\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Continuous Integration][github-workflow-img]][github-workflow] [![Go Report Card][goreport-img]][goreport] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/open-telemetry/opentelemetry-operator/badge)](https://securitys\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operator"
+    },
+    {
+      "context_snippet": "[![Continuous Integration][github-workflow-img]][github-workflow] [![Go Report Card][goreport-img]][goreport] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/open-telemetry/opentelemetry-operator/badge)](https://securitys\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "[![Continuous Integration][github-workflow-img]][github-workflow] [![Go Report Card][goreport-img]][goreport] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/open-telemetry/opentelemetry-operator/badge)](https://securitys\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-collector"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -551,6 +551,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependency_review.yml",
       "source_repo": "informalsystems/sovereign-ibc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-telemetry/opentelemetry-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ttlns/Selenium-Driverless"
     }
   ],
   "term": "Dependency Review"

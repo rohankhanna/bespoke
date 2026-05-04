@@ -321,6 +321,18 @@
       "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vueuse",
+      "status": "candidate-context",
+      "text": "Collection of essential Vue Composition Utilities for Vue 2 and 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vueuse",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
@@ -489,6 +501,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vueuse",
       "status": "candidate",
       "text": "Unit Test"
     }
@@ -966,11 +984,35 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/unit-test.yml",
       "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antfu/vueuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Polytonic/Glitter",
+      "target": "rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:59:54.409256+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dead Simple OpenGL",
+    "fork": false,
+    "full_name": "Polytonic/Glitter",
+    "html_url": "https://github.com/Polytonic/Glitter",
+    "language": "CMake",
+    "pushed_at": "2026-04-19T05:34:09Z",
+    "stargazers_count": 2649,
+    "topics": [
+      "cplusplus",
+      "graphics",
+      "opengl",
+      "rendering"
+    ],
+    "updated_at": "2026-05-04T19:31:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dead Simple OpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "Dead Simple OpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "Dead Simple OpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Dead Simple OpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    }
+  ]
+}

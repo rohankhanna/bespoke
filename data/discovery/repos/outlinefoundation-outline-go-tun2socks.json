@@ -67,7 +67,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OutlineFoundation/outline-go-tun2socks",
-      "target": "crazy-max/xgo",
+      "target": "jigsaw-code/outline-client",
       "target_type": "repository"
     },
     {
@@ -92,7 +92,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T10:28:40.588348+00:00",
+  "fetched_at": "2026-05-04T18:45:02.426119+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -124,11 +124,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "crazy-max/xgo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "eycorsican/go-tun2socks",
       "source_file": "README.md"
     },
@@ -140,6 +135,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jigsaw-code/outline-apps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jigsaw-code/outline-client",
       "source_file": "README.md"
     }
   ],

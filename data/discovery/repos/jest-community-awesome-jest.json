@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "americanexpress/jest-json-schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "alexeyraspopov/jest-webdriver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "adriantoine/enzyme-to-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "abiyasa/marko-jest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "jest-community/awesome-jest",
+      "target": "Prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jest-community/awesome-jest",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jest-community/awesome-jest",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jest-community/awesome-jest",
+      "target": "jest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:49:00.957196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21204
+    },
+    {
+      "path": "package.json",
+      "size": 307
+    },
+    {
+      "path": ".github/workflows/prettier.yml",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd76Awesome Jest packages and resources ",
+    "fork": false,
+    "full_name": "jest-community/awesome-jest",
+    "html_url": "https://github.com/jest-community/awesome-jest",
+    "language": null,
+    "pushed_at": "2026-02-11T22:45:38Z",
+    "stargazers_count": 1548,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "javascript",
+      "jest"
+    ],
+    "updated_at": "2026-04-10T06:34:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abiyasa/marko-jest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adriantoine/enzyme-to-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexeyraspopov/jest-webdriver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "americanexpress/jest-json-schema",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Prettier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "term": "Prettier"
+    },
+    {
+      "context_snippet": "> An awesome list of [Jest](https://jestjs.io) packages and resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> An awesome list of [Jest](https://jestjs.io) packages and resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> An awesome list of [Jest](https://jestjs.io) packages and resources",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest"
+    }
+  ]
+}

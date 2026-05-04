@@ -2643,6 +2643,42 @@
       "source_repo": "XantreDev/preact-signals",
       "status": "candidate-context",
       "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate-context",
+      "text": "An interactive resume editor made with React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate-context",
+      "text": "**Are you tired of fighting with Microsoft Word? Want the power of HTML and CSS but less of the boilerplate?** Experiencer is an intuitive, flexible HTML & CSS based resume editor written using React supporting rich text, icons, and multiple-column layouts. While it would help t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate-context",
+      "text": "A zero-config, fast and small (~3kB) virtual list (and grid) component for React, Vue, Solid and Svelte."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate-context",
+      "text": "![npm](https://img.shields.io/npm/v/virtua) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/virtua) ![npm](https://img.shields.io/npm/dw/virtua) [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=inokawa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate-context",
+      "text": "Browser API's turned into declarative React components and HoC's"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate-context",
+      "text": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->"
     }
   ],
   "candidate_glosses": [
@@ -3965,6 +4001,24 @@
       "source_repo": "XantreDev/preact-signals",
       "status": "candidate",
       "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/experiencer",
+      "status": "candidate",
+      "text": "**Are you tired of fighting with Microsoft Word? Want the power of HTML and CSS but less of the boilerplate?** Experiencer is an intuitive, flexible HTML & CSS based resume editor written using React supporting rich text, icons, and multiple-column layouts. While it would help t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inokawa/virtua",
+      "status": "candidate",
+      "text": "![npm](https://img.shields.io/npm/v/virtua) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/virtua) ![npm](https://img.shields.io/npm/dw/virtua) [![Best of JS](https://img.shields.io/endpoint?url=https://bestofjs-serverless.now.sh/api/project-badge?fullName=inokawa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/react-fns",
+      "status": "candidate",
+      "text": "<!-- END doctoc generated TOC please keep comment here to allow auto update -->"
     }
   ],
   "candidate_related_terms": [
@@ -6621,11 +6675,137 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/experiencer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "inokawa/virtua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/react-fns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

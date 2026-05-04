@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opnsense/plugins",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:44:17.324219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OPNsense plugin collection",
+    "fork": false,
+    "full_name": "opnsense/plugins",
+    "html_url": "https://github.com/opnsense/plugins",
+    "language": "PHP",
+    "pushed_at": "2026-05-04T16:21:35Z",
+    "stargazers_count": 1114,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-05-04T16:52:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "About the OPNsense plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

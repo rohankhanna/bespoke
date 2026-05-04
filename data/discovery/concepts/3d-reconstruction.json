@@ -529,6 +529,30 @@
       "source_repo": "layumi/3D-Magic-Mirror",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "A Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry (LIVO)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_glosses": [
@@ -795,6 +819,18 @@
       "source_repo": "layumi/3D-Magic-Mirror",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_related_terms": [],
@@ -1090,11 +1126,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

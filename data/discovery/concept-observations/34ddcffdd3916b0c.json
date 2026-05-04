@@ -84,7 +84,7 @@
   "normalized_form": "check-semantic-commit",
   "observation_id": "34ddcffdd3916b0c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Check Semantic Commit",
   "source_context_snippet": "\"Check Semantic Commit\"",
   "source_file": ".github/workflows/semantic.yml",

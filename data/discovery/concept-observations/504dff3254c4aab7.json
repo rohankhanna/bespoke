@@ -84,7 +84,7 @@
   "normalized_form": "hadolint-security-scan",
   "observation_id": "504dff3254c4aab7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Hadolint Security Scan",
   "source_context_snippet": "Hadolint Security Scan",
   "source_file": ".github/workflows/hadolint.yml",

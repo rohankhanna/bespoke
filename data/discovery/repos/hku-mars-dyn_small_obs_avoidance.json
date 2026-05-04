@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/dyn_small_obs_avoidance",
+      "target": "hkust-aerial-robotics/fast-planner",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:41.876721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "hku-mars/dyn_small_obs_avoidance",
+    "html_url": "https://github.com/hku-mars/dyn_small_obs_avoidance",
+    "language": "C++",
+    "pushed_at": "2024-07-23T00:47:05Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-04-08T02:24:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/fast-planner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

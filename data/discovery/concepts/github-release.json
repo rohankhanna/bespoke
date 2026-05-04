@@ -134,6 +134,18 @@
       "source_repo": "asl/BandageNG",
       "status": "candidate-context",
       "text": "GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "AdGuard scriptlets library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "Github Release"
     }
   ],
   "candidate_glosses": [
@@ -202,6 +214,12 @@
       "source_repo": "asl/BandageNG",
       "status": "candidate",
       "text": "GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate",
+      "text": "Github Release"
     }
   ],
   "candidate_related_terms": [
@@ -311,11 +329,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "asl/BandageNG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AdguardTeam/Scriptlets"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

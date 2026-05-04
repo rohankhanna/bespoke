@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Diff changes to GitHub release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Diff changes to GitHub release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "alteration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "disguise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "disguised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22501,
+      "status": "candidate",
+      "text": "index"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Diff changes to GitHub release",
+      "sense_id": "diff-changes-to-github-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diff-changes-to-github-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diff-changes-to-github-release",
+  "observation_id": "c9ebbc724ebbe21d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Diff changes to GitHub release",
+  "source_context_snippet": "Diff changes to GitHub release",
+  "source_file": ".github/workflows/diff-change-to-dist.yaml",
+  "source_repo": "alphagov/govuk-frontend",
+  "source_repo_description": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+}

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "nape"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "Additional classes for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate-context",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-addons",
+      "status": "candidate",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-addons.png?raw=true)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911073,
+      "status": "candidate",
+      "text": "scruff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040637,
+      "status": "candidate",
+      "text": "nuque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040636,
+      "status": "candidate",
+      "text": "nuchal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040635,
+      "status": "candidate",
+      "text": "hindneck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20040634,
+      "status": "candidate",
+      "text": "necke"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "scruff"
+    }
+  ],
+  "canonical_name": "nape",
+  "concept_id": "nape",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-addons"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nape",
+      "sense_id": "nape#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

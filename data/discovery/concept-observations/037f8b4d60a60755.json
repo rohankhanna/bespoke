@@ -70,7 +70,7 @@
   "normalized_form": "lint-codebase",
   "observation_id": "037f8b4d60a60755",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Lint Codebase",
   "source_context_snippet": "Lint Codebase",
   "source_file": ".github/workflows/linter.yml",

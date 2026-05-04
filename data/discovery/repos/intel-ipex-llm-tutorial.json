@@ -65,11 +65,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:44:15.575713+00:00",
+  "fetched_at": "2026-05-04T20:54:45.660446+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 1893
+      "size": 2342
     },
     {
       "path": ".github/workflows/scorecard.yml",
@@ -78,17 +78,17 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "main",
     "description": "Accelerate LLM with low-bit (FP4 / INT4 / FP8 / INT8) optimizations using ipex-llm",
     "fork": false,
     "full_name": "intel/ipex-llm-tutorial",
     "html_url": "https://github.com/intel/ipex-llm-tutorial",
     "language": "Jupyter Notebook",
-    "pushed_at": "2025-04-29T01:41:09Z",
+    "pushed_at": "2026-05-04T18:18:28Z",
     "stargazers_count": 170,
     "topics": [],
-    "updated_at": "2026-05-02T08:31:57Z"
+    "updated_at": "2026-05-04T18:18:48Z"
   },
   "repo_links": [
     {

@@ -19,6 +19,18 @@
       "source_repo": "albertito/dnss",
       "status": "candidate-context",
       "text": "dnss is a daemon for using DNS over HTTPS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "https reverse proxy with automatic Letsencrypt usage for multiple hostnames/backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate-context",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "albertito/dnss",
       "status": "candidate",
       "text": "dnss is a daemon for using DNS over HTTPS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artyom/leproxy",
+      "status": "candidate",
+      "text": "Command leproxy implements https reverse proxy with automatic Letsencrypt"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "albertito/dnss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "artyom/leproxy"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

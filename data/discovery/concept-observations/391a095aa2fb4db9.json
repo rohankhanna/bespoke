@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TNNLS'22 :statue_of_liberty: Parameter-Efficient Person Re-identification in the 3D Space :statue_of_liberty:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ognet",
+      "sense_id": "ognet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ognet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ognet",
+  "observation_id": "391a095aa2fb4db9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "ognet",
+  "source_context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+  "source_file": null,
+  "source_repo": "layumi/person-reid-3d",
+  "source_repo_description": "TNNLS'22 :statue_of_liberty: Parameter-Efficient Person Re-identification in the 3D Space :statue_of_liberty:"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:52:23.397481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4697
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of FIFO-Diffusion: Generating Infinite Videos from Text without Training (NeurIPS 2024)",
+    "fork": false,
+    "full_name": "jjihwan/FIFO-Diffusion_public",
+    "html_url": "https://github.com/jjihwan/FIFO-Diffusion_public",
+    "language": "Python",
+    "pushed_at": "2024-10-18T05:08:49Z",
+    "stargazers_count": 484,
+    "topics": [],
+    "updated_at": "2026-04-21T08:59:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

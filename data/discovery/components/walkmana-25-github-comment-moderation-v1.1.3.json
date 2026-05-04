@@ -1,0 +1,12 @@
+{
+  "component": "Walkmana-25/github-comment-moderation@v1.1.3",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/moderation.yml",
+      "source_repo": "Floorp-Projects/Floorp"
+    }
+  ]
+}

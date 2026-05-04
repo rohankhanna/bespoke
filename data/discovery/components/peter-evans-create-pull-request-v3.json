@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v3",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/misspell.yml",
       "source_repo": "wemake-services/wemake-vue-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_clearurlsubo.yml",
+      "source_repo": "DandelionSprout/adfilt"
     }
   ]
 }

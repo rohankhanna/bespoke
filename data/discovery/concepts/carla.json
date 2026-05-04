@@ -19,6 +19,18 @@
       "source_repo": "carla-simulator/carla",
       "status": "candidate-context",
       "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "<!-- - [News](#news-fire) -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "carla-simulator/carla",
       "status": "candidate",
       "text": "CARLA Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate",
+      "text": "<!-- - [News](#news-fire) -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "carla-simulator/carla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

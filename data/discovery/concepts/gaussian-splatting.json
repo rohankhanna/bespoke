@@ -91,6 +91,18 @@
       "source_repo": "donydchen/mvsplat360",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "donydchen/mvsplat360",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "donydchen/mvsplat360"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

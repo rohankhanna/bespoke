@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -341,6 +341,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close_issue.yaml",
       "source_repo": "Dawn-LX/CausalCache-VDM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM"
     }
   ],
   "term": "Close inactive issues"

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/nested-transformer",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/nested-transformer",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/nested-transformer",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/nested-transformer",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/nested-transformer",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:39.885021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nested Hierarchical Transformer https://arxiv.org/pdf/2105.12723.pdf",
+    "fork": false,
+    "full_name": "google-research/nested-transformer",
+    "html_url": "https://github.com/google-research/nested-transformer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T16:43:05Z",
+    "stargazers_count": 204,
+    "topics": [
+      "imagenet",
+      "transformer",
+      "vision"
+    ],
+    "updated_at": "2026-04-23T11:38:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "NesT is a simple method, which aggregates nested local transformers on image blocks. The idea makes vision transformers attain better accuracy, data efficiency, and convergence on the ImageNet benchmark. NesT can be scaled to small datasets to match convnet accuracy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

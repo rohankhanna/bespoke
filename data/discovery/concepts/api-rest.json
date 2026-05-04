@@ -79,6 +79,18 @@
       "source_repo": "fern-api/docs-starter",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "fern-api/docs-starter",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "fern-api/docs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

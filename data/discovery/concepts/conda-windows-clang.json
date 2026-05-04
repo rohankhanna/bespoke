@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conda-windows-clang"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/CppAD",
+      "status": "candidate-context",
+      "text": "A C++ Algorithmic Differentiation Package: Home Page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CppAD",
+      "status": "candidate-context",
+      "text": "conda-windows-clang"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CppAD",
+      "status": "candidate",
+      "text": "conda-windows-clang"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conda-windows-clang",
+  "concept_id": "conda-windows-clang",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "source_repo": "coin-or/CppAD"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "conda-windows-clang",
+      "sense_id": "conda-windows-clang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

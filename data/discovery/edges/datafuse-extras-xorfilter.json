@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "fastfilter/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "unittest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "datafuse-extras/xorfilter"
+}

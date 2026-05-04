@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Known filters subscriptions transformed for better compatibility with AdGuard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build AdGuard filters"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build AdGuard filters"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12807,
+      "status": "candidate",
+      "text": "filter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12656,
+      "status": "candidate",
+      "text": "trance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12415,
+      "status": "candidate",
+      "text": "glomerulus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12415,
+      "status": "candidate",
+      "text": "kidney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12415,
+      "status": "candidate",
+      "text": "synthesizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build AdGuard filters",
+      "sense_id": "build-adguard-filters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-adguard-filters",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-adguard-filters",
+  "observation_id": "210313160c6b0200",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Build AdGuard filters",
+  "source_context_snippet": "Build AdGuard filters",
+  "source_file": ".github/workflows/build-adguard.yaml",
+  "source_repo": "AdguardTeam/FiltersRegistry",
+  "source_repo_description": "Known filters subscriptions transformed for better compatibility with AdGuard"
+}

@@ -55,6 +55,18 @@
       "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate-context",
       "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/classify_scalar",
+      "status": "candidate-context",
+      "text": "High performance policy-driven scalar classification for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/classify_scalar",
+      "status": "candidate-context",
+      "text": "CMake on multiple platforms"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate",
+      "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/classify_scalar",
       "status": "candidate",
       "text": "CMake on multiple platforms"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/cmake-multi-platform.yml",
       "source_repo": "vincentlaucsb/csv-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vincentlaucsb/classify_scalar"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

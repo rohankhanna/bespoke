@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "deeptools/pyBigWig",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deeptools/pyBigWig",
+      "target": "bigbed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deeptools/pyBigWig",
+      "target": "bigwig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deeptools/pyBigWig",
+      "target": "bioinfomatics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:54:58.863233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18746
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 1070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python extension for quick access to bigWig and bigBed files",
+    "fork": false,
+    "full_name": "deeptools/pyBigWig",
+    "html_url": "https://github.com/deeptools/pyBigWig",
+    "language": "C",
+    "pushed_at": "2026-01-14T14:49:32Z",
+    "stargazers_count": 243,
+    "topics": [
+      "bigbed",
+      "bigwig",
+      "bioinfomatics"
+    ],
+    "updated_at": "2026-04-15T15:06:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yml",
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigbed"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigwig"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinfomatics"
+    }
+  ]
+}

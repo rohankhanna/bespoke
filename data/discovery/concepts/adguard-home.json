@@ -19,6 +19,18 @@
       "source_repo": "AdguardTeam/HostlistsRegistry",
       "status": "candidate-context",
       "text": "- [What Blocklists Can Be Added Here](#what-blocklists)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "A simple tool that compiles hosts blocklists from multiple sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AdguardTeam/HostlistsRegistry",
       "status": "candidate",
       "text": "- [What Blocklists Can Be Added Here](#what-blocklists)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/HostlistsRegistry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/HostlistCompiler"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

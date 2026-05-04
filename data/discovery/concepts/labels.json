@@ -292,6 +292,18 @@
       "source_repo": "PRBonn/semantic-kitti-api",
       "status": "candidate-context",
       "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "Go CGO cross compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate-context",
+      "text": "labels"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +474,12 @@
       "source_repo": "PRBonn/semantic-kitti-api",
       "status": "candidate",
       "text": "This repository contains helper scripts to open, visualize, process, and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/xgo",
+      "status": "candidate",
+      "text": "labels"
     }
   ],
   "candidate_related_terms": [
@@ -931,11 +949,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/xgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

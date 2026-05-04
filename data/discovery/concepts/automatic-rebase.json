@@ -235,6 +235,18 @@
       "source_repo": "browserify/commonjs-assert",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "Vue tooling for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -349,6 +361,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "browserify/commonjs-assert",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -820,11 +838,41 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "vuejs/vetur"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "tape-testing/tape"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

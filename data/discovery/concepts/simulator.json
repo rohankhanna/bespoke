@@ -91,6 +91,30 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate-context",
       "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "<!-- - [News](#news-fire) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "Jiminy: a fast and portable Python/C++ simulator of poly-articulated robots with OpenAI Gym interface for reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate",
       "text": "Project AirSim is a simulation platform for drones, robots, and other autonomous systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate",
+      "text": "<!-- - [News](#news-fire) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duburcqa/jiminy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +256,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "iamaisim/ProjectAirSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "duburcqa/jiminy"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

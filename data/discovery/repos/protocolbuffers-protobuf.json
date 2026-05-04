@@ -226,7 +226,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:00:50.216511+00:00",
+  "fetched_at": "2026-05-04T18:54:29.387339+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +278,7 @@
     "full_name": "protocolbuffers/protobuf",
     "html_url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
-    "pushed_at": "2026-05-03T01:14:27Z",
+    "pushed_at": "2026-05-04T17:55:52Z",
     "stargazers_count": 71182,
     "topics": [
       "marshalling",
@@ -290,7 +290,7 @@
       "rpc",
       "serialization"
     ],
-    "updated_at": "2026-05-02T23:53:32Z"
+    "updated_at": "2026-05-04T15:31:01Z"
   },
   "repo_links": [
     {

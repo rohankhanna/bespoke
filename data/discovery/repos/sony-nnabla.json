@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/nnabla",
+      "target": "sony/nnabla-ext-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/nnabla",
+      "target": "sony/nnabla-c-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/nnabla",
+      "target": "sony/nnabla-rl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:19.009825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural Network Libraries",
+    "fork": false,
+    "full_name": "sony/nnabla",
+    "html_url": "https://github.com/sony/nnabla",
+    "language": "Python",
+    "pushed_at": "2025-08-29T07:28:05Z",
+    "stargazers_count": 2778,
+    "topics": [],
+    "updated_at": "2026-05-04T16:20:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/nnabla-c-runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/nnabla-ext-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/nnabla-rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

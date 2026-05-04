@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giggls/openstreetmap-carto-de",
+      "target": "kosmtik/kosmtik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giggls/openstreetmap-carto-de",
+      "target": "mapbox/carto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giggls/openstreetmap-carto-de",
+      "target": "openstreetmap/mapnik-stylesheets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giggls/openstreetmap-carto-de",
+      "target": "gravitystorm/openstreetmap-carto",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:53:51.468037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5322
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenStreetMap german style (a fork of openstreetmap-carto)",
+    "fork": true,
+    "full_name": "giggls/openstreetmap-carto-de",
+    "html_url": "https://github.com/giggls/openstreetmap-carto-de",
+    "language": "CartoCSS",
+    "pushed_at": "2026-04-13T15:45:19Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-13T15:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gravitystorm/openstreetmap-carto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosmtik/kosmtik",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/carto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openstreetmap/mapnik-stylesheets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

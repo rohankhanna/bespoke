@@ -343,6 +343,18 @@
       "source_repo": "JuliaGeo/Proj.jl",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proj4js/proj4js",
+      "status": "candidate-context",
+      "text": "JavaScript library to transform coordinates from one coordinate system to another, including datum transformations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proj4js/proj4js",
+      "status": "candidate-context",
+      "text": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "JuliaGeo/Proj.jl",
       "status": "candidate",
       "text": "[![CI](https://github.com/JuliaGeo/Proj.jl/workflows/CI/badge.svg)](https://github.com/JuliaGeo/Proj.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proj4js/proj4js",
+      "status": "candidate",
+      "text": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations."
     }
   ],
   "candidate_related_terms": [
@@ -760,11 +778,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "JuliaGeo/Proj.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "proj4js/proj4js"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

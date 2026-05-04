@@ -131,6 +131,18 @@
       "source_repo": "argos-ci/jest-puppeteer",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datafuse-extras/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "An adapter that bridges between tantivy and jieba-rs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/tantivy-jieba",
+      "status": "candidate-context",
+      "text": "Integration testing"
     }
   ],
   "candidate_glosses": [
@@ -193,6 +205,12 @@
       "source_repo": "argos-ci/jest-puppeteer",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datafuse-extras/tantivy-jieba",
+      "status": "candidate",
+      "text": "Integration testing"
     }
   ],
   "candidate_related_terms": [
@@ -296,11 +314,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "argos-ci/jest-puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "datafuse-extras/tantivy-jieba"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1895,6 +1895,30 @@
       "source_repo": "PraneshASP/vscode-foundry-test-runner",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./assets/logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "A miniature version of Boulder, Pebble is a small RFC 8555 ACME test server not suited for a production certificate authority."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate-context",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "a stealthy browser automation framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "Note: This project is moving away from the selenium syntax"
     }
   ],
   "candidate_glosses": [
@@ -2839,6 +2863,18 @@
       "source_repo": "PraneshASP/vscode-foundry-test-runner",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./assets/logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letsencrypt/pebble",
+      "status": "candidate",
+      "text": "[![Checks](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml/badge.svg)](https://github.com/letsencrypt/pebble/actions/workflows/checks.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate",
+      "text": "Note: This project is moving away from the selenium syntax"
     }
   ],
   "candidate_related_terms": [
@@ -4437,11 +4473,65 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "letsencrypt/pebble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

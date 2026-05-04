@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chnroute",
+      "sense_id": "chnroute#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chnroute",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chnroute",
+  "observation_id": "901d976ef8ef6055",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "chnroute",
+  "source_context_snippet": "- `OpenWrt(<=21)` use [branch:openwrt_v21](https://github.com/honwen/openwrt-dnsmasq-extra/tree/openwrt_v21)",
+  "source_file": null,
+  "source_repo": "honwen/openwrt-dnsmasq-extra",
+  "source_repo_description": "Anti Pollution/ADs DNS for OpenWrt/LEDE"
+}

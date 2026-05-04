@@ -151,6 +151,18 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate-context",
+      "text": "librechat.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate-context",
+      "text": "The official documentation site for [LibreChat](https://github.com/danny-avila/LibreChat), built with [Next.js 15](https://nextjs.org/) and [Fumadocs](https://fumadocs.vercel.app/)."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate",
+      "text": "The official documentation site for [LibreChat](https://github.com/danny-avila/LibreChat), built with [Next.js 15](https://nextjs.org/) and [Fumadocs](https://fumadocs.vercel.app/)."
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "LibreChat-AI/librechat.ai"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

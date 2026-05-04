@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rmsalinas/DBow3",
+      "target": "raulmur/orb_slam2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:29.610636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Improved version of DBow2",
+    "fork": false,
+    "full_name": "rmsalinas/DBow3",
+    "html_url": "https://github.com/rmsalinas/DBow3",
+    "language": "C++",
+    "pushed_at": "2026-01-07T06:59:52Z",
+    "stargazers_count": 567,
+    "topics": [],
+    "updated_at": "2026-04-07T15:19:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raulmur/orb_slam2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

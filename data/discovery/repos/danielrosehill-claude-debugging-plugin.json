@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:46:07.385828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude Code plugin: debugging workflow \u2014 capture logs, isolate issue, diagnose error, track bugs, with code/system/issue variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Debugging-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Debugging-Plugin",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T18:27:28Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-30T18:27:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

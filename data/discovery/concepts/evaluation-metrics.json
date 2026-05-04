@@ -139,6 +139,18 @@
       "source_repo": "npurson/fid-metrics",
       "status": "candidate-context",
       "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate-context",
+      "text": "[RAL' 25 & IROS\u2018 25] MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "npurson/fid-metrics",
       "status": "candidate",
       "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

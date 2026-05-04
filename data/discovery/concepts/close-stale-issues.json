@@ -1815,6 +1815,30 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate-context",
       "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "Provides an efficient allocation free async/await integration for Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_glosses": [
@@ -2759,6 +2783,18 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate",
       "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_related_terms": [
@@ -4650,11 +4686,89 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cucumber/cucumber-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

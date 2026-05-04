@@ -751,6 +751,18 @@
       "source_repo": "haibo-qiu/GFNet",
       "status": "candidate-context",
       "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "The official code for the paper: https://openreview.net/forum?id=_PHymLIxuI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "This repository is the code for our papers:"
     }
   ],
   "candidate_glosses": [
@@ -1125,6 +1137,12 @@
       "source_repo": "haibo-qiu/GFNet",
       "status": "candidate",
       "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate",
+      "text": "This repository is the code for our papers:"
     }
   ],
   "candidate_related_terms": [],
@@ -2038,11 +2056,65 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "haibo-qiu/GFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "TiagoCortinhal/SalsaNext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

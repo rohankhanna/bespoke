@@ -2,7 +2,8 @@
   "aliases": [
     "Quality Checks",
     "quality-checks",
-    "Quality checks \ud83d\udc4c\ud83e\uddea"
+    "Quality checks \ud83d\udc4c\ud83e\uddea",
+    "Quality checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -93,6 +94,18 @@
       "source_repo": "jellyfin/jellyfin-web",
       "status": "candidate-context",
       "text": "Quality checks \ud83d\udc4c\ud83e\uddea"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "A Haskell re-implementation of the Nix expression language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "\"Quality checks\""
     }
   ],
   "candidate_glosses": [
@@ -137,6 +150,12 @@
       "source_repo": "jellyfin/jellyfin-web",
       "status": "candidate",
       "text": "Quality checks \ud83d\udc4c\ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate",
+      "text": "\"Quality checks\""
     }
   ],
   "candidate_related_terms": [
@@ -174,6 +193,41 @@
       "score": 14918,
       "status": "candidate",
       "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100112699,
+      "status": "candidate",
+      "text": "quality control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100111699,
+      "status": "candidate",
+      "text": "quality assurance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 100012699,
+      "status": "candidate",
+      "text": "control"
     }
   ],
   "candidate_synonyms": [],
@@ -222,11 +276,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/__quality_checks.yml",
       "source_repo": "jellyfin/jellyfin-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

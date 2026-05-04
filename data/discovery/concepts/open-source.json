@@ -1201,6 +1201,30 @@
       "source_repo": "argosopentech/argos-translate",
       "status": "candidate-context",
       "text": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "A simple tool that compiles hosts blocklists from multiple sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "AdGuard scriptlets library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate-context",
+      "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
     }
   ],
   "candidate_glosses": [
@@ -1785,6 +1809,18 @@
       "source_repo": "argosopentech/argos-translate",
       "status": "candidate",
       "text": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/HostlistCompiler",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/@adguard/hostlist-compiler.png?compact=true)](https://www.npmjs.com/package/@adguard/hostlist-compiler/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/Scriptlets",
+      "status": "candidate",
+      "text": "AdGuard's Scriptlets and Redirect resources library which provides extended capabilities for content blocking."
     }
   ],
   "candidate_related_terms": [
@@ -3160,11 +3196,77 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/HostlistCompiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/Scriptlets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

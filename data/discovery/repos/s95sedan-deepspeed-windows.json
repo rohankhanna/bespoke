@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "S95Sedan/Deepspeed-Windows",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:38.941269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deepspeed windows information",
+    "fork": false,
+    "full_name": "S95Sedan/Deepspeed-Windows",
+    "html_url": "https://github.com/S95Sedan/Deepspeed-Windows",
+    "language": "C++",
+    "pushed_at": "2024-03-09T08:29:58Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-11-28T13:23:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

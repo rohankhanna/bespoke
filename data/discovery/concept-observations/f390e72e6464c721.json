@@ -48,7 +48,7 @@
   "normalized_form": "phi3",
   "observation_id": "f390e72e6464c721",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "phi3",
   "source_context_snippet": "This repository contains a script for training the [Phi3-Vision model](https://huggingface.co/microsoft/Phi-3-vision-128k-instruct) and [Phi3.5-Vision model](https://huggingface.co/microsoft/Phi-3.5-vision-instruct)",
   "source_file": null,

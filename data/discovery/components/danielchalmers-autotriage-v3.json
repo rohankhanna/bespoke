@@ -1,0 +1,22 @@
+{
+  "component": "danielchalmers/AutoTriage@v3",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juxt/yada",
+      "target": "ztellman/manifold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juxt/yada",
+      "target": "bidi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juxt/yada",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juxt/yada",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juxt/yada",
+      "target": "manifold",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juxt/yada",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T21:02:53.787731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A powerful Clojure web library, full HTTP, full async - see https://juxt.pro/yada/index.html",
+    "fork": false,
+    "full_name": "juxt/yada",
+    "html_url": "https://github.com/juxt/yada",
+    "language": "HTML",
+    "pushed_at": "2023-04-06T07:40:59Z",
+    "stargazers_count": 732,
+    "topics": [
+      "bidi",
+      "clojure",
+      "http",
+      "manifold",
+      "swagger",
+      "web"
+    ],
+    "updated_at": "2026-03-28T21:12:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ztellman/manifold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bidi"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manifold"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

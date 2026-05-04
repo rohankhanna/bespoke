@@ -205,6 +205,18 @@
       "source_repo": "ezhang7423/language-control-diffusion",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
@@ -307,6 +319,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ezhang7423/language-control-diffusion",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -568,11 +586,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "containrrr/watchtower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

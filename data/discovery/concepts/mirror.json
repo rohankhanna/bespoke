@@ -124,6 +124,18 @@
       "source_repo": "fjc0k/yapi-to-typescript",
       "status": "candidate-context",
       "text": "Mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "Automated driver management and other helper features for Selenium WebDriver in Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate-context",
+      "text": "mirror"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "fjc0k/yapi-to-typescript",
       "status": "candidate",
       "text": "Mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonigarcia/webdrivermanager",
+      "status": "candidate",
+      "text": "mirror"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/mirror.yml",
       "source_repo": "fjc0k/yapi-to-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "bonigarcia/webdrivermanager"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

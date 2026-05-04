@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yardoc",
+      "sense_id": "yardoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yardoc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yardoc",
+  "observation_id": "f268a335ec380448",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "yardoc",
+  "source_context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+  "source_file": null,
+  "source_repo": "AaronC81/sord",
+  "source_repo_description": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+}

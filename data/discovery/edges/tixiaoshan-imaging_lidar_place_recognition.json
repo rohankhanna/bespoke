@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "hkust-aerial-robotics/vins-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "imaging-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "lio-sam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "loop-closure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "loop-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "ouster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "target": "place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "TixiaoShan/imaging_lidar_place_recognition"
+}

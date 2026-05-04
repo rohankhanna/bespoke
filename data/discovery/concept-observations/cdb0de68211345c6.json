@@ -84,7 +84,7 @@
   "normalized_form": "latest-conformance",
   "observation_id": "cdb0de68211345c6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Latest conformance",
   "source_context_snippet": "Latest conformance",
   "source_file": ".github/workflows/latest_conformance.yml",

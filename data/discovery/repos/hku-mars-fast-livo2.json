@@ -1,0 +1,219 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "xuankuzcr/liv_handhold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "hku-mars/fast-calib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "xuankuzcr/rpg_vikit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "xuankuzcr/global-lvba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "colored-point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "lidar-camera-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "lidar-inertial-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "mesh-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "sensor-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:45.493058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry",
+    "fork": false,
+    "full_name": "hku-mars/FAST-LIVO2",
+    "html_url": "https://github.com/hku-mars/FAST-LIVO2",
+    "language": "C++",
+    "pushed_at": "2026-03-08T15:40:36Z",
+    "stargazers_count": 3999,
+    "topics": [
+      "3d-reconstruction",
+      "colored-point-cloud",
+      "gaussian-splatting",
+      "lidar-camera-fusion",
+      "lidar-inertial-odometry",
+      "lidar-slam",
+      "mesh-reconstruction",
+      "nerf",
+      "sensor-fusion",
+      "slam"
+    ],
+    "updated_at": "2026-05-03T20:39:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast-calib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuankuzcr/global-lvba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuankuzcr/liv_handhold",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuankuzcr/rpg_vikit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colored-point-cloud"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-camera-fusion"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial-odometry"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-reconstruction"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensor-fusion"
+    },
+    {
+      "context_snippet": "- \ud83d\udd13 **2025-01-23**: Code released!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

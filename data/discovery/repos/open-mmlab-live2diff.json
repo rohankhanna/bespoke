@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "lewiji/midas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "radames/real-time-latent-consistency-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "personalized-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "video-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/Live2Diff",
+      "target": "video-to-video-translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:52:14.861379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8446
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Live2Diff: A Pipeline that processes Live video streams by a uni-directional video Diffusion model.",
+    "fork": false,
+    "full_name": "open-mmlab/Live2Diff",
+    "html_url": "https://github.com/open-mmlab/Live2Diff",
+    "language": "Python",
+    "pushed_at": "2024-07-22T14:42:43Z",
+    "stargazers_count": 200,
+    "topics": [
+      "aigc",
+      "diffusion-models",
+      "personalized-generation",
+      "stable-diffusion",
+      "video-to-video",
+      "video-to-video-translation"
+    ],
+    "updated_at": "2026-02-25T16:54:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewiji/midas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radames/real-time-latent-consistency-model",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personalized-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-to-video"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-to-video-translation"
+    }
+  ]
+}

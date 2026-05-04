@@ -23,6 +23,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
+      "target": "wicg/chips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/first-party-sets",
       "target": "mreichhoff/requeststorageaccessforsite",
       "target_type": "repository"
     },
@@ -31,13 +38,6 @@
       "source_file": "README.md",
       "source_repo": "WICG/first-party-sets",
       "target": "sleevi/psl-problems",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WICG/first-party-sets",
-      "target": "mozilla-services/shavar-prod-lists",
       "target_type": "repository"
     },
     {
@@ -55,7 +55,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T12:52:00.434058+00:00",
+  "fetched_at": "2026-05-04T20:58:36.828974+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,11 +83,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mozilla-services/shavar-prod-lists",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "mreichhoff/requeststorageaccessforsite",
       "source_file": "README.md"
     },
@@ -99,6 +94,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "sleevi/psl-problems",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wicg/chips",
       "source_file": "README.md"
     }
   ],

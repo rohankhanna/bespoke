@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "sanctuary-type-identifiers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fantasy-land",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fantasy-laws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsverify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-identity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-maybe",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-pair",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-show",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-useless",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-js/sanctuary-type-identifiers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-js/sanctuary-def",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-type-identifiers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "fantasy-land",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "fantasy-laws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "jsverify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-identity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-maybe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-pair",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-show",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary-useless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "fantasy-land",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "target": "sanctuary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:02:56.079529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43420
+    },
+    {
+      "path": "package.json",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":rainbow: Standard library for Fantasy Land",
+    "fork": false,
+    "full_name": "sanctuary-js/sanctuary-type-classes",
+    "html_url": "https://github.com/sanctuary-js/sanctuary-type-classes",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-10T16:57:50Z",
+    "stargazers_count": 239,
+    "topics": [
+      "fantasy-land",
+      "sanctuary"
+    ],
+    "updated_at": "2025-12-02T02:11:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-def",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-type-identifiers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The [Fantasy Land Specification][FL] \"specifies interoperability of common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fantasy-land"
+    },
+    {
+      "context_snippet": "The [Fantasy Land Specification][FL] \"specifies interoperability of common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanctuary"
+    }
+  ]
+}

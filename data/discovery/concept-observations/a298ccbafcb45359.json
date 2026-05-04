@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000471,
+      "status": "candidate",
+      "text": "livingroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000279,
+      "status": "candidate",
+      "text": "sitting room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000005,
+      "status": "candidate",
+      "text": "parlor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999802,
+      "status": "candidate",
+      "text": "living room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999436,
+      "status": "candidate",
+      "text": "front room"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parlour",
+      "sense_id": "parlour#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "parlor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "living room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3022,
+      "status": "candidate",
+      "text": "front room"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3004,
+      "status": "candidate",
+      "text": "livingroom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "sitting room"
+    }
+  ],
+  "concept_id": "parlour",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parlour",
+  "observation_id": "a298ccbafcb45359",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "parlour",
+  "source_context_snippet": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)",
+  "source_file": null,
+  "source_repo": "AaronC81/sord",
+  "source_repo_description": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+}

@@ -40,13 +40,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "patterns-ai-core/langchainrb",
-      "target": "patterns-ai-core/langchainrb.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "patterns-ai-core/langchainrb",
@@ -96,7 +89,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:37:10.511713+00:00",
+  "fetched_at": "2026-05-04T20:01:00.477456+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,11 +126,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "explodinggradients/ragas",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "patterns-ai-core/langchainrb.",
       "source_file": "README.md"
     }
   ],

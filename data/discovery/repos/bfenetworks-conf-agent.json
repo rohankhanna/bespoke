@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:44:11.472877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 423
+    },
+    {
+      "path": "go.mod",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Configuration agent for BFE control plane",
+    "fork": false,
+    "full_name": "bfenetworks/conf-agent",
+    "html_url": "https://github.com/bfenetworks/conf-agent",
+    "language": "Go",
+    "pushed_at": "2026-02-10T10:12:15Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-02-10T10:12:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

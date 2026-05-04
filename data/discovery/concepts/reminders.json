@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "reminders"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026693,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989898,
+      "status": "candidate",
+      "text": "admonisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "admonitions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "ads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "advertisements"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "reminders",
+  "concept_id": "reminders",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "citiususc/calendula"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reminders",
+      "sense_id": "reminders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

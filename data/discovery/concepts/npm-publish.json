@@ -332,6 +332,18 @@
       "source_repo": "victorgarciaesgi/regle",
       "status": "candidate-context",
       "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "npm publish"
     }
   ],
   "candidate_glosses": [
@@ -496,6 +508,12 @@
       "source_repo": "victorgarciaesgi/regle",
       "status": "candidate",
       "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate",
+      "text": "npm publish"
     }
   ],
   "candidate_related_terms": [
@@ -749,11 +767,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "ftonato/nope-validator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

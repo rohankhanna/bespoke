@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:52:16.439476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3312
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable Diffusion Models with State Space Backbone",
+    "fork": false,
+    "full_name": "feizc/DiS",
+    "html_url": "https://github.com/feizc/DiS",
+    "language": "Python",
+    "pushed_at": "2024-03-07T08:46:00Z",
+    "stargazers_count": 160,
+    "topics": [],
+    "updated_at": "2026-04-11T02:38:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

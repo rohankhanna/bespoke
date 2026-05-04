@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "idris-lang/Idris-dev",
+      "target": "idris-lang/idris2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:55:09.638664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Dependently Typed Functional Programming Language",
+    "fork": false,
+    "full_name": "idris-lang/Idris-dev",
+    "html_url": "https://github.com/idris-lang/Idris-dev",
+    "language": "Haskell",
+    "pushed_at": "2025-02-17T14:08:47Z",
+    "stargazers_count": 3472,
+    "topics": [],
+    "updated_at": "2026-05-01T06:26:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idris-lang/idris2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

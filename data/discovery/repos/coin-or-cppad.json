@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-bash.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-bash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-clang.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-clang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-eigen.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-eigen.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-v142.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-v142.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msys2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-bash.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-bash.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-windows-clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-eigen.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-eigen.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-eigen.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-windows-eigen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-v142.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-windows-v142.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-v142.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "conda-windows-v142",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-macos.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-macos.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "ubuntu-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msys2.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-msys2.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-msys2.yml",
+      "source_repo": "coin-or/CppAD",
+      "target": "windows-msys2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:32.580390+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/conda-bash.yml",
+      "size": 1709
+    },
+    {
+      "path": ".github/workflows/conda-windows-clang.yml",
+      "size": 1957
+    },
+    {
+      "path": ".github/workflows/conda-windows-eigen.yml",
+      "size": 1881
+    },
+    {
+      "path": ".github/workflows/conda-windows-v142.yml",
+      "size": 1882
+    },
+    {
+      "path": ".github/workflows/ubuntu-macos.yml",
+      "size": 1447
+    },
+    {
+      "path": ".github/workflows/windows-msys2.yml",
+      "size": 721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C++ Algorithmic Differentiation Package: Home Page",
+    "fork": false,
+    "full_name": "coin-or/CppAD",
+    "html_url": "https://github.com/coin-or/CppAD",
+    "language": "C++",
+    "pushed_at": "2026-04-30T22:40:06Z",
+    "stargazers_count": 575,
+    "topics": [],
+    "updated_at": "2026-04-30T22:40:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "conda-windows-clang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-clang.yml",
+      "term": "conda-windows-clang"
+    },
+    {
+      "context_snippet": "conda-windows-eigen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-eigen.yml",
+      "term": "conda-windows-eigen"
+    },
+    {
+      "context_snippet": "conda-windows-v142",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-windows-v142.yml",
+      "term": "conda-windows-v142"
+    },
+    {
+      "context_snippet": "ubuntu-macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-macos.yml",
+      "term": "ubuntu-macos"
+    },
+    {
+      "context_snippet": "windows-msys2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-msys2.yml",
+      "term": "windows-msys2"
+    }
+  ]
+}

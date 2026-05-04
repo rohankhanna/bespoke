@@ -1,0 +1,202 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/person-reid-3d",
+      "target": "layumi/dgcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "dukemtmc-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "market-1501",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "msmt17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "ognet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "re-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "re-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/person-reid-3d",
+      "target": "reid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:50:04.873259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19678
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TNNLS'22 :statue_of_liberty: Parameter-Efficient Person Re-identification in the 3D Space :statue_of_liberty:",
+    "fork": false,
+    "full_name": "layumi/person-reid-3d",
+    "html_url": "https://github.com/layumi/person-reid-3d",
+    "language": "Python",
+    "pushed_at": "2023-03-10T04:06:57Z",
+    "stargazers_count": 273,
+    "topics": [
+      "3d",
+      "dukemtmc-reid",
+      "graph-neural-networks",
+      "market-1501",
+      "msmt17",
+      "ognet",
+      "person-reid",
+      "person-reidentification",
+      "pytorch",
+      "re-id",
+      "re-identification",
+      "reid"
+    ],
+    "updated_at": "2026-04-18T15:27:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/dgcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dukemtmc-reid"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "market-1501"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msmt17"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ognet"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-id"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-identification"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reid"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "danielchalmers/AutoTriage@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotriage-backlog.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "AutoTriage (Backlog)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "danielchalmers/AutoTriage@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotriage-issues.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "AutoTriage (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "danielchalmers/AutoTriage@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotriage-prs.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "AutoTriage (PRs)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "xt0rted/dotnet-format-problem-matcher@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "build-test-mudblazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-HEAD.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "MudBlazor/Workflows/.github/workflows/template-deploy-web-app.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mudblazor-HEAD.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "deploy-mudblazor-HEAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-dev.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "MudBlazor/Workflows/.github/workflows/template-deploy-web-app.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mudblazor-dev.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "deploy-mudblazor-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mudblazor-nightly.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "deploy-mudblazor-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nuget.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nuget.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor-nuget.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mudblazor-nuget.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "deploy-mudblazor-nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "MudBlazor/Workflows/.github/workflows/template-deploy-web-app.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mudblazor.yml",
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "deploy-mudblazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "blazor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "blazor-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "component",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "component-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MudBlazor/MudBlazor",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "MudBlazor/MudBlazor"
+}

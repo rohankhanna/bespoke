@@ -1,7 +1,27 @@
 {
-  "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmark-md/mmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,

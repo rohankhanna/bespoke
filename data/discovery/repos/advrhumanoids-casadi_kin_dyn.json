@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T18:57:31.443279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package for generation of symbolic (SX) expressions of robot kinematics and dynamics. Based on URDF and Pinocchio.",
+    "fork": false,
+    "full_name": "ADVRHumanoids/casadi_kin_dyn",
+    "html_url": "https://github.com/ADVRHumanoids/casadi_kin_dyn",
+    "language": "CMake",
+    "pushed_at": "2025-09-30T13:07:04Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-04-27T09:11:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

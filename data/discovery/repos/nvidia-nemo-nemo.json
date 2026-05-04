@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.94.1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test-publish-wheel.yml"
     },
@@ -210,7 +210,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-test-publish-wheel.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.22.3",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_test_publish_wheel.yml@v0.94.1",
       "target_type": "component"
     },
     {
@@ -326,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:28:04.623469+00:00",
+  "fetched_at": "2026-05-04T19:49:16.163329+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -350,7 +350,7 @@
     },
     {
       "path": ".github/workflows/build-test-publish-wheel.yml",
-      "size": 1223
+      "size": 1244
     },
     {
       "path": ".github/workflows/cherry-pick-release-commit.yml",
@@ -362,7 +362,7 @@
     },
     {
       "path": ".github/workflows/cicd-main-speech.yml",
-      "size": 24435
+      "size": 24526
     },
     {
       "path": ".github/workflows/cicd-main-unit-tests.yml",
@@ -378,7 +378,7 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-05-02T01:29:56Z",
+    "pushed_at": "2026-05-04T19:41:17Z",
     "stargazers_count": 17165,
     "topics": [
       "asr",
@@ -392,7 +392,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-05-04T09:45:59Z"
+    "updated_at": "2026-05-04T18:14:03Z"
   },
   "repo_links": [
     {

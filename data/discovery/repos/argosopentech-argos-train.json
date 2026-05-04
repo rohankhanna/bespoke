@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "argosopentech/argospm-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "libretranslate/locomotive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-train",
+      "target": "interaction-bot/opus-nlp-downloader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:46:19.183160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3993
+    },
+    {
+      "path": "Dockerfile",
+      "size": 525
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Training scripts for Argos Translate",
+    "fork": false,
+    "full_name": "argosopentech/argos-train",
+    "html_url": "https://github.com/argosopentech/argos-train",
+    "language": "Python",
+    "pushed_at": "2026-01-18T19:31:11Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-17T14:09:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argosopentech/argospm-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interaction-bot/opus-nlp-downloader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libretranslate/locomotive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

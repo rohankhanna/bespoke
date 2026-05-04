@@ -1,12 +1,17 @@
 {
   "component": "actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-to-pypi.yaml",
       "source_repo": "google/clusterfuzz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "cilium/community"
     }
   ]
 }

@@ -79,6 +79,18 @@
       "source_repo": "bet4it/udbserver",
       "status": "candidate-context",
       "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "a stealthy browser automation framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate-context",
+      "text": "Note: This project is moving away from the selenium syntax"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "bet4it/udbserver",
       "status": "candidate",
       "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "status": "candidate",
+      "text": "Note: This project is moving away from the selenium syntax"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +334,17 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "symgraph/BinAssistMCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

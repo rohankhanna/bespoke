@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "kaliiiiiiiiii/selenium-driverless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "ultrafunkamsterdam/undetected-chromedriver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "kaliiiiiiiiii/cdp-socket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "hmaker/python-cdp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "actions/dependency-review-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "detection-evasion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "driverless-chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "reverse-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "scraping-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "vulnerability-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "web-scraping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:54:03.592243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10572
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 98
+    },
+    {
+      "path": "requirements.txt",
+      "size": 283
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a stealthy browser automation framework",
+    "fork": false,
+    "full_name": "ttlns/Selenium-Driverless",
+    "html_url": "https://github.com/ttlns/Selenium-Driverless",
+    "language": "Python",
+    "pushed_at": "2025-04-25T10:24:04Z",
+    "stargazers_count": 853,
+    "topics": [
+      "automation",
+      "detection-evasion",
+      "driverless-chrome",
+      "python",
+      "python3",
+      "reverse-engineering",
+      "scraping-python",
+      "testing",
+      "vulnerability-research",
+      "web-scraping",
+      "webdriver"
+    ],
+    "updated_at": "2026-05-02T14:39:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hmaker/python-cdp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/cdp-socket",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/selenium-driverless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultrafunkamsterdam/undetected-chromedriver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection-evasion"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driverless-chrome"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-engineering"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraping-python"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-research"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-scraping"
+    },
+    {
+      "context_snippet": "Note: This project is moving away from the selenium syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

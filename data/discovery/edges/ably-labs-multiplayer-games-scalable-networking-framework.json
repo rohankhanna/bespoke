@@ -15,20 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
-      "target": "srushtika/multiplayer-scalable-game-networking-starter-kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
-      "target": "srushtika/multiplayer-web-game-ably-starter-kit",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
@@ -162,6 +148,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
 }

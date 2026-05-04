@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "android-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "google-play",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "medication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citiususc/calendula",
+      "target": "reminders",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:45:28.123887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9008
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Android assistant for personal medication management",
+    "fork": false,
+    "full_name": "citiususc/calendula",
+    "html_url": "https://github.com/citiususc/calendula",
+    "language": "Java",
+    "pushed_at": "2023-06-13T15:38:38Z",
+    "stargazers_count": 206,
+    "topics": [
+      "android",
+      "android-studio",
+      "app",
+      "google-play",
+      "health",
+      "medication",
+      "reminders"
+    ],
+    "updated_at": "2025-12-05T22:17:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-studio"
+    },
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-play"
+    },
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "health"
+    },
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medication"
+    },
+    {
+      "context_snippet": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reminders"
+    }
+  ]
+}

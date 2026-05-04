@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Next.js Bundle Analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate-context",
+      "text": "librechat.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate-context",
+      "text": "'Next.js Bundle Analysis'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreChat-AI/librechat.ai",
+      "status": "candidate",
+      "text": "'Next.js Bundle Analysis'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11567,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "bein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "commissure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "fasciculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10616,
+      "status": "candidate",
+      "text": "fillet"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Next.js Bundle Analysis",
+  "concept_id": "next.js-bundle-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/nextjs_bundle_analysis.yml",
+      "source_repo": "LibreChat-AI/librechat.ai"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Next.js Bundle Analysis",
+      "sense_id": "next.js-bundle-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

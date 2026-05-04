@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:02:57.850107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1447
+    },
+    {
+      "path": "requirements.txt",
+      "size": 9
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Migrate your subscribed Lemmy communites to a new account",
+    "fork": false,
+    "full_name": "wescode/lemmy_migrate",
+    "html_url": "https://github.com/wescode/lemmy_migrate",
+    "language": "Python",
+    "pushed_at": "2024-09-16T16:55:48Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-05-04T18:54:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

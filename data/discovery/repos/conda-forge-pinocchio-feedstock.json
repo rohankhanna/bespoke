@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pinocchio-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pinocchio-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:34.390499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19603
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 5899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for pinocchio.",
+    "fork": false,
+    "full_name": "conda-forge/pinocchio-feedstock",
+    "html_url": "https://github.com/conda-forge/pinocchio-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T15:31:29Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-22T15:31:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

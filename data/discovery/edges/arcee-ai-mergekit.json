@@ -2,13 +2,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "arcee-ai/mergekit",
-      "target": "arcee-ai/mergekit.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "arcee-ai/mergekit",
       "target": "cg123/mergekit",
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
   "source_repo": "arcee-ai/mergekit"
 }

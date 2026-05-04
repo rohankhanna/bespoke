@@ -19,6 +19,18 @@
       "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
       "status": "candidate-context",
       "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "status": "candidate-context",
+      "text": "ICRA 2021 - Robust Place Recognition using an Imaging Lidar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "status": "candidate-context",
+      "text": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
       "status": "candidate",
       "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition",
+      "status": "candidate",
+      "text": "A place recognition package using high-resolution imaging lidar. For best performance, a lidar equipped with more than 64 uniformly distributed channels is strongly recommended, i.e., [Ouster OS1-128 lidar](https://ouster.com/products/os1-lidar-sensor/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "TixiaoShan/imaging_lidar_place_recognition"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

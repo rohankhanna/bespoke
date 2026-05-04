@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "hila-chefer/transformer-explainability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "naver-ai/relabel_imagenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "lv-vit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zihangJiang/TokenLabeling",
+      "target": "vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:58:47.805253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8720
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch implementation of \"All Tokens Matter: Token Labeling for Training Better Vision Transformers\"",
+    "fork": false,
+    "full_name": "zihangJiang/TokenLabeling",
+    "html_url": "https://github.com/zihangJiang/TokenLabeling",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-05T07:44:23Z",
+    "stargazers_count": 433,
+    "topics": [
+      "imagenet",
+      "lv-vit",
+      "pytorch",
+      "segmentation",
+      "transformer",
+      "vision"
+    ],
+    "updated_at": "2025-12-24T09:01:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hila-chefer/transformer-explainability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver-ai/relabel_imagenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lv-vit"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "This is a Pytorch implementation of our paper.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    }
+  ]
+}

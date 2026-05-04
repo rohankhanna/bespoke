@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "bs-css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bs-platform",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bucklescript-tea",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "sentiaanalytics/bs-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "bs-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "bs-platform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "bucklescript-tea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "feluxe/bs-tea-starter-kit",
+      "target": "webpack-dev-server",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:47:25.100056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1148
+    },
+    {
+      "path": "package.json",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A bucklescript-tea starter kit.",
+    "fork": false,
+    "full_name": "feluxe/bs-tea-starter-kit",
+    "html_url": "https://github.com/feluxe/bs-tea-starter-kit",
+    "language": "OCaml",
+    "pushed_at": "2021-07-02T15:51:18Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2024-01-12T14:46:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sentiaanalytics/bs-css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

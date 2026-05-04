@@ -231,6 +231,18 @@
       "source_repo": "PrismLibrary/Prism-Samples-Wpf",
       "status": "candidate-context",
       "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "Collection of demos for HaxeFlixel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate-context",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +365,12 @@
       "source_repo": "PrismLibrary/Prism-Samples-Wpf",
       "status": "candidate",
       "text": "Samples that demonstrate how to use various Prism features with WPF. If you are just getting started with Prism, it is recommended that you start from the first sample, and work your way down the list sequentially (in order). Each sample builds on the previous sample's concept."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)"
     }
   ],
   "candidate_related_terms": [
@@ -516,11 +534,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "PrismLibrary/Prism-Samples-Wpf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

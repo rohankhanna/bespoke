@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T20:00:26.920236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21518
+    },
+    {
+      "path": "Dockerfile",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "StyleGAN3 + Inversion",
+    "fork": true,
+    "full_name": "ouhenio/stylegan3-projector",
+    "html_url": "https://github.com/ouhenio/stylegan3-projector",
+    "language": "Python",
+    "pushed_at": "2022-05-17T16:03:40Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2024-04-10T10:19:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

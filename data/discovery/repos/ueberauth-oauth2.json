@@ -28,13 +28,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ueberauth/oauth2",
-      "target": "login/oauth",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ueberauth/oauth2",
       "target": "scrogson/oauth2_example",
       "target_type": "repository"
     },
@@ -88,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:31:16.145591+00:00",
+  "fetched_at": "2026-05-04T19:53:34.164991+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -126,11 +119,6 @@
     "updated_at": "2026-04-12T09:56:01Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "login/oauth",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "scrogson/oauth2",

@@ -31,6 +31,18 @@
       "source_repo": "dpryan79/libBigWig",
       "status": "candidate-context",
       "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deeptools/pyBigWig",
+      "status": "candidate-context",
+      "text": "A python extension for quick access to bigWig and bigBed files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deeptools/pyBigWig",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "dpryan79/libBigWig",
       "status": "candidate",
       "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deeptools/pyBigWig",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/pyBigWig.svg)](https://badge.fury.io/py/pyBigWig) [![Travis-CI status](https://travis-ci.org/deeptools/pyBigWig.svg?branch=master)](https://travis-ci.org/dpryan79/pyBigWig.svg?branch=master) [![bioconda-badge](https://img.shields.io/badg\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "dpryan79/libBigWig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "deeptools/pyBigWig"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

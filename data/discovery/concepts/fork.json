@@ -19,6 +19,18 @@
       "source_repo": "artichoke/spec",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "artichoke/spec",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/ruby/spec.svg)](https://travis-ci.org/ruby/spec)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "artichoke/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "garuda-linux/firedragon"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

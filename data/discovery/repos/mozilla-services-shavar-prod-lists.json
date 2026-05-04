@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-services/shavar-prod-lists",
+      "target": "mozilla-services/shavar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-services/shavar-prod-lists",
+      "target": "mozilla-services/shavar-list-creation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mozilla-services/shavar-prod-lists",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mozilla-services/shavar-prod-lists",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mozilla-services/shavar-prod-lists",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:58:33.630519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8920
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shavar/tracking protection lists used in prod",
+    "fork": false,
+    "full_name": "mozilla-services/shavar-prod-lists",
+    "html_url": "https://github.com/mozilla-services/shavar-prod-lists",
+    "language": "Python",
+    "pushed_at": "2026-04-29T18:18:35Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-29T18:17:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-services/shavar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-services/shavar-list-creation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

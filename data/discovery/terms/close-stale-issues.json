@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -796,6 +796,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale_issue.yml",
       "source_repo": "aws/aws-sdk-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cucumber/cucumber-js"
     }
   ],
   "term": "Close stale issues"

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/covidnet_ui"
     }
   ],
   "term": "CI to Docker Hub"

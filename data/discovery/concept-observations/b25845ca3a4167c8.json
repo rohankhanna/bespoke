@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36635,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36634,
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36633,
+      "status": "candidate",
+      "text": "server push"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36632,
+      "status": "candidate",
+      "text": "request"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36631,
+      "status": "candidate",
+      "text": "pushlet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request",
+      "sense_id": "pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request",
+  "observation_id": "b25845ca3a4167c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Pull Request",
+  "source_context_snippet": "Pull Request",
+  "source_file": ".github/workflows/pull-request.yml",
+  "source_repo": "containrrr/watchtower",
+  "source_repo_description": "A process for automating Docker container base image updates. "
+}

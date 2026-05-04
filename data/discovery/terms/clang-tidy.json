@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -76,6 +76,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "mapbox/protozero"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "osmcode/libosmium"
     }
   ],
   "term": "clang-tidy"

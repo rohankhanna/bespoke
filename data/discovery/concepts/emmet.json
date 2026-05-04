@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "emmet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "The essential toolkit for web-developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate-context",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neoclide/coc-emmet",
+      "status": "candidate-context",
+      "text": "Emmet extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-emmet",
+      "status": "candidate-context",
+      "text": "coc-emmet \u2014 emmet extension for coc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emmetio/emmet",
+      "status": "candidate",
+      "text": "Emmet is a web-developer\u2019s toolkit for boosting HTML & CSS code writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neoclide/coc-emmet",
+      "status": "candidate",
+      "text": "coc-emmet \u2014 emmet extension for coc"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39630347,
+      "status": "candidate",
+      "text": "pismire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39630126,
+      "status": "candidate",
+      "text": "ant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29156378,
+      "status": "candidate",
+      "text": "teller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19630385,
+      "status": "candidate",
+      "text": "antique"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19630384,
+      "status": "candidate",
+      "text": "antick"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "pismire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "ant"
+    }
+  ],
+  "canonical_name": "emmet",
+  "concept_id": "emmet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "emmetio/emmet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "neoclide/coc-emmet"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emmet",
+      "sense_id": "emmet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

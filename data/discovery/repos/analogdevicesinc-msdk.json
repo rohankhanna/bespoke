@@ -1,0 +1,700 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/lock-board@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocderase@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocdflash@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocderase@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocdflash@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "Analog-Devices-MSDK/btm-ci-scripts/actions/lock-board@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "carlosperate/arm-none-eabi-gcc-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "actions/setup-python@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "carlosperate/arm-none-eabi-gcc-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "actions/setup-python@v4.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_Title_Check.yml"
+    },
+    {
+      "component": "actions/checkout@v3.5.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v0.1.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml"
+    },
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Stale_PR.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Verify_Register_SVD.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Analog-Devices-MSDK/btm-ci-scripts/actions/lock-board@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocderase@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Analog-Devices-MSDK/btm-ci-scripts/actions/ocdflash@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "BLE Examples Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "carlosperate/arm-none-eabi-gcc-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/setup-python@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Examples.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Generate_Register_Files.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Generate_Register_Files.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Generate Register Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_Title_Check.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR_Title_Check.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Pull Request Title Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v3.5.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "softprops/action-gh-release@v0.1.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Package Release Components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Stale_PR.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Stale_PR.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Check for Stale Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Verify_Register_SVD.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Verify_Register_SVD.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Verify Register and SVD Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "mattnotmitt/doxygen-action@v1.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "EndBug/add-and-commit@v9.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "Build & Deploy Cordio Platform Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32520",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32570",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32572",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32650",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32655",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32660",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32662",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32665",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32670",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32672",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32675",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32680",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max32690",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max78000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "max78002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk",
+      "target": "microcontrollers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:02.965496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10121
+    },
+    {
+      "path": ".github/workflows/BLE_Examples_Test.yml",
+      "size": 33385
+    },
+    {
+      "path": ".github/workflows/Build_Examples.yml",
+      "size": 15523
+    },
+    {
+      "path": ".github/workflows/Generate_Register_Files.yml",
+      "size": 12804
+    },
+    {
+      "path": ".github/workflows/PR_Title_Check.yml",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3489
+    },
+    {
+      "path": ".github/workflows/Release.yml",
+      "size": 1813
+    },
+    {
+      "path": ".github/workflows/Stale_PR.yml",
+      "size": 2136
+    },
+    {
+      "path": ".github/workflows/Verify_Register_SVD.yml",
+      "size": 32677
+    },
+    {
+      "path": ".github/workflows/build-cordio-platform-docs.yml",
+      "size": 2818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Software Development Kit for Analog Device's MAX-series microcontrollers",
+    "fork": false,
+    "full_name": "analogdevicesinc/msdk",
+    "html_url": "https://github.com/analogdevicesinc/msdk",
+    "language": "C",
+    "pushed_at": "2026-05-04T15:56:44Z",
+    "stargazers_count": 99,
+    "topics": [
+      "embedded-systems",
+      "max32520",
+      "max32570",
+      "max32572",
+      "max32650",
+      "max32655",
+      "max32660",
+      "max32662",
+      "max32665",
+      "max32670",
+      "max32672",
+      "max32675",
+      "max32680",
+      "max32690",
+      "max78000",
+      "max78002",
+      "microcontrollers"
+    ],
+    "updated_at": "2026-05-04T15:56:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BLE Examples Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BLE_Examples_Test.yml",
+      "term": "BLE Examples Test"
+    },
+    {
+      "context_snippet": "Generate Register Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Generate_Register_Files.yml",
+      "term": "Generate Register Files"
+    },
+    {
+      "context_snippet": "Pull Request Title Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR_Title_Check.yml",
+      "term": "Pull Request Title Checker"
+    },
+    {
+      "context_snippet": "\"Package Release Components\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release.yml",
+      "term": "Package Release Components"
+    },
+    {
+      "context_snippet": "Check for Stale Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Stale_PR.yml",
+      "term": "Check for Stale Pull Requests"
+    },
+    {
+      "context_snippet": "Verify Register and SVD Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Verify_Register_SVD.yml",
+      "term": "Verify Register and SVD Files"
+    },
+    {
+      "context_snippet": "Build & Deploy Cordio Platform Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cordio-platform-docs.yml",
+      "term": "Build & Deploy Cordio Platform Docs"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-systems"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32520"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32570"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32572"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32650"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32655"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32660"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32662"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32665"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32670"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32672"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32675"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32680"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max32690"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78000"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78002"
+    },
+    {
+      "context_snippet": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontrollers"
+    }
+  ]
+}

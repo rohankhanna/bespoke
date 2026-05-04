@@ -20,6 +20,18 @@
       "source_repo": "fallow-rs/oxc-coverage-instrument",
       "status": "candidate-context",
       "text": "Release npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate-context",
+      "text": "Release NPM"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +40,12 @@
       "source_repo": "fallow-rs/oxc-coverage-instrument",
       "status": "candidate",
       "text": "Release npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/cucumber-js",
+      "status": "candidate",
+      "text": "Release NPM"
     }
   ],
   "candidate_related_terms": [
@@ -83,11 +101,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/release-npm.yml",
       "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release-npm.yml",
+      "source_repo": "cucumber/cucumber-js"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

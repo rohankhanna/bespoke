@@ -1,0 +1,22 @@
+{
+  "component": "Cysharp/Actions/.github/actions/checkout@main",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/UniTask"
+    }
+  ]
+}

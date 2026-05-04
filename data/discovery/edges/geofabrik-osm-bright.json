@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "kosmtik/kosmtik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "gravitystorm/openstreetmap-carto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geofabrik/osm-bright",
+      "target": "mapbox/osm-bright",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "geofabrik/osm-bright"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "add-closing-message-to-issue",
   "observation_id": "1b13b1994e44ad14",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Add closing message to issue",
   "source_context_snippet": "Add closing message to issue",
   "source_file": ".github/workflows/closed-issue-message.yml",

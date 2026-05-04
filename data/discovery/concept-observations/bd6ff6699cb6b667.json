@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Drivers for receiving LiDAR data and more, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "livox-sdk",
+      "sense_id": "livox-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "livox-sdk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "livox-sdk",
+  "observation_id": "bd6ff6699cb6b667",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "livox-sdk",
+  "source_context_snippet": "[\u4e2d\u6587\u7248\u672c\u4f7f\u7528\u8bf4\u660e](<https://github.com/Livox-SDK/Livox-SDK/blob/master/README_CN.md>)",
+  "source_file": null,
+  "source_repo": "Livox-SDK/Livox-SDK",
+  "source_repo_description": "Drivers for receiving LiDAR data and more, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia."
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isovalent/eCHO",
+      "target": "vmware-tanzu/tgik",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:46:05.568272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "eBPF & Cilium Office Hours",
+    "fork": false,
+    "full_name": "isovalent/eCHO",
+    "html_url": "https://github.com/isovalent/eCHO",
+    "language": "Go",
+    "pushed_at": "2025-06-06T10:01:33Z",
+    "stargazers_count": 339,
+    "topics": [],
+    "updated_at": "2026-05-04T17:37:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmware-tanzu/tgik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

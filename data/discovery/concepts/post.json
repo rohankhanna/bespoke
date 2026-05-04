@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +45,18 @@
       "source_repo": "feross/simple-get",
       "status": "candidate-context",
       "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "Ansible IDE extension: auto-completion and integrating quality assurance tools like ansible-lint, ansible syntax check, yamllint, molecule and ansible-test."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate-context",
+      "text": "post"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +77,12 @@
       "source_repo": "feross/simple-get",
       "status": "candidate",
       "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/vscode-ansible",
+      "status": "candidate",
+      "text": "post"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +180,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "feross/simple-get"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/post.yml",
+      "source_repo": "ansible/vscode-ansible"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

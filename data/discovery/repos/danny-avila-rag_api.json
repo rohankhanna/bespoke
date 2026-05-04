@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "Docker Dev Images Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "Docker Dev Images Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "danny-avila/rag_api",
+      "target": "Docker Dev Images Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "api-rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "fastapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "pgvector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "psql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "vector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T19:58:09.067107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18947
+    },
+    {
+      "path": "Dockerfile",
+      "size": 657
+    },
+    {
+      "path": "requirements.txt",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/docker-build-workflow.yaml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/images.yaml",
+      "size": 1932
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector",
+    "fork": false,
+    "full_name": "danny-avila/rag_api",
+    "html_url": "https://github.com/danny-avila/rag_api",
+    "language": "Python",
+    "pushed_at": "2026-04-24T04:40:35Z",
+    "stargazers_count": 806,
+    "topics": [
+      "api",
+      "api-rest",
+      "embeddings",
+      "fastapi",
+      "langchain",
+      "pgvector",
+      "postgresql",
+      "psql",
+      "python",
+      "rag",
+      "vector",
+      "vector-database"
+    ],
+    "updated_at": "2026-05-04T07:10:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Dev Images Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-workflow.yaml",
+      "term": "Docker Dev Images Build"
+    },
+    {
+      "context_snippet": "Docker Dev Images Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/images.yaml",
+      "term": "Docker Dev Images Build"
+    },
+    {
+      "context_snippet": "Docker Dev Images Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Docker Dev Images Release"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-rest"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastapi"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pgvector"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psql"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    },
+    {
+      "context_snippet": "\ufeff# ID-based RAG FastAPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

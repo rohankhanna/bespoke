@@ -406,6 +406,18 @@
       "source_repo": "dpryan79/pyBigWig",
       "status": "candidate-context",
       "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deeptools/pyBigWig",
+      "status": "candidate-context",
+      "text": "A python extension for quick access to bigWig and bigBed files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deeptools/pyBigWig",
+      "status": "candidate-context",
+      "text": "pypi"
     }
   ],
   "candidate_glosses": [
@@ -610,6 +622,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dpryan79/pyBigWig",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deeptools/pyBigWig",
       "status": "candidate",
       "text": "pypi"
     }
@@ -1429,11 +1447,71 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "deeptools/pyBigWig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/chex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "google-deepmind/jmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

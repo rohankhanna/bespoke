@@ -26,6 +26,16 @@
       "source_file": ".github/workflows/deploy.yml"
     },
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-macros.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-macros.yml"
+    },
+    {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
@@ -149,6 +159,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-macros.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-macros.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-macros.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
+      "target": "Publish eventstore-macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust",
       "target": "actions/checkout@v3",
@@ -239,7 +270,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:33:08.693781+00:00",
+  "fetched_at": "2026-05-04T19:55:46.624377+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -266,6 +297,10 @@
       "size": 2063
     },
     {
+      "path": ".github/workflows/publish-macros.yml",
+      "size": 970
+    },
+    {
       "path": ".github/workflows/rust.yml",
       "size": 1530
     },
@@ -287,7 +322,7 @@
     "full_name": "kurrent-io/KurrentDB-Client-Rust",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Rust",
     "language": "Rust",
-    "pushed_at": "2026-05-04T11:14:32Z",
+    "pushed_at": "2026-05-04T14:25:13Z",
     "stargazers_count": 62,
     "topics": [
       "cqrs",
@@ -298,7 +333,7 @@
       "rust",
       "rust-lang"
     ],
-    "updated_at": "2026-03-04T12:12:12Z"
+    "updated_at": "2026-05-04T13:14:20Z"
   },
   "repo_links": [
     {
@@ -331,6 +366,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-repo.yml",
       "term": "Get ESDB Docker repo"
+    },
+    {
+      "context_snippet": "Publish eventstore-macros",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-macros.yml",
+      "term": "Publish eventstore-macros"
     },
     {
       "context_snippet": "\"Dispatch\"",

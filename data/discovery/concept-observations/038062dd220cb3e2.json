@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Undetected version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998717,
+      "status": "candidate",
+      "text": "unseeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998480,
+      "status": "candidate",
+      "text": "unperceivable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998145,
+      "status": "candidate",
+      "text": "indiscernible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997422,
+      "status": "candidate",
+      "text": "invisible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997181,
+      "status": "candidate",
+      "text": "insensible"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "undetectable",
+      "sense_id": "undetectable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19034,
+      "status": "candidate",
+      "text": "insensible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19031,
+      "status": "candidate",
+      "text": "imperceptible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13028,
+      "status": "candidate",
+      "text": "indiscernible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10062,
+      "status": "candidate",
+      "text": "blind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "invisible"
+    }
+  ],
+  "concept_id": "undetectable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "undetectable",
+  "observation_id": "038062dd220cb3e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "undetectable",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+  "source_repo_description": "Undetected version of the Playwright testing and automation library."
+}

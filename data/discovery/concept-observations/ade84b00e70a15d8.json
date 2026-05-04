@@ -84,7 +84,7 @@
   "normalized_form": "npm-audit-fix-with-typescript-auto-fix",
   "observation_id": "ade84b00e70a15d8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "NPM Audit Fix with TypeScript Auto-Fix",
   "source_context_snippet": "NPM Audit Fix with TypeScript Auto-Fix",
   "source_file": ".github/workflows/npm-audit-typescript.yml",

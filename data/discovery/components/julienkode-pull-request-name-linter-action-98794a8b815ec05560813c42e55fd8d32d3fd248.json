@@ -1,0 +1,12 @@
+{
+  "component": "JulienKode/pull-request-name-linter-action@98794a8b815ec05560813c42e55fd8d32d3fd248",
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_checks.yml",
+      "source_repo": "OutlineFoundation/outline-apps"
+    }
+  ]
+}

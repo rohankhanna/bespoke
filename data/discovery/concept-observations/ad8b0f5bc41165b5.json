@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31422,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31421,
+      "status": "candidate",
+      "text": "tracks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31420,
+      "status": "candidate",
+      "text": "trackable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trackers",
+      "sense_id": "trackers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "trackers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "trackers",
+  "observation_id": "ad8b0f5bc41165b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "trackers",
+  "source_context_snippet": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>",
+  "source_file": null,
+  "source_repo": "badmojr/1Hosts",
+  "source_repo_description": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+}

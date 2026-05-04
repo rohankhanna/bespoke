@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Deno Module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/assertion-error",
+      "status": "candidate-context",
+      "text": "Error constructor for test and validation frameworks that implements standardized AssertionError specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/assertion-error",
+      "status": "candidate-context",
+      "text": "Test Deno Module"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/assertion-error",
+      "status": "candidate",
+      "text": "Test Deno Module"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27166,
+      "status": "candidate",
+      "text": "ielts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10999,
+      "status": "candidate",
+      "text": "synthesizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "command"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "ecm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10939,
+      "status": "candidate",
+      "text": "modular"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Deno Module",
+  "concept_id": "test-deno-module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "chaijs/assertion-error"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Deno Module",
+      "sense_id": "test-deno-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

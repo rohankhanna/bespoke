@@ -1,7 +1,7 @@
 {
   "component": "cachix/install-nix-action@v25",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "stable-haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/On-Release-Nixpkgs-integration.yml",
+      "source_repo": "haskell-nix/hnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Quality.yml",
+      "source_repo": "haskell-nix/hnix"
     }
   ]
 }

@@ -937,6 +937,18 @@
       "source_repo": "oxalorg/sakura",
       "status": "candidate-context",
       "text": "[![npm][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a I respect proton UI and aim to improve it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate-context",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
     }
   ],
   "candidate_glosses": [
@@ -1401,6 +1413,12 @@
       "source_repo": "oxalorg/sakura",
       "status": "candidate",
       "text": "[![npm][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black7375/Firefox-UI-Fix",
+      "status": "candidate",
+      "text": "Lepton \u2014 I respect proton UI and aim to improve it."
     }
   ],
   "candidate_related_terms": [
@@ -2416,11 +2434,47 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "black7375/Firefox-UI-Fix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -418,6 +418,18 @@
       "source_repo": "mozilla/pontoon",
       "status": "candidate-context",
       "text": "Heroku"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "Tidy, feature-complete Web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate-context",
+      "text": "heroku"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +636,12 @@
       "source_repo": "mozilla/pontoon",
       "status": "candidate",
       "text": "Heroku"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camlworks/dream",
+      "status": "candidate",
+      "text": "heroku"
     }
   ],
   "candidate_related_terms": [
@@ -871,11 +889,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/heroku.yml",
       "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/heroku.yml",
+      "source_repo": "camlworks/dream"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

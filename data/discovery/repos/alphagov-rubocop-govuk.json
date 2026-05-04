@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/autorelease-rubygem.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/codeql-analysis.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/dependency-review.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/publish-rubygem.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/gem-bump-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-bump-checker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-against-project.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-against-project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/styleguides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "Lint GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autorelease.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/autorelease-rubygem.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/codeql-analysis.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/dependency-review.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/publish-rubygem.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem-bump-checker.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/gem-bump-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-against-project.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-against-project.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "ruby/setup-ruby@7372622e62b60b3cb750dcd2b9e32c247ffec26a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-against-project.yml",
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "Run against project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/rubocop-govuk",
+      "target": "govuk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:48:25.526007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2078
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/autorelease.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1258
+    },
+    {
+      "path": ".github/workflows/gem-bump-checker.yml",
+      "size": 228
+    },
+    {
+      "path": ".github/workflows/run-against-project.yml",
+      "size": 2172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RuboCop style rules for GOV.UK's Ruby projects",
+    "fork": false,
+    "full_name": "alphagov/rubocop-govuk",
+    "html_url": "https://github.com/alphagov/rubocop-govuk",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T14:47:40Z",
+    "stargazers_count": 11,
+    "topics": [
+      "govuk"
+    ],
+    "updated_at": "2026-04-23T11:29:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphagov/govuk-rfcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphagov/styleguides",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Lint GitHub Actions"
+    },
+    {
+      "context_snippet": "Run against project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-against-project.yml",
+      "term": "Run against project"
+    },
+    {
+      "context_snippet": "Defines the linting rules for GDS Ruby applications, primarily those associated with GOV.UK.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "govuk"
+    }
+  ]
+}

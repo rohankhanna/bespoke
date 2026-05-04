@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cucumber for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GitHub Actions Security Analysis"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26246,
+      "status": "candidate",
+      "text": "behaviourism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "only"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "self-examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17884,
+      "status": "candidate",
+      "text": "case"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GitHub Actions Security Analysis",
+      "sense_id": "github-actions-security-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "github-actions-security-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "github-actions-security-analysis",
+  "observation_id": "82a35b88a959c081",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "GitHub Actions Security Analysis",
+  "source_context_snippet": "GitHub Actions Security Analysis",
+  "source_file": ".github/workflows/zizmor-analysis.yaml",
+  "source_repo": "cucumber/cucumber-js",
+  "source_repo_description": "Cucumber for JavaScript"
+}

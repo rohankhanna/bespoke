@@ -199,6 +199,42 @@
       "source_repo": "gisbi-kim/navtech-radar-slam",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate-context",
+      "text": "[RAL' 25 & IROS\u2018 25] MapEval: Towards Unified, Robust and Efficient SLAM Map Evaluation Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "A Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry (LIVO)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate-context",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "gisbi-kim/navtech-radar-slam",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO",
+      "status": "candidate",
+      "text": "- **3 July 2024**: We are excited to announce the upcoming release of [**FAST-LIVO2**](https://github.com/hku-mars/FAST-LIVO2) (some high-resolution results are already showcased). This new version delivers a **overwhelming enhancement** over **FAST-LIVO**, establishing an **und\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
     }
   ],
   "candidate_related_terms": [
@@ -472,11 +526,29 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "gisbi-kim/navtech-radar-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/Cloud_Map_Evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

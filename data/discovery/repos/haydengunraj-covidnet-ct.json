@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "aalhaimi/covid-net-cxr-shuffle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "chest-ct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "coronavirus-detect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covid-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "covidx-ct-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "target": "sars-cov-2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:04.997761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COVID-Net Open Source Initiative - Models and Data for COVID-19 Detection in Chest CT",
+    "fork": false,
+    "full_name": "haydengunraj/COVIDNet-CT",
+    "html_url": "https://github.com/haydengunraj/COVIDNet-CT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-02T01:13:22Z",
+    "stargazers_count": 127,
+    "topics": [
+      "chest-ct",
+      "coronavirus",
+      "coronavirus-dataset",
+      "coronavirus-detect",
+      "covid-19",
+      "covid-net",
+      "covidx-ct-dataset",
+      "dataset",
+      "sars-cov-2",
+      "xai"
+    ],
+    "updated_at": "2026-02-28T00:02:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aalhaimi/covid-net-cxr-shuffle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chest-ct"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coronavirus"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coronavirus-dataset"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coronavirus-detect"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-net"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covidx-ct-dataset"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sars-cov-2"
+    }
+  ]
+}

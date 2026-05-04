@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "paddlepaddle/paddlegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "jiupinjia/skyar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "paddlepaddle/ernie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "baidu/ddparser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleHub",
+      "target": "model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:01:44.305228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16536
+    },
+    {
+      "path": "requirements.txt",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "400+ AI Models: Rich, high-quality AI models, including CV, NLP, Speech, Video and Cross-Modal. Easy to Use: 3 lines of code to predict 400+ AI models.",
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleHub",
+    "html_url": "https://github.com/PaddlePaddle/PaddleHub",
+    "language": "Python",
+    "pushed_at": "2025-06-26T14:09:37Z",
+    "stargazers_count": 67,
+    "topics": [
+      "audio",
+      "awesome",
+      "cv",
+      "model",
+      "nlp"
+    ],
+    "updated_at": "2026-05-01T08:20:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/ddparser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiupinjia/skyar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/ernie",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddlegan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README_ch.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    }
+  ]
+}

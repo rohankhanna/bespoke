@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/diff-change-to-package.yaml",
+      "source_repo": "alphagov/govuk-frontend"
+    }
+  ],
+  "term": "Diff changes to npm package"
+}

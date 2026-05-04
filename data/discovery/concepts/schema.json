@@ -331,6 +331,18 @@
       "source_repo": "ianstormtaylor/superstruct",
       "status": "candidate-context",
       "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "A small, simple, and fast JS validator. Like, wow that's fast. \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "ianstormtaylor/superstruct",
       "status": "candidate",
       "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ftonato/nope-validator",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/npm/v/nope-validator.svg)](https://npm.im/nope-validator)"
     }
   ],
   "candidate_related_terms": [
@@ -792,11 +810,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "ftonato/nope-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

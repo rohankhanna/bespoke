@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "govuk-frontend"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate-context",
+      "text": "GOV.UK Frontend contains the code you need to start building a user interface for government platforms and services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate-context",
+      "text": "GOV.UK Frontend \u00b7"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-frontend",
+      "status": "candidate",
+      "text": "GOV.UK Frontend \u00b7"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "govuk-frontend",
+  "concept_id": "govuk-frontend",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "alphagov/govuk-frontend"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "govuk-frontend",
+      "sense_id": "govuk-frontend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

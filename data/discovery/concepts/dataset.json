@@ -1143,6 +1143,18 @@
       "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
       "status": "candidate-context",
       "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate-context",
+      "text": "COVID-Net Open Source Initiative - Models and Data for COVID-19 Detection in Chest CT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate-context",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1715,6 +1727,12 @@
       "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets",
       "status": "candidate",
       "text": "ADRepository: Real-world anomaly detection datasets, including tabular data (categorical and numerical data), time series data, graph data, image data, and video data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haydengunraj/COVIDNet-CT",
+      "status": "candidate",
+      "text": "**Note: The COVID-Net CT models provided here [as part of the COVID-Net Initiative](http://www.covid-net.ml) are intended to be used as reference models that can be built upon and enhanced as new data becomes available. They are currently at a research stage and not yet intended\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2400,11 +2418,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "mala-lab/ADBenchmarks-anomaly-detection-datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "haydengunraj/COVIDNet-CT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "InternLM/lagent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "InternLM/lagent",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "InternLM/lagent",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/lagent",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:50.706091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22994
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight framework for building LLM-based agents",
+    "fork": false,
+    "full_name": "InternLM/lagent",
+    "html_url": "https://github.com/InternLM/lagent",
+    "language": "Python",
+    "pushed_at": "2026-05-02T13:21:12Z",
+    "stargazers_count": 2244,
+    "topics": [
+      "agent",
+      "gpt",
+      "llm",
+      "transformers"
+    ],
+    "updated_at": "2026-05-04T05:23:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "<div id=\"top\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

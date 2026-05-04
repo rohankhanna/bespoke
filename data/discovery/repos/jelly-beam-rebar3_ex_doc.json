@@ -75,13 +75,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jelly-beam/rebar3_ex_doc",
-      "target": "namespace/your_app",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jelly-beam/rebar3_ex_doc",
@@ -145,7 +138,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:33:11.913850+00:00",
+  "fetched_at": "2026-05-04T19:55:50.583988+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -177,11 +170,6 @@
     "updated_at": "2026-03-27T16:01:06Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "namespace/your_app",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "starbelly/rebar3_ex_doc",

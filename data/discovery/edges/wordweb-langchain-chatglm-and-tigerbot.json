@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "imclumsypanda/langchain-chatglm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "source_repo": "wordweb/langchain-ChatGLM-and-TigerBot"
+}

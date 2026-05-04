@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -281,6 +281,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "kddnewton/sorbet-eraser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "vincentlaucsb/experiencer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "bonigarcia/webdrivermanager"
     }
   ],
   "term": "Dependabot Auto Merge"

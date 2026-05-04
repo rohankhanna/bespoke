@@ -1,7 +1,7 @@
 {
   "component": "ad-m/github-push-action@master",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -397,6 +397,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-new-version.yml",
       "source_repo": "saadeghi/daisyui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-doc.yml",
+      "source_repo": "bonigarcia/webdrivermanager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bonigarcia/webdrivermanager"
     }
   ]
 }

@@ -55,6 +55,18 @@
       "source_repo": "analogdevicesinc/MaximAI_Documentation",
       "status": "candidate-context",
       "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "Software Development Kit for Analog Device's MAX-series microcontrollers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate-context",
+      "text": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "analogdevicesinc/MaximAI_Documentation",
       "status": "candidate",
       "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/msdk",
+      "status": "candidate",
+      "text": "The Maxim Microcontrollers SDK (MSDK), now a part of [Analog Devices](https://www.analog.com/en/index.html), contains the necessary software and tools to develop firmware for the [MAX32xxx and MAX78xxx Microcontrollers](https://www.analog.com/en/parametricsearch/10984). This inc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/msdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

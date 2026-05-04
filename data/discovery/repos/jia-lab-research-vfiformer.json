@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/VFIformer",
-      "target": "jia-research-lab/vfiformer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/VFIformer",
       "target": "hzwer/arxiv2021-rife",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T10:38:45.189422+00:00",
+  "fetched_at": "2026-05-04T18:58:20.495723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -53,11 +46,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "hzwer/arxiv2021-rife",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jia-research-lab/vfiformer",
       "source_file": "README.md"
     }
   ],

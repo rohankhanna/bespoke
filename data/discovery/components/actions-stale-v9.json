@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v9",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -582,6 +582,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/close_issue.yaml",
       "source_repo": "Dawn-LX/CausalCache-VDM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/organize_issue.yml",
+      "source_repo": "Floorp-Projects/Floorp"
     }
   ]
 }

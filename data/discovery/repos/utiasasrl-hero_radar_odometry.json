@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "utiasasrl/pyboreas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "utiasasrl/steam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/hero_radar_odometry",
+      "target": "state-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:50.716723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7334
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unsupervised radar odometry combining deep learning with classical state estimation",
+    "fork": false,
+    "full_name": "utiasASRL/hero_radar_odometry",
+    "html_url": "https://github.com/utiasASRL/hero_radar_odometry",
+    "language": "Python",
+    "pushed_at": "2021-12-15T01:14:30Z",
+    "stargazers_count": 109,
+    "topics": [
+      "deep-learning",
+      "radar",
+      "robotics",
+      "state-estimation"
+    ],
+    "updated_at": "2025-12-23T15:15:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "utiasasrl/pyboreas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "utiasasrl/steam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar"
+    },
+    {
+      "context_snippet": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-estimation"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "docker-images",
   "observation_id": "477d32f57fbe6f23",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Docker Images",
   "source_context_snippet": "Docker Images",
   "source_file": ".github/workflows/docker.yml",

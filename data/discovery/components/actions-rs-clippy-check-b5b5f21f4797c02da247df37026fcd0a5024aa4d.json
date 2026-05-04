@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/clippy-check@b5b5f21f4797c02da247df37026fcd0a5024aa4d",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

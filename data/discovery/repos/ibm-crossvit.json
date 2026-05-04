@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/CrossViT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/CrossViT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/CrossViT",
+      "target": "multi-scale-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/CrossViT",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:00:41.024816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3219
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official implementation of CrossViT. https://arxiv.org/abs/2103.14899",
+    "fork": false,
+    "full_name": "IBM/CrossViT",
+    "html_url": "https://github.com/IBM/CrossViT",
+    "language": "Python",
+    "pushed_at": "2022-01-12T15:13:20Z",
+    "stargazers_count": 417,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "multi-scale-features",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-29T05:21:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-scale-features"
+    },
+    {
+      "context_snippet": "This repository is the official implementation of CrossViT: Cross-Attention Multi-Scale Vision Transformer for Image Classification. [ArXiv](https://arxiv.org/abs/2103.14899)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "yard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Convert YARD docs to Sorbet RBI and Ruby 3/Steep RBS files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate-context",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AaronC81/sord",
+      "status": "candidate",
+      "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960927,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939436,
+      "status": "candidate",
+      "text": "cubic yard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39905533,
+      "status": "candidate",
+      "text": "grounds"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "pace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15040,
+      "status": "candidate",
+      "text": "thou"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13053,
+      "status": "candidate",
+      "text": "grand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10026,
+      "status": "candidate",
+      "text": "grounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "chiliad"
+    }
+  ],
+  "canonical_name": "yard",
+  "concept_id": "yard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "AaronC81/sord"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yard",
+      "sense_id": "yard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -67,6 +67,18 @@
       "source_repo": "certbot/certbot",
       "status": "candidate-context",
       "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "Automatically provision and manage TLS certificates in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "certbot/certbot",
       "status": "candidate",
       "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +219,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "certbot/certbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cert-manager/cert-manager"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

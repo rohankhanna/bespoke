@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "fastfilter/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "bnclabs/xorfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "source_repo": "datafuse-extras/xorfilter",
+      "target": "unittest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:49:52.839693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3222
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1316
+    },
+    {
+      "path": ".github/workflows/simple-build-test.yml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust library implementing xor-filters",
+    "fork": true,
+    "full_name": "datafuse-extras/xorfilter",
+    "html_url": "https://github.com/datafuse-extras/xorfilter",
+    "language": "Rust",
+    "pushed_at": "2026-01-16T13:01:05Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-10-20T01:42:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnclabs/xorfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastfilter/xorfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnclabs/xorfilter",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "unittest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/simple-build-test.yml",
+      "term": "unittest"
+    }
+  ]
+}

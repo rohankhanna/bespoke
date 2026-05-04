@@ -221,11 +221,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:33:01.229763+00:00",
+  "fetched_at": "2026-05-04T19:55:37.268797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7900
+      "size": 8066
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -249,7 +249,7 @@
     "full_name": "CuatroElixir/spear",
     "html_url": "https://github.com/CuatroElixir/spear",
     "language": "Elixir",
-    "pushed_at": "2024-08-03T23:46:39Z",
+    "pushed_at": "2026-05-04T13:38:28Z",
     "stargazers_count": 95,
     "topics": [
       "elixir",
@@ -258,7 +258,7 @@
       "grpc",
       "mint"
     ],
-    "updated_at": "2026-01-15T20:25:16Z"
+    "updated_at": "2026-05-04T13:38:32Z"
   },
   "repo_links": [
     {

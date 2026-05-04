@@ -439,6 +439,42 @@
       "source_repo": "ghostery/ghostery-extension",
       "status": "candidate-context",
       "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "A Floorp fork with custom branding and opinionated settings \ud83d\udc09 (mirrored from GitLab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate-context",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate-context",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +693,24 @@
       "source_repo": "ghostery/ghostery-extension",
       "status": "candidate",
       "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex313031/Mercury",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/Alex313031/Mercury/main/logos/Mercury_256.png\" width=\"128\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garuda-linux/firedragon",
+      "status": "candidate",
+      "text": "This repository contains the source of FireDragon version 12 based on the new Floorp 12 build system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badmojr/1Hosts",
+      "status": "candidate",
+      "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
     }
   ],
   "candidate_related_terms": [
@@ -993,11 +1047,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "ghostery/ghostery-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Mercury"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "garuda-linux/firedragon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "badmojr/1Hosts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IPNL-POLYU/UrbanNavDataset",
+      "target": "weisongwen/graphgnsslib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:56:32.025249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "UrbanNav:An Open-sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas",
+    "fork": false,
+    "full_name": "IPNL-POLYU/UrbanNavDataset",
+    "html_url": "https://github.com/IPNL-POLYU/UrbanNavDataset",
+    "language": "Python",
+    "pushed_at": "2025-11-05T12:54:12Z",
+    "stargazers_count": 558,
+    "topics": [],
+    "updated_at": "2026-05-04T00:40:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weisongwen/graphgnsslib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

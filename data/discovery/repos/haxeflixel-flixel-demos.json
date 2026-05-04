@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "lix-pm/setup-lix@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "HaxeFlixel/setup-flixel@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "lix-pm/setup-lix@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "krdlab/setup-haxe@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "HaxeFlixel/setup-flixel@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxeflixel/flixel-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxeflixel/flixel-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxeflixel/flixel-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxeflixel/flixel-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "lix-pm/setup-lix@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "HaxeFlixel/setup-flixel@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "build-demos-concurrently",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "krdlab/setup-haxe@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "HaxeFlixel/setup-flixel@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxeflixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "haxelib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-demos",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:53:47.778657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2978
+    },
+    {
+      "path": ".github/workflows/build-concurrently.yml",
+      "size": 4907
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Collection of demos for HaxeFlixel",
+    "fork": false,
+    "full_name": "HaxeFlixel/flixel-demos",
+    "html_url": "https://github.com/HaxeFlixel/flixel-demos",
+    "language": "Haxe",
+    "pushed_at": "2026-03-09T18:15:44Z",
+    "stargazers_count": 461,
+    "topics": [
+      "demo",
+      "haxeflixel",
+      "haxelib",
+      "samples"
+    ],
+    "updated_at": "2026-04-01T09:38:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/flixel-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/flixel-templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/flixel-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/flixel-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-demos-concurrently",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-concurrently.yml",
+      "term": "build-demos-concurrently"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxeflixel"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxelib"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/flixel-demos.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

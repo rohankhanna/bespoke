@@ -469,6 +469,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "The agent engineering platform. Available in TypeScript!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "ID-based RAG FastAPI: Integration with Langchain and PostgreSQL/pgvector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate-context",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +711,12 @@
       "source_repo": "cognizant-ai-lab/neuro-san",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/cognizant-ai-lab/neuro-san)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/rag_api",
+      "status": "candidate",
+      "text": "\ufeff# ID-based RAG FastAPI"
     }
   ],
   "candidate_related_terms": [],
@@ -1414,11 +1432,47 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/rag_api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

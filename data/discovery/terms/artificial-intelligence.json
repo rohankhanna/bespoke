@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -701,6 +701,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/product-key-memory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/reformer-pytorch"
     }
   ],
   "term": "artificial-intelligence"

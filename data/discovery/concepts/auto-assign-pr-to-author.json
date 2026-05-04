@@ -31,6 +31,18 @@
       "source_repo": "gradle/gradle",
       "status": "candidate-context",
       "text": "'Auto Assign PR to Author'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "Auto Assign PR to Author"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "gradle/gradle",
       "status": "candidate",
       "text": "'Auto Assign PR to Author'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/TensorRT-LLM",
+      "status": "candidate",
+      "text": "Auto Assign PR to Author"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/auto-assign-pr-to-author.yml",
       "source_repo": "gradle/gradle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/auto-assign-author.yml",
+      "source_repo": "triton-inference-server/TensorRT-LLM"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

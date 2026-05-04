@@ -540,7 +540,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:44:13.314377+00:00",
+  "fetched_at": "2026-05-04T20:54:43.209658+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -593,14 +593,14 @@
     "html_url": "https://github.com/intel/ipex-llm",
     "language": "Python",
     "pushed_at": "2026-01-28T17:32:40Z",
-    "stargazers_count": 8795,
+    "stargazers_count": 8798,
     "topics": [
       "gpu",
       "llm",
       "pytorch",
       "transformers"
     ],
-    "updated_at": "2026-05-04T01:41:54Z"
+    "updated_at": "2026-05-04T16:37:55Z"
   },
   "repo_links": [
     {

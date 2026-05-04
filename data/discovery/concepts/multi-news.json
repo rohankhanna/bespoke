@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-news"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate-context",
+      "text": "Large-scale multi-document summarization dataset and code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate-context",
+      "text": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alex-Fabbri/Multi-News",
+      "status": "candidate",
+      "text": "Data and code for the ACL 2019 paper [Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model](https://128.84.21.199/pdf/1906.01749.pdf)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-news",
+  "concept_id": "multi-news",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "Alex-Fabbri/Multi-News"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-news",
+      "sense_id": "multi-news#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

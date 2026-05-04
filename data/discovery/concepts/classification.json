@@ -343,6 +343,18 @@
       "source_repo": "brightmart/text_classification",
       "status": "candidate-context",
       "text": "Text Classification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "The official code for the paper: https://openreview.net/forum?id=_PHymLIxuI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate-context",
+      "text": "This repository is the code for our papers:"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "brightmart/text_classification",
       "status": "candidate",
       "text": "Text Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheerss/CrossFormer",
+      "status": "candidate",
+      "text": "This repository is the code for our papers:"
     }
   ],
   "candidate_related_terms": [
@@ -872,11 +890,29 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "cheerss/CrossFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

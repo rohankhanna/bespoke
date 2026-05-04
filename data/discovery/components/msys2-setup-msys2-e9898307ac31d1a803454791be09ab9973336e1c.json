@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

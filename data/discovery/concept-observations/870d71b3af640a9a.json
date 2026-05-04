@@ -120,7 +120,7 @@
   "normalized_form": "regression",
   "observation_id": "870d71b3af640a9a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Regression",
   "source_context_snippet": "Regression",
   "source_file": ".github/workflows/regression.yml",

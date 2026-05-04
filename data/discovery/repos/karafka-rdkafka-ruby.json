@@ -181,7 +181,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
@@ -211,7 +211,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml"
     },
@@ -236,7 +236,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     },
     {
-      "component": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml"
     }
@@ -443,7 +443,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "target_type": "component"
     },
     {
@@ -499,7 +499,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci_linux_ubuntu_aarch64_gnu_complementary.yml",
       "source_repo": "karafka/rdkafka-ruby",
-      "target": "ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
       "target_type": "component"
     },
     {
@@ -559,7 +559,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T07:26:09.536715+00:00",
+  "fetched_at": "2026-05-04T18:40:30.572259+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -611,7 +611,7 @@
     "full_name": "karafka/rdkafka-ruby",
     "html_url": "https://github.com/karafka/rdkafka-ruby",
     "language": "Ruby",
-    "pushed_at": "2026-05-03T22:03:53Z",
+    "pushed_at": "2026-05-04T13:06:43Z",
     "stargazers_count": 402,
     "topics": [
       "apache-kafka",
@@ -621,7 +621,7 @@
       "librdkafka",
       "ruby"
     ],
-    "updated_at": "2026-04-29T06:43:41Z"
+    "updated_at": "2026-05-04T13:06:46Z"
   },
   "repo_links": [],
   "terms": [

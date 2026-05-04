@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mesh-reconstruction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate-context",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hku-mars/FAST-LIVO2",
+      "status": "candidate",
+      "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mesh-reconstruction",
+  "concept_id": "mesh-reconstruction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST-LIVO2"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mesh-reconstruction",
+      "sense_id": "mesh-reconstruction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "auto-merge-bot-prs",
   "observation_id": "699839a60b07fefd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Auto-merge Bot PRs",
   "source_context_snippet": "Auto-merge Bot PRs",
   "source_file": ".github/workflows/auto-merge.yml",

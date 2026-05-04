@@ -85,6 +85,18 @@
       "source_repo": "ImranR98/Obtainium",
       "status": "candidate-context",
       "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "A process for automating Docker container base image updates. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "ImranR98/Obtainium",
       "status": "candidate",
       "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containrrr/watchtower",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ImranR98/Obtainium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "containrrr/watchtower"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

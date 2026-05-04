@@ -355,6 +355,18 @@
       "source_repo": "conda-forge/cppinterop-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/pinocchio-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for pinocchio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pinocchio-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -529,6 +541,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/cppinterop-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/pinocchio-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -748,11 +766,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/cppinterop-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/pinocchio-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

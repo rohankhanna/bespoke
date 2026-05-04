@@ -19,6 +19,18 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate-context",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "An Android assistant for personal medication management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate-context",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citiususc/calendula",
+      "status": "candidate",
+      "text": "![](https://tec.citius.usc.es/calendula/github-assets/calendula_promo_google_play.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "citiususc/calendula"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

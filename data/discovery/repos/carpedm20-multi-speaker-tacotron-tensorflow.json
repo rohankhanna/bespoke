@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T19:59:56.674647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5782
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Multi-speaker Tacotron in TensorFlow.",
+    "fork": true,
+    "full_name": "carpedm20/multi-speaker-tacotron-tensorflow",
+    "html_url": "https://github.com/carpedm20/multi-speaker-tacotron-tensorflow",
+    "language": "Python",
+    "pushed_at": "2021-06-27T03:11:05Z",
+    "stargazers_count": 630,
+    "topics": [],
+    "updated_at": "2026-04-22T16:38:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

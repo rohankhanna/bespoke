@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/nr3d_lib",
+      "target": "pjlab-adg/neus2_tcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/nr3d_lib",
+      "target": "glumpy/glumpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/nr3d_lib",
+      "target": "inducer/pycuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/nr3d_lib",
+      "target": "kair-bair/nerfacc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T18:57:30.317110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modules, operators and utilities for 3D neural rendering in single-object, multi-object, categorical and large-scale scenes.",
+    "fork": false,
+    "full_name": "PJLab-ADG/nr3d_lib",
+    "html_url": "https://github.com/PJLab-ADG/nr3d_lib",
+    "language": "Python",
+    "pushed_at": "2024-05-08T16:40:55Z",
+    "stargazers_count": 154,
+    "topics": [],
+    "updated_at": "2026-04-13T00:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glumpy/glumpy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/pycuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kair-bair/nerfacc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjlab-adg/neus2_tcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

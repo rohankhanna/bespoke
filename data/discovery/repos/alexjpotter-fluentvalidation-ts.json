@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "fluent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "fluentvalidation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "form",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "form-validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "formik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "react-hook-form",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexJPotter/fluentvalidation-ts",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:47:05.385768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4908
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A TypeScript-first library for building strongly-typed validation rules",
+    "fork": false,
+    "full_name": "AlexJPotter/fluentvalidation-ts",
+    "html_url": "https://github.com/AlexJPotter/fluentvalidation-ts",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-21T18:25:22Z",
+    "stargazers_count": 98,
+    "topics": [
+      "fluent",
+      "fluentvalidation",
+      "form",
+      "form-validation",
+      "formik",
+      "react-hook-form",
+      "typescript",
+      "validation"
+    ],
+    "updated_at": "2026-04-19T11:42:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluent"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fluentvalidation"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "form"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "form-validation"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formik"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-hook-form"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/AlexJPotter/fluentvalidation-ts/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

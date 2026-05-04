@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T13:00:03.030999+00:00",
+  "fetched_at": "2026-05-04T21:06:26.293336+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,7 +78,7 @@
     "full_name": "cloudfoundry/credhub-cli",
     "html_url": "https://github.com/cloudfoundry/credhub-cli",
     "language": "Go",
-    "pushed_at": "2026-04-27T13:08:50Z",
+    "pushed_at": "2026-05-04T13:10:23Z",
     "stargazers_count": 43,
     "topics": [
       "bosh",
@@ -87,7 +87,7 @@
       "credential-manager",
       "credhub"
     ],
-    "updated_at": "2026-04-27T13:08:54Z"
+    "updated_at": "2026-05-04T13:10:27Z"
   },
   "repo_links": [
     {

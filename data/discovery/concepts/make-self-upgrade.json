@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "make-self-upgrade"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "Automatically provision and manage TLS certificates in Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate-context",
+      "text": "make-self-upgrade"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cert-manager/cert-manager",
+      "status": "candidate",
+      "text": "make-self-upgrade"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "make-self-upgrade",
+  "concept_id": "make-self-upgrade",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/make-self-upgrade.yaml",
+      "source_repo": "cert-manager/cert-manager"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "make-self-upgrade",
+      "sense_id": "make-self-upgrade#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

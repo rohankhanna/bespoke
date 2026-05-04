@@ -873,6 +873,18 @@
       "source_repo": "azdavis/millet",
       "status": "candidate-context",
       "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "Vue tooling for VS Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -1313,6 +1325,12 @@
       "source_repo": "azdavis/millet",
       "status": "candidate",
       "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vetur",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -2028,11 +2046,41 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "azdavis/millet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vetur"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

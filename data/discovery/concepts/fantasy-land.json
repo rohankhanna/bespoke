@@ -31,6 +31,18 @@
       "source_repo": "sanctuary-js/sanctuary-identity",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "status": "candidate-context",
+      "text": ":rainbow: Standard library for Fantasy Land"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "status": "candidate-context",
+      "text": "The [Fantasy Land Specification][FL] \"specifies interoperability of common"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "sanctuary-js/sanctuary-identity",
       "status": "candidate",
       "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-type-classes",
+      "status": "candidate",
+      "text": "The [Fantasy Land Specification][FL] \"specifies interoperability of common"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "sanctuary-js/sanctuary-identity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-classes"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

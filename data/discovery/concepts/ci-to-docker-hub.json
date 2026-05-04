@@ -19,12 +19,30 @@
       "source_repo": "dauxio/daux.io",
       "status": "candidate-context",
       "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darwinai/covidnet_ui",
+      "status": "candidate-context",
+      "text": "AI-Powered Clinical Decision Support Platform for COVID-19."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/covidnet_ui",
+      "status": "candidate-context",
+      "text": "CI to Docker Hub"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dauxio/daux.io",
+      "status": "candidate",
+      "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/covidnet_ui",
       "status": "candidate",
       "text": "CI to Docker Hub"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/covidnet_ui"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

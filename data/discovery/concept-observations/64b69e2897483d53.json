@@ -84,7 +84,7 @@
   "normalized_form": "claude-docs-apply",
   "observation_id": "64b69e2897483d53",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
   "observed_text": "Claude Docs Apply",
   "source_context_snippet": "Claude Docs Apply",
   "source_file": ".github/workflows/claude-docs-apply.yml",

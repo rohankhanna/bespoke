@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RuboCop style rules for GOV.UK's Ruby projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run against project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run against project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35314,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34861,
+      "status": "candidate",
+      "text": "race"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34763,
+      "status": "candidate",
+      "text": "befoul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34567,
+      "status": "candidate",
+      "text": "jostle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34567,
+      "status": "candidate",
+      "text": "oppose"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run against project",
+      "sense_id": "run-against-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-against-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-against-project",
+  "observation_id": "99cd2b0ff075ae17",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_text": "Run against project",
+  "source_context_snippet": "Run against project",
+  "source_file": ".github/workflows/run-against-project.yml",
+  "source_repo": "alphagov/rubocop-govuk",
+  "source_repo_description": "RuboCop style rules for GOV.UK's Ruby projects"
+}

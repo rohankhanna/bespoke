@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release testing, Hackage, Cabal, Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "A Haskell re-implementation of the Nix expression language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate-context",
+      "text": "\"Release testing, Hackage, Cabal, Linux\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell-nix/hnix",
+      "status": "candidate",
+      "text": "\"Release testing, Hackage, Cabal, Linux\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26173,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21452,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19614,
+      "status": "candidate",
+      "text": "junta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19427,
+      "status": "candidate",
+      "text": "ring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19046,
+      "status": "candidate",
+      "text": "acquittance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release testing, Hackage, Cabal, Linux",
+  "concept_id": "release-testing-hackage-cabal-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": ".github/workflows/On-Release-Cabal-Linux.yml",
+      "source_repo": "haskell-nix/hnix"
+    }
+  ],
+  "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release testing, Hackage, Cabal, Linux",
+      "sense_id": "release-testing-hackage-cabal-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

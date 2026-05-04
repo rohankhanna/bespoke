@@ -619,6 +619,18 @@
       "source_repo": "NVlabs/EmerNeRF",
       "status": "candidate-context",
       "text": "PyTorch implementation of:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" and [ICCV 2023] \"Optimizing the Placement of Roadside LiDARs for Autonomous Driving\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate-context",
+      "text": "<!-- - [News](#news-fire) -->"
     }
   ],
   "candidate_glosses": [
@@ -933,6 +945,12 @@
       "source_repo": "NVlabs/EmerNeRF",
       "status": "candidate",
       "text": "PyTorch implementation of:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PJLab-ADG/PCSim",
+      "status": "candidate",
+      "text": "<!-- - [News](#news-fire) -->"
     }
   ],
   "candidate_related_terms": [],
@@ -1408,11 +1426,35 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "worldbench/Robo3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "PJLab-ADG/PCSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

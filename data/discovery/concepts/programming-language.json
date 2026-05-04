@@ -439,6 +439,18 @@
       "source_repo": "nelson-lang/nelson",
       "status": "candidate-context",
       "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/language-util",
+      "status": "candidate-context",
+      "text": "Various utility crates that might be useful when implementing a programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/language-util",
+      "status": "candidate-context",
+      "text": "Various utility crates that might be useful when implementing a programming language in Rust."
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "nelson-lang/nelson",
       "status": "candidate",
       "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/language-util",
+      "status": "candidate",
+      "text": "Various utility crates that might be useful when implementing a programming language in Rust."
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1078,23 @@
       "observed_at": "2026-05-04T12:47:39.186442+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/language-util"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T18:39:47.264597+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "lexical_providers": [
     "datamuse"
   ],

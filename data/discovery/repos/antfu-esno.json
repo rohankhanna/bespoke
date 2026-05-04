@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "tsx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bumpp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fsxx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/esno",
+      "target": "esbuild-kit/tsx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/esno",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/esno",
+      "target": "bumpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/esno",
+      "target": "fsxx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/esno",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/esno",
+      "target": "zx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/esno",
+      "target": "emcascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/esno",
+      "target": "esbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/esno",
+      "target": "esnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/esno",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/esno",
+      "target": "ts-node",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T20:47:56.779290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 898
+    },
+    {
+      "path": "package.json",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Alias to `tsx`",
+    "fork": false,
+    "full_name": "antfu/esno",
+    "html_url": "https://github.com/antfu/esno",
+    "language": "TypeScript",
+    "pushed_at": "2024-09-29T00:24:25Z",
+    "stargazers_count": 1612,
+    "topics": [
+      "emcascript",
+      "esbuild",
+      "esnext",
+      "node",
+      "ts-node",
+      "typescript"
+    ],
+    "updated_at": "2026-04-30T14:53:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esbuild-kit/tsx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emcascript"
+    },
+    {
+      "context_snippet": "<h1 align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esbuild"
+    },
+    {
+      "context_snippet": "<h1 align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esnext"
+    },
+    {
+      "context_snippet": "<h1 align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<h1 align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ts-node"
+    }
+  ]
+}
