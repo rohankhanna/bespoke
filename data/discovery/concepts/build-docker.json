@@ -3,7 +3,8 @@
     "Build Docker",
     "build-docker",
     "build docker",
-    "Build-Docker"
+    "Build-Docker",
+    "Build docker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -130,6 +131,12 @@
       "source_repo": "TRI-ML/dgp",
       "status": "candidate-context",
       "text": "build-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3team/Squirrel",
+      "status": "candidate-context",
+      "text": "Build docker"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +199,12 @@
       "source_repo": "TRI-ML/dgp",
       "status": "candidate",
       "text": "build-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "s3team/Squirrel",
+      "status": "candidate",
+      "text": "Build docker"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +308,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "TRI-ML/dgp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "s3team/Squirrel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

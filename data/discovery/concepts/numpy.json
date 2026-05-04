@@ -427,6 +427,42 @@
       "source_repo": "seung-lab/cloud-volume",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "Python bindings to UCSC BigWig and BigBed library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "N-D labeled arrays and datasets in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +675,24 @@
       "source_repo": "seung-lab/cloud-volume",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
     }
   ],
   "candidate_related_terms": [
@@ -1114,11 +1168,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nvictus/pybbi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pydata/xarray"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

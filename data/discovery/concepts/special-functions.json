@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "special-functions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "special-functions",
+  "concept_id": "special-functions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "special-functions",
+      "sense_id": "special-functions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

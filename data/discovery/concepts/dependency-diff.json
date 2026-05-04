@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Dependency Diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate-context",
+      "text": "Dependency Diff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "Dependency Diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate",
+      "text": "Dependency Diff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate",
+      "text": "Dependency Diff"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15524,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "affinity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14204,
+      "status": "candidate",
+      "text": "abvolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14204,
+      "status": "candidate",
+      "text": "age"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependency Diff",
+  "concept_id": "dependency-diff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dependency-diff.yml",
+      "source_repo": "azat-io/eslint-plugin-de-morgan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dependency-diff.yml",
+      "source_repo": "azat-io/eslint-plugin-perfectionist"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Diff",
+      "sense_id": "dependency-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

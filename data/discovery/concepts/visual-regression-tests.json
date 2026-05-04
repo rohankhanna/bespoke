@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Visual Regression Tests"
+    "Visual Regression Tests",
+    "Visual regression tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate-context",
       "text": "Visual Regression Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "status": "candidate-context",
+      "text": "A gem to document and distribute frontend components for GOV.UK applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "status": "candidate-context",
+      "text": "Visual regression tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate",
       "text": "Visual Regression Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "status": "candidate",
+      "text": "Visual regression tests"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/visual-tests.yml",
       "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

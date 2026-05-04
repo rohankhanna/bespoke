@@ -935,6 +935,18 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaf  Teach puppeteer new tricks through plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)"
     }
   ],
   "candidate_glosses": [
@@ -1393,6 +1405,12 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate",
+      "text": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)"
     }
   ],
   "candidate_related_terms": [
@@ -2238,11 +2256,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "pixielabs/cavy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

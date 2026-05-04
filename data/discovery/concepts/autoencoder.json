@@ -43,6 +43,18 @@
       "source_repo": "zahraatashgahi/QuickSelection",
       "status": "candidate-context",
       "text": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "zahraatashgahi/QuickSelection",
       "status": "candidate",
       "text": "This repository contains code for the paper, Quick and Robust Feature Selection: the Strength of Energy-efficient Sparse Training for Autoencoders by Zahra Atashgahi, Ghada Sokar, Tim van der Lee, Elena Mocanu, Decebal Constantin Mocanu, Raymond Veldhuis, and Mykola Pechenizkiy.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "zahraatashgahi/QuickSelection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

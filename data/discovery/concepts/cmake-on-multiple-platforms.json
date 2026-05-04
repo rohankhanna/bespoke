@@ -43,6 +43,18 @@
       "source_repo": "BeMoreHumanOrg/bemorehuman",
       "status": "candidate-context",
       "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "CMake on multiple platforms"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BeMoreHumanOrg/bemorehuman",
+      "status": "candidate",
+      "text": "CMake on multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate",
       "text": "CMake on multiple platforms"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/cmake-multi-platform.yml",
       "source_repo": "BeMoreHumanOrg/bemorehuman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

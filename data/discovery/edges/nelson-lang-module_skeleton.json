@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "Nelson CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "nelson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "skeleton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "toobox",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "nelson-lang/module_skeleton"
+}

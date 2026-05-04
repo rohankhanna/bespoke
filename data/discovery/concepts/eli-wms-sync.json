@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ELI WMS sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "A unified layer index for OSM editors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "ELI WMS sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate",
+      "text": "ELI WMS sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14069,
+      "status": "candidate",
+      "text": "ess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14069,
+      "status": "candidate",
+      "text": "spa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14030,
+      "status": "candidate",
+      "text": "paramedic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10333,
+      "status": "candidate",
+      "text": "ems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9492,
+      "status": "candidate",
+      "text": "yale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ELI WMS sync",
+  "concept_id": "eli-wms-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "source_repo": "osmlab/editor-layer-index"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ELI WMS sync",
+      "sense_id": "eli-wms-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

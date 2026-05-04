@@ -133,27 +133,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/watchexec",
-      "target": "watchexec/clearscreen",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/watchexec",
-      "target": "watchexec/command-group",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/watchexec",
-      "target": "supercuber/dotter",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "watchexec/watchexec",
@@ -301,7 +280,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:51:12.272455+00:00",
+  "fetched_at": "2026-05-04T09:39:00.524232+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -338,7 +317,7 @@
     "html_url": "https://github.com/watchexec/watchexec",
     "language": "Rust",
     "pushed_at": "2026-04-27T18:59:59Z",
-    "stargazers_count": 6946,
+    "stargazers_count": 6948,
     "topics": [
       "command-line",
       "developer-tools",
@@ -348,25 +327,9 @@
       "rust",
       "windows"
     ],
-    "updated_at": "2026-05-03T04:20:13Z"
+    "updated_at": "2026-05-03T19:32:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "supercuber/dotter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "watchexec/clearscreen",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "watchexec/command-group",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Clippy",

@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "mandymo/pytorch_hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "roytseng-tw/detectron.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "3d-human-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "densepose-to-smpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "target": "smpl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:42.566340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5864
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[TPAMI 2020] Learning 3D Human Shape and Pose from Dense Body Parts",
+    "fork": false,
+    "full_name": "HongwenZhang/DaNet-DensePose2SMPL",
+    "html_url": "https://github.com/HongwenZhang/DaNet-DensePose2SMPL",
+    "language": "Python",
+    "pushed_at": "2023-07-06T21:20:55Z",
+    "stargazers_count": 235,
+    "topics": [
+      "3d-human-reconstruction",
+      "3d-human-shape-and-pose-estimation",
+      "densepose-to-smpl",
+      "human-mesh-recovery",
+      "smpl"
+    ],
+    "updated_at": "2026-04-06T03:39:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandymo/pytorch_hmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roytseng-tw/detectron.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code for the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-reconstruction"
+    },
+    {
+      "context_snippet": "This repository contains the code for the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "This repository contains the code for the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "densepose-to-smpl"
+    },
+    {
+      "context_snippet": "This repository contains the code for the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-mesh-recovery"
+    },
+    {
+      "context_snippet": "This repository contains the code for the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1061,6 +1061,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kripod/react-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "callstack/react-native-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "huozhi/bunchee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-cosmos/react-cosmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaredpalmer/the-platform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "zenghongtu/react-use-chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdjastrzebski/test-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "term": "react"

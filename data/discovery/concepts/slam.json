@@ -151,6 +151,54 @@
       "source_repo": "PRBonn/kiss-icp",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "LIO_SAM for 6-axis IMU and  GNSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate-context",
+      "text": "LiDAR SLAM = FAST-LIO + Scan Context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate-context",
+      "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "Real-time Radar SLAM: ORORA + ScanContext "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +271,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate",
+      "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -376,11 +448,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "PRBonn/kiss-icp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "target": "gabdube/native-windows-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "target": "gabdube/native-windows-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:51.624792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 318
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1257
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Shadowsocks Windows GUI in Rust",
+    "fork": false,
+    "full_name": "cg31/shadowsocks-windows-gui-rust",
+    "html_url": "https://github.com/cg31/shadowsocks-windows-gui-rust",
+    "language": "Rust",
+    "pushed_at": "2023-03-22T07:11:07Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-25T12:22:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabdube/native-windows-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabdube/native-windows-gui",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

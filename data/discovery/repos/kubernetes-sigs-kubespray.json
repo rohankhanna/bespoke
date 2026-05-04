@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml"
+    },
+    {
+      "component": "stefanbuck/github-issue-parser@cb6e97157cbf851e3a393ff8d57c93a484cc323f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml"
+    },
+    {
+      "component": "redhat-plumbers-in-action/advanced-issue-labeler@b80ae64e3e156e9c111b075bfa04b295d54e8e2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml"
+    },
+    {
+      "component": "octokit/graphql-action@ddde8ebb2493e79f390e6449c725c21663a67505",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions-schedule.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "cilium/cilium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "alauda/kube-ovn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "gregbkr/kubernetes-kargo-logging-monitoring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "digitalrebar/provision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "stefanbuck/github-issue-parser@cb6e97157cbf851e3a393ff8d57c93a484cc323f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "redhat-plumbers-in-action/advanced-issue-labeler@b80ae64e3e156e9c111b075bfa04b295d54e8e2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "Issue labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions-schedule.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "octokit/graphql-action@ddde8ebb2493e79f390e6449c725c21663a67505",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "ansible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "bare-metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "high-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "k8s-sig-cluster-lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "kubernetes-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray",
+      "target": "kubespray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:29.082099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11868
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1754
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    },
+    {
+      "path": ".github/workflows/auto-label-os.yml",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/upgrade-patch-versions-schedule.yml",
+      "size": 1683
+    },
+    {
+      "path": ".github/workflows/upgrade-patch-versions.yml",
+      "size": 1337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy a Production Ready Kubernetes Cluster",
+    "fork": false,
+    "full_name": "kubernetes-sigs/kubespray",
+    "html_url": "https://github.com/kubernetes-sigs/kubespray",
+    "language": "Jinja",
+    "pushed_at": "2026-05-04T05:33:50Z",
+    "stargazers_count": 18448,
+    "topics": [
+      "ansible",
+      "aws",
+      "bare-metal",
+      "gce",
+      "hacktoberfest",
+      "high-availability",
+      "k8s-sig-cluster-lifecycle",
+      "kubernetes",
+      "kubernetes-cluster",
+      "kubespray"
+    ],
+    "updated_at": "2026-05-04T05:23:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alauda/kube-ovn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cilium/cilium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digitalrebar/provision",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gregbkr/kubernetes-kargo-logging-monitoring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "term": "Issue labeler"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansible"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bare-metal"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-availability"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cluster-lifecycle"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-cluster"
+    },
+    {
+      "context_snippet": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubespray"
+    }
+  ]
+}

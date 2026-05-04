@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "justinpinkney/awesome-pretrained-stylegan2_",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "edstoica/lucid_stylegan3_datasets_models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "ouhenio/stylegan3-projector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "dayu1979/stylegan3encoder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:45.127489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of pretrained models for StyleGAN3",
+    "fork": false,
+    "full_name": "justinpinkney/awesome-pretrained-stylegan3",
+    "html_url": "https://github.com/justinpinkney/awesome-pretrained-stylegan3",
+    "language": null,
+    "pushed_at": "2022-07-18T12:45:24Z",
+    "stargazers_count": 298,
+    "topics": [],
+    "updated_at": "2026-03-08T00:53:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dayu1979/stylegan3encoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edstoica/lucid_stylegan3_datasets_models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/awesome-pretrained-stylegan2_",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ouhenio/stylegan3-projector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

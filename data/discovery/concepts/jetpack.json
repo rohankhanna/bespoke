@@ -19,6 +19,18 @@
       "source_repo": "bitwarden/android",
       "status": "candidate-context",
       "text": "- [Compatibility](#compatibility)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bitwarden/android",
       "status": "candidate",
       "text": "- [Compatibility](#compatibility)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "androidx/androidx"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

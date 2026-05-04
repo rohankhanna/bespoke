@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Badge Commits]][Commit Rate]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Badge Commits]][Commit Rate]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ublock-origin",
+      "sense_id": "ublock-origin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ublock-origin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ublock-origin",
+  "observation_id": "b64d9c14a22d3358",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "ublock-origin",
+  "source_context_snippet": "[![Badge Commits]][Commit Rate]",
+  "source_file": null,
+  "source_repo": "gorhill/uBlock",
+  "source_repo_description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean."
+}

@@ -163,6 +163,30 @@
       "source_repo": "r-lib/pkgload",
       "status": "candidate-context",
       "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate-context",
+      "text": "Open Source Geometry Engine ('GEOS') R API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate-context",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-spatial/s2",
+      "status": "candidate-context",
+      "text": "Spherical Geometry Operators Using the S2 Geometry Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/s2",
+      "status": "candidate-context",
+      "text": "pkgdown"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +265,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-lib/pkgload",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/s2",
       "status": "candidate",
       "text": "pkgdown"
     }
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/pkgdown.yaml",
       "source_repo": "r-lib/pkgload"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "paleolimbot/geos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "r-spatial/s2"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

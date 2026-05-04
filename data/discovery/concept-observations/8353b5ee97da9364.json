@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "November 7, 2024"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "8353b5ee97da9364",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "November 7, 2024",
+  "source_file": null,
+  "source_repo": "analogdevicesinc/ai8x-synthesis",
+  "source_repo_description": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+}

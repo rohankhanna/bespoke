@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "target": "pixel-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "target": "pixel-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:45.963614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DenkiChip (\u3067\u3093\u304d\u30c1\u30c3\u30d7) is a compact and bold Japanese pixel font under SIL OFL 1.1",
+    "fork": false,
+    "full_name": "hicchicc/x8y12pxDenkiChip",
+    "html_url": "https://github.com/hicchicc/x8y12pxDenkiChip",
+    "language": null,
+    "pushed_at": "2026-02-20T05:51:02Z",
+    "stargazers_count": 75,
+    "topics": [
+      "font",
+      "pixel-art",
+      "pixel-font"
+    ],
+    "updated_at": "2026-04-21T02:20:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![DenkiChip](documentation/x8y12pxDenkiChip.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![DenkiChip](documentation/x8y12pxDenkiChip.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-art"
+    },
+    {
+      "context_snippet": "![DenkiChip](documentation/x8y12pxDenkiChip.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-font"
+    }
+  ]
+}

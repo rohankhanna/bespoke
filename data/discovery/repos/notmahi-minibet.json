@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "source_repo": "notmahi/miniBET",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "source_repo": "notmahi/miniBET",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "source_repo": "notmahi/miniBET",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "source_repo": "notmahi/miniBET",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "source_repo": "notmahi/miniBET",
+      "target": "PyTorch version tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:53.113387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4006
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    },
+    {
+      "path": ".github/workflows/pytorch_version_test.yaml",
+      "size": 3727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clean implementation of conditional and unconditional behavior transformer.",
+    "fork": false,
+    "full_name": "notmahi/miniBET",
+    "html_url": "https://github.com/notmahi/miniBET",
+    "language": "Python",
+    "pushed_at": "2023-02-13T04:54:00Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2025-10-14T00:47:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PyTorch version tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytorch_version_test.yaml",
+      "term": "PyTorch version tests"
+    }
+  ]
+}

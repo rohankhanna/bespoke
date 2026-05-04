@@ -84,7 +84,7 @@
   "normalized_form": "build-font-and-specimen",
   "observation_id": "894e01b25c99d2f8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Build font and specimen",
   "source_context_snippet": "Build font and specimen",
   "source_file": ".github/workflows/build.yaml",

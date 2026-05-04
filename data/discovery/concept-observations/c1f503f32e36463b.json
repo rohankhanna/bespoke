@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Angular binding of maplibre-gl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050694,
+      "status": "candidate",
+      "text": "map out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9990228,
+      "status": "candidate",
+      "text": "correspondence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987833,
+      "status": "candidate",
+      "text": "represent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "allocated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "allocates"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maps",
+      "sense_id": "maps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maps",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maps",
+  "observation_id": "c1f503f32e36463b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "maps",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "maplibre/ngx-maplibre-gl",
+  "source_repo_description": "Angular binding of maplibre-gl"
+}

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "Nelson CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "nelson-lang/module_skeleton_basic"
+}

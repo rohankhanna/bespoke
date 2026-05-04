@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:32:53.175644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Libiconv_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Libiconv_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-01-13T13:15:52Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-13T13:15:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anomaly-detection-algorithm",
+      "sense_id": "anomaly-detection-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "anomaly-detection-algorithm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anomaly-detection-algorithm",
+  "observation_id": "13bb738ae344727a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "anomaly-detection-algorithm",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "thedatumorg/TSB-UAD",
+  "source_repo_description": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection"
+}

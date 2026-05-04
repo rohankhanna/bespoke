@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mayah/tinytoml",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mayah/tinytoml",
+      "target": "toml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:43.324223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A header only C++11 library for parsing TOML",
+    "fork": false,
+    "full_name": "mayah/tinytoml",
+    "html_url": "https://github.com/mayah/tinytoml",
+    "language": "C++",
+    "pushed_at": "2024-06-20T16:20:06Z",
+    "stargazers_count": 175,
+    "topics": [
+      "c-plus-plus",
+      "toml"
+    ],
+    "updated_at": "2026-04-20T17:56:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A header only C++11 library for parsing TOML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "A header only C++11 library for parsing TOML.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    }
+  ]
+}

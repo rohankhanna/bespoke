@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:29:16.149614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1211
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code repo for \"CritiPrefill: A Segment-wise Criticality-based Approach for Prefilling Acceleration in LLMs\".",
+    "fork": false,
+    "full_name": "66RING/CritiPrefill",
+    "html_url": "https://github.com/66RING/CritiPrefill",
+    "language": "Python",
+    "pushed_at": "2024-09-15T09:46:49Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-27T12:11:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

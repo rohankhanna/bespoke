@@ -187,6 +187,18 @@
       "source_repo": "MarkFzp/act-plus-plus",
       "status": "candidate-context",
       "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[RSS 2023] Official code for \"Goal Conditioned Imitation Learning using Score-based Diffusion Policies\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "MarkFzp/act-plus-plus",
       "status": "candidate",
       "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +466,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hk-zh/spil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

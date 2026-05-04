@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data on which OpenStreetMap tags imply areas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "geonames"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "opencellid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "geoserver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "outline of wikipedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "openproject"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openstreetmap",
+      "sense_id": "openstreetmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openstreetmap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openstreetmap",
+  "observation_id": "5c9dd1aaa23fbe1f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "openstreetmap",
+  "source_context_snippet": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026",
+  "source_file": null,
+  "source_repo": "simonpoole/osm-area-tags",
+  "source_repo_description": "Data on which OpenStreetMap tags imply areas"
+}

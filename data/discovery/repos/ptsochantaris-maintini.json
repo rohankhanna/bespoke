@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini",
+      "target": "background",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini",
+      "target": "convenience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini",
+      "target": "lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:56.903911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A friendly and efficient wrapper to protect iOS app operations for a short time when backgrounded.",
+    "fork": false,
+    "full_name": "ptsochantaris/maintini",
+    "html_url": "https://github.com/ptsochantaris/maintini",
+    "language": "Swift",
+    "pushed_at": "2024-10-09T20:13:13Z",
+    "stargazers_count": 5,
+    "topics": [
+      "background",
+      "convenience",
+      "ios",
+      "lifecycle",
+      "macos",
+      "swift"
+    ],
+    "updated_at": "2025-11-04T06:19:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convenience"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lifecycle"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

@@ -31,6 +31,30 @@
       "source_repo": "StevenBlack/hosts",
       "status": "candidate-context",
       "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "AdAway is a free and open source ad blocker for Android. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-based Host Blocker (and lightweight ad blocker) for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-Based Host Blocking for Android"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "StevenBlack/hosts",
       "status": "candidate",
       "text": "FROM docker.io/python:3-alpine ENV IN_CONTAINER=1 RUN apk add --no-cache git sudo COPY . /hosts RUN pip install --no-cache-dir --upgrade -r /hosts/requirements.txt ENV PATH=$PATH:/hosts WORKDIR /hosts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate",
+      "text": "DNS-Based Host Blocking for Android"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "StevenBlack/hosts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

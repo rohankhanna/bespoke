@@ -39,6 +39,18 @@
       "source_repo": "google/tsunami-security-scanner-callback-server",
       "status": "candidate-context",
       "text": "docker-push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/docker",
+      "status": "candidate-context",
+      "text": "docker build repo for v2fly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/docker",
+      "status": "candidate-context",
+      "text": "docker push"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +71,12 @@
       "source_repo": "google/tsunami-security-scanner-callback-server",
       "status": "candidate",
       "text": "docker-push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/docker",
+      "status": "candidate",
+      "text": "docker push"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "ipfs/kubo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

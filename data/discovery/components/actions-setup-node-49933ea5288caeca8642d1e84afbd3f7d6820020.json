@@ -2,7 +2,7 @@
   "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -449,6 +449,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/apiref.yml",
       "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/json-extension.yml",
+      "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maplibre/awesome-maplibre"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/example-apps.yml",
+      "source_repo": "callstack/react-native-testing-library"
     }
   ]
 }

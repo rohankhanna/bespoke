@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "url-kaist/outlier-robust-radar-odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "irapkaist/scancontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "keenan-burnett/yeti_radar_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "navtech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "scancontext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "gisbi-kim/navtech-radar-slam"
+}

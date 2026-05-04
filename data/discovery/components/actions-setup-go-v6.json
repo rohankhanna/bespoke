@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2952,6 +2952,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-test.yaml",
       "source_repo": "siderolabs/talos-cloud-controller-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-simd-nightlies.yml",
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies-review.yml",
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-backend.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "cosmos/cosmjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "celzero/firestack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-arm64-image.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kube-ovn-base.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-kube-ovn-test.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-x86-image.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kubeovn/kube-ovn"
     }
   ]
 }

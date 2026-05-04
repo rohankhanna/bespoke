@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic",
+      "target": "Nelson CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:36:37.605063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/nelson_module.yml",
+      "size": 2972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nelson's module skeleton (macros only)",
+    "fork": false,
+    "full_name": "nelson-lang/module_skeleton_basic",
+    "html_url": "https://github.com/nelson-lang/module_skeleton_basic",
+    "language": "MATLAB",
+    "pushed_at": "2025-11-22T19:31:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-22T19:17:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nelson CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "term": "Nelson CI"
+    }
+  ]
+}

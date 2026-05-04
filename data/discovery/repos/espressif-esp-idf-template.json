@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:14:57.618004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template application for https://github.com/espressif/esp-idf",
+    "fork": false,
+    "full_name": "espressif/esp-idf-template",
+    "html_url": "https://github.com/espressif/esp-idf-template",
+    "language": "Makefile",
+    "pushed_at": "2022-04-30T12:35:48Z",
+    "stargazers_count": 363,
+    "topics": [],
+    "updated_at": "2026-05-01T03:44:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -55,6 +55,18 @@
       "source_repo": "chrisjbryant/errant",
       "status": "candidate-context",
       "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/live-draw",
+      "status": "candidate-context",
+      "text": "A tool allows you to draw on screen real-time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/live-draw",
+      "status": "candidate-context",
+      "text": "A tool allows you to draw on screen real-time."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "chrisjbryant/errant",
       "status": "candidate",
       "text": "This repository contains the grammatical ERRor ANnotation Toolkit (ERRANT) described in:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/live-draw",
+      "status": "candidate",
+      "text": "A tool allows you to draw on screen real-time."
     }
   ],
   "candidate_related_terms": [
@@ -218,11 +236,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "antfu/live-draw"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

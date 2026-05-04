@@ -5,11 +5,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "cavedweller509/LMDeploy-Jetson",
+      "target": "bestanhongjun/interndog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/LMDeploy-Jetson",
       "target": "bestanhongjun/lmdeploy-jetson",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T00:48:16.174810+00:00",
+  "fetched_at": "2026-05-04T11:23:54.498065+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -31,6 +38,11 @@
     "updated_at": "2026-03-20T11:45:42Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bestanhongjun/interndog",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "bestanhongjun/lmdeploy-jetson",

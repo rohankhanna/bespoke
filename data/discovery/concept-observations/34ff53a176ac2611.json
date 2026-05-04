@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udea7 Ansible Language Server codebase is now included in vscode-ansible repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "task"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "task"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041427,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040366,
+      "status": "candidate",
+      "text": "chore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034960,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034308,
+      "status": "candidate",
+      "text": "labor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031179,
+      "status": "candidate",
+      "text": "tax"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "task",
+      "sense_id": "task#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38048,
+      "status": "candidate",
+      "text": "project"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "undertaking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16066,
+      "status": "candidate",
+      "text": "job"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13038,
+      "status": "candidate",
+      "text": "chore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8055,
+      "status": "candidate",
+      "text": "labor"
+    }
+  ],
+  "concept_id": "task",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "task",
+  "observation_id": "34ff53a176ac2611",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "task",
+  "source_context_snippet": "task",
+  "source_file": ".github/workflows/task.yml",
+  "source_repo": "ansible/ansible-language-server",
+  "source_repo_description": "\ud83d\udea7 Ansible Language Server codebase is now included in vscode-ansible repository"
+}

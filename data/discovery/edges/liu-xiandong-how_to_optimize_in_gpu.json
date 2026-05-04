@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "elementwise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "reduce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "sgemm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "sgemv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "Liu-xiandong/How_to_optimize_in_GPU"
+}

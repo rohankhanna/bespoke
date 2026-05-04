@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19779612,
+      "status": "candidate",
+      "text": "rapids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857229,
+      "status": "candidate",
+      "text": "saskatchewan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18586875,
+      "status": "candidate",
+      "text": "abbotsford"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18579476,
+      "status": "candidate",
+      "text": "dunbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17662160,
+      "status": "candidate",
+      "text": "nielsen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nelson",
+      "sense_id": "nelson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nelson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nelson",
+  "observation_id": "4cc58a612845414d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "nelson",
+  "source_context_snippet": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)",
+  "source_file": null,
+  "source_repo": "nelson-lang/nelson",
+  "source_repo_description": "The Nelson Programming Language"
+}

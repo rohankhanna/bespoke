@@ -1,7 +1,7 @@
 {
   "component": "solhint",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -57,6 +57,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka"
     }
   ]
 }

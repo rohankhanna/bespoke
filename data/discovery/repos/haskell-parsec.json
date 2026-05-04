@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haskell/parsec",
+      "target": "mrkkrp/megaparsec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/parsec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/parsec",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/parsec",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/parsec",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:19:34.843878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4368
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 10591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A monadic parser combinator library",
+    "fork": false,
+    "full_name": "haskell/parsec",
+    "html_url": "https://github.com/haskell/parsec",
+    "language": "Haskell",
+    "pushed_at": "2025-06-12T21:42:02Z",
+    "stargazers_count": 887,
+    "topics": [],
+    "updated_at": "2026-04-30T10:09:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkkrp/megaparsec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    }
+  ]
+}

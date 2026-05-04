@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/dependencies.yml"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/project.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/project.yml"
     },
     {
-      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/scorecard.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     }
@@ -91,7 +91,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "target_type": "component"
     },
     {
@@ -126,7 +126,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "target_type": "component"
     },
     {
@@ -147,7 +147,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "target_type": "component"
     },
     {
@@ -161,7 +161,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "target_type": "component"
     },
     {
@@ -182,7 +182,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
       "target_type": "component"
     },
     {
@@ -210,7 +210,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T02:12:43.661087+00:00",
+  "fetched_at": "2026-05-04T09:35:58.784035+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-05-03T12:52:33Z",
-    "stargazers_count": 186688,
+    "pushed_at": "2026-05-04T07:20:12Z",
+    "stargazers_count": 186699,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-05-04T01:55:50Z"
+    "updated_at": "2026-05-04T09:32:41Z"
   },
   "repo_links": [],
   "terms": [

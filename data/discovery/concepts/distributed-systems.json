@@ -427,6 +427,18 @@
       "source_repo": "rqlite/rqlite",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scopedb/percas",
+      "status": "candidate-context",
+      "text": "Percas is a distributed PERsistent CAche Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scopedb/percas",
+      "status": "candidate-context",
+      "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "rqlite/rqlite",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scopedb/percas",
+      "status": "candidate",
+      "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
     }
   ],
   "candidate_related_terms": [],
@@ -1216,11 +1234,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vany0114/chaos-injection-using-simmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "scopedb/percas"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

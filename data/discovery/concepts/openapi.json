@@ -682,6 +682,18 @@
       "source_repo": "bow-swift/nef-editor-server",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_glosses": [
@@ -1020,6 +1032,12 @@
       "source_repo": "bow-swift/nef-editor-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_related_terms": [],
@@ -1633,11 +1651,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "metosin/compojure-api"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

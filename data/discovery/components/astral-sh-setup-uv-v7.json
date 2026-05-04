@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1822,6 +1822,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/x.yml",
       "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-renderers.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockgen.yml",
+      "source_repo": "stack-of-tasks/pinocchio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browserforge-compat-test.yml",
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model-updater.yml",
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-npm.yaml",
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yaml",
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
     }
   ]
 }

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui",
+      "target": "native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui",
+      "target": "native-windows-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:44.562024+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A light windows GUI toolkit for rust",
+    "fork": false,
+    "full_name": "gabdube/native-windows-gui",
+    "html_url": "https://github.com/gabdube/native-windows-gui",
+    "language": "Rust",
+    "pushed_at": "2024-05-16T10:00:30Z",
+    "stargazers_count": 2049,
+    "topics": [
+      "gui",
+      "native",
+      "native-windows-gui",
+      "rust"
+    ],
+    "updated_at": "2026-04-28T10:12:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-windows-gui"
+    },
+    {
+      "context_snippet": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

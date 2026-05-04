@@ -2590,6 +2590,78 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate-context",
+      "text": "Universal Kubernetes mutating operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "Deploy a Production Ready Kubernetes Cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "Elastic Cloud on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "A Bridge between SDN and Cloud Native (Project under CNCF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "eBPF-based Networking, Security, and Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_glosses": [
@@ -3882,6 +3954,42 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_related_terms": [
@@ -5983,11 +6091,95 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubemod/kubemod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/kube-libsonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cilium/cilium"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

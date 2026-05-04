@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ariane scheduled workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "eBPF-based Networking, Security, and Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "Ariane scheduled workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate",
+      "text": "Ariane scheduled workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "allahabad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "punjab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "aria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "crete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14264,
+      "status": "candidate",
+      "text": "dionysus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ariane scheduled workflows",
+  "concept_id": "ariane-scheduled-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ariane-scheduled.yaml",
+      "source_repo": "cilium/cilium"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ariane scheduled workflows",
+      "sense_id": "ariane-scheduled-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Test & Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Test on Arch Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Windows & macOS",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "cpmech/tritet"
+}

@@ -2170,6 +2170,66 @@
       "source_repo": "slim-template/slim",
       "status": "candidate-context",
       "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Find in AST - Search and refactor code directly in Abstract Syntax Tree as you do with grep for strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haml/haml-rails",
+      "status": "candidate-context",
+      "text": "let your Gemfile do the talking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haml/haml-rails",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "An opinionated framework for creating REST-like APIs in Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "![grape logo](grape.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "RuboCop's AST extensions and NodePattern functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-ast.svg)](https://badge.fury.io/rb/rubocop-ast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_glosses": [
@@ -3276,6 +3336,36 @@
       "source_repo": "slim-template/slim",
       "status": "candidate",
       "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haml/haml-rails",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate",
+      "text": "![grape logo](grape.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-ast.svg)](https://badge.fury.io/rb/rubocop-ast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_related_terms": [
@@ -4771,11 +4861,83 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "slim-template/slim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bryanp/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jonatas/fast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "haml/haml-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-ast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

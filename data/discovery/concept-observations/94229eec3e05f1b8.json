@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "android-ui",
+      "sense_id": "android-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-ui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-ui",
+  "observation_id": "94229eec3e05f1b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "android-ui",
+  "source_context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+  "source_file": null,
+  "source_repo": "mikepenz/MaterialDrawer",
+  "source_repo_description": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+}

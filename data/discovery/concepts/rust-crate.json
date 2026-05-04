@@ -91,6 +91,18 @@
       "source_repo": "spyoungtech/json-five-rs",
       "status": "candidate-context",
       "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0f rpmalloc global memory allocator for Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "spyoungtech/json-five-rs",
       "status": "candidate",
       "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "spyoungtech/json-five-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

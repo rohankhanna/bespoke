@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBuf/tvm_mlir_learn",
+      "target": "lac-dcc/llvm-course",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:30.330387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "compiler learning resources collect.",
+    "fork": false,
+    "full_name": "BBuf/tvm_mlir_learn",
+    "html_url": "https://github.com/BBuf/tvm_mlir_learn",
+    "language": "Python",
+    "pushed_at": "2025-03-19T11:26:43Z",
+    "stargazers_count": 2727,
+    "topics": [],
+    "updated_at": "2026-05-03T15:41:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lac-dcc/llvm-course",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

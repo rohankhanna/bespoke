@@ -115,6 +115,18 @@
       "source_repo": "mesh-iit/creo2urdf",
       "status": "candidate-context",
       "text": "Generate URDF model from CREO Parametric mechanisms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "mesh-iit/creo2urdf",
       "status": "candidate",
       "text": "Generate URDF model from CREO Parametric mechanisms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +298,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mesh-iit/creo2urdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stack-of-tasks/pinocchio"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

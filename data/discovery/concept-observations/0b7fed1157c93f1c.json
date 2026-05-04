@@ -92,7 +92,7 @@
   "normalized_form": "graph",
   "observation_id": "0b7fed1157c93f1c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "graph",
   "source_context_snippet": "Formatter for [benchee](//github.com/PragTob/benchee) to produce some standalone HTML with nice graphs, a data table etc. from your benchee benchmarking results :) Also allows you to export PNG images, the graphs are also somewhat explorable thanks to [plotly.js](https://plot.ly\u2026",
   "source_file": null,

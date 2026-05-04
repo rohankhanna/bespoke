@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "hku-mars/fast_lio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "irapkaist/scancontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "livox-sdk/livox_ros_driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "irapkaist/file_player_mulran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "fastlio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "kalman-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "scancontext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+}

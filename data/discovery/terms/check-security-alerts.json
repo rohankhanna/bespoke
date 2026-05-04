@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit"
+    }
+  ],
+  "term": "Check security alerts"
+}

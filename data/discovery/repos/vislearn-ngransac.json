@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:25:39.884399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural-Guided RANSAC for Estimating Epipolar Geometry from Sparse Correspondences",
+    "fork": false,
+    "full_name": "vislearn/ngransac",
+    "html_url": "https://github.com/vislearn/ngransac",
+    "language": "Python",
+    "pushed_at": "2021-11-03T10:44:15Z",
+    "stargazers_count": 340,
+    "topics": [],
+    "updated_at": "2026-04-28T15:29:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

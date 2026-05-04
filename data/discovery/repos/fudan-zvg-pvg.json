@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-zvg/PVG",
+      "target": "sulvxiangxin/diff-gaussian-rasterization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fudan-zvg/PVG",
+      "target": "pjlab-adg/neuralsim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:52.736046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7422
+    },
+    {
+      "path": "requirements.txt",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IJCV 2026] Periodic Vibration Gaussian: Dynamic Urban Scene Reconstruction and Real-time Rendering",
+    "fork": false,
+    "full_name": "fudan-zvg/PVG",
+    "html_url": "https://github.com/fudan-zvg/PVG",
+    "language": "Python",
+    "pushed_at": "2026-01-27T07:08:24Z",
+    "stargazers_count": 361,
+    "topics": [],
+    "updated_at": "2026-05-02T16:58:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjlab-adg/neuralsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sulvxiangxin/diff-gaussian-rasterization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

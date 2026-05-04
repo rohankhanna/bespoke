@@ -31,6 +31,30 @@
       "source_repo": "hufrea/byedpi",
       "status": "candidate-context",
       "text": "Implementation of some DPI bypass methods."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "A SOCKS (SOCKS4, SOCKS4A and SOCKS5) Proxy Package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "hufrea/byedpi",
       "status": "candidate",
       "text": "Implementation of some DPI bypass methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -99,11 +135,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "hufrea/byedpi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "h12w/socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "erebe/wstunnel"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

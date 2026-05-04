@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-wrangling",
+      "sense_id": "data-wrangling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-wrangling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-wrangling",
+  "observation_id": "a243070cef171099",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "data-wrangling",
+  "source_context_snippet": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin).",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+  "source_repo_description": "Data cleaning, enrichment, restructuring, and packaging skills for Claude Code"
+}

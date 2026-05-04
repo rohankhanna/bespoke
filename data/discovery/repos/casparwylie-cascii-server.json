@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "appleboy/scp-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "appleboy/scp-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "prod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull.yml",
+      "source_repo": "casparwylie/cascii-server",
+      "target": "pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server",
+      "target": "ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:20:36.573889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 752
+    },
+    {
+      "path": "Dockerfile",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2446
+    },
+    {
+      "path": ".github/workflows/pull.yml",
+      "size": 325
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. ",
+    "fork": false,
+    "full_name": "casparwylie/cascii-server",
+    "html_url": "https://github.com/casparwylie/cascii-server",
+    "language": "Go",
+    "pushed_at": "2026-02-18T20:13:19Z",
+    "stargazers_count": 10,
+    "topics": [
+      "ascii",
+      "ascii-art",
+      "golang"
+    ],
+    "updated_at": "2026-03-05T04:12:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "prod",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "prod"
+    },
+    {
+      "context_snippet": "pull-request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull.yml",
+      "term": "pull-request"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

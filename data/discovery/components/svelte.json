@@ -1,7 +1,7 @@
 {
   "component": "svelte",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -352,6 +352,31 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "liamcain/obsidian-periodic-notes"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SaraiQX/tigerbot-svelte-app"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azat-io/eslint-plugin-perfectionist"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "carbon-design-system/sveld"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/svelte"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ando818/lemmy-ui-svelte"
     }
   ]
 }

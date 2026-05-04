@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/lista",
+      "target": "ptsochantaris/trailer-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista",
+      "target": "collections",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:55.779542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple, fast, and Codable-compliant linked-list in Swift",
+    "fork": false,
+    "full_name": "ptsochantaris/lista",
+    "html_url": "https://github.com/ptsochantaris/lista",
+    "language": "Swift",
+    "pushed_at": "2025-08-23T08:29:04Z",
+    "stargazers_count": 2,
+    "topics": [
+      "collections",
+      "ios",
+      "macos",
+      "swift",
+      "watchos"
+    ],
+    "updated_at": "2026-03-18T12:09:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/trailer-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collections"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate-context",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "<h1 align=center>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate",
+      "text": "<h1 align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "chaijs/chai"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

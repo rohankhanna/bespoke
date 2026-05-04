@@ -1,0 +1,12 @@
+{
+  "component": "EnricoMi/publish-unit-test-result-action@v1.3",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari"
+    }
+  ]
+}

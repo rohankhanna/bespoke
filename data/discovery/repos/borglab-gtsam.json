@@ -1,0 +1,518 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "pierotofy/set-swap-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-special.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "Linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "pierotofy/set-swap-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-special.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-special.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "Special Cases CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "Clean up PR caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "MyST GitHub Pages Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borglab/gtsam",
+      "target": "estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borglab/gtsam",
+      "target": "perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borglab/gtsam",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borglab/gtsam",
+      "target": "sensorfusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:14.593580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8563
+    },
+    {
+      "path": ".github/workflows/build-cibw.yml",
+      "size": 7611
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 3185
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 3269
+    },
+    {
+      "path": ".github/workflows/build-python.yml",
+      "size": 7896
+    },
+    {
+      "path": ".github/workflows/build-special.yml",
+      "size": 3895
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 4136
+    },
+    {
+      "path": ".github/workflows/cache-cleanup.yml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1592
+    },
+    {
+      "path": ".github/workflows/prod-cibw.yml",
+      "size": 6693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices.",
+    "fork": false,
+    "full_name": "borglab/gtsam",
+    "html_url": "https://github.com/borglab/gtsam",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-05-02T20:08:02Z",
+    "stargazers_count": 3414,
+    "topics": [
+      "estimation",
+      "perception",
+      "robotics",
+      "sensorfusion"
+    ],
+    "updated_at": "2026-05-04T09:11:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Linux CI"
+    },
+    {
+      "context_snippet": "macOS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "macOS CI"
+    },
+    {
+      "context_snippet": "Special Cases CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-special.yml",
+      "term": "Special Cases CI"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "Clean up PR caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "term": "Clean up PR caches"
+    },
+    {
+      "context_snippet": "MyST GitHub Pages Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "MyST GitHub Pages Deploy"
+    },
+    {
+      "context_snippet": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "estimation"
+    },
+    {
+      "context_snippet": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception"
+    },
+    {
+      "context_snippet": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensorfusion"
+    }
+  ]
+}

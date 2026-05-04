@@ -1420,6 +1420,30 @@
       "source_repo": "windingwind/zotero-pdf-translate",
       "status": "candidate-context",
       "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7/8-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "A Vite plugin to instrument code for nyc/istanbul code coverage. In similar way as the Webpack Loader istanbul-instrumenter-loader. Only intended for use in development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "vite-plugin-istanbul"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Integrates the JMH benchmarking framework with Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -2130,6 +2154,18 @@
       "source_repo": "windingwind/zotero-pdf-translate",
       "status": "candidate",
       "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7/8-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate",
+      "text": "vite-plugin-istanbul"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate",
+      "text": "Main"
     }
   ],
   "candidate_related_terms": [
@@ -3253,11 +3289,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iFaxity/vite-plugin-istanbul"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "melix/jmh-gradle-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

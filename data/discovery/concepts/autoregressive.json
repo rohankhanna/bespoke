@@ -19,6 +19,18 @@
       "source_repo": "SandAI-org/MAGI-1",
       "status": "candidate-context",
       "text": "![magi-logo](figures/logo_black.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's DALL-E for large scale training in mesh-tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "SandAI-org/MAGI-1",
       "status": "candidate",
       "text": "![magi-logo](figures/logo_black.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "SandAI-org/MAGI-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

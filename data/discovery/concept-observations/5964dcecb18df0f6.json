@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Useful extensions to the standard Python datetime features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dateutil - powerful extensions to datetime"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dateutil - powerful extensions to datetime"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969842,
+      "status": "candidate",
+      "text": "timestamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969841,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969840,
+      "status": "candidate",
+      "text": "data type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969839,
+      "status": "candidate",
+      "text": "variant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969838,
+      "status": "candidate",
+      "text": "optional"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datetime",
+      "sense_id": "datetime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datetime",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datetime",
+  "observation_id": "5964dcecb18df0f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "datetime",
+  "source_context_snippet": "dateutil - powerful extensions to datetime",
+  "source_file": null,
+  "source_repo": "dateutil/dateutil",
+  "source_repo_description": "Useful extensions to the standard Python datetime features"
+}

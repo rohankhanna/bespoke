@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timelic/source-han-serif",
+      "target": "pal3love/source-han-truetype",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:27.460210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "timelic/source-han-serif",
+    "html_url": "https://github.com/timelic/source-han-serif",
+    "language": null,
+    "pushed_at": "2025-01-06T02:28:43Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-06T02:28:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pal3love/source-han-truetype",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

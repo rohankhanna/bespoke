@@ -43,6 +43,30 @@
       "source_repo": "HongwenZhang/PyMAF-X",
       "status": "candidate-context",
       "text": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate-context",
+      "text": "[TPAMI 2020] Learning 3D Human Shape and Pose from Dense Body Parts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate-context",
+      "text": "This repository contains the code for the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "HongwenZhang/PyMAF-X",
       "status": "candidate",
       "text": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate",
+      "text": "This repository contains the code for the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "HongwenZhang/PyMAF-X"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

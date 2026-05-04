@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Leaderboard Validate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "One framework to evaluate any VLA model on any robot simulation benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Leaderboard Validate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate",
+      "text": "Leaderboard Validate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "bottom-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "cellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "last place"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Leaderboard Validate",
+  "concept_id": "leaderboard-validate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/leaderboard-validate.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Leaderboard Validate",
+      "sense_id": "leaderboard-validate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

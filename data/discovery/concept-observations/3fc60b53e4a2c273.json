@@ -84,7 +84,7 @@
   "normalized_form": "claude-auto-e2e-testing",
   "observation_id": "3fc60b53e4a2c273",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Claude Auto E2E Testing",
   "source_context_snippet": "Claude Auto E2E Testing",
   "source_file": ".github/workflows/claude-auto-e2e-testing.yml",

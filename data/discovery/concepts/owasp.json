@@ -55,6 +55,18 @@
       "source_repo": "juice-shop/juice-shop",
       "status": "candidate-context",
       "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday: a fast golang HTML sanitizer (inspired by the OWASP Java HTML Sanitizer) to scrub user generated content of XSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
     }
   ],
   "candidate_glosses": [
@@ -75,6 +87,12 @@
       "source_repo": "juice-shop/juice-shop",
       "status": "candidate",
       "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

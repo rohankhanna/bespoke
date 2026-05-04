@@ -1,7 +1,7 @@
 {
   "component": "softprops/action-gh-release@v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1282,6 +1282,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/on-release.yml",
       "source_repo": "igor-petruk/scriptisto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "processing/processing-sound"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OwO-Network/DeepLX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "pot-app/pot-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloverLabsAI/camoufox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
     }
   ]
 }

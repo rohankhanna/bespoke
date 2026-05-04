@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test building wheels in CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "Python bindings to UCSC BigWig and BigBed library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "Test building wheels in CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate",
+      "text": "Test building wheels in CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26015,
+      "status": "candidate",
+      "text": "turret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18140,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17536,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17089,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17089,
+      "status": "candidate",
+      "text": "rolled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test building wheels in CI",
+  "concept_id": "test-building-wheels-in-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/buildwheels.yml",
+      "source_repo": "nvictus/pybbi"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test building wheels in CI",
+      "sense_id": "test-building-wheels-in-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

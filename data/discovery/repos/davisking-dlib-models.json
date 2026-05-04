@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisking/dlib-models",
+      "target": "cydral/barel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisking/dlib-models",
+      "target": "cydral/colorify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisking/dlib-models",
+      "target": "cydral/dlib-models-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davisking/dlib-models",
+      "target": "cydral/dlib-imagenet-datasets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:26.591164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Trained model files for dlib example programs.",
+    "fork": false,
+    "full_name": "davisking/dlib-models",
+    "html_url": "https://github.com/davisking/dlib-models",
+    "language": "C++",
+    "pushed_at": "2025-05-28T01:33:39Z",
+    "stargazers_count": 1612,
+    "topics": [],
+    "updated_at": "2026-05-02T03:51:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cydral/barel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cydral/colorify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cydral/dlib-imagenet-datasets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cydral/dlib-models-training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

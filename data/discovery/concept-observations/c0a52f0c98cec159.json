@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultra-fast and memory-efficient (meta-)genome assembler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MEGAHIT"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MEGAHIT"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020577,
+      "status": "candidate",
+      "text": "metagnomics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020576,
+      "status": "candidate",
+      "text": "metagenome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020575,
+      "status": "candidate",
+      "text": "metagenetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020574,
+      "status": "candidate",
+      "text": "megagenomics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020573,
+      "status": "candidate",
+      "text": "omics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metagenomics",
+      "sense_id": "metagenomics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "metagenomics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "metagenomics",
+  "observation_id": "c0a52f0c98cec159",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "metagenomics",
+  "source_context_snippet": "MEGAHIT",
+  "source_file": null,
+  "source_repo": "voutcn/megahit",
+  "source_repo_description": "Ultra-fast and memory-efficient (meta-)genome assembler"
+}

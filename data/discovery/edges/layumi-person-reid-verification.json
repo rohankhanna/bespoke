@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "ahangchen/rank-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "d-x-y/caffe-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "layumi/dukemtmc-reid_evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "layumi/image-text-embedding",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "layumi/Person-reID-verification"
+}

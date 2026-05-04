@@ -8905,6 +8905,198 @@
       "source_repo": "corteva/rioxarray",
       "status": "candidate-context",
       "text": "================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "Deploy a Production Ready Kubernetes Cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gruntjs/grunt-contrib-qunit",
+      "status": "candidate-context",
+      "text": "Run QUnit tests in Headless Chrome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-qunit",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/grunt-contrib-qunit.svg?style=flat)](https://www.npmjs.com/package/grunt-contrib-qunit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "Angular binding of maplibre-gl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Define complex geographic regions by including and excluding country codes and geojson shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "An opinionated framework for creating REST-like APIs in Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "![grape logo](grape.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fsspec/s3fs",
+      "status": "candidate-context",
+      "text": "S3 Filesystem "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/s3fs",
+      "status": "candidate-context",
+      "text": "s3fs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate-context",
+      "text": "Python library for configuring a package including defaults, env variable loading, and yaml loading."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate-context",
+      "text": "Donfig"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "GeoInterface-based geometry operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "RuboCop's AST extensions and NodePattern functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-ast.svg)](https://badge.fury.io/rb/rubocop-ast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect adds an inspect control to maplibre-gl-js to view all features of the vector sources and allows hovering over features to see their properties."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "\ud83d\udccd\u27a1\ufe0f \ud83c\udde9\ud83c\uddf0 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb Validation resolvers: Yup, Zod, Superstruct, Joi, Vest, Class Validator, io-ts, Nope, computed-types, typanion, Ajv, TypeBox, ArkType, Valibot, effect-ts, VineJS and Standard Schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -13383,6 +13575,102 @@
       "source_repo": "corteva/rioxarray",
       "status": "candidate",
       "text": "================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gruntjs/grunt-contrib-qunit",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/grunt-contrib-qunit.svg?style=flat)](https://www.npmjs.com/package/grunt-contrib-qunit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate",
+      "text": "![grape logo](grape.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fsspec/s3fs",
+      "status": "candidate",
+      "text": "s3fs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate",
+      "text": "Donfig"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/rubocop-ast.svg)](https://badge.fury.io/rb/rubocop-ast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate",
+      "text": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -20854,11 +21142,365 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "corteva/rioxarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gruntjs/grunt-contrib-qunit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "maplibre/ngx-maplibre-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/location-conflation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/broccoli-babel-transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fsspec/s3fs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytroll/donfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeometryOps.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-ast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/country-coder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-hook-form/resolvers"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "Overv/VulkanTutorial",
       "status": "candidate-context",
       "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-docs",
+      "status": "candidate-context",
+      "text": "[Deprecated] Processing reference, examples, tutorials, and website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-docs",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Overv/VulkanTutorial",
       "status": "candidate",
       "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-docs",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Overv/VulkanTutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-docs"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

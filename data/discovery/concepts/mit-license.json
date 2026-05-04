@@ -67,6 +67,18 @@
       "source_repo": "adityatelange/hugo-PaperMod",
       "status": "candidate-context",
       "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "Overview"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "adityatelange/hugo-PaperMod",
       "status": "candidate",
       "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate",
+      "text": "Overview"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +316,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

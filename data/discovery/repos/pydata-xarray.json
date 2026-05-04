@@ -1,0 +1,815 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-get-previous-tag@61819f33034117e6c686e6a31dba995a85afc9de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "scientific-python/issue-from-pytest-log-action@8e905db353437cda1d6a773de245343fbfc940dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-prs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pydata/xarray",
+      "target": "python/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray",
+      "target": "WyriHaximus/github-action-get-previous-tag@61819f33034117e6c686e6a31dba995a85afc9de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray",
+      "target": "Benchmark compare last release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "CI Additional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "xarray-contrib/ci-trigger@10cd2bfec3484946a4058a421ddf9cfad101e715",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/create-and-cache@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Parcels-code/pixi-lock/restore@38495788b79a5ff26009aecc15daa9a8310b8832",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "prefix-dev/setup-pixi@1b2de7f3351f171c8b4dfeb558c639cb58ed4ec0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/cache/save@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "scientific-python/issue-from-pytest-log-action@8e905db353437cda1d6a773de245343fbfc940dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray",
+      "target": "Slow Hypothesis CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-prs.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-prs.yml",
+      "source_repo": "pydata/xarray",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "scientific-python/upload-nightly-action@5748273c71e2d8d3a61f3a11a16421c8954f9ecf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray",
+      "target": "Upload nightly wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydata/xarray",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydata/xarray",
+      "target": "netcdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydata/xarray",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydata/xarray",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pydata/xarray",
+      "target": "xarray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:35:06.849513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9502
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 13161
+    },
+    {
+      "path": ".github/workflows/benchmarks-last-release.yml",
+      "size": 2881
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 3095
+    },
+    {
+      "path": ".github/workflows/ci-additional.yaml",
+      "size": 12410
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 6914
+    },
+    {
+      "path": ".github/workflows/configure-testpypi-version.py",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/hypothesis.yaml",
+      "size": 4934
+    },
+    {
+      "path": ".github/workflows/label-prs.yml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/nightly-wheels.yml",
+      "size": 3411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "N-D labeled arrays and datasets in Python",
+    "fork": false,
+    "full_name": "pydata/xarray",
+    "html_url": "https://github.com/pydata/xarray",
+    "language": "Python",
+    "pushed_at": "2026-04-29T06:17:32Z",
+    "stargazers_count": 4141,
+    "topics": [
+      "dask",
+      "netcdf",
+      "numpy",
+      "pandas",
+      "python",
+      "xarray"
+    ],
+    "updated_at": "2026-05-03T18:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/black",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark compare last release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "term": "Benchmark compare last release"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "CI Additional",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "term": "CI Additional"
+    },
+    {
+      "context_snippet": "Slow Hypothesis CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "term": "Slow Hypothesis CI"
+    },
+    {
+      "context_snippet": "\"PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-prs.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "context_snippet": "Upload nightly wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "term": "Upload nightly wheels"
+    },
+    {
+      "context_snippet": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcdf"
+    },
+    {
+      "context_snippet": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xarray"
+    }
+  ]
+}

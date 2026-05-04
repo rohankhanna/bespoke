@@ -115,6 +115,78 @@
       "source_repo": "simonpoole/beautified-JOSM-preset",
       "status": "candidate-context",
       "text": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "CC0 SVG Map Icons, mirror of repo on Gitlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taginfo/taginfo-projects",
+      "status": "candidate-context",
+      "text": "Projects list for taginfo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taginfo/taginfo-projects",
+      "status": "candidate-context",
+      "text": "This repository contains the list of projects for taginfo. See"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate-context",
+      "text": "CartoCSS project focused on the Humanitarian Data Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate-context",
+      "text": "The HDM rendering is a Carto project, focusing on the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "A unified layer index for OSM editors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "Android UI element for  displaying and editing an opening hours value"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonpoole/osm-area-tags",
+      "status": "candidate-context",
+      "text": "Data on which OpenStreetMap tags imply areas"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/osm-area-tags",
+      "status": "candidate-context",
+      "text": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "simonpoole/beautified-JOSM-preset",
       "status": "candidate",
       "text": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taginfo/taginfo-projects",
+      "status": "candidate",
+      "text": "This repository contains the list of projects for taginfo. See"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate",
+      "text": "The HDM rendering is a Carto project, focusing on the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate",
+      "text": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/osm-area-tags",
+      "status": "candidate",
+      "text": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +382,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "streetcomplete/StreetComplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taginfo/taginfo-projects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hotosm/HDM-CartoCSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/editor-layer-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "simonpoole/OpeningHoursFragment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "simonpoole/osm-area-tags"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

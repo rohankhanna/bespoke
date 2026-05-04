@@ -1,0 +1,12 @@
+{
+  "component": "DevExpress/testcafe-build-system/actions/set-status@main",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-artifacts.yml",
+      "source_repo": "DevExpress/testcafe"
+    }
+  ]
+}

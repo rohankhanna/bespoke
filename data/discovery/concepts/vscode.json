@@ -849,6 +849,30 @@
       "source_repo": "primer/github-vscode-theme",
       "status": "candidate-context",
       "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "A browser based code editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/millet",
+      "status": "candidate-context",
+      "text": "A language server for Standard ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/millet",
+      "status": "candidate-context",
+      "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
     }
   ],
   "candidate_glosses": [
@@ -1277,6 +1301,18 @@
       "source_repo": "primer/github-vscode-theme",
       "status": "candidate",
       "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/millet",
+      "status": "candidate",
+      "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
     }
   ],
   "candidate_related_terms": [],
@@ -1956,11 +1992,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monaco-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/millet"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metosin-stable",
+      "sense_id": "metosin-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "metosin-stable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "metosin-stable",
+  "observation_id": "72a087599ab87cda",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "metosin-stable",
+  "source_context_snippet": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?",
+  "source_file": null,
+  "source_repo": "metosin/compojure-api",
+  "source_repo_description": "Sweet web apis with Compojure & Swagger"
+}

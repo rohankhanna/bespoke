@@ -19,6 +19,18 @@
       "source_repo": "jgpc42/lein-jmh",
       "status": "candidate-context",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/lein-jmh.svg)](https://clojars.org/lein-jmh)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jgpc42/lein-jmh",
       "status": "candidate",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/lein-jmh.svg)](https://clojars.org/lein-jmh)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jgpc42/lein-jmh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/radian"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -21,28 +21,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mesh-iit/ergocub-software",
-      "target": "robotology/gazebo-yarp-plugins",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mesh-iit/ergocub-software",
-      "target": "conda-forge/ergocub-software-feedstock",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mesh-iit/ergocub-software",
-      "target": "mesh-iit/cad-libraries",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mesh-iit/ergocub-software",
-      "target": "mesh-iit/creo2urdf",
+      "target": "mesh-iit/cad-mechanics",
       "target_type": "repository"
     },
     {
@@ -81,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:38:54.476748+00:00",
+  "fetched_at": "2026-05-04T08:29:47.378536+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -113,22 +92,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "conda-forge/ergocub-software-feedstock",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mesh-iit/cad-libraries",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mesh-iit/creo2urdf",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "robotology/gazebo-yarp-plugins",
+      "full_name": "mesh-iit/cad-mechanics",
       "source_file": "README.md"
     }
   ],

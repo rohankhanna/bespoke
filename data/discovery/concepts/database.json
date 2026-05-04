@@ -1495,6 +1495,30 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate-context",
+      "text": "Offical Flyway Community Supported Database Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate-context",
+      "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "Build xtdb-bench Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -2241,6 +2265,18 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate",
+      "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate",
+      "text": "Build xtdb-bench Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -3442,11 +3478,65 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

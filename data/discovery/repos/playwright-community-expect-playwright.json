@@ -1,0 +1,295 @@
+{
+  "components": [
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-playwright-preset",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-chromium",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "smooth-code/jest-puppeteer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "jest-playwright-preset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "playwright-chromium",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "playwright-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "e2e-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "expect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "jest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "playwright-test-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:23:38.463657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8876
+    },
+    {
+      "path": "package.json",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright.",
+    "fork": false,
+    "full_name": "playwright-community/expect-playwright",
+    "html_url": "https://github.com/playwright-community/expect-playwright",
+    "language": "TypeScript",
+    "pushed_at": "2022-02-13T19:02:08Z",
+    "stargazers_count": 148,
+    "topics": [
+      "e2e-tests",
+      "expect",
+      "jest",
+      "playwright",
+      "playwright-test-runner",
+      "testing",
+      "testing-tools"
+    ],
+    "updated_at": "2025-11-20T12:33:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smooth-code/jest-puppeteer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "e2e-tests"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expect"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jest"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright-test-runner"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

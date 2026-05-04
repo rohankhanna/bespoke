@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:53.007672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1654
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of NWT, audio-to-video generation, in Pytorch",
+    "fork": false,
+    "full_name": "lucidrains/NWT-pytorch",
+    "html_url": "https://github.com/lucidrains/NWT-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-03-17T00:54:18Z",
+    "stargazers_count": 92,
+    "topics": [
+      "artificial-intelligence",
+      "audio",
+      "deep-learning",
+      "video-generation"
+    ],
+    "updated_at": "2025-10-15T09:14:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

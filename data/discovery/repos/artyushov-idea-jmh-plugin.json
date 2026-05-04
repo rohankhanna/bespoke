@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "openjdk/jdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "jvm-profiling-tools/async-profiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "melix/jmh-gradle-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "brianfromoregon/jmh-plugin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:14:42.142575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Plugin for Itellij IDEA to make benchmarking with JMH easier. ",
+    "fork": false,
+    "full_name": "artyushov/idea-jmh-plugin",
+    "html_url": "https://github.com/artyushov/idea-jmh-plugin",
+    "language": "Java",
+    "pushed_at": "2024-09-13T20:44:53Z",
+    "stargazers_count": 461,
+    "topics": [],
+    "updated_at": "2026-03-31T03:20:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brianfromoregon/jmh-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jvm-profiling-tools/async-profiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melix/jmh-gradle-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openjdk/jdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

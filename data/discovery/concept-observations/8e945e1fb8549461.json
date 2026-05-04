@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claude skills for data visualisation using common libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-vizualistaion",
+      "sense_id": "data-vizualistaion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-vizualistaion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-vizualistaion",
+  "observation_id": "8e945e1fb8549461",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "data-vizualistaion",
+  "source_context_snippet": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+  "source_repo_description": "Claude skills for data visualisation using common libraries"
+}

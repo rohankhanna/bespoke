@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/legalbench",
+      "target": "reexpressai/example_data",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:24:22.252656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open science effort to benchmark legal reasoning in foundation models",
+    "fork": false,
+    "full_name": "HazyResearch/legalbench",
+    "html_url": "https://github.com/HazyResearch/legalbench",
+    "language": "Python",
+    "pushed_at": "2026-03-30T05:23:35Z",
+    "stargazers_count": 577,
+    "topics": [],
+    "updated_at": "2026-04-28T06:40:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reexpressai/example_data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

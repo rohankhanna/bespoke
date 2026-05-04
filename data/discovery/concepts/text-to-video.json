@@ -271,6 +271,30 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Video Diffusion Models, Jonathan Ho's new paper extending DDPMs to Video Generation - in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -664,11 +700,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "lucidrains/nuwa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/video-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

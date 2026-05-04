@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo",
+      "target": "module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:28:48.870347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7836
+    },
+    {
+      "path": "go.mod",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Type safe and modularize way to generate html on server side.",
+    "fork": false,
+    "full_name": "theplant/htmlgo",
+    "html_url": "https://github.com/theplant/htmlgo",
+    "language": "Go",
+    "pushed_at": "2025-12-02T09:48:03Z",
+    "stargazers_count": 60,
+    "topics": [
+      "html5",
+      "module",
+      "template"
+    ],
+    "updated_at": "2025-12-02T09:48:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Type safe and modularize way to generate html on server side.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "Type safe and modularize way to generate html on server side.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module"
+    },
+    {
+      "context_snippet": "Type safe and modularize way to generate html on server side.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

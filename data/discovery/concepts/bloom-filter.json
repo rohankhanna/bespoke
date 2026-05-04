@@ -79,6 +79,18 @@
       "source_repo": "BirolLab/ntHash",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "BirolLab/ntHash",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/ntHash.svg)](https://github.com/BirolLab/ntHash/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "BirolLab/ntHash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/LINKS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "panmari/cuckoofilter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

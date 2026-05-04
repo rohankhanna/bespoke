@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Standard tests jobs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "certbot/certbot",
+      "status": "candidate-context",
+      "text": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certbot/certbot",
+      "status": "candidate-context",
+      "text": "Standard tests jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certbot/certbot",
+      "status": "candidate",
+      "text": "Standard tests jobs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18523,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18491,
+      "status": "candidate",
+      "text": "civil service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18415,
+      "status": "candidate",
+      "text": "psychometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18415,
+      "status": "candidate",
+      "text": "vocational guidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18371,
+      "status": "candidate",
+      "text": "volumetric analysis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Standard tests jobs",
+  "concept_id": "standard-tests-jobs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/standard_tests_jobs.yml",
+      "source_repo": "certbot/certbot"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Standard tests jobs",
+      "sense_id": "standard-tests-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

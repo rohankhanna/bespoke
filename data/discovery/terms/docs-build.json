@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s"
     }
   ],
   "term": "Docs Build"

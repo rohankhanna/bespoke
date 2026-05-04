@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dpryan79/libBigWig",
+      "target": "dpryan79/pybigwig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dpryan79/libBigWig",
+      "target": "brentp/bw-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpryan79/libBigWig",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpryan79/libBigWig",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dpryan79/libBigWig",
+      "target": "bigbed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dpryan79/libBigWig",
+      "target": "bigwig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dpryan79/libBigWig",
+      "target": "bioinformatics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:58.759671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12766
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C library for handling bigWig files",
+    "fork": false,
+    "full_name": "dpryan79/libBigWig",
+    "html_url": "https://github.com/dpryan79/libBigWig",
+    "language": "C",
+    "pushed_at": "2025-01-17T15:00:07Z",
+    "stargazers_count": 81,
+    "topics": [
+      "bigbed",
+      "bigwig",
+      "bioinformatics"
+    ],
+    "updated_at": "2025-08-06T06:01:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brentp/bw-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpryan79/pybigwig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigbed"
+    },
+    {
+      "context_snippet": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigwig"
+    },
+    {
+      "context_snippet": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    }
+  ]
+}

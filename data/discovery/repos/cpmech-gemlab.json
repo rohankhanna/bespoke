@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/gemlab",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/gemlab",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/gemlab",
+      "target": "Test & Coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:29.885588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7688
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 651
+    },
+    {
+      "path": ".github/workflows/test_and_coverage.yml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Geometry laboratory for finite element analyses",
+    "fork": false,
+    "full_name": "cpmech/gemlab",
+    "html_url": "https://github.com/cpmech/gemlab",
+    "language": "Rust",
+    "pushed_at": "2026-04-09T05:54:15Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-01-16T13:04:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test & Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "term": "Test & Coverage"
+    }
+  ]
+}

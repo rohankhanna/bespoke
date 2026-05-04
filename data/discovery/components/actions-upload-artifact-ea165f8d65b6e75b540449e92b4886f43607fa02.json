@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -687,6 +687,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-react-on-review.yml",
       "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/json-extension.yml",
+      "source_repo": "openlawlibrary/pygls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus"
     }
   ]
 }

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "isopleth"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate-context",
+      "text": "Contour maps plugin for MapLibreGL JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979705,
+      "status": "candidate",
+      "text": "isarithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878353,
+      "status": "candidate",
+      "text": "isogram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026973,
+      "status": "candidate",
+      "text": "isochrone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026971,
+      "status": "candidate",
+      "text": "isotherm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026970,
+      "status": "candidate",
+      "text": "isophot"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "isarithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "isogram"
+    }
+  ],
+  "canonical_name": "isopleth",
+  "concept_id": "isopleth",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "isopleth",
+      "sense_id": "isopleth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

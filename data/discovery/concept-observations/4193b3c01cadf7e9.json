@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-detection",
+      "sense_id": "object-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "object-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "object-detection",
+  "observation_id": "4193b3c01cadf7e9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "object-detection",
+  "source_context_snippet": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+  "source_file": null,
+  "source_repo": "ViTAE-Transformer/ViTDet",
+  "source_repo_description": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+}

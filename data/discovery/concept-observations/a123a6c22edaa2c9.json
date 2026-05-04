@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a series of GPU optimization topics. Here we will introduce  how to optimize the CUDA kernel in detail.  I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "entrywise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "coefficientwise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "eigensimplified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pointwise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "setwise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elementwise",
+      "sense_id": "elementwise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "elementwise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elementwise",
+  "observation_id": "a123a6c22edaa2c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "elementwise",
+  "source_context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+  "source_file": null,
+  "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+  "source_repo_description": "This is a series of GPU optimization topics. Here we will introduce  how to optimize the CUDA kernel in detail.  I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit."
+}

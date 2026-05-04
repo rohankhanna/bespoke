@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filter lists for uBlock Origin & uBlock Origin Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "on-issue-created"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "on-issue-created"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "on-issue-created",
+      "sense_id": "on-issue-created#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "on-issue-created",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "on-issue-created",
+  "observation_id": "3de4ffff5c989231",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "on-issue-created",
+  "source_context_snippet": "on-issue-created",
+  "source_file": ".github/workflows/on-issue-created.yml",
+  "source_repo": "uBlockOrigin/uAssets",
+  "source_repo_description": "Filter lists for uBlock Origin & uBlock Origin Lite"
+}

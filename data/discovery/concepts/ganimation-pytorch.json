@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ganimation-pytorch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate-context",
+      "text": "An Out-of-the-Box Replication of GANimation using PyTorch, pretrained weights are available!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ganimation-pytorch",
+  "concept_id": "ganimation-pytorch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ganimation-pytorch",
+      "sense_id": "ganimation-pytorch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:33:01.499702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15484
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automated Solutions for Time-Series Anomaly Detection",
+    "fork": false,
+    "full_name": "thedatumorg/TSB-AutoAD",
+    "html_url": "https://github.com/thedatumorg/TSB-AutoAD",
+    "language": "Python",
+    "pushed_at": "2025-07-31T21:26:34Z",
+    "stargazers_count": 19,
+    "topics": [
+      "anomaly-detection",
+      "automl",
+      "time-series"
+    ],
+    "updated_at": "2026-02-02T05:32:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "cram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "fasta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "java-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk",
+      "target": "sequencing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:48.764757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7678
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 4051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Java API for high-throughput sequencing data (HTS) formats.",
+    "fork": false,
+    "full_name": "samtools/htsjdk",
+    "html_url": "https://github.com/samtools/htsjdk",
+    "language": "Java",
+    "pushed_at": "2026-05-01T22:09:28Z",
+    "stargazers_count": 298,
+    "topics": [
+      "bam",
+      "cram",
+      "dna",
+      "fasta",
+      "genomics",
+      "java",
+      "java-api",
+      "ngs",
+      "sam",
+      "sequencing",
+      "vcf"
+    ],
+    "updated_at": "2026-05-01T22:09:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cram"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fasta"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-api"
+    },
+    {
+      "context_snippet": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencing"
+    }
+  ]
+}

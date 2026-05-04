@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ubo-ublock-origin-fast-adblocking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "Collection of blocklists to fill in the gaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ubo-ublock-origin-fast-adblocking",
+  "concept_id": "ubo-ublock-origin-fast-adblocking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ubo-ublock-origin-fast-adblocking",
+      "sense_id": "ubo-ublock-origin-fast-adblocking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

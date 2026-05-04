@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/isscint",
+      "target": "inno-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/isscint",
+      "target": "scintilla",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:44.044040+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scintilla source code modified for Inno Setup.",
+    "fork": false,
+    "full_name": "jrsoftware/isscint",
+    "html_url": "https://github.com/jrsoftware/isscint",
+    "language": "C++",
+    "pushed_at": "2026-03-20T15:54:58Z",
+    "stargazers_count": 5,
+    "topics": [
+      "inno-setup",
+      "scintilla"
+    ],
+    "updated_at": "2026-03-20T15:55:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scintilla source code modified for Inno Setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inno-setup"
+    },
+    {
+      "context_snippet": "Scintilla source code modified for Inno Setup.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scintilla"
+    }
+  ]
+}

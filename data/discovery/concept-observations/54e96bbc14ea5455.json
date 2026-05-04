@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Create a universal React app using Expo and Next.js in a monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-native-web",
+      "sense_id": "react-native-web#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "react-native-web",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react-native-web",
+  "observation_id": "54e96bbc14ea5455",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "react-native-web",
+  "source_context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+  "source_file": null,
+  "source_repo": "axeldelafosse/expo-next-monorepo-example",
+  "source_repo_description": "Create a universal React app using Expo and Next.js in a monorepo"
+}

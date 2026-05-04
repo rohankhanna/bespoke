@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -76,6 +76,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "MarkFzp/act-plus-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso"
     }
   ],
   "term": "imitation-learning"

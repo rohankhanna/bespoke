@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-typescript.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-typescript.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "wicg/conversion-measurement-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-typescript.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-typescript.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-typescript.yml",
+      "source_repo": "WICG/attribution-reporting-api",
+      "target": "TypeScript Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:37.704206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5018
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/test-typescript.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Attribution Reporting API",
+    "fork": false,
+    "full_name": "WICG/attribution-reporting-api",
+    "html_url": "https://github.com/WICG/attribution-reporting-api",
+    "language": "Bikeshed",
+    "pushed_at": "2026-03-26T14:10:47Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-05-03T03:03:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wicg/conversion-measurement-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "TypeScript Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-typescript.yml",
+      "term": "TypeScript Tests"
+    }
+  ]
+}

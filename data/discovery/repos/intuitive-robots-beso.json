@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intuitive-robots/beso",
+      "target": "google-research/relay-policy-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intuitive-robots/beso",
+      "target": "jeffacce/play-to-policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intuitive-robots/beso",
+      "target": "notmahi/bet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso",
+      "target": "score-based-generative-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:55.523996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[RSS 2023] Official code for \"Goal Conditioned Imitation Learning using Score-based Diffusion Policies\" ",
+    "fork": false,
+    "full_name": "intuitive-robots/beso",
+    "html_url": "https://github.com/intuitive-robots/beso",
+    "language": "Python",
+    "pushed_at": "2023-12-01T10:03:05Z",
+    "stargazers_count": 90,
+    "topics": [
+      "diffusion-models",
+      "imitation-learning",
+      "robotics",
+      "score-based-generative-models"
+    ],
+    "updated_at": "2026-04-20T09:00:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/relay-policy-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeffacce/play-to-policy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notmahi/bet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-based-generative-models"
+    }
+  ]
+}

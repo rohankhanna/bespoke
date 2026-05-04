@@ -1,0 +1,12 @@
+{
+  "component": "MobSF/mobsfscan@a60d10a83af68e23e0b30611c6515da604f06f65",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app"
+    }
+  ]
+}

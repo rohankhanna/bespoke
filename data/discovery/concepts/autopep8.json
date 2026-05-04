@@ -19,6 +19,18 @@
       "source_repo": "psf/black",
       "status": "candidate-context",
       "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate-context",
+      "text": "Sync your Lemmy instance accounts. Tries to sync all accounts with the same communities, blocked users, blocked communities, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate-context",
+      "text": "Feel free to use what I have. I am still working on it though."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "psf/black",
       "status": "candidate",
       "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate",
+      "text": "Feel free to use what I have. I am still working on it though."
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Ac5000/lemmy_account_sync"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

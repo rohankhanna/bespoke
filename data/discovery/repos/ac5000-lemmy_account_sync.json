@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "target": "wescode/lemmy_migrate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "target": "lemmynet/lemmy-js-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "target": "autopep8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "target": "lemmy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "target": "pylint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:38:25.602966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2279
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sync your Lemmy instance accounts. Tries to sync all accounts with the same communities, blocked users, blocked communities, etc.",
+    "fork": true,
+    "full_name": "Ac5000/lemmy_account_sync",
+    "html_url": "https://github.com/Ac5000/lemmy_account_sync",
+    "language": "Python",
+    "pushed_at": "2025-01-06T16:18:40Z",
+    "stargazers_count": 31,
+    "topics": [
+      "autopep8",
+      "lemmy",
+      "pylint",
+      "python"
+    ],
+    "updated_at": "2026-04-28T03:17:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemmynet/lemmy-js-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wescode/lemmy_migrate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Feel free to use what I have. I am still working on it though.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autopep8"
+    },
+    {
+      "context_snippet": "Feel free to use what I have. I am still working on it though.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lemmy"
+    },
+    {
+      "context_snippet": "Feel free to use what I have. I am still working on it though.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pylint"
+    }
+  ]
+}

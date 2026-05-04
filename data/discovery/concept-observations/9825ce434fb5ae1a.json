@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dexbotic: Open-Source Vision-Language-Action Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948633,
+      "status": "candidate",
+      "text": "code base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948632,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948631,
+      "status": "candidate",
+      "text": "computer code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948630,
+      "status": "candidate",
+      "text": "code block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948629,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "codebase",
+      "sense_id": "codebase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codebase",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codebase",
+  "observation_id": "9825ce434fb5ae1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "codebase",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dexmal/dexbotic",
+  "source_repo_description": "Dexbotic: Open-Source Vision-Language-Action Toolbox"
+}

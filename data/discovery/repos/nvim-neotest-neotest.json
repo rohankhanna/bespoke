@@ -82,7 +82,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-neotest/neotest",
-      "target": "lawrence-laz/neotest-zig",
+      "target": "llllvvuu/neotest-foundry",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:35:26.809828+00:00",
+  "fetched_at": "2026-05-04T10:21:21.788888+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,12 +199,12 @@
     "html_url": "https://github.com/nvim-neotest/neotest",
     "language": "Lua",
     "pushed_at": "2026-05-01T07:18:33Z",
-    "stargazers_count": 3073,
+    "stargazers_count": 3074,
     "topics": [
       "lua",
       "neovim"
     ],
-    "updated_at": "2026-05-01T19:04:43Z"
+    "updated_at": "2026-05-04T05:47:24Z"
   },
   "repo_links": [
     {
@@ -224,7 +224,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lawrence-laz/neotest-zig",
+      "full_name": "llllvvuu/neotest-foundry",
       "source_file": "README.md"
     }
   ],

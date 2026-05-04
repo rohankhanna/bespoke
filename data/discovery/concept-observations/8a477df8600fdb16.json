@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home page for Metosin's open source development work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Project automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Project automation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16071,
+      "status": "candidate",
+      "text": "equipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15167,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14951,
+      "status": "candidate",
+      "text": "automatically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14951,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14951,
+      "status": "candidate",
+      "text": "robotics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Project automation",
+      "sense_id": "project-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "project-automation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "project-automation",
+  "observation_id": "8a477df8600fdb16",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Project automation",
+  "source_context_snippet": "Project automation",
+  "source_file": ".github/workflows/project-automation.yml",
+  "source_repo": "metosin/open-source",
+  "source_repo_description": "Home page for Metosin's open source development work"
+}

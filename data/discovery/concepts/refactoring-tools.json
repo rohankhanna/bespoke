@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "refactoring-tools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": "a python refactoring library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": ".. _GitHub python-rope / rope: https://github.com/python-rope/rope"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate",
+      "text": ".. _GitHub python-rope / rope: https://github.com/python-rope/rope"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "refactoring-tools",
+  "concept_id": "refactoring-tools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "python-rope/rope"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "refactoring-tools",
+      "sense_id": "refactoring-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

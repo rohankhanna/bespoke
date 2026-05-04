@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "nightfurysl2001/cjktables.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "3type/glyphs-han",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "chinese-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "cjk-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "cjk-unified-ideographs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "NightFurySL2001/CJK-character-count"
+}

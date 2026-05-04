@@ -281,7 +281,7 @@
       "source_file": ".github/workflows/argos.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/argos.yaml"
     },
@@ -296,7 +296,7 @@
       "source_file": ".github/workflows/codecov-next.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov-next.yaml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/daily-testing-build.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily-testing-build.yaml"
     },
@@ -366,7 +366,7 @@
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml"
     },
@@ -421,7 +421,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -451,7 +451,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -481,7 +481,7 @@
       "source_file": ".github/workflows/e2e-main.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml"
     },
@@ -511,7 +511,7 @@
       "source_file": ".github/workflows/managed-configuration.yaml"
     },
     {
-      "component": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "component": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml"
     },
@@ -949,7 +949,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/argos.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -977,7 +977,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codecov-next.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -1019,7 +1019,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily-testing-build.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -1082,7 +1082,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-kubernetes-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -1166,7 +1166,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-main.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -1215,7 +1215,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/managed-configuration.yaml",
       "source_repo": "podman-desktop/podman-desktop",
-      "target": "pnpm/action-setup@26f6d4f2c533a43e6b5da0b4a5dd983f98f7b49a",
+      "target": "pnpm/action-setup@8912a9102ac27614460f54aedde9e1e7f9aec20d",
       "target_type": "component"
     },
     {
@@ -1310,7 +1310,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:48:39.240981+00:00",
+  "fetched_at": "2026-05-04T10:33:43.682949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1362,8 +1362,8 @@
     "full_name": "podman-desktop/podman-desktop",
     "html_url": "https://github.com/podman-desktop/podman-desktop",
     "language": "TypeScript",
-    "pushed_at": "2026-05-01T19:09:15Z",
-    "stargazers_count": 7589,
+    "pushed_at": "2026-05-04T09:51:52Z",
+    "stargazers_count": 7592,
     "topics": [
       "container",
       "containers",
@@ -1376,7 +1376,7 @@
       "tray-application",
       "ui"
     ],
-    "updated_at": "2026-05-03T16:06:44Z"
+    "updated_at": "2026-05-04T09:42:35Z"
   },
   "repo_links": [
     {

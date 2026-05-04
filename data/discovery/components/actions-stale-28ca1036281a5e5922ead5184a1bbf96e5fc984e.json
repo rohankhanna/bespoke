@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automate-stale-issues.yml",
       "source_repo": "dagster-io/dagster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reproduire-close.yml",
+      "source_repo": "vueuse/motion"
     }
   ]
 }

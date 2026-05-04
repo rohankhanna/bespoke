@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_megatron.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_lora.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_sft.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_megatron.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_lora.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_sft.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:24:41.163043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11786
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2323
+    },
+    {
+      "path": "requirements.txt",
+      "size": 213
+    },
+    {
+      "path": ".github/workflows/dataset.yml",
+      "size": 951
+    },
+    {
+      "path": ".github/workflows/e2e_digit_completion.yml",
+      "size": 1168
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k.yml",
+      "size": 2772
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k_megatron.yml",
+      "size": 1467
+    },
+    {
+      "path": ".github/workflows/e2e_lora.yml",
+      "size": 1259
+    },
+    {
+      "path": ".github/workflows/e2e_sft.yml",
+      "size": 1838
+    },
+    {
+      "path": ".github/workflows/model.yml",
+      "size": 1538
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unleashing the Power of Reinforcement Learning for Math and Code Reasoners",
+    "fork": false,
+    "full_name": "SkyworkAI/Skywork-OR1",
+    "html_url": "https://github.com/SkyworkAI/Skywork-OR1",
+    "language": "Python",
+    "pushed_at": "2025-06-06T03:14:28Z",
+    "stargazers_count": 744,
+    "topics": [],
+    "updated_at": "2026-04-18T08:00:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dataset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "term": "dataset"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Base Image Release Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "eBPF-based Networking, Security, and Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "Base Image Release Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate",
+      "text": "Base Image Release Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43682,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43682,
+      "status": "candidate",
+      "text": "bottoms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34032,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33632,
+      "status": "candidate",
+      "text": "pyramiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33632,
+      "status": "candidate",
+      "text": "pyramids"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Base Image Release Build",
+  "concept_id": "base-image-release-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-images-base-v1.17.yaml",
+      "source_repo": "cilium/cilium"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base Image Release Build",
+      "sense_id": "base-image-release-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

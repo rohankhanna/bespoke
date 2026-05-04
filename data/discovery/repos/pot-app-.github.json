@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "lowlighter/metrics@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml"
+    },
+    {
+      "component": "lowlighter/metrics@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml"
+    },
+    {
+      "component": "lowlighter/metrics@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "pot-app/.github",
+      "target": "lowlighter/metrics@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "pot-app/.github",
+      "target": "Metrics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:50.408951+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/metrics.yml",
+      "size": 1409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pot-app/.github",
+    "html_url": "https://github.com/pot-app/.github",
+    "language": null,
+    "pushed_at": "2026-05-04T08:33:56Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-05-04T08:34:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/metrics.yml",
+      "term": "Metrics"
+    }
+  ]
+}

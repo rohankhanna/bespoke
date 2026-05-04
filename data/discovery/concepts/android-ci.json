@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Android CI"
+    "Android CI",
+    "\ud83e\udee3 Android CI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -103,6 +104,54 @@
       "source_repo": "cisco/libsrtp",
       "status": "candidate-context",
       "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "AdAway is a free and open source ad blocker for Android. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "\ud83e\udee3 Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarcusWolschon/osmeditor4android",
+      "status": "candidate-context",
+      "text": "Vespucci is a OpenStreetMap editor for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcusWolschon/osmeditor4android",
+      "status": "candidate-context",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "Android UI element for  displaying and editing an opening hours value"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "Android CI"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +200,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cisco/libsrtp",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "\ud83e\udee3 Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarcusWolschon/osmeditor4android",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
       "status": "candidate",
       "text": "Android CI"
     }
@@ -304,11 +377,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "MarcusWolschon/osmeditor4android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,527 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml"
+    },
+    {
+      "component": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml"
+    },
+    {
+      "component": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-scorecard.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "open-telemetry/opentelemetry-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "cert-manager/cert-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "codecov/codecov-action@0565863a31f2c772f9f0395002a31e3f06189574",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "github/codeql-action/init@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "github/codeql-action/autobuild@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "github/codeql-action/analyze@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "github/codeql-action/upload-sarif@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-images.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "Publish images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "Prepare the release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sdk-scorecard.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-scorecard.yaml",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "Operator-SDK Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "jaegertracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator",
+      "target": "operator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:31:42.226593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9025
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1952
+    },
+    {
+      "path": "go.mod",
+      "size": 5351
+    },
+    {
+      "path": ".github/workflows/base-checks.yaml",
+      "size": 974
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1408
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 2790
+    },
+    {
+      "path": ".github/workflows/ossf-scorecard.yml",
+      "size": 1905
+    },
+    {
+      "path": ".github/workflows/publish-images.yaml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1244
+    },
+    {
+      "path": ".github/workflows/sdk-scorecard.yaml",
+      "size": 819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes.",
+    "fork": false,
+    "full_name": "jaegertracing/jaeger-operator",
+    "html_url": "https://github.com/jaegertracing/jaeger-operator",
+    "language": "Go",
+    "pushed_at": "2025-08-01T09:30:33Z",
+    "stargazers_count": 1117,
+    "topics": [
+      "hacktoberfest",
+      "jaegertracing",
+      "kubernetes",
+      "operator"
+    ],
+    "updated_at": "2026-04-26T18:46:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cert-manager/cert-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CI Workflow\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "E2E tests"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "\"Publish images\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-images.yaml",
+      "term": "Publish images"
+    },
+    {
+      "context_snippet": "\"Prepare the release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Prepare the release"
+    },
+    {
+      "context_snippet": "\"Operator-SDK Scorecard\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sdk-scorecard.yaml",
+      "term": "Operator-SDK Scorecard"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jaegertracing"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operator"
+    }
+  ]
+}

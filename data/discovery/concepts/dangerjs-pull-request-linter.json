@@ -31,6 +31,24 @@
       "source_repo": "espressif/arduino-esp32",
       "status": "candidate-context",
       "text": "DangerJS Pull Request linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf-monitor",
+      "status": "candidate-context",
+      "text": "DangerJS Pull Request linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "Pre-commit hook script for linting conventional commit style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "DangerJS Pull Request linter"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +61,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "espressif/arduino-esp32",
+      "status": "candidate",
+      "text": "DangerJS Pull Request linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/esp-idf-monitor",
+      "status": "candidate",
+      "text": "DangerJS Pull Request linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
       "status": "candidate",
       "text": "DangerJS Pull Request linter"
     }
@@ -100,11 +130,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/dangerjs.yml",
       "source_repo": "espressif/arduino-esp32"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf-monitor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/conventional-precommit-linter"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/labeler@v6",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -232,6 +232,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "google/gvisor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google/comprehensive-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
     }
   ]
 }

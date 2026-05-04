@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "open-mmlab/live2diff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_issue.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_issue.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_page.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_page.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_page.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_page.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "Dawn-LX/CausalCache-VDM"
+}

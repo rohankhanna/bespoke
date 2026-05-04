@@ -1,7 +1,7 @@
 {
   "component": "arduino/setup-protoc@v3",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "AnyPortal/AnyPortal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-doc.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide-templates.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "informalsystems/hermes"
     }
   ]
 }

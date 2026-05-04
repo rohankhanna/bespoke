@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "chrislusf/seaweedfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "sigstore/cosign-installer@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "docker/setup-buildx-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "docker/login-action@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "docker/metadata-action@v5.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "docker/build-push-action@v5.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "Docker publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "seaweedfs/seaweedfs-cosi-driver"
+}

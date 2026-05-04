@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "425776024/nlpcda",
+      "target": "zhuiyitechnology/pretrained-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "425776024/nlpcda",
+      "target": "zhuiyitechnology/simbert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda",
+      "target": "chinese-data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda",
+      "target": "chinese-eda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda",
+      "target": "nlpcda",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:37.633187+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9311
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e00\u952e\u4e2d\u6587\u6570\u636e\u589e\u5f3a\u5305 \uff1b NLP\u6570\u636e\u589e\u5f3a\u3001bert\u6570\u636e\u589e\u5f3a\u3001EDA\uff1apip install nlpcda",
+    "fork": false,
+    "full_name": "425776024/nlpcda",
+    "html_url": "https://github.com/425776024/nlpcda",
+    "language": "Python",
+    "pushed_at": "2025-03-18T08:26:13Z",
+    "stargazers_count": 1882,
+    "topics": [
+      "chinese-data-augmentation",
+      "chinese-eda",
+      "data-augmentation",
+      "nlp",
+      "nlpcda"
+    ],
+    "updated_at": "2026-04-30T08:57:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuiyitechnology/pretrained-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuiyitechnology/simbert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u4f7f\u7528\uff1a`pip install nlpcda`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-data-augmentation"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528\uff1a`pip install nlpcda`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-eda"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528\uff1a`pip install nlpcda`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "\u4f7f\u7528\uff1a`pip install nlpcda`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlpcda"
+    }
+  ]
+}

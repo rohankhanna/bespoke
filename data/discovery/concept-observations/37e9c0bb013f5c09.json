@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Headless SVG-based drawboard in browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![NPM version](https://img.shields.io/npm/v/drauu?color=a1b858&label=)](https://www.npmjs.com/package/drauu)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/drauu?color=a1b858&label=)](https://www.npmjs.com/package/drauu)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drawboard",
+      "sense_id": "drawboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "drawboard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drawboard",
+  "observation_id": "37e9c0bb013f5c09",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "drawboard",
+  "source_context_snippet": "[![NPM version](https://img.shields.io/npm/v/drauu?color=a1b858&label=)](https://www.npmjs.com/package/drauu)",
+  "source_file": null,
+  "source_repo": "antfu/drauu",
+  "source_repo_description": "Headless SVG-based drawboard in browser."
+}

@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "few-shot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "image-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "limited-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "neurips-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD",
+      "target": "stylegan2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:42.436669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data",
+    "fork": false,
+    "full_name": "EndlessSora/DeceiveD",
+    "html_url": "https://github.com/EndlessSora/DeceiveD",
+    "language": "Python",
+    "pushed_at": "2021-12-09T23:15:45Z",
+    "stargazers_count": 234,
+    "topics": [
+      "few-shot",
+      "gan",
+      "generative-adversarial-network",
+      "generative-model",
+      "image-generation",
+      "image-synthesis",
+      "limited-data",
+      "neurips-2021",
+      "stylegan2"
+    ],
+    "updated_at": "2026-03-28T17:40:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-synthesis"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "limited-data"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2021"
+    },
+    {
+      "context_snippet": "![teaser](./resources/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan2"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate-context",
+      "text": "Federated Learning based Deep Learning. Docs: https://fets-ai.github.io/Front-End/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate-context",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923779,
+      "status": "candidate",
+      "text": "cit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9813862,
+      "status": "candidate",
+      "text": "tef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9450329,
+      "status": "candidate",
+      "text": "eft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15002,
+      "status": "candidate",
+      "text": "efts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15002,
+      "status": "candidate",
+      "text": "jons"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fets",
+  "concept_id": "fets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fets",
+      "sense_id": "fets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

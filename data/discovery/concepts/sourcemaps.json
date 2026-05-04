@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sourcemaps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate-context",
+      "text": "CLI to make unreadable production stack traces readable using source maps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate-context",
+      "text": "Have you ever been faced with a stacktrace that looks like this?"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate",
+      "text": "Have you ever been faced with a stacktrace that looks like this?"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sourcemaps",
+  "concept_id": "sourcemaps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sourcemaps",
+      "sense_id": "sourcemaps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

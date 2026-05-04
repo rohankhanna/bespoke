@@ -393,6 +393,18 @@
       "source_repo": "inhabitedtype/angstrom",
       "status": "candidate-context",
       "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "status": "candidate-context",
+      "text": "TEA for Bucklescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)"
     }
   ],
   "candidate_glosses": [
@@ -587,6 +599,12 @@
       "source_repo": "inhabitedtype/angstrom",
       "status": "candidate",
       "text": "Angstrom is a parser-combinator library that makes it easy to write efficient,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)"
     }
   ],
   "candidate_related_terms": [
@@ -1158,11 +1176,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OvermindDL1/bucklescript-tea"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

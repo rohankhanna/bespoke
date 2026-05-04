@@ -1,7 +1,7 @@
 {
   "component": "trilom/file-changes-action@v1.2.4",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trigger_bru.yml",
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index"
     }
   ]
 }

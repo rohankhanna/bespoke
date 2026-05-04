@@ -1,0 +1,17 @@
+{
+  "component": "aquasecurity/trivy-action@v0.36.0",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-arm64-image.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-x86-image.yaml",
+      "source_repo": "kubeovn/kube-ovn"
+    }
+  ]
+}

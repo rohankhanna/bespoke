@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "Cross-platform build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:12:46.174541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13516
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 351
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vulkan tutorial written in Rust using Ash",
+    "fork": false,
+    "full_name": "adrien-ben/vulkan-tutorial-rs",
+    "html_url": "https://github.com/adrien-ben/vulkan-tutorial-rs",
+    "language": "Rust",
+    "pushed_at": "2025-09-22T09:04:41Z",
+    "stargazers_count": 209,
+    "topics": [
+      "android",
+      "ash",
+      "rust",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-21T06:20:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cross-platform build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Cross-platform build"
+    },
+    {
+      "context_snippet": "![][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "![][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![][8]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

@@ -19,12 +19,66 @@
       "source_repo": "trailblazer/cells-erb",
       "status": "candidate-context",
       "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailblazer/cells-haml",
+      "status": "candidate-context",
+      "text": "Haml integration for Cells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/cells-haml",
+      "status": "candidate-context",
+      "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailblazer/cells-hamlit",
+      "status": "candidate-context",
+      "text": "Hamlit integration for Cells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/cells-hamlit",
+      "status": "candidate-context",
+      "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trailblazer/roar",
+      "status": "candidate-context",
+      "text": "Parse and render REST API documents using representers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/roar",
+      "status": "candidate-context",
+      "text": "CI with EOL ruby versions"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "trailblazer/cells-erb",
+      "status": "candidate",
+      "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/cells-haml",
+      "status": "candidate",
+      "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/cells-hamlit",
+      "status": "candidate",
+      "text": "CI with EOL ruby versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trailblazer/roar",
       "status": "candidate",
       "text": "CI with EOL ruby versions"
     }
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/ci_legacy.yml",
       "source_repo": "trailblazer/cells-erb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/cells-haml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/cells-hamlit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/roar"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

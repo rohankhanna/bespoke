@@ -11,14 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "tracked-tools/tracked-toolbox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "proposal-signals/signal-utils",
-      "target": "universal-ember/reactiveweb",
+      "target": "xantredev/preact-signals",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
       "target": "vue-reactivity/use",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "proposal-signals/signal-utils",
+      "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
     {
@@ -218,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "proposal-signals/signal-utils"
 }

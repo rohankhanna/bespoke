@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "cancer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate-context",
+      "text": "Federated Learning based Deep Learning. Docs: https://fets-ai.github.io/Front-End/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate-context",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FeTS-AI/Front-End",
+      "status": "candidate",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790957,
+      "status": "candidate",
+      "text": "cancer the crab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790957,
+      "status": "candidate",
+      "text": "genus cancer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790812,
+      "status": "candidate",
+      "text": "tumour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790738,
+      "status": "candidate",
+      "text": "tumor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790700,
+      "status": "candidate",
+      "text": "malignancy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cancer the crab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus cancer"
+    }
+  ],
+  "canonical_name": "cancer",
+  "concept_id": "cancer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cancer",
+      "sense_id": "cancer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

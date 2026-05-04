@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "lucidrains/product-key-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "lucidrains/reformer-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:58.265471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10751
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sinkhorn Transformer - Practical implementation of Sparse Sinkhorn Attention",
+    "fork": false,
+    "full_name": "lucidrains/sinkhorn-transformer",
+    "html_url": "https://github.com/lucidrains/sinkhorn-transformer",
+    "language": "Python",
+    "pushed_at": "2021-08-10T02:49:49Z",
+    "stargazers_count": 270,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "pytorch",
+      "transformers"
+    ],
+    "updated_at": "2026-03-25T08:36:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/product-key-memory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/reformer-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

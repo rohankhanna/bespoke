@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baofff/U-ViT",
+      "target": "thu-ml/unidiffuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baofff/U-ViT",
+      "target": "ml-gsai/dpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baofff/U-ViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baofff/U-ViT",
+      "target": "baofff/extended-analytic-dpm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:25.142961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch implementation of the paper \"All are Worth Words: A ViT Backbone for Diffusion Models\".",
+    "fork": false,
+    "full_name": "baofff/U-ViT",
+    "html_url": "https://github.com/baofff/U-ViT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-03-25T02:43:10Z",
+    "stargazers_count": 1107,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baofff/extended-analytic-dpm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ml-gsai/dpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/unidiffuser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

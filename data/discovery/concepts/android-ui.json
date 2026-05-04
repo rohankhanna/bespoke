@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "android-ui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "android-ui",
+  "concept_id": "android-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "android-ui",
+      "sense_id": "android-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ACh-K/Cubic-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuiWonder/HuayingMincho"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "scott0107000/BoutiqueBitmap7x7"
     }
   ],
   "term": "chinese-fonts"

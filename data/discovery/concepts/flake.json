@@ -55,6 +55,18 @@
       "source_repo": "nix-community/namaka",
       "status": "candidate-context",
       "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nix-community/namaka",
       "status": "candidate",
       "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "nix-community/namaka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/haumea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "baai-wudao/model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "cluebenchmark/cluedatasetsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "facebookresearch/codellama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "atomecho/atombulb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "llama4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "pretraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:24:02.667647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35163
+    },
+    {
+      "path": "requirements.txt",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Llama\u4e2d\u6587\u793e\u533a\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama\u5b66\u4e60\u8d44\u6599\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\u5f00\u6e90\u751f\u6001\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528",
+    "fork": false,
+    "full_name": "LlamaChinese/Llama-Chinese",
+    "html_url": "https://github.com/LlamaChinese/Llama-Chinese",
+    "language": "Python",
+    "pushed_at": "2025-04-06T09:16:55Z",
+    "stargazers_count": 14725,
+    "topics": [
+      "agent",
+      "llama",
+      "llama4",
+      "llm",
+      "pretraining",
+      "rl"
+    ],
+    "updated_at": "2026-05-04T01:12:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomecho/atombulb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baai-wudao/model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cluebenchmark/cluedatasetsearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/codellama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama4"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretraining"
+    }
+  ]
+}

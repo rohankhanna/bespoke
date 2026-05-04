@@ -309,6 +309,18 @@
       "source_repo": "JuliaImages/Images.jl",
       "status": "candidate-context",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "Unit Test"
     }
   ],
   "candidate_glosses": [
@@ -473,6 +485,12 @@
       "source_repo": "JuliaImages/Images.jl",
       "status": "candidate",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate",
+      "text": "Unit Test"
     }
   ],
   "candidate_related_terms": [
@@ -918,11 +936,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/UnitTest.yml",
       "source_repo": "JuliaDocs/DemoCards.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "SciSharp/LLamaSharp"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

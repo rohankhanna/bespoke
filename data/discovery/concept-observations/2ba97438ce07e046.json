@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Out-of-the-Box Replication of GANimation using PyTorch, pretrained weights are available!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034045,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027219,
+      "status": "candidate",
+      "text": "reduplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023760,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012569,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036525,
+      "status": "candidate",
+      "text": "reproduce"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "replicate",
+      "sense_id": "replicate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12047,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12041,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11066,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "reduplicate"
+    }
+  ],
+  "concept_id": "replicate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "replicate",
+  "observation_id": "2ba97438ce07e046",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "replicate",
+  "source_context_snippet": "<p align=\"left\">",
+  "source_file": null,
+  "source_repo": "donydchen/ganimation_replicate",
+  "source_repo_description": "An Out-of-the-Box Replication of GANimation using PyTorch, pretrained weights are available!"
+}

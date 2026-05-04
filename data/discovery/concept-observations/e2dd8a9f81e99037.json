@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792322,
+      "status": "candidate",
+      "text": "spine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39792115,
+      "status": "candidate",
+      "text": "vertebral column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39791994,
+      "status": "candidate",
+      "text": "spinal column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39787935,
+      "status": "candidate",
+      "text": "guts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39650323,
+      "status": "candidate",
+      "text": "grit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backbone",
+      "sense_id": "backbone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30075,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23054,
+      "status": "candidate",
+      "text": "grit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22038,
+      "status": "candidate",
+      "text": "gumption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "linchpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17066,
+      "status": "candidate",
+      "text": "back"
+    }
+  ],
+  "concept_id": "backbone",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backbone",
+  "observation_id": "e2dd8a9f81e99037",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "backbone",
+  "source_context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+  "source_file": null,
+  "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+  "source_repo_description": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\""
+}

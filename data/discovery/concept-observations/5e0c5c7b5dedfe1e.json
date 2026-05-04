@@ -48,7 +48,7 @@
   "normalized_form": "pre-and-post-merge",
   "observation_id": "5e0c5c7b5dedfe1e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "pre-and-post-merge",
   "source_context_snippet": "pre-and-post-merge",
   "source_file": ".github/workflows/pull_request.yaml",

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Scorecard"
+    "Scorecard",
+    "\ud83e\udd45 Scorecard"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "authelia/authelia",
       "status": "candidate-context",
       "text": "'Scorecard'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "\ud83e\udd45 Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Userspace wireguard and network monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "authelia/authelia",
       "status": "candidate",
       "text": "'Scorecard'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "\ud83e\udd45 Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate",
+      "text": "Scorecard"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +101,41 @@
       "score": 29622671,
       "status": "candidate",
       "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "tally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "bogey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "inning"
     }
   ],
   "candidate_synonyms": [
@@ -84,11 +156,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "authelia/authelia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/firestack"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

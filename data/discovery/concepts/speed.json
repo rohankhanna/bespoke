@@ -31,6 +31,18 @@
       "source_repo": "Tokazama/StaticRanges.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/Tokazama/StaticRanges.jl.svg?branch=master)](https://travis-ci.com/Tokazama/StaticRanges.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Tokazama/StaticRanges.jl",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/Tokazama/StaticRanges.jl.svg?branch=master)](https://travis-ci.com/Tokazama/StaticRanges.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "Tokazama/StaticRanges.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/Betterfox"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

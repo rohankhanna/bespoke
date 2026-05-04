@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ugexe/Raku-Distribution--Common--Remote",
+      "target": "ugexe/raku-distribution--common",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:24:33.178773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create an installable Distribution from common remote sources",
+    "fork": false,
+    "full_name": "ugexe/Raku-Distribution--Common--Remote",
+    "html_url": "https://github.com/ugexe/Raku-Distribution--Common--Remote",
+    "language": "Raku",
+    "pushed_at": "2022-09-06T20:49:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-09-12T09:29:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugexe/raku-distribution--common",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,42 @@
       "source_repo": "informalsystems/quint",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "APALACHE: symbolic model checker for TLA+ and Quint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate-context",
+      "text": "Benchmarks for apalache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate-context",
+      "text": "This repository contains various benchmarks for evaluating performance of the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "status": "candidate-context",
+      "text": "Material for a workshop on Apalache and TLA+. To be populated with more examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "status": "candidate-context",
+      "text": "We are introducing TLA+ and the model checker"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "informalsystems/quint",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate",
+      "text": "This repository contains various benchmarks for evaluating performance of the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "status": "candidate",
+      "text": "We are introducing TLA+ and the model checker"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "informalsystems/quint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/tla-apalache-workshop"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

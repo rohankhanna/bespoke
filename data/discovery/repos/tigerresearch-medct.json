@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:24.017623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TigerResearch/MedCT",
+    "html_url": "https://github.com/TigerResearch/MedCT",
+    "language": null,
+    "pushed_at": "2024-12-03T12:15:03Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-08-30T00:14:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

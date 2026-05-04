@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990760,
+      "status": "candidate",
+      "text": "visibleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989413,
+      "status": "candidate",
+      "text": "conspicuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990378,
+      "status": "candidate",
+      "text": "visible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990088,
+      "status": "candidate",
+      "text": "viewable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990067,
+      "status": "candidate",
+      "text": "recognisability"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visibility",
+      "sense_id": "visibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "conspicuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "visibleness"
+    }
+  ],
+  "concept_id": "visibility",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visibility",
+  "observation_id": "c19b30f7b251953c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "visibility",
+  "source_context_snippet": "Filesystem-based module system for Nix",
+  "source_file": null,
+  "source_repo": "nix-community/haumea",
+  "source_repo_description": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+}

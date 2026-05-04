@@ -1,0 +1,170 @@
+{
+  "aliases": [
+    "radar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "Real-time Radar SLAM: ORORA + ScanContext "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "Radar odometry code which removes motion distortion and Doppler effects from Navtech radar data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate-context",
+      "text": "ORORA: Outlier-robust radar odometry, which is accepted in ICRA'23"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030292,
+      "status": "candidate",
+      "text": "radiolocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030368,
+      "status": "candidate",
+      "text": "microwave radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030368,
+      "status": "candidate",
+      "text": "radio detection and ranging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030367,
+      "status": "candidate",
+      "text": "monopulse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025164,
+      "status": "candidate",
+      "text": "radio"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "radiolocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "microwave radar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "radio detection and ranging"
+    }
+  ],
+  "canonical_name": "radar",
+  "concept_id": "radar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "radar",
+      "sense_id": "radar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

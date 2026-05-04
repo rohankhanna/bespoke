@@ -181,6 +181,18 @@
       "source_repo": "OpenDroneMap/ODM",
       "status": "candidate-context",
       "text": "Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Issue Triage"
     }
   ],
   "candidate_glosses": [
@@ -271,6 +283,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenDroneMap/ODM",
+      "status": "candidate",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
       "status": "candidate",
       "text": "Issue Triage"
     }
@@ -514,11 +532,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "LibreTranslate/LibreTranslate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

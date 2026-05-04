@@ -14,16 +14,9 @@
       "source_repo": "KolmogorovLab/hapdup",
       "target": "fenderglass/hapdup",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "KolmogorovLab/hapdup",
-      "target": "ucsc-nanopore-cgl/margin",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T21:50:15.502626+00:00",
+  "fetched_at": "2026-05-04T10:35:23.096063+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,11 +54,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "fenderglass/hapdup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ucsc-nanopore-cgl/margin",
       "source_file": "README.md"
     }
   ],

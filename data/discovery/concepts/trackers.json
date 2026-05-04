@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "trackers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "tracking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31423,
+      "status": "candidate",
+      "text": "tracked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31422,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31421,
+      "status": "candidate",
+      "text": "tracks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31420,
+      "status": "candidate",
+      "text": "trackable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "trackers",
+  "concept_id": "trackers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trackers",
+      "sense_id": "trackers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

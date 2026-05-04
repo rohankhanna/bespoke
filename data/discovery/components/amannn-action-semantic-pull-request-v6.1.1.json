@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@v6.1.1",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-title-check.yml",
       "source_repo": "agentscope-ai/agentscope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-prs.yml",
+      "source_repo": "rust-bio/rust-htslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "apify/fingerprint-suite"
     }
   ]
 }

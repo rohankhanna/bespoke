@@ -191,7 +191,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "scisharp/llamasharp",
+      "target": "shelbyjenkins/llm_client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "shenghaiwang/swiftllama",
       "target_type": "repository"
     },
     {
@@ -206,13 +213,6 @@
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
       "target": "oobabooga/text-generation-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "semperai/amica",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:49:26.075863+00:00",
+  "fetched_at": "2026-05-04T09:27:30.963849+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-03T22:18:23Z",
-    "stargazers_count": 108134,
+    "pushed_at": "2026-05-04T08:19:47Z",
+    "stargazers_count": 108174,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-04T01:28:21Z"
+    "updated_at": "2026-05-04T09:14:55Z"
   },
   "repo_links": [
     {
@@ -505,12 +505,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scisharp/llamasharp",
+      "full_name": "shelbyjenkins/llm_client",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "semperai/amica",
+      "full_name": "shenghaiwang/swiftllama",
       "source_file": "README.md"
     }
   ],

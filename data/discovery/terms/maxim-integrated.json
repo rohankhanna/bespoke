@@ -1,0 +1,27 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    }
+  ],
+  "term": "maxim-integrated"
+}

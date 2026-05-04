@@ -1858,6 +1858,126 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS: Free, Non-Commercial EU Public DNS Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "The official repo for Blokada apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abrahamjuliot/creepjs",
+      "status": "candidate-context",
+      "text": "Creepy device and browser fingerprinting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abrahamjuliot/creepjs",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday: a fast golang HTML sanitizer (inspired by the OWASP Java HTML Sanitizer) to scrub user generated content of XSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albertito/dnss",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertito/dnss",
+      "status": "candidate-context",
+      "text": "dnss is a daemon for using DNS over HTTPS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "Collection of blocklists to fill in the gaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate-context",
+      "text": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "eBPF-based Networking, Security, and Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_glosses": [
@@ -2778,6 +2898,66 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abrahamjuliot/creepjs",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albertito/dnss",
+      "status": "candidate",
+      "text": "dnss is a daemon for using DNS over HTTPS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_related_terms": [
@@ -4279,11 +4459,113 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "abrahamjuliot/creepjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "albertito/dnss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/Betterfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cilium/cilium"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Oxford-Paris-Attack",
+      "target": "layumi/u_turn.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:27:42.163095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":see_no_evil:  We added our attacking method ODFA (https://arxiv.org/abs/1809.02681). The performance drops from 88.2% to 2.24% on Oxford.  :hear_no_evil:",
+    "fork": false,
+    "full_name": "layumi/Oxford-Paris-Attack",
+    "html_url": "https://github.com/layumi/Oxford-Paris-Attack",
+    "language": "Python",
+    "pushed_at": "2022-07-09T16:51:45Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2021-10-23T12:41:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/u_turn.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

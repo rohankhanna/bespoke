@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "florence-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "vision-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "vision-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "target": "vision-transformer-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:05.439159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Florence-2 is a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks.",
+    "fork": false,
+    "full_name": "anyantudre/Florence-2-Vision-Language-Model",
+    "html_url": "https://github.com/anyantudre/Florence-2-Vision-Language-Model",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-03T12:03:20Z",
+    "stargazers_count": 184,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "florence-2",
+      "huggingface",
+      "vision-language",
+      "vision-language-model",
+      "vision-transformer",
+      "vision-transformer-models"
+    ],
+    "updated_at": "2026-04-30T06:22:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "florence-2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer-models"
+    }
+  ]
+}

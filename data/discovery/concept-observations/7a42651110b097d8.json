@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "host-metrics",
+      "sense_id": "host-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "host-metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "host-metrics",
+  "observation_id": "7a42651110b097d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "host-metrics",
+  "source_context_snippet": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your",
+  "source_file": null,
+  "source_repo": "appsignal/appsignal-ruby",
+  "source_repo_description": "\ud83d\udfe5 AppSignal for Ruby gem"
+}

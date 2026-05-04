@@ -1,0 +1,532 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna-update-wizard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jakejarvis/wait-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml"
+    },
+    {
+      "component": "actions/labeler@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "bahmutov/npm-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "microsoft/playwright-github-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "GabrielBB/xvfb-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-config-prettier-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "eslint-plugin-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "lerna-update-wizard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "prettier-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "jakejarvis/wait-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "EndBug/add-and-commit@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "Extract stealth.min.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "actions/labeler@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "bahmutov/npm-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "microsoft/playwright-github-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "GabrielBB/xvfb-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "headless-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "headless-chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "lerna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "puppeteer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "puppeteer-extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "puppeteer-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "recaptcha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "stealth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "user-preferences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra",
+      "target": "yarn-workspaces",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:54.000509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4288
+    },
+    {
+      "path": "package.json",
+      "size": 1459
+    },
+    {
+      "path": ".github/workflows/extract-stealth.yml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/label.yml",
+      "size": 515
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcaf  Teach puppeteer new tricks through plugins.",
+    "fork": false,
+    "full_name": "berstend/puppeteer-extra",
+    "html_url": "https://github.com/berstend/puppeteer-extra",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-18T12:28:02Z",
+    "stargazers_count": 7313,
+    "topics": [
+      "automation",
+      "chrome",
+      "headless-browser",
+      "headless-chrome",
+      "lerna",
+      "monorepo",
+      "puppeteer",
+      "puppeteer-extra",
+      "puppeteer-plugins",
+      "recaptcha",
+      "stealth",
+      "user-preferences",
+      "yarn-workspaces"
+    ],
+    "updated_at": "2026-05-04T00:27:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Extract stealth.min.js",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "term": "Extract stealth.min.js"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless-browser"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless-chrome"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lerna"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer-extra"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer-plugins"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recaptcha"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stealth"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-preferences"
+    },
+    {
+      "context_snippet": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarn-workspaces"
+    }
+  ]
+}

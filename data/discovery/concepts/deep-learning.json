@@ -7567,6 +7567,378 @@
       "source_repo": "FluxML/FluxTraining.jl",
       "status": "candidate-context",
       "text": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "DeepSomatic is an analysis pipeline that uses a deep neural network to call somatic variants from tumor-normal and tumor-only sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "Practice on cifar100(ResNet, DenseNet, VGG, GoogleNet, InceptionV3, InceptionV4, Inception-ResNetv2, Xception, Resnet In Resnet, ResNext,ShuffleNet, ShuffleNetv2, MobileNet, MobileNetv2, SqueezeNet, NasNet, Residual Attention Network, SENet, WideResNet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Implicit Behavioral Cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "Bayesian active learning library for research and industrial usecases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "Face recognition with deep neural networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "*Free and open source face recognition with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "Vector (and Scalar) Quantization, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "Implementation of RQ Transformer, proposed in the paper \"Autoregressive Image Generation using Residual Quantization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Video Diffusion Models, Jonathan Ho's new paper extending DDPMs to Video Generation - in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "common in-memory tensor structure "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "AutoVideo: An Automated Video Action Recognition System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Deep SAD, a deep Semi-supervised Anomaly Detection method."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate-context",
+      "text": "[TMLR 2022] Geometric Flow Network for 3D Point Cloud Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate-context",
+      "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "Florence-2 is a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "MAX78000 and MAX78002 Reference Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of NWT, audio-to-video generation, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "Fully featured implementation of Routing Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "Sinkhorn Transformer - Practical implementation of Sparse Sinkhorn Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -11355,6 +11727,192 @@
       "source_repo": "FluxML/FluxTraining.jl",
       "status": "candidate",
       "text": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate",
+      "text": "*Free and open source face recognition with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate",
+      "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate",
+      "text": "<!---->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -18226,11 +18784,497 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/deepsomatic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RQ-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/video-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/dlpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukasruff/Deep-SAD-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "haibo-qiu/GFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/magvit2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/routing-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/server"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

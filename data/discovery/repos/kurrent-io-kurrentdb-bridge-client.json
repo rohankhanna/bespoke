@@ -90,6 +90,20 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "eventstore/eventstore-streaming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
+      "target": "eventstore/kurrentdb-client-nodejs",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "kurrent-io/KurrentDB-Bridge-Client",
@@ -216,7 +230,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:07:33.771864+00:00",
+  "fetched_at": "2026-05-04T11:33:05.503802+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -265,7 +279,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
+      "full_name": "eventstore/eventstore-streaming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "full_name": "eventstore/kurrentdb-bridge-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventstore/kurrentdb-client-nodejs",
       "source_file": "README.md"
     }
   ],

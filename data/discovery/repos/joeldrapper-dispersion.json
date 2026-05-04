@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:31:59.509371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "joeldrapper/dispersion",
+    "html_url": "https://github.com/joeldrapper/dispersion",
+    "language": "Ruby",
+    "pushed_at": "2026-01-16T15:56:23Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-16T15:56:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

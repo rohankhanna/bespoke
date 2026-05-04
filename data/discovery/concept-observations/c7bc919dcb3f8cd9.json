@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26d3\ufe0f\u200d\ud83d\udca5 VirtualPet is an all-in-one app that integrates features like AI-powered interactive offline chat, image generation, OCR capabilities, an AI-powered code editor, a built-in web browser, a mini video player, shortcut management, and access to public anime content for local viewing and much more, all within a seamless user interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imagegeneration",
+      "sense_id": "imagegeneration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "imagegeneration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imagegeneration",
+  "observation_id": "c7bc919dcb3f8cd9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "imagegeneration",
+  "source_context_snippet": "<p align=\"right\">",
+  "source_file": null,
+  "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+  "source_repo_description": "\u26d3\ufe0f\u200d\ud83d\udca5 VirtualPet is an all-in-one app that integrates features like AI-powered interactive offline chat, image generation, OCR capabilities, an AI-powered code editor, a built-in web browser, a mini video player, shortcut management, and access to public anime content for local viewing and much more, all within a seamless user interface."
+}

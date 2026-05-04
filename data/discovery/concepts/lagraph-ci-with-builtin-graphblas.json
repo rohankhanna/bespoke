@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "LAGraph CI with Builtin GraphBLAS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GraphBLAS/LAGraph",
+      "status": "candidate-context",
+      "text": "This is a library plus a test harness for collecting algorithms that use the GraphBLAS.  For test coverage reports, see https://graphblas.org/LAGraph/ . Documentation: https://lagraph.readthedocs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GraphBLAS/LAGraph",
+      "status": "candidate-context",
+      "text": "LAGraph CI with Builtin GraphBLAS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GraphBLAS/LAGraph",
+      "status": "candidate",
+      "text": "LAGraph CI with Builtin GraphBLAS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "accepted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "adjunct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "adopted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "LAGraph CI with Builtin GraphBLAS",
+  "concept_id": "lagraph-ci-with-builtin-graphblas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "LAGraph CI with Builtin GraphBLAS",
+      "sense_id": "lagraph-ci-with-builtin-graphblas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "target": "zihangjiang/tokenlabeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "target": "t2t-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:39:01.567236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ICCV2021, Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet",
+    "fork": false,
+    "full_name": "yitu-opensource/T2T-ViT",
+    "html_url": "https://github.com/yitu-opensource/T2T-ViT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-10-27T19:00:24Z",
+    "stargazers_count": 1195,
+    "topics": [
+      "t2t-transformer",
+      "vision-transformer",
+      "vit"
+    ],
+    "updated_at": "2026-04-23T11:39:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zihangjiang/tokenlabeling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "t2t-transformer"
+    },
+    {
+      "context_snippet": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

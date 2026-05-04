@@ -139,6 +139,18 @@
       "source_repo": "carbon-design-system/carbon-components-svelte",
       "status": "candidate-context",
       "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "carbon-design-system/carbon-components-svelte",
       "status": "candidate",
       "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "carbon-design-system/carbon-components-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "saadeghi/daisyui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

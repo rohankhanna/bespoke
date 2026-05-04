@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "shogo82148/actions-setup-perl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    },
+    {
+      "component": "shogo82148/actions-setup-perl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "shogo82148/actions-setup-perl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "snok/install-poetry@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "Generate Fonts (Release)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "shogo82148/actions-setup-perl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "snok/install-poetry@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "source_repo": "Radically/hanazonolite",
+      "target": "Generate Fonts (Testing)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:37.649132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/generate-fonts-release.yml",
+      "size": 4092
+    },
+    {
+      "path": ".github/workflows/generate-fonts.yml",
+      "size": 3089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Radically/hanazonolite",
+    "html_url": "https://github.com/Radically/hanazonolite",
+    "language": "Python",
+    "pushed_at": "2021-07-17T14:02:40Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-01-09T06:37:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate Fonts (Release)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-fonts-release.yml",
+      "term": "Generate Fonts (Release)"
+    },
+    {
+      "context_snippet": "Generate Fonts (Testing)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-fonts.yml",
+      "term": "Generate Fonts (Testing)"
+    }
+  ]
+}

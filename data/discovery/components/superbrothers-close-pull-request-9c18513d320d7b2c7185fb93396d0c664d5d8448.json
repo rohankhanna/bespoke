@@ -1,7 +1,7 @@
 {
   "component": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -217,6 +217,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/close_pull_requests.yml",
       "source_repo": "stdlib-js/streams-node-stdout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml",
+      "source_repo": "stdlib-js/complex-reviver"
     }
   ]
 }

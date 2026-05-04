@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/doodad",
+      "target": "rail-berkeley/doodad",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:27:50.224641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1579
+    },
+    {
+      "path": "requirements.txt",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "jannerm/doodad",
+    "html_url": "https://github.com/jannerm/doodad",
+    "language": null,
+    "pushed_at": "2022-05-02T04:36:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-09-05T10:39:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rail-berkeley/doodad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

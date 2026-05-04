@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "One framework to evaluate any VLA model on any robot simulation benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Leaderboard Validate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Leaderboard Validate"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10915,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "bottom-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "cellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4150,
+      "status": "candidate",
+      "text": "last place"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Leaderboard Validate",
+      "sense_id": "leaderboard-validate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "leaderboard-validate",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "leaderboard-validate",
+  "observation_id": "820780d16ff318d1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Leaderboard Validate",
+  "source_context_snippet": "Leaderboard Validate",
+  "source_file": ".github/workflows/leaderboard-validate.yml",
+  "source_repo": "allenai/vla-evaluation-harness",
+  "source_repo_description": "One framework to evaluate any VLA model on any robot simulation benchmark."
+}

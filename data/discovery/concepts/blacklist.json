@@ -19,6 +19,30 @@
       "source_repo": "hagezi/dns-blocklists",
       "status": "candidate-context",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "Lean and powerful adblocking solution for OpenWrt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hagezi/dns-blocklists",
       "status": "candidate",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "hagezi/dns-blocklists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

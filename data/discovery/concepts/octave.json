@@ -1,0 +1,101 @@
+{
+  "aliases": [
+    "octave"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686579,
+      "status": "candidate",
+      "text": "musical octave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29686578,
+      "status": "candidate",
+      "text": "eighth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29618465,
+      "status": "candidate",
+      "text": "octavian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28363548,
+      "status": "candidate",
+      "text": "octavius"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "musical octave"
+    }
+  ],
+  "canonical_name": "octave",
+  "concept_id": "octave",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "octave",
+      "sense_id": "octave#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

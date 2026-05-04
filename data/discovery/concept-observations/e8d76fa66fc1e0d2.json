@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Contour maps plugin for MapLibreGL JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maplibre",
+      "sense_id": "maplibre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maplibre",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maplibre",
+  "observation_id": "e8d76fa66fc1e0d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "maplibre",
+  "source_context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+  "source_file": null,
+  "source_repo": "AbelVM/maplibre-contourmap",
+  "source_repo_description": "Contour maps plugin for MapLibreGL JS"
+}

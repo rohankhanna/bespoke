@@ -2,7 +2,7 @@
   "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -204,6 +204,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-publish.yml",
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb"
     }
   ]
 }

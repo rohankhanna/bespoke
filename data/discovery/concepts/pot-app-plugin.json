@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "pot-app-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9Shanbay Collection Plugin for Pot App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "status": "candidate-context",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pot-app/pot-app-collection-plugin-youdao",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9Youdao Collection Plugin for Pot App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-app-collection-plugin-youdao",
+      "status": "candidate-context",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "status": "candidate",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-app-collection-plugin-youdao",
+      "status": "candidate",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pot-app-plugin",
+  "concept_id": "pot-app-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pot-app/pot-app-collection-plugin-youdao"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pot-app-plugin",
+      "sense_id": "pot-app-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

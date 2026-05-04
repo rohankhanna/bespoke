@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/EmerNeRF",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/EmerNeRF",
+      "target": "driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/EmerNeRF",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVlabs/EmerNeRF",
+      "target": "nerf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:54.356583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7171
+    },
+    {
+      "path": "requirements.txt",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch Implementation of EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision",
+    "fork": false,
+    "full_name": "NVlabs/EmerNeRF",
+    "html_url": "https://github.com/NVlabs/EmerNeRF",
+    "language": "Python",
+    "pushed_at": "2024-02-13T01:02:44Z",
+    "stargazers_count": 640,
+    "topics": [
+      "autonomous-driving",
+      "driving",
+      "foundation-models",
+      "nerf"
+    ],
+    "updated_at": "2026-04-24T09:17:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "PyTorch implementation of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driving"
+    },
+    {
+      "context_snippet": "PyTorch implementation of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "PyTorch implementation of:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    }
+  ]
+}

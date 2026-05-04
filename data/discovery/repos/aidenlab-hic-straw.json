@@ -45,13 +45,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/hic-straw",
-      "target": "aidenlab/spacewalk",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "aidenlab/hic-straw",
@@ -101,7 +94,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-03T21:50:52.539982+00:00",
+  "fetched_at": "2026-05-04T10:35:53.569881+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -131,11 +124,6 @@
     "updated_at": "2026-04-30T18:13:42Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/spacewalk",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "igvteam/hic-straw",

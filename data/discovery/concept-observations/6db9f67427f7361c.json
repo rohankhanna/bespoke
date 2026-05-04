@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ed25519 suitable for use in consensus-critical contexts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036056,
+      "status": "candidate",
+      "text": "continuous delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036055,
+      "status": "candidate",
+      "text": "mainline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036054,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036053,
+      "status": "candidate",
+      "text": "codeline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036052,
+      "status": "candidate",
+      "text": "mob programming"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous integration",
+      "sense_id": "continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-integration",
+  "observation_id": "6db9f67427f7361c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Continuous integration",
+  "source_context_snippet": "Continuous integration",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "sp1-patches/ed25519-consensus",
+  "source_repo_description": "Ed25519 suitable for use in consensus-critical contexts."
+}

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/webappsec-fetch-metadata",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/webappsec-fetch-metadata",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:39.407068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10126
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fetch Metadata",
+    "fork": false,
+    "full_name": "w3c/webappsec-fetch-metadata",
+    "html_url": "https://github.com/w3c/webappsec-fetch-metadata",
+    "language": "HTML",
+    "pushed_at": "2025-04-01T06:18:36Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2025-08-07T05:23:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

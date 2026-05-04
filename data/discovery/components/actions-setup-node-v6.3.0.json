@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6.3.0",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/node.yml",
       "source_repo": "dauxio/daux.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components"
     }
   ]
 }

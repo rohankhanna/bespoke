@@ -43,6 +43,30 @@
       "source_repo": "rthalley/dnspython",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miekg/dns",
+      "status": "candidate-context",
+      "text": "DNS library in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miekg/dns",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/miekg/dns.svg?branch=master)](https://travis-ci.org/miekg/dns)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS: Free, Non-Commercial EU Public DNS Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "rthalley/dnspython",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miekg/dns",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/miekg/dns.svg?branch=master)](https://travis-ci.org/miekg/dns)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "rthalley/dnspython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "miekg/dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

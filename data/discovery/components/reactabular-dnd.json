@@ -1,12 +1,17 @@
 {
   "component": "reactabular-dnd",
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "YMFE/yapi"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/YApi-X"
     }
   ]
 }

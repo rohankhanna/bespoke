@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aserafin/grape_logging",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aserafin/grape_logging",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:32.246120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6387
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Request logging for Grape!",
+    "fork": false,
+    "full_name": "aserafin/grape_logging",
+    "html_url": "https://github.com/aserafin/grape_logging",
+    "language": "Ruby",
+    "pushed_at": "2026-03-05T22:10:28Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-03-29T13:01:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

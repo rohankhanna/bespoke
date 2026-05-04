@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "TypeScript Build"
+    "TypeScript Build",
+    "TypeScript build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/ai-chat-protocol",
       "status": "candidate-context",
       "text": "TypeScript Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bolinfest/monaco-tm",
+      "status": "candidate-context",
+      "text": "Attempt to get TextMate grammars working in standalone Monaco"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bolinfest/monaco-tm",
+      "status": "candidate-context",
+      "text": "TypeScript build"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "microsoft/ai-chat-protocol",
       "status": "candidate",
       "text": "TypeScript Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bolinfest/monaco-tm",
+      "status": "candidate",
+      "text": "TypeScript build"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/typescript-build.yml",
       "source_repo": "microsoft/ai-chat-protocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/verify-build.yml",
+      "source_repo": "bolinfest/monaco-tm"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "baai-wudao/model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "cluebenchmark/cluedatasetsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "facebookresearch/codellama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "atomecho/atombulb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "llama4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "target": "pretraining",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "LlamaChinese/Llama-Chinese"
+}

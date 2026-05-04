@@ -1280,6 +1280,30 @@
       "source_repo": "swift-server/swift-service-lifecycle",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "status": "candidate-context",
+      "text": "Erase all traces of sorbet-runtime code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Integrates the JMH benchmarking framework with Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -1922,6 +1946,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
       "status": "candidate",
       "text": "Main"
     }
@@ -2891,11 +2927,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "swift-server/swift-service-lifecycle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/sorbet-eraser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "melix/jmh-gradle-plugin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

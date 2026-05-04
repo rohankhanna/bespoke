@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm-images.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-llvm-images.yml",
+      "source_repo": "pytorch/builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llvm-images.yml",
+      "source_repo": "pytorch/builder",
+      "target": "Build llvm docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nvidia-images.yml",
+      "source_repo": "pytorch/builder",
+      "target": "Build nvidia docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/builder",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/builder",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/builder",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:02.793215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1033
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/build-llvm-images.yml",
+      "size": 1044
+    },
+    {
+      "path": ".github/workflows/build-nvidia-images.yml",
+      "size": 1928
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Continuous builder and binary build scripts for pytorch",
+    "fork": false,
+    "full_name": "pytorch/builder",
+    "html_url": "https://github.com/pytorch/builder",
+    "language": "Python",
+    "pushed_at": "2025-08-12T21:30:34Z",
+    "stargazers_count": 356,
+    "topics": [],
+    "updated_at": "2026-04-12T15:43:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build llvm docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-llvm-images.yml",
+      "term": "Build llvm docker images"
+    },
+    {
+      "context_snippet": "Build nvidia docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nvidia-images.yml",
+      "term": "Build nvidia docker images"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

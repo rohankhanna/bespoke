@@ -31,6 +31,30 @@
       "source_repo": "jdlph/MIOCSV",
       "status": "candidate-context",
       "text": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "C++ CSV parser library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "jdlph/MIOCSV",
       "status": "candidate",
       "text": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "jdlph/MIOCSV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

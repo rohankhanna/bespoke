@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "yhhhli/brecq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "ddim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "post-training-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:28.429274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2023] Q-Diffusion: Quantizing Diffusion Models.",
+    "fork": false,
+    "full_name": "Xiuyu-Li/q-diffusion",
+    "html_url": "https://github.com/Xiuyu-Li/q-diffusion",
+    "language": "Python",
+    "pushed_at": "2024-03-21T05:50:44Z",
+    "stargazers_count": 373,
+    "topics": [
+      "ddim",
+      "diffusion-models",
+      "model-compression",
+      "post-training-quantization",
+      "pytorch",
+      "quantization",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-29T00:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yhhhli/brecq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddim"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-quantization"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

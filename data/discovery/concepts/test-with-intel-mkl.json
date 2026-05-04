@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test with Intel MKL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Test with Intel MKL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "Test with Intel MKL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14647,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14647,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14406,
+      "status": "candidate",
+      "text": "info"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14026,
+      "status": "candidate",
+      "text": "openbsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13786,
+      "status": "candidate",
+      "text": "chip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test with Intel MKL",
+  "concept_id": "test-with-intel-mkl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "source_repo": "cpmech/russell"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test with Intel MKL",
+      "sense_id": "test-with-intel-mkl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

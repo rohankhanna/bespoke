@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "vimwiki/vimwiki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik"
     }
   ],
   "term": "wiki"

@@ -8290,6 +8290,282 @@
       "source_repo": "LemmyNet/lemmy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial written in Rust using Ash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "![][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "Convert your ascii diagram scribbles into happy little SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust Protobuf definitions and gRPC clients for interacting with Cosmos SDK, IBC and Interchain Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "This is a zero knowledge IBC tendermint light client written using SP1 and ibc-rs (WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Electron-Labs/tendermint-rs",
+      "status": "candidate-context",
+      "text": "Client libraries for Tendermint/CometBFT in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Electron-Labs/tendermint-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "status": "candidate-context",
+      "text": "Shadowsocks Windows GUI in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate-context",
+      "text": "A dateutil-compatible timestamp parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fast/logforth",
+      "status": "candidate-context",
+      "text": "A versatile and extensible logging implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fast/logforth",
+      "status": "candidate-context",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "The simplest, highest-throughput Python interface to S3, GCS & Azure Storage, powered by Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "status": "candidate-context",
+      "text": "Rust port of JoeyDeVries/LearnOpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "status": "candidate-context",
+      "text": "Rust port of https://github.com/JoeyDeVries/LearnOpenGL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "[![Build workflow](https://img.shields.io/github/actions/workflow/status/google/comprehensive-rust/build.yml?style=flat-square)](https://github.com/google/comprehensive-rust/actions/workflows/build.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Istanbul-compatible JavaScript/TypeScript coverage instrumentation using the Oxc AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate-context",
+      "text": "An example ABCI application making use of tendermint-rs and ibc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sp1-patches/curve25519-dalek-ng",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/curve25519-dalek-ng",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/plotpy",
+      "status": "candidate-context",
+      "text": "Rust plotting library using Python (Matplotlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/plotpy",
+      "status": "candidate-context",
+      "text": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "A light windows GUI toolkit for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0f rpmalloc global memory allocator for Rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azdavis/millet",
+      "status": "candidate-context",
+      "text": "A language server for Standard ML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/millet",
+      "status": "candidate-context",
+      "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShelbyJenkins/llm_client",
+      "status": "candidate-context",
+      "text": "The Easiest Rust Interface for Local LLMs and an Interface for Deterministic Signals from Probabilistic LLM Vibes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShelbyJenkins/llm_client",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT SHIELDS -->"
     }
   ],
   "candidate_glosses": [
@@ -12552,6 +12828,150 @@
       "source_repo": "LemmyNet/lemmy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate",
+      "text": "![][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Electron-Labs/tendermint-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fast/logforth",
+      "status": "candidate",
+      "text": "[![Crates.io][crates-badge]][crates-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "status": "candidate",
+      "text": "Rust port of https://github.com/JoeyDeVries/LearnOpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate",
+      "text": "[![Build workflow](https://img.shields.io/github/actions/workflow/status/google/comprehensive-rust/build.yml?style=flat-square)](https://github.com/google/comprehensive-rust/actions/workflows/build.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/curve25519-dalek-ng",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/plotpy",
+      "status": "candidate",
+      "text": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azdavis/millet",
+      "status": "candidate",
+      "text": "A [language server][lang-srv] for [Standard ML][sml] (SML)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShelbyJenkins/llm_client",
+      "status": "candidate",
+      "text": "<!-- PROJECT SHIELDS -->"
     }
   ],
   "candidate_related_terms": [
@@ -20209,11 +20629,473 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ivanceras/svgbob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Electron-Labs/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cg31/shadowsocks-windows-gui-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bspeice/dtparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fast/logforth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bwasty/learn-opengl-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/comprehensive-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "informalsystems/basecoin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "sp1-patches/curve25519-dalek-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "azdavis/millet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/human-panic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ShelbyJenkins/llm_client"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

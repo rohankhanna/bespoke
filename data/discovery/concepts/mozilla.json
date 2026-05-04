@@ -79,6 +79,30 @@
       "source_repo": "arkenfox/user.js",
       "status": "candidate-context",
       "text": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Mozilla's Localization Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Pontoon is a translation management system used and developed by the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "arkenfox/user.js",
       "status": "candidate",
       "text": "A `user.js` is a configuration file that can control Firefox settings - for a more technical breakdown and explanation, you can read more in the [wiki](https://github.com/arkenfox/user.js/wiki/2.1-User.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate",
+      "text": "Pontoon is a translation management system used and developed by the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "arkenfox/user.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/Betterfox"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

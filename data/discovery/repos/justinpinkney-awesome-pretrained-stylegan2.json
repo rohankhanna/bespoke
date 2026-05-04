@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/awesome-pretrained-stylegan3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/awesome-pretrained-stylegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/data-efficient-gans",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:04.809131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of pre-trained StyleGAN 2 models to download ",
+    "fork": false,
+    "full_name": "justinpinkney/awesome-pretrained-stylegan2",
+    "html_url": "https://github.com/justinpinkney/awesome-pretrained-stylegan2",
+    "language": "Python",
+    "pushed_at": "2022-07-18T12:41:36Z",
+    "stargazers_count": 1291,
+    "topics": [],
+    "updated_at": "2026-04-30T15:47:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/awesome-pretrained-stylegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/awesome-pretrained-stylegan3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/data-efficient-gans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/stylegan2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

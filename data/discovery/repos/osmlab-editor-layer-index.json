@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "trilom/file-changes-action@v1.2.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libeli.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libeli.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_strict_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_strict_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "andrewharvey/osm-editor-layer-index-qgis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "trilom/file-changes-action@v1.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "Check PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "JamesIves/github-pages-deploy-action@v4.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "peter-evans/create-pull-request@v8.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "ELI WMS sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libeli.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libeli.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_libeli.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "Test libeli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_strict_check.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_strict_check.yml",
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "imagery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osmlab/editor-layer-index",
+      "target": "openstreetmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:32:02.494324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2908
+    },
+    {
+      "path": "package.json",
+      "size": 442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 62
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2060
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 1524
+    },
+    {
+      "path": ".github/workflows/sync_wms.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/test_libeli.yml",
+      "size": 852
+    },
+    {
+      "path": ".github/workflows/test_strict_check.yml",
+      "size": 1128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "A unified layer index for OSM editors.",
+    "fork": false,
+    "full_name": "osmlab/editor-layer-index",
+    "html_url": "https://github.com/osmlab/editor-layer-index",
+    "language": "JSON",
+    "pushed_at": "2026-05-03T03:38:17Z",
+    "stargazers_count": 256,
+    "topics": [
+      "imagery",
+      "openstreetmap",
+      "tms",
+      "wms"
+    ],
+    "updated_at": "2026-04-30T23:43:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewharvey/osm-editor-layer-index-qgis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Check PR"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "ELI WMS sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_wms.yml",
+      "term": "ELI WMS sync"
+    },
+    {
+      "context_snippet": "Test libeli",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_libeli.yml",
+      "term": "Test libeli"
+    },
+    {
+      "context_snippet": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagery"
+    },
+    {
+      "context_snippet": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    }
+  ]
+}

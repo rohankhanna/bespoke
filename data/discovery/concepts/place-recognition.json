@@ -127,6 +127,42 @@
       "source_repo": "gisbi-kim/SC-LIO-SAM",
       "status": "candidate-context",
       "text": "version 2021-06-24"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate-context",
+      "text": "LiDAR SLAM = FAST-LIO + Scan Context"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate-context",
+      "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "Real-time Radar SLAM: ORORA + ScanContext "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "gisbi-kim/SC-LIO-SAM",
       "status": "candidate",
       "text": "version 2021-06-24"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "status": "candidate",
+      "text": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +310,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "gisbi-kim/SC-LIO-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

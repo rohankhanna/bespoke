@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e00\u952e\u4e2d\u6587\u6570\u636e\u589e\u5f3a\u5305 \uff1b NLP\u6570\u636e\u589e\u5f3a\u3001bert\u6570\u636e\u589e\u5f3a\u3001EDA\uff1apip install nlpcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-eda",
+      "sense_id": "chinese-eda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-eda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-eda",
+  "observation_id": "02f4bac832d26c45",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "chinese-eda",
+  "source_context_snippet": "\u4f7f\u7528\uff1a`pip install nlpcda`",
+  "source_file": null,
+  "source_repo": "425776024/nlpcda",
+  "source_repo_description": "\u4e00\u952e\u4e2d\u6587\u6570\u636e\u589e\u5f3a\u5305 \uff1b NLP\u6570\u636e\u589e\u5f3a\u3001bert\u6570\u636e\u589e\u5f3a\u3001EDA\uff1apip install nlpcda"
+}

@@ -619,6 +619,42 @@
       "source_repo": "stephenlacy/daz",
       "status": "candidate-context",
       "text": "> Composable HTML components in Golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate-context",
+      "text": "web development for the rest of us"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate-context",
+      "text": "<a href=\"https://svelte.dev\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Nelson's module skeleton"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Template to create external Nelson's module with macros only."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_glosses": [
@@ -927,6 +963,24 @@
       "source_repo": "stephenlacy/daz",
       "status": "candidate",
       "text": "> Composable HTML components in Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate",
+      "text": "<a href=\"https://svelte.dev\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate",
+      "text": "Template to create external Nelson's module with macros only."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_related_terms": [
@@ -1477,11 +1531,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

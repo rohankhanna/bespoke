@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "i18n-timezones-data",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "onomojo/i18n-timezones-js",
+      "target": "i18n-timezones-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "onomojo/i18n-timezones-js",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "onomojo/i18n-timezones-js",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "onomojo/i18n-timezones-js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "onomojo/i18n-timezones-js",
+      "target": "vitest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:32:07.321045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6319
+    },
+    {
+      "path": "package.json",
+      "size": 1398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Timezone name translations for JavaScript/TypeScript. 36 locales, 152 timezones. ESM + CJS, tree-shakeable, zero dependencies.",
+    "fork": false,
+    "full_name": "onomojo/i18n-timezones-js",
+    "html_url": "https://github.com/onomojo/i18n-timezones-js",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-08T01:45:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-08T01:45:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

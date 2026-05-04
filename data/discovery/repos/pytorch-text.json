@@ -1,0 +1,446 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pytorch/text",
+      "target": "alvations/sacremoses",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "pytorch/text",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "pytorch/text",
+      "target": "Bandit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "pytorch/text",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "pytorch/text",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "pytorch/text",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/text",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/text",
+      "target": "Build M1 Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/text",
+      "target": "Build Windows Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/text",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/text",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/text",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/text",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "pytorch/text",
+      "target": "pytorch/test-infra/.github/workflows/linux_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "pytorch/text",
+      "target": "Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text",
+      "target": "data-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:04.608205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7210
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 440
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 441
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 2772
+    },
+    {
+      "path": ".github/workflows/build-wheels-linux.yml",
+      "size": 1516
+    },
+    {
+      "path": ".github/workflows/build-wheels-m1.yml",
+      "size": 1497
+    },
+    {
+      "path": ".github/workflows/build-wheels-windows.yml",
+      "size": 1592
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1048
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 2063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Models, data loaders and abstractions for language processing, powered by PyTorch",
+    "fork": false,
+    "full_name": "pytorch/text",
+    "html_url": "https://github.com/pytorch/text",
+    "language": "Python",
+    "pushed_at": "2025-09-10T21:39:02Z",
+    "stargazers_count": 3563,
+    "topics": [
+      "data-loader",
+      "dataset",
+      "deep-learning",
+      "models",
+      "nlp",
+      "pytorch"
+    ],
+    "updated_at": "2026-05-04T01:09:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alvations/sacremoses",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/builder",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/data",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bandit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Bandit"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Build M1 Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "term": "Build M1 Wheels"
+    },
+    {
+      "context_snippet": "Build Windows Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "term": "Build Windows Wheels"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Integration Test"
+    },
+    {
+      "context_snippet": ".. image:: docs/source/_static/img/torchtext_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-loader"
+    },
+    {
+      "context_snippet": ".. image:: docs/source/_static/img/torchtext_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": ".. image:: docs/source/_static/img/torchtext_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ".. image:: docs/source/_static/img/torchtext_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "models"
+    },
+    {
+      "context_snippet": ".. image:: docs/source/_static/img/torchtext_logo.png",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

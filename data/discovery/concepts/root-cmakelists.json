@@ -19,12 +19,24 @@
       "source_repo": "DrTimothyAldenDavis/SuiteSparse",
       "status": "candidate-context",
       "text": "root-cmakelists"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
+      "status": "candidate-context",
+      "text": "root-cmakelists"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate",
+      "text": "root-cmakelists"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
       "status": "candidate",
       "text": "root-cmakelists"
     }
@@ -40,11 +52,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/root-cmakelists.yaml",
       "source_repo": "DrTimothyAldenDavis/SuiteSparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/root-cmakelists.yaml",
+      "source_repo": "clouren/SPEX"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

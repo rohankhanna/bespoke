@@ -1318,6 +1318,42 @@
       "source_repo": "BirolLab/btllib",
       "status": "candidate-context",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "Useful extensions to the standard Python datetime features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "dateutil - powerful extensions to datetime"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "C++ CSV parser library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "Rapidcsv"
     }
   ],
   "candidate_glosses": [
@@ -1974,6 +2010,24 @@
       "source_repo": "BirolLab/btllib",
       "status": "candidate",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/BirolLab/btllib?label=Release)](https://github.com/BirolLab/btllib/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate",
+      "text": "dateutil - powerful extensions to datetime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate",
+      "text": "Rapidcsv"
     }
   ],
   "candidate_related_terms": [
@@ -2872,11 +2926,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "androidx/androidx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

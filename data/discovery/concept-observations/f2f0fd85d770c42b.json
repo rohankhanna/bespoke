@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A plugin for playwright-extra and puppeteer-extra to provide Smart Proxy Manager specific functionalities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "puppeteer-extra",
+      "sense_id": "puppeteer-extra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "puppeteer-extra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "puppeteer-extra",
+  "observation_id": "f2f0fd85d770c42b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "puppeteer-extra",
+  "source_context_snippet": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services",
+  "source_file": null,
+  "source_repo": "zytedata/zyte-smartproxy-plugin",
+  "source_repo_description": "A plugin for playwright-extra and puppeteer-extra to provide Smart Proxy Manager specific functionalities."
+}

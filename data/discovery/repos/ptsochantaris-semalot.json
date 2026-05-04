@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/semalot",
+      "target": "ptsochantaris/trailer-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot",
+      "target": "threading",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:58.212146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An elementary counting semaphore for async tasks in Swift",
+    "fork": false,
+    "full_name": "ptsochantaris/semalot",
+    "html_url": "https://github.com/ptsochantaris/semalot",
+    "language": "Swift",
+    "pushed_at": "2025-08-23T08:29:24Z",
+    "stargazers_count": 1,
+    "topics": [
+      "concurrency",
+      "ios",
+      "macos",
+      "swift",
+      "threading"
+    ],
+    "updated_at": "2025-11-08T21:11:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/trailer-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threading"
+    }
+  ]
+}

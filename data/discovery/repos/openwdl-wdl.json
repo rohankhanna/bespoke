@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sprocket-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sprocket-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openwdl/wdl",
+      "target": "openwdl/governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromwell-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miniwdl-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sprocket-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sprocket-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toil-test.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "openwdl/wdl",
+      "target": "Triage issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "openwdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "reproducibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "reproducible-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openwdl/wdl",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:52.552303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6316
+    },
+    {
+      "path": ".github/workflows/cromwell-test.yml",
+      "size": 3899
+    },
+    {
+      "path": ".github/workflows/miniwdl-test.yml",
+      "size": 3723
+    },
+    {
+      "path": ".github/workflows/sprocket-test.yml",
+      "size": 3852
+    },
+    {
+      "path": ".github/workflows/toil-test.yml",
+      "size": 3614
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "wdl-1.3",
+    "description": "Specification for the Workflow Description Language (WDL).",
+    "fork": false,
+    "full_name": "openwdl/wdl",
+    "html_url": "https://github.com/openwdl/wdl",
+    "language": null,
+    "pushed_at": "2026-05-01T23:23:02Z",
+    "stargazers_count": 852,
+    "topics": [
+      "bioinformatics",
+      "cloud",
+      "openwdl",
+      "reproducibility",
+      "reproducible-science",
+      "wdl",
+      "workflow"
+    ],
+    "updated_at": "2026-04-29T21:00:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openwdl/governance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Triage issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Triage issues"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openwdl"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducibility"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-science"
+    },
+    {
+      "context_snippet": "<div style=\"align: center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

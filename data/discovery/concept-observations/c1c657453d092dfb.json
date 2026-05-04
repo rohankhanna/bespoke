@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code for our ICCV 2025 paper \"Adaptive Caching for Faster Video Generation with Diffusion Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999591,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997962,
+      "status": "candidate",
+      "text": "stash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996211,
+      "status": "candidate",
+      "text": "squirrel away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996011,
+      "status": "candidate",
+      "text": "hive up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992992,
+      "status": "candidate",
+      "text": "lay away"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caching",
+      "sense_id": "caching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "caching",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "caching",
+  "observation_id": "c1c657453d092dfb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "caching",
+  "source_context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+  "source_file": null,
+  "source_repo": "AdaCache-DiT/AdaCache",
+  "source_repo_description": "Code for our ICCV 2025 paper \"Adaptive Caching for Faster Video Generation with Diffusion Transformers\""
+}

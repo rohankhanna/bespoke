@@ -129,6 +129,18 @@
       "source_repo": "dart-lang/native",
       "status": "candidate-context",
       "text": "native"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "A light windows GUI toolkit for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +203,12 @@
       "source_repo": "dart-lang/native",
       "status": "candidate",
       "text": "native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -414,11 +432,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "on-issue-comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate-context",
+      "text": "Filter lists for uBlock Origin & uBlock Origin Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate-context",
+      "text": "on-issue-comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate-context",
+      "text": "This is the community-maintained issue tracker for uBlock Origin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate-context",
+      "text": "on-issue-comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate",
+      "text": "on-issue-comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate",
+      "text": "on-issue-comment"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "on-issue-comment",
+  "concept_id": "on-issue-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uAssets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "on-issue-comment",
+      "sense_id": "on-issue-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:34:46.506744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agenda and minutes of meetings of the Privacy Community Group",
+    "fork": false,
+    "full_name": "privacycg/meetings",
+    "html_url": "https://github.com/privacycg/meetings",
+    "language": "Makefile",
+    "pushed_at": "2025-12-10T21:19:40Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-03-22T16:48:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

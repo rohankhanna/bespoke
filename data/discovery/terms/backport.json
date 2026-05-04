@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -166,6 +166,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/Backport.yml",
       "source_repo": "JuliaImages/Images.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "JuliaSparse/SparseArrays.jl"
     }
   ],
   "term": "Backport"

@@ -223,6 +223,18 @@
       "source_repo": "cyberark/slosilo",
       "status": "candidate-context",
       "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "Fast serialization library for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "cyberark/slosilo",
       "status": "candidate",
       "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
     }
   ],
   "candidate_related_terms": [
@@ -546,11 +564,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taoensso/nippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

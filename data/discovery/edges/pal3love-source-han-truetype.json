@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "adobe-fonts/source-han-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-sans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-serif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "Pal3love/Source-Han-TrueType"
+}

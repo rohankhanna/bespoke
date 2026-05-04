@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "@material-design-icons/scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "opentype.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "git-actions/set-user@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marella/material-icons",
+      "target": "@material-design-icons/scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marella/material-icons",
+      "target": "opentype.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marella/material-icons",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-icons",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-icons",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-icons",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons",
+      "target": "git-actions/set-user@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons",
+      "target": "Auto Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "iconfont",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "material-design-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "material-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-icons",
+      "target": "sass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:51.989883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4204
+    },
+    {
+      "path": "package.json",
+      "size": 1807
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Latest icon fonts and CSS for self-hosting material design icons.",
+    "fork": false,
+    "full_name": "marella/material-icons",
+    "html_url": "https://github.com/marella/material-icons",
+    "language": "CSS",
+    "pushed_at": "2025-02-12T02:30:22Z",
+    "stargazers_count": 367,
+    "topics": [
+      "css",
+      "font",
+      "iconfont",
+      "icons",
+      "material",
+      "material-design",
+      "material-design-icons",
+      "material-icons",
+      "sass"
+    ],
+    "updated_at": "2026-05-01T06:59:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Auto Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Auto Update"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconfont"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design-icons"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-icons"
+    },
+    {
+      "context_snippet": "Latest icon fonts and CSS for self-hosting material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    }
+  ]
+}

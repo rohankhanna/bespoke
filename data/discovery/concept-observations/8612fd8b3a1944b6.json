@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "|License| |Documentation| |Format|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39696673,
+      "status": "candidate",
+      "text": "spank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39685140,
+      "status": "candidate",
+      "text": "dabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39672274,
+      "status": "candidate",
+      "text": "larrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39612986,
+      "status": "candidate",
+      "text": "waddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39608556,
+      "status": "candidate",
+      "text": "toddle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paddle",
+      "sense_id": "paddle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20034,
+      "status": "candidate",
+      "text": "totter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "toddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "coggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "dodder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7024,
+      "status": "candidate",
+      "text": "larrup"
+    }
+  ],
+  "concept_id": "paddle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paddle",
+  "observation_id": "8612fd8b3a1944b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "paddle",
+  "source_context_snippet": "|License| |Documentation| |Format|",
+  "source_file": null,
+  "source_repo": "NVIDIA/DALI",
+  "source_repo_description": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+}

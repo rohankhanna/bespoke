@@ -52,6 +52,18 @@
       "source_repo": "The-OpenROAD-Project/OpenLane",
       "status": "candidate-context",
       "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "This is a zero knowledge IBC tendermint light client written using SP1 and ibc-rs (WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "foundry"
     }
   ],
   "candidate_glosses": [
@@ -78,6 +90,12 @@
       "source_repo": "The-OpenROAD-Project/OpenLane",
       "status": "candidate",
       "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate",
+      "text": "foundry"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +171,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "The-OpenROAD-Project/OpenLane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/foundry-test.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2-beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "preactjs/compressed-size-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "tomayac/svgcode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "placemark/flat-drop-files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "shx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "actions/checkout@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "preactjs/compressed-size-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "Compressed Size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "browser-fs-access",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "file-system-access",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleChromeLabs/browser-fs-access",
+      "target": "file-system-access-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:51.596506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8146
+    },
+    {
+      "path": "package.json",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File System Access API with legacy fallback in the browser",
+    "fork": false,
+    "full_name": "GoogleChromeLabs/browser-fs-access",
+    "html_url": "https://github.com/GoogleChromeLabs/browser-fs-access",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T11:13:02Z",
+    "stargazers_count": 1564,
+    "topics": [
+      "browser-fs-access",
+      "file-system-access",
+      "file-system-access-api"
+    ],
+    "updated_at": "2026-05-02T21:58:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "placemark/flat-drop-files",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomayac/svgcode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compressed Size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Compressed Size"
+    },
+    {
+      "context_snippet": "This module allows you to easily use the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-fs-access"
+    },
+    {
+      "context_snippet": "This module allows you to easily use the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-system-access"
+    },
+    {
+      "context_snippet": "This module allows you to easily use the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-system-access-api"
+    }
+  ]
+}

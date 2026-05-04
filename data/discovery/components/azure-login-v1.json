@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -137,6 +137,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/promptflow-core-test.yml",
       "source_repo": "microsoft/promptflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "danny-avila/LibreChat"
     }
   ]
 }

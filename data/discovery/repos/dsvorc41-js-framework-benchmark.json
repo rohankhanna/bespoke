@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "adm-zip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json5",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "local-web-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "adm-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "local-web-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dsvorc41/js-framework-benchmark",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:30:07.968330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31803
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1608
+    },
+    {
+      "path": "package.json",
+      "size": 3489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A comparison of the performance of a few popular javascript frameworks",
+    "fork": true,
+    "full_name": "dsvorc41/js-framework-benchmark",
+    "html_url": "https://github.com/dsvorc41/js-framework-benchmark",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-03T09:20:38Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-09-18T13:32:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

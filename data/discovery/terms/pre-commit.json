@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -776,6 +776,36 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "triton-inference-server/python_backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/onnxruntime_backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/tensorrtllm_backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/backend"
     }
   ],
   "term": "pre-commit"

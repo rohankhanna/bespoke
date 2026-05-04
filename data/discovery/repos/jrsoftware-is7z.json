@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/is7z",
+      "target": "7-zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/is7z",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/is7z",
+      "target": "inno-setup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:42.640289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "7-Zip source code modified for Inno Setup.",
+    "fork": false,
+    "full_name": "jrsoftware/is7z",
+    "html_url": "https://github.com/jrsoftware/is7z",
+    "language": "C++",
+    "pushed_at": "2026-02-21T12:11:44Z",
+    "stargazers_count": 0,
+    "topics": [
+      "7-zip",
+      "compression",
+      "inno-setup"
+    ],
+    "updated_at": "2026-02-21T12:11:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7-zip"
+    },
+    {
+      "context_snippet": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inno-setup"
+    }
+  ]
+}

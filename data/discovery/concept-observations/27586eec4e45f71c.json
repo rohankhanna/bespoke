@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home page for Metosin's open source development work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006786,
+      "status": "candidate",
+      "text": "upkeep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996705,
+      "status": "candidate",
+      "text": "sustenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996592,
+      "status": "candidate",
+      "text": "sustainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996456,
+      "status": "candidate",
+      "text": "sustentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954595,
+      "status": "candidate",
+      "text": "alimony"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maintenance",
+      "sense_id": "maintenance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "sustenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4051,
+      "status": "candidate",
+      "text": "alimony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "sustainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3027,
+      "status": "candidate",
+      "text": "sustentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "upkeep"
+    }
+  ],
+  "concept_id": "maintenance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maintenance",
+  "observation_id": "27586eec4e45f71c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "maintenance",
+  "source_context_snippet": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />",
+  "source_file": null,
+  "source_repo": "metosin/open-source",
+  "source_repo_description": "Home page for Metosin's open source development work"
+}

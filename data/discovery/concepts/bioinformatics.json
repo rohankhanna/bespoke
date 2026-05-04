@@ -523,6 +523,102 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate-context",
+      "text": "Ultra-fast and memory-efficient (meta-)genome assembler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate-context",
+      "text": "MEGAHIT"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "DeepSomatic is an analysis pipeline that uses a deep neural network to call somatic variants from tumor-normal and tumor-only sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/nucleus",
+      "status": "candidate-context",
+      "text": "Python and C++ code for reading and writing genomics data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nucleus",
+      "status": "candidate-context",
+      "text": "Nucleus is a library of Python and C++ code designed to make it easy to read,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/htslib",
+      "status": "candidate-context",
+      "text": "C library for high-throughput sequencing data formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htslib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate-context",
+      "text": "10x Genomics Reads Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "Specification for the Workflow Description Language (WDL)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "<div style=\"align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "Python bindings to UCSC BigWig and BigBed library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dpryan79/libBigWig",
+      "status": "candidate-context",
+      "text": "A C library for handling bigWig files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpryan79/libBigWig",
+      "status": "candidate-context",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +879,54 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate",
+      "text": "MEGAHIT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/nucleus",
+      "status": "candidate",
+      "text": "Nucleus is a library of Python and C++ code designed to make it easy to read,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htslib",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate",
+      "text": "<div style=\"align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvictus/pybbi",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpryan79/libBigWig",
+      "status": "candidate",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
     }
   ],
   "candidate_related_terms": [
@@ -1210,11 +1354,89 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "voutcn/megahit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/deepsomatic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/nucleus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "samtools/htslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/ntHash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openwdl/wdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nvictus/pybbi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dpryan79/libBigWig"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

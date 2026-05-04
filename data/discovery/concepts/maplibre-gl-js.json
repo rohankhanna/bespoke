@@ -19,6 +19,42 @@
       "source_repo": "maplibre/maplibre-gl-js",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate-context",
+      "text": "Contour maps plugin for MapLibreGL JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate-context",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbelVM/maplibre-preload",
+      "status": "candidate-context",
+      "text": "A tiny zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in MapLibreGL JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-preload",
+      "status": "candidate-context",
+      "text": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect adds an inspect control to maplibre-gl-js to view all features of the vector sources and allows hovering over features to see their properties."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "maplibre/maplibre-gl-js",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "status": "candidate",
+      "text": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbelVM/maplibre-preload",
+      "status": "candidate",
+      "text": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate",
+      "text": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "maplibre/maplibre-gl-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-preload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

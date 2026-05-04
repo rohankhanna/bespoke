@@ -19,6 +19,18 @@
       "source_repo": "apache/arrow-rs-object-store",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "The simplest, highest-throughput Python interface to S3, GCS & Azure Storage, powered by Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/arrow-rs-object-store",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "apache/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "developmentseed/obstore"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

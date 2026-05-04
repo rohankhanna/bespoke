@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:37:37.083887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "103976\u4e2a\u82f1\u8bed\u5355\u8bcd\u5e93\uff08sql\u7248\uff0ccsv\u7248\uff0cExcel\u7248\uff09\u5305\u542b\u82f1\u6587\u5355\u8bcd\uff0c\u4e2d\u6587\u7ffb\u8bd1\uff0c\u5355\u8bcd\u7684\u8bcd\u6027\u53ca\u591a\u79cd\u8bcd\u4e49,\u6267\u884cSQL\u8bed\u53e5\u5c31\u53ef\u4ee5\u751f\u6210\u8868\uff0c\u652f\u6301SQL Server\uff0cMySQL\u7b49\u591a\u79cd\u6570\u636e\u5e93",
+    "fork": false,
+    "full_name": "1eez/103976",
+    "html_url": "https://github.com/1eez/103976",
+    "language": "PLpgSQL",
+    "pushed_at": "2023-06-12T15:45:58Z",
+    "stargazers_count": 1024,
+    "topics": [],
+    "updated_at": "2026-05-03T11:20:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

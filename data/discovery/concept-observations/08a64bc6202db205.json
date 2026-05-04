@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The cling C++ interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cling Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cling Build and Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19157,
+      "status": "candidate",
+      "text": "sticks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "adhere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18681,
+      "status": "candidate",
+      "text": "hire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18681,
+      "status": "candidate",
+      "text": "speculate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cling Build and Test",
+      "sense_id": "cling-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cling-build-and-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cling-build-and-test",
+  "observation_id": "08a64bc6202db205",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Cling Build and Test",
+  "source_context_snippet": "Cling Build and Test",
+  "source_file": ".github/workflows/cling.yml",
+  "source_repo": "root-project/cling",
+  "source_repo_description": "The cling C++ interpreter"
+}

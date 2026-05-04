@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@65b78e6e13532edd9afa3aa52ac7964289d1a9c1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/push-to-ghcr.yml",
       "source_repo": "agent-infra/sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/faucet.yml",
+      "source_repo": "cosmos/cosmjs"
     }
   ]
 }

@@ -2680,6 +2680,114 @@
       "source_repo": "phpstan/phpstan-src",
       "status": "candidate-context",
       "text": "\"Benchmark\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate-context",
+      "text": "Visually explore your JMH Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate-context",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "\"Trust no one, bench everything.\" - sbt plugin for JMH (Java Microbenchmark Harness)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "sbt-jmh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "Revive a JSON-serialized complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-compass/LawBench",
+      "status": "candidate-context",
+      "text": "Benchmarking Legal Knowledge of Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/LawBench",
+      "status": "candidate-context",
+      "text": "<div align = center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "[ACL 2025] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science\ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "Memory-Dependent Manipulation Benchmark based on RoboTwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "N-D labeled arrays and datasets in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Visually explore your JMH benchmarks on Jenkins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!"
     }
   ],
   "candidate_glosses": [
@@ -4020,6 +4128,60 @@
       "source_repo": "phpstan/phpstan-src",
       "status": "candidate",
       "text": "\"Benchmark\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate",
+      "text": "sbt-jmh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-compass/LawBench",
+      "status": "candidate",
+      "text": "<div align = center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!"
     }
   ],
   "candidate_related_terms": [
@@ -6255,11 +6417,131 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jzillmann/jmh-visualizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/complex-reviver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/LawBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,18 @@
       "source_repo": "testng-team/testng-team.github.io",
       "status": "candidate-context",
       "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "A Node.js tool to automate end-to-end web testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "testng-team/testng-team.github.io",
       "status": "candidate",
       "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +244,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "testng-team/testng-team.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DevExpress/testcafe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

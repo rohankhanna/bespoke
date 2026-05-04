@@ -103,6 +103,18 @@
       "source_repo": "wkentaro/gdown",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "wkentaro/gdown",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "wkentaro/gdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vi/websocat"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

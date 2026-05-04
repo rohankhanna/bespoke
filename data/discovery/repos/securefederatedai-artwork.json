@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:30:31.671950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 430
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Logos of the OpenFL project",
+    "fork": false,
+    "full_name": "securefederatedai/artwork",
+    "html_url": "https://github.com/securefederatedai/artwork",
+    "language": null,
+    "pushed_at": "2023-05-06T08:44:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-08-25T17:12:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

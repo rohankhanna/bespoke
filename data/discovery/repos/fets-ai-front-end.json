@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@1e95c1de343b5b0c23352d6417ee3e48d5bcd422",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.txt",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "cbica/fets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "sigstore/cosign-installer@1e95c1de343b5b0c23352d6417ee3e48d5bcd422",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "cancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "cbica",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "federated-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "federated-tumor-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "fets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FeTS-AI/Front-End",
+      "target": "national-institutes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:30:26.163254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5205
+    },
+    {
+      "path": "README.txt",
+      "size": 2593
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4553
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 5776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Federated Learning based Deep Learning. Docs: https://fets-ai.github.io/Front-End/",
+    "fork": false,
+    "full_name": "FeTS-AI/Front-End",
+    "html_url": "https://github.com/FeTS-AI/Front-End",
+    "language": "C++",
+    "pushed_at": "2024-02-28T18:31:29Z",
+    "stargazers_count": 95,
+    "topics": [
+      "cancer",
+      "cbica",
+      "cpp",
+      "cpp11",
+      "federated-learning",
+      "federated-tumor-segmentation",
+      "fets",
+      "gui",
+      "national-institutes",
+      "qt5"
+    ],
+    "updated_at": "2026-04-20T09:22:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbica/fets",
+      "source_file": "README.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cancer"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbica"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-learning"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-tumor-segmentation"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fets"
+    },
+    {
+      "context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "national-institutes"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "add-issues-to-tracking-project",
   "observation_id": "23e1a7b0ba65b6d3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Add issues to tracking project",
   "source_context_snippet": "Add issues to tracking project",
   "source_file": ".github/workflows/issues.yaml",

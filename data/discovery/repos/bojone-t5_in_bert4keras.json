@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:24:00.756683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6574\u7406\u4e00\u4e0b\u5728keras\u4e2d\u4f7f\u7528T5\u6a21\u578b\u7684\u8981\u70b9",
+    "fork": false,
+    "full_name": "bojone/t5_in_bert4keras",
+    "html_url": "https://github.com/bojone/t5_in_bert4keras",
+    "language": "Python",
+    "pushed_at": "2022-03-04T08:52:00Z",
+    "stargazers_count": 174,
+    "topics": [],
+    "updated_at": "2025-09-04T15:06:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

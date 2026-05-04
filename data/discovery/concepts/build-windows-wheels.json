@@ -92,6 +92,18 @@
       "source_repo": "pytorch/audio",
       "status": "candidate-context",
       "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Build Windows Wheels"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pytorch/audio",
+      "status": "candidate",
+      "text": "Build Windows Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
       "status": "candidate",
       "text": "Build Windows Wheels"
     }
@@ -221,11 +239,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build_wheels_windows.yml",
       "source_repo": "pytorch/audio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/text"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

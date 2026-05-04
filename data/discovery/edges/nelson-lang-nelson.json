@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nelson-lang/nelson",
+      "target": "nelson-lang/nelson-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nelson-lang/nelson",
+      "target": "nelson-lang/module_skeleton",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nelson-lang/nelson",
+      "target": "nelson-lang/module_skeleton_basic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_archlinux.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_archlinux.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jaywcjlove/github-action-package@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp_archlinux.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "ArchLinux Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_fedora.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_fedora.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jaywcjlove/github-action-package@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp_fedora.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "Fedora Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jurplel/install-qt-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jaywcjlove/github-action-package@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "macOS Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jaywcjlove/github-action-package@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "Ubuntu Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "jaywcjlove/github-action-package@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "julia-actions/setup-julia@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "Windows Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-cpp.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-cpp.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis-cpp.yml",
+      "source_repo": "nelson-lang/nelson",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "mathematical-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "matrix-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "nelson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "octave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "nelson-lang/nelson"
+}

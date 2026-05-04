@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "gopher-lua"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuin/gopher-lua",
+      "status": "candidate-context",
+      "text": "GopherLua: VM and compiler for Lua in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/gopher-lua",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/yuin/gopher-lua.svg)](https://pkg.go.dev/github.com/yuin/gopher-lua) [![test](https://github.com/yuin/gopher-lua/workflows/test/badge.svg?branch=master&event=push)](https://github.com/yuin/gopher-lua/actions?query=workflow:test) [\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuin/gopher-lua",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/yuin/gopher-lua.svg)](https://pkg.go.dev/github.com/yuin/gopher-lua) [![test](https://github.com/yuin/gopher-lua/workflows/test/badge.svg?branch=master&event=push)](https://github.com/yuin/gopher-lua/actions?query=workflow:test) [\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "gopher-lua",
+  "concept_id": "gopher-lua",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yuin/gopher-lua"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gopher-lua",
+      "sense_id": "gopher-lua#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

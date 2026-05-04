@@ -103,6 +103,54 @@
       "source_repo": "obsei/obsei",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "status": "candidate-context",
+      "text": "The PeTaL labeler labels journal articles with biomimicry functions. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "status": "candidate-context",
+      "text": "The Periodic Table of Life (PeTaL, pronounced petal) is a design tool aimed at allowing users to seemlesly move from ideas (from nature or other sources) to design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate-context",
+      "text": "all kinds of text classification models and more with deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate-context",
+      "text": "Text Classification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "status": "candidate-context",
+      "text": "\u641c\u7d22\u6240\u6709\u4e2d\u6587NLP\u6570\u636e\u96c6\uff0c\u9644\u5e38\u7528\u82f1\u6587NLP\u6570\u636e\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "status": "candidate-context",
+      "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "obsei/obsei",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "status": "candidate",
+      "text": "The Periodic Table of Life (PeTaL, pronounced petal) is a design tool aimed at allowing users to seemlesly move from ideas (from nature or other sources) to design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate",
+      "text": "Text Classification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "status": "candidate",
+      "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +280,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "obsei/obsei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

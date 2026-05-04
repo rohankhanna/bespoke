@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:32:07.892299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5614
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust crate for localized timezone name translations (152 timezones \u00d7 36 locales, CLDR-sourced)",
+    "fork": false,
+    "full_name": "onomojo/i18n-timezones-rs",
+    "html_url": "https://github.com/onomojo/i18n-timezones-rs",
+    "language": "Rust",
+    "pushed_at": "2026-03-08T01:22:42Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-08T01:21:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

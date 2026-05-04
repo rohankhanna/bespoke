@@ -184,7 +184,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T20:42:03.882613+00:00",
+  "fetched_at": "2026-05-04T07:29:45.701112+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -192,23 +192,23 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 1081
+      "size": 1112
     },
     {
       "path": ".github/workflows/excavator.yml",
-      "size": 443
+      "size": 498
     },
     {
       "path": ".github/workflows/issue_comment.yml",
-      "size": 475
+      "size": 552
     },
     {
       "path": ".github/workflows/issues.yml",
-      "size": 519
+      "size": 619
     },
     {
       "path": ".github/workflows/pull_request.yml",
-      "size": 405
+      "size": 482
     }
   ],
   "related_repositories": [],
@@ -220,15 +220,15 @@
     "full_name": "ScoopInstaller/Extras",
     "html_url": "https://github.com/ScoopInstaller/Extras",
     "language": "PowerShell",
-    "pushed_at": "2026-04-23T20:38:26Z",
-    "stargazers_count": 2059,
+    "pushed_at": "2026-05-04T05:31:04Z",
+    "stargazers_count": 2066,
     "topics": [
       "hacktoberfest",
       "scoop",
       "scoop-apps",
       "scoop-bucket"
     ],
-    "updated_at": "2026-04-23T20:38:31Z"
+    "updated_at": "2026-05-04T05:31:10Z"
   },
   "repo_links": [],
   "terms": [

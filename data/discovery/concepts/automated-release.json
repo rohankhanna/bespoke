@@ -80,6 +80,18 @@
       "source_repo": "josdejong/svelte-jsoneditor",
       "status": "candidate-context",
       "text": "Automated release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "Automated Release"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "josdejong/svelte-jsoneditor",
       "status": "candidate",
       "text": "Automated release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate",
+      "text": "Automated Release"
     }
   ],
   "candidate_related_terms": [
@@ -197,11 +215,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/automated-release.yml",
       "source_repo": "josdejong/svelte-jsoneditor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "asl/BandageNG"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

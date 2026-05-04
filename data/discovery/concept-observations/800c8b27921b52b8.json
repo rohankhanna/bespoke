@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "how to optimize some algorithm in cuda."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u6211\u4e5f\u7ef4\u62a4\u4e86\u4e00\u4e2a\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\uff08PyTorch\u548cOneFlow\uff09\u7684\u4ed3\u5e93 https://github.com/BBuf/how-to-learn-deep-learning-framework \u4ee5\u53ca\u4e00\u4e2a\u5982\u4f55\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u7f16\u8bd1\u5668\uff08TVM/MLIR/LLVM\uff09\u7684\u5b66\u4e60\u4ed3\u5e93 https://github.com/BBuf/tvm_mlir_learn , \u6709\u9700\u8981\u7684\u5c0f\u4f19\u4f34\u53ef\u4ee5**\u70b9\u4e00\u70b9star**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u6211\u4e5f\u7ef4\u62a4\u4e86\u4e00\u4e2a\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\uff08PyTorch\u548cOneFlow\uff09\u7684\u4ed3\u5e93 https://github.com/BBuf/how-to-learn-deep-learning-framework \u4ee5\u53ca\u4e00\u4e2a\u5982\u4f55\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u7f16\u8bd1\u5668\uff08TVM/MLIR/LLVM\uff09\u7684\u5b66\u4e60\u4ed3\u5e93 https://github.com/BBuf/tvm_mlir_learn , \u6709\u9700\u8981\u7684\u5c0f\u4f19\u4f34\u53ef\u4ee5**\u70b9\u4e00\u70b9star**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023318,
+      "status": "candidate",
+      "text": "gpgpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023317,
+      "status": "candidate",
+      "text": "dgpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023316,
+      "status": "candidate",
+      "text": "cadam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023315,
+      "status": "candidate",
+      "text": "dicaas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023314,
+      "status": "candidate",
+      "text": "graphics processing unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cuda",
+      "sense_id": "cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cuda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cuda",
+  "observation_id": "800c8b27921b52b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "cuda",
+  "source_context_snippet": "> \u6211\u4e5f\u7ef4\u62a4\u4e86\u4e00\u4e2a\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\uff08PyTorch\u548cOneFlow\uff09\u7684\u4ed3\u5e93 https://github.com/BBuf/how-to-learn-deep-learning-framework \u4ee5\u53ca\u4e00\u4e2a\u5982\u4f55\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u7f16\u8bd1\u5668\uff08TVM/MLIR/LLVM\uff09\u7684\u5b66\u4e60\u4ed3\u5e93 https://github.com/BBuf/tvm_mlir_learn , \u6709\u9700\u8981\u7684\u5c0f\u4f19\u4f34\u53ef\u4ee5**\u70b9\u4e00\u70b9star**",
+  "source_file": null,
+  "source_repo": "BBuf/how-to-optim-algorithm-in-cuda",
+  "source_repo_description": "how to optimize some algorithm in cuda."
+}

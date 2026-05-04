@@ -48,7 +48,7 @@
   "normalized_form": "clang-tidy-review",
   "observation_id": "989e4a5167a48635",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "clang-tidy-review",
   "source_context_snippet": "clang-tidy-review",
   "source_file": ".github/workflows/clang-tidy-review.yml",

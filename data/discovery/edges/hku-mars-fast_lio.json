@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/fast-livo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/fast-livo2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/dyn_small_obs_avoidance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "chaoqinrobotics/lins---lidar-inertial-slam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "livox-avia-lidar",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "hku-mars/FAST_LIO"
+}

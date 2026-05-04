@@ -1,7 +1,7 @@
 {
   "component": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -222,6 +222,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "stdlib-js/streams-node-stdout"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver"
     }
   ]
 }

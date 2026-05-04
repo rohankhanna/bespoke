@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "@material-design-icons/scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "git-actions/set-user@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "marella/material-symbols",
+      "target": "@material-design-icons/scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "git-actions/set-user@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols",
+      "target": "Auto Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "material-design-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "material-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "material-symbols",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-symbols",
+      "target": "symbols",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:54.595512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2811
+    },
+    {
+      "path": "package.json",
+      "size": 2725
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+    "fork": false,
+    "full_name": "marella/material-symbols",
+    "html_url": "https://github.com/marella/material-symbols",
+    "language": "CSS",
+    "pushed_at": "2026-04-23T04:47:45Z",
+    "stargazers_count": 261,
+    "topics": [
+      "font",
+      "icons",
+      "material",
+      "material-design",
+      "material-design-icons",
+      "material-icons",
+      "material-symbols",
+      "svg",
+      "symbols"
+    ],
+    "updated_at": "2026-05-01T06:59:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Auto Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Auto Update"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design-icons"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-icons"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-symbols"
+    },
+    {
+      "context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "symbols"
+    }
+  ]
+}

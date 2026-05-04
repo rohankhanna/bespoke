@@ -223,6 +223,18 @@
       "source_repo": "preactjs/signals",
       "status": "candidate-context",
       "text": "Signals is a performant state management library with two primary goals:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "preactjs/signals",
       "status": "candidate",
       "text": "Signals is a performant state management library with two primary goals:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +616,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

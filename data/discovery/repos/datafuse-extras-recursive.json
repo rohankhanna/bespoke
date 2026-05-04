@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "datafuse-extras/recursive",
+      "target": "orlp/recursive",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:31:51.403636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 587
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "custom",
+    "description": null,
+    "fork": false,
+    "full_name": "datafuse-extras/recursive",
+    "html_url": "https://github.com/datafuse-extras/recursive",
+    "language": "Rust",
+    "pushed_at": "2025-08-28T16:13:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-08-28T16:13:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orlp/recursive",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

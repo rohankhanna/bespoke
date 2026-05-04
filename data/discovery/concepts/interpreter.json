@@ -187,6 +187,30 @@
       "source_repo": "offline-ai/cli",
       "status": "candidate-context",
       "text": "> \u3010English|[\u4e2d\u6587](./README.cn.md)\u3011"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "The cling C++ interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "offline-ai/cli",
       "status": "candidate",
       "text": "> \u3010English|[\u4e2d\u6587](./README.cn.md)\u3011"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +634,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "root-project/cling"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

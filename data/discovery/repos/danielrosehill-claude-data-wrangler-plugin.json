@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "target": "data-cleaning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "target": "data-wrangling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "target": "pandas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:14:47.161090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6232
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Data cleaning, enrichment, restructuring, and packaging skills for Claude Code",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Data-Wrangler-plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Data-Wrangler-plugin",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T14:51:48Z",
+    "stargazers_count": 1,
+    "topics": [
+      "data-cleaning",
+      "data-wrangling",
+      "pandas",
+      "python"
+    ],
+    "updated_at": "2026-04-29T17:21:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-cleaning"
+    },
+    {
+      "context_snippet": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-wrangling"
+    },
+    {
+      "context_snippet": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    }
+  ]
+}

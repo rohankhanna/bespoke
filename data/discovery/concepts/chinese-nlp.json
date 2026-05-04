@@ -91,6 +91,18 @@
       "source_repo": "iflytek/cino",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "status": "candidate-context",
+      "text": "A curated list of resources for Chinese NLP \u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u76f8\u5173\u8d44\u6599"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "iflytek/cino",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-Minority-PLM/) | [**English**](https://github.com/ymcui/Chinese-Minority-PLM/blob/main/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "crownpku/Awesome-Chinese-NLP"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

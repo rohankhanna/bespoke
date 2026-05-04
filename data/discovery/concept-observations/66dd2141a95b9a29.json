@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DANMF"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DANMF"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936492,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39906876,
+      "status": "candidate",
+      "text": "enclosed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966954,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963094,
+      "status": "candidate",
+      "text": "inlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962561,
+      "status": "candidate",
+      "text": "packing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "embedding",
+      "sense_id": "embedding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "embedding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "embedding",
+  "observation_id": "66dd2141a95b9a29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "embedding",
+  "source_context_snippet": "DANMF",
+  "source_file": null,
+  "source_repo": "benedekrozemberczki/DANMF",
+  "source_repo_description": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+}

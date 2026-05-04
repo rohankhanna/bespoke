@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "@antfu/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@iconify/json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxt/bridge-edge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@nuxt/kit-edge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@unocss/nuxt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/runtime-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxi-edge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nuxt-edge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "antfu/vitesse-nuxt3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "antfu/vitesse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "antfu/vueuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "antfu/unocss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@antfu/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@iconify/json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@nuxt/bridge-edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@nuxt/kit-edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@unocss/nuxt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@vue/runtime-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "nuxi-edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "nuxt-edge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "nuxt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "nuxt-vte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "starter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "target": "vue-composition-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:22.138632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1451
+    },
+    {
+      "path": "package.json",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83c\udfd5 Vitesse experience for Nuxt 2 and Vue 2",
+    "fork": false,
+    "full_name": "antfu/vitesse-nuxt-bridge",
+    "html_url": "https://github.com/antfu/vitesse-nuxt-bridge",
+    "language": "Vue",
+    "pushed_at": "2023-07-31T10:47:12Z",
+    "stargazers_count": 172,
+    "topics": [
+      "nuxt",
+      "nuxt-vte",
+      "starter-template",
+      "vite",
+      "vue-composition-api"
+    ],
+    "updated_at": "2024-09-16T10:54:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/unocss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vitesse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vitesse-nuxt3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vueuse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt"
+    },
+    {
+      "context_snippet": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt-vte"
+    },
+    {
+      "context_snippet": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-template"
+    },
+    {
+      "context_snippet": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-composition-api"
+    }
+  ]
+}

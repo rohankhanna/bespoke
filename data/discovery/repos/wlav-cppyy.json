@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:36:27.344566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1183
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "wlav/cppyy",
+    "html_url": "https://github.com/wlav/cppyy",
+    "language": "Python",
+    "pushed_at": "2026-01-07T18:01:10Z",
+    "stargazers_count": 504,
+    "topics": [],
+    "updated_at": "2026-04-30T21:35:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

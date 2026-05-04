@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Special Cases CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Special Cases CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "circumstances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "epilepsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "outliers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "sometimes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Special Cases CI",
+      "sense_id": "special-cases-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "special-cases-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "special-cases-ci",
+  "observation_id": "b4f3fc5ed2adef71",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Special Cases CI",
+  "source_context_snippet": "Special Cases CI",
+  "source_file": ".github/workflows/build-special.yml",
+  "source_repo": "borglab/gtsam",
+  "source_repo_description": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
+}

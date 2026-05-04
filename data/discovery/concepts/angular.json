@@ -478,6 +478,30 @@
       "source_repo": "carbon-design-system/carbon-charts",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "Angular binding of maplibre-gl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate-context",
+      "text": "Angular binding of mapbox-gl-js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
     }
   ],
   "candidate_glosses": [
@@ -720,6 +744,18 @@
       "source_repo": "carbon-design-system/carbon-charts",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
     }
   ],
   "candidate_related_terms": [
@@ -1093,11 +1129,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "maplibre/ngx-maplibre-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Wykks/ngx-mapbox-gl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nix-community/haumea",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "flake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "flakes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "hierarchy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nix-community/haumea",
+      "target": "visibility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:21:34.965319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1852
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1162
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Filesystem-based module system for Nix [maintainer=@figsoda]",
+    "fork": false,
+    "full_name": "nix-community/haumea",
+    "html_url": "https://github.com/nix-community/haumea",
+    "language": "Nix",
+    "pushed_at": "2026-05-03T13:59:10Z",
+    "stargazers_count": 400,
+    "topics": [
+      "auto",
+      "flake",
+      "flakes",
+      "hierarchy",
+      "import",
+      "nix",
+      "visibility"
+    ],
+    "updated_at": "2026-05-03T13:59:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "pages"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flakes"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hierarchy"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "import"
+    },
+    {
+      "context_snippet": "Filesystem-based module system for Nix",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visibility"
+    }
+  ]
+}

@@ -331,6 +331,18 @@
       "source_repo": "amerkoleci/JoltPhysicsSharp",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/JoltPhysicsSharp/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate-context",
+      "text": "Free, cross-platform 2D game engine powered by Haxe and OpenFL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate-context",
+      "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "amerkoleci/JoltPhysicsSharp",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/amerkoleci/JoltPhysicsSharp/blob/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate",
+      "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
     }
   ],
   "candidate_related_terms": [],
@@ -730,11 +748,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

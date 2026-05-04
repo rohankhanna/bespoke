@@ -922,6 +922,18 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate-context",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1380,6 +1392,12 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2251,11 +2269,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "kadyb/vector-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/Betterfox"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

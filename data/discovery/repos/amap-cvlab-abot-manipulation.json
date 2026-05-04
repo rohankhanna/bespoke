@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "amap-cvlab/ABot-Manipulation",
+      "target": "tavish9/any4lerobot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:05.012144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5092
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2059
+    },
+    {
+      "path": "requirements.txt",
+      "size": 461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "amap-cvlab/ABot-Manipulation",
+    "html_url": "https://github.com/amap-cvlab/ABot-Manipulation",
+    "language": "Python",
+    "pushed_at": "2026-03-30T03:17:33Z",
+    "stargazers_count": 483,
+    "topics": [],
+    "updated_at": "2026-05-03T07:23:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tavish9/any4lerobot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

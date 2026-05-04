@@ -1,12 +1,17 @@
 {
   "component": "mymindstorm/setup-emsdk@667eb33f24e84e7f362c16d8d7fff0629a73e15e",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/continuous_integration.yml",
       "source_repo": "KhronosGroup/glslang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ]
 }

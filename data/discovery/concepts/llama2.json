@@ -283,6 +283,18 @@
       "source_repo": "danielgrittner/llama2-rs",
       "status": "candidate-context",
       "text": "LLaMA2 port for Rust inspired by `llama2.c`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "![logo](Assets/LLamaSharpLogo.png)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "danielgrittner/llama2-rs",
       "status": "candidate",
       "text": "LLaMA2 port for Rust inspired by `llama2.c`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate",
+      "text": "![logo](Assets/LLamaSharpLogo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -790,11 +808,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "danielgrittner/llama2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "SciSharp/LLamaSharp"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

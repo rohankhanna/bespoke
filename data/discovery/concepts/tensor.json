@@ -211,6 +211,18 @@
       "source_repo": "seung-lab/cloud-volume",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "common in-memory tensor structure "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "seung-lab/cloud-volume",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/cloud-volume.svg)](https://badge.fury.io/py/cloud-volume) [![SfN 2018 Poster](https://img.shields.io/badge/poster-SfN%202018-blue.svg)](https://drive.google.com/open?id=1RKtaAGV2f7F13opnkQfbp6YBqmoD3fZi) [![codecov](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -592,11 +610,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/dlpack"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

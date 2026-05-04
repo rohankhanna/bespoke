@@ -23,6 +23,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-renderers.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-renderers.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-renderers.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers",
+      "target": "Publish renderers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish-verifiers-rl.yml",
       "source_repo": "PrimeIntellect-ai/verifiers",
       "target": "actions/checkout@v4",
@@ -162,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "PrimeIntellect-ai/verifiers"
 }

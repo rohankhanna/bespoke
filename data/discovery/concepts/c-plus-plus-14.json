@@ -55,6 +55,18 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate-context",
       "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate",
       "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-blas/actions/workflows/linux.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +166,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

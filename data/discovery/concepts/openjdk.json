@@ -43,6 +43,30 @@
       "source_repo": "heroku/heroku-buildpack-jvm-common",
       "status": "candidate-context",
       "text": "This is the official [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) for [OpenJDK](http://openjdk.java.net/). It only installs the JDK, and does not build an application."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "\"Trust no one, bench everything.\" - sbt plugin for JMH (Java Microbenchmark Harness)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "sbt-jmh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "JDK main-line development https://openjdk.org/projects/jdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "For build instructions please see the"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "heroku/heroku-buildpack-jvm-common",
       "status": "candidate",
       "text": "This is the official [Heroku buildpack](https://devcenter.heroku.com/articles/buildpacks) for [OpenJDK](http://openjdk.java.net/). It only installs the JDK, and does not build an application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate",
+      "text": "sbt-jmh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "For build instructions please see the"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "heroku/heroku-buildpack-jvm-common"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openjdk/jdk"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

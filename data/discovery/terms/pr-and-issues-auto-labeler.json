@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler-v1.18.yaml",
+      "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler-v1.19.yaml",
+      "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-labeler.yaml",
+      "source_repo": "cilium/cilium"
+    }
+  ],
+  "term": "PR and Issues Auto Labeler"
+}

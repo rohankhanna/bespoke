@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "rampantpixels/rpmalloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "memory-allocation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "rpmalloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rpmalloc-rs",
+      "target": "rust-crate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:47.403258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3546
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1714
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc0f rpmalloc global memory allocator for Rust \ud83e\udd80",
+    "fork": false,
+    "full_name": "EmbarkStudios/rpmalloc-rs",
+    "html_url": "https://github.com/EmbarkStudios/rpmalloc-rs",
+    "language": "Rust",
+    "pushed_at": "2025-03-12T14:51:19Z",
+    "stargazers_count": 160,
+    "topics": [
+      "memory-allocation",
+      "rpmalloc",
+      "rust",
+      "rust-crate"
+    ],
+    "updated_at": "2026-04-03T07:19:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rampantpixels/rpmalloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-allocation"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpmalloc"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-crate"
+    }
+  ]
+}

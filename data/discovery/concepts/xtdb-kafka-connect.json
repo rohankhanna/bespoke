@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "XTDB Kafka Connect"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "XTDB Kafka Connect"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate",
+      "text": "XTDB Kafka Connect"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "marx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6644,
+      "status": "candidate",
+      "text": "angst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6644,
+      "status": "candidate",
+      "text": "anton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6644,
+      "status": "candidate",
+      "text": "bohemian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6644,
+      "status": "candidate",
+      "text": "kafkaesque"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "XTDB Kafka Connect",
+  "concept_id": "xtdb-kafka-connect",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "XTDB Kafka Connect",
+      "sense_id": "xtdb-kafka-connect#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

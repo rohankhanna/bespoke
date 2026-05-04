@@ -616,6 +616,36 @@
       "source_repo": "JunyaoHu/common_metrics_on_video_quality",
       "status": "candidate-context",
       "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "Lean and powerful adblocking solution for OpenWrt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/.github",
+      "status": "candidate-context",
+      "text": "Metrics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_glosses": [
@@ -924,6 +954,24 @@
       "source_repo": "JunyaoHu/common_metrics_on_video_quality",
       "status": "candidate",
       "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/.github",
+      "status": "candidate",
+      "text": "Metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_related_terms": [
@@ -1585,11 +1633,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "JunyaoHu/common_metrics_on_video_quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/metrics.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "pot-app/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

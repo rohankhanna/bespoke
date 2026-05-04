@@ -99,7 +99,7 @@
   "normalized_form": "permission",
   "observation_id": "f36d261348aa7a67",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "permission",
   "source_context_snippet": "[![Build Status](https://dev.azure.com/Casbin/Casbin.NET/_apis/build/status/casbin.Casbin.NET?branchName=master)](https://dev.azure.com/Casbin/Casbin.NET/_build?definitionId=1)",
   "source_file": null,

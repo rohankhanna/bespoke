@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run black"
+    "Run black",
+    "Run Black"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Stability-AI/generative-models",
       "status": "candidate-context",
       "text": "Run black"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": "a python refactoring library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": "Run Black"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Stability-AI/generative-models",
       "status": "candidate",
       "text": "Run black"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate",
+      "text": "Run Black"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "Stability-AI/generative-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "python-rope/rope"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

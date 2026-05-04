@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-android",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-android",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-android",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-android",
+      "target": "mobile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:14:20.304959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Processing mode and core library to create Android apps with Processing",
+    "fork": false,
+    "full_name": "processing/processing-android",
+    "html_url": "https://github.com/processing/processing-android",
+    "language": "Java",
+    "pushed_at": "2025-01-09T14:21:51Z",
+    "stargazers_count": 798,
+    "topics": [
+      "android",
+      "ar",
+      "art",
+      "design",
+      "education",
+      "learning",
+      "mobile",
+      "vr"
+    ],
+    "updated_at": "2026-04-22T02:11:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Processing for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Processing for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "Processing for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
+    },
+    {
+      "context_snippet": "Processing for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "Processing for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    }
+  ]
+}

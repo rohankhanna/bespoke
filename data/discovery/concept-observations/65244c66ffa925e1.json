@@ -84,7 +84,7 @@
   "normalized_form": "horaedb-ci",
   "observation_id": "65244c66ffa925e1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "HoraeDB CI",
   "source_context_snippet": "HoraeDB CI",
   "source_file": ".github/workflows/ci.yml",

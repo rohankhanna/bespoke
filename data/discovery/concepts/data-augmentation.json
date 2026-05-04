@@ -163,6 +163,30 @@
       "source_repo": "TorchIO-project/torchio",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate-context",
+      "text": "\u4e00\u952e\u4e2d\u6587\u6570\u636e\u589e\u5f3a\u5305 \uff1b NLP\u6570\u636e\u589e\u5f3a\u3001bert\u6570\u636e\u589e\u5f3a\u3001EDA\uff1apip install nlpcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "TorchIO-project/torchio",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
     }
   ],
   "candidate_related_terms": [],
@@ -526,11 +562,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

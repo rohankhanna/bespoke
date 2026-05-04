@@ -163,6 +163,18 @@
       "source_repo": "ihmcrobotics/euclid",
       "status": "candidate-context",
       "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "GeoInterface-based geometry operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "ihmcrobotics/euclid",
       "status": "candidate",
       "text": "![euclid](https://maven-badges.herokuapp.com/maven-central/us.ihmc/euclid/badge.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +388,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ihmcrobotics/euclid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeometryOps.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

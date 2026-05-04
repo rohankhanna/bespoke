@@ -84,7 +84,7 @@
   "normalized_form": "issues",
   "observation_id": "df7328d5a628596a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Issues",
   "source_context_snippet": "Issues",
   "source_file": ".github/workflows/issues.yml",

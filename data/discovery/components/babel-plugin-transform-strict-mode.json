@@ -1,12 +1,17 @@
 {
   "component": "@babel/plugin-transform-strict-mode",
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "ember-cli/broccoli-babel-transpiler"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "callstack/react-native-testing-library"
     }
   ]
 }

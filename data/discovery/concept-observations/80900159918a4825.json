@@ -92,7 +92,7 @@
   "normalized_form": "tracing",
   "observation_id": "80900159918a4825",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "tracing",
   "source_context_snippet": "[![Build and Test](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml/badge.svg)](https://github.com/ocaml-tracing/ocaml-trace/actions/workflows/main.yml)",
   "source_file": null,

@@ -967,6 +967,54 @@
       "source_repo": "sihyun-yu/REPA",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> Representation Alignment for Generation: <br>Training Diffusion Transformers Is Easier Than You Think"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[RSS 2023] Official code for \"Goal Conditioned Imitation Learning using Score-based Diffusion Policies\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for \"Parallel Sampling of Diffusion Models\", NeurIPS 2023 Spotlight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Q-Diffusion: Quantizing Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1449,6 +1497,30 @@
       "source_repo": "sihyun-yu/REPA",
       "status": "candidate",
       "text": "<h1 align=\"center\"> Representation Alignment for Generation: <br>Training Diffusion Transformers Is Easier Than You Think"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2542,11 +2614,107 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

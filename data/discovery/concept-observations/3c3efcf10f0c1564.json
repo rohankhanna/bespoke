@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generating icons using text commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022263,
+      "status": "candidate",
+      "text": "ikon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9970436,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9956977,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "figurines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "idols"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icons",
+      "sense_id": "icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "icons",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "icons",
+  "observation_id": "3c3efcf10f0c1564",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "icons",
+  "source_context_snippet": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project.",
+  "source_file": null,
+  "source_repo": "enzet/iconscript",
+  "source_repo_description": "Generating icons using text commands"
+}

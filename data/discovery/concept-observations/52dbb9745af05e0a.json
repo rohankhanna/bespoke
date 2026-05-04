@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run tests using Jest & Puppeteer \ud83c\udfaa\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19824465,
+      "status": "candidate",
+      "text": "browserless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19824464,
+      "status": "candidate",
+      "text": "frameless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19824463,
+      "status": "candidate",
+      "text": "shaderless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19824462,
+      "status": "candidate",
+      "text": "iconless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19824461,
+      "status": "candidate",
+      "text": "interfaceless"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chromeless",
+      "sense_id": "chromeless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chromeless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chromeless",
+  "observation_id": "52dbb9745af05e0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "chromeless",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)",
+  "source_file": null,
+  "source_repo": "argos-ci/jest-puppeteer",
+  "source_repo_description": "Run tests using Jest & Puppeteer \ud83c\udfaa\u2728"
+}

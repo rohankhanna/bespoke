@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988002,
+      "status": "candidate",
+      "text": "twinkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987752,
+      "status": "candidate",
+      "text": "twinkling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987478,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985914,
+      "status": "candidate",
+      "text": "flare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981204,
+      "status": "candidate",
+      "text": "blink"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flash",
+      "sense_id": "flash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45036,
+      "status": "candidate",
+      "text": "garish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42040,
+      "status": "candidate",
+      "text": "tawdry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41041,
+      "status": "candidate",
+      "text": "brassy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38037,
+      "status": "candidate",
+      "text": "meretricious"
+    }
+  ],
+  "concept_id": "flash",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flash",
+  "observation_id": "9b6f2ffe8e6a7cdb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "flash",
+  "source_context_snippet": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026",
+  "source_file": null,
+  "source_repo": "openfl/openfl",
+  "source_repo_description": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+}

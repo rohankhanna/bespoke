@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "grape"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "An opinionated framework for creating REST-like APIs in Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "![grape logo](grape.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate",
+      "text": "![grape logo](grape.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039369,
+      "status": "candidate",
+      "text": "grapevine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039212,
+      "status": "candidate",
+      "text": "muscadine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038395,
+      "status": "candidate",
+      "text": "raisin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038260,
+      "status": "candidate",
+      "text": "viticulture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038213,
+      "status": "candidate",
+      "text": "vineyard"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "grapevine"
+    }
+  ],
+  "canonical_name": "grape",
+  "concept_id": "grape",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grape",
+      "sense_id": "grape#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

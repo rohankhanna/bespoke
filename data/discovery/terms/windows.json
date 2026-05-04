@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -976,6 +976,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/tests-windows.yml",
       "source_repo": "scrapy/scrapy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mutouyun/cpp-ipc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pot-app/pot-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/live-draw"
     }
   ],
   "term": "Windows"

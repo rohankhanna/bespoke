@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "source_repo": "v2fly/docker",
+      "target": "docker push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:13.917051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 547
+    },
+    {
+      "path": "Dockerfile",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/docker-push.yml",
+      "size": 2455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "docker build repo for v2fly",
+    "fork": false,
+    "full_name": "v2fly/docker",
+    "html_url": "https://github.com/v2fly/docker",
+    "language": "Shell",
+    "pushed_at": "2025-04-19T15:45:53Z",
+    "stargazers_count": 874,
+    "topics": [],
+    "updated_at": "2026-05-02T06:17:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docker push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-push.yml",
+      "term": "docker push"
+    }
+  ]
+}

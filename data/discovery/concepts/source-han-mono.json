@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "source-han-mono"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "TrueType version of Source Han Sans, Source Han Serif and Source Han Mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "[English](README_EN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate",
+      "text": "[English](README_EN.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "source-han-mono",
+  "concept_id": "source-han-mono",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "source-han-mono",
+      "sense_id": "source-han-mono#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

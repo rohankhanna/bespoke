@@ -48,7 +48,7 @@
   "normalized_form": "rust-std-lib",
   "observation_id": "4e641d352bc567b7",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "rust-std-lib",
   "source_context_snippet": "This repository provides installable distribution artifacts of `rust-std` for the `hermit` targets.",
   "source_file": null,

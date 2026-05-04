@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:21:27.889525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "maxxnino/good-stuff",
+    "html_url": "https://github.com/maxxnino/good-stuff",
+    "language": "Lua",
+    "pushed_at": "2023-04-05T14:41:05Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-12-19T05:16:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

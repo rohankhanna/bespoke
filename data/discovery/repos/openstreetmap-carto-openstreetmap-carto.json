@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "cartocss/carto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "geofabrik/osm-bright",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "cquest/osmfr-cartocss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "giggls/openstreetmap-carto-de",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:27.091443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5408
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A general-purpose OpenStreetMap mapnik style, in CartoCSS",
+    "fork": false,
+    "full_name": "openstreetmap-carto/openstreetmap-carto",
+    "html_url": "https://github.com/openstreetmap-carto/openstreetmap-carto",
+    "language": "CartoCSS",
+    "pushed_at": "2026-04-30T16:08:33Z",
+    "stargazers_count": 1700,
+    "topics": [],
+    "updated_at": "2026-05-03T15:39:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cartocss/carto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cquest/osmfr-cartocss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geofabrik/osm-bright",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "giggls/openstreetmap-carto-de",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

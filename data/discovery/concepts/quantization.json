@@ -439,6 +439,18 @@
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
       "status": "candidate-context",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Q-Diffusion: Quantizing Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +669,12 @@
       "source_repo": "ymcui/Chinese-LLaMA-Alpaca",
       "status": "candidate",
       "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](./README.md) | [**\ud83c\udf10English**](./README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/wiki) | [**\u2753\u63d0\u95ee/Issues**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues) | [**\ud83d\udcac\u8ba8\u8bba/Discussions**](https://github.com/ymcui/Chinese-LLaMA-Alpaca/discussion\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1440,11 +1458,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

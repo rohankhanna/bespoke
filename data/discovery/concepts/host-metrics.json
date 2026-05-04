@@ -31,6 +31,18 @@
       "source_repo": "appsignal/appsignal-elixir",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/appsignal/appsignal-elixir.png?branch=main)](https://travis-ci.org/appsignal/appsignal-elixir)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "appsignal/appsignal-elixir",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/appsignal/appsignal-elixir.png?branch=main)](https://travis-ci.org/appsignal/appsignal-elixir)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

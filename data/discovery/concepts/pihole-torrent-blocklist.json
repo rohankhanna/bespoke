@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pihole-torrent-blocklist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "status": "candidate-context",
+      "text": "Torrent trackers and websites host files for Pi-hole."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "status": "candidate-context",
+      "text": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "status": "candidate",
+      "text": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pihole-torrent-blocklist",
+  "concept_id": "pihole-torrent-blocklist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pihole-torrent-blocklist",
+      "sense_id": "pihole-torrent-blocklist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

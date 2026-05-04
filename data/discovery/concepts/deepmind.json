@@ -31,6 +31,18 @@
       "source_repo": "FLAIROx/jafar",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate-context",
+      "text": "StarCraft II Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "FLAIROx/jafar",
       "status": "candidate",
       "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "FLAIROx/jafar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

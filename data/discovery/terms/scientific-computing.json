@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -101,6 +101,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "opendatacube/datacube-core"
     }
   ],
   "term": "scientific-computing"

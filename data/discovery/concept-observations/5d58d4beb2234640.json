@@ -84,7 +84,7 @@
   "normalized_form": "catch2-c-example",
   "observation_id": "5d58d4beb2234640",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Catch2 C++ Example",
   "source_context_snippet": "Catch2 C++ Example",
   "source_file": ".github/workflows/catch2.yml",

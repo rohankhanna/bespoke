@@ -1,0 +1,17 @@
+{
+  "component": "mikepenz/release-changelog-builder-action@bcae7115752d4ed746ff92feb666574428a79415",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "aeharding/voyager"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "publish-main",
   "observation_id": "64d4f155fcfc7820",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Publish main",
   "source_context_snippet": "Publish main",
   "source_file": ".github/workflows/publish-main.yml",

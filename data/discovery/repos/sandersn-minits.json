@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:23:56.702698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A miniature model of the Typescript compiler",
+    "fork": false,
+    "full_name": "sandersn/minits",
+    "html_url": "https://github.com/sandersn/minits",
+    "language": "F#",
+    "pushed_at": "2022-01-05T18:30:24Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-09-18T12:20:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

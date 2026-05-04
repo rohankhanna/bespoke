@@ -55,6 +55,18 @@
       "source_repo": "KulikDM/pythresh",
       "status": "candidate-context",
       "text": "Python Outlier Detection Thresholding (PyThresh) V1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate-context",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate-context",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "KulikDM/pythresh",
       "status": "candidate",
       "text": "Python Outlier Detection Thresholding (PyThresh) V1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "KulikDM/pythresh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

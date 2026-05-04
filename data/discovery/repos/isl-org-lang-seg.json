@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:25:33.891428+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 2277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Language-Driven Semantic Segmentation",
+    "fork": false,
+    "full_name": "isl-org/lang-seg",
+    "html_url": "https://github.com/isl-org/lang-seg",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-18T16:24:18Z",
+    "stargazers_count": 827,
+    "topics": [],
+    "updated_at": "2026-04-27T02:32:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

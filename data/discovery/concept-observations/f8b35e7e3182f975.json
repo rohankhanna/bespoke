@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lean and powerful adblocking solution for OpenWrt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009613,
+      "status": "candidate",
+      "text": "cozenage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009740,
+      "status": "candidate",
+      "text": "cheating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009640,
+      "status": "candidate",
+      "text": "fraudulent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009574,
+      "status": "candidate",
+      "text": "swindling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009570,
+      "status": "candidate",
+      "text": "dupe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scam",
+      "sense_id": "scam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6022,
+      "status": "candidate",
+      "text": "cozenage"
+    }
+  ],
+  "concept_id": "scam",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scam",
+  "observation_id": "f8b35e7e3182f975",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "scam",
+  "source_context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+  "source_file": null,
+  "source_repo": "lynxthecat/adblock-lean",
+  "source_repo_description": "Lean and powerful adblocking solution for OpenWrt"
+}

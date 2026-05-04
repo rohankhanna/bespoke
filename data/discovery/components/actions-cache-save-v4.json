@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/save@v4",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -672,6 +672,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "compiler-research/CppInterOp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/root-cmakelists.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/cppyy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/cppyy-backend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy-backend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/CPyCppyy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/CPyCppyy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/parsec"
     }
   ]
 }

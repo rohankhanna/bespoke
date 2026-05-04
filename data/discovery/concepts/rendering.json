@@ -295,6 +295,30 @@
       "source_repo": "gazebosim/gz-rendering",
       "status": "candidate-context",
       "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "A web-based ASCII and Unicode diagram builder written in vanilla Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Mapnik is an open source toolkit for developing mapping applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "gazebosim/gz-rendering",
       "status": "candidate",
       "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +778,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

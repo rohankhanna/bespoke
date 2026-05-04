@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "borglab/gtsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "robustfieldautonomylab/jackal_dataset_20170608",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "irapkaist/sc-lego-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "facontidavide/lego-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "ieee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "iros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "isam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "jackal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "velodyne",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+}

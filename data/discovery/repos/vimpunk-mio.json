@@ -1,0 +1,170 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vimpunk/mio",
+      "target": "mandreyel/mio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "file-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "fileviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "memory-mapped-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "memory-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vimpunk/mio",
+      "target": "mmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:13.156571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-platform C++11 header-only library for memory mapped file IO",
+    "fork": false,
+    "full_name": "vimpunk/mio",
+    "html_url": "https://github.com/vimpunk/mio",
+    "language": "C++",
+    "pushed_at": "2024-02-11T17:37:47Z",
+    "stargazers_count": 1934,
+    "topics": [
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cross-platform",
+      "file-view",
+      "fileviewer",
+      "header-only",
+      "memory-mapped-file",
+      "memory-mapping",
+      "mmap"
+    ],
+    "updated_at": "2026-04-28T09:44:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandreyel/mio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-view"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fileviewer"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-mapped-file"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-mapping"
+    },
+    {
+      "context_snippet": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmap"
+    }
+  ]
+}

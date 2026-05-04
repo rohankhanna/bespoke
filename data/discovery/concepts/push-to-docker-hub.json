@@ -19,12 +19,30 @@
       "source_repo": "Helicone/helicone",
       "status": "candidate-context",
       "text": "Push to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/YApi-X",
+      "status": "candidate-context",
+      "text": "YApi \u6539\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/YApi-X",
+      "status": "candidate-context",
+      "text": "Push to Docker Hub"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Helicone/helicone",
+      "status": "candidate",
+      "text": "Push to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/YApi-X",
       "status": "candidate",
       "text": "Push to Docker Hub"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": ".github/workflows/docker-push.yml",
       "source_repo": "Helicone/helicone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/push-to-docker-hub.yml",
+      "source_repo": "fjc0k/YApi-X"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

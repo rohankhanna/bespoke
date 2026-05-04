@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Documentation and Single Header"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Documentation and Single Header"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23949,
+      "status": "candidate",
+      "text": "razor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22997,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22794,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22794,
+      "status": "candidate",
+      "text": "manifold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22794,
+      "status": "candidate",
+      "text": "slug"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation and Single Header",
+      "sense_id": "documentation-and-single-header#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "documentation-and-single-header",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "documentation-and-single-header",
+  "observation_id": "78d489f1ed04b165",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Documentation and Single Header",
+  "source_context_snippet": "Documentation and Single Header",
+  "source_file": ".github/workflows/docs.yml",
+  "source_repo": "vincentlaucsb/csv-parser",
+  "source_repo_description": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+}

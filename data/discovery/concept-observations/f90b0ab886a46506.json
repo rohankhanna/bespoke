@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Continuous Integration](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Continuous Integration](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloud-infrastructure",
+      "sense_id": "cloud-infrastructure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloud-infrastructure",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloud-infrastructure",
+  "observation_id": "f90b0ab886a46506",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "cloud-infrastructure",
+  "source_context_snippet": "[![Continuous Integration](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml/badge.svg)](https://github.com/oauth2-proxy/oauth2-proxy/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "oauth2-proxy/oauth2-proxy",
+  "source_repo_description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+}

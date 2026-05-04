@@ -667,6 +667,18 @@
       "source_repo": "JunyaoHu/common_metrics_on_video_quality",
       "status": "candidate-context",
       "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "AutoVideo: An Automated Video Action Recognition System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1011,12 @@
       "source_repo": "JunyaoHu/common_metrics_on_video_quality",
       "status": "candidate",
       "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
     }
   ],
   "candidate_related_terms": [
@@ -1549,11 +1567,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

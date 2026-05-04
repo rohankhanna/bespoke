@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "small javascript library for scribbling on an svg element"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033308,
+      "status": "candidate",
+      "text": "scrawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012835,
+      "status": "candidate",
+      "text": "cacography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962035,
+      "status": "candidate",
+      "text": "scrabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956172,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020080,
+      "status": "candidate",
+      "text": "written"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scribble",
+      "sense_id": "scribble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16034,
+      "status": "candidate",
+      "text": "scrawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13060,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "cacography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scrabble"
+    }
+  ],
+  "concept_id": "scribble",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scribble",
+  "observation_id": "5ebdce9eb8b484a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "scribble",
+  "source_context_snippet": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page.",
+  "source_file": null,
+  "source_repo": "naknomum/scribby",
+  "source_repo_description": "small javascript library for scribbling on an svg element"
+}

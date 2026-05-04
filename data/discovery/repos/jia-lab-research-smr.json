@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:27:39.497914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3289
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Self-Supervised 3D Mesh Reconstruction from Single Images (CVPR2021)",
+    "fork": false,
+    "full_name": "JIA-Lab-research/SMR",
+    "html_url": "https://github.com/JIA-Lab-research/SMR",
+    "language": "Python",
+    "pushed_at": "2021-09-10T09:34:32Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-03-30T13:40:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

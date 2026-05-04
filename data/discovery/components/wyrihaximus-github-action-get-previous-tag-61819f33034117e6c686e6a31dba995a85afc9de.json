@@ -1,0 +1,12 @@
+{
+  "component": "WyriHaximus/github-action-get-previous-tag@61819f33034117e6c686e6a31dba995a85afc9de",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray"
+    }
+  ]
+}

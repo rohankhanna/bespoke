@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cjk-characters",
+      "sense_id": "cjk-characters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cjk-characters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cjk-characters",
+  "observation_id": "8fcc7e4de79090dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "cjk-characters",
+  "source_context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+  "source_file": null,
+  "source_repo": "NightFurySL2001/CJK-character-count",
+  "source_repo_description": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+}

@@ -379,6 +379,78 @@
       "source_repo": "simonpoole/beautified-JOSM-preset",
       "status": "candidate-context",
       "text": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate-context",
+      "text": "Material Design icons by Google (Material Symbols)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate-context",
+      "text": "These are two different official icon sets from Google, using the same underlying designs. Material Symbols is the current set, introduced in April 2022, built on variable font technology. Material Icons is the classic set, but no longer updated. More details below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate-context",
+      "text": "Generating icons using text commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate-context",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "CC0 SVG Map Icons, mirror of repo on Gitlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
     }
   ],
   "candidate_glosses": [
@@ -567,6 +639,42 @@
       "source_repo": "simonpoole/beautified-JOSM-preset",
       "status": "candidate",
       "text": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate",
+      "text": "These are two different official icon sets from Google, using the same underlying designs. Material Symbols is the current set, introduced in April 2022, built on variable font technology. Material Icons is the classic set, but no longer updated. More details below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
     }
   ],
   "candidate_related_terms": [
@@ -886,11 +994,65 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "carbon-design-system/carbon-icons-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/material-design-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzet/iconscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-symbols"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

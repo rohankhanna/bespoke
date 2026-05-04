@@ -295,6 +295,30 @@
       "source_repo": "Qv2ray/Qv2ray",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mutouyun/cpp-ipc",
+      "status": "candidate-context",
+      "text": "C++ IPC Library: A high-performance inter-process communication using shared memory on Linux/Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutouyun/cpp-ipc",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mutouyun/cpp-ipc/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "Qv2ray/Qv2ray",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mutouyun/cpp-ipc",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mutouyun/cpp-ipc/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -652,11 +688,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mutouyun/cpp-ipc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "haskell-actions/run-ormolu@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "haskell-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "idris-lang/idris-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "haskell-nix/hnix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "mmark-md/mmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "mrkkrp/parsers-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "haskell-actions/run-ormolu@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "haskell-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "actions/cache@v5.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "haskell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "megaparsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrkkrp/megaparsec",
+      "target": "parser-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:32:43.107449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15326
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Industrial-strength monadic parser combinator library",
+    "fork": false,
+    "full_name": "mrkkrp/megaparsec",
+    "html_url": "https://github.com/mrkkrp/megaparsec",
+    "language": "Haskell",
+    "pushed_at": "2026-04-27T19:52:52Z",
+    "stargazers_count": 968,
+    "topics": [
+      "haskell",
+      "megaparsec",
+      "parser-library"
+    ],
+    "updated_at": "2026-05-01T15:25:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haskell-nix/hnix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idris-lang/idris-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmark-md/mmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrkkrp/parsers-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    },
+    {
+      "context_snippet": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megaparsec"
+    },
+    {
+      "context_snippet": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-library"
+    }
+  ]
+}

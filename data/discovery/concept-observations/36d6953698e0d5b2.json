@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Benchmark Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Benchmark Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 75714,
+      "status": "candidate",
+      "text": "benchmarking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 75713,
+      "status": "candidate",
+      "text": "benchmarks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 75712,
+      "status": "candidate",
+      "text": "benchmarked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 75711,
+      "status": "candidate",
+      "text": "bench mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 75710,
+      "status": "candidate",
+      "text": "stress testing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Test",
+      "sense_id": "benchmark-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "benchmark-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "benchmark-test",
+  "observation_id": "36d6953698e0d5b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Benchmark Test",
+  "source_context_snippet": "Benchmark Test",
+  "source_file": ".github/workflows/benchmark.yml",
+  "source_repo": "SciSharp/LLamaSharp",
+  "source_repo_description": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+}

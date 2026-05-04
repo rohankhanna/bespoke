@@ -81,6 +81,18 @@
       "source_repo": "Masterminds/vcs",
       "status": "candidate-context",
       "text": "Windows Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "Windows tests"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "Masterminds/vcs",
       "status": "candidate",
       "text": "Windows Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate",
+      "text": "Windows tests"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +216,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/windows-tests.yaml",
       "source_repo": "Masterminds/vcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "palantir/python-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

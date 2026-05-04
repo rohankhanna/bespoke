@@ -21,20 +21,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zhijian-liu/torchpack",
-      "target": "tensorpack/tensorpack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhijian-liu/torchpack",
-      "target": "vacancy/jacinle",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhijian-liu/torchpack",
       "target": "pytorchlightning/pytorch-lightning",
       "target_type": "repository"
     },
@@ -95,7 +81,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:05:46.033262+00:00",
+  "fetched_at": "2026-05-04T08:23:12.918984+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -129,16 +115,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorchlightning/pytorch-lightning",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tensorpack/tensorpack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vacancy/jacinle",
       "source_file": "README.md"
     }
   ],

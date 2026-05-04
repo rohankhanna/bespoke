@@ -235,6 +235,54 @@
       "source_repo": "Intellicode/eslint-plugin-react-native",
       "status": "candidate-context",
       "text": "Dear users, first of all, thanks for using the plugin! At the moment development activity is low, I've personally not worked with React Native for many years and have little time to continue updating the plugin. I'll do my best to update the plugin to ensure compatibility with n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xojs/xo",
+      "status": "candidate-context",
+      "text": "\u2764\ufe0f JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xojs/xo",
+      "status": "candidate-context",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Playwright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate-context",
+      "text": "eslint-plugin-de-morgan \u2014 ESLint plugin for transforming negated boolean expressions via De Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +399,30 @@
       "source_repo": "Intellicode/eslint-plugin-react-native",
       "status": "candidate",
       "text": "Dear users, first of all, thanks for using the plugin! At the moment development activity is low, I've personally not worked with React Native for many years and have little time to continue updating the plugin. I'll do my best to update the plugin to ensure compatibility with n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xojs/xo",
+      "status": "candidate",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-de-morgan",
+      "status": "candidate",
+      "text": "eslint-plugin-de-morgan \u2014 ESLint plugin for transforming negated boolean expressions via De Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +622,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xojs/xo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mskelton/eslint-plugin-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "azat-io/eslint-plugin-de-morgan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "azat-io/eslint-plugin-perfectionist"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

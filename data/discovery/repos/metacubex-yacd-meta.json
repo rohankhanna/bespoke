@@ -428,13 +428,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "MetaCubeX/Yacd-meta",
-      "target": "mozilla/twemoji-colr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MetaCubeX/Yacd-meta",
       "target": "metacubex/yacd",
       "target_type": "repository"
     },
@@ -1027,7 +1020,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:43:09.254199+00:00",
+  "fetched_at": "2026-05-04T10:28:41.932023+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1064,11 +1057,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "metacubex/yacd",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mozilla/twemoji-colr",
       "source_file": "README.md"
     },
     {

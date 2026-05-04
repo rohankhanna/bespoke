@@ -247,6 +247,42 @@
       "source_repo": "JTAmos/Indicators.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/dysonance/Indicators.jl.svg?branch=master)](https://travis-ci.org/dysonance/Indicators.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube Core"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +405,24 @@
       "source_repo": "JTAmos/Indicators.jl",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/dysonance/Indicators.jl.svg?branch=master)](https://travis-ci.org/dysonance/Indicators.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate",
+      "text": "Open Data Cube Core"
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +598,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

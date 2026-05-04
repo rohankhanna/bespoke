@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -591,6 +591,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "andyzeng/tsdf-fusion-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBuf/how-to-optim-algorithm-in-cuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm"
     }
   ],
   "term": "cuda"

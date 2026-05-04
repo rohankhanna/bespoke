@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "utiasasrl/hero_radar_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "utiasasrl/pyboreas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "keenan-burnett/yeti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "keenan-burnett/yeti_radar_odometry"
+}

@@ -223,6 +223,42 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate-context",
       "text": "*Pandas on AWS*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate-context",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate-context",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "N-D labeled arrays and datasets in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate-context",
+      "text": "Python tools for geographic data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate",
       "text": "*Pandas on AWS*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin",
+      "status": "candidate",
+      "text": "Data cleaning, enrichment, restructuring, and packaging skills for tabular and JSON datasets. Data visualisation is **out of scope** (handled by a separate plugin)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +580,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Wrangler-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

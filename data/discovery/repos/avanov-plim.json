@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "stylus",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "avanov/Plim",
+      "target": "stylus",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "avanov/Plim",
+      "target": "bkad/python-stylus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "avanov/Plim",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "avanov/Plim",
+      "target": "cachix/install-nix-action@v12",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:27:10.993267+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1173
+    },
+    {
+      "path": "package.json",
+      "size": 52
+    },
+    {
+      "path": "requirements.txt",
+      "size": 644
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Plim is a Python port of Ruby's Slim template language built on top of Mako Templates.",
+    "fork": false,
+    "full_name": "avanov/Plim",
+    "html_url": "https://github.com/avanov/Plim",
+    "language": "Python",
+    "pushed_at": "2022-09-16T23:45:20Z",
+    "stargazers_count": 173,
+    "topics": [],
+    "updated_at": "2026-04-07T13:47:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bkad/python-stylus",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

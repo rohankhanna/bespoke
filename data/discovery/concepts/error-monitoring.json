@@ -55,6 +55,18 @@
       "source_repo": "getgrav/grav-plugin-error",
       "status": "candidate-context",
       "text": "![GPM Installation](assets/readme_1.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "getgrav/grav-plugin-error",
       "status": "candidate",
       "text": "![GPM Installation](assets/readme_1.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate",
+      "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "getgrav/grav-plugin-error"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

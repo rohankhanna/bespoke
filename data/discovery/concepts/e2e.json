@@ -362,6 +362,66 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate-context",
       "text": "E2E"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "This is a zero knowledge IBC tendermint light client written using SP1 and ibc-rs (WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "Mihomo Dashboard, The Official One, XD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "comment engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "Voyager \u2014 a beautiful app for Lemmy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -544,6 +604,36 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate",
       "text": "E2E"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate",
+      "text": "e2e"
     }
   ],
   "candidate_related_terms": [
@@ -1115,11 +1205,65 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/e2e.yaml",
       "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "MetaCubeX/metacubexd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "aeharding/voyager"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

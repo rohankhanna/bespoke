@@ -175,6 +175,18 @@
       "source_repo": "andyzeng/tsdf-fusion-python",
       "status": "candidate-context",
       "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "andyzeng/tsdf-fusion-python",
       "status": "candidate",
       "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +448,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/LibreChat"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

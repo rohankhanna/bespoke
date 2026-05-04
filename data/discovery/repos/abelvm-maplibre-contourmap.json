@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "contour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "contourmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "isolines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "isopleth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "maplibre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-contourmap",
+      "target": "maplibre-gl-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:30.523952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5481
+    },
+    {
+      "path": "package.json",
+      "size": 648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contour maps plugin for MapLibreGL JS",
+    "fork": false,
+    "full_name": "AbelVM/maplibre-contourmap",
+    "html_url": "https://github.com/AbelVM/maplibre-contourmap",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-28T09:17:15Z",
+    "stargazers_count": 14,
+    "topics": [
+      "contour",
+      "contourmap",
+      "isolines",
+      "isopleth",
+      "maplibre",
+      "maplibre-gl-js"
+    ],
+    "updated_at": "2026-03-11T13:21:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contour"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contourmap"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isolines"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isopleth"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maplibre"
+    },
+    {
+      "context_snippet": "https://github.com/user-attachments/assets/b468f5f2-26c2-4353-b32d-1d8fb483e847",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maplibre-gl-js"
+    }
+  ]
+}

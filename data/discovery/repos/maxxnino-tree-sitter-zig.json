@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "ziglang/zig-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "maxxnino/good-stuff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "tree-sitter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maxxnino/tree-sitter-zig",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:21:34.058020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1061
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 520
+    },
+    {
+      "path": "package.json",
+      "size": 1094
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "maxxnino/tree-sitter-zig",
+    "html_url": "https://github.com/maxxnino/tree-sitter-zig",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-13T04:52:27Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-29T10:08:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxxnino/good-stuff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ziglang/zig-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

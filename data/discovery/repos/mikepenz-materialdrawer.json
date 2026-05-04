@@ -1,0 +1,513 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mikepenz/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml"
+    },
+    {
+      "component": "mikepenz/gradle-dependency-submission@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "javiersantos/mlmanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "adithya321/companion-for-band",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "citiususc/calendula",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "debo1994/mytimes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "mikepenz/release-changelog-builder-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "mikepenz/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "mikepenz/gradle-dependency-submission@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "Gradle Dependency Submission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "android-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "android-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "drawer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "drawer-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "drawerlayout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "material-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "material-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "material-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "materialdrawer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "mikepenz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer",
+      "target": "navigation-drawer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:58.644811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16549
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5747
+    },
+    {
+      "path": ".github/workflows/gradle-dependency-submission.yml",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/pr-checks.yml",
+      "size": 1015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design.",
+    "fork": false,
+    "full_name": "mikepenz/MaterialDrawer",
+    "html_url": "https://github.com/mikepenz/MaterialDrawer",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-14T04:54:43Z",
+    "stargazers_count": 11649,
+    "topics": [
+      "android",
+      "android-development",
+      "android-library",
+      "android-ui",
+      "drawer",
+      "drawer-support",
+      "drawerlayout",
+      "hacktoberfest",
+      "java",
+      "material-components",
+      "material-design",
+      "material-theme",
+      "material-ui",
+      "materialdrawer",
+      "mikepenz",
+      "navigation-drawer"
+    ],
+    "updated_at": "2026-05-03T19:47:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adithya321/companion-for-band",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "citiususc/calendula",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "debo1994/mytimes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "javiersantos/mlmanager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gradle Dependency Submission",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "term": "Gradle Dependency Submission"
+    },
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-development"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-ui"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawer"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawer-support"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawerlayout"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-components"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-theme"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-ui"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "materialdrawer"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mikepenz"
+    },
+    {
+      "context_snippet": "... the flexible, easy to use, all in one drawer library for your Android project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navigation-drawer"
+    }
+  ]
+}

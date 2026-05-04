@@ -331,6 +331,18 @@
       "source_repo": "Dunamis4tw/generate-geoip-geosite",
       "status": "candidate-context",
       "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/clif",
+      "status": "candidate-context",
+      "text": "Binding generator to wrap C++ for Python using LLVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clif",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "Dunamis4tw/generate-geoip-geosite",
       "status": "candidate",
       "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clif",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -793,11 +811,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/clif"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

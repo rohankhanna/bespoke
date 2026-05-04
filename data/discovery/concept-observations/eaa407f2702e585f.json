@@ -84,7 +84,7 @@
   "normalized_form": "native-image-tests",
   "observation_id": "eaa407f2702e585f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Native Image Tests",
   "source_context_snippet": "Native Image Tests",
   "source_file": ".github/workflows/native-image-test.yml",

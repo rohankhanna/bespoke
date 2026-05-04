@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dhcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-over-quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-over-tor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dns-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "target": "technitium-dns-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:16.182457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17527
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Technitium DNS Server",
+    "fork": false,
+    "full_name": "TechnitiumSoftware/DnsServer",
+    "html_url": "https://github.com/TechnitiumSoftware/DnsServer",
+    "language": "C#",
+    "pushed_at": "2026-05-03T11:35:19Z",
+    "stargazers_count": 8289,
+    "topics": [
+      "cross-platform",
+      "dhcp-server",
+      "dns",
+      "dns-client",
+      "dns-over-https",
+      "dns-over-quic",
+      "dns-over-tls",
+      "dns-over-tor",
+      "dns-server",
+      "dotnet",
+      "privacy",
+      "technitium-dns-server"
+    ],
+    "updated_at": "2026-05-04T08:28:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dhcp-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-client"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-quic"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tls"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tor"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-server"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "technitium-dns-server"
+    }
+  ]
+}

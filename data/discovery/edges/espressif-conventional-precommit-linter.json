@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "compilerla/conventional-pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "espressif/shared-github-dangerjs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "DangerJS Pull Request linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "Sync issue comments to JIRA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issues.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "Sync issues to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "espressif/github-actions/sync_issues_to_jira@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_prs.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "Sync remain PRs to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "Tests Pytest (multi-os)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "conventional-commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "espressif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "espressif/conventional-precommit-linter",
+      "target": "pre-commit-hook",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "espressif/conventional-precommit-linter"
+}

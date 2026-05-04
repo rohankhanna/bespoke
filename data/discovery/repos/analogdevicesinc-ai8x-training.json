@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "analogdevicesinc/maximai_documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "analogdevicesinc/ai8x-synthesis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "analogdevicesinc/max78xxx-refdes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "analogdevicesinc/distiller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "super-linter/super-linter/slim@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "Trigger External Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "analog-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "max78000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "max78002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "maxim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "target": "maxim-integrated",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:00.101345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 209152
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2429
+    },
+    {
+      "path": "requirements.txt",
+      "size": 84
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 1772
+    },
+    {
+      "path": ".github/workflows/no_pull_requests_to_main.yml",
+      "size": 543
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices",
+    "fork": false,
+    "full_name": "analogdevicesinc/ai8x-training",
+    "html_url": "https://github.com/analogdevicesinc/ai8x-training",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-19T08:38:46Z",
+    "stargazers_count": 115,
+    "topics": [
+      "ai",
+      "analog-devices",
+      "artificial-intelligence",
+      "deep-learning",
+      "machine-learning",
+      "max78000",
+      "max78002",
+      "maxim",
+      "maxim-integrated"
+    ],
+    "updated_at": "2026-04-23T04:59:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/ai8x-synthesis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/distiller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/max78xxx-refdes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/maximai_documentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Trigger External Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Trigger External Workflow"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analog-devices"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78000"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78002"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim"
+    },
+    {
+      "context_snippet": "November 7, 2024",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim-integrated"
+    }
+  ]
+}

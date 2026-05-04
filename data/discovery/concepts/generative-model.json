@@ -379,6 +379,30 @@
       "source_repo": "clovaai/generative-evaluation-prdc",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate-context",
+      "text": "A toolkit for computing Fr\u00e9chet Inception Distance (FID) & Fr\u00e9chet Video Distance (FVD) metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate-context",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "![teaser](./resources/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +591,18 @@
       "source_repo": "clovaai/generative-evaluation-prdc",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate",
+      "text": "![teaser](./resources/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -880,11 +916,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "npurson/fid-metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

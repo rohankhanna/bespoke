@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/fast-livo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/fast-livo2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "hku-mars/dyn_small_obs_avoidance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "chaoqinrobotics/lins---lidar-inertial-slam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hku-mars/FAST_LIO",
+      "target": "livox-avia-lidar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:23.932953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A computationally efficient and robust LiDAR-inertial odometry (LIO) package",
+    "fork": false,
+    "full_name": "hku-mars/FAST_LIO",
+    "html_url": "https://github.com/hku-mars/FAST_LIO",
+    "language": "C++",
+    "pushed_at": "2025-01-15T10:23:34Z",
+    "stargazers_count": 4620,
+    "topics": [
+      "lidar-odometry",
+      "livox-avia-lidar"
+    ],
+    "updated_at": "2026-05-04T09:07:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoqinrobotics/lins---lidar-inertial-slam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/dyn_small_obs_avoidance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast-livo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast-livo2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**SLAM:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-odometry"
+    },
+    {
+      "context_snippet": "**SLAM:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livox-avia-lidar"
+    }
+  ]
+}

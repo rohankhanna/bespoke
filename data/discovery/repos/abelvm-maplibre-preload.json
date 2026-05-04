@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AbelVM/maplibre-preload",
+      "target": "abelvm/mapworkbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-preload",
+      "target": "maplibre-gl-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-preload",
+      "target": "preloader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbelVM/maplibre-preload",
+      "target": "webworkers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:32.085306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tiny zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in MapLibreGL JS.",
+    "fork": false,
+    "full_name": "AbelVM/maplibre-preload",
+    "html_url": "https://github.com/AbelVM/maplibre-preload",
+    "language": "JavaScript",
+    "pushed_at": "2025-07-25T07:32:03Z",
+    "stargazers_count": 55,
+    "topics": [
+      "maplibre-gl-js",
+      "preloader",
+      "webworkers"
+    ],
+    "updated_at": "2026-04-22T12:29:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abelvm/mapworkbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maplibre-gl-js"
+    },
+    {
+      "context_snippet": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "preloader"
+    },
+    {
+      "context_snippet": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webworkers"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, small color manipulation and conversion for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022285,
+      "status": "candidate",
+      "text": "panchromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021759,
+      "status": "candidate",
+      "text": "colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010653,
+      "status": "candidate",
+      "text": "colour in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009187,
+      "status": "candidate",
+      "text": "color in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999615,
+      "status": "candidate",
+      "text": "gloss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color",
+      "sense_id": "color#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "distort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25032,
+      "status": "candidate",
+      "text": "semblance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15027,
+      "status": "candidate",
+      "text": "emblazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8019,
+      "status": "candidate",
+      "text": "vividness"
+    }
+  ],
+  "concept_id": "color",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "color",
+  "observation_id": "358e5ab96575d7ad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "color",
+  "source_context_snippet": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies.",
+  "source_file": null,
+  "source_repo": "bgrins/TinyColor",
+  "source_repo_description": "Fast, small color manipulation and conversion for JavaScript"
+}

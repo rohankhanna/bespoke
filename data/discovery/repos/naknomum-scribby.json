@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naknomum/scribby",
+      "target": "drawing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naknomum/scribby",
+      "target": "post-it",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naknomum/scribby",
+      "target": "scribble",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:16.530897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "small javascript library for scribbling on an svg element",
+    "fork": false,
+    "full_name": "naknomum/scribby",
+    "html_url": "https://github.com/naknomum/scribby",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-30T08:56:30Z",
+    "stargazers_count": 65,
+    "topics": [
+      "drawing",
+      "javascript",
+      "post-it",
+      "scribble"
+    ],
+    "updated_at": "2026-01-16T07:36:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawing"
+    },
+    {
+      "context_snippet": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-it"
+    },
+    {
+      "context_snippet": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scribble"
+    }
+  ]
+}

@@ -364,6 +364,18 @@
       "source_repo": "DefTruth/CUDA-Learn-Notes",
       "status": "candidate-context",
       "text": "issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise from the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_glosses": [
@@ -546,6 +558,12 @@
       "source_repo": "DefTruth/CUDA-Learn-Notes",
       "status": "candidate",
       "text": "issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -931,11 +949,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-cli"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

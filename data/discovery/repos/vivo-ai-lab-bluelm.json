@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vivo-ai-lab/BlueLM",
+      "target": "ruixiangcui/agieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vivo-ai-lab/BlueLM",
+      "target": "open-compass/t-eval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:24.627735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15592
+    },
+    {
+      "path": "requirements.txt",
+      "size": 180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BlueLM(\u84dd\u5fc3\u5927\u6a21\u578b): Open large language models developed by vivo AI Lab",
+    "fork": false,
+    "full_name": "vivo-ai-lab/BlueLM",
+    "html_url": "https://github.com/vivo-ai-lab/BlueLM",
+    "language": "Python",
+    "pushed_at": "2024-12-30T02:23:31Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-05-03T13:17:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/t-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruixiangcui/agieval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/pysc2",
+      "target": "deepmind/pysc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "blizzard-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "deepmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "starcraft-ii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2",
+      "target": "starcraft-ii-replays",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:08.190758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8665
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StarCraft II Learning Environment",
+    "fork": false,
+    "full_name": "google-deepmind/pysc2",
+    "html_url": "https://github.com/google-deepmind/pysc2",
+    "language": "Python",
+    "pushed_at": "2024-07-23T16:54:42Z",
+    "stargazers_count": 8280,
+    "topics": [
+      "blizzard-api",
+      "deepmind",
+      "machine-learning",
+      "reinforcement-learning",
+      "starcraft-ii",
+      "starcraft-ii-replays"
+    ],
+    "updated_at": "2026-05-04T07:08:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/pysc2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blizzard-api"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepmind"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starcraft-ii"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starcraft-ii-replays"
+    }
+  ]
+}

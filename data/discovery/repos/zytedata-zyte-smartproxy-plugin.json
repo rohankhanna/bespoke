@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "cross-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "puppeteer-extra-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "cross-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "puppeteer-extra-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "playwright-extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "puppeteer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "target": "puppeteer-extra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:57.077957+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A plugin for playwright-extra and puppeteer-extra to provide Smart Proxy Manager specific functionalities.",
+    "fork": false,
+    "full_name": "zytedata/zyte-smartproxy-plugin",
+    "html_url": "https://github.com/zytedata/zyte-smartproxy-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-28T11:08:07Z",
+    "stargazers_count": 3,
+    "topics": [
+      "playwright",
+      "playwright-extra",
+      "puppeteer",
+      "puppeteer-extra"
+    ],
+    "updated_at": "2023-03-09T04:17:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright-extra"
+    },
+    {
+      "context_snippet": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer"
+    },
+    {
+      "context_snippet": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puppeteer-extra"
+    }
+  ]
+}

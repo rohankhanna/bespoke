@@ -175,6 +175,18 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "JuliaAI/MLJ.jl",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

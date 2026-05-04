@@ -127,6 +127,30 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate-context",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate-context",
+      "text": "A simple, fast, and Codable-compliant linked-list in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate-context",
+      "text": "A Keychain access wrapper in Swift, because the world needs more of these"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

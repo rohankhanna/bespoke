@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pontoon"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Mozilla's Localization Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Pontoon is a translation management system used and developed by the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate",
+      "text": "Pontoon is a translation management system used and developed by the"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045845,
+      "status": "candidate",
+      "text": "pier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033446,
+      "status": "candidate",
+      "text": "juncture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028653,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987489,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29842317,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pontoon",
+  "concept_id": "pontoon",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/pontoon"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pontoon",
+      "sense_id": "pontoon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

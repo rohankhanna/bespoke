@@ -175,6 +175,18 @@
       "source_repo": "trylovetom/clean-code-javascript",
       "status": "candidate-context",
       "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xojs/xo",
+      "status": "candidate-context",
+      "text": "\u2764\ufe0f JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xojs/xo",
+      "status": "candidate-context",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "trylovetom/clean-code-javascript",
       "status": "candidate",
       "text": "> \u539f\u4f5c\uff1a [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xojs/xo",
+      "status": "candidate",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "trylovetom/clean-code-javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xojs/xo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "trylovetom/clean-code-javascript"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

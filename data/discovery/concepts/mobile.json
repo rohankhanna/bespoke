@@ -331,6 +331,18 @@
       "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
       "status": "candidate-context",
       "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-android",
+      "status": "candidate-context",
+      "text": "Processing mode and core library to create Android apps with Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-android",
+      "status": "candidate-context",
+      "text": "Processing for Android"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
       "status": "candidate",
       "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-android",
+      "status": "candidate",
+      "text": "Processing for Android"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +760,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

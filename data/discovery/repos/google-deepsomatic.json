@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "deepsomatic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "genome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "somatic-mutations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/deepsomatic",
+      "target": "somatic-variants",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:18.645117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "r1.10",
+    "description": "DeepSomatic is an analysis pipeline that uses a deep neural network to call somatic variants from tumor-normal and tumor-only sequencing data.",
+    "fork": false,
+    "full_name": "google/deepsomatic",
+    "html_url": "https://github.com/google/deepsomatic",
+    "language": null,
+    "pushed_at": "2026-03-05T23:37:06Z",
+    "stargazers_count": 304,
+    "topics": [
+      "bioinformatics",
+      "deep-learning",
+      "deepsomatic",
+      "dna",
+      "genome",
+      "genomics",
+      "machine",
+      "science",
+      "sequencing",
+      "somatic-mutations",
+      "somatic-variants"
+    ],
+    "updated_at": "2026-05-01T16:48:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepsomatic"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequencing"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "somatic-mutations"
+    },
+    {
+      "context_snippet": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "somatic-variants"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prune old artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "\"Prune old artifacts\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "\"Prune old artifacts\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29404,
+      "status": "candidate",
+      "text": "shredded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29364,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29364,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29364,
+      "status": "candidate",
+      "text": "shred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27325,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prune old artifacts",
+  "concept_id": "prune-old-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/prune_artifacts.yml",
+      "source_repo": "androidx/androidx"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prune old artifacts",
+      "sense_id": "prune-old-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

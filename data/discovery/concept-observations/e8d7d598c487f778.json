@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udde9 Define complex geographic regions by including and excluding country codes and geojson shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "afghanistan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "alien"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "areas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "azerbaijan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "borders"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "countries",
+      "sense_id": "countries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "countries",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "countries",
+  "observation_id": "e8d7d598c487f778",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "countries",
+  "source_context_snippet": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)",
+  "source_file": null,
+  "source_repo": "rapideditor/location-conflation",
+  "source_repo_description": "\ud83e\udde9 Define complex geographic regions by including and excluding country codes and geojson shapes."
+}

@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "utiasasrl/hero_radar_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "utiasasrl/pyboreas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "keenan-burnett/yeti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:25.309737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Radar odometry code which removes motion distortion and Doppler effects from Navtech radar data.",
+    "fork": false,
+    "full_name": "keenan-burnett/yeti_radar_odometry",
+    "html_url": "https://github.com/keenan-burnett/yeti_radar_odometry",
+    "language": "C++",
+    "pushed_at": "2021-12-15T01:15:28Z",
+    "stargazers_count": 154,
+    "topics": [
+      "autonomous-vehicles",
+      "radar",
+      "robotics"
+    ],
+    "updated_at": "2025-10-15T18:53:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keenan-burnett/yeti",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "utiasasrl/hero_radar_odometry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "utiasasrl/pyboreas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar"
+    },
+    {
+      "context_snippet": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

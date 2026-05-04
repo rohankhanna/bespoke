@@ -438,6 +438,18 @@
       "source_repo": "oclif/plugin-version",
       "status": "candidate-context",
       "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "RuboCop's AST extensions and NodePattern functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_glosses": [
@@ -668,6 +680,12 @@
       "source_repo": "oclif/plugin-version",
       "status": "candidate",
       "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop-ast",
+      "status": "candidate",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_related_terms": [
@@ -969,11 +987,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/create-github-release.yml",
       "source_repo": "oclif/plugin-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "rubocop/rubocop-ast"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

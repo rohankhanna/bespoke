@@ -235,6 +235,18 @@
       "source_repo": "apollographql/apollo-client-devtools",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "apollographql/apollo-client-devtools",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +718,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ghostery/ghostery-extension"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

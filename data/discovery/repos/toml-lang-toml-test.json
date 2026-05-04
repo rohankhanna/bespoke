@@ -1,11 +1,11 @@
 {
   "components": [],
   "edges": [],
-  "fetched_at": "2026-04-30T14:53:32.845536+00:00",
+  "fetched_at": "2026-05-04T08:21:42.540229+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 9576
+      "size": 9832
     },
     {
       "path": "go.mod",
@@ -25,10 +25,10 @@
     "full_name": "toml-lang/toml-test",
     "html_url": "https://github.com/toml-lang/toml-test",
     "language": "Go",
-    "pushed_at": "2026-04-14T15:58:08Z",
-    "stargazers_count": 257,
+    "pushed_at": "2026-04-30T18:56:02Z",
+    "stargazers_count": 258,
     "topics": [],
-    "updated_at": "2026-04-14T15:58:12Z"
+    "updated_at": "2026-05-02T06:38:43Z"
   },
   "repo_links": [],
   "terms": []

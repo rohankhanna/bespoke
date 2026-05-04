@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:20:33.559982+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Punycode encoder/decoder",
+    "fork": false,
+    "full_name": "bnoordhuis/punycode",
+    "html_url": "https://github.com/bnoordhuis/punycode",
+    "language": "C",
+    "pushed_at": "2021-11-08T07:22:42Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-26T00:20:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

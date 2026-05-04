@@ -127,6 +127,18 @@
       "source_repo": "flyway/flyway",
       "status": "candidate-context",
       "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate-context",
+      "text": "Offical Flyway Community Supported Database Plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate-context",
+      "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "flyway/flyway",
       "status": "candidate",
       "text": "![Flyway](https://documentation.red-gate.com/download/attachments/138346876/FD?version=3&modificationDate=1633982869952&api=v2 \"Flyway\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flyway/flyway-community-db-support",
+      "status": "candidate",
+      "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +334,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

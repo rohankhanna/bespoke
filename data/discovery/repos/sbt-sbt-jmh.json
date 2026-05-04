@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml"
+    },
+    {
+      "component": "scala-steward-org/scala-steward-action@v2.88.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "ktoso/sbt-jmh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "release-drafter/release-drafter@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "scala-steward-org/scala-steward-action@v2.88.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "sbt/sbt-jmh",
+      "target": "Scala Steward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh",
+      "target": "openjdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-jmh",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:37:54.141297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13255
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 644
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 240
+    },
+    {
+      "path": ".github/workflows/scala-steward.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"Trust no one, bench everything.\" - sbt plugin for JMH (Java Microbenchmark Harness)",
+    "fork": false,
+    "full_name": "sbt/sbt-jmh",
+    "html_url": "https://github.com/sbt/sbt-jmh",
+    "language": "Scala",
+    "pushed_at": "2026-05-03T06:13:24Z",
+    "stargazers_count": 797,
+    "topics": [
+      "benchmark",
+      "openjdk",
+      "scala"
+    ],
+    "updated_at": "2026-05-03T06:13:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ktoso/sbt-jmh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Scala Steward",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "term": "Scala Steward"
+    },
+    {
+      "context_snippet": "sbt-jmh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "sbt-jmh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjdk"
+    },
+    {
+      "context_snippet": "sbt-jmh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

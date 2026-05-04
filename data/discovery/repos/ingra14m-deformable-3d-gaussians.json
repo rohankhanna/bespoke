@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ingra14m/Deformable-3D-Gaussians",
+      "target": "ingra14m/lightweight-deformable-gs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:53.348442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8752
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Official implementation of \"Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction\"",
+    "fork": false,
+    "full_name": "ingra14m/Deformable-3D-Gaussians",
+    "html_url": "https://github.com/ingra14m/Deformable-3D-Gaussians",
+    "language": "Python",
+    "pushed_at": "2024-06-25T03:06:44Z",
+    "stargazers_count": 1224,
+    "topics": [],
+    "updated_at": "2026-05-01T02:31:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ingra14m/lightweight-deformable-gs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

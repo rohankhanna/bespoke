@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:38:01.800306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7757
+    },
+    {
+      "path": "requirements.txt",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python port of Moses tokenizer, truecaser and normalizer",
+    "fork": true,
+    "full_name": "alvations/sacremoses",
+    "html_url": "https://github.com/alvations/sacremoses",
+    "language": null,
+    "pushed_at": "2023-04-27T22:52:29Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-03-13T14:13:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`YApi to TypeScript`\uff08\u7b80\u79f0 `ytt`\uff09 \u662f\u4e00\u4e2a\u4ee3\u7801\u751f\u6210\u5de5\u5177\uff0c\u5176\u53ef\u6839\u636e [YApi](https://github.com/YMFE/yapi) \u6216 [Swagger](https://swagger.io/) \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`YApi to TypeScript`\uff08\u7b80\u79f0 `ytt`\uff09 \u662f\u4e00\u4e2a\u4ee3\u7801\u751f\u6210\u5de5\u5177\uff0c\u5176\u53ef\u6839\u636e [YApi](https://github.com/YMFE/yapi) \u6216 [Swagger](https://swagger.io/) \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interface-builder",
+      "sense_id": "interface-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interface-builder",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interface-builder",
+  "observation_id": "bcfc89b6676a0fdc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "interface-builder",
+  "source_context_snippet": "`YApi to TypeScript`\uff08\u7b80\u79f0 `ytt`\uff09 \u662f\u4e00\u4e2a\u4ee3\u7801\u751f\u6210\u5de5\u5177\uff0c\u5176\u53ef\u6839\u636e [YApi](https://github.com/YMFE/yapi) \u6216 [Swagger](https://swagger.io/) \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002",
+  "source_file": null,
+  "source_repo": "fjc0k/yapi-to-typescript",
+  "source_repo_description": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+}

@@ -1,0 +1,320 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "brave/brave-browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "dandelionsprout/adfilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "badmojr/1hosts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "easylist/easylist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "adware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "anti-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "blacklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "blocklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "domains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "malware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "nextdns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "pi-hole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "pihole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "spyware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "trackers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:25.109742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Setup guide for NextDNS, a DoH proxy with advanced capabilities",
+    "fork": false,
+    "full_name": "yokoffing/NextDNS-Config",
+    "html_url": "https://github.com/yokoffing/NextDNS-Config",
+    "language": null,
+    "pushed_at": "2026-05-01T21:37:17Z",
+    "stargazers_count": 2965,
+    "topics": [
+      "adblock",
+      "ads",
+      "adware",
+      "anti-tracking",
+      "blacklist",
+      "blocklist",
+      "dns",
+      "dns-over-https",
+      "doh",
+      "domains",
+      "firewall",
+      "malware",
+      "nextdns",
+      "pi-hole",
+      "pihole",
+      "privacy",
+      "security",
+      "spyware",
+      "trackers",
+      "tracking"
+    ],
+    "updated_at": "2026-05-03T16:02:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badmojr/1hosts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brave/brave-browser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dandelionsprout/adfilt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "easylist/easylist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adware"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-tracking"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blacklist"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocklist"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domains"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malware"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextdns"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pi-hole"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pihole"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spyware"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trackers"
+    },
+    {
+      "context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

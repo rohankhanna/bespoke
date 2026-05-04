@@ -578,6 +578,18 @@
       "source_repo": "yawkat/lz4-java",
       "status": "candidate-context",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Build documentation"
     }
   ],
   "candidate_glosses": [
@@ -868,6 +880,12 @@
       "source_repo": "yawkat/lz4-java",
       "status": "candidate",
       "text": "Build Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate",
+      "text": "Build documentation"
     }
   ],
   "candidate_related_terms": [
@@ -1523,11 +1541,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "safetensors/safetensors"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "TrueType version of Source Han Sans, Source Han Serif and Source Han Mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -535,6 +535,18 @@
       "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
       "status": "candidate-context",
       "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "status": "candidate-context",
+      "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "status": "candidate-context",
+      "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
       "status": "candidate",
       "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "status": "candidate",
+      "text": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1252,11 +1270,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

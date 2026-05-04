@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger External Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Trigger External Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "Trigger External Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22996,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22973,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22928,
+      "status": "candidate",
+      "text": "generate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22735,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22712,
+      "status": "candidate",
+      "text": "activity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger External Workflow",
+  "concept_id": "trigger-external-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "analogdevicesinc/ai8x-training"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger External Workflow",
+      "sense_id": "trigger-external-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

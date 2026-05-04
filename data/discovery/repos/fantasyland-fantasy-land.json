@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "sanctuary-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "sanctuary-js/sanctuary-identity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "rpominov/static-land",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "sanctuary-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "fantasy-land",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "functional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fantasyland/fantasy-land",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:24:47.786931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35791
+    },
+    {
+      "path": "package.json",
+      "size": 1235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Specification for interoperability of common algebraic structures in JavaScript",
+    "fork": false,
+    "full_name": "fantasyland/fantasy-land",
+    "html_url": "https://github.com/fantasyland/fantasy-land",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-10T21:50:53Z",
+    "stargazers_count": 10234,
+    "topics": [
+      "fantasy-land",
+      "functional",
+      "javascript",
+      "specification"
+    ],
+    "updated_at": "2026-05-03T16:04:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rpominov/static-land",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-identity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-la\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fantasy-land"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-la\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-la\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "flagos-ai/llvm-project",
       "status": "candidate-context",
       "text": "Post-Commit Static Analyzer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/llvm-project",
+      "status": "candidate-context",
+      "text": "ROOT's patches for LLVM and Clang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/llvm-project",
+      "status": "candidate-context",
+      "text": "Post-Commit Static Analyzer"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flagos-ai/llvm-project",
+      "status": "candidate",
+      "text": "Post-Commit Static Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/llvm-project",
       "status": "candidate",
       "text": "Post-Commit Static Analyzer"
     }
@@ -106,11 +124,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
       "source_repo": "flagos-ai/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "root-project/llvm-project"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

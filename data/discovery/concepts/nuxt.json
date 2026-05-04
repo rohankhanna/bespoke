@@ -205,6 +205,18 @@
       "source_repo": "wemake-services/wemake-vue-template",
       "status": "candidate-context",
       "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Vitesse experience for Nuxt 2 and Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate-context",
+      "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
     }
   ],
   "candidate_glosses": [
@@ -309,6 +321,12 @@
       "source_repo": "wemake-services/wemake-vue-template",
       "status": "candidate",
       "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate",
+      "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +556,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "wemake-services/wemake-vue-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

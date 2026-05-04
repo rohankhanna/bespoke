@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create and publish faucet Docker image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate-context",
+      "text": "The Swiss Army knife to power JavaScript based client solutions ranging from Web apps/explorers over browser extensions to server-side clients like faucets/scrapers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate-context",
+      "text": "Create and publish faucet Docker image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate",
+      "text": "Create and publish faucet Docker image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33612,
+      "status": "candidate",
+      "text": "represent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33212,
+      "status": "candidate",
+      "text": "imagine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33212,
+      "status": "candidate",
+      "text": "imagining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33212,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33212,
+      "status": "candidate",
+      "text": "represented"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create and publish faucet Docker image",
+  "concept_id": "create-and-publish-faucet-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/faucet.yml",
+      "source_repo": "cosmos/cosmjs"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create and publish faucet Docker image",
+      "sense_id": "create-and-publish-faucet-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

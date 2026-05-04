@@ -103,6 +103,18 @@
       "source_repo": "solidjs-community/solid-primitives",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "Mihomo Dashboard, The Official One, XD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "solidjs-community/solid-primitives",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +244,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MetaCubeX/metacubexd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

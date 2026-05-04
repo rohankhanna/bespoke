@@ -67,6 +67,18 @@
       "source_repo": "keepassxreboot/keepassxc-browser",
       "status": "candidate-context",
       "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "[![Badge Commits]][Commit Rate]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "keepassxreboot/keepassxc-browser",
       "status": "candidate",
       "text": "Browser extension for [KeePassXC](https://keepassxc.org/) with [native messaging](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate",
+      "text": "[![Badge Commits]][Commit Rate]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "keepassxreboot/keepassxc-browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gorhill/uBlock"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

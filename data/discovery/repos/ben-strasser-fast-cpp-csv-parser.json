@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    },
+    {
+      "component": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
+      "target": "google/clusterfuzzlite/actions/build_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
+      "target": "google/clusterfuzzlite/actions/run_fuzzers@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
+      "target": "ClusterFuzzLite PR fuzzing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:26:40.828135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17015
+    },
+    {
+      "path": ".github/workflows/cflite_pr.yml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "fast-cpp-csv-parser",
+    "fork": false,
+    "full_name": "ben-strasser/fast-cpp-csv-parser",
+    "html_url": "https://github.com/ben-strasser/fast-cpp-csv-parser",
+    "language": "C++",
+    "pushed_at": "2025-02-02T15:51:35Z",
+    "stargazers_count": 2353,
+    "topics": [],
+    "updated_at": "2026-05-02T14:05:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ClusterFuzzLite PR fuzzing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "term": "ClusterFuzzLite PR fuzzing"
+    }
+  ]
+}

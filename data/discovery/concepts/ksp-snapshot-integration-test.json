@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "KSP Snapshot Integration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "KSP Snapshot Integration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "KSP Snapshot Integration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34393,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26149,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19885,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19885,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19885,
+      "status": "candidate",
+      "text": "summary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "KSP Snapshot Integration Test",
+  "concept_id": "ksp-snapshot-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ksp-snapshot-integration.yml",
+      "source_repo": "androidx/androidx"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "KSP Snapshot Integration Test",
+      "sense_id": "ksp-snapshot-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

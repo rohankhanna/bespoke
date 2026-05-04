@@ -415,6 +415,42 @@
       "source_repo": "ptsochantaris/Gladys",
       "status": "candidate-context",
       "text": "Gladys"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "Ghostery Desktop Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arran4/lemmy_notify",
+      "status": "candidate-context",
+      "text": "Lemmy Notification app - for desktop atm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arran4/lemmy_notify",
+      "status": "candidate-context",
+      "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
     }
   ],
   "candidate_glosses": [
@@ -621,6 +657,24 @@
       "source_repo": "ptsochantaris/Gladys",
       "status": "candidate",
       "text": "Gladys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arran4/lemmy_notify",
+      "status": "candidate",
+      "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
     }
   ],
   "candidate_related_terms": [
@@ -1231,11 +1285,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ptsochantaris/Gladys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "arran4/lemmy_notify"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run StatefulDataLoader Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "Run StatefulDataLoader Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate",
+      "text": "Run StatefulDataLoader Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28809,
+      "status": "candidate",
+      "text": "tested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28748,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12409,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run StatefulDataLoader Tests",
+  "concept_id": "run-statefuldataloader-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run StatefulDataLoader Tests",
+      "sense_id": "run-statefuldataloader-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

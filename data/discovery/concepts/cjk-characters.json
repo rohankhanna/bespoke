@@ -19,6 +19,18 @@
       "source_repo": "ichitenfont/inheritedglyphs",
       "status": "candidate-context",
       "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate-context",
+      "text": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate-context",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ichitenfont/inheritedglyphs",
       "status": "candidate",
       "text": "\u50b3\u627f\u5b57\u5f62\u6a19\u6e96\u5316\u6587\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "ichitenfont/inheritedglyphs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "playwright-tests-against-open-vsx.org",
   "observation_id": "ee896a87cbdafd99",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Playwright Tests against open-vsx.org",
   "source_context_snippet": "Playwright Tests against open-vsx.org",
   "source_file": ".github/workflows/playwright.yml",

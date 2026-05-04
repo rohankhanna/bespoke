@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Market-1501 dataset with super-resolution quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Market-1501 dataset with super-resolution quality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Market-1501 dataset with super-resolution quality"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "person-reidentification",
+      "sense_id": "person-reidentification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "person-reidentification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "person-reidentification",
+  "observation_id": "80b75d3e86891bd1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "person-reidentification",
+  "source_context_snippet": "Market-1501 dataset with super-resolution quality",
+  "source_file": null,
+  "source_repo": "layumi/HQ-Market",
+  "source_repo_description": "Market-1501 dataset with super-resolution quality"
+}

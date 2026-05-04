@@ -416,6 +416,18 @@
       "source_repo": "projectfluent/fluent",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avikeid2007/KaiROS-AI",
+      "status": "candidate-context",
+      "text": "KaiROS AI\u2014 Intelligence, Precisely When It Matters. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avikeid2007/KaiROS-AI",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -626,6 +638,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "projectfluent/fluent",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avikeid2007/KaiROS-AI",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -1025,11 +1043,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "meta-pytorch/captum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "beam-community/elixir-companies"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

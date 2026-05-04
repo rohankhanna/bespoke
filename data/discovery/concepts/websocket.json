@@ -535,6 +535,18 @@
       "source_repo": "louislam/dockge",
       "status": "candidate-context",
       "text": "<div align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "louislam/dockge",
       "status": "candidate",
       "text": "<div align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1114,11 +1132,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "erebe/wstunnel"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

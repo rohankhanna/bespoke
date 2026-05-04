@@ -271,6 +271,30 @@
       "source_repo": "snapview/tungstenite-rs",
       "status": "candidate-context",
       "text": "Lightweight stream-based WebSocket implementation for [Rust](https://www.rust-lang.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate-context",
+      "text": "Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate-context",
+      "text": "websocketd"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "snapview/tungstenite-rs",
       "status": "candidate",
       "text": "Lightweight stream-based WebSocket implementation for [Rust](https://www.rust-lang.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate",
+      "text": "websocketd"
     }
   ],
   "candidate_related_terms": [],
@@ -646,11 +682,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vi/websocat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "joewalnes/websocketd"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

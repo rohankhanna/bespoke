@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sync your Lemmy instance accounts. Tries to sync all accounts with the same communities, blocked users, blocked communities, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Feel free to use what I have. I am still working on it though."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Feel free to use what I have. I am still working on it though."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043204,
+      "status": "candidate",
+      "text": "lemuel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043203,
+      "status": "candidate",
+      "text": "lemma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043202,
+      "status": "candidate",
+      "text": "lepel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043201,
+      "status": "candidate",
+      "text": "lambda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043200,
+      "status": "candidate",
+      "text": "lelia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lemmy",
+      "sense_id": "lemmy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lemmy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lemmy",
+  "observation_id": "1b0e88d3083b7d62",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "lemmy",
+  "source_context_snippet": "Feel free to use what I have. I am still working on it though.",
+  "source_file": null,
+  "source_repo": "Ac5000/lemmy_account_sync",
+  "source_repo_description": "Sync your Lemmy instance accounts. Tries to sync all accounts with the same communities, blocked users, blocked communities, etc."
+}

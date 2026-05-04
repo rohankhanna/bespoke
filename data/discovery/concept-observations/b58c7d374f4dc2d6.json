@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Doc QA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Doc QA"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doc QA",
+      "sense_id": "doc-qa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "doc-qa",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "doc-qa",
+  "observation_id": "b58c7d374f4dc2d6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Doc QA",
+  "source_context_snippet": "Doc QA",
+  "source_file": ".github/workflows/doc-qa.yaml",
+  "source_repo": "opendatacube/datacube-core",
+  "source_repo_description": "Open Data Cube analyses continental scale Earth Observation data through time"
+}

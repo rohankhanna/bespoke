@@ -19,6 +19,18 @@
       "source_repo": "amaralibey/Bag-of-Queries",
       "status": "candidate-context",
       "text": "\ud83c\udd95 **[Nov 2024]** [ArXiv paper](https://arxiv.org/abs/2405.07364 \"BoQ paper on ArXiv\") updated with DinoV2 performance (**Section 4.5**)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "amaralibey/Bag-of-Queries",
       "status": "candidate",
       "text": "\ud83c\udd95 **[Nov 2024]** [ArXiv paper](https://arxiv.org/abs/2405.07364 \"BoQ paper on ArXiv\") updated with DinoV2 performance (**Section 4.5**)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "amaralibey/Bag-of-Queries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

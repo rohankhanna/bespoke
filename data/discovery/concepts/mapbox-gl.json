@@ -43,6 +43,18 @@
       "source_repo": "mapbox/mapbox-gl-native-android",
       "status": "candidate-context",
       "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate-context",
+      "text": "Angular binding of mapbox-gl-js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mapbox/mapbox-gl-native-android",
       "status": "candidate",
       "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Wykks/ngx-mapbox-gl",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/ngx-mapbox-gl.svg?style=flat)](https://www.npmjs.com/package/ngx-mapbox-gl)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Wykks/ngx-mapbox-gl"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

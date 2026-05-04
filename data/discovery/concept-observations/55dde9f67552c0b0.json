@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19959508,
+      "status": "candidate",
+      "text": "blacklist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19959507,
+      "status": "candidate",
+      "text": "linklist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19959506,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19959505,
+      "status": "candidate",
+      "text": "hard-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19959504,
+      "status": "candidate",
+      "text": "netblock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blocklist",
+      "sense_id": "blocklist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blocklist",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blocklist",
+  "observation_id": "55dde9f67552c0b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "blocklist",
+  "source_context_snippet": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026",
+  "source_file": null,
+  "source_repo": "yokoffing/NextDNS-Config",
+  "source_repo_description": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+}

@@ -31,6 +31,18 @@
       "source_repo": "angr/cle",
       "status": "candidate-context",
       "text": "Test on macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Test on macOS"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "angr/cle",
+      "status": "candidate",
+      "text": "Test on macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
       "status": "candidate",
       "text": "Test on macOS"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "angr/cle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_on_macos.yml",
+      "source_repo": "cpmech/russell"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

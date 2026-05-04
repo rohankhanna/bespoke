@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "elementwise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "gpu-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "reduce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "sgemm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
+      "target": "sgemv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:24.576367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a series of GPU optimization topics. Here we will introduce  how to optimize the CUDA kernel in detail.  I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.",
+    "fork": false,
+    "full_name": "Liu-xiandong/How_to_optimize_in_GPU",
+    "html_url": "https://github.com/Liu-xiandong/How_to_optimize_in_GPU",
+    "language": "Cuda",
+    "pushed_at": "2023-07-29T05:52:37Z",
+    "stargazers_count": 1296,
+    "topics": [
+      "elementwise",
+      "gpu-acceleration",
+      "high-performance-computing",
+      "hpc",
+      "reduce",
+      "sgemm",
+      "sgemv"
+    ],
+    "updated_at": "2026-05-03T21:12:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elementwise"
+    },
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-acceleration"
+    },
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reduce"
+    },
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sgemm"
+    },
+    {
+      "context_snippet": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sgemv"
+    }
+  ]
+}

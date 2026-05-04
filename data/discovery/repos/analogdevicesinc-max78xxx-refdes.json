@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "analogdevicesinc/maximai_documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maxrefdes178.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "MAXREFDES178",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "analog-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "max78000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "max78002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "maxim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "target": "maxim-integrated",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:33.054937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 371
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/maxrefdes178.yml",
+      "size": 35801
+    },
+    {
+      "path": ".github/workflows/no_pull_requests_to_main.yml",
+      "size": 542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "MAX78000 and MAX78002 Reference Designs",
+    "fork": false,
+    "full_name": "analogdevicesinc/MAX78xxx-RefDes",
+    "html_url": "https://github.com/analogdevicesinc/MAX78xxx-RefDes",
+    "language": "C",
+    "pushed_at": "2024-08-31T00:08:07Z",
+    "stargazers_count": 19,
+    "topics": [
+      "ai",
+      "analog-devices",
+      "artificial-intelligence",
+      "deep-learning",
+      "machine-learning",
+      "max78000",
+      "max78002",
+      "maxim",
+      "maxim-integrated"
+    ],
+    "updated_at": "2025-10-13T09:13:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/maximai_documentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "MAXREFDES178",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maxrefdes178.yml",
+      "term": "MAXREFDES178"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analog-devices"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78000"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78002"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim"
+    },
+    {
+      "context_snippet": "Start here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim-integrated"
+    }
+  ]
+}

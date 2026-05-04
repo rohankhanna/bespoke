@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/distiller",
+      "target": "degirum/pruned-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/distiller",
+      "target": "bfgoldstein/torchfi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/distiller",
+      "target": "daniel-rychlewski/hsi-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/distiller",
+      "target": "cornell-zhang/dnn-quant-ocs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:31.894636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27690
+    },
+    {
+      "path": "requirements.txt",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "pytorch-2.3",
+    "description": "Fork of Neural Network Distiller by Intel AI Lab: a Python package for neural network compression research.  https://nervanasystems.github.io/distiller",
+    "fork": true,
+    "full_name": "analogdevicesinc/distiller",
+    "html_url": "https://github.com/analogdevicesinc/distiller",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-06T14:39:35Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-06-06T14:39:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfgoldstein/torchfi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cornell-zhang/dnn-quant-ocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daniel-rychlewski/hsi-toolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "degirum/pruned-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

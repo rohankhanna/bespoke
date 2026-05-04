@@ -19,6 +19,18 @@
       "source_repo": "PyCQA/pep8-naming",
       "status": "candidate-context",
       "text": "PEP 8 Naming Conventions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/mccabe",
+      "status": "candidate-context",
+      "text": "McCabe complexity checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/mccabe",
+      "status": "candidate-context",
+      "text": "McCabe complexity checker"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "PyCQA/pep8-naming",
       "status": "candidate",
       "text": "PEP 8 Naming Conventions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/mccabe",
+      "status": "candidate",
+      "text": "McCabe complexity checker"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "PyCQA/pep8-naming"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

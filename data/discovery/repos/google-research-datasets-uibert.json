@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:28:35.630946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "It includes two datasets that are used in the downstream tasks for evaluating UIBert: App Similar Element Retrieval data and Visual Item Selection (VIS) data.  Both datasets are written TFRecords.",
+    "fork": false,
+    "full_name": "google-research-datasets/uibert",
+    "html_url": "https://github.com/google-research-datasets/uibert",
+    "language": null,
+    "pushed_at": "2021-08-02T03:52:54Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-05-02T07:56:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Essential set of React Hooks for convenient Web API consumption and state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028438,
+      "status": "candidate",
+      "text": "necessary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028322,
+      "status": "candidate",
+      "text": "requisite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028296,
+      "status": "candidate",
+      "text": "necessity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028173,
+      "status": "candidate",
+      "text": "requirement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027953,
+      "status": "candidate",
+      "text": "must"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "essential",
+      "sense_id": "essential#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 77038,
+      "status": "candidate",
+      "text": "substantial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66039,
+      "status": "candidate",
+      "text": "crucial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48036,
+      "status": "candidate",
+      "text": "important"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40037,
+      "status": "candidate",
+      "text": "indispensable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39032,
+      "status": "candidate",
+      "text": "requisite"
+    }
+  ],
+  "concept_id": "essential",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "essential",
+  "observation_id": "6b25f606283439b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "essential",
+  "source_context_snippet": "Essential set of [React Hooks] for convenient [Web API] consumption and state management.",
+  "source_file": null,
+  "source_repo": "kripod/react-hooks",
+  "source_repo_description": "Essential set of React Hooks for convenient Web API consumption and state management."
+}

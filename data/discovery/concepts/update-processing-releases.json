@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Processing Releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-website",
+      "status": "candidate-context",
+      "text": "Source code for processing.org, the official Processing website with downloads, documentation, tutorials, and learning resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-website",
+      "status": "candidate-context",
+      "text": "Update Processing Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-website",
+      "status": "candidate",
+      "text": "Update Processing Releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18137,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18137,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18087,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18087,
+      "status": "candidate",
+      "text": "refreshed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18087,
+      "status": "candidate",
+      "text": "updating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Processing Releases",
+  "concept_id": "update-processing-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "processing/processing-website"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Processing Releases",
+      "sense_id": "update-processing-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

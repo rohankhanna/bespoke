@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "set-membership"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "set-membership",
+  "concept_id": "set-membership",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "panmari/cuckoofilter"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "set-membership",
+      "sense_id": "set-membership#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

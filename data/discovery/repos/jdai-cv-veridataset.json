@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:27:43.599222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the project page for veri dataset which is a large scale image dataset for vehicle re-identification in urban traffic surveillance.",
+    "fork": false,
+    "full_name": "JDAI-CV/VeRidataset",
+    "html_url": "https://github.com/JDAI-CV/VeRidataset",
+    "language": "MATLAB",
+    "pushed_at": "2022-07-07T06:53:15Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-15T04:28:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

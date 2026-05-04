@@ -45,6 +45,18 @@
       "source_repo": "mswjs/msw",
       "status": "candidate-context",
       "text": "auto"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "mswjs/msw",
       "status": "candidate",
       "text": "auto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
     }
   ],
   "candidate_related_terms": [
@@ -155,11 +173,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/auto.yml",
       "source_repo": "mswjs/msw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/haumea"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

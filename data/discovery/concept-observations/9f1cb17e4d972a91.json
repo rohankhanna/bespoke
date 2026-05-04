@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo is for our IEEE TCSVT paper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo is for our IEEE TCSVT paper"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920849,
+      "status": "candidate",
+      "text": "re-identification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920848,
+      "status": "candidate",
+      "text": "recharacterisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920847,
+      "status": "candidate",
+      "text": "rediscovery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920846,
+      "status": "candidate",
+      "text": "redescription"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19920845,
+      "status": "candidate",
+      "text": "rebadging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reidentification",
+      "sense_id": "reidentification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reidentification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reidentification",
+  "observation_id": "9f1cb17e4d972a91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "reidentification",
+  "source_context_snippet": "This repo is for our IEEE TCSVT paper",
+  "source_file": null,
+  "source_repo": "layumi/Pedestrian_Alignment",
+  "source_repo_description": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification"
+}

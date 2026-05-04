@@ -51,28 +51,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-glow-renderer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-winit-support",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "imgui-rs/imgui-rs",
-      "target": "imgui-rs/imgui-sdl2-support",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "imgui-rs/imgui-rs",
-      "target": "veykril/imgui-dx11-renderer",
+      "target": "yatekii/imgui-wgpu-rs",
       "target_type": "repository"
     },
     {
@@ -125,7 +104,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:44:42.667900+00:00",
+  "fetched_at": "2026-05-04T09:36:10.641564+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -162,22 +141,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-glow-renderer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-sdl2-support",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "imgui-rs/imgui-winit-support",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "veykril/imgui-dx11-renderer",
+      "full_name": "yatekii/imgui-wgpu-rs",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-access-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-access-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "Build Windows CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "Build CI Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "Build Metrics Container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "hendrikmuhs/ccache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "Post-Commit Static Analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-access-review.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-access-review.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "actions/upload-artifact@26f96dfa697d77e81fd5907df203aa23a56210a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-access-review.yml",
+      "source_repo": "root-project/llvm-project",
+      "target": "Commit Access Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:36:31.329160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2243
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 60
+    },
+    {
+      "path": ".github/workflows/build-ci-container-windows.yml",
+      "size": 2811
+    },
+    {
+      "path": ".github/workflows/build-ci-container.yml",
+      "size": 4542
+    },
+    {
+      "path": ".github/workflows/build-metrics-container.yml",
+      "size": 2842
+    },
+    {
+      "path": ".github/workflows/ci-post-commit-analyzer-run.py",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/ci-post-commit-analyzer.yml",
+      "size": 3271
+    },
+    {
+      "path": ".github/workflows/commit-access-review.py",
+      "size": 12421
+    },
+    {
+      "path": ".github/workflows/commit-access-review.yml",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "ROOT-llvm20",
+    "description": "ROOT's patches for LLVM and Clang",
+    "fork": true,
+    "full_name": "root-project/llvm-project",
+    "html_url": "https://github.com/root-project/llvm-project",
+    "language": "LLVM",
+    "pushed_at": "2026-04-09T09:57:08Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-09T10:03:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Windows CI Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "term": "Build Windows CI Container"
+    },
+    {
+      "context_snippet": "Build CI Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "term": "Build CI Container"
+    },
+    {
+      "context_snippet": "Build Metrics Container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "term": "Build Metrics Container"
+    },
+    {
+      "context_snippet": "Post-Commit Static Analyzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "term": "Post-Commit Static Analyzer"
+    },
+    {
+      "context_snippet": "Commit Access Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-access-review.yml",
+      "term": "Commit Access Review"
+    }
+  ]
+}

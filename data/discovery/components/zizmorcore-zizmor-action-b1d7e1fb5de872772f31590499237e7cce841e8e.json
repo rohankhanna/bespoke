@@ -1,7 +1,7 @@
 {
   "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -152,6 +152,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "gofrs/flock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray"
     }
   ]
 }

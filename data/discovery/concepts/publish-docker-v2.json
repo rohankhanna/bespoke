@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Docker v2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erew123/alltalk_tts",
+      "status": "candidate-context",
+      "text": "AllTalk is based on the Coqui TTS engine, similar to the Coqui_tts extension for Text generation webUI, however supports a variety of advanced features, such as a settings page, low VRAM support, DeepSpeed, narrator, model finetuning, custom models, wav file maintenance. It can also be used with 3rd Party software via JSON calls. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erew123/alltalk_tts",
+      "status": "candidate-context",
+      "text": "Publish Docker v2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erew123/alltalk_tts",
+      "status": "candidate",
+      "text": "Publish Docker v2"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11126,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10305,
+      "status": "candidate",
+      "text": "original"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9649,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9649,
+      "status": "candidate",
+      "text": "blacksmith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9649,
+      "status": "candidate",
+      "text": "detective"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Docker v2",
+  "concept_id": "publish-docker-v2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish-docker-v2.yml",
+      "source_repo": "erew123/alltalk_tts"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Docker v2",
+      "sense_id": "publish-docker-v2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

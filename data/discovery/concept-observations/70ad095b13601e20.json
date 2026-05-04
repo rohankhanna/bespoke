@@ -84,7 +84,7 @@
   "normalized_form": "windows-ci",
   "observation_id": "70ad095b13601e20",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Windows CI",
   "source_context_snippet": "Windows CI",
   "source_file": ".github/workflows/windows-ci.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of Trajectory Transformer with attention caching and batched beam search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![video](media/halfcheetah.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![video](media/halfcheetah.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reinforcement-learning",
+      "sense_id": "reinforcement-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reinforcement-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reinforcement-learning",
+  "observation_id": "d4b74083321088c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "reinforcement-learning",
+  "source_context_snippet": "![video](media/halfcheetah.gif)",
+  "source_file": null,
+  "source_repo": "Howuhh/faster-trajectory-transformer",
+  "source_repo_description": "Implementation of Trajectory Transformer with attention caching and batched beam search"
+}

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/release.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/test.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure/data.fressian",
+      "target": "datomic/fressian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "Build API Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "clojure/build.ci/.github/workflows/release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "clojure/build.ci/.github/workflows/test.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/data.fressian",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:16:09.281272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2183
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 226
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/snapshot.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Read and write Fressian data from Clojure",
+    "fork": false,
+    "full_name": "clojure/data.fressian",
+    "html_url": "https://github.com/clojure/data.fressian",
+    "language": "Clojure",
+    "pushed_at": "2026-01-05T22:44:18Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-01-05T22:44:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datomic/fressian",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build API Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Build API Docs"
+    },
+    {
+      "context_snippet": "Release on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on demand"
+    },
+    {
+      "context_snippet": "Snapshot on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "term": "Snapshot on demand"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

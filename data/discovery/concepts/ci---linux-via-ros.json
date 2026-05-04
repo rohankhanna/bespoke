@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Linux via ROS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "CI - Linux via ROS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate",
+      "text": "CI - Linux via ROS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13766,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13466,
+      "status": "candidate",
+      "text": "nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13466,
+      "status": "candidate",
+      "text": "wine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12974,
+      "status": "candidate",
+      "text": "aire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Linux via ROS",
+  "concept_id": "ci---linux-via-ros",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ros_ci.yml",
+      "source_repo": "stack-of-tasks/pinocchio"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Linux via ROS",
+      "sense_id": "ci---linux-via-ros#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,18 @@
       "source_repo": "hoshsadiq/adblock-nocoin-list",
       "status": "candidate-context",
       "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "Lean and powerful adblocking solution for OpenWrt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hoshsadiq/adblock-nocoin-list",
       "status": "candidate",
       "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "hoshsadiq/adblock-nocoin-list"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

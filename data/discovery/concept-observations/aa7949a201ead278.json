@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A toolkit for computing Fr\u00e9chet Inception Distance (FID) & Fr\u00e9chet Video Distance (FVD) metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evaluation-metrics",
+      "sense_id": "evaluation-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "evaluation-metrics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evaluation-metrics",
+  "observation_id": "aa7949a201ead278",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "evaluation-metrics",
+  "source_context_snippet": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation.",
+  "source_file": null,
+  "source_repo": "npurson/fid-metrics",
+  "source_repo_description": "A toolkit for computing Fr\u00e9chet Inception Distance (FID) & Fr\u00e9chet Video Distance (FVD) metrics."
+}

@@ -45,6 +45,18 @@
       "source_repo": "QwenLM/Qwen3-TTS",
       "status": "candidate-context",
       "text": "'translator'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "[Try it online!](https://libretranslate.com) | [API Docs](https://docs.libretranslate.com) | [Community Forum](https://community.libretranslate.com/) | [Bluesky](https://bsky.app/profile/libretranslate.com)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "QwenLM/Qwen3-TTS",
       "status": "candidate",
       "text": "'translator'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate",
+      "text": "[Try it online!](https://libretranslate.com) | [API Docs](https://docs.libretranslate.com) | [Community Forum](https://community.libretranslate.com/) | [Bluesky](https://bsky.app/profile/libretranslate.com)"
     }
   ],
   "candidate_related_terms": [
@@ -141,11 +159,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/translate.yaml",
       "source_repo": "QwenLM/Qwen3-TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "LibreTranslate/LibreTranslate"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

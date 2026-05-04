@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "ahangchen/rank-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "d-x-y/caffe-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "layumi/dukemtmc-reid_evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Person-reID-verification",
+      "target": "layumi/image-text-embedding",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:27:37.063103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":koala: (pytorch version) TOMM2017 A Discriminatively Learned CNN Embedding for Person Re-identification :koala:",
+    "fork": false,
+    "full_name": "layumi/Person-reID-verification",
+    "html_url": "https://github.com/layumi/Person-reID-verification",
+    "language": "Python",
+    "pushed_at": "2025-02-19T08:42:42Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2025-04-07T07:29:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahangchen/rank-reid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d-x-y/caffe-reid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/dukemtmc-reid_evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/image-text-embedding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

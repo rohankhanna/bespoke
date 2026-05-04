@@ -38,6 +38,18 @@
       "source_repo": "igor-petruk/scriptisto",
       "status": "candidate-context",
       "text": "On Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2ndalpha/gasmask",
+      "status": "candidate-context",
+      "text": "Hosts file manager for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2ndalpha/gasmask",
+      "status": "candidate-context",
+      "text": "\"on-push\""
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "igor-petruk/scriptisto",
       "status": "candidate",
       "text": "On Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2ndalpha/gasmask",
+      "status": "candidate",
+      "text": "\"on-push\""
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/on-push.yml",
       "source_repo": "igor-petruk/scriptisto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "2ndalpha/gasmask"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

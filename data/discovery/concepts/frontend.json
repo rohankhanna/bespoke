@@ -280,6 +280,42 @@
       "source_repo": "bencodezen/vue-enterprise-boilerplate",
       "status": "candidate-context",
       "text": "This repo is currently in active development and considered in alpha release."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Mozilla's Localization Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Frontend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "comment engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "frontend"
     }
   ],
   "candidate_glosses": [
@@ -420,6 +456,24 @@
       "source_repo": "bencodezen/vue-enterprise-boilerplate",
       "status": "candidate",
       "text": "This repo is currently in active development and considered in alpha release."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate",
+      "text": "Frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate",
+      "text": "frontend"
     }
   ],
   "candidate_related_terms": [
@@ -661,11 +715,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "bencodezen/vue-enterprise-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bencodezen/vue-enterprise-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci-frontend.yml",
+      "source_repo": "umputun/remark42"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

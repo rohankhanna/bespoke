@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/livox_ros_driver",
+      "target": "livox-sdk/livox-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver",
+      "target": "livoxtech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:24.701798+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Livox device driver under ros, support Lidar Mid-40, Mid-70, Tele-15, Horizon, Avia.",
+    "fork": false,
+    "full_name": "Livox-SDK/livox_ros_driver",
+    "html_url": "https://github.com/Livox-SDK/livox_ros_driver",
+    "language": "C++",
+    "pushed_at": "2024-01-25T18:01:29Z",
+    "stargazers_count": 487,
+    "topics": [
+      "livoxtech"
+    ],
+    "updated_at": "2026-04-22T08:00:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livox-sdk/livox-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "livox_ros_driver is a new ROS package, specially used to connect LiDAR products produced by Livox. The driver can be run under ubuntu 14.04/16.04/18.04 operating system with ROS environment (indigo, kinetic, melodic) installed. Tested hardware platforms that can run livox_ros_dr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livoxtech"
+    }
+  ]
+}

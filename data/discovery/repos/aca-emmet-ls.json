@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emmet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-languageserver-textdocument",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aca/emmet-ls",
+      "target": "neoclide/coc-emmet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aca/emmet-ls",
+      "target": "emmetio/emmet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aca/emmet-ls",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aca/emmet-ls",
+      "target": "emmet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aca/emmet-ls",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aca/emmet-ls",
+      "target": "vscode-languageserver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aca/emmet-ls",
+      "target": "vscode-languageserver-textdocument",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:32:56.256726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1343
+    },
+    {
+      "path": "package.json",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emmet support based on LSP.",
+    "fork": false,
+    "full_name": "aca/emmet-ls",
+    "html_url": "https://github.com/aca/emmet-ls",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-08T04:15:33Z",
+    "stargazers_count": 406,
+    "topics": [],
+    "updated_at": "2026-04-27T21:05:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emmetio/emmet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neoclide/coc-emmet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

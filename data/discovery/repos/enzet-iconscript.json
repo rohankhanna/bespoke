@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/iconscript",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/iconscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/iconscript",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/iconscript",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/iconscript",
+      "target": "antlr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/iconscript",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/iconscript",
+      "target": "paperscript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:01.902255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2335
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generating icons using text commands",
+    "fork": false,
+    "full_name": "enzet/iconscript",
+    "html_url": "https://github.com/enzet/iconscript",
+    "language": "Rust",
+    "pushed_at": "2026-01-25T20:20:30Z",
+    "stargazers_count": 2,
+    "topics": [
+      "antlr",
+      "icons",
+      "paperscript"
+    ],
+    "updated_at": "2026-01-25T20:20:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antlr"
+    },
+    {
+      "context_snippet": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paperscript"
+    }
+  ]
+}

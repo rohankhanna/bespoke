@@ -84,7 +84,7 @@
   "normalized_form": "tox",
   "observation_id": "f2acfbcadc98a3c0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "tox",
   "source_context_snippet": "tox",
   "source_file": ".github/workflows/tox.yml",

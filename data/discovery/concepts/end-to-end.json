@@ -79,6 +79,18 @@
       "source_repo": "hustvl/Senna",
       "status": "candidate-context",
       "text": "<div align =\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "![alt text](assets/banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "hustvl/Senna",
       "status": "candidate",
       "text": "<div align =\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate",
+      "text": "![alt text](assets/banner.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

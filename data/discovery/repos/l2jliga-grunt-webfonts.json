@@ -1,0 +1,412 @@
+{
+  "components": [
+    {
+      "component": "async",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg2ttf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svgicons2svgfont",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "temp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ttf2eot",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ttf2woff",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ttf2woff2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/lodash",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "sapegin/grunt-webfont",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "fontello/svg2ttf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "svg2ttf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "svgicons2svgfont",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "temp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "ttf2eot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "ttf2woff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "ttf2woff2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "@types/grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "@types/lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "grunt-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "custom-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "font-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "grunt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "svg-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "L2jLiga/grunt-webfonts",
+      "target": "webfonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:49.655404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19022
+    },
+    {
+      "path": "package.json",
+      "size": 1229
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SVG to webfont converter for Grunt",
+    "fork": false,
+    "full_name": "L2jLiga/grunt-webfonts",
+    "html_url": "https://github.com/L2jLiga/grunt-webfonts",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-18T04:04:10Z",
+    "stargazers_count": 10,
+    "topics": [
+      "custom-fonts",
+      "font-generator",
+      "grunt",
+      "javascript",
+      "svg-font",
+      "webfonts"
+    ],
+    "updated_at": "2026-03-06T07:18:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fontello/svg2ttf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sapegin/grunt-webfont",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom-fonts"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font-generator"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grunt"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-font"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/grunt-webfonts.svg?colorB=brightgreen)](https://www.npmjs.com/package/grunt-webfonts)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webfonts"
+    }
+  ]
+}

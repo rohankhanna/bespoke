@@ -19,12 +19,30 @@
       "source_repo": "appsignal/appsignal-elixir",
       "status": "candidate-context",
       "text": "\"Update agent release files\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\"Update agent release files\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "appsignal/appsignal-elixir",
+      "status": "candidate",
+      "text": "\"Update agent release files\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate",
       "text": "\"Update agent release files\""
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/agent_release.yml",
       "source_repo": "appsignal/appsignal-elixir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/agent_release.yml",
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [],
   "lexical_status": "unresolved",
   "possible_senses": [

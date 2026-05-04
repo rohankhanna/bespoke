@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/filterlists",
+      "target": "adguardteam/adguardextra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/filterlists",
+      "target": "cbuijs/hagezi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/filterlists",
+      "target": "adguardteam/scriptlets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yokoffing/filterlists",
+      "target": "badmojr/1hosts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ad-block",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "adblock-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "adblocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "adblocker-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "annoyances",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "anti-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "brave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "brave-ad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ublock-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ublock-filters-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ublock-origin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ublock-origin-filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ubo-filters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ubo-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists",
+      "target": "ubo-ublock-origin-fast-adblocking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:21.512159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of blocklists to fill in the gaps",
+    "fork": false,
+    "full_name": "yokoffing/filterlists",
+    "html_url": "https://github.com/yokoffing/filterlists",
+    "language": null,
+    "pushed_at": "2026-05-01T21:36:15Z",
+    "stargazers_count": 3313,
+    "topics": [
+      "ad-block",
+      "adblock",
+      "adblock-list",
+      "adblocker",
+      "adblocker-lists",
+      "adguard",
+      "annoyances",
+      "anti-tracking",
+      "brave",
+      "brave-ad",
+      "privacy",
+      "security",
+      "tracking",
+      "ublock-filter",
+      "ublock-filters-rules",
+      "ublock-origin",
+      "ublock-origin-filters",
+      "ubo-filters",
+      "ubo-resources",
+      "ubo-ublock-origin-fast-adblocking"
+    ],
+    "updated_at": "2026-05-04T02:21:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/adguardextra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/scriptlets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badmojr/1hosts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbuijs/hagezi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ad-block"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock-list"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocker"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocker-lists"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annoyances"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-tracking"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brave"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brave-ad"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock-filter"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock-filters-rules"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock-origin"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ublock-origin-filters"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubo-filters"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubo-resources"
+    },
+    {
+      "context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubo-ublock-origin-fast-adblocking"
+    }
+  ]
+}

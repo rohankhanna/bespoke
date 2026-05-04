@@ -190,6 +190,18 @@
       "source_repo": "ldc-developers/ldc",
       "status": "candidate-context",
       "text": "LDC \u2013 the LLVM-based D Compiler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "The cling C++ interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "ldc-developers/ldc",
       "status": "candidate",
       "text": "LDC \u2013 the LLVM-based D Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_related_terms": [
@@ -498,11 +516,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ldc-developers/ldc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "root-project/cling"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

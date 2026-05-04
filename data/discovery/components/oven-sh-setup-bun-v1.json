@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v1",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deployment-vite.yml",
       "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry-test.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compressedSize.yml",
+      "source_repo": "react-hook-form/resolvers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "react-hook-form/resolvers"
     }
   ]
 }

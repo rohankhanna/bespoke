@@ -7195,6 +7195,234 @@
       "source_repo": "layumi/AICIty-reID-2020",
       "status": "candidate-context",
       "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iliasprc/COVIDNet",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of COVID-Net https://github.com/lindawangg/COVID-Net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iliasprc/COVIDNet",
+      "status": "candidate-context",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "Practice on cifar100(ResNet, DenseNet, VGG, GoogleNet, InceptionV3, InceptionV4, Inception-ResNetv2, Xception, Resnet In Resnet, ResNext,ShuffleNet, ShuffleNetv2, MobileNet, MobileNetv2, SqueezeNet, NasNet, Residual Attention Network, SENet, WideResNet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Implicit Behavioral Cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate-context",
+      "text": "Reusable BatchBALD implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate-context",
+      "text": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "Bayesian active learning library for research and industrial usecases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate-context",
+      "text": "An Out-of-the-Box Replication of GANimation using PyTorch, pretrained weights are available!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "Vector (and Scalar) Quantization, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for \"Parallel Sampling of Diffusion Models\", NeurIPS 2023 Spotlight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate-context",
+      "text": "LSTM and QRNN Language Model Toolkit for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate-context",
+      "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Deep SAD, a deep Semi-supervised Anomaly Detection method."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate-context",
+      "text": "[TMLR 2022] Geometric Flow Network for 3D Point Cloud Semantic Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate-context",
+      "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "Fully featured implementation of Routing Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "Sinkhorn Transformer - Practical implementation of Sparse Sinkhorn Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Q-Diffusion: Quantizing Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
     }
   ],
   "candidate_glosses": [
@@ -10791,6 +11019,120 @@
       "source_repo": "layumi/AICIty-reID-2020",
       "status": "candidate",
       "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iliasprc/COVIDNet",
+      "status": "candidate",
+      "text": "[![Contributors][contributors-shield]][contributors-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate",
+      "text": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/ganimation_replicate",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate",
+      "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haibo-qiu/GFNet",
+      "status": "candidate",
+      "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate",
+      "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -17530,11 +17872,425 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukasruff/Deep-SAD-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "haibo-qiu/GFNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/routing-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

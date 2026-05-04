@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DrTimothyAldenDavis/GraphBLAS",
+      "target": "graphblas/graphblas-pointers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:36.790459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "SuiteSparse:GraphBLAS: graph algorithms in the language of linear algebra.  For production: (default) STABLE branch.  Code development: ask me for the right branch before submitting a PR. video intro: https://youtu.be/Tj5y6d7FegI . No AI generated code",
+    "fork": false,
+    "full_name": "DrTimothyAldenDavis/GraphBLAS",
+    "html_url": "https://github.com/DrTimothyAldenDavis/GraphBLAS",
+    "language": "C",
+    "pushed_at": "2026-05-01T19:38:50Z",
+    "stargazers_count": 417,
+    "topics": [],
+    "updated_at": "2026-04-29T23:25:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphblas/graphblas-pointers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

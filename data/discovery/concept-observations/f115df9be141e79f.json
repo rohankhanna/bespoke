@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A computationally efficient and robust LiDAR-inertial odometry (LIO) package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**SLAM:**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**SLAM:**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lidar-odometry",
+      "sense_id": "lidar-odometry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lidar-odometry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lidar-odometry",
+  "observation_id": "f115df9be141e79f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "lidar-odometry",
+  "source_context_snippet": "**SLAM:**",
+  "source_file": null,
+  "source_repo": "hku-mars/FAST_LIO",
+  "source_repo_description": "A computationally efficient and robust LiDAR-inertial odometry (LIO) package"
+}

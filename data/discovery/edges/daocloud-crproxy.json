@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/crproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-go-build-cross-plantform@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-upload-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-upload-release-images@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "crproxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "DaoCloud/crproxy"
+}

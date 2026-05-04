@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2492,6 +2492,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "gofrs/flock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-last-release.yml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-additional.yaml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images-base-v1.17.yaml",
+      "source_repo": "cilium/cilium"
     }
   ]
 }

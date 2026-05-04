@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ebpf_modules.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ebpf_modules.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic_validations.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ebpf_modules.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ebpf_modules.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ebpf_modules.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "CI - build eBPF modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generic_validations.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generic_validations.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "Test resources validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "evilsocket/opensnitch",
+      "target": "Build status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "application-firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "data-breach",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "evilsocket/opensnitch",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:36.634939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4366
+    },
+    {
+      "path": ".github/workflows/build_ebpf_modules.yml",
+      "size": 2299
+    },
+    {
+      "path": ".github/workflows/generic_validations.yml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+    "fork": false,
+    "full_name": "evilsocket/opensnitch",
+    "html_url": "https://github.com/evilsocket/opensnitch",
+    "language": "Python",
+    "pushed_at": "2026-04-17T22:35:31Z",
+    "stargazers_count": 13576,
+    "topics": [
+      "application-firewall",
+      "data-breach",
+      "firewall",
+      "linux",
+      "networking",
+      "security"
+    ],
+    "updated_at": "2026-05-04T09:53:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI - build eBPF modules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ebpf_modules.yml",
+      "term": "CI - build eBPF modules"
+    },
+    {
+      "context_snippet": "Test resources validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generic_validations.yml",
+      "term": "Test resources validation"
+    },
+    {
+      "context_snippet": "Build status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Build status"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "application-firewall"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-breach"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:35:46.055331+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Git repo for Bio::DB::HTS module on CPAN, providing Perl links into HTSlib",
+    "fork": false,
+    "full_name": "Ensembl/Bio-DB-HTS",
+    "html_url": "https://github.com/Ensembl/Bio-DB-HTS",
+    "language": "Perl",
+    "pushed_at": "2025-01-07T12:31:22Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-01-26T12:43:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

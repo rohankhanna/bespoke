@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "layumi/person-reid-3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "bidirectional-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "cross-modal-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "cross-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "language-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "matconvnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding",
+      "target": "visual-semantic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:55.436106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TOMM2020 Dual-Path Convolutional Image-Text Embedding with Instance Loss  :feet:  https://arxiv.org/abs/1711.05535",
+    "fork": false,
+    "full_name": "layumi/Image-Text-Embedding",
+    "html_url": "https://github.com/layumi/Image-Text-Embedding",
+    "language": "MATLAB",
+    "pushed_at": "2025-01-12T05:59:17Z",
+    "stargazers_count": 298,
+    "topics": [
+      "bidirectional-retrieval",
+      "cross-modal-retrieval",
+      "cross-modality",
+      "image-retrieval",
+      "image-search",
+      "language-retrieval",
+      "matconvnet",
+      "matlab",
+      "person-reidentification",
+      "visual-semantic"
+    ],
+    "updated_at": "2026-03-27T04:21:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/person-reid-3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bidirectional-retrieval"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-modal-retrieval"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-modality"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-retrieval"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matconvnet"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-semantic"
+    }
+  ]
+}

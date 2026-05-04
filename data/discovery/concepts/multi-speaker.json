@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-speaker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "![alt text](assets/banner.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate",
+      "text": "![alt text](assets/banner.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-speaker",
+  "concept_id": "multi-speaker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-speaker",
+      "sense_id": "multi-speaker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

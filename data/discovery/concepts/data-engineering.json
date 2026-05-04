@@ -139,6 +139,18 @@
       "source_repo": "hyparam/icebird",
       "status": "candidate-context",
       "text": "![Iceberg Icebird](icebird.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "A curated, but incomplete, list of data-centric AI resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "hyparam/icebird",
       "status": "candidate",
       "text": "![Iceberg Icebird](icebird.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "hyparam/icebird"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

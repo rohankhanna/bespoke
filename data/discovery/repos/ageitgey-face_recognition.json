@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "m-i-k-i/face_recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "audreyr/cookiecutter-pypackage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ageitgey/face_recognition",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ageitgey/face_recognition",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ageitgey/face_recognition",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ageitgey/face_recognition",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:22.956741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19402
+    },
+    {
+      "path": "README.rst",
+      "size": 17523
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1444
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 50
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The world's simplest facial recognition api for Python and the command line",
+    "fork": false,
+    "full_name": "ageitgey/face_recognition",
+    "html_url": "https://github.com/ageitgey/face_recognition",
+    "language": "Python",
+    "pushed_at": "2024-08-21T06:22:36Z",
+    "stargazers_count": 56370,
+    "topics": [
+      "face-detection",
+      "face-recognition",
+      "machine-learning",
+      "python"
+    ],
+    "updated_at": "2026-05-04T04:09:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter-pypackage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "m-i-k-i/face_recognition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

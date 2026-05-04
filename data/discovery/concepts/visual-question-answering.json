@@ -103,6 +103,18 @@
       "source_repo": "lupantech/MathVista",
       "status": "candidate-context",
       "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for the A-OKVQA dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "lupantech/MathVista",
       "status": "candidate",
       "text": "![MathQA](https://img.shields.io/badge/Task-MathQA-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "lupantech/MathVista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

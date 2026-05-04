@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms",
+      "target": "sampling-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:20.028953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation for \"Parallel Sampling of Diffusion Models\", NeurIPS 2023 Spotlight",
+    "fork": false,
+    "full_name": "AndyShih12/paradigms",
+    "html_url": "https://github.com/AndyShih12/paradigms",
+    "language": "Python",
+    "pushed_at": "2023-10-13T04:51:19Z",
+    "stargazers_count": 155,
+    "topics": [
+      "diffusion-models",
+      "pytorch",
+      "sampling-methods",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-02-23T09:15:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sampling-methods"
+    },
+    {
+      "context_snippet": "This repository contains code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

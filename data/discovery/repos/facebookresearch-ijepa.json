@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:25.595951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official codebase for I-JEPA, the Image-based Joint-Embedding Predictive Architecture. First outlined in the CVPR paper, \"Self-supervised learning from images with a joint-embedding predictive architecture.\"",
+    "fork": false,
+    "full_name": "facebookresearch/ijepa",
+    "html_url": "https://github.com/facebookresearch/ijepa",
+    "language": "Python",
+    "pushed_at": "2024-05-08T19:41:39Z",
+    "stargazers_count": 3351,
+    "topics": [],
+    "updated_at": "2026-05-04T06:50:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

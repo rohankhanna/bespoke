@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Country specific geo/transport related properties"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "General purpose Gradle CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "General purpose Gradle CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27218,
+      "status": "candidate",
+      "text": "jeep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26442,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26042,
+      "status": "candidate",
+      "text": "effected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26042,
+      "status": "candidate",
+      "text": "effecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26042,
+      "status": "candidate",
+      "text": "exposition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "General purpose Gradle CI",
+      "sense_id": "general-purpose-gradle-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "general-purpose-gradle-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "general-purpose-gradle-ci",
+  "observation_id": "a84b581c31416826",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "General purpose Gradle CI",
+  "source_context_snippet": "General purpose Gradle CI",
+  "source_file": ".github/workflows/gradle.yml",
+  "source_repo": "simonpoole/geocontext",
+  "source_repo_description": "Country specific geo/transport related properties"
+}

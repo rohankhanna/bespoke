@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "material-design-icons"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "material-design-icons",
+  "concept_id": "material-design-icons",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "marella/material-symbols"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "material-design-icons",
+      "sense_id": "material-design-icons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,250 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "borglab/gtsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "robustfieldautonomylab/jackal_dataset_20170608",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "irapkaist/sc-lego-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "facontidavide/lego-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "ieee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "iros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "isam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "jackal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "target": "velodyne",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:08.631368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain",
+    "fork": false,
+    "full_name": "RobustFieldAutonomyLab/LeGO-LOAM",
+    "html_url": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM",
+    "language": "C++",
+    "pushed_at": "2024-08-17T07:20:25Z",
+    "stargazers_count": 2723,
+    "topics": [
+      "gtsam",
+      "ieee",
+      "imu",
+      "iros",
+      "isam",
+      "jackal",
+      "lidar",
+      "lidar-odometry",
+      "loam",
+      "mapping",
+      "odometry",
+      "ros",
+      "slam",
+      "ugv",
+      "velodyne"
+    ],
+    "updated_at": "2026-04-30T10:38:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borglab/gtsam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facontidavide/lego-loam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/sc-lego-loam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robustfieldautonomylab/jackal_dataset_20170608",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtsam"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ieee"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iros"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isam"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackal"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-odometry"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne"
+    }
+  ]
+}

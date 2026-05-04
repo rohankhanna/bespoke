@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dawnvince/EasyTSAD",
+      "target": "cstcloudops/datasets.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:33:00.849663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20638
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for easy running and evaluating your TSAD algorithm.",
+    "fork": false,
+    "full_name": "dawnvince/EasyTSAD",
+    "html_url": "https://github.com/dawnvince/EasyTSAD",
+    "language": "Python",
+    "pushed_at": "2025-05-12T05:14:58Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-05-03T07:04:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cstcloudops/datasets.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -181,6 +181,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "yitu-opensource/T2T-ViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model"
     }
   ],
   "term": "vision-transformer"

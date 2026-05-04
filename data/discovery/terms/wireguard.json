@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "xjasonlyu/tun2socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "erebe/wstunnel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/firestack"
     }
   ],
   "term": "wireguard"

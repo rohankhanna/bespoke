@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amoshydra/draw",
+      "target": "amoshydra-profile-category-web-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amoshydra/draw",
+      "target": "canvas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amoshydra/draw",
+      "target": "drawingboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amoshydra/draw",
+      "target": "pressure-sensing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amoshydra/draw",
+      "target": "stylus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:14.015712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Web canvas that support pen pressure",
+    "fork": false,
+    "full_name": "amoshydra/draw",
+    "html_url": "https://github.com/amoshydra/draw",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-05T10:10:45Z",
+    "stargazers_count": 309,
+    "topics": [
+      "amoshydra-profile-category-web-app",
+      "canvas",
+      "drawingboard",
+      "pressure-sensing",
+      "stylus"
+    ],
+    "updated_at": "2025-12-24T02:15:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amoshydra-profile-category-web-app"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "canvas"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawingboard"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pressure-sensing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylus"
+    }
+  ]
+}

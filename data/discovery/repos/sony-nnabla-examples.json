@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/nnabla-examples",
+      "target": "sony/nnabla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sony/nnabla-examples",
+      "target": "sony/ai-research-code",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:41.157420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21456
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neural Network Libraries https://github.com/sony/nnabla - Examples",
+    "fork": false,
+    "full_name": "sony/nnabla-examples",
+    "html_url": "https://github.com/sony/nnabla-examples",
+    "language": "Python",
+    "pushed_at": "2025-12-12T10:13:01Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-04-23T10:06:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/ai-research-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/nnabla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

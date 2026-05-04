@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/iscompress",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrsoftware/iscompress",
+      "target": "inno-setup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:43.424872+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code.",
+    "fork": false,
+    "full_name": "jrsoftware/iscompress",
+    "html_url": "https://github.com/jrsoftware/iscompress",
+    "language": "C",
+    "pushed_at": "2026-02-21T12:09:43Z",
+    "stargazers_count": 35,
+    "topics": [
+      "compression",
+      "inno-setup"
+    ],
+    "updated_at": "2026-02-21T12:09:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inno-setup"
+    }
+  ]
+}

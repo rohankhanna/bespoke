@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapnik/node-mapnik",
+      "target": "mapnik/node-mapnik-sample-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapnik/node-mapnik",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapnik/node-mapnik",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapnik/node-mapnik",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapnik/node-mapnik",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:09.119083+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3912
+    },
+    {
+      "path": "package.json",
+      "size": 1766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bindings to mapnik for node.js",
+    "fork": false,
+    "full_name": "mapnik/node-mapnik",
+    "html_url": "https://github.com/mapnik/node-mapnik",
+    "language": "C++",
+    "pushed_at": "2026-04-28T08:01:45Z",
+    "stargazers_count": 544,
+    "topics": [],
+    "updated_at": "2026-04-28T08:01:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapnik/node-mapnik-sample-code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

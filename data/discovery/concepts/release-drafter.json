@@ -693,6 +693,18 @@
       "source_repo": "openstreetmap/id-tagging-schema",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "\"Trust no one, bench everything.\" - sbt plugin for JMH (Java Microbenchmark Harness)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -1041,6 +1053,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openstreetmap/id-tagging-schema",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -1938,11 +1956,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

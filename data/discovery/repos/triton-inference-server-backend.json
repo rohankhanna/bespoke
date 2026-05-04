@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/backend",
+      "target": "triton-inference-server/tensorflow_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/backend",
+      "target": "triton-inference-server/pytorch_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/backend",
+      "target": "triton-inference-server/openvino_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/backend",
+      "target": "triton-inference-server/fil_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/backend",
+      "target": "actions/checkout@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/backend",
+      "target": "actions/setup-python@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/backend",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/backend",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:43:50.564483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28801
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2242
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 1758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common source, scripts and utilities for creating Triton backends.",
+    "fork": false,
+    "full_name": "triton-inference-server/backend",
+    "html_url": "https://github.com/triton-inference-server/backend",
+    "language": "C++",
+    "pushed_at": "2026-04-13T18:34:46Z",
+    "stargazers_count": 370,
+    "topics": [],
+    "updated_at": "2026-05-02T17:01:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/fil_backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/openvino_backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/pytorch_backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/tensorflow_backend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    }
+  ]
+}

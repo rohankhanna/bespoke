@@ -84,7 +84,7 @@
   "normalized_form": "auto-label-prs-based-on-title",
   "observation_id": "4ed0d6be059c20f0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Auto Label PRs Based on Title",
   "source_context_snippet": "Auto Label PRs Based on Title",
   "source_file": ".github/workflows/auto-label-pr.yml",

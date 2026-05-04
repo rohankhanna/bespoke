@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml"
+    },
+    {
+      "component": "mikepenz/gradle-dependency-submission@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-checker.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "mikepenz/gradle-dependency-submission@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "tj-actions/changed-files@v47.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "stefanzweifel/git-auto-commit-action@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "Android locale validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-checker.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-checker.yml",
+      "source_repo": "AdAway/AdAway",
+      "target": "Issue checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway",
+      "target": "ad-blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway",
+      "target": "blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway",
+      "target": "hosts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:25.232910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6253
+    },
+    {
+      "path": ".github/workflows/AndroidLocaleChecker.java",
+      "size": 4130
+    },
+    {
+      "path": ".github/workflows/android-analysis.yml",
+      "size": 1846
+    },
+    {
+      "path": ".github/workflows/android-ci.yml",
+      "size": 1516
+    },
+    {
+      "path": ".github/workflows/android-locale-check.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/issues-checker.yml",
+      "size": 1523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AdAway is a free and open source ad blocker for Android. ",
+    "fork": false,
+    "full_name": "AdAway/AdAway",
+    "html_url": "https://github.com/AdAway/AdAway",
+    "language": "C",
+    "pushed_at": "2026-02-10T20:16:36Z",
+    "stargazers_count": 9044,
+    "topics": [
+      "ad-blocker",
+      "android",
+      "blocker",
+      "hosts",
+      "vpn"
+    ],
+    "updated_at": "2026-05-03T16:42:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-ci.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "Android locale validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "term": "Android locale validation"
+    },
+    {
+      "context_snippet": "Issue checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-checker.yml",
+      "term": "Issue checker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ad-blocker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosts"
+    }
+  ]
+}

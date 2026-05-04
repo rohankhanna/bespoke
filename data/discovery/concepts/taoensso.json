@@ -43,6 +43,18 @@
       "source_repo": "taoensso/roadmap",
       "status": "candidate-context",
       "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"480\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "Fast serialization library for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "taoensso/roadmap",
       "status": "candidate",
       "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"480\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "taoensso/roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taoensso/nippy"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

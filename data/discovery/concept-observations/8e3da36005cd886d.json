@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lemmy Notification app - for desktop atm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043204,
+      "status": "candidate",
+      "text": "lemuel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043203,
+      "status": "candidate",
+      "text": "lemma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043202,
+      "status": "candidate",
+      "text": "lepel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043201,
+      "status": "candidate",
+      "text": "lambda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18043200,
+      "status": "candidate",
+      "text": "lelia"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lemmy",
+      "sense_id": "lemmy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lemmy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lemmy",
+  "observation_id": "8e3da36005cd886d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "lemmy",
+  "source_context_snippet": "**Lemmy Notify** is a desktop application that sits in your system tray and monitors your Lemmy account for new posts and private messages. It acts as a lightweight indicator, allowing you to stay updated without constantly checking your browser.",
+  "source_file": null,
+  "source_repo": "arran4/lemmy_notify",
+  "source_repo_description": "Lemmy Notification app - for desktop atm"
+}

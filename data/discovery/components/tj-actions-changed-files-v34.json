@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/changed-files@v34",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "s3team/Squirrel"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "components": [
+    {
+      "component": "accessible-autocomplete",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axe-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "choices.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "govuk-frontend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sortablejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@percy/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-browser-runner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standardx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-gds",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-stylistic",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/codeql-analysis.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/dependency-review.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/workflows/brakeman.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/stylelint-config-gds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/rubocop-govuk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "shopify/erb_lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/govuk-frontend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "accessible-autocomplete",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "axe-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "choices.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "govuk-frontend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "sortablejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "@percy/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "jasmine-browser-runner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "jasmine-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "standardx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "stylelint-config-gds",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "stylelint-stylistic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "Lint GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/codeql-analysis.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/dependency-review.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "alphagov/govuk-infrastructure/.github/workflows/brakeman.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "actions/setup-node@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "actions/setup-node@v6.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "Visual regression tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/govuk_publishing_components",
+      "target": "govuk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:42.567155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3209
+    },
+    {
+      "path": "package.json",
+      "size": 1740
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3197
+    },
+    {
+      "path": ".github/workflows/visual-regression-tests.yml",
+      "size": 1490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A gem to document and distribute frontend components for GOV.UK applications",
+    "fork": false,
+    "full_name": "alphagov/govuk_publishing_components",
+    "html_url": "https://github.com/alphagov/govuk_publishing_components",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T14:46:58Z",
+    "stargazers_count": 88,
+    "topics": [
+      "govuk"
+    ],
+    "updated_at": "2026-05-04T09:35:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphagov/govuk-frontend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphagov/rubocop-govuk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphagov/stylelint-config-gds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/erb_lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Lint GitHub Actions"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Visual regression tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/visual-regression-tests.yml",
+      "term": "Visual regression tests"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/alphagov/govuk_publishing_components/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/alphagov/govuk_publishing_components/actions/workflows/ci.yml?query=branch%3Amain)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "govuk"
+    }
+  ]
+}

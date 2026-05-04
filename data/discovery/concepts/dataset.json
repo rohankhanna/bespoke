@@ -1047,6 +1047,90 @@
       "source_repo": "PRBonn/lidar-bonnetal",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for the A-OKVQA dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/HQ-Market",
+      "status": "candidate-context",
+      "text": "Market-1501 dataset with super-resolution quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/HQ-Market",
+      "status": "candidate-context",
+      "text": "Market-1501 dataset with super-resolution quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "status": "candidate-context",
+      "text": "Unleashing the Power of Reinforcement Learning for Math and Code Reasoners"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate-context",
+      "text": "\u65e8\u5728\u5bf9\u5f53\u524d\u4e3b\u6d41LLM\u8fdb\u884c\u4e00\u4e2a\u76f4\u89c2\u3001\u5177\u4f53\u3001\u6807\u51c6\u7684\u8bc4\u6d4b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">AtomBulb</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1571,6 +1655,48 @@
       "source_repo": "PRBonn/lidar-bonnetal",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate",
+      "text": ".. image:: docs/source/_static/img/torchtext_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/HQ-Market",
+      "status": "candidate",
+      "text": "Market-1501 dataset with super-resolution quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SkyworkAI/Skywork-OR1",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">AtomBulb</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -2202,11 +2328,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AtomEcho/AtomBulb"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

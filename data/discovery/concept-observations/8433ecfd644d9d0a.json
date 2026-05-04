@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-human-shape-and-pose-estimation",
+      "sense_id": "3d-human-shape-and-pose-estimation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-human-shape-and-pose-estimation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-human-shape-and-pose-estimation",
+  "observation_id": "8433ecfd644d9d0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "3d-human-shape-and-pose-estimation",
+  "source_context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+  "source_file": null,
+  "source_repo": "HongwenZhang/PyMAF",
+  "source_repo_description": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop"
+}

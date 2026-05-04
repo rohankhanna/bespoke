@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C library for handling bigWig files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bigbed",
+      "sense_id": "bigbed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bigbed",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bigbed",
+  "observation_id": "7ea9a88122fae3a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "bigbed",
+  "source_context_snippet": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)",
+  "source_file": null,
+  "source_repo": "dpryan79/libBigWig",
+  "source_repo_description": "A C library for handling bigWig files"
+}

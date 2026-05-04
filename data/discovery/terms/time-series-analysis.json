@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "datamllab/tods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
     }
   ],
   "term": "time-series-analysis"

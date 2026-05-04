@@ -1,0 +1,261 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "ipnl-polyu/urbannavdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "jokerjohn/cloud_map_evaluation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "borglab/gtsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "hku-mars/fast_lio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "keyframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "large-scale-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "lidar-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "lifelong-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "multi-session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "pose-graph-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "uncertainty-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "uncertainty-propagation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping",
+      "target": "wasserstein-distance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:08.286332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICRA@40] MS-Mapping: An Uncertainty-Aware Large-Scale Multi-Session LiDAR Mapping System",
+    "fork": false,
+    "full_name": "JokerJohn/MS-Mapping",
+    "html_url": "https://github.com/JokerJohn/MS-Mapping",
+    "language": "C++",
+    "pushed_at": "2026-03-22T06:40:04Z",
+    "stargazers_count": 356,
+    "topics": [
+      "gtsam",
+      "keyframe",
+      "large-scale-mapping",
+      "lidar",
+      "lidar-mapping",
+      "lidar-slam",
+      "lifelong-mapping",
+      "mapping",
+      "multi-session",
+      "pose-graph-optimization",
+      "uncertainty-estimation",
+      "uncertainty-propagation",
+      "wasserstein-distance"
+    ],
+    "updated_at": "2026-05-01T01:01:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borglab/gtsam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast_lio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipnl-polyu/urbannavdataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/cloud_map_evaluation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtsam"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyframe"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale-mapping"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-mapping"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lifelong-mapping"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-session"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-graph-optimization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uncertainty-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uncertainty-propagation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasserstein-distance"
+    }
+  ]
+}

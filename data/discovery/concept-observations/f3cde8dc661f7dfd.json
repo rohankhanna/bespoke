@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Download Roboto Mono fonts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Download Roboto Mono fonts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18507,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18371,
+      "status": "candidate",
+      "text": "channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18371,
+      "status": "candidate",
+      "text": "drill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18371,
+      "status": "candidate",
+      "text": "drilled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18371,
+      "status": "candidate",
+      "text": "drop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Download Roboto Mono fonts",
+      "sense_id": "download-roboto-mono-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "download-roboto-mono-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "download-roboto-mono-fonts",
+  "observation_id": "f3cde8dc661f7dfd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Download Roboto Mono fonts",
+  "source_context_snippet": "Download Roboto Mono fonts",
+  "source_file": ".github/workflows/download-roboto-mono-fonts.yml",
+  "source_repo": "ietf-tools/xml2rfc-fonts",
+  "source_repo_description": null
+}

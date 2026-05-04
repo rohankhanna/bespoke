@@ -19,6 +19,18 @@
       "source_repo": "Pal3love/dream-han-cjk",
       "status": "candidate-context",
       "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "TrueType version of Source Han Sans, Source Han Serif and Source Han Mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Pal3love/dream-han-cjk",
       "status": "candidate",
       "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "Pal3love/dream-han-cjk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

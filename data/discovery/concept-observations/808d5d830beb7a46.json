@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2602\ufe0f ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eslint-rules",
+      "sense_id": "eslint-rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eslint-rules",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eslint-rules",
+  "observation_id": "808d5d830beb7a46",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "eslint-rules",
+  "source_context_snippet": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc.",
+  "source_file": null,
+  "source_repo": "azat-io/eslint-plugin-perfectionist",
+  "source_repo_description": "\u2602\ufe0f ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+}

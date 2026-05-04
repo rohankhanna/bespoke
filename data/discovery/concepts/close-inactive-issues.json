@@ -783,6 +783,18 @@
       "source_repo": "windingwind/zotero-pdf-translate",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "status": "candidate-context",
+      "text": "Official implementation of our paper: \"Ca2-VDM: Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing\" (ICML 2025)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "windingwind/zotero-pdf-translate",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dawn-LX/CausalCache-VDM",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -2046,11 +2064,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/close_issue.yaml",
+      "source_repo": "Dawn-LX/CausalCache-VDM"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -211,6 +211,30 @@
       "source_repo": "gaoyifan/china-operator-ip",
       "status": "candidate-context",
       "text": "<!-- Keep these links. Translations will automatically update with the README. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "common in-memory tensor structure "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "gaoyifan/china-operator-ip",
       "status": "candidate",
       "text": "<!-- Keep these links. Translations will automatically update with the README. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/dlpack",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dmlc/dlpack/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/dmlc/dlpack/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Code Coverage][cov-img]][cov] [![GoDoc][godoc-img]][godoc] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-operator/badge)](https://securityscorecards.d\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -500,11 +536,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "gaoyifan/china-operator-ip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/dlpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-operator"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Face recognition with deep neural networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Free and open source face recognition with"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Free and open source face recognition with"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face-recognition",
+      "sense_id": "face-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "face-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "face-recognition",
+  "observation_id": "e2295667d13ca485",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "face-recognition",
+  "source_context_snippet": "*Free and open source face recognition with",
+  "source_file": null,
+  "source_repo": "cmusatyalab/openface",
+  "source_repo_description": "Face recognition with deep neural networks."
+}

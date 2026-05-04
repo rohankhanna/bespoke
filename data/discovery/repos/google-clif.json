@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/clif",
+      "target": "google/pytypedecl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clif",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clif",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clif",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clif",
+      "target": "wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:25.627600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5963
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4221
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Binding generator to wrap C++ for Python using LLVM.",
+    "fork": false,
+    "full_name": "google/clif",
+    "html_url": "https://github.com/google/clif",
+    "language": "C++",
+    "pushed_at": "2024-09-06T14:09:13Z",
+    "stargazers_count": 980,
+    "topics": [
+      "c-plus-plus",
+      "clang",
+      "generator",
+      "python",
+      "wrapper"
+    ],
+    "updated_at": "2025-12-21T00:39:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/pytypedecl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    }
+  ]
+}

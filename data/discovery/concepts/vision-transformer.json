@@ -439,6 +439,54 @@
       "source_repo": "ViTAE-Transformer/ViTPose",
       "status": "candidate-context",
       "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate-context",
+      "text": "ICCV2021, Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate-context",
+      "text": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "Florence-2 is a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +705,30 @@
       "source_repo": "ViTAE-Transformer/ViTPose",
       "status": "candidate",
       "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate",
+      "text": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -910,11 +982,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ViTAE-Transformer/ViTPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yitu-opensource/T2T-ViT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

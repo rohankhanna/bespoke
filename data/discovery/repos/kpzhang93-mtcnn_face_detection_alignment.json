@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "bvlc/caffe.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "happynear/caffe-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "happynear/mtcnn_face_detection_alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "duinodu/mtcnn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:58.551311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks",
+    "fork": false,
+    "full_name": "kpzhang93/MTCNN_face_detection_alignment",
+    "html_url": "https://github.com/kpzhang93/MTCNN_face_detection_alignment",
+    "language": "MATLAB",
+    "pushed_at": "2022-10-11T07:35:47Z",
+    "stargazers_count": 2867,
+    "topics": [],
+    "updated_at": "2026-04-24T17:21:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bvlc/caffe.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "duinodu/mtcnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "happynear/caffe-windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "happynear/mtcnn_face_detection_alignment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

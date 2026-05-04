@@ -91,6 +91,30 @@
       "source_repo": "haofanwang/CLIFF",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "haofanwang/CLIFF",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

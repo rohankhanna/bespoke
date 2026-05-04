@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "annoyances"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "Collection of blocklists to fill in the gaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995101,
+      "status": "candidate",
+      "text": "irritation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995079,
+      "status": "candidate",
+      "text": "annoying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995071,
+      "status": "candidate",
+      "text": "vexation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19995016,
+      "status": "candidate",
+      "text": "botheration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994991,
+      "status": "candidate",
+      "text": "pain in the neck"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "annoyances",
+  "concept_id": "annoyances",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "annoyances",
+      "sense_id": "annoyances#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "letmaik/rawpy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "letmaik/rawpy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "letmaik/rawpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

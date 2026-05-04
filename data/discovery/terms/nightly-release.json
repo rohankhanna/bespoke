@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -91,6 +91,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "calda/SwiftFormat-nightly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "vueuse/motion"
     }
   ],
   "term": "Nightly Release"

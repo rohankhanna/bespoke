@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine",
+      "target": "keychain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:59.657067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Keychain access wrapper in Swift, because the world needs more of these",
+    "fork": false,
+    "full_name": "ptsochantaris/key-vine",
+    "html_url": "https://github.com/ptsochantaris/key-vine",
+    "language": "Swift",
+    "pushed_at": "2024-10-09T22:46:45Z",
+    "stargazers_count": 4,
+    "topics": [
+      "ios",
+      "keychain",
+      "macos",
+      "swift",
+      "watchos"
+    ],
+    "updated_at": "2025-11-04T06:19:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keychain"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

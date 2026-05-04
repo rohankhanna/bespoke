@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "bonigarcia/webdrivermanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "naudio/naudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "helix-toolkit/helix-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "markloughran/fctb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "codeeditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "dekstop-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "imagegeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "llamasharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "webintegration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition"
+}

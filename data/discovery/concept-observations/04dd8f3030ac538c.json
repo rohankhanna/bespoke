@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notify"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notify"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017238,
+      "status": "candidate",
+      "text": "apprise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015998,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960130,
+      "status": "candidate",
+      "text": "send word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39957511,
+      "status": "candidate",
+      "text": "give notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017939,
+      "status": "candidate",
+      "text": "apprize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify",
+      "sense_id": "notify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25035,
+      "status": "candidate",
+      "text": "apprise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "apprize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "send word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1013,
+      "status": "candidate",
+      "text": "give notice"
+    }
+  ],
+  "concept_id": "notify",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "notify",
+  "observation_id": "04dd8f3030ac538c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Notify",
+  "source_context_snippet": "Notify",
+  "source_file": ".github/workflows/notify.yml",
+  "source_repo": "fjc0k/yapi-to-typescript",
+  "source_repo_description": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+}

@@ -482,6 +482,42 @@
       "source_repo": "zarr-developers/numcodecs",
       "status": "candidate-context",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miekg/dns",
+      "status": "candidate-context",
+      "text": "DNS library in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miekg/dns",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrislusf/seaweedfs",
+      "status": "candidate-context",
+      "text": "SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, xDC replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. Enterprise version is at seaweedfs.com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrislusf/seaweedfs",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
     }
   ],
   "candidate_glosses": [
@@ -728,6 +764,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miekg/dns",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrislusf/seaweedfs",
       "status": "candidate",
       "text": "\"Code Scanning - Action\""
     }
@@ -1211,11 +1265,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "miekg/dns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "chrislusf/seaweedfs"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

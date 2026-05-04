@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cache Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Cache Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate",
+      "text": "Cache Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25686,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17837,
+      "status": "candidate",
+      "text": "reader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17837,
+      "status": "candidate",
+      "text": "safe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17773,
+      "status": "candidate",
+      "text": "battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17751,
+      "status": "candidate",
+      "text": "collapse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cache Integration Tests",
+  "concept_id": "cache-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cache-integration-tests.yml",
+      "source_repo": "danny-avila/LibreChat"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache Integration Tests",
+      "sense_id": "cache-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

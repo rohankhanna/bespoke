@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "starVLA/starVLA",
+      "target": "allenai/vla-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "starVLA/starVLA",
+      "target": "amap-cvlab/abot-manipulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "starVLA/starVLA",
+      "target": "anyantudre/florence-2-vision-language-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "starVLA/starVLA",
+      "target": "guoweiyu/neurovla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starVLA/starVLA",
+      "target": "robotic-foundation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starVLA/starVLA",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "starVLA/starVLA",
+      "target": "vision-language-action-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:37.846051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19189
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2501
+    },
+    {
+      "path": "requirements.txt",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "starVLA_dev",
+    "description": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
+    "fork": false,
+    "full_name": "starVLA/starVLA",
+    "html_url": "https://github.com/starVLA/starVLA",
+    "language": "Python",
+    "pushed_at": "2026-05-03T15:09:38Z",
+    "stargazers_count": 2166,
+    "topics": [
+      "robotic-foundation-model",
+      "robotics",
+      "vision-language-action-model",
+      "vla",
+      "vlm"
+    ],
+    "updated_at": "2026-05-04T09:00:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/vla-evaluation-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amap-cvlab/abot-manipulation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anyantudre/florence-2-vision-language-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoweiyu/neurovla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotic-foundation-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-action-model"
+    }
+  ]
+}

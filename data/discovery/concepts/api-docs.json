@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "api-docs"
+    "api-docs",
+    "API Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/Agents-for-js",
       "status": "candidate-context",
       "text": "api-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "API Docs"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "microsoft/Agents-for-js",
       "status": "candidate",
       "text": "api-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "API Docs"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "bardot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "belmondo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "bleu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "boyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "bresson"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "api-docs",
   "concept_id": "api-docs",
@@ -40,11 +95,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/api-docs.yml",
       "source_repo": "microsoft/Agents-for-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cargo-doc.yaml",
+      "source_repo": "informalsystems/hermes"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

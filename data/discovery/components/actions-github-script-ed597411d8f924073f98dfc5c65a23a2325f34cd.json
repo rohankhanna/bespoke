@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -872,6 +872,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-simplifier.lock.yml",
       "source_repo": "BabylonJS/Babylon.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb"
     }
   ]
 }

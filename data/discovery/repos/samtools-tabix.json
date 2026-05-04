@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/tabix",
+      "target": "samtools/htsjdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/tabix",
+      "target": "ensembl/bio-db-hts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/tabix",
+      "target": "slowkow/pytabix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/tabix",
+      "target": "samtools/hts-specs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:47.009226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Note: tabix and bgzip binaries are now part of the HTSlib project.",
+    "fork": false,
+    "full_name": "samtools/tabix",
+    "html_url": "https://github.com/samtools/tabix",
+    "language": "C",
+    "pushed_at": "2021-08-03T14:29:38Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-22T07:51:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ensembl/bio-db-hts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/hts-specs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/htsjdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slowkow/pytabix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "DANMF"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "DANMF"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006260,
+      "status": "candidate",
+      "text": "bunch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981734,
+      "status": "candidate",
+      "text": "bunch up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963385,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939180,
+      "status": "candidate",
+      "text": "clump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907778,
+      "status": "candidate",
+      "text": "constellate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clustering",
+      "sense_id": "clustering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clustering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clustering",
+  "observation_id": "347da485750a6263",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "clustering",
+  "source_context_snippet": "DANMF",
+  "source_file": null,
+  "source_repo": "benedekrozemberczki/DANMF",
+  "source_repo_description": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+}

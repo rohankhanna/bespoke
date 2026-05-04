@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:38:32.943305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "3type/glyphs-han",
+    "html_url": "https://github.com/3type/glyphs-han",
+    "language": "Python",
+    "pushed_at": "2022-10-25T08:00:06Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-26T21:54:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

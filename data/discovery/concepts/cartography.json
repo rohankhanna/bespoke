@@ -19,6 +19,30 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate-context",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "CC0 SVG Map Icons, mirror of repo on Gitlab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate-context",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Mapnik is an open source toolkit for developing mapping applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gmgeo/osmic",
+      "status": "candidate",
+      "text": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "GEOSwift/GEOSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -436,6 +436,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "PRBonn/lidar-bonnetal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "SkyworkAI/Skywork-OR1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AtomEcho/AtomBulb"
     }
   ],
   "term": "dataset"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Browsers CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "Browsers CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate",
+      "text": "Browsers CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4599,
+      "status": "candidate",
+      "text": "http"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4514,
+      "status": "candidate",
+      "text": "web browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "actors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "administrators"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Browsers CI",
+  "concept_id": "browsers-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/browsers.yml",
+      "source_repo": "chaijs/chai"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Browsers CI",
+      "sense_id": "browsers-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

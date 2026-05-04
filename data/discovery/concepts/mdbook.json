@@ -33,6 +33,18 @@
       "source_repo": "dcampbell24/mdbook-djot",
       "status": "candidate-context",
       "text": "<!-- >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "dcampbell24/mdbook-djot",
       "status": "candidate",
       "text": "<!-- >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
     }
   ],
   "candidate_related_terms": [],
@@ -66,11 +84,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "dcampbell24/mdbook-djot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "boozook/mdbook-svgbob"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compatibility Edge Cases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "Compatibility Edge Cases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate",
+      "text": "Compatibility Edge Cases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20900,
+      "status": "candidate",
+      "text": "conditions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "accounts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20835,
+      "status": "candidate",
+      "text": "condition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compatibility Edge Cases",
+  "concept_id": "compatibility-edge-cases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/compat-edge-cases.yml",
+      "source_repo": "vincentlaucsb/csv-parser"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compatibility Edge Cases",
+      "sense_id": "compatibility-edge-cases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

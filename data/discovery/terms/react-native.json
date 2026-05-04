@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -331,6 +331,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pixielabs/cavy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "callstack/react-native-testing-library"
     }
   ],
   "term": "react-native"

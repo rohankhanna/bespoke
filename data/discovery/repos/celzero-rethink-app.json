@@ -1,0 +1,638 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml"
+    },
+    {
+      "component": "MobSF/mobsfscan@a60d10a83af68e23e0b30611c6515da604f06f65",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@v2.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3.28.16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sym.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sym.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celzero/rethink-app",
+      "target": "evilsocket/opensnitch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celzero/rethink-app",
+      "target": "celzero/firestack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celzero/rethink-app",
+      "target": "jigsaw-code/outline-go-tun2socks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celzero/rethink-app",
+      "target": "jigsaw-code/intra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "\ud83e\udee3 Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "MobSF/mobsfscan@a60d10a83af68e23e0b30611c6515da604f06f65",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "github/codeql-action/upload-sarif@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "MobSF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "\ud83e\uddee Monthly alpha",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "Static Analyser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "ossf/scorecard-action@v2.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "github/codeql-action/upload-sarif@v3.28.16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "\ud83e\udd45 Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sym.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sym.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sym.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "\u269b\ufe0f Native Sym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/telegram-notify.yml",
+      "source_repo": "celzero/rethink-app",
+      "target": "Notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "android-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "android-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "android-firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "anti-censorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "anti-surveillance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "censorship-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "censorship-resistance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "internet-freedom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "privacy-enhancing-technologies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app",
+      "target": "wireguard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:36.972619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14948
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/mobsf.yml",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 5162
+    },
+    {
+      "path": ".github/workflows/sa.yml",
+      "size": 3629
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 2556
+    },
+    {
+      "path": ".github/workflows/sym.yml",
+      "size": 3009
+    },
+    {
+      "path": ".github/workflows/telegram-notify.yml",
+      "size": 1136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android.",
+    "fork": false,
+    "full_name": "celzero/rethink-app",
+    "html_url": "https://github.com/celzero/rethink-app",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T20:09:02Z",
+    "stargazers_count": 4823,
+    "topics": [
+      "android",
+      "android-app",
+      "android-application",
+      "android-firewall",
+      "anti-censorship",
+      "anti-surveillance",
+      "censorship-circumvention",
+      "censorship-resistance",
+      "dns",
+      "dns-over-https",
+      "dnscrypt",
+      "firewall",
+      "internet-freedom",
+      "open-source",
+      "privacy-enhancing-technologies",
+      "wireguard"
+    ],
+    "updated_at": "2026-05-04T02:54:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celzero/firestack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evilsocket/opensnitch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jigsaw-code/intra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jigsaw-code/outline-go-tun2socks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udee3 Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "\ud83e\udee3 Android CI"
+    },
+    {
+      "context_snippet": "MobSF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mobsf.yml",
+      "term": "MobSF"
+    },
+    {
+      "context_snippet": "\ud83e\uddee Monthly alpha",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "\ud83e\uddee Monthly alpha"
+    },
+    {
+      "context_snippet": "Static Analyser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sa.yml",
+      "term": "Static Analyser"
+    },
+    {
+      "context_snippet": "\ud83e\udd45 Scorecard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "\ud83e\udd45 Scorecard"
+    },
+    {
+      "context_snippet": "\u269b\ufe0f Native Sym",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sym.yml",
+      "term": "\u269b\ufe0f Native Sym"
+    },
+    {
+      "context_snippet": "Notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/telegram-notify.yml",
+      "term": "Notify"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-app"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-application"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-firewall"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-censorship"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-surveillance"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-circumvention"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-resistance"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet-freedom"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy-enhancing-technologies"
+    },
+    {
+      "context_snippet": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wireguard"
+    }
+  ]
+}

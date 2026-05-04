@@ -1,0 +1,12 @@
+{
+  "component": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin"
+    }
+  ]
+}

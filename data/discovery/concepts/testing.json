@@ -1799,6 +1799,90 @@
       "source_repo": "testing-library/react-hooks-testing-library",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 The simplest and tiniest terminal spinner for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Simple and complete React Native testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "AutoVideo: An Automated Video Action Recognition System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Istanbul-compatible JavaScript/TypeScript coverage instrumentation using the Oxc AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "Sandbox for developing and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "\u2728 Jest matcher for image comparisons. Most commonly used for visual regression testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2695,6 +2779,48 @@
       "source_repo": "testing-library/react-hooks-testing-library",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate",
+      "text": "Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -4143,11 +4269,125 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "usmanyunusov/nanospinner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "datamllab/autovideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-cosmos/react-cosmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lunarmodules/busted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "americanexpress/jest-image-snapshot"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

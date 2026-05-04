@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "efficient-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "inference-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff",
+      "target": "training-free",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:31.509386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8948
+    },
+    {
+      "path": "requirements.txt",
+      "size": 248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising",
+    "fork": false,
+    "full_name": "czg1225/AsyncDiff",
+    "html_url": "https://github.com/czg1225/AsyncDiff",
+    "language": "Python",
+    "pushed_at": "2025-09-27T03:22:47Z",
+    "stargazers_count": 214,
+    "topics": [
+      "diffusion-models",
+      "distributed-computing",
+      "efficient-inference",
+      "inference-acceleration",
+      "stable-diffusion",
+      "text-to-image",
+      "text-to-video",
+      "training-free"
+    ],
+    "updated_at": "2026-04-11T13:53:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-inference"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-acceleration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training-free"
+    }
+  ]
+}

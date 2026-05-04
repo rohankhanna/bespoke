@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "argosopentech/argospm-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "argosopentech/argos-translate-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "argosopentech/argos-train",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "argosopentech/libretranslate-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "argosopentech/argos-translate",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:48.454554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8524
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-source offline translation library written in Python",
+    "fork": false,
+    "full_name": "argosopentech/argos-translate",
+    "html_url": "https://github.com/argosopentech/argos-translate",
+    "language": "Python",
+    "pushed_at": "2026-04-25T16:51:37Z",
+    "stargazers_count": 5932,
+    "topics": [
+      "language-models",
+      "linux",
+      "machine-translation",
+      "nlp",
+      "open-source",
+      "python",
+      "transformers",
+      "translation"
+    ],
+    "updated_at": "2026-05-04T11:22:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argosopentech/argos-train",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argosopentech/argos-translate-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argosopentech/argospm-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argosopentech/libretranslate-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

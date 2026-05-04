@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "block-elements",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "void-elements",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "substack/node-browserify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "webmodules/block-elements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "lucthev/serialize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "block-elements",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "void-elements",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lucthev/collapse-whitespace",
+      "target": "uglify-js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:26:15.187943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2293
+    },
+    {
+      "path": "package.json",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Remove all unnecessary whitespace from a DOM node.",
+    "fork": false,
+    "full_name": "lucthev/collapse-whitespace",
+    "html_url": "https://github.com/lucthev/collapse-whitespace",
+    "language": "HTML",
+    "pushed_at": "2022-12-02T16:04:37Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-05-01T01:03:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "substack/node-browserify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webmodules/block-elements",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucthev/serialize",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "processing/processing-docs",
+      "target": "processing/processing-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "reference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "processing/processing-docs",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:14:21.815558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[Deprecated] Processing reference, examples, tutorials, and website",
+    "fork": false,
+    "full_name": "processing/processing-docs",
+    "html_url": "https://github.com/processing/processing-docs",
+    "language": "HTML",
+    "pushed_at": "2023-01-09T13:12:50Z",
+    "stargazers_count": 374,
+    "topics": [
+      "education",
+      "graphics",
+      "learning",
+      "processing",
+      "reference",
+      "tutorial",
+      "tutorials"
+    ],
+    "updated_at": "2026-02-11T11:27:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "processing/processing-website",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "processing"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reference"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

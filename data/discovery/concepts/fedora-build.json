@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fedora Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "\"Fedora Build\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "\"Fedora Build\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12230,
+      "status": "candidate",
+      "text": "brim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12230,
+      "status": "candidate",
+      "text": "hatband"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12230,
+      "status": "candidate",
+      "text": "lid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12188,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12188,
+      "status": "candidate",
+      "text": "felt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fedora Build",
+  "concept_id": "fedora-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ccpp_fedora.yml",
+      "source_repo": "nelson-lang/nelson"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fedora Build",
+      "sense_id": "fedora-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

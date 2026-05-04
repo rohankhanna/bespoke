@@ -218,6 +218,30 @@
       "source_repo": "reactor/reactor-addons",
       "status": "candidate-context",
       "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "PR Checks"
     }
   ],
   "candidate_glosses": [
@@ -326,6 +350,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "reactor/reactor-addons",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate",
+      "text": "PR Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
       "status": "candidate",
       "text": "PR Checks"
     }
@@ -545,11 +581,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/pr_checks.yml",
       "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr_checks.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "mikepenz/MaterialDrawer"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

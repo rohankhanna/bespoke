@@ -68,6 +68,18 @@
       "source_repo": "aws/aws-lc-rs",
       "status": "candidate-context",
       "text": "cross"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sp1-patches/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/curve25519-dalek",
+      "status": "candidate-context",
+      "text": "Cross"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +112,12 @@
       "source_repo": "aws/aws-lc-rs",
       "status": "candidate",
       "text": "cross"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp1-patches/curve25519-dalek",
+      "status": "candidate",
+      "text": "Cross"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/cross.yml",
       "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "anza-xyz/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "sp1-patches/curve25519-dalek"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

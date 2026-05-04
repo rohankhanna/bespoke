@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:36:07.173758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6516
+    },
+    {
+      "path": "requirements.txt",
+      "size": 396
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "guoweiyu/NeuroVLA",
+    "html_url": "https://github.com/guoweiyu/NeuroVLA",
+    "language": "Python",
+    "pushed_at": "2026-02-11T17:15:04Z",
+    "stargazers_count": 241,
+    "topics": [],
+    "updated_at": "2026-04-30T08:53:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

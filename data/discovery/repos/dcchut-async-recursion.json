@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.90.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-outdated",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcchut/async-recursion",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcchut/async-recursion",
+      "target": "dtolnay/rust-toolchain@1.90.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcchut/async-recursion",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dcchut/async-recursion",
+      "target": "dtolnay/install@cargo-outdated",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:17:26.538874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2805
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Procedural macro for recursive async functions",
+    "fork": false,
+    "full_name": "dcchut/async-recursion",
+    "html_url": "https://github.com/dcchut/async-recursion",
+    "language": "Rust",
+    "pushed_at": "2025-09-19T01:56:07Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-03T06:30:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

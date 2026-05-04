@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2262,6 +2262,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci_checks.yml",
       "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clj-tests.yml",
+      "source_repo": "taoensso/nippy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/iconscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gmethvin/directory-watcher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "metosin/compojure-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Datomic/fressian"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "Datomic/fressian"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "samtools/htsjdk"
     }
   ]
 }

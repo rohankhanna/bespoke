@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "justinpinkney/awesome-pretrained-stylegan2_",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "edstoica/lucid_stylegan3_datasets_models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "ouhenio/stylegan3-projector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan3",
+      "target": "dayu1979/stylegan3encoder",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "justinpinkney/awesome-pretrained-stylegan3"
+}

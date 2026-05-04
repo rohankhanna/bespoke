@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "christosgalano/delete-gh-workflow-runs@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/del-runs-comments.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-comment.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-youtube-issue.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-youtube-issue.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-youtube-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-3rd-party-assets.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-easylist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "ublockorigin/ublock-issues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "ublockorigin/ubol-home",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "christosgalano/delete-gh-workflow-runs@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "del-runs-comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "Deploy to gh-pages branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "on-issue-comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-created.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "on-issue-created",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-youtube-issue.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-youtube-issue.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "Triage YouTube issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-3rd-party-assets.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-3rd-party-assets.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "Update 3rd-party assets (daily)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-easylist.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-easylist.yml",
+      "source_repo": "uBlockOrigin/uAssets",
+      "target": "Update Easylist assets (hourly)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:29.038797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2219
+    },
+    {
+      "path": ".github/workflows/del-runs-comments.yml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2307
+    },
+    {
+      "path": ".github/workflows/on-issue-comment.yml",
+      "size": 978
+    },
+    {
+      "path": ".github/workflows/on-issue-created.yml",
+      "size": 1649
+    },
+    {
+      "path": ".github/workflows/on-youtube-issue.yml",
+      "size": 1093
+    },
+    {
+      "path": ".github/workflows/update-3rd-party-assets.yml",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/update-easylist.yml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Filter lists for uBlock Origin & uBlock Origin Lite",
+    "fork": false,
+    "full_name": "uBlockOrigin/uAssets",
+    "html_url": "https://github.com/uBlockOrigin/uAssets",
+    "language": "Adblock Filter List",
+    "pushed_at": "2026-05-04T09:13:37Z",
+    "stargazers_count": 5705,
+    "topics": [],
+    "updated_at": "2026-05-04T09:20:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ublockorigin/ublock-issues",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ublockorigin/ubol-home",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "del-runs-comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "term": "del-runs-comments"
+    },
+    {
+      "context_snippet": "Deploy to gh-pages branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Deploy to gh-pages branch"
+    },
+    {
+      "context_snippet": "on-issue-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "term": "on-issue-comment"
+    },
+    {
+      "context_snippet": "on-issue-created",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-created.yml",
+      "term": "on-issue-created"
+    },
+    {
+      "context_snippet": "Triage YouTube issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-youtube-issue.yml",
+      "term": "Triage YouTube issues"
+    },
+    {
+      "context_snippet": "Update 3rd-party assets (daily)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-3rd-party-assets.yml",
+      "term": "Update 3rd-party assets (daily)"
+    },
+    {
+      "context_snippet": "Update Easylist assets (hourly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-easylist.yml",
+      "term": "Update Easylist assets (hourly)"
+    }
+  ]
+}

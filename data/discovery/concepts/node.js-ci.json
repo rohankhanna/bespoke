@@ -1285,6 +1285,84 @@
       "source_repo": "kakajun/simple-panzoom",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streamich/react-use",
+      "status": "candidate-context",
+      "text": "React Hooks \u2014 \ud83d\udc4d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/react-use",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizbarboza/polyclip-ts",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-geo",
+      "status": "candidate-context",
+      "text": "Geographic projections, spherical shapes and spherical trigonometry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3-geo-projection",
+      "status": "candidate-context",
+      "text": "Extended geographic projections for d3-geo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo-projection",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berniegp/mock-xmlhttprequest",
+      "status": "candidate-context",
+      "text": "XMLHttpRequest mock for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berniegp/mock-xmlhttprequest",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -1921,6 +1999,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kakajun/simple-panzoom",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streamich/react-use",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizbarboza/polyclip-ts",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3-geo-projection",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berniegp/mock-xmlhttprequest",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -3064,11 +3184,95 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "playwright-community/expect-playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node_build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "streamich/react-use"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "streamich/react-use"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "luizbarboza/polyclip-ts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-geo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "d3/d3-geo-projection"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "chaijs/chai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "berniegp/mock-xmlhttprequest"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

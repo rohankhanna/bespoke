@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "adblocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "adblocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "blokada",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:32.569936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for Blokada apps.",
+    "fork": false,
+    "full_name": "blokadaorg/blokada",
+    "html_url": "https://github.com/blokadaorg/blokada",
+    "language": "Dart",
+    "pushed_at": "2026-04-30T11:29:30Z",
+    "stargazers_count": 3225,
+    "topics": [
+      "adblocker",
+      "adblocking",
+      "android",
+      "blocker",
+      "blokada",
+      "dns",
+      "ios",
+      "privacy",
+      "security",
+      "vpn"
+    ],
+    "updated_at": "2026-05-03T21:51:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocker"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblocking"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocker"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blokada"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

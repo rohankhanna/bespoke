@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get NUnit Test Result XML from TestCafe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check security alerts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check security alerts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26040,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26016,
+      "status": "candidate",
+      "text": "sweep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25949,
+      "status": "candidate",
+      "text": "unscreened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24411,
+      "status": "candidate",
+      "text": "alert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24234,
+      "status": "candidate",
+      "text": "alarm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check security alerts",
+      "sense_id": "check-security-alerts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-security-alerts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-security-alerts",
+  "observation_id": "dc6c1a168a306381",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Check security alerts",
+  "source_context_snippet": "Check security alerts",
+  "source_file": ".github/workflows/check-security-alerts.yml",
+  "source_repo": "DevExpress/testcafe-reporter-nunit",
+  "source_repo_description": "Get NUnit Test Result XML from TestCafe"
+}

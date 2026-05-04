@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -256,6 +256,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JunyaoHu/common_metrics_on_video_quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "pot-app/.github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "term": "metrics"

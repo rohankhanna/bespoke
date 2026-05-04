@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visually explore your JMH benchmarks on Jenkins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Jenkins Security Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Jenkins Security Scan"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "absurd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "crazy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "daft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "foolish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "insane"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jenkins Security Scan",
+      "sense_id": "jenkins-security-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jenkins-security-scan",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jenkins-security-scan",
+  "observation_id": "0e63deb5cbe3a405",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Jenkins Security Scan",
+  "source_context_snippet": "Jenkins Security Scan",
+  "source_file": ".github/workflows/jenkins-security-scan.yml",
+  "source_repo": "jenkinsci/jmh-report-plugin",
+  "source_repo_description": "Visually explore your JMH benchmarks on Jenkins!"
+}

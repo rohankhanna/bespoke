@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "txm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "informalsystems/choreo",
+      "target": "txm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-tests.yml",
+      "source_repo": "informalsystems/choreo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples-tests.yml",
+      "source_repo": "informalsystems/choreo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples-tests.yml",
+      "source_repo": "informalsystems/choreo",
+      "target": "Choreo Examples Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:24:00.470812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3413
+    },
+    {
+      "path": "package.json",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/examples-tests.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Choreograph distributed protocols in Quint.",
+    "fork": false,
+    "full_name": "informalsystems/choreo",
+    "html_url": "https://github.com/informalsystems/choreo",
+    "language": "Bluespec",
+    "pushed_at": "2026-03-24T15:04:34Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-28T22:35:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Choreo Examples Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples-tests.yml",
+      "term": "Choreo Examples Tests"
+    }
+  ]
+}

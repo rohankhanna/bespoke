@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "voletiv/mcvd-pytorch",
+      "target": "ermongroup/ncsnv2.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:48.943751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11812
+    },
+    {
+      "path": "requirements.txt",
+      "size": 184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation of MCVD: Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation (https://arxiv.org/abs/2205.09853)",
+    "fork": false,
+    "full_name": "voletiv/mcvd-pytorch",
+    "html_url": "https://github.com/voletiv/mcvd-pytorch",
+    "language": "Python",
+    "pushed_at": "2022-09-22T21:30:01Z",
+    "stargazers_count": 366,
+    "topics": [],
+    "updated_at": "2026-04-23T08:37:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ermongroup/ncsnv2.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

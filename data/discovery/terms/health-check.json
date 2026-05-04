@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/health_check.yml",
       "source_repo": "mozilla/addons-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/health-check.yml",
+      "source_repo": "americanexpress/jest-image-snapshot"
     }
   ],
   "term": "health-check"

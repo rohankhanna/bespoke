@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A UI for Lemmy written in Svelte "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sveltekit",
+      "sense_id": "sveltekit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sveltekit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sveltekit",
+  "observation_id": "175a5c71367370d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "sveltekit",
+  "source_context_snippet": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up.",
+  "source_file": null,
+  "source_repo": "ando818/lemmy-ui-svelte",
+  "source_repo_description": "A UI for Lemmy written in Svelte "
+}

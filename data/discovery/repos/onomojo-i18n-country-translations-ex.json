@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-ex",
+      "target": "onomojo/i18n-country-translations-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-ex",
+      "target": "onomojo/i18n-country-translations-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-ex",
+      "target": "onomojo/i18n-country-translations-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:32:04.050387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "onomojo/i18n-country-translations-ex",
+    "html_url": "https://github.com/onomojo/i18n-country-translations-ex",
+    "language": "Elixir",
+    "pushed_at": "2026-03-09T13:08:35Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-08T14:47:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

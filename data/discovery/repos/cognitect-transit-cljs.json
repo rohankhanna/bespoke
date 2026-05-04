@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cognitect/transit-cljs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cognitect/transit-cljs",
+      "target": "DeLaGuardo/setup-clojure@3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "cognitect/transit-cljs",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:16:12.406128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4752
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transit for ClojureScript",
+    "fork": false,
+    "full_name": "cognitect/transit-cljs",
+    "html_url": "https://github.com/cognitect/transit-cljs",
+    "language": "Clojure",
+    "pushed_at": "2024-07-15T19:49:11Z",
+    "stargazers_count": 327,
+    "topics": [],
+    "updated_at": "2026-04-30T18:58:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Tests"
+    }
+  ]
+}

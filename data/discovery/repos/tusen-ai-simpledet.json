@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tusen-ai/simpledet",
+      "target": "tusimple/simpledet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tusen-ai/simpledet",
+      "target": "rogerchern/cocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tusen-ai/simpledet",
+      "target": "rogerchern/mxnext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:23.019767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Simple and Versatile Framework for Object Detection and Instance Recognition",
+    "fork": false,
+    "full_name": "tusen-ai/simpledet",
+    "html_url": "https://github.com/tusen-ai/simpledet",
+    "language": "Python",
+    "pushed_at": "2021-09-23T02:57:09Z",
+    "stargazers_count": 3084,
+    "topics": [
+      "instance-segmentation",
+      "mxnet",
+      "object-detection"
+    ],
+    "updated_at": "2026-04-18T14:15:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rogerchern/cocoapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rogerchern/mxnext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tusimple/simpledet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](./doc/image/diagram_v2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "![](./doc/image/diagram_v2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "![](./doc/image/diagram_v2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    }
+  ]
+}

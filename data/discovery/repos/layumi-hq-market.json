@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market",
+      "target": "market1501",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/HQ-Market",
+      "target": "person-reidentification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:27:39.876854+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Market-1501 dataset with super-resolution quality",
+    "fork": false,
+    "full_name": "layumi/HQ-Market",
+    "html_url": "https://github.com/layumi/HQ-Market",
+    "language": "Python",
+    "pushed_at": "2022-05-12T14:20:01Z",
+    "stargazers_count": 21,
+    "topics": [
+      "dataset",
+      "market1501",
+      "person-reid",
+      "person-reidentification"
+    ],
+    "updated_at": "2026-03-02T17:10:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Market-1501 dataset with super-resolution quality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Market-1501 dataset with super-resolution quality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "market1501"
+    },
+    {
+      "context_snippet": "Market-1501 dataset with super-resolution quality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "Market-1501 dataset with super-resolution quality",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    }
+  ]
+}

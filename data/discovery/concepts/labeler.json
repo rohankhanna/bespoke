@@ -392,6 +392,18 @@
       "source_repo": "cnosdb/arrow-datafusion",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "One framework to evaluate any VLA model on any robot simulation benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -584,6 +596,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cnosdb/arrow-datafusion",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
       "status": "candidate",
       "text": "Labeler"
     }
@@ -1079,11 +1097,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

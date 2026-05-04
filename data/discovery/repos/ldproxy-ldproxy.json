@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ldproxy/ldproxy",
-      "target": "interactive-instruments/ldproxy-community",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ldproxy/ldproxy",
@@ -74,7 +67,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:05:31.270998+00:00",
+  "fetched_at": "2026-05-04T11:32:10.517797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -98,23 +91,18 @@
     "full_name": "ldproxy/ldproxy",
     "html_url": "https://github.com/ldproxy/ldproxy",
     "language": "Java",
-    "pushed_at": "2026-05-03T10:57:19Z",
+    "pushed_at": "2026-05-04T08:54:33Z",
     "stargazers_count": 101,
     "topics": [
       "ogc",
       "ogcapi"
     ],
-    "updated_at": "2026-04-29T11:24:47Z"
+    "updated_at": "2026-05-04T07:41:14Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "interactive-instruments/ldproxy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "interactive-instruments/ldproxy-community",
       "source_file": "README.md"
     }
   ],

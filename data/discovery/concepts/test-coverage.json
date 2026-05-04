@@ -2,7 +2,8 @@
   "aliases": [
     "test-coverage",
     "Test coverage",
-    "Test Coverage"
+    "Test Coverage",
+    "Test & Coverage"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -203,6 +204,66 @@
       "source_repo": "tendermint/tendermint",
       "status": "candidate-context",
       "text": "Test Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Test & Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate-context",
+      "text": "Open Source Geometry Engine ('GEOS') R API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate-context",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-spatial/s2",
+      "status": "candidate-context",
+      "text": "Spherical Geometry Operators Using the S2 Geometry Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/s2",
+      "status": "candidate-context",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/gemlab",
+      "status": "candidate-context",
+      "text": "Geometry laboratory for finite element analyses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/gemlab",
+      "status": "candidate-context",
+      "text": "Test & Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate-context",
+      "text": "Triangle and Tetrahedron Mesh Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate-context",
+      "text": "Test & Coverage"
     }
   ],
   "candidate_glosses": [
@@ -301,6 +362,36 @@
       "source_repo": "tendermint/tendermint",
       "status": "candidate",
       "text": "Test Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "Test & Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paleolimbot/geos",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-spatial/s2",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/gemlab",
+      "status": "candidate",
+      "text": "Test & Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate",
+      "text": "Test & Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -338,6 +429,41 @@
       "score": 37042,
       "status": "candidate",
       "text": "test out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "ink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12046,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11739,
+      "status": "candidate",
+      "text": "area"
     }
   ],
   "candidate_synonyms": [],
@@ -470,11 +596,47 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "paleolimbot/geos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "r-spatial/s2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/gemlab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/tritet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

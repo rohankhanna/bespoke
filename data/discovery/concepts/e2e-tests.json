@@ -385,6 +385,36 @@
       "source_repo": "pixielabs/cavy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-web",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "E2E tests"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +603,24 @@
       "source_repo": "pixielabs/cavy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dydxprotocol/v4-web",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate",
+      "text": "E2E tests"
     }
   ],
   "candidate_related_terms": [
@@ -1252,11 +1300,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/run-e2e.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

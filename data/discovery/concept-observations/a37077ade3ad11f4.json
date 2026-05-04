@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008253,
+      "status": "candidate",
+      "text": "pinnacle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007764,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006977,
+      "status": "candidate",
+      "text": "superlative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006915,
+      "status": "candidate",
+      "text": "height"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006626,
+      "status": "candidate",
+      "text": "elevation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "acme",
+      "sense_id": "acme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26046,
+      "status": "candidate",
+      "text": "pinnacle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25051,
+      "status": "candidate",
+      "text": "vertex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25039,
+      "status": "candidate",
+      "text": "superlative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20064,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19076,
+      "status": "candidate",
+      "text": "top"
+    }
+  ],
+  "concept_id": "acme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "acme",
+  "observation_id": "a37077ade3ad11f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "acme",
+  "source_context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+  "source_file": null,
+  "source_repo": "certbot/certbot",
+  "source_repo_description": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+}

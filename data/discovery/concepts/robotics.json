@@ -1063,6 +1063,102 @@
       "source_repo": "RoboTwin-Platform/RoboTwin",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[RSS 2023] Official code for \"Goal Conditioned Imitation Learning using Score-based Diffusion Policies\" "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate-context",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Implicit Behavioral Cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "Memory-Dependent Manipulation Benchmark based on RoboTwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starVLA/starVLA",
+      "status": "candidate-context",
+      "text": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starVLA/starVLA",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate-context",
+      "text": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate-context",
+      "text": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "Radar odometry code which removes motion distortion and Doppler effects from Navtech radar data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "Dexbotic: Open-Source Vision-Language-Action Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1689,54 @@
       "source_repo": "RoboTwin-Platform/RoboTwin",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intuitive-robots/beso",
+      "status": "candidate",
+      "text": "[Paper](https://arxiv.org/pdf/2304.02532), [Project Page](https://intuitive-robots.github.io/beso-website), [RSS 2023](https://roboticsconference.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starVLA/starVLA",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate",
+      "text": "[![C++ API](https://img.shields.io/badge/API-C%2B%2B-blue.svg)](https://gtsam.org/doxygen/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2428,11 +2572,113 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intuitive-robots/beso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "starVLA/starVLA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "borglab/gtsam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stack-of-tasks/pinocchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

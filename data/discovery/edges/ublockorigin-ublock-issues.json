@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "ublockorigin/ubol-issues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "christosgalano/delete-gh-workflow-runs@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "del-runs-comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "on-issue-comment",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "uBlockOrigin/uBlock-issues"
+}

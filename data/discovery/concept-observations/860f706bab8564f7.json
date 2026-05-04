@@ -84,7 +84,7 @@
   "normalized_form": "publish-codecov-report-from-main-branch",
   "observation_id": "860f706bab8564f7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Publish codecov report from main branch",
   "source_context_snippet": "Publish codecov report from main branch",
   "source_file": ".github/workflows/codecov-next.yaml",

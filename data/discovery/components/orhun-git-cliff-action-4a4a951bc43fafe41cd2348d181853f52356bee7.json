@@ -1,0 +1,12 @@
+{
+  "component": "orhun/git-cliff-action@4a4a951bc43fafe41cd2348d181853f52356bee7",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "openlawlibrary/pygls"
+    }
+  ]
+}

@@ -67,6 +67,42 @@
       "source_repo": "logaretm/vee-validate",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb React Hooks for form state management and validation (Web + React Native)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "\u2705 Headless form validation library for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "[npm-version-src]: https://img.shields.io/npm/v/@regle/core.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "Open-Source Form Framework for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "logaretm/vee-validate",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate",
+      "text": "[npm-version-src]: https://img.shields.io/npm/v/@regle/core.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +256,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "victorgarciaesgi/regle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vueform/vueform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

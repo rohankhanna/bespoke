@@ -340,13 +340,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "licensee/licensed",
-      "target": "github/licensed.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed",
@@ -543,7 +536,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:31:26.531517+00:00",
+  "fetched_at": "2026-05-04T09:39:17.744428+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,11 +582,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/licensed",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "github/licensed.",
       "source_file": "README.md"
     }
   ],

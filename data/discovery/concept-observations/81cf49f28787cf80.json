@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ CSV parser library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rapidcsv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rapidcsv"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "program library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777600,
+      "status": "candidate",
+      "text": "librarianship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777596,
+      "status": "candidate",
+      "text": "librarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29776874,
+      "status": "candidate",
+      "text": "bookstore"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "library",
+      "sense_id": "library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "program library"
+    }
+  ],
+  "concept_id": "library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "library",
+  "observation_id": "81cf49f28787cf80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "library",
+  "source_context_snippet": "Rapidcsv",
+  "source_file": null,
+  "source_repo": "d99kris/rapidcsv",
+  "source_repo_description": "C++ CSV parser library"
+}

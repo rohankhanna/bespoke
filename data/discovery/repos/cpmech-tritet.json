@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_arch_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Test & Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Test on Arch Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "source_repo": "cpmech/tritet",
+      "target": "Windows & macOS",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:33.522255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22204
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 587
+    },
+    {
+      "path": ".github/workflows/test_and_coverage.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/test_on_arch_linux.yml",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/windows_and_macos.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Triangle and Tetrahedron Mesh Generators",
+    "fork": false,
+    "full_name": "cpmech/tritet",
+    "html_url": "https://github.com/cpmech/tritet",
+    "language": "C++",
+    "pushed_at": "2026-04-06T21:57:42Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-06T21:57:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test & Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "term": "Test & Coverage"
+    },
+    {
+      "context_snippet": "Test on Arch Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "term": "Test on Arch Linux"
+    },
+    {
+      "context_snippet": "Windows & macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_and_macos.yml",
+      "term": "Windows & macOS"
+    }
+  ]
+}

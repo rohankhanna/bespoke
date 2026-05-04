@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "hongwenzhang/danet-3dhumanreconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "mkocabas/yolov3-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "3d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "human-model-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF",
+      "target": "smpl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:32.831191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7917
+    },
+    {
+      "path": "requirements.txt",
+      "size": 401
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "smpl",
+    "description": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop",
+    "fork": false,
+    "full_name": "HongwenZhang/PyMAF",
+    "html_url": "https://github.com/HongwenZhang/PyMAF",
+    "language": "Python",
+    "pushed_at": "2024-09-29T02:28:42Z",
+    "stargazers_count": 652,
+    "topics": [
+      "3d-human-pose",
+      "3d-human-shape-and-pose-estimation",
+      "human-mesh-recovery",
+      "human-model-reconstruction",
+      "smpl"
+    ],
+    "updated_at": "2026-03-15T12:23:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongwenzhang/danet-3dhumanreconstruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/yolov3-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-pose"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-mesh-recovery"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-model-reconstruction"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:24:37.837379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/js-lint-build-test.yml",
+      "size": 912
+    },
+    {
+      "path": ".github/workflows/js-publish.yml",
+      "size": 1103
+    },
+    {
+      "path": ".github/workflows/py-lint-test.yml",
+      "size": 1131
+    },
+    {
+      "path": ".github/workflows/py-publish.yml",
+      "size": 907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "kaloureyes3/v4-clients",
+    "html_url": "https://github.com/kaloureyes3/v4-clients",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-05T07:09:37Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-12-03T19:36:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

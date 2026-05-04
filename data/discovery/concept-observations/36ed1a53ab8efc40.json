@@ -48,7 +48,7 @@
   "normalized_form": "integration-test-template",
   "observation_id": "36ed1a53ab8efc40",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "integration-test-template",
   "source_context_snippet": "integration-test-template",
   "source_file": ".github/workflows/integ.yml",

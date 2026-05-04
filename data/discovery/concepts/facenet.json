@@ -19,6 +19,18 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate-context",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "Face recognition with deep neural networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "*Free and open source face recognition with"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate",
+      "text": "*Free and open source face recognition with"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "davidsandberg/facenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

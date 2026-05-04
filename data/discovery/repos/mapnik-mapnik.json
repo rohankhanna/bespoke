@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "mapnik/mapnik",
+      "target": "Release Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "beautiful-maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "cartography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "mapnik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik",
+      "target": "wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:07.023244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2174
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 6061
+    },
+    {
+      "path": ".github/workflows/release_linux.yml",
+      "size": 1389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mapnik is an open source toolkit for developing mapping applications",
+    "fork": false,
+    "full_name": "mapnik/mapnik",
+    "html_url": "https://github.com/mapnik/mapnik",
+    "language": "C++",
+    "pushed_at": "2026-04-14T10:41:05Z",
+    "stargazers_count": 3929,
+    "topics": [
+      "beautiful-maps",
+      "c-plus-plus",
+      "cartography",
+      "gis",
+      "mapnik",
+      "mapping",
+      "python",
+      "rendering",
+      "wiki"
+    ],
+    "updated_at": "2026-04-28T20:41:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Release Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yml",
+      "term": "Release Linux"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beautiful-maps"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cartography"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapnik"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wiki"
+    }
+  ]
+}

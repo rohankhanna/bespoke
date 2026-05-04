@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xfthhxk/unminify",
+      "target": "mifi/stacktracify",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:16.139669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3730
+    },
+    {
+      "path": "package.json",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "unminifies JS stacktrace errors",
+    "fork": false,
+    "full_name": "xfthhxk/unminify",
+    "html_url": "https://github.com/xfthhxk/unminify",
+    "language": "Clojure",
+    "pushed_at": "2024-03-19T15:26:01Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-14T20:16:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mifi/stacktracify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

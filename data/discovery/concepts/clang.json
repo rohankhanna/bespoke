@@ -226,6 +226,30 @@
       "source_repo": "JuliaInterop/Cxx.jl",
       "status": "candidate-context",
       "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/clif",
+      "status": "candidate-context",
+      "text": "Binding generator to wrap C++ for Python using LLVM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clif",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "The cling C++ interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +360,18 @@
       "source_repo": "JuliaInterop/Cxx.jl",
       "status": "candidate",
       "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clif",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate",
+      "text": "Cling - The Interactive C++ Interpreter"
     }
   ],
   "candidate_related_terms": [
@@ -565,11 +601,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaInterop/Cxx.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/clif"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "root-project/cling"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

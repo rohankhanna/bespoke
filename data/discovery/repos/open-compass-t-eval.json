@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-compass/T-Eval",
+      "target": "internlm/lagent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:20.777937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9280
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL2024] T-Eval: Evaluating Tool Utilization Capability of Large Language Models Step by Step",
+    "fork": false,
+    "full_name": "open-compass/T-Eval",
+    "html_url": "https://github.com/open-compass/T-Eval",
+    "language": "Python",
+    "pushed_at": "2024-04-03T21:05:37Z",
+    "stargazers_count": 306,
+    "topics": [],
+    "updated_at": "2026-04-30T06:13:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/lagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

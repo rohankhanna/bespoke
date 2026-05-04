@@ -206,6 +206,18 @@
       "source_repo": "cosmos/interchain-security",
       "status": "candidate-context",
       "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "Deploy a Production Ready Kubernetes Cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "Issue labeler"
     }
   ],
   "candidate_glosses": [
@@ -310,6 +322,12 @@
       "source_repo": "cosmos/interchain-security",
       "status": "candidate",
       "text": "\"Issue Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate",
+      "text": "Issue labeler"
     }
   ],
   "candidate_related_terms": [
@@ -509,11 +527,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/issue_labeler.yml",
       "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/auto-label-os.yml",
+      "source_repo": "kubernetes-sigs/kubespray"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

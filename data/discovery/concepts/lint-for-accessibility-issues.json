@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint for accessibility issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Lint for accessibility issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate",
+      "text": "Lint for accessibility issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27363,
+      "status": "candidate",
+      "text": "availability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27352,
+      "status": "candidate",
+      "text": "accessible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19795,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19180,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19077,
+      "status": "candidate",
+      "text": "flue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint for accessibility issues",
+  "concept_id": "lint-for-accessibility-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/a11y.yml",
+      "source_repo": "danny-avila/LibreChat"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint for accessibility issues",
+      "sense_id": "lint-for-accessibility-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

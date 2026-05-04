@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "mustache",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "read-file-relative",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml"
+    },
+    {
+      "component": "gautamkrishnar/keepalive-workflow@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml"
+    },
+    {
+      "component": "DevExpress/testcafe-build-system/actions/handle-labels@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-labels.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml"
+    },
+    {
+      "component": "gautamkrishnar/keepalive-workflow@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "andreybelym/testcafe-reporter-nunit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "mustache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "read-file-relative",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "gautamkrishnar/keepalive-workflow@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "Check security alerts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-labels.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "DevExpress/testcafe-build-system/actions/handle-labels@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-labels.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "Label Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-stale.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "gautamkrishnar/keepalive-workflow@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:39.428898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66
+    },
+    {
+      "path": "package.json",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/check-security-alerts.yml",
+      "size": 960
+    },
+    {
+      "path": ".github/workflows/handle-labels.yml",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/handle-stale.yml",
+      "size": 2177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get NUnit Test Result XML from TestCafe",
+    "fork": false,
+    "full_name": "DevExpress/testcafe-reporter-nunit",
+    "html_url": "https://github.com/DevExpress/testcafe-reporter-nunit",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-27T10:53:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-04-28T08:57:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreybelym/testcafe-reporter-nunit",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check security alerts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "term": "Check security alerts"
+    },
+    {
+      "context_snippet": "'Label Actions'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-labels.yml",
+      "term": "Label Actions"
+    },
+    {
+      "context_snippet": "\"Mark stale issues and pull requests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

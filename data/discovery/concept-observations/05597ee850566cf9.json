@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A free, open source bitmap font \"BoutiqueBitmap7x7\".\u3000\u514d\u8cbb\u3001\u958b\u6e90\u7684\u9ede\u9663\u5b57\u9ad4\u300a\u7cbe\u54c1\u9ede\u9663\u9ad47\u00d77\u300b\u3002\u3000\u514d\u8d39\u3001\u5f00\u6e90\u7684\u70b9\u9635\u5b57\u4f53\u300a\u7cbe\u54c1\u70b9\u9635\u4f537\u00d77\u300b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitmap-font",
+      "sense_id": "bitmap-font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bitmap-font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bitmap-font",
+  "observation_id": "05597ee850566cf9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "bitmap-font",
+  "source_context_snippet": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)",
+  "source_file": null,
+  "source_repo": "scott0107000/BoutiqueBitmap7x7",
+  "source_repo_description": "A free, open source bitmap font \"BoutiqueBitmap7x7\".\u3000\u514d\u8cbb\u3001\u958b\u6e90\u7684\u9ede\u9663\u5b57\u9ad4\u300a\u7cbe\u54c1\u9ede\u9663\u9ad47\u00d77\u300b\u3002\u3000\u514d\u8d39\u3001\u5f00\u6e90\u7684\u70b9\u9635\u5b57\u4f53\u300a\u7cbe\u54c1\u70b9\u9635\u4f537\u00d77\u300b\u3002"
+}

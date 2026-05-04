@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "rbush",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lineclip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/which-polygon",
+      "target": "rbush",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/which-polygon",
+      "target": "lineclip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/which-polygon",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/which-polygon",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/which-polygon",
+      "target": "tap",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:59.195249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1504
+    },
+    {
+      "path": "package.json",
+      "size": 844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Index for matching points against a set of GeoJSON polygons",
+    "fork": false,
+    "full_name": "mapbox/which-polygon",
+    "html_url": "https://github.com/mapbox/which-polygon",
+    "language": "JavaScript",
+    "pushed_at": "2023-02-16T16:35:19Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-22T18:07:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

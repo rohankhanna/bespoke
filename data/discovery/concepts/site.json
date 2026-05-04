@@ -58,6 +58,18 @@
       "source_repo": "testng-team/testng-team.github.io",
       "status": "candidate-context",
       "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "comment engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "site"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "testng-team/testng-team.github.io",
       "status": "candidate",
       "text": "The TestNG documentation portal now makes use of [AsciiDoctor](https://docs.asciidoctor.org/) for managing documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate",
+      "text": "site"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +198,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "testng-team/testng-team.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci-site.yml",
+      "source_repo": "umputun/remark42"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

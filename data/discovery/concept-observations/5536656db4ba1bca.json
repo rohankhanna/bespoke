@@ -48,7 +48,7 @@
   "normalized_form": "code-check",
   "observation_id": "5536656db4ba1bca",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "code-check",
   "source_context_snippet": "code-check",
   "source_file": ".github/workflows/code-check.yml",

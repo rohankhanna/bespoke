@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "build-snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate",
+      "text": "build-snapshots"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-snapshots",
+  "concept_id": "build-snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-snapshots",
+      "sense_id": "build-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

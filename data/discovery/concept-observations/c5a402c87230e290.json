@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Deprecated] Processing reference, examples, tutorials, and website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982970,
+      "status": "candidate",
+      "text": "learnedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981185,
+      "status": "candidate",
+      "text": "erudition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980977,
+      "status": "candidate",
+      "text": "eruditeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967985,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965815,
+      "status": "candidate",
+      "text": "scholarship"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "learning",
+      "sense_id": "learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40028,
+      "status": "candidate",
+      "text": "erudition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29059,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8033,
+      "status": "candidate",
+      "text": "scholarship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8014,
+      "status": "candidate",
+      "text": "eruditeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6015,
+      "status": "candidate",
+      "text": "learnedness"
+    }
+  ],
+  "concept_id": "learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "learning",
+  "observation_id": "c5a402c87230e290",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "learning",
+  "source_context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+  "source_file": null,
+  "source_repo": "processing/processing-docs",
+  "source_repo_description": "[Deprecated] Processing reference, examples, tutorials, and website"
+}

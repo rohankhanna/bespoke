@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filter lists for uBlock Origin & uBlock Origin Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "del-runs-comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "del-runs-comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "del-runs-comments",
+      "sense_id": "del-runs-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "del-runs-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "del-runs-comments",
+  "observation_id": "07d4e47b2f0e9884",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "del-runs-comments",
+  "source_context_snippet": "del-runs-comments",
+  "source_file": ".github/workflows/del-runs-comments.yml",
+  "source_repo": "uBlockOrigin/uAssets",
+  "source_repo_description": "Filter lists for uBlock Origin & uBlock Origin Lite"
+}

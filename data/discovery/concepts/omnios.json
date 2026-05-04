@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "OmniOS"
+    "OmniOS",
+    "Omnios"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate-context",
       "text": "OmniOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "Unit test project for acme.sh project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "Omnios"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "RoaringBitmap/CRoaring",
       "status": "candidate",
       "text": "OmniOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate",
+      "text": "Omnios"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/omnios-ci.yml",
       "source_repo": "RoaringBitmap/CRoaring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/Omnios.yml",
+      "source_repo": "acmesh-official/acmetest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

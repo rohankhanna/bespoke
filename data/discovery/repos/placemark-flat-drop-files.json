@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "@types/wicg-file-system-access",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "parcel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "sindresorhus/junk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "anatol-grabowski/datatransfer-files-promise",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "dropzone/dropzone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "@types/wicg-file-system-access",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "parcel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "placemark/flat-drop-files",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "placemark/flat-drop-files",
+      "target": "datatransfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "placemark/flat-drop-files",
+      "target": "drag-and-drop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:29.517480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3360
+    },
+    {
+      "path": "package.json",
+      "size": 837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Normalize the DataTransferItems interface from a drop event",
+    "fork": false,
+    "full_name": "placemark/flat-drop-files",
+    "html_url": "https://github.com/placemark/flat-drop-files",
+    "language": "TypeScript",
+    "pushed_at": "2022-12-27T14:01:49Z",
+    "stargazers_count": 165,
+    "topics": [
+      "datatransfer",
+      "drag-and-drop"
+    ],
+    "updated_at": "2025-12-13T04:47:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anatol-grabowski/datatransfer-files-promise",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dropzone/dropzone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sindresorhus/junk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Drag & Drop [dataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datatransfer"
+    },
+    {
+      "context_snippet": "The Drag & Drop [dataTransfer](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drag-and-drop"
+    }
+  ]
+}

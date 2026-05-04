@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "standard-library",
+      "sense_id": "standard-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "standard-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "standard-library",
+  "observation_id": "54eac301672845fd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "standard-library",
+  "source_context_snippet": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)",
+  "source_file": null,
+  "source_repo": "XantreDev/preact-signals",
+  "source_repo_description": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+}

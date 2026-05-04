@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "reid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "This repo is for our IEEE TCSVT paper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate",
+      "text": "This repo is for our IEEE TCSVT paper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27473574,
+      "status": "candidate",
+      "text": "jonson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27462296,
+      "status": "candidate",
+      "text": "daly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27442375,
+      "status": "candidate",
+      "text": "donley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27436468,
+      "status": "candidate",
+      "text": "pharr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26239068,
+      "status": "candidate",
+      "text": "tak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "reid",
+  "concept_id": "reid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reid",
+      "sense_id": "reid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

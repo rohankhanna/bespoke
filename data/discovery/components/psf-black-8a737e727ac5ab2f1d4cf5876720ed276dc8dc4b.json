@@ -1,0 +1,17 @@
+{
+  "component": "psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/full.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
+    }
+  ]
+}

@@ -574,6 +574,18 @@
       "source_repo": "pytorch/ignite",
       "status": "candidate-context",
       "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -864,6 +876,12 @@
       "source_repo": "pytorch/ignite",
       "status": "candidate",
       "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate",
+      "text": "Build Docs"
     }
   ],
   "candidate_related_terms": [
@@ -1579,11 +1597,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

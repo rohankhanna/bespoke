@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "cram"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/htslib",
+      "status": "candidate-context",
+      "text": "C library for high-throughput sequencing data formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htslib",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate-context",
+      "text": "A Java API for high-throughput sequencing data (HTS) formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htslib",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999487,
+      "status": "candidate",
+      "text": "fill up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999384,
+      "status": "candidate",
+      "text": "fill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995809,
+      "status": "candidate",
+      "text": "get up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987328,
+      "status": "candidate",
+      "text": "wad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974892,
+      "status": "candidate",
+      "text": "stuff"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16090,
+      "status": "candidate",
+      "text": "ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "jam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "stuff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12032,
+      "status": "candidate",
+      "text": "swot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11066,
+      "status": "candidate",
+      "text": "bone"
+    }
+  ],
+  "canonical_name": "cram",
+  "concept_id": "cram",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "samtools/htslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cram",
+      "sense_id": "cram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

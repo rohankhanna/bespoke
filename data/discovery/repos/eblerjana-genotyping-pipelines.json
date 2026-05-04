@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:21:44.730120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "eblerjana/genotyping-pipelines",
+    "html_url": "https://github.com/eblerjana/genotyping-pipelines",
+    "language": "Python",
+    "pushed_at": "2025-05-05T07:40:09Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-01-29T20:46:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

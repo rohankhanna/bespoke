@@ -151,6 +151,54 @@
       "source_repo": "hoshsadiq/adblock-nocoin-list",
       "status": "candidate-context",
       "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "Lean and powerful adblocking solution for OpenWrt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate-context",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-based Host Blocker (and lightweight ad blocker) for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "Collection of blocklists to fill in the gaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate-context",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "Setup guide for NextDNS, a DoH proxy with advanced capabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate-context",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "hoshsadiq/adblock-nocoin-list",
       "status": "candidate",
       "text": "This is an adblock list to block \"browser-based crypto mining\". Currently there are a few websites added into the lists. If you see other websites supporting these deeds, then feel free to raise an **Issue** or **Pull request** for it to be taken care of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lynxthecat/adblock-lean",
+      "status": "candidate",
+      "text": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/filterlists",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/NextDNS-Config",
+      "status": "candidate",
+      "text": "1) Prevent overblocking by utilizing the [law of diminishing returns]() (e.g., using [sane](https://www.privacyguides.org/en/basics/threat-modeling/), quality [blocklists](https://github.com/yokoffing/NextDNS-Config#blocklists-1); allowing most [TLDs](https://github.com/yokoffin\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +412,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "hoshsadiq/adblock-nocoin-list"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/filterlists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/NextDNS-Config"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -76,6 +76,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "lumen-oss/rtp.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "stack-of-tasks/pinocchio"
     }
   ],
   "term": "update-flake-lock"

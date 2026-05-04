@@ -43,6 +43,18 @@
       "source_repo": "appbaseio/mirage",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "Elastic Cloud on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "appbaseio/mirage",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://github.com/appbaseio/mirage/blob/dev/LICENSE.md) [![](https://img.shields.io/badge/angular-2.0.2-red.svg)](https://github.com/appbaseio/mirage/blob/dev/package.json#L20) [![Docker Pulls](https://img.shields.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "appbaseio/mirage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

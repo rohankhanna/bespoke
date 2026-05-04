@@ -163,6 +163,18 @@
       "source_repo": "NVlabs/VoxFormer",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "Radar odometry code which removes motion distortion and Doppler effects from Navtech radar data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate-context",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +261,12 @@
       "source_repo": "NVlabs/VoxFormer",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keenan-burnett/yeti_radar_odometry",
+      "status": "candidate",
+      "text": "This repo contains radar odometry code which removes motion distortion and Doppler effects from Navtech radar data. For our odometry experiments, we use the [Oxford Radar Robotcar Dataset](https://oxford-robotics-institute.github.io/radar-robotcar-dataset/). For our metric local\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +364,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "NVlabs/VoxFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

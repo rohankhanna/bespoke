@@ -4823,6 +4823,78 @@
       "source_repo": "JohannesKaufmann/html-to-markdown",
       "status": "candidate-context",
       "text": "A robust html-to-markdown converter that transforms HTML (even entire websites) into clean, readable Markdown. It supports complex formatting, customizable options, and plugins for full control over the conversion process."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "A SOCKS (SOCKS4, SOCKS4A and SOCKS5) Proxy Package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday: a fast golang HTML sanitizer (inspired by the OWASP Java HTML Sanitizer) to scrub user generated content of XSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "Cosmos Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfenetworks/bfe",
+      "status": "candidate-context",
+      "text": "A modern layer 7 load balancer from baidu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfenetworks/bfe",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/bfenetworks/bfe)](https://github.com/bfenetworks/bfe/blob/develop/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -7243,6 +7315,42 @@
       "source_repo": "JohannesKaufmann/html-to-markdown",
       "status": "candidate",
       "text": "A robust html-to-markdown converter that transforms HTML (even entire websites) into clean, readable Markdown. It supports complex formatting, customizable options, and plugins for full control over the conversion process."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfenetworks/bfe",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/bfenetworks/bfe)](https://github.com/bfenetworks/bfe/blob/develop/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -10520,11 +10628,125 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "JohannesKaufmann/html-to-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "h12w/socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/gaia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bfenetworks/bfe"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

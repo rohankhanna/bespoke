@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "charliie-dev/Logseq-Hugo-Template",
-      "target": "features/actions",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "charliie-dev/Logseq-Hugo-Template",
@@ -81,7 +74,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:47:20.638601+00:00",
+  "fetched_at": "2026-05-04T09:38:32.359755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,11 +107,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "charleschiugit/logseq-hugo-template",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "features/actions",
       "source_file": "README.md"
     }
   ],

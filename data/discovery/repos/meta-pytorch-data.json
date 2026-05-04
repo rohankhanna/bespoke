@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml"
+    },
+    {
+      "component": "egor-tensin/vs-shell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml"
+    },
+    {
+      "component": "egor-tensin/vs-shell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Build, Test and Upload Wheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Push Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "egor-tensin/vs-shell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Run Nodes Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_release.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Test Release Pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "egor-tensin/vs-shell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "source_repo": "meta-pytorch/data",
+      "target": "Run StatefulDataLoader Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:05.402663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4079
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 204
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/_build_test_upload.yml",
+      "size": 3814
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux.yml",
+      "size": 1637
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 2627
+    },
+    {
+      "path": ".github/workflows/nightly_release.yml",
+      "size": 437
+    },
+    {
+      "path": ".github/workflows/nodes_ci.yml",
+      "size": 2763
+    },
+    {
+      "path": ".github/workflows/pull_release.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/stateful_dataloader_ci.yml",
+      "size": 4344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries.",
+    "fork": false,
+    "full_name": "meta-pytorch/data",
+    "html_url": "https://github.com/meta-pytorch/data",
+    "language": "Python",
+    "pushed_at": "2026-05-03T11:47:48Z",
+    "stargazers_count": 1256,
+    "topics": [],
+    "updated_at": "2026-04-30T10:14:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build, Test and Upload Wheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "term": "Build, Test and Upload Wheel"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Push Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_release.yml",
+      "term": "Push Nightly Release"
+    },
+    {
+      "context_snippet": "Run Nodes Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodes_ci.yml",
+      "term": "Run Nodes Tests"
+    },
+    {
+      "context_snippet": "Test Release Pipelines",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_release.yml",
+      "term": "Test Release Pipelines"
+    },
+    {
+      "context_snippet": "Run StatefulDataLoader Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stateful_dataloader_ci.yml",
+      "term": "Run StatefulDataLoader Tests"
+    }
+  ]
+}

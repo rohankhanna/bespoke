@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Userspace wireguard and network monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Provenance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Provenance"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15053,
+      "status": "candidate",
+      "text": "provenience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14812,
+      "status": "candidate",
+      "text": "from"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14812,
+      "status": "candidate",
+      "text": "origin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14812,
+      "status": "candidate",
+      "text": "origins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14812,
+      "status": "candidate",
+      "text": "source"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Provenance",
+      "sense_id": "build-provenance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-provenance",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-provenance",
+  "observation_id": "1de8c635681f9d66",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Build Provenance",
+  "source_context_snippet": "Build Provenance",
+  "source_file": ".github/workflows/provenance.yml",
+  "source_repo": "celzero/firestack",
+  "source_repo_description": "Userspace wireguard and network monitor"
+}

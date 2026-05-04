@@ -79,6 +79,18 @@
       "source_repo": "peteanderson80/Up-Down-Captioner",
       "status": "candidate-context",
       "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate-context",
+      "text": "LSTM and QRNN Language Model Toolkit for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate-context",
+      "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "peteanderson80/Up-Down-Captioner",
       "status": "candidate",
       "text": "Simple yet high-performing image captioning model using Caffe and python. Using image features from [bottom-up attention](https://github.com/peteanderson80/bottom-up-attention), in July 2017 this model achieved state-of-the-art performance on all metrics of the [COCO captions te\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "status": "candidate",
+      "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
     }
   ],
   "candidate_related_terms": [
@@ -189,11 +207,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "peteanderson80/Up-Down-Captioner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

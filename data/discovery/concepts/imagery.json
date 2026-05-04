@@ -19,6 +19,18 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate-context",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "A unified layer index for OSM editors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mapillary/mapillary-js",
       "status": "candidate",
       "text": "[![GitHub workflow](https://github.com/mapillary/mapillary-js/workflows/Build/badge.svg)](https://github.com/mapillary/mapillary-js/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate",
+      "text": "[![Deploy](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml/badge.svg?branch=gh-pages)](https://github.com/osmlab/editor-layer-index/actions/workflows/push.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mapillary/mapillary-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/editor-layer-index"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mostjs/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "term": "reactive-programming"

@@ -191,6 +191,18 @@
       "source_repo": "InteractiveComputerGraphics/Discregrid",
       "status": "candidate-context",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "JDK main-line development https://openjdk.org/projects/jdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "'Build (windows)'"
     }
   ],
   "candidate_glosses": [
@@ -283,6 +295,12 @@
       "source_repo": "InteractiveComputerGraphics/Discregrid",
       "status": "candidate",
       "text": "build-windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "'Build (windows)'"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +469,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "InteractiveComputerGraphics/Discregrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

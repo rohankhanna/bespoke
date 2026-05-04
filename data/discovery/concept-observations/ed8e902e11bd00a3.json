@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hamlit integration for Cells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI with EOL ruby versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI with EOL ruby versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21604,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21209,
+      "status": "candidate",
+      "text": "red algae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21120,
+      "status": "candidate",
+      "text": "marker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21120,
+      "status": "candidate",
+      "text": "till"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21120,
+      "status": "candidate",
+      "text": "tilled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI with EOL ruby versions",
+      "sense_id": "ci-with-eol-ruby-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-with-eol-ruby-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-with-eol-ruby-versions",
+  "observation_id": "ed8e902e11bd00a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "CI with EOL ruby versions",
+  "source_context_snippet": "CI with EOL ruby versions",
+  "source_file": ".github/workflows/ci_legacy.yml",
+  "source_repo": "trailblazer/cells-hamlit",
+  "source_repo_description": "Hamlit integration for Cells"
+}

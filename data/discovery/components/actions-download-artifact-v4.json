@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -5107,6 +5107,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mswjs/msw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "lewish/asciiflow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-simd-nightlies.yml",
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "pot-app/pot-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloverLabsAI/camoufox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "SciSharp/LLamaSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-artifacts.yml",
+      "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mswjs/interceptors"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "react-cosmos/react-cosmos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/provenance.yml",
+      "source_repo": "celzero/firestack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "root-project/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-metrics-container.yml",
+      "source_repo": "root-project/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cibw.yml",
+      "source_repo": "borglab/gtsam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prod-cibw.yml",
+      "source_repo": "borglab/gtsam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-review.yml",
+      "source_repo": "danny-avila/LibreChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "berniegp/mock-xmlhttprequest"
     }
   ]
 }

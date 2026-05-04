@@ -1234,6 +1234,60 @@
       "source_repo": "datafuse-extras/async-compression",
       "status": "candidate-context",
       "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "A Vite plugin to instrument code for nyc/istanbul code coverage. In similar way as the Webpack Loader istanbul-instrumenter-loader. Only intended for use in development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate-context",
+      "text": "vite-plugin-istanbul"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "\u2705 Headless form validation library for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Istanbul-compatible JavaScript/TypeScript coverage instrumentation using the Oxc AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate-context",
+      "text": "The Swiss Army knife to power JavaScript based client solutions ranging from Web apps/explorers over browser extensions to server-side clients like faucets/scrapers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -1854,6 +1908,36 @@
       "source_repo": "datafuse-extras/async-compression",
       "status": "candidate",
       "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iFaxity/vite-plugin-istanbul",
+      "status": "candidate",
+      "text": "vite-plugin-istanbul"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml/badge.svg)](https://github.com/fallow-rs/oxc-coverage-instrument/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmjs",
+      "status": "candidate",
+      "text": "Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -2903,11 +2987,83 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "sicmutils/sicmutils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iFaxity/vite-plugin-istanbul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "victorgarciaesgi/regle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cosmos/cosmjs"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

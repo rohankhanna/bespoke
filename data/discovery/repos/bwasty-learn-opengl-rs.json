@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "joeydevries/learnopengl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "tomaka/glutin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "twinklebear/tobj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "rust-lang-nursery/rls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwasty/learn-opengl-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:36:16.132044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4782
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust port of JoeyDeVries/LearnOpenGL",
+    "fork": false,
+    "full_name": "bwasty/learn-opengl-rs",
+    "html_url": "https://github.com/bwasty/learn-opengl-rs",
+    "language": "Rust",
+    "pushed_at": "2021-12-22T00:33:37Z",
+    "stargazers_count": 1036,
+    "topics": [
+      "opengl",
+      "rust"
+    ],
+    "updated_at": "2026-04-25T17:23:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joeydevries/learnopengl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/rls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomaka/glutin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twinklebear/tobj",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust port of https://github.com/JoeyDeVries/LearnOpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Rust port of https://github.com/JoeyDeVries/LearnOpenGL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

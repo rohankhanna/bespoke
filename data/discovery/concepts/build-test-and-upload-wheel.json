@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build, Test and Upload Wheel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "Build, Test and Upload Wheel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate",
+      "text": "Build, Test and Upload Wheel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31842,
+      "status": "candidate",
+      "text": "rear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31842,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31793,
+      "status": "candidate",
+      "text": "gain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31728,
+      "status": "candidate",
+      "text": "zero in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31606,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build, Test and Upload Wheel",
+  "concept_id": "build-test-and-upload-wheel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/_build_test_upload.yml",
+      "source_repo": "meta-pytorch/data"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build, Test and Upload Wheel",
+      "sense_id": "build-test-and-upload-wheel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

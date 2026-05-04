@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:18:33.621214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Libuuid_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Libuuid_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-11T15:39:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-11T15:40:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

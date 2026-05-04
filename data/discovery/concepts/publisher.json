@@ -1,0 +1,149 @@
+{
+  "aliases": [
+    "publisher",
+    "Publisher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Userspace wireguard and network monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Publisher"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate",
+      "text": "Publisher"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049158,
+      "status": "candidate",
+      "text": "publishing house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049363,
+      "status": "candidate",
+      "text": "publishing company"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049363,
+      "status": "candidate",
+      "text": "publishing firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049362,
+      "status": "candidate",
+      "text": "publishing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049338,
+      "status": "candidate",
+      "text": "edition"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "publishing house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "publishing firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "publishing company"
+    }
+  ],
+  "canonical_name": "publisher",
+  "concept_id": "publisher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "celzero/firestack"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "publisher",
+      "sense_id": "publisher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

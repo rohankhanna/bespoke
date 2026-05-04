@@ -283,6 +283,30 @@
       "source_repo": "haofanwang/CLIFF",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper PARE: Part Attention Regressor for 3D Human Body Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "haofanwang/CLIFF",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_related_terms": [],
@@ -622,11 +658,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

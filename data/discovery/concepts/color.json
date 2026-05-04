@@ -217,6 +217,18 @@
       "source_repo": "bokub/gradient-string",
       "status": "candidate-context",
       "text": "[![Build Status][build-src]][build-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgrins/TinyColor",
+      "status": "candidate-context",
+      "text": "Fast, small color manipulation and conversion for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgrins/TinyColor",
+      "status": "candidate-context",
+      "text": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies."
     }
   ],
   "candidate_glosses": [
@@ -327,6 +339,12 @@
       "source_repo": "bokub/gradient-string",
       "status": "candidate",
       "text": "[![Build Status][build-src]][build-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgrins/TinyColor",
+      "status": "candidate",
+      "text": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies."
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +622,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "rose-pine/rose-pine-palette"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bgrins/TinyColor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-palette"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

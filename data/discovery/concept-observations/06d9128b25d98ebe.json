@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udccb Validation resolvers: Yup, Zod, Superstruct, Joi, Vest, Class Validator, io-ts, Nope, computed-types, typanion, Ajv, TypeBox, ArkType, Valibot, effect-ts, VineJS and Standard Schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34780072,
+      "status": "candidate",
+      "text": "crochet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34779988,
+      "status": "candidate",
+      "text": "knock off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34779636,
+      "status": "candidate",
+      "text": "mitt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34764142,
+      "status": "candidate",
+      "text": "fleece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34763434,
+      "status": "candidate",
+      "text": "soak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hooks",
+      "sense_id": "hooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hooks",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hooks",
+  "observation_id": "06d9128b25d98ebe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "hooks",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "react-hook-form/resolvers",
+  "source_repo_description": "\ud83d\udccb Validation resolvers: Yup, Zod, Superstruct, Joi, Vest, Class Validator, io-ts, Nope, computed-types, typanion, Ajv, TypeBox, ArkType, Valibot, effect-ts, VineJS and Standard Schema"
+}

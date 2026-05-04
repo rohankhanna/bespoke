@@ -91,6 +91,54 @@
       "source_repo": "miyakogi/pyppeteer",
       "status": "candidate-context",
       "text": "Pyppeteer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argos-ci/jest-puppeteer",
+      "status": "candidate-context",
+      "text": "Run tests using Jest & Puppeteer \ud83c\udfaa\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argos-ci/jest-puppeteer",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaf  Teach puppeteer new tricks through plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "status": "candidate-context",
+      "text": "A plugin for playwright-extra and puppeteer-extra to provide Smart Proxy Manager specific functionalities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "status": "candidate-context",
+      "text": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "miyakogi/pyppeteer",
       "status": "candidate",
       "text": "Pyppeteer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argos-ci/jest-puppeteer",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/jest-puppeteer.svg)](https://www.npmjs.com/package/jest-puppeteer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate",
+      "text": "This is the monorepo for [`puppeteer-extra`](./packages/puppeteer-extra), a modular plugin framework for [`puppeteer`](https://github.com/puppeteer/puppeteer). :-)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zytedata/zyte-smartproxy-plugin",
+      "status": "candidate",
+      "text": "zyte-smartproxy-plugin \u2014 A playwright-extra and puppeteer-extra enhancement with zyte smart proxy manager services"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +298,35 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "miyakogi/pyppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "argos-ci/jest-puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "berstend/puppeteer-extra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zytedata/zyte-smartproxy-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commit_check.yml",
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commit_check.yml",
+      "source_repo": "infinigence/FUSCO"
+    }
+  ],
+  "term": "Commit Check"
+}

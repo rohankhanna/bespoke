@@ -256,6 +256,18 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "Elastic Cloud on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
     }
   ],
   "candidate_glosses": [
@@ -384,6 +396,12 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)"
     }
   ],
   "candidate_related_terms": [
@@ -739,11 +757,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

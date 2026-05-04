@@ -213,6 +213,18 @@
       "source_repo": "gazebosim/gz-gui",
       "status": "candidate-context",
       "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "Mihomo Dashboard, The Official One, XD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
     }
   ],
   "candidate_glosses": [
@@ -317,6 +329,12 @@
       "source_repo": "gazebosim/gz-gui",
       "status": "candidate",
       "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
     }
   ],
   "candidate_related_terms": [
@@ -512,11 +530,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MetaCubeX/metacubexd"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

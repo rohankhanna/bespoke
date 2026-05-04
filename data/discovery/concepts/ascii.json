@@ -55,6 +55,42 @@
       "source_repo": "ietf-tools/xml2rfc",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "A web-based ASCII and Unicode diagram builder written in vanilla Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "Convert your ascii diagram scribbles into happy little SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "ietf-tools/xml2rfc",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ietf-tools/xml2rfc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ivanceras/svgbob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

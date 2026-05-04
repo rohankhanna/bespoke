@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/chain-registry",
+      "status": "candidate-context",
+      "text": "Sync Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/chain-registry",
+      "status": "candidate",
+      "text": "Sync Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12801,
+      "status": "candidate",
+      "text": "lip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12403,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12066,
+      "status": "candidate",
+      "text": "logos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12066,
+      "status": "candidate",
+      "text": "photo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12066,
+      "status": "candidate",
+      "text": "sound camera"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Images",
+  "concept_id": "sync-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Images",
+      "sense_id": "sync-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

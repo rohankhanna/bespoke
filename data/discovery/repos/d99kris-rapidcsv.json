@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "d99kris/doxygenmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "ben-strasser/fast-cpp-csv-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "vincentlaucsb/csv-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "microsoft/setup-msbuild@v1.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "d99kris/rapidcsv",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "csv-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "utf16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "utf8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:29:49.376067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18309
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 259
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ CSV parser library",
+    "fork": false,
+    "full_name": "d99kris/rapidcsv",
+    "html_url": "https://github.com/d99kris/rapidcsv",
+    "language": "C++",
+    "pushed_at": "2026-04-12T05:16:28Z",
+    "stargazers_count": 1052,
+    "topics": [
+      "c-plus-plus",
+      "c-plus-plus-11",
+      "csv-parser",
+      "library",
+      "linux",
+      "macos",
+      "utf16",
+      "utf8",
+      "windows"
+    ],
+    "updated_at": "2026-05-02T14:06:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ben-strasser/fast-cpp-csv-parser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d99kris/doxygenmd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vincentlaucsb/csv-parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-parser"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf16"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utf8"
+    },
+    {
+      "context_snippet": "Rapidcsv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

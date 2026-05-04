@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShelbyJenkins/llm_client",
+      "target": "candle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShelbyJenkins/llm_client",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShelbyJenkins/llm_client",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:48.869486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6948
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Easiest Rust Interface for Local LLMs and an Interface for Deterministic Signals from Probabilistic LLM Vibes",
+    "fork": false,
+    "full_name": "ShelbyJenkins/llm_client",
+    "html_url": "https://github.com/ShelbyJenkins/llm_client",
+    "language": "Rust",
+    "pushed_at": "2025-08-06T05:52:47Z",
+    "stargazers_count": 247,
+    "topics": [
+      "ai",
+      "candle",
+      "gguf",
+      "llm",
+      "rust"
+    ],
+    "updated_at": "2026-05-03T08:19:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- PROJECT SHIELDS -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "candle"
+    },
+    {
+      "context_snippet": "<!-- PROJECT SHIELDS -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "<!-- PROJECT SHIELDS -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

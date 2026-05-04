@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "gene-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "transcription-factor-binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "transcription-factors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:11.577913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18311
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding",
+    "fork": false,
+    "full_name": "lucidrains/tf-bind-transformer",
+    "html_url": "https://github.com/lucidrains/tf-bind-transformer",
+    "language": "Python",
+    "pushed_at": "2022-06-02T16:55:30Z",
+    "stargazers_count": 88,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "gene-expression",
+      "transcription-factor-binding",
+      "transcription-factors",
+      "transformers"
+    ],
+    "updated_at": "2025-12-01T16:49:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gene-expression"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription-factor-binding"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transcription-factors"
+    },
+    {
+      "context_snippet": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

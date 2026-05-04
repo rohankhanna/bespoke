@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julian-klode/dns66",
+      "target": "dbrodie/adbuster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "julian-klode/dns66",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "julian-klode/dns66",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "julian-klode/dns66",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "julian-klode/dns66",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "julian-klode/dns66",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "ad-blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "fdroid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "gplv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:29.826954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5300
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DNS-based Host Blocker (and lightweight ad blocker) for Android",
+    "fork": false,
+    "full_name": "julian-klode/dns66",
+    "html_url": "https://github.com/julian-klode/dns66",
+    "language": "Java",
+    "pushed_at": "2026-03-02T21:45:42Z",
+    "stargazers_count": 2242,
+    "topics": [
+      "ad-blocker",
+      "adblock",
+      "android",
+      "blocker",
+      "fdroid",
+      "gplv3",
+      "gradle",
+      "java"
+    ],
+    "updated_at": "2026-05-04T04:13:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbrodie/adbuster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ad-blocker"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocker"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fdroid"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gplv3"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "DNS-Based Host Blocking for Android",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

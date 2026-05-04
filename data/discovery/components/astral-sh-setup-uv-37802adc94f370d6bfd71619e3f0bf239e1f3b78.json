@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -162,6 +162,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/downstream.yml",
       "source_repo": "zarr-developers/zarr-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "developmentseed/obstore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "developmentseed/obstore"
     }
   ]
 }

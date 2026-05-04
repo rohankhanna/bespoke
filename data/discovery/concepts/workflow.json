@@ -451,6 +451,30 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokub/prettier-config",
+      "status": "candidate-context",
+      "text": "\ud83d\udc9c My personal Prettier config & workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/prettier-config",
+      "status": "candidate-context",
+      "text": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "Specification for the Workflow Description Language (WDL)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "<div style=\"align: center\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +699,18 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/broadinstitute/cromwell/branch/develop/graph/badge.svg)](https://codecov.io/gh/broadinstitute/cromwell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokub/prettier-config",
+      "status": "candidate",
+      "text": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate",
+      "text": "<div style=\"align: center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1156,11 +1192,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "broadinstitute/cromwell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bokub/prettier-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openwdl/wdl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

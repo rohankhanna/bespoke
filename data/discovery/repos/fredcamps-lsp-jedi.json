@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:18:42.259583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A LSP client for Emacs using Python Jedi Language Server",
+    "fork": false,
+    "full_name": "fredcamps/lsp-jedi",
+    "html_url": "https://github.com/fredcamps/lsp-jedi",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-08-24T19:08:47Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-11-17T11:11:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:28:35.142948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The dataset includes screen summaries that describes Android app screenshot's functionalities. It is used for training and evaluation of the screen2words models (our paper accepted by UIST'21 will be linked soon).",
+    "fork": false,
+    "full_name": "google-research-datasets/screen2words",
+    "html_url": "https://github.com/google-research-datasets/screen2words",
+    "language": null,
+    "pushed_at": "2021-07-27T01:10:07Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-19T12:35:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mkocabas/SPEC",
+      "target": "jerrypiglet/scalenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mkocabas/SPEC",
+      "target": "mkocabas/pare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mkocabas/SPEC",
+      "target": "mkocabas/yolov3-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "3d-human-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "3d-human-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "3d-human-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "camera-calibration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:34.130871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6190
+    },
+    {
+      "path": "requirements.txt",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera ",
+    "fork": false,
+    "full_name": "mkocabas/SPEC",
+    "html_url": "https://github.com/mkocabas/SPEC",
+    "language": "Python",
+    "pushed_at": "2024-02-26T17:12:59Z",
+    "stargazers_count": 236,
+    "topics": [
+      "3d-human-mesh",
+      "3d-human-pose",
+      "3d-human-reconstruction",
+      "3d-human-shape-and-pose-estimation",
+      "camera-calibration",
+      "computer-graphics",
+      "computer-vision",
+      "human-pose-estimation"
+    ],
+    "updated_at": "2026-03-27T16:15:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerrypiglet/scalenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/pare",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/yolov3-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-mesh"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-pose"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-reconstruction"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-calibration"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    }
+  ]
+}

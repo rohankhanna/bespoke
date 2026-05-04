@@ -667,6 +667,42 @@
       "source_repo": "JuliaImages/juliaimages.github.io",
       "status": "candidate-context",
       "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomayac/SVGcode",
+      "status": "candidate-context",
+      "text": "Convert color bitmap images to color SVG vector images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomayac/SVGcode",
+      "status": "candidate-context",
+      "text": "SVGcode is a Progressive Web App that lets you convert raster images like JPG,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "<!---->"
     }
   ],
   "candidate_glosses": [
@@ -999,6 +1035,24 @@
       "source_repo": "JuliaImages/juliaimages.github.io",
       "status": "candidate",
       "text": "Documentation For [JuliaImages](https://github.com/JuliaImages), the organization for image processing with Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomayac/SVGcode",
+      "status": "candidate",
+      "text": "SVGcode is a Progressive Web App that lets you convert raster images like JPG,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate",
+      "text": "<!---->"
     }
   ],
   "candidate_related_terms": [],
@@ -1588,11 +1642,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tomayac/SVGcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

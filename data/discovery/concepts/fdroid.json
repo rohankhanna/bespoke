@@ -19,6 +19,18 @@
       "source_repo": "gotify/android",
       "status": "candidate-context",
       "text": "<img align=\"right\" src=\"app.gif\" width=\"250\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-based Host Blocker (and lightweight ad blocker) for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-Based Host Blocking for Android"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gotify/android",
       "status": "candidate",
       "text": "<img align=\"right\" src=\"app.gif\" width=\"250\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate",
+      "text": "DNS-Based Host Blocking for Android"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "gotify/android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

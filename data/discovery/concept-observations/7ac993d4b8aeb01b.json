@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046564,
+      "status": "candidate",
+      "text": "symbolizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045352,
+      "status": "candidate",
+      "text": "symbolization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "standing for"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "abbreviations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "acronyms"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "symbols",
+      "sense_id": "symbols#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "symbols",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "symbols",
+  "observation_id": "7ac993d4b8aeb01b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "symbols",
+  "source_context_snippet": "Latest variable icon fonts and optimized SVGs for Material Symbols.",
+  "source_file": null,
+  "source_repo": "marella/material-symbols",
+  "source_repo_description": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+}

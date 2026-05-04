@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@v0.5.0",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/triage.yml",
       "source_repo": "gazebosim/gz-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/strangelove-project-management.yaml",
+      "source_repo": "cosmos/relayer"
     }
   ]
 }

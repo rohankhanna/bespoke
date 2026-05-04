@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "anse1/sqlsmith",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "anse1/sqlsmith",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anse1/sqlsmith",
+      "target": "fuzz-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anse1/sqlsmith",
+      "target": "monetdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anse1/sqlsmith",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anse1/sqlsmith",
+      "target": "sqlite3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:17:17.385732+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/regression.yml",
+      "size": 873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A random SQL query generator",
+    "fork": false,
+    "full_name": "anse1/sqlsmith",
+    "html_url": "https://github.com/anse1/sqlsmith",
+    "language": "C++",
+    "pushed_at": "2025-11-02T15:56:01Z",
+    "stargazers_count": 843,
+    "topics": [
+      "fuzz-testing",
+      "monetdb",
+      "postgresql",
+      "sqlite3"
+    ],
+    "updated_at": "2026-04-30T01:28:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzz-testing"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monetdb"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite3"
+    }
+  ]
+}

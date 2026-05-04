@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "7-Zip source code modified for Inno Setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inno-setup",
+      "sense_id": "inno-setup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inno-setup",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inno-setup",
+  "observation_id": "4cb3852fbd3ed0a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "inno-setup",
+  "source_context_snippet": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:",
+  "source_file": null,
+  "source_repo": "jrsoftware/is7z",
+  "source_repo_description": "7-Zip source code modified for Inno Setup."
+}

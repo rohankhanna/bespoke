@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/luci-app-shadowsocks-rust",
+      "target": "openwrt/luci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/luci-app-shadowsocks-rust",
+      "target": "honwen/openwrt-shadowsocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/luci-app-shadowsocks-rust",
+      "target": "shadowsocks/luci-app-shadowsocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "honwen/luci-app-shadowsocks-rust",
+      "target": "honwen/openwrt-dnsmasq-extra",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:45.980719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenWrt/LEDE LuCI for Shadowsocks-Rust",
+    "fork": true,
+    "full_name": "honwen/luci-app-shadowsocks-rust",
+    "html_url": "https://github.com/honwen/luci-app-shadowsocks-rust",
+    "language": "Shell",
+    "pushed_at": "2024-04-09T17:03:24Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-31T15:59:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "honwen/openwrt-dnsmasq-extra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "honwen/openwrt-shadowsocks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openwrt/luci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadowsocks/luci-app-shadowsocks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

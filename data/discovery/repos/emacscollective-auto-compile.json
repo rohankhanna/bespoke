@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "emacscollective/workflows/.github/workflows/compile.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "emacscollective/auto-compile",
+      "target": "emacscollective/workflows/.github/workflows/compile.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "emacscollective/auto-compile",
+      "target": "Compile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:39:05.594133+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically compile Emacs Lisp libraries",
+    "fork": false,
+    "full_name": "emacscollective/auto-compile",
+    "html_url": "https://github.com/emacscollective/auto-compile",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-01T12:57:35Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-03T14:25:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "Compile"
+    }
+  ]
+}

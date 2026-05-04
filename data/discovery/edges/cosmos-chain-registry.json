@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/chain-registry",
+      "target": "cmwaters/skychart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/chain-registry",
+      "target": "empowerchain/cosmos-chain-directory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/chain-registry",
+      "target": "effofxprime/cosmregistry-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/chain-registry",
+      "target": "gaia/chain-registry-query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/chain-registry",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/chain-registry",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/chain-registry",
+      "target": "eslint-plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "lycheeverse/lychee-action@v2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "peter-evans/create-issue-from-file@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-broken-links.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Check Broken Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-commit-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-pull-request@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Update Coingecko Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Lint PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-commit-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-pull-request@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Sync Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-commit-push@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "devops-infra/action-pull-request@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Sync Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_endpoints.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_endpoints.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_endpoints.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Test RPC and LCD endpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Validate \u2705",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cosmos/chain-registry",
+      "target": "Data Validation PR Workflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "cosmos/chain-registry"
+}

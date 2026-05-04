@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticcheck.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticcheck.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staticcheck.yml",
+      "source_repo": "inetaf/netaddr",
+      "target": "staticcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:49.338723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1745
+    },
+    {
+      "path": "go.mod",
+      "size": 281
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/staticcheck.yml",
+      "size": 498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Network address types",
+    "fork": false,
+    "full_name": "inetaf/netaddr",
+    "html_url": "https://github.com/inetaf/netaddr",
+    "language": "Go",
+    "pushed_at": "2023-05-25T18:44:39Z",
+    "stargazers_count": 722,
+    "topics": [],
+    "updated_at": "2026-03-05T11:16:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "staticcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staticcheck.yml",
+      "term": "staticcheck"
+    }
+  ]
+}

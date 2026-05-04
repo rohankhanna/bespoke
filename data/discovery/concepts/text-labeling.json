@@ -19,6 +19,18 @@
       "source_repo": "HumanSignal/label-studio-transformers",
       "status": "candidate-context",
       "text": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HumanSignal/label-studio-transformers",
       "status": "candidate",
       "text": "[Website](https://labelstud.io/) \u2022 [Docs](https://labelstud.io/guide) \u2022 [Twitter](https://twitter.com/heartexlabs) \u2022 [Join Slack Community <img src=\"https://app.heartex.ai/docs/images/slack-mini.png\" width=\"18px\"/>](https://slack.labelstud.io/?source=github-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "gsneha26/SegAlign"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Liu-xiandong/How_to_optimize_in_GPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "avikeid2007/KaiROS-AI"
     }
   ],
   "term": "gpu-acceleration"

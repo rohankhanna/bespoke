@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "tixiaoshan/imaging_lidar_place_recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "rmsalinas/dbow3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "lidar-inertial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "liosam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loop-closure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loop-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:05.723543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LIO-SAM-6AXIS with intensity image  loop optimization",
+    "fork": false,
+    "full_name": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+    "html_url": "https://github.com/JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+    "language": "C++",
+    "pushed_at": "2022-08-14T08:58:00Z",
+    "stargazers_count": 99,
+    "topics": [
+      "gtsam",
+      "lidar-inertial",
+      "liosam",
+      "loam",
+      "loam-velodyne",
+      "loop-closure",
+      "loop-detection"
+    ],
+    "updated_at": "2026-01-31T05:52:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rmsalinas/dbow3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tixiaoshan/imaging_lidar_place_recognition",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtsam"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liosam"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam-velodyne"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-closure"
+    },
+    {
+      "context_snippet": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loop-detection"
+    }
+  ]
+}

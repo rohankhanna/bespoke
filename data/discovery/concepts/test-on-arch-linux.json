@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Test on Arch Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Test on Arch Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate-context",
+      "text": "Triangle and Tetrahedron Mesh Generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate-context",
+      "text": "Test on Arch Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "Test on Arch Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/tritet",
+      "status": "candidate",
+      "text": "Test on Arch Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16327,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16327,
+      "status": "candidate",
+      "text": "dpkg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16327,
+      "status": "candidate",
+      "text": "gnome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15327,
+      "status": "candidate",
+      "text": "linus torvalds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15327,
+      "status": "candidate",
+      "text": "tux"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test on Arch Linux",
+  "concept_id": "test-on-arch-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/tritet"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test on Arch Linux",
+      "sense_id": "test-on-arch-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

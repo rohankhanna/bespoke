@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2262,6 +2262,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-step-2.yml",
       "source_repo": "TA-Lib/ta-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/interchain-test.yml",
+      "source_repo": "cosmos/gaia"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit"
     }
   ]
 }

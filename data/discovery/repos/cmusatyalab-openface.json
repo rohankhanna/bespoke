@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmusatyalab/openface",
+      "target": "atcold/torch-tripletembedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmusatyalab/openface",
+      "target": "facebook/fbnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmusatyalab/openface",
+      "target": "davisking/dlib-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface",
+      "target": "facenet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:57.662579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4619
+    },
+    {
+      "path": "Dockerfile",
+      "size": 975
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Face recognition with deep neural networks.",
+    "fork": false,
+    "full_name": "cmusatyalab/openface",
+    "html_url": "https://github.com/cmusatyalab/openface",
+    "language": "Lua",
+    "pushed_at": "2024-10-04T12:59:04Z",
+    "stargazers_count": 15416,
+    "topics": [
+      "deep-learning",
+      "face-recognition",
+      "facenet"
+    ],
+    "updated_at": "2026-05-04T07:06:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atcold/torch-tripletembedding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisking/dlib-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/fbnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Free and open source face recognition with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "*Free and open source face recognition with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "*Free and open source face recognition with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facenet"
+    }
+  ]
+}

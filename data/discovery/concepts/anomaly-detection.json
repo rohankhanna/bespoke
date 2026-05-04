@@ -127,6 +127,66 @@
       "source_repo": "thedatumorg/TSB-AD",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Deep SAD, a deep Semi-supervised Anomaly Detection method."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "Automated Solutions for Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/VUS",
+      "status": "candidate-context",
+      "text": "Volume Under the Surface: Accuracy Measure for Time Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/VUS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +247,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/VUS",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -328,11 +418,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "thedatumorg/TSB-AD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukasruff/Deep-SAD-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

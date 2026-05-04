@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -61,6 +61,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "PRBonn/kiss-icp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam"
     }
   ],
   "term": "slam"

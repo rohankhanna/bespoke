@@ -167,6 +167,18 @@
       "source_repo": "j20001970/GDMP",
       "status": "candidate-context",
       "text": "\ud83c\udf4e Build macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "JDK main-line development https://openjdk.org/projects/jdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "'Build (macos)'"
     }
   ],
   "candidate_glosses": [
@@ -247,6 +259,12 @@
       "source_repo": "j20001970/GDMP",
       "status": "candidate",
       "text": "\ud83c\udf4e Build macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "'Build (macos)'"
     }
   ],
   "candidate_related_terms": [
@@ -631,11 +649,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "openjdk/jdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

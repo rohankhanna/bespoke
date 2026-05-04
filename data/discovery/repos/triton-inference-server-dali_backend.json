@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "triton-inference-server/server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "dali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "data-preprocessing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "fast-data-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend",
+      "target": "nvidia-dali",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:43:44.197225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API.",
+    "fork": false,
+    "full_name": "triton-inference-server/dali_backend",
+    "html_url": "https://github.com/triton-inference-server/dali_backend",
+    "language": "C++",
+    "pushed_at": "2026-04-08T17:11:13Z",
+    "stargazers_count": 140,
+    "topics": [
+      "dali",
+      "data-preprocessing",
+      "deep-learning",
+      "fast-data-pipeline",
+      "gpu",
+      "image-processing",
+      "nvidia-dali",
+      "python"
+    ],
+    "updated_at": "2026-04-22T22:12:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "triton-inference-server/server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dali"
+    },
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-preprocessing"
+    },
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-data-pipeline"
+    },
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "<!---->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-dali"
+    }
+  ]
+}

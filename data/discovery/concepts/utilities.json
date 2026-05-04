@@ -271,6 +271,30 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "Revive a JSON-serialized complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_related_terms": [
@@ -580,11 +616,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/ndarray-dtype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

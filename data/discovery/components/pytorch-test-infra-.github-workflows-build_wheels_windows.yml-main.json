@@ -1,7 +1,7 @@
 {
   "component": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_wheels_windows.yml",
       "source_repo": "pytorch/audio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-windows.yml",
+      "source_repo": "pytorch/text"
     }
   ]
 }

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "target": "publisher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "target": "velodyne",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:17.085365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A very simple KITTI odometry dataset's images and velodyne points publisher ",
+    "fork": false,
+    "full_name": "gisbi-kim/mini-kitti-publisher",
+    "html_url": "https://github.com/gisbi-kim/mini-kitti-publisher",
+    "language": "Python",
+    "pushed_at": "2021-06-12T12:41:53Z",
+    "stargazers_count": 25,
+    "topics": [
+      "kitti",
+      "publish",
+      "publisher",
+      "ros",
+      "velodyne"
+    ],
+    "updated_at": "2025-09-06T08:52:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A very simple KITTI odometry dataset's images and velodyne points publisher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "A very simple KITTI odometry dataset's images and velodyne points publisher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publish"
+    },
+    {
+      "context_snippet": "A very simple KITTI odometry dataset's images and velodyne points publisher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publisher"
+    },
+    {
+      "context_snippet": "A very simple KITTI odometry dataset's images and velodyne points publisher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne"
+    }
+  ]
+}

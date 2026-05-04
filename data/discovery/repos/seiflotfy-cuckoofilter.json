@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seiflotfy/cuckoofilter",
+      "target": "panmari/cuckoofilter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:58.946126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2729
+    },
+    {
+      "path": "go.mod",
+      "size": 275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cuckoo Filter: Practically Better Than Bloom",
+    "fork": false,
+    "full_name": "seiflotfy/cuckoofilter",
+    "html_url": "https://github.com/seiflotfy/cuckoofilter",
+    "language": "Go",
+    "pushed_at": "2024-07-15T13:13:51Z",
+    "stargazers_count": 1227,
+    "topics": [],
+    "updated_at": "2026-05-03T02:33:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panmari/cuckoofilter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

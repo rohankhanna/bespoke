@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ORORA: Outlier-robust radar odometry, which is accepted in ICRA'23"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "radar-odometry",
+      "sense_id": "radar-odometry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "radar-odometry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "radar-odometry",
+  "observation_id": "c59792accda83349",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "radar-odometry",
+  "source_context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+  "source_file": null,
+  "source_repo": "url-kaist/outlier-robust-radar-odometry",
+  "source_repo_description": "ORORA: Outlier-robust radar odometry, which is accepted in ICRA'23"
+}

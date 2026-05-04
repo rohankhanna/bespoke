@@ -19,12 +19,30 @@
       "source_repo": "maplibre/maplibre-gl-js",
       "status": "candidate-context",
       "text": "Automerge Dependabot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect adds an inspect control to maplibre-gl-js to view all features of the vector sources and allows hovering over features to see their properties."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Automerge Dependabot"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "maplibre/maplibre-gl-js",
+      "status": "candidate",
+      "text": "Automerge Dependabot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
       "status": "candidate",
       "text": "Automerge Dependabot"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/auto-merge-dependabot.yml",
       "source_repo": "maplibre/maplibre-gl-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

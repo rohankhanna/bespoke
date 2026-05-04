@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:18:32.651369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/libpng_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/libpng_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-16T14:33:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-16T14:33:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

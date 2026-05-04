@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "complexity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "complexity-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "flake8-extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "flake8-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "linter-flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "linter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/mccabe",
+      "target": "mccabe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:33:01.634376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "McCabe complexity checker for Python",
+    "fork": false,
+    "full_name": "PyCQA/mccabe",
+    "html_url": "https://github.com/PyCQA/mccabe",
+    "language": "Python",
+    "pushed_at": "2024-08-09T08:37:27Z",
+    "stargazers_count": 676,
+    "topics": [
+      "complexity",
+      "complexity-analysis",
+      "flake8",
+      "flake8-extensions",
+      "flake8-plugin",
+      "linter-flake8",
+      "linter-plugin",
+      "mccabe",
+      "python"
+    ],
+    "updated_at": "2026-05-04T05:53:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complexity"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complexity-analysis"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-extensions"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8-plugin"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-flake8"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-plugin"
+    },
+    {
+      "context_snippet": "McCabe complexity checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mccabe"
+    }
+  ]
+}

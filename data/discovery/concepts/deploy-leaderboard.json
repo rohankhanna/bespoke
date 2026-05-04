@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Leaderboard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "One framework to evaluate any VLA model on any robot simulation benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Deploy Leaderboard"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate",
+      "text": "Deploy Leaderboard"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10964,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10964,
+      "status": "candidate",
+      "text": "top"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "arrayed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "capacity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Leaderboard",
+  "concept_id": "deploy-leaderboard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Leaderboard",
+      "sense_id": "deploy-leaderboard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Benchmark Fusion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "Nightly Benchmark Fusion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate",
+      "text": "Nightly Benchmark Fusion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18322,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18322,
+      "status": "candidate",
+      "text": "verge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18296,
+      "status": "candidate",
+      "text": "burn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18283,
+      "status": "candidate",
+      "text": "calorimeter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18283,
+      "status": "candidate",
+      "text": "nova"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Benchmark Fusion",
+  "concept_id": "nightly-benchmark-fusion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/nightly-benchmark-fusion.yml",
+      "source_repo": "xtdb/xtdb"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Benchmark Fusion",
+      "sense_id": "nightly-benchmark-fusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

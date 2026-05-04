@@ -84,7 +84,7 @@
   "normalized_form": "compile-and-test",
   "observation_id": "14a39aab3f3bc7cb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Compile and test",
   "source_context_snippet": "Compile and test",
   "source_file": ".github/workflows/swift.yml",

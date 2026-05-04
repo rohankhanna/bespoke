@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:24:33.590262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interfaces and default implementations for rolling your own http client and/or components",
+    "fork": false,
+    "full_name": "ugexe/Raku-Net--HTTP",
+    "html_url": "https://github.com/ugexe/Raku-Net--HTTP",
+    "language": "Raku",
+    "pushed_at": "2022-09-08T11:35:42Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2022-11-21T12:58:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

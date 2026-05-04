@@ -19,12 +19,30 @@
       "source_repo": "evmos/os",
       "status": "candidate-context",
       "text": "Check Licenses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "A Node.js tool to automate end-to-end web testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "Check Licenses"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "evmos/os",
+      "status": "candidate",
+      "text": "Check Licenses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
       "status": "candidate",
       "text": "Check Licenses"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/check-licenses.yml",
       "source_repo": "evmos/os"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/license-check.yml",
+      "source_repo": "DevExpress/testcafe"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

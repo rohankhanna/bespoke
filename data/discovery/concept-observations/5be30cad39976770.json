@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "10x Genomics Reads Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computational-biology",
+      "sense_id": "computational-biology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "computational-biology",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "computational-biology",
+  "observation_id": "5be30cad39976770",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "computational-biology",
+  "source_context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+  "source_file": null,
+  "source_repo": "aquaskyline/LRSIM",
+  "source_repo_description": "10x Genomics Reads Simulator"
+}

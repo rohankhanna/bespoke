@@ -19,6 +19,30 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate-context",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "This repo is for our IEEE TCSVT paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "status": "candidate-context",
+      "text": "Person Re-ranking (CVPR 2017)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "status": "candidate-context",
+      "text": "================================================================"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate",
+      "text": "This repo is for our IEEE TCSVT paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "status": "candidate",
+      "text": "================================================================"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zhunzhong07/person-re-ranking"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

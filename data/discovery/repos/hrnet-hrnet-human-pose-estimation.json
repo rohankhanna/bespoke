@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:42:40.915240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13524
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repo is copied from https://github.com/leoxiaobin/deep-high-resolution-net.pytorch",
+    "fork": false,
+    "full_name": "HRNet/HRNet-Human-Pose-Estimation",
+    "html_url": "https://github.com/HRNet/HRNet-Human-Pose-Estimation",
+    "language": "Cuda",
+    "pushed_at": "2021-10-12T22:58:49Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-04-24T02:48:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

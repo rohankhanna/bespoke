@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baofff/Extended-Analytic-DPM",
+      "target": "baofff/analytic-dpm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:21.655073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation for Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models (ICML 2022), and a reimplementation of Analytic-DPM: an Analytic Estimate of the Optimal Reverse Variance in Diffusion Probabilistic Models (ICLR 2022)",
+    "fork": false,
+    "full_name": "baofff/Extended-Analytic-DPM",
+    "html_url": "https://github.com/baofff/Extended-Analytic-DPM",
+    "language": "Python",
+    "pushed_at": "2022-06-17T10:00:01Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baofff/analytic-dpm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

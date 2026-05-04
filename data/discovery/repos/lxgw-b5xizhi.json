@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/B5XiZhi",
+      "target": "lxgw/xizhib5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/B5XiZhi",
+      "target": "hidekatsu-izuno/takaoka-fonts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:32.488338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6670\u9ed1\u9ad4\uff06\u7dfb\u660e\u9ad4\uff1a\u300c\u971e\u9da9\u6670\u9ed1\u300d\u300c\u971e\u9da9\u7dfb\u5b8b\u300d\u76f8\u5bb9 Windows \u5167\u7f6e\u300c\u7d30\u660e\u9ad4\u300d\u5ea6\u91cf\u7248\u672c\uff0c\u57fa\u65bc IPA Gothic\u3001IPA Mincho \u884d\u751f\uff0c\u63a1\u7528 Big5-Eten \u5b57\u96c6\u3002",
+    "fork": false,
+    "full_name": "lxgw/B5XiZhi",
+    "html_url": "https://github.com/lxgw/B5XiZhi",
+    "language": null,
+    "pushed_at": "2026-05-02T18:05:17Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-05-02T17:26:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hidekatsu-izuno/takaoka-fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/xizhib5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

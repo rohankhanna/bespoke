@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "automobiles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "automotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Update",
+      "sense_id": "auto-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-update",
+  "observation_id": "e801dcddf24976cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Auto Update",
+  "source_context_snippet": "Auto Update",
+  "source_file": ".github/workflows/update.yml",
+  "source_repo": "marella/material-design-icons",
+  "source_repo_description": "Latest icon fonts and optimized SVGs for material design icons."
+}

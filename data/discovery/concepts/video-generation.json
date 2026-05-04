@@ -727,6 +727,66 @@
       "source_repo": "KlingAIResearch/ReCamMaster",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "status": "candidate-context",
+      "text": "[ICLR'25] SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Video Diffusion Models, Jonathan Ho's new paper extending DDPMs to Video Generation - in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate-context",
+      "text": "Code for our ICCV 2025 paper \"Adaptive Caching for Faster Video Generation with Diffusion Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate-context",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of NWT, audio-to-video generation, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
     }
   ],
   "candidate_glosses": [
@@ -1089,6 +1149,36 @@
       "source_repo": "KlingAIResearch/ReCamMaster",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
     }
   ],
   "candidate_related_terms": [],
@@ -1774,11 +1864,89 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/SynCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/video-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/magvit2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

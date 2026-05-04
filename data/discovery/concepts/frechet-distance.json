@@ -31,6 +31,18 @@
       "source_repo": "GaParmar/clean-fid",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate-context",
+      "text": "A toolkit for computing Fr\u00e9chet Inception Distance (FID) & Fr\u00e9chet Video Distance (FVD) metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate-context",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "GaParmar/clean-fid",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npurson/fid-metrics",
+      "status": "candidate",
+      "text": "This repository provides a toolkit for computing Fr\u00e9chet Inception Distance (FID) and Fr\u00e9chet Video Distance (FVD) metrics, widely utilized for assessing the quality of generative models in the fields of image and video generation."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "GaParmar/clean-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "npurson/fid-metrics"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

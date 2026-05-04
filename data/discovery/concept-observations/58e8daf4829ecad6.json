@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filter lists for uBlock Origin & uBlock Origin Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Triage YouTube issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Triage YouTube issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23173,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22815,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22815,
+      "status": "candidate",
+      "text": "lag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22815,
+      "status": "candidate",
+      "text": "like"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22815,
+      "status": "candidate",
+      "text": "orange"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Triage YouTube issues",
+      "sense_id": "triage-youtube-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "triage-youtube-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "triage-youtube-issues",
+  "observation_id": "58e8daf4829ecad6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Triage YouTube issues",
+  "source_context_snippet": "Triage YouTube issues",
+  "source_file": ".github/workflows/on-youtube-issue.yml",
+  "source_repo": "uBlockOrigin/uAssets",
+  "source_repo_description": "Filter lists for uBlock Origin & uBlock Origin Lite"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/get.acme.sh",
+      "target": "neilpang/acme.sh",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:10.321684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "get.acme.sh",
+    "fork": false,
+    "full_name": "acmesh-official/get.acme.sh",
+    "html_url": "https://github.com/acmesh-official/get.acme.sh",
+    "language": "Shell",
+    "pushed_at": "2024-05-08T16:12:22Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-04-30T00:12:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neilpang/acme.sh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

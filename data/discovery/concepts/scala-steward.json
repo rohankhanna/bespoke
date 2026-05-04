@@ -31,6 +31,18 @@
       "source_repo": "com-lihaoyi/mill",
       "status": "candidate-context",
       "text": "Scala Steward"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "\"Trust no one, bench everything.\" - sbt plugin for JMH (Java Microbenchmark Harness)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
+      "status": "candidate-context",
+      "text": "Scala Steward"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "com-lihaoyi/mill",
+      "status": "candidate",
+      "text": "Scala Steward"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-jmh",
       "status": "candidate",
       "text": "Scala Steward"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/scala-steward.yml",
       "source_repo": "com-lihaoyi/mill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/scala-steward.yml",
+      "source_repo": "sbt/sbt-jmh"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

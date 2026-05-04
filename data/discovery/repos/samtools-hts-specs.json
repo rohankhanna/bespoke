@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pdfs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pdfs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "samtools/hts-specs",
+      "target": "ga4gh/large-scale-genomics-wiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "Add PR comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pdfs-close.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "Tidy up PDF pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pdfs.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pdfs.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pdfs.yaml",
+      "source_repo": "samtools/hts-specs",
+      "target": "Handle PDF pull request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:47.042777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5681
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/pr-comment.yaml",
+      "size": 2336
+    },
+    {
+      "path": ".github/workflows/pr-pdfs-close.yaml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/pr-pdfs.yaml",
+      "size": 1584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Specifications of SAM/BAM and related high-throughput sequencing file formats",
+    "fork": false,
+    "full_name": "samtools/hts-specs",
+    "html_url": "https://github.com/samtools/hts-specs",
+    "language": "TeX",
+    "pushed_at": "2026-04-22T00:12:07Z",
+    "stargazers_count": 704,
+    "topics": [],
+    "updated_at": "2026-04-22T00:12:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ga4gh/large-scale-genomics-wiki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add PR comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yaml",
+      "term": "Add PR comment"
+    },
+    {
+      "context_snippet": "Tidy up PDF pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pdfs-close.yaml",
+      "term": "Tidy up PDF pull request"
+    },
+    {
+      "context_snippet": "Handle PDF pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pdfs.yaml",
+      "term": "Handle PDF pull request"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "ahxt/g-mixup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "a-lucic/focus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "ah89/approxdc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "abhivij/bloodbased-pancancer-diagnosis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-centric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-centric-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-centric-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-curation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:32:53.007886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41028
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated, but incomplete, list of data-centric AI resources.",
+    "fork": false,
+    "full_name": "daochenzha/data-centric-AI",
+    "html_url": "https://github.com/daochenzha/data-centric-AI",
+    "language": null,
+    "pushed_at": "2024-06-26T23:03:47Z",
+    "stargazers_count": 1147,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "data-centric",
+      "data-centric-ai",
+      "data-centric-machine-learning",
+      "data-curation",
+      "data-engineering",
+      "data-quality",
+      "data-science",
+      "machine-learning"
+    ],
+    "updated_at": "2026-04-25T17:17:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-lucic/focus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhivij/bloodbased-pancancer-diagnosis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ah89/approxdc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahxt/g-mixup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-centric"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-centric-ai"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-centric-machine-learning"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-curation"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-engineering"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-quality"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

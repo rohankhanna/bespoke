@@ -31,6 +31,18 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate-context",
       "text": "Ubuntu Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "\"Ubuntu Build\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate",
       "text": "Ubuntu Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "\"Ubuntu Build\""
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/test_ubuntu.yml",
       "source_repo": "microsoft/AirSim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

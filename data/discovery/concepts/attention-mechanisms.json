@@ -55,6 +55,18 @@
       "source_repo": "lucidrains/make-a-video-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "lucidrains/make-a-video-pytorch",
       "status": "candidate",
       "text": "<img src=\"./make-a-video.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "lucidrains/make-a-video-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/magvit2-pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

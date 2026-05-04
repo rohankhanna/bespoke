@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuiWonder/HuayingMincho",
+      "target": "chinese-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuiWonder/HuayingMincho",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:38.948351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1433
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Huaying Mincho \u83ef\u82f1\u660e\u671d \u534e\u82f1\u660e\u671d",
+    "fork": false,
+    "full_name": "GuiWonder/HuayingMincho",
+    "html_url": "https://github.com/GuiWonder/HuayingMincho",
+    "language": "Python",
+    "pushed_at": "2026-03-04T11:58:13Z",
+    "stargazers_count": 82,
+    "topics": [
+      "chinese-fonts",
+      "font"
+    ],
+    "updated_at": "2026-04-12T07:12:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md#Huaying-Mincho-\u534e\u82f1\u660e\u671d-\u83ef\u82f1\u660e\u671d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-fonts"
+    },
+    {
+      "context_snippet": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md#Huaying-Mincho-\u534e\u82f1\u660e\u671d-\u83ef\u82f1\u660e\u671d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    }
+  ]
+}

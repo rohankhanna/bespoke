@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "yitu-opensource/t2t-vit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "backbone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "instance-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:25:18.613741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\"",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/ViTAE-VSA",
+    "html_url": "https://github.com/ViTAE-Transformer/ViTAE-VSA",
+    "language": "Python",
+    "pushed_at": "2025-09-25T12:24:18Z",
+    "stargazers_count": 158,
+    "topics": [
+      "attention-mechanism",
+      "backbone",
+      "classification",
+      "deep-learning",
+      "instance-segmentation",
+      "object-detection",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-01-26T13:41:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yitu-opensource/t2t-vit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backbone"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instance-segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

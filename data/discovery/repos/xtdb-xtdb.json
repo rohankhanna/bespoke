@@ -1,0 +1,811 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@be814b201e233b2dc673608aa46e5447c8ab13f2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hoverkraft-tech/compose-action@4894d2492015c1774ee5a13a95b1072093087ec3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@be814b201e233b2dc673608aa46e5447c8ab13f2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@be814b201e233b2dc673608aa46e5447c8ab13f2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml"
+    },
+    {
+      "component": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Build xtdb-bench Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-connect.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "XTDB Kafka Connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "ravsamhq/notify-slack-action@be814b201e233b2dc673608aa46e5447c8ab13f2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "hoverkraft-tech/compose-action@4894d2492015c1774ee5a13a95b1072093087ec3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "XTDB CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "gradle/actions/setup-gradle@50e97c2cd7a37755bbfafc9c5b7cafaece252f6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Docker images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "XTDB Edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "azure/setup-helm@1a275c3b69536ee54be43f2070a358922e12c8d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-auctionmark.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Nightly Benchmark AuctionMark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Nightly Benchmark Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-clickbench.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Nightly Benchmark ClickBench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-fusion.yml",
+      "source_repo": "xtdb/xtdb",
+      "target": "Nightly Benchmark Fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb",
+      "target": "bitemporal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb",
+      "target": "dbms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb",
+      "target": "immutable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb",
+      "target": "temporal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:46.287667+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/bench-docker.yml",
+      "size": 4868
+    },
+    {
+      "path": ".github/workflows/build-connect.yml",
+      "size": 1037
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7072
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 5341
+    },
+    {
+      "path": ".github/workflows/edge.yml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/helm.yml",
+      "size": 1554
+    },
+    {
+      "path": ".github/workflows/nightly-benchmark-auctionmark.yml",
+      "size": 1676
+    },
+    {
+      "path": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "size": 36392
+    },
+    {
+      "path": ".github/workflows/nightly-benchmark-clickbench.yml",
+      "size": 1334
+    },
+    {
+      "path": ".github/workflows/nightly-benchmark-fusion.yml",
+      "size": 1723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt",
+    "fork": false,
+    "full_name": "xtdb/xtdb",
+    "html_url": "https://github.com/xtdb/xtdb",
+    "language": "Clojure",
+    "pushed_at": "2026-05-04T04:29:15Z",
+    "stargazers_count": 2984,
+    "topics": [
+      "bitemporal",
+      "database",
+      "dbms",
+      "immutable",
+      "sql",
+      "temporal"
+    ],
+    "updated_at": "2026-05-02T18:21:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench-docker.yml",
+      "term": "Build xtdb-bench Docker Image"
+    },
+    {
+      "context_snippet": "XTDB Kafka Connect",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-connect.yml",
+      "term": "XTDB Kafka Connect"
+    },
+    {
+      "context_snippet": "XTDB CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "XTDB CI"
+    },
+    {
+      "context_snippet": "Docker images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker images"
+    },
+    {
+      "context_snippet": "XTDB Edge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "term": "XTDB Edge"
+    },
+    {
+      "context_snippet": "Helm Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm.yml",
+      "term": "Helm Charts"
+    },
+    {
+      "context_snippet": "Nightly Benchmark AuctionMark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-auctionmark.yml",
+      "term": "Nightly Benchmark AuctionMark"
+    },
+    {
+      "context_snippet": "Nightly Benchmark Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "term": "Nightly Benchmark Cleanup"
+    },
+    {
+      "context_snippet": "Nightly Benchmark ClickBench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-clickbench.yml",
+      "term": "Nightly Benchmark ClickBench"
+    },
+    {
+      "context_snippet": "Nightly Benchmark Fusion",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-benchmark-fusion.yml",
+      "term": "Nightly Benchmark Fusion"
+    },
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitemporal"
+    },
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbms"
+    },
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "immutable"
+    },
+    {
+      "context_snippet": "Build xtdb-bench Docker Image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporal"
+    }
+  ]
+}

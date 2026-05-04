@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/ms-mapping",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/ms-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/paloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/lio-sam-6axis-intensity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "6-axis-imu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidar-inertial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidarslam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "liosam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+}

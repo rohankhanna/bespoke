@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:28:48.483555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarks for our memory allocator",
+    "fork": false,
+    "full_name": "mjansson/rpmalloc-benchmark",
+    "html_url": "https://github.com/mjansson/rpmalloc-benchmark",
+    "language": "C",
+    "pushed_at": "2023-09-24T20:01:39Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-17T22:32:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

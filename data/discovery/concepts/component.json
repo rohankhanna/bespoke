@@ -115,6 +115,18 @@
       "source_repo": "egoist/vue-bytesize-icons",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "egoist/vue-bytesize-icons",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-bytesize-icons.svg?style=flat)](https://npmjs.com/package/vue-bytesize-icons) [![CircleCI](https://c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +352,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "saadeghi/daisyui"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

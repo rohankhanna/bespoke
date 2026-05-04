@@ -84,7 +84,7 @@
   "normalized_form": "release-drafter",
   "observation_id": "1b07ac55e1e20cce",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Release drafter",
   "source_context_snippet": "Release drafter",
   "source_file": ".github/workflows/release-drafter.yml",

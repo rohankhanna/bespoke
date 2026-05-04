@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udde9Youdao Collection Plugin for Pot App"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pot-app",
+      "sense_id": "pot-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pot-app",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pot-app",
+  "observation_id": "ed7d02b12dd00e24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "pot-app",
+  "source_context_snippet": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6",
+  "source_file": null,
+  "source_repo": "pot-app/pot-app-collection-plugin-youdao",
+  "source_repo_description": "\ud83e\udde9Youdao Collection Plugin for Pot App"
+}

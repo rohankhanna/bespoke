@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A UI for Lemmy written in Svelte "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017680,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050090,
+      "status": "candidate",
+      "text": "electrical condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050089,
+      "status": "candidate",
+      "text": "inductor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049521,
+      "status": "candidate",
+      "text": "dielectric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049197,
+      "status": "candidate",
+      "text": "farad"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "capacitor",
+      "sense_id": "capacitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2044,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "electrical condenser"
+    }
+  ],
+  "concept_id": "capacitor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "capacitor",
+  "observation_id": "dd319ae5d66d089a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "capacitor",
+  "source_context_snippet": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up.",
+  "source_file": null,
+  "source_repo": "ando818/lemmy-ui-svelte",
+  "source_repo_description": "A UI for Lemmy written in Svelte "
+}

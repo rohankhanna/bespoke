@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "JetBrains/JetBrainsRuntime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openjdk/jdk"
     }
   ],
   "term": "OpenJDK GHA Sanity Checks"

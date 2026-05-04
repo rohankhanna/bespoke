@@ -251,6 +251,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
+      "target": "danny-avila/librechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama",
       "target": "chatgptnextweb/chatgpt-next-web",
       "target_type": "repository"
     },
@@ -266,13 +273,6 @@
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
       "target": "augustdev/enchanted",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ollama/ollama",
-      "target": "crmne/ruby_llm",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:45:00.437439+00:00",
+  "fetched_at": "2026-05-04T11:34:53.284076+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -589,8 +589,8 @@
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-05-03T17:03:15Z",
-    "stargazers_count": 170631,
+    "pushed_at": "2026-05-04T06:24:37Z",
+    "stargazers_count": 170660,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-04T01:34:26Z"
+    "updated_at": "2026-05-04T11:33:46Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "crmne/ruby_llm",
+      "full_name": "danny-avila/librechat",
       "source_file": "README.md"
     }
   ],

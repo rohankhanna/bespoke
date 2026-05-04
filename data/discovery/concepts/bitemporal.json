@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bitemporal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "Build xtdb-bench Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate",
+      "text": "Build xtdb-bench Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29730415,
+      "status": "candidate",
+      "text": "hemianopsia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727385,
+      "status": "candidate",
+      "text": "quadrantanopia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29718355,
+      "status": "candidate",
+      "text": "hemianopia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19744783,
+      "status": "candidate",
+      "text": "temporooccipital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19744782,
+      "status": "candidate",
+      "text": "temporomandibular"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bitemporal",
+  "concept_id": "bitemporal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xtdb/xtdb"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitemporal",
+      "sense_id": "bitemporal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

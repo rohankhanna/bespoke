@@ -43,6 +43,18 @@
       "source_repo": "TomWright/mermaid-server",
       "status": "candidate-context",
       "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "Convert your ascii diagram scribbles into happy little SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate-context",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "TomWright/mermaid-server",
       "status": "candidate",
       "text": "Use mermaid-js to generate diagrams in a HTTP endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ivanceras/svgbob",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "TomWright/mermaid-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ivanceras/svgbob"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

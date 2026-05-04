@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "tinycolor2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tinycolor2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "alive-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mistic100/tinygradient",
+      "target": "tinycolor2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mistic100/tinygradient",
+      "target": "@types/tinycolor2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mistic100/tinygradient",
+      "target": "alive-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mistic100/tinygradient",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mistic100/tinygradient",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mistic100/tinygradient",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mistic100/tinygradient",
+      "target": "gradient",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:39.009783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4416
+    },
+    {
+      "path": "package.json",
+      "size": 950
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and small gradients manipulation, built on top of TinyColor",
+    "fork": false,
+    "full_name": "mistic100/tinygradient",
+    "html_url": "https://github.com/mistic100/tinygradient",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-18T18:14:47Z",
+    "stargazers_count": 242,
+    "topics": [
+      "colors",
+      "gradient"
+    ],
+    "updated_at": "2026-04-27T07:57:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/tinygradient.svg?style=flat-square)](https://www.npmjs.com/package/tinygradient)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/tinygradient.svg?style=flat-square)](https://www.npmjs.com/package/tinygradient)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient"
+    }
+  ]
+}

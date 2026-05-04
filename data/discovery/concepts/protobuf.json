@@ -628,6 +628,18 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate-context",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust Protobuf definitions and gRPC clients for interacting with Cosmos SDK, IBC and Interchain Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "[![Crate][crate-image]][crate-link]"
     }
   ],
   "candidate_glosses": [
@@ -930,6 +942,12 @@
       "source_repo": "OpenLightingProject/ola",
       "status": "candidate",
       "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate",
+      "text": "[![Crate][crate-image]][crate-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -1561,11 +1579,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

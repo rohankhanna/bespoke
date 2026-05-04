@@ -43,6 +43,18 @@
       "source_repo": "openMVG/openMVG",
       "status": "candidate-context",
       "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "openMVG/openMVG",
       "status": "candidate",
       "text": "OpenMVG (open Multiple View Geometry)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/University1652-Baseline",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "openMVG/openMVG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

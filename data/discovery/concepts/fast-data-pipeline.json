@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "fast-data-pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate-context",
+      "text": "<!---->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/dali_backend",
+      "status": "candidate",
+      "text": "<!---->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fast-data-pipeline",
+  "concept_id": "fast-data-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/dali_backend"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fast-data-pipeline",
+      "sense_id": "fast-data-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

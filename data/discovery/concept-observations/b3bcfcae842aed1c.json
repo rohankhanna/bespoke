@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "File System Access API with legacy fallback in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This module allows you to easily use the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This module allows you to easily use the"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "file-system-access",
+      "sense_id": "file-system-access#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-system-access",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-system-access",
+  "observation_id": "b3bcfcae842aed1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "file-system-access",
+  "source_context_snippet": "This module allows you to easily use the",
+  "source_file": null,
+  "source_repo": "GoogleChromeLabs/browser-fs-access",
+  "source_repo_description": "File System Access API with legacy fallback in the browser"
+}

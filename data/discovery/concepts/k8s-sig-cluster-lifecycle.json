@@ -19,6 +19,18 @@
       "source_repo": "kubernetes-sigs/cluster-api",
       "status": "candidate-context",
       "text": "<a href=\"https://cluster-api.sigs.k8s.io\"><img alt=\"capi\" src=\"./logos/kubernetes-cluster-logos_final-02.svg\" width=\"160x\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "Deploy a Production Ready Kubernetes Cluster"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate-context",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kubernetes-sigs/cluster-api",
       "status": "candidate",
       "text": "<a href=\"https://cluster-api.sigs.k8s.io\"><img alt=\"capi\" src=\"./logos/kubernetes-cluster-logos_final-02.svg\" width=\"160x\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kubespray",
+      "status": "candidate",
+      "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/cluster-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kubespray"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2989,6 +2989,90 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate-context",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for the A-OKVQA dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate-context",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semperai/amica",
+      "status": "candidate-context",
+      "text": "Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semperai/amica",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "Florence-2 is a novel vision foundation model with a unified, prompt-based representation for a variety of computer vision and vision-language tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "Implementation of numerous Vision Transformers in Google's JAX and Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper PARE: Part Attention Regressor for 3D Human Body Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -4485,6 +4569,48 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/aokvqa",
+      "status": "candidate",
+      "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semperai/amica",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_related_terms": [],
@@ -6958,11 +7084,167 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vit-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "semperai/amica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "anyantudre/Florence-2-Vision-Language-Model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "conceptofmind/vit-flax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

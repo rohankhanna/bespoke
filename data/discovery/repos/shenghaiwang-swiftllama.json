@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenghaiWang/SwiftLlama",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:49.919928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Swift Wrapper for llama.cpp",
+    "fork": false,
+    "full_name": "ShenghaiWang/SwiftLlama",
+    "html_url": "https://github.com/ShenghaiWang/SwiftLlama",
+    "language": "Swift",
+    "pushed_at": "2025-08-26T09:25:10Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-20T20:54:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

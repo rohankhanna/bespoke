@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v3",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -537,6 +537,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint-vscode.yml",
       "source_repo": "informalsystems/quint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-python.yml",
+      "source_repo": "borglab/gtsam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-v2.yml",
+      "source_repo": "erew123/alltalk_tts"
     }
   ]
 }

@@ -94,6 +94,18 @@
       "source_repo": "vimwiki/vimwiki",
       "status": "candidate-context",
       "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Mapnik is an open source toolkit for developing mapping applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "```"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "vimwiki/vimwiki",
       "status": "candidate",
       "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate",
+      "text": "```"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +241,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "vimwiki/vimwiki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

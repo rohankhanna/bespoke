@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cling Build and Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "The cling C++ interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate-context",
+      "text": "Cling Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/cling",
+      "status": "candidate",
+      "text": "Cling Build and Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19157,
+      "status": "candidate",
+      "text": "sticks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "adhere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19097,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18681,
+      "status": "candidate",
+      "text": "hire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18681,
+      "status": "candidate",
+      "text": "speculate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cling Build and Test",
+  "concept_id": "cling-build-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cling.yml",
+      "source_repo": "root-project/cling"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cling Build and Test",
+      "sense_id": "cling-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

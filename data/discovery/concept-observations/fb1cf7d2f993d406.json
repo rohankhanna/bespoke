@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Known hosts blocklists that are made available to the users of AdGuard products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- [What Blocklists Can Be Added Here](#what-blocklists)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- [What Blocklists Can Be Added Here](#what-blocklists)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adguard-dns",
+      "sense_id": "adguard-dns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adguard-dns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adguard-dns",
+  "observation_id": "fb1cf7d2f993d406",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "adguard-dns",
+  "source_context_snippet": "- [What Blocklists Can Be Added Here](#what-blocklists)",
+  "source_file": null,
+  "source_repo": "AdguardTeam/HostlistsRegistry",
+  "source_repo_description": "Known hosts blocklists that are made available to the users of AdGuard products"
+}

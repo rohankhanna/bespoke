@@ -91,6 +91,18 @@
       "source_repo": "mapbox/tippecanoe",
       "status": "candidate-context",
       "text": "tippecanoe"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Define complex geographic regions by including and excluding country codes and geojson shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "mapbox/tippecanoe",
       "status": "candidate",
       "text": "tippecanoe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mapbox/tippecanoe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/location-conflation"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

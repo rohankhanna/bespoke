@@ -55,6 +55,30 @@
       "source_repo": "neoterm/neoterm",
       "status": "candidate-context",
       "text": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "Voyager \u2014 a beautiful app for Lemmy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "neoterm/neoterm",
       "status": "candidate",
       "text": "[NeoTerm](https://github.com/neoterm/neoterm) is a powerful terminal emulator designed for all major operating systems, including Android, iOS, Windows, macOS, and Linux. NeoTerm builds on the concept of providing a complete Linux environment across your devices, making it a per\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "neoterm/neoterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aeharding/voyager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

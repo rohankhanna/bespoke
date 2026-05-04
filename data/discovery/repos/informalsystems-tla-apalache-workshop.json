@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "tlaplus/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "tlaplus/communitymodules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "informalsystems/apalache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "apalache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "tlaplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "informalsystems/tla-apalache-workshop",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:23:59.237495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Material for a workshop on Apalache and TLA+. To be populated with more examples.",
+    "fork": false,
+    "full_name": "informalsystems/tla-apalache-workshop",
+    "html_url": "https://github.com/informalsystems/tla-apalache-workshop",
+    "language": null,
+    "pushed_at": "2023-04-17T09:08:36Z",
+    "stargazers_count": 23,
+    "topics": [
+      "apalache",
+      "tlaplus",
+      "tutorial"
+    ],
+    "updated_at": "2026-03-29T14:31:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/apalache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/communitymodules",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We are introducing TLA+ and the model checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apalache"
+    },
+    {
+      "context_snippet": "We are introducing TLA+ and the model checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    },
+    {
+      "context_snippet": "We are introducing TLA+ and the model checker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "kentaro-m/task-completed-checker-action@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-completed-checker-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "python-rope/rope",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "python-rope/rope",
+      "target": "Run Black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "python-rope/rope",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "python-rope/rope",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "python-rope/rope",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "python-rope/rope",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "python-rope/rope",
+      "target": "codecov/codecov-action@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "python-rope/rope",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "python-rope/rope",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "python-rope/rope",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/task-completed-checker-action.yml",
+      "source_repo": "python-rope/rope",
+      "target": "kentaro-m/task-completed-checker-action@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/task-completed-checker-action.yml",
+      "source_repo": "python-rope/rope",
+      "target": "PR Tasks Completed Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-rope/rope",
+      "target": "refactoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-rope/rope",
+      "target": "refactoring-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:33:04.250938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4587
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2504
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2775
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 931
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/task-completed-checker-action.yml",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a python refactoring library",
+    "fork": false,
+    "full_name": "python-rope/rope",
+    "html_url": "https://github.com/python-rope/rope",
+    "language": "Python",
+    "pushed_at": "2026-01-04T14:49:29Z",
+    "stargazers_count": 2205,
+    "topics": [
+      "ast",
+      "python",
+      "refactoring",
+      "refactoring-tools"
+    ],
+    "updated_at": "2026-05-04T09:39:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Black",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Run Black"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "'PR Tasks Completed Check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/task-completed-checker-action.yml",
+      "term": "PR Tasks Completed Check"
+    },
+    {
+      "context_snippet": ".. _GitHub python-rope / rope: https://github.com/python-rope/rope",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    },
+    {
+      "context_snippet": ".. _GitHub python-rope / rope: https://github.com/python-rope/rope",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring-tools"
+    }
+  ]
+}

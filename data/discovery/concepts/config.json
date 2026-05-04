@@ -226,6 +226,18 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate-context",
+      "text": "v2ray-core \u7684\u6a21\u677f\u4eec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate-context",
+      "text": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +348,12 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate",
+      "text": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)"
     }
   ],
   "candidate_related_terms": [
@@ -529,11 +547,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cloydlau/vue-global-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

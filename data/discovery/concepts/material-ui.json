@@ -55,6 +55,18 @@
       "source_repo": "mui/mui-x",
       "status": "candidate-context",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "mui/mui-x",
       "status": "candidate",
       "text": "<!-- #host-reference -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "mui/mui-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

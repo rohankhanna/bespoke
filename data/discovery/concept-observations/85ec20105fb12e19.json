@@ -84,7 +84,7 @@
   "normalized_form": "macos-metal-backend",
   "observation_id": "85ec20105fb12e19",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "macOS Metal backend",
   "source_context_snippet": "macOS Metal backend",
   "source_file": ".github/workflows/macos-metal.yml",

@@ -487,6 +487,18 @@
       "source_repo": "arthuro555/THNK",
       "status": "candidate-context",
       "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "arthuro555/THNK",
       "status": "candidate",
       "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1174,11 +1192,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

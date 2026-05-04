@@ -84,7 +84,7 @@
   "normalized_form": "build-production-site",
   "observation_id": "91507b6670e35315",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Build Production Site",
   "source_context_snippet": "Build Production Site",
   "source_file": ".github/workflows/build-docs.yml",

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:40:14.424114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Hamlit extension to support capturing via yield",
+    "fork": false,
+    "full_name": "hamlit/hamlit-block",
+    "html_url": "https://github.com/hamlit/hamlit-block",
+    "language": "Ruby",
+    "pushed_at": "2022-08-08T20:35:45Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-01-27T22:26:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

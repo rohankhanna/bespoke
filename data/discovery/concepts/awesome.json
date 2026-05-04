@@ -811,6 +811,18 @@
       "source_repo": "web-padawan/awesome-lit",
       "status": "candidate-context",
       "text": "> A curated list of awesome Lit resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
     }
   ],
   "candidate_glosses": [
@@ -1209,6 +1221,12 @@
       "source_repo": "web-padawan/awesome-lit",
       "status": "candidate",
       "text": "> A curated list of awesome Lit resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
     }
   ],
   "candidate_related_terms": [
@@ -1726,11 +1744,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "web-padawan/awesome-lit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

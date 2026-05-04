@@ -1,7 +1,7 @@
 {
   "component": "vedantmgoyal2009/winget-releaser@v2",
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "rclone/rclone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "pot-app/pot-desktop"
     }
   ]
 }

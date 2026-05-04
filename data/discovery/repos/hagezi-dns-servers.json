@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions-ecosystem/action-add-assignees@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hagezi/dns-servers",
+      "target": "technitiumsoftware/dnsserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "hagezi/dns-servers",
+      "target": "actions-ecosystem/action-add-assignees@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "hagezi/dns-servers",
+      "target": "Auto-assign new issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "block",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dns-over-http3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dns-over-https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dns-over-quic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dns-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "dnssec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "fake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "malware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "phishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "scam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:17.782486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14657
+    },
+    {
+      "path": ".github/workflows/auto-assign.yml",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HaGeZi DNS: Free, Non-Commercial EU Public DNS Servers",
+    "fork": false,
+    "full_name": "hagezi/dns-servers",
+    "html_url": "https://github.com/hagezi/dns-servers",
+    "language": null,
+    "pushed_at": "2026-03-26T23:20:26Z",
+    "stargazers_count": 289,
+    "topics": [
+      "ads",
+      "block",
+      "dns",
+      "dns-over-http3",
+      "dns-over-https",
+      "dns-over-quic",
+      "dns-over-tls",
+      "dns-server",
+      "dnssec",
+      "fake",
+      "free",
+      "malware",
+      "phishing",
+      "privacy",
+      "scam",
+      "security",
+      "tracking"
+    ],
+    "updated_at": "2026-05-04T07:17:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "technitiumsoftware/dnsserver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-assign new issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "term": "Auto-assign new issues"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "block"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-http3"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-https"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-quic"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tls"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-server"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnssec"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fake"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "free"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malware"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phishing"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scam"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

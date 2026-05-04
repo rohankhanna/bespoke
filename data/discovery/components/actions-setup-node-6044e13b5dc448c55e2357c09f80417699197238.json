@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -377,6 +377,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "csstools/normalize.css"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-lint.yml",
+      "source_repo": "mozilla/pontoon"
     }
   ]
 }

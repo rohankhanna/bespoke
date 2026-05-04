@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwiernik/zotero-shortdoi",
+      "target": "beloglazov/zotero-scholar-citations",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:43.086483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zotero extension to retrieve and validate DOIs and shortDOIs",
+    "fork": false,
+    "full_name": "bwiernik/zotero-shortdoi",
+    "html_url": "https://github.com/bwiernik/zotero-shortdoi",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-10T23:20:54Z",
+    "stargazers_count": 1607,
+    "topics": [],
+    "updated_at": "2026-05-01T18:42:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beloglazov/zotero-scholar-citations",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

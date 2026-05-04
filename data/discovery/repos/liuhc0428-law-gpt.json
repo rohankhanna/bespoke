@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiuHC0428/LAW-GPT",
+      "target": "rankki/lawrefbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiuHC0428/LAW-GPT",
+      "target": "liuhc0428/law_gpt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:24:22.681345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e2d\u6587\u6cd5\u5f8b\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+    "fork": false,
+    "full_name": "LiuHC0428/LAW-GPT",
+    "html_url": "https://github.com/LiuHC0428/LAW-GPT",
+    "language": "Python",
+    "pushed_at": "2024-05-13T08:25:34Z",
+    "stargazers_count": 1193,
+    "topics": [],
+    "updated_at": "2026-04-23T15:27:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuhc0428/law_gpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rankki/lawrefbook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

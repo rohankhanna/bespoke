@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blizzard/s2client-proto",
+      "target": "blizzard/s2client-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blizzard/s2client-proto",
+      "target": "deepmind/pysc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blizzard/s2client-proto",
+      "target": "davechurchill/commandcenter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:07.579923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6419
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StarCraft II Client - protocol definitions used to communicate with StarCraft II.",
+    "fork": false,
+    "full_name": "Blizzard/s2client-proto",
+    "html_url": "https://github.com/Blizzard/s2client-proto",
+    "language": "Python",
+    "pushed_at": "2025-10-08T21:44:17Z",
+    "stargazers_count": 3931,
+    "topics": [],
+    "updated_at": "2026-05-02T01:03:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blizzard/s2client-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davechurchill/commandcenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/pysc2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

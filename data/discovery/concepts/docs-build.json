@@ -81,6 +81,18 @@
       "source_repo": "MyoHub/myosuite",
       "status": "candidate-context",
       "text": "Docs Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "Elastic Cloud on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate-context",
+      "text": "docs-build"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "MyoHub/myosuite",
       "status": "candidate",
       "text": "Docs Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/cloud-on-k8s",
+      "status": "candidate",
+      "text": "docs-build"
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +234,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "MyoHub/myosuite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

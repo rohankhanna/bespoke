@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool allows you to draw on screen real-time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A tool allows you to draw on screen real-time."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A tool allows you to draw on screen real-time."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969135,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968516,
+      "status": "candidate",
+      "text": "depict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966360,
+      "status": "candidate",
+      "text": "delineate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960388,
+      "status": "candidate",
+      "text": "standoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947126,
+      "status": "candidate",
+      "text": "drag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "draw",
+      "sense_id": "draw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60034,
+      "status": "candidate",
+      "text": "delineate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53055,
+      "status": "candidate",
+      "text": "puff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48035,
+      "status": "candidate",
+      "text": "depict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47070,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40076,
+      "status": "candidate",
+      "text": "cast"
+    }
+  ],
+  "concept_id": "draw",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "draw",
+  "observation_id": "d64a57e8d78a28c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "draw",
+  "source_context_snippet": "A tool allows you to draw on screen real-time.",
+  "source_file": null,
+  "source_repo": "antfu/live-draw",
+  "source_repo_description": "A tool allows you to draw on screen real-time."
+}

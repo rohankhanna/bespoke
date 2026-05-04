@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "form-generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "Open-Source Form Framework for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "form-generator",
+  "concept_id": "form-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vueform/vueform"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "form-generator",
+      "sense_id": "form-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

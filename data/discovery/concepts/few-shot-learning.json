@@ -127,6 +127,18 @@
       "source_repo": "ucbdrive/few-shot-object-detection",
       "status": "candidate-context",
       "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "ucbdrive/few-shot-object-detection",
       "status": "candidate",
       "text": "[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ucbdrive/few-shot-object-detection.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ucbdrive/few-shot-object-detection/context:python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +400,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Most.js core event stream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "```"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "```"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998903,
+      "status": "candidate",
+      "text": "sensitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973107,
+      "status": "candidate",
+      "text": "unstable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969798,
+      "status": "candidate",
+      "text": "excited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39770118,
+      "status": "candidate",
+      "text": "oxidizable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013412,
+      "status": "candidate",
+      "text": "activated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reactive",
+      "sense_id": "reactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25044,
+      "status": "candidate",
+      "text": "sensitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25035,
+      "status": "candidate",
+      "text": "excited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23041,
+      "status": "candidate",
+      "text": "unstable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "activated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "oxidizable"
+    }
+  ],
+  "concept_id": "reactive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reactive",
+  "observation_id": "5d03cb976cb6bb80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "reactive",
+  "source_context_snippet": "```",
+  "source_file": null,
+  "source_repo": "mostjs/core",
+  "source_repo_description": "Most.js core event stream"
+}

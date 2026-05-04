@@ -187,6 +187,18 @@
       "source_repo": "google/deepvariant",
       "status": "candidate-context",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "DeepSomatic is an analysis pipeline that uses a deep neural network to call somatic variants from tumor-normal and tumor-only sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "google/deepvariant",
       "status": "candidate",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
     }
   ],
   "candidate_related_terms": [
@@ -434,11 +452,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google/deepvariant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/deepsomatic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/arcs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

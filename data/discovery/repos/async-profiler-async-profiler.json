@@ -200,6 +200,13 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-sizes.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "compare-binary-sizes",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integ.yml",
       "source_repo": "async-profiler/async-profiler",
@@ -284,7 +291,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T18:52:29.075981+00:00",
+  "fetched_at": "2026-05-04T09:37:44.813426+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -301,6 +308,10 @@
     {
       "path": ".github/workflows/code-check.yml",
       "size": 1795
+    },
+    {
+      "path": ".github/workflows/compare-binary-sizes.yml",
+      "size": 1352
     },
     {
       "path": ".github/workflows/integ.yml",
@@ -324,10 +335,10 @@
     "full_name": "async-profiler/async-profiler",
     "html_url": "https://github.com/async-profiler/async-profiler",
     "language": "C++",
-    "pushed_at": "2026-04-20T22:48:59Z",
-    "stargazers_count": 8996,
+    "pushed_at": "2026-05-01T16:54:07Z",
+    "stargazers_count": 9011,
     "topics": [],
-    "updated_at": "2026-04-23T12:57:58Z"
+    "updated_at": "2026-05-04T05:54:59Z"
   },
   "repo_links": [],
   "terms": [
@@ -348,6 +359,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/code-check.yml",
       "term": "code-check"
+    },
+    {
+      "context_snippet": "compare-binary-sizes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-sizes.yml",
+      "term": "compare-binary-sizes"
     },
     {
       "context_snippet": "integration-test-template",

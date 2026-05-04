@@ -43,6 +43,18 @@
       "source_repo": "myclabs/DeepCopy",
       "status": "candidate-context",
       "text": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "Enhanced ChatGPT Clone: Features Agents, MCP, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "myclabs/DeepCopy",
       "status": "candidate",
       "text": "DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danny-avila/LibreChat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "myclabs/DeepCopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "danny-avila/LibreChat"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

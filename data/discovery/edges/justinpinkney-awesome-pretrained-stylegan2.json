@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/awesome-pretrained-stylegan3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/awesome-pretrained-stylegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinpinkney/awesome-pretrained-stylegan2",
+      "target": "justinpinkney/data-efficient-gans",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "justinpinkney/awesome-pretrained-stylegan2"
+}

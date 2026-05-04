@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "programs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "This is a zero knowledge IBC tendermint light client written using SP1 and ibc-rs (WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate-context",
+      "text": "programs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/sp1-ics07-tendermint",
+      "status": "candidate",
+      "text": "programs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044655,
+      "status": "candidate",
+      "text": "syllabus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040842,
+      "status": "candidate",
+      "text": "curriculum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028656,
+      "status": "candidate",
+      "text": "broadcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024408,
+      "status": "candidate",
+      "text": "plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10013308,
+      "status": "candidate",
+      "text": "computer program"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "programs",
+  "concept_id": "programs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/programs.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "programs",
+      "sense_id": "programs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

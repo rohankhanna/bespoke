@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:30:43.298748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Register of Internet Addresses filtered in Russian Federation",
+    "fork": false,
+    "full_name": "zapret-info/z-i",
+    "html_url": "https://github.com/zapret-info/z-i",
+    "language": null,
+    "pushed_at": "2025-10-01T11:13:55Z",
+    "stargazers_count": 1389,
+    "topics": [],
+    "updated_at": "2026-05-02T21:06:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

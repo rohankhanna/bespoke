@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udccd\u27a1\ufe0f \ud83c\udde9\ud83c\uddf0 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "country-codes",
+      "sense_id": "country-codes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "country-codes",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "country-codes",
+  "observation_id": "86d86891206056d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "country-codes",
+  "source_context_snippet": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)",
+  "source_file": null,
+  "source_repo": "rapideditor/country-coder",
+  "source_repo_description": "\ud83d\udccd\u27a1\ufe0f \ud83c\udde9\ud83c\uddf0 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally"
+}

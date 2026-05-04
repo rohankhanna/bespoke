@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A C library for handling bigWig files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041204,
+      "status": "candidate",
+      "text": "top banana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891652,
+      "status": "candidate",
+      "text": "kingpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938433,
+      "status": "candidate",
+      "text": "vip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922082,
+      "status": "candidate",
+      "text": "nabob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042580,
+      "status": "candidate",
+      "text": "big wig"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bigwig",
+      "sense_id": "bigwig#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10025,
+      "status": "candidate",
+      "text": "top banana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5032,
+      "status": "candidate",
+      "text": "kingpin"
+    }
+  ],
+  "concept_id": "bigwig",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bigwig",
+  "observation_id": "a41fdb108321fd1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "bigwig",
+  "source_context_snippet": "![Master build status](https://travis-ci.org/dpryan79/libBigWig.svg?branch=master) [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.45278.svg)](http://dx.doi.org/10.5281/zenodo.45278)",
+  "source_file": null,
+  "source_repo": "dpryan79/libBigWig",
+  "source_repo_description": "A C library for handling bigWig files"
+}

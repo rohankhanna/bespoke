@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Register Workflow Run with AndroidX"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Register Workflow Run with AndroidX"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "Register Workflow Run with AndroidX"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22830,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22830,
+      "status": "candidate",
+      "text": "rolled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22806,
+      "status": "candidate",
+      "text": "matriculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22781,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22757,
+      "status": "candidate",
+      "text": "enrollment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Register Workflow Run with AndroidX",
+  "concept_id": "register-workflow-run-with-androidx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/register_workflow_start.yml",
+      "source_repo": "androidx/androidx"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Register Workflow Run with AndroidX",
+      "sense_id": "register-workflow-run-with-androidx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

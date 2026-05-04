@@ -67,6 +67,24 @@
       "source_repo": "xtensor-stack/xtensor-r",
       "status": "candidate-context",
       "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy",
+      "status": "candidate-context",
+      "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy-backend",
+      "status": "candidate-context",
+      "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CPyCppyy",
+      "status": "candidate-context",
+      "text": "OSX"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +115,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate",
+      "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy",
+      "status": "candidate",
+      "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy-backend",
+      "status": "candidate",
+      "text": "OSX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CPyCppyy",
       "status": "candidate",
       "text": "OSX"
     }
@@ -172,11 +208,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/osx.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/cppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/cppyy-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "compiler-research/CPyCppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Guide Template Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "Guide Template Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "Guide Template Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18810,
+      "status": "candidate",
+      "text": "calibrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18810,
+      "status": "candidate",
+      "text": "calibrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18810,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18625,
+      "status": "candidate",
+      "text": "draught"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18563,
+      "status": "candidate",
+      "text": "hand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Guide Template Checker",
+  "concept_id": "guide-template-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/guide-templates.yaml",
+      "source_repo": "informalsystems/hermes"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Guide Template Checker",
+      "sense_id": "guide-template-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

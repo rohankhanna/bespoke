@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@v1.13.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish_to_pypi.yaml",
       "source_repo": "HumanBrainProject/neuroglancer-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sdist.yaml",
+      "source_repo": "pytroll/donfig"
     }
   ]
 }

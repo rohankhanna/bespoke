@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "panmari/cuckoofilter",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "panmari/cuckoofilter",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "panmari/cuckoofilter",
+      "target": "Go Build, Vet, Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "panmari/cuckoofilter",
+      "target": "bloom-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "panmari/cuckoofilter",
+      "target": "cuckoo-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "panmari/cuckoofilter",
+      "target": "set-membership",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:54.368147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2998
+    },
+    {
+      "path": "go.mod",
+      "size": 158
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom.",
+    "fork": true,
+    "full_name": "panmari/cuckoofilter",
+    "html_url": "https://github.com/panmari/cuckoofilter",
+    "language": "Go",
+    "pushed_at": "2025-12-02T01:25:53Z",
+    "stargazers_count": 48,
+    "topics": [
+      "bloom-filter",
+      "cuckoo-filter",
+      "set-membership"
+    ],
+    "updated_at": "2026-01-19T08:30:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go Build, Vet, Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "Go Build, Vet, Test"
+    },
+    {
+      "context_snippet": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom-filter"
+    },
+    {
+      "context_snippet": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuckoo-filter"
+    },
+    {
+      "context_snippet": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "set-membership"
+    }
+  ]
+}

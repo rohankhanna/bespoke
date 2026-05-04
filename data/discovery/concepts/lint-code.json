@@ -152,6 +152,54 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate-next",
       "status": "candidate-context",
       "text": "Lint Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "MAX78000 and MAX78002 Reference Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "Lint code"
     }
   ],
   "candidate_glosses": [
@@ -226,6 +274,30 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate-next",
       "status": "candidate",
       "text": "Lint Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate",
+      "text": "Lint code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate",
+      "text": "Lint code"
     }
   ],
   "candidate_related_terms": [
@@ -371,11 +443,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

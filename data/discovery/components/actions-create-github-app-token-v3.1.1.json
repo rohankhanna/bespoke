@@ -1,0 +1,17 @@
+{
+  "component": "actions/create-github-app-token@v3.1.1",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "developmentseed/obstore"
+    }
+  ]
+}

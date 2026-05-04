@@ -16,21 +16,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "emacsmirror/epkgs",
+      "target": "tarsius/auto-compile",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "magit/forge",
+      "target": "radian-software/gnu-elpa-mirror",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "melpa/melpa",
+      "target": "radian-software/radian",
       "target_type": "repository"
     },
     {
@@ -76,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T01:49:36.002699+00:00",
+  "fetched_at": "2026-05-04T09:38:58.804709+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,25 +101,15 @@
     "html_url": "https://github.com/radian-software/straight.el",
     "language": "Emacs Lisp",
     "pushed_at": "2026-04-15T22:00:56Z",
-    "stargazers_count": 2991,
+    "stargazers_count": 2993,
     "topics": [
       "emacs",
       "package-manager",
       "version-control"
     ],
-    "updated_at": "2026-04-30T17:30:30Z"
+    "updated_at": "2026-05-03T20:20:58Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "emacsmirror/epkgs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "magit/forge",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "mattgreen/watchexec",
@@ -127,7 +117,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "melpa/melpa",
+      "full_name": "radian-software/gnu-elpa-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radian-software/radian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarsius/auto-compile",
       "source_file": "README.md"
     }
   ],

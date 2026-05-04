@@ -20,15 +20,8 @@
       "source_repo": "huixiancheng/CENet",
       "target": "halmstad-university/salsanext",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "huixiancheng/CENet",
-      "target": "placeforyiming/iros21-fidnet-semantickitti",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "huixiancheng/CENet"
 }

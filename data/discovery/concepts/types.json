@@ -574,6 +574,18 @@
       "source_repo": "tracked-tools/tracked-toolbox",
       "status": "candidate-context",
       "text": "Types"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ianstormtaylor/superstruct",
+      "status": "candidate-context",
+      "text": "A simple and composable way to validate data in JavaScript (and TypeScript)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianstormtaylor/superstruct",
+      "status": "candidate-context",
+      "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
     }
   ],
   "candidate_glosses": [
@@ -858,6 +870,12 @@
       "source_repo": "tracked-tools/tracked-toolbox",
       "status": "candidate",
       "text": "Types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ianstormtaylor/superstruct",
+      "status": "candidate",
+      "text": "superstruct \u2014 A simple and composable way to validate data in JavaScript (and TypeScript)."
     }
   ],
   "candidate_related_terms": [
@@ -1297,11 +1315,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/types.yml",
       "source_repo": "tracked-tools/tracked-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ianstormtaylor/superstruct"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

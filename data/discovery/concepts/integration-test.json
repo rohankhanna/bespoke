@@ -274,6 +274,18 @@
       "source_repo": "cognizant-ai-lab/neuro-san-studio",
       "status": "candidate-context",
       "text": "Integration Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Integration Test"
     }
   ],
   "candidate_glosses": [
@@ -412,6 +424,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate",
+      "text": "Integration Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
       "status": "candidate",
       "text": "Integration Test"
     }
@@ -703,11 +721,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "pytorch/text"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -391,6 +391,30 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "Revive a JSON-serialized complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate-context",
+      "text": "CLI to make unreadable production stack traces readable using source maps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate-context",
+      "text": "Have you ever been faced with a stacktrace that looks like this?"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +609,18 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mifi/stacktracify",
+      "status": "candidate",
+      "text": "Have you ever been faced with a stacktrace that looks like this?"
     }
   ],
   "candidate_related_terms": [
@@ -874,11 +910,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/ndarray-dtype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

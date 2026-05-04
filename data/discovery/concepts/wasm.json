@@ -959,6 +959,18 @@
       "source_repo": "compiler-research/CppInterOp",
       "status": "candidate-context",
       "text": "WASM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "<!-- Badges -->"
     }
   ],
   "candidate_glosses": [
@@ -1441,6 +1453,12 @@
       "source_repo": "compiler-research/CppInterOp",
       "status": "candidate",
       "text": "WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate",
+      "text": "<!-- Badges -->"
     }
   ],
   "candidate_related_terms": [
@@ -2258,11 +2276,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/emscripten.yml",
       "source_repo": "compiler-research/CppInterOp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zig-wasm/wasmer-zig-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dart-archive/wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

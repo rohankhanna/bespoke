@@ -19,6 +19,18 @@
       "source_repo": "blackjax-devs/blackjax",
       "status": "candidate-context",
       "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for \"Parallel Sampling of Diffusion Models\", NeurIPS 2023 Spotlight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "blackjax-devs/blackjax",
       "status": "candidate",
       "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate",
+      "text": "This repository contains code for the paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "blackjax-devs/blackjax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

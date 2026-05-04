@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "drtimothyaldendavis/graphblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "arch-emu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/checkout@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "JamesIves/github-pages-deploy-action@4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/upload-artifact@v4.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "LAGraph CI with Builtin GraphBLAS",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "GraphBLAS/LAGraph"
+}

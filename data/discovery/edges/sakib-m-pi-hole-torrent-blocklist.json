@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "block-torrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole-blocklists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pihole-torrent-blocklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-host-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-website",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist"
+}

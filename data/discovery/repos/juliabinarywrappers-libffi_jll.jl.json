@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:32:52.649910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Libffi_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Libffi_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-22T01:43:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-22T01:43:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

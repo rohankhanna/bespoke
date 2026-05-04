@@ -19,6 +19,18 @@
       "source_repo": "pinpox/base16-universal-manager",
       "status": "candidate-context",
       "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "[ACL 2025] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science\ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "pinpox/base16-universal-manager",
       "status": "candidate",
       "text": "[![Build Status](https://api.travis-ci.org/pinpox/base16-universal-manager.svg)](http://travis-ci.org/pinpox/base16-universal-manager) [![GoDoc](https://godoc.org/github.com/pinpox/base16-universal-manager?status.svg)](http://godoc.org/github.com/pinpox/base16-universal-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "pinpox/base16-universal-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

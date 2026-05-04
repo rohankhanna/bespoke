@@ -111,6 +111,30 @@
       "source_repo": "remix-run/remix",
       "status": "candidate-context",
       "text": "Check PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/cosmos.nix",
+      "status": "candidate-context",
+      "text": "A reproducible package set for Cosmos, IBC and CosmWasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmos.nix",
+      "status": "candidate-context",
+      "text": "Check PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "A unified layer index for OSM editors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
+      "status": "candidate-context",
+      "text": "Check PR"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +189,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "remix-run/remix",
+      "status": "candidate",
+      "text": "Check PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/cosmos.nix",
+      "status": "candidate",
+      "text": "Check PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/editor-layer-index",
       "status": "candidate",
       "text": "Check PR"
     }
@@ -264,11 +300,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/check-pr.yaml",
       "source_repo": "remix-run/remix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "informalsystems/cosmos.nix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "osmlab/editor-layer-index"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

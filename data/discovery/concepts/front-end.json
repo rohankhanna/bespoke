@@ -31,6 +31,30 @@
       "source_repo": "hchiam/learning-front-end-frameworks",
       "status": "candidate-context",
       "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "hchiam/learning-front-end-frameworks",
       "status": "candidate",
       "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "hchiam/learning-front-end-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "saadeghi/daisyui"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "dsaltares/fetch-gh-release-asset@master",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/static_analysis.yaml",
       "source_repo": "jemalloc/jemalloc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "informalsystems/basecoin-rs"
     }
   ]
 }

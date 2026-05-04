@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ML-GSAI/DPT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:22.118239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation for \"Diffusion Models and Semi-Supervised Learners Benefit Mutually with Few Labels\"",
+    "fork": false,
+    "full_name": "ML-GSAI/DPT",
+    "html_url": "https://github.com/ML-GSAI/DPT",
+    "language": "Python",
+    "pushed_at": "2024-01-17T08:34:05Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

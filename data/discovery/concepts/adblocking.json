@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "adblocking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "The official repo for Blokada apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023786,
+      "status": "candidate",
+      "text": "adblocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023785,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023784,
+      "status": "candidate",
+      "text": "hard-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023783,
+      "status": "candidate",
+      "text": "permablock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023782,
+      "status": "candidate",
+      "text": "banner blindness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "adblocking",
+  "concept_id": "adblocking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocking",
+      "sense_id": "adblocking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

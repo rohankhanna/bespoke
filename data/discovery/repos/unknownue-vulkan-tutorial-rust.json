@@ -9,20 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unknownue/vulkan-tutorial-rust",
-      "target": "bwasty/vulkan-tutorial-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unknownue/vulkan-tutorial-rust",
-      "target": "adrien-ben/vulkan-tutorial-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "unknownue/vulkan-tutorial-rust",
@@ -44,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:44:52.634861+00:00",
+  "fetched_at": "2026-05-04T09:36:19.737861+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,16 +61,6 @@
     "updated_at": "2026-04-21T06:20:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "adrien-ben/vulkan-tutorial-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bwasty/vulkan-tutorial-rs",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "maikklein/ash",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "timezones"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "Useful extensions to the standard Python datetime features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "dateutil - powerful extensions to datetime"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate",
+      "text": "dateutil - powerful extensions to datetime"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839527,
+      "status": "candidate",
+      "text": "zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881307,
+      "status": "candidate",
+      "text": "time zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881305,
+      "status": "candidate",
+      "text": "clock time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881304,
+      "status": "candidate",
+      "text": "time being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881303,
+      "status": "candidate",
+      "text": "timekeeping"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "timezones",
+  "concept_id": "timezones",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timezones",
+      "sense_id": "timezones#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

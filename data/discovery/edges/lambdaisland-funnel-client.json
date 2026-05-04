@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml",
+      "source_repo": "lambdaisland/funnel-client",
+      "target": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "lambdaisland/funnel-client"
+}

@@ -31,6 +31,12 @@
       "source_repo": "wp-cli/dist-archive-command",
       "status": "candidate-context",
       "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate-context",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +51,12 @@
       "source_repo": "wp-cli/dist-archive-command",
       "status": "candidate",
       "text": "wp-cli/dist-archive-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
     }
   ],
   "candidate_related_terms": [
@@ -114,11 +126,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "wp-cli/dist-archive-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenCIDN/ocimirror"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/plotpy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/plotpy",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy",
+      "target": "drawing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy",
+      "target": "matplotlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy",
+      "target": "plot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/plotpy",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:30.956666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13856
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/test_and_coverage.yml",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust plotting library using Python (Matplotlib)",
+    "fork": false,
+    "full_name": "cpmech/plotpy",
+    "html_url": "https://github.com/cpmech/plotpy",
+    "language": "Rust",
+    "pushed_at": "2026-01-27T12:12:42Z",
+    "stargazers_count": 86,
+    "topics": [
+      "drawing",
+      "matplotlib",
+      "plot",
+      "plotting",
+      "rust"
+    ],
+    "updated_at": "2026-04-25T09:03:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawing"
+    },
+    {
+      "context_snippet": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matplotlib"
+    },
+    {
+      "context_snippet": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plot"
+    },
+    {
+      "context_snippet": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "[![documentation](https://img.shields.io/badge/plotpy-documentation-blue)](https://docs.rs/plotpy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

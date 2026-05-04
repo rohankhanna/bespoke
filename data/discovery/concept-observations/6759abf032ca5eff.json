@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Federated Learning based Deep Learning. Docs: https://fets-ai.github.io/Front-End/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9923779,
+      "status": "candidate",
+      "text": "cit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9813862,
+      "status": "candidate",
+      "text": "tef"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9450329,
+      "status": "candidate",
+      "text": "eft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15002,
+      "status": "candidate",
+      "text": "efts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15002,
+      "status": "candidate",
+      "text": "jons"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fets",
+      "sense_id": "fets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fets",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fets",
+  "observation_id": "6759abf032ca5eff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "fets",
+  "source_context_snippet": "The Federated Tumor Segmentation (FeTS) platform, describes an on-going under development open-source toolkit, with a user-friendly graphical user interface (GUI), aiming at:",
+  "source_file": null,
+  "source_repo": "FeTS-AI/Front-End",
+  "source_repo_description": "Federated Learning based Deep Learning. Docs: https://fets-ai.github.io/Front-End/"
+}

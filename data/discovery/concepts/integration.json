@@ -454,6 +454,18 @@
       "source_repo": "cognizant-ai-lab/neuro-san",
       "status": "candidate-context",
       "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "Integration"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +688,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
       "status": "candidate",
       "text": "Integration"
     }
@@ -1133,11 +1151,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

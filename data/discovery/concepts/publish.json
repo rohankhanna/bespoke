@@ -3760,6 +3760,126 @@
       "source_repo": "crosstype/node-html-markdown",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "Revive a JSON-serialized complex number."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semperai/amica",
+      "status": "candidate-context",
+      "text": "Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semperai/amica",
+      "status": "candidate-context",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Ansible Language Server codebase is now included in vscode-ansible repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "One framework to evaluate any VLA model on any robot simulation benchmark."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate-context",
+      "text": "\"Publish\""
     }
   ],
   "candidate_glosses": [
@@ -5664,6 +5784,66 @@
       "source_repo": "crosstype/node-html-markdown",
       "status": "candidate",
       "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/complex-reviver",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semperai/amica",
+      "status": "candidate",
+      "text": "'publish'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/vla-evaluation-harness",
+      "status": "candidate",
+      "text": "\"Publish\""
     }
   ],
   "candidate_related_terms": [
@@ -9295,11 +9475,197 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattpocock/ts-reset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "semperai/amica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "google/comprehensive-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-design-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-symbols"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ansible/ansible-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish-to-npm.yaml",
+      "source_repo": "apify/fingerprint-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "allenai/vla-evaluation-harness"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

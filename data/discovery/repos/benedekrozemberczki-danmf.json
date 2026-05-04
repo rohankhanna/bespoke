@@ -1,0 +1,310 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "smartyfh/danmf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "cikm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "community-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "coordinate-descent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "danmf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "deepwalk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "dimensionality-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "gemsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "mnmf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "node-embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "node2vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "sklearn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:10.365611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018).",
+    "fork": false,
+    "full_name": "benedekrozemberczki/DANMF",
+    "html_url": "https://github.com/benedekrozemberczki/DANMF",
+    "language": "Python",
+    "pushed_at": "2023-03-18T12:09:13Z",
+    "stargazers_count": 207,
+    "topics": [
+      "autoencoder",
+      "cikm",
+      "clustering",
+      "community-detection",
+      "coordinate-descent",
+      "danmf",
+      "data-science",
+      "deep-learning",
+      "deepwalk",
+      "dimensionality-reduction",
+      "embedding",
+      "gemsec",
+      "machine-learning",
+      "mnmf",
+      "nmf",
+      "node-embedding",
+      "node2vec",
+      "sklearn",
+      "unsupervised-learning",
+      "word2vec"
+    ],
+    "updated_at": "2025-11-27T16:54:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smartyfh/danmf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoencoder"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cikm"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community-detection"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coordinate-descent"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "danmf"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepwalk"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensionality-reduction"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemsec"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mnmf"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-embedding"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node2vec"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sklearn"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    },
+    {
+      "context_snippet": "DANMF",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word2vec"
+    }
+  ]
+}

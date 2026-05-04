@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assigned.yaml"
+    },
+    {
+      "component": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merged.yaml"
+    },
+    {
+      "component": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_weekly.yaml"
+    },
+    {
+      "component": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review_requested.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_steps.yml"
+    },
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_steps.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_steps.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "certbot/certbot",
+      "target": "ietf-wg-acme/acme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assigned.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assigned.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "Issue Assigned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merged.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merged.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "Merge Event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify_weekly.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify_weekly.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "Weekly Github Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test-suite.yml",
+      "source_repo": "certbot/certbot",
+      "target": "PR test suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review_requested.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "mattermost/action-mattermost-notify@b7d118e440bf2749cd18a4a8c88e7092e696257a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review_requested.yaml",
+      "source_repo": "certbot/certbot",
+      "target": "Review Requested",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx_steps.yml",
+      "source_repo": "certbot/certbot",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx_steps.yml",
+      "source_repo": "certbot/certbot",
+      "target": "Sphinx steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "certbot/certbot",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "certbot/certbot",
+      "target": "Update Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard_tests_jobs.yml",
+      "source_repo": "certbot/certbot",
+      "target": "Standard tests jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_steps.yml",
+      "source_repo": "certbot/certbot",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox_steps.yml",
+      "source_repo": "certbot/certbot",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox_steps.yml",
+      "source_repo": "certbot/certbot",
+      "target": "Tox steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "certbot/certbot",
+      "target": "acme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "certbot/certbot",
+      "target": "acme-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "certbot/certbot",
+      "target": "certbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "certbot/certbot",
+      "target": "certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "certbot/certbot",
+      "target": "letsencrypt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:10.217152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4540
+    },
+    {
+      "path": ".github/workflows/assigned.yaml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/merged.yaml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/notify_weekly.yaml",
+      "size": 1265
+    },
+    {
+      "path": ".github/workflows/pr-test-suite.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/review_requested.yaml",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/sphinx_steps.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1869
+    },
+    {
+      "path": ".github/workflows/standard_tests_jobs.yml",
+      "size": 1180
+    },
+    {
+      "path": ".github/workflows/tox_steps.yml",
+      "size": 2064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.",
+    "fork": false,
+    "full_name": "certbot/certbot",
+    "html_url": "https://github.com/certbot/certbot",
+    "language": "Python",
+    "pushed_at": "2026-05-01T22:47:36Z",
+    "stargazers_count": 33020,
+    "topics": [
+      "acme",
+      "acme-client",
+      "certbot",
+      "certificate",
+      "letsencrypt",
+      "python"
+    ],
+    "updated_at": "2026-05-04T09:42:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ietf-wg-acme/acme",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Assigned",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assigned.yaml",
+      "term": "Issue Assigned"
+    },
+    {
+      "context_snippet": "Merge Event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merged.yaml",
+      "term": "Merge Event"
+    },
+    {
+      "context_snippet": "Weekly Github Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notify_weekly.yaml",
+      "term": "Weekly Github Update"
+    },
+    {
+      "context_snippet": "PR test suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test-suite.yml",
+      "term": "PR test suite"
+    },
+    {
+      "context_snippet": "Review Requested",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review_requested.yaml",
+      "term": "Review Requested"
+    },
+    {
+      "context_snippet": "Sphinx steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx_steps.yml",
+      "term": "Sphinx steps"
+    },
+    {
+      "context_snippet": "Update Stale Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Update Stale Issues"
+    },
+    {
+      "context_snippet": "Standard tests jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard_tests_jobs.yml",
+      "term": "Standard tests jobs"
+    },
+    {
+      "context_snippet": "Tox steps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox_steps.yml",
+      "term": "Tox steps"
+    },
+    {
+      "context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme"
+    },
+    {
+      "context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acme-client"
+    },
+    {
+      "context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certbot"
+    },
+    {
+      "context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate"
+    },
+    {
+      "context_snippet": ".. This file contains a series of comments that are used to include sections of this README in other files. Do not modify these comments unless you know what you are doing. tag:intro-begin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    }
+  ]
+}

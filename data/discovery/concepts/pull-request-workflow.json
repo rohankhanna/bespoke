@@ -55,6 +55,18 @@
       "source_repo": "datreeio/datree",
       "status": "candidate-context",
       "text": "Pull Request Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate-context",
+      "text": "Universal Kubernetes mutating operator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate-context",
+      "text": "'Pull Request Workflow'"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "datreeio/datree",
       "status": "candidate",
       "text": "Pull Request Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubemod/kubemod",
+      "status": "candidate",
+      "text": "'Pull Request Workflow'"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/topic-workflow.yaml",
+      "source_repo": "kubemod/kubemod"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

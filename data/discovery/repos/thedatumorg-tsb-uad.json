@@ -1,0 +1,174 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "thedatumorg/vus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "anomaly-detection-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD",
+      "target": "time-series-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:33:02.551527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24659
+    },
+    {
+      "path": "requirements.txt",
+      "size": 184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection",
+    "fork": false,
+    "full_name": "thedatumorg/TSB-UAD",
+    "html_url": "https://github.com/thedatumorg/TSB-UAD",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-03T22:06:34Z",
+    "stargazers_count": 211,
+    "topics": [
+      "anomaly-detection",
+      "anomaly-detection-algorithm",
+      "benchmark",
+      "data-mining",
+      "data-science",
+      "datasets",
+      "python",
+      "python3",
+      "time-series",
+      "time-series-analysis"
+    ],
+    "updated_at": "2026-04-19T09:53:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thedatumorg/vus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection-algorithm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-analysis"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v4",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -982,6 +982,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "refraction-networking/utls"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yuin/gopher-lua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "OwO-Network/DeepLX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "OwO-Network/DeepLX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "erebe/wstunnel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cosmos/relayer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/interchaintest.yml",
+      "source_repo": "cosmos/relayer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cosmos/relayer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "Jigsaw-Code/Intra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "OutlineFoundation/outline-go-tun2socks"
     }
   ]
 }

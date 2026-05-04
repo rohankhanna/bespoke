@@ -223,6 +223,30 @@
       "source_repo": "stdlib-js/array-shared-buffer",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate-context",
+      "text": "Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate-context",
+      "text": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate-context",
+      "text": "An elementary counting semaphore for async tasks in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "stdlib-js/array-shared-buffer",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate",
+      "text": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +640,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

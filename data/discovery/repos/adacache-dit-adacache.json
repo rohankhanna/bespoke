@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "target": "content-adaptive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:18.625483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for our ICCV 2025 paper \"Adaptive Caching for Faster Video Generation with Diffusion Transformers\"",
+    "fork": false,
+    "full_name": "AdaCache-DiT/AdaCache",
+    "html_url": "https://github.com/AdaCache-DiT/AdaCache",
+    "language": "Python",
+    "pushed_at": "2024-11-05T03:15:55Z",
+    "stargazers_count": 171,
+    "topics": [
+      "caching",
+      "content-adaptive",
+      "diffusion-transformer",
+      "efficiency",
+      "video-generation"
+    ],
+    "updated_at": "2026-03-27T10:06:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-adaptive"
+    },
+    {
+      "context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

@@ -96,6 +96,18 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate-context",
       "text": "Windows Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "\"Windows Build\""
     }
   ],
   "candidate_glosses": [
@@ -140,6 +152,12 @@
       "source_repo": "iamaisim/ProjectAirSim",
       "status": "candidate",
       "text": "Windows Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "\"Windows Build\""
     }
   ],
   "candidate_related_terms": [
@@ -291,11 +309,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

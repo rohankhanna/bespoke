@@ -31,6 +31,18 @@
       "source_repo": "espressif/esp-idf",
       "status": "candidate-context",
       "text": "Sync issue comments to JIRA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "Pre-commit hook script for linting conventional commit style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "Sync issue comments to JIRA"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "espressif/esp-idf",
+      "status": "candidate",
+      "text": "Sync issue comments to JIRA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
       "status": "candidate",
       "text": "Sync issue comments to JIRA"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/issue_comment.yml",
       "source_repo": "espressif/esp-idf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "espressif/conventional-precommit-linter"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

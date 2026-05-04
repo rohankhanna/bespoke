@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "numbata/danger-pr-comment/.github/workflows/danger-comment.yml@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger-comment.yml"
+    },
+    {
+      "component": "numbata/danger-pr-comment/.github/workflows/danger-run.yml@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-grape/grape",
+      "target": "aserafin/grape_logging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-grape/grape",
+      "target": "apotonick/roar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-grape/grape",
+      "target": "alexyankee/grape-reload",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby-grape/grape",
+      "target": "appsignal/appsignal-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger-comment.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "numbata/danger-pr-comment/.github/workflows/danger-comment.yml@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger-comment.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "Danger Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "numbata/danger-pr-comment/.github/workflows/danger-run.yml@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "Danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruby-grape/grape",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape",
+      "target": "grape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:16.094189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 118240
+    },
+    {
+      "path": ".github/workflows/danger-comment.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/danger.yml",
+      "size": 261
+    },
+    {
+      "path": ".github/workflows/edge.yml",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An opinionated framework for creating REST-like APIs in Ruby.",
+    "fork": false,
+    "full_name": "ruby-grape/grape",
+    "html_url": "https://github.com/ruby-grape/grape",
+    "language": "Ruby",
+    "pushed_at": "2026-05-02T15:07:15Z",
+    "stargazers_count": 9985,
+    "topics": [
+      "api",
+      "grape",
+      "hacktoberfest",
+      "ruby"
+    ],
+    "updated_at": "2026-05-02T15:07:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexyankee/grape-reload",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apotonick/roar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appsignal/appsignal-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aserafin/grape_logging",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Danger Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger-comment.yml",
+      "term": "Danger Comment"
+    },
+    {
+      "context_snippet": "Danger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "term": "Danger"
+    },
+    {
+      "context_snippet": "edge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/edge.yml",
+      "term": "edge"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "![grape logo](grape.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grape"
+    },
+    {
+      "context_snippet": "![grape logo](grape.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![grape logo](grape.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "hierarchy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048247,
+      "status": "candidate",
+      "text": "power structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39488475,
+      "status": "candidate",
+      "text": "pecking order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048005,
+      "status": "candidate",
+      "text": "hierarchical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048002,
+      "status": "candidate",
+      "text": "seniority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040396,
+      "status": "candidate",
+      "text": "class"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "power structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27,
+      "status": "candidate",
+      "text": "pecking order"
+    }
+  ],
+  "canonical_name": "hierarchy",
+  "concept_id": "hierarchy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/haumea"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hierarchy",
+      "sense_id": "hierarchy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

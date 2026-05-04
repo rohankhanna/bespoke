@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:38:21.231337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ruixiangcui/AGIEval",
+    "html_url": "https://github.com/ruixiangcui/AGIEval",
+    "language": "Python",
+    "pushed_at": "2024-06-13T14:20:51Z",
+    "stargazers_count": 772,
+    "topics": [],
+    "updated_at": "2026-04-11T02:02:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/neuralsim",
+      "target": "pjlab-adg/nr3d_lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/neuralsim",
+      "target": "pjlab-adg/lidarsimlib-and-placement-evaluation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:50.865426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "neuralsim: 3D surface reconstruction and simulation based on 3D neural rendering.",
+    "fork": false,
+    "full_name": "PJLab-ADG/neuralsim",
+    "html_url": "https://github.com/PJLab-ADG/neuralsim",
+    "language": "Python",
+    "pushed_at": "2024-03-14T21:14:13Z",
+    "stargazers_count": 666,
+    "topics": [],
+    "updated_at": "2026-04-29T11:51:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjlab-adg/lidarsimlib-and-placement-evaluation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjlab-adg/nr3d_lib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

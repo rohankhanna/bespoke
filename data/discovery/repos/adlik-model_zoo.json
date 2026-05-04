@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adlik/model_zoo",
+      "target": "adlik/adlik",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:25.589704+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Adlik/model_zoo",
+    "html_url": "https://github.com/Adlik/model_zoo",
+    "language": null,
+    "pushed_at": "2025-12-26T01:36:33Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-07-09T02:26:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adlik/adlik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

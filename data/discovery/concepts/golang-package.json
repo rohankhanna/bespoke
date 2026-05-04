@@ -43,6 +43,18 @@
       "source_repo": "ajstarks/svgo",
       "status": "candidate-context",
       "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "A SOCKS (SOCKS4, SOCKS4A and SOCKS5) Proxy Package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "SOCKS"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ajstarks/svgo",
       "status": "candidate",
       "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate",
+      "text": "SOCKS"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ajstarks/svgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "h12w/socks"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

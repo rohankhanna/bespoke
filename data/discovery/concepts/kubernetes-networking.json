@@ -31,6 +31,30 @@
       "source_repo": "alibaba/hybridnet",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "A Bridge between SDN and Cloud Native (Project under CNCF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": "eBPF-based Networking, Security, and Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate-context",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "alibaba/hybridnet",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/cncf/artwork/main/projects/kube-ovn/horizontal/color/kube-ovn-horizontal-color.svg\" alt=\"kube_ovn_logo\" width=\"500\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cilium/cilium",
+      "status": "candidate",
+      "text": ".. raw:: html"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kubeovn/kube-ovn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cilium/cilium"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

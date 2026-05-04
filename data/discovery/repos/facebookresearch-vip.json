@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:01.715779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official repository for \"VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training\"",
+    "fork": false,
+    "full_name": "facebookresearch/vip",
+    "html_url": "https://github.com/facebookresearch/vip",
+    "language": "Python",
+    "pushed_at": "2023-10-19T22:06:09Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2026-04-18T16:02:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

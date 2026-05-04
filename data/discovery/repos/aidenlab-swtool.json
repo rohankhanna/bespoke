@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "h5wasm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsfive",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pako",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/swtool",
+      "target": "turner/swt2sw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "h5wasm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "jsfive",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "pako",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aidenlab/swtool",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:54.740327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4288
+    },
+    {
+      "path": "package.json",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Convert legacy Spacewalk file (.swt) to modern HDF5 based binary format (.sw)",
+    "fork": false,
+    "full_name": "aidenlab/swtool",
+    "html_url": "https://github.com/aidenlab/swtool",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-30T18:08:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T18:07:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "turner/swt2sw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

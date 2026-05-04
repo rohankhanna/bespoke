@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@master",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1972,6 +1972,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/github-pages.yml",
       "source_repo": "ruby/prism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_with_local_libs.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fast/logforth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross.yml",
+      "source_repo": "sp1-patches/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/curve25519-dalek.yml",
+      "source_repo": "sp1-patches/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "sp1-patches/curve25519-dalek"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datafuse-extras/orc-rust"
     }
   ]
 }

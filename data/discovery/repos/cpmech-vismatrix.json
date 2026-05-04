@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_vismatrix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile_vismatrix.yml",
+      "source_repo": "cpmech/vismatrix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_vismatrix.yml",
+      "source_repo": "cpmech/vismatrix",
+      "target": "Compile Vismatrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix",
+      "target": "sparse-linear-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix",
+      "target": "sparse-matrices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:27:35.124820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2047
+    },
+    {
+      "path": ".github/workflows/compile_vismatrix.yml",
+      "size": 374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A vizualiser for sparse matrices",
+    "fork": false,
+    "full_name": "cpmech/vismatrix",
+    "html_url": "https://github.com/cpmech/vismatrix",
+    "language": "C++",
+    "pushed_at": "2024-03-29T00:08:05Z",
+    "stargazers_count": 9,
+    "topics": [
+      "linear-algebra",
+      "sparse-linear-systems",
+      "sparse-matrices",
+      "visualization"
+    ],
+    "updated_at": "2025-04-23T20:06:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile Vismatrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile_vismatrix.yml",
+      "term": "Compile Vismatrix"
+    },
+    {
+      "context_snippet": "<img src=\"figs/fig00a.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "<img src=\"figs/fig00a.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-linear-systems"
+    },
+    {
+      "context_snippet": "<img src=\"figs/fig00a.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrices"
+    },
+    {
+      "context_snippet": "<img src=\"figs/fig00a.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

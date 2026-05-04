@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "vibansal/hapcut2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "bcgsc/arcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "human-genomes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "longranger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "read-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM",
+      "target": "supernova",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:30.683662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "10x Genomics Reads Simulator",
+    "fork": false,
+    "full_name": "aquaskyline/LRSIM",
+    "html_url": "https://github.com/aquaskyline/LRSIM",
+    "language": "C",
+    "pushed_at": "2023-12-26T00:09:29Z",
+    "stargazers_count": 46,
+    "topics": [
+      "bioinformatics",
+      "computational-biology",
+      "human-genomes",
+      "longranger",
+      "read-simulation",
+      "supernova"
+    ],
+    "updated_at": "2025-10-29T18:50:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bcgsc/arcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vibansal/hapcut2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-genomes"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "longranger"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "read-simulation"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supernova"
+    }
+  ]
+}

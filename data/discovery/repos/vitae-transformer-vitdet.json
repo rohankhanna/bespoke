@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "target": "facebookresearch/mvit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:25:20.317026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6008
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\"",
+    "fork": false,
+    "full_name": "ViTAE-Transformer/ViTDet",
+    "html_url": "https://github.com/ViTAE-Transformer/ViTDet",
+    "language": "Python",
+    "pushed_at": "2022-04-24T06:11:54Z",
+    "stargazers_count": 585,
+    "topics": [
+      "deep-learning",
+      "object-detection",
+      "pytorch",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-24T12:47:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/mvit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

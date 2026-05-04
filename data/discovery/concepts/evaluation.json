@@ -391,6 +391,18 @@
       "source_repo": "clovaai/generative-evaluation-prdc",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate-context",
+      "text": "\u65e8\u5728\u5bf9\u5f53\u524d\u4e3b\u6d41LLM\u8fdb\u884c\u4e00\u4e2a\u76f4\u89c2\u3001\u5177\u4f53\u3001\u6807\u51c6\u7684\u8bc4\u6d4b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">AtomBulb</h1>"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +597,12 @@
       "source_repo": "clovaai/generative-evaluation-prdc",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AtomEcho/AtomBulb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">AtomBulb</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +883,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-compass/opencompass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vibrantlabsai/ragas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AtomEcho/AtomBulb"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

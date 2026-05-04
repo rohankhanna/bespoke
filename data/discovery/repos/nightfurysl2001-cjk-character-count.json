@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "nightfurysl2001/cjktables.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "3type/glyphs-han",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "chinese-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "cjk-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "cjk-unified-ideographs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:42.164165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6",
+    "fork": false,
+    "full_name": "NightFurySL2001/CJK-character-count",
+    "html_url": "https://github.com/NightFurySL2001/CJK-character-count",
+    "language": "Python",
+    "pushed_at": "2025-11-28T14:58:31Z",
+    "stargazers_count": 608,
+    "topics": [
+      "chinese-characters",
+      "cjk-characters",
+      "cjk-unified-ideographs",
+      "unicode"
+    ],
+    "updated_at": "2026-04-30T05:45:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3type/glyphs-han",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightfurysl2001/cjktables.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-characters"
+    },
+    {
+      "context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-characters"
+    },
+    {
+      "context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-unified-ideographs"
+    },
+    {
+      "context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

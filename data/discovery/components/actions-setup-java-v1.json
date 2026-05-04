@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -442,6 +442,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/preset.yml",
       "source_repo": "simonpoole/beautified-JOSM-preset"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "MarcusWolschon/osmeditor4android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-jpf.yml",
+      "source_repo": "tlaplus/tlaplus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment"
     }
   ]
 }

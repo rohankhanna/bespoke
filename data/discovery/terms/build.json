@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -4826,6 +4826,111 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "datamllab/tods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iFaxity/vite-plugin-istanbul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Electron-Labs/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "anse1/sqlsmith"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "s3team/Squirrel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/HuayingMincho"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/ocimirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/location-conflation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/attribution-reporting-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "cashapp/licensee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "datafuse-extras/pprof-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-youdao"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/country-coder"
     }
   ],
   "term": "Build"

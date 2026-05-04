@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:38:09.168547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create an installable Distribution from common local sources",
+    "fork": false,
+    "full_name": "ugexe/Raku-Distribution--Common",
+    "html_url": "https://github.com/ugexe/Raku-Distribution--Common",
+    "language": "Raku",
+    "pushed_at": "2022-09-06T02:37:15Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-09-12T09:29:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

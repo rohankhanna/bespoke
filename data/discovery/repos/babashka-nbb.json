@@ -107,20 +107,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/nbb",
-      "target": "xfthhxk/unminify",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/nbb",
-      "target": "vharmain/nbb-serverless-example",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "babashka/nbb",
@@ -261,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:46:42.361323+00:00",
+  "fetched_at": "2026-05-04T09:38:06.429593+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -307,16 +293,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "borkdude/sci",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vharmain/nbb-serverless-example",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xfthhxk/unminify",
       "source_file": "README.md"
     }
   ],

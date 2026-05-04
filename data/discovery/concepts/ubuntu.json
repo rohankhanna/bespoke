@@ -358,6 +358,24 @@
       "source_repo": "scrapy/scrapy",
       "status": "candidate-context",
       "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy-backend",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CPyCppyy",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -538,6 +556,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/cppyy-backend",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CPyCppyy",
       "status": "candidate",
       "text": "Ubuntu"
     }
@@ -823,11 +859,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/tests-ubuntu.yml",
       "source_repo": "scrapy/scrapy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/CPyCppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

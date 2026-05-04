@@ -403,6 +403,42 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate-context",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "Practice on cifar100(ResNet, DenseNet, VGG, GoogleNet, InceptionV3, InceptionV4, Inception-ResNetv2, Xception, Resnet In Resnet, ResNext,ShuffleNet, ShuffleNetv2, MobileNet, MobileNetv2, SqueezeNet, NasNet, Residual Attention Network, SENet, WideResNet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "Implementation of numerous Vision Transformers in Google's JAX and Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate",
+      "text": "practice on cifar100 using pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -1060,11 +1114,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vit-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "conceptofmind/vit-flax"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

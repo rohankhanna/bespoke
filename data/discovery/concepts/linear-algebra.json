@@ -223,6 +223,30 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate-context",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate-context",
+      "text": "A vizualiser for sparse matrices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate-context",
+      "text": "<img src=\"figs/fig00a.png\">"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "eigenteam/eigen-git-mirror",
       "status": "candidate",
       "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate",
+      "text": "<img src=\"figs/fig00a.png\">"
     }
   ],
   "candidate_related_terms": [],
@@ -454,11 +490,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "eigenteam/eigen-git-mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

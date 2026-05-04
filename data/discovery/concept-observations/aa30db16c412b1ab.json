@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Convert your ascii diagram scribbles into happy little SVG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005273,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040445,
+      "status": "candidate",
+      "text": "flowchart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039908,
+      "status": "candidate",
+      "text": "plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039689,
+      "status": "candidate",
+      "text": "graphical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039663,
+      "status": "candidate",
+      "text": "figure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diagram",
+      "sense_id": "diagram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11055,
+      "status": "candidate",
+      "text": "plot"
+    }
+  ],
+  "concept_id": "diagram",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diagram",
+  "observation_id": "aa30db16c412b1ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "diagram",
+  "source_context_snippet": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>",
+  "source_file": null,
+  "source_repo": "ivanceras/svgbob",
+  "source_repo_description": "Convert your ascii diagram scribbles into happy little SVG"
+}

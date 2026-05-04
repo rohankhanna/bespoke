@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Industrial-strength monadic parser combinator library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976221,
+      "status": "candidate",
+      "text": "milliparsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976220,
+      "status": "candidate",
+      "text": "microparsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976219,
+      "status": "candidate",
+      "text": "attoparsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976218,
+      "status": "candidate",
+      "text": "milliarcsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976217,
+      "status": "candidate",
+      "text": "millarcsecond"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "megaparsec",
+      "sense_id": "megaparsec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "megaparsec",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "megaparsec",
+  "observation_id": "d3e82aad2264b491",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "megaparsec",
+  "source_context_snippet": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)",
+  "source_file": null,
+  "source_repo": "mrkkrp/megaparsec",
+  "source_repo_description": "Industrial-strength monadic parser combinator library"
+}

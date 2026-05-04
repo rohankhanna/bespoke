@@ -61,7 +61,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Deep-Symmetry/afterglow",
-      "target": "aamedina/tools.usb",
+      "target": "rosejn/osc-clj",
       "target_type": "repository"
     },
     {
@@ -205,7 +205,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:46:07.784654+00:00",
+  "fetched_at": "2026-05-04T09:37:35.523134+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -244,11 +244,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aamedina/tools.usb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "d0kt0r0/espgrid",
       "source_file": "README.md"
     },
@@ -260,6 +255,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "flatland/lein-protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rosejn/osc-clj",
       "source_file": "README.md"
     }
   ],

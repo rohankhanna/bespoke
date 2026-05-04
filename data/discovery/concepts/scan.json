@@ -34,6 +34,18 @@
       "source_repo": "graphistry/graph-app-kit",
       "status": "candidate-context",
       "text": "Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Scan"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "graphistry/graph-app-kit",
+      "status": "candidate",
+      "text": "Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
       "status": "candidate",
       "text": "Scan"
     }
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/scan.yml",
       "source_repo": "graphistry/graph-app-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/scan.yaml",
+      "source_repo": "opendatacube/datacube-core"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

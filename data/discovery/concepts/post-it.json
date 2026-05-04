@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "post-it"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate-context",
+      "text": "small javascript library for scribbling on an svg element"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate-context",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952307,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015897,
+      "status": "candidate",
+      "text": "postum note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015896,
+      "status": "candidate",
+      "text": "post-it note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015895,
+      "status": "candidate",
+      "text": "sticky note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015894,
+      "status": "candidate",
+      "text": "stick note"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "post-it",
+  "concept_id": "post-it",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "naknomum/scribby"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "post-it",
+      "sense_id": "post-it#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

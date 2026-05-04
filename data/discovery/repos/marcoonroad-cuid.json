@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcoonroad/cuid",
+      "target": "cuid",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:18:15.750403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CUID generator for Lua. :id: :crescent_moon: :1234: :gear:",
+    "fork": false,
+    "full_name": "marcoonroad/cuid",
+    "html_url": "https://github.com/marcoonroad/cuid",
+    "language": "Shell",
+    "pushed_at": "2021-08-13T23:30:19Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cuid",
+      "lua"
+    ],
+    "updated_at": "2023-03-08T16:15:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CUID generator for Lua.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuid"
+    }
+  ]
+}

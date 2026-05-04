@@ -19,12 +19,42 @@
       "source_repo": "DrTimothyAldenDavis/SuiteSparse",
       "status": "candidate-context",
       "text": "arch-emu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
+      "status": "candidate-context",
+      "text": "arch-emu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GraphBLAS/LAGraph",
+      "status": "candidate-context",
+      "text": "This is a library plus a test harness for collecting algorithms that use the GraphBLAS.  For test coverage reports, see https://graphblas.org/LAGraph/ . Documentation: https://lagraph.readthedocs.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GraphBLAS/LAGraph",
+      "status": "candidate-context",
+      "text": "arch-emu"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "DrTimothyAldenDavis/SuiteSparse",
+      "status": "candidate",
+      "text": "arch-emu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
+      "status": "candidate",
+      "text": "arch-emu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GraphBLAS/LAGraph",
       "status": "candidate",
       "text": "arch-emu"
     }
@@ -40,11 +70,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/build-arch-emu.yaml",
       "source_repo": "DrTimothyAldenDavis/SuiteSparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

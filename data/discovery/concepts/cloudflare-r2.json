@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cloudflare-r2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "The simplest, highest-throughput Python interface to S3, GCS & Azure Storage, powered by Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate",
+      "text": "[![PyPI][pypi_badge]][pypi_link]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cloudflare-r2",
+  "concept_id": "cloudflare-r2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "developmentseed/obstore"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudflare-r2",
+      "sense_id": "cloudflare-r2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

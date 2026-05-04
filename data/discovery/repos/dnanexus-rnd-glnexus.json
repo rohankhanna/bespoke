@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "samtools/htslib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "sandstorm-io/capnproto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "giacomodrago/fcmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "philsquared/catch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:17.884799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5122
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1442
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable gVCF merging and joint variant calling for population sequencing projects",
+    "fork": false,
+    "full_name": "dnanexus-rnd/GLnexus",
+    "html_url": "https://github.com/dnanexus-rnd/GLnexus",
+    "language": "C++",
+    "pushed_at": "2024-04-12T00:01:44Z",
+    "stargazers_count": 183,
+    "topics": [],
+    "updated_at": "2026-04-23T03:02:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "giacomodrago/fcmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philsquared/catch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samtools/htslib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sandstorm-io/capnproto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "easydiffusion/easydiffusion",
+      "target": "stability-ai/stablediffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "easydiffusion/easydiffusion",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easydiffusion/easydiffusion",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easydiffusion/easydiffusion",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "easydiffusion/easydiffusion",
+      "target": "stable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:26.714355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9675
+    },
+    {
+      "path": "package.json",
+      "size": 194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
+    "fork": false,
+    "full_name": "easydiffusion/easydiffusion",
+    "html_url": "https://github.com/easydiffusion/easydiffusion",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-30T05:33:50Z",
+    "stargazers_count": 10351,
+    "topics": [
+      "art",
+      "diffusion",
+      "generative-art",
+      "gui",
+      "stable"
+    ],
+    "updated_at": "2026-05-04T06:48:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablediffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Does not require technical knowledge, does not require pre-installed software. 1-click install, powerful features, friendly community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "Does not require technical knowledge, does not require pre-installed software. 1-click install, powerful features, friendly community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "Does not require technical knowledge, does not require pre-installed software. 1-click install, powerful features, friendly community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable"
+    }
+  ]
+}

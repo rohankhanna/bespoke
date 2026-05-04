@@ -336,12 +336,12 @@
       "source_file": ".github/workflows/check-if-pr-has-label.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/ci-base.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "component": "mui/mui-public/.github/workflows/ci-base.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-check.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/ci-base.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "component": "mui/mui-public/.github/workflows/ci-base.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -356,12 +356,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -371,7 +371,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "component": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml"
     },
@@ -381,17 +381,17 @@
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "component": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "component": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml"
     },
     {
-      "component": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "component": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml"
     },
@@ -407,13 +407,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mui/material-ui",
-      "target": "mui/mui-x",
-      "target_type": "repository"
-    },
     {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
@@ -894,7 +887,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-check.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "target_type": "component"
     },
     {
@@ -908,7 +901,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/ci-base.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "target": "mui/mui-public/.github/workflows/ci-base.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "target_type": "component"
     },
     {
@@ -929,14 +922,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "mui/material-ui",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -950,7 +943,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "target": "mui/mui-public/.github/workflows/issues_add-closing-message.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "target_type": "component"
     },
     {
@@ -971,14 +964,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mui/material-ui",
-      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "mui/material-ui",
-      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
@@ -992,7 +985,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/create-cherry-pick-pr.yml",
       "source_repo": "mui/material-ui",
-      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@3feee347096f50b441cad3087743bd1c5aef8651",
+      "target": "mui/mui-public/.github/workflows/prs_create-cherry-pick-pr.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
       "target_type": "component"
     },
     {
@@ -1066,7 +1059,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:47:27.058856+00:00",
+  "fetched_at": "2026-05-04T11:24:25.235579+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1118,8 +1111,8 @@
     "full_name": "mui/material-ui",
     "html_url": "https://github.com/mui/material-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-04-30T18:20:05Z",
-    "stargazers_count": 98258,
+    "pushed_at": "2026-05-04T11:16:48Z",
+    "stargazers_count": 98270,
     "topics": [
       "design-system",
       "material-design",
@@ -1127,15 +1120,9 @@
       "react",
       "react-components"
     ],
-    "updated_at": "2026-05-01T10:31:52Z"
+    "updated_at": "2026-05-04T11:06:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mui/mui-x",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check if PR has label",

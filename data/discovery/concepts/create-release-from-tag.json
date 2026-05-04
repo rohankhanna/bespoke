@@ -73,6 +73,18 @@
       "source_repo": "aws-cloudformation/cloudformation-pkl",
       "status": "candidate-context",
       "text": "Create release from tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\ud83d\udfe5 AppSignal for Ruby gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate-context",
+      "text": "\"Create release from tag\""
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
       "source_repo": "aws-cloudformation/cloudformation-pkl",
       "status": "candidate",
       "text": "Create release from tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appsignal/appsignal-ruby",
+      "status": "candidate",
+      "text": "\"Create release from tag\""
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aws-cloudformation/cloudformation-pkl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/create_release_from_tag.yml",
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

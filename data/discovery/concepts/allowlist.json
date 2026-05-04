@@ -19,6 +19,18 @@
       "source_repo": "hxehex/russia-mobile-internet-whitelist",
       "status": "candidate-context",
       "text": "<sup>BTC</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday: a fast golang HTML sanitizer (inspired by the OWASP Java HTML Sanitizer) to scrub user generated content of XSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate-context",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hxehex/russia-mobile-internet-whitelist",
       "status": "candidate",
       "text": "<sup>BTC</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcosm-cc/bluemonday",
+      "status": "candidate",
+      "text": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "hxehex/russia-mobile-internet-whitelist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate-context",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "thu-ml/SpargeAttn",
       "status": "candidate",
       "text": "We highly recommend using the `spas_sage2_attn_meansim_topk_cuda` and `block_sparse_sage2_attn_cuda` APIs. They are plug-and-play and customizable:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

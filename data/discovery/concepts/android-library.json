@@ -43,6 +43,54 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate-context",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate-context",
+      "text": "Android preference library with Jetpack Compose UI support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate-context",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "Android UI element for  displaying and editing an opening hours value"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate",
       "text": "![Maven Central](https://img.shields.io/maven-central/v/io.appwrite/sdk-for-android.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +160,35 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patrickgold/jetpref"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "simonpoole/OpeningHoursFragment"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

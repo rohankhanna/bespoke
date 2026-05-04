@@ -11,21 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nowar-fonts/Warcraft-Font-Merger",
-      "target": "fontello/cubic2quad",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
       "target": "nowar-fonts/otfcc-quad2cubic",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nowar-fonts/Warcraft-Font-Merger",
-      "target": "muellan/clipp",
       "target_type": "repository"
     },
     {
@@ -50,6 +36,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "nowar-fonts/Warcraft-Font-Merger"
 }

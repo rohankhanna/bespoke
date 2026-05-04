@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "bokub/prettier-config",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "bokub/prettier-config",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "bokub/prettier-config",
+      "target": "JS-DevTools/npm-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/prettier-config",
+      "target": "prettier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/prettier-config",
+      "target": "prettier-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokub/prettier-config",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:37.762809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2095
+    },
+    {
+      "path": "package.json",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc9c My personal Prettier config & workflow",
+    "fork": false,
+    "full_name": "bokub/prettier-config",
+    "html_url": "https://github.com/bokub/prettier-config",
+    "language": null,
+    "pushed_at": "2024-09-20T10:58:39Z",
+    "stargazers_count": 12,
+    "topics": [
+      "prettier",
+      "prettier-config",
+      "workflow"
+    ],
+    "updated_at": "2025-08-31T00:13:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier"
+    },
+    {
+      "context_snippet": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier-config"
+    },
+    {
+      "context_snippet": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

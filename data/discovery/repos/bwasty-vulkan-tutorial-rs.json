@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/vulkan-tutorial-rs",
+      "target": "bwasty/learn-opengl-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/vulkan-tutorial-rs",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/vulkan-tutorial-rs",
+      "target": "usami-renko/vulkan-tutorial-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwasty/vulkan-tutorial-rs",
+      "target": "tomaka/winit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:12:48.947380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13256
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust version of https://github.com/Overv/VulkanTutorial",
+    "fork": false,
+    "full_name": "bwasty/vulkan-tutorial-rs",
+    "html_url": "https://github.com/bwasty/vulkan-tutorial-rs",
+    "language": "Rust",
+    "pushed_at": "2023-09-21T19:43:22Z",
+    "stargazers_count": 747,
+    "topics": [],
+    "updated_at": "2026-04-21T15:51:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwasty/learn-opengl-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomaka/winit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usami-renko/vulkan-tutorial-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An elementary counting semaphore for async tasks in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019485,
+      "status": "candidate",
+      "text": "concurrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019332,
+      "status": "candidate",
+      "text": "simultaneous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014589,
+      "status": "candidate",
+      "text": "concurrence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007798,
+      "status": "candidate",
+      "text": "attendance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998506,
+      "status": "candidate",
+      "text": "intersectional"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "concurrency",
+      "sense_id": "concurrency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "concurrency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "concurrency",
+  "observation_id": "42be3b5e5037661b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "concurrency",
+  "source_context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+  "source_file": null,
+  "source_repo": "ptsochantaris/semalot",
+  "source_repo_description": "An elementary counting semaphore for async tasks in Swift"
+}

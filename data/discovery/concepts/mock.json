@@ -127,6 +127,30 @@
       "source_repo": "mswjs/msw",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/interceptors",
+      "status": "candidate-context",
+      "text": "Low-level network interception library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/interceptors",
+      "status": "candidate-context",
+      "text": "[![Latest version](https://img.shields.io/npm/v/@mswjs/interceptors.svg)](https://www.npmjs.com/package/@mswjs/interceptors)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berniegp/mock-xmlhttprequest",
+      "status": "candidate-context",
+      "text": "XMLHttpRequest mock for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berniegp/mock-xmlhttprequest",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://app.travis-ci.com/berniegp/mock-xmlhttprequest.svg?branch=master)](https://app.travis-ci.com/berniegp/mock-xmlhttprequest)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "mswjs/msw",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/interceptors",
+      "status": "candidate",
+      "text": "[![Latest version](https://img.shields.io/npm/v/@mswjs/interceptors.svg)](https://www.npmjs.com/package/@mswjs/interceptors)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berniegp/mock-xmlhttprequest",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/berniegp/mock-xmlhttprequest.svg?branch=master)](https://app.travis-ci.com/berniegp/mock-xmlhttprequest)"
     }
   ],
   "candidate_related_terms": [
@@ -333,11 +369,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mswjs/msw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mswjs/interceptors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "berniegp/mock-xmlhttprequest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,18 @@
       "source_repo": "NielsRogge/Transformers-Tutorials",
       "status": "candidate-context",
       "text": "Hi there!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "NielsRogge/Transformers-Tutorials",
       "status": "candidate",
       "text": "Hi there!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [
@@ -502,11 +520,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -469,6 +469,18 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate-context",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +711,12 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1096,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

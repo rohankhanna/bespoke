@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "Copyright Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "isaac-for-healthcare/i4h-workflows",
+      "target": "General Linting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:00.666183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5952
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 3453
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "size": 628
+    },
+    {
+      "path": ".github/workflows/copyright.yml",
+      "size": 295
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Isaac for Healthcare reference workflows",
+    "fork": false,
+    "full_name": "isaac-for-healthcare/i4h-workflows",
+    "html_url": "https://github.com/isaac-for-healthcare/i4h-workflows",
+    "language": "Python",
+    "pushed_at": "2026-04-29T15:01:08Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-04-24T08:07:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "Copyright Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copyright.yml",
+      "term": "Copyright Check"
+    },
+    {
+      "context_snippet": "General Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "General Linting"
+    }
+  ]
+}

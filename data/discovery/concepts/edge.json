@@ -185,6 +185,30 @@
       "source_repo": "frandiox/vitedge",
       "status": "candidate-context",
       "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "An opinionated framework for creating REST-like APIs in Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "edge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -277,6 +301,18 @@
       "source_repo": "frandiox/vitedge",
       "status": "candidate",
       "text": "[Vite](https://github.com/vitejs/vite) _Edge Side Rendering_ (ESR) framework for Vue and React, or bring your own view library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -524,11 +560,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/edge.yml",
+      "source_repo": "ruby-grape/grape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/server"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

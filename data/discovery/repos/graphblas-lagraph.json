@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml"
+    },
+    {
+      "component": "actions/checkout@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "drtimothyaldendavis/graphblas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "arch-emu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/checkout@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "JamesIves/github-pages-deploy-action@4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "actions/upload-artifact@v4.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GraphBLAS/LAGraph",
+      "target": "LAGraph CI with Builtin GraphBLAS",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:24.706227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4407
+    },
+    {
+      "path": "Dockerfile",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/build-arch-emu.yaml",
+      "size": 2410
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "This is a library plus a test harness for collecting algorithms that use the GraphBLAS.  For test coverage reports, see https://graphblas.org/LAGraph/ . Documentation: https://lagraph.readthedocs.org",
+    "fork": false,
+    "full_name": "GraphBLAS/LAGraph",
+    "html_url": "https://github.com/GraphBLAS/LAGraph",
+    "language": "C",
+    "pushed_at": "2026-04-28T22:23:23Z",
+    "stargazers_count": 266,
+    "topics": [],
+    "updated_at": "2026-04-13T05:45:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drtimothyaldendavis/graphblas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "arch-emu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-arch-emu.yaml",
+      "term": "arch-emu"
+    },
+    {
+      "context_snippet": "LAGraph CI with Builtin GraphBLAS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "LAGraph CI with Builtin GraphBLAS"
+    }
+  ]
+}

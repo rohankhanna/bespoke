@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:30:41.153667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of https://git.frostnerd.com/PublicAndroidApps/smokescreen. Feel free to contribute here as well.",
+    "fork": false,
+    "full_name": "Ch4t4r/Nebulo",
+    "html_url": "https://github.com/Ch4t4r/Nebulo",
+    "language": "Kotlin",
+    "pushed_at": "2022-11-06T12:01:05Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-05-03T04:33:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

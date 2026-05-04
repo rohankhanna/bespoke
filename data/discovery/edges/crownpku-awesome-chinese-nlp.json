@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "brikerman/kashgari",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "baidu/familia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "brightmart/text_classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "baidu/anyq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "crownpku/Awesome-Chinese-NLP"
+}

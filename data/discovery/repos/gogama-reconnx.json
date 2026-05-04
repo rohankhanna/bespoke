@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:35:27.854496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2607
+    },
+    {
+      "path": "go.mod",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reconnect pooled HTTP connections when they are bad (httpx plugin)",
+    "fork": false,
+    "full_name": "gogama/reconnx",
+    "html_url": "https://github.com/gogama/reconnx",
+    "language": "Go",
+    "pushed_at": "2021-09-23T03:46:56Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-11-05T23:48:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

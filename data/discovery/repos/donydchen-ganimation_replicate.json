@@ -1,0 +1,186 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "albertpumarola/ganimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "ageitgey/face_recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "action-units",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "ganimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "ganimation-pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "out-of-the-box",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "pretrained-checkpoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "pretrained-weights",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/ganimation_replicate",
+      "target": "replicate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:54.964944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8047
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Out-of-the-Box Replication of GANimation using PyTorch, pretrained weights are available!",
+    "fork": false,
+    "full_name": "donydchen/ganimation_replicate",
+    "html_url": "https://github.com/donydchen/ganimation_replicate",
+    "language": "Python",
+    "pushed_at": "2021-05-25T04:37:28Z",
+    "stargazers_count": 257,
+    "topics": [
+      "action-units",
+      "gan",
+      "ganimation",
+      "ganimation-pytorch",
+      "out-of-the-box",
+      "pretrained-checkpoints",
+      "pretrained-models",
+      "pretrained-weights",
+      "pytorch",
+      "replicate"
+    ],
+    "updated_at": "2026-02-13T01:13:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ageitgey/face_recognition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albertpumarola/ganimation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action-units"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ganimation"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ganimation-pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "out-of-the-box"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-checkpoints"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-weights"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "replicate"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finite-scalar-quantization",
+      "sense_id": "finite-scalar-quantization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "finite-scalar-quantization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finite-scalar-quantization",
+  "observation_id": "bdb6cd7be7ea64ca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "finite-scalar-quantization",
+  "source_context_snippet": "<img src=\"./magvit2.png\" width=\"400px\"></img>",
+  "source_file": null,
+  "source_repo": "lucidrains/magvit2-pytorch",
+  "source_repo_description": "Implementation of MagViT2 Tokenizer in Pytorch"
+}

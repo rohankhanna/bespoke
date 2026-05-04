@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "cvpr-workshop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "pku-vehicle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "ve-ri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "vehicle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "vehicle-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "target": "veri776",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:27:46.642456+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+    "fork": false,
+    "full_name": "layumi/Vehicle_reID-Collection",
+    "html_url": "https://github.com/layumi/Vehicle_reID-Collection",
+    "language": null,
+    "pushed_at": "2025-03-13T04:53:17Z",
+    "stargazers_count": 513,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "cvpr-workshop",
+      "dataset",
+      "deep-learning",
+      "paper",
+      "pku-vehicle",
+      "ve-ri",
+      "vehicle",
+      "vehicle-reid",
+      "veri776"
+    ],
+    "updated_at": "2026-04-28T11:28:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr-workshop"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pku-vehicle"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ve-ri"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle-reid"
+    },
+    {
+      "context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "veri776"
+    }
+  ]
+}

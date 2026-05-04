@@ -334,6 +334,54 @@
       "source_repo": "luciopaiva/heapify",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "Angular binding of maplibre-gl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/sveld",
+      "status": "candidate-context",
+      "text": "Generate TypeScript definitions and component documentation for your Svelte components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/sveld",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Maplibre GL Inspect adds an inspect control to maplibre-gl-js to view all features of the vector sources and allows hovering over features to see their properties."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -502,6 +550,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "luciopaiva/heapify",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/ngx-maplibre-gl",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/sveld",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "status": "candidate",
+      "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai",
       "status": "candidate",
       "text": "Publish to npm"
     }
@@ -835,11 +907,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/github-action-publish-npm.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "maplibre/ngx-maplibre-gl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish-to-npm.yml",
+      "source_repo": "carbon-design-system/sveld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "chaijs/chai"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

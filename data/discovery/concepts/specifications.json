@@ -31,6 +31,18 @@
       "source_repo": "octokit/webhooks",
       "status": "candidate-context",
       "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "Overview"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "octokit/webhooks",
       "status": "candidate",
       "text": "> machine-readable, always up-to-date GitHub Webhooks specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate",
+      "text": "Overview"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "octokit/webhooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

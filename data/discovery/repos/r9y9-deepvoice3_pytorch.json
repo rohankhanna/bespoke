@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "hash2430/dv3_world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "carpedm20/multi-speaker-tacotron-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "homink/deepvoice3_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "facebookresearch/fairseq-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "multi-speaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:24.703315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models",
+    "fork": false,
+    "full_name": "r9y9/deepvoice3_pytorch",
+    "html_url": "https://github.com/r9y9/deepvoice3_pytorch",
+    "language": "Python",
+    "pushed_at": "2023-12-19T04:21:47Z",
+    "stargazers_count": 1980,
+    "topics": [
+      "end-to-end",
+      "machine-learning",
+      "multi-speaker",
+      "python",
+      "pytorch",
+      "speech-processing",
+      "speech-synthesis",
+      "tts"
+    ],
+    "updated_at": "2026-04-20T07:08:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carpedm20/multi-speaker-tacotron-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fairseq-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hash2430/dv3_world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homink/deepvoice3_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end"
+    },
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-speaker"
+    },
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "![alt text](assets/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    }
+  ]
+}

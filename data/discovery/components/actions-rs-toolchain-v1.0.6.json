@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/toolchain@v1.0.6",
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "yuyang0/rrqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-bio/rust-htslib"
     }
   ]
 }

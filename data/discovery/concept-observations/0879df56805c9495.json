@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Browsers CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Browsers CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4599,
+      "status": "candidate",
+      "text": "http"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4514,
+      "status": "candidate",
+      "text": "web browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "actors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4429,
+      "status": "candidate",
+      "text": "administrators"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Browsers CI",
+      "sense_id": "browsers-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "browsers-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "browsers-ci",
+  "observation_id": "0879df56805c9495",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Browsers CI",
+  "source_context_snippet": "Browsers CI",
+  "source_file": ".github/workflows/browsers.yml",
+  "source_repo": "chaijs/chai",
+  "source_repo_description": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework."
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:33:01.187652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Isort plugin for python-language-server",
+    "fork": false,
+    "full_name": "paradoxxxzero/pyls-isort",
+    "html_url": "https://github.com/paradoxxxzero/pyls-isort",
+    "language": "Python",
+    "pushed_at": "2021-05-14T10:32:07Z",
+    "stargazers_count": 61,
+    "topics": [],
+    "updated_at": "2026-04-16T04:57:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

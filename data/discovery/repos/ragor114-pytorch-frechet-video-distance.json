@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:47.836411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1981
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains an easy to use implementation of the Frechet Video Distance metric for PyTorch. The implementation is largely based on the StyleGAN-V repository but was modified to work with two Tensors representing sets of videos.",
+    "fork": false,
+    "full_name": "ragor114/PyTorch-Frechet-Video-Distance",
+    "html_url": "https://github.com/ragor114/PyTorch-Frechet-Video-Distance",
+    "language": "Python",
+    "pushed_at": "2024-08-04T09:53:20Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-03-15T03:00:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

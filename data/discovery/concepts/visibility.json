@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "visibility"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990760,
+      "status": "candidate",
+      "text": "visibleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989413,
+      "status": "candidate",
+      "text": "conspicuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990378,
+      "status": "candidate",
+      "text": "visible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990088,
+      "status": "candidate",
+      "text": "viewable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990067,
+      "status": "candidate",
+      "text": "recognisability"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "conspicuousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "visibleness"
+    }
+  ],
+  "canonical_name": "visibility",
+  "concept_id": "visibility",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/haumea"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visibility",
+      "sense_id": "visibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

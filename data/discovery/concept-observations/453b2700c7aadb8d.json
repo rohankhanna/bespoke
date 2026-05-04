@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "eslint-plugin-de-morgan \u2014 ESLint plugin for transforming negated boolean expressions via De Morgan\u2019s laws"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "eslint-plugin-de-morgan \u2014 ESLint plugin for transforming negated boolean expressions via De Morgan\u2019s laws"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eslint-plugin",
+      "sense_id": "eslint-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eslint-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eslint-plugin",
+  "observation_id": "453b2700c7aadb8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "eslint-plugin",
+  "source_context_snippet": "eslint-plugin-de-morgan \u2014 ESLint plugin for transforming negated boolean expressions via De Morgan\u2019s laws",
+  "source_file": null,
+  "source_repo": "azat-io/eslint-plugin-de-morgan",
+  "source_repo_description": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+}

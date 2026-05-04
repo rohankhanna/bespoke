@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "akaihola/darker@0fb2501a3f6c1b2d64976afa57885aeec0601182",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "Upload package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "akaihola/darker@0fb2501a3f6c1b2d64976afa57885aeec0601182",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil",
+      "target": "Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil",
+      "target": "datetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil",
+      "target": "parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil",
+      "target": "time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil",
+      "target": "timezones",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:17:28.527708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6275
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1396
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1955
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 5182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Useful extensions to the standard Python datetime features",
+    "fork": false,
+    "full_name": "dateutil/dateutil",
+    "html_url": "https://github.com/dateutil/dateutil",
+    "language": "Python",
+    "pushed_at": "2026-03-03T05:40:58Z",
+    "stargazers_count": 2614,
+    "topics": [
+      "datetime",
+      "library",
+      "parsing",
+      "python",
+      "time",
+      "timezones"
+    ],
+    "updated_at": "2026-04-28T10:00:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Upload package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Upload package"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    },
+    {
+      "context_snippet": "dateutil - powerful extensions to datetime",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datetime"
+    },
+    {
+      "context_snippet": "dateutil - powerful extensions to datetime",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "dateutil - powerful extensions to datetime",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parsing"
+    },
+    {
+      "context_snippet": "dateutil - powerful extensions to datetime",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    },
+    {
+      "context_snippet": "dateutil - powerful extensions to datetime",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timezones"
+    }
+  ]
+}

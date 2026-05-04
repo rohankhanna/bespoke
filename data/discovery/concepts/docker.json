@@ -3598,6 +3598,102 @@
       "source_repo": "wemake-services/wemake-vue-template",
       "status": "candidate-context",
       "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "Mihomo Dashboard, The Official One, XD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate-context",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate-context",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzshiming/repimage",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/YApi-X",
+      "status": "candidate-context",
+      "text": "YApi \u6539\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/YApi-X",
+      "status": "candidate-context",
+      "text": "`YApi-X` \u57fa\u4e8e [`YApi v1.8.8`](https://github.com/YMFE/yapi/tree/v1.8.8) \u5f00\u53d1\uff0c\u76f8\u8f83\u539f\u7248\uff0c\u6709\u4ee5\u4e0b\u6539\u52a8\uff1a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "comment engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "status": "candidate-context",
+      "text": "This is a solidity implementation of IBC v2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "philres/ngmlr",
+      "status": "candidate-context",
+      "text": "NGMLR is a long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philres/ngmlr",
+      "status": "candidate-context",
+      "text": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "Voyager \u2014 a beautiful app for Lemmy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "docker"
     }
   ],
   "candidate_glosses": [
@@ -5406,6 +5502,60 @@
       "source_repo": "wemake-services/wemake-vue-template",
       "status": "candidate",
       "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MetaCubeX/metacubexd",
+      "status": "candidate",
+      "text": "**Mihomo Dashboard, The Official One, XD**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzshiming/repimage",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/YApi-X",
+      "status": "candidate",
+      "text": "`YApi-X` \u57fa\u4e8e [`YApi v1.8.8`](https://github.com/YMFE/yapi/tree/v1.8.8) \u5f00\u53d1\uff0c\u76f8\u8f83\u539f\u7248\uff0c\u6709\u4ee5\u4e0b\u6539\u52a8\uff1a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "umputun/remark42",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "philres/ngmlr",
+      "status": "candidate",
+      "text": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate",
+      "text": "docker"
     }
   ],
   "candidate_related_terms": [
@@ -8893,11 +9043,173 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "MetaCubeX/metacubexd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenCIDN/ocimirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "wzshiming/repimage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fjc0k/YApi-X"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "philres/ngmlr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "aeharding/voyager"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

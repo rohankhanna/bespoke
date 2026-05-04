@@ -106,6 +106,24 @@
       "source_repo": "fjc0k/docker-YApi",
       "status": "candidate-context",
       "text": "Mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate-context",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "Mirror"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +172,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fjc0k/docker-YApi",
+      "status": "candidate",
+      "text": "Mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
       "status": "candidate",
       "text": "Mirror"
     }
@@ -253,11 +283,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/mirror.yml",
       "source_repo": "fjc0k/docker-YApi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenCIDN/ocimirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "fjc0k/yapi-to-typescript"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

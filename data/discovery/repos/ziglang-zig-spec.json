@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:21:28.312402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ziglang/zig-spec",
+    "html_url": "https://github.com/ziglang/zig-spec",
+    "language": "Zig",
+    "pushed_at": "2025-08-21T08:27:48Z",
+    "stargazers_count": 225,
+    "topics": [],
+    "updated_at": "2026-04-29T02:13:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

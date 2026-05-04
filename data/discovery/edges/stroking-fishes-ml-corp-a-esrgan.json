@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
+      "target": "aergan/a-esrgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
       "target": "aesrgan/a-esrgan",
       "target_type": "repository"
     },
@@ -15,6 +22,6 @@
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "stroking-fishes-ml-corp/A-ESRGAN"
 }

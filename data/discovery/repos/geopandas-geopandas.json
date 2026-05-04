@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geopandas/geopandas",
+      "target": "geopandas/governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geopandas/geopandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geopandas/geopandas",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geopandas/geopandas",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geopandas/geopandas",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "geopandas/geopandas",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "geopandas/geopandas",
+      "target": "mamba-org/setup-micromamba@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "geopandas/geopandas",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "geopandas/geopandas",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas",
+      "target": "geoparquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas",
+      "target": "spatial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:35:13.128968+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7194
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6081
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1129
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 3542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python tools for geographic data",
+    "fork": false,
+    "full_name": "geopandas/geopandas",
+    "html_url": "https://github.com/geopandas/geopandas",
+    "language": "Python",
+    "pushed_at": "2026-05-03T11:10:29Z",
+    "stargazers_count": 5116,
+    "topics": [
+      "geoparquet",
+      "geospatial",
+      "pandas",
+      "python",
+      "spatial"
+    ],
+    "updated_at": "2026-05-04T04:48:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geopandas/governance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geoparquet"
+    },
+    {
+      "context_snippet": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial"
+    }
+  ]
+}

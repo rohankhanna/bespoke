@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/quint-connect",
+      "target": "informalsystems/choreo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:24:44.013460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8078
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A model-based testing framework for Quint + Rust ",
+    "fork": false,
+    "full_name": "informalsystems/quint-connect",
+    "html_url": "https://github.com/informalsystems/quint-connect",
+    "language": "Rust",
+    "pushed_at": "2025-12-23T13:52:01Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-04-30T13:21:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/choreo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

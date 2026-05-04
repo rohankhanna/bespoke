@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Artifact Upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "Artifact Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate",
+      "text": "Artifact Upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11197,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11197,
+      "status": "candidate",
+      "text": "patt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11140,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "abandonment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "aber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Artifact Upload",
+  "concept_id": "artifact-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/artifact-upload.yml",
+      "source_repo": "ghostery/ghostery-extension"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Artifact Upload",
+      "sense_id": "artifact-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -328,6 +328,18 @@
       "source_repo": "acmesh-official/acme.sh",
       "status": "candidate-context",
       "text": "FreeBSD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "Unit test project for acme.sh project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "FreeBSD"
     }
   ],
   "candidate_glosses": [
@@ -490,6 +502,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "acmesh-official/acme.sh",
+      "status": "candidate",
+      "text": "FreeBSD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
       "status": "candidate",
       "text": "FreeBSD"
     }
@@ -690,11 +708,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/FreeBSD.yml",
       "source_repo": "acmesh-official/acme.sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acmetest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acme.sh"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Meta's \"No Language Left Behind\" models served as web app and REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine-translation",
+      "sense_id": "machine-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "machine-translation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "machine-translation",
+  "observation_id": "8345280c6d048c67",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "machine-translation",
+  "source_context_snippet": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)",
+  "source_file": null,
+  "source_repo": "thammegowda/nllb-serve",
+  "source_repo_description": "Meta's \"No Language Left Behind\" models served as web app and REST API"
+}

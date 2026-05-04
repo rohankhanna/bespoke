@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfredric/sameparty",
+      "target": "privacycg/first-party-sets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfredric/sameparty",
+      "target": "mikewest/scheming-cookies",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:39.917113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cfredric/sameparty",
+    "html_url": "https://github.com/cfredric/sameparty",
+    "language": null,
+    "pushed_at": "2022-07-27T16:21:08Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2025-09-16T14:49:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikewest/scheming-cookies",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/first-party-sets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

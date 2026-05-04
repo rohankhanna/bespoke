@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "target": "outlier-rejection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "target": "radar-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "target": "radar-odometry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:26.182795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ORORA: Outlier-robust radar odometry, which is accepted in ICRA'23",
+    "fork": false,
+    "full_name": "url-kaist/outlier-robust-radar-odometry",
+    "html_url": "https://github.com/url-kaist/outlier-robust-radar-odometry",
+    "language": "C++",
+    "pushed_at": "2025-03-27T22:25:07Z",
+    "stargazers_count": 211,
+    "topics": [
+      "odometry",
+      "outlier-rejection",
+      "radar",
+      "radar-data",
+      "radar-odometry"
+    ],
+    "updated_at": "2026-04-30T22:21:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-rejection"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar-data"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar-odometry"
+    }
+  ]
+}

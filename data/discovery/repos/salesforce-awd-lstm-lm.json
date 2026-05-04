@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "salesforce/awd-lstm-lm",
+      "target": "salesforce/pytorch-qrnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm",
+      "target": "lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/awd-lstm-lm",
+      "target": "qrnn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:29.486222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "LSTM and QRNN Language Model Toolkit for PyTorch",
+    "fork": false,
+    "full_name": "salesforce/awd-lstm-lm",
+    "html_url": "https://github.com/salesforce/awd-lstm-lm",
+    "language": "Python",
+    "pushed_at": "2022-02-12T14:33:58Z",
+    "stargazers_count": 1989,
+    "topics": [
+      "language-model",
+      "lstm",
+      "pytorch",
+      "qrnn",
+      "sgd"
+    ],
+    "updated_at": "2026-04-26T23:32:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/pytorch-qrnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lstm"
+    },
+    {
+      "context_snippet": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qrnn"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "microsoft/Recognizers-Text",
       "status": "candidate-context",
       "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrkkrp/megaparsec",
+      "status": "candidate-context",
+      "text": "Industrial-strength monadic parser combinator library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrkkrp/megaparsec",
+      "status": "candidate-context",
+      "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "microsoft/Recognizers-Text",
       "status": "candidate",
       "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrkkrp/megaparsec",
+      "status": "candidate",
+      "text": "[![License FreeBSD](https://img.shields.io/badge/license-FreeBSD-brightgreen.svg)](http://opensource.org/licenses/BSD-2-Clause)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "microsoft/Recognizers-Text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mrkkrp/megaparsec"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

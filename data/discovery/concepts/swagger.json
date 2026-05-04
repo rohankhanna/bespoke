@@ -457,6 +457,30 @@
       "source_repo": "metosin/spec-tools",
       "status": "candidate-context",
       "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "`YApi to TypeScript`\uff08\u7b80\u79f0 `ytt`\uff09 \u662f\u4e00\u4e2a\u4ee3\u7801\u751f\u6210\u5de5\u5177\uff0c\u5176\u53ef\u6839\u636e [YApi](https://github.com/YMFE/yapi) \u6216 [Swagger](https://swagger.io/) \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_glosses": [
@@ -687,6 +711,18 @@
       "source_repo": "metosin/spec-tools",
       "status": "candidate",
       "text": "<img src=\"docs/Broussins.jpg\" width=330 align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate",
+      "text": "`YApi to TypeScript`\uff08\u7b80\u79f0 `ytt`\uff09 \u662f\u4e00\u4e2a\u4ee3\u7801\u751f\u6210\u5de5\u5177\uff0c\u5176\u53ef\u6839\u636e [YApi](https://github.com/YMFE/yapi) \u6216 [Swagger](https://swagger.io/) \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_related_terms": [
@@ -1192,11 +1228,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fjc0k/yapi-to-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "metosin/compojure-api"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "mapnik"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Mapnik is an open source toolkit for developing mapping applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate-context",
+      "text": "CartoCSS project focused on the Humanitarian Data Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate-context",
+      "text": "The HDM rendering is a Carto project, focusing on the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate",
+      "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotosm/HDM-CartoCSS",
+      "status": "candidate",
+      "text": "The HDM rendering is a Carto project, focusing on the [Humanitarian Data Model](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mapnik",
+  "concept_id": "mapnik",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mapnik/mapnik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hotosm/HDM-CartoCSS"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mapnik",
+      "sense_id": "mapnik#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

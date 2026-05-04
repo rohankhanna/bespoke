@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "del-runs-comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate-context",
+      "text": "Filter lists for uBlock Origin & uBlock Origin Lite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate-context",
+      "text": "del-runs-comments"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate-context",
+      "text": "This is the community-maintained issue tracker for uBlock Origin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate-context",
+      "text": "del-runs-comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uAssets",
+      "status": "candidate",
+      "text": "del-runs-comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "status": "candidate",
+      "text": "del-runs-comments"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "del-runs-comments",
+  "concept_id": "del-runs-comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uAssets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "del-runs-comments",
+      "sense_id": "del-runs-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Docker tests"
+    "Docker tests",
+    "Docker Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "duckdb/duckdb",
       "status": "candidate-context",
       "text": "Docker tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "Docker Tests"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "duckdb/duckdb",
       "status": "candidate",
       "text": "Docker tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate",
+      "text": "Docker Tests"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +125,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/DockerTests.yml",
       "source_repo": "duckdb/duckdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "RLinf/RLinf"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

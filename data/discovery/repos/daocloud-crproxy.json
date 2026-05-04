@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-go-build-cross-plantform@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-upload-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-upload-release-images@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/crproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-go-build-cross-plantform@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-upload-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "wzshiming/action-upload-release-images@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "DaoCloud/crproxy",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "crproxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:39.251416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1090
+    },
+    {
+      "path": "Dockerfile",
+      "size": 249
+    },
+    {
+      "path": "go.mod",
+      "size": 3325
+    },
+    {
+      "path": ".github/workflows/go-cross-build.yml",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CRProxy (Container Registry Proxy) is a generic image proxy",
+    "fork": false,
+    "full_name": "DaoCloud/crproxy",
+    "html_url": "https://github.com/DaoCloud/crproxy",
+    "language": "Go",
+    "pushed_at": "2025-11-20T01:04:47Z",
+    "stargazers_count": 543,
+    "topics": [
+      "crproxy",
+      "image",
+      "proxy"
+    ],
+    "updated_at": "2026-04-27T09:55:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzshiming/crproxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crproxy"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    }
+  ]
+}

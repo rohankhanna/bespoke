@@ -171,28 +171,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/async-compression",
+      "target": "datafuse-extras/sled",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/dtparse",
+      "target": "datafuse-extras/tantivy",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/logforth",
+      "target": "datafuse-extras/tantivy-jieba",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "datafuse-extras/async-recursion",
+      "target": "datafuse-extras/xorfilter",
       "target_type": "repository"
     },
     {
@@ -469,7 +469,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:46:16.237644+00:00",
+  "fetched_at": "2026-05-04T10:31:57.685425+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -521,7 +521,7 @@
     "full_name": "databendlabs/databend",
     "html_url": "https://github.com/databendlabs/databend",
     "language": "Rust",
-    "pushed_at": "2026-05-03T15:06:27Z",
+    "pushed_at": "2026-05-04T09:47:22Z",
     "stargazers_count": 9275,
     "topics": [
       "ai",
@@ -544,22 +544,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/async-compression",
+      "full_name": "datafuse-extras/sled",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/async-recursion",
+      "full_name": "datafuse-extras/tantivy",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/dtparse",
+      "full_name": "datafuse-extras/tantivy-jieba",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datafuse-extras/logforth",
+      "full_name": "datafuse-extras/xorfilter",
       "source_file": "Cargo.toml"
     }
   ],

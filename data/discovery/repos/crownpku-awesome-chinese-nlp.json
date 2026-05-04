@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "brikerman/kashgari",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "baidu/familia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "brightmart/text_classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "baidu/anyq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crownpku/Awesome-Chinese-NLP",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:24:01.302431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of resources for Chinese NLP \u4e2d\u6587\u81ea\u7136\u8bed\u8a00\u5904\u7406\u76f8\u5173\u8d44\u6599",
+    "fork": false,
+    "full_name": "crownpku/Awesome-Chinese-NLP",
+    "html_url": "https://github.com/crownpku/Awesome-Chinese-NLP",
+    "language": null,
+    "pushed_at": "2023-07-27T02:54:52Z",
+    "stargazers_count": 7931,
+    "topics": [
+      "chinese-nlp",
+      "nlp"
+    ],
+    "updated_at": "2026-05-01T01:24:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/anyq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu/familia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/text_classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brikerman/kashgari",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    }
+  ]
+}

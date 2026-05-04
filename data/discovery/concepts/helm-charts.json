@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "helm-charts"
+    "helm-charts",
+    "Helm Charts"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,18 @@
       "source_repo": "ory/k8s",
       "status": "candidate-context",
       "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "An immutable SQL database for application development, time-travel reporting and data compliance. Developed by @juxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate-context",
+      "text": "Helm Charts"
     }
   ],
   "candidate_glosses": [
@@ -135,9 +150,51 @@
       "source_repo": "ory/k8s",
       "status": "candidate",
       "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtdb/xtdb",
+      "status": "candidate",
+      "text": "Helm Charts"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "crest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "direction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "ene"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "helm-charts",
   "concept_id": "helm-charts",
@@ -184,11 +241,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "xtdb/xtdb"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

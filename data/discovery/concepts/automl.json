@@ -187,6 +187,30 @@
       "source_repo": "datamllab/tods",
       "status": "candidate-context",
       "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "AutoVideo: An Automated Video Action Recognition System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "Automated Solutions for Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "datamllab/tods",
       "status": "candidate",
       "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +454,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "datamllab/tods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

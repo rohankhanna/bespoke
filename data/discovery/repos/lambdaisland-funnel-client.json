@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml",
+      "source_repo": "lambdaisland/funnel-client",
+      "target": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:16:17.042079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4886
+    },
+    {
+      "path": ".github/workflows/add_to_project_board.yml",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Websocket client for Funnel + examples",
+    "fork": false,
+    "full_name": "lambdaisland/funnel-client",
+    "html_url": "https://github.com/lambdaisland/funnel-client",
+    "language": "Clojure",
+    "pushed_at": "2023-03-28T02:42:22Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-05-01T13:53:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

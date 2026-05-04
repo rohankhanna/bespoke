@@ -19,12 +19,30 @@
       "source_repo": "codota/tabnine-sublime",
       "status": "candidate-context",
       "text": "Update Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "Update Binaries"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "codota/tabnine-sublime",
+      "status": "candidate",
+      "text": "Update Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
       "status": "candidate",
       "text": "Update Binaries"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/update_binary.yml",
       "source_repo": "codota/tabnine-sublime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "SciSharp/LLamaSharp"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

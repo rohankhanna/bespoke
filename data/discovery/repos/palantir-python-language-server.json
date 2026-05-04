@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "palantir/python-language-server",
+      "target": "python-rope/rope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "palantir/python-language-server",
+      "target": "pycqa/mccabe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "palantir/python-language-server",
+      "target": "paradoxxxzero/pyls-isort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "palantir/python-language-server",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "PyLS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "Linux tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mac.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "Mac tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "palantir/python-language-server",
+      "target": "Windows tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "palantir/python-language-server",
+      "target": "octo-correct-managed",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:18:46.474223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5931
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/test-linux.yml",
+      "size": 1487
+    },
+    {
+      "path": ".github/workflows/test-mac.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/test-win.yml",
+      "size": 984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An implementation of the Language Server Protocol for Python",
+    "fork": false,
+    "full_name": "palantir/python-language-server",
+    "html_url": "https://github.com/palantir/python-language-server",
+    "language": "Python",
+    "pushed_at": "2026-02-12T19:23:02Z",
+    "stargazers_count": 2690,
+    "topics": [
+      "octo-correct-managed"
+    ],
+    "updated_at": "2026-04-29T18:12:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paradoxxxzero/pyls-isort",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycqa/mccabe",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-rope/rope",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyLS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "PyLS Release"
+    },
+    {
+      "context_snippet": "Linux tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux.yml",
+      "term": "Linux tests"
+    },
+    {
+      "context_snippet": "Mac tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-mac.yml",
+      "term": "Mac tests"
+    },
+    {
+      "context_snippet": "Windows tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "term": "Windows tests"
+    },
+    {
+      "context_snippet": "Python Language Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "octo-correct-managed"
+    }
+  ]
+}

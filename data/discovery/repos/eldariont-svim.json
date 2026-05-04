@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "eldariont/svim",
+      "target": "pacificbiosciences/pbmm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "eldariont/svim",
+      "target": "philres/ngmlr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:21.876555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Structural Variant Identification Method using Long Reads",
+    "fork": false,
+    "full_name": "eldariont/svim",
+    "html_url": "https://github.com/eldariont/svim",
+    "language": "Python",
+    "pushed_at": "2021-06-29T11:30:07Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-02-27T06:47:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/pbmm2",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philres/ngmlr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

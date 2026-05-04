@@ -84,7 +84,7 @@
   "normalized_form": "build-tool",
   "observation_id": "d5b96ed5dbae7147",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Build Tool",
   "source_context_snippet": "Build Tool",
   "source_file": ".github/workflows/build_tool.yml",

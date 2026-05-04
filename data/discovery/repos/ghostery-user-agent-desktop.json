@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "colors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dockerode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "listr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "recursive-readdir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sudo-prompt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "ghostery/ghostery-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "yokoffing/better-fox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "colors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "dockerode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "listr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "node-fetch-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "recursive-readdir",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "sudo-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "ghostery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop",
+      "target": "ghostery-browser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:18.450280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6029
+    },
+    {
+      "path": "package.json",
+      "size": 906
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Ghostery Desktop Browser",
+    "fork": false,
+    "full_name": "ghostery/user-agent-desktop",
+    "html_url": "https://github.com/ghostery/user-agent-desktop",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-17T09:00:33Z",
+    "stargazers_count": 138,
+    "topics": [
+      "browser",
+      "desktop",
+      "ghostery",
+      "ghostery-browser"
+    ],
+    "updated_at": "2026-04-22T12:08:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghostery/ghostery-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yokoffing/better-fox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostery"
+    },
+    {
+      "context_snippet": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostery-browser"
+    }
+  ]
+}

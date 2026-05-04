@@ -1111,6 +1111,30 @@
       "source_repo": "phronmophobic/llama.clj",
       "status": "candidate-context",
       "text": "Run LLMs locally. A clojure wrapper for [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "A C#/.NET library to run LLM (\ud83e\udd99LLaMA/LLaVA) on your local device efficiently."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate-context",
+      "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "status": "candidate-context",
+      "text": "Llama\u4e2d\u6587\u793e\u533a\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama\u5b66\u4e60\u8d44\u6599\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\u5f00\u6e90\u751f\u6001\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_glosses": [
@@ -1665,6 +1689,18 @@
       "source_repo": "phronmophobic/llama.clj",
       "status": "candidate",
       "text": "Run LLMs locally. A clojure wrapper for [llama.cpp](https://github.com/ggerganov/llama.cpp)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciSharp/LLamaSharp",
+      "status": "candidate",
+      "text": "![logo](Assets/LLamaSharpLogo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LlamaChinese/Llama-Chinese",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
     }
   ],
   "candidate_related_terms": [
@@ -3088,11 +3124,83 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "SciSharp/LLamaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "LlamaChinese/Llama-Chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_check.yml"
+    },
+    {
+      "component": "commit-check/commit-check-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "openGemini/pr-title-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_check.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit_check.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "commit-check/commit-check-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_check.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "Commit Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "openGemini/pr-title-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "infinigence/FUSCO",
+      "target": "PR Title Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:35:58.980814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3765
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1704
+    },
+    {
+      "path": ".github/workflows/commit_check.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 197
+    },
+    {
+      "path": ".github/workflows/pr-title-check.yml",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance distributed data shuffling (all-to-all) library for MoE training and inference",
+    "fork": false,
+    "full_name": "infinigence/FUSCO",
+    "html_url": "https://github.com/infinigence/FUSCO",
+    "language": "Python",
+    "pushed_at": "2026-03-07T08:20:33Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-04-27T04:32:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commit Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit_check.yml",
+      "term": "Commit Check"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "PR Title Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "term": "PR Title Check"
+    }
+  ]
+}

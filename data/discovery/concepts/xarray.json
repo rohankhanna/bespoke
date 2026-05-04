@@ -31,6 +31,18 @@
       "source_repo": "corteva/rioxarray",
       "status": "candidate-context",
       "text": "================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "N-D labeled arrays and datasets in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "corteva/rioxarray",
       "status": "candidate",
       "text": "================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate",
+      "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "corteva/rioxarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pydata/xarray"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

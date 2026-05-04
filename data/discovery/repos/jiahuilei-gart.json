@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:23:53.767518+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GART: Gaussian Articulated Template Models",
+    "fork": false,
+    "full_name": "JiahuiLei/GART",
+    "html_url": "https://github.com/JiahuiLei/GART",
+    "language": "Python",
+    "pushed_at": "2023-11-28T03:06:08Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-04-22T09:41:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

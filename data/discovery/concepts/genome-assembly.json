@@ -19,6 +19,18 @@
       "source_repo": "BirolLab/tigmint",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate-context",
+      "text": "Ultra-fast and memory-efficient (meta-)genome assembler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate-context",
+      "text": "MEGAHIT"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BirolLab/tigmint",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/release/BirolLab/tigmint.svg)](https://github.com/BirolLab/tigmint/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voutcn/megahit",
+      "status": "candidate",
+      "text": "MEGAHIT"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "BirolLab/tigmint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "voutcn/megahit"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

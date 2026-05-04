@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pinocchio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stack-of-tasks/pinocchio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29281920,
+      "status": "candidate",
+      "text": "jill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19968613,
+      "status": "candidate",
+      "text": "captures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19968611,
+      "status": "candidate",
+      "text": "punchinello"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19968610,
+      "status": "candidate",
+      "text": "porky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19968609,
+      "status": "candidate",
+      "text": "principal boy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pinocchio",
+  "concept_id": "pinocchio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stack-of-tasks/pinocchio"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pinocchio",
+      "sense_id": "pinocchio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

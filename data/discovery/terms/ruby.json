@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -926,6 +926,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "slim-template/slim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jonatas/fast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "haml/haml-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruby-grape/grape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop-ast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "term": "ruby"

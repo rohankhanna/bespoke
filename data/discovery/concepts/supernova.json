@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "supernova"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate-context",
+      "text": "10x Genomics Reads Simulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/LRSIM",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/74242108.svg)](https://zenodo.org/badge/latestdoi/74242108)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020710,
+      "status": "candidate",
+      "text": "remnants"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020709,
+      "status": "candidate",
+      "text": "hypernova"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020708,
+      "status": "candidate",
+      "text": "failed supernova"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020707,
+      "status": "candidate",
+      "text": "neutron star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020706,
+      "status": "candidate",
+      "text": "supernova impostor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "supernova",
+  "concept_id": "supernova",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aquaskyline/LRSIM"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supernova",
+      "sense_id": "supernova#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

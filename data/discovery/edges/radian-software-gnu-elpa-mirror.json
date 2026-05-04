@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "emacs-straight/emacsmirror-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "emacs-straight/gnu-elpa-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "radian-software/gnu-elpa-mirror"
+}

@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "tlaplus/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "informalsystems/apalache-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "informalsystems/apalache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "Run Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "apalache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests",
+      "target": "tlaplus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:23:56.246076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3878
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 3066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarks for apalache",
+    "fork": false,
+    "full_name": "apalache-mc/apalache-tests",
+    "html_url": "https://github.com/apalache-mc/apalache-tests",
+    "language": "SMT",
+    "pushed_at": "2023-03-08T13:22:33Z",
+    "stargazers_count": 6,
+    "topics": [
+      "apalache",
+      "tests",
+      "tlaplus"
+    ],
+    "updated_at": "2024-07-23T14:42:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/apalache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/apalache-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Run Benchmarks"
+    },
+    {
+      "context_snippet": "This repository contains various benchmarks for evaluating performance of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apalache"
+    },
+    {
+      "context_snippet": "This repository contains various benchmarks for evaluating performance of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tests"
+    },
+    {
+      "context_snippet": "This repository contains various benchmarks for evaluating performance of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tlaplus"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-WuDao/Model",
+      "target": "baai-wudao/eva",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:40.116418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u201c\u609f\u9053\u201d\u6a21\u578b",
+    "fork": false,
+    "full_name": "BAAI-WuDao/Model",
+    "html_url": "https://github.com/BAAI-WuDao/Model",
+    "language": null,
+    "pushed_at": "2021-08-25T01:05:30Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-01-09T03:27:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baai-wudao/eva",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

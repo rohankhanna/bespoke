@@ -116,6 +116,30 @@
       "source_repo": "pytorch/audio",
       "status": "candidate-context",
       "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Models, data loaders and abstractions for language processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate-context",
+      "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "Build Linux Wheels"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +194,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pytorch/audio",
+      "status": "candidate",
+      "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/text",
+      "status": "candidate",
+      "text": "Build Linux Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
       "status": "candidate",
       "text": "Build Linux Wheels"
     }
@@ -353,11 +389,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/build_linux_wheels.yaml",
       "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_linux_wheels.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "pytorch/text"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "meta-pytorch/data"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

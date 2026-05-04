@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "Jenkins Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jmh-visualizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:37:51.005079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2712
+    },
+    {
+      "path": ".github/workflows/jenkins-security-scan.yml",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visually explore your JMH benchmarks on Jenkins!",
+    "fork": false,
+    "full_name": "jenkinsci/jmh-report-plugin",
+    "html_url": "https://github.com/jenkinsci/jmh-report-plugin",
+    "language": "Java",
+    "pushed_at": "2024-08-06T13:09:30Z",
+    "stargazers_count": 14,
+    "topics": [
+      "benchmark",
+      "jenkins",
+      "jenkins-plugin",
+      "jmh",
+      "jmh-visualizer"
+    ],
+    "updated_at": "2025-04-04T04:17:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Jenkins Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "term": "Jenkins Security Scan"
+    },
+    {
+      "context_snippet": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins"
+    },
+    {
+      "context_snippet": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jenkins-plugin"
+    },
+    {
+      "context_snippet": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jmh-visualizer"
+    }
+  ]
+}

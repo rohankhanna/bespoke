@@ -55,6 +55,18 @@
       "source_repo": "cosmos/evm",
       "status": "candidate-context",
       "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "The simplest, highest-throughput Python interface to S3, GCS & Azure Storage, powered by Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
+      "status": "candidate-context",
+      "text": "PR Conventional Commit Validation"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/evm",
+      "status": "candidate",
+      "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developmentseed/obstore",
       "status": "candidate",
       "text": "PR Conventional Commit Validation"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/pr_title.yml",
       "source_repo": "cosmos/evm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "developmentseed/obstore"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

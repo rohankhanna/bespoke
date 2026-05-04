@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:31:29.075823+00:00",
+  "fetched_at": "2026-05-04T09:39:19.977280+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,7 +68,7 @@
     "html_url": "https://github.com/swiftlang/swift-llbuild",
     "language": "C++",
     "pushed_at": "2026-05-02T08:25:34Z",
-    "stargazers_count": 1267,
+    "stargazers_count": 1268,
     "topics": [
       "build-system",
       "build-tool",
@@ -76,7 +76,7 @@
       "llvm",
       "swift"
     ],
-    "updated_at": "2026-05-02T21:57:05Z"
+    "updated_at": "2026-05-04T09:26:09Z"
   },
   "repo_links": [
     {

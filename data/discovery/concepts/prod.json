@@ -19,12 +19,30 @@
       "source_repo": "CesiumGS/cesium",
       "status": "candidate-context",
       "text": "prod"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "prod"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "CesiumGS/cesium",
+      "status": "candidate",
+      "text": "prod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
       "status": "candidate",
       "text": "prod"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/prod.yml",
       "source_repo": "CesiumGS/cesium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "casparwylie/cascii-server"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

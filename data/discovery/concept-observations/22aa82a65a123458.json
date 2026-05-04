@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test resources validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test resources validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26027,
+      "status": "candidate",
+      "text": "challenge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24468,
+      "status": "candidate",
+      "text": "probate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test resources validation",
+      "sense_id": "test-resources-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-resources-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-resources-validation",
+  "observation_id": "22aa82a65a123458",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Test resources validation",
+  "source_context_snippet": "Test resources validation",
+  "source_file": ".github/workflows/generic_validations.yml",
+  "source_repo": "evilsocket/opensnitch",
+  "source_repo_description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch."
+}

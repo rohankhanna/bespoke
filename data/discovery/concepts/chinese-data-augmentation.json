@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chinese-data-augmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate-context",
+      "text": "\u4e00\u952e\u4e2d\u6587\u6570\u636e\u589e\u5f3a\u5305 \uff1b NLP\u6570\u636e\u589e\u5f3a\u3001bert\u6570\u636e\u589e\u5f3a\u3001EDA\uff1apip install nlpcda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "425776024/nlpcda",
+      "status": "candidate",
+      "text": "\u4f7f\u7528\uff1a`pip install nlpcda`"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chinese-data-augmentation",
+  "concept_id": "chinese-data-augmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "425776024/nlpcda"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-data-augmentation",
+      "sense_id": "chinese-data-augmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

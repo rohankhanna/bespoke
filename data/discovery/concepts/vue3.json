@@ -247,6 +247,30 @@
       "source_repo": "vueuse/vueuse",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "Open-Source Form Framework for Vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate-context",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu-collective/vitesse-webext",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f WebExtension Vite Starter Template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse-webext",
+      "status": "candidate-context",
+      "text": "A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template."
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "vueuse/vueuse",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueform/vueform",
+      "status": "candidate",
+      "text": "[![Vueform](https://raw.githubusercontent.com/vueform/vueform/main/.github/assets/banner.svg)](https://vueform.com?cid=vueform)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vitesse-webext",
+      "status": "candidate",
+      "text": "A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template."
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +622,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vueform/vueform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse-webext"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Release Pipelines"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "A PyTorch repo for data loading and utilities to be shared by the PyTorch domain libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate-context",
+      "text": "Test Release Pipelines"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/data",
+      "status": "candidate",
+      "text": "Test Release Pipelines"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26837,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25946,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22593,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22593,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22524,
+      "status": "candidate",
+      "text": "cuvette"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Release Pipelines",
+  "concept_id": "test-release-pipelines",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pull_release.yml",
+      "source_repo": "meta-pytorch/data"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Release Pipelines",
+      "sense_id": "test-release-pipelines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

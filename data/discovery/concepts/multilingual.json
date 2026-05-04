@@ -91,6 +91,18 @@
       "source_repo": "ivodolenc/aspekta",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate-context",
+      "text": "Meta's \"No Language Left Behind\" models served as web app and REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate-context",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ivodolenc/aspekta",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
     }
   ],
   "candidate_related_terms": [
@@ -242,11 +260,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ivodolenc/aspekta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

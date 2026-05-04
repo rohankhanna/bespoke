@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "borders"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "\ud83d\udccd\u27a1\ufe0f \ud83c\udde9\ud83c\uddf0 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972215,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966581,
+      "status": "candidate",
+      "text": "surround"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962587,
+      "status": "candidate",
+      "text": "abut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961590,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29958250,
+      "status": "candidate",
+      "text": "delimitation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "borders",
+  "concept_id": "borders",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/country-coder"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "borders",
+      "sense_id": "borders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,11 +1,11 @@
 {
-  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "e-alizadeh/Zotero2MD"
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     },
     {
       "discovered_via": "repo-topic",
@@ -20,17 +20,22 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "slidevjs/slidev"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "JohannesKaufmann/html-to-markdown"
+      "source_repo": "shikijs/shiki"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "boozook/mdbook-svgbob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/doxygenmd"
     }
   ],
   "term": "markdown"

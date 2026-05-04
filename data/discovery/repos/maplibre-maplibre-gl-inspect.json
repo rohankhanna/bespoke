@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "lodash.isequal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "randomcolor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/lodash.isequal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/randomcolor",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "maplibre-gl",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-dts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "st",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "maplibre-gl",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml"
+    },
+    {
+      "component": "maplibre/reusable-workflows/.github/workflows/create-bump-version-pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-bump-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml"
+    },
+    {
+      "component": "maplibre/reusable-workflows/.github/workflows/npm-publish.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "lukasmartinelli/mapbox-gl-inspect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "lodash.isequal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "randomcolor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "@types/lodash.isequal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "@types/randomcolor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre-gl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "rollup-plugin-dts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "st",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre-gl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "dependabot/fetch-metadata@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "Automerge Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-bump-pr.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre/reusable-workflows/.github/workflows/create-bump-version-pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-bump-pr.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "Create bump version PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "Lint Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre/reusable-workflows/.github/workflows/npm-publish.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "inspector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-inspect",
+      "target": "maplibre-gl-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:33.951063+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5586
+    },
+    {
+      "path": "package.json",
+      "size": 1930
+    },
+    {
+      "path": ".github/workflows/auto-merge-dependabot.yml",
+      "size": 774
+    },
+    {
+      "path": ".github/workflows/create-bump-pr.yml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/lint-build.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Maplibre GL Inspect adds an inspect control to maplibre-gl-js to view all features of the vector sources and allows hovering over features to see their properties.",
+    "fork": false,
+    "full_name": "maplibre/maplibre-gl-inspect",
+    "html_url": "https://github.com/maplibre/maplibre-gl-inspect",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-04T05:17:00Z",
+    "stargazers_count": 65,
+    "topics": [
+      "gis",
+      "hacktoberfest",
+      "inspector",
+      "maplibre",
+      "maplibre-gl-js"
+    ],
+    "updated_at": "2026-05-04T05:15:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukasmartinelli/mapbox-gl-inspect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automerge Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "term": "Automerge Dependabot"
+    },
+    {
+      "context_snippet": "Create bump version PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-bump-pr.yml",
+      "term": "Create bump version PR"
+    },
+    {
+      "context_snippet": "Lint Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-build.yml",
+      "term": "Lint Build"
+    },
+    {
+      "context_snippet": "Publish to NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish to NPM"
+    },
+    {
+      "context_snippet": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inspector"
+    },
+    {
+      "context_snippet": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maplibre"
+    },
+    {
+      "context_snippet": "Maplibre GL Inspect is a fork of Mapbox GL Inspect by lukasmartinelli ( https://github.com/lukasmartinelli/mapbox-gl-inspect ). It was forked to add support for maplibre-gl-js.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maplibre-gl-js"
+    }
+  ]
+}

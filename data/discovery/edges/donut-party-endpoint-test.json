@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "donut-party/endpoint-test",
+      "target": "DeLaGuardo/setup-clj-kondo@afc83dbbf4e7e32e04649e29dbf30668d30e9e3e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "donut-party/endpoint-test",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "donut-party/endpoint-test",
+      "target": "clj-kondo linting",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "donut-party/endpoint-test"
+}

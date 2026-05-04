@@ -55,6 +55,54 @@
       "source_repo": "testing-library/react-hooks-testing-library",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb React Hooks for form state management and validation (Web + React Native)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate-context",
+      "text": "Essential set of React Hooks for convenient Web API consumption and state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate-context",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate-context",
+      "text": "Web. Components. \ud83d\ude02"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate-context",
+      "text": "![Repo Banner](./.github/repo-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zenghongtu/react-use-chinese",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u6587\u6863@react-use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zenghongtu/react-use-chinese",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +127,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "testing-library/react-hooks-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate",
+      "text": "![Repo Banner](./.github/repo-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zenghongtu/react-use-chinese",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -112,11 +184,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "testing-library/react-hooks-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kripod/react-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/the-platform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zenghongtu/react-use-chinese"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

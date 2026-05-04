@@ -265,6 +265,30 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate-context",
+      "text": "v2ray-core \u7684\u6a21\u677f\u4eec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate-context",
+      "text": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate-context",
+      "text": "Python library for configuring a package including defaults, env variable loading, and yaml loading."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate-context",
+      "text": "Donfig"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +423,18 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "v2fly/v2ray-examples",
+      "status": "candidate",
+      "text": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytroll/donfig",
+      "status": "candidate",
+      "text": "Donfig"
     }
   ],
   "candidate_related_terms": [
@@ -603,11 +639,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cloydlau/vue-global-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pytroll/donfig"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

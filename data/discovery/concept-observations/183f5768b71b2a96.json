@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Filesystem-based module system for Nix"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938230,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938086,
+      "status": "candidate",
+      "text": "motorcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937697,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925614,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29940445,
+      "status": "candidate",
+      "text": "headlight"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "auto",
+      "sense_id": "auto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6065,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "motorcar"
+    }
+  ],
+  "concept_id": "auto",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto",
+  "observation_id": "183f5768b71b2a96",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "auto",
+  "source_context_snippet": "Filesystem-based module system for Nix",
+  "source_file": null,
+  "source_repo": "nix-community/haumea",
+  "source_repo_description": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+}

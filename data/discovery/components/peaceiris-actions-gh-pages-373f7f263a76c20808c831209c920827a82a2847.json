@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "callstack/react-native-testing-library"
+    }
+  ]
+}

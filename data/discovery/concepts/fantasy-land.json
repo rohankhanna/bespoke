@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "fantasy-land"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fantasyland/fantasy-land",
+      "status": "candidate-context",
+      "text": "Specification for interoperability of common algebraic structures in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fantasyland/fantasy-land",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-la\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "status": "candidate-context",
+      "text": ":rainbow: Fantasy Land -compliant Identity type"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fantasyland/fantasy-land",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/fantasyland/fantasy-land.svg?branch=master)](https://travis-ci.org/fantasyland/fantasy-land) [![Join the chat at https://gitter.im/fantasyland/fantasy-land](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fantasyland/fantasy-la\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fantasy-land",
+  "concept_id": "fantasy-land",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fantasyland/fantasy-land"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-identity"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fantasy-land",
+      "sense_id": "fantasy-land#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

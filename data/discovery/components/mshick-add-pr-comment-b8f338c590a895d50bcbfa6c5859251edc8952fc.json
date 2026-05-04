@@ -1,12 +1,17 @@
 {
   "component": "mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets"
     }
   ]
 }

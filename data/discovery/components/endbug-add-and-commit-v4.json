@@ -1,12 +1,17 @@
 {
   "component": "EndBug/add-and-commit@v4",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Gerschel/sd-web-ui-quickcss"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extract-stealth.yml",
+      "source_repo": "berstend/puppeteer-extra"
     }
   ]
 }

@@ -416,6 +416,30 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CloverLabsAI/camoufox",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a Anti-detect browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloverLabsAI/camoufox",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avikeid2007/KaiROS-AI",
+      "status": "candidate-context",
+      "text": "KaiROS AI\u2014 Intelligence, Precisely When It Matters. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avikeid2007/KaiROS-AI",
+      "status": "candidate-context",
+      "text": "Build and Release"
     }
   ],
   "candidate_glosses": [
@@ -632,6 +656,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipazc/mtcnn",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloverLabsAI/camoufox",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avikeid2007/KaiROS-AI",
       "status": "candidate",
       "text": "Build and Release"
     }
@@ -977,11 +1013,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloverLabsAI/camoufox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

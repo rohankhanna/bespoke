@@ -55,6 +55,18 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate-context",
       "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "jhogsett/EMA-VFI-WebUI",
       "status": "candidate",
       "text": "[![Pylint](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml/badge.svg)](https://github.com/jhogsett/EMA-VFI-WebUI/actions/workflows/pylint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/russell",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "jhogsett/EMA-VFI-WebUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/russell"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

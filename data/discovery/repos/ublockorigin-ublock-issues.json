@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "christosgalano/delete-gh-workflow-runs@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/del-runs-comments.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "ublockorigin/ubol-issues",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "christosgalano/delete-gh-workflow-runs@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "del-runs-comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "source_repo": "uBlockOrigin/uBlock-issues",
+      "target": "on-issue-comment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:31.621624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2447
+    },
+    {
+      "path": ".github/workflows/del-runs-comments.yml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/on-issue-comment.yml",
+      "size": 989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is the community-maintained issue tracker for uBlock Origin",
+    "fork": false,
+    "full_name": "uBlockOrigin/uBlock-issues",
+    "html_url": "https://github.com/uBlockOrigin/uBlock-issues",
+    "language": null,
+    "pushed_at": "2026-02-09T23:25:33Z",
+    "stargazers_count": 1123,
+    "topics": [],
+    "updated_at": "2026-04-30T08:05:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ublockorigin/ubol-issues",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "del-runs-comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/del-runs-comments.yml",
+      "term": "del-runs-comments"
+    },
+    {
+      "context_snippet": "on-issue-comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-issue-comment.yml",
+      "term": "on-issue-comment"
+    }
+  ]
+}

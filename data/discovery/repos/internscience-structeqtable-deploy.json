@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T00:51:22.781529+00:00",
+  "fetched_at": "2026-05-04T11:25:41.273997+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,13 +65,13 @@
     "html_url": "https://github.com/InternScience/StructEqTable-Deploy",
     "language": "Python",
     "pushed_at": "2025-12-06T02:29:37Z",
-    "stargazers_count": 276,
+    "stargazers_count": 277,
     "topics": [
       "table-to-html",
       "table-to-latex",
       "table-to-markdown"
     ],
-    "updated_at": "2026-05-01T03:49:07Z"
+    "updated_at": "2026-05-04T02:57:24Z"
   },
   "repo_links": [
     {

@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -44,6 +46,18 @@
       "source_repo": "apache/datasketches-cpp",
       "status": "candidate-context",
       "text": "Doxygen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "Generate markdown API documentations for C++ libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "Doxygenmd"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +78,12 @@
       "source_repo": "apache/datasketches-cpp",
       "status": "candidate",
       "text": "Doxygen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate",
+      "text": "Doxygenmd"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +145,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/doxygen.yml",
       "source_repo": "apache/datasketches-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/doxygenmd"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

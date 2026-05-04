@@ -124,6 +124,18 @@
       "source_repo": "4itworks/opensource_qwkin_dart",
       "status": "candidate-context",
       "text": "\"Danger\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "An opinionated framework for creating REST-like APIs in Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate-context",
+      "text": "Danger"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +198,12 @@
       "source_repo": "4itworks/opensource_qwkin_dart",
       "status": "candidate",
       "text": "\"Danger\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-grape/grape",
+      "status": "candidate",
+      "text": "Danger"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +340,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/validate_danger.yaml",
       "source_repo": "4itworks/opensource_qwkin_dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "ruby-grape/grape"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

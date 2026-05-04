@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonpoole/osm-area-tags",
+      "target": "ideditor/id-area-keys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "simonpoole/osm-area-tags",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "simonpoole/osm-area-tags",
+      "target": "General purpose Gradle CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/osm-area-tags",
+      "target": "openstreetmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:32:06.582183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1135
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data on which OpenStreetMap tags imply areas",
+    "fork": false,
+    "full_name": "simonpoole/osm-area-tags",
+    "html_url": "https://github.com/simonpoole/osm-area-tags",
+    "language": null,
+    "pushed_at": "2025-06-14T20:44:26Z",
+    "stargazers_count": 3,
+    "topics": [
+      "gis",
+      "openstreetmap"
+    ],
+    "updated_at": "2025-06-14T20:33:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideditor/id-area-keys",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "General purpose Gradle CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "General purpose Gradle CI"
+    },
+    {
+      "context_snippet": "A simple OSM closed (that is first node is the same as the last node) _way_ can either represent a \"polygon\" that is a simple area with no holes or a linear feature that loops. While area semantics can be forced by adding an _area=yes_ tag, most of the time area semantics are im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    }
+  ]
+}

@@ -775,6 +775,42 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate-context",
+      "text": "Create a universal React app using Expo and Next.js in a monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate-context",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb React Hooks for form state management and validation (Web + React Native)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Simple and complete React Native testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1161,6 +1197,24 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/react-hook-form",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1738,11 +1792,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "pixielabs/cavy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-hook-form/react-hook-form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-testing-library"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

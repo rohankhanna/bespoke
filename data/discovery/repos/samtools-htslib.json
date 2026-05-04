@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "linux CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "Mac CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/htslib",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htslib",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htslib",
+      "target": "cram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "samtools/htslib",
+      "target": "htslib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:22.781212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4485
+    },
+    {
+      "path": ".github/workflows/linux-build.yml",
+      "size": 4564
+    },
+    {
+      "path": ".github/workflows/macos-build.yml",
+      "size": 4193
+    },
+    {
+      "path": ".github/workflows/windows-build.yml",
+      "size": 1205
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "C library for high-throughput sequencing data formats",
+    "fork": false,
+    "full_name": "samtools/htslib",
+    "html_url": "https://github.com/samtools/htslib",
+    "language": "C",
+    "pushed_at": "2026-04-30T13:18:22Z",
+    "stargazers_count": 921,
+    "topics": [
+      "bam",
+      "bcf",
+      "bioinformatics",
+      "cram",
+      "htslib",
+      "ngs",
+      "sam",
+      "vcf"
+    ],
+    "updated_at": "2026-05-02T13:20:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linux CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-build.yml",
+      "term": "linux CI"
+    },
+    {
+      "context_snippet": "Mac CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-build.yml",
+      "term": "Mac CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cram"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htslib"
+    }
+  ]
+}

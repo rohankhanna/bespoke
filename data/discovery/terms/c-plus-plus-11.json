@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ],
   "term": "c-plus-plus-11"

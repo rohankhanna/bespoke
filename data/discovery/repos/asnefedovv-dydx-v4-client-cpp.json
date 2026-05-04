@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:24:34.777994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "asnefedovv/dydx-v4-client-cpp",
+    "html_url": "https://github.com/asnefedovv/dydx-v4-client-cpp",
+    "language": "C++",
+    "pushed_at": "2024-07-12T14:34:53Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-03-13T23:09:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

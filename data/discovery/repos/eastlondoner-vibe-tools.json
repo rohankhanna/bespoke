@@ -171,6 +171,20 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eastlondoner/vibe-tools",
+      "target": "kait-http/kaito",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eastlondoner/vibe-tools",
+      "target": "username/repo-name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "eastlondoner/vibe-tools",
       "target": "eastlondoner/cursor-tools",
@@ -401,7 +415,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-03T21:44:21.355075+00:00",
+  "fetched_at": "2026-05-04T10:30:01.490232+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,14 +436,24 @@
     "html_url": "https://github.com/eastlondoner/vibe-tools",
     "language": "TypeScript",
     "pushed_at": "2025-08-25T10:10:43Z",
-    "stargazers_count": 4757,
+    "stargazers_count": 4756,
     "topics": [],
-    "updated_at": "2026-05-03T00:00:26Z"
+    "updated_at": "2026-05-04T02:46:19Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "eastlondoner/cursor-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kait-http/kaito",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "username/repo-name",
       "source_file": "README.md"
     },
     {

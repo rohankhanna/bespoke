@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/radian",
+      "target": "alpha22jp/atomic-chrome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/radian",
+      "target": "company-mode/company-statistics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/radian",
+      "target": "chrisjohnsen/tmux-macosx-pasteboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/radian",
+      "target": "benma/visual-regexp.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "radian-software/radian",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radian-software/radian",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radian-software/radian",
+      "target": "iterm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radian-software/radian",
+      "target": "leiningen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radian-software/radian",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radian-software/radian",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:39:04.100913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13476
+    },
+    {
+      "path": "Dockerfile",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "\ud83c\udf49 Dotfiles that marry elegance and practicality.",
+    "fork": false,
+    "full_name": "radian-software/radian",
+    "html_url": "https://github.com/radian-software/radian",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-15T22:14:51Z",
+    "stargazers_count": 517,
+    "topics": [
+      "emacs",
+      "git",
+      "iterm2",
+      "leiningen",
+      "macos",
+      "tmux",
+      "zsh"
+    ],
+    "updated_at": "2026-04-15T22:14:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha22jp/atomic-chrome",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benma/visual-regexp.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrisjohnsen/tmux-macosx-pasteboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "company-mode/company-statistics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Radian**: dotfiles that marry elegance and practicality.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "**Radian**: dotfiles that marry elegance and practicality.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterm2"
+    },
+    {
+      "context_snippet": "**Radian**: dotfiles that marry elegance and practicality.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leiningen"
+    },
+    {
+      "context_snippet": "**Radian**: dotfiles that marry elegance and practicality.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "**Radian**: dotfiles that marry elegance and practicality.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

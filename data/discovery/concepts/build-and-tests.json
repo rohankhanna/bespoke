@@ -32,6 +32,18 @@
       "source_repo": "lagom/lagom",
       "status": "candidate-context",
       "text": "Build and tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/motion",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Vue Composables putting your components in motion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/motion",
+      "status": "candidate-context",
+      "text": "Build and tests"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lagom/lagom",
+      "status": "candidate",
+      "text": "Build and tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/motion",
       "status": "candidate",
       "text": "Build and tests"
     }
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "lagom/lagom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vueuse/motion"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

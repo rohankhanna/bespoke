@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GeoInterface-based geometry operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29688089,
+      "status": "candidate",
+      "text": "spatial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705244,
+      "status": "candidate",
+      "text": "geolocational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705243,
+      "status": "candidate",
+      "text": "geographical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705242,
+      "status": "candidate",
+      "text": "geoscientific"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19705241,
+      "status": "candidate",
+      "text": "geographic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geospatial",
+      "sense_id": "geospatial#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "geospatial",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geospatial",
+  "observation_id": "1488b33e836df98f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "geospatial",
+  "source_context_snippet": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">",
+  "source_file": null,
+  "source_repo": "JuliaGeo/GeometryOps.jl",
+  "source_repo_description": "GeoInterface-based geometry operations"
+}

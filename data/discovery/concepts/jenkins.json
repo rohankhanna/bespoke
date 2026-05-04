@@ -19,6 +19,18 @@
       "source_repo": "jenkinsci/jenkins",
       "status": "candidate-context",
       "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Visually explore your JMH benchmarks on Jenkins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jenkinsci/jenkins",
       "status": "candidate",
       "text": "<a href=\"https://jenkins.io\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks on [Jenkins](https://jenkins.io/)!"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jenkinsci/jenkins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

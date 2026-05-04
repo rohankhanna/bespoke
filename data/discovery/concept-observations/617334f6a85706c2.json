@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "small javascript library for scribbling on an svg element"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952307,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015897,
+      "status": "candidate",
+      "text": "postum note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015896,
+      "status": "candidate",
+      "text": "post-it note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015895,
+      "status": "candidate",
+      "text": "sticky note"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015894,
+      "status": "candidate",
+      "text": "stick note"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "post-it",
+      "sense_id": "post-it#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-it",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-it",
+  "observation_id": "617334f6a85706c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "post-it",
+  "source_context_snippet": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page.",
+  "source_file": null,
+  "source_repo": "naknomum/scribby",
+  "source_repo_description": "small javascript library for scribbling on an svg element"
+}

@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "patch-package",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "patch-package",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "expo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "target": "react-native-web",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:23:34.340736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2568
+    },
+    {
+      "path": "package.json",
+      "size": 572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create a universal React app using Expo and Next.js in a monorepo",
+    "fork": false,
+    "full_name": "axeldelafosse/expo-next-monorepo-example",
+    "html_url": "https://github.com/axeldelafosse/expo-next-monorepo-example",
+    "language": "JavaScript",
+    "pushed_at": "2022-04-04T22:31:31Z",
+    "stargazers_count": 286,
+    "topics": [
+      "expo",
+      "monorepo",
+      "nextjs",
+      "react",
+      "react-native",
+      "react-native-web"
+    ],
+    "updated_at": "2026-04-08T12:02:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expo"
+    },
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monorepo"
+    },
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "You can now use [Solito](https://solito.dev/starter) instead:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native-web"
+    }
+  ]
+}

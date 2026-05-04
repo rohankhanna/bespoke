@@ -2,7 +2,8 @@
   "aliases": [
     "Nightly Release",
     "Nightly release",
-    "nightly-release"
+    "nightly-release",
+    "nightly release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -219,6 +220,18 @@
       "source_repo": "calda/SwiftFormat-nightly",
       "status": "candidate-context",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/motion",
+      "status": "candidate-context",
+      "text": "\ud83e\udd39 Vue Composables putting your components in motion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/motion",
+      "status": "candidate-context",
+      "text": "nightly release"
     }
   ],
   "candidate_glosses": [
@@ -329,6 +342,12 @@
       "source_repo": "calda/SwiftFormat-nightly",
       "status": "candidate",
       "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/motion",
+      "status": "candidate",
+      "text": "nightly release"
     }
   ],
   "candidate_related_terms": [
@@ -594,11 +613,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "calda/SwiftFormat-nightly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release_nightly.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "vueuse/motion"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

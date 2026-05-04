@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml"
+    },
+    {
+      "component": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-preview-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kibana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kubernetes-operators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:31:39.642600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1677
+    },
+    {
+      "path": "go.mod",
+      "size": 11274
+    },
+    {
+      "path": ".github/workflows/docs-build.yml",
+      "size": 329
+    },
+    {
+      "path": ".github/workflows/docs-deploy.yml",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/docs-preview-cleanup.yml",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elastic Cloud on Kubernetes",
+    "fork": false,
+    "full_name": "elastic/cloud-on-k8s",
+    "html_url": "https://github.com/elastic/cloud-on-k8s",
+    "language": "Go",
+    "pushed_at": "2026-05-04T06:43:52Z",
+    "stargazers_count": 2842,
+    "topics": [
+      "elasticsearch",
+      "go",
+      "kibana",
+      "kubernetes",
+      "kubernetes-operators"
+    ],
+    "updated_at": "2026-05-04T06:43:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docs-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "term": "docs-build"
+    },
+    {
+      "context_snippet": "docs-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "term": "docs-deploy"
+    },
+    {
+      "context_snippet": "docs-preview-cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "term": "docs-preview-cleanup"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elasticsearch"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kibana"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/8fe262ce6fc1da017fc91c35465c1fe0addbc94c38afc9f04b.svg?branch=main)](https://buildkite.com/elastic/cloud-on-k8s-operator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operators"
+    }
+  ]
+}

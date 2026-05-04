@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "andstor/file-reader-action@babb053761401147562e75be79d832978cc97325",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@a284dc1814e3fd07f2e34267fc8f81227ed29fb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml"
+    },
+    {
+      "component": "psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "googlechrome/first-party-sets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "andstor/file-reader-action@babb053761401147562e75be79d832978cc97325",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "tj-actions/changed-files@a284dc1814e3fd07f2e34267fc8f81227ed29fb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "mshick/add-pr-comment@b8f338c590a895d50bcbfa6c5859251edc8952fc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "psf/black@8a737e727ac5ab2f1d4cf5876720ed276dc8dc4b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleChrome/related-website-sets",
+      "target": "Unit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:42.459228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2429
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    },
+    {
+      "path": ".github/workflows/diff.yml",
+      "size": 3503
+    },
+    {
+      "path": ".github/workflows/full.yml",
+      "size": 1124
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Note: This repository will be archived and will no longer accept new submissions.",
+    "fork": false,
+    "full_name": "GoogleChrome/related-website-sets",
+    "html_url": "https://github.com/GoogleChrome/related-website-sets",
+    "language": "Python",
+    "pushed_at": "2025-11-21T00:37:43Z",
+    "stargazers_count": 857,
+    "topics": [],
+    "updated_at": "2026-05-03T15:08:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechrome/first-party-sets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Unit Tests"
+    }
+  ]
+}

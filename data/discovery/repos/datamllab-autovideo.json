@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datamllab/autovideo",
+      "target": "aleju/imgaug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "datamllab/autovideo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "datamllab/autovideo",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "datamllab/autovideo",
+      "target": "Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo",
+      "target": "automated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo",
+      "target": "video-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:32:55.173928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17666
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 794
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AutoVideo: An Automated Video Action Recognition System",
+    "fork": false,
+    "full_name": "datamllab/autovideo",
+    "html_url": "https://github.com/datamllab/autovideo",
+    "language": "Python",
+    "pushed_at": "2023-06-22T15:51:14Z",
+    "stargazers_count": 342,
+    "topics": [
+      "automated",
+      "automl",
+      "deep-learning",
+      "video",
+      "video-recognition"
+    ],
+    "updated_at": "2026-04-29T16:32:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aleju/imgaug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-package.yml",
+      "term": "Testing"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-recognition"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Glib_jll.jl",
+      "target": "juliabinarywrappers/gettextruntime_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Glib_jll.jl",
+      "target": "juliabinarywrappers/libffi_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Glib_jll.jl",
+      "target": "juliabinarywrappers/libiconv_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaBinaryWrappers/Glib_jll.jl",
+      "target": "juliabinarywrappers/libmount_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:18:32.192890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3647
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Glib_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Glib_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-02-06T15:02:36Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-06T15:05:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/gettextruntime_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libffi_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libiconv_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libmount_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

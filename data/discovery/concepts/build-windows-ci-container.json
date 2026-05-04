@@ -67,6 +67,18 @@
       "source_repo": "flagos-ai/llvm-project",
       "status": "candidate-context",
       "text": "Build Windows CI Container"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "root-project/llvm-project",
+      "status": "candidate-context",
+      "text": "ROOT's patches for LLVM and Clang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/llvm-project",
+      "status": "candidate-context",
+      "text": "Build Windows CI Container"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flagos-ai/llvm-project",
+      "status": "candidate",
+      "text": "Build Windows CI Container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "root-project/llvm-project",
       "status": "candidate",
       "text": "Build Windows CI Container"
     }
@@ -256,11 +274,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/build-ci-container-windows.yml",
       "source_repo": "swiftlang/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "swiftlang/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-ci-container-windows.yml",
+      "source_repo": "root-project/llvm-project"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

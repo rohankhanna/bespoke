@@ -392,6 +392,18 @@
       "source_repo": "HumanSignal/label-studio-sdk",
       "status": "candidate-context",
       "text": "\"PR labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "N-D labeled arrays and datasets in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -586,6 +598,12 @@
       "source_repo": "HumanSignal/label-studio-sdk",
       "status": "candidate",
       "text": "\"PR labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydata/xarray",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
     }
   ],
   "candidate_related_terms": [
@@ -1313,11 +1331,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/label-prs.yml",
+      "source_repo": "pydata/xarray"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

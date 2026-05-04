@@ -84,7 +84,7 @@
   "normalized_form": "potential-duplicate-issues",
   "observation_id": "078b788ab5f8eaee",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Potential Duplicate Issues",
   "source_context_snippet": "Potential Duplicate Issues",
   "source_file": ".github/workflows/duplicate-issues-detector.yaml",

@@ -1405,6 +1405,30 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate-context",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaSparse/SparseArrays.jl",
+      "status": "candidate-context",
+      "text": "SparseArrays.jl is a Julia stdlib for working with sparse matrices "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/SparseArrays.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "GeoInterface-based geometry operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_glosses": [
@@ -2109,6 +2133,18 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaSparse/SparseArrays.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_related_terms": [
@@ -3148,11 +3184,95 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "SciML/sciml.ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaSparse/SparseArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaStrings/LaTeXStrings.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PyCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeometryOps.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

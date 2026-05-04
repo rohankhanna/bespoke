@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -51,6 +51,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "gisbi-kim/SC-LIO-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/University1652-Baseline"
     }
   ],
   "term": "place-recognition"

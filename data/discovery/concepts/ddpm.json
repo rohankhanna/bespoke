@@ -43,6 +43,18 @@
       "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
       "status": "candidate-context",
       "text": "[Paper](https://arxiv.org/pdf/2104.07636.pdf ) | [Project](https://iterative-refinement.github.io/ )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Video Diffusion Models, Jonathan Ho's new paper extending DDPMs to Video Generation - in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement",
       "status": "candidate",
       "text": "[Paper](https://arxiv.org/pdf/2104.07636.pdf ) | [Project](https://iterative-refinement.github.io/ )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "Janspiry/Image-Super-Resolution-via-Iterative-Refinement"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/video-diffusion-pytorch"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

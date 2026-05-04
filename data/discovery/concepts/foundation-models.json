@@ -307,6 +307,18 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate-context",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/EmerNeRF",
+      "status": "candidate-context",
+      "text": "PyTorch Implementation of EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/EmerNeRF",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of:"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "yzhao062/pyod",
       "status": "candidate",
       "text": "Python Outlier Detection (PyOD) 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/EmerNeRF",
+      "status": "candidate",
+      "text": "PyTorch implementation of:"
     }
   ],
   "candidate_related_terms": [],
@@ -826,11 +844,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/EmerNeRF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

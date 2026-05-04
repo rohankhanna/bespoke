@@ -666,6 +666,18 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate-context",
       "text": "'Integration Tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate-context",
+      "text": "An example ABCI application making use of tendermint-rs and ibc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate-context",
+      "text": "Integration tests"
     }
   ],
   "candidate_glosses": [
@@ -1004,6 +1016,12 @@
       "source_repo": "broadinstitute/cromwell",
       "status": "candidate",
       "text": "'Integration Tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/basecoin-rs",
+      "status": "candidate",
+      "text": "Integration tests"
     }
   ],
   "candidate_related_terms": [
@@ -1725,11 +1743,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "informalsystems/basecoin-rs"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

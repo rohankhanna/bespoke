@@ -203,6 +203,18 @@
       "source_repo": "prasmussen/gdrive",
       "status": "candidate-context",
       "text": "Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "Build Release"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +311,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prasmussen/gdrive",
+      "status": "candidate",
+      "text": "Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
       "status": "candidate",
       "text": "Build Release"
     }
@@ -440,11 +458,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "prasmussen/gdrive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "boozook/mdbook-svgbob"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

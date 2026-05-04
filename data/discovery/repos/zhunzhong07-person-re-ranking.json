@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "target": "zhunzhong07/camstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "target": "person",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "target": "re-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "target": "re-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhunzhong07/person-re-ranking",
+      "target": "re-ranking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:53.695803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Person Re-ranking (CVPR 2017)",
+    "fork": false,
+    "full_name": "zhunzhong07/person-re-ranking",
+    "html_url": "https://github.com/zhunzhong07/person-re-ranking",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-10-26T01:49:37Z",
+    "stargazers_count": 617,
+    "topics": [
+      "person",
+      "re-id",
+      "re-identification",
+      "re-ranking"
+    ],
+    "updated_at": "2026-04-29T11:49:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhunzhong07/camstyle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person"
+    },
+    {
+      "context_snippet": "================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-id"
+    },
+    {
+      "context_snippet": "================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-identification"
+    },
+    {
+      "context_snippet": "================================================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-ranking"
+    }
+  ]
+}

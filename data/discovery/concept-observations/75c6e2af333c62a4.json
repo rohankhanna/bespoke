@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "set-membership",
+      "sense_id": "set-membership#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "set-membership",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "set-membership",
+  "observation_id": "75c6e2af333c62a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "set-membership",
+  "source_context_snippet": "[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/panmari/cuckoofilter.svg)](https://github.com/panmari/cuckoofilter)",
+  "source_file": null,
+  "source_repo": "panmari/cuckoofilter",
+  "source_repo_description": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom."
+}

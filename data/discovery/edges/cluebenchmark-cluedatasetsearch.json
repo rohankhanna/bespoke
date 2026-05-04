@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "amazonqa/amazonqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "alex-fabbri/multi-news",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "aghie/head-qa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "bdhingra/quasar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "machine-reading-comprehension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "sentiment-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-summarization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "CLUEbenchmark/CLUEDatasetSearch"
+}

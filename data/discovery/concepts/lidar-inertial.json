@@ -19,6 +19,30 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate-context",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "LIO_SAM for 6-axis IMU and  GNSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "LIO-SAM-6AXIS with intensity image  loop optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TixiaoShan/LIO-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

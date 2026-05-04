@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "allowlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "owasp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "sanitization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcosm-cc/bluemonday",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:26:11.353054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18457
+    },
+    {
+      "path": "go.mod",
+      "size": 268
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "bluemonday: a fast golang HTML sanitizer (inspired by the OWASP Java HTML Sanitizer) to scrub user generated content of XSS",
+    "fork": false,
+    "full_name": "microcosm-cc/bluemonday",
+    "html_url": "https://github.com/microcosm-cc/bluemonday",
+    "language": "Go",
+    "pushed_at": "2025-04-04T09:55:48Z",
+    "stargazers_count": 3665,
+    "topics": [
+      "allowlist",
+      "go",
+      "golang",
+      "html",
+      "owasp",
+      "sanitization",
+      "security",
+      "xss"
+    ],
+    "updated_at": "2026-05-04T06:07:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allowlist"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owasp"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitization"
+    },
+    {
+      "context_snippet": "bluemonday is a HTML sanitizer implemented in Go. It is fast and highly configurable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Conventional PR Title\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Conventional PR Title\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26510,
+      "status": "candidate",
+      "text": "dear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26510,
+      "status": "candidate",
+      "text": "grace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26510,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26510,
+      "status": "candidate",
+      "text": "mister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26363,
+      "status": "candidate",
+      "text": "herr"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conventional PR Title",
+      "sense_id": "conventional-pr-title#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conventional-pr-title",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conventional-pr-title",
+  "observation_id": "60ce33c230206545",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Conventional PR Title",
+  "source_context_snippet": "\"Conventional PR Title\"",
+  "source_file": ".github/workflows/commitlint.yml",
+  "source_repo": "dydxprotocol/v4-clients",
+  "source_repo_description": null
+}

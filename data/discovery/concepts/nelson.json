@@ -19,6 +19,30 @@
       "source_repo": "nelson-lang/nelson-minimalist-core",
       "status": "candidate-context",
       "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Nelson's module skeleton"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Template to create external Nelson's module with macros only."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "nelson-lang/nelson-minimalist-core",
       "status": "candidate",
       "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate",
+      "text": "Template to create external Nelson's module with macros only."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "nelson-lang/nelson-minimalist-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

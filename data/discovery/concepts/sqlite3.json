@@ -67,6 +67,18 @@
       "source_repo": "elixir-sqlite/exqlite",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anse1/sqlsmith",
+      "status": "candidate-context",
+      "text": "A random SQL query generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse1/sqlsmith",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "elixir-sqlite/exqlite",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/elixir-sqlite/exqlite/workflows/CI/badge.svg)](https://github.com/elixir-sqlite/exqlite/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anse1/sqlsmith",
+      "status": "candidate",
+      "text": "Build"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "anse1/sqlsmith"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

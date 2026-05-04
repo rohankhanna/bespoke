@@ -67,6 +67,18 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "abhiTronix/vidgear",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "abhiTronix/vidgear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

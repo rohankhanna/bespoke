@@ -1,0 +1,236 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "amazonqa/amazonqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "alex-fabbri/multi-news",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "aghie/head-qa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "bdhingra/quasar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "corpus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "machine-reading-comprehension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "match",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "sentiment-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
+      "target": "text-summarization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:40.616867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u641c\u7d22\u6240\u6709\u4e2d\u6587NLP\u6570\u636e\u96c6\uff0c\u9644\u5e38\u7528\u82f1\u6587NLP\u6570\u636e\u96c6",
+    "fork": false,
+    "full_name": "CLUEbenchmark/CLUEDatasetSearch",
+    "html_url": "https://github.com/CLUEbenchmark/CLUEDatasetSearch",
+    "language": "Python",
+    "pushed_at": "2022-11-21T08:04:52Z",
+    "stargazers_count": 4434,
+    "topics": [
+      "chinese",
+      "corpus",
+      "datasets",
+      "knowledge-graph",
+      "machine-reading-comprehension",
+      "machine-translation",
+      "match",
+      "ner",
+      "nlp",
+      "qa",
+      "sentiment-analysis",
+      "text-classification",
+      "text-similarity",
+      "text-summarization"
+    ],
+    "updated_at": "2026-05-03T19:33:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aghie/head-qa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex-fabbri/multi-news",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazonqa/amazonqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bdhingra/quasar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corpus"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-reading-comprehension"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "match"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentiment-analysis"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-similarity"
+    },
+    {
+      "context_snippet": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-summarization"
+    }
+  ]
+}

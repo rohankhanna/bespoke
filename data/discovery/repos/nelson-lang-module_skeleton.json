@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "Nelson CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "nelson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "skeleton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton",
+      "target": "toobox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:36:35.816736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 403
+    },
+    {
+      "path": ".github/workflows/nelson_module.yml",
+      "size": 2927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nelson's module skeleton",
+    "fork": false,
+    "full_name": "nelson-lang/module_skeleton",
+    "html_url": "https://github.com/nelson-lang/module_skeleton",
+    "language": "MATLAB",
+    "pushed_at": "2025-11-22T19:01:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "module",
+      "nelson",
+      "skeleton",
+      "template",
+      "toobox"
+    ],
+    "updated_at": "2025-11-22T18:57:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nelson CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "term": "Nelson CI"
+    },
+    {
+      "context_snippet": "Template to create external Nelson's module with macros only.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module"
+    },
+    {
+      "context_snippet": "Template to create external Nelson's module with macros only.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nelson"
+    },
+    {
+      "context_snippet": "Template to create external Nelson's module with macros only.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skeleton"
+    },
+    {
+      "context_snippet": "Template to create external Nelson's module with macros only.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "Template to create external Nelson's module with macros only.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toobox"
+    }
+  ]
+}

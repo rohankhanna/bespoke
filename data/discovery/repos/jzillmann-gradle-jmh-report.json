@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "target": "html-report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "target": "jmh-benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "target": "jmh-visualizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:37:52.385464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Gradle plugin building a visual report for JMH benchmarks",
+    "fork": false,
+    "full_name": "jzillmann/gradle-jmh-report",
+    "html_url": "https://github.com/jzillmann/gradle-jmh-report",
+    "language": "Java",
+    "pushed_at": "2024-04-19T21:10:20Z",
+    "stargazers_count": 50,
+    "topics": [
+      "gradle-plugin",
+      "html-report",
+      "jmh",
+      "jmh-benchmarks",
+      "jmh-visualizer",
+      "visualization"
+    ],
+    "updated_at": "2025-08-15T14:03:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    },
+    {
+      "context_snippet": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-report"
+    },
+    {
+      "context_snippet": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jmh-benchmarks"
+    },
+    {
+      "context_snippet": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jmh-visualizer"
+    },
+    {
+      "context_snippet": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

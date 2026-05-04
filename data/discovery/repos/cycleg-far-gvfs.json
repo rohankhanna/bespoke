@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cycleg/far-gvfs",
+      "target": "invy/far2l",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:20:20.152650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Far2l plugin to work with Gnome VFS",
+    "fork": false,
+    "full_name": "cycleg/far-gvfs",
+    "html_url": "https://github.com/cycleg/far-gvfs",
+    "language": "C++",
+    "pushed_at": "2025-06-08T07:06:59Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-07-24T19:46:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "invy/far2l",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

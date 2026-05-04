@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:23:10.813694+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pretrained Dalle2 from laion",
+    "fork": false,
+    "full_name": "LAION-AI/dalle2-laion",
+    "html_url": "https://github.com/LAION-AI/dalle2-laion",
+    "language": "Python",
+    "pushed_at": "2023-04-15T15:16:22Z",
+    "stargazers_count": 505,
+    "topics": [],
+    "updated_at": "2026-04-22T18:01:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

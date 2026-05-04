@@ -1,0 +1,597 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_arch_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_rocky_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_local_libs.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_local_libs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpmech/russell",
+      "target": "cpmech/plotpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpmech/russell",
+      "target": "cpmech/tritet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpmech/russell",
+      "target": "cpmech/gemlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cpmech/russell",
+      "target": "cpmech/vismatrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test & Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test on Arch Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_macos.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_macos.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_rocky_linux.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_rocky_linux.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test on Rocky Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "source_repo": "cpmech/russell",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "source_repo": "cpmech/russell",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "source_repo": "cpmech/russell",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test with Intel MKL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_local_libs.yml",
+      "source_repo": "cpmech/russell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_with_local_libs.yml",
+      "source_repo": "cpmech/russell",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_with_local_libs.yml",
+      "source_repo": "cpmech/russell",
+      "target": "Test with local libs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "bessel-function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "eigenvalues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "eigenvectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "gamma-function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "numerical-derivatives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "numerical-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "quadrature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "quadrature-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "sparse-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "special-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cpmech/russell",
+      "target": "spectral-methods",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:29:18.747531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30083
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 135
+    },
+    {
+      "path": ".github/workflows/test_and_coverage.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/test_on_arch_linux.yml",
+      "size": 245
+    },
+    {
+      "path": ".github/workflows/test_on_macos.yml",
+      "size": 422
+    },
+    {
+      "path": ".github/workflows/test_on_rocky_linux.yml",
+      "size": 248
+    },
+    {
+      "path": ".github/workflows/test_on_windows.yml",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/test_with_intel_mkl.yml",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/test_with_local_libs.yml",
+      "size": 751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust Scientific Libary. ODE and DAE (Runge-Kutta) solvers. Special functions (Bessel, Elliptic, Beta, Gamma, Erf). Linear algebra. Sparse solvers (MUMPS, UMFPACK). Probability distributions. Tensor calculus.",
+    "fork": false,
+    "full_name": "cpmech/russell",
+    "html_url": "https://github.com/cpmech/russell",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T07:44:03Z",
+    "stargazers_count": 182,
+    "topics": [
+      "bessel-function",
+      "differential-equations",
+      "eigenvalues",
+      "eigenvectors",
+      "gamma-function",
+      "interpolation",
+      "linear-algebra",
+      "mathematics",
+      "numerical-derivatives",
+      "numerical-integration",
+      "quadrature",
+      "quadrature-integration",
+      "rust",
+      "scientific-computing",
+      "sparse-matrix",
+      "special-functions",
+      "spectral-methods"
+    ],
+    "updated_at": "2026-04-28T17:32:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpmech/gemlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpmech/plotpy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpmech/tritet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpmech/vismatrix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test & Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_coverage.yml",
+      "term": "Test & Coverage"
+    },
+    {
+      "context_snippet": "Test on Arch Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_arch_linux.yml",
+      "term": "Test on Arch Linux"
+    },
+    {
+      "context_snippet": "Test on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_macos.yml",
+      "term": "Test on macOS"
+    },
+    {
+      "context_snippet": "Test on Rocky Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_rocky_linux.yml",
+      "term": "Test on Rocky Linux"
+    },
+    {
+      "context_snippet": "Test on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "term": "Test on Windows"
+    },
+    {
+      "context_snippet": "Test with Intel MKL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_with_intel_mkl.yml",
+      "term": "Test with Intel MKL"
+    },
+    {
+      "context_snippet": "Test with local libs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_with_local_libs.yml",
+      "term": "Test with local libs"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bessel-function"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differential-equations"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenvalues"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eigenvectors"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamma-function"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpolation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-derivatives"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-integration"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quadrature"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quadrature-integration"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrix"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "special-functions"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectral-methods"
+    }
+  ]
+}

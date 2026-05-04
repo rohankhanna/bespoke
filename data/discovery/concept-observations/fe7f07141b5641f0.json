@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924033,
+      "status": "candidate",
+      "text": "pageboy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919419,
+      "status": "candidate",
+      "text": "varlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "acton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "aspects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985013,
+      "status": "candidate",
+      "text": "beeps"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pages",
+      "sense_id": "pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pages",
+  "observation_id": "fe7f07141b5641f0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "pages",
+  "source_context_snippet": "pages",
+  "source_file": ".github/workflows/pages.yml",
+  "source_repo": "nix-community/haumea",
+  "source_repo_description": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:24:52.216379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for Lemmy",
+    "fork": false,
+    "full_name": "LemmyNet/lemmy-docs",
+    "html_url": "https://github.com/LemmyNet/lemmy-docs",
+    "language": null,
+    "pushed_at": "2026-04-25T04:27:52Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-30T15:47:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

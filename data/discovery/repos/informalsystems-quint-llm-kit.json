@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:24:44.418002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agents and tools for using Quint with LLMs",
+    "fork": false,
+    "full_name": "informalsystems/quint-llm-kit",
+    "html_url": "https://github.com/informalsystems/quint-llm-kit",
+    "language": "Bluespec",
+    "pushed_at": "2026-03-06T12:00:20Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-05-04T06:00:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -235,6 +235,18 @@
       "source_repo": "imgui-rs/imgui-rs",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate-context",
+      "text": "A dateutil-compatible timestamp parser for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "imgui-rs/imgui-rs",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bspeice/dtparse",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)"
     }
   ],
   "candidate_related_terms": [],
@@ -484,11 +502,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "imgui-rs/imgui-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bspeice/dtparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

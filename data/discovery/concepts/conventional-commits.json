@@ -383,6 +383,18 @@
       "source_repo": "ory/kratos-selfservice-ui-node",
       "status": "candidate-context",
       "text": "Conventional commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "Pre-commit hook script for linting conventional commit style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -577,6 +589,12 @@
       "source_repo": "ory/kratos-selfservice-ui-node",
       "status": "candidate",
       "text": "Conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/conventional-precommit-linter",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -878,11 +896,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/conventional-commits.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "espressif/conventional-precommit-linter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

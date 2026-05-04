@@ -1,0 +1,12 @@
+{
+  "component": "sigstore/cosign-installer@1e95c1de343b5b0c23352d6417ee3e48d5bcd422",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "FeTS-AI/Front-End"
+    }
+  ]
+}

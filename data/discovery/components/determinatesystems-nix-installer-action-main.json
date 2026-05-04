@@ -1,7 +1,7 @@
 {
   "component": "DeterminateSystems/nix-installer-action@main",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -157,6 +157,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "horriblename/lzn-auto-require"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "informalsystems/cosmos.nix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "informalsystems/cosmos.nix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "stack-of-tasks/pinocchio"
     }
   ]
 }

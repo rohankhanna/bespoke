@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dexmal/dexbotic",
+      "target": "dao-ailab/flash-attention.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "cogact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "memoryvla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "openvla-oft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "real-world",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:35:56.626569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8776
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1962
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dexbotic: Open-Source Vision-Language-Action Toolbox",
+    "fork": false,
+    "full_name": "dexmal/dexbotic",
+    "html_url": "https://github.com/dexmal/dexbotic",
+    "language": "Python",
+    "pushed_at": "2026-04-29T11:54:52Z",
+    "stargazers_count": 963,
+    "topics": [
+      "codebase",
+      "cogact",
+      "memoryvla",
+      "openvla-oft",
+      "pi0",
+      "real-world",
+      "robotics",
+      "simulation",
+      "toolbox",
+      "vla",
+      "vln"
+    ],
+    "updated_at": "2026-05-04T08:48:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/flash-attention.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codebase"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cogact"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memoryvla"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvla-oft"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-world"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbox"
+    }
+  ]
+}

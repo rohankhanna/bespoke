@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "McCabe complexity checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "McCabe complexity checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "McCabe complexity checker"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8787392,
+      "status": "candidate",
+      "text": "maccabe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8787391,
+      "status": "candidate",
+      "text": "mcabee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8787390,
+      "status": "candidate",
+      "text": "mccann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8787389,
+      "status": "candidate",
+      "text": "mccafferty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8787388,
+      "status": "candidate",
+      "text": "mcguire"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mccabe",
+      "sense_id": "mccabe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mccabe",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mccabe",
+  "observation_id": "3b41049a7cc7146d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "mccabe",
+  "source_context_snippet": "McCabe complexity checker",
+  "source_file": null,
+  "source_repo": "PyCQA/mccabe",
+  "source_repo_description": "McCabe complexity checker for Python"
+}

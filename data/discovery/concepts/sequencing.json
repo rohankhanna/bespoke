@@ -79,6 +79,30 @@
       "source_repo": "ACEnglish/truvari",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/Truvari.svg)](https://badge.fury.io/py/Truvari)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "DeepSomatic is an analysis pipeline that uses a deep neural network to call somatic variants from tumor-normal and tumor-only sequencing data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate-context",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate-context",
+      "text": "A Java API for high-throughput sequencing data (HTS) formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "ACEnglish/truvari",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/Truvari.svg)](https://badge.fury.io/py/Truvari)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/deepsomatic",
+      "status": "candidate",
+      "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/htsjdk",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/samtools/htsjdk/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/samtools/htsjdk/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +232,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ACEnglish/truvari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/deepsomatic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "samtools/htsjdk"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

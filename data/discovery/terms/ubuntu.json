@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -151,6 +151,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/tests-ubuntu.yml",
       "source_repo": "scrapy/scrapy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/cppyy-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Ubuntu.yml",
+      "source_repo": "compiler-research/CPyCppyy"
     }
   ],
   "term": "ubuntu"

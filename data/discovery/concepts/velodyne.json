@@ -31,6 +31,30 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate-context",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TixiaoShan/LIO-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

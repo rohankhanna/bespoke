@@ -31,6 +31,18 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate-context",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate-context",
+      "text": "\ud83d\udccb Validation resolvers: Yup, Zod, Superstruct, Joi, Vest, Class Validator, io-ts, Nope, computed-types, typanion, Ajv, TypeBox, ArkType, Valibot, effect-ts, VineJS and Standard Schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-hook-form/resolvers",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-hook-form/resolvers"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

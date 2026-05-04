@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ivanceras/svgbob",
+      "target": "google/comprehensive-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ivanceras/svgbob",
+      "target": "boozook/mdbook-svgbob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ivanceras/svgbob",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanceras/svgbob",
+      "target": "ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ivanceras/svgbob",
+      "target": "diagram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:20:22.751209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1638
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 178
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert your ascii diagram scribbles into happy little SVG",
+    "fork": false,
+    "full_name": "ivanceras/svgbob",
+    "html_url": "https://github.com/ivanceras/svgbob",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T23:09:36Z",
+    "stargazers_count": 4182,
+    "topics": [
+      "ascii",
+      "bob",
+      "diagram",
+      "svg"
+    ],
+    "updated_at": "2026-05-04T02:25:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boozook/mdbook-svgbob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/comprehensive-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii"
+    },
+    {
+      "context_snippet": "<a href=\"https://crates.io/crates/svgbob\"><img src=\"https://img.shields.io/crates/v/svgbob.svg\" alt=\"svgbob\u2019s current version badge\" title=\"svgbob\u2019s current version badge\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagram"
+    }
+  ]
+}

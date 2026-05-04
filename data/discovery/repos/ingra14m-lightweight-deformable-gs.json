@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:37:51.886631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7146
+    },
+    {
+      "path": "requirements.txt",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[Just 4 Fun] Deformable-GS with less storage, 150+FPS, and sota quality.",
+    "fork": false,
+    "full_name": "ingra14m/Lightweight-Deformable-GS",
+    "html_url": "https://github.com/ingra14m/Lightweight-Deformable-GS",
+    "language": "Python",
+    "pushed_at": "2024-05-26T10:20:17Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-01T06:22:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

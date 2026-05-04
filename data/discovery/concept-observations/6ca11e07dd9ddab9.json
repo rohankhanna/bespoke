@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "prod"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "prod"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050445,
+      "status": "candidate",
+      "text": "poke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050381,
+      "status": "candidate",
+      "text": "jab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047809,
+      "status": "candidate",
+      "text": "stab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046033,
+      "status": "candidate",
+      "text": "goad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034742,
+      "status": "candidate",
+      "text": "nudge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "prod",
+      "sense_id": "prod#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50045,
+      "status": "candidate",
+      "text": "incite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28043,
+      "status": "candidate",
+      "text": "goad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21035,
+      "status": "candidate",
+      "text": "nudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19061,
+      "status": "candidate",
+      "text": "spur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17055,
+      "status": "candidate",
+      "text": "dig"
+    }
+  ],
+  "concept_id": "prod",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prod",
+  "observation_id": "6ca11e07dd9ddab9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "prod",
+  "source_context_snippet": "prod",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "casparwylie/cascii-server",
+  "source_repo_description": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+}

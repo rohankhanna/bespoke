@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A light windows GUI toolkit for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "native-windows-gui",
+      "sense_id": "native-windows-gui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "native-windows-gui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "native-windows-gui",
+  "observation_id": "f80e5f96fe718caa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "native-windows-gui",
+  "source_context_snippet": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026",
+  "source_file": null,
+  "source_repo": "gabdube/native-windows-gui",
+  "source_repo_description": "A light windows GUI toolkit for rust"
+}

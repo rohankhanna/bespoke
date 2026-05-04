@@ -19,6 +19,18 @@
       "source_repo": "palantir/javapoet",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "Python Language Server"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "palantir/javapoet",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate",
+      "text": "Python Language Server"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "palantir/javapoet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "palantir/python-language-server"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

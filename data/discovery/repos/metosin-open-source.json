@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project-automation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/open-source",
+      "target": "metosin/compojure-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/project-automation.yml",
+      "source_repo": "metosin/open-source",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project-automation.yml",
+      "source_repo": "metosin/open-source",
+      "target": "Project automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/open-source",
+      "target": "maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/open-source",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:42.500474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2275
+    },
+    {
+      "path": ".github/workflows/project-automation.yml",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home page for Metosin's open source development work",
+    "fork": false,
+    "full_name": "metosin/open-source",
+    "html_url": "https://github.com/metosin/open-source",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-24T04:56:42Z",
+    "stargazers_count": 6,
+    "topics": [
+      "maintenance",
+      "open-source"
+    ],
+    "updated_at": "2026-04-24T04:56:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/compojure-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Project automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/project-automation.yml",
+      "term": "Project automation"
+    },
+    {
+      "context_snippet": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maintenance"
+    },
+    {
+      "context_snippet": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

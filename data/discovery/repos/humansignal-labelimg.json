@@ -131,7 +131,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:57:50.998619+00:00",
+  "fetched_at": "2026-05-04T11:41:36.724921+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -152,7 +152,7 @@
     "html_url": "https://github.com/HumanSignal/labelImg",
     "language": "Python",
     "pushed_at": "2024-06-07T20:24:32Z",
-    "stargazers_count": 24938,
+    "stargazers_count": 24939,
     "topics": [
       "annotations",
       "deep-learning",
@@ -164,7 +164,7 @@
       "recognition",
       "tools"
     ],
-    "updated_at": "2026-05-03T16:39:04Z"
+    "updated_at": "2026-05-04T09:34:55Z"
   },
   "repo_links": [
     {

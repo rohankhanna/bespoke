@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-java@de5a937a1dc73fbc1a67d7d1aa4bebc1082f3190",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aeharding/voyager"
+    }
+  ]
+}

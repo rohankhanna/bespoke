@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corgi-emacs/corgi-packages",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corgi-emacs/corgi-packages",
+      "target": "lambdaisland/corgi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:57.905042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emacs Packages developed as part of Corgi",
+    "fork": false,
+    "full_name": "corgi-emacs/corgi-packages",
+    "html_url": "https://github.com/corgi-emacs/corgi-packages",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-05-03T14:34:39Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-01-19T18:22:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/corgi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

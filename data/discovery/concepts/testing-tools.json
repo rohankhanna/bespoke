@@ -265,6 +265,30 @@
       "source_repo": "storybookjs/test-runner",
       "status": "candidate-context",
       "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "A Node.js tool to automate end-to-end web testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -393,6 +417,18 @@
       "source_repo": "storybookjs/test-runner",
       "status": "candidate",
       "text": "<h1>Storybook Test Runner</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +574,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "storybookjs/test-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DevExpress/testcafe"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

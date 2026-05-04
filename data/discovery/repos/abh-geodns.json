@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:27:49.789407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9271
+    },
+    {
+      "path": "go.mod",
+      "size": 1955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DNS server with per-client targeted responses",
+    "fork": false,
+    "full_name": "abh/geodns",
+    "html_url": "https://github.com/abh/geodns",
+    "language": "Go",
+    "pushed_at": "2026-02-23T22:34:37Z",
+    "stargazers_count": 1451,
+    "topics": [],
+    "updated_at": "2026-04-18T12:51:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

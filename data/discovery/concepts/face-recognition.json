@@ -151,6 +151,30 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate-context",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "Face recognition with deep neural networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate-context",
+      "text": "*Free and open source face recognition with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate-context",
+      "text": "The world's simplest facial recognition api for Python and the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate-context",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "davidsandberg/facenet",
       "status": "candidate",
       "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmusatyalab/openface",
+      "status": "candidate",
+      "text": "*Free and open source face recognition with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +460,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cmusatyalab/openface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ageitgey/face_recognition"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

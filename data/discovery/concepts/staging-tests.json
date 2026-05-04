@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Staging Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diafygi/acme-tiny",
+      "status": "candidate-context",
+      "text": "A tiny script to issue and renew TLS certs from Let's Encrypt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diafygi/acme-tiny",
+      "status": "candidate-context",
+      "text": "Staging Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diafygi/acme-tiny",
+      "status": "candidate",
+      "text": "Staging Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11745,
+      "status": "candidate",
+      "text": "conducting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10782,
+      "status": "candidate",
+      "text": "arena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10782,
+      "status": "candidate",
+      "text": "hosting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10733,
+      "status": "candidate",
+      "text": "organization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10680,
+      "status": "candidate",
+      "text": "stagecraft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Staging Tests",
+  "concept_id": "staging-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Staging Tests",
+      "sense_id": "staging-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

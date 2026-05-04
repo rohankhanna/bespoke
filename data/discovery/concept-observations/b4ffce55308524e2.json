@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "APALACHE: symbolic model checker for TLA+ and Quint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854164,
+      "status": "candidate",
+      "text": "quintuplet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39853913,
+      "status": "candidate",
+      "text": "quintet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39692268,
+      "status": "candidate",
+      "text": "quin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39688195,
+      "status": "candidate",
+      "text": "fivesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680940,
+      "status": "candidate",
+      "text": "five"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quint",
+      "sense_id": "quint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9033,
+      "status": "candidate",
+      "text": "quintet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7058,
+      "status": "candidate",
+      "text": "fin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "pentad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3014,
+      "status": "candidate",
+      "text": "fivesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2046,
+      "status": "candidate",
+      "text": "five"
+    }
+  ],
+  "concept_id": "quint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quint",
+  "observation_id": "b4ffce55308524e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "quint",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "apalache-mc/apalache",
+  "source_repo_description": "APALACHE: symbolic model checker for TLA+ and Quint"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Collection of blocklists to fill in the gaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994137,
+      "status": "candidate",
+      "text": "adblocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994136,
+      "status": "candidate",
+      "text": "blocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994135,
+      "status": "candidate",
+      "text": "banner ad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994134,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994133,
+      "status": "candidate",
+      "text": "anonymizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocker",
+      "sense_id": "adblocker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adblocker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adblocker",
+  "observation_id": "883280f91e3c7780",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "adblocker",
+  "source_context_snippet": "![GitHub last commit](https://img.shields.io/github/last-commit/yokoffing/filterlists)",
+  "source_file": null,
+  "source_repo": "yokoffing/filterlists",
+  "source_repo_description": "Collection of blocklists to fill in the gaps"
+}

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_hf_ms.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternScience/SeedBench",
+      "target": "open-sciencelab/seedbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_hf_ms.yml",
+      "source_repo": "InternScience/SeedBench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_hf_ms.yml",
+      "source_repo": "InternScience/SeedBench",
+      "target": "Sync to HF and ModelScope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "acl2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "agriculture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "agriculture-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "paddy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench",
+      "target": "rice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:24:19.735158+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7826
+    },
+    {
+      "path": ".github/workflows/sync_hf_ms.yml",
+      "size": 2257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL 2025] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science\ud83c\udf3e",
+    "fork": false,
+    "full_name": "InternScience/SeedBench",
+    "html_url": "https://github.com/InternScience/SeedBench",
+    "language": "Python",
+    "pushed_at": "2025-12-19T09:10:03Z",
+    "stargazers_count": 20,
+    "topics": [
+      "acl",
+      "acl2025",
+      "agriculture",
+      "agriculture-data",
+      "benchmark",
+      "knowledge",
+      "llm",
+      "paddy",
+      "rice"
+    ],
+    "updated_at": "2026-04-03T09:25:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-sciencelab/seedbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync to HF and ModelScope",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_hf_ms.yml",
+      "term": "Sync to HF and ModelScope"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acl2025"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agriculture"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agriculture-data"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rice"
+    }
+  ]
+}

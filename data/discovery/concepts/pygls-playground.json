@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pygls-playground"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openlawlibrary/pygls",
+      "status": "candidate-context",
+      "text": "A pythonic generic language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlawlibrary/pygls",
+      "status": "candidate-context",
+      "text": "pygls-playground"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openlawlibrary/pygls",
+      "status": "candidate",
+      "text": "pygls-playground"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pygls-playground",
+  "concept_id": "pygls-playground",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/json-extension.yml",
+      "source_repo": "openlawlibrary/pygls"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pygls-playground",
+      "sense_id": "pygls-playground#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

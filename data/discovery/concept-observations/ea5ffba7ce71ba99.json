@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+      "text": "---"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>"
+      "text": "---"
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,9 +84,9 @@
   "normalized_form": "prisma",
   "observation_id": "ea5ffba7ce71ba99",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "prisma",
-  "source_context_snippet": "<p align=\"center\"><img src=\"https://imgur.com/5fzMbyV.png\" width=\"269\"></p>",
+  "source_context_snippet": "---",
   "source_file": null,
   "source_repo": "graphql/graphql-playground",
   "source_repo_description": "\ud83c\udfae  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)"

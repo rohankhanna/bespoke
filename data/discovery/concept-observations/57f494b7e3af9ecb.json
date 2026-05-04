@@ -48,7 +48,7 @@
   "normalized_form": "scoop-bucket",
   "observation_id": "57f494b7e3af9ecb",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "scoop-bucket",
   "source_context_snippet": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket).",
   "source_file": null,

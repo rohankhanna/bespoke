@@ -1,12 +1,17 @@
 {
   "component": "ravsamhq/notify-slack-action@be814b201e233b2dc673608aa46e5447c8ab13f2",
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-matrix.yml",
       "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb"
     }
   ]
 }

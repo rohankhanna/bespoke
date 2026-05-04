@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -171,6 +171,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pixielabs/cavy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run-e2e.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "jaegertracing/jaeger-operator"
     }
   ],
   "term": "E2E Tests"

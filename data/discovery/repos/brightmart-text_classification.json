@@ -1,0 +1,224 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/text_classification",
+      "target": "brightmart/bert_language_understanding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brightmart/text_classification",
+      "target": "brightmart/sentiment_analysis_fine_grain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "fasttext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "memory-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "multi-class",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "multi-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "sentence-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "textcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification",
+      "target": "textrnn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:31.807042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "all kinds of text classification models and more with deep learning",
+    "fork": false,
+    "full_name": "brightmart/text_classification",
+    "html_url": "https://github.com/brightmart/text_classification",
+    "language": "Python",
+    "pushed_at": "2023-09-28T05:55:11Z",
+    "stargazers_count": 7941,
+    "topics": [
+      "attention-mechanism",
+      "classification",
+      "convolutional-neural-networks",
+      "fasttext",
+      "memory-networks",
+      "multi-class",
+      "multi-label",
+      "nlp",
+      "sentence-classification",
+      "tensorflow",
+      "text-classification",
+      "textcnn",
+      "textrnn"
+    ],
+    "updated_at": "2026-05-04T01:27:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/bert_language_understanding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brightmart/sentiment_analysis_fine_grain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fasttext"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-networks"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-class"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-label"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-classification"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textcnn"
+    },
+    {
+      "context_snippet": "Text Classification",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textrnn"
+    }
+  ]
+}

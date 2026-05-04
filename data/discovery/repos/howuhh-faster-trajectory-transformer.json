@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Howuhh/faster-trajectory-transformer",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Howuhh/faster-trajectory-transformer",
+      "target": "trajectory-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Howuhh/faster-trajectory-transformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:27:48.892201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3549
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Implementation of Trajectory Transformer with attention caching and batched beam search",
+    "fork": false,
+    "full_name": "Howuhh/faster-trajectory-transformer",
+    "html_url": "https://github.com/Howuhh/faster-trajectory-transformer",
+    "language": "Python",
+    "pushed_at": "2023-04-27T09:11:27Z",
+    "stargazers_count": 117,
+    "topics": [
+      "reinforcement-learning",
+      "trajectory-transformer",
+      "transformer"
+    ],
+    "updated_at": "2026-02-24T05:57:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![video](media/halfcheetah.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "![video](media/halfcheetah.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trajectory-transformer"
+    },
+    {
+      "context_snippet": "![video](media/halfcheetah.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

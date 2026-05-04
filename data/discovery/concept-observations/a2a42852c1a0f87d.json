@@ -84,7 +84,7 @@
   "normalized_form": "build-examples",
   "observation_id": "a2a42852c1a0f87d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Build Examples",
   "source_context_snippet": "Build Examples",
   "source_file": ".github/workflows/examples.yml",

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/yozai-font",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:41.332140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Chinese handwriting font derived from YozFont. \u4e00\u6b3e\u884d\u751f\u4e8e YozFont \u7684\u4e2d\u6587\u624b\u5199\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/yozai-font",
+    "html_url": "https://github.com/lxgw/yozai-font",
+    "language": null,
+    "pushed_at": "2025-09-12T06:38:10Z",
+    "stargazers_count": 1128,
+    "topics": [
+      "font"
+    ],
+    "updated_at": "2026-05-04T02:50:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    }
+  ]
+}

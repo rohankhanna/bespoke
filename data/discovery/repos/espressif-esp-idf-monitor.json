@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "espressif/python-binary-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml"
+    },
+    {
+      "component": "espressif/shared-github-dangerjs@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-jira.yml"
+    },
+    {
+      "component": "espressif/sync-jira-actions@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-jira.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "espressif/conventional-precommit-linter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "espressif/python-binary-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "Build IDF Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "espressif/shared-github-dangerjs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "DangerJS Pull Request linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "PyPI release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-jira.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-jira.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "espressif/sync-jira-actions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-jira.yml",
+      "source_repo": "espressif/esp-idf-monitor",
+      "target": "Sync to Jira",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:14:55.900167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13796
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3698
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3921
+    },
+    {
+      "path": ".github/workflows/dangerjs.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/release_pypi.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/sync-jira.yml",
+      "size": 1869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "espressif/esp-idf-monitor",
+    "html_url": "https://github.com/espressif/esp-idf-monitor",
+    "language": "Python",
+    "pushed_at": "2026-04-30T08:56:11Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-30T08:56:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressif/conventional-precommit-linter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build IDF Monitor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build IDF Monitor"
+    },
+    {
+      "context_snippet": "DangerJS Pull Request linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dangerjs.yml",
+      "term": "DangerJS Pull Request linter"
+    },
+    {
+      "context_snippet": "PyPI release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "term": "PyPI release"
+    },
+    {
+      "context_snippet": "Sync to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-jira.yml",
+      "term": "Sync to Jira"
+    }
+  ]
+}

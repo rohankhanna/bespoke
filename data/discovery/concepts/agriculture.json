@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "agriculture"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "[ACL 2025] SeedBench: A Multi-task Benchmark for Evaluating Large Language Models in Seed Science\ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternScience/SeedBench",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048916,
+      "status": "candidate",
+      "text": "agribusiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048679,
+      "status": "candidate",
+      "text": "farming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048258,
+      "status": "candidate",
+      "text": "husbandry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048975,
+      "status": "candidate",
+      "text": "agriculture department"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048975,
+      "status": "candidate",
+      "text": "department of agriculture"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6039,
+      "status": "candidate",
+      "text": "farming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "husbandry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "agribusiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "agriculture department"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "department of agriculture"
+    }
+  ],
+  "canonical_name": "agriculture",
+  "concept_id": "agriculture",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternScience/SeedBench"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agriculture",
+      "sense_id": "agriculture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

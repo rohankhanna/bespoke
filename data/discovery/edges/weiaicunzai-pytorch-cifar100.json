@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "weiaicunzai/bag_of_tricks_for_image_classification_with_convolutional_neural_networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "cifar100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "densenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "googlenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inception-resnet-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inceptionv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inceptionv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "nasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "resnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "shufflenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "squeezenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "wideresnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "xception",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "weiaicunzai/pytorch-cifar100"
+}

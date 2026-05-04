@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codecov.yml",
       "source_repo": "unrs/unrs-resolver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "callstack/react-native-testing-library"
     }
   ]
 }

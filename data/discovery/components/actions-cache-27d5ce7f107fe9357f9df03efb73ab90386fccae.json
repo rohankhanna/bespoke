@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -957,6 +957,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "timmywil/panzoom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-qa.yaml",
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pydata/xarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-go-caches.yaml",
+      "source_repo": "cilium/cilium"
     }
   ]
 }

@@ -41,6 +41,18 @@
       "source_repo": "mozilla/addons-server",
       "status": "candidate-context",
       "text": "Health Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "\u2728 Jest matcher for image comparisons. Most commonly used for visual regression testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "Health Check"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +71,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mozilla/addons-server",
+      "status": "candidate",
+      "text": "Health Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
       "status": "candidate",
       "text": "Health Check"
     }
@@ -122,11 +140,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/health_check.yml",
       "source_repo": "mozilla/addons-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/health-check.yml",
+      "source_repo": "americanexpress/jest-image-snapshot"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "w3c/spec-prod@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-publish.yml",
       "source_repo": "WICG/first-party-sets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/webappsec-fetch-metadata"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/FileAPI"
     }
   ]
 }

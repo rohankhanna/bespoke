@@ -268,6 +268,42 @@
       "source_repo": "daijro/camoufox",
       "status": "candidate-context",
       "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "[![Badge Commits]][Commit Rate]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate-context",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "status": "candidate-context",
+      "text": "Ultimate minimalistic user style for firefox ESR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "status": "candidate-context",
+      "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
     }
   ],
   "candidate_glosses": [
@@ -402,6 +438,24 @@
       "source_repo": "daijro/camoufox",
       "status": "candidate",
       "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate",
+      "text": "[![Badge Commits]][Commit Rate]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yokoffing/Betterfox",
+      "status": "candidate",
+      "text": "![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fyokoffing%2FBetterfox&label=&icon=github&color=%23198754&message=&style=flat&tz=US%2FEastern)![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)![GitHub last commit](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "status": "candidate",
+      "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +805,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gorhill/uBlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yokoffing/Betterfox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Jamir-boop/minimalisticfox"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

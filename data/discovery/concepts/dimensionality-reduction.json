@@ -55,6 +55,18 @@
       "source_repo": "JuliaStats/MultivariateStats.jl",
       "status": "candidate-context",
       "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "JuliaStats/MultivariateStats.jl",
       "status": "candidate",
       "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "JuliaStats/MultivariateStats.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

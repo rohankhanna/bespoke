@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vehicle-reid",
+      "sense_id": "vehicle-reid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vehicle-reid",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vehicle-reid",
+  "observation_id": "ba5717662fae8d61",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "vehicle-reid",
+  "source_context_snippet": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:",
+  "source_file": null,
+  "source_repo": "layumi/Vehicle_reID-Collection",
+  "source_repo_description": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+}

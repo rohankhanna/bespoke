@@ -2,7 +2,8 @@
   "aliases": [
     "Auto-update",
     "auto update",
-    "auto-update"
+    "auto-update",
+    "Auto Update"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -59,6 +60,54 @@
       "source_repo": "aslafy-z/helm-git",
       "status": "candidate-context",
       "text": "auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "APALACHE: symbolic model checker for TLA+ and Quint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "Auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and optimized SVGs for material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate-context",
+      "text": "Auto Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Latest icon fonts and CSS for self-hosting material design icons."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate-context",
+      "text": "Auto Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Latest variable icon fonts and optimized SVGs for Material Symbols."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate-context",
+      "text": "Auto Update"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +134,30 @@
       "source_repo": "aslafy-z/helm-git",
       "status": "candidate",
       "text": "auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate",
+      "text": "Auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-design-icons",
+      "status": "candidate",
+      "text": "Auto Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-icons",
+      "status": "candidate",
+      "text": "Auto Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marella/material-symbols",
+      "status": "candidate",
+      "text": "Auto Update"
     }
   ],
   "candidate_related_terms": [
@@ -236,11 +309,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/auto-update.yml",
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "countries/countries-data-yaml",
       "status": "candidate-context",
       "text": "Countries data - YAML"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Define complex geographic regions by including and excluding country codes and geojson shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "\ud83d\udccd\u27a1\ufe0f \ud83c\udde9\ud83c\uddf0 Convert longitude-latitude pairs to ISO 3166-1 codes quickly and locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "countries/countries-data-yaml",
       "status": "candidate",
       "text": "Countries data - YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/location-conflation",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/location-conflation/workflows/build/badge.svg)](https://github.com/rapideditor/location-conflation/actions?query=workflow%3A%22build%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/country-coder",
+      "status": "candidate",
+      "text": "[![build](https://github.com/rapideditor/country-coder/workflows/build/badge.svg)](https://github.com/rapideditor/country-coder/actions?query=workflow%3A%22build%22)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "countries/countries-data-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/location-conflation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/country-coder"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

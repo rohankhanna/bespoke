@@ -106,6 +106,30 @@
       "source_repo": "andyferris/Dictionaries.jl",
       "status": "candidate-context",
       "text": "Run benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate-context",
+      "text": "Benchmarks for apalache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate-context",
+      "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Run Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +180,18 @@
       "source_repo": "andyferris/Dictionaries.jl",
       "status": "candidate",
       "text": "Run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache-tests",
+      "status": "candidate",
+      "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate",
+      "text": "Run Benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +289,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "andyferris/Dictionaries.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/e2e-benchmark.yml",
+      "source_repo": "apify/fingerprint-suite"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

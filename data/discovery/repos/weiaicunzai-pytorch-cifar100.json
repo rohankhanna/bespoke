@@ -1,0 +1,281 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "weiaicunzai/bag_of_tricks_for_image_classification_with_convolutional_neural_networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "cifar100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "densenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "googlenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inception-resnet-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inceptionv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "inceptionv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "nasnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "resnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "shufflenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "squeezenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "wideresnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "target": "xception",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:32.278282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Practice on cifar100(ResNet, DenseNet, VGG, GoogleNet, InceptionV3, InceptionV4, Inception-ResNetv2, Xception, Resnet In Resnet, ResNext,ShuffleNet, ShuffleNetv2, MobileNet, MobileNetv2, SqueezeNet, NasNet, Residual Attention Network, SENet, WideResNet)",
+    "fork": false,
+    "full_name": "weiaicunzai/pytorch-cifar100",
+    "html_url": "https://github.com/weiaicunzai/pytorch-cifar100",
+    "language": "Python",
+    "pushed_at": "2024-07-15T16:58:28Z",
+    "stargazers_count": 4771,
+    "topics": [
+      "cifar100",
+      "deep-learning",
+      "densenet",
+      "googlenet",
+      "image-classification",
+      "inception-resnet-v2",
+      "inceptionv3",
+      "inceptionv4",
+      "mobilenet",
+      "nasnet",
+      "pytorch",
+      "resnet",
+      "resnext",
+      "shufflenet",
+      "squeezenet",
+      "wideresnet",
+      "xception"
+    ],
+    "updated_at": "2026-05-03T06:21:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiaicunzai/bag_of_tricks_for_image_classification_with_convolutional_neural_networks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cifar100"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "densenet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "googlenet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception-resnet-v2"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inceptionv3"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inceptionv4"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nasnet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnext"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shufflenet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squeezenet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wideresnet"
+    },
+    {
+      "context_snippet": "practice on cifar100 using pytorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xception"
+    }
+  ]
+}

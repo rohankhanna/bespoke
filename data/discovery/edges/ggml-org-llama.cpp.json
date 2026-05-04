@@ -4,7 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "scisharp/llamasharp",
+      "target": "shelbyjenkins/llm_client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "shenghaiwang/swiftllama",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
       "target": "oobabooga/text-generation-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ggml-org/llama.cpp",
-      "target": "semperai/amica",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "ggml-org/llama.cpp"
 }

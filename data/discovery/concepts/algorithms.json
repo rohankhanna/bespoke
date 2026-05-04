@@ -163,6 +163,18 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate-context",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "Overview"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "microsoft/ailab",
       "status": "candidate",
       "text": "AI Lab helps our large fast-growing community of developers get started on AI. You can experience, learn and code the latest and greatest innovations from Microsoft AI here. AI Lab currently houses eight projects that showcase the latest in custom vision, attnGAN, Visual Studio \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate",
+      "text": "Overview"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "microsoft/ailab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

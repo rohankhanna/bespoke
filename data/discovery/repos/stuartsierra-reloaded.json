@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stuartsierra/reloaded",
+      "target": "stuartsierra/component.repl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:37:57.086728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Leiningen 2 project template with tools.namespace, profiles, and user.clj",
+    "fork": false,
+    "full_name": "stuartsierra/reloaded",
+    "html_url": "https://github.com/stuartsierra/reloaded",
+    "language": "HTML",
+    "pushed_at": "2025-10-26T16:35:18Z",
+    "stargazers_count": 250,
+    "topics": [],
+    "updated_at": "2026-01-26T10:48:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stuartsierra/component.repl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

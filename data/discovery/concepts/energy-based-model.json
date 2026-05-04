@@ -19,6 +19,18 @@
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
       "status": "candidate-context",
       "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Implicit Behavioral Cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate-context",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
       "status": "candidate",
       "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kevinzakka/ibc",
+      "status": "candidate",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

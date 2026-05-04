@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "bonigarcia/webdrivermanager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "naudio/naudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "helix-toolkit/helix-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "markloughran/fctb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "codeeditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "dekstop-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "imagegeneration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "llamasharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "target": "webintegration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:20.929621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26d3\ufe0f\u200d\ud83d\udca5 VirtualPet is an all-in-one app that integrates features like AI-powered interactive offline chat, image generation, OCR capabilities, an AI-powered code editor, a built-in web browser, a mini video player, shortcut management, and access to public anime content for local viewing and much more, all within a seamless user interface.",
+    "fork": false,
+    "full_name": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+    "html_url": "https://github.com/AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+    "language": null,
+    "pushed_at": "2024-12-11T16:02:44Z",
+    "stargazers_count": 17,
+    "topics": [
+      "artificial-intelligence",
+      "codeeditor",
+      "dekstop-app",
+      "imagegeneration",
+      "llamasharp",
+      "ocr",
+      "webintegration"
+    ],
+    "updated_at": "2026-02-26T15:25:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonigarcia/webdrivermanager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helix-toolkit/helix-toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markloughran/fctb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naudio/naudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codeeditor"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dekstop-app"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagegeneration"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamasharp"
+    },
+    {
+      "context_snippet": "<p align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webintegration"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Write Release Notes"
+    "Write Release Notes",
+    "\ud83d\udcdd write release notes"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "dotnet/core",
       "status": "candidate-context",
       "text": "\"Write Release Notes\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udcdd write release notes\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "dotnet/core",
       "status": "candidate",
       "text": "\"Write Release Notes\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "\"\ud83d\udcdd write release notes\""
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/release-notes.lock.yml",
       "source_repo": "dotnet/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/write-release-notes.yml",
+      "source_repo": "saadeghi/daisyui"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

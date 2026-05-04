@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:29:21.268909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2025] Accelerating Diffusion Transformer via Increment-Calibrated with Channel-Aware Singular Value Decomposition",
+    "fork": false,
+    "full_name": "ccccczzy/icc",
+    "html_url": "https://github.com/ccccczzy/icc",
+    "language": "Python",
+    "pushed_at": "2025-05-14T05:47:15Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-13T21:56:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

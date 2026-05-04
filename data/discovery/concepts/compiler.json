@@ -799,6 +799,30 @@
       "source_repo": "ldc-developers/ldc",
       "status": "candidate-context",
       "text": "LDC \u2013 the LLVM-based D Compiler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Find in AST - Search and refactor code directly in Abstract Syntax Tree as you do with grep for strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/jonatas/fast.svg?branch=master)](https://travis-ci.org/jonatas/fast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate-context",
+      "text": "web development for the rest of us"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate-context",
+      "text": "<a href=\"https://svelte.dev\">"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1221,18 @@
       "source_repo": "ldc-developers/ldc",
       "status": "candidate",
       "text": "LDC \u2013 the LLVM-based D Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/jonatas/fast.svg?branch=master)](https://travis-ci.org/jonatas/fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/svelte",
+      "status": "candidate",
+      "text": "<a href=\"https://svelte.dev\">"
     }
   ],
   "candidate_related_terms": [
@@ -1813,11 +1849,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jonatas/fast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/svelte"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "block-torrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole-blocklists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pi-hole-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "pihole-torrent-blocklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-host-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sakib-m/Pi-hole-Torrent-Blocklist",
+      "target": "torrent-website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:41.668632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Torrent trackers and websites host files for Pi-hole.",
+    "fork": false,
+    "full_name": "sakib-m/Pi-hole-Torrent-Blocklist",
+    "html_url": "https://github.com/sakib-m/Pi-hole-Torrent-Blocklist",
+    "language": null,
+    "pushed_at": "2026-05-04T02:00:09Z",
+    "stargazers_count": 40,
+    "topics": [
+      "block-torrent",
+      "pi-hole",
+      "pi-hole-blocklists",
+      "pi-hole-lists",
+      "pihole-torrent-blocklist",
+      "torrent-host-files",
+      "torrent-tracker",
+      "torrent-website"
+    ],
+    "updated_at": "2026-05-04T02:00:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "block-torrent"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pi-hole"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pi-hole-blocklists"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pi-hole-lists"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pihole-torrent-blocklist"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent-host-files"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent-tracker"
+    },
+    {
+      "context_snippet": "Login to your Pi-Hole web interface, then go to `Group Management` > `Adlists`<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent-website"
+    }
+  ]
+}

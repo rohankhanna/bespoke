@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mjansson/rpmalloc",
+      "target": "mjansson/rpmalloc-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mjansson/rpmalloc",
+      "target": "embarkstudios/rpmalloc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc",
+      "target": "allocator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc",
+      "target": "thread",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:54.186554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C",
+    "fork": false,
+    "full_name": "mjansson/rpmalloc",
+    "html_url": "https://github.com/mjansson/rpmalloc",
+    "language": "Python",
+    "pushed_at": "2026-04-10T18:42:29Z",
+    "stargazers_count": 2441,
+    "topics": [
+      "allocator",
+      "concurrency",
+      "memory",
+      "thread"
+    ],
+    "updated_at": "2026-05-03T18:57:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/rpmalloc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mjansson/rpmalloc-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allocator"
+    },
+    {
+      "context_snippet": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread"
+    }
+  ]
+}

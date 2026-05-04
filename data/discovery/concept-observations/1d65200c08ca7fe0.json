@@ -48,7 +48,7 @@
   "normalized_form": "panic-hook",
   "observation_id": "1d65200c08ca7fe0",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "panic-hook",
   "source_context_snippet": "[![crates.io version][1]][2] [![build status][3]][4]",
   "source_file": null,

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples of Mock Service Worker usage with various frameworks and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049149,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049111,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047858,
+      "status": "candidate",
+      "text": "reaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043652,
+      "status": "candidate",
+      "text": "reception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049151,
+      "status": "candidate",
+      "text": "respond"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "response",
+      "sense_id": "response#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18053,
+      "status": "candidate",
+      "text": "answer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13041,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8039,
+      "status": "candidate",
+      "text": "reception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4054,
+      "status": "candidate",
+      "text": "reaction"
+    }
+  ],
+  "concept_id": "response",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "response",
+  "observation_id": "bc735c98b9d13e66",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "response",
+  "source_context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+  "source_file": null,
+  "source_repo": "mswjs/examples",
+  "source_repo_description": "Examples of Mock Service Worker usage with various frameworks and libraries."
+}

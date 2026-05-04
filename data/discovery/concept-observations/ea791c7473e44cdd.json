@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DenkiChip (\u3067\u3093\u304d\u30c1\u30c3\u30d7) is a compact and bold Japanese pixel font under SIL OFL 1.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892196,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892182,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891606,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789457,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661453,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "font",
+      "sense_id": "font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "baptismal font"
+    }
+  ],
+  "concept_id": "font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "font",
+  "observation_id": "ea791c7473e44cdd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "font",
+  "source_context_snippet": "![DenkiChip](documentation/x8y12pxDenkiChip.png)",
+  "source_file": null,
+  "source_repo": "hicchicc/x8y12pxDenkiChip",
+  "source_repo_description": "DenkiChip (\u3067\u3093\u304d\u30c1\u30c3\u30d7) is a compact and bold Japanese pixel font under SIL OFL 1.1"
+}

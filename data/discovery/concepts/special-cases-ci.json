@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Special Cases CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate-context",
+      "text": "GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying computing paradigm rather than sparse matrices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate-context",
+      "text": "Special Cases CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borglab/gtsam",
+      "status": "candidate",
+      "text": "Special Cases CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "circumstances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "epilepsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "outliers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26126,
+      "status": "candidate",
+      "text": "sometimes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Special Cases CI",
+  "concept_id": "special-cases-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-special.yml",
+      "source_repo": "borglab/gtsam"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Special Cases CI",
+      "sense_id": "special-cases-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Remove GitHub Action Old Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Remove GitHub Action Old Artifacts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45172,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44384,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34272,
+      "status": "candidate",
+      "text": "leach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33872,
+      "status": "candidate",
+      "text": "leaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33372,
+      "status": "candidate",
+      "text": "shave"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove GitHub Action Old Artifacts",
+      "sense_id": "remove-github-action-old-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "remove-github-action-old-artifacts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "remove-github-action-old-artifacts",
+  "observation_id": "987b38c80cf082bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Remove GitHub Action Old Artifacts",
+  "source_context_snippet": "Remove GitHub Action Old Artifacts",
+  "source_file": ".github/workflows/clean-action-artifacts.yml",
+  "source_repo": "cosmos/cosmos-sdk",
+  "source_repo_description": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+}

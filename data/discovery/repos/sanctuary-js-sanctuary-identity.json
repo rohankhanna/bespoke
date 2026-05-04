@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "sanctuary-show",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-type-classes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fantasy-land",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fantasy-laws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsverify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-def",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-type-identifiers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-useless",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-js/sanctuary-type-classes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-show",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-type-classes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "fantasy-land",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "fantasy-laws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "jsverify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-def",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-type-identifiers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary-useless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "fantasy-land",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-identity",
+      "target": "sanctuary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:38:24.589408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7434
+    },
+    {
+      "path": "package.json",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":rainbow: Fantasy Land -compliant Identity type",
+    "fork": false,
+    "full_name": "sanctuary-js/sanctuary-identity",
+    "html_url": "https://github.com/sanctuary-js/sanctuary-identity",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-27T10:30:24Z",
+    "stargazers_count": 29,
+    "topics": [
+      "fantasy-land",
+      "sanctuary"
+    ],
+    "updated_at": "2025-12-02T02:11:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-type-classes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fantasy-land"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/fantasyland/fantasy-land\"><img alt=\"Fantasy Land\" src=\"https://raw.githubusercontent.com/fantasyland/fantasy-land/master/logo.png\" width=\"75\" height=\"75\" align=\"left\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanctuary"
+    }
+  ]
+}

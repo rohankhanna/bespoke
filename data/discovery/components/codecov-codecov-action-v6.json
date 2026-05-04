@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v6",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1067,6 +1067,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "corteva/rioxarray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaSparse/SparseArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "MetaCubeX/metacubexd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pytroll/donfig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "geopandas/geopandas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-frontend-api.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-frontend.yml",
+      "source_repo": "umputun/remark42"
     }
   ]
 }

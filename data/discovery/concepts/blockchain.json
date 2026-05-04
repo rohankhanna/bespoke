@@ -778,6 +778,54 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": ":chains: A Framework for Building High Value Public Blockchains :sparkles:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust Protobuf definitions and gRPC clients for interacting with Cosmos SDK, IBC and Interchain Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "Cosmos Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
     }
   ],
   "candidate_glosses": [
@@ -1164,6 +1212,30 @@
       "source_repo": "left-curve/left-curve",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/cosmos-sdk",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
     }
   ],
   "candidate_related_terms": [
@@ -2161,11 +2233,77 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "left-curve/left-curve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/cosmos-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/gaia"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

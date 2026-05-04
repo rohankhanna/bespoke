@@ -1,0 +1,12 @@
+{
+  "component": "mozilla-it/deploy-actions/docker-push@4784cb70739a4f32ce010921f60fb1ebbc791a38",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "mozilla/pontoon"
+    }
+  ]
+}

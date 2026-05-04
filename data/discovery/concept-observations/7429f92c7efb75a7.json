@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf08\u4e00\u4e2a\u8de8\u5e73\u53f0\u7684\u5212\u8bcd\u7ffb\u8bd1\u548cOCR\u8f6f\u4ef6 | A cross-platform software for text translation and recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Package"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989800,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989692,
+      "status": "candidate",
+      "text": "packet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987798,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986790,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990204,
+      "status": "candidate",
+      "text": "packing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package",
+      "sense_id": "package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13057,
+      "status": "candidate",
+      "text": "bundle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6078,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2050,
+      "status": "candidate",
+      "text": "packet"
+    }
+  ],
+  "concept_id": "package",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package",
+  "observation_id": "7429f92c7efb75a7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Package",
+  "source_context_snippet": "Package",
+  "source_file": ".github/workflows/package.yml",
+  "source_repo": "pot-app/pot-desktop",
+  "source_repo_description": "\ud83c\udf08\u4e00\u4e2a\u8de8\u5e73\u53f0\u7684\u5212\u8bcd\u7ffb\u8bd1\u548cOCR\u8f6f\u4ef6 | A cross-platform software for text translation and recognition."
+}

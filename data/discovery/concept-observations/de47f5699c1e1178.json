@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge Event"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge Event"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "conjunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "meeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "merger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge Event",
+      "sense_id": "merge-event#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-event",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-event",
+  "observation_id": "de47f5699c1e1178",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Merge Event",
+  "source_context_snippet": "Merge Event",
+  "source_file": ".github/workflows/merged.yaml",
+  "source_repo": "certbot/certbot",
+  "source_repo_description": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+}

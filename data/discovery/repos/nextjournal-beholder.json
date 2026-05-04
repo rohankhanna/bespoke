@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nextjournal/beholder",
+      "target": "vouch-opensource/krell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nextjournal/beholder",
+      "target": "gmethvin/directory-watcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nextjournal/beholder",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nextjournal/beholder",
+      "target": "directory-watcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:14:48.645896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Clojure directory watcher from Krell as a standalone library.",
+    "fork": false,
+    "full_name": "nextjournal/beholder",
+    "html_url": "https://github.com/nextjournal/beholder",
+    "language": "Clojure",
+    "pushed_at": "2025-08-07T14:56:20Z",
+    "stargazers_count": 126,
+    "topics": [
+      "clojure",
+      "directory-watcher"
+    ],
+    "updated_at": "2026-02-26T16:36:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmethvin/directory-watcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vouch-opensource/krell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.nextjournal/beholder.svg)](https://clojars.org/com.nextjournal/beholder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.nextjournal/beholder.svg)](https://clojars.org/com.nextjournal/beholder)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directory-watcher"
+    }
+  ]
+}

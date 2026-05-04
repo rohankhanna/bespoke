@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "TLA+ PR Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLA+ PR Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate",
+      "text": "TLA+ PR Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15340,
+      "status": "candidate",
+      "text": "imo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14290,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14290,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14290,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14290,
+      "status": "candidate",
+      "text": "charges"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "TLA+ PR Validation",
+  "concept_id": "tla-pr-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "TLA+ PR Validation",
+      "sense_id": "tla-pr-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

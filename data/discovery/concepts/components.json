@@ -199,6 +199,42 @@
       "source_repo": "stephenlacy/daz",
       "status": "candidate-context",
       "text": "> Composable HTML components in Golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "Sandbox for developing and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "stephenlacy/daz",
       "status": "candidate",
       "text": "> Composable HTML components in Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_related_terms": [
@@ -574,11 +628,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "carbon-design-system/carbon-icons-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "stephenlacy/daz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-cosmos/react-cosmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "saadeghi/daisyui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

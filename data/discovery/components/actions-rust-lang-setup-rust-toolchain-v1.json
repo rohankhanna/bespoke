@@ -1,7 +1,7 @@
 {
   "component": "actions-rust-lang/setup-rust-toolchain@v1",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -662,6 +662,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "datafuse-extras/async-compression"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-doc.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide-templates.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "informalsystems/basecoin-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "informalsystems/basecoin-rs"
     }
   ]
 }

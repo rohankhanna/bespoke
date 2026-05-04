@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-binary-files-mirror",
+      "target": "opencidn/httpmirror",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:27.948332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5f88\u591a binary \u6587\u4ef6 \u90fd\u5728\u56fd\u5916\u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002",
+    "fork": false,
+    "full_name": "DaoCloud/public-binary-files-mirror",
+    "html_url": "https://github.com/DaoCloud/public-binary-files-mirror",
+    "language": null,
+    "pushed_at": "2025-11-21T08:49:10Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-18T01:26:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencidn/httpmirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "bioconda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "long-read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "mapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "next-generation-sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "oxford-nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "pacbio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "philres/ngmlr",
+      "target": "structural-variations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:27.157138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NGMLR is a long-read mapper designed to align PacBio or Oxford Nanopore (standard and ultra-long) to a reference genome with a focus on reads that span structural variations",
+    "fork": false,
+    "full_name": "philres/ngmlr",
+    "html_url": "https://github.com/philres/ngmlr",
+    "language": "C++",
+    "pushed_at": "2024-03-18T10:35:42Z",
+    "stargazers_count": 309,
+    "topics": [
+      "alignment",
+      "bioconda",
+      "docker",
+      "long-read",
+      "mapper",
+      "next-generation-sequencing",
+      "oxford-nanopore",
+      "pacbio",
+      "structural-variations"
+    ],
+    "updated_at": "2026-04-28T20:34:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioconda"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-read"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapper"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "next-generation-sequencing"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oxford-nanopore"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    },
+    {
+      "context_snippet": "Download [binary](https://github.com/philres/ngmlr/releases/tag/v0.2.6) from github and unzip or [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ngmlr/README.html) or pull docker\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structural-variations"
+    }
+  ]
+}

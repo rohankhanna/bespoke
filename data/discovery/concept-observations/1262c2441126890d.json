@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Creepy device and browser fingerprinting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003587,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933634,
+      "status": "candidate",
+      "text": "gimmick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047580,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047571,
+      "status": "candidate",
+      "text": "machinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047567,
+      "status": "candidate",
+      "text": "apparatus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "device",
+      "sense_id": "device#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24062,
+      "status": "candidate",
+      "text": "twist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7034,
+      "status": "candidate",
+      "text": "gimmick"
+    }
+  ],
+  "concept_id": "device",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "device",
+  "observation_id": "1262c2441126890d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "device",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "abrahamjuliot/creepjs",
+  "source_repo_description": "Creepy device and browser fingerprinting"
+}

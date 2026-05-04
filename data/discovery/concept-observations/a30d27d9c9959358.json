@@ -48,7 +48,7 @@
   "normalized_form": "build-template",
   "observation_id": "a30d27d9c9959358",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "build-template",
   "source_context_snippet": "build-template",
   "source_file": ".github/workflows/build.yml",

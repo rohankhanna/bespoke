@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/doc-preview.yaml",
+      "source_repo": "opendatacube/datacube-core"
+    }
+  ],
+  "term": "Post RTD Preview Link to PRs"
+}

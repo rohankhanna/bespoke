@@ -265,6 +265,30 @@
       "source_repo": "gradle-nexus/publish-plugin",
       "status": "candidate-context",
       "text": "[![CI Status](https://github.com/gradle-nexus/publish-plugin/workflows/CI/badge.svg)](https://github.com/gradle-nexus/publish-plugin/actions?workflow=CI) [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io.github.gradle-nexus/publish-p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-based Host Blocker (and lightweight ad blocker) for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Integrates the JMH benchmarking framework with Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +423,18 @@
       "source_repo": "gradle-nexus/publish-plugin",
       "status": "candidate",
       "text": "[![CI Status](https://github.com/gradle-nexus/publish-plugin/workflows/CI/badge.svg)](https://github.com/gradle-nexus/publish-plugin/actions?workflow=CI) [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io.github.gradle-nexus/publish-p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melix/jmh-gradle-plugin",
+      "status": "candidate",
+      "text": "Main"
     }
   ],
   "candidate_related_terms": [
@@ -616,11 +652,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "smithy-lang/smithy-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "smithy-lang/smithy-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "melix/jmh-gradle-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

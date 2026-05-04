@@ -84,7 +84,7 @@
   "normalized_form": "middleware",
   "observation_id": "ddefe8f00570696b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "middleware",
   "source_context_snippet": "[![Go Version](https://img.shields.io/github/go-mod/go-version/casbin/fasthttp-auth)](https://go.dev/)",
   "source_file": null,

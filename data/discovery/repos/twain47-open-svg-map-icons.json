@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:31:28.689377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 0
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PD/CC0 SVG map icons and tools to generate png icons.",
+    "fork": false,
+    "full_name": "twain47/Open-SVG-Map-Icons",
+    "html_url": "https://github.com/twain47/Open-SVG-Map-Icons",
+    "language": "Shell",
+    "pushed_at": "2022-08-09T11:08:12Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2026-02-25T18:14:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "choubo/deviation-network-image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "guansongpang/anomaly-detection-datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "semi-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network",
+      "target": "weakly-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:32:57.152349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection",
+    "fork": false,
+    "full_name": "GuansongPang/deviation-network",
+    "html_url": "https://github.com/GuansongPang/deviation-network",
+    "language": "Python",
+    "pushed_at": "2021-08-05T00:21:27Z",
+    "stargazers_count": 154,
+    "topics": [
+      "anomaly-detection",
+      "deep-learning",
+      "few-shot-learning",
+      "outlier-detection",
+      "semi-supervised-learning",
+      "weakly-supervised-learning"
+    ],
+    "updated_at": "2026-04-08T16:57:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "choubo/deviation-network-image",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guansongpang/anomaly-detection-datasets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-detection"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semi-supervised-learning"
+    },
+    {
+      "context_snippet": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-learning"
+    }
+  ]
+}

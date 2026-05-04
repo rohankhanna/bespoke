@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeffacce/play-to-policy",
+      "target": "google-research/relay-policy-learning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:52.354696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "From Play to Policy: Conditional Behavior Generation from Uncurated Robot Data",
+    "fork": false,
+    "full_name": "jeffacce/play-to-policy",
+    "html_url": "https://github.com/jeffacce/play-to-policy",
+    "language": "Python",
+    "pushed_at": "2023-03-01T18:51:58Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2025-11-13T07:22:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/relay-policy-learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

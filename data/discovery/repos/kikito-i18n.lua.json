@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kikito/i18n.lua",
+      "target": "olivine-labs/busted",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:25:24.762516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A very complete i18n lib for Lua",
+    "fork": false,
+    "full_name": "kikito/i18n.lua",
+    "html_url": "https://github.com/kikito/i18n.lua",
+    "language": "Lua",
+    "pushed_at": "2022-11-10T07:03:52Z",
+    "stargazers_count": 271,
+    "topics": [],
+    "updated_at": "2026-04-26T12:15:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olivine-labs/busted",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

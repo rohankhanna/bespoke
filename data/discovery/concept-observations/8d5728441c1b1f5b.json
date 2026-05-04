@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a solidity implementation of IBC v2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "e2e-minimal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "e2e-minimal"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "e2e-minimal",
+      "sense_id": "e2e-minimal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2e-minimal",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2e-minimal",
+  "observation_id": "8d5728441c1b1f5b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "e2e-minimal",
+  "source_context_snippet": "e2e-minimal",
+  "source_file": ".github/workflows/e2e-minimal.yml",
+  "source_repo": "cosmos/solidity-ibc-eureka",
+  "source_repo_description": "This is a solidity implementation of IBC v2."
+}

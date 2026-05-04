@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:37:28.118746+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "flukexp/llama-piper-go",
+    "html_url": "https://github.com/flukexp/llama-piper-go",
+    "language": "Batchfile",
+    "pushed_at": "2024-09-17T09:57:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-09-17T09:56:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

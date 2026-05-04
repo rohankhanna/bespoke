@@ -139,6 +139,18 @@
       "source_repo": "nix-community/dream2nix",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "Specification for the Workflow Description Language (WDL)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate-context",
+      "text": "<div style=\"align: center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "nix-community/dream2nix",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openwdl/wdl",
+      "status": "candidate",
+      "text": "<div style=\"align: center\">"
     }
   ],
   "candidate_related_terms": [
@@ -324,11 +342,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "nix-community/dream2nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openwdl/wdl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

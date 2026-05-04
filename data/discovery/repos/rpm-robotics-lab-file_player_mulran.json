@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RPM-Robotics-Lab/file_player_mulran",
+      "target": "irapkaist/file_player_mulran",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:27.476368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "File Player for MulRan Dataset",
+    "fork": false,
+    "full_name": "RPM-Robotics-Lab/file_player_mulran",
+    "html_url": "https://github.com/RPM-Robotics-Lab/file_player_mulran",
+    "language": "C++",
+    "pushed_at": "2025-04-29T00:58:51Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-22T02:07:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/file_player_mulran",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

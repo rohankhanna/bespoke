@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!---->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!---->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29063076,
+      "status": "candidate",
+      "text": "dally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29025164,
+      "status": "candidate",
+      "text": "surrealist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28032532,
+      "status": "candidate",
+      "text": "daly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28002900,
+      "status": "candidate",
+      "text": "daley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19540684,
+      "status": "candidate",
+      "text": "grenadilla"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dali",
+      "sense_id": "dali#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dali",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dali",
+  "observation_id": "600094e2ff563006",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "dali",
+  "source_context_snippet": "<!---->",
+  "source_file": null,
+  "source_repo": "triton-inference-server/dali_backend",
+  "source_repo_description": "The Triton backend that allows running GPU-accelerated data pre-processing pipelines implemented in DALI's python API."
+}

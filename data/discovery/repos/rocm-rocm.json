@@ -60,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:00:22.747288+00:00",
+  "fetched_at": "2026-05-04T11:29:33.525513+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,11 +85,11 @@
     "html_url": "https://github.com/ROCm/ROCm",
     "language": "Shell",
     "pushed_at": "2026-04-28T16:24:55Z",
-    "stargazers_count": 6448,
+    "stargazers_count": 6447,
     "topics": [
       "documentation"
     ],
-    "updated_at": "2026-05-03T21:45:14Z"
+    "updated_at": "2026-05-04T11:08:19Z"
   },
   "repo_links": [],
   "terms": [

@@ -934,6 +934,54 @@
       "source_repo": "zarr-developers/numcodecs",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "\ud83d\udcaf  Teach puppeteer new tricks through plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "\u2728 Jest matcher for image comparisons. Most commonly used for visual regression testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1402,6 +1450,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zarr-developers/numcodecs",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oauth2-proxy/oauth2-proxy",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "berstend/puppeteer-extra",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-image-snapshot",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -1999,11 +2071,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "google/comprehensive-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "berstend/puppeteer-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "americanexpress/jest-image-snapshot"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

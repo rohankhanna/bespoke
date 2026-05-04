@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "native-windows-gui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "A light windows GUI toolkit for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate-context",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gabdube/native-windows-gui",
+      "status": "candidate",
+      "text": "[workspace] members = [ \"native-windows-gui\", \"native-windows-derive\", \"native-windows-canvas\", \"native-windows-gui/examples/opengl_canvas\", \"native-windows-gui/examples/embed_resources\", \"native-windows-gui/examples/sync-draw\", \"native-windows-gui/examples/wgpu_canvas\", \"native\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "native-windows-gui",
+  "concept_id": "native-windows-gui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gabdube/native-windows-gui"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "native-windows-gui",
+      "sense_id": "native-windows-gui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

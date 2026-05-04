@@ -67,6 +67,18 @@
       "source_repo": "cleanlab/examples",
       "status": "candidate-context",
       "text": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "A curated, but incomplete, list of data-centric AI resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "cleanlab/examples",
       "status": "candidate",
       "text": "This repo contains code examples of how to use [cleanlab](https://github.com/cleanlab/cleanlab) with specific real-world models/datasets, how its underlying algorithms work, how to get better results via advanced functionality, and how to train certain models used in some cleanl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +238,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

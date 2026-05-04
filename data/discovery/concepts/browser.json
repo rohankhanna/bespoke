@@ -754,6 +754,42 @@
       "source_repo": "mixmark-io/turndown",
       "status": "candidate-context",
       "text": "Convert HTML into Markdown with JavaScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "Ghostery Desktop Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "A browser based code editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "A Node.js tool to automate end-to-end web testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1128,6 +1164,24 @@
       "source_repo": "mixmark-io/turndown",
       "status": "candidate",
       "text": "Convert HTML into Markdown with JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevExpress/testcafe",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2031,11 +2085,77 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monaco-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

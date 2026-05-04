@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v5",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -487,6 +487,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fork-build.yml",
       "source_repo": "PDFMathTranslate/PDFMathTranslate-next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "isciences/exactextract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nelson_module.yml",
+      "source_repo": "nelson-lang/module_skeleton_basic"
     }
   ]
 }

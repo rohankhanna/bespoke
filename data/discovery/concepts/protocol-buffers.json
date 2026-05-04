@@ -295,6 +295,18 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate-context",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/protozero",
+      "status": "candidate-context",
+      "text": "Minimalist protocol buffer decoder and encoder in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/protozero",
+      "status": "candidate-context",
+      "text": "Minimalistic protocol buffer decoder and encoder in C++."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/protozero",
+      "status": "candidate",
+      "text": "Minimalistic protocol buffer decoder and encoder in C++."
     }
   ],
   "candidate_related_terms": [],
@@ -712,11 +730,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/protozero"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "Jigsaw-Code/Intra",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "Jigsaw-Code/Intra",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go_test.yml",
+      "source_repo": "Jigsaw-Code/Intra",
+      "target": "Go Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:39.349635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 904
+    },
+    {
+      "path": "go.mod",
+      "size": 709
+    },
+    {
+      "path": ".github/workflows/go_test.yml",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An experimental tool that allows you to test new DNS-over-HTTPS services on Android",
+    "fork": false,
+    "full_name": "Jigsaw-Code/Intra",
+    "html_url": "https://github.com/Jigsaw-Code/Intra",
+    "language": "Java",
+    "pushed_at": "2025-11-19T23:57:17Z",
+    "stargazers_count": 2078,
+    "topics": [],
+    "updated_at": "2026-05-03T09:16:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go_test.yml",
+      "term": "Go Test"
+    }
+  ]
+}

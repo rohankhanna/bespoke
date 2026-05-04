@@ -253,6 +253,18 @@
       "source_repo": "FWHP-Enfun/Mixed-VsWeKai",
       "status": "candidate-context",
       "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "Deploy static content to Pages"
     }
   ],
   "candidate_glosses": [
@@ -379,6 +391,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FWHP-Enfun/Mixed-VsWeKai",
+      "status": "candidate",
+      "text": "Deploy static content to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
       "status": "candidate",
       "text": "Deploy static content to Pages"
     }
@@ -550,11 +568,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/static.yml",
       "source_repo": "FWHP-Enfun/Mixed-VsWeKai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "mikepenz/AboutLibraries"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

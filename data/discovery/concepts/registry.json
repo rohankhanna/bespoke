@@ -175,6 +175,12 @@
       "source_repo": "npm/types",
       "status": "candidate-context",
       "text": "Typescript definitions for npm registry endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate-context",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +267,12 @@
       "source_repo": "npm/types",
       "status": "candidate",
       "text": "Typescript definitions for npm registry endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenCIDN/ocimirror",
+      "status": "candidate",
+      "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
     }
   ],
   "candidate_related_terms": [
@@ -594,11 +606,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenCIDN/ocimirror"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

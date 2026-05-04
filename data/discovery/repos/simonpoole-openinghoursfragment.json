@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "android-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/OpeningHoursFragment",
+      "target": "openstreetmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:32:05.409674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3366
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Android UI element for  displaying and editing an opening hours value",
+    "fork": false,
+    "full_name": "simonpoole/OpeningHoursFragment",
+    "html_url": "https://github.com/simonpoole/OpeningHoursFragment",
+    "language": "Java",
+    "pushed_at": "2026-04-20T14:48:48Z",
+    "stargazers_count": 10,
+    "topics": [
+      "android-library",
+      "openstreetmap"
+    ],
+    "updated_at": "2026-04-20T14:48:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-library"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/OpeningHoursFragment/actions/workflows/android.yml/badge.svg)](https://github.com/simonpoole/OpeningHoursFragment/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=OpeningHoursFragment%3Alib&m\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    }
+  ]
+}

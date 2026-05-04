@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mdbook-plugins",
+      "sense_id": "mdbook-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mdbook-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mdbook-plugins",
+  "observation_id": "a475ec800cabc065",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "mdbook-plugins",
+  "source_context_snippet": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg.",
+  "source_file": null,
+  "source_repo": "boozook/mdbook-svgbob",
+  "source_repo_description": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+}

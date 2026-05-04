@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dependency Diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dependency Diff"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15524,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "affinity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14204,
+      "status": "candidate",
+      "text": "abvolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14204,
+      "status": "candidate",
+      "text": "age"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Diff",
+      "sense_id": "dependency-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dependency-diff",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dependency-diff",
+  "observation_id": "0d97a09938ffb6a6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Dependency Diff",
+  "source_context_snippet": "Dependency Diff",
+  "source_file": ".github/workflows/dependency-diff.yml",
+  "source_repo": "azat-io/eslint-plugin-de-morgan",
+  "source_repo_description": "\ud83e\uddf5 ESLint plugin for transforming negated boolean expressions via De\u00a0Morgan\u2019s laws"
+}

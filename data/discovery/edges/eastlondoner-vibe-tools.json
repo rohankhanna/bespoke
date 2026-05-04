@@ -9,6 +9,20 @@
     },
     {
       "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eastlondoner/vibe-tools",
+      "target": "kait-http/kaito",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eastlondoner/vibe-tools",
+      "target": "username/repo-name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "eastlondoner/vibe-tools",
       "target": "eastlondoner/cursor-tools",
@@ -239,6 +253,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "eastlondoner/vibe-tools"
 }

@@ -139,6 +139,18 @@
       "source_repo": "LedgerHQ/ledger-secure-sdk",
       "status": "candidate-context",
       "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
+      "status": "candidate-context",
+      "text": "fast-cpp-csv-parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite PR fuzzing"
     }
   ],
   "candidate_glosses": [
@@ -205,6 +217,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LedgerHQ/ledger-secure-sdk",
+      "status": "candidate",
+      "text": "ClusterFuzzLite PR fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser",
       "status": "candidate",
       "text": "ClusterFuzzLite PR fuzzing"
     }
@@ -316,11 +334,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/cflite_pr.yml",
       "source_repo": "LedgerHQ/ledger-secure-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/cflite_pr.yml",
+      "source_repo": "ben-strasser/fast-cpp-csv-parser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpf.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpf.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "tlaplus/vscode-tlaplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "Performance Tests TLC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "TLA+ PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-jpf.yml",
+      "source_repo": "tlaplus/tlaplus",
+      "target": "TLC JPF Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "model-checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "specifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tlaplus/tlaplus",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:24:01.943114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3249
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 22234
+    },
+    {
+      "path": ".github/workflows/perf.yml",
+      "size": 2763
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 14420
+    },
+    {
+      "path": ".github/workflows/rrsync-inria.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/test-jpf.yml",
+      "size": 1443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   ",
+    "fork": false,
+    "full_name": "tlaplus/tlaplus",
+    "html_url": "https://github.com/tlaplus/tlaplus",
+    "language": "Java",
+    "pushed_at": "2026-04-29T17:10:19Z",
+    "stargazers_count": 2892,
+    "topics": [
+      "algorithms",
+      "high-performance",
+      "java",
+      "mit-license",
+      "model-checking",
+      "specifications",
+      "tla",
+      "verification"
+    ],
+    "updated_at": "2026-05-04T05:38:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/vscode-tlaplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Performance Tests TLC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf.yml",
+      "term": "Performance Tests TLC"
+    },
+    {
+      "context_snippet": "TLA+ PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "TLA+ PR Validation"
+    },
+    {
+      "context_snippet": "TLC JPF Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-jpf.yml",
+      "term": "TLC JPF Tests"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-checking"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specifications"
+    },
+    {
+      "context_snippet": "Overview",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

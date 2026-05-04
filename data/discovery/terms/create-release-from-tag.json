@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "aws-cloudformation/cloudformation-pkl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create_release_from_tag.yml",
+      "source_repo": "appsignal/appsignal-ruby"
     }
   ],
   "term": "Create release from tag"

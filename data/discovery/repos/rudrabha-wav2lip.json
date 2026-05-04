@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rudrabha/Wav2Lip",
+      "target": "r9y9/deepvoice3_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:56.887404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16998
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains the codes of \"A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild\", published at ACM Multimedia 2020. For HD commercial model, please try out Sync Labs ",
+    "fork": false,
+    "full_name": "Rudrabha/Wav2Lip",
+    "html_url": "https://github.com/Rudrabha/Wav2Lip",
+    "language": "Python",
+    "pushed_at": "2025-06-22T02:41:21Z",
+    "stargazers_count": 12963,
+    "topics": [],
+    "updated_at": "2026-05-03T17:07:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r9y9/deepvoice3_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bspeice/dtparse",
+      "target": "dateutil/dateutil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bspeice/dtparse",
+      "target": "dateutil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bspeice/dtparse",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bspeice/dtparse",
+      "target": "rust-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:17:27.186231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dateutil-compatible timestamp parser for Rust",
+    "fork": false,
+    "full_name": "bspeice/dtparse",
+    "html_url": "https://github.com/bspeice/dtparse",
+    "language": "Rust",
+    "pushed_at": "2024-08-19T01:18:06Z",
+    "stargazers_count": 52,
+    "topics": [
+      "dateutil",
+      "rust",
+      "rust-library"
+    ],
+    "updated_at": "2025-09-09T12:38:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dateutil/dateutil",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dateutil"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/dtparse.svg)](https://crates.io/crates/dtparse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    }
+  ]
+}

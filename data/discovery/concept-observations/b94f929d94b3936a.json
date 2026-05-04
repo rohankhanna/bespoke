@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Implementation of EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch implementation of:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch implementation of:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965823,
+      "status": "candidate",
+      "text": "motoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39877700,
+      "status": "candidate",
+      "text": "dynamical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872772,
+      "status": "candidate",
+      "text": "dynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851732,
+      "status": "candidate",
+      "text": "impulsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39817745,
+      "status": "candidate",
+      "text": "energetic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "driving",
+      "sense_id": "driving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 74055,
+      "status": "candidate",
+      "text": "dynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30070,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "impulsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22034,
+      "status": "candidate",
+      "text": "energetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "dynamical"
+    }
+  ],
+  "concept_id": "driving",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "driving",
+  "observation_id": "b94f929d94b3936a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "driving",
+  "source_context_snippet": "PyTorch implementation of:",
+  "source_file": null,
+  "source_repo": "NVlabs/EmerNeRF",
+  "source_repo_description": "PyTorch Implementation of EmerNeRF: Emergent Spatial-Temporal Scene Decomposition via Self-Supervision"
+}

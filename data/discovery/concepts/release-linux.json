@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "release Linux"
+    "release Linux",
+    "Release Linux"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "2dust/v2rayN",
       "status": "candidate-context",
       "text": "release Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Mapnik is an open source toolkit for developing mapping applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate-context",
+      "text": "Release Linux"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "2dust/v2rayN",
       "status": "candidate",
       "text": "release Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapnik/mapnik",
+      "status": "candidate",
+      "text": "Release Linux"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "mapnik/mapnik"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

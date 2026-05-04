@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:48.390494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3388
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Comparison between Frechet Video Distance implementation from StyleGAN-V and the original paper",
+    "fork": false,
+    "full_name": "universome/fvd-comparison",
+    "html_url": "https://github.com/universome/fvd-comparison",
+    "language": "Python",
+    "pushed_at": "2025-01-09T22:03:12Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-04-26T16:41:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

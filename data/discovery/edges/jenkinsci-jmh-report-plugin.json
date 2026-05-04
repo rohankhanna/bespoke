@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins-infra/jenkins-security-scan/.github/workflows/jenkins-security-scan.yaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "Jenkins Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jenkins-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "target": "jmh-visualizer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "jenkinsci/jmh-report-plugin"
+}

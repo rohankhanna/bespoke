@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cssnano",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/gauge_legend",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/gauge_legend",
+      "target": "cssnano",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/gauge_legend",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/gauge_legend",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AbelVM/gauge_legend",
+      "target": "terser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:29.868897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3438
+    },
+    {
+      "path": "package.json",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This simple control adds a dynamic legend component to a MapLibre GL map, where, for a given layer and property, the average value of this property for the features currently rendered is displayed and a tick points to its position in the gauge scale.",
+    "fork": false,
+    "full_name": "AbelVM/gauge_legend",
+    "html_url": "https://github.com/AbelVM/gauge_legend",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-27T19:49:56Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-20T03:45:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

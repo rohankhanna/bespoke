@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:39:02.316999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code Release for MViTv2 on Image Recognition.",
+    "fork": false,
+    "full_name": "facebookresearch/mvit",
+    "html_url": "https://github.com/facebookresearch/mvit",
+    "language": "Python",
+    "pushed_at": "2024-11-26T10:49:15Z",
+    "stargazers_count": 455,
+    "topics": [],
+    "updated_at": "2026-04-29T14:04:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "test-pnp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "Sandbox for developing and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "test-pnp"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate",
+      "text": "test-pnp"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "test-pnp",
+  "concept_id": "test-pnp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-pnp.yml",
+      "source_repo": "react-cosmos/react-cosmos"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test-pnp",
+      "sense_id": "test-pnp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> University1652-Baseline </h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39194608,
+      "status": "candidate",
+      "text": "dawdler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39168327,
+      "status": "candidate",
+      "text": "drone on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39155638,
+      "status": "candidate",
+      "text": "laggard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39152882,
+      "status": "candidate",
+      "text": "monotone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39095974,
+      "status": "candidate",
+      "text": "bourdon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drone",
+      "sense_id": "drone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31032,
+      "status": "candidate",
+      "text": "laggard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13037,
+      "status": "candidate",
+      "text": "monotone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "droning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5021,
+      "status": "candidate",
+      "text": "dawdler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4017,
+      "status": "candidate",
+      "text": "drone on"
+    }
+  ],
+  "concept_id": "drone",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "drone",
+  "observation_id": "e0206f9f7ef06268",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "drone",
+  "source_context_snippet": "<h1 align=\"center\"> University1652-Baseline </h1>",
+  "source_file": null,
+  "source_repo": "layumi/University1652-Baseline",
+  "source_repo_description": "ACM Multimedia2020 University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization :helicopter: annotates 1652 buildings in 72 universities around the world."
+}

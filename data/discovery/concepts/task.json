@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,18 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Ansible Language Server codebase is now included in vscode-ansible repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "task"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +59,12 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate",
+      "text": "task"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +156,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/task.yml",
+      "source_repo": "ansible/ansible-language-server"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

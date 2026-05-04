@@ -31,6 +31,18 @@
       "source_repo": "abey79/vpype-pixelart",
       "status": "candidate-context",
       "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "status": "candidate-context",
+      "text": "DenkiChip (\u3067\u3093\u304d\u30c1\u30c3\u30d7) is a compact and bold Japanese pixel font under SIL OFL 1.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "status": "candidate-context",
+      "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "abey79/vpype-pixelart",
       "status": "candidate",
       "text": "[_vpype_](https://github.com/abey79/vpype) plug-in to plot pixel art."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hicchicc/x8y12pxDenkiChip",
+      "status": "candidate",
+      "text": "![DenkiChip](documentation/x8y12pxDenkiChip.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "abey79/vpype-pixelart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hicchicc/x8y12pxDenkiChip"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

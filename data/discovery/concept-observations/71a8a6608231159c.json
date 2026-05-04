@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Expose the file system on the user\u2019s device, so Web apps can interoperate with the user\u2019s native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shipping-chromium",
+      "sense_id": "shipping-chromium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shipping-chromium",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shipping-chromium",
+  "observation_id": "71a8a6608231159c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "shipping-chromium",
+  "source_context_snippet": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/).",
+  "source_file": null,
+  "source_repo": "WICG/file-system-access",
+  "source_repo_description": "Expose the file system on the user\u2019s device, so Web apps can interoperate with the user\u2019s native applications."
+}

@@ -1864,6 +1864,162 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial written in Rust using Ash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "![][8]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-android",
+      "status": "candidate-context",
+      "text": "Processing mode and core library to create Android apps with Processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-android",
+      "status": "candidate-context",
+      "text": "Processing for Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate-context",
+      "text": "Audio library for Processing built with JSyn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/processing/processing-sound?sort=semver)](https://github.com/processing/processing-sound/releases) ![License](https://img.shields.io/github/license/processing/processing-sound) [![Documentation](https://img.shields.io/badge/Doc\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "AdAway is a free and open source ad blocker for Android. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-based Host Blocker (and lightweight ad blocker) for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate-context",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "The official repo for Blokada apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate-context",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "Development environment for Android Jetpack extension libraries under the androidx namespace. Synchronized with Android Jetpack's primary development branch on AOSP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate-context",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate-context",
+      "text": "Material Design icons by Google (Material Symbols)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate-context",
+      "text": "These are two different official icon sets from Google, using the same underlying designs. Material Symbols is the current set, introduced in April 2022, built on variable font technology. Material Icons is the classic set, but no longer updated. More details below."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "AboutLibraries automatically collects all dependencies and licenses of any gradle project (Kotlin MultiPlatform), and provides easy to integrate UI components for Android and Compose Multiplatform environments "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate-context",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "[![Build workflow](https://img.shields.io/github/actions/workflow/status/google/comprehensive-rust/build.yml?style=flat-square)](https://github.com/google/comprehensive-rust/actions/workflows/build.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Userspace wireguard and network monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Firestack is a userspace TCP/UDP connection monitor, firewall, DNS resolver, and multi-hop [WireGuard](https://github.com/wireguard/wireguard-go) client for Android."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "The flexible, easy to use, all in one drawer library for your Android project. Now brand new with material 2 design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate-context",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
     }
   ],
   "candidate_glosses": [
@@ -2814,6 +2970,84 @@
       "source_repo": "pixielabs/cavy-cli",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate",
+      "text": "![][8]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-android",
+      "status": "candidate",
+      "text": "Processing for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/processing/processing-sound?sort=semver)](https://github.com/processing/processing-sound/releases) ![License](https://img.shields.io/github/license/processing/processing-sound) [![Documentation](https://img.shields.io/badge/Doc\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julian-klode/dns66",
+      "status": "candidate",
+      "text": "DNS-Based Host Blocking for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blokadaorg/blokada",
+      "status": "candidate",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "A [WireGuard](https://github.com/wireguard/wireguard-go) client, an [OpenSnitch](https://github.com/evilsocket/opensnitch)-inspired firewall and network monitor + a [pi-hole](https://github.com/pi-hole/pi-hole)-inspired DNS over HTTPS, DNS over TLS, DNSCrypt client with blocklis\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "androidx/androidx",
+      "status": "candidate",
+      "text": "[![Revved up by Develocity](https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&labelColor=02303A)](https://androidx.develocity.cloud)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/material-design-icons",
+      "status": "candidate",
+      "text": "These are two different official icon sets from Google, using the same underlying designs. Material Symbols is the current set, introduced in April 2022, built on variable font technology. Material Icons is the classic set, but no longer updated. More details below."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/AboutLibraries",
+      "status": "candidate",
+      "text": "<!-- Badges -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate",
+      "text": "[![Build workflow](https://img.shields.io/github/actions/workflow/status/google/comprehensive-rust/build.yml?style=flat-square)](https://github.com/google/comprehensive-rust/actions/workflows/build.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate",
+      "text": "Firestack is a userspace TCP/UDP connection monitor, firewall, DNS resolver, and multi-hop [WireGuard](https://github.com/wireguard/wireguard-go) client for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikepenz/MaterialDrawer",
+      "status": "candidate",
+      "text": "... the flexible, easy to use, all in one drawer library for your Android project."
     }
   ],
   "candidate_related_terms": [
@@ -4222,11 +4456,143 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-sound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "julian-klode/dns66"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "blokadaorg/blokada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "androidx/androidx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/material-design-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/AboutLibraries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google/comprehensive-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "celzero/firestack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kool-engine/kool"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "hoverkraft-tech/compose-action@4894d2492015c1774ee5a13a95b1072093087ec3",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "xtdb/xtdb"
+    }
+  ]
+}

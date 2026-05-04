@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "megvii-research/AnchorDETR",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "megvii-research/AnchorDETR",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:25:34.740763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3771
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An official implementation of the Anchor DETR.",
+    "fork": false,
+    "full_name": "megvii-research/AnchorDETR",
+    "html_url": "https://github.com/megvii-research/AnchorDETR",
+    "language": "Python",
+    "pushed_at": "2022-07-29T06:39:17Z",
+    "stargazers_count": 362,
+    "topics": [],
+    "updated_at": "2026-04-30T12:55:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

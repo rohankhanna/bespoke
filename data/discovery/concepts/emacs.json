@@ -733,6 +733,30 @@
       "source_repo": "corgi-emacs/corgi",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manateelazycat/lsp-bridge",
+      "status": "candidate-context",
+      "text": "A blazingly fast LSP client for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manateelazycat/lsp-bridge",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
     }
   ],
   "candidate_glosses": [
@@ -1101,6 +1125,18 @@
       "source_repo": "corgi-emacs/corgi",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"200\" src=\"logo/corgi_icon.webp\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manateelazycat/lsp-bridge",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
     }
   ],
   "candidate_related_terms": [
@@ -1570,11 +1606,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "corgi-emacs/corgi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "manateelazycat/lsp-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/radian"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -69,6 +69,18 @@
       "source_repo": "sophus-vision/sophus-rs",
       "status": "candidate-context",
       "text": "stable"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easydiffusion/easydiffusion",
+      "status": "candidate-context",
+      "text": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easydiffusion/easydiffusion",
+      "status": "candidate-context",
+      "text": "Does not require technical knowledge, does not require pre-installed software. 1-click install, powerful features, friendly community."
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "sophus-vision/sophus-rs",
       "status": "candidate",
       "text": "stable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easydiffusion/easydiffusion",
+      "status": "candidate",
+      "text": "Does not require technical knowledge, does not require pre-installed software. 1-click install, powerful features, friendly community."
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +234,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/stable.yml",
       "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "easydiffusion/easydiffusion"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -250,6 +250,18 @@
       "source_repo": "benbalter/jekyll-include-cache",
       "status": "candidate-context",
       "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate-context",
+      "text": "Code for our ICCV 2025 paper \"Adaptive Caching for Faster Video Generation with Diffusion Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate-context",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
     }
   ],
   "candidate_glosses": [
@@ -372,6 +384,12 @@
       "source_repo": "benbalter/jekyll-include-cache",
       "status": "candidate",
       "text": "*A Jekyll plugin to cache the rendering of Liquid includes*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCache-DiT/AdaCache",
+      "status": "candidate",
+      "text": "This is the official implementation for the paper, [Adaptive Caching for Faster Video Generation"
     }
   ],
   "candidate_related_terms": [
@@ -535,11 +553,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "benbalter/jekyll-include-cache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AdaCache-DiT/AdaCache"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

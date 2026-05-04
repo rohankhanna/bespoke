@@ -91,6 +91,18 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate-context",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise from the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +310,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ptsochantaris/trailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

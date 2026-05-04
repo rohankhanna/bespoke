@@ -167,6 +167,30 @@
       "source_repo": "Alexays/Waybar",
       "status": "candidate-context",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/vtzero",
+      "status": "candidate-context",
+      "text": "Minimalist vector tile decoder and encoder in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/vtzero",
+      "status": "candidate-context",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/protozero",
+      "status": "candidate-context",
+      "text": "Minimalist protocol buffer decoder and encoder in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/protozero",
+      "status": "candidate-context",
+      "text": "clang-tidy"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +269,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Alexays/Waybar",
+      "status": "candidate",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/vtzero",
+      "status": "candidate",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/protozero",
       "status": "candidate",
       "text": "clang-tidy"
     }
@@ -446,11 +482,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "mapbox/vtzero"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "mapbox/protozero"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

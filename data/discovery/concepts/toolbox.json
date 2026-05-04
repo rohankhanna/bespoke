@@ -91,6 +91,18 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate-context",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "Dexbotic: Open-Source Vision-Language-Action Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "JDAI-CV/fast-reid",
       "status": "candidate",
       "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -242,11 +260,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "layumi/U_turn",
-      "target": "layumi/oxford-paris-attack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "layumi/U_turn",
       "target": "layumi/pytorch-mnist",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T01:56:23.390771+00:00",
+  "fetched_at": "2026-05-04T11:40:58.644627+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,11 +41,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "layumi/a_reid",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "layumi/oxford-paris-attack",
       "source_file": "README.md"
     },
     {

@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@v2",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -787,6 +787,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "chenyangMl/llama2.c-zh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/root-cmakelists.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_on_windows.yml",
+      "source_repo": "cpmech/russell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yml",
+      "source_repo": "samtools/htslib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compat-edge-cases.yml",
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ]
 }

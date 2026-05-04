@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "scribble"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate-context",
+      "text": "small javascript library for scribbling on an svg element"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate-context",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "naknomum/scribby",
+      "status": "candidate",
+      "text": "_scribby_ is a javascript library which lets users draw simple \"scribbles\" on a web page."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033308,
+      "status": "candidate",
+      "text": "scrawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012835,
+      "status": "candidate",
+      "text": "cacography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962035,
+      "status": "candidate",
+      "text": "scrabble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956172,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020080,
+      "status": "candidate",
+      "text": "written"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16034,
+      "status": "candidate",
+      "text": "scrawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13060,
+      "status": "candidate",
+      "text": "scratch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "cacography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scrabble"
+    }
+  ],
+  "canonical_name": "scribble",
+  "concept_id": "scribble",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "naknomum/scribby"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scribble",
+      "sense_id": "scribble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

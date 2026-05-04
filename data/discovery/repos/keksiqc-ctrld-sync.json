@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keksiqc/ctrld-sync",
+      "target": "your-username/ctrld-sync",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "keksiqc/ctrld-sync",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "keksiqc/ctrld-sync",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "keksiqc/ctrld-sync",
+      "target": "Sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:18.635307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1954
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 232
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tiny Python script that keeps your Control D Folders in sync with a set of remote block-lists.",
+    "fork": false,
+    "full_name": "keksiqc/ctrld-sync",
+    "html_url": "https://github.com/keksiqc/ctrld-sync",
+    "language": "Python",
+    "pushed_at": "2025-10-23T16:12:30Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-04-14T09:34:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your-username/ctrld-sync",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Sync"
+    }
+  ]
+}

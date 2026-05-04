@@ -259,6 +259,18 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate-context",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "A browser based code editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate-context",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/monaco-editor",
+      "status": "candidate",
+      "text": "[![Versions](https://img.shields.io/npm/v/monaco-editor)](https://www.npmjs.com/package/monaco-editor)"
     }
   ],
   "candidate_related_terms": [
@@ -576,11 +594,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "streetcomplete/StreetComplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/monaco-editor"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

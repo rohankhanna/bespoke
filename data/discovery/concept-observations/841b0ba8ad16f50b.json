@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Deprecated] Processing reference, examples, tutorials, and website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042066,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040006,
+      "status": "candidate",
+      "text": "operation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034290,
+      "status": "candidate",
+      "text": "work on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033658,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031450,
+      "status": "candidate",
+      "text": "summons"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "processing",
+      "sense_id": "processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "processing",
+  "observation_id": "841b0ba8ad16f50b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "processing",
+  "source_context_snippet": "> \u26a0\ufe0f This repository is now deprecated and will be archived soon. If you have any issues or want to submit a pull request, please direct them to the [processing-website](https://github.com/processing/processing-website) repo. Make sure to check the [README](https://github.com/pr\u2026",
+  "source_file": null,
+  "source_repo": "processing/processing-docs",
+  "source_repo_description": "[Deprecated] Processing reference, examples, tutorials, and website"
+}

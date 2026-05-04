@@ -2535,6 +2535,114 @@
       "source_repo": "universal-ember/reactiveweb",
       "status": "candidate-context",
       "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate-context",
+      "text": "Create a universal React app using Expo and Next.js in a monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate-context",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate-context",
+      "text": "Essential set of React Hooks for convenient Web API consumption and state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate-context",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83e\udd89 Simple and complete React Native testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huozhi/bunchee",
+      "status": "candidate-context",
+      "text": "Zero config bundler for npm packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huozhi/bunchee",
+      "status": "candidate-context",
+      "text": "> Zero-config bundler for JS/TS packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "Sandbox for developing and testing UI components in isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate-context",
+      "text": "Web. Components. \ud83d\ude02"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate-context",
+      "text": "![Repo Banner](./.github/repo-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zenghongtu/react-use-chinese",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u6587\u6863@react-use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zenghongtu/react-use-chinese",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdjastrzebski/test-renderer",
+      "status": "candidate-context",
+      "text": "A lightweight test renderer for React and a modern replacement for the deprecated React Test Renderer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdjastrzebski/test-renderer",
+      "status": "candidate-context",
+      "text": "A lightweight test renderer for React and a modern replacement for the deprecated React Test Renderer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Preact Signals: Supercharge your React/Preact development! Unleash the power of reactive programming with hooks, components, a TanStack query adapter, and more. Code smarter, not harder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate-context",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_glosses": [
@@ -3803,6 +3911,60 @@
       "source_repo": "universal-ember/reactiveweb",
       "status": "candidate",
       "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axeldelafosse/expo-next-monorepo-example",
+      "status": "candidate",
+      "text": "You can now use [Solito](https://solito.dev/starter) instead:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kripod/react-hooks",
+      "status": "candidate",
+      "text": "Essential set of [React Hooks] for convenient [Web API] consumption and state management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "callstack/react-native-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huozhi/bunchee",
+      "status": "candidate",
+      "text": "> Zero-config bundler for JS/TS packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-cosmos/react-cosmos",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/the-platform",
+      "status": "candidate",
+      "text": "![Repo Banner](./.github/repo-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zenghongtu/react-use-chinese",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdjastrzebski/test-renderer",
+      "status": "candidate",
+      "text": "A lightweight test renderer for React and a modern replacement for the deprecated React Test Renderer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XantreDev/preact-signals",
+      "status": "candidate",
+      "text": "Goal of the project to provide comprehensive tooling for using [`preact/signals`](https://github.com/preactjs/signals)"
     }
   ],
   "candidate_related_terms": [
@@ -6189,11 +6351,221 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "axeldelafosse/expo-next-monorepo-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/formik"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kripod/react-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huozhi/bunchee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "react-cosmos/react-cosmos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/the-platform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zenghongtu/react-use-chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mdjastrzebski/test-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "XantreDev/preact-signals"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "vimtor/action-zip@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "vimtor/action-zip@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "pot-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pot-app/pot-app-collection-plugin-shanbay",
+      "target": "pot-app-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:51.411769+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udde9Shanbay Collection Plugin for Pot App",
+    "fork": false,
+    "full_name": "pot-app/pot-app-collection-plugin-shanbay",
+    "html_url": "https://github.com/pot-app/pot-app-collection-plugin-shanbay",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-31T00:10:02Z",
+    "stargazers_count": 10,
+    "topics": [
+      "pot-app",
+      "pot-app-plugin"
+    ],
+    "updated_at": "2026-04-29T14:51:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pot-app"
+    },
+    {
+      "context_snippet": "1. \u4e0b\u8f7d\u5bf9\u5e94\u5e73\u53f0\u7684\u63d2\u4ef6\uff0c\u5f97\u5230 `.potext` \u6587\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pot-app-plugin"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4522,6 +4522,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ipazc/mtcnn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml",
+      "source_repo": "dydxprotocol/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml",
+      "source_repo": "dydxprotocol/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/py-lint-test.yml",
+      "source_repo": "kaloureyes3/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/py-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/material-design-icons"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sony/nnabla-nas"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "isciences/exactextract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dpryan79/pyBigWig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pytorch/builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ttlns/undetected-playwright-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Adlik/vllm"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Liumouliu/OriCNN",
+      "target": "viibridges/crossnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:41:00.570041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7821
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lending Orientation to Neural Networks for Cross-view Geo-localization",
+    "fork": false,
+    "full_name": "Liumouliu/OriCNN",
+    "html_url": "https://github.com/Liumouliu/OriCNN",
+    "language": "Python",
+    "pushed_at": "2022-05-11T12:32:53Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-03-14T07:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "viibridges/crossnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

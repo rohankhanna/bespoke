@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -626,6 +626,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "swift-server/swift-service-lifecycle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/sorbet-eraser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "melix/jmh-gradle-plugin"
     }
   ],
   "term": "main"

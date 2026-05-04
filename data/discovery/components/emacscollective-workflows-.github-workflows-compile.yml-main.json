@@ -1,12 +1,17 @@
 {
   "component": "emacscollective/workflows/.github/workflows/compile.yml@main",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/compile.yml",
       "source_repo": "tarsius/llama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "emacscollective/auto-compile"
     }
   ]
 }

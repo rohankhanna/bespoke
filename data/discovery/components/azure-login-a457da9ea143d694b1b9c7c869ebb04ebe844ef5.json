@@ -1,7 +1,7 @@
 {
   "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-azure.yaml",
       "source_repo": "fluxcd/flux2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-benchmark-cleanup.yml",
+      "source_repo": "xtdb/xtdb"
     }
   ]
 }

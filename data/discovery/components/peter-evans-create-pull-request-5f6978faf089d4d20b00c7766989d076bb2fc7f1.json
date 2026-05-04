@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -387,6 +387,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ecosystem-updates.yml",
       "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upgrade-patch-versions.yml",
+      "source_repo": "kubernetes-sigs/kubespray"
     }
   ]
 }

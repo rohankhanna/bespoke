@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "adobe-fonts/source-han-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-sans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "source-han-serif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:23.042087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TrueType version of Source Han Sans, Source Han Serif and Source Han Mono",
+    "fork": false,
+    "full_name": "Pal3love/Source-Han-TrueType",
+    "html_url": "https://github.com/Pal3love/Source-Han-TrueType",
+    "language": "Shell",
+    "pushed_at": "2026-03-02T21:07:31Z",
+    "stargazers_count": 1079,
+    "topics": [
+      "source-han",
+      "source-han-mono",
+      "source-han-sans",
+      "source-han-serif",
+      "truetype",
+      "ttf"
+    ],
+    "updated_at": "2026-04-30T06:40:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-fonts/source-han-mono",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[English](README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han"
+    },
+    {
+      "context_snippet": "[English](README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han-mono"
+    },
+    {
+      "context_snippet": "[English](README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han-sans"
+    },
+    {
+      "context_snippet": "[English](README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-han-serif"
+    },
+    {
+      "context_snippet": "[English](README_EN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

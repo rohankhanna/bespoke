@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc9c My personal Prettier config & workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "beautiful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "belle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "better"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "better-looking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "cuter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prettier",
+      "sense_id": "prettier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prettier",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prettier",
+  "observation_id": "d785594899a0849f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "prettier",
+  "source_context_snippet": "![@bokub/prettier-config](https://user-images.githubusercontent.com/17952318/155517136-be39b194-d0ef-4fd6-8c47-dfef2de50a3e.png)",
+  "source_file": null,
+  "source_repo": "bokub/prettier-config",
+  "source_repo_description": "\ud83d\udc9c My personal Prettier config & workflow"
+}

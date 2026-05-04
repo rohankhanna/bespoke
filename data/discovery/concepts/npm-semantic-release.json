@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "NPM Semantic Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seamapi/node-websocat",
+      "status": "candidate-context",
+      "text": "Node bindings to websocat, easily create websocket/tcp tunnels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seamapi/node-websocat",
+      "status": "candidate-context",
+      "text": "NPM Semantic Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seamapi/node-websocat",
+      "status": "candidate",
+      "text": "NPM Semantic Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22540,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22540,
+      "status": "candidate",
+      "text": "motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22540,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22519,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "alibi"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NPM Semantic Release",
+  "concept_id": "npm-semantic-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/npm-semantic-release.yml",
+      "source_repo": "seamapi/node-websocat"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NPM Semantic Release",
+      "sense_id": "npm-semantic-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

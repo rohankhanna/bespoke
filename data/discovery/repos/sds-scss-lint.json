@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sds/scss-lint",
+      "target": "cih/scss_lint_plugin_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sds/scss-lint",
+      "target": "antonj/scss-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sds/scss-lint",
+      "target": "geodienstencentrum/sass-maven-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sds/scss-lint",
+      "target": "civiccc/code-of-conduct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sds/scss-lint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sds/scss-lint",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:32:03.582903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23515
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configurable tool for writing clean, consistent SCSS",
+    "fork": false,
+    "full_name": "sds/scss-lint",
+    "html_url": "https://github.com/sds/scss-lint",
+    "language": "Ruby",
+    "pushed_at": "2024-01-16T23:59:53Z",
+    "stargazers_count": 3670,
+    "topics": [],
+    "updated_at": "2026-05-03T07:45:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonj/scss-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cih/scss_lint_plugin_example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "civiccc/code-of-conduct",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geodienstencentrum/sass-maven-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

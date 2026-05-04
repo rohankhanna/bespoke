@@ -1,0 +1,366 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "redhat-actions/podman-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "redhat-actions/buildah-build@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "redhat-actions/push-to-registry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "redhat-actions/podman-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vi/websocat",
+      "target": "seamapi/node-websocat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vi/websocat",
+      "target": "erebe/wstunnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vi/websocat",
+      "target": "joewalnes/websocketd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vi/websocat",
+      "target": "alexandergugel/wsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "vi/websocat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "vi/websocat",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "redhat-actions/podman-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "redhat-actions/buildah-build@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "redhat-actions/push-to-registry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "source_repo": "vi/websocat",
+      "target": "Container Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "netcat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "rfc-6455",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "socat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "websocket-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "websocket-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi/websocat",
+      "target": "websockets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:16:19.126872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29820
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3581
+    },
+    {
+      "path": "Dockerfile",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/container-image-buildah.yml",
+      "size": 7567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions",
+    "fork": false,
+    "full_name": "vi/websocat",
+    "html_url": "https://github.com/vi/websocat",
+    "language": "Rust",
+    "pushed_at": "2025-12-27T23:16:24Z",
+    "stargazers_count": 8491,
+    "topics": [
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "curl",
+      "netcat",
+      "proxy",
+      "rfc-6455",
+      "socat",
+      "websocket-client",
+      "websocket-server",
+      "websockets"
+    ],
+    "updated_at": "2026-05-03T12:53:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandergugel/wsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erebe/wstunnel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joewalnes/websocketd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seamapi/node-websocat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Container Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-image-buildah.yml",
+      "term": "Container Image"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcat"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-6455"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socat"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-client"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket-server"
+    },
+    {
+      "context_snippet": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websockets"
+    }
+  ]
+}

@@ -55,6 +55,30 @@
       "source_repo": "AcademySoftwareFoundation/OpenImageIO",
       "status": "candidate-context",
       "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "C++ CSV parser library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "A modern C++ CSV parser and serializer that doesn't make you choose between ease of use or performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate-context",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "AcademySoftwareFoundation/OpenImageIO",
       "status": "candidate",
       "text": "<!-- SPDX-License-Identifier: CC-BY-4.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vincentlaucsb/csv-parser",
+      "status": "candidate",
+      "text": "[![CMake on Windows](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/vincentlaucsb/csv-parser/actions/workflows/cmake-multi-platform.yml) [![Memory and Thread Sanitizers](https://github.com/vincentlaucsb/csv-p\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vincentlaucsb/csv-parser"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

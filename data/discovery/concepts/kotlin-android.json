@@ -82,6 +82,18 @@
       "source_repo": "florisboard/florisboard",
       "status": "candidate-context",
       "text": "<img align=\"left\" width=\"80\" height=\"80\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate-context",
+      "text": "Android preference library with Jetpack Compose UI support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate-context",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "florisboard/florisboard",
       "status": "candidate",
       "text": "<img align=\"left\" width=\"80\" height=\"80\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickgold/jetpref",
+      "status": "candidate",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +223,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "florisboard/florisboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patrickgold/jetpref"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

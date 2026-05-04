@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mkocabas/PARE",
+      "target": "mkocabas/yolov3-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mkocabas/PARE",
+      "target": "giacaglia/pytube",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE",
+      "target": "3d-human-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE",
+      "target": "3d-human-shape-and-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:45.428537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6253
+    },
+    {
+      "path": "requirements.txt",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for ICCV2021 paper PARE: Part Attention Regressor for 3D Human Body Estimation",
+    "fork": false,
+    "full_name": "mkocabas/PARE",
+    "html_url": "https://github.com/mkocabas/PARE",
+    "language": "Python",
+    "pushed_at": "2024-04-22T22:35:35Z",
+    "stargazers_count": 416,
+    "topics": [
+      "3d-human-reconstruction",
+      "3d-human-shape-and-pose-estimation",
+      "computer-graphics",
+      "computer-vision",
+      "human-pose-estimation"
+    ],
+    "updated_at": "2026-04-27T10:43:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "giacaglia/pytube",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/yolov3-pytorch",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-reconstruction"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-human-shape-and-pose-estimation"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    }
+  ]
+}

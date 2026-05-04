@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A PyTorch implementation of Implicit Behavioral Cloning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "energy-based-model",
+      "sense_id": "energy-based-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "energy-based-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "energy-based-model",
+  "observation_id": "ae8fcd4990a72a48",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "energy-based-model",
+  "source_context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+  "source_file": null,
+  "source_repo": "kevinzakka/ibc",
+  "source_repo_description": "A PyTorch implementation of Implicit Behavioral Cloning"
+}

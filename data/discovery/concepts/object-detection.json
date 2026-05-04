@@ -1363,6 +1363,42 @@
       "source_repo": "MCG-NJU/AdaMixer",
       "status": "candidate-context",
       "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate-context",
+      "text": "A Simple and Versatile Framework for Object Detection and Instance Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate-context",
+      "text": "![](./doc/image/diagram_v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "The official repo for [ECCV'22] \"VSA: Learning Varied-Size Window Attention in Vision Transformers\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "Unofficial implementation for [ECCV'22] \"Exploring Plain Vision Transformer Backbones for Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
     }
   ],
   "candidate_glosses": [
@@ -2043,6 +2079,24 @@
       "source_repo": "MCG-NJU/AdaMixer",
       "status": "candidate",
       "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate",
+      "text": "![](./doc/image/diagram_v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">[ECCV 2022] VSA: Learning Varied-Size Window Attention in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTDet",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">Unofficial PyTorch Implementation of Exploring Plain Vision Transformer Backbones for Object Detection<a href=\"https://arxiv.org/abs/2203.16527\"><img src=\"https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg\" ></a></h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -3316,11 +3370,83 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DN-DETR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/MaskDINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTAE-VSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTDet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

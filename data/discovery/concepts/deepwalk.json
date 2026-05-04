@@ -31,6 +31,18 @@
       "source_repo": "benedekrozemberczki/karateclub",
       "status": "candidate-context",
       "text": "![Version](https://badge.fury.io/py/karateclub.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "benedekrozemberczki/karateclub",
       "status": "candidate",
       "text": "![Version](https://badge.fury.io/py/karateclub.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "benedekrozemberczki/karateclub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

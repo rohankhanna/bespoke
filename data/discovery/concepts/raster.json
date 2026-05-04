@@ -115,6 +115,30 @@
       "source_repo": "isciences/exactextractr",
       "status": "candidate-context",
       "text": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate-context",
+      "text": "Fast and accurate raster zonal statistics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/isciences/exactextract/actions/workflows/linux_build.yml/badge.svg)](https://github.com/isciences/exactextract/actions/workflows/linux_build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "isciences/exactextractr",
       "status": "candidate",
       "text": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate",
+      "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/isciences/exactextract/actions/workflows/linux_build.yml/badge.svg)](https://github.com/isciences/exactextract/actions/workflows/linux_build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "isciences/exactextractr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "opendatacube/datacube-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "isciences/exactextract"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Release NPM"
+    "Release NPM",
+    "Release npm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Istanbul-compatible JavaScript/TypeScript coverage instrumentation using the Oxc AST"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate-context",
+      "text": "Release npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fallow-rs/oxc-coverage-instrument",
+      "status": "candidate",
+      "text": "Release npm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "button"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "parole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "reliever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "scent"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Release NPM",
   "concept_id": "release-npm",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "korotovsky/slack-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release-npm.yml",
+      "source_repo": "fallow-rs/oxc-coverage-instrument"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

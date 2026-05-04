@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/Diffusion-RWKV",
+      "target": "feizc/dis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "feizc/Diffusion-RWKV",
+      "target": "opengvlab/vision-rwkv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:42:34.978920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2889
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scaling RWKV-Like Architectures for Diffusion Models",
+    "fork": false,
+    "full_name": "feizc/Diffusion-RWKV",
+    "html_url": "https://github.com/feizc/Diffusion-RWKV",
+    "language": "Python",
+    "pushed_at": "2024-04-12T01:57:28Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-03T16:50:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feizc/dis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/vision-rwkv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

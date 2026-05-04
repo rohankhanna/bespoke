@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "genome-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "metagenomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voutcn/megahit",
+      "target": "succinct",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:16.163606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3895
+    },
+    {
+      "path": "Dockerfile",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultra-fast and memory-efficient (meta-)genome assembler",
+    "fork": false,
+    "full_name": "voutcn/megahit",
+    "html_url": "https://github.com/voutcn/megahit",
+    "language": "C++",
+    "pushed_at": "2025-10-28T04:07:04Z",
+    "stargazers_count": 711,
+    "topics": [
+      "bioinformatics",
+      "data-structures",
+      "genome-assembly",
+      "genomics",
+      "metagenomics",
+      "succinct"
+    ],
+    "updated_at": "2026-04-27T14:40:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genome-assembly"
+    },
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metagenomics"
+    },
+    {
+      "context_snippet": "MEGAHIT",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "succinct"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C library for high-throughput sequencing data formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999487,
+      "status": "candidate",
+      "text": "fill up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999384,
+      "status": "candidate",
+      "text": "fill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995809,
+      "status": "candidate",
+      "text": "get up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987328,
+      "status": "candidate",
+      "text": "wad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974892,
+      "status": "candidate",
+      "text": "stuff"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cram",
+      "sense_id": "cram#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16090,
+      "status": "candidate",
+      "text": "ram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "jam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13049,
+      "status": "candidate",
+      "text": "stuff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12032,
+      "status": "candidate",
+      "text": "swot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11066,
+      "status": "candidate",
+      "text": "bone"
+    }
+  ],
+  "concept_id": "cram",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cram",
+  "observation_id": "26d5790fa159e29d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "cram",
+  "source_context_snippet": "[![Build Status](https://api.cirrus-ci.com/github/samtools/htslib.svg?branch=develop)](https://cirrus-ci.com/github/samtools/htslib)",
+  "source_file": null,
+  "source_repo": "samtools/htslib",
+  "source_repo_description": "C library for high-throughput sequencing data formats"
+}

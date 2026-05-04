@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
+      "target": "opnsense/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
       "target": "acmesh-official/letest",
       "target_type": "repository"
     },
@@ -11,21 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
-      "target": "acmesh-official/acmetest",
+      "target": "letsencrypt/pebble",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
-      "target": "acmesh-official/get.acme.sh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "acmesh-official/acme.sh",
-      "target": "diafygi/acme-tiny",
+      "target": "ietf-wg-acme/acme",
       "target_type": "repository"
     },
     {
@@ -393,6 +393,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "acmesh-official/acme.sh"
 }

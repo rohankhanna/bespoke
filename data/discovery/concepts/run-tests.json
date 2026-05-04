@@ -1679,6 +1679,66 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate-context",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "JDK main-line development https://openjdk.org/projects/jdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": "a python refactoring library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -2539,6 +2599,36 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "'Run tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-rope/rope",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apify/fingerprint-suite",
+      "status": "candidate",
+      "text": "Run tests"
     }
   ],
   "candidate_related_terms": [
@@ -4052,11 +4142,101 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/run_tests.yaml",
       "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "LibreTranslate/LibreTranslate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "metosin/compojure-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "python-rope/rope"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test-and-sync.yml",
+      "source_repo": "apify/fingerprint-suite"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

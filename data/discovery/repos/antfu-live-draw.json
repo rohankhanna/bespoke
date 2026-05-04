@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/live-draw",
+      "target": "annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/live-draw",
+      "target": "draw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/live-draw",
+      "target": "presentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/live-draw",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:39:15.371607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool allows you to draw on screen real-time.",
+    "fork": false,
+    "full_name": "antfu/live-draw",
+    "html_url": "https://github.com/antfu/live-draw",
+    "language": "C#",
+    "pushed_at": "2024-04-09T09:09:37Z",
+    "stargazers_count": 849,
+    "topics": [
+      "annotation",
+      "draw",
+      "ink",
+      "pen",
+      "presentation",
+      "windows"
+    ],
+    "updated_at": "2026-04-26T01:26:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A tool allows you to draw on screen real-time.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotation"
+    },
+    {
+      "context_snippet": "A tool allows you to draw on screen real-time.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "draw"
+    },
+    {
+      "context_snippet": "A tool allows you to draw on screen real-time.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentation"
+    },
+    {
+      "context_snippet": "A tool allows you to draw on screen real-time.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

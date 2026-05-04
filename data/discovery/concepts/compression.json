@@ -631,6 +631,42 @@
       "source_repo": "luben/zstd-jni",
       "status": "candidate-context",
       "text": "Zstd-jni"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "Fast serialization library for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrsoftware/is7z",
+      "status": "candidate-context",
+      "text": "7-Zip source code modified for Inno Setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/is7z",
+      "status": "candidate-context",
+      "text": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrsoftware/iscompress",
+      "status": "candidate-context",
+      "text": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/iscompress",
+      "status": "candidate-context",
+      "text": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code."
     }
   ],
   "candidate_glosses": [
@@ -945,6 +981,24 @@
       "source_repo": "luben/zstd-jni",
       "status": "candidate",
       "text": "Zstd-jni"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/nippy",
+      "status": "candidate",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/is7z",
+      "status": "candidate",
+      "text": "- Added [CPP\\7zip\\Bundles\\Format7zFInno] which is a compact version of 7z.dll:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/iscompress",
+      "status": "candidate",
+      "text": "Inno Setup zlib and bzlib compression source code - see issrc repository for lzma and lzma2 compression source code."
     }
   ],
   "candidate_related_terms": [
@@ -1444,11 +1498,35 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taoensso/nippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jrsoftware/is7z"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jrsoftware/iscompress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

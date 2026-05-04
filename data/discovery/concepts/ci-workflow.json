@@ -152,6 +152,18 @@
       "source_repo": "robotology/gazebo-yarp-plugins",
       "status": "candidate-context",
       "text": "CI Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "Jaeger Operator for Kubernetes simplifies deploying and running Jaeger on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate-context",
+      "text": "\"CI Workflow\""
     }
   ],
   "candidate_glosses": [
@@ -226,6 +238,12 @@
       "source_repo": "robotology/gazebo-yarp-plugins",
       "status": "candidate",
       "text": "CI Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-operator",
+      "status": "candidate",
+      "text": "\"CI Workflow\""
     }
   ],
   "candidate_related_terms": [
@@ -371,11 +389,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/conda-ci.yml",
       "source_repo": "robotology/gazebo-yarp-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/base-checks.yaml",
+      "source_repo": "jaegertracing/jaeger-operator"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

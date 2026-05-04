@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confio/cw-ibc-demo",
+      "target": "cosmos/cosmjs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:24:08.880913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1911
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Example IBC enabled contracts along with full stack integration tests",
+    "fork": false,
+    "full_name": "confio/cw-ibc-demo",
+    "html_url": "https://github.com/confio/cw-ibc-demo",
+    "language": "Rust",
+    "pushed_at": "2024-08-15T09:42:51Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-16T11:05:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/cosmjs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

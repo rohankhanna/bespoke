@@ -19,6 +19,18 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate-context",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "![teaser](./resources/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate",
+      "text": "![teaser](./resources/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "neerajwagh/eeg-self-supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "aerokube/cm",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "AutoVideo: An Automated Video Action Recognition System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aerokube/cm",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/aerokube/cm/workflows/build/badge.svg)](https://github.com/aerokube/cm/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/autovideo",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"https://raw.githubusercontent.com/datamllab/autovideo/main/docs/autovideo_logo.png\" alt=\"Logo\" />"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aerokube/cm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/autovideo"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

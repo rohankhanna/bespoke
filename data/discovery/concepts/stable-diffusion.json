@@ -937,6 +937,42 @@
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "status": "candidate-context",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for \"Parallel Sampling of Diffusion Models\", NeurIPS 2023 Spotlight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate-context",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] Q-Diffusion: Quantizing Diffusion Models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate-context",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1407,6 +1443,24 @@
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "status": "candidate",
       "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyShih12/paradigms",
+      "status": "candidate",
+      "text": "This repository contains code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Xiuyu-Li/q-diffusion",
+      "status": "candidate",
+      "text": "**[NEW!]** Q-Diffusion is featured by NVIDIA [TensorRT](https://developer.nvidia.com/blog/tensorrt-accelerates-stable-diffusion-nearly-2x-faster-with-8-bit-post-training-quantization/)! Check out the official [example](https://github.com/NVIDIA/TensorRT/tree/release/9.3/demo/Dif\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -2578,11 +2632,89 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AndyShih12/paradigms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Xiuyu-Li/q-diffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

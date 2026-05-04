@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:22.887978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 713
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "runfuture/tigerbot-colab",
+    "html_url": "https://github.com/runfuture/tigerbot-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-07T15:08:04Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-04-24T04:14:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

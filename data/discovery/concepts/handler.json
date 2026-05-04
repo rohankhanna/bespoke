@@ -31,6 +31,18 @@
       "source_repo": "justinas/alice",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/justinas/alice)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/examples",
+      "status": "candidate-context",
+      "text": "Examples of Mock Service Worker usage with various frameworks and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/examples",
+      "status": "candidate-context",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "justinas/alice",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/justinas/alice)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/examples",
+      "status": "candidate",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +140,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "justinas/alice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mswjs/examples"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

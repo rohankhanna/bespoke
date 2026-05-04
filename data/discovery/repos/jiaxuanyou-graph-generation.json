@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JiaxuanYou/graph-generation",
+      "target": "snap-stanford/snap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:18.974722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4894
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GraphRNN: Generating Realistic Graphs with Deep Auto-regressive Models",
+    "fork": false,
+    "full_name": "JiaxuanYou/graph-generation",
+    "html_url": "https://github.com/JiaxuanYou/graph-generation",
+    "language": "Python",
+    "pushed_at": "2022-01-20T15:36:54Z",
+    "stargazers_count": 733,
+    "topics": [],
+    "updated_at": "2026-04-18T15:27:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snap-stanford/snap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

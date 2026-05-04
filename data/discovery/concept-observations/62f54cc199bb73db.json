@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BDCI2019\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a-\u7ebf\u4e0a\u7b2c\u4e00\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine-learning",
+      "sense_id": "machine-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "machine-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "machine-learning",
+  "observation_id": "62f54cc199bb73db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "machine-learning",
+  "source_context_snippet": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002",
+  "source_file": null,
+  "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+  "source_repo_description": "BDCI2019\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a-\u7ebf\u4e0a\u7b2c\u4e00\u540d"
+}

@@ -19,6 +19,18 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate-context",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate-context",
+      "text": "all kinds of text classification models and more with deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate-context",
+      "text": "Text Classification"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "piskvorky/gensim",
       "status": "candidate",
       "text": "gensim \u2013 Topic Modelling in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brightmart/text_classification",
+      "status": "candidate",
+      "text": "Text Classification"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "brightmart/text_classification"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "playwright-community/jest-playwright",
       "status": "candidate-context",
       "text": "![CI](https://github.com/playwright-community/jest-playwright/workflows/Node.js/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Playwright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "playwright-community/jest-playwright",
       "status": "candidate",
       "text": "![CI](https://github.com/playwright-community/jest-playwright/workflows/Node.js/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "playwright-community/jest-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mskelton/eslint-plugin-playwright"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

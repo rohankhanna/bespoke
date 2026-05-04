@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -151,6 +151,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "informalsystems/atomkraft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "oauth2-proxy/oauth2-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "cosmos/sp1-ics07-tendermint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "MetaCubeX/metacubexd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "umputun/remark42"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "aeharding/voyager"
     }
   ],
   "term": "E2E"

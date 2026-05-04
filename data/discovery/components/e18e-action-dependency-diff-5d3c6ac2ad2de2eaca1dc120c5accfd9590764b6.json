@@ -1,12 +1,22 @@
 {
   "component": "e18e/action-dependency-diff@5d3c6ac2ad2de2eaca1dc120c5accfd9590764b6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/diff-dependencies.yml",
       "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-diff.yml",
+      "source_repo": "azat-io/eslint-plugin-de-morgan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-diff.yml",
+      "source_repo": "azat-io/eslint-plugin-perfectionist"
     }
   ]
 }

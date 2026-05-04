@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml"
+    },
+    {
+      "component": "reecetech/version-increment@2024.10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pr-mpt/actions-commit-hash@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "pr-mpt/actions-commit-hash@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "pr-mpt/actions-commit-hash@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asl/BandageNG",
+      "target": "voutcn/megahit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "reecetech/version-increment@2024.10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "Automated Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "pr-mpt/actions-commit-hash@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "jurplel/install-qt-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshots.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "build-snapshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "jurplel/install-qt-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG",
+      "target": "build-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:14.425684+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3914
+    },
+    {
+      "path": ".github/workflows/auto-release.yml",
+      "size": 2817
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1552
+    },
+    {
+      "path": ".github/workflows/snapshots.yml",
+      "size": 6038
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily",
+    "fork": true,
+    "full_name": "asl/BandageNG",
+    "html_url": "https://github.com/asl/BandageNG",
+    "language": "C++",
+    "pushed_at": "2026-05-01T12:28:01Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-04-28T11:48:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "voutcn/megahit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Automated Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "term": "Automated Release"
+    },
+    {
+      "context_snippet": "GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "GitHub Release"
+    },
+    {
+      "context_snippet": "build-snapshots",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshots.yml",
+      "term": "build-snapshots"
+    },
+    {
+      "context_snippet": "build-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "build-test"
+    }
+  ]
+}

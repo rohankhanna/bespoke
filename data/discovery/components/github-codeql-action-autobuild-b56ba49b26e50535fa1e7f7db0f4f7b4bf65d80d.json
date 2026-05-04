@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@b56ba49b26e50535fa1e7f7db0f4f7b4bf65d80d",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jaegertracing/jaeger-operator"
+    }
+  ]
+}

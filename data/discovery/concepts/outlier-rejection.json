@@ -19,6 +19,18 @@
       "source_repo": "zjhthu/OANet",
       "status": "candidate-context",
       "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate-context",
+      "text": "ORORA: Outlier-robust radar odometry, which is accepted in ICRA'23"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "zjhthu/OANet",
       "status": "candidate",
       "text": "Pytorch implementation of OANet for ICCV'19 paper [\"Learning Two-View Correspondences and Geometry Using Order-Aware Network\"](https://arxiv.org/abs/1908.04964), by Jiahui Zhang, Dawei Sun, Zixin Luo, Anbang Yao, Lei Zhou, Tianwei Shen, Yurong Chen, Long Quan and Hongen Liao."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "url-kaist/outlier-robust-radar-odometry",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=materials/orora_title_video.gif alt=\"animated\" /></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "zjhthu/OANet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

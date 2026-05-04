@@ -67,6 +67,42 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate-context",
       "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "Rust Protobuf definitions and gRPC clients for interacting with Cosmos SDK, IBC and Interchain Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate-context",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate-context",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "Cosmos Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "informalsystems/atomkraft",
       "status": "candidate",
       "text": "Below we describe what Atomkraft is about, and explain the concepts behind the tool. In case you would like to skip that, and jump directly into action, please read our [Installation guide](./INSTALLATION.md) to install the tool; afterwards it's worth following either our [Cosmo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-proto-rs",
+      "status": "candidate",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "informalsystems/hermes",
+      "status": "candidate",
+      "text": "![hermes-banner](https://github.com/informalsystems/hermes/assets/1757002/0878ab2a-1c6f-4137-a089-66352f948407)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate",
+      "text": "![Banner!](https://miro.medium.com/max/2000/1*DHtmSfS_Efvuq8n2LAnhkA.png)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +262,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "informalsystems/atomkraft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/ibc-proto-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/ibc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "informalsystems/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/gaia"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

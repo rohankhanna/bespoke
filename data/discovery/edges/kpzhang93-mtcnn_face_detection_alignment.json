@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "bvlc/caffe.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "happynear/caffe-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "happynear/mtcnn_face_detection_alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpzhang93/MTCNN_face_detection_alignment",
+      "target": "duinodu/mtcnn",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "kpzhang93/MTCNN_face_detection_alignment"
+}

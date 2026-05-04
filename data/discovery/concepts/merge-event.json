@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Merge Event"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "certbot/certbot",
+      "status": "candidate-context",
+      "text": "Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certbot/certbot",
+      "status": "candidate-context",
+      "text": "Merge Event"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "certbot/certbot",
+      "status": "candidate",
+      "text": "Merge Event"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "conjunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "crown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "meeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14285,
+      "status": "candidate",
+      "text": "merger"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Merge Event",
+  "concept_id": "merge-event",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/merged.yaml",
+      "source_repo": "certbot/certbot"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge Event",
+      "sense_id": "merge-event#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:25:18.165089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Noah Research",
+    "fork": false,
+    "full_name": "huawei-noah/noah-research",
+    "html_url": "https://github.com/huawei-noah/noah-research",
+    "language": "Python",
+    "pushed_at": "2026-03-20T03:36:54Z",
+    "stargazers_count": 945,
+    "topics": [],
+    "updated_at": "2026-04-30T09:08:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

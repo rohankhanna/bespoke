@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "limited-data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate-context",
+      "text": "![teaser](./resources/teaser.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EndlessSora/DeceiveD",
+      "status": "candidate",
+      "text": "![teaser](./resources/teaser.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "limited-data",
+  "concept_id": "limited-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EndlessSora/DeceiveD"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "limited-data",
+      "sense_id": "limited-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "bandit-code-scan",
   "observation_id": "8cb8addd74900327",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Bandit Code Scan",
   "source_context_snippet": "Bandit Code Scan",
   "source_file": ".github/workflows/bandit.yml",

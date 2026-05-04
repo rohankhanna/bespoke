@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/dnc",
+      "target": "deepmind/sonnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:38.910883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow implementation of the Differentiable Neural Computer.",
+    "fork": false,
+    "full_name": "google-deepmind/dnc",
+    "html_url": "https://github.com/google-deepmind/dnc",
+    "language": "Python",
+    "pushed_at": "2021-07-23T08:02:12Z",
+    "stargazers_count": 2537,
+    "topics": [],
+    "updated_at": "2026-05-03T03:39:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/sonnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

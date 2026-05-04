@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notmahi/bet",
+      "target": "notmahi/minibet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notmahi/bet",
+      "target": "google-research/relay-policy-learning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:57.941223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and website for Behavior Transformers: Cloning k modes with one stone.",
+    "fork": false,
+    "full_name": "notmahi/bet",
+    "html_url": "https://github.com/notmahi/bet",
+    "language": "Python",
+    "pushed_at": "2023-05-25T17:31:15Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-05-02T13:01:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/relay-policy-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notmahi/minibet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

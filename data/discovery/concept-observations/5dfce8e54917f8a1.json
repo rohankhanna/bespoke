@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post RTD Preview Link to PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post RTD Preview Link to PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20931,
+      "status": "candidate",
+      "text": "trailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "guidepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "signpost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19790,
+      "status": "candidate",
+      "text": "briefing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post RTD Preview Link to PRs",
+      "sense_id": "post-rtd-preview-link-to-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-rtd-preview-link-to-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-rtd-preview-link-to-prs",
+  "observation_id": "5dfce8e54917f8a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Post RTD Preview Link to PRs",
+  "source_context_snippet": "Post RTD Preview Link to PRs",
+  "source_file": ".github/workflows/doc-preview.yaml",
+  "source_repo": "opendatacube/datacube-core",
+  "source_repo_description": "Open Data Cube analyses continental scale Earth Observation data through time"
+}

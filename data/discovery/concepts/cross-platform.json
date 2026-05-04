@@ -856,6 +856,54 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate-context",
       "text": "The AWS SDK for C++ provides a modern C++ (version C++ 11 or later) interface for Amazon Web Services (AWS). It is meant to be performant and fully functioning with low- and high-level SDKs, while minimizing dependencies and providing platform portability (Windows, OSX, Linux, a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vimpunk/mio",
+      "status": "candidate-context",
+      "text": "Cross-platform C++11 header-only library for memory mapped file IO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimpunk/mio",
+      "status": "candidate-context",
+      "text": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "An open source library for creative expression on the web, desktop, mobile and consoles. Inspired by the classic Flash and AIR APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "status": "candidate-context",
+      "text": "Technitium DNS Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate-context",
+      "text": "Free, cross-platform 2D game engine powered by Haxe and OpenFL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate-context",
+      "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
     }
   ],
   "candidate_glosses": [
@@ -1284,6 +1332,30 @@
       "source_repo": "aws/aws-sdk-cpp",
       "status": "candidate",
       "text": "The AWS SDK for C++ provides a modern C++ (version C++ 11 or later) interface for Amazon Web Services (AWS). It is meant to be performant and fully functioning with low- and high-level SDKs, while minimizing dependencies and providing platform portability (Windows, OSX, Linux, a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimpunk/mio",
+      "status": "candidate",
+      "text": "An easy to use header-only cross-platform C++11 memory mapping library with an MIT license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openfl/openfl",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE.md) [![Haxelib Version](https://img.shields.io/github/tag/openfl/openfl.svg?style=flat&label=haxelib&color=df7900)](https://lib.haxe.org/p/openfl) [![Build Status](https://img.shields.io/githu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TechnitiumSoftware/DnsServer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel",
+      "status": "candidate",
+      "text": "[![](https://raw.githubusercontent.com/HaxeFlixel/haxeflixel.com/master/content/_static/images/flixel-logos/HaxeFlixel.png)](http://haxeflixel.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -2118,11 +2190,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vimpunk/mio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TechnitiumSoftware/DnsServer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

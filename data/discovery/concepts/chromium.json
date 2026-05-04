@@ -154,6 +154,18 @@
       "source_repo": "benjaminr/chrome-devtools-mcp",
       "status": "candidate-context",
       "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate-context",
+      "text": "[![Badge Commits]][Commit Rate]"
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "benjaminr/chrome-devtools-mcp",
       "status": "candidate",
       "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhill/uBlock",
+      "status": "candidate",
+      "text": "[![Badge Commits]][Commit Rate]"
     }
   ],
   "candidate_related_terms": [
@@ -488,11 +506,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gorhill/uBlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "claude-code",
   "observation_id": "633bd270476a37c9",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "claude-code",
   "source_context_snippet": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**",
   "source_file": null,

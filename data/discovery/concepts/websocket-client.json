@@ -103,6 +103,18 @@
       "source_repo": "dominicletz/websockex",
       "status": "candidate-context",
       "text": "![Build](https://github.com/dominicletz/websockex/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "dominicletz/websockex",
       "status": "candidate",
       "text": "![Build](https://github.com/dominicletz/websockex/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "dominicletz/websockex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vi/websocat"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

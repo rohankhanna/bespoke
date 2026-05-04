@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples",
+      "target": "v2fly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "v2fly/v2ray-examples",
+      "target": "v2ray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:14.622298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "v2ray-core \u7684\u6a21\u677f\u4eec",
+    "fork": false,
+    "full_name": "v2fly/v2ray-examples",
+    "html_url": "https://github.com/v2fly/v2ray-examples",
+    "language": "Mermaid",
+    "pushed_at": "2026-02-24T14:07:08Z",
+    "stargazers_count": 2536,
+    "topics": [
+      "config",
+      "configuration",
+      "v2fly",
+      "v2ray"
+    ],
+    "updated_at": "2026-04-30T09:25:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "config"
+    },
+    {
+      "context_snippet": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2fly"
+    },
+    {
+      "context_snippet": "![ENGLISH Here are some V2Ray configuration examples for reference](README.ENG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    }
+  ]
+}

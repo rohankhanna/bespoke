@@ -275,6 +275,30 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate-context",
+      "text": "Sync your Lemmy instance accounts. Tries to sync all accounts with the same communities, blocked users, blocked communities, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate-context",
+      "text": "Feel free to use what I have. I am still working on it though."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adlik/vllm",
+      "status": "candidate-context",
+      "text": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/vllm",
+      "status": "candidate-context",
+      "text": "pylint"
     }
   ],
   "candidate_glosses": [
@@ -409,6 +433,18 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ac5000/lemmy_account_sync",
+      "status": "candidate",
+      "text": "Feel free to use what I have. I am still working on it though."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adlik/vllm",
+      "status": "candidate",
+      "text": "pylint"
     }
   ],
   "candidate_related_terms": [
@@ -848,11 +884,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternScience/GraphGen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Ac5000/lemmy_account_sync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "Adlik/vllm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

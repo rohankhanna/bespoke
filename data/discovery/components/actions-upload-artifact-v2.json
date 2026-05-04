@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -927,6 +927,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "yuyang0/rrqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dnanexus-rnd/GLnexus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maxrefdes178.yml",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari"
     }
   ]
 }

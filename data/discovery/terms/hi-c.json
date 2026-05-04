@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "higlass/higlass-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "flekschas/hipiler"
     }
   ],
   "term": "hi-c"

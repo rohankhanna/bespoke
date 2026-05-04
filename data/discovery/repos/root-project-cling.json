@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cling.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cling.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "root-project/cling",
+      "target": "root-project/llvm-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cling.yml",
+      "source_repo": "root-project/cling",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cling.yml",
+      "source_repo": "root-project/cling",
+      "target": "Cling Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "root-project/cling",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "root-project/cling",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "root-project/cling",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "root-project/cling",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "root-project/cling",
+      "target": "llvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:36:28.028897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7325
+    },
+    {
+      "path": ".github/workflows/cling.yml",
+      "size": 1467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The cling C++ interpreter",
+    "fork": false,
+    "full_name": "root-project/cling",
+    "html_url": "https://github.com/root-project/cling",
+    "language": "C++",
+    "pushed_at": "2026-04-19T13:49:42Z",
+    "stargazers_count": 4137,
+    "topics": [
+      "c-plus-plus",
+      "clang",
+      "interpreter",
+      "jupyter",
+      "llvm"
+    ],
+    "updated_at": "2026-05-03T13:47:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "root-project/llvm-project",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cling Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cling.yml",
+      "term": "Cling Build and Test"
+    },
+    {
+      "context_snippet": "Cling - The Interactive C++ Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "Cling - The Interactive C++ Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "Cling - The Interactive C++ Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "Cling - The Interactive C++ Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "Cling - The Interactive C++ Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    }
+  ]
+}

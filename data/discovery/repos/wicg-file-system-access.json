@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-push.yml"
+    },
+    {
+      "component": "sidvishnoi/spec-prod@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-push.yml",
+      "source_repo": "WICG/file-system-access",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-push.yml",
+      "source_repo": "WICG/file-system-access",
+      "target": "sidvishnoi/spec-prod@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WICG/file-system-access",
+      "target": "shipping-chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:53.035376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2128
+    },
+    {
+      "path": ".github/workflows/pr-push.yml",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Expose the file system on the user\u2019s device, so Web apps can interoperate with the user\u2019s native applications.",
+    "fork": false,
+    "full_name": "WICG/file-system-access",
+    "html_url": "https://github.com/WICG/file-system-access",
+    "language": "Bikeshed",
+    "pushed_at": "2025-10-10T14:23:37Z",
+    "stargazers_count": 699,
+    "topics": [
+      "shipping-chromium"
+    ],
+    "updated_at": "2026-05-04T07:15:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shipping-chromium"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "active-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "batchbald",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "nbdev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "neurips-2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:07.713552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3095
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reusable BatchBALD implementation",
+    "fork": false,
+    "full_name": "BlackHC/batchbald_redux",
+    "html_url": "https://github.com/BlackHC/batchbald_redux",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-02-28T23:12:02Z",
+    "stargazers_count": 77,
+    "topics": [
+      "active-learning",
+      "batchbald",
+      "machine-learning",
+      "nbdev",
+      "neurips-2019",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-20T02:21:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "active-learning"
+    },
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "batchbald"
+    },
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nbdev"
+    },
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2019"
+    },
+    {
+      "context_snippet": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

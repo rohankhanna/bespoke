@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "capacitor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "Voyager \u2014 a beautiful app for Lemmy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ando818/lemmy-ui-svelte",
+      "status": "candidate-context",
+      "text": "A UI for Lemmy written in Svelte "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ando818/lemmy-ui-svelte",
+      "status": "candidate-context",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aeharding/voyager",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ando818/lemmy-ui-svelte",
+      "status": "candidate",
+      "text": "This is a rewrite of the Lemmy UI in SvelteKit to address the number of existing issues. Contains the capacitor framework allowing a single codebase to triple as a Android and iOS native apps. This is in active development and has a lot of mess to clean up."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017680,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050090,
+      "status": "candidate",
+      "text": "electrical condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050089,
+      "status": "candidate",
+      "text": "inductor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049521,
+      "status": "candidate",
+      "text": "dielectric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049197,
+      "status": "candidate",
+      "text": "farad"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2044,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "electrical condenser"
+    }
+  ],
+  "canonical_name": "capacitor",
+  "concept_id": "capacitor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "aeharding/voyager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ando818/lemmy-ui-svelte"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "capacitor",
+      "sense_id": "capacitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

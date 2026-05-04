@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:28:36.154344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The dataset includes widget captions that describes UI element's functionalities. It is used for training and evaluation of the widget captioning model (please see the EMNLP'20 paper: https://arxiv.org/abs/2010.04295).",
+    "fork": false,
+    "full_name": "google-research-datasets/widget-caption",
+    "html_url": "https://github.com/google-research-datasets/widget-caption",
+    "language": null,
+    "pushed_at": "2021-06-24T23:39:04Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-19T12:37:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visual exploration of large genome interaction matrices with interactive small multiples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![HiPiler's interface](teaser.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![HiPiler's interface](teaser.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-genome",
+      "sense_id": "3d-genome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-genome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-genome",
+  "observation_id": "4e5d2f479c369ea5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "3d-genome",
+  "source_context_snippet": "![HiPiler's interface](teaser.png?raw=true)",
+  "source_file": null,
+  "source_repo": "flekschas/hipiler",
+  "source_repo_description": "Visual exploration of large genome interaction matrices with interactive small multiples."
+}

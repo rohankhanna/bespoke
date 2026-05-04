@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An elementary counting semaphore for async tasks in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028434,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028394,
+      "status": "candidate",
+      "text": "weave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027668,
+      "status": "candidate",
+      "text": "ribbon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027405,
+      "status": "candidate",
+      "text": "string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010218,
+      "status": "candidate",
+      "text": "screw thread"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "threading",
+      "sense_id": "threading#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "threading",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "threading",
+  "observation_id": "7c54fa732dd1be89",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "threading",
+  "source_context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+  "source_file": null,
+  "source_repo": "ptsochantaris/semalot",
+  "source_repo_description": "An elementary counting semaphore for async tasks in Swift"
+}

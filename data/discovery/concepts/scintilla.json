@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "scintilla"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrsoftware/isscint",
+      "status": "candidate-context",
+      "text": "Scintilla source code modified for Inno Setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/isscint",
+      "status": "candidate-context",
+      "text": "Scintilla source code modified for Inno Setup."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrsoftware/isscint",
+      "status": "candidate",
+      "text": "Scintilla source code modified for Inno Setup."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951728,
+      "status": "candidate",
+      "text": "shred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922278,
+      "status": "candidate",
+      "text": "smidge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922222,
+      "status": "candidate",
+      "text": "smidgin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921477,
+      "status": "candidate",
+      "text": "smidgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919500,
+      "status": "candidate",
+      "text": "smidgen"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10027,
+      "status": "candidate",
+      "text": "smidgen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9038,
+      "status": "candidate",
+      "text": "shred"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8016,
+      "status": "candidate",
+      "text": "smidgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "tittle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "smidge"
+    }
+  ],
+  "canonical_name": "scintilla",
+  "concept_id": "scintilla",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jrsoftware/isscint"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scintilla",
+      "sense_id": "scintilla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

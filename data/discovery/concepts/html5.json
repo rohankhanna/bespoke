@@ -151,6 +151,18 @@
       "source_repo": "stevenvachon/broken-link-checker",
       "status": "candidate-context",
       "text": "> Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "stevenvachon/broken-link-checker",
       "status": "candidate",
       "text": "> Find broken links, missing images, etc within your HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +400,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

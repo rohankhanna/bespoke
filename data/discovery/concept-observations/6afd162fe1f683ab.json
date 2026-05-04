@@ -84,7 +84,7 @@
   "normalized_form": "docker-bench-for-security",
   "observation_id": "6afd162fe1f683ab",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Docker Bench for Security",
   "source_context_snippet": "Docker Bench for Security",
   "source_file": ".github/workflows/docker-bench-security.yml",

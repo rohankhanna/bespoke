@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cross"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cross"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996516,
+      "status": "candidate",
+      "text": "foil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963666,
+      "status": "candidate",
+      "text": "crisscross"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952764,
+      "status": "candidate",
+      "text": "intersect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949599,
+      "status": "candidate",
+      "text": "transverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39943697,
+      "status": "candidate",
+      "text": "transversal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cross",
+      "sense_id": "cross#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37040,
+      "status": "candidate",
+      "text": "thwart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28040,
+      "status": "candidate",
+      "text": "queer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27057,
+      "status": "candidate",
+      "text": "sweep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "cover"
+    }
+  ],
+  "concept_id": "cross",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross",
+  "observation_id": "0433749f8000106a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Cross",
+  "source_context_snippet": "Cross",
+  "source_file": ".github/workflows/cross.yml",
+  "source_repo": "sp1-patches/curve25519-dalek",
+  "source_repo_description": "A pure-Rust implementation of group operations on Ristretto and Curve25519"
+}

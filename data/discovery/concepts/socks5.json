@@ -187,6 +187,30 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "A SOCKS (SOCKS4, SOCKS4A and SOCKS5) Proxy Package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate-context",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/github/license/zonyitoo/shadowsocks-rust.svg)](https://github.com/zonyitoo/shadowsocks-rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h12w/socks",
+      "status": "candidate",
+      "text": "SOCKS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +412,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "shadowsocks/shadowsocks-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "h12w/socks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "erebe/wstunnel"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

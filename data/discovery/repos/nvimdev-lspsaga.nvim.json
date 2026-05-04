@@ -36,12 +36,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "leafo/gh-actions-lua@v10",
+      "component": "leafo/gh-actions-lua@v11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "leafo/gh-actions-luarocks@v4",
+      "component": "leafo/gh-actions-luarocks@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     }
@@ -86,14 +86,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nvimdev/lspsaga.nvim",
-      "target": "leafo/gh-actions-lua@v10",
+      "target": "leafo/gh-actions-lua@v11",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nvimdev/lspsaga.nvim",
-      "target": "leafo/gh-actions-luarocks@v4",
+      "target": "leafo/gh-actions-luarocks@v5",
       "target_type": "component"
     },
     {
@@ -125,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:32:27.135685+00:00",
+  "fetched_at": "2026-05-04T09:40:18.531360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -133,7 +133,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 1597
+      "size": 1647
     }
   ],
   "related_repositories": [],
@@ -145,8 +145,8 @@
     "full_name": "nvimdev/lspsaga.nvim",
     "html_url": "https://github.com/nvimdev/lspsaga.nvim",
     "language": "Lua",
-    "pushed_at": "2026-04-21T02:11:55Z",
-    "stargazers_count": 3779,
+    "pushed_at": "2026-05-04T02:59:38Z",
+    "stargazers_count": 3780,
     "topics": [
       "lsp",
       "lua",
@@ -155,7 +155,7 @@
       "neovim-plugin",
       "nvim"
     ],
-    "updated_at": "2026-04-29T18:13:09Z"
+    "updated_at": "2026-05-04T04:09:18Z"
   },
   "repo_links": [],
   "terms": [

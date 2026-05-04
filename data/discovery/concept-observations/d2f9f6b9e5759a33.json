@@ -79,7 +79,7 @@
   "normalized_form": "format-check",
   "observation_id": "d2f9f6b9e5759a33",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Format Check",
   "source_context_snippet": "Format Check",
   "source_file": ".github/workflows/format.yml",

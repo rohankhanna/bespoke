@@ -499,6 +499,18 @@
       "source_repo": "robotology/gazebo-yarp-plugins",
       "status": "candidate-context",
       "text": "gazebo-yarp-plugins"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "Dexbotic: Open-Source Vision-Language-Action Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +759,12 @@
       "source_repo": "robotology/gazebo-yarp-plugins",
       "status": "candidate",
       "text": "gazebo-yarp-plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dexmal/dexbotic",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1258,11 +1276,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dexmal/dexbotic"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

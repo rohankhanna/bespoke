@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Pull Request Labeler\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "distributor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14496,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14496,
+      "status": "candidate",
+      "text": "peeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14355,
+      "status": "candidate",
+      "text": "thumb index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "affiliate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Labeler",
+      "sense_id": "pull-request-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-labeler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-labeler",
+  "observation_id": "ba40ca65dc630ed1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Pull Request Labeler",
+  "source_context_snippet": "\"Pull Request Labeler\"",
+  "source_file": ".github/workflows/labeler.yml",
+  "source_repo": "oauth2-proxy/oauth2-proxy",
+  "source_repo_description": "A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+}

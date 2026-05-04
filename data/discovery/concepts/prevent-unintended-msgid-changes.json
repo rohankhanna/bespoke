@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prevent unintended msgid changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "This is the Rust course used by the Android team at Google. It provides you the material to quickly teach Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate-context",
+      "text": "Prevent unintended msgid changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/comprehensive-rust",
+      "status": "candidate",
+      "text": "Prevent unintended msgid changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22224,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22224,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21586,
+      "status": "candidate",
+      "text": "spasm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21515,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21515,
+      "status": "candidate",
+      "text": "bridged"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prevent unintended msgid changes",
+  "concept_id": "prevent-unintended-msgid-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/check-msgid-changes.yml",
+      "source_repo": "google/comprehensive-rust"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prevent unintended msgid changes",
+      "sense_id": "prevent-unintended-msgid-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

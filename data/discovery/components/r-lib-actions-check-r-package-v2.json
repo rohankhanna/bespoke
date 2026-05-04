@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/check-r-package@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/R-CMD-check.yaml",
       "source_repo": "openair-project/openair"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "paleolimbot/geos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "r-spatial/s2"
     }
   ]
 }

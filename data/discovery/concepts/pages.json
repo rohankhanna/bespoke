@@ -196,6 +196,18 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate-context",
       "text": "Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "Filesystem-based module system for Nix [maintainer=@figsoda]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate-context",
+      "text": "pages"
     }
   ],
   "candidate_glosses": [
@@ -294,6 +306,12 @@
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/haumea",
+      "status": "candidate",
+      "text": "pages"
     }
   ],
   "candidate_related_terms": [
@@ -439,11 +457,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "nix-community/haumea"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

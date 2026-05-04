@@ -381,6 +381,30 @@
       "source_repo": "alerque/fluent-lua",
       "status": "candidate-context",
       "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Mozilla's Localization Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate-context",
+      "text": "Pontoon is a translation management system used and developed by the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate-context",
+      "text": "[TMECH'2024] PALoc: Advancing SLAM Benchmarking with Prior-Assisted 6-DoF Trajectory Generation and Uncertainty Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -569,6 +593,18 @@
       "source_repo": "alerque/fluent-lua",
       "status": "candidate",
       "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pontoon",
+      "status": "candidate",
+      "text": "Pontoon is a translation management system used and developed by the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -845,11 +881,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "alerque/fluent-lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mozilla/pontoon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/PALoc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

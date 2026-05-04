@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/VUS",
+      "target": "johnpaparrizos/vus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/VUS",
+      "target": "bogireddytejareddy/vus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS",
+      "target": "accuracy-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS",
+      "target": "time-series-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:33:04.540679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12068
+    },
+    {
+      "path": "requirements.txt",
+      "size": 184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Volume Under the Surface: Accuracy Measure for Time Series Anomaly Detection",
+    "fork": false,
+    "full_name": "thedatumorg/VUS",
+    "html_url": "https://github.com/thedatumorg/VUS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-04T09:25:09Z",
+    "stargazers_count": 92,
+    "topics": [
+      "accuracy-score",
+      "anomaly-detection",
+      "python",
+      "python3",
+      "time-series",
+      "time-series-analysis"
+    ],
+    "updated_at": "2026-04-21T06:28:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bogireddytejareddy/vus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johnpaparrizos/vus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accuracy-score"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-analysis"
+    }
+  ]
+}

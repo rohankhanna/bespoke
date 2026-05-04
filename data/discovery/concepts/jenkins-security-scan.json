@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Jenkins Security Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Visually explore your JMH benchmarks on Jenkins!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate-context",
+      "text": "Jenkins Security Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/jmh-report-plugin",
+      "status": "candidate",
+      "text": "Jenkins Security Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "absurd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "crazy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "daft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "foolish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14019,
+      "status": "candidate",
+      "text": "insane"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Jenkins Security Scan",
+  "concept_id": "jenkins-security-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/jenkins-security-scan.yml",
+      "source_repo": "jenkinsci/jmh-report-plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Jenkins Security Scan",
+      "sense_id": "jenkins-security-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

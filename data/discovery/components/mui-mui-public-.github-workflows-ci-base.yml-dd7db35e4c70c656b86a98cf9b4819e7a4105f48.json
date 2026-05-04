@@ -1,0 +1,17 @@
+{
+  "component": "mui/mui-public/.github/workflows/ci-base.yml@dd7db35e4c70c656b86a98cf9b4819e7a4105f48",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-check.yml",
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mui/material-ui"
+    }
+  ]
+}

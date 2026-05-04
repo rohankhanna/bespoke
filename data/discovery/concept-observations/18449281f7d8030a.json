@@ -84,7 +84,7 @@
   "normalized_form": "self-hosted-ci",
   "observation_id": "18449281f7d8030a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Self-hosted CI",
   "source_context_snippet": "Self-hosted CI",
   "source_file": ".github/workflows/linux-self-hosted.yml",

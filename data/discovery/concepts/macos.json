@@ -2417,6 +2417,150 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate-context",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "Unit test project for acme.sh project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate-context",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08\u4e00\u4e2a\u8de8\u5e73\u53f0\u7684\u5212\u8bcd\u7ffb\u8bd1\u548cOCR\u8f6f\u4ef6 | A cross-platform software for text translation and recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate-context",
+      "text": "<img width=\"200px\" src=\"public/icon.svg\" align=\"left\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "C++ CSV parser library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate-context",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate-context",
+      "text": "A simple, fast, and Codable-compliant linked-list in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/maintini",
+      "status": "candidate-context",
+      "text": "A friendly and efficient wrapper to protect iOS app operations for a short time when backgrounded."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/maintini",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate-context",
+      "text": "An elementary counting semaphore for async tasks in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate-context",
+      "text": "A Keychain access wrapper in Swift, because the world needs more of these"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate-context",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "Generate markdown API documentations for C++ libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise from the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate-context",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_glosses": [
@@ -3643,6 +3787,84 @@
       "source_repo": "ptsochantaris/trailer",
       "status": "candidate",
       "text": "Trailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clouren/SPEX",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acmesh-official/acmetest",
+      "status": "candidate",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate",
+      "text": "<img width=\"200px\" src=\"public/icon.svg\" align=\"left\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/rapidcsv",
+      "status": "candidate",
+      "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/lista",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/ListaLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/maintini",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/semalot",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/SemalotLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/key-vine",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/KeyVineLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/radian",
+      "status": "candidate",
+      "text": "**Radian**: dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate",
+      "text": "macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer-cli",
+      "status": "candidate",
+      "text": "A version of [Trailer](http://ptsochantaris.github.io/trailer/) that runs on the macOS & Linux command-line, can integrate into scripts, be used on remote servers, or simply used because consoles are cool. This version does not aim for feature parity with the mainstream Trailer \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -5576,11 +5798,149 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/mac.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yaml",
+      "source_repo": "clouren/SPEX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acmetest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "pot-app/pot-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/rapidcsv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/lista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/maintini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/semalot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/key-vine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/radian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acme.sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "d99kris/doxygenmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

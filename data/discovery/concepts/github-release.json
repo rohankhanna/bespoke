@@ -4,7 +4,8 @@
     "Github Release",
     "GitHub Release",
     "GitHub release",
-    "github release"
+    "github release",
+    "\u53d1\u5e03Github Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -109,6 +110,30 @@
       "source_repo": "jaredly/reason-language-server",
       "status": "candidate-context",
       "text": "github release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yatsuki/v2manager",
+      "status": "candidate-context",
+      "text": "Magisk\u63d2\u4ef6V2Ray-for-android\u7684\u7ba1\u7406\u5e94\u7528\uff0c\u65b9\u4fbf\u8d77\u505c\u4ee3\u7406/\u7f16\u8f91\u914d\u7f6e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yatsuki/v2manager",
+      "status": "candidate-context",
+      "text": "\u53d1\u5e03Github Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "GitHub Release"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +190,18 @@
       "source_repo": "jaredly/reason-language-server",
       "status": "candidate",
       "text": "github release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yatsuki/v2manager",
+      "status": "candidate",
+      "text": "\u53d1\u5e03Github Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate",
+      "text": "GitHub Release"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +299,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "jaredly/reason-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asl/BandageNG"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

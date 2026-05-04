@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:30:13.302476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44
+    },
+    {
+      "path": "package.json",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1 Jolt physics in React",
+    "fork": true,
+    "full_name": "isaac-mason/react-three-jolt",
+    "html_url": "https://github.com/isaac-mason/react-three-jolt",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-07T01:33:05Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-04-07T01:33:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -31,6 +31,30 @@
       "source_repo": "Minqi824/ADBench",
       "status": "candidate-context",
       "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Deep SAD, a deep Semi-supervised Anomaly Detection method."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Minqi824/ADBench",
       "status": "candidate",
       "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "Minqi824/ADBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukasruff/Deep-SAD-PyTorch"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "snap-research/EfficientFormer",
       "status": "candidate-context",
       "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024] AsyncDiff: Parallelizing Diffusion Models by Asynchronous Denoising"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "snap-research/EfficientFormer",
       "status": "candidate",
       "text": "[arXiv](https://arxiv.org/abs/2212.08059) | [PDF](https://arxiv.org/pdf/2212.08059.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "czg1225/AsyncDiff",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "snap-research/EfficientFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "czg1225/AsyncDiff"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

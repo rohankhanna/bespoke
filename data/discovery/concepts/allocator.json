@@ -67,6 +67,18 @@
       "source_repo": "Traverse-Research/gpu-allocator",
       "status": "candidate-context",
       "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate-context",
+      "text": "Public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate-context",
+      "text": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "Traverse-Research/gpu-allocator",
       "status": "candidate",
       "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mjansson/rpmalloc",
+      "status": "candidate",
+      "text": "This library provides a public domain cross platform lock free thread caching 16-byte aligned memory allocator implemented in C. The latest source code is always available at https://github.com/mjansson/rpmalloc"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "Traverse-Research/gpu-allocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mjansson/rpmalloc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

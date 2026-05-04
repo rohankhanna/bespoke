@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "openjdk/jdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "jvm-profiling-tools/async-profiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "melix/jmh-gradle-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artyushov/idea-jmh-plugin",
+      "target": "brianfromoregon/jmh-plugin",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "artyushov/idea-jmh-plugin"
+}

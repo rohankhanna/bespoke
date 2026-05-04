@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3292,6 +3292,111 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/types.yml",
       "source_repo": "tracked-tools/tracked-toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "dydxprotocol/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml",
+      "source_repo": "dydxprotocol/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-lint-build-test.yml",
+      "source_repo": "kaloureyes3/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/js-publish.yml",
+      "source_repo": "kaloureyes3/v4-clients"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "haishanh/yacd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manateelazycat/lsp-bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-typescript.yml",
+      "source_repo": "WICG/attribution-reporting-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_coingecko_data.yml",
+      "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync_images.yml",
+      "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync_versions.yml",
+      "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-testnet.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-e2e.yml",
+      "source_repo": "dydxprotocol/v4-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openstreetmap-carto/openstreetmap-carto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "luizbarboza/polyclip-ts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-security-alerts.yml",
+      "source_repo": "DevExpress/testcafe-reporter-nunit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "XantreDev/preact-signals"
     }
   ]
 }

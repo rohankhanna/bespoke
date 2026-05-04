@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specifications of SAM/BAM and related high-throughput sequencing file formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Handle PDF pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Handle PDF pull request"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31605,
+      "status": "candidate",
+      "text": "sort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31451,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26136,
+      "status": "candidate",
+      "text": "muzzle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26060,
+      "status": "candidate",
+      "text": "muzzled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23112,
+      "status": "candidate",
+      "text": "format"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Handle PDF pull request",
+      "sense_id": "handle-pdf-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "handle-pdf-pull-request",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "handle-pdf-pull-request",
+  "observation_id": "e58e0413d9dd0ddd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Handle PDF pull request",
+  "source_context_snippet": "Handle PDF pull request",
+  "source_file": ".github/workflows/pr-pdfs.yaml",
+  "source_repo": "samtools/hts-specs",
+  "source_repo_description": "Specifications of SAM/BAM and related high-throughput sequencing file formats"
+}

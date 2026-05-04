@@ -1,0 +1,32 @@
+{
+  "component": "jaywcjlove/github-action-package@v2.1.0",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_archlinux.yml",
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_fedora.yml",
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_ubuntu.yml",
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ccpp_windows.yml",
+      "source_repo": "nelson-lang/nelson"
+    }
+  ]
+}

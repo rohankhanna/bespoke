@@ -175,6 +175,30 @@
       "source_repo": "amzn/xfer",
       "status": "candidate-context",
       "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate-context",
+      "text": "A Simple and Versatile Framework for Object Detection and Instance Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate-context",
+      "text": "![](./doc/image/diagram_v2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "amzn/xfer",
       "status": "candidate",
       "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tusen-ai/simpledet",
+      "status": "candidate",
+      "text": "![](./doc/image/diagram_v2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +394,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "amzn/xfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tusen-ai/simpledet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

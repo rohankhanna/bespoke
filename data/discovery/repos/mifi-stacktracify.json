@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "clipboardy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "meow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stacktrace-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mifi/stacktracify",
+      "target": "gabmontes/source-map-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mifi/stacktracify",
+      "target": "janekp/mapstrace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mifi/stacktracify",
+      "target": "clipboardy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mifi/stacktracify",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mifi/stacktracify",
+      "target": "meow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mifi/stacktracify",
+      "target": "source-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mifi/stacktracify",
+      "target": "stacktrace-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "minification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "sourcemaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "stacktrace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mifi/stacktracify",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:19.648095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1464
+    },
+    {
+      "path": "package.json",
+      "size": 656
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLI to make unreadable production stack traces readable using source maps",
+    "fork": false,
+    "full_name": "mifi/stacktracify",
+    "html_url": "https://github.com/mifi/stacktracify",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-25T08:55:25Z",
+    "stargazers_count": 144,
+    "topics": [
+      "cli",
+      "javascript",
+      "minification",
+      "nodejs",
+      "parse",
+      "sourcemaps",
+      "stacktrace",
+      "utility"
+    ],
+    "updated_at": "2025-12-12T03:00:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gabmontes/source-map-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janekp/mapstrace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minification"
+    },
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parse"
+    },
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sourcemaps"
+    },
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stacktrace"
+    },
+    {
+      "context_snippet": "Have you ever been faced with a stacktrace that looks like this?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

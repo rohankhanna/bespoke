@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "cublas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "gemm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "hgemm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "matrix-multiply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bruce-Lee-LY/cuda_hgemm",
+      "target": "tensor-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:22.401640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. ",
+    "fork": false,
+    "full_name": "Bruce-Lee-LY/cuda_hgemm",
+    "html_url": "https://github.com/Bruce-Lee-LY/cuda_hgemm",
+    "language": "Cuda",
+    "pushed_at": "2024-09-08T01:07:45Z",
+    "stargazers_count": 543,
+    "topics": [
+      "cublas",
+      "cuda",
+      "gemm",
+      "gpu",
+      "hgemm",
+      "matrix-multiply",
+      "nvidia",
+      "tensor-core"
+    ],
+    "updated_at": "2026-04-28T08:53:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cublas"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemm"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hgemm"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-multiply"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "Several optimization methods of half-precision general matrix multiplication (HGEMM) using tensor core with WMMA API and MMA PTX instruction. The calculation expression is as follows, where the precision of matrix A (M * K), B (K * N) and C (M * N) is FP16. Through exploring var\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor-core"
+    }
+  ]
+}

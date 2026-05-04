@@ -55,6 +55,18 @@
       "source_repo": "heiher/socks5",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "heiher/socks5",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erebe/wstunnel",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heiher/socks5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "erebe/wstunnel"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "tixiaoshan/imaging_lidar_place_recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "rmsalinas/dbow3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "lidar-inertial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "liosam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loop-closure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "target": "loop-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY"
+}

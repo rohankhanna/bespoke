@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:32:05.679414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7012
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust crate for localized country name translations (257 territory codes \u00d7 168 locales, CLDR-sourced)",
+    "fork": false,
+    "full_name": "onomojo/i18n-country-translations-rs",
+    "html_url": "https://github.com/onomojo/i18n-country-translations-rs",
+    "language": "Rust",
+    "pushed_at": "2026-03-08T01:22:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-08T01:21:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

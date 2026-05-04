@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/codellama",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/codellama",
+      "target": "facebookresearch/codellama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/codellama",
+      "target": "facebookresearch/llama-recipes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:42.918218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8827
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Inference code for CodeLlama models",
+    "fork": false,
+    "full_name": "meta-llama/codellama",
+    "html_url": "https://github.com/meta-llama/codellama",
+    "language": "Python",
+    "pushed_at": "2024-08-12T12:49:54Z",
+    "stargazers_count": 16332,
+    "topics": [],
+    "updated_at": "2026-05-04T01:12:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/codellama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama-recipes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

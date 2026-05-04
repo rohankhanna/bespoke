@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wordweb/Tiger-qq-bot",
+      "target": "wordweb/langchain-chatglm-and-tigerbot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:20.168472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u57fa\u4e8elangchain-chatglm-and-tigerbot+mirai \u5b9e\u73b0\u7684\u4e00\u4e2aqq\u7fa4\u672c\u5730\u77e5\u8bc6\u5e93\u95ee\u7b54\u673a\u5668\u4eba\uff0c\u53ef\u4ee5\u901a\u8fc7\u76f4\u63a5\u5c06\u77e5\u8bc6\u5e93\u6587\u4ef6\u63d0\u4ea4\u5230qq\u7fa4\u7684\u65b9\u5f0f\u6765\u4e0a\u4f20\u77e5\u8bc6\u5e93\uff0c\u4e5f\u53ef\u4ee5\u901a\u8fc7\u6307\u4ee4\u6765\u5f00\u5173\uff08\u5220\u9664\uff09\u77e5\u8bc6\u5e93\u3002\u4ece\u800c\u5f97\u5230\u4e00\u4e2a\u57fa\u4e8eqq\u7684\u4fbf\u643a\u5f0f\u672c\u5730\u77e5\u8bc6\u5e93\u95ee\u7b54\u673a\u5668\u4eba\u3002",
+    "fork": false,
+    "full_name": "wordweb/Tiger-qq-bot",
+    "html_url": "https://github.com/wordweb/Tiger-qq-bot",
+    "language": "Python",
+    "pushed_at": "2023-06-13T10:51:21Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-10-19T16:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wordweb/langchain-chatglm-and-tigerbot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

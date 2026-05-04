@@ -31,6 +31,54 @@
       "source_repo": "hongsukchoi/TCMR_RELEASE",
       "status": "candidate-context",
       "text": "| Qualtitative result | Paper teaser video |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate-context",
+      "text": "[TPAMI 2020] Learning 3D Human Shape and Pose from Dense Body Parts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate-context",
+      "text": "This repository contains the code for the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "[ICCV 2021, Oral] PyMAF: 3D Human Pose and Shape Regression with Pyramidal Mesh Alignment Feedback Loop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate-context",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper SPEC: Seeing People in the Wild with an Estimated Camera "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "Code for ICCV2021 paper PARE: Part Attention Regressor for 3D Human Body Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "hongsukchoi/TCMR_RELEASE",
       "status": "candidate",
       "text": "| Qualtitative result | Paper teaser video |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL",
+      "status": "candidate",
+      "text": "This repository contains the code for the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF",
+      "status": "candidate",
+      "text": "\ud83d\udea9 **[Update]** The compatible EFT label files are now available [here](https://pan.bnu.edu.cn/l/81f0v6), which helps to train a much stronger HMR baseline. See [issue #58](https://github.com/HongwenZhang/PyMAF/issues/58)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/SPEC",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkocabas/PARE",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hongsukchoi/TCMR_RELEASE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/DaNet-DensePose2SMPL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/SPEC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mkocabas/PARE"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

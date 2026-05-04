@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:24:26.034175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of RCG https://arxiv.org/abs/2312.03701",
+    "fork": false,
+    "full_name": "LTH14/rcg",
+    "html_url": "https://github.com/LTH14/rcg",
+    "language": "Python",
+    "pushed_at": "2024-09-27T20:23:50Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-05-02T03:17:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

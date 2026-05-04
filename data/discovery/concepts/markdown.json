@@ -1267,6 +1267,42 @@
       "source_repo": "mixmark-io/turndown",
       "status": "candidate-context",
       "text": "Convert HTML into Markdown with JavaScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shikijs/shiki",
+      "status": "candidate-context",
+      "text": "A beautiful yet powerful syntax highlighter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikijs/shiki",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/shikijs/shiki/main/docs/public/logo.svg\" width=\"150\" alt=\"Shiki Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "Generate markdown API documentations for C++ libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate-context",
+      "text": "Doxygenmd"
     }
   ],
   "candidate_glosses": [
@@ -1899,6 +1935,24 @@
       "source_repo": "mixmark-io/turndown",
       "status": "candidate",
       "text": "Convert HTML into Markdown with JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shikijs/shiki",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/shikijs/shiki/main/docs/public/logo.svg\" width=\"150\" alt=\"Shiki Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d99kris/doxygenmd",
+      "status": "candidate",
+      "text": "Doxygenmd"
     }
   ],
   "candidate_related_terms": [
@@ -2836,11 +2890,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "shikijs/shiki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "boozook/mdbook-svgbob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "d99kris/doxygenmd"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

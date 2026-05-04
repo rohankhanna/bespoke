@@ -1,21 +1,11 @@
 {
-  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "andyzeng/tsdf-fusion-python"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "layumi/3D-Magic-Mirror"
     }
   ],
   "term": "3d-reconstruction"

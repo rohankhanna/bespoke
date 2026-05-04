@@ -82,6 +82,30 @@
       "source_repo": "micromata/cli-error-notifier",
       "status": "candidate-context",
       "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "Notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "\u6839\u636e YApi \u6216 Swagger \u7684\u63a5\u53e3\u5b9a\u4e49\u751f\u6210 TypeScript \u6216 JavaScript \u7684\u63a5\u53e3\u7c7b\u578b\u53ca\u5176\u8bf7\u6c42\u51fd\u6570\u4ee3\u7801\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate-context",
+      "text": "Notify"
     }
   ],
   "candidate_glosses": [
@@ -126,6 +150,18 @@
       "source_repo": "micromata/cli-error-notifier",
       "status": "candidate",
       "text": "cli-error-notifier \u2014 Sends native desktop notifications if CLI apps fail"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "Notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/yapi-to-typescript",
+      "status": "candidate",
+      "text": "Notify"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +283,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "micromata/cli-error-notifier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/telegram-notify.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/notify.yml",
+      "source_repo": "fjc0k/yapi-to-typescript"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

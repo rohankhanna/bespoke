@@ -30,6 +30,13 @@
       "target_type": "repository"
     },
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/dm_pix",
+      "target": "deepmind/jax",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "google-deepmind/dm_pix",
@@ -93,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:51:02.418164+00:00",
+  "fetched_at": "2026-05-04T10:36:02.318813+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -137,6 +144,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "deepmind/dm_pix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/jax",
       "source_file": "README.md"
     }
   ],

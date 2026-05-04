@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:18:48.062315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "You need a new TA function? Check here first.",
+    "fork": false,
+    "full_name": "TA-Lib/ta-lib-proposal-drafts",
+    "html_url": "https://github.com/TA-Lib/ta-lib-proposal-drafts",
+    "language": null,
+    "pushed_at": "2024-12-06T22:29:31Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-11T08:51:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

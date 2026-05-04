@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd39 Vue Composables putting your components in motion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close incomplete issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close incomplete issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "penumbra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19110,
+      "status": "candidate",
+      "text": "unfinished"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18874,
+      "status": "candidate",
+      "text": "imperfect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18808,
+      "status": "candidate",
+      "text": "novel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18748,
+      "status": "candidate",
+      "text": "end"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close incomplete issues",
+      "sense_id": "close-incomplete-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-incomplete-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-incomplete-issues",
+  "observation_id": "f7d5454ed6ae6433",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Close incomplete issues",
+  "source_context_snippet": "Close incomplete issues",
+  "source_file": ".github/workflows/reproduire-close.yml",
+  "source_repo": "vueuse/motion",
+  "source_repo_description": "\ud83e\udd39 Vue Composables putting your components in motion"
+}

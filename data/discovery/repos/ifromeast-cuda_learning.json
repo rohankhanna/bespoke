@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:29:24.047046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "learning how CUDA works",
+    "fork": false,
+    "full_name": "ifromeast/cuda_learning",
+    "html_url": "https://github.com/ifromeast/cuda_learning",
+    "language": "Cuda",
+    "pushed_at": "2025-03-03T03:00:16Z",
+    "stargazers_count": 386,
+    "topics": [],
+    "updated_at": "2026-04-30T14:14:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

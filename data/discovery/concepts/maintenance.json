@@ -94,6 +94,18 @@
       "source_repo": "sympy/sympy",
       "status": "candidate-context",
       "text": "\"Maintenance\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/open-source",
+      "status": "candidate-context",
+      "text": "Home page for Metosin's open source development work"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/open-source",
+      "status": "candidate-context",
+      "text": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +150,12 @@
       "source_repo": "sympy/sympy",
       "status": "candidate",
       "text": "\"Maintenance\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/open-source",
+      "status": "candidate",
+      "text": "<img width=\"330\" src=\"https://avatars.githubusercontent.com/u/1569418?s=400&u=c24a05df6aa918905cdde2480fbe4a5062a780ac&v=4\" alt=\"Metosin\" align=\"right\" />"
     }
   ],
   "candidate_related_terms": [
@@ -259,11 +277,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/checkconflict.yml",
       "source_repo": "sympy/sympy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "metosin/open-source"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

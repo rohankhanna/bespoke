@@ -19,6 +19,18 @@
       "source_repo": "deepcam-cn/yolov5-face",
       "status": "candidate-context",
       "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "Practice on cifar100(ResNet, DenseNet, VGG, GoogleNet, InceptionV3, InceptionV4, Inception-ResNetv2, Xception, Resnet In Resnet, ResNext,ShuffleNet, ShuffleNetv2, MobileNet, MobileNetv2, SqueezeNet, NasNet, Residual Attention Network, SENet, WideResNet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate-context",
+      "text": "practice on cifar100 using pytorch"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "deepcam-cn/yolov5-face",
       "status": "candidate",
       "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weiaicunzai/pytorch-cifar100",
+      "status": "candidate",
+      "text": "practice on cifar100 using pytorch"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "deepcam-cn/yolov5-face"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weiaicunzai/pytorch-cifar100"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

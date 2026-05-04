@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-test.yml",
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-build-test.yml",
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:54.715894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5635
+    },
+    {
+      "path": "Dockerfile",
+      "size": 310
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1453
+    },
+    {
+      "path": "requirements.txt",
+      "size": 94
+    },
+    {
+      "path": ".github/workflows/python-build-test.yml",
+      "size": 1232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Meta's \"No Language Left Behind\" models served as web app and REST API",
+    "fork": false,
+    "full_name": "thammegowda/nllb-serve",
+    "html_url": "https://github.com/thammegowda/nllb-serve",
+    "language": "Python",
+    "pushed_at": "2025-05-27T03:35:14Z",
+    "stargazers_count": 259,
+    "topics": [
+      "machine-translation",
+      "multilingual",
+      "nlp",
+      "transformers",
+      "translation"
+    ],
+    "updated_at": "2026-04-07T08:08:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

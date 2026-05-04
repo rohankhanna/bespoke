@@ -409,6 +409,30 @@
       "source_repo": "clojure-liberator/liberator",
       "status": "candidate-context",
       "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/examples",
+      "status": "candidate-context",
+      "text": "Examples of Mock Service Worker usage with various frameworks and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/examples",
+      "status": "candidate-context",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +639,18 @@
       "source_repo": "clojure-liberator/liberator",
       "status": "candidate",
       "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/examples",
+      "status": "candidate",
+      "text": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_related_terms": [
@@ -988,11 +1024,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mswjs/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "metosin/compojure-api"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

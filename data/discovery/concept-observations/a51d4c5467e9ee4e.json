@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2764\ufe0f JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-style",
+      "sense_id": "code-style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-style",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-style",
+  "observation_id": "a51d4c5467e9ee4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "code-style",
+  "source_context_snippet": "xo \u2014 JavaScript/TypeScript linter (ESLint wrapper) with great defaults",
+  "source_file": null,
+  "source_repo": "xojs/xo",
+  "source_repo_description": "\u2764\ufe0f JavaScript/TypeScript linter (ESLint wrapper) with great defaults"
+}

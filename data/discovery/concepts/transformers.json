@@ -1195,6 +1195,114 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate-context",
+      "text": "Meta's \"No Language Left Behind\" models served as web app and REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate-context",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's DALL-E for large scale training in mesh-tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "Implementation of RQ Transformer, proposed in the paper \"Autoregressive Image Generation using Residual Quantization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argosopentech/argos-translate",
+      "status": "candidate-context",
+      "text": "Open-source offline translation library written in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argosopentech/argos-translate",
+      "status": "candidate-context",
+      "text": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "Implementation of numerous Vision Transformers in Google's JAX and Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "Sinkhorn Transformer - Practical implementation of Sparse Sinkhorn Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
     }
   ],
   "candidate_glosses": [
@@ -1791,6 +1899,60 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thammegowda/nllb-serve",
+      "status": "candidate",
+      "text": "[![image](http://img.shields.io/pypi/v/nllb-serve.svg)](https://pypi.python.org/pypi/nllb-serve/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argosopentech/argos-translate",
+      "status": "candidate",
+      "text": "[Demo](https://libretranslate.com) | [Website](https://www.argosopentech.com) | [Docs](https://argos-translate.readthedocs.io) | [Forum](https://community.libretranslate.com/c/argos-translate/5) | [GitHub](https://github.com/argosopentech/argos-translate) | [PyPI](https://pypi.o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
     }
   ],
   "candidate_related_terms": [
@@ -3142,11 +3304,131 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thammegowda/nllb-serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "roboflow/maestro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vit-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RQ-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "argosopentech/argos-translate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/magvit2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "conceptofmind/vit-flax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

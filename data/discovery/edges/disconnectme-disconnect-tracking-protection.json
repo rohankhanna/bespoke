@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tracking-protection-tests.yml",
+      "source_repo": "disconnectme/disconnect-tracking-protection",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tracking-protection-tests.yml",
+      "source_repo": "disconnectme/disconnect-tracking-protection",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tracking-protection-tests.yml",
+      "source_repo": "disconnectme/disconnect-tracking-protection",
+      "target": "Tracking Protection Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "disconnectme/disconnect-tracking-protection"
+}

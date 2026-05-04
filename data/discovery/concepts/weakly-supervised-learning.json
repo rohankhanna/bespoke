@@ -31,6 +31,18 @@
       "source_repo": "vasgaowei/TS-CAM",
       "status": "candidate-context",
       "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "Source code of the KDD19 paper \"Deep anomaly detection with deviation networks\", weakly/partially supervised anomaly detection, few-shot anomaly detection, semi-supervised anomaly detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate-context",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "vasgaowei/TS-CAM",
       "status": "candidate",
       "text": "![Python 3.7](https://img.shields.io/badge/Python-3.7-green.svg?style=plastic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuansongPang/deviation-network",
+      "status": "candidate",
+      "text": "By Guansong Pang, Chunhua Shen, Anton van den Hengel. Deep anomaly detection with deviation networks (KDD19)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vasgaowei/TS-CAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuansongPang/deviation-network"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nrd-wildcard.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nrd-wildcard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-adguard-services-to-wildcards.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-adguard-services-to-wildcards.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "adguardteam/hostlistsregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nrd-wildcard.yml",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nrd-wildcard.yml",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nrd-wildcard.yml",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "Build Hagezi NRD wildcard for Blocky",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-adguard-services-to-wildcards.yml",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-adguard-services-to-wildcards.yml",
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cebeerre/dnsblocklists",
+      "target": "dns-blocklists",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:16.335191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26941
+    },
+    {
+      "path": ".github/workflows/nrd-wildcard.yml",
+      "size": 2873
+    },
+    {
+      "path": ".github/workflows/py-adguard-services-to-wildcards.yml",
+      "size": 10752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DNS blocklists for websites & NRD (wildcard asterisk format, Blocky >= 0.23) ",
+    "fork": false,
+    "full_name": "Cebeerre/dnsblocklists",
+    "html_url": "https://github.com/Cebeerre/dnsblocklists",
+    "language": null,
+    "pushed_at": "2026-05-03T11:44:23Z",
+    "stargazers_count": 8,
+    "topics": [
+      "dns-blocklists",
+      "nrd"
+    ],
+    "updated_at": "2026-05-03T11:44:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adguardteam/hostlistsregistry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Hagezi NRD wildcard for Blocky",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nrd-wildcard.yml",
+      "term": "Build Hagezi NRD wildcard for Blocky"
+    },
+    {
+      "context_snippet": "This repository exists purely for **convenience**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-blocklists"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml"
+    },
+    {
+      "component": "Gr1N/setup-poetry@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baal-org/baal",
+      "target": "elementai/baal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "baal-org/baal",
+      "target": "elementai/baal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml",
+      "source_repo": "baal-org/baal",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml",
+      "source_repo": "baal-org/baal",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonci.yml",
+      "source_repo": "baal-org/baal",
+      "target": "Gr1N/setup-poetry@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml",
+      "source_repo": "baal-org/baal",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml",
+      "source_repo": "baal-org/baal",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-import.yml",
+      "source_repo": "baal-org/baal",
+      "target": "Gr1N/setup-poetry@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-import.yml",
+      "source_repo": "baal-org/baal",
+      "target": "Test import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baal-org/baal",
+      "target": "active-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baal-org/baal",
+      "target": "bayesian-active-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baal-org/baal",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baal-org/baal",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baal-org/baal",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:08.918977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7740
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1112
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1898
+    },
+    {
+      "path": ".github/workflows/pythonci.yml",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/test-import.yml",
+      "size": 1061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bayesian active learning library for research and industrial usecases.",
+    "fork": false,
+    "full_name": "baal-org/baal",
+    "html_url": "https://github.com/baal-org/baal",
+    "language": "Python",
+    "pushed_at": "2025-12-03T21:18:11Z",
+    "stargazers_count": 927,
+    "topics": [
+      "active-learning",
+      "ai",
+      "bayesian-active-learning",
+      "deep-learning",
+      "machine-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-26T05:38:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elementai/baal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elementai/baal",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test import",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-import.yml",
+      "term": "Test import"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "active-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-active-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

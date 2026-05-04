@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facontidavide/LeGO-LOAM-BOR",
+      "target": "robustfieldautonomylab/jackal_dataset_20170608",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facontidavide/LeGO-LOAM-BOR",
+      "target": "tixiaoshan/stevens-vlp16-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:17.649708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LeGO-LOAM-BOR: optimized Lidar Odometry and Mapping",
+    "fork": true,
+    "full_name": "facontidavide/LeGO-LOAM-BOR",
+    "html_url": "https://github.com/facontidavide/LeGO-LOAM-BOR",
+    "language": "C++",
+    "pushed_at": "2023-10-08T06:23:59Z",
+    "stargazers_count": 480,
+    "topics": [],
+    "updated_at": "2026-04-28T01:43:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robustfieldautonomylab/jackal_dataset_20170608",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tixiaoshan/stevens-vlp16-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

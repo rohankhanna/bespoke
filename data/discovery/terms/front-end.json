@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "hchiam/learning-front-end-frameworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "saadeghi/daisyui"
     }
   ],
   "term": "front-end"

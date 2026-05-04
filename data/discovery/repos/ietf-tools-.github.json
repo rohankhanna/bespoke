@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:20:25.430443+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Organization-wide GitHub Community Files",
+    "fork": false,
+    "full_name": "ietf-tools/.github",
+    "html_url": "https://github.com/ietf-tools/.github",
+    "language": null,
+    "pushed_at": "2026-04-17T01:47:38Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-04-26T18:18:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "emacsattic/helm-swoop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod"
     }
   ],
   "term": "Main workflow"

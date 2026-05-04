@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "hashicorp/vault-action@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "hashicorp/vault-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "actions/create-github-app-token@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "continuous-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "database-administration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "database-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "database-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "database-migrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "flyway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flyway/flyway-community-db-support",
+      "target": "redgate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:14:50.506672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 766
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 3701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Offical Flyway Community Supported Database Plugins",
+    "fork": false,
+    "full_name": "flyway/flyway-community-db-support",
+    "html_url": "https://github.com/flyway/flyway-community-db-support",
+    "language": "Java",
+    "pushed_at": "2026-05-01T10:40:54Z",
+    "stargazers_count": 17,
+    "topics": [
+      "continuous-delivery",
+      "continuous-deployment",
+      "database",
+      "database-administration",
+      "database-deployment",
+      "database-management",
+      "database-migrations",
+      "devops",
+      "flyway",
+      "java",
+      "java-library",
+      "redgate"
+    ],
+    "updated_at": "2026-05-01T10:40:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-delivery"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-deployment"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-administration"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-deployment"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-management"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-migrations"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flyway"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "This repository was created to simplify open source contributions to the databases that Flyway supports.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redgate"
+    }
+  ]
+}

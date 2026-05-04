@@ -430,6 +430,18 @@
       "source_repo": "vercel/swr",
       "status": "candidate-context",
       "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scopedb/percas",
+      "status": "candidate-context",
+      "text": "Percas is a distributed PERsistent CAche Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scopedb/percas",
+      "status": "candidate-context",
+      "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
     }
   ],
   "candidate_glosses": [
@@ -642,6 +654,12 @@
       "source_repo": "vercel/swr",
       "status": "candidate",
       "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scopedb/percas",
+      "status": "candidate",
+      "text": "Percas is a distributed persistent cache service optimized for high performance NVMe SSD. It aims to provide the capability to scale-out without pain and with stable performance."
     }
   ],
   "candidate_related_terms": [
@@ -1039,11 +1057,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "scopedb/percas"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

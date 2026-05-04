@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "spinners"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 The simplest and tiniest terminal spinner for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "The simplest and tiniest terminal spinner for Node.js"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate",
+      "text": "The simplest and tiniest terminal spinner for Node.js"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9803986,
+      "status": "candidate",
+      "text": "spinster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31367,
+      "status": "candidate",
+      "text": "thread maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "catch a fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "band on the run"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "spinners",
+  "concept_id": "spinners",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "usmanyunusov/nanospinner"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spinners",
+      "sense_id": "spinners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

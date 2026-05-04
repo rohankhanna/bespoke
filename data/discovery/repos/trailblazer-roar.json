@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "CI JRuby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "CI with EOL ruby versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "source_repo": "trailblazer/roar",
+      "target": "CI TruffleRuby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:18.914022+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 484
+    },
+    {
+      "path": ".github/workflows/ci_jruby.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/ci_legacy.yml",
+      "size": 491
+    },
+    {
+      "path": ".github/workflows/ci_truffleruby.yml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parse and render REST API documents using representers.",
+    "fork": false,
+    "full_name": "trailblazer/roar",
+    "html_url": "https://github.com/trailblazer/roar",
+    "language": "Ruby",
+    "pushed_at": "2023-01-17T15:54:37Z",
+    "stargazers_count": 1841,
+    "topics": [],
+    "updated_at": "2026-05-02T20:33:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI JRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_jruby.yml",
+      "term": "CI JRuby"
+    },
+    {
+      "context_snippet": "CI with EOL ruby versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_legacy.yml",
+      "term": "CI with EOL ruby versions"
+    },
+    {
+      "context_snippet": "CI TruffleRuby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_truffleruby.yml",
+      "term": "CI TruffleRuby"
+    }
+  ]
+}

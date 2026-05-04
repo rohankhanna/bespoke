@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nuxt-vte"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Vitesse experience for Nuxt 2 and Vue 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate-context",
+      "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vitesse-nuxt-bridge",
+      "status": "candidate",
+      "text": "Archived. Try the [Nuxt 3 version](https://github.com/antfu/vitesse-nuxt3) instead."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nuxt-vte",
+  "concept_id": "nuxt-vte",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vitesse-nuxt-bridge"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nuxt-vte",
+      "sense_id": "nuxt-vte#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "WICG/crash-reporting",
       "status": "candidate-context",
       "text": "This is the repository for [crash-reporting](https://wicg.github.io/crash-reporting/index.html). You're welcome to"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WICG/file-system-access",
+      "status": "candidate-context",
+      "text": "Expose the file system on the user\u2019s device, so Web apps can interoperate with the user\u2019s native applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WICG/file-system-access",
+      "status": "candidate-context",
+      "text": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "WICG/crash-reporting",
       "status": "candidate",
       "text": "This is the repository for [crash-reporting](https://wicg.github.io/crash-reporting/index.html). You're welcome to"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WICG/file-system-access",
+      "status": "candidate",
+      "text": "View proposals in the [EXPLAINER](EXPLAINER.md) and the [spec](https://wicg.github.io/file-system-access/)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "WICG/crash-reporting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "WICG/file-system-access"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

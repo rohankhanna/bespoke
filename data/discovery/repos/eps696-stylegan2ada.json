@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2ada",
+      "target": "eps696/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2ada",
+      "target": "endlesssora/deceived",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2ada",
+      "target": "aydao/stylegan2-surgery",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:04.279023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11271
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StyleGAN2-ada for practice",
+    "fork": false,
+    "full_name": "eps696/stylegan2ada",
+    "html_url": "https://github.com/eps696/stylegan2ada",
+    "language": "Python",
+    "pushed_at": "2025-12-09T00:13:10Z",
+    "stargazers_count": 182,
+    "topics": [],
+    "updated_at": "2026-04-07T05:40:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aydao/stylegan2-surgery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "endlesssora/deceived",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eps696/stylegan2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

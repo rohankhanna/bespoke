@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu/Familia",
+      "target": "paddlepaddle/paddlehub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu/Familia",
+      "target": "gmission/familia-visualization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/Familia",
+      "target": "sentence-lda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/Familia",
+      "target": "topic-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/Familia",
+      "target": "topic-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:30.917014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5165
+    },
+    {
+      "path": "Dockerfile",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Toolkit for Industrial Topic Modeling",
+    "fork": false,
+    "full_name": "baidu/Familia",
+    "html_url": "https://github.com/baidu/Familia",
+    "language": "C++",
+    "pushed_at": "2021-07-01T08:28:33Z",
+    "stargazers_count": 2646,
+    "topics": [
+      "lda",
+      "nlp",
+      "sentence-lda",
+      "topic-modeling",
+      "topic-models",
+      "twe"
+    ],
+    "updated_at": "2026-04-08T13:47:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmission/familia-visualization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddlehub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"http://github.com/baidu/Familia\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-lda"
+    },
+    {
+      "context_snippet": "<a href=\"http://github.com/baidu/Familia\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topic-modeling"
+    },
+    {
+      "context_snippet": "<a href=\"http://github.com/baidu/Familia\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topic-models"
+    }
+  ]
+}

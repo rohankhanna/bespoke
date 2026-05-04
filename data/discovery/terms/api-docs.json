@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/api-docs.yml",
       "source_repo": "microsoft/Agents-for-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cargo-doc.yaml",
+      "source_repo": "informalsystems/hermes"
     }
   ],
   "term": "api-docs"

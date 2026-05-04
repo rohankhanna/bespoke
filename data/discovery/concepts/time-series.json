@@ -223,6 +223,42 @@
       "source_repo": "thedatumorg/TSB-AD",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "Automated Solutions for Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "An End-to-End Benchmark Suite for Univariate Time-Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/VUS",
+      "status": "candidate-context",
+      "text": "Volume Under the Surface: Accuracy Measure for Time Series Anomaly Detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/VUS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +367,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AutoAD",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">\ud83d\udcc8 TSB-AutoAD</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-UAD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/VUS",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -466,11 +520,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "thedatumorg/TSB-AD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AutoAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-UAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-go-build-cross-plantform@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-upload-release-assets@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    },
+    {
+      "component": "wzshiming/action-upload-release-images@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "wzshiming/action-go-build-cross-plantform@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "wzshiming/action-upload-release-assets@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "wzshiming/action-upload-release-images@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "source_repo": "OpenCIDN/httpmirror",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:25:24.823695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1178
+    },
+    {
+      "path": "go.mod",
+      "size": 2457
+    },
+    {
+      "path": ".github/workflows/go-cross-build.yml",
+      "size": 692
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenCIDN/httpmirror",
+    "html_url": "https://github.com/OpenCIDN/httpmirror",
+    "language": "Go",
+    "pushed_at": "2026-03-02T08:30:30Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-03-02T06:50:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-cross-build.yml",
+      "term": "Build"
+    }
+  ]
+}

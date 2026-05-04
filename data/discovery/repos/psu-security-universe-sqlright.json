@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:17:19.659283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Coveraged-based fuzzer for finding DBMS logical bugs",
+    "fork": false,
+    "full_name": "PSU-Security-Universe/sqlright",
+    "html_url": "https://github.com/PSU-Security-Universe/sqlright",
+    "language": "C",
+    "pushed_at": "2022-10-28T20:20:16Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2026-03-14T13:26:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

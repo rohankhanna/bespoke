@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmgeo/osmic",
+      "target": "hotosm/hdm-cartocss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmgeo/osmic",
+      "target": "twain47/open-svg-map-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmgeo/osmic",
+      "target": "gravitystorm/openstreetmap-carto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gmgeo/osmic",
+      "target": "gmgeo/osmic-josm-style",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic",
+      "target": "cartography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic",
+      "target": "maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gmgeo/osmic",
+      "target": "openstreetmap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:03.022437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CC0 SVG Map Icons, mirror of repo on Gitlab",
+    "fork": false,
+    "full_name": "gmgeo/osmic",
+    "html_url": "https://github.com/gmgeo/osmic",
+    "language": "HTML",
+    "pushed_at": "2025-06-27T19:49:55Z",
+    "stargazers_count": 121,
+    "topics": [
+      "cartography",
+      "icons",
+      "maps",
+      "openstreetmap",
+      "osm",
+      "svg"
+    ],
+    "updated_at": "2026-04-21T06:33:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmgeo/osmic-josm-style",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gravitystorm/openstreetmap-carto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hotosm/hdm-cartocss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twain47/open-svg-map-icons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cartography"
+    },
+    {
+      "context_snippet": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maps"
+    },
+    {
+      "context_snippet": "A collection of 150+ clean high quality SVG map icons licensed under [CC0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) and also available as [icon font](https://github.com/gmgeo/osmic/tree/master/font), which is licensed under [SIL OFL](http://scripts.sil\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    }
+  ]
+}

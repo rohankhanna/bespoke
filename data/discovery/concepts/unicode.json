@@ -367,6 +367,30 @@
       "source_repo": "nushu-script/Nyushu",
       "status": "candidate-context",
       "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "A web-based ASCII and Unicode diagram builder written in vanilla Javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate-context",
+      "text": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate-context",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "nushu-script/Nyushu",
       "status": "candidate",
       "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-core",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/CJK-character-count",
+      "status": "candidate",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
     }
   ],
   "candidate_related_terms": [
@@ -982,11 +1018,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nushu-script/Nyushu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/CJK-character-count"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

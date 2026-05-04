@@ -441,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:07.237166+00:00",
+  "fetched_at": "2026-05-04T10:35:35.665986+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -489,14 +489,14 @@
     "full_name": "rust-cli/human-panic",
     "html_url": "https://github.com/rust-cli/human-panic",
     "language": "Rust",
-    "pushed_at": "2026-04-16T19:57:54Z",
+    "pushed_at": "2026-05-01T13:06:05Z",
     "stargazers_count": 1837,
     "topics": [
       "human-centered-design",
       "panic-hook",
       "rust"
     ],
-    "updated_at": "2026-04-25T15:30:23Z"
+    "updated_at": "2026-05-02T07:27:42Z"
   },
   "repo_links": [],
   "terms": [

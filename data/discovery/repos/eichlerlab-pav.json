@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EichlerLab/pav",
+      "target": "pacificbiosciences/pbsv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:21:45.311524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9540
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Phased assembly variant caller",
+    "fork": false,
+    "full_name": "EichlerLab/pav",
+    "html_url": "https://github.com/EichlerLab/pav",
+    "language": "Python",
+    "pushed_at": "2024-12-04T14:06:52Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2026-05-04T06:12:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/pbsv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:38:14.734913+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stanford Network Analysis Platform (SNAP) is a general purpose network analysis and graph mining library.",
+    "fork": false,
+    "full_name": "snap-stanford/snap",
+    "html_url": "https://github.com/snap-stanford/snap",
+    "language": "C++",
+    "pushed_at": "2023-12-10T06:16:29Z",
+    "stargazers_count": 2272,
+    "topics": [],
+    "updated_at": "2026-05-01T10:02:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

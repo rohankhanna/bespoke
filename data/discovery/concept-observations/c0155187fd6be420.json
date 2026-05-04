@@ -99,7 +99,7 @@
   "normalized_form": "permission",
   "observation_id": "c0155187fd6be420",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "permission",
   "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/d/actix-casbin)](https://crates.io/crates/actix-casbin)",
   "source_file": null,

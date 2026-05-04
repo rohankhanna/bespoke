@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "transcription-factors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "transcription-factors",
+  "concept_id": "transcription-factors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transcription-factors",
+      "sense_id": "transcription-factors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

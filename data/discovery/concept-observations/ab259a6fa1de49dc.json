@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DNS over HTTPS [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "dnss is a daemon for using DNS over HTTPS."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "dnss is a daemon for using DNS over HTTPS."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "https-proxy",
+      "sense_id": "https-proxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "https-proxy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "https-proxy",
+  "observation_id": "ab259a6fa1de49dc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "https-proxy",
+  "source_context_snippet": "dnss is a daemon for using DNS over HTTPS.",
+  "source_file": null,
+  "source_repo": "albertito/dnss",
+  "source_repo_description": "DNS over HTTPS [mirror]"
+}

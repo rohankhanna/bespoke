@@ -78,6 +78,13 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compare-binary-sizes.yml",
+      "source_repo": "async-profiler/async-profiler",
+      "target": "compare-binary-sizes",
+      "target_type": "term"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integ.yml",
       "source_repo": "async-profiler/async-profiler",
@@ -162,6 +169,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "async-profiler/async-profiler"
 }

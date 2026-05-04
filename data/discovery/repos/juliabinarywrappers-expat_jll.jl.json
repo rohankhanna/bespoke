@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:18:33.155428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/Expat_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/Expat_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-27T23:30:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T23:30:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

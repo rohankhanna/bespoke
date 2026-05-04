@@ -295,6 +295,30 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate-context",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate-context",
+      "text": "Python tools for geographic data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "GeoInterface-based geometry operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate-context",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "kadyb/vector-benchmark",
       "status": "candidate",
       "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geopandas/geopandas",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/geopandas.svg)](https://pypi.python.org/pypi/geopandas/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GeometryOps.jl",
+      "status": "candidate",
+      "text": "<img width=\"400\" alt=\"GeometryOps.jl\" src=\"https://github.com/JuliaGeo/GeometryOps.jl/assets/32143268/92c5526d-23a9-4e01-aee0-2fcea99c5001\">"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +694,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "kadyb/vector-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "geopandas/geopandas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GeometryOps.jl"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

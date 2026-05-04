@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The world's simplest facial recognition api for Python and the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face-detection",
+      "sense_id": "face-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "face-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "face-detection",
+  "observation_id": "9b2609c8f3fa7014",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "face-detection",
+  "source_context_snippet": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026",
+  "source_file": null,
+  "source_repo": "ageitgey/face_recognition",
+  "source_repo_description": "The world's simplest facial recognition api for Python and the command line"
+}

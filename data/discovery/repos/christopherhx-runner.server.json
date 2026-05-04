@@ -169,16 +169,6 @@
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/node-upgrade.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/npm-audit-typescript.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/npm-audit-typescript.yml"
     }
   ],
   "edges": [
@@ -187,6 +177,13 @@
       "source_file": "README.md",
       "source_repo": "ChristopherHX/runner.server",
       "target": "christopherhx/runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChristopherHX/runner.server",
+      "target": "murx/murx",
       "target_type": "repository"
     },
     {
@@ -407,27 +404,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/npm-audit-typescript.yml",
-      "source_repo": "ChristopherHX/runner.server",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/npm-audit-typescript.yml",
-      "source_repo": "ChristopherHX/runner.server",
-      "target": "actions/setup-node@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/npm-audit-typescript.yml",
-      "source_repo": "ChristopherHX/runner.server",
-      "target": "NPM Audit Fix with TypeScript Auto-Fix",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server",
@@ -491,7 +467,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T00:47:39.586766+00:00",
+  "fetched_at": "2026-05-04T10:44:17.964082+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,10 +504,6 @@
     {
       "path": ".github/workflows/node-upgrade.yml",
       "size": 9191
-    },
-    {
-      "path": ".github/workflows/npm-audit-typescript.yml",
-      "size": 9857
     }
   ],
   "related_repositories": [],
@@ -543,7 +515,7 @@
     "full_name": "ChristopherHX/runner.server",
     "html_url": "https://github.com/ChristopherHX/runner.server",
     "language": "C#",
-    "pushed_at": "2026-04-27T09:13:05Z",
+    "pushed_at": "2026-05-04T09:11:39Z",
     "stargazers_count": 233,
     "topics": [
       "actions",
@@ -563,6 +535,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "christopherhx/runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "murx/murx",
       "source_file": "README.md"
     }
   ],
@@ -590,12 +567,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/node-upgrade.yml",
       "term": "Auto Update Node Version"
-    },
-    {
-      "context_snippet": "NPM Audit Fix with TypeScript Auto-Fix",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/npm-audit-typescript.yml",
-      "term": "NPM Audit Fix with TypeScript Auto-Fix"
     },
     {
       "context_snippet": "[![Runner CI](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml/badge.svg)](https://github.com/ChristopherHX/runner.server/actions/workflows/build.yml)",

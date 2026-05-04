@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/dragonFlybsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DragonFlyBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "DragonFlyBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/haiku-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Haiku.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "Haiku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MacOS.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/midnightbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MidnightBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "MidnightBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/NetBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "NetBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Omnios.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Omnios.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Omnios.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/omnios-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Omnios.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "Omnios",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OpenBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OpenBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "anyvm-org/cf-tunnel@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OpenBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/OpenBSD.yml",
+      "source_repo": "acmesh-official/acmetest",
+      "target": "OpenBSD",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "acmesh-official/acmetest"
+}

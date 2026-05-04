@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T09:34:36.186782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "mikewest/privacy-budget",
+    "html_url": "https://github.com/mikewest/privacy-budget",
+    "language": null,
+    "pushed_at": "2024-01-29T06:23:25Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-05-02T14:34:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

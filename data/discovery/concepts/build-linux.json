@@ -191,6 +191,18 @@
       "source_repo": "InteractiveComputerGraphics/Discregrid",
       "status": "candidate-context",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "JDK main-line development https://openjdk.org/projects/jdk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate-context",
+      "text": "'Build (linux)'"
     }
   ],
   "candidate_glosses": [
@@ -283,6 +295,12 @@
       "source_repo": "InteractiveComputerGraphics/Discregrid",
       "status": "candidate",
       "text": "build-linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openjdk/jdk",
+      "status": "candidate",
+      "text": "'Build (linux)'"
     }
   ],
   "candidate_related_terms": [
@@ -565,11 +583,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/build-linux.yml",
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "openjdk/jdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

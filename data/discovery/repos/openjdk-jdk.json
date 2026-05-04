@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Build (alpine-linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Build (cross-compile)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Build (linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Build (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Build (windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "OpenJDK GHA Sanity Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openjdk/jdk",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openjdk/jdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openjdk/jdk",
+      "target": "openjdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:37:48.590568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/build-alpine-linux.yml",
+      "size": 3925
+    },
+    {
+      "path": ".github/workflows/build-cross-compile.yml",
+      "size": 7736
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 5957
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 4334
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 5408
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 16956
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JDK main-line development https://openjdk.org/projects/jdk",
+    "fork": false,
+    "full_name": "openjdk/jdk",
+    "html_url": "https://github.com/openjdk/jdk",
+    "language": "Java",
+    "pushed_at": "2026-05-04T09:29:54Z",
+    "stargazers_count": 22845,
+    "topics": [
+      "java",
+      "jvm",
+      "openjdk"
+    ],
+    "updated_at": "2026-05-04T09:30:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Build (alpine-linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-alpine-linux.yml",
+      "term": "Build (alpine-linux)"
+    },
+    {
+      "context_snippet": "'Build (cross-compile)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cross-compile.yml",
+      "term": "Build (cross-compile)"
+    },
+    {
+      "context_snippet": "'Build (linux)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build (linux)"
+    },
+    {
+      "context_snippet": "'Build (macos)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build (macos)"
+    },
+    {
+      "context_snippet": "'Build (windows)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build (windows)"
+    },
+    {
+      "context_snippet": "'OpenJDK GHA Sanity Checks'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "OpenJDK GHA Sanity Checks"
+    },
+    {
+      "context_snippet": "'Run tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "For build instructions please see the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "For build instructions please see the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openjdk"
+    }
+  ]
+}

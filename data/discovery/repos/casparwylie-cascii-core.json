@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "casparwylie/cascii-core",
+      "target": "casparwylie/cascii-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core",
+      "target": "ascii",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core",
+      "target": "diagrams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core",
+      "target": "rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-core",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:20:20.811449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A web-based ASCII and Unicode diagram builder written in vanilla Javascript",
+    "fork": false,
+    "full_name": "casparwylie/cascii-core",
+    "html_url": "https://github.com/casparwylie/cascii-core",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-17T21:01:02Z",
+    "stargazers_count": 1170,
+    "topics": [
+      "2d",
+      "ascii",
+      "diagrams",
+      "javascript",
+      "rendering",
+      "unicode"
+    ],
+    "updated_at": "2026-04-24T18:33:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casparwylie/cascii-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagrams"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

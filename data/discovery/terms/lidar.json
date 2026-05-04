@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "gisbi-kim/SC-A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping"
     }
   ],
   "term": "lidar"

@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "analogdevicesinc/msdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "analog-devices-msdk/refdes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "Lint code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "analog-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "max78000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "max78002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "maxim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "target": "maxim-integrated",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:35.593991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13497
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 181
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices",
+    "fork": false,
+    "full_name": "analogdevicesinc/MaximAI_Documentation",
+    "html_url": "https://github.com/analogdevicesinc/MaximAI_Documentation",
+    "language": null,
+    "pushed_at": "2025-04-11T06:31:44Z",
+    "stargazers_count": 132,
+    "topics": [
+      "ai",
+      "analog-devices",
+      "artificial-intelligence",
+      "deep-learning",
+      "machine-learning",
+      "max78000",
+      "max78002",
+      "maxim",
+      "maxim-integrated"
+    ],
+    "updated_at": "2026-02-17T15:34:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analog-devices-msdk/refdes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analogdevicesinc/msdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint code"
+    },
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analog-devices"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78000"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "max78002"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim"
+    },
+    {
+      "context_snippet": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxim-integrated"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android locale validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "AdAway is a free and open source ad blocker for Android. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate-context",
+      "text": "Android locale validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdAway/AdAway",
+      "status": "candidate",
+      "text": "Android locale validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16364,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16364,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15711,
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15711,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15711,
+      "status": "candidate",
+      "text": "documentation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android locale validation",
+  "concept_id": "android-locale-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android locale validation",
+      "sense_id": "android-locale-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

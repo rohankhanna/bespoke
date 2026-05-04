@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:28:43.616879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample plugin for Zotero 7",
+    "fork": false,
+    "full_name": "zotero/make-it-red",
+    "html_url": "https://github.com/zotero/make-it-red",
+    "language": "JavaScript",
+    "pushed_at": "2025-01-08T05:18:36Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-12T14:11:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

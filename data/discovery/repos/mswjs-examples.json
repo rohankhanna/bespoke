@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mswjs/examples",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "mswjs/examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "mswjs/examples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "mswjs/examples",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "mswjs/examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "interceptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "mock-service-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "mocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mswjs/examples",
+      "target": "usage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:26:31.576990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1600
+    },
+    {
+      "path": "package.json",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/examples.yaml",
+      "size": 3826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of Mock Service Worker usage with various frameworks and libraries.",
+    "fork": false,
+    "full_name": "mswjs/examples",
+    "html_url": "https://github.com/mswjs/examples",
+    "language": null,
+    "pushed_at": "2025-09-16T10:32:17Z",
+    "stargazers_count": 726,
+    "topics": [
+      "api",
+      "example",
+      "examples",
+      "graphql",
+      "handler",
+      "interceptor",
+      "mock-service-worker",
+      "mocking",
+      "msw",
+      "request",
+      "response",
+      "rest",
+      "usage"
+    ],
+    "updated_at": "2026-04-27T23:29:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handler"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interceptor"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mock-service-worker"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocking"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "request"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "response"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "A collection of usage examples of [Mock Service Worker](https://github.com/mswjs/msw).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usage"
+    }
+  ]
+}

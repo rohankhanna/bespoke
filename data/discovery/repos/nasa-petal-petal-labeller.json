@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "target": "nasa/petal-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "target": "nasa/petal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "target": "biomimicry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nasa-petal/PeTaL-labeller",
+      "target": "text-classification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:24:29.500065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The PeTaL labeler labels journal articles with biomimicry functions. ",
+    "fork": false,
+    "full_name": "nasa-petal/PeTaL-labeller",
+    "html_url": "https://github.com/nasa-petal/PeTaL-labeller",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-11-09T18:36:48Z",
+    "stargazers_count": 6,
+    "topics": [
+      "biomimicry",
+      "natural-language-processing",
+      "nlp",
+      "text-classification"
+    ],
+    "updated_at": "2023-10-29T03:28:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nasa/petal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nasa/petal-db",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Periodic Table of Life (PeTaL, pronounced petal) is a design tool aimed at allowing users to seemlesly move from ideas (from nature or other sources) to design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biomimicry"
+    },
+    {
+      "context_snippet": "The Periodic Table of Life (PeTaL, pronounced petal) is a design tool aimed at allowing users to seemlesly move from ideas (from nature or other sources) to design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "The Periodic Table of Life (PeTaL, pronounced petal) is a design tool aimed at allowing users to seemlesly move from ideas (from nature or other sources) to design.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    }
+  ]
+}

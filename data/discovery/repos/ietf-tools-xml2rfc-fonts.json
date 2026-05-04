@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-noto-fonts.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-roboto-mono-fonts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-noto-fonts.yml",
+      "source_repo": "ietf-tools/xml2rfc-fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-noto-fonts.yml",
+      "source_repo": "ietf-tools/xml2rfc-fonts",
+      "target": "Download Noto fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-roboto-mono-fonts.yml",
+      "source_repo": "ietf-tools/xml2rfc-fonts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-roboto-mono-fonts.yml",
+      "source_repo": "ietf-tools/xml2rfc-fonts",
+      "target": "Download Roboto Mono fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:20:26.333642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 903
+    },
+    {
+      "path": ".github/workflows/download-noto-fonts.yml",
+      "size": 1857
+    },
+    {
+      "path": ".github/workflows/download-roboto-mono-fonts.yml",
+      "size": 1150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ietf-tools/xml2rfc-fonts",
+    "html_url": "https://github.com/ietf-tools/xml2rfc-fonts",
+    "language": null,
+    "pushed_at": "2024-06-25T13:14:21Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-06-25T13:05:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Download Noto fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-noto-fonts.yml",
+      "term": "Download Noto fonts"
+    },
+    {
+      "context_snippet": "Download Roboto Mono fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-roboto-mono-fonts.yml",
+      "term": "Download Roboto Mono fonts"
+    }
+  ]
+}

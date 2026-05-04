@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/adaPool",
+      "target": "sebgao/lip",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:11.115492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[T-IP 2023] Code for exponential adaptive pooling for PyTorch",
+    "fork": false,
+    "full_name": "alexandrosstergiou/adaPool",
+    "html_url": "https://github.com/alexandrosstergiou/adaPool",
+    "language": "Cuda",
+    "pushed_at": "2023-03-27T14:17:42Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-02-03T06:47:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sebgao/lip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

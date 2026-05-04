@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "informalsystems/quint-trace-explorer",
+      "target": "tlaplus/tlaplus",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:24:45.243455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5095
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interactive TUI for exploring Quint/Apalache ITF traces",
+    "fork": false,
+    "full_name": "informalsystems/quint-trace-explorer",
+    "html_url": "https://github.com/informalsystems/quint-trace-explorer",
+    "language": "Rust",
+    "pushed_at": "2026-01-30T08:01:04Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-26T02:44:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlaplus/tlaplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

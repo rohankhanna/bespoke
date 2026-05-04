@@ -44,6 +44,30 @@
       "source_repo": "agentscope-ai/agentscope",
       "status": "candidate-context",
       "text": "PR Title Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "PR Title Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infinigence/FUSCO",
+      "status": "candidate-context",
+      "text": "High-performance distributed data shuffling (all-to-all) library for MoE training and inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinigence/FUSCO",
+      "status": "candidate-context",
+      "text": "PR Title Check"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +86,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agentscope-ai/agentscope",
+      "status": "candidate",
+      "text": "PR Title Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate",
+      "text": "PR Title Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinigence/FUSCO",
       "status": "candidate",
       "text": "PR Title Check"
     }
@@ -149,11 +185,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "crewAIInc/crewAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "infinigence/FUSCO"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

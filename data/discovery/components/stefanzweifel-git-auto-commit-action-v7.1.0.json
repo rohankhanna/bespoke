@@ -1,12 +1,17 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v7.1.0",
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "hey-api/openapi-ts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Static Analyser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "DNS over HTTPS / DNS over Tor / DNSCrypt client, WireGuard proxifier, firewall, and connection tracker for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate-context",
+      "text": "Static Analyser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/rethink-app",
+      "status": "candidate",
+      "text": "Static Analyser"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13179,
+      "status": "candidate",
+      "text": "metric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13179,
+      "status": "candidate",
+      "text": "multivariate analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13179,
+      "status": "candidate",
+      "text": "promote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13179,
+      "status": "candidate",
+      "text": "statistical process control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12939,
+      "status": "candidate",
+      "text": "account"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Static Analyser",
+  "concept_id": "static-analyser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static Analyser",
+      "sense_id": "static-analyser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

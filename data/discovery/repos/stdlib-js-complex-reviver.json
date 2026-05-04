@@ -1,0 +1,891 @@
+{
+  "components": [
+    {
+      "component": "@stdlib/assert-is-number",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/complex-float32-ctor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/complex-float64-ctor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/string-format",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/utils-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/utils-parse-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-min",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/bench-harness",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "distributhor/workflow-webhook@48a40b380ce4593b6a6676528cd005986ae56629",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/transform-errors-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "kgryte/tape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/assert-is-number",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/complex-float32-ctor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/complex-float64-ctor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/string-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/utils-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/utils-parse-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "tap-min",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "@stdlib/bench-harness",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "cancel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "distributhor/workflow-webhook@48a40b380ce4593b6a6676528cd005986ae56629",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "stdlib-js/transform-errors-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "stdlib-js/bundle-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "productionize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "cmplx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "complex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "complex128",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "complex64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "convert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "deserialize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "revive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "reviver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "stdlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "unmarshal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "util",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "utility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/complex-reviver",
+      "target": "utils",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:28:55.217850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8839
+    },
+    {
+      "path": "package.json",
+      "size": 2071
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1745
+    },
+    {
+      "path": ".github/workflows/cancel.yml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/close_pull_requests.yml",
+      "size": 2192
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/npm_downloads.yml",
+      "size": 3844
+    },
+    {
+      "path": ".github/workflows/productionize.yml",
+      "size": 36322
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 10497
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Revive a JSON-serialized complex number.",
+    "fork": false,
+    "full_name": "stdlib-js/complex-reviver",
+    "html_url": "https://github.com/stdlib-js/complex-reviver",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-04T03:34:03Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cmplx",
+      "complex",
+      "complex128",
+      "complex64",
+      "convert",
+      "deserialize",
+      "from",
+      "javascript",
+      "json",
+      "node",
+      "node-js",
+      "nodejs",
+      "revive",
+      "reviver",
+      "stdlib",
+      "unmarshal",
+      "util",
+      "utilities",
+      "utility",
+      "utils"
+    ],
+    "updated_at": "2026-05-04T03:21:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kgryte/tape",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "cancel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "term": "cancel"
+    },
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "productionize",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/productionize.yml",
+      "term": "productionize"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmplx"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex128"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complex64"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convert"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deserialize"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "from"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "revive"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reviver"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stdlib"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unmarshal"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "util"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utilities"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utils"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2057,6 +2057,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/java-wasm-bindings.yml",
       "source_repo": "ruby/prism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sbt/sbt-jmh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cognitect/transit-clj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cognitect/transit-clj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-analysis.yml",
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-locale-check.yml",
+      "source_repo": "AdAway/AdAway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sa.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "melix/jmh-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "celzero/firestack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "cashapp/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "cashapp/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-license-json.yaml",
+      "source_repo": "cashapp/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/MaterialDrawer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-submission.yml",
+      "source_repo": "mikepenz/MaterialDrawer"
     }
   ]
 }

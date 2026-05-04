@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@v2",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-build.yml",
       "source_repo": "sp-nitech/SPTK"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-msix.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "avikeid2007/KaiROS-AI"
     }
   ]
 }

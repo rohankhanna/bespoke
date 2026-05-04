@@ -1051,6 +1051,18 @@
       "source_repo": "unknownue/vulkan-tutorial-rust",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial written in Rust using Ash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate-context",
+      "text": "![][8]"
     }
   ],
   "candidate_glosses": [
@@ -1575,6 +1587,12 @@
       "source_repo": "unknownue/vulkan-tutorial-rust",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/usami-ssc/usami-ssc/_apis/build/status/unknownue.vulkan-tutorial-rust?branchName=master)](https://dev.azure.com/usami-ssc/usami-ssc/_build/latest?definitionId=5&branchName=master) [![LICENSE](https://img.shields.io/badge/license-MIT-blue.sv\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrien-ben/vulkan-tutorial-rs",
+      "status": "candidate",
+      "text": "![][8]"
     }
   ],
   "candidate_related_terms": [
@@ -2281,11 +2299,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "adrien-ben/vulkan-tutorial-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "unknownue/vulkan-tutorial-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "kool-engine/kool"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

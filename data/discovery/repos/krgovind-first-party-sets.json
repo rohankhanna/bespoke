@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krgovind/first-party-sets",
+      "target": "disconnectme/disconnect-tracking-protection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krgovind/first-party-sets",
+      "target": "dcthetall/chips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krgovind/first-party-sets",
+      "target": "bslassey/privacy-budget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "krgovind/first-party-sets",
+      "target": "cfredric/sameparty",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:36.747197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "krgovind/first-party-sets",
+    "html_url": "https://github.com/krgovind/first-party-sets",
+    "language": null,
+    "pushed_at": "2022-08-25T15:47:59Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-10-10T13:35:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bslassey/privacy-budget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfredric/sameparty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcthetall/chips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "disconnectme/disconnect-tracking-protection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

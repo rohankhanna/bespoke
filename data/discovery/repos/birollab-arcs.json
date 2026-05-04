@@ -11,20 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "BirolLab/arcs",
-      "target": "birollab/btllib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "BirolLab/arcs",
-      "target": "birollab/tigmint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "BirolLab/arcs",
       "target": "warrenlr/links",
       "target_type": "repository"
     },
@@ -120,7 +106,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:29:07.085834+00:00",
+  "fetched_at": "2026-05-04T10:35:38.770872+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,16 +144,6 @@
     "updated_at": "2026-04-01T17:56:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "birollab/btllib",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "birollab/tigmint",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "warrenlr/links",

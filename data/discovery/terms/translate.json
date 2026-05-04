@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "windingwind/zotero-pdf-translate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "LibreTranslate/LibreTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pot-app/pot-desktop"
     }
   ],
   "term": "Translate"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automated Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automated Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13157,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13157,
+      "status": "candidate",
+      "text": "electronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13157,
+      "status": "candidate",
+      "text": "menu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13157,
+      "status": "candidate",
+      "text": "nasdaq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13157,
+      "status": "candidate",
+      "text": "robot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated Release",
+      "sense_id": "automated-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automated-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automated-release",
+  "observation_id": "993c95c68e235c98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Automated Release",
+  "source_context_snippet": "Automated Release",
+  "source_file": ".github/workflows/auto-release.yml",
+  "source_repo": "asl/BandageNG",
+  "source_repo_description": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+}

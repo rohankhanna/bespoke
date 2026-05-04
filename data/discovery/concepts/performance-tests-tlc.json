@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Performance Tests TLC"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "TLC is a model checker for specifications written in TLA+. The TLA+Toolbox is an IDE for TLA+.   "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate-context",
+      "text": "Performance Tests TLC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus/tlaplus",
+      "status": "candidate",
+      "text": "Performance Tests TLC"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26544,
+      "status": "candidate",
+      "text": "shakedown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18360,
+      "status": "candidate",
+      "text": "battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18097,
+      "status": "candidate",
+      "text": "measurements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13424,
+      "status": "candidate",
+      "text": "arista"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13424,
+      "status": "candidate",
+      "text": "caress"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Performance Tests TLC",
+  "concept_id": "performance-tests-tlc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "tlaplus/tlaplus"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Performance Tests TLC",
+      "sense_id": "performance-tests-tlc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -9,7 +9,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T21:36:21.589197+00:00",
+  "fetched_at": "2026-05-04T10:22:13.893025+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -20,14 +20,13 @@
       "size": 596
     }
   ],
-  "metadata_refreshed_at": "2026-05-04T05:44:12.692140+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "molotovcherry/tree-sitter-wasm",
+    "full_name": "MolotovCherry/tree-sitter-wasm",
     "html_url": "https://github.com/MolotovCherry/tree-sitter-wasm",
     "language": "PowerShell",
     "pushed_at": "2022-04-10T22:58:05Z",

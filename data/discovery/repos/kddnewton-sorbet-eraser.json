@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@v1.3.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "kddnewton/sorbet-eraser.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "dependabot/fetch-metadata@v1.3.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kddnewton/sorbet-eraser",
+      "target": "Main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:32:02.647531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6968
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Erase all traces of sorbet-runtime code",
+    "fork": false,
+    "full_name": "kddnewton/sorbet-eraser",
+    "html_url": "https://github.com/kddnewton/sorbet-eraser",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T10:46:51Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-05-01T10:46:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kddnewton/sorbet-eraser.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    }
+  ]
+}

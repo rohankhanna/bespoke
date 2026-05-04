@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBuf/how-to-optim-algorithm-in-cuda",
+      "target": "bbuf/how-to-learn-deep-learning-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBuf/how-to-optim-algorithm-in-cuda",
+      "target": "bbuf/tvm_mlir_learn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBuf/how-to-optim-algorithm-in-cuda",
+      "target": "cuda-mode/lectures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BBuf/how-to-optim-algorithm-in-cuda",
+      "target": "cuda",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:21.829434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "how to optimize some algorithm in cuda.",
+    "fork": false,
+    "full_name": "BBuf/how-to-optim-algorithm-in-cuda",
+    "html_url": "https://github.com/BBuf/how-to-optim-algorithm-in-cuda",
+    "language": "Cuda",
+    "pushed_at": "2026-04-22T08:22:45Z",
+    "stargazers_count": 2959,
+    "topics": [
+      "cuda",
+      "llm"
+    ],
+    "updated_at": "2026-05-04T02:18:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbuf/how-to-learn-deep-learning-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbuf/tvm_mlir_learn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuda-mode/lectures",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u6211\u4e5f\u7ef4\u62a4\u4e86\u4e00\u4e2a\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6\uff08PyTorch\u548cOneFlow\uff09\u7684\u4ed3\u5e93 https://github.com/BBuf/how-to-learn-deep-learning-framework \u4ee5\u53ca\u4e00\u4e2a\u5982\u4f55\u5b66\u4e60\u6df1\u5ea6\u5b66\u4e60\u7f16\u8bd1\u5668\uff08TVM/MLIR/LLVM\uff09\u7684\u5b66\u4e60\u4ed3\u5e93 https://github.com/BBuf/tvm_mlir_learn , \u6709\u9700\u8981\u7684\u5c0f\u4f19\u4f34\u53ef\u4ee5**\u70b9\u4e00\u70b9star**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    }
+  ]
+}

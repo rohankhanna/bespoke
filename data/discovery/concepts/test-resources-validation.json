@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test resources validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate-context",
+      "text": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate-context",
+      "text": "Test resources validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "evilsocket/opensnitch",
+      "status": "candidate",
+      "text": "Test resources validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26027,
+      "status": "candidate",
+      "text": "challenge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24494,
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24468,
+      "status": "candidate",
+      "text": "probate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test resources validation",
+  "concept_id": "test-resources-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/generic_validations.yml",
+      "source_repo": "evilsocket/opensnitch"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test resources validation",
+      "sense_id": "test-resources-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

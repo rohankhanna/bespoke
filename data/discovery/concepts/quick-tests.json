@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Quick Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capnproto/capnproto",
+      "status": "candidate-context",
+      "text": "Cap'n Proto serialization/RPC system - core tools and C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capnproto/capnproto",
+      "status": "candidate-context",
+      "text": "Quick Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capnproto/capnproto",
+      "status": "candidate",
+      "text": "Quick Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12095,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11756,
+      "status": "candidate",
+      "text": "battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10973,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10973,
+      "status": "candidate",
+      "text": "experiences"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10973,
+      "status": "candidate",
+      "text": "preliminary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Quick Tests",
+  "concept_id": "quick-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/quick-test.yml",
+      "source_repo": "capnproto/capnproto"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quick Tests",
+      "sense_id": "quick-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

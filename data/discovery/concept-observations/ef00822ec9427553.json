@@ -48,7 +48,7 @@
   "normalized_form": "aws-accelerate",
   "observation_id": "ef00822ec9427553",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "aws-accelerate",
   "source_context_snippet": "aws-accelerate",
   "source_file": ".github/workflows/aws-accelerate.yml",

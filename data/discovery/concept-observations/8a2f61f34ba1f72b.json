@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python bindings to UCSC BigWig and BigBed library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19503223,
+      "status": "candidate",
+      "text": "chatham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19428857,
+      "status": "candidate",
+      "text": "chicago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18392619,
+      "status": "candidate",
+      "text": "recognise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18305349,
+      "status": "candidate",
+      "text": "dunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18213997,
+      "status": "candidate",
+      "text": "superman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kent",
+      "sense_id": "kent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kent",
+  "observation_id": "8a2f61f34ba1f72b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "kent",
+  "source_context_snippet": "![Build Status](https://github.com/nvictus/pybbi/actions/workflows/ci.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "nvictus/pybbi",
+  "source_repo_description": "Python bindings to UCSC BigWig and BigBed library"
+}

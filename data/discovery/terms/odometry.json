@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "gisbi-kim/SC-A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "url-kaist/outlier-robust-radar-odometry"
     }
   ],
   "term": "odometry"

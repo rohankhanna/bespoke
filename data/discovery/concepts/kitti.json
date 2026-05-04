@@ -91,6 +91,18 @@
       "source_repo": "ClementPinard/SfmLearner-Pytorch",
       "status": "candidate-context",
       "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate-context",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "ClementPinard/SfmLearner-Pytorch",
       "status": "candidate",
       "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/mini-kitti-publisher",
+      "status": "candidate",
+      "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +352,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/mini-kitti-publisher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

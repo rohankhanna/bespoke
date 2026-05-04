@@ -55,6 +55,18 @@
       "source_repo": "metosin/reitit",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/metosin/reitit/actions/workflows/testsuite.yml/badge.svg)](https://github.com/metosin/reitit/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "Sweet web apis with Compojure & Swagger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate-context",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "metosin/reitit",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/metosin/reitit/actions/workflows/testsuite.yml/badge.svg)](https://github.com/metosin/reitit/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/compojure-api",
+      "status": "candidate",
+      "text": "**Psst!** If you're starting a new project, why not try out [reitit](https://github.com/metosin/reitit)?"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "metosin/reitit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "metosin/compojure-api"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

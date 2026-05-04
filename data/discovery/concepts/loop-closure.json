@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "loop-closure"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "LIO-SAM-6AXIS with intensity image  loop optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "loop-closure",
+  "concept_id": "loop-closure",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loop-closure",
+      "sense_id": "loop-closure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

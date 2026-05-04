@@ -55,6 +55,18 @@
       "source_repo": "alexheretic/glyph-brush",
       "status": "candidate-context",
       "text": "Fast cached text rendering."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "TrueType version of Source Han Sans, Source Han Serif and Source Han Mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate-context",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "alexheretic/glyph-brush",
       "status": "candidate",
       "text": "Fast cached text rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Pal3love/Source-Han-TrueType",
+      "status": "candidate",
+      "text": "[English](README_EN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Pal3love/Source-Han-TrueType"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

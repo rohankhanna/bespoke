@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "spinner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 The simplest and tiniest terminal spinner for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate-context",
+      "text": "The simplest and tiniest terminal spinner for Node.js"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usmanyunusov/nanospinner",
+      "status": "candidate",
+      "text": "The simplest and tiniest terminal spinner for Node.js"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29759071,
+      "status": "candidate",
+      "text": "spinster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986452,
+      "status": "candidate",
+      "text": "thread maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19986451,
+      "status": "candidate",
+      "text": "centrifuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976371,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19969168,
+      "status": "candidate",
+      "text": "top"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7040,
+      "status": "candidate",
+      "text": "spinster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "thread maker"
+    }
+  ],
+  "canonical_name": "spinner",
+  "concept_id": "spinner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "usmanyunusov/nanospinner"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spinner",
+      "sense_id": "spinner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in MapLibreGL JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024635,
+      "status": "candidate",
+      "text": "preroll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024634,
+      "status": "candidate",
+      "text": "prepaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024633,
+      "status": "candidate",
+      "text": "pre-hook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024632,
+      "status": "candidate",
+      "text": "pre-roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024631,
+      "status": "candidate",
+      "text": "prefetch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "preloader",
+      "sense_id": "preloader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "preloader",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "preloader",
+  "observation_id": "df1adcacdae5f3b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "preloader",
+  "source_context_snippet": "A tiny (1 kB gziped) almost-zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in [MapLibreGL JS](https://maplibre.org/).",
+  "source_file": null,
+  "source_repo": "AbelVM/maplibre-preload",
+  "source_repo_description": "A tiny zero-configuration plugin for preloading tiles and smoothen the experience when using targeted movements in MapLibreGL JS."
+}

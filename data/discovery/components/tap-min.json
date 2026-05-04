@@ -1,7 +1,7 @@
 {
   "component": "tap-min",
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -207,6 +207,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stdlib-js/streams-node-stdout"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/complex-reviver"
     }
   ]
 }

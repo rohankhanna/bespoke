@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![teaser](./resources/teaser.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![teaser](./resources/teaser.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylegan2",
+      "sense_id": "stylegan2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stylegan2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stylegan2",
+  "observation_id": "e7f1a5e8e219f66e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "stylegan2",
+  "source_context_snippet": "![teaser](./resources/teaser.jpg)",
+  "source_file": null,
+  "source_repo": "EndlessSora/DeceiveD",
+  "source_repo_description": "[NeurIPS 2021] Deceive D: Adaptive Pseudo Augmentation for GAN Training with Limited Data"
+}

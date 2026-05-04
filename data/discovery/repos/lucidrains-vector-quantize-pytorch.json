@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "lucidrains/vector-quantizer-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "scalar-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "target": "vector-quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:54.215307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29418
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vector (and Scalar) Quantization, in Pytorch",
+    "fork": false,
+    "full_name": "lucidrains/vector-quantize-pytorch",
+    "html_url": "https://github.com/lucidrains/vector-quantize-pytorch",
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:23:45Z",
+    "stargazers_count": 3920,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "pytorch",
+      "scalar-quantization",
+      "vector-quantization"
+    ],
+    "updated_at": "2026-05-01T10:06:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucidrains/vector-quantizer-pytorch",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./images/vq.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./images/vq.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./images/vq.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\"./images/vq.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalar-quantization"
+    },
+    {
+      "context_snippet": "<img src=\"./images/vq.png\" width=\"500px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-quantization"
+    }
+  ]
+}

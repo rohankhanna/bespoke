@@ -7,16 +7,9 @@
       "source_repo": "aidenlab/straw",
       "target": "igvteam/hic-straw",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aidenlab/straw",
-      "target": "aidenlab/pystraw",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T19:29:26.231731+00:00",
+  "fetched_at": "2026-05-04T08:21:49.741712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -38,11 +31,6 @@
     "updated_at": "2026-03-27T06:11:03Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "aidenlab/pystraw",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "igvteam/hic-straw",

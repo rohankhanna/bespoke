@@ -55,6 +55,18 @@
       "source_repo": "yl4579/PL-BERT",
       "status": "candidate-context",
       "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "yl4579/PL-BERT",
       "status": "candidate",
       "text": "> Large-scale pre-trained language models have been shown to be helpful in improving the naturalness of text-to-speech (TTS) models by enabling them to produce more naturalistic prosodic patterns. However, these models are usually word-level or sup-phoneme-level and jointly trai\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "yl4579/PL-BERT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

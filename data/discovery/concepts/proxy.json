@@ -513,6 +513,54 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Command-line client for WebSockets, like netcat (or curl) for ws:// with advanced socat-like functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate-context",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate-context",
+      "text": "Turn any program that uses STDIN/STDOUT into a WebSocket server. Like inetd, but for WebSockets. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate-context",
+      "text": "websocketd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Userspace wireguard and network monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate-context",
+      "text": "Firestack is a userspace TCP/UDP connection monitor, firewall, DNS resolver, and multi-hop [WireGuard](https://github.com/wireguard/wireguard-go) client for Android."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate-context",
+      "text": "CRProxy (Container Registry Proxy) is a generic image proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>"
     }
   ],
   "candidate_glosses": [
@@ -767,6 +815,30 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vi/websocat",
+      "status": "candidate",
+      "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joewalnes/websocketd",
+      "status": "candidate",
+      "text": "websocketd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celzero/firestack",
+      "status": "candidate",
+      "text": "Firestack is a userspace TCP/UDP connection monitor, firewall, DNS resolver, and multi-hop [WireGuard](https://github.com/wireguard/wireguard-go) client for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -1095,11 +1167,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "v2fly/v2ray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vi/websocat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "joewalnes/websocketd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "celzero/firestack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-nvidia-images.yml",
+      "source_repo": "pytorch/builder"
+    }
+  ],
+  "term": "Build nvidia docker images"
+}

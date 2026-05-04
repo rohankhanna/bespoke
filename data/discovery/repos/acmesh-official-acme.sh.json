@@ -206,6 +206,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
+      "target": "opnsense/plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acmesh-official/acme.sh",
       "target": "acmesh-official/letest",
       "target_type": "repository"
     },
@@ -213,21 +220,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
-      "target": "acmesh-official/acmetest",
+      "target": "letsencrypt/pebble",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "acmesh-official/acme.sh",
-      "target": "acmesh-official/get.acme.sh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "acmesh-official/acme.sh",
-      "target": "diafygi/acme-tiny",
+      "target": "ietf-wg-acme/acme",
       "target_type": "repository"
     },
     {
@@ -595,7 +595,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:42:41.749605+00:00",
+  "fetched_at": "2026-05-04T10:28:04.586775+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -648,7 +648,7 @@
     "html_url": "https://github.com/acmesh-official/acme.sh",
     "language": "Shell",
     "pushed_at": "2026-05-02T09:22:53Z",
-    "stargazers_count": 46457,
+    "stargazers_count": 46459,
     "topics": [
       "acme",
       "acme-challenge",
@@ -669,19 +669,9 @@
       "tls-certificate",
       "zerossl"
     ],
-    "updated_at": "2026-05-03T21:29:01Z"
+    "updated_at": "2026-05-04T08:16:01Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "acmesh-official/acmetest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "acmesh-official/get.acme.sh",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "acmesh-official/letest",
@@ -689,7 +679,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "diafygi/acme-tiny",
+      "full_name": "ietf-wg-acme/acme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letsencrypt/pebble",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opnsense/plugins",
       "source_file": "README.md"
     }
   ],

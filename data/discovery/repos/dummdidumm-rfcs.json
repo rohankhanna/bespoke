@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:39:53.324971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RFCs for changes to Svelte",
+    "fork": true,
+    "full_name": "dummdidumm/rfcs",
+    "html_url": "https://github.com/dummdidumm/rfcs",
+    "language": null,
+    "pushed_at": "2023-05-26T13:06:04Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2024-03-16T14:20:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

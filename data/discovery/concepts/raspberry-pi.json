@@ -187,6 +187,18 @@
       "source_repo": "bitfieldaudio/OTTO",
       "status": "candidate-context",
       "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate-context",
+      "text": "Audio library for Processing built with JSyn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/v/release/processing/processing-sound?sort=semver)](https://github.com/processing/processing-sound/releases) ![License](https://img.shields.io/github/license/processing/processing-sound) [![Documentation](https://img.shields.io/badge/Doc\u2026"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "bitfieldaudio/OTTO",
       "status": "candidate",
       "text": "![image](https://user-images.githubusercontent.com/3133596/128610052-d22a7420-2245-4c5f-8785-9c474ee35d91.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "processing/processing-sound",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/v/release/processing/processing-sound?sort=semver)](https://github.com/processing/processing-sound/releases) ![License](https://img.shields.io/github/license/processing/processing-sound) [![Documentation](https://img.shields.io/badge/Doc\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +400,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "bitfieldaudio/OTTO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "processing/processing-sound"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

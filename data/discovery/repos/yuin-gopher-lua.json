@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuin/gopher-lua",
+      "target": "cjoudrey/gluahttp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuin/gopher-lua",
+      "target": "cjoudrey/gluaurl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuin/gopher-lua",
+      "target": "ailncode/gluaxmlpath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuin/gopher-lua",
+      "target": "cuberl/glua-async",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yuin/gopher-lua",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yuin/gopher-lua",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "yuin/gopher-lua",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuin/gopher-lua",
+      "target": "gopher-lua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:22:32.360750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24665
+    },
+    {
+      "path": "go.mod",
+      "size": 308
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GopherLua: VM and compiler for Lua in Go",
+    "fork": false,
+    "full_name": "yuin/gopher-lua",
+    "html_url": "https://github.com/yuin/gopher-lua",
+    "language": "Go",
+    "pushed_at": "2026-04-01T00:54:16Z",
+    "stargazers_count": 6890,
+    "topics": [
+      "go",
+      "gopher-lua",
+      "lua"
+    ],
+    "updated_at": "2026-05-02T04:31:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailncode/gluaxmlpath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjoudrey/gluahttp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjoudrey/gluaurl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuberl/glua-async",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/yuin/gopher-lua.svg)](https://pkg.go.dev/github.com/yuin/gopher-lua) [![test](https://github.com/yuin/gopher-lua/workflows/test/badge.svg?branch=master&event=push)](https://github.com/yuin/gopher-lua/actions?query=workflow:test) [\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gopher-lua"
+    }
+  ]
+}

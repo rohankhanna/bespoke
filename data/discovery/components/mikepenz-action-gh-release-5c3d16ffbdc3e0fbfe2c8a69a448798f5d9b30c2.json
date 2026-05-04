@@ -1,0 +1,12 @@
+{
+  "component": "mikepenz/action-gh-release@5c3d16ffbdc3e0fbfe2c8a69a448798f5d9b30c2",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikepenz/AboutLibraries"
+    }
+  ]
+}

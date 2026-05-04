@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "lindawangg/covid-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "covid-19",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iliasprc/COVIDNet",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:25.107674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7368
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of COVID-Net https://github.com/lindawangg/COVID-Net",
+    "fork": false,
+    "full_name": "iliasprc/COVIDNet",
+    "html_url": "https://github.com/iliasprc/COVIDNet",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-25T12:35:08Z",
+    "stargazers_count": 81,
+    "topics": [
+      "covid-19",
+      "python3",
+      "pytorch",
+      "pytorch-implementation",
+      "xray"
+    ],
+    "updated_at": "2025-03-25T03:43:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lindawangg/covid-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "[![Contributors][contributors-shield]][contributors-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    }
+  ]
+}

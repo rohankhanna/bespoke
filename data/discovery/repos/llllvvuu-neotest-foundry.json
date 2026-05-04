@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llllvvuu/neotest-foundry",
+      "target": "rcarriga/neotest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llllvvuu/neotest-foundry",
+      "target": "praneshasp/vscode-foundry-test-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "llllvvuu/neotest-foundry",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "llllvvuu/neotest-foundry",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "llllvvuu/neotest-foundry",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:21:27.224799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1466
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 2471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Foundry's Solidity test runner integrated into Neovim via Neotest",
+    "fork": true,
+    "full_name": "llllvvuu/neotest-foundry",
+    "html_url": "https://github.com/llllvvuu/neotest-foundry",
+    "language": "Solidity",
+    "pushed_at": "2025-05-28T07:56:07Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-05-28T07:56:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "praneshasp/vscode-foundry-test-runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rcarriga/neotest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

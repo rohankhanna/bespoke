@@ -5287,6 +5287,198 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate-context",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "A sparsity aware implementation of \"Deep Autoencoder-like Nonnegative Matrix Factorization for Community Detection\" (CIKM 2018)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate-context",
+      "text": "DANMF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate-context",
+      "text": "Reusable BatchBALD implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate-context",
+      "text": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "Bayesian active learning library for research and industrial usecases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate-context",
+      "text": "StarCraft II Learning Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "A curated, but incomplete, list of data-centric AI resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of Deep SAD, a deep Semi-supervised Anomaly Detection method."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate-context",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate-context",
+      "text": "The world's simplest facial recognition api for Python and the command line"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate-context",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of convolutional neural networks-based text-to-speech synthesis models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate-context",
+      "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "MAX78000 and MAX78002 Reference Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate-context",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+      "status": "candidate-context",
+      "text": "BDCI2019\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a-\u7ebf\u4e0a\u7b2c\u4e00\u540d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+      "status": "candidate-context",
+      "text": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "The Triton Inference Server provides an optimized cloud and edge inferencing solution. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -7929,6 +8121,102 @@
       "source_repo": "SciML/sciml.ai",
       "status": "candidate",
       "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benedekrozemberczki/DANMF",
+      "status": "candidate",
+      "text": "DANMF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/batchbald_redux",
+      "status": "candidate",
+      "text": "> Clean reimplementation of \\\"BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning\\\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baal-org/baal",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-deepmind/pysc2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukasruff/Deep-SAD-PyTorch",
+      "status": "candidate",
+      "text": "This repository provides a [PyTorch](https://pytorch.org/) implementation of the *Deep SAD* method presented in our ICLR 2020 paper \u201dDeep Semi-Supervised Anomaly Detection\u201d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ageitgey/face_recognition",
+      "status": "candidate",
+      "text": "_You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](https://github.com/ageitgey/face_recognition/blob/master/README_Simplified_Chinese.md) or [in Korean \ud55c\uad6d\uc5b4](https://github.com/ageitgey/face_recognition/blob/master/README_Korean.md) or [in Japanese \u65e5\u672c\u8a9e](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r9y9/deepvoice3_pytorch",
+      "status": "candidate",
+      "text": "![alt text](assets/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/DALI",
+      "status": "candidate",
+      "text": "|License| |Documentation| |Format|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrikerMan/Kashgari",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+      "status": "candidate",
+      "text": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/server",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -13198,11 +13486,353 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "SciML/sciml.ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "benedekrozemberczki/DANMF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "zhijian-liu/torchpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BlackHC/batchbald_redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "baal-org/baal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/pysc2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lukasruff/Deep-SAD-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ageitgey/face_recognition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "r9y9/deepvoice3_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/DALI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "triton-inference-server/server"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

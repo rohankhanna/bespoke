@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An example ABCI application making use of tendermint-rs and ibc-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "At a high level, basecoin implements the application logic that sits between the Tendermint consensus layer and ibc-rs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "At a high level, basecoin implements the application logic that sits between the Tendermint consensus layer and ibc-rs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abci",
+      "sense_id": "abci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abci",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abci",
+  "observation_id": "c3c3cabc837efa8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "abci",
+  "source_context_snippet": "At a high level, basecoin implements the application logic that sits between the Tendermint consensus layer and ibc-rs.",
+  "source_file": null,
+  "source_repo": "informalsystems/basecoin-rs",
+  "source_repo_description": "An example ABCI application making use of tendermint-rs and ibc-rs"
+}

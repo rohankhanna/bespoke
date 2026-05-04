@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-update.yml",
       "source_repo": "aslafy-z/helm-git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-symbols"
     }
   ],
   "term": "Auto-update"

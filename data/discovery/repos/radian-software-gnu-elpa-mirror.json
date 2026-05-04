@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "emacs-straight/emacsmirror-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "emacs-straight/gnu-elpa-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radian-software/gnu-elpa-mirror",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:39:03.267442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3022
+    },
+    {
+      "path": "Dockerfile",
+      "size": 463
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd11 Bypasses terrible package management decisions.",
+    "fork": false,
+    "full_name": "radian-software/gnu-elpa-mirror",
+    "html_url": "https://github.com/radian-software/gnu-elpa-mirror",
+    "language": "Python",
+    "pushed_at": "2026-03-14T15:56:05Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-14T15:56:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-straight/emacsmirror-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-straight/gnu-elpa-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

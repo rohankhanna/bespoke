@@ -739,6 +739,54 @@
       "source_repo": "JuliaGraphics/Luxor.jl",
       "status": "candidate-context",
       "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate-context",
+      "text": "Visually explore your JMH Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate-context",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flekschas/hipiler",
+      "status": "candidate-context",
+      "text": "Visual exploration of large genome interaction matrices with interactive small multiples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flekschas/hipiler",
+      "status": "candidate-context",
+      "text": "![HiPiler's interface](teaser.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "status": "candidate-context",
+      "text": "A Gradle plugin building a visual report for JMH benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "status": "candidate-context",
+      "text": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate-context",
+      "text": "A vizualiser for sparse matrices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate-context",
+      "text": "<img src=\"figs/fig00a.png\">"
     }
   ],
   "candidate_glosses": [
@@ -1107,6 +1155,30 @@
       "source_repo": "JuliaGraphics/Luxor.jl",
       "status": "candidate",
       "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/jmh-visualizer",
+      "status": "candidate",
+      "text": "Visually explore your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) Benchmarks! Online version at http://jmh.morethan.io!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flekschas/hipiler",
+      "status": "candidate",
+      "text": "![HiPiler's interface](teaser.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jzillmann/gradle-jmh-report",
+      "status": "candidate",
+      "text": "**_gradle-jmh-report_** is a [Gradle](http://gradle.org) plugin to manage and visualize the result of your [JMH](http://openjdk.java.net/projects/code-tools/jmh/) benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpmech/vismatrix",
+      "status": "candidate",
+      "text": "<img src=\"figs/fig00a.png\">"
     }
   ],
   "candidate_related_terms": [
@@ -1687,11 +1759,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jzillmann/jmh-visualizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "flekschas/hipiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jzillmann/gradle-jmh-report"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "cpmech/vismatrix"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

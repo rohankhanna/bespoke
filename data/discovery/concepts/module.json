@@ -55,6 +55,30 @@
       "source_repo": "browserify/resolve",
       "status": "candidate-context",
       "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Nelson's module skeleton"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate-context",
+      "text": "Template to create external Nelson's module with macros only."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate-context",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "browserify/resolve",
       "status": "candidate",
       "text": "resolve \u2014 resolve like require.resolve() on behalf of files asynchronously and synchronously"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/module_skeleton",
+      "status": "candidate",
+      "text": "Template to create external Nelson's module with macros only."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "theplant/htmlgo",
+      "status": "candidate",
+      "text": "Type safe and modularize way to generate html on server side."
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +199,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "browserify/resolve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/module_skeleton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "theplant/htmlgo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

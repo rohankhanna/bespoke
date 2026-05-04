@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "SonarSource/sonarcloud-github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "SonarSource/sonarcloud-github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "EnricoMi/publish-unit-test-result-action@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "bert-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "nlp-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "seq2seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "sequence-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "text-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrikerMan/Kashgari",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:34.383310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6553
+    },
+    {
+      "path": "requirements.txt",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2-main",
+    "description": "Kashgari is a production-level NLP Transfer learning framework built on top of tf.keras for text-labeling and text-classification, includes Word2Vec, BERT, and GPT2 Language Embedding.",
+    "fork": false,
+    "full_name": "BrikerMan/Kashgari",
+    "html_url": "https://github.com/BrikerMan/Kashgari",
+    "language": "Python",
+    "pushed_at": "2024-09-03T21:05:29Z",
+    "stargazers_count": 2384,
+    "topics": [
+      "bert",
+      "bert-model",
+      "gpt-2",
+      "machine-learning",
+      "named-entity-recognition",
+      "ner",
+      "nlp",
+      "nlp-framework",
+      "seq2seq",
+      "sequence-labeling",
+      "text-classification",
+      "text-labeling",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-28T09:02:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-model"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-framework"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seq2seq"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sequence-labeling"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-labeling"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

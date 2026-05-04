@@ -106,6 +106,42 @@
       "source_repo": "layumi/2016_person_re-ID",
       "status": "candidate-context",
       "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate-context",
+      "text": "This repo is for our IEEE TCSVT paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "TOMM2020 Dual-Path Convolutional Image-Text Embedding with Instance Loss  :feet:  https://arxiv.org/abs/1711.05535"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +192,24 @@
       "source_repo": "layumi/2016_person_re-ID",
       "status": "candidate",
       "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=nelson-lang.nelson)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "status": "candidate",
+      "text": "This repo is for our IEEE TCSVT paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +301,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "layumi/2016_person_re-ID"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

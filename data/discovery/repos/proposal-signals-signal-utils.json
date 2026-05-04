@@ -158,14 +158,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "tracked-tools/tracked-toolbox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "proposal-signals/signal-utils",
-      "target": "universal-ember/reactiveweb",
+      "target": "xantredev/preact-signals",
       "target_type": "repository"
     },
     {
@@ -173,6 +166,13 @@
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
       "target": "vue-reactivity/use",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "proposal-signals/signal-utils",
+      "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
     {
@@ -365,7 +365,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T02:01:50.274768+00:00",
+  "fetched_at": "2026-05-04T11:43:18.483652+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -410,18 +410,18 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tracked-tools/tracked-toolbox",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "universal-ember/reactiveweb",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "vue-reactivity/use",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xantredev/preact-signals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proposal-signals/proposal-signals",
+      "source_file": "package.json"
     }
   ],
   "terms": [

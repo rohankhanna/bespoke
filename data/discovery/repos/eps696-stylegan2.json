@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2",
+      "target": "pbaylies/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2",
+      "target": "aydao/stylegan2-surgery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2",
+      "target": "justinpinkney/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eps696/stylegan2",
+      "target": "skyflynil/stylegan2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:36:44.171175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13574
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StyleGAN2 for practice",
+    "fork": false,
+    "full_name": "eps696/stylegan2",
+    "html_url": "https://github.com/eps696/stylegan2",
+    "language": "Python",
+    "pushed_at": "2023-10-24T21:46:46Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2025-09-22T14:27:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aydao/stylegan2-surgery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/stylegan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pbaylies/stylegan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyflynil/stylegan2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

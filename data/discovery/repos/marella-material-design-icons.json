@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "git-actions/set-user@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "git-actions/set-user@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "marella/material-design-icons",
+      "target": "Auto Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "material-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "material-design-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marella/material-design-icons",
+      "target": "material-icons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:28:49.448141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 653
+    },
+    {
+      "path": "package.json",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Latest icon fonts and optimized SVGs for material design icons.",
+    "fork": false,
+    "full_name": "marella/material-design-icons",
+    "html_url": "https://github.com/marella/material-design-icons",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-12T02:30:40Z",
+    "stargazers_count": 229,
+    "topics": [
+      "font",
+      "icons",
+      "material",
+      "material-design",
+      "material-design-icons",
+      "material-icons",
+      "svg"
+    ],
+    "updated_at": "2026-05-02T18:25:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Auto Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Auto Update"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-design-icons"
+    },
+    {
+      "context_snippet": "Latest icon fonts and optimized SVGs for material design icons.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "material-icons"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-build.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-build.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-deploy.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-deploy.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elastic/docs-actions/.github/workflows/docs-preview-cleanup.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-cleanup.yml",
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "docs-preview-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "elasticsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kibana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "elastic/cloud-on-k8s",
+      "target": "kubernetes-operators",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "elastic/cloud-on-k8s"
+}

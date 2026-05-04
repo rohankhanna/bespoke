@@ -138,20 +138,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TA-Lib/ta-lib-python",
-      "target": "ta-lib/ta-lib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TA-Lib/ta-lib-python",
-      "target": "pappasam/jedi-language-server",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TA-Lib/ta-lib-python",
@@ -250,7 +236,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T18:42:24.465120+00:00",
+  "fetched_at": "2026-05-04T08:18:40.268783+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -287,7 +273,7 @@
     "html_url": "https://github.com/TA-Lib/ta-lib-python",
     "language": "Cython",
     "pushed_at": "2026-03-16T16:55:43Z",
-    "stargazers_count": 11927,
+    "stargazers_count": 11929,
     "topics": [
       "finance",
       "pattern-recognition",
@@ -296,20 +282,9 @@
       "ta-lib",
       "technical-analysis"
     ],
-    "updated_at": "2026-05-03T14:47:19Z"
+    "updated_at": "2026-05-04T07:04:59Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pappasam/jedi-language-server",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ta-lib/ta-lib",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Tests",

@@ -2,7 +2,8 @@
   "aliases": [
     "Prepare release",
     "Prepare Release",
-    "prepare release"
+    "prepare release",
+    "prepare-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -387,6 +388,30 @@
       "source_repo": "heroku/webapp-runner",
       "status": "candidate-context",
       "text": "Prepare release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "APALACHE: symbolic model checker for TLA+ and Quint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate-context",
+      "text": "prepare-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Ansible Language Server codebase is now included in vscode-ansible repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate-context",
+      "text": "prepare-release"
     }
   ],
   "candidate_glosses": [
@@ -581,6 +606,18 @@
       "source_repo": "heroku/webapp-runner",
       "status": "candidate",
       "text": "Prepare release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apalache-mc/apalache",
+      "status": "candidate",
+      "text": "prepare-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-language-server",
+      "status": "candidate",
+      "text": "prepare-release"
     }
   ],
   "candidate_related_terms": [
@@ -828,11 +865,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/prepare-release.yml",
       "source_repo": "heroku/webapp-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "ansible/ansible-language-server"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

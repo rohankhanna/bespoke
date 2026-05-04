@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "eleutherai/gptneo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "autoregressive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "target": "variational-autoencoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:23:15.900555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5944
+    },
+    {
+      "path": "requirements.txt",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-AI's DALL-E for large scale training in mesh-tensorflow.",
+    "fork": false,
+    "full_name": "EleutherAI/DALLE-mtf",
+    "html_url": "https://github.com/EleutherAI/DALLE-mtf",
+    "language": "Python",
+    "pushed_at": "2022-02-12T13:57:47Z",
+    "stargazers_count": 431,
+    "topics": [
+      "artificial-intelligence",
+      "autoregressive",
+      "multimodal",
+      "text-to-image",
+      "transformers",
+      "variational-autoencoder"
+    ],
+    "updated_at": "2026-04-03T12:08:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/gptneo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoregressive"
+    },
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variational-autoencoder"
+    }
+  ]
+}

@@ -681,6 +681,42 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "a Bioinformatics Application for Navigating De novo Assembly Graphs Easily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate-context",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "\u2705 Headless form validation library for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate-context",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "A Bridge between SDN and Cloud Native (Project under CNCF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate-context",
+      "text": "Build Test"
     }
   ],
   "candidate_glosses": [
@@ -1025,6 +1061,24 @@
       "source_repo": "shadowsocks/shadowsocks-rust",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asl/BandageNG",
+      "status": "candidate",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "victorgarciaesgi/regle",
+      "status": "candidate",
+      "text": "build-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubeovn/kube-ovn",
+      "status": "candidate",
+      "text": "Build Test"
     }
   ],
   "candidate_related_terms": [
@@ -1974,11 +2028,77 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asl/BandageNG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "victorgarciaesgi/regle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/build-kube-ovn-test.yaml",
+      "source_repo": "kubeovn/kube-ovn"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

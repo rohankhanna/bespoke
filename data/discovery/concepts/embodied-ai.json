@@ -103,6 +103,30 @@
       "source_repo": "RoboTwin-Platform/RoboTwin",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "RLinf: Reinforcement Learning Infrastructure for Embodied and Agentic AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "Memory-Dependent Manipulation Benchmark based on RoboTwin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "RoboTwin-Platform/RoboTwin",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RLinf/RLinf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +400,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "FlagOpen/RoboBrain2.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:28:02.863355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "yatsuki/v2ray-release",
+    "html_url": "https://github.com/yatsuki/v2ray-release",
+    "language": "Shell",
+    "pushed_at": "2022-02-23T12:27:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-02-23T10:24:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

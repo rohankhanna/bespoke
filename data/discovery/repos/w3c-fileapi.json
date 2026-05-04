@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/FileAPI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/FileAPI",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:34:47.707603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 314
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File API",
+    "fork": false,
+    "full_name": "w3c/FileAPI",
+    "html_url": "https://github.com/w3c/FileAPI",
+    "language": "HTML",
+    "pushed_at": "2025-12-03T15:14:16Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2025-12-30T23:40:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

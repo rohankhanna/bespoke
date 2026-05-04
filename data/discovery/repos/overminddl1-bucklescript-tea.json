@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bs-platform",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pre-commit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watchify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "darklang/philip2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "overminddl1/bucklescript-testing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "feluxe/bs-tea-starter-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "aantron/dream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "bs-platform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "pre-commit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "watchify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "bucklescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "bucklescript-tea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "elm-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OvermindDL1/bucklescript-tea",
+      "target": "ocaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:38:58.404486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9963
+    },
+    {
+      "path": "package.json",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TEA for Bucklescript",
+    "fork": false,
+    "full_name": "OvermindDL1/bucklescript-tea",
+    "html_url": "https://github.com/OvermindDL1/bucklescript-tea",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-11T10:40:41Z",
+    "stargazers_count": 600,
+    "topics": [
+      "bucklescript",
+      "bucklescript-tea",
+      "elm",
+      "elm-architecture",
+      "javascript",
+      "ocaml"
+    ],
+    "updated_at": "2026-01-27T13:15:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aantron/dream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darklang/philip2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feluxe/bs-tea-starter-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "overminddl1/bucklescript-testing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bucklescript"
+    },
+    {
+      "context_snippet": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bucklescript-tea"
+    },
+    {
+      "context_snippet": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elm-architecture"
+    },
+    {
+      "context_snippet": "[![NPM](https://nodei.co/npm/bucklescript-tea.png?compact=true)](https://nodei.co/npm/bucklescript-tea/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "component": "cilium/actions-app-token@61a6271ce92ba02f49bf81c755685d59fb25a59a",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler-v1.18.yaml",
+      "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler-v1.19.yaml",
+      "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-labeler.yaml",
+      "source_repo": "cilium/cilium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images-base-v1.17.yaml",
+      "source_repo": "cilium/cilium"
+    }
+  ]
+}

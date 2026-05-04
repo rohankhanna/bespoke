@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "ghostery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "Ghostery Desktop Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate-context",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/user-agent-desktop",
+      "status": "candidate",
+      "text": "We recommend to use [Ghostery Tracker and Ad Blocker](https://www.ghostery.com/ghostery-ad-blocker) in [Firefox](https://www.mozilla.org/firefox/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ghostery/ghostery-extension",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/ghostery/ghostery-extension/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "adblock plus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "adaway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "privacy badger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "firefox focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "mozilla vpn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ghostery",
+  "concept_id": "ghostery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ghostery/user-agent-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ghostery/ghostery-extension"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ghostery",
+      "sense_id": "ghostery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

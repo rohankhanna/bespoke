@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Llama\u4e2d\u6587\u793e\u533a\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama\u5b66\u4e60\u8d44\u6599\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\u5f00\u6e90\u751f\u6001\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915586,
+      "status": "candidate",
+      "text": "preexercise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915585,
+      "status": "candidate",
+      "text": "prestudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915584,
+      "status": "candidate",
+      "text": "premeeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915583,
+      "status": "candidate",
+      "text": "predeployment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19915582,
+      "status": "candidate",
+      "text": "preeducation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretraining",
+      "sense_id": "pretraining#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pretraining",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pretraining",
+  "observation_id": "1610e28aaffb9200",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "pretraining",
+  "source_context_snippet": "<p align=\"left\">",
+  "source_file": null,
+  "source_repo": "LlamaChinese/Llama-Chinese",
+  "source_repo_description": "Llama\u4e2d\u6587\u793e\u533a\uff0c\u5b9e\u65f6\u6c47\u603b\u6700\u65b0Llama\u5b66\u4e60\u8d44\u6599\uff0c\u6784\u5efa\u6700\u597d\u7684\u4e2d\u6587Llama\u5927\u6a21\u578b\u5f00\u6e90\u751f\u6001\uff0c\u5b8c\u5168\u5f00\u6e90\u53ef\u5546\u7528"
+}

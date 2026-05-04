@@ -19,12 +19,30 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate-context",
       "text": "PyLS Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "An implementation of the Language Server Protocol for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
+      "status": "candidate-context",
+      "text": "PyLS Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate",
+      "text": "PyLS Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "palantir/python-language-server",
       "status": "candidate",
       "text": "PyLS Release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "palantir/python-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

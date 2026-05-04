@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "playwright-test-runner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "ESLint plugin for Playwright"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "Expect utility matcher functions to simplify expect statements for the usage with Playwright Test or Jest Playwright."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate-context",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mskelton/eslint-plugin-playwright",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml/badge.svg)](https://github.com/mskelton/eslint-plugin-playwright/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "playwright-community/expect-playwright",
+      "status": "candidate",
+      "text": "![Node.js CI](https://github.com/playwright-community/expect-playwright/workflows/Node.js%20CI/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "playwright-test-runner",
+  "concept_id": "playwright-test-runner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "mskelton/eslint-plugin-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "playwright-community/expect-playwright"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playwright-test-runner",
+      "sense_id": "playwright-test-runner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@v1",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -652,6 +652,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "crosstype/node-html-markdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2ray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/HuayingMincho"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "informalsystems/cosmos.nix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/single-app.yaml",
+      "source_repo": "tw93/Pake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_release.yml",
+      "source_repo": "rubocop/rubocop-ast"
     }
   ]
 }

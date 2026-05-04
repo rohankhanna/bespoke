@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "target": "embodied-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "target": "manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "target": "memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RMBench",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:22:36.369433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Memory-Dependent Manipulation Benchmark based on RoboTwin",
+    "fork": false,
+    "full_name": "RoboTwin-Platform/RMBench",
+    "html_url": "https://github.com/RoboTwin-Platform/RMBench",
+    "language": "Python",
+    "pushed_at": "2026-04-19T09:50:21Z",
+    "stargazers_count": 114,
+    "topics": [
+      "benchmark",
+      "embodied-ai",
+      "manipulation",
+      "memory",
+      "robotics"
+    ],
+    "updated_at": "2026-05-02T08:51:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embodied-ai"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manipulation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">RMBench: Memory-Dependent Manipulation Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

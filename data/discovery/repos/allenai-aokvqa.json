@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/aokvqa",
+      "target": "visual-question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:28:34.110955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for the A-OKVQA dataset",
+    "fork": false,
+    "full_name": "allenai/aokvqa",
+    "html_url": "https://github.com/allenai/aokvqa",
+    "language": "Python",
+    "pushed_at": "2024-05-08T16:04:23Z",
+    "stargazers_count": 114,
+    "topics": [
+      "computer-vision",
+      "dataset",
+      "natural-language-processing",
+      "visual-question-answering"
+    ],
+    "updated_at": "2026-04-03T03:40:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-question-answering"
+    }
+  ]
+}

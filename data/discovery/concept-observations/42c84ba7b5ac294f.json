@@ -84,7 +84,7 @@
   "normalized_form": "arc-llm-test-for-stable-version",
   "observation_id": "42c84ba7b5ac294f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "ARC LLM Test for Stable Version",
   "source_context_snippet": "ARC LLM Test for Stable Version",
   "source_file": ".github/workflows/llm_tests_for_stable_version_on_arc.yml",

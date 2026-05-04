@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T10:35:41.756359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "software tools for haplotype assembly from sequence data",
+    "fork": false,
+    "full_name": "vibansal/HapCUT2",
+    "html_url": "https://github.com/vibansal/HapCUT2",
+    "language": "C",
+    "pushed_at": "2025-02-09T04:20:28Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-04-16T01:27:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

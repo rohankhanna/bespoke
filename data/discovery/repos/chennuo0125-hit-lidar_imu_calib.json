@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:23:06.190897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "automatic calibration of 3D lidar and IMU extrinsics",
+    "fork": false,
+    "full_name": "chennuo0125-HIT/lidar_imu_calib",
+    "html_url": "https://github.com/chennuo0125-HIT/lidar_imu_calib",
+    "language": "C++",
+    "pushed_at": "2021-05-26T01:31:05Z",
+    "stargazers_count": 571,
+    "topics": [],
+    "updated_at": "2026-04-20T06:05:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

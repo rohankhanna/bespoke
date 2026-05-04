@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go Build, Vet, Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "Optimized implementation of Cuckoo Filter: Practically Better Than Bloom."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate-context",
+      "text": "Go Build, Vet, Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panmari/cuckoofilter",
+      "status": "candidate",
+      "text": "Go Build, Vet, Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50863,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49663,
+      "status": "candidate",
+      "text": "passed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33545,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32548,
+      "status": "candidate",
+      "text": "flunk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32422,
+      "status": "candidate",
+      "text": "search"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go Build, Vet, Test",
+  "concept_id": "go-build-vet-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "panmari/cuckoofilter"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Build, Vet, Test",
+      "sense_id": "go-build-vet-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

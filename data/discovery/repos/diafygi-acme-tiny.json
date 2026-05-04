@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "letsencrypt/letsencrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Pull Request Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Staging Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:12.261614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9113
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1590
+    },
+    {
+      "path": ".github/workflows/full-tests-with-coverage.yml",
+      "size": 2413
+    },
+    {
+      "path": ".github/workflows/pull-request-tests.yml",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/staging-tests.yml",
+      "size": 2117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tiny script to issue and renew TLS certs from Let's Encrypt",
+    "fork": false,
+    "full_name": "diafygi/acme-tiny",
+    "html_url": "https://github.com/diafygi/acme-tiny",
+    "language": "Python",
+    "pushed_at": "2026-04-27T12:52:29Z",
+    "stargazers_count": 4767,
+    "topics": [],
+    "updated_at": "2026-04-27T12:52:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letsencrypt/letsencrypt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Pull Request Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "term": "Pull Request Tests"
+    },
+    {
+      "context_snippet": "Staging Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "term": "Staging Tests"
+    }
+  ]
+}

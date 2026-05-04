@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tidy up PDF pull request"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "samtools/hts-specs",
+      "status": "candidate-context",
+      "text": "Specifications of SAM/BAM and related high-throughput sequencing file formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/hts-specs",
+      "status": "candidate-context",
+      "text": "Tidy up PDF pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "samtools/hts-specs",
+      "status": "candidate",
+      "text": "Tidy up PDF pull request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 57535,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 52412,
+      "status": "candidate",
+      "text": "redd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50819,
+      "status": "candidate",
+      "text": "neaten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50812,
+      "status": "candidate",
+      "text": "red"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50812,
+      "status": "candidate",
+      "text": "rwd"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tidy up PDF pull request",
+  "concept_id": "tidy-up-pdf-pull-request",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/pr-pdfs-close.yaml",
+      "source_repo": "samtools/hts-specs"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tidy up PDF pull request",
+      "sense_id": "tidy-up-pdf-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

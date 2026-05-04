@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    },
+    {
+      "component": "denoland/setup-deno@9db7f66e8e16b5699a514448ce994936c63f0d54",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "bgrins/TinyColor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "bgrins/TinyColor",
+      "target": "denoland/setup-deno@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "bgrins/TinyColor",
+      "target": "denoland/setup-deno@9db7f66e8e16b5699a514448ce994936c63f0d54",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "source_repo": "bgrins/TinyColor",
+      "target": "Deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgrins/TinyColor",
+      "target": "color",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:15:36.618471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14878
+    },
+    {
+      "path": ".github/workflows/deno.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast, small color manipulation and conversion for JavaScript",
+    "fork": false,
+    "full_name": "bgrins/TinyColor",
+    "html_url": "https://github.com/bgrins/TinyColor",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-26T15:48:44Z",
+    "stargazers_count": 5241,
+    "topics": [
+      "color",
+      "javascript"
+    ],
+    "updated_at": "2026-04-30T11:38:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deno",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deno.yml",
+      "term": "Deno"
+    },
+    {
+      "context_snippet": "TinyColor is a small, fast library for color manipulation and conversion in JavaScript. It allows many forms of input, while providing color conversions and other color utility functions. It has no dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    }
+  ]
+}

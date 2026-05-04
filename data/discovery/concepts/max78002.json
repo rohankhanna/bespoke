@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "max78002"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "MAX78000 and MAX78002 Reference Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "max78002",
+  "concept_id": "max78002",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "max78002",
+      "sense_id": "max78002#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sdist.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sdist.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sdist.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-sdist.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-sdist.yaml",
+      "source_repo": "pytroll/donfig",
+      "target": "Deploy sdist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytroll/donfig",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytroll/donfig",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:30:49.081046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3951
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2028
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1412
+    },
+    {
+      "path": ".github/workflows/deploy-sdist.yaml",
+      "size": 554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python library for configuring a package including defaults, env variable loading, and yaml loading.",
+    "fork": false,
+    "full_name": "pytroll/donfig",
+    "html_url": "https://github.com/pytroll/donfig",
+    "language": "Python",
+    "pushed_at": "2026-05-02T01:38:33Z",
+    "stargazers_count": 41,
+    "topics": [
+      "configuration",
+      "hacktoberfest",
+      "python"
+    ],
+    "updated_at": "2026-04-07T20:18:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy sdist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-sdist.yaml",
+      "term": "Deploy sdist"
+    },
+    {
+      "context_snippet": "Donfig",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "Donfig",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

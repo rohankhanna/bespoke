@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "Datomic/fressian",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:43.283671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1521
+    },
+    {
+      "path": ".github/workflows/snapshot.yml",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Datomic/fressian",
+    "html_url": "https://github.com/Datomic/fressian",
+    "language": "Java",
+    "pushed_at": "2025-06-26T18:34:34Z",
+    "stargazers_count": 273,
+    "topics": [],
+    "updated_at": "2025-12-26T03:44:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on demand"
+    },
+    {
+      "context_snippet": "Snapshot on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "term": "Snapshot on demand"
+    }
+  ]
+}

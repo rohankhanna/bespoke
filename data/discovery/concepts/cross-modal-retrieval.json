@@ -31,6 +31,18 @@
       "source_repo": "YehLi/xmodaler",
       "status": "candidate-context",
       "text": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "TOMM2020 Dual-Path Convolutional Image-Text Embedding with Instance Loss  :feet:  https://arxiv.org/abs/1711.05535"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "YehLi/xmodaler",
       "status": "candidate",
       "text": "[X-modaler](https://xmodaler.readthedocs.io/en/latest/) is a versatile and high-performance codebase for cross-modal analytics (e.g., image captioning, video captioning, vision-language pre-training, visual question answering, visual commonsense reasoning, and cross-modal retrie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "YehLi/xmodaler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

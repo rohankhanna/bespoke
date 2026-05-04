@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T08:25:40.605603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2852
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visualization Library",
+    "fork": false,
+    "full_name": "TRI-ML/camviz",
+    "html_url": "https://github.com/TRI-ML/camviz",
+    "language": "Python",
+    "pushed_at": "2024-06-05T19:51:37Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-02-17T13:58:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

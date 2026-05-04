@@ -1,0 +1,242 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "blacklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "blocklist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "domains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "fake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "filterlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "hosts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "malware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "phishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "scam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "telemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lynxthecat/adblock-lean",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:20.789268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lean and powerful adblocking solution for OpenWrt",
+    "fork": false,
+    "full_name": "lynxthecat/adblock-lean",
+    "html_url": "https://github.com/lynxthecat/adblock-lean",
+    "language": "Shell",
+    "pushed_at": "2026-02-03T12:53:04Z",
+    "stargazers_count": 523,
+    "topics": [
+      "adblock",
+      "adguard",
+      "ads",
+      "blacklist",
+      "blocklist",
+      "dns",
+      "domains",
+      "fake",
+      "filterlist",
+      "hosts",
+      "malware",
+      "metrics",
+      "phishing",
+      "privacy",
+      "scam",
+      "telemetry",
+      "tracking"
+    ],
+    "updated_at": "2026-05-03T18:52:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blacklist"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocklist"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domains"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fake"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filterlist"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosts"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "malware"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phishing"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scam"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telemetry"
+    },
+    {
+      "context_snippet": "adblock-lean is a low maintenance (almost set and forget), powerful and ultra-efficient adblocking solution for OpenWrt that **does not mandate any external dependencies** or introduce unnecessary bloat. It is **highly optimized for RAM & CPU efficiency** during blocklist downlo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

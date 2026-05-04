@@ -85,6 +85,30 @@
       "source_repo": "larseggert/asciiTeX",
       "status": "candidate-context",
       "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "A webserver for hosting cascii-core, offering basic short-linking, user and drawing management. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "SvgBob mdbook preprocessor which swaps code-blocks with neat SVG."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate-context",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
     }
   ],
   "candidate_glosses": [
@@ -123,6 +147,18 @@
       "source_repo": "larseggert/asciiTeX",
       "status": "candidate",
       "text": "It is actively supported and produces better output than this."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casparwylie/cascii-server",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boozook/mdbook-svgbob",
+      "status": "candidate",
+      "text": "[Svgbob][]-based preprocessor for [mdbook][] transform your ascii diagrams into a svg."
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +208,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "larseggert/asciiTeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "casparwylie/cascii-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "boozook/mdbook-svgbob"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

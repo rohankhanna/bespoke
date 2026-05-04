@@ -116,6 +116,18 @@
       "source_repo": "vueuse/vueuse",
       "status": "candidate-context",
       "text": "Publish Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Free and Open Source Machine Translation API. Self-hosted, offline capable and easy to setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate-context",
+      "text": "Publish package"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +184,12 @@
       "source_repo": "vueuse/vueuse",
       "status": "candidate",
       "text": "Publish Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/LibreTranslate",
+      "status": "candidate",
+      "text": "Publish package"
     }
   ],
   "candidate_related_terms": [
@@ -335,11 +353,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "vueuse/vueuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/publish-package.yml",
+      "source_repo": "LibreTranslate/LibreTranslate"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

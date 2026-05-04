@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "target": "kwaivgi/recammaster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "target": "kwaivgi/syncammaster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/SynCamMaster",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:38:36.679757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12225
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'25] SynCamMaster: Synchronizing Multi-Camera Video Generation from Diverse Viewpoints",
+    "fork": false,
+    "full_name": "KlingAIResearch/SynCamMaster",
+    "html_url": "https://github.com/KlingAIResearch/SynCamMaster",
+    "language": "Python",
+    "pushed_at": "2025-05-23T11:32:52Z",
+    "stargazers_count": 689,
+    "topics": [
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T08:08:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwaivgi/recammaster",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwaivgi/syncammaster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

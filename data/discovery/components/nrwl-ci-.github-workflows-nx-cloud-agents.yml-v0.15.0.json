@@ -1,0 +1,12 @@
+{
+  "component": "nrwl/ci/.github/workflows/nx-cloud-agents.yml@v0.15.0",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Wykks/ngx-mapbox-gl"
+    }
+  ]
+}

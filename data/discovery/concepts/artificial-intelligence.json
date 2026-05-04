@@ -1447,6 +1447,210 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate-context",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "Model Training for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate-context",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "Vector (and Scalar) Quantization, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's DALL-E for large scale training in mesh-tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate-context",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "Implementation of RQ Transformer, proposed in the paper \"Autoregressive Image Generation using Residual Quantization\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of Video Diffusion Models, Jonathan Ho's new paper extending DDPMs to Video Generation - in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate-context",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "A curated, but incomplete, list of data-centric AI resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "Quantization and Synthesis (Device Specific Code Generation) for ADI's MAX78000 and MAX78002 Edge AI Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate-context",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "MAX78000 and MAX78002 Reference Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate-context",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "START HERE: Documentation for ADI's MAX78000 and MAX78002 Edge AI devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate-context",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MagViT2 Tokenizer in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of NWT, audio-to-video generation, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "Implementation of numerous Vision Transformers in Google's JAX and Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate-context",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "Fully featured implementation of Routing Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate-context",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "Sinkhorn Transformer - Practical implementation of Sparse Sinkhorn Attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "status": "candidate-context",
+      "text": "\u26d3\ufe0f\u200d\ud83d\udca5 VirtualPet is an all-in-one app that integrates features like AI-powered interactive offline chat, image generation, OCR capabilities, an AI-powered code editor, a built-in web browser, a mini video player, shortcut management, and access to public anime content for local viewing and much more, all within a seamless user interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -2169,6 +2373,108 @@
       "source_repo": "lucidrains/nuwa-pytorch",
       "status": "candidate",
       "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-training",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tf-bind-transformer",
+      "status": "candidate",
+      "text": "A repository with exploration into using transformers to predict DNA \u2194 transcription factor binding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vector-quantize-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vq.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/vit-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DALLE-mtf",
+      "status": "candidate",
+      "text": "Open-AI's [DALL-E](https://openai.com/blog/dall-e/) in Mesh-Tensorflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/RQ-Transformer",
+      "status": "candidate",
+      "text": "<img src=\"./rq-transformer.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/video-diffusion-pytorch",
+      "status": "candidate",
+      "text": "![machine imagined fireworks](./fireworks.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daochenzha/data-centric-AI",
+      "status": "candidate",
+      "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/ai8x-synthesis",
+      "status": "candidate",
+      "text": "November 7, 2024"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes",
+      "status": "candidate",
+      "text": "Start here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogdevicesinc/MaximAI_Documentation",
+      "status": "candidate",
+      "text": "ADI\u2019s MAX78000/MAX78002 project is comprised of five main repositories:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/magvit2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./magvit2.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/NWT-pytorch",
+      "status": "candidate",
+      "text": "Implementation of <a href=\"https://arxiv.org/abs/2106.04283\">NWT</a>, audio-to-video generation, in Pytorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conceptofmind/vit-flax",
+      "status": "candidate",
+      "text": "<img src=\"./images/vit.gif\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/routing-transformer",
+      "status": "candidate",
+      "text": "<img src=\"./routing_attention.png\" width=\"500px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/sinkhorn-transformer",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/sinkhorn-transformer.svg)](https://badge.fury.io/py/sinkhorn-transformer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -3910,11 +4216,197 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-training"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tf-bind-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vector-quantize-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/vit-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/DALLE-mtf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/RQ-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/video-diffusion-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "daochenzha/data-centric-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/ai8x-synthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MAX78xxx-RefDes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "analogdevicesinc/MaximAI_Documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/magvit2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/NWT-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "conceptofmind/vit-flax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/routing-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/sinkhorn-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "AcoranGonzalezMoray/VirtualPet-WindowsEdition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/caffe2"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

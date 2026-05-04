@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "taginfo/taginfo-projects",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "taginfo/taginfo-projects",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taginfo/taginfo-projects",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taginfo/taginfo-projects",
+      "target": "taginfo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:35:22.552428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1453
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Projects list for taginfo",
+    "fork": false,
+    "full_name": "taginfo/taginfo-projects",
+    "html_url": "https://github.com/taginfo/taginfo-projects",
+    "language": "Shell",
+    "pushed_at": "2026-05-03T11:07:30Z",
+    "stargazers_count": 30,
+    "topics": [
+      "openstreetmap",
+      "taginfo"
+    ],
+    "updated_at": "2026-05-03T11:07:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "This repository contains the list of projects for taginfo. See",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "This repository contains the list of projects for taginfo. See",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taginfo"
+    }
+  ]
+}

@@ -4,7 +4,8 @@
     "Deploy Docs",
     "Deploy docs",
     "Deploy docs \ud83d\ude80",
-    "deploy docs"
+    "deploy docs",
+    "\ud83d\udcd8 Deploy docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -605,6 +606,42 @@
       "source_repo": "crmne/ruby_llm",
       "status": "candidate-context",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Find in AST - Search and refactor code directly in Abstract Syntax Tree as you do with grep for strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "Cosmos Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate-context",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \ud83c\udf3c \u2003The most popular, free and open-source Tailwind CSS component library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udcd8 Deploy docs\""
     }
   ],
   "candidate_glosses": [
@@ -913,6 +950,24 @@
       "source_repo": "crmne/ruby_llm",
       "status": "candidate",
       "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/gaia",
+      "status": "candidate",
+      "text": "Deploy docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saadeghi/daisyui",
+      "status": "candidate",
+      "text": "\"\ud83d\udcd8 Deploy docs\""
     }
   ],
   "candidate_related_terms": [
@@ -1580,11 +1635,59 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jonatas/fast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "cosmos/gaia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "saadeghi/daisyui"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

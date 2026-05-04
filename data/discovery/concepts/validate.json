@@ -3,7 +3,8 @@
     "Validate",
     "validate",
     "\ud83d\udcd0 Validate",
-    "\ud83d\ude80 Validate"
+    "\ud83d\ude80 Validate",
+    "Validate \u2705"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -576,6 +577,36 @@
       "source_repo": "testing-library/react-hooks-testing-library",
       "status": "candidate-context",
       "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "Useful extensions to the standard Python datetime features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/eslint-plugin-jest-dom",
+      "status": "candidate-context",
+      "text": "eslint rules for use with jest-dom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/eslint-plugin-jest-dom",
+      "status": "candidate-context",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/chain-registry",
+      "status": "candidate-context",
+      "text": "Validate \u2705"
     }
   ],
   "candidate_glosses": [
@@ -860,6 +891,24 @@
       "source_repo": "testing-library/react-hooks-testing-library",
       "status": "candidate",
       "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate",
+      "text": "Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/eslint-plugin-jest-dom",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/chain-registry",
+      "status": "candidate",
+      "text": "Validate \u2705"
     }
   ],
   "candidate_related_terms": [
@@ -1541,11 +1590,53 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/validate.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "dateutil/dateutil"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "testing-library/eslint-plugin-jest-dom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "cosmos/chain-registry"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

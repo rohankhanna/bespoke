@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official repo for Blokada apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994137,
+      "status": "candidate",
+      "text": "adblocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994136,
+      "status": "candidate",
+      "text": "blocker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994135,
+      "status": "candidate",
+      "text": "banner ad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994134,
+      "status": "candidate",
+      "text": "soft-block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19994133,
+      "status": "candidate",
+      "text": "anonymizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adblocker",
+      "sense_id": "adblocker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "adblocker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "adblocker",
+  "observation_id": "850baf2174251bd2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "adblocker",
+  "source_context_snippet": "Blokada 6 is the newest edition of the well known open source mobile ad blocker and privacy app. It requires a subscription to run.",
+  "source_file": null,
+  "source_repo": "blokadaorg/blokada",
+  "source_repo_description": "The official repo for Blokada apps."
+}

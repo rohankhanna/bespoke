@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "url-kaist/outlier-robust-radar-odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "irapkaist/scancontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "keenan-burnett/yeti_radar_odometry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "navtech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "radar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "scancontext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/navtech-radar-slam",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:18.251492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time Radar SLAM: ORORA + ScanContext ",
+    "fork": false,
+    "full_name": "gisbi-kim/navtech-radar-slam",
+    "html_url": "https://github.com/gisbi-kim/navtech-radar-slam",
+    "language": "C++",
+    "pushed_at": "2024-05-16T04:30:26Z",
+    "stargazers_count": 260,
+    "topics": [
+      "navtech",
+      "place-recognition",
+      "radar",
+      "radar-mapping",
+      "radar-slam",
+      "scancontext",
+      "slam"
+    ],
+    "updated_at": "2026-04-01T10:26:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/scancontext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keenan-burnett/yeti_radar_odometry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "url-kaist/outlier-robust-radar-odometry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navtech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar-mapping"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radar-slam"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scancontext"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

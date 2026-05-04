@@ -91,6 +91,18 @@
       "source_repo": "kalavai-net/kalavai-client",
       "status": "candidate-context",
       "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS: Free, Non-Commercial EU Public DNS Servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate-context",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "kalavai-net/kalavai-client",
       "status": "candidate",
       "text": "![Kalavai logo](docs/docs/assets/icons/logo_no_background.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hagezi/dns-servers",
+      "status": "candidate",
+      "text": "HaGeZi DNS offers free, non-commercial public DNS resolvers designed and operated by a private individual for the European community. It provides robust DNS-based blocking of ads, trackers, scam, phishing, fake, and malware domains - helping users achieve greater privacy and sec\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "kalavai-net/kalavai-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "hagezi/dns-servers"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

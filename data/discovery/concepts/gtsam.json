@@ -19,6 +19,66 @@
       "source_repo": "gisbi-kim/SC-A-LOAM",
       "status": "candidate-context",
       "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "LIO_SAM for 6-axis IMU and  GNSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate-context",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate-context",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "LIO-SAM-6AXIS with intensity image  loop optimization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate-context",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "status": "candidate-context",
+      "text": "[ICRA@40] MS-Mapping: An Uncertainty-Aware Large-Scale Multi-Session LiDAR Mapping System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate-context",
+      "text": "[TMECH'2024] PALoc: Advancing SLAM Benchmarking with Prior-Assisted 6-DoF Trajectory Generation and Uncertainty Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "gisbi-kim/SC-A-LOAM",
       "status": "candidate",
       "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "status": "candidate",
+      "text": "![hkust](README/hkust.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM",
+      "status": "candidate",
+      "text": "This repository contains code for a lightweight and ground optimized lidar odometry and mapping (LeGO-LOAM) system for ROS compatible UGVs. The system takes in point cloud from a Velodyne VLP-16 Lidar (palced horizontally) and optional IMU data as inputs. It outputs 6D pose esti\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
+      "status": "candidate",
+      "text": "[LIO-SAM-6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) with intensity image-based loop optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/MS-Mapping",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JokerJohn/PALoc",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +130,41 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "gisbi-kim/SC-A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "RobustFieldAutonomyLab/LeGO-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO-SAM-6AXIS-INTENSITY"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Mapping"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "JokerJohn/PALoc"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

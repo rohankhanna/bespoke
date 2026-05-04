@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Banner of CJK-character-count](resource/banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024453,
+      "status": "candidate",
+      "text": "character encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024452,
+      "status": "candidate",
+      "text": "charset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024451,
+      "status": "candidate",
+      "text": "character set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024450,
+      "status": "candidate",
+      "text": "extended ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024449,
+      "status": "candidate",
+      "text": "windows-1252"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicode",
+      "sense_id": "unicode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicode",
+  "observation_id": "47d362e23a0548b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "unicode",
+  "source_context_snippet": "![Banner of CJK-character-count](resource/banner.png)",
+  "source_file": null,
+  "source_repo": "NightFurySL2001/CJK-character-count",
+  "source_repo_description": "Program that counts the amount of CJK characters based on Unicode ranges and Chinese encoding standards \u5b57\u4f53\u6c49\u5b57\u8ba1\u6570\u8f6f\u4ef6"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kool-engine/kool-templates",
+      "target": "fabmax/kool",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:30:08.980639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template project for creating a new multi-platform application with kool.",
+    "fork": false,
+    "full_name": "kool-engine/kool-templates",
+    "html_url": "https://github.com/kool-engine/kool-templates",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-17T18:06:29Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-01-17T18:06:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabmax/kool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

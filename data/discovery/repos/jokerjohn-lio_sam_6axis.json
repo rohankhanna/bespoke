@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/ms-mapping",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/ms-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/paloc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "jokerjohn/lio-sam-6axis-intensity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "6-axis-imu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "gtsam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidar-inertial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "lidarslam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "liosam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/LIO_SAM_6AXIS",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:06.725395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8417
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LIO_SAM for 6-axis IMU and  GNSS.",
+    "fork": false,
+    "full_name": "JokerJohn/LIO_SAM_6AXIS",
+    "html_url": "https://github.com/JokerJohn/LIO_SAM_6AXIS",
+    "language": "C++",
+    "pushed_at": "2025-12-15T10:51:10Z",
+    "stargazers_count": 841,
+    "topics": [
+      "6-axis-imu",
+      "gps",
+      "gtsam",
+      "lidar",
+      "lidar-inertial",
+      "lidarslam",
+      "lio",
+      "liosam",
+      "loam-velodyne",
+      "slam"
+    ],
+    "updated_at": "2026-04-29T08:54:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/lio-sam-6axis-intensity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/ms-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/ms-mapping",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/paloc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "6-axis-imu"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtsam"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidarslam"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liosam"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam-velodyne"
+    },
+    {
+      "context_snippet": "![hkust](README/hkust.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

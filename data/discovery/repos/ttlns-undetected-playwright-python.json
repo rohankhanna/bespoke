@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml"
+    },
+    {
+      "component": "azure/docker-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml"
+    },
+    {
+      "component": "azure/docker-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docker.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "kaliiiiiiiiii-vinyzu/patchright",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "kaliiiiiiiiii/undetected-playwright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "kaliiiiiiiiii/selenium-driverless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "azure/docker-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "publish canary docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "azure/docker-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "publish release - Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docker.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "Test Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_internal_tests.yml",
+      "source_repo": "ttlns/undetected-playwright-python",
+      "target": "Internal Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:45.269667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4388
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1068
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6227
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/publish_canary_docker.yml",
+      "size": 975
+    },
+    {
+      "path": ".github/workflows/publish_release_docker.yml",
+      "size": 1481
+    },
+    {
+      "path": ".github/workflows/test_docker.yml",
+      "size": 1719
+    },
+    {
+      "path": ".github/workflows/trigger_internal_tests.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Undetected Python version of the Playwright testing and automation library.",
+    "fork": true,
+    "full_name": "ttlns/undetected-playwright-python",
+    "html_url": "https://github.com/ttlns/undetected-playwright-python",
+    "language": "Python",
+    "pushed_at": "2024-11-02T14:06:31Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-21T00:01:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii-vinyzu/patchright",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/selenium-driverless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaliiiiiiiiii/undetected-playwright-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"publish canary docker\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_canary_docker.yml",
+      "term": "publish canary docker"
+    },
+    {
+      "context_snippet": "\"publish release - Docker\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release_docker.yml",
+      "term": "publish release - Docker"
+    },
+    {
+      "context_snippet": "Test Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docker.yml",
+      "term": "Test Docker"
+    },
+    {
+      "context_snippet": "\"Internal Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger_internal_tests.yml",
+      "term": "Internal Tests"
+    }
+  ]
+}

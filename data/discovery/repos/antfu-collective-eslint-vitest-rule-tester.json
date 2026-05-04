@@ -156,27 +156,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/eslint-vitest-rule-tester",
-      "target": "antfu/eslint-plugin-antfu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/eslint-vitest-rule-tester",
-      "target": "azat-io/eslint-plugin-perfectionist",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/eslint-vitest-rule-tester",
-      "target": "azat-io/eslint-plugin-de-morgan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "antfu-collective/eslint-vitest-rule-tester",
       "target": "antfu/eslint-vitest-rule-tester",
       "target_type": "repository"
     },
@@ -356,7 +335,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:53:05.876350+00:00",
+  "fetched_at": "2026-05-04T11:39:13.217434+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -392,22 +371,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antfu/eslint-plugin-antfu",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "antfu/eslint-vitest-rule-tester",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "azat-io/eslint-plugin-de-morgan",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "azat-io/eslint-plugin-perfectionist",
       "source_file": "README.md"
     }
   ],

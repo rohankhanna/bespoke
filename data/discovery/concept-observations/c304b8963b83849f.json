@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultimate minimalistic user style for firefox ESR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "userchromecss",
+      "sense_id": "userchromecss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "userchromecss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "userchromecss",
+  "observation_id": "c304b8963b83849f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "userchromecss",
+  "source_context_snippet": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable.",
+  "source_file": null,
+  "source_repo": "Jamir-boop/minimalisticfox",
+  "source_repo_description": "Ultimate minimalistic user style for firefox ESR."
+}

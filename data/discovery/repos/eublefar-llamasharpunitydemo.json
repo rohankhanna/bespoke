@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eublefar/LLAMASharpUnityDemo",
+      "target": "cysharp/unitask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eublefar/LLAMASharpUnityDemo",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:25.854383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This project serves as a simple example on how to integrate the LLAMASharp library into your Unity project.",
+    "fork": false,
+    "full_name": "eublefar/LLAMASharpUnityDemo",
+    "html_url": "https://github.com/eublefar/LLAMASharpUnityDemo",
+    "language": "ShaderLab",
+    "pushed_at": "2024-08-13T08:49:36Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-21T17:28:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cysharp/unitask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

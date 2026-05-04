@@ -43,6 +43,18 @@
       "source_repo": "microsoft/Recognizers-Text",
       "status": "candidate-context",
       "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "Useful extensions to the standard Python datetime features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate-context",
+      "text": "dateutil - powerful extensions to datetime"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "microsoft/Recognizers-Text",
       "status": "candidate",
       "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dateutil/dateutil",
+      "status": "candidate",
+      "text": "dateutil - powerful extensions to datetime"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "microsoft/Recognizers-Text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "dateutil/dateutil"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

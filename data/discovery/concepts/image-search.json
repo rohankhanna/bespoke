@@ -151,6 +151,18 @@
       "source_repo": "layumi/Person_reID_baseline_pytorch",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "TOMM2020 Dual-Path Convolutional Image-Text Embedding with Instance Loss  :feet:  https://arxiv.org/abs/1711.05535"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "layumi/Person_reID_baseline_pytorch",
       "status": "candidate",
       "text": "<h1 align=\"center\"> Pytorch ReID </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Image-Text-Embedding",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/1711.05535) [[Slide]](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf) :arrow_left: **I recommend to check this slide first.** :arrow_left:"
     }
   ],
   "candidate_related_terms": [],
@@ -328,11 +346,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "layumi/Person_reID_baseline_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Image-Text-Embedding"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

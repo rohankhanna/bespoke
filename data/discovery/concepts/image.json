@@ -309,6 +309,18 @@
       "source_repo": "universal-ember/reactiveweb",
       "status": "candidate-context",
       "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate-context",
+      "text": "CRProxy (Container Registry Proxy) is a generic image proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>"
     }
   ],
   "candidate_glosses": [
@@ -461,6 +473,12 @@
       "source_repo": "universal-ember/reactiveweb",
       "status": "candidate",
       "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/crproxy",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"180px\" src=\"./logo/crproxy.svg\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -792,11 +810,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "DaoCloud/crproxy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

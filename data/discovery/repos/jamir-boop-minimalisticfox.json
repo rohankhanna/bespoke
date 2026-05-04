@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "nicoth-in/dark-space-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "microslop/cascadia-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "firefoxesr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "userchrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jamir-boop/minimalisticfox",
+      "target": "userchromecss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:31:37.142526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultimate minimalistic user style for firefox ESR.",
+    "fork": false,
+    "full_name": "Jamir-boop/minimalisticfox",
+    "html_url": "https://github.com/Jamir-boop/minimalisticfox",
+    "language": "CSS",
+    "pushed_at": "2026-04-07T20:56:43Z",
+    "stargazers_count": 44,
+    "topics": [
+      "firefox",
+      "firefoxesr",
+      "userchrome",
+      "userchromecss"
+    ],
+    "updated_at": "2026-04-25T01:26:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microslop/cascadia-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicoth-in/dark-space-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefoxesr"
+    },
+    {
+      "context_snippet": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userchrome"
+    },
+    {
+      "context_snippet": "MinimalFox is a minimalist user style focused on reducing screen clutter while keeping Firefox simple and usable.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "userchromecss"
+    }
+  ]
+}

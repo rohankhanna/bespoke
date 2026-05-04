@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+      "target": "data-vizualistaion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:14:46.346413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Claude skills for data visualisation using common libraries",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-23T14:34:16Z",
+    "stargazers_count": 0,
+    "topics": [
+      "claude-code",
+      "data-vizualistaion"
+    ],
+    "updated_at": "2026-04-27T17:42:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Create static and interactive data visualisations for reports, repos, and data storytelling \u2014 prioritising a curated inventory of open-source tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-vizualistaion"
+    }
+  ]
+}

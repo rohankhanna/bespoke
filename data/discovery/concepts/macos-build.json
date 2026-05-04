@@ -57,6 +57,18 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate-context",
       "text": "MacOS Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "The Nelson Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate-context",
+      "text": "\"macOS Build\""
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "microsoft/AirSim",
       "status": "candidate",
       "text": "MacOS Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson",
+      "status": "candidate",
+      "text": "\"macOS Build\""
     }
   ],
   "candidate_related_terms": [
@@ -192,11 +210,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ccpp_macos.yml",
+      "source_repo": "nelson-lang/nelson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

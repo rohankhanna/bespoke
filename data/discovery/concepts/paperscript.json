@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "paperscript"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate-context",
+      "text": "Generating icons using text commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate-context",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzet/iconscript",
+      "status": "candidate",
+      "text": "iconscript is a language for describing pixel-wise pictograms in the style of the [R\u00f6ntgen](https://github.com/enzet/Roentgen) project."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "paperscript",
+  "concept_id": "paperscript",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "enzet/iconscript"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paperscript",
+      "sense_id": "paperscript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

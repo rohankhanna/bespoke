@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@4fc31e1c823882afd7ef55985266a526c589de90",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

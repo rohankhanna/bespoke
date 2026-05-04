@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1162,6 +1162,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "ipazc/mtcnn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mobsf.yml",
+      "source_repo": "celzero/rethink-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "seaweedfs/seaweedfs-cosi-driver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-build-test.yml",
+      "source_repo": "thammegowda/nllb-serve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "RLinf/RLinf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "elm-fluent/elm-fluent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "infinigence/FUSCO"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "erew123/alltalk_tts"
     }
   ]
 }

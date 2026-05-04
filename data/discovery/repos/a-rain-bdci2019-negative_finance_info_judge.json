@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:37:38.697133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BDCI2019\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a-\u7ebf\u4e0a\u7b2c\u4e00\u540d",
+    "fork": false,
+    "full_name": "A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+    "html_url": "https://github.com/A-Rain/BDCI2019-Negative_Finance_Info_Judge",
+    "language": "Python",
+    "pushed_at": "2022-12-08T06:17:27Z",
+    "stargazers_count": 160,
+    "topics": [
+      "machine-learning",
+      "nlp"
+    ],
+    "updated_at": "2026-03-16T03:16:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u5927\u5bb6\u597d\uff0c\u6211\u4eec\u662f\u91d1\u878d\u8d1f\u9762\u4fe1\u606f\u5224\u5b9a\u8d5b\u9053\u7684\u846b\u82a6\u5a03\u56e2\u961f\uff0c\u672c\u8d5b\u9898\u7684\u961f\u4f0d\u6210\u5458\u5747\u6765\u81ea\u54c8\u5de5\u5927\u6df1\u5733\u7684\u4eba\u7c7b\u81ea\u7136\u8bed\u8a00\u6280\u672f(HLT)\u8bfe\u9898\u7ec4\uff0c\u6210\u5458\u5305\u62ec\u5218\u5b87\u701a\u3001\u674e\u5609\u660e\u3001\u6bb7\u7194\u78fe\u3001\u5218\u9053\u5174\u4ee5\u53ca\u8881\u671d\u53d1\u3002\u6307\u5bfc\u8001\u5e08\u4e3a\u5f90\u777f\u5cf0\u6559\u6388\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

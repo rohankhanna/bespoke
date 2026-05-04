@@ -1,0 +1,181 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "zhunzhong07/person-re-ranking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "layumi/person_re-id_stn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "matconvnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "person-re-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "person-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "re-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/Pedestrian_Alignment",
+      "target": "reidentification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:40:52.058815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TCSVT2018 Pedestrian Alignment Network for Large-scale Person Re-identification",
+    "fork": false,
+    "full_name": "layumi/Pedestrian_Alignment",
+    "html_url": "https://github.com/layumi/Pedestrian_Alignment",
+    "language": "Cuda",
+    "pushed_at": "2021-07-21T03:21:16Z",
+    "stargazers_count": 239,
+    "topics": [
+      "alignment",
+      "matconvnet",
+      "matlab",
+      "person-re-identification",
+      "person-recognition",
+      "person-reid",
+      "re-identification",
+      "reid",
+      "reidentification"
+    ],
+    "updated_at": "2026-03-03T01:18:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/person_re-id_stn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhunzhong07/person-re-ranking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matconvnet"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-re-identification"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-recognition"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-identification"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reid"
+    },
+    {
+      "context_snippet": "This repo is for our IEEE TCSVT paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reidentification"
+    }
+  ]
+}

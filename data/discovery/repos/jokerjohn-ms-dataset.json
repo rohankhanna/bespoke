@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Dataset",
+      "target": "inertial-navigation-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Dataset",
+      "target": "lidar-imu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Dataset",
+      "target": "rtk-gnss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JokerJohn/MS-Dataset",
+      "target": "slam-dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:07.214061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5628
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large scale LiDAR-IMU dataset ",
+    "fork": false,
+    "full_name": "JokerJohn/MS-Dataset",
+    "html_url": "https://github.com/JokerJohn/MS-Dataset",
+    "language": null,
+    "pushed_at": "2025-01-22T12:29:07Z",
+    "stargazers_count": 55,
+    "topics": [
+      "inertial-navigation-systems",
+      "lidar-imu",
+      "rtk-gnss",
+      "slam-dataset"
+    ],
+    "updated_at": "2026-04-23T09:44:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Large scale LiDAR-IMU dataset",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inertial-navigation-systems"
+    },
+    {
+      "context_snippet": "Large scale LiDAR-IMU dataset",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-imu"
+    },
+    {
+      "context_snippet": "Large scale LiDAR-IMU dataset",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtk-gnss"
+    },
+    {
+      "context_snippet": "Large scale LiDAR-IMU dataset",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam-dataset"
+    }
+  ]
+}

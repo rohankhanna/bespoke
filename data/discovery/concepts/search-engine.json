@@ -211,6 +211,18 @@
       "source_repo": "andrewtrotman/JASSv2",
       "status": "candidate-context",
       "text": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "Find in AST - Search and refactor code directly in Abstract Syntax Tree as you do with grep for strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/jonatas/fast.svg?branch=master)](https://travis-ci.org/jonatas/fast)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "andrewtrotman/JASSv2",
       "status": "candidate",
       "text": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonatas/fast",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/jonatas/fast.svg?branch=master)](https://travis-ci.org/jonatas/fast)"
     }
   ],
   "candidate_related_terms": [],
@@ -508,11 +526,29 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "jonatas/fast"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

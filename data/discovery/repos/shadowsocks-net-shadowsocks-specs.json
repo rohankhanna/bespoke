@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T07:30:55.249515+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 806
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Specs of the Shadowsocks protocol family.",
+    "fork": false,
+    "full_name": "Shadowsocks-NET/shadowsocks-specs",
+    "html_url": "https://github.com/Shadowsocks-NET/shadowsocks-specs",
+    "language": null,
+    "pushed_at": "2025-04-10T09:30:09Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-04-25T22:46:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

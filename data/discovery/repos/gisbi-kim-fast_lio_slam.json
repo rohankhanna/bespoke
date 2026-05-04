@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "hku-mars/fast_lio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "irapkaist/scancontext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "livox-sdk/livox_ros_driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "irapkaist/file_player_mulran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "fastlio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "kalman-filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "place-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "scancontext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/FAST_LIO_SLAM",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:15.497879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LiDAR SLAM = FAST-LIO + Scan Context",
+    "fork": true,
+    "full_name": "gisbi-kim/FAST_LIO_SLAM",
+    "html_url": "https://github.com/gisbi-kim/FAST_LIO_SLAM",
+    "language": "C++",
+    "pushed_at": "2022-12-28T15:33:08Z",
+    "stargazers_count": 758,
+    "topics": [
+      "fastlio",
+      "kalman-filter",
+      "lidar",
+      "lidar-slam",
+      "place-recognition",
+      "scancontext",
+      "slam"
+    ],
+    "updated_at": "2026-05-03T14:52:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-mars/fast_lio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/file_player_mulran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/scancontext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livox-sdk/livox_ros_driver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastlio"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kalman-filter"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scancontext"
+    },
+    {
+      "context_snippet": "- ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

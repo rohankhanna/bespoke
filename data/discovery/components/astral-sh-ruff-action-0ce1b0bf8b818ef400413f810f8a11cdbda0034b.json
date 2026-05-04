@@ -1,0 +1,12 @@
+{
+  "component": "astral-sh/ruff-action@0ce1b0bf8b818ef400413f810f8a11cdbda0034b",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "developmentseed/obstore"
+    }
+  ]
+}

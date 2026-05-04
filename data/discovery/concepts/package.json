@@ -334,6 +334,30 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08\u4e00\u4e2a\u8de8\u5e73\u53f0\u7684\u5212\u8bcd\u7ffb\u8bd1\u548cOCR\u8f6f\u4ef6 | A cross-platform software for text translation and recognition."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate-context",
+      "text": "Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "\ud83e\udd31\ud83c\udffb Turn any webpage into a desktop app with one command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate-context",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +522,18 @@
       "source_repo": "ipazc/mtcnn",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pot-app/pot-desktop",
+      "status": "candidate",
+      "text": "Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tw93/Pake",
+      "status": "candidate",
+      "text": "<h4 align=\"right\"><strong>English</strong> | <a href=\"README_CN.md\">\u7b80\u4f53\u4e2d\u6587</a></h4>"
     }
   ],
   "candidate_related_terms": [
@@ -1062,11 +1098,47 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/package.yml",
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "snapcast/snapcast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "pot-app/pot-desktop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "tw93/Pake"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

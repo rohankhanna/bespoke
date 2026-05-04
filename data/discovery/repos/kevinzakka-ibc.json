@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc",
+      "target": "behavioral-cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc",
+      "target": "energy-based-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kevinzakka/ibc",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:23:56.719771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1624
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch implementation of Implicit Behavioral Cloning",
+    "fork": false,
+    "full_name": "kevinzakka/ibc",
+    "html_url": "https://github.com/kevinzakka/ibc",
+    "language": "Python",
+    "pushed_at": "2022-07-02T01:38:13Z",
+    "stargazers_count": 114,
+    "topics": [
+      "behavioral-cloning",
+      "deep-learning",
+      "energy-based-model",
+      "pytorch",
+      "robotics"
+    ],
+    "updated_at": "2026-04-03T12:06:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "behavioral-cloning"
+    },
+    {
+      "context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "energy-based-model"
+    },
+    {
+      "context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Pytorch implementation of <a href=\"https://arxiv.org/abs/2109.00137\">Implicit Behavioral Cloning</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikeloomisgg/cppack",
+      "target": "msgpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mikeloomisgg/cppack",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:16.390587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern c++ implementation of the msgpack spec. - msgpack.org[C++17]",
+    "fork": false,
+    "full_name": "mikeloomisgg/cppack",
+    "html_url": "https://github.com/mikeloomisgg/cppack",
+    "language": "C++",
+    "pushed_at": "2023-12-26T04:01:08Z",
+    "stargazers_count": 167,
+    "topics": [
+      "cpp",
+      "msgpack",
+      "serialization"
+    ],
+    "updated_at": "2026-04-24T01:04:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/mikeloomisgg/cppack.svg?branch=master)](https://travis-ci.com/mikeloomisgg/cppack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msgpack"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/mikeloomisgg/cppack.svg?branch=master)](https://travis-ci.com/mikeloomisgg/cppack)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

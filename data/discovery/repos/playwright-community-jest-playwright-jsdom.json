@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "expect-playwright",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-playwright-preset",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/jest-playwright-jsdom",
+      "target": "expect-playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "playwright-community/jest-playwright-jsdom",
+      "target": "jest-playwright-preset",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:23:40.307762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 320
+    },
+    {
+      "path": "package.json",
+      "size": 774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "jest-playwright browser-like environment",
+    "fork": false,
+    "full_name": "playwright-community/jest-playwright-jsdom",
+    "html_url": "https://github.com/playwright-community/jest-playwright-jsdom",
+    "language": "JavaScript",
+    "pushed_at": "2022-02-13T18:32:51Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-10-17T07:55:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,12 +1,17 @@
 {
   "component": "sanctuary-def",
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "node-gh/gh"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-identity"
     }
   ]
 }

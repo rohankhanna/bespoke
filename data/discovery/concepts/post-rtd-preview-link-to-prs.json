@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post RTD Preview Link to PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Open Data Cube analyses continental scale Earth Observation data through time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate-context",
+      "text": "Post RTD Preview Link to PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatacube/datacube-core",
+      "status": "candidate",
+      "text": "Post RTD Preview Link to PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20931,
+      "status": "candidate",
+      "text": "trailer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "guidepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "signpost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19790,
+      "status": "candidate",
+      "text": "briefing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post RTD Preview Link to PRs",
+  "concept_id": "post-rtd-preview-link-to-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/doc-preview.yaml",
+      "source_repo": "opendatacube/datacube-core"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post RTD Preview Link to PRs",
+      "sense_id": "post-rtd-preview-link-to-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

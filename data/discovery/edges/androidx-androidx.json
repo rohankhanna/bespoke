@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "Gradle Nightly Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-release-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-release-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "Gradle Release Nightly Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidX/androidx-ci-action@dist-latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/github-workflow-webhook-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "androidx/androidx",
+      "target": "Run Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/check-pr-format-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/changed-files-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "gradle/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jbpresubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "JB-COMPOSE-variant of AndroidX Presubmits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kgp-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kgp-nightly-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "KGP Nightly Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ksp-snapshot-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ksp-snapshot-integration.yml",
+      "source_repo": "androidx/androidx",
+      "target": "KSP Snapshot Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/check-pr-format-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/changed-files-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "androidx/androidx",
+      "target": "AndroidX Presubmits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prune_artifacts.yml",
+      "source_repo": "androidx/androidx",
+      "target": "kolpav/purge-artifacts-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prune_artifacts.yml",
+      "source_repo": "androidx/androidx",
+      "target": "Prune old artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register_workflow_start.yml",
+      "source_repo": "androidx/androidx",
+      "target": "androidx/github-workflow-webhook-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/register_workflow_start.yml",
+      "source_repo": "androidx/androidx",
+      "target": "Register Workflow Run with AndroidX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/androidx",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/androidx",
+      "target": "jetpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "androidx/androidx",
+      "target": "library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "androidx/androidx"
+}

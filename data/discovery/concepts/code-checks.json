@@ -62,6 +62,18 @@
       "source_repo": "fredrikekre/Runic.jl",
       "status": "candidate-context",
       "text": "Code checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate-context",
+      "text": "Fast and accurate raster zonal statistics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate-context",
+      "text": "Code Checks"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +106,12 @@
       "source_repo": "fredrikekre/Runic.jl",
       "status": "candidate",
       "text": "Code checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextract",
+      "status": "candidate",
+      "text": "Code Checks"
     }
   ],
   "candidate_related_terms": [
@@ -167,11 +185,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/Check.yml",
       "source_repo": "fredrikekre/Runic.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": ".github/workflows/code_checks.yml",
+      "source_repo": "isciences/exactextract"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

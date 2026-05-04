@@ -429,7 +429,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:45:29.112368+00:00",
+  "fetched_at": "2026-05-04T09:36:55.484162+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -466,7 +466,7 @@
     "html_url": "https://github.com/Urigo/graphql-cli",
     "language": "TypeScript",
     "pushed_at": "2026-04-27T20:43:57Z",
-    "stargazers_count": 2019,
+    "stargazers_count": 2020,
     "topics": [
       "apollo",
       "cli",
@@ -474,7 +474,7 @@
       "schema",
       "terminal"
     ],
-    "updated_at": "2026-04-18T04:38:57Z"
+    "updated_at": "2026-05-04T00:44:58Z"
   },
   "repo_links": [
     {

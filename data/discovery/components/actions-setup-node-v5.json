@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -727,6 +727,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "vitejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install-node.yml",
+      "source_repo": "victorgarciaesgi/regle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "victorgarciaesgi/regle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shikijs/shiki"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifact-upload.yml",
+      "source_repo": "ghostery/ghostery-extension"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-v3.yml",
+      "source_repo": "ghostery/ghostery-extension"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ghostery/ghostery-extension"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "ghostery/ghostery-extension"
     }
   ]
 }

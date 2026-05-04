@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Android preference library with Jetpack Compose UI support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kotlin-android",
+      "sense_id": "kotlin-android#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin-android",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin-android",
+  "observation_id": "044473a5639205b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "kotlin-android",
+  "source_context_snippet": "A preference library (custom data handling + UI in JetPack Compose) for Android 6.0+ mainly developed for use in",
+  "source_file": null,
+  "source_repo": "patrickgold/jetpref",
+  "source_repo_description": "Android preference library with Jetpack Compose UI support"
+}

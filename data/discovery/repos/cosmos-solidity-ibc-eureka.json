@@ -1,0 +1,560 @@
+{
+  "components": [
+    {
+      "component": "@openzeppelin/contracts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@openzeppelin/contracts-upgradeable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@uniswap/permit2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sp1-contracts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "forge-std",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solhint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "quicktype",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-full.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-full.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-full.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-lc-combinations.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-lc-combinations.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-minimal.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-minimal.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-minimal.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "paulrberg/foundry-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "hyperledger-labs/yui-ibc-solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "srdtrk/cw-ibc-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "cosmos/ibc-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "@openzeppelin/contracts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "@openzeppelin/contracts-upgradeable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "@uniswap/permit2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "sp1-contracts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "forge-std",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "quicktype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abigen.yaml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "abigen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-attestor.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-attestor.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "e2e-attestor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-full.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-full.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "e2e-full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-lc-combinations.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-lc-combinations.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "e2e-lc-combinations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-minimal.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-minimal.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "e2e-minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "source_repo": "cosmos/solidity-ibc-eureka",
+      "target": "e2e-mock",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:23:40.101101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20779
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 13722
+    },
+    {
+      "path": "package.json",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/abigen.yaml",
+      "size": 1749
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/e2e-attestor.yml",
+      "size": 4823
+    },
+    {
+      "path": ".github/workflows/e2e-full.yml",
+      "size": 2531
+    },
+    {
+      "path": ".github/workflows/e2e-lc-combinations.yml",
+      "size": 2267
+    },
+    {
+      "path": ".github/workflows/e2e-minimal.yml",
+      "size": 2432
+    },
+    {
+      "path": ".github/workflows/e2e-mock.yml",
+      "size": 2740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a solidity implementation of IBC v2.",
+    "fork": false,
+    "full_name": "cosmos/solidity-ibc-eureka",
+    "html_url": "https://github.com/cosmos/solidity-ibc-eureka",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T10:33:10Z",
+    "stargazers_count": 101,
+    "topics": [],
+    "updated_at": "2026-05-02T10:33:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ibc-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger-labs/yui-ibc-solidity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paulrberg/foundry-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srdtrk/cw-ibc-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "abigen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abigen.yaml",
+      "term": "abigen"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "e2e-attestor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-attestor.yml",
+      "term": "e2e-attestor"
+    },
+    {
+      "context_snippet": "e2e-full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-full.yml",
+      "term": "e2e-full"
+    },
+    {
+      "context_snippet": "e2e-lc-combinations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-lc-combinations.yml",
+      "term": "e2e-lc-combinations"
+    },
+    {
+      "context_snippet": "e2e-minimal",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-minimal.yml",
+      "term": "e2e-minimal"
+    },
+    {
+      "context_snippet": "e2e-mock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-mock.yml",
+      "term": "e2e-mock"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T11:42:38.919057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8017
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "PyTorch implementation of the Quasi-Recurrent Neural Network - up to 16 times faster than NVIDIA's cuDNN LSTM",
+    "fork": false,
+    "full_name": "salesforce/pytorch-qrnn",
+    "html_url": "https://github.com/salesforce/pytorch-qrnn",
+    "language": "Python",
+    "pushed_at": "2022-02-12T14:34:07Z",
+    "stargazers_count": 1264,
+    "topics": [],
+    "updated_at": "2026-03-16T19:27:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

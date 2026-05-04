@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/polymetis",
+      "target": "facebookresearch/droidlet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/polymetis",
+      "target": "stack-of-tasks/pinocchio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/polymetis",
+      "target": "bulletphysics/bullet30",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:24:01.256888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3338
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Write PyTorch controllers, test them in simulation, and seamlessly transfer to real-time hardware.",
+    "fork": false,
+    "full_name": "facebookresearch/polymetis",
+    "html_url": "https://github.com/facebookresearch/polymetis",
+    "language": "Python",
+    "pushed_at": "2021-07-01T18:05:01Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-15T09:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bulletphysics/bullet30",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/droidlet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stack-of-tasks/pinocchio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

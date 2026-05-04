@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "simonpoole/geocontext",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "source_repo": "simonpoole/geocontext",
+      "target": "General purpose Gradle CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T11:32:04.383999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/gradle.yml",
+      "size": 280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Country specific geo/transport related properties",
+    "fork": false,
+    "full_name": "simonpoole/geocontext",
+    "html_url": "https://github.com/simonpoole/geocontext",
+    "language": null,
+    "pushed_at": "2026-01-22T08:46:05Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-05T18:23:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "General purpose Gradle CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle.yml",
+      "term": "General purpose Gradle CI"
+    }
+  ]
+}

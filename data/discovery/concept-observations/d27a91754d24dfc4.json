@@ -84,7 +84,7 @@
   "normalized_form": "algolia-indexer-for-label-studio-docs",
   "observation_id": "d27a91754d24dfc4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Algolia Indexer for Label Studio Docs",
   "source_context_snippet": "Algolia Indexer for Label Studio Docs",
   "source_file": ".github/workflows/algolia-crawler-ls-docs.yml",

@@ -5,14 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/video-retalking",
-      "target": "donydchen/ganimation_replicate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenTalker/video-retalking",
-      "target": "rudrabha/wav2lip",
+      "target": "vinthony/video-retalking",
       "target_type": "repository"
     },
     {
@@ -20,6 +13,13 @@
       "source_file": "README.md",
       "source_repo": "OpenTalker/video-retalking",
       "target": "feiiyin/styleheat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/video-retalking",
+      "target": "winfredy/sadtalker",
       "target_type": "repository"
     },
     {
@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:47:22.261603+00:00",
+  "fetched_at": "2026-05-04T11:36:19.194239+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,14 +79,14 @@
     "html_url": "https://github.com/OpenTalker/video-retalking",
     "language": "Python",
     "pushed_at": "2024-08-05T05:59:59Z",
-    "stargazers_count": 7244,
+    "stargazers_count": 7243,
     "topics": [
       "lip-synchronization",
       "siggraph-asia-2022",
       "talking-head-videos",
       "video-editing"
     ],
-    "updated_at": "2026-05-03T21:36:38Z"
+    "updated_at": "2026-05-04T11:36:17Z"
   },
   "repo_links": [
     {
@@ -96,17 +96,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "donydchen/ganimation_replicate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "feiiyin/styleheat",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rudrabha/wav2lip",
+      "full_name": "vinthony/video-retalking",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "winfredy/sadtalker",
       "source_file": "README.md"
     }
   ],

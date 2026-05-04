@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/DensePose",
+      "target": "caffe2/caffe2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:29:30.707889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3639
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A real-time approach for mapping all human pixels of 2D RGB images to a 3D surface-based model of the body",
+    "fork": false,
+    "full_name": "facebookresearch/DensePose",
+    "html_url": "https://github.com/facebookresearch/DensePose",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-18T17:26:59Z",
+    "stargazers_count": 7228,
+    "topics": [],
+    "updated_at": "2026-05-02T18:32:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caffe2/caffe2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

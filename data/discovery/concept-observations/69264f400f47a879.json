@@ -84,7 +84,7 @@
   "normalized_form": "update-discovery-generated-types",
   "observation_id": "69264f400f47a879",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
   "observed_text": "Update Discovery Generated Types",
   "source_context_snippet": "Update Discovery Generated Types",
   "source_file": ".github/workflows/discovery.yaml",

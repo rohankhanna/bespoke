@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pytorch/add-annotations-github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/fairo",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/fairo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/fairo",
+      "target": "pytorch/add-annotations-github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebookresearch/fairo",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:37:54.619383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1343
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 446
+    },
+    {
+      "path": "requirements.txt",
+      "size": 170
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modular embodied agent architecture and platform for building embodied agents",
+    "fork": false,
+    "full_name": "facebookresearch/fairo",
+    "html_url": "https://github.com/facebookresearch/fairo",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-27T17:19:19Z",
+    "stargazers_count": 925,
+    "topics": [],
+    "updated_at": "2026-04-08T11:46:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

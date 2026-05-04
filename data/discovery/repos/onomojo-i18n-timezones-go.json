@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-go",
+      "target": "onomojo/i18n-timezones-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-go",
+      "target": "onomojo/i18n-timezones-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:32:06.679663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4840
+    },
+    {
+      "path": "go.mod",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go module for localized timezone name translations (152 timezones \u00d7 36 locales, CLDR-sourced)",
+    "fork": false,
+    "full_name": "onomojo/i18n-timezones-go",
+    "html_url": "https://github.com/onomojo/i18n-timezones-go",
+    "language": "Go",
+    "pushed_at": "2026-03-09T13:58:01Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-09T13:58:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

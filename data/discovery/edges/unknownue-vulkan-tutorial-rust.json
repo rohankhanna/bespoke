@@ -8,20 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unknownue/vulkan-tutorial-rust",
-      "target": "bwasty/vulkan-tutorial-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unknownue/vulkan-tutorial-rust",
-      "target": "adrien-ben/vulkan-tutorial-rs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "unknownue/vulkan-tutorial-rust",
@@ -43,6 +29,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
   "source_repo": "unknownue/vulkan-tutorial-rust"
 }

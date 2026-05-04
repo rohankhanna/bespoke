@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto-merge-dependabot.yml",
       "source_repo": "maplibre/maplibre-gl-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-dependabot.yml",
+      "source_repo": "maplibre/maplibre-gl-inspect"
     }
   ],
   "term": "Automerge Dependabot"

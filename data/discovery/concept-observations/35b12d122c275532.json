@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IBC Relayer in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Hermes Guide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Hermes Guide"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12560,
+      "status": "candidate",
+      "text": "psychopomp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11793,
+      "status": "candidate",
+      "text": "thoth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "anubis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "daphnis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11581,
+      "status": "candidate",
+      "text": "herm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hermes Guide",
+      "sense_id": "hermes-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hermes-guide",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hermes-guide",
+  "observation_id": "35b12d122c275532",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "Hermes Guide",
+  "source_context_snippet": "Hermes Guide",
+  "source_file": ".github/workflows/guide.yml",
+  "source_repo": "informalsystems/hermes",
+  "source_repo_description": "IBC Relayer in Rust"
+}

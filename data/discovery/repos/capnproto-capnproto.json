@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "capnproto/capnproto",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quick-test.yml",
+      "source_repo": "capnproto/capnproto",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quick-test.yml",
+      "source_repo": "capnproto/capnproto",
+      "target": "Quick Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T10:35:24.464698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/quick-test.yml",
+      "size": 5753
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "Cap'n Proto serialization/RPC system - core tools and C++ library",
+    "fork": false,
+    "full_name": "capnproto/capnproto",
+    "html_url": "https://github.com/capnproto/capnproto",
+    "language": "C++",
+    "pushed_at": "2026-05-01T23:28:25Z",
+    "stargazers_count": 13009,
+    "topics": [],
+    "updated_at": "2026-05-04T10:20:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Quick Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quick-test.yml",
+      "term": "Quick Tests"
+    }
+  ]
+}

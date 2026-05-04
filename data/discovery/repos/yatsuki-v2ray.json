@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yatsuki/v2ray",
+      "target": "topjohnwu/magisk-module-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yatsuki/v2ray",
+      "target": "yatsuki/v2ray-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2ray",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2ray",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "yatsuki/v2ray",
+      "target": "Auto Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T07:30:05.942524+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3985
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "v2ray core",
+    "fork": true,
+    "full_name": "yatsuki/v2ray",
+    "html_url": "https://github.com/yatsuki/v2ray",
+    "language": "Shell",
+    "pushed_at": "2023-06-04T07:20:14Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2025-10-16T12:10:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "topjohnwu/magisk-module-installer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yatsuki/v2ray-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Auto Release"
+    }
+  ]
+}

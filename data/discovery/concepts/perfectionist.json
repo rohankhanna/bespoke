@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "perfectionist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "\u2602\ufe0f ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate-context",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azat-io/eslint-plugin-perfectionist",
+      "status": "candidate",
+      "text": "eslint-plugin-perfectionist \u2014 ESLint plugin for sorting various data such as objects, imports, types, enums, JSX props, etc."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025326,
+      "status": "candidate",
+      "text": "idealizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025325,
+      "status": "candidate",
+      "text": "absolutist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025324,
+      "status": "candidate",
+      "text": "stickler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025323,
+      "status": "candidate",
+      "text": "pissant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025322,
+      "status": "candidate",
+      "text": "precisianist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "perfectionist",
+  "concept_id": "perfectionist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "azat-io/eslint-plugin-perfectionist"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perfectionist",
+      "sense_id": "perfectionist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

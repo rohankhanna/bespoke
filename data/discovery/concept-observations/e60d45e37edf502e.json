@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A friendly and efficient wrapper to protect iOS app operations for a short time when backgrounded."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000620,
+      "status": "candidate",
+      "text": "lifespan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998024,
+      "status": "candidate",
+      "text": "life"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995814,
+      "status": "candidate",
+      "text": "lifetime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29975746,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862002,
+      "status": "candidate",
+      "text": "cycle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lifecycle",
+      "sense_id": "lifecycle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lifecycle",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lifecycle",
+  "observation_id": "e60d45e37edf502e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "lifecycle",
+  "source_context_snippet": "<img src=\"https://ptsochantaris.github.io/trailer/MaintiniLogo.webp\" alt=\"Logo\" width=256 align=\"right\">",
+  "source_file": null,
+  "source_repo": "ptsochantaris/maintini",
+  "source_repo_description": "A friendly and efficient wrapper to protect iOS app operations for a short time when backgrounded."
+}

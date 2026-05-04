@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -647,6 +647,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/prepare-release-pr.yml",
       "source_repo": "faker-js/faker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sveltejs/svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "sveltejs/svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/svelte"
     }
   ]
 }

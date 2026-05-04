@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Netflix/PigPen",
+      "target": "apache/incubator-parquet-mr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T09:38:44.225232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Map-Reduce for Clojure",
+    "fork": false,
+    "full_name": "Netflix/PigPen",
+    "html_url": "https://github.com/Netflix/PigPen",
+    "language": "Clojure",
+    "pushed_at": "2023-04-10T10:32:34Z",
+    "stargazers_count": 565,
+    "topics": [],
+    "updated_at": "2026-04-02T11:55:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-parquet-mr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

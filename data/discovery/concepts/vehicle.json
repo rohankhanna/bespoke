@@ -19,6 +19,18 @@
       "source_repo": "layumi/AICIty-reID-2020",
       "status": "candidate-context",
       "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate-context",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "layumi/AICIty-reID-2020",
       "status": "candidate",
       "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/Vehicle_reID-Collection",
+      "status": "candidate",
+      "text": ":red_car: the collection of vehicle re-ID papers, datasets. :red_car:"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "layumi/AICIty-reID-2020"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "layumi/Vehicle_reID-Collection"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

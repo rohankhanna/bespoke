@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "letsencrypt/letsencrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-tests-with-coverage.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Pull Request Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staging-tests.yml",
+      "source_repo": "diafygi/acme-tiny",
+      "target": "Staging Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "source_repo": "diafygi/acme-tiny"
+}

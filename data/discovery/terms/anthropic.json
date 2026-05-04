@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -216,6 +216,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "crmne/ruby_llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danny-avila/LibreChat"
     }
   ],
   "term": "anthropic"

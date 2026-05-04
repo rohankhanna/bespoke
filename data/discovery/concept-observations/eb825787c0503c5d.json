@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "XMLHttpRequest mock for testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://app.travis-ci.com/berniegp/mock-xmlhttprequest.svg?branch=master)](https://app.travis-ci.com/berniegp/mock-xmlhttprequest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://app.travis-ci.com/berniegp/mock-xmlhttprequest.svg?branch=master)](https://app.travis-ci.com/berniegp/mock-xmlhttprequest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037950,
+      "status": "candidate",
+      "text": "nike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19817771,
+      "status": "candidate",
+      "text": "blockish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19165562,
+      "status": "candidate",
+      "text": "wyatt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18794824,
+      "status": "candidate",
+      "text": "northrup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038752,
+      "status": "candidate",
+      "text": "aias"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ajax",
+      "sense_id": "ajax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ajax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ajax",
+  "observation_id": "eb825787c0503c5d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_text": "ajax",
+  "source_context_snippet": "[![Build Status](https://app.travis-ci.com/berniegp/mock-xmlhttprequest.svg?branch=master)](https://app.travis-ci.com/berniegp/mock-xmlhttprequest)",
+  "source_file": null,
+  "source_repo": "berniegp/mock-xmlhttprequest",
+  "source_repo_description": "XMLHttpRequest mock for testing"
+}

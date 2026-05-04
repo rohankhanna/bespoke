@@ -31,6 +31,30 @@
       "source_repo": "ACh-K/Cubic-11",
       "status": "candidate-context",
       "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "status": "candidate-context",
+      "text": "Huaying Mincho \u83ef\u82f1\u660e\u671d \u534e\u82f1\u660e\u671d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "status": "candidate-context",
+      "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md#Huaying-Mincho-\u534e\u82f1\u660e\u671d-\u83ef\u82f1\u660e\u671d)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scott0107000/BoutiqueBitmap7x7",
+      "status": "candidate-context",
+      "text": "A free, open source bitmap font \"BoutiqueBitmap7x7\".\u3000\u514d\u8cbb\u3001\u958b\u6e90\u7684\u9ede\u9663\u5b57\u9ad4\u300a\u7cbe\u54c1\u9ede\u9663\u9ad47\u00d77\u300b\u3002\u3000\u514d\u8d39\u3001\u5f00\u6e90\u7684\u70b9\u9635\u5b57\u4f53\u300a\u7cbe\u54c1\u70b9\u9635\u4f537\u00d77\u300b\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scott0107000/BoutiqueBitmap7x7",
+      "status": "candidate-context",
+      "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ACh-K/Cubic-11",
       "status": "candidate",
       "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/HuayingMincho",
+      "status": "candidate",
+      "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md#Huaying-Mincho-\u534e\u82f1\u660e\u671d-\u83ef\u82f1\u660e\u671d)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scott0107000/BoutiqueBitmap7x7",
+      "status": "candidate",
+      "text": "![BoutiqueBitmap7x7](https://github.com/scott0107000/BoutiqueBitmap7x7/blob/9f0788524045082a216987151c9c6bec8867921f/README_PIC/0080.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "ACh-K/Cubic-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "GuiWonder/HuayingMincho"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "scott0107000/BoutiqueBitmap7x7"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "lexical_providers": [
     "datamuse"
   ],

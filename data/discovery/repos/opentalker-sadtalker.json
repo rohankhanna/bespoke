@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
-      "target": "rudrabha/wav2lip",
+      "target": "winfredy/sadtalker",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T01:47:24.968592+00:00",
+  "fetched_at": "2026-05-04T11:36:20.513251+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/OpenTalker/SadTalker",
     "language": "Python",
     "pushed_at": "2024-06-26T12:51:53Z",
-    "stargazers_count": 13774,
+    "stargazers_count": 13775,
     "topics": [
       "audio-driven-talking-face",
       "cvpr2023",
@@ -126,7 +126,7 @@
       "talking-head",
       "talking-heads"
     ],
-    "updated_at": "2026-05-03T18:13:39Z"
+    "updated_at": "2026-05-04T09:34:14Z"
   },
   "repo_links": [
     {
@@ -141,12 +141,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rudrabha/wav2lip",
+      "full_name": "vinthony/video-retalking",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "vinthony/video-retalking",
+      "full_name": "winfredy/sadtalker",
       "source_file": "README.md"
     }
   ],

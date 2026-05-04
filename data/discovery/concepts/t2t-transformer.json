@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "t2t-transformer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate-context",
+      "text": "ICCV2021, Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate-context",
+      "text": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yitu-opensource/T2T-ViT",
+      "status": "candidate",
+      "text": "2021/03/11: update our new results. Now our T2T-ViT-14 with 21.5M parameters can reach 81.5% top1-acc with 224x224 image resolution, and 83.3\\% top1-acc with 384x384 resolution."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "t2t-transformer",
+  "concept_id": "t2t-transformer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T07:12:05.012081+00:00",
+      "source_file": null,
+      "source_repo": "yitu-opensource/T2T-ViT"
+    }
+  ],
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "t2t-transformer",
+      "sense_id": "t2t-transformer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

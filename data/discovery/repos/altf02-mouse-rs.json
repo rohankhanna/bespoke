@@ -67,7 +67,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T02:05:21.617433+00:00",
+  "fetched_at": "2026-05-04T09:32:04.313116+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,14 +92,14 @@
     "html_url": "https://github.com/AltF02/mouse-rs",
     "language": "Rust",
     "pushed_at": "2023-08-19T06:29:25Z",
-    "stargazers_count": 126,
+    "stargazers_count": 127,
     "topics": [
       "library",
       "mouse",
       "mouse-emulation",
       "rust"
     ],
-    "updated_at": "2026-03-26T20:22:39Z"
+    "updated_at": "2026-05-04T05:24:21Z"
   },
   "repo_links": [
     {

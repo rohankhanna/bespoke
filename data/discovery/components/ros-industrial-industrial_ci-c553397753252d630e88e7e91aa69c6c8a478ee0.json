@@ -1,0 +1,12 @@
+{
+  "component": "ros-industrial/industrial_ci@c553397753252d630e88e7e91aa69c6c8a478ee0",
+  "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ros_ci.yml",
+      "source_repo": "stack-of-tasks/pinocchio"
+    }
+  ]
+}

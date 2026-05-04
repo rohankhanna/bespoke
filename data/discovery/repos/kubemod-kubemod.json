@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/topic-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/topic-workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubemod/kubemod",
+      "target": "elastic/cloud-on-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubemod/kubemod",
+      "target": "jaegertracing/jaeger-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "Main Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/topic-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/topic-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/topic-workflow.yaml",
+      "source_repo": "kubemod/kubemod",
+      "target": "Pull Request Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubemod/kubemod",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubemod/kubemod",
+      "target": "kubernetes-admission-webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubemod/kubemod",
+      "target": "kubernetes-operators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubemod/kubemod",
+      "target": "kubernetes-resource",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T08:17:23.125068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 51128
+    },
+    {
+      "path": "Dockerfile",
+      "size": 975
+    },
+    {
+      "path": "go.mod",
+      "size": 3916
+    },
+    {
+      "path": ".github/workflows/main-workflow.yaml",
+      "size": 1326
+    },
+    {
+      "path": ".github/workflows/topic-workflow.yaml",
+      "size": 423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Universal Kubernetes mutating operator",
+    "fork": false,
+    "full_name": "kubemod/kubemod",
+    "html_url": "https://github.com/kubemod/kubemod",
+    "language": "Go",
+    "pushed_at": "2025-02-05T21:15:18Z",
+    "stargazers_count": 284,
+    "topics": [
+      "kubernetes",
+      "kubernetes-admission-webhook",
+      "kubernetes-operators",
+      "kubernetes-resource"
+    ],
+    "updated_at": "2026-01-21T00:07:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/cloud-on-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaegertracing/jaeger-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Main Workflow'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-workflow.yaml",
+      "term": "Main Workflow"
+    },
+    {
+      "context_snippet": "'Pull Request Workflow'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/topic-workflow.yaml",
+      "term": "Pull Request Workflow"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-admission-webhook"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operators"
+    },
+    {
+      "context_snippet": "[![Build Status][ci-img]][ci] [![Go Report Card][goreport-img]][goreport] [![Docker Image][docker-img]][docker]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-resource"
+    }
+  ]
+}
