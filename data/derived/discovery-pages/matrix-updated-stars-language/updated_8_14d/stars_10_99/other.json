@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 679,
-    "concepts": 446,
-    "observations": 446,
-    "repos": 99,
-    "terms": 444
+    "components": 663,
+    "concepts": 437,
+    "observations": 437,
+    "repos": 96,
+    "terms": 435
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -42,7 +42,6 @@
     "DOI-USGS/ncdfgeom",
     "dotnet/arcade-services",
     "dotnet/wpf-test",
-    "emacscollective/epkg",
     "emibcn/badge-action",
     "flavorjones/tailwindcss-ruby",
     "foo-dogsquared/hugo-mod-simple-icons",
@@ -62,19 +61,15 @@
     "ibmruntimes/zoslib",
     "ipfs/distributions",
     "julia-actions/julia-format",
-    "JuliaArrays/StaticArraysCore.jl",
     "JuliaClimate/CDSAPI.jl",
     "JuliaDocs/DocumentationGenerator.jl",
     "JuliaDocs/DocumenterCitations.jl",
     "JuliaDocs/DocumenterInterLinks.jl",
-    "JuliaGenAI/HuggingFaceDatasets.jl",
     "JuliaLang/BumpStdlibs.jl",
     "JuliaSMLM/ModelContextProtocol.jl",
-    "jupyterlab/extension-template",
     "JustusAdam/language-haskell",
     "kahliburke/Kaimon.jl",
     "kata-containers/www.katacontainers.io",
-    "lxqt/lxqt-build-tools",
     "meta-pytorch/executorch-examples",
     "mrjones2014/codesettings.nvim",
     "nodenv/homebrew-nodenv",
@@ -84,6 +79,7 @@
     "ocaml-tracing/ocaml-tracy",
     "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
+    "oliyh/carve.el",
     "onnx/steering-committee",
     "opensim-org/conda-opensim",
     "optuna/optunahub-registry",
@@ -112,6 +108,7 @@
     "VirtusLab/bazel-steward",
     "WebAssembly/custom-page-sizes",
     "wp-cli/dist-archive-command",
-    "wp-cli/scaffold-package-command"
+    "wp-cli/scaffold-package-command",
+    "yamachu/VoicevoxCoreSharp"
   ]
 }

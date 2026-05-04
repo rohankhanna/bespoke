@@ -3,7 +3,7 @@
     "components": 132,
     "concepts": 112,
     "observations": 112,
-    "repos": 53,
+    "repos": 55,
     "terms": 111
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -43,6 +43,8 @@
     "filecoin-project/go-sectorbuilder",
     "go-bun/go-http-routing-benchmark",
     "go-woo/protoc-gen-ent",
+    "gogama/aws-xray-httpx",
+    "gogama/reconnx",
     "hertz-contrib/autotls",
     "hertz-contrib/cache",
     "hertz-contrib/etag",

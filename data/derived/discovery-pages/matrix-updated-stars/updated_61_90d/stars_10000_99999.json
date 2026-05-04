@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 601,
-    "concepts": 312,
-    "observations": 316,
-    "repos": 50,
-    "terms": 312
+    "concepts": 314,
+    "observations": 318,
+    "repos": 51,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -61,6 +61,7 @@
     "unifyai/ivy",
     "vibrantlabsai/ragas",
     "vitejs/awesome-vite",
+    "Wan-Video/Wan2.1",
     "zsh-users/zsh-syntax-highlighting",
     "zylon-ai/private-gpt"
   ]

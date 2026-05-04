@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 328,
-    "observations": 328,
-    "repos": 32,
-    "terms": 323
+    "components": 328,
+    "concepts": 367,
+    "observations": 369,
+    "repos": 36,
+    "terms": 362
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
     "ahmetb/kubectx",
+    "aquasecurity/trivy",
     "Billionmail/BillionMail",
     "charmbracelet/bubbletea",
     "charmbracelet/crush",
@@ -34,6 +35,8 @@
     "hibiken/asynq",
     "Jguer/yay",
     "junegunn/fzf",
+    "k3s-io/k3s",
+    "kubernetes-sigs/kind",
     "kubernetes-sigs/kustomize",
     "kubernetes/kompose",
     "labstack/echo",
@@ -45,6 +48,7 @@
     "slimtoolkit/slim",
     "stretchr/testify",
     "urfave/cli",
+    "valyala/fasthttp",
     "wader/fq"
   ]
 }

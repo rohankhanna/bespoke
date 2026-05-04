@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 59,
-    "terms": 155
+    "components": 302,
+    "concepts": 159,
+    "observations": 159,
+    "repos": 61,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -29,6 +29,7 @@
     "avelino/monotropic-theme-vscode",
     "benomahony/oil-git.nvim",
     "bokeh/tutorial",
+    "camertron/garnet-js",
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
@@ -64,6 +65,7 @@
     "ochorocho/franken-typo3",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
+    "patrickgold/jetpref",
     "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "SchwarzIT/spectral-intellij-plugin",

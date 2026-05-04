@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2592,
-    "concepts": 565,
-    "observations": 567,
+    "components": 2732,
+    "concepts": 556,
+    "observations": 558,
     "repos": 84,
-    "terms": 563
+    "terms": 554
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "a2aproject/a2a-js",
     "AgnosticUI/agnosticui",
     "antfu/eslint-flat-config-utils",
     "apollographql/federation",
@@ -23,12 +22,15 @@
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
+    "cosmos/cosmjs",
     "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
+    "dydxprotocol/v4-web",
     "electron-vite/vite-plugin-electron",
     "electron-vite/vite-plugin-electron-renderer",
     "electron/packager",
@@ -37,7 +39,6 @@
     "flathub-infra/website",
     "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
-    "forcedotcom/code-analyzer",
     "fsouza/prettierd",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
@@ -54,7 +55,6 @@
     "jsonwebtoken/jsonwebtoken.github.io",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
-    "luciopaiva/heapify",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/vscode-java-debug",
@@ -77,7 +77,6 @@
     "redhat-developer/vscode-yaml",
     "relative-ci/bundle-stats",
     "rstackjs/storybook-rsbuild",
-    "safe-fndn/safe-singleton-factory",
     "salesforcecli/cli",
     "sapphiredev/utilities",
     "SkepticMystic/breadcrumbs",
@@ -96,6 +95,7 @@
     "unjs/get-port-please",
     "unjs/listhen",
     "unjs/unimport",
+    "unplugin/unplugin-imagemin",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest"
   ]

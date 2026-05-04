@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 112,
-    "observations": 113,
-    "repos": 24,
-    "terms": 112
+    "components": 140,
+    "concepts": 105,
+    "observations": 106,
+    "repos": 22,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
@@ -21,7 +21,6 @@
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
-    "cloudfoundry/cf-smoke-tests",
     "cloudfoundry/credhub-cli",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
@@ -35,7 +34,6 @@
     "oracle/karpenter-provider-oci",
     "philips-labs/dct-notary-admin",
     "philips-labs/tabia",
-    "transparency-dev/witness",
     "usbarmory/tamago-example",
     "usbarmory/tamago-sev-example"
   ]

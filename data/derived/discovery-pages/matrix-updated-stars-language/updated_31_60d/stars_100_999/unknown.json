@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 16,
-    "terms": 36
+    "components": 20,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 19,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "dotnet/source-build",
     "emberjs/core-notes",
     "filecoin-project/community",
     "flathub/com.vscodium.codium",
+    "google/deepsomatic",
     "grpc/proposal",
+    "hagezi/dns-servers",
     "helm/community",
     "lumen-oss/nvim-best-practices",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
@@ -29,6 +31,7 @@
     "oobabooga/textgen-extensions",
     "peter-evans/enable-pull-request-automerge",
     "reactwg/react-native-releases",
-    "revfactory/harness-100"
+    "revfactory/harness-100",
+    "scott0107000/BoutiqueBitmap7x7"
   ]
 }

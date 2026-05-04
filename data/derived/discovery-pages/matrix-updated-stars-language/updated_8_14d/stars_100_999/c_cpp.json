@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 470,
-    "concepts": 449,
-    "observations": 449,
-    "repos": 86,
-    "terms": 445
+    "components": 474,
+    "concepts": 421,
+    "observations": 421,
+    "repos": 82,
+    "terms": 417
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/Imath",
     "AcademySoftwareFoundation/openfx",
@@ -27,10 +27,9 @@
     "bfgroup/Lyra",
     "bitcoin-core/gui",
     "boazsegev/iodine",
-    "BoosterRobotics/booster_robotics_sdk",
     "boostorg/nowide",
-    "cjlin1/libmf",
     "cloudflare/cloudflare-workers-wasm-demo",
+    "CloverLabsAI/camoufox",
     "coin-or/Cbc",
     "corporateshark/lightweightvk",
     "cygwin/cygwin",
@@ -40,6 +39,7 @@
     "DiligentGraphics/DiligentSamples",
     "DiligentGraphics/DiligentTools",
     "DOCGroup/ACE_TAO",
+    "eblerjana/pangenie",
     "Ezibenroc/PyRoaringBitMap",
     "facil-io/cstl",
     "flatpak/xdg-desktop-portal",
@@ -61,7 +61,6 @@
     "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
-    "lxqt/qterminal",
     "lxqt/qtermwidget",
     "mapbox/geometry.hpp",
     "marton78/pffft",
@@ -71,8 +70,6 @@
     "mysql/mysql-workbench",
     "NetHack-LE/nle",
     "nss-dev/nss",
-    "nvpro-samples/nvpro_core2",
-    "nvpro-samples/vk_gltf_renderer",
     "openSUSE/catatonit",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
@@ -96,7 +93,6 @@
     "samdauwe/webgpu-native-examples",
     "SaschaWillems/HowToVulkan",
     "secretflow/heu",
-    "sp-nitech/SPTK",
     "tile-ai/tilelang-ascend",
     "uxlfoundation/oneCCL",
     "VectorDB-NTU/RaBitQ-Library"

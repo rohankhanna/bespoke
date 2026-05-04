@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 318,
-    "observations": 318,
+    "components": 245,
+    "concepts": 309,
+    "observations": 309,
     "repos": 39,
-    "terms": 316
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "allegro/hermes",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -37,9 +36,9 @@
     "ihmcrobotics/ihmc-open-robotics-software",
     "jpmml/jpmml-sklearn",
     "kirill-grouchnikov/radiance",
+    "MarcusWolschon/osmeditor4android",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
-    "microsoft/vscode-java-test",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
     "quarkiverse/quarkus-langchain4j",
@@ -47,6 +46,7 @@
     "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
+    "samtools/htsjdk",
     "SAP/SapMachine",
     "spring-projects/spring-tools",
     "swagger-api/swagger-parser",

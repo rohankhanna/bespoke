@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
-    "concepts": 369,
-    "observations": 371,
-    "repos": 80,
-    "terms": 367
+    "components": 328,
+    "concepts": 371,
+    "observations": 373,
+    "repos": 81,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -37,6 +37,7 @@
     "elixir-lang/gen_stage",
     "emacs-evil/evil",
     "emacs-lsp/lsp-ui",
+    "erew123/alltalk_tts",
     "FoundationVision/VAR",
     "fsprojects/Paket",
     "Fuco1/smartparens",

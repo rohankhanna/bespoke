@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1062,
-    "concepts": 219,
-    "observations": 219,
-    "repos": 42,
-    "terms": 219
+    "components": 1331,
+    "concepts": 274,
+    "observations": 274,
+    "repos": 46,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -23,6 +23,7 @@
     "brunch/brunch",
     "codemirror/dev",
     "DavidAnson/markdownlint",
+    "DevExpress/testcafe",
     "ecomfe/echarts-gl",
     "facebook/jscodeshift",
     "fengyuanchen/compressorjs",
@@ -30,6 +31,7 @@
     "gautamkrishnar/blog-post-workflow",
     "gautamkrishnar/motrix-webextension",
     "google/closure-compiler",
+    "GoogleChromeLabs/browser-fs-access",
     "GoogleChromeLabs/ProjectVisBug",
     "hotoo/pinyin",
     "igorshubovych/markdownlint-cli",
@@ -39,6 +41,7 @@
     "kpdecker/jsdiff",
     "mantoni/eslint_d.js",
     "mapbox/maki",
+    "micromatch/picomatch",
     "npm/cli",
     "npm/node-semver",
     "patorjk/figlet.js",
@@ -51,6 +54,7 @@
     "sindresorhus/hyper-snazzy",
     "tc39/agendas",
     "tomas/needle",
+    "vueform/vueform",
     "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",

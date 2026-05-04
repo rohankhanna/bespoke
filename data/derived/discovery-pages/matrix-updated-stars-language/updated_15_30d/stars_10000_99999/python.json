@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 694,
-    "concepts": 628,
-    "observations": 632,
-    "repos": 73,
-    "terms": 658
+    "components": 711,
+    "concepts": 669,
+    "observations": 673,
+    "repos": 76,
+    "terms": 699
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
     "3b1b/manim",
     "abetlen/llama-cpp-python",
     "aio-libs/aiohttp",
+    "akfamily/akshare",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "anthropics/claude-plugins-official",
     "astral-sh/ty",
+    "benoitc/gunicorn",
     "browser-use/browser-use",
     "camel-ai/owl",
     "caronc/apprise",
@@ -35,6 +37,7 @@
     "DLR-RM/stable-baselines3",
     "dottxt-ai/outlines",
     "EleutherAI/lm-evaluation-harness",
+    "evilsocket/opensnitch",
     "fabric/fabric",
     "facebook/prophet",
     "facebookresearch/detectron2",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 5,
-    "terms": 57
+    "components": 37,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 4,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "bazel-contrib/bazel-gazelle",
+    "aws/karpenter-provider-aws",
+    "cosmos/cosmos-sdk",
     "crc-org/crc",
-    "erigontech/erigon",
-    "go-git/go-git",
-    "Loyalsoldier/geoip"
+    "elastic/cloud-on-k8s"
   ]
 }

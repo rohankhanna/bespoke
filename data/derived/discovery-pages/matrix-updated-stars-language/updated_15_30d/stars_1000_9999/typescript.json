@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3080,
-    "concepts": 606,
-    "observations": 607,
-    "repos": 92,
-    "terms": 718
+    "components": 3118,
+    "concepts": 640,
+    "observations": 641,
+    "repos": 96,
+    "terms": 752
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0x2E/fusion",
+    "abrahamjuliot/creepjs",
     "actions/typescript-action",
     "actions/upload-artifact",
     "AIPexStudio/AIPex",
-    "allweonedev/presentation-ai",
     "anthropics/claude-code-action",
+    "apache/apisix-dashboard",
     "archestra-ai/archestra",
     "artsy/README",
+    "astral-sh/ruff-vscode",
     "av/harbor",
     "babaohuang/GeminiProChat",
     "badgen/badgen.net",
@@ -89,9 +91,11 @@
     "OpenAPITools/openapi-generator-cli",
     "owloops/claude-powerline",
     "PAIR-code/lit",
+    "panva/jose",
     "piebald-ai/tweakcc",
     "pixiv/three-vrm",
     "preactjs/signals",
+    "react-hook-form/resolvers",
     "redhat-developer/vscode-java",
     "remotion-dev/github-unwrapped",
     "sirmalloc/ccstatusline",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 161,
+    "components": 164,
     "concepts": 53,
     "observations": 54,
-    "repos": 40,
+    "repos": 42,
     "terms": 53
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -28,6 +28,8 @@
     "datafuse-extras/async-backtrace",
     "datafuse-extras/async-recursion",
     "datafuse-extras/logforth",
+    "datafuse-extras/recursive",
+    "datafuse-extras/serfig",
     "delta1/rust-jsonrpc-client",
     "dustinblackman/rust-hello-world",
     "ealmloff/llm-samplers",

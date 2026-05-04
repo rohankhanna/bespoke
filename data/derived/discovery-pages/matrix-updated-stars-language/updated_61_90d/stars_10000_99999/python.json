@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 78,
-    "concepts": 96,
-    "observations": 97,
-    "repos": 14,
-    "terms": 96
+    "concepts": 98,
+    "observations": 99,
+    "repos": 15,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
@@ -27,6 +27,7 @@
     "tqdm/tqdm",
     "unifyai/ivy",
     "vibrantlabsai/ragas",
+    "Wan-Video/Wan2.1",
     "zylon-ai/private-gpt"
   ]
 }

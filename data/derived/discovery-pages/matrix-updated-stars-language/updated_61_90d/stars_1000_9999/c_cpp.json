@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 180,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 34,
-    "terms": 168
+    "components": 192,
+    "concepts": 181,
+    "observations": 182,
+    "repos": 36,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "2ndalpha/gasmask",
     "2shady4u/godot-sqlite",
     "adafruit/Adafruit_NeoPixel",
+    "AdAway/AdAway",
     "akheron/jansson",
     "bblanchon/ArduinoJson",
     "brandur/redis-cell",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 13,
-    "terms": 49
+    "components": 81,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 14,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "andriykohut/pdm-readiness",
@@ -25,6 +25,7 @@
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "onicai/IConfucius",
+    "plone/cookieplone-templates",
     "pyrtlsdr/pyrtlsdrlib",
     "TJC-LP/sanzaru"
   ]

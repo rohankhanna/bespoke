@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 12,
-    "terms": 56
+    "components": 59,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 17,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "box/box-openapi",
+    "Chocolate4U/Iran-sing-box-rules",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",
@@ -23,8 +24,12 @@
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
     "luau-lang/rfcs",
+    "maplibre/awesome-maplibre",
     "mdn/mdn-community",
     "openjs-foundation/cross-project-council",
-    "smithy-lang/awesome-smithy"
+    "openwdl/wdl",
+    "smithy-lang/awesome-smithy",
+    "triton-inference-server/tensorrtllm_backend",
+    "yokoffing/Control-D-Config"
   ]
 }

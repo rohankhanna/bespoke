@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 168,
-    "observations": 168,
-    "repos": 23,
-    "terms": 168
+    "components": 176,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 25,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
+    "allegro/hermes",
     "apache/commons-jexl",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
@@ -31,6 +32,7 @@
     "jpmml/jpmml-xgboost",
     "microsoft/Generative-AI-for-beginners-java",
     "microsoft/semantic-kernel-java",
+    "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
     "sevntu-checkstyle/sevntu.checkstyle",
     "spotbugs/sonar-findbugs",

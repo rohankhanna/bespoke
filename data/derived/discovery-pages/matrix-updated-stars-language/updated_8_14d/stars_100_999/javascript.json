@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1205,
-    "concepts": 277,
-    "observations": 284,
-    "repos": 48,
-    "terms": 276
+    "components": 1121,
+    "concepts": 265,
+    "observations": 270,
+    "repos": 47,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -20,21 +20,19 @@
     "apache/incubator-seata-website",
     "aredridel/node-bin-gen",
     "aws/aws-cdk-rfcs",
-    "bcomnes/npm-run-all2",
     "browserslist/caniuse-lite",
     "browserslist/update-db",
     "carbon-design-system/carbon-components-vue",
-    "chaijs/chai-http",
     "chrisgoringe/cg-image-filter",
-    "ClickHouse/agent-skills",
     "conda-forge/conda-forge.github.io",
+    "csstools/cssdb",
     "CVEProject/cve-services",
     "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
+    "dydxprotocol/v4-clients",
     "emberjs/ember-qunit",
     "evenchange4/graphql.macro",
     "GDevelopApp/GDevelop-examples",
-    "GDevelopApp/GDevelop-extensions",
     "GordonChen19/Prompt-Relay",
     "higlass/higlass",
     "i18next/i18next-fs-backend",
@@ -42,6 +40,7 @@
     "i18next/i18next-http-middleware",
     "ImranR98/apps.obtainium.imranr.dev",
     "ipfs/aegir",
+    "j9t/html-minifier-next",
     "jest-community/jest-junit",
     "kurrent-io/KurrentDB-Client-NodeJS",
     "marwin1991/profile-technology-icons",
@@ -54,13 +53,13 @@
     "postcss/postcss-js",
     "postcss/postcss-load-config",
     "postcss/sugarss",
+    "reviewdog/action-eslint",
     "rooklift/ogatak",
-    "semantic-release/commit-analyzer",
-    "semantic-release/github",
-    "semantic-release/npm",
+    "rubyjs/mini_racer",
     "speced/respec",
     "Taritsyn/BundleTransformer",
     "tc39/notes",
+    "tomayac/SVGcode",
     "unicode-org/message-format-wg"
   ]
 }

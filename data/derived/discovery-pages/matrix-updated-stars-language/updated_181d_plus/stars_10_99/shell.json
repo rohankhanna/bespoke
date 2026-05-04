@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 202,
-    "observations": 202,
-    "repos": 76,
-    "terms": 197
+    "components": 90,
+    "concepts": 203,
+    "observations": 203,
+    "repos": 78,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
@@ -59,6 +59,7 @@
     "haya14busa/action-bumpr",
     "haya14busa/action-update-semver",
     "higlass/higlass-docker",
+    "honwen/luci-app-shadowsocks-rust",
     "icanhasjonas/run-claude-docker",
     "isaacs/npm",
     "jcupitt/vips-benchmarks",
@@ -89,6 +90,7 @@
     "tuvovan/Zero_DCE_TF",
     "unixorn/autoupdate-zgen",
     "xetdata/xet-tools",
+    "yatsuki/v2ray",
     "Zepmann/lldap-cli"
   ]
 }

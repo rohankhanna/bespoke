@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "components": 19,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 3,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "jrouwe/JoltPhysics"
+    "argotorg/solidity",
+    "jrouwe/JoltPhysics",
+    "mozilla-ai/llamafile"
   ]
 }

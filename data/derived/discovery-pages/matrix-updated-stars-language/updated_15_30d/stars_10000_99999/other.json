@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 544,
-    "concepts": 197,
-    "observations": 199,
-    "repos": 31,
-    "terms": 202
+    "components": 555,
+    "concepts": 215,
+    "observations": 217,
+    "repos": 32,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adambard/learnxinyminutes-docs",
     "alexandresanlim/Badges4-README.md-Profile",
@@ -37,6 +37,7 @@
     "metabase/metabase",
     "microsoft/language-server-protocol",
     "microsoft/OmniParser",
+    "mikepenz/MaterialDrawer",
     "nikitabobko/AeroSpace",
     "oven-sh/bun",
     "realm/SwiftLint",

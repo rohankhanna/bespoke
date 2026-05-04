@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 106,
-    "concepts": 130,
-    "observations": 130,
-    "repos": 21,
-    "terms": 126
+    "components": 99,
+    "concepts": 124,
+    "observations": 124,
+    "repos": 20,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
     "aurutils/aurutils",
-    "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
     "conda-forge/miniforge",
     "devcontainers/images",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 122,
-    "observations": 123,
-    "repos": 33,
-    "terms": 136
+    "components": 233,
+    "concepts": 125,
+    "observations": 126,
+    "repos": 36,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "64bit/commandOK",
     "alixinne/glsl-lang",
@@ -26,7 +26,10 @@
     "Calsign/gazelle_rust",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
+    "cpmech/gemlab",
     "crate-ci/imperative",
+    "filecoin-project/actors-utils",
+    "foundry-rs/foundry-fork-db",
     "google/safe-mmio",
     "hagan/claudia-statusline",
     "hpkewg/hpke-pq",

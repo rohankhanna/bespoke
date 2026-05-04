@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1136,
-    "concepts": 755,
-    "observations": 758,
-    "repos": 115,
-    "terms": 761
+    "concepts": 753,
+    "observations": 756,
+    "repos": 114,
+    "terms": 759
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -125,7 +125,6 @@
     "vercel/satori",
     "videojs/video.js",
     "vuejs/awesome-vue",
-    "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2",
     "websockets/ws"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 857,
-    "concepts": 855,
-    "observations": 856,
-    "repos": 105,
-    "terms": 851
+    "components": 872,
+    "concepts": 877,
+    "observations": 878,
+    "repos": 106,
+    "terms": 873
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -20,12 +20,12 @@
     "ARM-software/astc-encoder",
     "ARM-software/ComputeLibrary",
     "ashvardanian/NumKong",
-    "async-profiler/async-profiler",
     "axboe/liburing",
     "bdwgc/bdwgc",
     "BinomialLLC/basis_universal",
     "Blynk-Technologies/blynk-library",
     "boostorg/beast",
+    "CedricGuillemet/ImGuizmo",
     "citusdata/pg_cron",
     "clice-io/clice",
     "CLIUtils/CLI11",
@@ -73,6 +73,7 @@
     "libssh2/libssh2",
     "libusb/hidapi",
     "lightvector/KataGo",
+    "LuisaGroup/LuisaCompute",
     "mamba-org/mamba",
     "Mbed-TLS/mbedtls",
     "microsoft/cpprestsdk",
@@ -93,9 +94,9 @@
     "NVIDIA/MatX",
     "NVIDIA/nccl",
     "NVlabs/tiny-cuda-nn",
-    "nvpro-samples/vk_raytracing_tutorial_KHR",
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
+    "OpenSC/OpenSC",
     "openxla/xla",
     "paullouisageneau/libdatachannel",
     "pnggroup/libpng",

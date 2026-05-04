@@ -1,27 +1,30 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 10,
-    "terms": 76
+    "components": 136,
+    "concepts": 108,
+    "observations": 109,
+    "repos": 13,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "abaplint/transpiler",
-    "Chocolate4U/Iran-clash-rules",
     "compiler-research/CppInterOp",
+    "fallow-rs/oxc-coverage-instrument",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "IBM/hello-carbon-vue3",
     "intel-staging/text-generation-webui",
+    "JuliaGeo/GeometryOps.jl",
+    "karafka/example-apps",
+    "kurrent-io/KurrentDB-Client-Rust",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
-    "tyrypyrking/egui-ash",
+    "maplibre/maplibre-gl-inspect",
+    "sakib-m/Pi-hole-Torrent-Blocklist",
     "universal-ember/reactiveweb"
   ]
 }

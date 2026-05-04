@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1279,
-    "concepts": 334,
-    "observations": 336,
-    "repos": 71,
-    "terms": 366
+    "components": 1434,
+    "concepts": 366,
+    "observations": 371,
+    "repos": 78,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
@@ -20,10 +20,13 @@
     "anonrig/fast-querystring",
     "appium/appium-ios-device",
     "Atheos/Atheos",
+    "bcomnes/npm-run-all2",
     "beve-org/beve",
     "bmad-code-org/bmad-module-game-dev-studio",
     "browserify/resolve",
+    "chaijs/chai-http",
     "cjoudrey/graphql-schema-linter",
+    "ClickHouse/agent-skills",
     "cncf/sandbox",
     "coderaiser/putout",
     "comme2e/comm",
@@ -50,6 +53,7 @@
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-connect",
+    "gruntjs/grunt-contrib-qunit",
     "hyparam/hyparquet",
     "i18next/i18next-browser-languageDetector",
     "ipld/explore.ipld.io",
@@ -76,7 +80,10 @@
     "previm/previm",
     "projectfluent/fluent.js",
     "semantic-release/changelog",
+    "semantic-release/commit-analyzer",
     "semantic-release/git",
+    "semantic-release/github",
+    "semantic-release/npm",
     "sethgammon/citadel",
     "sindresorhus/globals",
     "stripe-samples/accept-a-payment",

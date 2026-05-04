@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 81,
-    "observations": 84,
-    "repos": 23,
-    "terms": 79
+    "components": 120,
+    "concepts": 90,
+    "observations": 93,
+    "repos": 24,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
     "apache/arrow-testing",
     "argoproj-labs/argocd-extension-installer",

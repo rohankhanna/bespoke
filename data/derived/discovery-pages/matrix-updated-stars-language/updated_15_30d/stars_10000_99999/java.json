@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 4,
-    "terms": 17
+    "components": 24,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 5,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "alibaba/spring-cloud-alibaba",
     "google/auto",
     "google/guava",
     "NationalSecurityAgency/ghidra",

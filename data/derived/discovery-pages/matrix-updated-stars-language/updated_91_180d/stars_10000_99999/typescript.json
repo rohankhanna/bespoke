@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 212,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 7,
-    "terms": 74
+    "components": 288,
+    "concepts": 76,
+    "observations": 77,
+    "repos": 8,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "blitz-js/blitz",
     "BuilderIO/mitosis",
@@ -20,6 +20,7 @@
     "jaredpalmer/formik",
     "linsa-io/linsa",
     "snarktank/ralph",
+    "streamich/react-use",
     "wechaty/wechaty"
   ]
 }

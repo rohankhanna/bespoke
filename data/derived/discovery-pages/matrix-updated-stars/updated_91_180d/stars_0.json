@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 58,
-    "terms": 73
+    "components": 247,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 61,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -39,6 +39,7 @@
     "danielrosehill/Quick-RMBG",
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
+    "datafuse-extras/pprof-rs",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "Enselic/cargo-public-api",
@@ -51,6 +52,7 @@
     "Hitesh-Aggarwal/dotfiles",
     "illusionfield/fourseven-scss",
     "jackielii/qmk_firmware",
+    "JuliaBinaryWrappers/Libffi_jll.jl",
     "Keats/os_info",
     "KSXGitHub/aur-packages-builder-1",
     "KSXGitHub/aur-packages-builder-2",
@@ -61,6 +63,7 @@
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",
     "openobserve/promql-parser",
+    "openwdl/governance",
     "praw-dev/.github",
     "prestodb/presto-dev",
     "radashi-org/radashi-canary",

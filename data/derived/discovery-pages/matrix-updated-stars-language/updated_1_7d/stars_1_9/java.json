@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 4,
-    "terms": 16
+    "components": 33,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 3,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aliyun/alibabacloud-oss-java-sdk-v2",
-    "jpmml/jpmml-statsmodels",
     "micronaut-projects/micronaut-langchain4j",
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
   ]

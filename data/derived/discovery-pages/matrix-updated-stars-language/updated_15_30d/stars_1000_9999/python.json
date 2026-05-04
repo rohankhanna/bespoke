@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 834,
-    "concepts": 1047,
-    "observations": 1047,
-    "repos": 154,
-    "terms": 1067
+    "components": 885,
+    "concepts": 1106,
+    "observations": 1106,
+    "repos": 161,
+    "terms": 1122
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "1adrianb/face-alignment",
     "2U1/Qwen-VL-Series-Finetune",
@@ -44,7 +44,6 @@
     "chrismattmann/tika-python",
     "cisco-ai-defense/skill-scanner",
     "ClementPinard/SfmLearner-Pytorch",
-    "CoinCheung/BiSeNet",
     "coleifer/huey",
     "containers/podman-compose",
     "cpplint/cpplint",
@@ -98,6 +97,8 @@
     "lmcinnes/umap",
     "LorenEteval/Furious",
     "ltdrdata/ComfyUI-Impact-Pack",
+    "lucidrains/vector-quantize-pytorch",
+    "m87-labs/moondream",
     "mbailey/voicemode",
     "meta-pytorch/attention-gym",
     "meta-pytorch/tnt",
@@ -109,6 +110,7 @@
     "microsoft/UFO",
     "miguelgrinberg/python-socketio",
     "MiniMax-AI/MiniMax-MCP",
+    "mjansson/rpmalloc",
     "mkdocs/catalog",
     "ml-explore/mlx-examples",
     "mlcommons/training",
@@ -121,6 +123,7 @@
     "nomadkaraoke/python-audio-separator",
     "nousresearch/atropos",
     "NVlabs/Sana",
+    "open-telemetry/community",
     "open-thought/reasoning-gym",
     "pchalasani/claude-code-tools",
     "PDFMathTranslate-next/PDFMathTranslate-next",
@@ -131,6 +134,7 @@
     "plastic-labs/honcho",
     "Pointcept/Pointcept",
     "PyCQA/bandit",
+    "pypa/cibuildwheel",
     "pypa/setuptools",
     "pyro-ppl/numpyro",
     "PyThaiNLP/pythainlp",
@@ -139,6 +143,7 @@
     "python-websockets/websockets",
     "QwenLM/Qwen3-VL-Embedding",
     "RapidAI/RapidOCR",
+    "rapidfuzz/RapidFuzz",
     "ronf/asyncssh",
     "rthalley/dnspython",
     "RUC-NLPIR/DeepAgent",
@@ -159,7 +164,9 @@
     "theskumar/python-dotenv",
     "trailofbits/buttercup",
     "trailofbits/skills",
+    "twisted/twisted",
     "unitaryai/detoxify",
+    "vwxyzjn/cleanrl",
     "wenet-e2e/wespeaker",
     "withoutbg/withoutbg",
     "wkentaro/gdown",

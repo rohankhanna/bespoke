@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 11,
-    "terms": 10
+    "components": 21,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 12,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "agent-sh/glidemq",
@@ -20,6 +20,7 @@
     "cdeust/zetetic-team-subagents",
     "chronosphereio/calyptia-cli",
     "eea/eea.docker.gitflow",
+    "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
     "ihmcrobotics/repository-group",
     "marcindulak/ralph-wiggum-bdd",

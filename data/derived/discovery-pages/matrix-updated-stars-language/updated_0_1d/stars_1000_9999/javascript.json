@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 219,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "components": 350,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 6,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "callstack/react-native-builder-bob",
     "carbon-design-system/carbon",
-    "ipfs/ipfs-webui",
-    "MikeMcl/bignumber.js"
+    "chaijs/chai",
+    "endojs/endo",
+    "ghostery/ghostery-extension",
+    "ipfs/ipfs-webui"
   ]
 }

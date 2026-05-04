@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 84,
-    "observations": 86,
+    "components": 61,
+    "concepts": 81,
+    "observations": 83,
     "repos": 18,
-    "terms": 92
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "alrra/dotfiles",
+    "bblanchon/pdfium-binaries",
     "bluesky-social/pds",
     "clangd/clangd",
     "containers/toolbox",
@@ -27,7 +28,6 @@
     "git-quick-stats/git-quick-stats",
     "matryer/xbar-plugins",
     "nix-community/nix-direnv",
-    "nodenv/nodenv",
     "nvie/git-toolbelt",
     "pyenv/pyenv-virtualenv",
     "spiffe/spiffe",

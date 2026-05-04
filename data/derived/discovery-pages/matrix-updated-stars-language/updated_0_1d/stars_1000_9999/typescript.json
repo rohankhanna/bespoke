@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 3,
-    "terms": 14
+    "components": 225,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 6,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "apify/fingerprint-suite",
+    "graphql/graphql-playground",
+    "podman-desktop/podman-desktop",
+    "react-cosmos/react-cosmos",
     "solidjs-community/solid-primitives",
-    "unjs/unhead",
     "vuejs/language-tools"
   ]
 }

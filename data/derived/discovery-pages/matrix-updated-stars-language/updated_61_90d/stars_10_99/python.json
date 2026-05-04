@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 141,
-    "observations": 142,
+    "components": 138,
+    "concepts": 134,
+    "observations": 135,
     "repos": 51,
-    "terms": 140
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AadSah/ConverSeg",
     "aba122/Q-Hawkeye",
@@ -29,6 +29,7 @@
     "chaoss/grimoirelab-cereslib",
     "chaoss/grimoirelab-graal",
     "chaoss/grimoirelab-kidash",
+    "chenkang455/ManiSkill-GS",
     "ChenMnZ/INT_vs_FP",
     "CMBAgents/cmbagent",
     "Computer-use-agents/dart-gui",
@@ -42,6 +43,7 @@
     "galaxyproject/tools-devteam",
     "gazebosim/gz-mujoco",
     "googlefonts/lang",
+    "GuiWonder/HuayingMincho",
     "Han-Cao/collapse-bubble",
     "huggingface/image_gen_aux",
     "imlrz/DeepResearch-Bench-II",
@@ -53,7 +55,6 @@
     "Owen-Liuyuxuan/ros2_vision_inference",
     "pfnet-research/tgan2",
     "scaleway/serverless-gateway",
-    "shawn0728/ARES",
     "SLDGroup/LoMix",
     "sylabs/singularity-userdocs",
     "sympy/sympy-bot",
@@ -63,7 +64,6 @@
     "xplpc/xplpc",
     "xuanyuzhang21/RALI",
     "yulewang97/ERDiff",
-    "zheng977/MutiAgent4Fraud",
     "zlib-ng/deflatebench"
   ]
 }

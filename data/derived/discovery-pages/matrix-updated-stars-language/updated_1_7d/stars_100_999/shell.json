@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 14,
-    "terms": 80
+    "components": 53,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 13,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2KAbhishek/dots2k",
-    "amrsa1/Android-Emulator-image",
     "Chocolate4U/Iran-v2ray-rules",
     "cloudfoundry/bosh-deployment",
     "harbor-framework/terminal-bench-2",

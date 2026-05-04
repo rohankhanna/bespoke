@@ -3,7 +3,7 @@
     "components": 345,
     "concepts": 374,
     "observations": 377,
-    "repos": 149,
+    "repos": 150,
     "terms": 370
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -55,6 +55,7 @@
     "ChrisHirsch/kuberhealthy-storage-check",
     "chrismellard/docker-credential-acr-env",
     "cisco/go-hpke",
+    "cjoudrey/gluahttp",
     "ClickHouse/ch-bench",
     "cloudfoundry/auction",
     "cloudwego/gjson",

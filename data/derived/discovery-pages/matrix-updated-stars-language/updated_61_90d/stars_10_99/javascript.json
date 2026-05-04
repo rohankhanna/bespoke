@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 16,
-    "terms": 57
+    "components": 216,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 17,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "apostrophecms/apostrophe-astro",
     "broccolijs/broccoli-plugin",
@@ -27,6 +27,7 @@
     "ipld/js-dag-pb",
     "kibertoad/toad-cache",
     "kunwar-shah/claudex",
+    "L2jLiga/grunt-webfonts",
     "mongodb-js/zstd",
     "quarkiverse/quarkiverse",
     "tc39/proposal-import-bytes"

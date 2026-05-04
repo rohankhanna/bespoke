@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 59,
-    "observations": 60,
-    "repos": 20,
-    "terms": 59
+    "components": 466,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 21,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -33,6 +33,7 @@
     "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
     "sindresorhus/multimatch",
-    "svg-sprite/gulp-svg-sprite"
+    "svg-sprite/gulp-svg-sprite",
+    "testing-library/eslint-plugin-jest-dom"
   ]
 }

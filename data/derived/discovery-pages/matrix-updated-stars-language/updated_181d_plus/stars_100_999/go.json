@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 635,
-    "observations": 635,
-    "repos": 159,
-    "terms": 626
+    "components": 480,
+    "concepts": 662,
+    "observations": 662,
+    "repos": 165,
+    "terms": 653
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -27,6 +27,7 @@
     "ahmetb/runsd",
     "ahmetb/serverless-registry-proxy",
     "ajayd-san/gomanagedocker",
+    "albertito/dnss",
     "AlexNabokikh/tfsort",
     "alibaba/hybridnet",
     "anacrolix/confluence",
@@ -62,6 +63,7 @@
     "containers/common",
     "containers/dnsname",
     "containers/image",
+    "cosmos/relayer",
     "creasty/defaults",
     "cruise-automation/isopod",
     "CyanAsterisk/FreeCar",
@@ -96,9 +98,11 @@
     "gorilla/securecookie",
     "gotify/cli",
     "gregjones/httpcache",
+    "h12w/socks",
     "h2non/baloo",
     "hashicorp/terraform-provider-scaffolding",
     "Iceber/iouring-go",
+    "inetaf/netaddr",
     "jackpal/gateway",
     "Jille/raft-grpc-example",
     "jjf012/gopoc",
@@ -109,6 +113,7 @@
     "karrick/godirwalk",
     "KatelynHaworth/go-tproxy",
     "klauspost/asmfmt",
+    "kubemod/kubemod",
     "kubernetes-sigs/apiserver-builder-alpha",
     "layr-labs/incredible-squaring-avs",
     "lesismal/go-websocket-benchmark",
@@ -135,6 +140,7 @@
     "namsral/flag",
     "Netflix/go-expect",
     "NVIDIA/gpu-feature-discovery",
+    "OutlineFoundation/outline-go-tun2socks",
     "pkg/browser",
     "pulumi/automation-api-examples",
     "qri-io/jsonschema",

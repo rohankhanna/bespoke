@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 5,
-    "terms": 60
+    "components": 99,
+    "concepts": 95,
+    "observations": 96,
+    "repos": 8,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "apache/datafusion",
+    "apache/datafusion-ballista",
     "databendlabs/databend",
     "databendlabs/openraft",
     "dmtrKovalenko/fff",
-    "godot-rust/gdext"
+    "erebe/wstunnel",
+    "godot-rust/gdext",
+    "hermit-os/hermit-rs"
   ]
 }

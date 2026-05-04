@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 4,
-    "terms": 5
+    "components": 22,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 5,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "compiler-research/cppyy-backend",
     "danielbernalb/AireCiudadano",
     "eddelbuettel/r2u-builder",
     "grizzlypeak3d/feather-tk",

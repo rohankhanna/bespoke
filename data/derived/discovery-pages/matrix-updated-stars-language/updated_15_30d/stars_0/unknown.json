@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 39,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 51,
-    "terms": 44
+    "concepts": 37,
+    "observations": 37,
+    "repos": 53,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
@@ -38,6 +38,7 @@
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
+    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
     "danielrosehill/Arch-And-Interiors-Index",
@@ -48,6 +49,7 @@
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
+    "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/My-Benchmarks",

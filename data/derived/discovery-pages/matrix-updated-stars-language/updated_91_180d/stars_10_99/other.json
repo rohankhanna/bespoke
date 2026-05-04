@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 312,
-    "concepts": 258,
-    "observations": 259,
-    "repos": 99,
-    "terms": 257
+    "components": 323,
+    "concepts": 262,
+    "observations": 263,
+    "repos": 105,
+    "terms": 261
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -48,6 +48,7 @@
     "dwyl/elixir-auth-microsoft",
     "emacsorphanage/dart-mode",
     "ethpandaops/optimism-package",
+    "EvelynZhang-epiclab/DaTo",
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
     "FFTAI/Wiki-GRx-Gym",
@@ -59,6 +60,7 @@
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
     "gregorias/toggle.nvim",
     "GunnarFarneback/LocalPackageServer.jl",
+    "honwen/openwrt-shadowsocks-rust",
     "hspec/sensei",
     "jaegertracing/docker-protobuf",
     "JamieMair/MuJoCo.jl",
@@ -69,6 +71,7 @@
     "JuliaGtk/Gtk4Makie.jl",
     "JuliaLogging/ProgressLogging.jl",
     "kigster/puma-daemon",
+    "kool-engine/kool-templates",
     "ligershark/WebOptimizer.Sass",
     "llvm/clangd-www",
     "lread/test-doc-blocks",
@@ -79,14 +82,17 @@
     "mirage/ocaml-uri",
     "mosn/mosn.io",
     "mvz/non-digest-assets",
+    "nelson-lang/nelson-website",
     "NielsRogge/tutorials",
     "nikitabobko/brew-install-path",
+    "niner/Inline-Perl5",
     "NorfairKing/feedback",
     "opencontainers/oci-conformance",
     "opensim-org/opensim-models",
     "openxrlab/xrtailor",
     "OutlierDetectionJL/OutlierDetection.jl",
     "pagedjs/pagedjs-cli",
+    "paleolimbot/geos",
     "patterns-ai-core/qdrant-ruby",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",

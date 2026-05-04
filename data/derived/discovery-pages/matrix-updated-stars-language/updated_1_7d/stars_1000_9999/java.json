@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 493,
-    "concepts": 597,
-    "observations": 597,
-    "repos": 51,
-    "terms": 593
+    "components": 447,
+    "concepts": 568,
+    "observations": 568,
+    "repos": 49,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
@@ -33,18 +33,15 @@
     "dropwizard/dropwizard",
     "dylibso/chicory",
     "eclipse-jdtls/eclipse.jdt.ls",
-    "eclipse-openvsx/openvsx",
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
-    "flyway/flyway",
     "google/conscrypt",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
     "iterate-ch/cyberduck",
     "JetBrains/JetBrainsRuntime",
-    "jhipster/prettier-java",
     "jline/jline3",
     "JodaOrg/joda-time",
     "junit-team/junit-examples",
@@ -63,6 +60,7 @@
     "sqlancer/sqlancer",
     "swagger-api/swagger-core",
     "testng-team/testng",
+    "tlaplus/tlaplus",
     "unicode-org/cldr",
     "validator/validator"
   ]

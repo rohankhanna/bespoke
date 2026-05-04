@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 338,
-    "concepts": 315,
-    "observations": 316,
-    "repos": 80,
-    "terms": 312
+    "components": 339,
+    "concepts": 316,
+    "observations": 317,
+    "repos": 82,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
@@ -47,6 +47,7 @@
     "elm-explorations/test",
     "ElsaTam/obsidian-fancy-a-story",
     "emacs-lsp/lsp-dart",
+    "emacscollective/auto-compile",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
     "ericmj/decimal",
@@ -73,6 +74,7 @@
     "mathjax/MathJax-demos-web",
     "nim-lang/vscode-nim",
     "NimblePros/eShopOnWeb",
+    "PacificBiosciences/pbmm2",
     "PMunch/nimlsp",
     "prettier/prettier-emacs",
     "pug-php/pug",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 4,
-    "terms": 6
+    "components": 25,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 5,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "bgw/bincode",
     "EspressoSystems/commit",
     "EspressoSystems/jellyfish-compat",
+    "kylebarron/pyo3-file",
     "typstyle-rs/prettyless"
   ]
 }

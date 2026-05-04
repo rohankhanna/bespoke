@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 22,
-    "terms": 47
+    "components": 590,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 23,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
@@ -28,6 +28,7 @@
     "ipfs/helia-http-gateway",
     "isaacs/clock-mock",
     "janwilmake/oapis",
+    "luizbarboza/polyclip-ts",
     "nanostores/angular",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
     "redhat-developer/vscode-redhat-telemetry",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 694,
-    "concepts": 638,
-    "observations": 639,
-    "repos": 160,
-    "terms": 635
+    "components": 696,
+    "concepts": 646,
+    "observations": 647,
+    "repos": 163,
+    "terms": 643
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -22,6 +22,7 @@
     "ahausladen/PdfiumLib",
     "alibaba-damo-academy/PixelRefer",
     "allenai/ScienceWorld",
+    "analogdevicesinc/ai8x-training",
     "ankane/groupdate.sql",
     "antosha417/nvim-lsp-file-operations",
     "ap/vim-buftabline",
@@ -44,6 +45,7 @@
     "chrisbra/NrrwRgn",
     "cleanlab/examples",
     "clojure/core.unify",
+    "clojure/data.fressian",
     "clojure/data.json",
     "clojure/data.priority-map",
     "clojure/java.jdbc",
@@ -139,6 +141,7 @@
     "phodal/chapi",
     "phodal/shire",
     "plk/biber",
+    "privacycg/meetings",
     "pythonic-emacs/blacken",
     "r-lib/covr",
     "r-lib/remotes",
@@ -157,7 +160,6 @@
     "spk/money-open-exchange-rates",
     "StatisticalRethinkingJulia/TuringModels.jl",
     "status-im/nim-chronicles",
-    "stevearc/resession.nvim",
     "taoensso/telemere",
     "Tencent-Hunyuan/flex-block-attn",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
@@ -167,6 +169,7 @@
     "VectorSpaceLab/MegaPairs",
     "vim-jp/vim-vimlparser",
     "vim-php/phpctags",
+    "w3c/FileAPI",
     "WebAssembly/tool-conventions",
     "WICG/first-party-sets",
     "WICG/layout-instability",

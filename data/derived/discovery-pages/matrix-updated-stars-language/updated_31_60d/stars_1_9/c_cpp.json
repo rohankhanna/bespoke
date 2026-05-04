@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 47,
-    "concepts": 22,
-    "observations": 23,
-    "repos": 11,
-    "terms": 22
+    "concepts": 24,
+    "observations": 25,
+    "repos": 12,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aifoundry-org/riscv-gnu-toolchain",
     "amir684/esp32c3-red-alert",
@@ -22,6 +22,7 @@
     "guoqingbao/flashattn.rs",
     "ikonopistsev/mdbxmou",
     "intel/iefs-kernel-updates",
+    "jrsoftware/isscint",
     "meelgroup/louvain-community",
     "mybigday/whisper.node",
     "objectbox/objectbox-sync-examples"

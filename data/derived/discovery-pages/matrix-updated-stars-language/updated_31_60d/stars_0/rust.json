@@ -3,7 +3,7 @@
     "components": 42,
     "concepts": 12,
     "observations": 13,
-    "repos": 11,
+    "repos": 13,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
@@ -22,6 +22,8 @@
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",
     "iambriccardo/gcp-bigquery-client",
+    "onomojo/i18n-country-translations-rs",
+    "onomojo/i18n-timezones-rs",
     "prisma/cuid-rust",
     "Sovereign-Labs/reltester",
     "vaporif/rvx"

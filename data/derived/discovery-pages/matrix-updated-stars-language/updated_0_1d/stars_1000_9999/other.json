@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 10,
-    "terms": 110
+    "components": 228,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 18,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AdguardTeam/AdGuardSDNSFilter",
+    "androidx/androidx",
     "clj-kondo/clj-kondo",
-    "coverlet-coverage/coverlet",
     "elixir-grpc/grpc",
     "jrsoftware/issrc",
     "JuliaAI/MLJ.jl",
+    "lambdalisue/vim-fern",
     "lumen-oss/rocks.nvim",
+    "MetaCubeX/metacubexd",
     "microsoft/aspire",
+    "nvimdev/lspsaga.nvim",
+    "psmux/psmux",
+    "ScoopInstaller/Extras",
     "swiftlang/llvm-project",
-    "web-platform-tests/wpt"
+    "TryGhost/node-sqlite3",
+    "uBlockOrigin/uAssets",
+    "web-platform-tests/wpt",
+    "xtdb/xtdb"
   ]
 }

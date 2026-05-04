@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 4,
-    "terms": 14
+    "components": 0,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 3,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "Chocolate4U/Iran-sing-box-rules",
     "lxgw/LxgwNeoXiZhi-Screen",
     "lxgw/LxgwXiHei",
     "lxgw/LxgwZhiSong"

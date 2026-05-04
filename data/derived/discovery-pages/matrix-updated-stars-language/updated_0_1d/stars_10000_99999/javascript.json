@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 3,
-    "terms": 37
+    "components": 100,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 5,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "4ian/GDevelop",
-    "eslint/eslint",
-    "nwjs/nw.js"
+    "gorhill/uBlock",
+    "mui/material-ui",
+    "nwjs/nw.js",
+    "yokoffing/Betterfox"
   ]
 }

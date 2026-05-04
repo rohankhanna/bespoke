@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 31,
-    "terms": 60
+    "components": 148,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 32,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "aidenlab/spacewalk",
+    "aidenlab/swtool",
     "angular/angular-build-builds",
     "arnaud-lb/php-rdkafka-doc",
     "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
@@ -28,7 +29,6 @@
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
-    "danielrosehill/Israel-Projects-Index",
     "flagos-ai/verl-FL",
     "getlantern/guide",
     "hermit-os/.github",
@@ -36,6 +36,7 @@
     "hyper-mcp-rs/context7-plugin",
     "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
+    "JuliaBinaryWrappers/Expat_jll.jl",
     "kalavai-net/kalavai-templates",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",

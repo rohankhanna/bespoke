@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 140,
-    "concepts": 182,
-    "observations": 182,
-    "repos": 33,
-    "terms": 187
+    "concepts": 180,
+    "observations": 180,
+    "repos": 32,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -45,7 +45,6 @@
     "resemble-ai/chatterbox",
     "superclaude-org/superclaude_framework",
     "thu-ml/tianshou",
-    "Wan-Video/Wan2.1",
     "Wan-Video/Wan2.2"
   ]
 }

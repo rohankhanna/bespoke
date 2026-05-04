@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1151,
-    "concepts": 166,
-    "observations": 167,
-    "repos": 46,
-    "terms": 198
+    "components": 1223,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 49,
+    "terms": 204
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
     "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
@@ -25,6 +24,7 @@
     "Beaglefoot/prettier-plugin-awk",
     "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
+    "bolasblack/shadow-cljs-vite-plugin",
     "buddingnewinsights/proxypal",
     "buttondown/cli",
     "cahamilton/stylelint-config-property-sort-order-smacss",
@@ -48,15 +48,18 @@
     "jkheadley/instar",
     "labring/fastgpt-plugin",
     "lobehub/lobe-lint",
+    "mdjastrzebski/test-renderer",
     "microsoft/vscode-js-debug-companion",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
     "overseedai/viwo",
+    "patrickkabwe/create-nitro-module",
     "pinecone-io/pinecone-mcp",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
+    "slopus/slopus.github.io",
     "ylsssq926/relic.skill",
     "zhayujie/cow-skill-hub",
     "zuplo/docs"

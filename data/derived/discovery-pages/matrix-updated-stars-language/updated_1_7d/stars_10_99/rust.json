@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 180,
-    "observations": 180,
+    "components": 278,
+    "concepts": 182,
+    "observations": 182,
     "repos": 33,
-    "terms": 180
+    "terms": 182
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AccessKit/accesskit-c",
     "alloy-rs/evm",
@@ -21,6 +21,7 @@
     "astral-sh/pubgrub",
     "bnb-chain/reth",
     "bnb-chain/reth-bsc",
+    "boozook/mdbook-svgbob",
     "bourumir-wyngs/serde-yaml-bw",
     "davidhozic/mujoco-rs",
     "filecoin-project/builtin-actors",
@@ -43,9 +44,8 @@
     "rust-osdev/ovmf-prebuilt",
     "succinctlabs/sp1-cluster",
     "tofay/rustls-openssl",
-    "typst/typst-assets",
+    "tyrypyrking/egui-ash",
     "unrs/unrs-resolver",
-    "urschrei/rdp",
     "vaporif/parry-guard"
   ]
 }

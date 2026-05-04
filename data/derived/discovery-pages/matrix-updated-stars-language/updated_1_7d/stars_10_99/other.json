@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 789,
-    "concepts": 396,
-    "observations": 399,
-    "repos": 93,
-    "terms": 394
+    "components": 859,
+    "concepts": 397,
+    "observations": 400,
+    "repos": 94,
+    "terms": 395
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
+    "alphagov/govuk_publishing_components",
     "angular/angular-devkit-build-angular-builds",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
@@ -63,8 +64,9 @@
     "JuliaCI/NanosoldierReports",
     "JuliaCon/www.juliacon.org",
     "JuliaMath/FixedPointNumbers.jl",
-    "karafka/example-apps",
+    "JuliaSparse/SparseArrays.jl",
     "karafka/karafka-web",
+    "kddnewton/sorbet-eraser",
     "Kong/developer.konghq.com",
     "lakekeeper/lakekeeper-charts",
     "leandrocp/req_embed",
@@ -75,7 +77,6 @@
     "mesh-iit/ergocub-software",
     "mlocati/pecl-info",
     "MSP-Greg/ruby-loco",
-    "oliyh/carve.el",
     "open-edge-platform/geti-instant-learn",
     "osrf/homebrew-simulation",
     "palladius/gemini-news-crawler",
@@ -85,6 +86,7 @@
     "php/phd",
     "pipecat-ai/docs",
     "pivotal/credhub-release",
+    "processing/processing-website",
     "r-lib/pkgload",
     "reviewdog/action-actionlint",
     "robotology/robotology-superbuild",
@@ -105,7 +107,6 @@
     "tc39/proposal-amount",
     "tinted-theming/tinted-xresources",
     "tweag/gazelle_cabal",
-    "WebAssembly/shared-everything-threads",
-    "yamachu/VoicevoxCoreSharp"
+    "WebAssembly/shared-everything-threads"
   ]
 }

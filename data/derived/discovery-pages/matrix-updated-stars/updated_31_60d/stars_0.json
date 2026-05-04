@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 217,
+    "components": 227,
     "concepts": 105,
     "observations": 106,
-    "repos": 64,
+    "repos": 73,
     "terms": 108
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "adammes/voyanode",
@@ -54,6 +54,7 @@
     "iambriccardo/gcp-bigquery-client",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
+    "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kdubbo/api",
     "kdubbo/client-go",
     "lakekeeper/nats.rs",
@@ -65,7 +66,15 @@
     "nibir1/vaultsim",
     "Nichaojun/Nichaojun.github.io",
     "onomojo/i18n-country-translations-data",
+    "onomojo/i18n-country-translations-ex",
+    "onomojo/i18n-country-translations-go",
+    "onomojo/i18n-country-translations-js",
+    "onomojo/i18n-country-translations-rs",
     "onomojo/i18n-timezones-data",
+    "onomojo/i18n-timezones-ex",
+    "onomojo/i18n-timezones-go",
+    "onomojo/i18n-timezones-js",
+    "onomojo/i18n-timezones-rs",
     "Patrick-ring-motive/sval-rhino-gs",
     "PetervanLunteren/EcoAssist-metadata",
     "prisma/cuid-rust",

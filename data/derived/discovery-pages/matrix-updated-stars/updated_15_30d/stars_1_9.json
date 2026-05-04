@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1612,
-    "concepts": 692,
-    "observations": 692,
-    "repos": 212,
-    "terms": 723
+    "components": 1635,
+    "concepts": 701,
+    "observations": 701,
+    "repos": 216,
+    "terms": 732
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/stark-recurser",
@@ -130,6 +130,7 @@
     "gbrobro119-star/darksword-kexploit",
     "gibdd-dps/prizolov-agent-os",
     "gkr-bot/gkr-bot",
+    "goreleaser/sponsors",
     "gr2m/octokit-oauth-app-begin-example",
     "graalvm/mandrel-packaging",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
@@ -137,6 +138,7 @@
     "hchiam/convenience",
     "hchiam/how-draggable",
     "hchiam/learning-js",
+    "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
     "ibm-telemetry/telemetry-config-schema",
     "ihmcrobotics/repository-group",
@@ -191,6 +193,7 @@
     "revelc/formatter-m2e-configurator",
     "ROCm/hipBLAS-common",
     "rrsaldanha/burp-mcp-agents",
+    "saalfeldlab/n5-aws-s3",
     "saminiscool/twitter-ai-agent",
     "semgrep/mcp-marketplace",
     "serpro69/capy",
@@ -215,6 +218,7 @@
     "tnc-ca-geo/animl-api",
     "tnc-ca-geo/animl-ml",
     "toyamarinyon/giselle",
+    "transparency-dev/armored-witness-os",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
     "urschrei/polyline-ffi",

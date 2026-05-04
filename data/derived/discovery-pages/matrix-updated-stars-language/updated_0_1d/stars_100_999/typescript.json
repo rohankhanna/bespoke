@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 126,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 19
+    "components": 240,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 5,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "a2aproject/a2a-js",
     "carbon-design-system/carbon-components-angular",
-    "unplugin/unplugin-imagemin",
+    "mswjs/interceptors",
+    "victorgarciaesgi/regle",
     "wevm/abitype"
   ]
 }

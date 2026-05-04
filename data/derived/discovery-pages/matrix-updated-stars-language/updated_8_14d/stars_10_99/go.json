@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 232,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 32,
-    "terms": 158
+    "components": 244,
+    "concepts": 166,
+    "observations": 166,
+    "repos": 33,
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
@@ -23,7 +23,7 @@
     "aws/aws-network-policy-agent",
     "bootmortis/sing-geosite",
     "cloudfoundry/bpm-release",
-    "coder/coder-logstream-kube",
+    "cloudfoundry/cf-smoke-tests",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
     "containers/container-libs",
@@ -45,6 +45,7 @@
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/armored-witness"
+    "transparency-dev/armored-witness",
+    "transparency-dev/witness"
   ]
 }

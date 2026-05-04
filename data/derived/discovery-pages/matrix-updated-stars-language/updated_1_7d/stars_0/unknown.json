@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 11,
     "observations": 11,
-    "repos": 16,
+    "repos": 15,
     "terms": 11
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
@@ -26,7 +26,6 @@
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
     "danielrosehill/Claude-Data-Annotation-Plugin",
-    "danielrosehill/Israel-Projects-Index",
     "hermit-os/.github",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves"

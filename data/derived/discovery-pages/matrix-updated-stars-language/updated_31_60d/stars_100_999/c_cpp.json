@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 223,
-    "concepts": 308,
-    "observations": 309,
-    "repos": 62,
-    "terms": 306
+    "concepts": 324,
+    "observations": 325,
+    "repos": 64,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "afbjorklund/lima-gui",
     "AmusementClub/vs-mlrt",
     "amzn/amzn-drivers",
     "anacrolix/go-libutp",
@@ -40,6 +41,7 @@
     "haosulab/SAPIEN",
     "intel/gmmlib",
     "intel/opencl-clang",
+    "JokerJohn/MS-Mapping",
     "KhronosGroup/OpenCL-Headers",
     "KhronosGroup/OpenCL-ICD-Loader",
     "KhronosGroup/OpenGL-Registry",

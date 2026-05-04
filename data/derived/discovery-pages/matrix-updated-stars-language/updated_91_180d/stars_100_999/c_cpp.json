@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 139,
-    "concepts": 196,
-    "observations": 196,
-    "repos": 51,
-    "terms": 193
+    "concepts": 204,
+    "observations": 204,
+    "repos": 52,
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "andreasdr/tdme2",
     "angr/vex",
@@ -42,6 +42,7 @@
     "isciences/exactextractr",
     "IST-DASLab/qutlass",
     "jimporter/mettle",
+    "JokerJohn/LIO_SAM_6AXIS",
     "KhronosGroup/OpenCL-SDK",
     "lh3/gfatools",
     "lh3/yak",

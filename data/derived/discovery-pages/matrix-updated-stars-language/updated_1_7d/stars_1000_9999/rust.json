@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 767,
-    "concepts": 615,
-    "observations": 617,
-    "repos": 68,
-    "terms": 612
+    "components": 754,
+    "concepts": 601,
+    "observations": 602,
+    "repos": 67,
+    "terms": 598
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "AccessKit/accesskit",
     "actix/examples",
-    "apache/datafusion-ballista",
     "apache/iceberg-rust",
     "ash-rs/ash",
     "askama-rs/askama",
@@ -41,7 +40,6 @@
     "georust/geo",
     "graphql-rust/juniper",
     "GreptimeTeam/greptimedb",
-    "hermit-os/hermit-rs",
     "hermit-os/kernel",
     "holochain/holochain",
     "hoodie/notify-rust",
@@ -64,6 +62,7 @@
     "robustmq/robustmq",
     "ron-rs/ron",
     "rust-cli/config-rs",
+    "rust-cli/human-panic",
     "Rust-GPU/rust-gpu",
     "rust-lang/libc",
     "rust-lang/rustfmt",

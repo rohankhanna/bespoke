@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 416,
-    "concepts": 350,
-    "observations": 353,
-    "repos": 161,
-    "terms": 343
+    "components": 445,
+    "concepts": 364,
+    "observations": 367,
+    "repos": 166,
+    "terms": 358
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -43,6 +43,7 @@
     "bodil/sized-chunks",
     "BonsaiDen/cursive_calendar_view",
     "BonsaiDen/cursive_table_view",
+    "bspeice/dtparse",
     "calebzulawski/autobahn-hash",
     "carrascomj/dalted",
     "casbin-rs/examples",
@@ -51,10 +52,13 @@
     "celo-org/plumo-prover",
     "celo-org/snark-setup",
     "celo-org/snark-setup-operator",
+    "cg31/shadowsocks-windows-gui-rust",
     "chipsenkbeil/vimwiki-rs",
     "chrisdickinson/tide-http-auth",
     "clog-tool/clog-lib",
     "cohaereo/egui_glfw_gl",
+    "confio/cw-ibc-demo",
+    "cosmos/sp1-ics07-tendermint",
     "cout970/Elm-interpreter",
     "CryptArchy/regex_generate",
     "curldivergence/rusty-d3d12",
@@ -98,6 +102,7 @@
     "holochain/devhub-dnas",
     "HorizenLabs/poseidon2",
     "imgui-rs/imgui-winit-support",
+    "informalsystems/basecoin-rs",
     "inherd/forming",
     "intuis/mnyaoo32",
     "jokemanfire/mcp-containerd",

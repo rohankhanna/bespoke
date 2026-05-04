@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 748,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 25,
-    "terms": 141
+    "components": 758,
+    "concepts": 137,
+    "observations": 138,
+    "repos": 26,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "antfu/drauu",
     "blacksmithgu/obsidian-dataview",
     "eleme/morjs",
     "EventSource/eventsource",

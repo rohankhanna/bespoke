@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1561,
-    "concepts": 172,
-    "observations": 173,
-    "repos": 41,
-    "terms": 169
+    "components": 1562,
+    "concepts": 175,
+    "observations": 176,
+    "repos": 42,
+    "terms": 172
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "acdlite/recompose",
     "adam-p/markdown-here",
@@ -28,6 +28,7 @@
     "emotion-js/emotion",
     "enzymejs/enzyme",
     "facebookarchive/prepack",
+    "fantasyland/fantasy-land",
     "faressoft/terminalizer",
     "feathericons/feather",
     "GoogleChromeLabs/ndb",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1521,
-    "concepts": 315,
-    "observations": 316,
-    "repos": 44,
-    "terms": 337
+    "components": 1812,
+    "concepts": 350,
+    "observations": 351,
+    "repos": 49,
+    "terms": 372
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
+    "allweonedev/presentation-ai",
     "antfu-collective/vite-ssg",
+    "antfu-collective/vitesse-lite",
+    "antfu/vitesse-nuxt",
+    "argos-ci/jest-puppeteer",
     "ben-rogerson/twin.macro",
     "boxyhq/saas-starter-kit",
     "butlerx/wetty",
@@ -57,6 +61,7 @@
     "TfTHacker/obsidian42-brat",
     "TypeStrong/ts-loader",
     "unplugin/unplugin-vue-components",
-    "vercel/next-learn"
+    "vercel/next-learn",
+    "xojs/xo"
   ]
 }

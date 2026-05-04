@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 282,
-    "observations": 282,
-    "repos": 75,
-    "terms": 303
+    "components": 387,
+    "concepts": 279,
+    "observations": 279,
+    "repos": 74,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "4dn-dcic/tibanna",
     "Accenture/Cymple",
@@ -26,7 +26,6 @@
     "allenporter/python-google-nest-sdm",
     "amyreese/fissix",
     "ankurhanda/robot-assets",
-    "archlizheng/frontend-slides-editable",
     "autowarefoundation/autoware-github-actions",
     "beeware/briefcase-template",
     "browser-use/benchmark",
@@ -46,7 +45,6 @@
     "dathere/datapusher-plus",
     "devexp-db/distgen",
     "dreamiurg/claude-mountaineering-skills",
-    "enzet/Roentgen",
     "facebookresearch/mosaic",
     "googleapis/python-pubsublite",
     "GuyKh/ims-custom-component",
@@ -75,6 +73,7 @@
     "psyonicinc/ability-hand-api",
     "pycompression/python-isal",
     "pyocd/libusb-package",
+    "pyodide/pyodide-build",
     "python-graphblas/graphblas-algorithms",
     "recap-utr/nlp-service",
     "redhat-et/triton-dev-containers",

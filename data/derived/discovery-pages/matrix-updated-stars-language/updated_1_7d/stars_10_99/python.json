@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 209,
-    "observations": 209,
-    "repos": 51,
-    "terms": 207
+    "components": 285,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 53,
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -31,6 +31,7 @@
     "conservationtechlab/animl-py",
     "DanielNoord/pydocstringformatter",
     "dbfixtures/mirakuru",
+    "espressif/esp-idf-monitor",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
     "gentoo/api-gentoo-org",
@@ -50,6 +51,7 @@
     "pipecat-ai/pipecat-cli",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
+    "pytroll/donfig",
     "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",

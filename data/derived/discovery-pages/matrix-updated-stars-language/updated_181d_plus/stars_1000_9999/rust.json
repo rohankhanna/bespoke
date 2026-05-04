@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 226,
-    "concepts": 245,
-    "observations": 249,
-    "repos": 55,
-    "terms": 243
+    "concepts": 250,
+    "observations": 254,
+    "repos": 57,
+    "terms": 248
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -23,6 +23,7 @@
     "BurntSushi/fst",
     "BurntSushi/rust-csv",
     "BurntSushi/walkdir",
+    "bwasty/learn-opengl-rs",
     "cgag/loc",
     "chelsea0x3b/dfdx",
     "cnosdb/cnosdb",
@@ -35,6 +36,7 @@
     "ezrosent/frawk",
     "fcsonline/tmux-thumbs",
     "g1mv/density",
+    "gabdube/native-windows-gui",
     "gakonst/ethers-rs",
     "gfx-rs/gfx",
     "gfx-rs/naga",

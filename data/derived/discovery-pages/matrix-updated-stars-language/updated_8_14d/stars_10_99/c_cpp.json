@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 167,
-    "concepts": 146,
-    "observations": 146,
-    "repos": 30,
-    "terms": 146
+    "concepts": 142,
+    "observations": 142,
+    "repos": 27,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "acts-project/traccc",
     "ad-si/FlatCV",
@@ -24,14 +24,11 @@
     "BrianPugh/tamp",
     "bufbuild/protovalidate-cc",
     "DeepLink-org/DLSlime",
-    "f32c/tools",
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-transport",
     "ICRAR/crc32c",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
-    "lxqt/liblxqt",
-    "lxqt/libqtxdg",
     "Mbed-TLS/TF-PSA-Crypto",
     "milvus-io/milvus-sdk-cpp",
     "narugit/smctemp",

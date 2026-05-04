@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 22
+    "components": 42,
+    "concepts": 43,
+    "observations": 43,
+    "repos": 5,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "ChristopherHX/runner.server",
     "danielrosehill/Claude-Code-Projects-Index",
-    "dennisdoomen/CSharpGuidelines",
-    "osmlab/name-suggestion-index",
+    "karafka/rdkafka-ruby",
+    "nix-community/haumea",
     "phpstan/phpstan-src"
   ]
 }

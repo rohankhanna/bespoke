@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 42,
     "observations": 42,
-    "repos": 27,
+    "repos": 29,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -20,6 +20,7 @@
     "charm-and-friends/additional-bubbles",
     "chika0801/Xray-examples",
     "CodeBoarding/GeneratedOnBoardings",
+    "DaoCloud/public-binary-files-mirror",
     "deepinsight/inswapper-512-live",
     "deepseek-ai/awesome-deepseek-coder",
     "dotnet/brand",
@@ -39,6 +40,7 @@
     "pingcap/community",
     "rust-fuzz/trophy-case",
     "sgl-project/sgl-learning-materials",
+    "snwfdhmp/awesome-ralph",
     "spring-ai-community/awesome-spring-ai",
     "thibautmelen/agentic-ai-systems"
   ]

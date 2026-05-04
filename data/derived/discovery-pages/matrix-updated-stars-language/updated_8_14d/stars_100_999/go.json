@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 535,
-    "concepts": 422,
-    "observations": 425,
+    "components": 546,
+    "concepts": 427,
+    "observations": 430,
     "repos": 68,
-    "terms": 422
+    "terms": 427
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -28,6 +28,7 @@
     "Azure/azure-workload-identity",
     "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
+    "boj/redistore",
     "bufbuild/protovalidate-go",
     "celestiaorg/celestia-node",
     "chainguard-dev/melange",
@@ -45,11 +46,11 @@
     "googleapis/go-genproto",
     "hashicorp/terraform-plugin-docs",
     "hashicorp/terraform-plugin-framework",
-    "hashicorp/terraform-plugin-go",
     "hashicorp/terraform-plugin-sdk",
     "hashicorp/terraform-provider-random",
     "hashicorp/terraform-provider-scaffolding-framework",
     "helm/chart-releaser",
+    "hypnoglow/helm-s3",
     "ipfs/boxo",
     "ipfs/rainbow",
     "knative/community",
@@ -78,7 +79,6 @@
     "sethvargo/ratchet",
     "sigstore/fulcio",
     "snowflakedb/gosnowflake",
-    "spiffe/go-spiffe",
     "transparency-dev/tessera",
     "trzsz/tsshd",
     "web-platform-tests/wpt.fyi"

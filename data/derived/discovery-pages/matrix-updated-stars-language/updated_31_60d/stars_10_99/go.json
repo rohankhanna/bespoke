@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 22,
-    "terms": 86
+    "components": 119,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 25,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
@@ -21,6 +21,7 @@
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
     "bartventer/httpcache",
+    "chrislusf/seaweedfs",
     "chromedp/pdlgen",
     "cjkreklow/t38c",
     "cloudwego/kitex-benchmark",
@@ -35,6 +36,8 @@
     "kurrent-io/KurrentDB-Client-Go",
     "magodo/tfadd",
     "matelang/jwt-go-aws-kms",
-    "scaleway/serverless-examples"
+    "OpenCIDN/ocimirror",
+    "scaleway/serverless-examples",
+    "wzshiming/repimage"
   ]
 }

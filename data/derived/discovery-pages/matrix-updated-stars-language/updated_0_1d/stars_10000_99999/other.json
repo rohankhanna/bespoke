@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 6,
-    "terms": 68
+    "components": 50,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 7,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "anthropics/claude-cookbooks",
     "hagezi/dns-blocklists",
+    "kubernetes-sigs/kubespray",
     "phpstan/phpstan",
     "swiftlang/swift",
     "triton-lang/triton",

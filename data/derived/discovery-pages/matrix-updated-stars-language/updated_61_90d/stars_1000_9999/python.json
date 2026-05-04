@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 181,
-    "concepts": 326,
-    "observations": 327,
-    "repos": 61,
-    "terms": 318
+    "components": 182,
+    "concepts": 336,
+    "observations": 336,
+    "repos": 63,
+    "terms": 328
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -36,6 +36,8 @@
     "CrazyBoyM/llama3-Chinese-chat",
     "crowsonkb/k-diffusion",
     "cvg/LightGlue",
+    "daijro/browserforge",
+    "dateutil/dateutil",
     "davidhalter/jedi-vim",
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
@@ -57,8 +59,8 @@
     "nunchaku-ai/ComfyUI-nunchaku",
     "obsei/obsei",
     "open-webui/mcpo",
-    "opencv/opencv-python",
     "PaddlePaddle/PaddleSeg",
+    "palantir/python-language-server",
     "pfnet/pfrl",
     "Python-Markdown/markdown",
     "python-semantic-release/python-semantic-release",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 360,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 20,
-    "terms": 49
+    "components": 371,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 21,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -33,6 +33,7 @@
     "omril321/automated-notebooklm",
     "pkgxdev/dev",
     "pkgxdev/pkgo",
+    "SchwarzIT/api-linter-rules",
     "windsonR/vite-plugin-virtual-html"
   ]
 }

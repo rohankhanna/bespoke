@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 6,
-    "terms": 22
+    "components": 42,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "actions-oss/act-cli",
     "AlwaysNur/bookbank",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "gost-dom/webref",
-    "leaktk/gitleaks"
+    "leaktk/gitleaks",
+    "OpenCIDN/httpmirror"
   ]
 }

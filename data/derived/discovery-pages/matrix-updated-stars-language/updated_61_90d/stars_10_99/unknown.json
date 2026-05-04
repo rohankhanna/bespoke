@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 13,
-    "terms": 24
+    "concepts": 20,
+    "observations": 20,
+    "repos": 15,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "apache/.github",
     "chaiNNer-org/chaiNNer-nightly",
@@ -22,8 +22,10 @@
     "ethereum/beacon-metrics",
     "googlefonts/emoji-metadata",
     "hchiam/learning",
+    "hicchicc/x8y12pxDenkiChip",
     "HZAI-ZJNU/happy-llm-ppt",
     "LINs-lab/RCGM",
+    "Lynxe-public/Lynxe-public-prompts",
     "panaversity/claude-code-agent-teams-exercises",
     "tony/claude-code-riper-5",
     "withastro/.github"

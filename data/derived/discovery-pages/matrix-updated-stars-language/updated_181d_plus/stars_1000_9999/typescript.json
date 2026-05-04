@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2020,
-    "concepts": 369,
-    "observations": 369,
-    "repos": 76,
-    "terms": 373
+    "components": 2358,
+    "concepts": 401,
+    "observations": 401,
+    "repos": 83,
+    "terms": 405
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -51,10 +51,13 @@
     "graphql/graphql-relay-js",
     "gvergnaud/hotscript",
     "gzuidhof/starboard-notebook",
+    "haishanh/yacd",
     "hans/obsidian-citation-plugin",
+    "ianstormtaylor/superstruct",
     "improbable-eng/grpc-web",
     "inkline/inkline",
     "itsdouges/typescript-transformer-handbook",
+    "jaredpalmer/the-platform",
     "jhurliman/node-rate-limiter",
     "jquery/esprima",
     "kentcdodds/babel-plugin-preval",
@@ -74,8 +77,10 @@
     "remotion-dev/github-unwrapped-2022",
     "rust-lang/vscode-rust",
     "sandersn/mini-typescript",
+    "semperai/amica",
     "serafimcloud/21st",
     "sindresorhus/modern-normalize",
+    "streamich/libreact",
     "sveltejs/sapper",
     "sveltejs/svelte-preprocess",
     "testing-library/react-hooks-testing-library",
@@ -89,6 +94,8 @@
     "vuejs/composition-api",
     "vuejs/vue-class-component",
     "vuejs/vue-loader",
-    "windicss/windicss"
+    "vueuse/motion",
+    "windicss/windicss",
+    "zenghongtu/react-use-chinese"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 274,
-    "concepts": 170,
-    "observations": 172,
+    "components": 269,
+    "concepts": 177,
+    "observations": 179,
     "repos": 51,
-    "terms": 167
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AFD-Illinois/pyharm",
     "AI-Hypercomputer/pathways-utils",
     "AIM-Harvard/DINOv2-3D-Med",
     "allenai/scirepeval",
     "AMD-AGI/torchtitan-amd",
+    "analogdevicesinc/ai8x-synthesis",
     "angr/archinfo",
     "ansible/ansible-compat",
     "ant-research/pointelligence",
@@ -57,7 +58,6 @@
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
     "plone/cookieplone",
-    "pyodide/pyodide-build",
     "pyodide/pytest-pyodide",
     "pytest-dev/execnet",
     "ROCm/tritonBLAS",

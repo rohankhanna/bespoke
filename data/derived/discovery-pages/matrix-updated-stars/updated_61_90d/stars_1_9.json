@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 89,
-    "terms": 270
+    "components": 389,
+    "concepts": 280,
+    "observations": 280,
+    "repos": 93,
+    "terms": 276
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "0x2a-42/nvim-lelwel",
+    "0x676e67/0x676e67",
     "0xPolygonHermez/pil2-compiler",
     "a16z/arkworks-algebra",
     "AchimPieters/esp32-udp-logger",
@@ -37,6 +38,7 @@
     "ansible-community/presentations",
     "apostrophecms/starter-kit-astro-essentials",
     "appbaseio/reactivesearch-api-docker",
+    "arran4/lemmy_notify",
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
     "birdofpreyru/js-utils",
@@ -83,11 +85,13 @@
     "mlfoundations/SkyRL",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
+    "OpenCIDN/httpmirror",
     "orlp/color-backtrace",
     "PBK-B/i18next-cli-vue",
     "piebald-ai/.github",
     "RobertBeckebans/DOOM-3",
     "shakacode/package_json",
+    "sp1-patches/curve25519-dalek-ng",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "stephanj/spotbugs-devoxxgenie-plugin",
     "SWE-bench/SWE-smith-envs",

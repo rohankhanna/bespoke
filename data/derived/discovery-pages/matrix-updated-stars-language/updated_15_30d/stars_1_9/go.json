@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 54,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 15,
-    "terms": 30
+    "components": 73,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 17,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "5c077m4n/pikud-haoref-api-go",
     "abraxas-365/claudio",
@@ -23,11 +23,13 @@
     "cpu/wycheproof",
     "DataDog/trivy",
     "erikceballos/nano-banana-cli",
+    "goreleaser/sponsors",
     "k8nstantin/openpraxis",
     "kitknox/tsshd",
     "ksylvan/fabric",
     "petmal/mindtrial",
     "serpro69/capy",
+    "transparency-dev/armored-witness-os",
     "usbarmory/go-net"
   ]
 }

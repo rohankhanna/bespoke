@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 194,
-    "observations": 196,
-    "repos": 79,
-    "terms": 183
+    "components": 70,
+    "concepts": 195,
+    "observations": 197,
+    "repos": 82,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "10up/actions-wordpress",
     "27medkamal/tmux-session-wizard",
+    "acmesh-official/get.acme.sh",
     "aidenlab/juicer",
     "antfu/dotfiles",
     "AppImageCommunity/pkg2appimage",
@@ -91,6 +92,8 @@
     "tmux-plugins/tmux-pain-control",
     "tmux-plugins/tmux-sessionist",
     "tremby/imgur.sh",
+    "twain47/Open-SVG-Map-Icons",
+    "v2fly/docker",
     "vmware-labs/webassembly-language-runtimes",
     "zsh-users/zaw"
   ]

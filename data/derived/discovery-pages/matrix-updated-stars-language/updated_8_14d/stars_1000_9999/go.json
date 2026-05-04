@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1011,
-    "concepts": 919,
-    "observations": 924,
-    "repos": 107,
-    "terms": 919
+    "components": 1021,
+    "concepts": 928,
+    "observations": 933,
+    "repos": 106,
+    "terms": 927
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "actions/actions-runner-controller",
     "AdguardTeam/dnsproxy",
     "akuity/kargo",
     "alibaba/higress",
     "anacrolix/torrent",
+    "apache/apisix-ingress-controller",
     "apache/dubbo-admin",
     "apache/dubbo-go",
     "apache/incubator-seata-go",
@@ -29,15 +30,14 @@
     "aws/aws-node-termination-handler",
     "awslabs/amazon-ecr-credential-helper",
     "awslabs/amazon-eks-ami",
+    "bfenetworks/bfe",
     "bluesky-social/indigo",
     "bradfitz/gomemcache",
     "bufbuild/protoc-gen-validate",
+    "bytedance/sonic",
     "caddyserver/certmagic",
     "chainguard-dev/apko",
-    "charmbracelet/bubbles",
-    "charmbracelet/freeze",
     "charmbracelet/huh",
-    "charmbracelet/log",
     "ClickHouse/clickhouse-go",
     "cloudflare/circl",
     "cloudfoundry/cli",
@@ -65,6 +65,7 @@
     "etcd-io/bbolt",
     "ethereum-optimism/optimism",
     "ethersphere/bee",
+    "evilmartians/lefthook",
     "flannel-io/flannel",
     "fsouza/go-dockerclient",
     "getkin/kin-openapi",
@@ -77,7 +78,6 @@
     "google/go-containerregistry",
     "google/syzkaller",
     "google/trillian",
-    "GoogleCloudPlatform/berglas",
     "grafana/alloy",
     "hashicorp/terraform-provider-azurerm",
     "helm/chart-testing",
@@ -99,7 +99,6 @@
     "mark3labs/mcp-go",
     "Masterminds/semver",
     "moby/buildkit",
-    "norwoodj/helm-docs",
     "NVIDIA/nvidia-container-toolkit",
     "oapi-codegen/oapi-codegen",
     "open-telemetry/opentelemetry-collector",
@@ -113,13 +112,13 @@
     "rabbitmq/amqp091-go",
     "raviqqe/muffet",
     "sigstore/cosign",
+    "sigstore/gitsign",
     "sigstore/rekor",
     "SpecterOps/BloodHound",
     "stripe/stripe-go",
     "tidwall/tile38",
     "tilt-dev/tilt",
     "tonistiigi/binfmt",
-    "trzsz/trzsz-ssh",
-    "x-motemen/ghq"
+    "trzsz/trzsz-ssh"
   ]
 }

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 63,
+    "components": 73,
     "concepts": 24,
     "observations": 24,
-    "repos": 5,
+    "repos": 7,
     "terms": 25
   },
   "facet_version": 1,
@@ -12,11 +12,13 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "9romise/eslint-config",
     "adipalko/hatraot",
     "neuroverseos/negotiator",
+    "onomojo/i18n-country-translations-js",
+    "onomojo/i18n-timezones-js",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation"
   ]

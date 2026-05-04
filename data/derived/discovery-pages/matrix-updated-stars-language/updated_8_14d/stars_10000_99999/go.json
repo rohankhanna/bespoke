@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 746,
-    "concepts": 714,
-    "observations": 718,
-    "repos": 60,
-    "terms": 706
+    "components": 718,
+    "concepts": 680,
+    "observations": 682,
+    "repos": 57,
+    "terms": 672
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
     "apache/casbin",
     "apernet/hysteria",
-    "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
     "caddyserver/caddy",
@@ -50,8 +49,7 @@
     "hashicorp/vault",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "k3s-io/k3s",
-    "kubernetes-sigs/kind",
+    "joewalnes/websocketd",
     "kubernetes/kops",
     "kubernetes/minikube",
     "lima-vm/lima",
@@ -72,7 +70,6 @@
     "spf13/cobra",
     "syncthing/syncthing",
     "thanos-io/thanos",
-    "trufflesecurity/trufflehog",
-    "valyala/fasthttp"
+    "trufflesecurity/trufflehog"
   ]
 }

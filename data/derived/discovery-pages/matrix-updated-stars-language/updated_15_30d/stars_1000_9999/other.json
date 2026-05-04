@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 892,
-    "concepts": 874,
-    "observations": 882,
-    "repos": 145,
-    "terms": 875
+    "components": 937,
+    "concepts": 941,
+    "observations": 949,
+    "repos": 151,
+    "terms": 936
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abo-abo/swiper",
     "actions/runner",
@@ -30,6 +30,7 @@
     "ankane/groupdate",
     "ankane/lockbox",
     "apple/containerization",
+    "apple/swift-crypto",
     "apple/swift-log",
     "ardalis/Result",
     "automazeio/vibeproxy",
@@ -38,6 +39,8 @@
     "bencheeorg/benchee",
     "BLAKE3-team/BLAKE3",
     "cake-build/cake",
+    "cimgui/cimgui",
+    "circe/circe",
     "clojure/core.async",
     "CocoaPods/Xcodeproj",
     "compose-spec/compose-spec",
@@ -57,6 +60,7 @@
     "dwyl/learn-elixir",
     "elixir-ecto/postgrex",
     "elixir-plug/plug",
+    "emacs-lsp/lsp-mode",
     "epwalsh/obsidian.nvim",
     "erichlof/THREE.js-PathTracing-Renderer",
     "fcambus/spleen",
@@ -83,6 +87,7 @@
     "jpsim/SourceKitten",
     "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
+    "JuliaPlots/UnicodePlots.jl",
     "junegunn/seoul256.vim",
     "KhronosGroup/glTF",
     "L3MON4D3/LuaSnip",
@@ -106,7 +111,6 @@
     "ml-explore/mlx-swift-examples",
     "moby/vpnkit",
     "Morantron/tmux-fingers",
-    "ndmitchell/ghcid",
     "numtide/devshell",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
@@ -127,6 +131,7 @@
     "pyenv-win/pyenv-win",
     "Quick/Nimble",
     "Quick/Quick",
+    "rack/rack",
     "radian-software/straight.el",
     "rails/propshaft",
     "rcarriga/nvim-dap-ui",
@@ -157,6 +162,7 @@
     "weavejester/cljfmt",
     "wincent/command-t",
     "wojtekmach/req",
+    "xoofx/markdig",
     "yonaskolb/XcodeGen",
     "yuhonas/free-exercise-db"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 443,
-    "concepts": 304,
-    "observations": 309,
-    "repos": 67,
-    "terms": 314
+    "components": 460,
+    "concepts": 322,
+    "observations": 327,
+    "repos": 71,
+    "terms": 332
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -25,9 +25,11 @@
     "alloy-rs/core",
     "alloy-rs/examples",
     "athre0z/color-backtrace",
+    "azdavis/millet",
     "cargo-lambda/cargo-lambda",
     "cometbft/tendermint-rs",
     "containers/aardvark-dns",
+    "cpmech/russell",
     "crate-ci/committed",
     "criterion-rs/criterion.rs",
     "ctz/graviola",
@@ -39,6 +41,7 @@
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "esp-rs/esp-idf-hal",
+    "esp-rs/esp-idf-sys",
     "esp-rs/rust",
     "EspressoSystems/jellyfish",
     "facebookexperimental/allocative",
@@ -58,6 +61,7 @@
     "messense/jieba-rs",
     "mplanchard/cuid-rust",
     "nielsgroen/claude-tmux",
+    "nix-community/harmonia",
     "nix-community/lorri",
     "nixops4/nixops4",
     "proxy-wasm/proxy-wasm-rust-sdk",
@@ -65,11 +69,11 @@
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
     "rust-lang/libz-sys",
+    "rust-lang/rustwide",
     "rust-mobile/rust-android-examples",
     "RustCrypto/AEADs",
     "RustCrypto/RSA",
     "rustcrypto/signatures",
-    "rustmailer/rustmailer",
     "saghen/frizbee",
     "saphyr-rs/saphyr",
     "smol-rs/async-task",

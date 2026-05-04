@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 37,
-    "terms": 165
+    "components": 26,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 39,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
@@ -32,9 +32,11 @@
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
     "e18e/ecosystem-issues",
+    "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "gautamkrishnar/gautamkrishnar",
     "github/codeql-cli-binaries",
+    "ietf-tools/.github",
     "integrations/microsoft-teams",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3847,
-    "concepts": 724,
-    "observations": 725,
-    "repos": 214,
-    "terms": 718
+    "components": 3925,
+    "concepts": 744,
+    "observations": 745,
+    "repos": 220,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
@@ -30,7 +30,9 @@
     "Azure/azure-sdk-for-node",
     "babel/babel-eslint",
     "babel/minify",
+    "berstend/puppeteer-extra",
     "bestiejs/benchmark.js",
+    "bgrins/TinyColor",
     "binux/qiandao",
     "bjornharrtell/jsts",
     "bnoguchi/everyauth",
@@ -39,6 +41,7 @@
     "boo1ean/casual",
     "btford/write-good",
     "bubenshchykov/ngrok",
+    "bwiernik/zotero-shortdoi",
     "caolan/nodeunit",
     "chancejs/chancejs",
     "clean-css/clean-css",
@@ -48,6 +51,8 @@
     "cuckoosandbox/cuckoo",
     "cujojs/most",
     "cujojs/when",
+    "d3/d3-geo",
+    "d3/d3-geo-projection",
     "dat-ecosystem/dat",
     "decaporg/gatsby-starter-decap-cms",
     "developit/htm",
@@ -184,6 +189,7 @@
     "Rich-Harris/shimport",
     "rowanmanning/joblint",
     "saharmor/dalle-playground",
+    "sapegin/grunt-webfont",
     "scijs/ndarray",
     "senchalabs/connect",
     "serverless/serverless-python-requirements",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1082,
-    "concepts": 181,
-    "observations": 183,
-    "repos": 34,
-    "terms": 181
+    "components": 1071,
+    "concepts": 196,
+    "observations": 198,
+    "repos": 33,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
     "apollographql/vscode-graphql",
     "Azure/bicep-deploy",
     "Azure/powershell",
-    "bolasblack/shadow-cljs-vite-plugin",
     "bufbuild/protovalidate-es",
     "cargo-bins/release-pr",
+    "catppuccin/.github",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
     "dannyhw/expo-storybook-starter",
@@ -44,8 +44,7 @@
     "oclif/test",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
-    "patrickkabwe/create-nitro-module",
-    "slopus/slopus.github.io",
+    "swagger-api/apidom",
     "vaultwarden/vw_web_builds",
     "wighawag/rocketh"
   ]

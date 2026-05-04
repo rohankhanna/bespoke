@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 142,
-    "observations": 142,
-    "repos": 61,
-    "terms": 143
+    "components": 103,
+    "concepts": 152,
+    "observations": 152,
+    "repos": 63,
+    "terms": 153
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "adamharrison/lite-xl-android",
@@ -52,9 +52,11 @@
     "ihmcrobotics/euclid",
     "imfangs/langgraph4j-deep-researcher",
     "jchambers/id-obfuscator",
+    "jenkinsci/jmh-report-plugin",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
     "JodaOrg/joda-time-jsptags",
+    "jzillmann/gradle-jmh-report",
     "luben/ZstdAndroidExample",
     "marbl/MHAP",
     "metaloom/qdrant-java-client",

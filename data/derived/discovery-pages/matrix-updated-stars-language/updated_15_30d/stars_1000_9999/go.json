@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 657,
-    "concepts": 672,
-    "observations": 673,
-    "repos": 87,
-    "terms": 676
+    "components": 698,
+    "concepts": 708,
+    "observations": 710,
+    "repos": 93,
+    "terms": 712
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
@@ -34,7 +34,10 @@
     "bufbuild/protovalidate",
     "BurntSushi/toml",
     "candid82/joker",
+    "charmbracelet/bubbles",
+    "charmbracelet/freeze",
     "charmbracelet/harmonica",
+    "charmbracelet/log",
     "cloudnativelabs/kube-router",
     "cloudwego/netpoll",
     "containernetworking/plugins",
@@ -52,6 +55,7 @@
     "golang-jwt/jwt",
     "golang/mobile",
     "google/gnostic",
+    "GoogleCloudPlatform/berglas",
     "GoogleContainerTools/container-structure-test",
     "gopasspw/gopass",
     "gotestyourself/gotestsum",
@@ -76,6 +80,7 @@
     "maypok86/otter",
     "mvdan/sh",
     "nginx-proxy/docker-gen",
+    "norwoodj/helm-docs",
     "NVIDIA/dcgm-exporter",
     "opencontainers/distribution-spec",
     "operator-framework/operator-sdk",
@@ -100,6 +105,7 @@
     "uptrace/uptrace",
     "vishvananda/netlink",
     "wa-lang/wa",
-    "walles/moor"
+    "walles/moor",
+    "x-motemen/ghq"
   ]
 }

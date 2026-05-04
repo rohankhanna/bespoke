@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 189,
-    "concepts": 250,
-    "observations": 251,
-    "repos": 45,
-    "terms": 255
+    "concepts": 254,
+    "observations": 255,
+    "repos": 46,
+    "terms": 259
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -57,6 +57,7 @@
     "stevearc/oil.nvim",
     "timdorr/tesla-api",
     "touchlab/droidconkotlin",
+    "v2fly/v2ray-examples",
     "vkhorikov/CSharpFunctionalExtensions",
     "woct0rdho/triton-windows"
   ]

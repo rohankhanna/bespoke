@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 741,
-    "concepts": 165,
-    "observations": 166,
-    "repos": 15,
-    "terms": 165
+    "components": 751,
+    "concepts": 174,
+    "observations": 175,
+    "repos": 16,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "angular/angular",
     "avelino/awesome-go",
     "facebook/react",
     "facebook/react-native",
+    "fatedier/frp",
     "flutter/flutter",
     "golang/go",
     "langgenius/dify",

@@ -3,7 +3,7 @@
     "components": 411,
     "concepts": 290,
     "observations": 290,
-    "repos": 232,
+    "repos": 235,
     "terms": 293
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -115,6 +115,7 @@
     "Force1ess/python-pptx",
     "gadjalin/glad-fortran",
     "gchq/gafferpy",
+    "geospatial-jeff/pyasyncio-benchmark",
     "ghchinoy/studio-scaffold",
     "google-research-datasets/LaGOT",
     "graphcore/examples-utils",
@@ -161,6 +162,7 @@
     "koute/rwkv_tokenizer",
     "kushaldas/cpython",
     "lawrence-cj/ComfyUI_ExtraModels",
+    "layumi/Oxford-Paris-Attack",
     "LBG21/diffusion_policy",
     "leizhao1234/cogvlm2",
     "lemonatsu/pytorch-msssim",
@@ -211,6 +213,7 @@
     "qwertyforce/image_caption_web",
     "qwertyforce/image_text_features_web",
     "r-b-g-b/YOLOX",
+    "rail-berkeley/doodad",
     "ranchlai/sound_classification",
     "raybobo/taichi-voxel-challenge",
     "readthedocs/sphinx-build-compatibility",

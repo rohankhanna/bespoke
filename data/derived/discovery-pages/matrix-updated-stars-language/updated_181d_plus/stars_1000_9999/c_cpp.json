@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 326,
-    "concepts": 647,
-    "observations": 647,
-    "repos": 177,
-    "terms": 641
+    "components": 328,
+    "concepts": 674,
+    "observations": 674,
+    "repos": 184,
+    "terms": 667
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -34,9 +34,11 @@
     "astrand/xclip",
     "atomicobject/heatshrink",
     "baidu/braft",
+    "baidu/Familia",
     "baidu/lac",
     "baidu/sofa-pbrpc",
     "basil00/WinDivert",
+    "ben-strasser/fast-cpp-csv-parser",
     "bitfieldaudio/OTTO",
     "bittorrent/libutp",
     "bytedance/lightseq",
@@ -55,6 +57,7 @@
     "daipeihust/im-select",
     "datenwolf/linmath.h",
     "davidrmiller/biosim4",
+    "davisking/dlib-models",
     "DmitryUlyanov/Multicore-TSNE",
     "dmlc/decord",
     "edenhill/kcat",
@@ -82,6 +85,7 @@
     "GPUOpen-LibrariesAndSDKs/RadeonRays_SDK",
     "hholtmann/smcFanControl",
     "hiroi-sora/PaddleOCR-json",
+    "hku-mars/FAST_LIO",
     "hyperic/sigar",
     "id-Software/Quake-III-Arena",
     "id-Software/quake2-rerelease-dll",
@@ -154,6 +158,7 @@
     "PyMesh/PyMesh",
     "raspberrypi/tools",
     "ReneNyffenegger/cpp-base64",
+    "RobustFieldAutonomyLab/LeGO-LOAM",
     "rprichard/winpty",
     "rubinius/rubinius",
     "rubyjs/therubyracer",
@@ -168,6 +173,7 @@
     "sheredom/subprocess.h",
     "simonfuhrmann/mve",
     "simongog/sdsl-lite",
+    "snap-stanford/snap",
     "specta/expecta",
     "specta/specta",
     "Squirrel/Squirrel.Windows",
@@ -186,6 +192,7 @@
     "tronkko/dirent",
     "unum-cloud/UCall",
     "veandco/go-sdl2",
+    "vimpunk/mio",
     "vit-vit/CTPL",
     "weiliu89/caffe",
     "xinntao/Real-ESRGAN-ncnn-vulkan",

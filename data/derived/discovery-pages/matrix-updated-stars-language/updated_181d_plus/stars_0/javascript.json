@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 118,
+    "components": 128,
     "concepts": 27,
     "observations": 27,
-    "repos": 18,
+    "repos": 20,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
@@ -24,10 +24,12 @@
     "cccs-jc/sql-formatter",
     "coderaiser/c8-reproduce",
     "curiousnoob/lerna-release-workflow",
+    "dsvorc41/js-framework-benchmark",
     "ethanzrd/whisper-playground",
     "garrettalbright/luacheck.novaextension",
     "ipld/js-blockcodec-to-ipld-format",
     "ipld/js-ipld-format-to-blockcodec",
+    "isaac-mason/react-three-jolt",
     "janwilmake/oapis.cli",
     "nozbe/cavy",
     "pixielabs/cavy-app",

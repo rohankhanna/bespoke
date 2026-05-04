@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 574,
-    "concepts": 373,
-    "observations": 374,
+    "components": 583,
+    "concepts": 376,
+    "observations": 377,
     "repos": 35,
-    "terms": 369
+    "terms": 372
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
-    "asciinema/asciinema",
     "ast-grep/ast-grep",
     "Automattic/harper",
     "bevyengine/bevy",
@@ -40,6 +39,7 @@
     "orhun/git-cliff",
     "rayon-rs/rayon",
     "rust-lang/cargo",
+    "rust-lang/rust-clippy",
     "servo/servo",
     "sharkdp/fd",
     "Spotifyd/spotifyd",

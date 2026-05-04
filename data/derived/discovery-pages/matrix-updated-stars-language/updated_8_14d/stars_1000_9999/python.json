@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1358,
-    "concepts": 1480,
-    "observations": 1487,
-    "repos": 180,
-    "terms": 1463
+    "components": 1331,
+    "concepts": 1460,
+    "observations": 1467,
+    "repos": 177,
+    "terms": 1443
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "a2aproject/a2a-python",
     "adapter-hub/adapters",
@@ -27,11 +27,13 @@
     "anthropics/claude-agent-sdk-python",
     "apple/coremltools",
     "argilla-io/distilabel",
+    "argosopentech/argos-translate",
     "artisan-roaster-scope/artisan",
     "ashleve/lightning-hydra-template",
     "astropy/astropy",
     "audreyfeldroy/cookiecutter-pypackage",
     "aws-powertools/powertools-lambda-python",
+    "aws-samples/aws-cdk-examples",
     "aws/deep-learning-containers",
     "Azure/azure-cli",
     "Azure/azure-sdk-for-python",
@@ -64,7 +66,6 @@
     "Farama-Foundation/PettingZoo",
     "firebase/firebase-admin-python",
     "fishaudio/Bert-VITS2",
-    "fonttools/fonttools",
     "fugue-project/fugue",
     "FuzzyGrim/Yamtrack",
     "Gen-Verse/OpenClaw-RL",
@@ -78,6 +79,7 @@
     "googleapis/google-api-python-client",
     "googleapis/google-cloud-python",
     "GoogleCloudPlatform/agent-starter-pack",
+    "hacs/integration",
     "haosulab/ManiSkill",
     "hhatto/autopep8",
     "HIPS/autograd",
@@ -111,7 +113,6 @@
     "LiveBench/LiveBench",
     "llamastack/llama-stack",
     "lucidrains/x-transformers",
-    "m87-labs/moondream",
     "meituan-longcat/LongCat-Video",
     "mherrmann/helium",
     "microsoft/CameraTraps",
@@ -141,7 +142,6 @@
     "ogx-ai/llama-stack",
     "open-compass/opencompass",
     "open-compass/VLMEvalKit",
-    "open-telemetry/community",
     "OpenBMB/UltraRAG",
     "opendatalab/labelU",
     "OpenRLHF/OpenRLHF",
@@ -157,7 +157,6 @@
     "pykeen/pykeen",
     "pymc-devs/pymc",
     "pymupdf/pymupdf4llm",
-    "pypa/cibuildwheel",
     "pypa/twine",
     "pypa/virtualenv",
     "python-trio/trio",
@@ -168,8 +167,8 @@
     "pytorch/torchtitan",
     "pytorch/tutorials",
     "qdrant/fastembed",
-    "rapidfuzz/RapidFuzz",
     "raspberrypi/documentation",
+    "RDFLib/rdflib",
     "rllm-org/rllm",
     "RoboTwin-Platform/RoboTwin",
     "secretflow/secretflow",
@@ -189,10 +188,8 @@
     "tile-ai/tilelang",
     "tmbo/questionary",
     "trailofbits/publications",
-    "twisted/twisted",
     "vietanhdev/anylabeling",
     "vllm-project/llm-compressor",
-    "vwxyzjn/cleanrl",
     "Yuliang-Liu/MonkeyOCR"
   ]
 }

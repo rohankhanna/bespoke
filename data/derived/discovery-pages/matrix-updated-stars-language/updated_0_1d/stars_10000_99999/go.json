@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 235,
-    "concepts": 123,
-    "observations": 123,
-    "repos": 8,
-    "terms": 123
+    "components": 167,
+    "concepts": 161,
+    "observations": 163,
+    "repos": 11,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "cilium/cilium",
     "gastownhall/beads",
-    "go-gitea/gitea",
+    "moby/moby",
     "mudler/LocalAI",
+    "oauth2-proxy/oauth2-proxy",
     "QuantumNous/new-api",
     "rqlite/rqlite",
     "SagerNet/sing-box",
     "seaweedfs/seaweedfs",
+    "weaviate/weaviate",
     "XTLS/Xray-core"
   ]
 }

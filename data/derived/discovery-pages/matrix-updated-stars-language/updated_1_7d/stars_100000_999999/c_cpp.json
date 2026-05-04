@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 3,
-    "terms": 37
+    "components": 12,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 2,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "electron/electron",
     "Genymobile/scrcpy",
     "godotengine/godot"
   ]

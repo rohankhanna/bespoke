@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 994,
+    "components": 1011,
     "concepts": 94,
     "observations": 94,
-    "repos": 58,
+    "repos": 59,
     "terms": 92
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -35,6 +35,7 @@
     "cloydlau/vue-global-config",
     "coasys/agent-language",
     "codeperate/stencil-windicss",
+    "confio/ibc-tests-ics20",
     "ConsenSys-archive/ganache-plugin-filecoin",
     "cryptonomic/conseiljs-softsigner",
     "ddisisto/si",

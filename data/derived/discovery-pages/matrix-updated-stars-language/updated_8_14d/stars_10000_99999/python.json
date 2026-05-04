@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1200,
-    "concepts": 938,
-    "observations": 939,
-    "repos": 83,
-    "terms": 934
+    "components": 1197,
+    "concepts": 914,
+    "observations": 915,
+    "repos": 82,
+    "terms": 910
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "567-labs/instructor",
     "agentskills/agentskills",
     "Aider-AI/aider",
-    "akfamily/akshare",
     "ansible/ansible",
     "apache/airflow",
     "apache/tvm",
     "aws/aws-cli",
-    "benoitc/gunicorn",
     "bentoml/OpenLLM",
     "BerriAI/litellm",
     "BlinkDL/RWKV-LM",
@@ -60,6 +58,7 @@
     "ipython/ipython",
     "kovidgoyal/kitty",
     "langbot-app/LangBot",
+    "LibreTranslate/LibreTranslate",
     "ManimCommunity/manim",
     "matplotlib/matplotlib",
     "microsoft/graphrag",

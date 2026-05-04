@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 5,
-    "terms": 39
+    "components": 7,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 6,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "BradyFU/Awesome-Multimodal-Large-Language-Models",
     "fffaraz/awesome-cpp",
+    "google/material-design-icons",
     "matiassingers/awesome-readme",
     "microsoft/winget-pkgs",
     "tc39/proposals"

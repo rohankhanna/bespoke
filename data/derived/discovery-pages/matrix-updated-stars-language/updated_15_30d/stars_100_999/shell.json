@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
-    "concepts": 120,
-    "observations": 121,
-    "repos": 23,
-    "terms": 134
+    "components": 81,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 24,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
     "actions/upload-pages-artifact",
@@ -21,6 +21,7 @@
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
+    "docker-library/drupal",
     "EmbarkStudios/cargo-deny-action",
     "ericbuess/claude-code-docs",
     "heroku/heroku-buildpack-apt",

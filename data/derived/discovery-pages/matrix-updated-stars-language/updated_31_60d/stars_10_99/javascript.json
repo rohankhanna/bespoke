@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 332,
+    "components": 346,
     "concepts": 108,
     "observations": 108,
-    "repos": 37,
+    "repos": 38,
     "terms": 108
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
     "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
     "AdguardTeam/CodeGuidelines",
+    "aidenlab/juicebox.js",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",

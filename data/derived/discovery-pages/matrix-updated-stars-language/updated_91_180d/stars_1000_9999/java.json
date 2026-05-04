@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 4,
-    "terms": 28
+    "components": 8,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "cjlin1/libsvm",
+    "Jigsaw-Code/Intra",
     "lz4/lz4-java",
     "PlexPt/chatgpt-java",
     "zeromq/jeromq"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 88,
-    "concepts": 11,
-    "observations": 11,
+    "components": 55,
+    "concepts": 26,
+    "observations": 26,
     "repos": 3,
-    "terms": 11
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "firebase/snippets-web",
-    "oss-serverless/serverless"
+    "AdguardTeam/HostlistsRegistry",
+    "digitalocean/openapi",
+    "GDevelopApp/GDevelop-extensions"
   ]
 }

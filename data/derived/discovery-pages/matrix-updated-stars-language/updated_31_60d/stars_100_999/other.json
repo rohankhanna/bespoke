@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 748,
-    "concepts": 582,
-    "observations": 585,
-    "repos": 143,
-    "terms": 578
+    "components": 767,
+    "concepts": 602,
+    "observations": 605,
+    "repos": 150,
+    "terms": 596
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -24,6 +24,8 @@
     "andyferris/Dictionaries.jl",
     "ankane/mailkick",
     "ankane/vega-ruby",
+    "ApolloScapeAuto/dataset-api",
+    "aserafin/grape_logging",
     "AudioKit/Cookbook",
     "aws-ia/terraform-aws-eks-blueprints-addons",
     "aws/homebrew-tap",
@@ -56,6 +58,7 @@
     "clojure/tools.analyzer.jvm",
     "clojure/tools.build",
     "cloudstudio/ollama-laravel",
+    "cognitect/transit-clj",
     "cpp-pm/hunter",
     "creativescala/doodle",
     "crivotz/nv-ide",
@@ -78,6 +81,7 @@
     "elixir-sqlite/ecto_sqlite3",
     "enjoy-digital/usb3_pipe",
     "ethereum/builder-specs",
+    "facebookresearch/fairo",
     "fredrikekre/Literate.jl",
     "fsharp/fslang-design",
     "gcv/julia-snail",
@@ -106,6 +110,7 @@
     "mattn/webapi-vim",
     "Mc-Zen/tidy",
     "mcabbott/AxisKeys.jl",
+    "melix/jmh-gradle-plugin",
     "metauto-ai/agent-as-a-judge",
     "metosin/jsonista",
     "metosin/spec-tools",
@@ -132,6 +137,7 @@
     "r-lib/styler",
     "rails/execjs",
     "RDFLib/OWL-RL",
+    "rubocop/rubocop-ast",
     "RubyMoney/eu_central_bank",
     "sandrohanea/whisper.net",
     "SciML/ColPrac",
@@ -156,6 +162,7 @@
     "w3c/navigation-timing",
     "WebAssembly/esm-integration",
     "whatwg/fs",
-    "whatyouhide/stream_data"
+    "whatyouhide/stream_data",
+    "WICG/attribution-reporting-api"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 133,
-    "observations": 135,
-    "repos": 38,
-    "terms": 131
+    "components": 199,
+    "concepts": 134,
+    "observations": 136,
+    "repos": 39,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -28,6 +28,7 @@
     "celo-org/op-geth",
     "cloudfoundry/bbs",
     "cmdjulian/mopy",
+    "coder/coder-logstream-kube",
     "compozy/kb",
     "darkweak/storages",
     "depado/smallblog",

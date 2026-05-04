@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 19,
-    "terms": 95
+    "components": 95,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 21,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Alexpux/MINGW-packages",
     "bufbuild/homebrew-buf",
+    "Chocolate4U/Iran-clash-rules",
     "cldwalker/dotfiles",
     "cloudfoundry/cf-deployment-concourse-tasks",
     "dotenvx/dotenvx.sh",
@@ -31,6 +32,7 @@
     "sclorg/s2i-perl-container",
     "sclorg/s2i-ruby-container",
     "stefantalpalaru/gentoo-overlay",
+    "taginfo/taginfo-projects",
     "tinted-theming/tinted-terminal",
     "VOICEVOX/onnxruntime-builder"
   ]

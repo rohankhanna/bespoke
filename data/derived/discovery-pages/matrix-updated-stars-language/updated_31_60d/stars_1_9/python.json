@@ -3,7 +3,7 @@
     "components": 45,
     "concepts": 46,
     "observations": 46,
-    "repos": 22,
+    "repos": 23,
     "terms": 45
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "al1-nasir/Research_council",
@@ -32,6 +32,7 @@
     "ldayton/Tongues",
     "Mercury13/unicodia-sesh",
     "openelections/openelections-data-sd",
+    "radian-software/gnu-elpa-mirror",
     "ROCm/rbuild",
     "shadmau/autocouncil",
     "sparklabutah/timewarp",

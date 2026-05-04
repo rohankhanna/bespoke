@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1750,
-    "concepts": 391,
-    "observations": 391,
-    "repos": 55,
-    "terms": 394
+    "components": 1886,
+    "concepts": 423,
+    "observations": 423,
+    "repos": 60,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -22,6 +22,7 @@
     "astral-sh/ruff-action",
     "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
+    "azat-io/eslint-plugin-de-morgan",
     "Azure/cli",
     "Azure/login",
     "babel/website",
@@ -34,15 +35,18 @@
     "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "elizaos/elizaos.github.io",
+    "forcedotcom/code-analyzer",
     "github/local-action",
     "graphprotocol/graph-client",
     "harlan-zw/mdream",
+    "iFaxity/vite-plugin-istanbul",
     "js-temporal/temporal-polyfill",
     "julia-actions/setup-julia",
     "Kong/kong-manager",
     "kysely-org/kysely-ctl",
     "lerna-lite/lerna-lite",
     "logux/client",
+    "luciopaiva/heapify",
     "maltsev/htmlnano",
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
@@ -60,6 +64,7 @@
     "OpenZeppelin/openzeppelin-upgrades",
     "optuna/optuna-dashboard",
     "redhat-developer/vscode-xml",
+    "safe-fndn/safe-singleton-factory",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
     "sergiodxa/remix-i18next",

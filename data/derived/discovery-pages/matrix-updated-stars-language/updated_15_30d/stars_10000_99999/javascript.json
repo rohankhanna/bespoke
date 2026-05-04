@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1233,
-    "concepts": 175,
-    "observations": 176,
-    "repos": 33,
-    "terms": 177
+    "components": 1402,
+    "concepts": 213,
+    "observations": 215,
+    "repos": 36,
+    "terms": 213
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "ai/nanoid",
     "Automattic/node-canvas",
@@ -22,6 +22,7 @@
     "bmad-code-org/bmad-method",
     "browserslist/browserslist",
     "ConardLi/easy-dataset",
+    "google/zx",
     "graphql/graphql-spec",
     "http-party/http-server",
     "immerjs/immer",
@@ -37,7 +38,9 @@
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
+    "pot-app/pot-desktop",
     "reactjs/react.dev",
+    "semantic-release/semantic-release",
     "svg/svgo",
     "thomaspark/bootswatch",
     "tj/commander.js",

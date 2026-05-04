@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 221,
+    "components": 234,
     "concepts": 41,
     "observations": 42,
-    "repos": 23,
+    "repos": 24,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "Arthy000/gherkin-testcafe",
     "bevry/domain-browser",
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",

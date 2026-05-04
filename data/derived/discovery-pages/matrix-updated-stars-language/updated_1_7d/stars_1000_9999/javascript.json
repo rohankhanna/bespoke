@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2304,
-    "concepts": 391,
-    "observations": 393,
-    "repos": 53,
-    "terms": 389
+    "components": 2182,
+    "concepts": 366,
+    "observations": 368,
+    "repos": 51,
+    "terms": 364
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "amannn/action-semantic-pull-request",
     "antfu/eslint-config",
@@ -20,14 +20,12 @@
     "apostrophecms/apostrophe",
     "appium/appium-inspector",
     "dotenvx/dotenvx",
-    "endojs/endo",
     "googleapis/google-cloud-node",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",
     "i18next/react-i18next",
     "import-js/eslint-plugin-import",
-    "isomorphic-git/isomorphic-git",
     "jakerella/jquery-mockjax",
     "jellyfin/jellyfin-web",
     "JuliaPluto/Pluto.jl",
@@ -40,6 +38,7 @@
     "mapbox/geobuf",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
+    "MikeMcl/bignumber.js",
     "module-federation/core",
     "mozilla/rhino",
     "mozilla/web-ext",
@@ -65,7 +64,6 @@
     "violentmonkey/violentmonkey",
     "WebKit/WebKit",
     "webpack/webpack-cli",
-    "webpack/webpack-dev-middleware",
-    "WiseLibs/better-sqlite3"
+    "webpack/webpack-dev-middleware"
   ]
 }

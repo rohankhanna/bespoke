@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 673,
-    "concepts": 449,
-    "observations": 452,
-    "repos": 70,
-    "terms": 463
+    "components": 678,
+    "concepts": 454,
+    "observations": 457,
+    "repos": 72,
+    "terms": 468
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "01mf02/jaq",
     "abraxas-365/langchain-rust",
@@ -32,6 +32,7 @@
     "chronotope/chrono",
     "crate-ci/typos",
     "crossterm-rs/crossterm",
+    "dalek-cryptography/curve25519-dalek",
     "dimforge/rapier",
     "dtolnay/syn",
     "EmbarkStudios/cargo-deny",
@@ -64,16 +65,17 @@
     "openai/harmony",
     "pdeljanov/Symphonia",
     "pop-os/cosmic-text",
+    "proptest-rs/proptest",
     "rusqlite/rusqlite",
     "rust-cli/confy",
     "rust-cli/env_logger",
-    "rust-cli/human-panic",
     "rust-lang/cc-rs",
     "rust-lang/futures-rs",
     "rust-lang/log",
     "rust-windowing/winit",
     "ruvnet/ruvector",
     "serde-rs/json",
+    "servo/html5ever",
     "snapview/tungstenite-rs",
     "spacejam/sled",
     "tauri-apps/wry",

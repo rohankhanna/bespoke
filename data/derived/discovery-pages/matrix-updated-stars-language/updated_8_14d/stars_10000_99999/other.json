@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 610,
-    "concepts": 604,
-    "observations": 607,
-    "repos": 60,
-    "terms": 602
+    "components": 647,
+    "concepts": 643,
+    "observations": 646,
+    "repos": 63,
+    "terms": 641
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abpframework/abp",
     "Alamofire/Alamofire",
@@ -67,11 +67,14 @@
     "openai/openai-cookbook",
     "OpenZeppelin/openzeppelin-contracts",
     "rails/rails",
+    "saadeghi/daisyui",
     "shap/shap",
     "simplex-chat/simplex-chat",
     "Solido/awesome-flutter",
+    "swagger-api/swagger-codegen",
     "syl20bnr/spacemacs",
     "tc39/ecma262",
+    "topjohnwu/Magisk",
     "vim/vim",
     "winsw/winsw"
   ]

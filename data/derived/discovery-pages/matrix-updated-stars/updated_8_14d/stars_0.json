@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 154,
+    "components": 143,
     "concepts": 132,
     "observations": 132,
-    "repos": 52,
+    "repos": 53,
     "terms": 132
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
     "8144225309/superscalar-wallet",
@@ -25,6 +25,7 @@
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-forge-feedstock-ops",
     "conda-forge/conda-lock-feedstock",
+    "conda-forge/cppinterop-feedstock",
     "conda-forge/diffutils-feedstock",
     "conda-forge/equinox-feedstock",
     "conda-forge/ergocub-software-feedstock",
@@ -33,16 +34,17 @@
     "conda-forge/tianshou-feedstock",
     "conda-forge/xeus-cpp-feedstock",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
+    "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
+    "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Israel",
-    "danielrosehill/Favorite-Code-Libraries",
     "danielrosehill/Hypothesis-Council",
+    "danielrosehill/Israel-Projects-Index",
     "danielrosehill/Responsible-Agent-Skill-Development",
     "databendlabs/databend-base",
     "DataDog/vault",
@@ -63,7 +65,6 @@
     "roampal-ai/roampal-labs",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io",
-    "TransferQueue/community_doc",
-    "transparency-dev/armored-witness-common"
+    "TransferQueue/community_doc"
   ]
 }

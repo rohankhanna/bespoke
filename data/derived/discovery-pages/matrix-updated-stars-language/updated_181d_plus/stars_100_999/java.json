@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 53,
-    "terms": 131
+    "components": 73,
+    "concepts": 143,
+    "observations": 143,
+    "repos": 59,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -21,6 +21,7 @@
     "apache/incubator-tuweni",
     "arekinath/PivApplet",
     "arthurblake/log4jdbc",
+    "artyushov/idea-jmh-plugin",
     "atteo/classindex",
     "Backblaze/JavaReedSolomon",
     "brettwooldridge/HikariCP-benchmark",
@@ -28,6 +29,7 @@
     "Byte-Lab/JCoz",
     "carrot2/elasticsearch-carrot2",
     "cyberphone/json-canonicalization",
+    "Datomic/fressian",
     "dirs-dev/directories-jvm",
     "diwand/YapiIdeaUploadPlugin",
     "dmis-lab/biobert-pytorch",
@@ -37,6 +39,7 @@
     "findbugsproject/findbugs",
     "fnproject/docs",
     "GiviMAD/whisper-jni",
+    "gmethvin/directory-watcher",
     "google/graphicsfuzz",
     "google/osdetector-gradle-plugin",
     "googleapis/gapic-generator",
@@ -57,7 +60,10 @@
     "mukel/llama2.java",
     "netplex/json-smart-v2",
     "ning/jvm-compressor-benchmark",
+    "processing/processing-android",
+    "processing/processing-sound",
     "redisson/redisson-examples",
+    "relaxng/jing-trang",
     "rpcx-ecosystem/rpcx-benchmark",
     "ScaCap/spring-auto-restdocs",
     "snapcast/snapdroid",

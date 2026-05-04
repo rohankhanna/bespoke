@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 344,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 9,
-    "terms": 124
+    "components": 494,
+    "concepts": 152,
+    "observations": 153,
+    "repos": 11,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "axios/axios",
     "Comfy-Org/ComfyUI",
+    "electron/electron",
+    "f/prompts.chat",
     "ggml-org/llama.cpp",
     "langchain-ai/langchain",
     "langflow-ai/langflow",

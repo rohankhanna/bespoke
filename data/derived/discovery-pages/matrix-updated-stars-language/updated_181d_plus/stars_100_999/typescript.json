@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4237,
-    "concepts": 635,
-    "observations": 637,
-    "repos": 173,
-    "terms": 645
+    "components": 4469,
+    "concepts": 675,
+    "observations": 677,
+    "repos": 181,
+    "terms": 686
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -25,6 +25,7 @@
     "alloc/vite-plugin-compress",
     "AmesingFlank/taichi.js",
     "andresz1/size-limit-action",
+    "ansible/ansible-language-server",
     "antfu/vite-plugin-md",
     "antfu/vscode-theme-vitesse",
     "antfu/vue-global-api",
@@ -40,6 +41,7 @@
     "Azzedde/brainstormers",
     "Beaglefoot/awk-language-server",
     "ben-rogerson/twin.examples",
+    "bolinfest/monaco-tm",
     "bonukai/MediaTracker",
     "Borodutch/telegram-bot-starter",
     "BotBuilderCommunity/botbuilder-community-js",
@@ -78,6 +80,7 @@
     "evmar/webtreemap",
     "fannheyward/coc-marketplace",
     "firede/ts-transform-graphql-tag",
+    "fjc0k/yapi-to-typescript",
     "frandiox/vite-ssr",
     "frandiox/vitesse-ssr-template",
     "frandiox/vitessedge-template",
@@ -110,6 +113,7 @@
     "jonaskello/tsconfig-paths-webpack-plugin",
     "keeweb/keeweb-connect",
     "Kingwl/monaco-volar",
+    "kripod/react-hooks",
     "kyleshevlin/shevyjs",
     "kyryl-opens-ml/no-ocr",
     "linkedin/eyeglass",
@@ -131,6 +135,7 @@
     "milhidaka/webgpu-blas",
     "MiniMax-AI/MiniMax-MCP-JS",
     "morrys/wora",
+    "mostjs/core",
     "neoclide/coc-css",
     "neoclide/coc-eslint",
     "neoclide/coc-git",
@@ -143,6 +148,8 @@
     "notiz-dev/prisma-dbml-generator",
     "Obsidian-TTRPG-Community/dice-roller",
     "openupm/openupm-cli",
+    "placemark/flat-drop-files",
+    "playwright-community/expect-playwright",
     "playwright-community/jest-playwright",
     "pmndrs/react-three-jolt",
     "possibilities/claude-composer",
@@ -168,6 +175,7 @@
     "storybookjs/native",
     "streamich/unionfs",
     "svsool/memo",
+    "Tarektouati/vue-use-web",
     "tatethurston/TwirpScript",
     "TrueFiEng/Waffle",
     "underfin/vite-plugin-vue2",

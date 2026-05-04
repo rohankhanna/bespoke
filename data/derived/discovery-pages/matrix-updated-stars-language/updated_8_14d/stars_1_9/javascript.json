@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 406,
-    "concepts": 125,
-    "observations": 125,
-    "repos": 15,
-    "terms": 124
+    "components": 450,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 19,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "angular/dev-infra-private-ng-dev-builds",
+    "celo-org/blind-threshold-bls-wasm",
     "certible/superagent-aws-sign",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
+    "j9t/compressorjs-next",
     "j9t/htaccess-punk",
     "j9t/image-guard",
+    "j9t/minifier-benchmarks",
     "ksxnodemodules/static-type-assert",
     "locize/locize-lastused",
+    "metosin/open-source",
     "newrelic/csec-node-agent",
     "recap-utr/arg-services",
     "stdlib-js/buffer-ctor",

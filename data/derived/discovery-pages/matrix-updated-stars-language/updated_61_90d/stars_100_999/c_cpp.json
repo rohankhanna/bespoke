@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 157,
-    "observations": 159,
-    "repos": 35,
-    "terms": 152
+    "components": 150,
+    "concepts": 162,
+    "observations": 164,
+    "repos": 36,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
@@ -29,6 +29,7 @@
     "google/ruy",
     "hhyyrylainen/GodotPckTool",
     "InteractiveComputerGraphics/TriangleMeshDistance",
+    "isciences/exactextract",
     "jsk-ros-pkg/jsk_visualization",
     "Kong/ngx_wasm_module",
     "lexxmark/winflexbison",

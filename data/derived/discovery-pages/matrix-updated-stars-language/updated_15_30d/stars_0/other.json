@@ -3,7 +3,7 @@
     "components": 33,
     "concepts": 17,
     "observations": 17,
-    "repos": 16,
+    "repos": 19,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
     "acevif/swiftformat-nix",
@@ -26,6 +26,9 @@
     "genuslovoacalixtusiii510/ytp-2026",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
+    "JuliaBinaryWrappers/Libmount_jll.jl",
+    "JuliaBinaryWrappers/libpng_jll.jl",
+    "JuliaBinaryWrappers/Libuuid_jll.jl",
     "markoswire/remember-me.ai",
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",

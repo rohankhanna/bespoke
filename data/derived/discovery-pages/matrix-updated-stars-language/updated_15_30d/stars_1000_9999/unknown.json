@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 12,
-    "terms": 29
+    "concepts": 37,
+    "observations": 37,
+    "repos": 13,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "android/skills",
     "bbatsov/clojure-style-guide",
@@ -24,6 +24,7 @@
     "macfuse/macfuse",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
+    "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills"
   ]

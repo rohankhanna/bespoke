@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 12,
-    "terms": 112
+    "components": 100,
+    "concepts": 105,
+    "observations": 106,
+    "repos": 11,
+    "terms": 105
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AI-Hypercomputer/maxtext",
     "aws-cloudformation/cfn-lint",
     "google-deepmind/optax",
     "harbor-framework/harbor",
-    "mesonbuild/meson",
-    "meta-pytorch/torchcodec",
-    "meta-pytorch/torchtune",
+    "meta-pytorch/captum",
     "mikel-brostrom/boxmot",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
     "redis/redis-om-python",
+    "starVLA/starVLA",
     "zarr-developers/zarr-python"
   ]
 }

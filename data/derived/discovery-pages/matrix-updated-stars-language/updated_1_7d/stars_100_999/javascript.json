@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1040,
-    "concepts": 228,
-    "observations": 230,
-    "repos": 42,
-    "terms": 226
+    "components": 987,
+    "concepts": 191,
+    "observations": 192,
+    "repos": 38,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "all-contributors/app",
     "auth0/node-jwks-rsa",
@@ -22,16 +22,14 @@
     "Brooooooklyn/snappy",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "csstools/cssdb",
-    "digitalocean/openapi",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
     "emberjs/ember-test-helpers",
     "facebook/Rapid",
     "firebase/snippets-web",
+    "fontello/svg2ttf",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
-    "j9t/html-minifier-next",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
@@ -44,9 +42,7 @@
     "oss-serverless/serverless",
     "postcss/postcss-cli",
     "prisma/ecosystem-tests",
-    "reviewdog/action-eslint",
     "ruby/setup-ruby",
-    "rubyjs/mini_racer",
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",

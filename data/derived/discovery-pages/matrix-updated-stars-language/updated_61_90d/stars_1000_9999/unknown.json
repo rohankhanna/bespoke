@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 11,
-    "terms": 51
+    "components": 11,
+    "concepts": 54,
+    "observations": 54,
+    "repos": 12,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "brightmart/nlp_chinese_corpus",
@@ -24,6 +24,7 @@
     "orogene/orogene",
     "r-lyeh/single_file_libs",
     "syntax-tree/mdast",
-    "tmux-plugins/list"
+    "tmux-plugins/list",
+    "uBlockOrigin/uBlock-issues"
   ]
 }

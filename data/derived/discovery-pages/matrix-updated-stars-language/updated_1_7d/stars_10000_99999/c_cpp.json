@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 585,
-    "observations": 586,
-    "repos": 46,
-    "terms": 582
+    "components": 457,
+    "concepts": 562,
+    "observations": 563,
+    "repos": 45,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/thrift",
-    "argotorg/solidity",
     "assimp/assimp",
     "baldurk/renderdoc",
     "bpftrace/bpftrace",
     "cameron314/concurrentqueue",
+    "capnproto/capnproto",
     "carla-simulator/carla",
     "catchorg/Catch2",
     "colmap/colmap",
@@ -48,7 +48,6 @@
     "LostRuins/koboldcpp",
     "micropython/micropython",
     "mongodb/mongo",
-    "mozilla-ai/llamafile",
     "oceanbase/oceanbase",
     "opencv/opencv",
     "openframeworks/openFrameworks",

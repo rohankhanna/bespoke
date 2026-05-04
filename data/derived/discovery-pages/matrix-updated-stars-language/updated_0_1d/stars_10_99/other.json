@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 3,
-    "terms": 29
+    "components": 50,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 5,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "IBM/hello-carbon-vue3",
+    "JuliaGeo/GeometryOps.jl",
+    "karafka/example-apps",
     "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr"
   ]

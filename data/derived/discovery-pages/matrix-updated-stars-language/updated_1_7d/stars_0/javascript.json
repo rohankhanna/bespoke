@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 42,
+    "components": 62,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "aidenlab/spacewalk",
+    "aidenlab/swtool",
     "angular/angular-build-builds"
   ]
 }

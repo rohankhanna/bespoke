@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 23,
-    "concepts": 229,
-    "observations": 229,
-    "repos": 95,
-    "terms": 220
+    "concepts": 240,
+    "observations": 240,
+    "repos": 99,
+    "terms": 231
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -37,6 +37,8 @@
     "chenking2020/FindTheChatGPTer",
     "cmhungsteve/Awesome-Transformer-Attention",
     "Computer-Vision-in-the-Wild/CVinW_Readings",
+    "crownpku/Awesome-Chinese-NLP",
+    "daochenzha/data-centric-AI",
     "deepseek-ai/DeepSeek-V2",
     "dk-liang/Awesome-Visual-Transformer",
     "dotnet/announcements",
@@ -62,6 +64,7 @@
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "llamastack/llama-stack-apps",
     "lxgw/kose-font",
+    "lxgw/yozai-font",
     "matthiasn/talk-transcripts",
     "microsoft/live-share",
     "microsoft/nodejs-guidelines",
@@ -108,6 +111,7 @@
     "vuejs/rfcs",
     "withfig/fig",
     "xaoyaoo/pywxdump",
+    "zapret-info/z-i",
     "zksync/credo"
   ]
 }

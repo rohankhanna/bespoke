@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 704,
-    "concepts": 740,
-    "observations": 741,
-    "repos": 63,
-    "terms": 735
+    "components": 733,
+    "concepts": 798,
+    "observations": 799,
+    "repos": 68,
+    "terms": 792
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
     "axolotl-ai-cloud/axolotl",
+    "certbot/certbot",
     "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
     "cvat-ai/cvat",
@@ -28,6 +29,7 @@
     "facefusion/facefusion",
     "fastapi/typer",
     "google/magika",
+    "hiyouga/LlamaFactory",
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/pytorch-image-models",
@@ -39,6 +41,7 @@
     "kvcache-ai/ktransformers",
     "Lightning-AI/litgpt",
     "locustio/locust",
+    "lucidrains/vit-pytorch",
     "MetaCubeX/mihomo",
     "microsoft/agent-lightning",
     "microsoft/promptflow",
@@ -71,11 +74,13 @@
     "SWE-agent/SWE-agent",
     "sympy/sympy",
     "treeverse/dvc",
+    "triton-inference-server/server",
     "ultralytics/yolov3",
     "ultralytics/yolov5",
     "unclecode/crawl4ai",
     "vega/altair",
     "verl-project/verl",
-    "wandb/wandb"
+    "wandb/wandb",
+    "wkentaro/labelme"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 231,
-    "concepts": 471,
-    "observations": 471,
-    "repos": 85,
-    "terms": 466
+    "components": 233,
+    "concepts": 477,
+    "observations": 477,
+    "repos": 90,
+    "terms": 472
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
+    "ageitgey/face_recognition",
     "albumentations-team/albumentations",
     "allenai/allennlp",
     "Anjok07/ultimatevocalremovergui",
@@ -35,6 +36,7 @@
     "facebookresearch/detr",
     "facebookresearch/fairseq",
     "facebookresearch/ParlAI",
+    "fighting41love/funNLP",
     "flairNLP/flair",
     "fxsjy/jieba",
     "google-research/bert",
@@ -52,6 +54,7 @@
     "karpathy/minGPT",
     "kkroening/ffmpeg-python",
     "LAION-AI/Open-Assistant",
+    "LlamaChinese/Llama-Chinese",
     "lllyasviel/ControlNet",
     "lllyasviel/FramePack",
     "lllyasviel/stable-diffusion-webui-forge",
@@ -60,6 +63,7 @@
     "lukas-blecher/LaTeX-OCR",
     "magic-research/magic-animate",
     "Megvii-BaseDetection/YOLOX",
+    "meta-llama/codellama",
     "meta-llama/llama",
     "meta-llama/llama3",
     "microsoft/cascadia-code",
@@ -87,6 +91,7 @@
     "piskvorky/gensim",
     "pytorch/examples",
     "rsms/inter",
+    "Rudrabha/Wav2Lip",
     "Sanster/IOPaint",
     "tatsu-lab/stanford_alpaca",
     "TencentARC/GFPGAN",

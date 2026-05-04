@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 3,
+    "components": 0,
     "concepts": 6,
     "observations": 6,
-    "repos": 3,
+    "repos": 2,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "lxgw/LxgwNeoXiHei",
-    "lxgw/LxgwNeoZhiSong",
-    "runetfreedom/russia-v2ray-rules-dat"
+    "lxgw/LxgwNeoZhiSong"
   ]
 }

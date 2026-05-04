@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 60,
-    "observations": 61,
-    "repos": 16,
-    "terms": 60
+    "components": 72,
+    "concepts": 55,
+    "observations": 56,
+    "repos": 15,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
     "containerd/project",
@@ -20,7 +20,6 @@
     "docker/github-builder",
     "goharbor/community",
     "google/oss-policies-info",
-    "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "mypyc/mypyc-benchmark-results",
     "qemus/virtiso-whql",
     "quarkiverse/quarkiverse-docs",

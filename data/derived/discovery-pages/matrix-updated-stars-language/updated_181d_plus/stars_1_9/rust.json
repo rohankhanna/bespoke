@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 79,
-    "terms": 90
+    "components": 245,
+    "concepts": 95,
+    "observations": 95,
+    "repos": 80,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "adambiltcliffe/macroquad-jfa",
     "adamgreig/spi-flash-rs",
@@ -42,6 +42,7 @@
     "datafuse-extras/clickhouse_driver",
     "dathere/qsv-easy-windows-installer",
     "Dherse/comemo",
+    "Electron-Labs/tendermint-rs",
     "EricLBuehler/range-checked",
     "EspressoSystems/atomicstore",
     "EspressoSystems/surf-disco",

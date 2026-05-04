@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 354,
-    "concepts": 281,
-    "observations": 284,
-    "repos": 51,
-    "terms": 291
+    "components": 367,
+    "concepts": 291,
+    "observations": 294,
+    "repos": 52,
+    "terms": 301
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -42,6 +42,7 @@
     "google/trillian-examples",
     "hashicorp/errwrap",
     "hashicorp/go-discover",
+    "hashicorp/terraform-plugin-go",
     "hazelcast/hazelcast-go-client",
     "ipfs/go-cid",
     "ipfs/ipfs-docs",
@@ -60,9 +61,9 @@
     "prehisle/relay-pulse",
     "prometheus/exporter-toolkit",
     "skenetechnologies/skene",
+    "spiffe/go-spiffe",
     "terraform-linters/tflint-ruleset-aws",
     "terraform-linters/tflint-ruleset-azurerm",
-    "toml-lang/toml-test",
     "usbarmory/GoTEE",
     "yaling888/quirktiva"
   ]

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-04T05:44:20.763558+00:00`
+Generated at: `2026-05-04T11:50:57.944186+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 56
-- terms: 238
+- repos: 57
+- terms: 241
 - components: 251
-- concepts: 239
-- observations: 239
+- concepts: 242
+- observations: 242
 
 ## Static behavior
 
@@ -43,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) | 15006 | 2024-11-14T03:16:41Z | Other | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) | 90272 | 2024-10-24T11:25:46Z | Other | CLI | 18 | 54 | 18 | 18 |
 | [brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) | 19430 | 2024-10-20T21:48:45Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [cmusatyalab/openface](https://github.com/cmusatyalab/openface) | 15416 | 2024-10-04T12:59:04Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [mamoe/mirai](https://github.com/mamoe/mirai) | 14858 | 2024-09-23T11:25:50Z | Other | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | 53988 | 2024-09-18T17:46:55Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything) | 17535 | 2024-09-05T06:07:32Z | Other | Infrastructure/tooling | 7 | 0 | 8 | 8 |
@@ -119,6 +120,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Stability-AI/StableLM](https://github.com/Stability-AI/StableLM) | 15717 | 2024-04-08T19:26:02Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [karpathy/micrograd](https://github.com/karpathy/micrograd) | 15676 | 2024-08-08T12:54:44Z | Other | Library | 0 | 0 | 0 | 0 |
 | [morhetz/gruvbox](https://github.com/morhetz/gruvbox) | 15468 | 2025-04-20T09:02:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [cmusatyalab/openface](https://github.com/cmusatyalab/openface) | 15416 | 2024-10-04T12:59:04Z | Other | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [Carthage/Carthage](https://github.com/Carthage/Carthage) | 15209 | 2025-09-10T15:36:04Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [microsoft/dotnet](https://github.com/microsoft/dotnet) | 15032 | 2025-09-23T22:36:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [AliaksandrSiarohin/first-order-model](https://github.com/AliaksandrSiarohin/first-order-model) | 15006 | 2024-11-14T03:16:41Z | Other | Infrastructure/tooling | 4 | 0 | 4 | 4 |

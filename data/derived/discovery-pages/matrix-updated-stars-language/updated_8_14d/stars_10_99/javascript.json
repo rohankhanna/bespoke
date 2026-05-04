@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 553,
-    "concepts": 121,
-    "observations": 121,
+    "components": 555,
+    "concepts": 119,
+    "observations": 119,
     "repos": 30,
-    "terms": 121
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "alexellis/arkade-get",
     "browserslist/lint",
@@ -20,6 +20,7 @@
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
+    "j9t/obsohtml",
     "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locize-cli",
@@ -38,7 +39,6 @@
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
     "rescript-lang/tree-sitter-rescript",
-    "semantic-release/error",
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
     "ultralytics/llm",

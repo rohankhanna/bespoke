@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 15,
-    "terms": 107
+    "components": 239,
+    "concepts": 116,
+    "observations": 116,
+    "repos": 16,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
+    "asciinema/asciinema",
     "astral-sh/uv",
     "casey/just",
     "cjpais/Handy",

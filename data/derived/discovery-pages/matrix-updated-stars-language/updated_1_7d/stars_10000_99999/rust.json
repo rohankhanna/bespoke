@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 591,
-    "concepts": 439,
-    "observations": 439,
+    "components": 587,
+    "concepts": 442,
+    "observations": 442,
     "repos": 36,
-    "terms": 434
+    "terms": 437
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
@@ -25,6 +25,7 @@
     "firecracker-microvm/firecracker",
     "getzola/zola",
     "GitoxideLabs/gitoxide",
+    "google/comprehensive-rust",
     "helix-editor/helix",
     "huggingface/tokenizers",
     "iced-rs/iced",
@@ -40,7 +41,6 @@
     "ratatui/ratatui",
     "rolldown/rolldown",
     "rust-lang/mdBook",
-    "rust-lang/rust-clippy",
     "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",

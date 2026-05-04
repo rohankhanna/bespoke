@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 545,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 38,
-    "terms": 159
+    "components": 594,
+    "concepts": 170,
+    "observations": 170,
+    "repos": 41,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "andylockran/spectral-aws-apigateway-ruleset",
@@ -41,16 +41,19 @@
     "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
     "mapbox/point-geometry",
+    "mapbox/tiletype",
     "npm/types",
     "nrwl/nx-ai-agents-config",
     "peergos/web-ui",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
+    "semantic-release/error",
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",
     "webtorrent/bittorrent-peerid",
+    "wemake-services/wemake-frontend-styleguide",
     "winstonjs/winston-transport"
   ]
 }

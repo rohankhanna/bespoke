@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 729,
-    "concepts": 472,
-    "observations": 476,
-    "repos": 71,
-    "terms": 468
+    "components": 694,
+    "concepts": 452,
+    "observations": 456,
+    "repos": 67,
+    "terms": 449
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
     "A2-ai/rv",
     "akiomik/mado",
-    "alloy-rs/svm-rs",
     "ankane/tokenizers-ruby",
     "Anush008/fastembed-rs",
     "apache/hudi-rs",
@@ -31,6 +30,7 @@
     "cargo-public-api/cargo-public-api",
     "cobalt-org/liquid-rust",
     "conda/rattler",
+    "cosmos/solidity-ibc-eureka",
     "deven96/ahnlich",
     "Dicklesworthstone/asupersync",
     "Dicklesworthstone/beads_rust",
@@ -52,7 +52,6 @@
     "huggingface/xet-core",
     "hyper-mcp-rs/hyper-mcp",
     "istio/ztunnel",
-    "JanLikar/cargo-clone",
     "kpcyrd/rebuilderd",
     "KSXGitHub/parallel-disk-usage",
     "ldclabs/anda",
@@ -61,7 +60,6 @@
     "lindera/lindera",
     "matter-labs/zksync-airbender",
     "MercuryTechnologies/ghciwatch",
-    "mongodb/bson-rust",
     "mozilla/application-services",
     "openvm-org/openvm",
     "oxc-project/oxc-resolver",
@@ -70,7 +68,6 @@
     "pubgrub-rs/pubgrub",
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
-    "rust-lang/compiler-builtins",
     "rust-random/getrandom",
     "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
@@ -79,11 +76,10 @@
     "RustCrypto/traits",
     "supabase/wrappers",
     "tensorchord/VectorChord-bm25",
-    "testcontainers/testcontainers-rs-modules-community",
     "tinted-theming/tinty",
-    "udoprog/genco",
     "vectordotdev/vrl",
     "z-galaxy/zbus",
+    "zaeleus/noodles",
     "zip-rs/zip2"
   ]
 }

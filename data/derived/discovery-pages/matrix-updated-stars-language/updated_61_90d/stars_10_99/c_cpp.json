@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 24,
-    "terms": 39
+    "components": 47,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 27,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
+    "accabog/MedianFilter",
     "adamyaxley/Unformat",
     "amerkoleci/Alimer.Bindings",
     "aseprite/clip",
@@ -29,10 +30,12 @@
     "HolyBlackCat/box2cpp",
     "jokkebk/JUnzip",
     "JPEWdev/icecream-sundae",
+    "jrsoftware/iscompress",
     "JuliaInterop/libcxxwrap-julia",
     "jupyter-xeus/xeus-zmq",
     "o3de/PhysX",
     "paoloshasta/shasta",
+    "r-spatial/s2",
     "RomanArzumanyan/VALI",
     "smuellerDD/acvpparser",
     "Taritsyn/LibSassHost",

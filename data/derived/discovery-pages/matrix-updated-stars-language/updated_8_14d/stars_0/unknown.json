@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "cachix/serde-envfile",
     "conda-forge/conda-lock-feedstock",
@@ -21,14 +21,14 @@
     "conda-forge/textgrad-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/adb-ops-plugin",
-    "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Code-Feedback",
+    "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Israel",
-    "danielrosehill/Favorite-Code-Libraries",
+    "danielrosehill/Israel-Projects-Index",
     "Dustinpro/Dustinpro",
     "TransferQueue/community_doc"
   ]

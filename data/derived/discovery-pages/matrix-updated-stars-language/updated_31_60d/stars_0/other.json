@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 29,
     "observations": 29,
-    "repos": 14,
+    "repos": 17,
     "terms": 29
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "b2agi/exist-is-charter_kr",
     "bookcars/bookcars.github.io",
@@ -21,10 +21,13 @@
     "danielrosehill/Israel-First-Aid",
     "JuliaBinaryWrappers/Cairo_jll.jl",
     "JuliaBinaryWrappers/FreeType2_jll.jl",
+    "JuliaBinaryWrappers/GettextRuntime_jll.jl",
     "kdubbo/client-go",
     "musicman3/cruder",
     "musicman3/r2-d2",
     "Nichaojun/Nichaojun.github.io",
+    "onomojo/i18n-country-translations-ex",
+    "onomojo/i18n-timezones-ex",
     "saharmor/saharmor.github.io",
     "stable-haskell/stack",
     "stefanlogue/scoops"

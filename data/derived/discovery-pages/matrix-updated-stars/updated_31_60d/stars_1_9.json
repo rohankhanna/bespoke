@@ -1,19 +1,18 @@
 {
   "counts": {
     "components": 838,
-    "concepts": 497,
-    "observations": 498,
+    "concepts": 499,
+    "observations": 500,
     "repos": 151,
-    "terms": 490
+    "terms": 492
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "0x676e67/0x676e67",
     "10up/.github",
     "42-evey/evey-bridge-plugin",
     "aaronrsun/spec-kit-checkpoint",
@@ -108,6 +107,7 @@
     "hchiam/learning-template",
     "ikonopistsev/mdbxmou",
     "intel/iefs-kernel-updates",
+    "jrsoftware/isscint",
     "justinfx/olric-nats-plugin",
     "KabakaWilliam/trajectorykit",
     "lab-cosmo/.github",
@@ -135,9 +135,9 @@
     "objectbox/objectbox-sync-examples",
     "openelections/openelections-data-sd",
     "openobserve/vector",
-    "pacstall/pacup",
     "paolodamico/ruint-uniffi",
     "PyThaiNLP/pythainlp-corpus",
+    "radian-software/gnu-elpa-mirror",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "redis-developer/redis-starter-csharp",
     "redis-developer/redis-starter-go",

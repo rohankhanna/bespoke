@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 105,
-    "concepts": 138,
-    "observations": 140,
-    "repos": 10,
-    "terms": 137
+    "components": 87,
+    "concepts": 107,
+    "observations": 109,
+    "repos": 8,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "fastapi/fastapi",
-    "hiyouga/LlamaFactory",
     "jax-ml/jax",
     "Lightning-AI/pytorch-lightning",
     "oobabooga/textgen",
     "OpenHands/OpenHands",
     "pydantic/pydantic",
-    "wkentaro/labelme",
     "zhayujie/CowAgent"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 903,
-    "concepts": 130,
-    "observations": 131,
-    "repos": 32,
-    "terms": 140
+    "components": 996,
+    "concepts": 133,
+    "observations": 134,
+    "repos": 34,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "addyosmani/chatty",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
+    "antfu/eslint-plugin-antfu",
     "antfu/eslint-plugin-command",
     "aymenfurter/ralph",
     "castwide/vscode-solargraph",
@@ -44,6 +45,7 @@
     "unplugin/unplugin-vue-markdown",
     "vuejs/vue-eslint-parser",
     "weaviate/elysia-frontend",
+    "Wykks/ngx-mapbox-gl",
     "yandeu/five-server",
     "zsviczian/excalibrain"
   ]

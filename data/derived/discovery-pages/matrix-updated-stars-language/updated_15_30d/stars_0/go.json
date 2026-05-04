@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 9,
-    "terms": 18
+    "components": 58,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 10,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "aldernero/debugui",
@@ -22,6 +22,7 @@
     "ethpandaops/xatu-cbt",
     "foundry-rs/optimism",
     "hyper-mcp-rs/crypto-price-plugin",
-    "jonislutheran87/weclaw"
+    "jonislutheran87/weclaw",
+    "transparency-dev/armored-witness-common"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 211,
-    "observations": 212,
+    "components": 176,
+    "concepts": 214,
+    "observations": 215,
     "repos": 26,
-    "terms": 211
+    "terms": 214
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
-    "apache/logging-log4j2",
     "apache/lucene",
     "apache/netbeans",
     "apache/pdfbox",
@@ -26,18 +25,19 @@
     "codelibs/fess",
     "diffplug/spotless",
     "FasterXML/jackson-annotations",
+    "flyway/flyway",
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",
     "googleapis/google-api-java-client",
     "googleapis/google-http-java-client",
+    "jhipster/prettier-java",
     "junit-team/junit4",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",
     "rabbitmq/rabbitmq-tutorials",
     "raphw/byte-buddy",
     "soot-oss/soot",
-    "spotbugs/spotbugs",
     "spring-ai-alibaba/DataAgent",
     "spring-ai-alibaba/examples"
   ]

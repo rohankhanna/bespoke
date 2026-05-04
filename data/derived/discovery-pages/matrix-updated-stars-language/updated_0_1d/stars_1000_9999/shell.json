@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 1,
-    "terms": 5
+    "components": 15,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 2,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "archlinuxcn/repo"
+    "archlinuxcn/repo",
+    "nodenv/nodenv"
   ]
 }

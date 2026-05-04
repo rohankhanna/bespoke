@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 49,
-    "terms": 152
+    "components": 205,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 51,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
+    "archlizheng/frontend-slides-editable",
     "Azure-Samples/azureai-travel-agent-python",
     "bentoml/openllm-models",
     "BirolLab/tigmint",
@@ -33,6 +34,7 @@
     "cvat-ai/datumaro",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
+    "enzet/Roentgen",
     "explosion/weasel",
     "FindDefinition/cumm",
     "googlefonts/nam-files",

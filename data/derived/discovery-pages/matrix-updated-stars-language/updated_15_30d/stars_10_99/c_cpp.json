@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 28,
-    "terms": 111
+    "components": 152,
+    "concepts": 131,
+    "observations": 131,
+    "repos": 34,
+    "terms": 132
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -21,7 +21,10 @@
     "ankane/stl-cpp",
     "barak/minidjvu",
     "chusitoo/flatbush",
+    "clouren/SPEX",
+    "cpmech/tritet",
     "DavidKinder/Windows-Inform7",
+    "f32c/tools",
     "fabmax/PhysX",
     "fcambus/bdf2sfd",
     "flatpak/xdg-dbus-proxy",
@@ -31,10 +34,13 @@
     "JFLarvoire/the_silver_searcher",
     "jupyter-xeus/xeus-lua",
     "liangshengyong/lanwan",
+    "lxqt/liblxqt",
+    "lxqt/libqtxdg",
     "marciogranzotto/clawd-tank",
     "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
     "mybigday/llama.node",
+    "nvictus/pybbi",
     "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "ROCm/roctracer",

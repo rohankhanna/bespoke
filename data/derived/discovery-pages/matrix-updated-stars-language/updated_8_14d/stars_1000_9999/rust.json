@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1001,
-    "concepts": 699,
-    "observations": 703,
-    "repos": 93,
-    "terms": 697
+    "components": 990,
+    "concepts": 689,
+    "observations": 693,
+    "repos": 91,
+    "terms": 687
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig",
     "64bit/async-openai",
@@ -34,7 +34,6 @@
     "compio-rs/compio",
     "crev-dev/cargo-crev",
     "cross-rs/cross",
-    "dalek-cryptography/curve25519-dalek",
     "dathere/qsv",
     "DeterminateSystems/nix-installer",
     "dimforge/nalgebra",
@@ -51,6 +50,7 @@
     "googlefonts/Inconsolata",
     "hickory-dns/hickory-dns",
     "hrkfdn/ncspot",
+    "ivanceras/svgbob",
     "j178/prek",
     "jni-rs/jni-rs",
     "jonhoo/fantoccini",
@@ -73,7 +73,6 @@
     "obi1kenobi/trustfall",
     "paradigmxyz/reth",
     "pgcentralfoundation/pgrx",
-    "proptest-rs/proptest",
     "pulldown-cmark/pulldown-cmark",
     "PyO3/maturin",
     "ratatui/mousefood",
@@ -94,7 +93,6 @@
     "rustsec/rustsec",
     "salsa-rs/salsa",
     "SeaQL/sea-orm",
-    "servo/html5ever",
     "servo/pathfinder",
     "sigp/lighthouse",
     "smallcloudai/refact",

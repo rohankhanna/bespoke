@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 483,
-    "concepts": 599,
-    "observations": 602,
-    "repos": 101,
-    "terms": 599
+    "components": 485,
+    "concepts": 595,
+    "observations": 597,
+    "repos": 102,
+    "terms": 595
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -72,8 +72,8 @@
     "jpanther/congo",
     "JuliaPlots/Plots.jl",
     "kepano/obsidian-minimal",
-    "lambdalisue/vim-fern",
     "lightning/bolts",
+    "lindawangg/COVID-Net",
     "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
@@ -82,6 +82,7 @@
     "mhinz/vim-signify",
     "michalmuskala/jason",
     "nanxiaobei/hugo-paper",
+    "ndmitchell/ghcid",
     "ndmitchell/hlint",
     "nesquena/rabl",
     "ninenines/cowboy",

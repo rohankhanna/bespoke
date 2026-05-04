@@ -3,7 +3,7 @@
     "components": 67,
     "concepts": 77,
     "observations": 78,
-    "repos": 24,
+    "repos": 25,
     "terms": 75
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
     "adamharrison/lite-xl-terminal",
     "Blosc/hdf5-blosc",
     "cassioneri/teju_jagua",
+    "ccslykx/Starry",
     "coin-or/CHiPPS-ALPS",
     "DLR-TS/SUMOLibraries",
     "eddelbuettel/rcppfastfloat",

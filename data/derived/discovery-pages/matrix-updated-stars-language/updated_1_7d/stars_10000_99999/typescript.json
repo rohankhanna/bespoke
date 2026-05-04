@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3750,
-    "concepts": 852,
-    "observations": 855,
-    "repos": 73,
-    "terms": 849
+    "components": 3726,
+    "concepts": 845,
+    "observations": 848,
+    "repos": 72,
+    "terms": 843
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aidenybai/react-scan",
     "angular/angular-cli",
@@ -47,7 +47,6 @@
     "jquense/yup",
     "Kong/insomnia",
     "kysely-org/kysely",
-    "langchain-ai/langchainjs",
     "lit/lit",
     "mapbox/mapbox-gl-js",
     "marmelab/react-admin",

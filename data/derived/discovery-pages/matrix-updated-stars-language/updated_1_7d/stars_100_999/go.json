@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 647,
-    "concepts": 533,
-    "observations": 534,
-    "repos": 69,
-    "terms": 533
+    "components": 666,
+    "concepts": 540,
+    "observations": 541,
+    "repos": 70,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
@@ -27,8 +27,8 @@
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
     "bitrise-io/bitrise",
-    "boj/redistore",
     "buildpacks/lifecycle",
+    "celzero/firestack",
     "ClickHouse/ch-go",
     "cloudfoundry/cf-deployment",
     "cloudfoundry/diego-release",
@@ -38,6 +38,7 @@
     "cometbft/cometbft",
     "controlplaneio-fluxcd/flux-operator",
     "cosmos/evm",
+    "cosmos/gaia",
     "cosmos/ibc-go",
     "cosmos/interchain-security",
     "dydxprotocol/v4-chain",
@@ -50,7 +51,6 @@
     "helmfile/vals",
     "huaweicloud/huaweicloud-sdk-go-v3",
     "hybridgroup/yzma",
-    "hypnoglow/helm-s3",
     "istio/api",
     "istio/tools",
     "kubernetes-sigs/dra-driver-nvidia-gpu",
@@ -81,6 +81,7 @@
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
     "theupdateframework/go-tuf",
+    "toml-lang/toml-test",
     "usbarmory/go-boot",
     "web-infra-dev/rslint"
   ]

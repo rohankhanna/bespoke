@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 8,
-    "terms": 90
+    "components": 102,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 10,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
-    "AdaptiveCpp/AdaptiveCpp",
     "harfbuzz/harfbuzz",
     "KhronosGroup/KTX-Software",
     "libbitcoin/libbitcoin-system",
-    "realsenseai/librealsense",
+    "Mithril-mine/libmdbx",
+    "NVIDIA/DALI",
+    "riscv-collab/riscv-gnu-toolchain",
+    "stack-of-tasks/pinocchio",
     "ultrajson/ultrajson",
     "uxlfoundation/oneTBB",
     "xtensor-stack/xtensor"

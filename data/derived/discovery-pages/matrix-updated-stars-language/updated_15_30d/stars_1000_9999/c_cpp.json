@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 431,
-    "concepts": 497,
-    "observations": 500,
-    "repos": 70,
-    "terms": 492
+    "components": 439,
+    "concepts": 524,
+    "observations": 530,
+    "repos": 74,
+    "terms": 519
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -26,6 +26,7 @@
     "CNugteren/CLBlast",
     "containers/crun",
     "contour-terminal/contour",
+    "d99kris/rapidcsv",
     "DanBloomberg/leptonica",
     "Dav1dde/glad",
     "DLTcollab/sse2neon",
@@ -49,6 +50,7 @@
     "libbpf/libbpf",
     "libjpeg-turbo/libjpeg-turbo",
     "mackron/miniaudio",
+    "mapnik/mapnik",
     "mattn/go-sqlite3",
     "mcmilk/7-Zip-zstd",
     "microsoft/DirectX-Graphics-Samples",
@@ -59,6 +61,7 @@
     "Novum/vkQuake",
     "NVIDIA-Omniverse/PhysX",
     "NVIDIA/libnvidia-container",
+    "nvpro-samples/vk_raytracing_tutorial_KHR",
     "OHF-Voice/piper1-gpl",
     "ohler55/oj",
     "oneapi-src/oneAPI-samples",
@@ -69,6 +72,7 @@
     "risc0/risc0",
     "riscv-software-src/opensbi",
     "ROCm/hip",
+    "root-project/cling",
     "SarahWeiii/CoACD",
     "sebastianstarke/AI4Animation",
     "soramimi/guitar",

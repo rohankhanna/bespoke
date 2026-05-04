@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 323,
-    "concepts": 569,
-    "observations": 569,
-    "repos": 90,
-    "terms": 564
+    "concepts": 578,
+    "observations": 578,
+    "repos": 91,
+    "terms": 573
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -28,6 +28,7 @@
     "bpython/bpython",
     "cheshire-cat-ai/core",
     "chungmin99/pyroki",
+    "CoinCheung/BiSeNet",
     "cvg/depthsplat",
     "databricks/megablocks",
     "davidhalter/jedi",

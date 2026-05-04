@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 606,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 47,
-    "terms": 183
+    "components": 629,
+    "concepts": 185,
+    "observations": 185,
+    "repos": 48,
+    "terms": 184
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -36,6 +36,7 @@
     "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
     "hudochenkov/stylelint-order",
+    "igvteam/igv.js",
     "kharchenkolab/pagoda2",
     "kriszyp/cbor-x",
     "Level/abstract-level",

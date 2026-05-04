@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 325,
-    "concepts": 197,
-    "observations": 197,
+    "components": 321,
+    "concepts": 201,
+    "observations": 201,
     "repos": 46,
-    "terms": 197
+    "terms": 201
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "ai-dynamo/modelexpress",
@@ -34,9 +34,7 @@
     "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
-    "filecoin-project/actors-utils",
     "fortanix/rustls-mbedtls-provider",
-    "foundry-rs/foundry-fork-db",
     "GreptimeTeam/greptimedb-ingester-rust",
     "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
@@ -59,6 +57,8 @@
     "Systemcluster/kitoken",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
+    "typst/typst-assets",
+    "urschrei/rdp",
     "zcash/pasta_curves"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 541,
-    "concepts": 85,
-    "observations": 85,
+    "components": 556,
+    "concepts": 83,
+    "observations": 83,
     "repos": 27,
-    "terms": 85
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "9romise/eslint-plugin-import-lite",
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
@@ -32,7 +33,6 @@
     "pkgxdev/brewkit",
     "pkgxdev/pkgm",
     "privatenumber/is-fs-case-sensitive",
-    "SchwarzIT/api-linter-rules",
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
     "skilld-dev/retriv",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 154,
-    "observations": 157,
-    "repos": 36,
-    "terms": 155
+    "components": 192,
+    "concepts": 162,
+    "observations": 165,
+    "repos": 38,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
     "atanunq/viuer",
-    "AtomaAI/atoma-infer",
     "bbqsrc/cargo-ndk",
     "bluss/matrixmultiply",
     "browserslist/browserslist-rs",
@@ -28,6 +27,7 @@
     "faradayio/cage",
     "guillaume-be/rust-tokenizers",
     "harfbuzz/ttf-parser",
+    "kata-containers/cgroups-rs",
     "lerouxrgd/datachannel-rs",
     "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
@@ -39,11 +39,13 @@
     "pksunkara/cargo-workspaces",
     "pythops/tenere",
     "Roblox/foreman",
+    "rust-bio/rust-htslib",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
     "rust-lang/backtrace-rs",
     "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",
+    "scopedb/percas",
     "shekohex/allo-isolate",
     "stanislav-tkach/os_info",
     "typst/pdf-writer",

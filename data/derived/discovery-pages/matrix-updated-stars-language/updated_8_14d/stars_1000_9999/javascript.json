@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1440,
-    "concepts": 309,
-    "observations": 309,
-    "repos": 41,
-    "terms": 305
+    "components": 1531,
+    "concepts": 308,
+    "observations": 308,
+    "repos": 43,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T05:44:20.763558+00:00",
+  "generated_at": "2026-05-04T11:50:57.944186+00:00",
   "repo_ids": [
+    "americanexpress/jest-image-snapshot",
     "amperser/proselint",
     "apache/cordova-android",
     "apache/cordova-ios",
     "Automattic/juice",
     "Blockstream/esplora",
-    "callstack/react-native-builder-bob",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
     "dequelabs/axe-core",
@@ -32,12 +32,13 @@
     "grommet/grommet",
     "i18next/i18next",
     "ipfs/ipfs-desktop",
+    "isomorphic-git/isomorphic-git",
     "jprichardson/node-fs-extra",
     "json-schema-org/json-schema-spec",
     "mapbox/node-pre-gyp",
-    "micromatch/picomatch",
     "minio/minio-js",
     "newrelic/node-newrelic",
+    "NickColley/jest-axe",
     "nodegit/nodegit",
     "nodejs/undici",
     "pmmmwh/react-refresh-webpack-plugin",
@@ -54,6 +55,7 @@
     "vizzuhq/vizzu-lib",
     "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
+    "WiseLibs/better-sqlite3",
     "yahoo/serialize-javascript"
   ]
 }
