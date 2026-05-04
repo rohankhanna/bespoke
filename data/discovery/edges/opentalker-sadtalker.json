@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
+      "target": "rudrabha/wav2lip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
       "target": "feiiyin/styleheat",
       "target_type": "repository"
     },
@@ -11,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
-      "target": "doubiiu/codetalker",
+      "target": "vinthony/video-retalking",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
       "target": "carlyx/dpe",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenTalker/SadTalker",
-      "target": "feiiyin/spi",
       "target_type": "repository"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "OpenTalker/SadTalker"
 }

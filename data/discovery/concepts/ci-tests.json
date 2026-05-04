@@ -303,6 +303,18 @@
       "source_repo": "firebase/quickstart-js",
       "status": "candidate-context",
       "text": "CI Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boostorg/nowide",
+      "status": "candidate-context",
+      "text": "Boost.Nowide - Standard library functions with UTF-8 API on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/nowide",
+      "status": "candidate-context",
+      "text": "CI Tests"
     }
   ],
   "candidate_glosses": [
@@ -453,6 +465,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "firebase/quickstart-js",
+      "status": "candidate",
+      "text": "CI Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boostorg/nowide",
       "status": "candidate",
       "text": "CI Tests"
     }
@@ -798,11 +816,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "boostorg/nowide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

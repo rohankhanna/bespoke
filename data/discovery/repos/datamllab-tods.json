@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datamllab/tods",
+      "target": "datamllab/autovideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datamllab/tods",
+      "target": "daochenzha/data-centric-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "datamllab/tods",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "datamllab/tods",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "datamllab/tods",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "datamllab/tods",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "time-series-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datamllab/tods",
+      "target": "time-series-anomaly-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:06:57.555722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6350
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TODS: An Automated Time-series Outlier Detection System",
+    "fork": false,
+    "full_name": "datamllab/tods",
+    "html_url": "https://github.com/datamllab/tods",
+    "language": "Python",
+    "pushed_at": "2023-09-11T15:48:11Z",
+    "stargazers_count": 1659,
+    "topics": [
+      "anomaly-detection",
+      "automl",
+      "machine-learning",
+      "outlier-detection",
+      "time-series",
+      "time-series-analysis",
+      "time-series-anomaly-detection"
+    ],
+    "updated_at": "2026-05-03T03:18:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daochenzha/data-centric-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datamllab/autovideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-detection"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-analysis"
+    },
+    {
+      "context_snippet": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series-anomaly-detection"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "aca-lab-sjtu/token-ring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "adlik/smoothquantplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "66ring/critiprefill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "abdelfattah-lab/nitro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "target": "issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:59:59.576029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 89172
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcd6A curated list of Awesome LLM/VLM Inference Papers with codes: WINT8/4, FlashAttention, PagedAttention, MLA, Parallelism, etc. \ud83c\udf89\ud83c\udf89",
+    "fork": true,
+    "full_name": "DefTruth/Awesome-LLM-Inference",
+    "html_url": "https://github.com/DefTruth/Awesome-LLM-Inference",
+    "language": null,
+    "pushed_at": "2025-03-30T02:18:08Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-11T17:17:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "66ring/critiprefill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abdelfattah-lab/nitro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aca-lab-sjtu/token-ring",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adlik/smoothquantplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "issues"
+    }
+  ]
+}

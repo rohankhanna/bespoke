@@ -1,7 +1,7 @@
 {
   "component": "@hookform/resolvers",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "starbeam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "A collection of utilities for helping applications be more reactive."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate",
+      "text": "A collection of utilities for helping applications be more reactive."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016597,
+      "status": "candidate",
+      "text": "superbeam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016596,
+      "status": "candidate",
+      "text": "hyperbeam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016595,
+      "status": "candidate",
+      "text": "superray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016594,
+      "status": "candidate",
+      "text": "starshine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016593,
+      "status": "candidate",
+      "text": "star"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "starbeam",
+  "concept_id": "starbeam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "universal-ember/reactiveweb"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starbeam",
+      "sense_id": "starbeam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

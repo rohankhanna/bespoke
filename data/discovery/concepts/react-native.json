@@ -763,6 +763,18 @@
       "source_repo": "axeldelafosse/storybook-rnw-monorepo",
       "status": "candidate-context",
       "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate-context",
+      "text": "Command line interface for Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1155,12 @@
       "source_repo": "axeldelafosse/storybook-rnw-monorepo",
       "status": "candidate",
       "text": "Here is an example showing how to create a universal React app using Expo and Next.js in a monorepo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1708,11 +1726,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

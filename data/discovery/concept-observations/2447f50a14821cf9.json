@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugins to interface Gazebo with YARP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gazebo-yarp-plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gazebo-yarp-plugins"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033044,
+      "status": "candidate",
+      "text": "summerhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044433,
+      "status": "candidate",
+      "text": "pavilion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012803,
+      "status": "candidate",
+      "text": "booth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20007227,
+      "status": "candidate",
+      "text": "kiosk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005706,
+      "status": "candidate",
+      "text": "newsstand"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gazebo",
+      "sense_id": "gazebo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "summerhouse"
+    }
+  ],
+  "concept_id": "gazebo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gazebo",
+  "observation_id": "2447f50a14821cf9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "gazebo",
+  "source_context_snippet": "gazebo-yarp-plugins",
+  "source_file": null,
+  "source_repo": "robotology/gazebo-yarp-plugins",
+  "source_repo_description": "Plugins to interface Gazebo with YARP."
+}

@@ -19,6 +19,18 @@
       "source_repo": "jadestrong/lsp-volar",
       "status": "candidate-context",
       "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "\u2705  Painless Vue forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jadestrong/lsp-volar",
       "status": "candidate",
       "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "jadestrong/lsp-volar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "logaretm/vee-validate"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

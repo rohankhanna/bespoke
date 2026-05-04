@@ -84,7 +84,7 @@
   "normalized_form": "build-debug-apk",
   "observation_id": "83a80bd13e58b9e8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Build debug apk",
   "source_context_snippet": "Build debug apk",
   "source_file": ".github/workflows/build-debug-apk.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool to project  equirectangular panorama into perspective images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "equirectangular-panorama",
+      "sense_id": "equirectangular-panorama#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "equirectangular-panorama",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "equirectangular-panorama",
+  "observation_id": "4685aff4d3be7abc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "equirectangular-panorama",
+  "source_context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+  "source_file": null,
+  "source_repo": "fuenwang/Equirec2Perspec",
+  "source_repo_description": "A tool to project  equirectangular panorama into perspective images"
+}

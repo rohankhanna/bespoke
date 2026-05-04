@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +45,18 @@
       "source_repo": "amilajack/eslint-plugin-compat-demo",
       "status": "candidate-context",
       "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "Industry standard API mocking for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "compat"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +77,12 @@
       "source_repo": "amilajack/eslint-plugin-compat-demo",
       "status": "candidate",
       "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate",
+      "text": "compat"
     }
   ],
   "candidate_related_terms": [
@@ -110,11 +130,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "amilajack/eslint-plugin-compat-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/compat.yml",
+      "source_repo": "mswjs/msw"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

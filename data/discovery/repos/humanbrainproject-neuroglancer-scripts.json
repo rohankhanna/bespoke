@@ -38,20 +38,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "HumanBrainProject/neuroglancer-scripts",
-      "target": "humanbrainproject/neuroglancer-scripts.",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "HumanBrainProject/neuroglancer-scripts",
-      "target": "seung-lab/cloud-volume",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/publish_to_pypi.yaml",
       "source_repo": "HumanBrainProject/neuroglancer-scripts",
@@ -122,7 +108,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:02:16.214263+00:00",
+  "fetched_at": "2026-05-04T00:54:02.725599+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -157,18 +143,7 @@
     ],
     "updated_at": "2025-12-07T12:28:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "humanbrainproject/neuroglancer-scripts.",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "seung-lab/cloud-volume",
-      "source_file": "README.rst"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish release to PyPI",

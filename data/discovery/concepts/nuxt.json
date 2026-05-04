@@ -181,6 +181,30 @@
       "source_repo": "cloydlau/json-editor-vue",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "This is a Nuxt.js Boilerplate project that you can clone and play around with to learn the cool stuff you can do with Nuxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/wemake-vue-template",
+      "status": "candidate-context",
+      "text": "Bleeding edge vue template focused on code quality and developer happiness."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-vue-template",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
     }
   ],
   "candidate_glosses": [
@@ -273,6 +297,18 @@
       "source_repo": "cloydlau/json-editor-vue",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/wemake-vue-template",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -484,11 +520,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "debs-obrien/nuxt-boilerplate-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/wemake-vue-template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

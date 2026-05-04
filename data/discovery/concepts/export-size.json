@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export Size"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vueuse",
+      "status": "candidate-context",
+      "text": "Collection of essential Vue Composition Utilities for Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse",
+      "status": "candidate-context",
+      "text": "Export Size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse",
+      "status": "candidate",
+      "text": "Export Size"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12081,
+      "status": "candidate",
+      "text": "market"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12036,
+      "status": "candidate",
+      "text": "grain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12036,
+      "status": "candidate",
+      "text": "sole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12025,
+      "status": "candidate",
+      "text": "ale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12025,
+      "status": "candidate",
+      "text": "camera"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export Size",
+  "concept_id": "export-size",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/export-size_yml",
+      "source_repo": "vueuse/vueuse"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export Size",
+      "sense_id": "export-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

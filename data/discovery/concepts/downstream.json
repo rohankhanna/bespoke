@@ -128,6 +128,18 @@
       "source_repo": "JuliaML/MLUtils.jl",
       "status": "candidate-context",
       "text": "Downstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "An implementation of chunked, compressed, N-dimensional arrays for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "Downstream"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +200,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate",
+      "text": "Downstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
       "status": "candidate",
       "text": "Downstream"
     }
@@ -307,11 +325,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/Downstream.yml",
       "source_repo": "JuliaML/MLUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "zarr-developers/zarr-python"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

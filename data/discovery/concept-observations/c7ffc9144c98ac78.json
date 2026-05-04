@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MTCNN face detection implementation for TensorFlow, as a PIP package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python3",
+      "sense_id": "python3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python3",
+  "observation_id": "c7ffc9144c98ac78",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "python3",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)",
+  "source_file": null,
+  "source_repo": "ipazc/mtcnn",
+  "source_repo_description": "MTCNN face detection implementation for TensorFlow, as a PIP package."
+}

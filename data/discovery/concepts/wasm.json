@@ -947,6 +947,18 @@
       "source_repo": "kuzudb/kuzu",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "A Clang-based C++ Interoperability Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "WASM"
     }
   ],
   "candidate_glosses": [
@@ -1423,6 +1435,12 @@
       "source_repo": "kuzudb/kuzu",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate",
+      "text": "WASM"
     }
   ],
   "candidate_related_terms": [
@@ -2234,11 +2252,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

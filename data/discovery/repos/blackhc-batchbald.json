@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "blackhc/batchbald_redux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "elementai/baal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "activelearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD",
+      "target": "reproduction-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:05.935530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1272
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 228
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning.",
+    "fork": false,
+    "full_name": "BlackHC/BatchBALD",
+    "html_url": "https://github.com/BlackHC/BatchBALD",
+    "language": "Python",
+    "pushed_at": "2026-04-13T16:47:37Z",
+    "stargazers_count": 248,
+    "topics": [
+      "activelearning",
+      "deep-learning",
+      "machine-learning",
+      "reproduction-code"
+    ],
+    "updated_at": "2026-03-31T07:26:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blackhc/batchbald_redux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elementai/baal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activelearning"
+    },
+    {
+      "context_snippet": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproduction-code"
+    }
+  ]
+}

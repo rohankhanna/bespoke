@@ -1,0 +1,365 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "scrapy/scrapy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "zytedata/zyte-smartproxy-playwright",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "chrome-headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "firefox-headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "headless-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "javascript-renderer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "playwright-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "python-asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "scrapy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "target": "webkit-headless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:38.346289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41934
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 70
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 786
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 563
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfad Playwright integration for Scrapy",
+    "fork": false,
+    "full_name": "scrapy-plugins/scrapy-playwright",
+    "html_url": "https://github.com/scrapy-plugins/scrapy-playwright",
+    "language": "Python",
+    "pushed_at": "2026-04-09T08:40:31Z",
+    "stargazers_count": 1399,
+    "topics": [
+      "chrome-headless",
+      "firefox-headless",
+      "hacktoberfest",
+      "headless-browser",
+      "javascript-renderer",
+      "playwright",
+      "playwright-python",
+      "python",
+      "python-asyncio",
+      "python3",
+      "scrapy",
+      "webkit-headless"
+    ],
+    "updated_at": "2026-05-01T17:07:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrapy/scrapy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zytedata/zyte-smartproxy-playwright",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-headless"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-headless"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless-browser"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-renderer"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright-python"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-asyncio"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrapy"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webkit-headless"
+    }
+  ]
+}

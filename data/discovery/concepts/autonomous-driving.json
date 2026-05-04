@@ -583,6 +583,30 @@
       "source_repo": "MCG-NJU/SparseBEV",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparsebev-high-performance-sparse-3d-object/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=sparsebev-high-performance-spa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "priest-yang/VADv2",
+      "status": "candidate-context",
+      "text": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priest-yang/VADv2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "Implementation of SqueezeSegV2, Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
     }
   ],
   "candidate_glosses": [
@@ -879,6 +903,18 @@
       "source_repo": "MCG-NJU/SparseBEV",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sparsebev-high-performance-sparse-3d-object/3d-object-detection-on-nuscenes-camera-only)](https://paperswithcode.com/sota/3d-object-detection-on-nuscenes-camera-only?p=sparsebev-high-performance-spa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priest-yang/VADv2",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
     }
   ],
   "candidate_related_terms": [],
@@ -1300,11 +1336,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "MCG-NJU/SparseBEV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xuanyuzhou98/SqueezeSegV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "worldbench/Robo3D"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

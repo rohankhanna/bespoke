@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:48:13.159489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 472
+    },
+    {
+      "path": "requirements.txt",
+      "size": 61
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch package for the discrete VAE used for DALL\u00b7E.",
+    "fork": false,
+    "full_name": "openai/DALL-E",
+    "html_url": "https://github.com/openai/DALL-E",
+    "language": "Python",
+    "pushed_at": "2024-01-31T15:42:28Z",
+    "stargazers_count": 10862,
+    "topics": [],
+    "updated_at": "2026-05-03T18:16:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

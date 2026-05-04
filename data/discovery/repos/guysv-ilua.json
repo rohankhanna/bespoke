@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guysv/ilua",
+      "target": "yuin/gopher-lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guysv/ilua",
+      "target": "console-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guysv/ilua",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guysv/ilua",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guysv/ilua",
+      "target": "jupyter-kernels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "guysv/ilua",
+      "target": "prototyping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:38:38.203136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1550
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Portable Lua kernel for Jupyter",
+    "fork": false,
+    "full_name": "guysv/ilua",
+    "html_url": "https://github.com/guysv/ilua",
+    "language": "Lua",
+    "pushed_at": "2023-12-21T21:59:03Z",
+    "stargazers_count": 129,
+    "topics": [
+      "console-application",
+      "interactive",
+      "jupyter",
+      "jupyter-kernels",
+      "lua",
+      "prototyping"
+    ],
+    "updated_at": "2026-04-12T16:14:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuin/gopher-lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-application"
+    },
+    {
+      "context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive"
+    },
+    {
+      "context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-kernels"
+    },
+    {
+      "context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prototyping"
+    }
+  ]
+}

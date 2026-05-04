@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check changelog entries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "An implementation of chunked, compressed, N-dimensional arrays for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "Check changelog entries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate",
+      "text": "Check changelog entries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "constancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "stability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10302,
+      "status": "candidate",
+      "text": "marks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10302,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10302,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check changelog entries",
+  "concept_id": "check-changelog-entries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/check_changelogs.yml",
+      "source_repo": "zarr-developers/zarr-python"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check changelog entries",
+      "sense_id": "check-changelog-entries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

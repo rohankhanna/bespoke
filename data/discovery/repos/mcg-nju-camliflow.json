@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "vislearn/ngransac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "target": "scene-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:45:47.407901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2022 Oral & TPAMI 2023] Learning Optical Flow and Scene Flow with Bidirectional Camera-LiDAR Fusion",
+    "fork": false,
+    "full_name": "MCG-NJU/CamLiFlow",
+    "html_url": "https://github.com/MCG-NJU/CamLiFlow",
+    "language": "Python",
+    "pushed_at": "2024-07-29T16:01:09Z",
+    "stargazers_count": 248,
+    "topics": [
+      "cvpr2022",
+      "multimodal",
+      "optical-flow",
+      "point-cloud",
+      "scene-flow"
+    ],
+    "updated_at": "2026-04-18T15:09:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vislearn/ngransac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-flow"
+    }
+  ]
+}

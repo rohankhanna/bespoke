@@ -84,7 +84,7 @@
   "normalized_form": "check-build",
   "observation_id": "2fba7bf85588c16b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Check build",
   "source_context_snippet": "Check build",
   "source_file": ".github/workflows/check-build.yml",

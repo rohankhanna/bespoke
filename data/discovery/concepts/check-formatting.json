@@ -38,6 +38,18 @@
       "source_repo": "jemalloc/jemalloc",
       "status": "candidate-context",
       "text": "'Check Formatting'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/deploy-pages",
+      "status": "candidate-context",
+      "text": "GitHub Action to publish artifacts to GitHub Pages for deployments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/deploy-pages",
+      "status": "candidate-context",
+      "text": "Check formatting"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +70,12 @@
       "source_repo": "jemalloc/jemalloc",
       "status": "candidate",
       "text": "'Check Formatting'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/deploy-pages",
+      "status": "candidate",
+      "text": "Check formatting"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +137,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/check_formatting.yaml",
       "source_repo": "jemalloc/jemalloc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/check-formatting.yml",
+      "source_repo": "actions/deploy-pages"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

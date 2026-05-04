@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "ifromeast/cuda_learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "bruce-lee-ly/cuda_hgemm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "liu-xiandong/how_to_optimize_in_gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "bbuf/how-to-optim-algorithm-in-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:00:16.674661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 52199
+    },
+    {
+      "path": ".github/workflows/.gitignore",
+      "size": 175
+    },
+    {
+      "path": ".github/workflows/issue.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcda200+ Tensor/CUDA Cores Kernels, \u26a1\ufe0fflash-attn-mma, \u26a1\ufe0fhgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 \ud83c\udf89\ud83c\udf89).",
+    "fork": true,
+    "full_name": "DefTruth/CUDA-Learn-Notes",
+    "html_url": "https://github.com/DefTruth/CUDA-Learn-Notes",
+    "language": "Cuda",
+    "pushed_at": "2025-04-26T04:54:26Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-05-01T05:25:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbuf/how-to-optim-algorithm-in-cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bruce-lee-ly/cuda_hgemm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifromeast/cuda_learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liu-xiandong/how_to_optimize_in_gpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "term": "issues"
+    }
+  ]
+}

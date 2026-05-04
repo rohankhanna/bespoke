@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-ZeroEGGS",
+      "target": "character-animation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:54:38.478298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7039
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ZeroEGGS: Zero-Shot Example-Based Gesture Generation from Speech",
+    "fork": false,
+    "full_name": "ubisoft/ubisoft-laforge-ZeroEGGS",
+    "html_url": "https://github.com/ubisoft/ubisoft-laforge-ZeroEGGS",
+    "language": "Python",
+    "pushed_at": "2023-08-16T12:50:43Z",
+    "stargazers_count": 425,
+    "topics": [
+      "character-animation"
+    ],
+    "updated_at": "2026-04-23T12:05:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-animation"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "center"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gregwar/Image",
+      "status": "candidate-context",
+      "text": "A PHP library to handle images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gregwar/Image",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gregwar/Image",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000235,
+      "status": "candidate",
+      "text": "central"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994484,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991423,
+      "status": "candidate",
+      "text": "center of attention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984496,
+      "status": "candidate",
+      "text": "nerve centre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983546,
+      "status": "candidate",
+      "text": "middle"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47054,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41088,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31077,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    }
+  ],
+  "canonical_name": "center",
+  "concept_id": "center",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Gregwar/Image"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "center",
+      "sense_id": "center#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

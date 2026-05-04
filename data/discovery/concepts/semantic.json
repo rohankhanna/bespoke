@@ -70,6 +70,18 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate-context",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate-context",
+      "text": "Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +313,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "FAIR-IMPACT/MOD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

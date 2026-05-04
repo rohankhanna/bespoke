@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -667,6 +667,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-react-on-review.yml",
       "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode-e2e.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan-src"
     }
   ]
 }

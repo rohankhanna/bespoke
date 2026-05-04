@@ -19,6 +19,18 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate-context",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "Plugins to interface Gazebo with YARP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

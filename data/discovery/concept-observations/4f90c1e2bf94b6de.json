@@ -84,7 +84,7 @@
   "normalized_form": "build-cpu-and-macos",
   "observation_id": "4f90c1e2bf94b6de",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Build CPU and macOS",
   "source_context_snippet": "Build CPU and macOS",
   "source_file": ".github/workflows/build-portable-release.yml",

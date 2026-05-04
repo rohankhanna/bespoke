@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Export"
+    "Export",
+    "export"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "j20001970/GDMP-demo",
       "status": "candidate-context",
       "text": "Export"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate-context",
+      "text": "Generate URDF models from CREO mechanisms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate-context",
+      "text": "Generate URDF model from CREO Parametric mechanisms."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "j20001970/GDMP-demo",
       "status": "candidate",
       "text": "Export"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate",
+      "text": "Generate URDF model from CREO Parametric mechanisms."
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +205,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/export.yaml",
       "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

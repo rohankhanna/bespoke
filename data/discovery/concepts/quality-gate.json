@@ -32,6 +32,18 @@
       "source_repo": "pkgxdev/dev",
       "status": "candidate-context",
       "text": "quality-gate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/bpb",
+      "status": "candidate-context",
+      "text": "the easiest way to sign your git commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/bpb",
+      "status": "candidate-context",
+      "text": "quality-gate"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pkgxdev/dev",
+      "status": "candidate",
+      "text": "quality-gate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/bpb",
       "status": "candidate",
       "text": "quality-gate"
     }
@@ -71,11 +89,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/quality-gate.yml",
       "source_repo": "pkgxdev/dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/bpb"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

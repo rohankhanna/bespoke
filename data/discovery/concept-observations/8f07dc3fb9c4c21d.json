@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yapi idea \u4e0a\u4f20\u63d2\u4ef6,\u5feb\u901f\u751f\u6210\u6587\u6863"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yapi-plugin",
+      "sense_id": "yapi-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yapi-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yapi-plugin",
+  "observation_id": "8f07dc3fb9c4c21d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "yapi-plugin",
+  "source_context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+  "source_file": null,
+  "source_repo": "diwand/YapiIdeaUploadPlugin",
+  "source_repo_description": "yapi idea \u4e0a\u4f20\u63d2\u4ef6,\u5feb\u901f\u751f\u6210\u6587\u6863"
+}

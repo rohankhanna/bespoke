@@ -385,13 +385,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql/graphql-http",
-      "target": "jaydenseric/graphql-upload",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "graphql/graphql-http",
@@ -924,7 +917,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:56:36.097283+00:00",
+  "fetched_at": "2026-05-04T01:54:30.922788+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -982,11 +975,6 @@
     "updated_at": "2026-04-27T00:39:36Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jaydenseric/graphql-upload",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-observable",

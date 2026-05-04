@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "nightfurysl2001/cjk-character-count",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "googlefonts/batang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "lxgw/lxgwzhisong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "lxgw/yozai-font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "chinese-simplified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwZhenKai",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:01.367011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u971e\u9e5c\u81fb\u6977\uff1a\u57fa\u4e8e\u300c\u971e\u9e5c\u6587\u6977\u300d\u884d\u751f\uff0c\u524d\u671f\u624b\u52a8\u52a0\u7c97\u8c03\u6574\u5b57\u5f62\uff0c\u540e\u671f\u7531 AI \u751f\u6210\u5b57\u5f62\u8f85\u52a9\u8865\u5b57\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002A bolder weight, AI-assisted font derived from LXGW Wenkai.",
+    "fork": false,
+    "full_name": "lxgw/LxgwZhenKai",
+    "html_url": "https://github.com/lxgw/LxgwZhenKai",
+    "language": null,
+    "pushed_at": "2026-03-17T15:45:50Z",
+    "stargazers_count": 773,
+    "topics": [
+      "chinese-simplified",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-03T11:56:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/batang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwzhisong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/yozai-font",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightfurysl2001/cjk-character-count",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-simplified"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

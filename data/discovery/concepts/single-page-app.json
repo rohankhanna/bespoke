@@ -31,6 +31,18 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate-context",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "marmelab/react-admin",
       "status": "candidate",
       "text": "A frontend Framework for building single-page applications running in the browser on top of REST/GraphQL APIs, using TypeScript, [React](https://facebook.github.io/react/) and [Material Design](https://material.io/). Open sourced and maintained by [marmelab](https://marmelab.com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "marmelab/react-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "louislam/dockge"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -655,6 +655,18 @@
       "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate-context",
       "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_glosses": [
@@ -981,6 +993,12 @@
       "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate",
       "text": "![PySceneDetect](https://raw.githubusercontent.com/Breakthrough/PySceneDetect/main/website/pages/img/pyscenedetect_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_related_terms": [
@@ -1513,11 +1531,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

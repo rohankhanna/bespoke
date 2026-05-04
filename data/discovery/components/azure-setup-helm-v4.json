@@ -1,7 +1,7 @@
 {
   "component": "azure/setup-helm@v4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm_chart_release.yml",
       "source_repo": "seaweedfs/seaweedfs-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager"
     }
   ]
 }

@@ -213,6 +213,18 @@
       "source_repo": "DOCGroup/ACE_TAO",
       "status": "candidate-context",
       "text": "face"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate-context",
+      "text": "MTCNN face detection implementation for TensorFlow, as a PIP package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
     }
   ],
   "candidate_glosses": [
@@ -317,6 +329,12 @@
       "source_repo": "DOCGroup/ACE_TAO",
       "status": "candidate",
       "text": "face"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
     }
   ],
   "candidate_related_terms": [
@@ -516,11 +534,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/face.yml",
       "source_repo": "DOCGroup/ACE_TAO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ipazc/mtcnn"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

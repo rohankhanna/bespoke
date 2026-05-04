@@ -39,6 +39,18 @@
       "source_repo": "grafana/k8s-monitoring-helm",
       "status": "candidate-context",
       "text": "Release Helm chart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Generic cloud controller manager for hybrid deployments using Talos OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "status": "candidate-context",
+      "text": "Release Helm Chart"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +71,12 @@
       "source_repo": "grafana/k8s-monitoring-helm",
       "status": "candidate",
       "text": "Release Helm chart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "status": "candidate",
+      "text": "Release Helm Chart"
     }
   ],
   "candidate_related_terms": [
@@ -120,11 +138,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

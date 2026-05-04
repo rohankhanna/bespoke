@@ -67,6 +67,42 @@
       "source_repo": "daeh/zotero-markdb-connect",
       "status": "candidate-context",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eschnett/zotero-citationcounts",
+      "status": "candidate-context",
+      "text": "Zotero plugin for auto-fetching citation counts from various sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eschnett/zotero-citationcounts",
+      "status": "candidate-context",
+      "text": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate-context",
+      "text": "A Python library to retrieve annotations and notes from Zotero and save them into Markdown files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate-context",
+      "text": "Generate Markdown files from Zotero annotations and notes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windingwind/zotero-pdf-translate",
+      "status": "candidate-context",
+      "text": "Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-pdf-translate",
+      "status": "candidate-context",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7/8-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "daeh/zotero-markdb-connect",
       "status": "candidate",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eschnett/zotero-citationcounts",
+      "status": "candidate",
+      "text": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate",
+      "text": "Generate Markdown files from Zotero annotations and notes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-pdf-translate",
+      "status": "candidate",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7/8-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +208,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "daeh/zotero-markdb-connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "eschnett/zotero-citationcounts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "e-alizadeh/Zotero2MD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "windingwind/zotero-pdf-translate"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

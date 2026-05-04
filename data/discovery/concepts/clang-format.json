@@ -167,6 +167,18 @@
       "source_repo": "compiler-research/xeus-cpp",
       "status": "candidate-context",
       "text": "clang-format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "A Clang-based C++ Interoperability Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "clang-format"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "compiler-research/xeus-cpp",
+      "status": "candidate",
+      "text": "clang-format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
       "status": "candidate",
       "text": "clang-format"
     }
@@ -422,11 +440,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/clang-format.yml",
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/CppInterOp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

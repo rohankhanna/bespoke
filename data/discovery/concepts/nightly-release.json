@@ -195,6 +195,30 @@
       "source_repo": "intlify/bundle-tools",
       "status": "candidate-context",
       "text": "Nightly release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calda/SwiftFormat-nightly",
+      "status": "candidate-context",
+      "text": "Nightly builds of the SwiftFormat tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calda/SwiftFormat-nightly",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -293,6 +317,18 @@
       "source_repo": "intlify/bundle-tools",
       "status": "candidate",
       "text": "Nightly release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calda/SwiftFormat-nightly",
+      "status": "candidate",
+      "text": "Nightly Release"
     }
   ],
   "candidate_related_terms": [
@@ -546,11 +582,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/nightly-release.yaml",
       "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "louislam/dockge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "calda/SwiftFormat-nightly"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

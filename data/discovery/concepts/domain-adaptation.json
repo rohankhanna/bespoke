@@ -61,6 +61,18 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate-context",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "Implementation of SqueezeSegV2, Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +105,12 @@
       "source_repo": "rinongal/StyleGAN-nada",
       "status": "candidate",
       "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rinongal/StyleGAN-nada"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xuanyuzhou98/SqueezeSegV2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

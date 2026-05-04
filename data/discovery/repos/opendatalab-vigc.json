@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/VIGC",
+      "target": "allenai/aokvqa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:18.389229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12510
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 103
+    },
+    {
+      "path": "requirements.txt",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AAAI 2024: Visual Instruction Generation and Correction ",
+    "fork": false,
+    "full_name": "opendatalab/VIGC",
+    "html_url": "https://github.com/opendatalab/VIGC",
+    "language": "Python",
+    "pushed_at": "2024-02-04T09:21:58Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-05-04T00:29:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/aokvqa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

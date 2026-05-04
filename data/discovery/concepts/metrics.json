@@ -604,6 +604,18 @@
       "source_repo": "hagezi/dns-blocklists",
       "status": "candidate-context",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_glosses": [
@@ -906,6 +918,12 @@
       "source_repo": "hagezi/dns-blocklists",
       "status": "candidate",
       "text": "![GitHub last commit](https://img.shields.io/github/last-commit/hagezi/dns-blocklists)![GitHub issues](https://img.shields.io/github/issues/hagezi/dns-blocklists)![GitHub closed issues](https://img.shields.io/github/issues-closed/hagezi/dns-blocklists)![GitHub repo size](https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_related_terms": [
@@ -1561,11 +1579,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "hagezi/dns-blocklists"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

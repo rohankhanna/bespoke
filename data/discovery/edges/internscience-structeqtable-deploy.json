@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternScience/StructEqTable-Deploy",
-      "target": "google-research/pix2struct",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "InternScience/StructEqTable-Deploy",
@@ -50,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "InternScience/StructEqTable-Deploy"
 }

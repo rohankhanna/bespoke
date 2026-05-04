@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lrjconan/GRAN",
+      "target": "jiaxuanyou/graph-generation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN",
+      "target": "deep-generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN",
+      "target": "graph-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN",
+      "target": "neurips-2019",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:19.635168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2359
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient Graph Generation with Graph Recurrent Attention Networks, Deep Generative Model of Graphs, Graph Neural Networks, NeurIPS 2019",
+    "fork": false,
+    "full_name": "lrjconan/GRAN",
+    "html_url": "https://github.com/lrjconan/GRAN",
+    "language": "C++",
+    "pushed_at": "2023-08-03T03:21:22Z",
+    "stargazers_count": 479,
+    "topics": [
+      "deep-generative-model",
+      "generative-model",
+      "graph-generation",
+      "graph-neural-networks",
+      "neurips-2019"
+    ],
+    "updated_at": "2026-01-23T21:33:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiaxuanyou/graph-generation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-generative-model"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-generation"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2019"
+    }
+  ]
+}

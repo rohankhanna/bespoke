@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/pix2struct",
+      "target": "google-research-datasets/widget-caption",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/pix2struct",
+      "target": "google-research-datasets/screen2words",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/pix2struct",
+      "target": "google-research-datasets/uibert",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:19.906043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/pix2struct",
+    "html_url": "https://github.com/google-research/pix2struct",
+    "language": "Python",
+    "pushed_at": "2025-06-03T14:48:42Z",
+    "stargazers_count": 684,
+    "topics": [],
+    "updated_at": "2026-04-19T12:51:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/screen2words",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/uibert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/widget-caption",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

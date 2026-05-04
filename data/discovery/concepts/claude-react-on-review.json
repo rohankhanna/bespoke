@@ -19,12 +19,30 @@
       "source_repo": "phpstan/phpstan",
       "status": "candidate-context",
       "text": "\"Claude React On Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "PHPStan's source code. This is where development happens. Check https://github.com/phpstan/phpstan for the distribution repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "\"Claude React On Review\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "phpstan/phpstan",
+      "status": "candidate",
+      "text": "\"Claude React On Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
       "status": "candidate",
       "text": "\"Claude React On Review\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/claude-react-on-review.yml",
       "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan-src"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

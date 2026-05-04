@@ -55,6 +55,18 @@
       "source_repo": "istio/istio",
       "status": "candidate-context",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sony/gobreaker",
+      "status": "candidate-context",
+      "text": "Circuit Breaker implemented in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sony/gobreaker",
+      "status": "candidate-context",
+      "text": "gobreaker"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "istio/istio",
       "status": "candidate",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sony/gobreaker",
+      "status": "candidate",
+      "text": "gobreaker"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "istio/istio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "sony/gobreaker"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

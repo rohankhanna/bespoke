@@ -1,0 +1,311 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml"
+    },
+    {
+      "component": "unsplash/comment-on-pr@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.trigger.pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.build.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "Pollen - Render website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.dev.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "Pollen.jl build - dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pollen.trigger.pr.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "unsplash/comment-on-pr@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.pr.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "Pollen.jl build - PR preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.release.yml",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "Pollen.jl build - Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/FluxTraining.jl",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:07:21.137087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2524
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 204
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/pollen.build.yml",
+      "size": 2153
+    },
+    {
+      "path": ".github/workflows/pollen.render.yml",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/pollen.trigger.dev.yml",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/pollen.trigger.pr.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/pollen.trigger.release.yml",
+      "size": 436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A flexible neural net training library inspired by fast.ai",
+    "fork": false,
+    "full_name": "FluxML/FluxTraining.jl",
+    "html_url": "https://github.com/FluxML/FluxTraining.jl",
+    "language": "Julia",
+    "pushed_at": "2024-12-25T08:10:06Z",
+    "stargazers_count": 122,
+    "topics": [
+      "deep-learning",
+      "optimization"
+    ],
+    "updated_at": "2026-01-15T17:32:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Pollen - Render website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "term": "Pollen - Render website"
+    },
+    {
+      "context_snippet": "Pollen.jl build - dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.dev.yml",
+      "term": "Pollen.jl build - dev"
+    },
+    {
+      "context_snippet": "Pollen.jl build - PR preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.pr.yml",
+      "term": "Pollen.jl build - PR preview"
+    },
+    {
+      "context_snippet": "Pollen.jl build - Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pollen.trigger.release.yml",
+      "term": "Pollen.jl build - Release"
+    },
+    {
+      "context_snippet": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

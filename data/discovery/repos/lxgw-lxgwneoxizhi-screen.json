@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiZhi-Screen",
+      "target": "googlefonts/roboto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwNeoXiZhi-Screen",
+      "target": "radically/hanazonolite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:54.699305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LXGW Neo XiHei and LXGW Neo ZhiSong for Screen Reading.",
+    "fork": false,
+    "full_name": "lxgw/LxgwNeoXiZhi-Screen",
+    "html_url": "https://github.com/lxgw/LxgwNeoXiZhi-Screen",
+    "language": null,
+    "pushed_at": "2026-05-03T17:18:43Z",
+    "stargazers_count": 332,
+    "topics": [],
+    "updated_at": "2026-05-03T13:53:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/roboto",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radically/hanazonolite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

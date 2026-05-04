@@ -4,21 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/RVM-Inference",
-      "target": "deftruth/awesome-llm-inference",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/RVM-Inference",
       "target": "deftruth/awesome-sd-inference",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/RVM-Inference",
-      "target": "deftruth/cuda-learn-notes",
       "target_type": "repository"
     },
     {
@@ -64,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "xlite-dev/RVM-Inference"
 }

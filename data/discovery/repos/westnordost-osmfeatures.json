@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:05:06.055243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dictionary of OSM map features, accessible by terms and by tags, for Java, iOS and Android.",
+    "fork": false,
+    "full_name": "westnordost/osmfeatures",
+    "html_url": "https://github.com/westnordost/osmfeatures",
+    "language": "Kotlin",
+    "pushed_at": "2025-11-14T11:01:50Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-11-14T11:01:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

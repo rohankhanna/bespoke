@@ -523,6 +523,18 @@
       "source_repo": "paullouisageneau/libdatachannel",
       "status": "candidate-context",
       "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +795,12 @@
       "source_repo": "paullouisageneau/libdatachannel",
       "status": "candidate",
       "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1084,11 +1102,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "louislam/dockge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/LiveServer.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

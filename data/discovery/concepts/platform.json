@@ -31,6 +31,18 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "A collection of utilities for helping applications be more reactive."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "SafetyCulture/grpc-web-devtools",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate",
+      "text": "A collection of utilities for helping applications be more reactive."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "SafetyCulture/grpc-web-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "universal-ember/reactiveweb"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

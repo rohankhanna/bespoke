@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package and frontend build test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "Data annotation component library --provided as NPM packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "package and frontend build test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate",
+      "text": "package and frontend build test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27889,
+      "status": "candidate",
+      "text": "authentication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17806,
+      "status": "candidate",
+      "text": "workstation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17716,
+      "status": "candidate",
+      "text": "debugger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17210,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17134,
+      "status": "candidate",
+      "text": "bow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package and frontend build test",
+  "concept_id": "package-and-frontend-build-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/build-package-test.yml",
+      "source_repo": "opendatalab/labelU-Kit"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package and frontend build test",
+      "sense_id": "package-and-frontend-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

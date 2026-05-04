@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lucidrains/deep-daze",
+      "target": "eleutherai/dalle-mtf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/deep-daze",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/deep-daze",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "implicit-neural-representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "multi-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "siren",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:48:05.598603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13222
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network). Technique was originally created by https://twitter.com/advadnoun",
+    "fork": false,
+    "full_name": "lucidrains/deep-daze",
+    "html_url": "https://github.com/lucidrains/deep-daze",
+    "language": "Python",
+    "pushed_at": "2022-03-13T19:09:13Z",
+    "stargazers_count": 4325,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "implicit-neural-representation",
+      "multi-modality",
+      "siren",
+      "text-to-image",
+      "transformers"
+    ],
+    "updated_at": "2026-04-25T23:02:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eleutherai/dalle-mtf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-neural-representation"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modality"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siren"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

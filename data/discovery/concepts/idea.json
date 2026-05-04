@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "idea"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate-context",
+      "text": "yapi idea \u4e0a\u4f20\u63d2\u4ef6,\u5feb\u901f\u751f\u6210\u6587\u6863"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate-context",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002420,
+      "status": "candidate",
+      "text": "thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996475,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995924,
+      "status": "candidate",
+      "text": "mind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986836,
+      "status": "candidate",
+      "text": "estimation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985892,
+      "status": "candidate",
+      "text": "approximation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23061,
+      "status": "candidate",
+      "text": "mind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8048,
+      "status": "candidate",
+      "text": "estimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "approximation"
+    }
+  ],
+  "canonical_name": "idea",
+  "concept_id": "idea",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "idea",
+      "sense_id": "idea#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

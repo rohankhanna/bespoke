@@ -19,6 +19,18 @@
       "source_repo": "aidenybai/react-scan",
       "status": "candidate-context",
       "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate-context",
+      "text": "Zero-config CLI for TypeScript package development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate-context",
+      "text": "Zero-config CLI for TypeScript package development."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aidenybai/react-scan",
       "status": "candidate",
       "text": "React Scan automatically detects performance issues in your React app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate",
+      "text": "Zero-config CLI for TypeScript package development."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aidenybai/react-scan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/tsdx"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

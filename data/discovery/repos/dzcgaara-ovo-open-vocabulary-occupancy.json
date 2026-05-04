@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dzcgaara/OVO-Open-Vocabulary-Occupancy",
+      "target": "isl-org/lang-seg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:45:41.584089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10601
+    },
+    {
+      "path": "requirements.txt",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dzcgaara/OVO-Open-Vocabulary-Occupancy",
+    "html_url": "https://github.com/dzcgaara/OVO-Open-Vocabulary-Occupancy",
+    "language": "Python",
+    "pushed_at": "2023-06-14T08:34:25Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-03-26T21:26:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isl-org/lang-seg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

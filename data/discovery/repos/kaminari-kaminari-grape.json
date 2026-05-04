@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari-grape",
+      "target": "ruby-grape/grape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari-grape",
+      "target": "monterail/grape-kaminari",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:55:46.322754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 702
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kaminari Grape adapter",
+    "fork": false,
+    "full_name": "kaminari/kaminari-grape",
+    "html_url": "https://github.com/kaminari/kaminari-grape",
+    "language": "Ruby",
+    "pushed_at": "2024-06-22T12:07:02Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-08-25T16:34:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monterail/grape-kaminari",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-grape/grape",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

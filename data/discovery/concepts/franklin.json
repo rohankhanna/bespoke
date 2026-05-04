@@ -43,6 +43,18 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate-context",
       "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate-context",
+      "text": "The SciML Scientific Machine Learning Software Organization Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate-context",
+      "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate",
       "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate",
+      "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "SciML/sciml.ai"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

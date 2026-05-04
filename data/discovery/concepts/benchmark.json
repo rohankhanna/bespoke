@@ -2620,6 +2620,66 @@
       "source_repo": "risinglightdb/risinglight",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate-context",
+      "text": "RoboTwin 2.0 Offical Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official Implement of \"ADBench: Anomaly Detection Benchmark\", NeurIPS 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate-context",
+      "text": "Time-Series Anomaly Detection | Algorithms + Datasets + Tutorials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kadyb/vector-benchmark",
+      "status": "candidate-context",
+      "text": "Vector processing benchmarks for Python, R, and Julia packages "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/vector-benchmark",
+      "status": "candidate-context",
+      "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "PHPStan's source code. This is where development happens. Check https://github.com/phpstan/phpstan for the distribution repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "\"Benchmark\""
     }
   ],
   "candidate_glosses": [
@@ -3930,6 +3990,36 @@
       "source_repo": "risinglightdb/risinglight",
       "status": "candidate",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kadyb/vector-benchmark",
+      "status": "candidate",
+      "text": "This repository contains a collection of vector processing benchmarks for Python and R packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate",
+      "text": "\"Benchmark\""
     }
   ],
   "candidate_related_terms": [
@@ -6087,11 +6177,89 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "risinglightdb/risinglight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RoboTwin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Minqi824/ADBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

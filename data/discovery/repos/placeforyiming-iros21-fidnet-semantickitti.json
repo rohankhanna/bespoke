@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:45:35.782423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An extremely simple, intuitive, hardware-friendly, and well-performing network structure for LiDAR semantic segmentation on 2D range image. IROS21 ",
+    "fork": false,
+    "full_name": "placeforyiming/IROS21-FIDNet-SemanticKITTI",
+    "html_url": "https://github.com/placeforyiming/IROS21-FIDNet-SemanticKITTI",
+    "language": "Python",
+    "pushed_at": "2021-09-17T16:01:34Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-03-24T14:49:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

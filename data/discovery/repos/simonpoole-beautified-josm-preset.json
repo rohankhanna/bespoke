@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preset.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preset.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "marcuswolschon/osmeditor4android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "gmgeo/osmic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preset.yml",
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preset.yml",
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preset.yml",
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "Preset CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "josm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "josm-presets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "presets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonpoole/beautified-JOSM-preset",
+      "target": "vespucci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:05:03.108651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3658
+    },
+    {
+      "path": ".github/workflows/preset.yml",
+      "size": 584
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Improved version of the JOSM presets",
+    "fork": false,
+    "full_name": "simonpoole/beautified-JOSM-preset",
+    "html_url": "https://github.com/simonpoole/beautified-JOSM-preset",
+    "language": "HTML",
+    "pushed_at": "2026-04-21T10:05:13Z",
+    "stargazers_count": 66,
+    "topics": [
+      "icons",
+      "josm",
+      "josm-presets",
+      "openstreetmap",
+      "presets",
+      "vespucci"
+    ],
+    "updated_at": "2026-04-21T09:57:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmgeo/osmic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcuswolschon/osmeditor4android",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Preset CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preset.yml",
+      "term": "Preset CI"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "josm"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "josm-presets"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presets"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/simonpoole/beautified-JOSM-preset/actions/workflows/preset.yml/badge.svg)](https://github.com/simonpoole/beautified-JOSM-preset/actions) [![Donate with liberapay](https://img.shields.io/liberapay/patrons/SimonPoole.svg?logo=liberapay)](https:/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vespucci"
+    }
+  ]
+}

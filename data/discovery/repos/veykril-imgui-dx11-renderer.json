@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Veykril/imgui-dx11-renderer",
+      "target": "gekkio/imgui-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:13:13.038394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1095
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Veykril/imgui-dx11-renderer",
+    "html_url": "https://github.com/Veykril/imgui-dx11-renderer",
+    "language": "Rust",
+    "pushed_at": "2023-01-02T17:16:06Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-08-30T03:10:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gekkio/imgui-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

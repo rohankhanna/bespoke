@@ -55,6 +55,18 @@
       "source_repo": "lxgw/LxgwWenkaiGB-Lite",
       "status": "candidate-context",
       "text": "Bump fontinfo version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwWenKai-shared",
+      "status": "candidate-context",
+      "text": "[SUBMODULE] This repo contains shared source files and scripts for LXGW WenKai font series. \u672c repo \u5305\u542b\u300a\u971e\u9e5c\u6587\u6977\u300b\u7cfb\u5217\u5b57\u4f53\u5171\u7528\u7684\u6e90\u6587\u4ef6\u548c\u811a\u672c\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai-shared",
+      "status": "candidate-context",
+      "text": "Bump fontinfo version"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lxgw/LxgwWenkaiGB-Lite",
+      "status": "candidate",
+      "text": "Bump fontinfo version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwWenKai-shared",
       "status": "candidate",
       "text": "Bump fontinfo version"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/bump_version.yaml",
       "source_repo": "lxgw/LxgwWenkaiGB-Lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai-shared"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

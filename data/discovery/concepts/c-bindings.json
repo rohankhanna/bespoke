@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "c-bindings"
+    "c-bindings",
+    "C++ bindings"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/prism",
+      "status": "candidate-context",
+      "text": "Prism Ruby parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/prism",
+      "status": "candidate-context",
+      "text": "C++ bindings"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/prism",
+      "status": "candidate",
+      "text": "C++ bindings"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "cords"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "bookworm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "unbind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "pallet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "releasable"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "c-bindings",
   "concept_id": "c-bindings",
@@ -40,11 +97,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "JuliaImGui/CImGui.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/cpp-bindings.yml",
+      "source_repo": "ruby/prism"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

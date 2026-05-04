@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "robotology/idyntree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "d99kris/rapidcsv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-ci.yml",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-ci.yml",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "Dispatch CI in creo2urdf-private",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "creo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "robots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf",
+      "target": "urdf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:53:33.605686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23300
+    },
+    {
+      "path": ".github/workflows/dispatch-ci.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate URDF models from CREO mechanisms",
+    "fork": false,
+    "full_name": "mesh-iit/creo2urdf",
+    "html_url": "https://github.com/mesh-iit/creo2urdf",
+    "language": "C++",
+    "pushed_at": "2026-03-10T08:32:03Z",
+    "stargazers_count": 52,
+    "topics": [
+      "cad",
+      "creo",
+      "export",
+      "robots",
+      "urdf"
+    ],
+    "updated_at": "2026-03-26T07:02:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "d99kris/rapidcsv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/idyntree",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dispatch CI in creo2urdf-private",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-ci.yml",
+      "term": "Dispatch CI in creo2urdf-private"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "Generate URDF model from CREO Parametric mechanisms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "creo"
+    },
+    {
+      "context_snippet": "Generate URDF model from CREO Parametric mechanisms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "export"
+    },
+    {
+      "context_snippet": "Generate URDF model from CREO Parametric mechanisms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robots"
+    },
+    {
+      "context_snippet": "Generate URDF model from CREO Parametric mechanisms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf"
+    }
+  ]
+}

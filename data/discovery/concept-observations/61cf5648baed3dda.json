@@ -84,7 +84,7 @@
   "normalized_form": "deduplicate-lock-file",
   "observation_id": "61cf5648baed3dda",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "\u2699\ufe0f Deduplicate lock file",
   "source_context_snippet": "\u2699\ufe0f Deduplicate lock file",
   "source_file": ".github/workflows/deduplicate-lock-file.yml",

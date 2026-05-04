@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vuepress"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "This is a Nuxt.js Boilerplate project that you can clone and play around with to learn the cool stuff you can do with Nuxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vuepress",
+  "concept_id": "vuepress",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "debs-obrien/nuxt-boilerplate-project"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vuepress",
+      "sense_id": "vuepress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

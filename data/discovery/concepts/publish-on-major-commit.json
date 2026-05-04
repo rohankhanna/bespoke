@@ -19,12 +19,30 @@
       "source_repo": "mit-han-lab/mcunet",
       "status": "candidate-context",
       "text": "Publish on major commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/once-for-all",
+      "status": "candidate-context",
+      "text": "[ICLR 2020] Once for All: Train One Network and Specialize it for Efficient Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/once-for-all",
+      "status": "candidate-context",
+      "text": "Publish on major commit"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mit-han-lab/mcunet",
+      "status": "candidate",
+      "text": "Publish on major commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/once-for-all",
       "status": "candidate",
       "text": "Publish on major commit"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/publish-on-main-commit.yaml",
       "source_repo": "mit-han-lab/mcunet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/once-for-all"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

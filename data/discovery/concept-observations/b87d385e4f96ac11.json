@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u96b6\u4f53\u8ba1\u5212\u30fb\u66fa\u5168\u7891"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u8d77\u521d\u662f\u60f3\u627e\u70b9\u514d\u8d39\u7f8e\u89c2\u7684\u96b6\u4e66\u5b57\u4f53\uff0c\u6ca1\u627e\u5230\u5408\u9002\u7684\uff0c\u4e8e\u662f\u521b\u5efa\u4e86\u4e2a\u5f00\u6e90\u300c\u9ed1\u4f53(?)\u6c49\u96b6\u300d\u8ba1\u5212\uff0c\u76f8\u5f53\u4e8e\u590d\u523b\u66f9\u5168\u7891\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u8d77\u521d\u662f\u60f3\u627e\u70b9\u514d\u8d39\u7f8e\u89c2\u7684\u96b6\u4e66\u5b57\u4f53\uff0c\u6ca1\u627e\u5230\u5408\u9002\u7684\uff0c\u4e8e\u662f\u521b\u5efa\u4e86\u4e2a\u5f00\u6e90\u300c\u9ed1\u4f53(?)\u6c49\u96b6\u300d\u8ba1\u5212\uff0c\u76f8\u5f53\u4e8e\u590d\u523b\u66f9\u5168\u7891\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "playing cards in unicode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "fonts on macintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "embedded opentype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "computer font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "glyph bitmap distribution format"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentype",
+      "sense_id": "opentype#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opentype",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opentype",
+  "observation_id": "b87d385e4f96ac11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "opentype",
+  "source_context_snippet": "\u8d77\u521d\u662f\u60f3\u627e\u70b9\u514d\u8d39\u7f8e\u89c2\u7684\u96b6\u4e66\u5b57\u4f53\uff0c\u6ca1\u627e\u5230\u5408\u9002\u7684\uff0c\u4e8e\u662f\u521b\u5efa\u4e86\u4e2a\u5f00\u6e90\u300c\u9ed1\u4f53(?)\u6c49\u96b6\u300d\u8ba1\u5212\uff0c\u76f8\u5f53\u4e8e\u590d\u523b\u66f9\u5168\u7891\u3002",
+  "source_file": null,
+  "source_repo": "MY1L/CoQuBeLi",
+  "source_repo_description": "\u96b6\u4f53\u8ba1\u5212\u30fb\u66fa\u5168\u7891"
+}

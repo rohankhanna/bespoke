@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2020] Once for All: Train One Network and Specialize it for Efficient Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "```BibTex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "```BibTex"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "edge-ai",
+      "sense_id": "edge-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "edge-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "edge-ai",
+  "observation_id": "6b59d0775a7c7e19",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "edge-ai",
+  "source_context_snippet": "```BibTex",
+  "source_file": null,
+  "source_repo": "mit-han-lab/once-for-all",
+  "source_repo_description": "[ICLR 2020] Once for All: Train One Network and Specialize it for Efficient Deployment"
+}

@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "r-spatial/s2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "geopandas/geopandas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "paleolimbot/geos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "juliageo/geometryops.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kadyb/vector-benchmark",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:11:13.230056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vector processing benchmarks for Python, R, and Julia packages ",
+    "fork": false,
+    "full_name": "kadyb/vector-benchmark",
+    "html_url": "https://github.com/kadyb/vector-benchmark",
+    "language": "HTML",
+    "pushed_at": "2025-10-04T13:09:19Z",
+    "stargazers_count": 23,
+    "topics": [
+      "benchmark",
+      "geospatial",
+      "gis",
+      "julia",
+      "performance",
+      "python",
+      "r",
+      "vector"
+    ],
+    "updated_at": "2025-10-04T13:09:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geopandas/geopandas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliageo/geometryops.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paleolimbot/geos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-spatial/s2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a collection of vector processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This repository contains a collection of vector processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "This repository contains a collection of vector processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "This repository contains a collection of vector processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "This repository contains a collection of vector processing benchmarks for Python and R packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

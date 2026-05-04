@@ -127,6 +127,18 @@
       "source_repo": "sindresorhus/np",
       "status": "candidate-context",
       "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate-context",
+      "text": "Zero-config CLI for TypeScript package development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate-context",
+      "text": "Zero-config CLI for TypeScript package development."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "sindresorhus/np",
       "status": "candidate",
       "text": "np \u2014 A better `npm publish`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/tsdx",
+      "status": "candidate",
+      "text": "Zero-config CLI for TypeScript package development."
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +346,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/np"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/tsdx"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

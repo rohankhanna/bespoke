@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-ex",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "onomojo/i18n-country-translations-data"
+}

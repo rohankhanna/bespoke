@@ -19,6 +19,18 @@
       "source_repo": "networkx/networkx",
       "status": "candidate-context",
       "text": "NetworkX"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate-context",
+      "text": "Efficient Graph Generation with Graph Recurrent Attention Networks, Deep Generative Model of Graphs, Graph Neural Networks, NeurIPS 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "networkx/networkx",
       "status": "candidate",
       "text": "NetworkX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "networkx/networkx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

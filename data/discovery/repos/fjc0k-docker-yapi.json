@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "deepmerge",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-yapi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "pixta-dev/repository-mirroring-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-beta-to-docker-hub.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-play-to-docker-hub.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-docker-buildx@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "congqiu/yapi-plugin-add-user",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "fjc0k/yapi-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "fjc0k/yapi-to-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "deepmerge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "globby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-yapi.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-yapi.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "Auto Update YApi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "pixta-dev/repository-mirroring-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "Mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-beta-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-beta-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "Publish Beta Version to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-play-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-play-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "Publish Play Version to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "crazy-max/ghaction-docker-buildx@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml",
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "Publish to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "docker-yapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "yapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "yapi-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi",
+      "target": "yapi-docker-compose",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:58:27.492976+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12431
+    },
+    {
+      "path": "Dockerfile",
+      "size": 966
+    },
+    {
+      "path": "package.json",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/auto-update-yapi.yml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/mirror.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/publish-beta-to-docker-hub.yml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/publish-play-to-docker-hub.yml",
+      "size": 438
+    },
+    {
+      "path": ".github/workflows/publish-to-docker-hub.yml",
+      "size": 769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u63a5\u53e3\u7ba1\u7406\u5e73\u53f0 YApi \u7684 Docker \u955c\u50cf\u3002",
+    "fork": false,
+    "full_name": "fjc0k/docker-YApi",
+    "html_url": "https://github.com/fjc0k/docker-YApi",
+    "language": "TypeScript",
+    "pushed_at": "2023-08-16T08:49:49Z",
+    "stargazers_count": 1142,
+    "topics": [
+      "docker",
+      "docker-image",
+      "docker-yapi",
+      "yapi",
+      "yapi-docker",
+      "yapi-docker-compose"
+    ],
+    "updated_at": "2026-04-27T03:22:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "congqiu/yapi-plugin-add-user",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fjc0k/yapi-to-typescript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fjc0k/yapi-x",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Update YApi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-yapi.yml",
+      "term": "Auto Update YApi"
+    },
+    {
+      "context_snippet": "Mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "term": "Mirror"
+    },
+    {
+      "context_snippet": "Publish Beta Version to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-beta-to-docker-hub.yml",
+      "term": "Publish Beta Version to Docker Hub"
+    },
+    {
+      "context_snippet": "Publish Play Version to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-play-to-docker-hub.yml",
+      "term": "Publish Play Version to Docker Hub"
+    },
+    {
+      "context_snippet": "Publish to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-docker-hub.yml",
+      "term": "Publish to Docker Hub"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-yapi"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yapi"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yapi-docker"
+    },
+    {
+      "context_snippet": "\u5728 [Docker](https://www.docker.com/) \u4e2d\u8fd0\u884c [YApi](https://github.com/YMFE/yapi)\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yapi-docker-compose"
+    }
+  ]
+}

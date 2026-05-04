@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Bench for Security"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate-context",
+      "text": "An Open Framework for Federated Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate-context",
+      "text": "Docker Bench for Security"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate",
+      "text": "Docker Bench for Security"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22330,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18349,
+      "status": "candidate",
+      "text": "policeman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18324,
+      "status": "candidate",
+      "text": "cop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16405,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16405,
+      "status": "candidate",
+      "text": "lumper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Bench for Security",
+  "concept_id": "docker-bench-for-security",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "source_repo": "securefederatedai/openfederatedlearning"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Bench for Security",
+      "sense_id": "docker-bench-for-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

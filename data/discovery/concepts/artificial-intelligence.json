@@ -1387,6 +1387,66 @@
       "source_repo": "lucidrains/DALLE-pytorch",
       "status": "candidate-context",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "A simple command line tool for text to image generation, using OpenAI's CLIP and a BigGAN. Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network,  in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./dalle2.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network). Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of N\u00dcWA, state of the art attention network for text to video synthesis, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2139,36 @@
       "source_repo": "lucidrains/DALLE-pytorch",
       "status": "candidate",
       "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./dalle2.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -3736,11 +3826,95 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/big-sleep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/DALLE2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/nuwa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

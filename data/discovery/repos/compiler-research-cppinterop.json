@@ -1,0 +1,614 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review/post@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2.0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "ZedThree/clang-tidy-review/upload@v0.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/line-endings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "compiler-research/ci-workflows/actions/setup-recipe@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "compiler-research/ci-workflows/actions/wake-on-lan@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml"
+    },
+    {
+      "component": "super-linter/super-linter@v7.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml"
+    },
+    {
+      "component": "compiler-research/ci-workflows/actions/setup-recipe@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "conda-forge/cppinterop-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/cppyy-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/cpycppyy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/cppyy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "clang-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "ZedThree/clang-tidy-review/post@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "Post clang-tidy review comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "KyleMayes/install-llvm-action@v2.0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "ZedThree/clang-tidy-review@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "ZedThree/clang-tidy-review/upload@v0.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "clang-tidy-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "WASM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/line-endings.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/line-endings.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "Line endings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/ci-workflows/actions/setup-recipe@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/ci-workflows/actions/wake-on-lan@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "super-linter/super-linter@v7.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/root.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "compiler-research/ci-workflows/actions/setup-recipe@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/root.yml",
+      "source_repo": "compiler-research/CppInterOp",
+      "target": "ROOT",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:38:30.907246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21742
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 2155
+    },
+    {
+      "path": ".github/workflows/clang-tidy-review-post.yml",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/clang-tidy-review.yml",
+      "size": 2846
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "size": 4361
+    },
+    {
+      "path": ".github/workflows/emscripten.yml",
+      "size": 10496
+    },
+    {
+      "path": ".github/workflows/line-endings.yml",
+      "size": 2654
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 13831
+    },
+    {
+      "path": ".github/workflows/markdown-linter.yml",
+      "size": 1052
+    },
+    {
+      "path": ".github/workflows/root.yml",
+      "size": 10899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Clang-based C++ Interoperability Library",
+    "fork": false,
+    "full_name": "compiler-research/CppInterOp",
+    "html_url": "https://github.com/compiler-research/CppInterOp",
+    "language": "C++",
+    "pushed_at": "2026-05-03T19:02:57Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-05-03T19:03:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compiler-research/cppyy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compiler-research/cppyy-backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compiler-research/cpycppyy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conda-forge/cppinterop-feedstock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format"
+    },
+    {
+      "context_snippet": "Post clang-tidy review comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review-post.yml",
+      "term": "Post clang-tidy review comments"
+    },
+    {
+      "context_snippet": "clang-tidy-review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-review.yml",
+      "term": "clang-tidy-review"
+    },
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "WASM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emscripten.yml",
+      "term": "WASM"
+    },
+    {
+      "context_snippet": "Line endings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/line-endings.yml",
+      "term": "Line endings"
+    },
+    {
+      "context_snippet": "ROOT",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/root.yml",
+      "term": "ROOT"
+    }
+  ]
+}

@@ -296,7 +296,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:30:30.916939+00:00",
+  "fetched_at": "2026-05-04T00:38:51.510424+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -340,7 +340,7 @@
     "full_name": "xtensor-stack/xtensor",
     "html_url": "https://github.com/xtensor-stack/xtensor",
     "language": "C++",
-    "pushed_at": "2026-04-30T09:36:57Z",
+    "pushed_at": "2026-05-03T22:41:02Z",
     "stargazers_count": 3731,
     "topics": [
       "c-plus-plus-14",
@@ -348,7 +348,7 @@
       "numpy",
       "tensors"
     ],
-    "updated_at": "2026-05-02T16:10:12Z"
+    "updated_at": "2026-05-03T22:40:41Z"
   },
   "repo_links": [],
   "terms": [

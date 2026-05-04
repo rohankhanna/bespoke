@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prism Ruby parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Java WASM bindings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Java WASM bindings"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11452,
+      "status": "candidate",
+      "text": "sunda strait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11331,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "band"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "banded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11089,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java WASM bindings",
+      "sense_id": "java-wasm-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "java-wasm-bindings",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "java-wasm-bindings",
+  "observation_id": "a0555b35853921ef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "Java WASM bindings",
+  "source_context_snippet": "Java WASM bindings",
+  "source_file": ".github/workflows/java-wasm-bindings.yml",
+  "source_repo": "ruby/prism",
+  "source_repo_description": "Prism Ruby parser"
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "collaborate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "An authoritative multiplayer games framework for GDevelop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993050,
+      "status": "candidate",
+      "text": "cooperate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991646,
+      "status": "candidate",
+      "text": "join forces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39921641,
+      "status": "candidate",
+      "text": "get together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993065,
+      "status": "candidate",
+      "text": "cooperation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993063,
+      "status": "candidate",
+      "text": "cooperative"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7030,
+      "status": "candidate",
+      "text": "get together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7015,
+      "status": "candidate",
+      "text": "join forces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6029,
+      "status": "candidate",
+      "text": "cooperate"
+    }
+  ],
+  "canonical_name": "collaborate",
+  "concept_id": "collaborate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collaborate",
+      "sense_id": "collaborate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

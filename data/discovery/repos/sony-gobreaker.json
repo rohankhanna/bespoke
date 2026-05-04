@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sony/gobreaker",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sony/gobreaker",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sony/gobreaker",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sony/gobreaker",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sony/gobreaker",
+      "target": "circuit-breaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sony/gobreaker",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sony/gobreaker",
+      "target": "microservice",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:50:10.183672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4760
+    },
+    {
+      "path": "go.mod",
+      "size": 86
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Circuit Breaker implemented in Go",
+    "fork": false,
+    "full_name": "sony/gobreaker",
+    "html_url": "https://github.com/sony/gobreaker",
+    "language": "Go",
+    "pushed_at": "2026-02-07T09:21:38Z",
+    "stargazers_count": 3597,
+    "topics": [
+      "circuit-breaker",
+      "golang",
+      "microservice"
+    ],
+    "updated_at": "2026-05-03T06:35:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "gobreaker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circuit-breaker"
+    },
+    {
+      "context_snippet": "gobreaker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "gobreaker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    }
+  ]
+}

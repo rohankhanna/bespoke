@@ -19,6 +19,18 @@
       "source_repo": "timo/json_fast",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/timo/json_fast.svg?branch=master)](https://travis-ci.org/timo/json_fast)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "timo/json_fast",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/timo/json_fast.svg?branch=master)](https://travis-ci.org/timo/json_fast)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate",
+      "text": "Raku Module Management"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "timo/json_fast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ugexe/zef"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

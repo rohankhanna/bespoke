@@ -19,12 +19,30 @@
       "source_repo": "autonomousvision/tuplan_garage",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "priest-yang/VADv2",
+      "status": "candidate-context",
+      "text": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priest-yang/VADv2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "autonomousvision/tuplan_garage",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "priest-yang/VADv2",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/tuplan_garage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Slim is a template language whose goal is to reduce the syntax to the essential parts without becoming cryptic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "template-engines",
+      "sense_id": "template-engines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "template-engines",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "template-engines",
+  "observation_id": "e12476842535bd65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "template-engines",
+  "source_context_snippet": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)",
+  "source_file": null,
+  "source_repo": "slim-template/slim",
+  "source_repo_description": "Slim is a template language whose goal is to reduce the syntax to the essential parts without becoming cryptic."
+}

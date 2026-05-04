@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A parser combinator library written in the Swift programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979053,
+      "status": "candidate",
+      "text": "useful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979014,
+      "status": "candidate",
+      "text": "functioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978956,
+      "status": "candidate",
+      "text": "serviceable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978626,
+      "status": "candidate",
+      "text": "operative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978427,
+      "status": "candidate",
+      "text": "useable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "functional",
+      "sense_id": "functional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31042,
+      "status": "candidate",
+      "text": "operative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22042,
+      "status": "candidate",
+      "text": "practical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19037,
+      "status": "candidate",
+      "text": "useful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15034,
+      "status": "candidate",
+      "text": "utilitarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13056,
+      "status": "candidate",
+      "text": "running"
+    }
+  ],
+  "concept_id": "functional",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "functional",
+  "observation_id": "14eb329ecf86c3c0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "functional",
+  "source_context_snippet": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026",
+  "source_file": null,
+  "source_repo": "davedufresne/SwiftParsec",
+  "source_repo_description": "A parser combinator library written in the Swift programming language."
+}

@@ -79,6 +79,18 @@
       "source_repo": "Cominclip/BoxDiff-XL",
       "status": "candidate-context",
       "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaA curated list of Awesome Diffusion Inference Papers with Codes: Sampling, Cache, Quantization, Parallelism, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Cominclip/BoxDiff-XL",
       "status": "candidate",
       "text": "Improve [BoxDiff](https://github.com/showlab/BoxDiff) to Stable Diffusion XL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "status": "candidate",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "Cominclip/BoxDiff-XL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

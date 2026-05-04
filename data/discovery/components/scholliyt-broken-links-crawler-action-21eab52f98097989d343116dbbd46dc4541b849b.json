@@ -1,0 +1,12 @@
+{
+  "component": "ScholliYT/Broken-Links-Crawler-Action@21eab52f98097989d343116dbbd46dc4541b849b",
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src"
+    }
+  ]
+}

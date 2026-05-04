@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "internlm/opencompass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "tigerresearch/medct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "saraiqx/tigerbot-svelte-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "runfuture/tigerbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TigerResearch/TigerBot",
+      "target": "llama2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:24.536894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35518
+    },
+    {
+      "path": "requirements.txt",
+      "size": 273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TigerBot: A multi-language multi-task LLM",
+    "fork": false,
+    "full_name": "TigerResearch/TigerBot",
+    "html_url": "https://github.com/TigerResearch/TigerBot",
+    "language": "Python",
+    "pushed_at": "2024-12-28T06:07:56Z",
+    "stargazers_count": 2266,
+    "topics": [
+      "chinese",
+      "data",
+      "llama2",
+      "llm",
+      "nlp"
+    ],
+    "updated_at": "2026-04-14T10:05:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/opencompass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "runfuture/tigerbot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saraiqx/tigerbot-svelte-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tigerresearch/medct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    }
+  ]
+}

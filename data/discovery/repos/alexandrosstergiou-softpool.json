@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "alexandrosstergiou/adapool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "sebgao/lip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "rentainhe/pytorch-pooling",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:11.792513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2021] Code for approximated exponential maximum pooling ",
+    "fork": false,
+    "full_name": "alexandrosstergiou/SoftPool",
+    "html_url": "https://github.com/alexandrosstergiou/SoftPool",
+    "language": "Python",
+    "pushed_at": "2023-01-27T16:00:09Z",
+    "stargazers_count": 300,
+    "topics": [],
+    "updated_at": "2026-02-01T06:12:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandrosstergiou/adapool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rentainhe/pytorch-pooling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sebgao/lip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

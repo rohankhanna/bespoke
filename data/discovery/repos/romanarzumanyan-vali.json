@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "Publish to PyPI and TestPyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "source_repo": "RomanArzumanyan/VALI",
+      "target": "OnPullRequest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:00:21.607099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4938
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/OnTaggedCommitPush.yml",
+      "size": 2741
+    },
+    {
+      "path": ".github/workflows/onPullRequest.yml",
+      "size": 2937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video processing in Python",
+    "fork": false,
+    "full_name": "RomanArzumanyan/VALI",
+    "html_url": "https://github.com/RomanArzumanyan/VALI",
+    "language": "C++",
+    "pushed_at": "2026-02-05T19:12:18Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-03-31T14:03:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI and TestPyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/OnTaggedCommitPush.yml",
+      "term": "Publish to PyPI and TestPyPI"
+    },
+    {
+      "context_snippet": "OnPullRequest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onPullRequest.yml",
+      "term": "OnPullRequest"
+    }
+  ]
+}

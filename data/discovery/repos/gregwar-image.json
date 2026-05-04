@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Gregwar/Image",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Gregwar/Image",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Gregwar/Image",
+      "target": "PHP Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gregwar/Image",
+      "target": "center",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gregwar/Image",
+      "target": "crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gregwar/Image",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gregwar/Image",
+      "target": "resizes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:11:18.630250+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8553
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PHP library to handle images",
+    "fork": false,
+    "full_name": "Gregwar/Image",
+    "html_url": "https://github.com/Gregwar/Image",
+    "language": "PHP",
+    "pushed_at": "2024-09-23T15:02:03Z",
+    "stargazers_count": 1010,
+    "topics": [
+      "center",
+      "crop",
+      "gd",
+      "images",
+      "php",
+      "resizes"
+    ],
+    "updated_at": "2026-03-17T08:05:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PHP Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "PHP Tests"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "center"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "[![Build status](https://github.com/Gregwar/Image/actions/workflows/test.yml/badge.svg)](https://github.com/Gregwar/Image/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resizes"
+    }
+  ]
+}

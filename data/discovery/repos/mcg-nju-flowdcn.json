@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:42:30.651117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7824
+    },
+    {
+      "path": "requirements.txt",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Exploring DCN-like Architectures for Fast Image Generation with Arbitrary Resolution",
+    "fork": false,
+    "full_name": "MCG-NJU/FlowDCN",
+    "html_url": "https://github.com/MCG-NJU/FlowDCN",
+    "language": "Python",
+    "pushed_at": "2024-12-23T09:10:32Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-07T17:29:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

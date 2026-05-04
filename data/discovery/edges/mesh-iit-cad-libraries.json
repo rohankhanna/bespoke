@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mesh-iit/cad-libraries",
+      "target": "icub-tech-iit/cad-libraries",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "mesh-iit/cad-libraries"
+}

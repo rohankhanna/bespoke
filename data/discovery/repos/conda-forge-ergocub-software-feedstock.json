@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conda-forge/ergocub-software-feedstock",
+      "target": "icub-tech-iit/ergocub-software",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/ergocub-software-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:53:30.686033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10290
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for ergocub-software.",
+    "fork": false,
+    "full_name": "conda-forge/ergocub-software-feedstock",
+    "html_url": "https://github.com/conda-forge/ergocub-software-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T12:46:07Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-23T12:46:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icub-tech-iit/ergocub-software",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

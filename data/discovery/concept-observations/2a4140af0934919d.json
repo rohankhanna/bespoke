@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Portable Lua kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "console-application",
+      "sense_id": "console-application#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "console-application",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "console-application",
+  "observation_id": "2a4140af0934919d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "console-application",
+  "source_context_snippet": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language.",
+  "source_file": null,
+  "source_repo": "guysv/ilua",
+  "source_repo_description": "Portable Lua kernel for Jupyter"
+}

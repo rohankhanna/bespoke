@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "root"
+    "root",
+    "ROOT"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "tiann/KernelSU",
       "status": "candidate-context",
       "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "A Clang-based C++ Interoperability Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate-context",
+      "text": "ROOT"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "tiann/KernelSU",
       "status": "candidate",
       "text": "[workspace] members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] default-members = [ \"userspace/ksud\", \"userspace/ksuinit\", ] resolver = \"3\" [workspace.package] edition = \"2024\" [workspace.dependencies] anyhow = \"1\" log = \"0.4\" [profile.release] strip = true lto = true opt-level\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compiler-research/CppInterOp",
+      "status": "candidate",
+      "text": "ROOT"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +163,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "tiann/KernelSU"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/root.yml",
+      "source_repo": "compiler-research/CppInterOp"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

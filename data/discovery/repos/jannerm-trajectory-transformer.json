@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/trajectory-transformer",
+      "target": "howuhh/faster-trajectory-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/trajectory-transformer",
+      "target": "anonymized-transformer/anonymized-transformer.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jannerm/trajectory-transformer",
+      "target": "jannerm/doodad",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:49:59.446813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the paper \"Offline Reinforcement Learning as One Big Sequence Modeling Problem\"",
+    "fork": false,
+    "full_name": "jannerm/trajectory-transformer",
+    "html_url": "https://github.com/jannerm/trajectory-transformer",
+    "language": "Python",
+    "pushed_at": "2022-10-06T19:08:06Z",
+    "stargazers_count": 533,
+    "topics": [],
+    "updated_at": "2026-04-29T09:10:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anonymized-transformer/anonymized-transformer.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "howuhh/faster-trajectory-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jannerm/doodad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

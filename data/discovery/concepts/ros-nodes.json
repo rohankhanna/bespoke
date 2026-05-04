@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "ROS nodes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "A LiDAR odometry pipeline that just works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "ROS nodes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate",
+      "text": "ROS nodes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11087,
+      "status": "candidate",
+      "text": "a billion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11087,
+      "status": "candidate",
+      "text": "a thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11087,
+      "status": "candidate",
+      "text": "billion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ROS nodes",
+  "concept_id": "ros-nodes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ros.yml",
+      "source_repo": "PRBonn/kiss-icp"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ROS nodes",
+      "sense_id": "ros-nodes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

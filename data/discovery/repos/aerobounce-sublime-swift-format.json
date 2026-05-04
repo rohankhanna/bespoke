@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "packagecontrol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "sublime-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "swift-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "target": "syntax-checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:52.381344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a1\ufe0f Swift Formatter (Powered by swiftformat)",
+    "fork": false,
+    "full_name": "aerobounce/Sublime-Swift-Format",
+    "html_url": "https://github.com/aerobounce/Sublime-Swift-Format",
+    "language": "Python",
+    "pushed_at": "2022-08-25T12:27:43Z",
+    "stargazers_count": 10,
+    "topics": [
+      "formatter",
+      "packagecontrol",
+      "sublime",
+      "sublime-package",
+      "sublime-text",
+      "sublime-text-plugin",
+      "swift",
+      "swift-format",
+      "syntax-checker"
+    ],
+    "updated_at": "2023-12-28T21:38:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packagecontrol"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-package"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-plugin"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-format"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-checker"
+    }
+  ]
+}

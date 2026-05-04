@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ziyc/drivestudio",
+      "target": "ingra14m/deformable-3d-gaussians",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ziyc/drivestudio",
+      "target": "fudan-zvg/pvg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ziyc/drivestudio",
+      "target": "nvlabs/emernerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ziyc/drivestudio",
+      "target": "jiahuilei/gart",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:51.545949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11494
+    },
+    {
+      "path": "requirements.txt",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A 3DGS framework for omni urban scene reconstruction and simulation.",
+    "fork": false,
+    "full_name": "ziyc/drivestudio",
+    "html_url": "https://github.com/ziyc/drivestudio",
+    "language": "Python",
+    "pushed_at": "2025-08-27T08:42:40Z",
+    "stargazers_count": 1174,
+    "topics": [],
+    "updated_at": "2026-04-30T23:31:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-zvg/pvg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ingra14m/deformable-3d-gaussians",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiahuilei/gart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/emernerf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

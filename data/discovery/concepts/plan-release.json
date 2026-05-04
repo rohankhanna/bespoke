@@ -187,6 +187,30 @@
       "source_repo": "typed-ember/glint",
       "status": "candidate-context",
       "text": "Plan Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate-context",
+      "text": "Helpful autotracking utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate-context",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Plan Release"
     }
   ],
   "candidate_glosses": [
@@ -289,6 +313,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "typed-ember/glint",
+      "status": "candidate",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate",
+      "text": "Plan Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
       "status": "candidate",
       "text": "Plan Release"
     }
@@ -442,11 +478,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/plan-release.yml",
       "source_repo": "typed-ember/glint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "emberjs/ember-cli-babel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "embroider-build/ember-auto-import"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "tracked-tools/tracked-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "tracked-tools/tracked-built-ins"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

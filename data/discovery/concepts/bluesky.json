@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "bluesky"
+    "bluesky",
+    "Bluesky"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "bluesky-social/pds",
       "status": "candidate-context",
       "text": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Medical imaging processing for AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Bluesky"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +78,12 @@
       "source_repo": "bluesky-social/pds",
       "status": "candidate",
       "text": "Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate",
+      "text": "Bluesky"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +109,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bluesky-social/pds"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/bluesky.yml",
+      "source_repo": "TorchIO-project/torchio"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

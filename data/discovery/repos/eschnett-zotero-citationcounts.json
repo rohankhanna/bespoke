@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "bwiernik/zotero-shortdoi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "beloglazov/zotero-scholar-citations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "citations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "zotero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eschnett/zotero-citationcounts",
+      "target": "zotero-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:32.594096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Zotero plugin for auto-fetching citation counts from various sources",
+    "fork": false,
+    "full_name": "eschnett/zotero-citationcounts",
+    "html_url": "https://github.com/eschnett/zotero-citationcounts",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-09T17:49:37Z",
+    "stargazers_count": 929,
+    "topics": [
+      "citations",
+      "plugin",
+      "zotero",
+      "zotero-plugin"
+    ],
+    "updated_at": "2026-05-01T18:13:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beloglazov/zotero-scholar-citations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwiernik/zotero-shortdoi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citations"
+    },
+    {
+      "context_snippet": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zotero"
+    },
+    {
+      "context_snippet": "* [GitHub](https://github.com/eschnett/zotero-citationcounts): Source",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zotero-plugin"
+    }
+  ]
+}

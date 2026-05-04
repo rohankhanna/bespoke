@@ -43,6 +43,18 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate-context",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dingkeyan93/IQA-optimization",
       "status": "candidate",
       "text": "This repository re-implemented the existing IQA models with PyTorch, including"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "dingkeyan93/IQA-optimization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

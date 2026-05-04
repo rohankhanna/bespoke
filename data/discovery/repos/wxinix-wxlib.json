@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wxinix/wxlib",
+      "target": "mikeloomisgg/cppack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wxinix/wxlib",
+      "target": "mandreyel/mio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wxinix/wxlib",
+      "target": "mutouyun/cpp-ipc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:18.603629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "All-in-one C++20 library for MsgPack, IPC, MemMap, Pattern Matching, and various AVX utilities for high-performance transportation modelling",
+    "fork": false,
+    "full_name": "wxinix/wxlib",
+    "html_url": "https://github.com/wxinix/wxlib",
+    "language": "C++",
+    "pushed_at": "2023-02-20T16:44:58Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-12-17T19:56:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandreyel/mio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikeloomisgg/cppack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mutouyun/cpp-ipc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

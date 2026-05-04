@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "360-photo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "status": "candidate-context",
+      "text": "A tool to project  equirectangular panorama into perspective images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "status": "candidate-context",
+      "text": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "status": "candidate",
+      "text": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "360-photo",
+  "concept_id": "360-photo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "360-photo",
+      "sense_id": "360-photo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

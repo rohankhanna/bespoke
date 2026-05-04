@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "alexandrosstergiou/adapool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "sebgao/lip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexandrosstergiou/SoftPool",
+      "target": "rentainhe/pytorch-pooling",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "alexandrosstergiou/SoftPool"
+}

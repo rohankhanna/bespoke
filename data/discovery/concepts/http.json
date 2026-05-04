@@ -1339,6 +1339,18 @@
       "source_repo": "clojure-liberator/liberator",
       "status": "candidate-context",
       "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogama/httpx",
+      "status": "candidate-context",
+      "text": "Reliable HTTP for GoLang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/httpx",
+      "status": "candidate-context",
+      "text": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)"
     }
   ],
   "candidate_glosses": [
@@ -2007,6 +2019,12 @@
       "source_repo": "clojure-liberator/liberator",
       "status": "candidate",
       "text": "CLJ-Kondo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/httpx",
+      "status": "candidate",
+      "text": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)"
     }
   ],
   "candidate_related_terms": [
@@ -3054,11 +3072,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "clojure-liberator/liberator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gogama/httpx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

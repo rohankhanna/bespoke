@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hassle-free queries on Amazon CloudWatch Logs Insights in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A native Go library to streamline and supercharge your interactions with the AWS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A native Go library to streamline and supercharge your interactions with the AWS"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudwatch-logs",
+      "sense_id": "cloudwatch-logs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloudwatch-logs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloudwatch-logs",
+  "observation_id": "dd36dc7b98beae70",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "cloudwatch-logs",
+  "source_context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+  "source_file": null,
+  "source_repo": "gogama/incite",
+  "source_repo_description": "Hassle-free queries on Amazon CloudWatch Logs Insights in Go"
+}

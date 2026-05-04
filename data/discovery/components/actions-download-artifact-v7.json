@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v7",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -667,6 +667,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-windows.yml",
       "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "slidevjs/slidev"
     }
   ]
 }

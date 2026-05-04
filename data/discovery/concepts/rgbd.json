@@ -37,6 +37,18 @@
       "source_repo": "andyzeng/3dmatch-toolbox",
       "status": "candidate-context",
       "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "andyzeng/3dmatch-toolbox",
       "status": "candidate",
       "text": "3DMatch is a ConvNet-based local geometric feature descriptor that operates on 3D data (i.e. point clouds, depth maps, meshes, etc.). This toolbox provides code to use 3DMatch for geometric registration and keypoint matching, as well as code to train 3DMatch from existing RGB-D \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "andyzeng/3dmatch-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenKai-shared",
+      "target": "Build font files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "source_repo": "lxgw/LxgwWenKai-shared",
+      "target": "Bump fontinfo version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "source_repo": "lxgw/LxgwWenKai-shared",
+      "target": "Update submodule",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:58.945263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1116
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2289
+    },
+    {
+      "path": ".github/workflows/bump_version.yaml",
+      "size": 2502
+    },
+    {
+      "path": ".github/workflows/update_submodule.yaml",
+      "size": 2197
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[SUBMODULE] This repo contains shared source files and scripts for LXGW WenKai font series. \u672c repo \u5305\u542b\u300a\u971e\u9e5c\u6587\u6977\u300b\u7cfb\u5217\u5b57\u4f53\u5171\u7528\u7684\u6e90\u6587\u4ef6\u548c\u811a\u672c\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwWenKai-shared",
+    "html_url": "https://github.com/lxgw/LxgwWenKai-shared",
+    "language": "Python",
+    "pushed_at": "2026-04-09T16:23:21Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-09T16:23:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build font files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build font files"
+    },
+    {
+      "context_snippet": "Bump fontinfo version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_version.yaml",
+      "term": "Bump fontinfo version"
+    },
+    {
+      "context_snippet": "Update submodule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_submodule.yaml",
+      "term": "Update submodule"
+    }
+  ]
+}

@@ -201,28 +201,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "carbon-design-system/carbon-components-svelte",
-      "target": "carbon-design-system/carbon-icons-svelte",
+      "target": "sveltejs/svelte",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "carbon-design-system/carbon-components-svelte",
-      "target": "carbon-design-system/carbon-pictograms-svelte",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-svelte",
-      "target": "carbon-design-system/carbon-charts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-svelte",
-      "target": "carbon-design-system/carbon-preprocess-svelte",
+      "target": "carbon-design-system/sveld",
       "target_type": "repository"
     },
     {
@@ -478,7 +464,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:37:00.897842+00:00",
+  "fetched_at": "2026-05-04T01:54:16.949009+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,22 +514,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-charts",
+      "full_name": "carbon-design-system/sveld",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-icons-svelte",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-pictograms-svelte",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-preprocess-svelte",
+      "full_name": "sveltejs/svelte",
       "source_file": "README.md"
     }
   ],

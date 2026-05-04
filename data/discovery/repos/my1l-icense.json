@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MY1L/icense",
+      "target": "my1l/nyushu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MY1L/icense",
+      "target": "license",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:46.775320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4056
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MY1License",
+    "fork": false,
+    "full_name": "MY1L/icense",
+    "html_url": "https://github.com/MY1L/icense",
+    "language": null,
+    "pushed_at": "2024-03-28T16:07:50Z",
+    "stargazers_count": 0,
+    "topics": [
+      "license"
+    ],
+    "updated_at": "2024-03-28T14:44:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "my1l/nyushu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "license"
+    }
+  ]
+}

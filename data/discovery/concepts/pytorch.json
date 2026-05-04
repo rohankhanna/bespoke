@@ -7099,6 +7099,102 @@
       "source_repo": "Project-MONAI/tutorials",
       "status": "candidate-context",
       "text": "This repository hosts the MONAI tutorials."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Medical imaging processing for AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate-context",
+      "text": "Implementation of \"Attention is All You Need\" paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate-context",
+      "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate-context",
+      "text": "This repo equips the official CLIFF [ECCV 2022 Oral] with better detector, better tracker. Support multi-person, motion interpolation, motion smooth and SMPLify fitting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'22] \"ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation\" and [TPAMI'23] \"ViTPose++: Vision Transformer for Generic Body Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -10647,6 +10743,54 @@
       "source_repo": "Project-MONAI/tutorials",
       "status": "candidate",
       "text": "This repository hosts the MONAI tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate",
+      "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -17098,11 +17242,299 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "black0017/MedicalZooPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/CLIFF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

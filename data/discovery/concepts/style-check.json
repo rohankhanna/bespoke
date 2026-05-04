@@ -117,6 +117,30 @@
       "source_repo": "PRBonn/4DMOS",
       "status": "candidate-context",
       "text": "Style Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "A LiDAR odometry pipeline that just works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "Style Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/MapMOS",
+      "status": "candidate-context",
+      "text": "Building Volumetric Beliefs for Dynamic Environments Exploiting Map-Based Moving Object Segmentation (RAL 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/MapMOS",
+      "status": "candidate-context",
+      "text": "Style Check"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PRBonn/4DMOS",
+      "status": "candidate",
+      "text": "Style Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate",
+      "text": "Style Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/MapMOS",
       "status": "candidate",
       "text": "Style Check"
     }
@@ -336,11 +372,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "PRBonn/4DMOS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "PRBonn/kiss-icp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "PRBonn/MapMOS"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

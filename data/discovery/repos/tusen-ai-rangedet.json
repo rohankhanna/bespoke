@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tusen-ai/RangeDet",
+      "target": "tusimple/simpledet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:17.603478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7613
+    },
+    {
+      "path": "requirements.txt",
+      "size": 191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Paper and Codes for \u201cRangeDet: In Defense of Range View for LiDAR-based 3D Object Detection\u201d (ICCV2021)",
+    "fork": false,
+    "full_name": "tusen-ai/RangeDet",
+    "html_url": "https://github.com/tusen-ai/RangeDet",
+    "language": "Python",
+    "pushed_at": "2024-01-29T05:43:12Z",
+    "stargazers_count": 198,
+    "topics": [],
+    "updated_at": "2026-04-18T15:16:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tusimple/simpledet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

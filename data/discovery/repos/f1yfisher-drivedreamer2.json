@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:41:45.033628+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[AAAI 2025] DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation",
+    "fork": false,
+    "full_name": "f1yfisher/DriveDreamer2",
+    "html_url": "https://github.com/f1yfisher/DriveDreamer2",
+    "language": "Python",
+    "pushed_at": "2025-03-26T02:46:38Z",
+    "stargazers_count": 250,
+    "topics": [],
+    "updated_at": "2026-04-29T12:52:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

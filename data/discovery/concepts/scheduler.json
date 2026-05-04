@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "scheduler"
+    "scheduler",
+    "Scheduler"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,12 @@
       "source_repo": "redisson/redisson",
       "status": "candidate-context",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxsmnsyc/sponsors",
+      "status": "candidate-context",
+      "text": "Scheduler"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +144,12 @@
       "source_repo": "redisson/redisson",
       "status": "candidate",
       "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxsmnsyc/sponsors",
+      "status": "candidate",
+      "text": "Scheduler"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +235,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "redisson/redisson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/scheduler.yml",
+      "source_repo": "lxsmnsyc/sponsors"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

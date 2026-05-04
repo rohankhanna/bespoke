@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995772,
+      "status": "candidate",
+      "text": "quickening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872150,
+      "status": "candidate",
+      "text": "acceleration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996500,
+      "status": "candidate",
+      "text": "speed teaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996498,
+      "status": "candidate",
+      "text": "accelerant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996497,
+      "status": "candidate",
+      "text": "accelerator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speedup",
+      "sense_id": "speedup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "quickening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5060,
+      "status": "candidate",
+      "text": "acceleration"
+    }
+  ],
+  "concept_id": "speedup",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speedup",
+  "observation_id": "8679bfbec6d4130a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "speedup",
+  "source_context_snippet": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)",
+  "source_file": null,
+  "source_repo": "DaoCloud/public-image-mirror",
+  "source_repo_description": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+}

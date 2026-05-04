@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clvrai/furniture-bench",
+      "target": "facebookresearch/polymetis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clvrai/furniture-bench",
+      "target": "ikostrikov/implicit_q_learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clvrai/furniture-bench",
+      "target": "facebookresearch/vip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clvrai/furniture-bench",
+      "target": "nvidia-omniverse/isaacgymenvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench",
+      "target": "furniture-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench",
+      "target": "reinforcement-learning-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:56.785185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FurnitureBench: Real-World Furniture Assembly Benchmark (RSS 2023)",
+    "fork": false,
+    "full_name": "clvrai/furniture-bench",
+    "html_url": "https://github.com/clvrai/furniture-bench",
+    "language": "Python",
+    "pushed_at": "2025-03-31T07:03:10Z",
+    "stargazers_count": 228,
+    "topics": [
+      "furniture-assembly",
+      "reinforcement-learning-environments",
+      "robot-learning",
+      "robotics",
+      "robotics-simulation"
+    ],
+    "updated_at": "2026-04-24T10:39:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/polymetis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/vip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikostrikov/implicit_q_learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-omniverse/isaacgymenvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**Paper**](http://arxiv.org/abs/2305.12821)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "furniture-assembly"
+    },
+    {
+      "context_snippet": "[**Paper**](http://arxiv.org/abs/2305.12821)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning-environments"
+    },
+    {
+      "context_snippet": "[**Paper**](http://arxiv.org/abs/2305.12821)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    },
+    {
+      "context_snippet": "[**Paper**](http://arxiv.org/abs/2305.12821)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[**Paper**](http://arxiv.org/abs/2305.12821)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    }
+  ]
+}

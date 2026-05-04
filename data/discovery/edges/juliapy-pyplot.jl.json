@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPy/PyPlot.jl",
+      "target": "stevengj/pycall.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/PyPlot.jl",
       "target": "cjdoris/pythoncall.jl",
       "target_type": "repository"
     },
@@ -12,13 +19,6 @@
       "source_file": "README.md",
       "source_repo": "JuliaPy/PyPlot.jl",
       "target": "luthaf/conda.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPy/PyPlot.jl",
-      "target": "juliagraphics/colortypes.jl",
       "target_type": "repository"
     },
     {
@@ -127,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "JuliaPy/PyPlot.jl"
 }

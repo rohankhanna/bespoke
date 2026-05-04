@@ -487,6 +487,18 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate-context",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "Plugins to interface Gazebo with YARP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_related_terms": [
@@ -1210,11 +1228,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Evilpasture/Culverin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

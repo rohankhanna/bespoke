@@ -163,6 +163,18 @@
       "source_repo": "ufoym/deepo",
       "status": "candidate-context",
       "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "Transfer Learning library for Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "ufoym/deepo",
       "status": "candidate",
       "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +352,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "amzn/xfer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

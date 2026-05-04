@@ -1216,6 +1216,96 @@
       "source_repo": "ptsochantaris/pop-timer",
       "status": "candidate-context",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/PopTimerLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned SwiftFormat packages for Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Swift Formatter (Powered by swiftformat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "Bazel rules that format Swift source files using nicklockwood/SwiftFormat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate-context",
+      "text": "Swift community driven package for OpenAI public API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/1411778/218319355-f56b6bd4-961a-4d8f-82cd-6dbd43111d7f.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "A parser combinator library written in the Swift programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Your Drag & Drop Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Gladys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/mima",
+      "status": "candidate-context",
+      "text": "Mima"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Trailer"
     }
   ],
   "candidate_glosses": [
@@ -1830,6 +1920,54 @@
       "source_repo": "ptsochantaris/pop-timer",
       "status": "candidate",
       "text": "<img src=\"https://ptsochantaris.github.io/trailer/PopTimerLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/1411778/218319355-f56b6bd4-961a-4d8f-82cd-6dbd43111d7f.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate",
+      "text": "Gladys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/mima",
+      "status": "candidate",
+      "text": "Mima"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate",
+      "text": "Trailer"
     }
   ],
   "candidate_related_terms": [
@@ -2977,11 +3115,77 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/rules_swiftformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MacPaw/OpenAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davedufresne/SwiftParsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/mima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

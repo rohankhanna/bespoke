@@ -451,6 +451,18 @@
       "source_repo": "pion/stun",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a Anti-detect browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate-context",
+      "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "pion/stun",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate",
+      "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -940,11 +958,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pion/stun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "daijro/camoufox"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

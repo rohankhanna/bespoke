@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of utilities for helping applications be more reactive."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of utilities for helping applications be more reactive."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39640444,
+      "status": "candidate",
+      "text": "calculated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39632635,
+      "status": "candidate",
+      "text": "plagiaristic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39632406,
+      "status": "candidate",
+      "text": "plagiarized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39625396,
+      "status": "candidate",
+      "text": "calculable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39614774,
+      "status": "candidate",
+      "text": "derivative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "derived",
+      "sense_id": "derived#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8033,
+      "status": "candidate",
+      "text": "calculated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7064,
+      "status": "candidate",
+      "text": "derivative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "calculable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "derivable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "plagiarized"
+    }
+  ],
+  "concept_id": "derived",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "derived",
+  "observation_id": "d5918657550debde",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "derived",
+  "source_context_snippet": "A collection of utilities for helping applications be more reactive.",
+  "source_file": null,
+  "source_repo": "universal-ember/reactiveweb",
+  "source_repo_description": "Reactive primitives for the web"
+}

@@ -127,6 +127,18 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate-context",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gisbi-kim/SC-A-LOAM",
+      "status": "candidate-context",
+      "text": "Robust LiDAR SLAM with a versatile plug-and-play loop closing and pose-graph optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/SC-A-LOAM",
+      "status": "candidate-context",
+      "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "streetcomplete/StreetComplete",
       "status": "candidate",
       "text": "![StreetComplete](.github/images/feature_graphic.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gisbi-kim/SC-A-LOAM",
+      "status": "candidate",
+      "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -338,11 +356,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "streetcomplete/StreetComplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gisbi-kim/SC-A-LOAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "streetcomplete/StreetComplete"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

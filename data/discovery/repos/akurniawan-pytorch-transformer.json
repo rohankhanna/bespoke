@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "target": "pytorch/text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer",
+      "target": "attention-is-all-you-need",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer",
+      "target": "multihead-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:59.919113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12045
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of \"Attention is All You Need\" paper",
+    "fork": false,
+    "full_name": "akurniawan/pytorch-transformer",
+    "html_url": "https://github.com/akurniawan/pytorch-transformer",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:15:27Z",
+    "stargazers_count": 33,
+    "topics": [
+      "attention",
+      "attention-is-all-you-need",
+      "multihead-attention",
+      "pytorch"
+    ],
+    "updated_at": "2024-12-20T11:07:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/text",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-is-all-you-need"
+    },
+    {
+      "context_snippet": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multihead-attention"
+    },
+    {
+      "context_snippet": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

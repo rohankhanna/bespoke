@@ -43,6 +43,18 @@
       "source_repo": "feifeibear/long-context-attention",
       "status": "candidate-context",
       "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate-context",
+      "text": "Implementation of \"Attention is All You Need\" paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate-context",
+      "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "feifeibear/long-context-attention",
       "status": "candidate",
       "text": "[\\[Tech Report\\] USP: A Unified Sequence Parallelism Approach for Long Context Generative AI](https://arxiv.org/abs/2405.07719)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akurniawan/pytorch-transformer",
+      "status": "candidate",
+      "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "feifeibear/long-context-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "akurniawan/pytorch-transformer"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

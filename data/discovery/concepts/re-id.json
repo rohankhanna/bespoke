@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "re-id"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate-context",
+      "text": "TOMM2017 A Discriminatively Learned CNN Embedding for Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate-context",
+      "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "re-id",
+  "concept_id": "re-id",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "re-id",
+      "sense_id": "re-id#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

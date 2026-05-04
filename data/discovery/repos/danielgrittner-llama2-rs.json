@@ -1,0 +1,106 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs",
+      "target": "llama2c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:49:46.894849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1394
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLaMA2 + Rust",
+    "fork": false,
+    "full_name": "danielgrittner/llama2-rs",
+    "html_url": "https://github.com/danielgrittner/llama2-rs",
+    "language": "Rust",
+    "pushed_at": "2023-08-08T20:31:15Z",
+    "stargazers_count": 13,
+    "topics": [
+      "ai",
+      "deep-learning",
+      "llama2",
+      "llama2c",
+      "llm",
+      "llm-inference",
+      "rust"
+    ],
+    "updated_at": "2026-02-16T09:48:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LLaMA2 port for Rust inspired by `llama2.c`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "LLaMA2 port for Rust inspired by `llama2.c`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "LLaMA2 port for Rust inspired by `llama2.c`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2c"
+    },
+    {
+      "context_snippet": "LLaMA2 port for Rust inspired by `llama2.c`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "LLaMA2 port for Rust inspired by `llama2.c`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

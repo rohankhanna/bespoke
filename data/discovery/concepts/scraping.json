@@ -55,6 +55,30 @@
       "source_repo": "tabulapdf/tabula",
       "status": "candidate-context",
       "text": "**Is `tabula` an active project?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8a Anti-detect browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate-context",
+      "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "|logo|"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "tabulapdf/tabula",
       "status": "candidate",
       "text": "**Is `tabula` an active project?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daijro/camoufox",
+      "status": "candidate",
+      "text": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "|logo|"
     }
   ],
   "candidate_related_terms": [
@@ -170,11 +206,23 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": null,
       "source_repo": "tabulapdf/tabula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "daijro/camoufox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "scrapy/scrapy"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

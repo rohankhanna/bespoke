@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u514d\u8cbb\u958b\u6e90\u7684 11\u00d711 \u4e2d\u6587\u9ede\u9663\u9ad4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892196,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892182,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891606,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789457,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661453,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "font",
+      "sense_id": "font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "baptismal font"
+    }
+  ],
+  "concept_id": "font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "font",
+  "observation_id": "fc0676450a4bd9f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "font",
+  "source_context_snippet": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)",
+  "source_file": null,
+  "source_repo": "ACh-K/Cubic-11",
+  "source_repo_description": "\u514d\u8cbb\u958b\u6e90\u7684 11\u00d711 \u4e2d\u6587\u9ede\u9663\u9ad4"
+}

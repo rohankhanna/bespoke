@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:52:27.239352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2937
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# port of fluent.js",
+    "fork": false,
+    "full_name": "blushingpenguin/Fluent.Net",
+    "html_url": "https://github.com/blushingpenguin/Fluent.Net",
+    "language": "C#",
+    "pushed_at": "2024-11-07T17:25:48Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-03-22T07:50:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -313,6 +313,18 @@
       "source_repo": "liamcain/obsidian-periodic-notes",
       "status": "candidate-context",
       "text": "The Periodic Notes plugin expands on the idea of daily notes and introduces weekly and monthly notes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
+      "status": "candidate-context",
+      "text": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero into Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
+      "status": "candidate-context",
+      "text": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero into Obsidian. Requires the [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/) plugin."
     }
   ],
   "candidate_glosses": [
@@ -471,6 +483,12 @@
       "source_repo": "liamcain/obsidian-periodic-notes",
       "status": "candidate",
       "text": "The Periodic Notes plugin expands on the idea of daily notes and introduces weekly and monthly notes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
+      "status": "candidate",
+      "text": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero into Obsidian. Requires the [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/) plugin."
     }
   ],
   "candidate_related_terms": [],
@@ -700,11 +718,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "liamcain/obsidian-periodic-notes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-zotero-integration"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

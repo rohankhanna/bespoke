@@ -1027,6 +1027,42 @@
       "source_repo": "MarkFzp/act-plus-plus",
       "status": "candidate-context",
       "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "A LiDAR odometry pipeline that just works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "FurnitureBench: Real-World Furniture Assembly Benchmark (RSS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate-context",
+      "text": "RoboTwin 2.0 Offical Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1539,6 +1575,24 @@
       "source_repo": "MarkFzp/act-plus-plus",
       "status": "candidate",
       "text": "This repo contains the implementation of ACT, Diffusion Policy and VINN, together with 2 simulated environments:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoboTwin-Platform/RoboTwin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2308,11 +2362,77 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/kiss-icp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "RoboTwin-Platform/RoboTwin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

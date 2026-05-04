@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build Issue Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "PHPStan's source code. This is where development happens. Check https://github.com/phpstan/phpstan for the distribution repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "\"Build Issue Bot\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate",
+      "text": "\"Build Issue Bot\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19190,
+      "status": "candidate",
+      "text": "linear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19156,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19127,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067,
+      "status": "candidate",
+      "text": "ports"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Issue Bot",
+  "concept_id": "build-issue-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Issue Bot",
+      "sense_id": "build-issue-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

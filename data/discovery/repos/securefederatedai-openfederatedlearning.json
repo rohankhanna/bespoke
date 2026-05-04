@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "securefederatedai/artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "securefederatedai/openfl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "openfl/openfl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "fets-ai/front-end",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Bandit Code Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Docker Bench for Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Workflow Interface Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gandlf.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gandlf.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "GaNDLF TaskRunner E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Hadolint Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Check code format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "Build and Push Openfl Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "OSPDT Dependency Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "federated-analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "federated-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "federated-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "privacy-preserving-ml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "target": "trusted-execution-environment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:02:44.471179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8204
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1207
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 1381
+    },
+    {
+      "path": ".github/workflows/docker-bench-security.yml",
+      "size": 1800
+    },
+    {
+      "path": ".github/workflows/experimental_workflow_tests.yml",
+      "size": 3776
+    },
+    {
+      "path": ".github/workflows/gandlf.yml",
+      "size": 2985
+    },
+    {
+      "path": ".github/workflows/hadolint.yml",
+      "size": 1209
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 776
+    },
+    {
+      "path": ".github/workflows/openfl-docker-build.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/ospdt_dependency_workflow.yml",
+      "size": 4152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "An Open Framework for Federated Learning.",
+    "fork": false,
+    "full_name": "securefederatedai/openfederatedlearning",
+    "html_url": "https://github.com/securefederatedai/openfederatedlearning",
+    "language": "Python",
+    "pushed_at": "2026-02-21T16:41:42Z",
+    "stargazers_count": 838,
+    "topics": [
+      "federated-analytics",
+      "federated-evaluation",
+      "federated-learning",
+      "privacy-preserving-ml",
+      "python",
+      "trusted-execution-environment"
+    ],
+    "updated_at": "2026-04-24T01:52:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fets-ai/front-end",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openfl/openfl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "securefederatedai/artwork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "securefederatedai/openfl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bandit Code Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bandit.yml",
+      "term": "Bandit Code Scan"
+    },
+    {
+      "context_snippet": "Docker Bench for Security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-bench-security.yml",
+      "term": "Docker Bench for Security"
+    },
+    {
+      "context_snippet": "Workflow Interface Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/experimental_workflow_tests.yml",
+      "term": "Workflow Interface Tests"
+    },
+    {
+      "context_snippet": "GaNDLF TaskRunner E2E",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gandlf.yml",
+      "term": "GaNDLF TaskRunner E2E"
+    },
+    {
+      "context_snippet": "Hadolint Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hadolint.yml",
+      "term": "Hadolint Security Scan"
+    },
+    {
+      "context_snippet": "Check code format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Check code format"
+    },
+    {
+      "context_snippet": "Build and Push Openfl Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/openfl-docker-build.yml",
+      "term": "Build and Push Openfl Docker Image"
+    },
+    {
+      "context_snippet": "OSPDT Dependency Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "term": "OSPDT Dependency Workflow"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-analytics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "federated-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy-preserving-ml"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trusted-execution-environment"
+    }
+  ]
+}

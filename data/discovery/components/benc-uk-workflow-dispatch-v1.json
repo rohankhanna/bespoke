@@ -1,7 +1,7 @@
 {
   "component": "benc-uk/workflow-dispatch@v1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trigger_from_labelu_kit.yml",
       "source_repo": "opendatalab/labelU"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-packages.yml",
+      "source_repo": "opendatalab/labelU-Kit"
     }
   ]
 }

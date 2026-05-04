@@ -16,14 +16,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "trailblazer/cells",
-      "target": "trailblazer/cells-erb",
+      "target": "trailblazer/cells-hamlit",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "trailblazer/cells",
-      "target": "k0kubun/hamlit",
+      "target": "trailblazer/cells-haml",
       "target_type": "repository"
     },
     {
@@ -55,7 +55,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-03T20:36:20.627806+00:00",
+  "fetched_at": "2026-05-04T01:55:28.391249+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,12 +93,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "k0kubun/hamlit",
+      "full_name": "trailblazer/cells-haml",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "trailblazer/cells-erb",
+      "full_name": "trailblazer/cells-hamlit",
       "source_file": "README.md"
     }
   ],

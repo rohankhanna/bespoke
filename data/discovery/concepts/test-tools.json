@@ -34,6 +34,18 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/repository-group",
+      "status": "candidate-context",
+      "text": "Gradle files for importing multi-repository builds into IDEs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/repository-group",
+      "status": "candidate-context",
+      "text": "Test tools"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "web-infra-dev/rstest",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/repository-group",
+      "status": "candidate",
+      "text": "Test tools"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "web-infra-dev/rstest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/test-tools.yml",
+      "source_repo": "ihmcrobotics/repository-group"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

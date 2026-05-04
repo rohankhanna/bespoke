@@ -84,7 +84,7 @@
   "normalized_form": "delete-branch-on-hacl-packages",
   "observation_id": "8b9fb464bb531766",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Delete branch on hacl-packages",
   "source_context_snippet": "Delete branch on hacl-packages",
   "source_file": ".github/workflows/hacl-packages-delete-branch.yml",

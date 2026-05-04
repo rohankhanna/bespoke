@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -277,6 +277,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
       "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan-src"
     }
   ]
 }

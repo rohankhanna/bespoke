@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "bev-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "end-to-end-autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "motion-planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "multi-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "nuplan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "priest-yang/VADv2",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:46.580853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6755
+    },
+    {
+      "path": "requirements.txt",
+      "size": 732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VADv2: End-to-End Vectorized Autonomous Driving via Probabilistic Planning",
+    "fork": false,
+    "full_name": "priest-yang/VADv2",
+    "html_url": "https://github.com/priest-yang/VADv2",
+    "language": "Python",
+    "pushed_at": "2025-03-14T22:26:25Z",
+    "stargazers_count": 77,
+    "topics": [
+      "autonomous-driving",
+      "bev-segmentation",
+      "end-to-end-autonomous-driving",
+      "motion-planning",
+      "multi-object-tracking",
+      "nuplan",
+      "nuscenes",
+      "occupancy-prediction"
+    ],
+    "updated_at": "2026-04-29T11:16:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bev-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end-autonomous-driving"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-tracking"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuplan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    }
+  ]
+}

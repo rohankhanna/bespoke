@@ -1,0 +1,408 @@
+{
+  "components": [
+    {
+      "component": "@geckos.io/client",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@geckos.io/server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/follow-redirects",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/pako",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "all-contributors-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "flatbuffers",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "follow-redirects",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "msgpackr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-stream-zip",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pako",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@geckos.io/client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@geckos.io/server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@types/follow-redirects",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "@types/pako",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "all-contributors-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "flatbuffers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "follow-redirects",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "msgpackr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "node-stream-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "pako",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arthuro555/THNK",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "authoritative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "authoritative-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "collaborate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "gdevelop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "gdevelop-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "multiplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "multiplayer-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "multiplayer-game-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK",
+      "target": "server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:54:17.237332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6730
+    },
+    {
+      "path": "package.json",
+      "size": 1769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An authoritative multiplayer games framework for GDevelop.",
+    "fork": false,
+    "full_name": "arthuro555/THNK",
+    "html_url": "https://github.com/arthuro555/THNK",
+    "language": "TypeScript",
+    "pushed_at": "2025-09-11T12:16:01Z",
+    "stargazers_count": 92,
+    "topics": [
+      "authoritative",
+      "authoritative-server",
+      "collaborate",
+      "framework",
+      "gamedev",
+      "gdevelop",
+      "gdevelop-extension",
+      "hacktoberfest",
+      "multiplayer",
+      "multiplayer-game",
+      "multiplayer-game-server",
+      "server",
+      "typescript"
+    ],
+    "updated_at": "2026-04-28T05:00:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authoritative"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authoritative-server"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborate"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdevelop"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdevelop-extension"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer-game"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer-game-server"
+    },
+    {
+      "context_snippet": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    }
+  ]
+}

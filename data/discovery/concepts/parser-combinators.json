@@ -43,6 +43,18 @@
       "source_repo": "pyrocat101/opal",
       "status": "candidate-context",
       "text": "Opal is a minimum collection of useful parsers and combinators (~150 loc of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "A parser combinator library written in the Swift programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pyrocat101/opal",
       "status": "candidate",
       "text": "Opal is a minimum collection of useful parsers and combinators (~150 loc of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davedufresne/SwiftParsec"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

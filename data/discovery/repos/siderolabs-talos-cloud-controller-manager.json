@@ -1,0 +1,445 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml"
+    },
+    {
+      "component": "talos-systems/conform@v0.1.0-alpha.31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml"
+    },
+    {
+      "component": "gabe565/setup-helm-docs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml"
+    },
+    {
+      "component": "craicoverflow/install-git-chglog@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "sigstore/cosign-installer@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Build edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Build check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "helm/chart-testing-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Helm chart check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "talos-systems/conform@v0.1.0-alpha.31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Conformance check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "sigstore/cosign-installer@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Release Helm Chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "gabe565/setup-helm-docs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "craicoverflow/install-git-chglog@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Release check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "sigstore/cosign-installer@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "siderolabs/talos-cloud-controller-manager",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:49:59.877021+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3449
+    },
+    {
+      "path": "Dockerfile",
+      "size": 794
+    },
+    {
+      "path": "go.mod",
+      "size": 6877
+    },
+    {
+      "path": ".github/workflows/build-edge.yaml",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/build-test.yaml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/charts.yaml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/conform.yaml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/release-charts.yaml",
+      "size": 865
+    },
+    {
+      "path": ".github/workflows/release-pre.yaml",
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generic cloud controller manager for hybrid deployments using Talos OS",
+    "fork": false,
+    "full_name": "siderolabs/talos-cloud-controller-manager",
+    "html_url": "https://github.com/siderolabs/talos-cloud-controller-manager",
+    "language": "Go",
+    "pushed_at": "2026-03-30T07:37:50Z",
+    "stargazers_count": 136,
+    "topics": [],
+    "updated_at": "2026-04-18T13:53:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build edge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "term": "Build edge"
+    },
+    {
+      "context_snippet": "Build check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "term": "Build check"
+    },
+    {
+      "context_snippet": "Helm chart check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charts.yaml",
+      "term": "Helm chart check"
+    },
+    {
+      "context_snippet": "Conformance check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conform.yaml",
+      "term": "Conformance check"
+    },
+    {
+      "context_snippet": "Release Helm Chart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "term": "Release Helm Chart"
+    },
+    {
+      "context_snippet": "Release check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "term": "Release check"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    }
+  ]
+}

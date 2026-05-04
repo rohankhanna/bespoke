@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nasa-petal/PeTaL-db",
+      "target": "nasa/petal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nasa-petal/PeTaL-db",
+      "target": "nasa/petal-labeller",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:49:18.903554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PeTaL REST API and database",
+    "fork": false,
+    "full_name": "nasa-petal/PeTaL-db",
+    "html_url": "https://github.com/nasa-petal/PeTaL-db",
+    "language": "Python",
+    "pushed_at": "2024-05-14T16:28:26Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-12-27T11:48:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nasa/petal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nasa/petal-labeller",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

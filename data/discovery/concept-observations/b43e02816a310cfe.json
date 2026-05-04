@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Robust LiDAR SLAM with a versatile plug-and-play loop closing and pose-graph optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039856,
+      "status": "candidate",
+      "text": "soil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037199,
+      "status": "candidate",
+      "text": "loess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035949,
+      "status": "candidate",
+      "text": "silt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029758,
+      "status": "candidate",
+      "text": "sludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020099,
+      "status": "candidate",
+      "text": "topsoil"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loam",
+      "sense_id": "loam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "loam",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "loam",
+  "observation_id": "b43e02816a310cfe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "loam",
+  "source_context_snippet": "- ``2021-07-16``: This repository's easy-to-use plug-and-play loop detection and pose graph optimization module (named [SC-PGO](https://github.com/gisbi-kim/SC-A-LOAM/blob/main/src/laserPosegraphOptimization.cpp)) is also integrated with FAST-LIO2! see [FAST_LIO_SLAM](https://gi\u2026",
+  "source_file": null,
+  "source_repo": "gisbi-kim/SC-A-LOAM",
+  "source_repo_description": "Robust LiDAR SLAM with a versatile plug-and-play loop closing and pose-graph optimization."
+}

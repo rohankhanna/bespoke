@@ -103,6 +103,18 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate-context",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "FurnitureBench: Real-World Furniture Assembly Benchmark (RSS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jimmyyhwu/tidybot2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

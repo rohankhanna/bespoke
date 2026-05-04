@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/REPA",
+      "target": "lth14/rcg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/REPA",
+      "target": "facebookresearch/ijepa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/REPA",
+      "target": "baofff/u-vit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/REPA",
+      "target": "nvlabs/edm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sihyun-yu/REPA",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sihyun-yu/REPA",
+      "target": "diffusion-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:32.349257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR'25 Oral] Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think",
+    "fork": false,
+    "full_name": "sihyun-yu/REPA",
+    "html_url": "https://github.com/sihyun-yu/REPA",
+    "language": "Python",
+    "pushed_at": "2025-03-16T13:50:00Z",
+    "stargazers_count": 1620,
+    "topics": [
+      "diffusion",
+      "diffusion-models"
+    ],
+    "updated_at": "2026-05-01T02:13:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baofff/u-vit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/ijepa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lth14/rcg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/edm2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"> Representation Alignment for Generation: <br>Training Diffusion Transformers Is Easier Than You Think",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Representation Alignment for Generation: <br>Training Diffusion Transformers Is Easier Than You Think",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "release-start",
   "observation_id": "d89c256c090d8fc9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "\ud83d\udeeb Release Start",
   "source_context_snippet": "\ud83d\udeeb Release Start",
   "source_file": ".github/workflows/release_start.yml",

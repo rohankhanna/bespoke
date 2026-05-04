@@ -194,6 +194,18 @@
       "source_repo": "withoutbg/withoutbg",
       "status": "candidate-context",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate-context",
+      "text": "Cleanly startup and shutdown server application, freeing resources in order before exiting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate-context",
+      "text": "Auto Release"
     }
   ],
   "candidate_glosses": [
@@ -296,6 +308,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "withoutbg/withoutbg",
+      "status": "candidate",
+      "text": "Auto Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/swift-service-lifecycle",
       "status": "candidate",
       "text": "Auto Release"
     }
@@ -773,11 +791,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "swift-server/swift-service-lifecycle"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

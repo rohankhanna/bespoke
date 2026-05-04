@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "hongwenzhang/pymaf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "hongwenzhang/danet-3dhumanreconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "mkocabas/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "facebookresearch/densepose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "full-body-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "full-body-motion-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "monocular-human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "target": "smplx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:00:30.356611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6480
+    },
+    {
+      "path": "requirements.txt",
+      "size": 249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "smplx",
+    "description": "[TPAMI 2023] PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images",
+    "fork": false,
+    "full_name": "HongwenZhang/PyMAF-X",
+    "html_url": "https://github.com/HongwenZhang/PyMAF-X",
+    "language": "Python",
+    "pushed_at": "2024-09-29T02:10:53Z",
+    "stargazers_count": 282,
+    "topics": [
+      "full-body-mesh-recovery",
+      "full-body-motion-capture",
+      "human-mesh-recovery",
+      "monocular-human-mesh-recovery",
+      "smplx"
+    ],
+    "updated_at": "2026-04-19T07:37:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/densepose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongwenzhang/danet-3dhumanreconstruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongwenzhang/pymaf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mkocabas/spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-body-mesh-recovery"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-body-motion-capture"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-mesh-recovery"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-human-mesh-recovery"
+    },
+    {
+      "context_snippet": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smplx"
+    }
+  ]
+}

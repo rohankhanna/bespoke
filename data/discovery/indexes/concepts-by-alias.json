@@ -68,6 +68,9 @@
   "2vec": [
     "2vec"
   ],
+  "360-photo": [
+    "360-photo"
+  ],
   "3b1b": [
     "3b1b"
   ],
@@ -172,6 +175,9 @@
   ],
   "3d-map": [
     "3d-map"
+  ],
+  "3d-mapping": [
+    "3d-mapping"
   ],
   "3d-math-libraries": [
     "3d-math-libraries"
@@ -310,6 +316,9 @@
   ],
   "3dpointcloud": [
     "3dpointcloud"
+  ],
+  "3dv2021": [
+    "3dv2021"
   ],
   "3dvision": [
     "3dvision"
@@ -785,6 +794,9 @@
   "activejob-backend": [
     "activejob-backend"
   ],
+  "activelearning": [
+    "activelearning"
+  ],
   "activerecord": [
     "activerecord"
   ],
@@ -796,6 +808,9 @@
   ],
   "activitynet": [
     "activitynet"
+  ],
+  "activitypub": [
+    "activitypub"
   ],
   "actix": [
     "actix"
@@ -2100,6 +2115,9 @@
   "aichat": [
     "aichat"
   ],
+  "aicity": [
+    "aicity"
+  ],
   "aicoding": [
     "aicoding"
   ],
@@ -3214,6 +3232,12 @@
   "anticensorship": [
     "anticensorship"
   ],
+  "antidetect": [
+    "antidetect"
+  ],
+  "antidetect-browser": [
+    "antidetect-browser"
+  ],
   "antigen": [
     "antigen"
   ],
@@ -3466,6 +3490,9 @@
   ],
   "api-manager": [
     "api-manager"
+  ],
+  "api-mocking": [
+    "api-mocking"
   ],
   "api-platform": [
     "api-platform"
@@ -3974,6 +4001,9 @@
   "architecture-optimization": [
     "architecture-optimization"
   ],
+  "architecture-search": [
+    "architecture-search"
+  ],
   "architectures": [
     "architectures"
   ],
@@ -4138,6 +4168,12 @@
   ],
   "arguments": [
     "arguments"
+  ],
+  "argv": [
+    "argv"
+  ],
+  "argv-parser": [
+    "argv-parser"
   ],
   "aria": [
     "aria"
@@ -5187,6 +5223,12 @@
   "authorisation": [
     "authorisation"
   ],
+  "authoritative": [
+    "authoritative"
+  ],
+  "authoritative-server": [
+    "authoritative-server"
+  ],
   "authorization": [
     "authorization"
   ],
@@ -5496,6 +5538,9 @@
   "auto update on frontend release": [
     "auto-update-on-frontend-release"
   ],
+  "auto update yapi": [
+    "auto-update-yapi"
+  ],
   "auto version bump": [
     "auto-version-bump"
   ],
@@ -5561,6 +5606,9 @@
   ],
   "auto-close labeled issues": [
     "auto-close-labeled-issues"
+  ],
+  "auto-close llm prs": [
+    "auto-close-llm-prs"
   ],
   "auto-close needs mre issues": [
     "auto-close-needs-mre-issues"
@@ -6119,6 +6167,9 @@
   ],
   "automerge (staging)": [
     "automerge-staging"
+  ],
+  "automerge dependabot": [
+    "automerge-dependabot"
   ],
   "automerge dependabot & wpt updates": [
     "automerge-dependabot-wpt-updates"
@@ -7014,6 +7065,9 @@
   "backups": [
     "backups"
   ],
+  "backward compatibility": [
+    "backward-compatibility"
+  ],
   "backward compatibility check": [
     "backward-compatibility-check"
   ],
@@ -7136,6 +7190,9 @@
   ],
   "bandit check": [
     "bandit-check"
+  ],
+  "bandit code scan": [
+    "bandit-code-scan"
   ],
   "bandit-algorithms": [
     "bandit-algorithms"
@@ -8732,6 +8789,9 @@
   "block internal prs": [
     "block-internal-prs"
   ],
+  "block merge commits": [
+    "block-merge-commits"
+  ],
   "block pr merging on blocked labels": [
     "block-pr-merging-on-blocked-labels"
   ],
@@ -9310,6 +9370,12 @@
   "brands": [
     "brands"
   ],
+  "brats2018": [
+    "brats2018"
+  ],
+  "brats2019": [
+    "brats2019"
+  ],
   "brave": [
     "brave"
   ],
@@ -9738,6 +9804,9 @@
   ],
   "build (arm)": [
     "build-arm"
+  ],
+  "build (ci)": [
+    "build-ci"
   ],
   "build (cross-compile)": [
     "build-cross-compile"
@@ -10351,6 +10420,9 @@
   "build and push openai docker image": [
     "build-and-push-openai-docker-image"
   ],
+  "build and push openfl docker image": [
+    "build-and-push-openfl-docker-image"
+  ],
   "build and push orbax-checkpoint docker images": [
     "build-and-push-orbax-checkpoint-docker-images"
   ],
@@ -10875,6 +10947,9 @@
   ],
   "build changelog": [
     "build-changelog"
+  ],
+  "build changelog generator": [
+    "build-changelog-generator"
   ],
   "build check": [
     "build-check"
@@ -11548,6 +11623,9 @@
   "build ipinfo geoipupdate image": [
     "build-ipinfo-geoipupdate-image"
   ],
+  "build issue bot": [
+    "build-issue-bot"
+  ],
   "build java semantic kernel": [
     "build-java-semantic-kernel"
   ],
@@ -11595,6 +11673,9 @@
   ],
   "build libraries": [
     "build-libraries"
+  ],
+  "build library artifacts": [
+    "build-library-artifacts"
   ],
   "build librtlsdr": [
     "build-librtlsdr"
@@ -13712,8 +13793,17 @@
   "c++": [
     "c"
   ],
+  "c++ api": [
+    "c-api"
+  ],
   "c++ benchmarks": [
     "c-benchmarks"
+  ],
+  "c++ bindings": [
+    "c-bindings"
+  ],
+  "c++ build": [
+    "c-build"
   ],
   "c++ build & test": [
     "c-build-test"
@@ -14633,6 +14723,9 @@
   "censorship-resistance": [
     "censorship-resistance"
   ],
+  "center": [
+    "center"
+  ],
   "centerline-detection": [
     "centerline-detection"
   ],
@@ -14659,6 +14752,9 @@
   ],
   "cepstrum": [
     "cepstrum"
+  ],
+  "cerebral": [
+    "cerebral"
   ],
   "cerebrum-aios integration test": [
     "cerebrum-aios-integration-test"
@@ -15326,6 +15422,9 @@
   "check changelog": [
     "check-changelog"
   ],
+  "check changelog entries": [
+    "check-changelog-entries"
+  ],
   "check changelog file included": [
     "check-changelog-file-included"
   ],
@@ -15475,6 +15574,9 @@
   ],
   "check dist content": [
     "check-dist-content"
+  ],
+  "check distributables": [
+    "check-distributables"
   ],
   "check dockerfile references": [
     "check-dockerfile-references"
@@ -15817,6 +15919,9 @@
   ],
   "check lint with stylua": [
     "check-lint-with-stylua"
+  ],
+  "check linting": [
+    "check-linting"
   ],
   "check locale completeness": [
     "check-locale-completeness"
@@ -17087,6 +17192,9 @@
   "ci benchmarks": [
     "ci-benchmarks"
   ],
+  "ci bot": [
+    "ci-bot"
+  ],
   "ci bot commands": [
     "ci-bot-commands"
   ],
@@ -17825,6 +17933,9 @@
   "cider": [
     "cider"
   ],
+  "cidn runner": [
+    "cidn-runner"
+  ],
   "cidr": [
     "cidr"
   ],
@@ -17965,6 +18076,9 @@
   ],
   "city-modeling": [
     "city-modeling"
+  ],
+  "cityflow": [
+    "cityflow"
   ],
   "cityhash": [
     "cityhash"
@@ -18833,6 +18947,9 @@
   "clienthello": [
     "clienthello"
   ],
+  "cliff": [
+    "cliff"
+  ],
   "clifford-algebras": [
     "clifford-algebras"
   ],
@@ -19069,6 +19186,9 @@
   ],
   "close incomplete issues": [
     "close-incomplete-issues"
+  ],
+  "close incorrect issue": [
+    "close-incorrect-issue"
   ],
   "close invalid issue": [
     "close-invalid-issue"
@@ -19334,6 +19454,9 @@
   "cloud-storage": [
     "cloud-storage"
   ],
+  "cloud-sync": [
+    "cloud-sync"
+  ],
   "cloud-tpu": [
     "cloud-tpu"
   ],
@@ -19385,6 +19508,9 @@
   "cloudfront": [
     "cloudfront"
   ],
+  "cloudkit": [
+    "cloudkit"
+  ],
   "cloudnative": [
     "cloudnative"
   ],
@@ -19397,8 +19523,14 @@
   "cloudstorage": [
     "cloudstorage"
   ],
+  "cloudwatch": [
+    "cloudwatch"
+  ],
   "cloudwatch-logs": [
     "cloudwatch-logs"
+  ],
+  "cloudwatchlogs": [
+    "cloudwatchlogs"
   ],
   "cloudwego": [
     "cloudwego"
@@ -20504,6 +20636,9 @@
   "coldark": [
     "coldark"
   ],
+  "collaborate": [
+    "collaborate"
+  ],
   "collaboration": [
     "collaboration"
   ],
@@ -21383,6 +21518,9 @@
   "composability": [
     "composability"
   ],
+  "composable": [
+    "composable"
+  ],
   "composable-commerce": [
     "composable-commerce"
   ],
@@ -22072,6 +22210,9 @@
   ],
   "containers": [
     "containers"
+  ],
+  "contamination-detection": [
+    "contamination-detection"
   ],
   "content": [
     "content"
@@ -23222,6 +23363,9 @@
   "cqrs": [
     "cqrs"
   ],
+  "cr (continuous releases)": [
+    "cr-continuous-releases"
+  ],
   "cradle": [
     "cradle"
   ],
@@ -23353,6 +23497,9 @@
   ],
   "create build size report": [
     "create-build-size-report"
+  ],
+  "create bump version pr": [
+    "create-bump-version-pr"
   ],
   "create casks pr": [
     "create-casks-pr"
@@ -23662,6 +23809,9 @@
   ],
   "credit-card": [
     "credit-card"
+  ],
+  "creo": [
+    "creo"
   ],
   "crev": [
     "crev"
@@ -23993,6 +24143,9 @@
   "cruby": [
     "cruby"
   ],
+  "cruby bindings": [
+    "cruby-bindings"
+  ],
   "cruby dev builds": [
     "cruby-dev-builds"
   ],
@@ -24239,6 +24392,9 @@
   "ctypes": [
     "ctypes"
   ],
+  "cub-200-2011": [
+    "cub-200-2011"
+  ],
   "cubic": [
     "cubic"
   ],
@@ -24421,6 +24577,9 @@
   ],
   "custom-instrumentation": [
     "custom-instrumentation"
+  ],
+  "custom-matcher": [
+    "custom-matcher"
   ],
   "custom-metrics": [
     "custom-metrics"
@@ -25232,6 +25391,9 @@
   "data-selection": [
     "data-selection"
   ],
+  "data-sicence": [
+    "data-sicence"
+  ],
   "data-sources": [
     "data-sources"
   ],
@@ -25874,6 +26036,9 @@
   "deduplication": [
     "deduplication"
   ],
+  "deeo-learning": [
+    "deeo-learning"
+  ],
   "deep": [
     "deep"
   ],
@@ -25897,6 +26062,9 @@
   ],
   "deep-fakes": [
     "deep-fakes"
+  ],
+  "deep-generative-model": [
+    "deep-generative-model"
   ],
   "deep-high-resolution-net": [
     "deep-high-resolution-net"
@@ -25966,6 +26134,9 @@
   ],
   "deepagents": [
     "deepagents"
+  ],
+  "deepcache": [
+    "deepcache"
   ],
   "deepcross": [
     "deepcross"
@@ -26918,6 +27089,9 @@
   "deploy playground": [
     "deploy-playground"
   ],
+  "deploy playground site to pages": [
+    "deploy-playground-site-to-pages"
+  ],
   "deploy playground to github pages": [
     "deploy-playground-to-github-pages"
   ],
@@ -27325,6 +27499,12 @@
   ],
   "derive": [
     "derive"
+  ],
+  "derived": [
+    "derived"
+  ],
+  "derived-data": [
+    "derived-data"
   ],
   "descriptor": [
     "descriptor"
@@ -27781,6 +27961,9 @@
   ],
   "devtools component documentation release": [
     "devtools-component-documentation-release"
+  ],
+  "devtools-kit": [
+    "devtools-kit"
   ],
   "devtools-protocol": [
     "devtools-protocol"
@@ -28268,6 +28451,9 @@
   "dispatch build and test": [
     "dispatch-build-and-test"
   ],
+  "dispatch ci in creo2urdf-private": [
+    "dispatch-ci-in-creo2urdf-private"
+  ],
   "dispatch docs update on release": [
     "dispatch-docs-update-on-release"
   ],
@@ -28444,6 +28630,9 @@
   ],
   "diverse-decoding": [
     "diverse-decoding"
+  ],
+  "diversity": [
+    "diversity"
   ],
   "divert-sockets": [
     "divert-sockets"
@@ -28702,6 +28891,9 @@
   ],
   "docker automated builds": [
     "docker-automated-builds"
+  ],
+  "docker bench for security": [
+    "docker-bench-for-security"
   ],
   "docker branch deploy": [
     "docker-branch-deploy"
@@ -29114,6 +29306,12 @@
   "docker-stable": [
     "docker-stable"
   ],
+  "docker-stack": [
+    "docker-stack"
+  ],
+  "docker-stack-deploy": [
+    "docker-stack-deploy"
+  ],
   "docker-swarm": [
     "docker-swarm"
   ],
@@ -29131,6 +29329,9 @@
   ],
   "docker-volumes": [
     "docker-volumes"
+  ],
+  "docker-yapi": [
+    "docker-yapi"
   ],
   "dockerd": [
     "dockerd"
@@ -29926,6 +30127,9 @@
   ],
   "draft-release": [
     "draft-release"
+  ],
+  "drag-and-drop": [
+    "drag-and-drop"
   ],
   "drag-drop": [
     "drag-drop"
@@ -32017,6 +32221,9 @@
   "equinox": [
     "equinox"
   ],
+  "equirectangular-panorama": [
+    "equirectangular-panorama"
+  ],
   "equivalence-test-diff": [
     "equivalence-test-diff"
   ],
@@ -32840,6 +33047,9 @@
   "export secrets to esc": [
     "export-secrets-to-esc"
   ],
+  "export size": [
+    "export-size"
+  ],
   "export to linear": [
     "export-to-linear"
   ],
@@ -33196,6 +33406,9 @@
   ],
   "facefusion": [
     "facefusion"
+  ],
+  "facenet": [
+    "facenet"
   ],
   "faces": [
     "faces"
@@ -33593,6 +33806,12 @@
   "featuretools": [
     "featuretools"
   ],
+  "federated-analytics": [
+    "federated-analytics"
+  ],
+  "federated-evaluation": [
+    "federated-evaluation"
+  ],
   "federated-graph": [
     "federated-graph"
   ],
@@ -33604,6 +33823,9 @@
   ],
   "federation": [
     "federation"
+  ],
+  "fediverse": [
+    "fediverse"
   ],
   "fedora": [
     "fedora"
@@ -33760,6 +33982,9 @@
   "fiddler": [
     "fiddler"
   ],
+  "fidelity": [
+    "fidelity"
+  ],
   "fidelityfx": [
     "fidelityfx"
   ],
@@ -33822,6 +34047,9 @@
   ],
   "file-launcher": [
     "file-launcher"
+  ],
+  "file-locking": [
+    "file-locking"
   ],
   "file-magic": [
     "file-magic"
@@ -33978,6 +34206,9 @@
   ],
   "filtering": [
     "filtering"
+  ],
+  "filtering-algorithm": [
+    "filtering-algorithm"
   ],
   "filterlist": [
     "filterlist"
@@ -34212,6 +34443,9 @@
   ],
   "firefox-extension": [
     "firefox-extension"
+  ],
+  "firefox-headless": [
+    "firefox-headless"
   ],
   "firefox: import translations": [
     "firefox-import-translations"
@@ -34600,6 +34834,12 @@
   "floating-window": [
     "floating-window"
   ],
+  "flock": [
+    "flock"
+  ],
+  "flocks": [
+    "flocks"
+  ],
   "floneum-v3": [
     "floneum-v3"
   ],
@@ -34966,6 +35206,9 @@
   ],
   "form-builder": [
     "form-builder"
+  ],
+  "form-validation": [
+    "form-validation"
   ],
   "formal verification": [
     "formal-verification"
@@ -35523,6 +35766,12 @@
   "full-body": [
     "full-body"
   ],
+  "full-body-mesh-recovery": [
+    "full-body-mesh-recovery"
+  ],
+  "full-body-motion-capture": [
+    "full-body-motion-capture"
+  ],
   "full-check": [
     "full-check"
   ],
@@ -35574,6 +35823,9 @@
   "function-calling": [
     "function-calling"
   ],
+  "function-tree": [
+    "function-tree"
+  ],
   "functional": [
     "functional"
   ],
@@ -35615,6 +35867,9 @@
   ],
   "fundamental": [
     "fundamental"
+  ],
+  "furniture-assembly": [
+    "furniture-assembly"
   ],
   "furo": [
     "furo"
@@ -35835,6 +36090,9 @@
   "ganache": [
     "ganache"
   ],
+  "gandlf taskrunner e2e": [
+    "gandlf-taskrunner-e2e"
+  ],
   "gang-scheduling": [
     "gang-scheduling"
   ],
@@ -35967,6 +36225,9 @@
   "gazebo-models": [
     "gazebo-models"
   ],
+  "gazebo-plugins": [
+    "gazebo-plugins"
+  ],
   "gazebo-simulator": [
     "gazebo-simulator"
   ],
@@ -36041,6 +36302,9 @@
   ],
   "gdevelop issues automatic workflow": [
     "gdevelop-issues-automatic-workflow"
+  ],
+  "gdevelop-extension": [
+    "gdevelop-extension"
   ],
   "gdextension": [
     "gdextension"
@@ -38154,6 +38418,12 @@
   "golang-function-testing": [
     "golang-function-testing"
   ],
+  "golang-html": [
+    "golang-html"
+  ],
+  "golang-libary": [
+    "golang-libary"
+  ],
   "golang-library": [
     "golang-library"
   ],
@@ -38714,6 +38984,9 @@
   ],
   "gpus": [
     "gpus"
+  ],
+  "gpustack": [
+    "gpustack"
   ],
   "gpx-parser": [
     "gpx-parser"
@@ -39405,6 +39678,9 @@
   "gtk4": [
     "gtk4"
   ],
+  "gtsam": [
+    "gtsam"
+  ],
   "guanaco": [
     "guanaco"
   ],
@@ -39636,6 +39912,9 @@
   "hadolint linting": [
     "hadolint-linting"
   ],
+  "hadolint security scan": [
+    "hadolint-security-scan"
+  ],
   "hadoop": [
     "hadoop"
   ],
@@ -39689,6 +39968,12 @@
   ],
   "haml": [
     "haml"
+  ],
+  "hamlit": [
+    "hamlit"
+  ],
+  "hamlit-rails": [
+    "hamlit-rails"
   ],
   "hand": [
     "hand"
@@ -41658,6 +41943,9 @@
   "icons": [
     "icons"
   ],
+  "icons-pack": [
+    "icons-pack"
+  ],
   "iconset": [
     "iconset"
   ],
@@ -41708,6 +41996,9 @@
   ],
   "ide-support": [
     "ide-support"
+  ],
+  "idea": [
+    "idea"
   ],
   "idea-plugin": [
     "idea-plugin"
@@ -42024,6 +42315,9 @@
   "image-editting": [
     "image-editting"
   ],
+  "image-embedding": [
+    "image-embedding"
+  ],
   "image-embeddings": [
     "image-embeddings"
   ],
@@ -42266,6 +42560,9 @@
   ],
   "imagenet-classification": [
     "imagenet-classification"
+  ],
+  "imagery": [
+    "imagery"
   ],
   "images": [
     "images"
@@ -43437,6 +43734,9 @@
   "inverted-index": [
     "inverted-index"
   ],
+  "invertible": [
+    "invertible"
+  ],
   "investment": [
     "investment"
   ],
@@ -43535,6 +43835,9 @@
   ],
   "ip-camera": [
     "ip-camera"
+  ],
+  "ipa-font": [
+    "ipa-font"
   ],
   "ipad": [
     "ipad"
@@ -43697,6 +44000,12 @@
   ],
   "isatty": [
     "isatty"
+  ],
+  "iseg": [
+    "iseg"
+  ],
+  "iseg-challenge": [
+    "iseg-challenge"
   ],
   "islands": [
     "islands"
@@ -44250,6 +44559,9 @@
   "java test coverage with maven, coveralls": [
     "java-test-coverage-with-maven-coveralls"
   ],
+  "java wasm bindings": [
+    "java-wasm-bindings"
+  ],
   "java-8": [
     "java-8"
   ],
@@ -44322,6 +44634,9 @@
   "javascript": [
     "javascript"
   ],
+  "javascript bindings": [
+    "javascript-bindings"
+  ],
   "javascript integration tests": [
     "javascript-integration-tests"
   ],
@@ -44363,6 +44678,9 @@
   ],
   "javascript-plugin": [
     "javascript-plugin"
+  ],
+  "javascript-renderer": [
+    "javascript-renderer"
   ],
   "javascript-shells": [
     "javascript-shells"
@@ -44504,6 +44822,9 @@
   ],
   "jest-junit": [
     "jest-junit"
+  ],
+  "jest-matchers": [
+    "jest-matchers"
   ],
   "jest-playwright": [
     "jest-playwright"
@@ -44720,6 +45041,12 @@
   ],
   "jose": [
     "jose"
+  ],
+  "josm": [
+    "josm"
+  ],
+  "josm-presets": [
+    "josm-presets"
   ],
   "journal": [
     "journal"
@@ -45621,6 +45948,9 @@
   "kindle": [
     "kindle"
   ],
+  "kinect-fusion": [
+    "kinect-fusion"
+  ],
   "kinematics": [
     "kinematics"
   ],
@@ -46506,6 +46836,9 @@
   "landing-zone-accelerator": [
     "landing-zone-accelerator"
   ],
+  "landmark": [
+    "landmark"
+  ],
   "landmark-detection": [
     "landmark-detection"
   ],
@@ -47119,6 +47452,9 @@
   "lemmatization": [
     "lemmatization"
   ],
+  "lemmy": [
+    "lemmy"
+  ],
   "lemmy-help": [
     "lemmy-help"
   ],
@@ -47578,6 +47914,15 @@
   "lidar-detection": [
     "lidar-detection"
   ],
+  "lidar-inertial": [
+    "lidar-inertial"
+  ],
+  "lidar-mapping": [
+    "lidar-mapping"
+  ],
+  "lidar-odometry": [
+    "lidar-odometry"
+  ],
   "lidar-point-cloud": [
     "lidar-point-cloud"
   ],
@@ -47725,6 +48070,9 @@
   "line": [
     "line"
   ],
+  "line endings": [
+    "line-endings"
+  ],
   "line stats": [
     "line-stats"
   ],
@@ -47778,6 +48126,9 @@
   ],
   "link ci": [
     "link-ci"
+  ],
+  "link-aggregator": [
+    "link-aggregator"
   ],
   "link-checker": [
     "link-checker"
@@ -48421,6 +48772,9 @@
   "lip-sync": [
     "lip-sync"
   ],
+  "lip-synchronization": [
+    "lip-synchronization"
+  ],
   "lipreading": [
     "lipreading"
   ],
@@ -48435,6 +48789,9 @@
   ],
   "liquid-fill-charts": [
     "liquid-fill-charts"
+  ],
+  "lishu": [
+    "lishu"
   ],
   "lisp": [
     "lisp"
@@ -48542,6 +48899,9 @@
   "liveview": [
     "liveview"
   ],
+  "livox-lidar": [
+    "livox-lidar"
+  ],
   "lizard": [
     "lizard"
   ],
@@ -48586,6 +48946,9 @@
   ],
   "llama2": [
     "llama2"
+  ],
+  "llama2c": [
+    "llama2c"
   ],
   "llama3": [
     "llama3"
@@ -48881,6 +49244,12 @@
   "loadtest": [
     "loadtest"
   ],
+  "loam": [
+    "loam"
+  ],
+  "loam-velodyne": [
+    "loam-velodyne"
+  ],
   "lobe-chat": [
     "lobe-chat"
   ],
@@ -49066,6 +49435,9 @@
   ],
   "lockdownd": [
     "lockdownd"
+  ],
+  "locked-closed-issues": [
+    "locked-closed-issues"
   ],
   "locker": [
     "locker"
@@ -50547,11 +50919,29 @@
   "manylinux": [
     "manylinux"
   ],
+  "map-building": [
+    "map-building"
+  ],
   "mapbox": [
     "mapbox"
   ],
   "mapbox-gl": [
     "mapbox-gl"
+  ],
+  "mapillary": [
+    "mapillary"
+  ],
+  "maplibre": [
+    "maplibre"
+  ],
+  "maplibre-gl": [
+    "maplibre-gl"
+  ],
+  "maplibre-gl-js": [
+    "maplibre-gl-js"
+  ],
+  "mapnet": [
+    "mapnet"
   ],
   "mapping": [
     "mapping"
@@ -51645,6 +52035,9 @@
   "meta-rl": [
     "meta-rl"
   ],
+  "meta-search": [
+    "meta-search"
+  ],
   "meta-tests": [
     "meta-tests"
   ],
@@ -51791,6 +52184,9 @@
   ],
   "micromamba": [
     "micromamba"
+  ],
+  "micromamba ci": [
+    "micromamba-ci"
   ],
   "micromatch": [
     "micromatch"
@@ -52725,11 +53121,17 @@
   "mock-server": [
     "mock-server"
   ],
+  "mock-service-worker": [
+    "mock-service-worker"
+  ],
   "mocking": [
     "mocking"
   ],
   "mocking-framework": [
     "mocking-framework"
+  ],
+  "mocking-library": [
+    "mocking-library"
   ],
   "mockingjay": [
     "mockingjay"
@@ -52965,6 +53367,9 @@
   "module-federation": [
     "module-federation"
   ],
+  "module-installer": [
+    "module-installer"
+  ],
   "module-lattices": [
     "module-lattices"
   ],
@@ -53093,6 +53498,9 @@
   ],
   "monocular-geometry-estimation": [
     "monocular-geometry-estimation"
+  ],
+  "monocular-human-mesh-recovery": [
+    "monocular-human-mesh-recovery"
   ],
   "monocular-images": [
     "monocular-images"
@@ -53406,6 +53814,9 @@
   "mquery release": [
     "mquery-release"
   ],
+  "mrbrains18": [
+    "mrbrains18"
+  ],
   "mri-ruby": [
     "mri-ruby"
   ],
@@ -53520,6 +53931,9 @@
   "mswin": [
     "mswin"
   ],
+  "mswjs": [
+    "mswjs"
+  ],
   "msys2": [
     "msys2"
   ],
@@ -53577,6 +53991,9 @@
   ],
   "mulog": [
     "mulog"
+  ],
+  "mulran-dataset": [
+    "mulran-dataset"
   ],
   "multi": [
     "multi"
@@ -53860,6 +54277,9 @@
   "multihash": [
     "multihash"
   ],
+  "multihead-attention": [
+    "multihead-attention"
+  ],
   "multilingual": [
     "multilingual"
   ],
@@ -53985,6 +54405,9 @@
   ],
   "multiplayer-game": [
     "multiplayer-game"
+  ],
+  "multiplayer-game-server": [
+    "multiplayer-game-server"
   ],
   "multiple": [
     "multiple"
@@ -54624,6 +55047,9 @@
   "nekoray build matrix - cmake": [
     "nekoray-build-matrix---cmake"
   ],
+  "nelson": [
+    "nelson"
+  ],
   "nemo": [
     "nemo"
   ],
@@ -54746,6 +55172,9 @@
   ],
   "nested": [
     "nested"
+  ],
+  "nested-alternatives": [
+    "nested-alternatives"
   ],
   "nested-data": [
     "nested-data"
@@ -54989,6 +55418,9 @@
   ],
   "neurips-2018": [
     "neurips-2018"
+  ],
+  "neurips-2019": [
+    "neurips-2019"
   ],
   "neurips-2020": [
     "neurips-2020"
@@ -55607,6 +56039,9 @@
   "nix-tests": [
     "nix-tests"
   ],
+  "nixflake": [
+    "nixflake"
+  ],
   "nixops": [
     "nixops"
   ],
@@ -55887,6 +56322,9 @@
   ],
   "node.js ci": [
     "node.js-ci"
+  ],
+  "node.js ci - dockge": [
+    "node.js-ci---dockge"
   ],
   "node.js ci - macos-latest": [
     "node.js-ci---macos-latest"
@@ -56552,6 +56990,9 @@
   "nushell": [
     "nushell"
   ],
+  "nushu": [
+    "nushu"
+  ],
   "nutsdb": [
     "nutsdb"
   ],
@@ -56722,6 +57163,9 @@
   ],
   "nyudv2": [
     "nyudv2"
+  ],
+  "nyushu": [
+    "nyushu"
   ],
   "oasv3": [
     "oasv3"
@@ -57314,6 +57758,9 @@
   "on pull requests": [
     "on-pull-requests"
   ],
+  "on push": [
+    "on-push"
+  ],
   "on release": [
     "on-release"
   ],
@@ -57508,6 +57955,9 @@
   ],
   "onnxruntime-genai": [
     "onnxruntime-genai"
+  ],
+  "onpullrequest": [
+    "onpullrequest"
   ],
   "onshape": [
     "onshape"
@@ -58523,6 +58973,9 @@
   "oson": [
     "oson"
   ],
+  "ospdt dependency workflow": [
+    "ospdt-dependency-workflow"
+  ],
   "osps security assessment": [
     "osps-security-assessment"
   ],
@@ -58601,6 +59054,12 @@
   "ourselves": [
     "en-pronoun-ourselves"
   ],
+  "ouster": [
+    "ouster"
+  ],
+  "ouster-slam": [
+    "ouster-slam"
+  ],
   "out-of-core": [
     "out-of-core"
   ],
@@ -58624,6 +59083,9 @@
   ],
   "outlier-rejection": [
     "outlier-rejection"
+  ],
+  "outlier-selection": [
+    "outlier-selection"
   ],
   "outline": [
     "outline"
@@ -58762,6 +59224,9 @@
   ],
   "package": [
     "package"
+  ],
+  "package and frontend build test": [
+    "package-and-frontend-build-test"
   ],
   "package and publish": [
     "package-and-publish"
@@ -59141,11 +59606,17 @@
   "panoptic-segmentation": [
     "panoptic-segmentation"
   ],
+  "panorama": [
+    "panorama"
+  ],
   "panvimdoc": [
     "panvimdoc"
   ],
   "panzoom": [
     "panzoom"
+  ],
+  "panzoom tests": [
+    "panzoom-tests"
   ],
   "paper": [
     "paper"
@@ -59942,6 +60413,9 @@
   "permissions": [
     "permissions"
   ],
+  "perplexity": [
+    "perplexity"
+  ],
   "persian": [
     "persian"
   ],
@@ -59998,6 +60472,9 @@
   ],
   "personoid": [
     "personoid"
+  ],
+  "perspective": [
+    "perspective"
   ],
   "perspective-transformation": [
     "perspective-transformation"
@@ -60719,6 +61196,9 @@
   "playwright-e2e": [
     "playwright-e2e"
   ],
+  "playwright-python": [
+    "playwright-python"
+  ],
   "plda": [
     "plda"
   ],
@@ -60995,6 +61475,9 @@
   "poetry-plugin": [
     "poetry-plugin"
   ],
+  "point": [
+    "point"
+  ],
   "point-cloud": [
     "point-cloud"
   ],
@@ -61027,6 +61510,9 @@
   ],
   "pointclouds": [
     "pointclouds"
+  ],
+  "pointer-events": [
+    "pointer-events"
   ],
   "pointnet": [
     "pointnet"
@@ -61072,6 +61558,18 @@
   ],
   "polkadot": [
     "polkadot"
+  ],
+  "pollen - render website": [
+    "pollen---render-website"
+  ],
+  "pollen.jl build - dev": [
+    "pollen.jl-build---dev"
+  ],
+  "pollen.jl build - pr preview": [
+    "pollen.jl-build---pr-preview"
+  ],
+  "pollen.jl build - release": [
+    "pollen.jl-build---release"
   ],
   "polly": [
     "polly"
@@ -61802,6 +62300,9 @@
   "pr documentation checker": [
     "pr-documentation-checker"
   ],
+  "pr fast": [
+    "pr-fast"
+  ],
   "pr font build validation": [
     "pr-font-build-validation"
   ],
@@ -61819,6 +62320,9 @@
   ],
   "pr guard": [
     "pr-guard"
+  ],
+  "pr heavy": [
+    "pr-heavy"
   ],
   "pr helper": [
     "pr-helper"
@@ -62366,6 +62870,9 @@
   "premerge-cpu-check": [
     "premerge-cpu-check"
   ],
+  "premerge-min": [
+    "premerge-min"
+  ],
   "premerge-notebooks": [
     "premerge-notebooks"
   ],
@@ -62465,6 +62972,9 @@
   "presenterm": [
     "presenterm"
   ],
+  "preset ci": [
+    "preset-ci"
+  ],
   "presets": [
     "presets"
   ],
@@ -62557,6 +63067,9 @@
   ],
   "prevent engineering system changes in prs": [
     "prevent-engineering-system-changes-in-prs"
+  ],
+  "prevent file change": [
+    "prevent-file-change"
   ],
   "prevent-no-label-execution": [
     "prevent-no-label-execution"
@@ -62722,6 +63235,9 @@
   ],
   "privacy-preserving": [
     "privacy-preserving"
+  ],
+  "privacy-preserving-ml": [
+    "privacy-preserving-ml"
   ],
   "private": [
     "private"
@@ -62944,6 +63460,9 @@
   ],
   "production release": [
     "production-release"
+  ],
+  "production smoke test": [
+    "production-smoke-test"
   ],
   "production workflow": [
     "production-workflow"
@@ -63575,6 +64094,9 @@
   "psychophysics": [
     "psychophysics"
   ],
+  "ptcl": [
+    "ptcl"
+  ],
   "ptvs": [
     "ptvs"
   ],
@@ -63709,6 +64231,9 @@
   ],
   "publish benchmarks": [
     "publish-benchmarks"
+  ],
+  "publish beta version to docker hub": [
+    "publish-beta-version-to-docker-hub"
   ],
   "publish bfcl to pypi": [
     "publish-bfcl-to-pypi"
@@ -64130,6 +64655,12 @@
   "publish nuget package": [
     "publish-nuget-package"
   ],
+  "publish nx mcp": [
+    "publish-nx-mcp"
+  ],
+  "publish nxls": [
+    "publish-nxls"
+  ],
   "publish oci image to ghcr.io": [
     "publish-oci-image-to-ghcr.io"
   ],
@@ -64204,6 +64735,9 @@
   ],
   "publish pip packages to gh releases": [
     "publish-pip-packages-to-gh-releases"
+  ],
+  "publish play version to docker hub": [
+    "publish-play-version-to-docker-hub"
   ],
   "publish plugin to portal": [
     "publish-plugin-to-portal"
@@ -64487,6 +65021,9 @@
   "publish to docker - development": [
     "publish-to-docker---development"
   ],
+  "publish to docker hub": [
+    "publish-to-docker-hub"
+  ],
   "publish to github": [
     "publish-to-github"
   ],
@@ -64540,6 +65077,12 @@
   ],
   "publish to pypi and github release": [
     "publish-to-pypi-and-github-release"
+  ],
+  "publish to pypi and testpypi": [
+    "publish-to-pypi-and-testpypi"
+  ],
+  "publish to pypi.org": [
+    "publish-to-pypi.org"
   ],
   "publish to releases": [
     "publish-to-releases"
@@ -64609,6 +65152,9 @@
   ],
   "publish version-ranges to crates.io": [
     "publish-version-ranges-to-crates.io"
+  ],
+  "publish vscode": [
+    "publish-vscode"
   ],
   "publish vscode extension": [
     "publish-vscode-extension"
@@ -65471,6 +66017,9 @@
   "python-ast": [
     "python-ast"
   ],
+  "python-asyncio": [
+    "python-asyncio"
+  ],
   "python-background-removal": [
     "python-background-removal"
   ],
@@ -66284,6 +66833,9 @@
   "rakefile": [
     "rakefile"
   ],
+  "raku": [
+    "raku"
+  ],
   "ralph-loop": [
     "ralph-loop"
   ],
@@ -66433,6 +66985,9 @@
   ],
   "raster": [
     "raster"
+  ],
+  "rasterio": [
+    "rasterio"
   ],
   "rasterization": [
     "rasterization"
@@ -66607,6 +67162,9 @@
   ],
   "re-frame": [
     "re-frame"
+  ],
+  "re-id": [
+    "re-id"
   ],
   "re-identification": [
     "re-identification"
@@ -67037,6 +67595,9 @@
   "rebuild cookbook website": [
     "rebuild-cookbook-website"
   ],
+  "rebuild distributables for dependabot prs": [
+    "rebuild-distributables-for-dependabot-prs"
+  ],
   "rebuild docs": [
     "rebuild-docs"
   ],
@@ -67054,6 +67615,9 @@
   ],
   "rebuilder": [
     "rebuilder"
+  ],
+  "recall": [
+    "recall"
   ],
   "recast": [
     "recast"
@@ -67558,6 +68122,9 @@
   ],
   "rehype-plugin": [
     "rehype-plugin"
+  ],
+  "reidentification": [
+    "reidentification"
   ],
   "reids": [
     "reids"
@@ -68627,6 +69194,9 @@
   "release-engineering": [
     "release-engineering"
   ],
+  "release-frontend": [
+    "release-frontend"
+  ],
   "release-ghcr": [
     "release-ghcr"
   ],
@@ -68672,6 +69242,12 @@
   "release-npm-ssdk-libs": [
     "release-npm-ssdk-libs"
   ],
+  "release-online": [
+    "release-online"
+  ],
+  "release-packages": [
+    "release-packages"
+  ],
   "release-pipeline": [
     "release-pipeline"
   ],
@@ -68689,6 +69265,9 @@
   ],
   "release-post-comment": [
     "release-post-comment"
+  ],
+  "release-preview": [
+    "release-preview"
   ],
   "release-publish": [
     "release-publish"
@@ -69245,6 +69824,9 @@
   "reproduction required": [
     "reproduction-required"
   ],
+  "reproduction-code": [
+    "reproduction-code"
+  ],
   "reproduire": [
     "reproduire"
   ],
@@ -69418,6 +70000,9 @@
   ],
   "resize-observer": [
     "resize-observer"
+  ],
+  "resizes": [
+    "resizes"
   ],
   "resnest": [
     "resnest"
@@ -69659,6 +70244,9 @@
   "retry-strategies": [
     "retry-strategies"
   ],
+  "retryer": [
+    "retryer"
+  ],
   "reusable - create release from changelog": [
     "reusable---create-release-from-changelog"
   ],
@@ -69835,6 +70423,9 @@
   ],
   "reverse-proxy": [
     "reverse-proxy"
+  ],
+  "reversible": [
+    "reversible"
   ],
   "reversing": [
     "reversing"
@@ -70274,6 +70865,9 @@
   "robotology": [
     "robotology"
   ],
+  "robots": [
+    "robots"
+  ],
   "robox validate": [
     "robox-validate"
   ],
@@ -70432,6 +71026,9 @@
   ],
   "ros 2 workspace": [
     "ros-2-workspace"
+  ],
+  "ros nodes": [
+    "ros-nodes"
   ],
   "ros-containers": [
     "ros-containers"
@@ -72203,6 +72800,9 @@
   "scancode": [
     "scancode"
   ],
+  "scancontext": [
+    "scancontext"
+  ],
   "scanner": [
     "scanner"
   ],
@@ -72244,6 +72844,9 @@
   ],
   "scene-editor": [
     "scene-editor"
+  ],
+  "scene-flow": [
+    "scene-flow"
   ],
   "scene-recognition": [
     "scene-recognition"
@@ -72637,6 +73240,9 @@
   ],
   "sd-webui": [
     "sd-webui"
+  ],
+  "sd15": [
+    "sd15"
   ],
   "sdformat": [
     "sdformat"
@@ -73507,6 +74113,9 @@
   ],
   "series-analysis": [
     "series-analysis"
+  ],
+  "serif": [
+    "serif"
   ],
   "server": [
     "server"
@@ -74711,6 +75320,9 @@
   "slow end to end tests": [
     "slow-end-to-end-tests"
   ],
+  "slow hypothesis ci": [
+    "slow-hypothesis-ci"
+  ],
   "slow test review": [
     "slow-test-review"
   ],
@@ -74884,6 +75496,9 @@
   ],
   "smoke-extra": [
     "smoke-extra"
+  ],
+  "smoke-test": [
+    "smoke-test"
   ],
   "smolagents": [
     "smolagents"
@@ -75660,6 +76275,9 @@
   ],
   "spatial-temporal-forecasting": [
     "spatial-temporal-forecasting"
+  ],
+  "spatial-visualization": [
+    "spatial-visualization"
   ],
   "spatially-variant": [
     "spatially-variant"
@@ -76468,6 +77086,9 @@
   "stable-diffusion": [
     "stable-diffusion"
   ],
+  "stable-diffusion-app": [
+    "stable-diffusion-app"
+  ],
   "stable-diffusion-cpp": [
     "stable-diffusion-cpp"
   ],
@@ -76720,6 +77341,9 @@
   "star-rail-api": [
     "star-rail-api"
   ],
+  "starbeam": [
+    "starbeam"
+  ],
   "starboard": [
     "starboard"
   ],
@@ -76914,6 +77538,9 @@
   ],
   "statically-typed": [
     "statically-typed"
+  ],
+  "staticarrays": [
+    "staticarrays"
   ],
   "staticcheck": [
     "staticcheck"
@@ -77280,6 +77907,9 @@
   ],
   "streams-standard": [
     "streams-standard"
+  ],
+  "street-imagery": [
+    "street-imagery"
   ],
   "street-level": [
     "street-level"
@@ -78136,6 +78766,9 @@
   "swift": [
     "swift"
   ],
+  "swift build": [
+    "swift-build"
+  ],
   "swift format": [
     "swift-format"
   ],
@@ -78153,6 +78786,9 @@
   ],
   "swift-crypto": [
     "swift-crypto"
+  ],
+  "swift-format": [
+    "swift-format"
   ],
   "swift-generics": [
     "swift-generics"
@@ -78196,6 +78832,9 @@
   "swiftchat": [
     "swiftchat"
   ],
+  "swiftformat": [
+    "swiftformat"
+  ],
   "swiftlint": [
     "swiftlint"
   ],
@@ -78204,6 +78843,9 @@
   ],
   "swiftnio": [
     "swiftnio"
+  ],
+  "swiftpackagemanager": [
+    "swiftpackagemanager"
   ],
   "swiftpm": [
     "swiftpm"
@@ -79075,6 +79717,9 @@
   "talking-head": [
     "talking-head"
   ],
+  "talking-head-videos": [
+    "talking-head-videos"
+  ],
   "talking-heads": [
     "talking-heads"
   ],
@@ -79137,6 +79782,9 @@
   ],
   "target supported version": [
     "target-supported-version"
+  ],
+  "target sync image": [
+    "target-sync-image"
   ],
   "target-musl": [
     "target-musl"
@@ -79392,6 +80040,9 @@
   ],
   "template-engine": [
     "template-engine"
+  ],
+  "template-engines": [
+    "template-engines"
   ],
   "template-generator": [
     "template-generator"
@@ -79995,6 +80646,9 @@
   ],
   "test compatibility": [
     "test-compatibility"
+  ],
+  "test compatibility with nx versions": [
+    "test-compatibility-with-nx-versions"
   ],
   "test configure aws credential": [
     "test-configure-aws-credential"
@@ -81043,6 +81697,9 @@
   "testing-library": [
     "testing-library"
   ],
+  "testing-library-react": [
+    "testing-library-react"
+  ],
   "testing-library-vue": [
     "testing-library-vue"
   ],
@@ -81129,6 +81786,9 @@
   ],
   "tests - nightly": [
     "tests---nightly"
+  ],
+  "tests and build": [
+    "tests-and-build"
   ],
   "tests and checks": [
     "tests-and-checks"
@@ -81825,6 +82485,9 @@
   "threeten": [
     "threeten"
   ],
+  "thresholding": [
+    "thresholding"
+  ],
   "thrift": [
     "thrift"
   ],
@@ -82250,6 +82913,9 @@
   ],
   "toml": [
     "toml"
+  ],
+  "tomm2017": [
+    "tomm2017"
   ],
   "tomorrow": [
     "en-deictic_or_spatiotemporal_marker-tomorrow"
@@ -83202,6 +83868,9 @@
   "tsdb": [
     "tsdb"
   ],
+  "tsdf": [
+    "tsdf"
+  ],
   "tsgo": [
     "tsgo"
   ],
@@ -83669,6 +84338,9 @@
   ],
   "typescript-linting": [
     "typescript-linting"
+  ],
+  "typescript-nightly": [
+    "typescript-nightly"
   ],
   "typescript-node": [
     "typescript-node"
@@ -84601,6 +85273,9 @@
   "update allcontributors": [
     "update-allcontributors"
   ],
+  "update allows list": [
+    "update-allows-list"
+  ],
   "update api": [
     "update-api"
   ],
@@ -85306,6 +85981,9 @@
   "update squeak.org": [
     "update-squeak.org"
   ],
+  "update standalone branch": [
+    "update-standalone-branch"
+  ],
   "update star counts": [
     "update-star-counts"
   ],
@@ -85602,6 +86280,9 @@
   ],
   "upload benchmark fixtures": [
     "upload-benchmark-fixtures"
+  ],
+  "upload benchmarks": [
+    "upload-benchmarks"
   ],
   "upload bicep-deploy-common package": [
     "upload-bicep-deploy-common-package"
@@ -86365,6 +87046,9 @@
   "validation, verifications, and lints": [
     "validation-verifications-and-lints"
   ],
+  "validation-library": [
+    "validation-library"
+  ],
   "validation-linux": [
     "validation-linux"
   ],
@@ -86584,11 +87268,17 @@
   "vectors": [
     "vectors"
   ],
+  "vee-validate": [
+    "vee-validate"
+  ],
   "vega": [
     "vega"
   ],
   "vega-lite": [
     "vega-lite"
+  ],
+  "vehicle": [
+    "vehicle"
   ],
   "vehicle-control": [
     "vehicle-control"
@@ -86604,6 +87294,9 @@
   ],
   "velodyne": [
     "velodyne"
+  ],
+  "velodyne-slam": [
+    "velodyne-slam"
   ],
   "vendor": [
     "vendor"
@@ -86655,6 +87348,9 @@
   ],
   "vercelpreviewdeployment": [
     "vercelpreviewdeployment"
+  ],
+  "veri-776": [
+    "veri-776"
   ],
   "verifiable-computing": [
     "verifiable-computing"
@@ -86757,6 +87453,9 @@
   ],
   "verify playbooks": [
     "verify-playbooks"
+  ],
+  "verify pr": [
+    "verify-pr"
   ],
   "verify pr label": [
     "verify-pr-label"
@@ -86892,6 +87591,9 @@
   ],
   "very-kewl": [
     "very-kewl"
+  ],
+  "vespucci": [
+    "vespucci"
   ],
   "vessel-segmentation": [
     "vessel-segmentation"
@@ -87748,11 +88450,17 @@
   "vite-compression": [
     "vite-compression"
   ],
+  "vite-devtools": [
+    "vite-devtools"
+  ],
   "vite-electron": [
     "vite-electron"
   ],
   "vite-plugin": [
     "vite-plugin"
+  ],
+  "vite-plus": [
+    "vite-plus"
   ],
   "vite-starter": [
     "vite-starter"
@@ -88030,6 +88738,9 @@
   "vroomjs": [
     "vroomjs"
   ],
+  "vs code e2e": [
+    "vs-code-e2e"
+  ],
   "vs code plugin": [
     "vs-code-plugin"
   ],
@@ -88195,6 +88906,9 @@
   "vue-support": [
     "vue-support"
   ],
+  "vue-template": [
+    "vue-template"
+  ],
   "vue-test-utils": [
     "vue-test-utils"
   ],
@@ -88216,8 +88930,17 @@
   "vuejs3": [
     "vuejs3"
   ],
+  "vuelidate": [
+    "vuelidate"
+  ],
+  "vuepress": [
+    "vuepress"
+  ],
   "vuerequest": [
     "vuerequest"
+  ],
+  "vueuse": [
+    "vueuse"
   ],
   "vuex": [
     "vuex"
@@ -88774,6 +89497,9 @@
   "web-scraping": [
     "web-scraping"
   ],
+  "web-scraping-python": [
+    "web-scraping-python"
+  ],
   "web-server": [
     "web-server"
   ],
@@ -88933,6 +89659,9 @@
   "webkit": [
     "webkit"
   ],
+  "webkit-headless": [
+    "webkit-headless"
+  ],
   "weblate pull branch": [
     "weblate-pull-branch"
   ],
@@ -89007,6 +89736,9 @@
   ],
   "webrtc-video": [
     "webrtc-video"
+  ],
+  "webscraping": [
+    "webscraping"
   ],
   "websemantics": [
     "websemantics"
@@ -89280,6 +90012,9 @@
   ],
   "wgc ci": [
     "wgc-ci"
+  ],
+  "wget": [
+    "wget"
   ],
   "wgpu": [
     "wgpu"
@@ -90011,6 +90746,9 @@
   "workflow failure alerts": [
     "workflow-failure-alerts"
   ],
+  "workflow interface tests": [
+    "workflow-interface-tests"
+  ],
   "workflow release": [
     "workflow-release"
   ],
@@ -90628,6 +91366,18 @@
   ],
   "yapf": [
     "yapf"
+  ],
+  "yapi": [
+    "yapi"
+  ],
+  "yapi-docker": [
+    "yapi-docker"
+  ],
+  "yapi-docker-compose": [
+    "yapi-docker-compose"
+  ],
+  "yapi-plugin": [
+    "yapi-plugin"
   ],
   "yara": [
     "yara"

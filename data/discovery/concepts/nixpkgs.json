@@ -69,6 +69,18 @@
       "source_repo": "astro/deadnix-action",
       "status": "candidate-context",
       "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned SwiftFormat packages for Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "astro/deadnix-action",
       "status": "candidate",
       "text": "Automatically creates pull requests to remove unused code in `.nix`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
     }
   ],
   "candidate_related_terms": [],
@@ -138,11 +156,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "astro/deadnix-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

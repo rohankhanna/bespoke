@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Slim is a template language whose goal is to reduce the syntax to the essential parts without becoming cryptic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031802,
+      "status": "candidate",
+      "text": "slender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031608,
+      "status": "candidate",
+      "text": "slenderize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031389,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031176,
+      "status": "candidate",
+      "text": "lose weight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030844,
+      "status": "candidate",
+      "text": "slim down"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slim",
+      "sense_id": "slim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32058,
+      "status": "candidate",
+      "text": "lean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29036,
+      "status": "candidate",
+      "text": "slender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25054,
+      "status": "candidate",
+      "text": "reduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20046,
+      "status": "candidate",
+      "text": "little"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "thin"
+    }
+  ],
+  "concept_id": "slim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slim",
+  "observation_id": "563aaad9d3c461ea",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "slim",
+  "source_context_snippet": "[![Gem Version](https://img.shields.io/gem/v/slim.svg)](http://rubygems.org/gems/slim)",
+  "source_file": null,
+  "source_repo": "slim-template/slim",
+  "source_repo_description": "Slim is a template language whose goal is to reduce the syntax to the essential parts without becoming cryptic."
+}

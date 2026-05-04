@@ -220,20 +220,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "skilld-dev/skilld",
-      "target": "antfu/skills-npm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "skilld-dev/skilld",
-      "target": "harlan-zw/mdream",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "skilld-dev/skilld",
@@ -542,7 +528,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:36:27.166957+00:00",
+  "fetched_at": "2026-05-04T01:53:26.646392+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -576,16 +562,6 @@
     "updated_at": "2026-05-01T07:12:13Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "antfu/skills-npm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "harlan-zw/mdream",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "harlan-zw/retriv",

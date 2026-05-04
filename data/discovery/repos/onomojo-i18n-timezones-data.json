@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-data",
+      "target": "onomojo/i18n-timezones-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-data",
+      "target": "onomojo/i18n-timezones-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-data",
+      "target": "onomojo/i18n-timezones-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-timezones-data",
+      "target": "onomojo/i18n-timezones-ex",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:58:11.951162+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4299
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 382
+    },
+    {
+      "path": "go.mod",
+      "size": 55
+    },
+    {
+      "path": "package.json",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Canonical timezone name translations in 36 locales (YAML). Shared source of truth for Ruby and JavaScript packages.",
+    "fork": false,
+    "full_name": "onomojo/i18n-timezones-data",
+    "html_url": "https://github.com/onomojo/i18n-timezones-data",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-09T13:12:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-09T13:12:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-ex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-timezones-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

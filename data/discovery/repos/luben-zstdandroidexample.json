@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:54:04.407109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 327
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "luben/ZstdAndroidExample",
+    "html_url": "https://github.com/luben/ZstdAndroidExample",
+    "language": "Java",
+    "pushed_at": "2022-06-21T14:22:11Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-01T03:35:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

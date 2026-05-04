@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "heshuting555/aicity2020_dmt_vehiclereid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "jdai-cv/veridataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "layumi/university1652-baseline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "layumi/vehicle_reid-collection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "aicity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "cityflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "cvpr2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "vehicle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "vehicle-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020",
+      "target": "veri-776",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:56:25.707633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)",
+    "fork": false,
+    "full_name": "layumi/AICIty-reID-2020",
+    "html_url": "https://github.com/layumi/AICIty-reID-2020",
+    "language": "Python",
+    "pushed_at": "2024-09-01T12:50:07Z",
+    "stargazers_count": 463,
+    "topics": [
+      "aicity",
+      "cityflow",
+      "cvpr2020",
+      "paddlepaddle",
+      "pytorch",
+      "vehicle",
+      "vehicle-reid",
+      "veri-776"
+    ],
+    "updated_at": "2026-04-07T07:28:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heshuting555/aicity2020_dmt_vehiclereid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdai-cv/veridataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/university1652-baseline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/vehicle_reid-collection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aicity"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cityflow"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2020"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vehicle-reid"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "veri-776"
+    }
+  ]
+}

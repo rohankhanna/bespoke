@@ -82,6 +82,18 @@
       "source_repo": "djc/tokio-retry",
       "status": "candidate-context",
       "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogama/httpx",
+      "status": "candidate-context",
+      "text": "Reliable HTTP for GoLang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/httpx",
+      "status": "candidate-context",
+      "text": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +132,12 @@
       "source_repo": "djc/tokio-retry",
       "status": "candidate",
       "text": "Extensible, asynchronous retry behaviours for the ecosystem of [tokio](https://tokio.rs/) libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/httpx",
+      "status": "candidate",
+      "text": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)"
     }
   ],
   "candidate_related_terms": [
@@ -207,11 +225,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "djc/tokio-retry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gogama/httpx"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

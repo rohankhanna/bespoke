@@ -349,6 +349,36 @@
       "source_repo": "ViscousPot/GitSync",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Your Drag & Drop Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Gladys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/mima",
+      "status": "candidate-context",
+      "text": "Mima"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Trailer"
     }
   ],
   "candidate_glosses": [
@@ -507,6 +537,24 @@
       "source_repo": "ViscousPot/GitSync",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate",
+      "text": "Gladys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/mima",
+      "status": "candidate",
+      "text": "Mima"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate",
+      "text": "Trailer"
     }
   ],
   "candidate_related_terms": [
@@ -966,11 +1014,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/mima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

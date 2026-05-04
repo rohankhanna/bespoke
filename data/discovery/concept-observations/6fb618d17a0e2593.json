@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cityflow",
+      "sense_id": "cityflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cityflow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cityflow",
+  "observation_id": "6fb618d17a0e2593",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "cityflow",
+  "source_context_snippet": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)",
+  "source_file": null,
+  "source_repo": "layumi/AICIty-reID-2020",
+  "source_repo_description": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)"
+}

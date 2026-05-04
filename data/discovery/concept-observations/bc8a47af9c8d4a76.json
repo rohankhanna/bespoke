@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "htmlx is a library which provides a set of extensions on go's golang.org/x/net/html library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "htmlx is a library which provides a set of extensions on go's `golang.org/x/net/html` library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "htmlx is a library which provides a set of extensions on go's `golang.org/x/net/html` library."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang-html",
+      "sense_id": "golang-html#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang-html",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang-html",
+  "observation_id": "bc8a47af9c8d4a76",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "golang-html",
+  "source_context_snippet": "htmlx is a library which provides a set of extensions on go's `golang.org/x/net/html` library.",
+  "source_file": null,
+  "source_repo": "mdigger/htmlx",
+  "source_repo_description": "htmlx is a library which provides a set of extensions on go's golang.org/x/net/html library."
+}

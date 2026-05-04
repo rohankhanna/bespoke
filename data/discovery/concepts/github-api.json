@@ -79,6 +79,18 @@
       "source_repo": "swinton/github-rest-apis-for-insomnia",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">:100:<tt>github-rest-apis-for-insomnia</tt></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Trailer"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "swinton/github-rest-apis-for-insomnia",
       "status": "candidate",
       "text": "<h1 align=\"center\">:100:<tt>github-rest-apis-for-insomnia</tt></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate",
+      "text": "Trailer"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

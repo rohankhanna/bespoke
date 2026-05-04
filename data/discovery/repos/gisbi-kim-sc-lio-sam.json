@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/SC-LIO-SAM",
+      "target": "irapkaist/file_player_mulran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gisbi-kim/SC-LIO-SAM",
+      "target": "irapkaist/removert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/SC-LIO-SAM",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gisbi-kim/SC-LIO-SAM",
+      "target": "place-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:30.004020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LiDAR-inertial SLAM: Scan Context + LIO-SAM",
+    "fork": false,
+    "full_name": "gisbi-kim/SC-LIO-SAM",
+    "html_url": "https://github.com/gisbi-kim/SC-LIO-SAM",
+    "language": "C++",
+    "pushed_at": "2023-04-27T12:39:48Z",
+    "stargazers_count": 827,
+    "topics": [
+      "lidar-slam",
+      "place-recognition"
+    ],
+    "updated_at": "2026-04-30T05:02:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/file_player_mulran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/removert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "version 2021-06-24",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "version 2021-06-24",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "place-recognition"
+    }
+  ]
+}

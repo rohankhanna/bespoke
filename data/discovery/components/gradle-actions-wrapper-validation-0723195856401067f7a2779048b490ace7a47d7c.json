@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/wrapper-validation@0723195856401067f7a2779048b490ace7a47d7c",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "reactor/reactor-kotlin-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_checks.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/future_compat.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-nx-mcp.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-nxls.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-vscode.yml",
+      "source_repo": "nrwl/nx-console"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vscode-e2e.yml",
+      "source_repo": "nrwl/nx-console"
     }
   ]
 }

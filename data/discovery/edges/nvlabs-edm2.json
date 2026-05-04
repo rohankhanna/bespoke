@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVlabs/edm2",
+      "target": "easydiffusion/easydiffusion",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "NVlabs/edm2"
+}

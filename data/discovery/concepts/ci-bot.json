@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Bot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate-context",
+      "text": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate-context",
+      "text": "CI Bot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate",
+      "text": "CI Bot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11514,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11264,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5754,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5504,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5504,
+      "status": "candidate",
+      "text": "pasticcio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Bot",
+  "concept_id": "ci-bot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Bot",
+      "sense_id": "ci-bot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

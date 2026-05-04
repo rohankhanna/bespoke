@@ -453,6 +453,18 @@
       "source_repo": "stdlib-js/repl",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "An authoritative multiplayer games framework for GDevelop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
     }
   ],
   "candidate_glosses": [
@@ -677,6 +689,12 @@
       "source_repo": "stdlib-js/repl",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
     }
   ],
   "candidate_related_terms": [
@@ -1089,11 +1107,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:44:56.361195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2576
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2024] Generalizable and Precise Head Avatar from Image(s)",
+    "fork": false,
+    "full_name": "xg-chu/lightning_track",
+    "html_url": "https://github.com/xg-chu/lightning_track",
+    "language": "Python",
+    "pushed_at": "2024-07-31T05:58:54Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2025-10-31T04:47:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

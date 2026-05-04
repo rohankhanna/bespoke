@@ -187,6 +187,18 @@
       "source_repo": "anuragranj/cc",
       "status": "candidate-context",
       "text": "This is an official repository of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral & TPAMI 2023] Learning Optical Flow and Scene Flow with Bidirectional Camera-LiDAR Fusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "anuragranj/cc",
       "status": "candidate",
       "text": "This is an official repository of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NJU/CamLiFlow",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/learning-optical-flow-and-scene-flow-with/optical-flow-estimation-on-kitti-2015)](https://paperswithcode.com/sota/optical-flow-estimation-on-kitti-2015?p=learning-optical-flow-and-scene-flow-with)"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +424,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MCG-NJU/CamLiFlow"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

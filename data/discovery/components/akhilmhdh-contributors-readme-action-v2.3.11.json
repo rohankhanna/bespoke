@@ -1,0 +1,12 @@
+{
+  "component": "akhilmhdh/contributors-readme-action@v2.3.11",
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contributors.yml",
+      "source_repo": "universal-ember/reactiveweb"
+    }
+  ]
+}

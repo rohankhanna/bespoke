@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:45:38.134695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Safe Local Motion Planning with Self-Supervised Freespace Forecasting, CVPR 2021",
+    "fork": false,
+    "full_name": "peiyunh/ff",
+    "html_url": "https://github.com/peiyunh/ff",
+    "language": "Python",
+    "pushed_at": "2021-10-01T13:34:49Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-18T15:13:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -31,6 +31,18 @@
       "source_repo": "standard-schema/standard-schema",
       "status": "candidate-context",
       "text": "Main CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crmne/ruby_llm",
+      "status": "candidate-context",
+      "text": "One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity, Mistral, xAI, GPUStack & OpenAI compatible APIs. Agents, Chat, Vision, Audio, PDF, Images, Embeddings, Tools, Streaming & Rails integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crmne/ruby_llm",
+      "status": "candidate-context",
+      "text": "Main CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "standard-schema/standard-schema",
+      "status": "candidate",
+      "text": "Main CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crmne/ruby_llm",
       "status": "candidate",
       "text": "Main CI"
     }
@@ -202,11 +220,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "crmne/ruby_llm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -340,7 +340,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:43:10.491679+00:00",
+  "fetched_at": "2026-05-04T01:00:12.263176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -373,7 +373,7 @@
     "html_url": "https://github.com/scverse/rapids-singlecell",
     "language": "Python",
     "pushed_at": "2026-04-30T14:35:55Z",
-    "stargazers_count": 360,
+    "stargazers_count": 361,
     "topics": [
       "anndata",
       "bioinformatics",
@@ -381,7 +381,7 @@
       "scverse",
       "single-cell"
     ],
-    "updated_at": "2026-05-01T06:25:19Z"
+    "updated_at": "2026-05-03T20:07:40Z"
   },
   "repo_links": [
     {

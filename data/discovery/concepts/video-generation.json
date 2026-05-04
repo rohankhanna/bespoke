@@ -703,6 +703,30 @@
       "source_repo": "snap-research/articulated-animation",
       "status": "candidate-context",
       "text": "This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver Woodford](https://ojwoodford\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate-context",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate-context",
+      "text": "[ICCV'25 Best Paper Finalist] ReCamMaster: Camera-Controlled Generative Rendering from A Single Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1077,18 @@
       "source_repo": "snap-research/articulated-animation",
       "status": "candidate",
       "text": "This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver Woodford](https://ojwoodford\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality",
+      "status": "candidate",
+      "text": "You can easily calculate the following video quality metrics for video generation and video preiction tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1684,11 +1720,65 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JunyaoHu/common_metrics_on_video_quality"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

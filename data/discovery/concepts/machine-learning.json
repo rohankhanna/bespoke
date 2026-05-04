@@ -5203,6 +5203,90 @@
       "source_repo": "google/deepvariant",
       "status": "candidate-context",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Medical imaging processing for AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "Transfer Learning library for Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "Code base for the precision, recall, density, and coverage metrics for generative models. ICML 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/tods",
+      "status": "candidate-context",
+      "text": "TODS: An Automated Time-series Outlier Detection System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/tods",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official Implement of \"ADBench: Anomaly Detection Benchmark\", NeurIPS 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate-context",
+      "text": "The SciML Scientific Machine Learning Software Organization Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate-context",
+      "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
     }
   ],
   "candidate_glosses": [
@@ -7803,6 +7887,48 @@
       "source_repo": "google/deepvariant",
       "status": "candidate",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/tods",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/sciml.ai",
+      "status": "candidate",
+      "text": "SciML is an open source software organization created to unify the packages for scientific machine learning. This includes the development of modular scientific simulation support software, such as differential equation solvers, along with the methodologies for inverse problems \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -12850,11 +12976,233 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google/deepvariant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "amzn/xfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/tods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Minqi824/ADBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "SciML/sciml.ai"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

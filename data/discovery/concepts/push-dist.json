@@ -43,6 +43,18 @@
       "source_repo": "tracked-tools/ember-async-data",
       "status": "candidate-context",
       "text": "Push dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Push dist"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tracked-tools/ember-async-data",
+      "status": "candidate",
+      "text": "Push dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
       "status": "candidate",
       "text": "Push dist"
     }
@@ -124,11 +142,23 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/push-dist.yml",
       "source_repo": "tracked-tools/ember-async-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/push-dist.yml",
+      "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/push-dist.yml",
+      "source_repo": "tracked-tools/tracked-built-ins"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

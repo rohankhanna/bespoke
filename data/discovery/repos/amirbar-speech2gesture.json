@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T02:00:28.369112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "code for training the models from the paper \"Learning Individual Styles of Conversational Gestures\"",
+    "fork": false,
+    "full_name": "amirbar/speech2gesture",
+    "html_url": "https://github.com/amirbar/speech2gesture",
+    "language": "Python",
+    "pushed_at": "2024-03-06T19:07:58Z",
+    "stargazers_count": 394,
+    "topics": [],
+    "updated_at": "2026-04-11T22:23:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

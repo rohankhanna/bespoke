@@ -127,6 +127,18 @@
       "source_repo": "gbionics/resolve-robotics-uri-py",
       "status": "candidate-context",
       "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "A LiDAR odometry pipeline that just works"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +213,12 @@
       "source_repo": "gbionics/resolve-robotics-uri-py",
       "status": "candidate",
       "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/kiss-icp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +304,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "gbionics/resolve-robotics-uri-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/kiss-icp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

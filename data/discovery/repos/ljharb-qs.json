@@ -569,7 +569,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:25:36.300059+00:00",
+  "fetched_at": "2026-05-04T02:10:03.112313+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -614,7 +614,7 @@
     "html_url": "https://github.com/ljharb/qs",
     "language": "JavaScript",
     "pushed_at": "2026-04-27T19:23:55Z",
-    "stargazers_count": 8927,
+    "stargazers_count": 8928,
     "topics": [
       "browsers",
       "encoding",
@@ -626,7 +626,7 @@
       "stringify",
       "url-parsing"
     ],
-    "updated_at": "2026-04-27T19:24:01Z"
+    "updated_at": "2026-05-02T06:35:08Z"
   },
   "repo_links": [
     {

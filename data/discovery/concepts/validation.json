@@ -358,6 +358,30 @@
       "source_repo": "FrontLabsOfficial/vue-tiny-validate",
       "status": "candidate-context",
       "text": "Tiny Vue Validate Composition"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "\u2705  Painless Vue forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuelidate/vuelidate",
+      "status": "candidate-context",
+      "text": "Simple, lightweight model-based validation for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuelidate/vuelidate",
+      "status": "candidate-context",
+      "text": "> Simple, lightweight model-based validation for Vue.js 2.x & 3.0"
     }
   ],
   "candidate_glosses": [
@@ -534,6 +558,18 @@
       "source_repo": "FrontLabsOfficial/vue-tiny-validate",
       "status": "candidate",
       "text": "Tiny Vue Validate Composition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuelidate/vuelidate",
+      "status": "candidate",
+      "text": "> Simple, lightweight model-based validation for Vue.js 2.x & 3.0"
     }
   ],
   "candidate_related_terms": [
@@ -912,11 +948,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "FrontLabsOfficial/vue-tiny-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "logaretm/vee-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "vuelidate/vuelidate"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

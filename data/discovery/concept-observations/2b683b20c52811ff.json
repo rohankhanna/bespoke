@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcda200+ Tensor/CUDA Cores Kernels, \u26a1\ufe0fflash-attn-mma, \u26a1\ufe0fhgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 \ud83c\udf89\ud83c\udf89)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046833,
+      "status": "candidate",
+      "text": "government issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030472,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030044,
+      "status": "candidate",
+      "text": "issuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029766,
+      "status": "candidate",
+      "text": "payoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027306,
+      "status": "candidate",
+      "text": "supply"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "issues",
+      "sense_id": "issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issues",
+  "observation_id": "2b683b20c52811ff",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "issues",
+  "source_context_snippet": "issues",
+  "source_file": ".github/workflows/issue.yml",
+  "source_repo": "DefTruth/CUDA-Learn-Notes",
+  "source_repo_description": "\ud83d\udcda200+ Tensor/CUDA Cores Kernels, \u26a1\ufe0fflash-attn-mma, \u26a1\ufe0fhgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 \ud83c\udf89\ud83c\udf89)."
+}

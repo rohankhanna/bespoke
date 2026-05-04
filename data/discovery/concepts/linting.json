@@ -665,6 +665,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "The agent engineering platform. Available in TypeScript!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gofrs/flock",
+      "status": "candidate-context",
+      "text": "Thread-safe file locking library in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrs/flock",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -997,6 +1009,12 @@
       "source_repo": "import-js/eslint-plugin-import",
       "status": "candidate",
       "text": "[![github actions][actions-image]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gofrs/flock",
+      "status": "candidate",
+      "text": "Linting"
     }
   ],
   "candidate_related_terms": [
@@ -1717,11 +1735,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "gofrs/flock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

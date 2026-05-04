@@ -84,7 +84,7 @@
   "normalized_form": "doc-preview-cleanup",
   "observation_id": "17d4359956f3d44c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Doc Preview Cleanup",
   "source_context_snippet": "Doc Preview Cleanup",
   "source_file": ".github/workflows/CleanPreview.yml",

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BellmanTimeHut/DIPO",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:54.190351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "BellmanTimeHut/DIPO",
+    "html_url": "https://github.com/BellmanTimeHut/DIPO",
+    "language": "Python",
+    "pushed_at": "2023-05-30T06:13:15Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-04-15T08:35:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "robustfieldautonomylab/lego-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "chennuo0125-hit/lidar_imu_calib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "gisbi-kim/sc-lio-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "jokerjohn/lio_sam_6axis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "3d-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "lidar-inertial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "ouster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "ouster-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TixiaoShan/LIO-SAM",
+      "target": "velodyne-slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:03.335882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17366
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping",
+    "fork": false,
+    "full_name": "TixiaoShan/LIO-SAM",
+    "html_url": "https://github.com/TixiaoShan/LIO-SAM",
+    "language": "C++",
+    "pushed_at": "2025-02-14T10:05:51Z",
+    "stargazers_count": 4716,
+    "topics": [
+      "3d-mapping",
+      "lidar-inertial",
+      "lidar-odometry",
+      "lidar-slam",
+      "loam-velodyne",
+      "ouster",
+      "ouster-slam",
+      "slam",
+      "velodyne",
+      "velodyne-slam"
+    ],
+    "updated_at": "2026-05-03T10:41:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chennuo0125-hit/lidar_imu_calib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gisbi-kim/sc-lio-sam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jokerjohn/lio_sam_6axis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robustfieldautonomylab/lego-loam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mapping"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-odometry"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam-velodyne"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ouster"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ouster-slam"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne"
+    },
+    {
+      "context_snippet": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne-slam"
+    }
+  ]
+}

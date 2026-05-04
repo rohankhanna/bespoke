@@ -19,12 +19,48 @@
       "source_repo": "TakWolf/fusion-pixel-font",
       "status": "candidate-context",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate-context",
+      "text": "\u514d\u8cbb\u958b\u6e90\u7684 11\u00d711 \u4e2d\u6587\u9ede\u9663\u9ad4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate-context",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "![Logo](docs/logo@2x.png)"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "TakWolf/fusion-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ACh-K/Cubic-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

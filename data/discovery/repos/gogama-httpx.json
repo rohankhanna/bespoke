@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gogama/httpx",
+      "target": "gogama/aws-xray-httpx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gogama/httpx",
+      "target": "gogama/reconnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "retry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "retry-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/httpx",
+      "target": "retryer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:05:24.764745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4214
+    },
+    {
+      "path": "go.mod",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reliable HTTP for GoLang",
+    "fork": false,
+    "full_name": "gogama/httpx",
+    "html_url": "https://github.com/gogama/httpx",
+    "language": "Go",
+    "pushed_at": "2022-12-13T00:39:38Z",
+    "stargazers_count": 16,
+    "topics": [
+      "go",
+      "golang",
+      "http",
+      "http-client",
+      "retry",
+      "retry-library",
+      "retryer"
+    ],
+    "updated_at": "2024-04-09T07:21:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gogama/aws-xray-httpx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gogama/reconnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retry"
+    },
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retry-library"
+    },
+    {
+      "context_snippet": "httpx - Best HTTP client for reliability (retry, plugins, racing, and more!)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retryer"
+    }
+  ]
+}

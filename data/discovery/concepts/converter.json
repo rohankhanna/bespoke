@@ -103,6 +103,18 @@
       "source_repo": "vadimkantorov/caffemodel2pytorch",
       "status": "candidate-context",
       "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JohannesKaufmann/html-to-markdown",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Convert HTML to Markdown. Even works with entire websites and can be extended through rules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohannesKaufmann/html-to-markdown",
+      "status": "candidate-context",
+      "text": "A robust html-to-markdown converter that transforms HTML (even entire websites) into clean, readable Markdown. It supports complex formatting, customizable options, and plugins for full control over the conversion process."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "vadimkantorov/caffemodel2pytorch",
       "status": "candidate",
       "text": "This converter can be useful for porting Caffe code and layers to PyTorch. Features:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JohannesKaufmann/html-to-markdown",
+      "status": "candidate",
+      "text": "A robust html-to-markdown converter that transforms HTML (even entire websites) into clean, readable Markdown. It supports complex formatting, customizable options, and plugins for full control over the conversion process."
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +270,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "vadimkantorov/caffemodel2pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "JohannesKaufmann/html-to-markdown"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

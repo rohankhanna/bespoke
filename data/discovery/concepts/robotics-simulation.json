@@ -211,6 +211,30 @@
       "source_repo": "gazebosim/gz-tools",
       "status": "candidate-context",
       "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "FurnitureBench: Real-World Furniture Assembly Benchmark (RSS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "Plugins to interface Gazebo with YARP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate-context",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "gazebosim/gz-tools",
       "status": "candidate",
       "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "status": "candidate",
+      "text": "gazebo-yarp-plugins"
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +478,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

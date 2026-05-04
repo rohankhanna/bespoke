@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fjc0k/docker-YApi"
+    }
+  ],
+  "term": "yapi-docker"
+}

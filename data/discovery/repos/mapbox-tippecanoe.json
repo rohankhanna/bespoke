@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tippecanoe",
+      "target": "mbostock/topojson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/tippecanoe",
+      "target": "mbostock/ndjson-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tippecanoe",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tippecanoe",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/tippecanoe",
+      "target": "vector-tiles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:19.950388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57451
+    },
+    {
+      "path": "Dockerfile",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build vector tilesets from large collections of GeoJSON features.",
+    "fork": false,
+    "full_name": "mapbox/tippecanoe",
+    "html_url": "https://github.com/mapbox/tippecanoe",
+    "language": "C++",
+    "pushed_at": "2025-10-14T14:26:27Z",
+    "stargazers_count": 3066,
+    "topics": [
+      "c-plus-plus",
+      "geojson",
+      "vector-tiles"
+    ],
+    "updated_at": "2026-04-30T19:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbostock/ndjson-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbostock/topojson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "tippecanoe",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "tippecanoe",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geojson"
+    },
+    {
+      "context_snippet": "tippecanoe",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-tiles"
+    }
+  ]
+}

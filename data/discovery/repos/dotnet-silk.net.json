@@ -169,16 +169,6 @@
       "component": "lukka/get-cmake@latest",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/moltenvk.yml"
-    },
-    {
-      "component": "actions/checkout@v2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openal-soft.yml"
-    },
-    {
-      "component": "actions/setup-dotnet@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openal-soft.yml"
     }
   ],
   "edges": [
@@ -435,27 +425,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openal-soft.yml",
-      "source_repo": "dotnet/Silk.NET",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/openal-soft.yml",
-      "source_repo": "dotnet/Silk.NET",
-      "target": "actions/setup-dotnet@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/openal-soft.yml",
-      "source_repo": "dotnet/Silk.NET",
-      "target": "OpenAL Soft",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "dotnet/Silk.NET",
@@ -568,7 +537,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:30:22.393324+00:00",
+  "fetched_at": "2026-05-04T01:12:36.309716+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -605,10 +574,6 @@
     {
       "path": ".github/workflows/moltenvk.yml",
       "size": 1916
-    },
-    {
-      "path": ".github/workflows/openal-soft.yml",
-      "size": 4135
     }
   ],
   "related_repositories": [],
@@ -621,7 +586,7 @@
     "html_url": "https://github.com/dotnet/Silk.NET",
     "language": "C#",
     "pushed_at": "2026-05-02T18:27:52Z",
-    "stargazers_count": 5024,
+    "stargazers_count": 5025,
     "topics": [
       "3d",
       "audio",
@@ -641,7 +606,7 @@
       "webgpu",
       "wgpu"
     ],
-    "updated_at": "2026-05-03T16:06:12Z"
+    "updated_at": "2026-05-03T21:31:19Z"
   },
   "repo_links": [
     {
@@ -698,12 +663,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/moltenvk.yml",
       "term": "MoltenVK"
-    },
-    {
-      "context_snippet": "OpenAL Soft",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/openal-soft.yml",
-      "term": "OpenAL Soft"
     },
     {
       "context_snippet": "<!-- Begin exclude from NuGet readme. -->",

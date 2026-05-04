@@ -1,0 +1,12 @@
+{
+  "component": "chetan/invalidate-cloudfront-action@12d242edc7752fca9140c2034be28792ad22c5a8",
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src"
+    }
+  ]
+}

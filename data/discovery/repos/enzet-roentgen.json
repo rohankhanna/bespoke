@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enzet/Roentgen",
+      "target": "gmgeo/osmic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enzet/Roentgen",
+      "target": "ideditor/temaki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "enzet/Roentgen",
+      "target": "enzet/iconscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/Roentgen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/Roentgen",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/Roentgen",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enzet/Roentgen",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/Roentgen",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/Roentgen",
+      "target": "icons-pack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/Roentgen",
+      "target": "iconset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/Roentgen",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "enzet/Roentgen",
+      "target": "svg-icons",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:06.003471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4980
+    },
+    {
+      "path": "package.json",
+      "size": 632
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2609
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set of 14 \u00d7 14 px monochrome CC BY map icons",
+    "fork": false,
+    "full_name": "enzet/Roentgen",
+    "html_url": "https://github.com/enzet/Roentgen",
+    "language": "Python",
+    "pushed_at": "2026-04-04T09:28:18Z",
+    "stargazers_count": 22,
+    "topics": [
+      "icons",
+      "icons-pack",
+      "iconset",
+      "openstreetmap",
+      "osm",
+      "svg",
+      "svg-icons"
+    ],
+    "updated_at": "2026-04-07T19:57:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enzet/iconscript",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmgeo/osmic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideditor/temaki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons-pack"
+    },
+    {
+      "context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iconset"
+    },
+    {
+      "context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-icons"
+    }
+  ]
+}

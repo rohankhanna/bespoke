@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "NVlabs/edm2",
+      "target": "easydiffusion/easydiffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:34.054834+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16997
+    },
+    {
+      "path": "Dockerfile",
+      "size": 726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "EDM2 and Autoguidance -- Official PyTorch implementation",
+    "fork": false,
+    "full_name": "NVlabs/edm2",
+    "html_url": "https://github.com/NVlabs/edm2",
+    "language": "Python",
+    "pushed_at": "2024-12-09T11:57:40Z",
+    "stargazers_count": 842,
+    "topics": [],
+    "updated_at": "2026-04-28T12:38:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "easydiffusion/easydiffusion",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

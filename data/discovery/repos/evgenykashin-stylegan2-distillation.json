@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:47:28.496057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "EvgenyKashin/stylegan2-distillation",
+    "html_url": "https://github.com/EvgenyKashin/stylegan2-distillation",
+    "language": "Python",
+    "pushed_at": "2022-02-02T18:55:59Z",
+    "stargazers_count": 1020,
+    "topics": [],
+    "updated_at": "2026-04-28T13:37:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

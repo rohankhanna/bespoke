@@ -199,6 +199,18 @@
       "source_repo": "validator/gulp-html",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/gulp-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/gulp-html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "\u2705  Painless Vue forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "validator/gulp-html",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/gulp-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/gulp-html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +724,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "logaretm/vee-validate"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

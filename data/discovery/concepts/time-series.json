@@ -199,6 +199,30 @@
       "source_repo": "joshuaulrich/quantmod",
       "status": "candidate-context",
       "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datamllab/tods",
+      "status": "candidate-context",
+      "text": "TODS: An Automated Time-series Outlier Detection System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/tods",
+      "status": "candidate-context",
+      "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate-context",
+      "text": "Time-Series Anomaly Detection | Algorithms + Datasets + Tutorials"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "joshuaulrich/quantmod",
       "status": "candidate",
       "text": "[quantmod](http://www.quantmod.com) is an [R](https://www.r-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datamllab/tods",
+      "status": "candidate",
+      "text": "<img width=\"500\" src=\"./docs/source/img/tods_logo.png\" alt=\"Logo\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thedatumorg/TSB-AD",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +454,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "joshuaulrich/quantmod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "datamllab/tods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AD"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

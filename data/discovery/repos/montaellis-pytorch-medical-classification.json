@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Classification",
+      "target": "weiaicunzai/pytorch-cifar100",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MontaEllis/Pytorch-Medical-Classification",
+      "target": "fepegar/torchio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:41:08.138456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository is an unoffical PyTorch implementation of Medical classification in 2D and 3D.",
+    "fork": false,
+    "full_name": "MontaEllis/Pytorch-Medical-Classification",
+    "html_url": "https://github.com/MontaEllis/Pytorch-Medical-Classification",
+    "language": "Python",
+    "pushed_at": "2021-09-27T11:39:22Z",
+    "stargazers_count": 93,
+    "topics": [],
+    "updated_at": "2026-04-13T00:47:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fepegar/torchio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiaicunzai/pytorch-cifar100",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

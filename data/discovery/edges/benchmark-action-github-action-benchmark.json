@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "benchmark-action/github-action-benchmark",
-      "target": "features/actions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "benchmark-action/github-action-benchmark",
       "target": "rhysd/github-action-benchmark",
       "target_type": "repository"
     },
@@ -533,6 +526,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "benchmark-action/github-action-benchmark"
 }

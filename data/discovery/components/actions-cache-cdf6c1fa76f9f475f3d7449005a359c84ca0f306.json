@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-native-pr-review.lock.yml",
       "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_tests.yml",
+      "source_repo": "boostorg/nowide"
     }
   ]
 }

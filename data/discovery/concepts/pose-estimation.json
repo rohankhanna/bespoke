@@ -403,6 +403,42 @@
       "source_repo": "ActiveVisionLab/nerfmm",
       "status": "candidate-context",
       "text": "**[Project Page](https://nerfmm.active.vision/) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate-context",
+      "text": "This repo equips the official CLIFF [ECCV 2022 Oral] with better detector, better tracker. Support multi-person, motion interpolation, motion smooth and SMPLify fitting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'22] \"ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation\" and [TPAMI'23] \"ViTPose++: Vision Transformer for Generic Body Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ActiveVisionLab/direct-posenet",
+      "status": "candidate-context",
+      "text": "Direct-PoseNet: Absolute Pose Regression with Photometric Consistency (3DV 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/direct-posenet",
+      "status": "candidate-context",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en), [Zirui Wang](https://scholar.google.com/citations?user=zCBKqa8AAAAJ&hl=en), and [Victor Prisacariu](https://scholar.google.com/citations?user=GmWA-LoAAAAJ&hl=en) (3DV 2021)**"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +639,24 @@
       "source_repo": "ActiveVisionLab/nerfmm",
       "status": "candidate",
       "text": "**[Project Page](https://nerfmm.active.vision/) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/CLIFF",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cliff-carrying-location-information-in-full/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=cliff-carrying-location-information-in-full)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ActiveVisionLab/direct-posenet",
+      "status": "candidate",
+      "text": "**[Shuai Chen](https://scholar.google.com/citations?user=c0xTh_YAAAAJ&hl=en), [Zirui Wang](https://scholar.google.com/citations?user=zCBKqa8AAAAJ&hl=en), and [Victor Prisacariu](https://scholar.google.com/citations?user=GmWA-LoAAAAJ&hl=en) (3DV 2021)**"
     }
   ],
   "candidate_related_terms": [],
@@ -898,11 +952,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "chongyi-zheng/SMPLpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/CLIFF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ActiveVisionLab/direct-posenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

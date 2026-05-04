@@ -19,12 +19,30 @@
       "source_repo": "emberjs/rfcs",
       "status": "candidate-context",
       "text": "Label newly opened RFC PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskrycho/ember-rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Ember"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/ember-rfcs",
+      "status": "candidate-context",
+      "text": "Label newly opened RFC PRs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "emberjs/rfcs",
+      "status": "candidate",
+      "text": "Label newly opened RFC PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/ember-rfcs",
       "status": "candidate",
       "text": "Label newly opened RFC PRs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
       "source_repo": "emberjs/rfcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "source_repo": "chriskrycho/ember-rfcs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

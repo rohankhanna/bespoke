@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v2.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "mit-han-lab/torchpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "pre-commit/action@v2.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "3d-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "architecture-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas",
+      "target": "semantickitti",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:13.283357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6019
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution",
+    "fork": false,
+    "full_name": "mit-han-lab/spvnas",
+    "html_url": "https://github.com/mit-han-lab/spvnas",
+    "language": "Python",
+    "pushed_at": "2024-07-11T21:13:56Z",
+    "stargazers_count": 620,
+    "topics": [
+      "3d-deep-learning",
+      "architecture-search",
+      "computer-vision",
+      "deep-learning",
+      "efficiency",
+      "lidar",
+      "point-cloud",
+      "pytorch",
+      "semantickitti"
+    ],
+    "updated_at": "2026-04-20T06:05:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/torchpack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-deep-learning"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture-search"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantickitti"
+    }
+  ]
+}

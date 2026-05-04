@@ -53,13 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/DemoCards.jl",
-      "target": "jverzani/mustache.jl",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaDocs/DemoCards.jl",
@@ -186,7 +179,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T18:48:45.075369+00:00",
+  "fetched_at": "2026-05-04T02:10:59.924467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,13 +221,7 @@
     ],
     "updated_at": "2025-11-04T15:24:20Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jverzani/mustache.jl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "CompatHelper",

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy playground site to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "Data annotation component library --provided as NPM packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "Deploy playground site to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate",
+      "text": "Deploy playground site to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33689,
+      "status": "candidate",
+      "text": "appear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33689,
+      "status": "candidate",
+      "text": "appearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33392,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33392,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33310,
+      "status": "candidate",
+      "text": "evidence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy playground site to Pages",
+  "concept_id": "deploy-playground-site-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/playground.yml",
+      "source_repo": "opendatalab/labelU-Kit"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy playground site to Pages",
+      "sense_id": "deploy-playground-site-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

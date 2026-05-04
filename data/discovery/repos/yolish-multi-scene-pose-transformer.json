@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:47:02.114642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-Scene Camera Pose Regression with Transformers",
+    "fork": false,
+    "full_name": "yolish/multi-scene-pose-transformer",
+    "html_url": "https://github.com/yolish/multi-scene-pose-transformer",
+    "language": "Python",
+    "pushed_at": "2022-01-09T06:44:09Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2025-12-09T13:43:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

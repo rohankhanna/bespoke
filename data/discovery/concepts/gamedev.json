@@ -475,6 +475,18 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate-context",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "An authoritative multiplayer games framework for GDevelop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +723,12 @@
       "source_repo": "Evilpasture/Culverin",
       "status": "candidate",
       "text": "[![PyPI - Version](https://img.shields.io/pypi/v/culverin)](https://pypi.org/project/culverin/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
     }
   ],
   "candidate_related_terms": [],
@@ -1120,11 +1138,47 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

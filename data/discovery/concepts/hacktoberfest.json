@@ -8773,6 +8773,138 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate-context",
       "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsk-ros-pkg/jsk_visualization",
+      "status": "candidate-context",
+      "text": "jsk visualization ros packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsk-ros-pkg/jsk_visualization",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "An authoritative multiplayer games framework for GDevelop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate-context",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maplibre/maplibre-gl-js",
+      "status": "candidate-context",
+      "text": "MapLibre GL JS - Interactive vector tile maps in the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate-context",
+      "text": "\ud83c\udfad Playwright integration for Scrapy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "|logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate-context",
+      "text": "Command line interface for Cavy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "\u2705  Painless Vue forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ember-cli/broccoli-babel-transpiler",
+      "status": "candidate-context",
+      "text": "Broccoli plugin for Babel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-babel-transpiler",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/babel/broccoli-babel-transpiler.svg?branch=master)](https://travis-ci.org/babel/broccoli-babel-transpiler)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "Reactive primitives for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate-context",
+      "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate-context",
+      "text": "geospatial xarray extension powered by rasterio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate-context",
+      "text": "================"
     }
   ],
   "candidate_glosses": [
@@ -13185,6 +13317,72 @@
       "source_repo": "v2fly/v2ray-core",
       "status": "candidate",
       "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsk-ros-pkg/jsk_visualization",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arthuro555/THNK",
+      "status": "candidate",
+      "text": "![The THNK Framework Banner](./banner.png \"He do be thonkin\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maplibre/maplibre-gl-js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "|logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate",
+      "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy-cli",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logaretm/vee-validate",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/broccoli-babel-transpiler",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/babel/broccoli-babel-transpiler.svg?branch=master)](https://travis-ci.org/babel/broccoli-babel-transpiler)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "universal-ember/reactiveweb",
+      "status": "candidate",
+      "text": "A collection of utilities for helping applications be more reactive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate",
+      "text": "================"
     }
   ],
   "candidate_related_terms": [],
@@ -20476,11 +20674,191 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jsk-ros-pkg/jsk_visualization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "arthuro555/THNK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "GDevelopApp/GDevelop-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "maplibre/maplibre-gl-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "scrapy/scrapy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ugexe/zef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "logaretm/vee-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/broccoli-babel-transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "universal-ember/reactiveweb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "corteva/rioxarray"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

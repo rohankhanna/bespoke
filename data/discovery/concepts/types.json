@@ -562,6 +562,18 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate-context",
+      "text": "Helpful autotracking utilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate-context",
+      "text": "Types"
     }
   ],
   "candidate_glosses": [
@@ -840,6 +852,12 @@
       "source_repo": "stdlib-js/ndarray-dtype",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/tracked-toolbox",
+      "status": "candidate",
+      "text": "Types"
     }
   ],
   "candidate_related_terms": [
@@ -1267,11 +1285,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/ndarray-dtype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/types.yml",
+      "source_repo": "tracked-tools/tracked-toolbox"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

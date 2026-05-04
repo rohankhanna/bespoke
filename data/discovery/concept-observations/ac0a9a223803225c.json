@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u971e\u9e5c\u81fb\u6977\uff1a\u57fa\u4e8e\u300c\u971e\u9e5c\u6587\u6977\u300d\u884d\u751f\uff0c\u524d\u671f\u624b\u52a8\u52a0\u7c97\u8c03\u6574\u5b57\u5f62\uff0c\u540e\u671f\u7531 AI \u751f\u6210\u5b57\u5f62\u8f85\u52a9\u8865\u5b57\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002A bolder weight, AI-assisted font derived from LXGW Wenkai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-simplified",
+      "sense_id": "chinese-simplified#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-simplified",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-simplified",
+  "observation_id": "ac0a9a223803225c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "chinese-simplified",
+  "source_context_snippet": "> [!NOTE]",
+  "source_file": null,
+  "source_repo": "lxgw/LxgwZhenKai",
+  "source_repo_description": "\u971e\u9e5c\u81fb\u6977\uff1a\u57fa\u4e8e\u300c\u971e\u9e5c\u6587\u6977\u300d\u884d\u751f\uff0c\u524d\u671f\u624b\u52a8\u52a0\u7c97\u8c03\u6574\u5b57\u5f62\uff0c\u540e\u671f\u7531 AI \u751f\u6210\u5b57\u5f62\u8f85\u52a9\u8865\u5b57\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002A bolder weight, AI-assisted font derived from LXGW Wenkai."
+}

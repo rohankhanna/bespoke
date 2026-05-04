@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix",
+      "target": "nixflake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix",
+      "target": "nixpkgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix",
+      "target": "swiftformat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:50.139279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Versioned SwiftFormat packages for Nix",
+    "fork": false,
+    "full_name": "acevif/swiftformat-nix",
+    "html_url": "https://github.com/acevif/swiftformat-nix",
+    "language": "Nix",
+    "pushed_at": "2026-04-17T06:23:08Z",
+    "stargazers_count": 0,
+    "topics": [
+      "formatter",
+      "nix",
+      "nixflake",
+      "nixpkgs",
+      "swift",
+      "swiftformat"
+    ],
+    "updated_at": "2026-04-17T06:23:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixflake"
+    },
+    {
+      "context_snippet": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixpkgs"
+    },
+    {
+      "context_snippet": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftformat"
+    }
+  ]
+}

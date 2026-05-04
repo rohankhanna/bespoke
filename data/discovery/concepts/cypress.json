@@ -58,6 +58,18 @@
       "source_repo": "nrwl/nx",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "This is a Nuxt.js Boilerplate project that you can clone and play around with to learn the cool stuff you can do with Nuxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "nrwl/nx",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debs-obrien/nuxt-boilerplate-project",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/e4fbcc69-c236-4b39-a6b4-919211e01e2e/deploy-status)](https://app.netlify.com/sites/nuxt-boilerplate-project/deploys)"
     }
   ],
   "candidate_related_terms": [
@@ -159,11 +177,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "debs-obrien/nuxt-boilerplate-project"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

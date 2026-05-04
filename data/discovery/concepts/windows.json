@@ -2284,6 +2284,18 @@
       "source_repo": "shadowsocks/libevent",
       "status": "candidate-context",
       "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Windows"
     }
   ],
   "candidate_glosses": [
@@ -3438,6 +3450,12 @@
       "source_repo": "shadowsocks/libevent",
       "status": "candidate",
       "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "Windows"
     }
   ],
   "candidate_related_terms": [
@@ -5329,11 +5347,47 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "shadowsocks/libevent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/tests-windows.yml",
+      "source_repo": "scrapy/scrapy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

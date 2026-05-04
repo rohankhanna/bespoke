@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rebuild-dependabot-prs.yml",
+      "source_repo": "actions/deploy-pages"
+    }
+  ],
+  "term": "Rebuild distributables for Dependabot PRs"
+}

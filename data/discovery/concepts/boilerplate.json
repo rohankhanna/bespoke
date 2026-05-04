@@ -250,6 +250,18 @@
       "source_repo": "SimulatedGREG/electron-vue",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bencodezen/vue-enterprise-boilerplate",
+      "status": "candidate-context",
+      "text": "An ever-evolving, very opinionated architecture and dev environment for new Vue SPA projects using Vue CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencodezen/vue-enterprise-boilerplate",
+      "status": "candidate-context",
+      "text": "This repo is currently in active development and considered in alpha release."
     }
   ],
   "candidate_glosses": [
@@ -372,6 +384,12 @@
       "source_repo": "SimulatedGREG/electron-vue",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bencodezen/vue-enterprise-boilerplate",
+      "status": "candidate",
+      "text": "This repo is currently in active development and considered in alpha release."
     }
   ],
   "candidate_related_terms": [
@@ -589,11 +607,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bencodezen/vue-enterprise-boilerplate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

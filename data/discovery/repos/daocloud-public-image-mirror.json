@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "wzshiming/gh-ci-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "wzshiming/gh-ci-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "wzshiming/gh-ci-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "wzshiming/gh-ci-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "wzshiming/gh-ci-bot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-allows-list.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "opencidn/ocimirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "wzshiming/repimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "kubernetes-sigs/kubespray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "daocloud/public-binary-files-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "wzshiming/gh-ci-bot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "CI Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cidn-runner.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "CIDN Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-image.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-image.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Target Sync Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-allows-list.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-allows-list.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Update allows list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Verify PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "speedup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:10.199955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5044
+    },
+    {
+      "path": ".github/workflows/ci-bot.yml",
+      "size": 5081
+    },
+    {
+      "path": ".github/workflows/cidn-runner.yml",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/sync-image.yml",
+      "size": 4953
+    },
+    {
+      "path": ".github/workflows/update-allows-list.yml",
+      "size": 1151
+    },
+    {
+      "path": ".github/workflows/verify-pr.yml",
+      "size": 1023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002",
+    "fork": false,
+    "full_name": "DaoCloud/public-image-mirror",
+    "html_url": "https://github.com/DaoCloud/public-image-mirror",
+    "language": "Shell",
+    "pushed_at": "2026-04-27T01:59:50Z",
+    "stargazers_count": 13969,
+    "topics": [
+      "mirror",
+      "speedup"
+    ],
+    "updated_at": "2026-05-03T23:55:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daocloud/public-binary-files-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/kubespray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencidn/ocimirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzshiming/repimage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "term": "CI Bot"
+    },
+    {
+      "context_snippet": "CIDN Runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cidn-runner.yml",
+      "term": "CIDN Runner"
+    },
+    {
+      "context_snippet": "Target Sync Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-image.yml",
+      "term": "Target Sync Image"
+    },
+    {
+      "context_snippet": "Update allows list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-allows-list.yml",
+      "term": "Update allows list"
+    },
+    {
+      "context_snippet": "Verify PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "term": "Verify PR"
+    },
+    {
+      "context_snippet": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirror"
+    },
+    {
+      "context_snippet": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speedup"
+    }
+  ]
+}

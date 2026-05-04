@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pollen.jl build - PR preview"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "A flexible neural net training library inspired by fast.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "Pollen.jl build - PR preview"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate",
+      "text": "Pollen.jl build - PR preview"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "prevue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10488,
+      "status": "candidate",
+      "text": "vernissage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10438,
+      "status": "candidate",
+      "text": "sneak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pollen.jl build - PR preview",
+  "concept_id": "pollen.jl-build---pr-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pollen.trigger.pr.yml",
+      "source_repo": "FluxML/FluxTraining.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pollen.jl build - PR preview",
+      "sense_id": "pollen.jl-build---pr-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

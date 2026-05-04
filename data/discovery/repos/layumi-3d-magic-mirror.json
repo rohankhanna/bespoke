@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "layumi/hq-market",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "dvlab-research/smr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "nvlabs/umr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "cub-200-2011",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "fashion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "market-1501",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "person",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "target": "single-image-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:56:19.692221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9485
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1693
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":dress: [npj AI] 3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective:dress: Single-View 3D Reconstruction",
+    "fork": false,
+    "full_name": "layumi/3D-Magic-Mirror",
+    "html_url": "https://github.com/layumi/3D-Magic-Mirror",
+    "language": "Python",
+    "pushed_at": "2026-02-13T04:35:23Z",
+    "stargazers_count": 89,
+    "topics": [
+      "3d",
+      "3d-reconstruction",
+      "cub-200-2011",
+      "fashion",
+      "market-1501",
+      "person",
+      "single-image-reconstruction"
+    ],
+    "updated_at": "2026-04-21T03:56:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/smr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/hq-market",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/umr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cub-200-2011"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fashion"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "market-1501"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-reconstruction"
+    }
+  ]
+}

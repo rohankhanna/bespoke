@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FrLars21/ZoteroCitationCountsManager",
+      "target": "bwiernik/zotero-shortdoi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FrLars21/ZoteroCitationCountsManager",
+      "target": "beloglazov/zotero-scholar-citations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FrLars21/ZoteroCitationCountsManager",
+      "target": "zotero/make-it-red",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:34.749106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enhanced Citation Counts Manager for Zotero 7",
+    "fork": false,
+    "full_name": "FrLars21/ZoteroCitationCountsManager",
+    "html_url": "https://github.com/FrLars21/ZoteroCitationCountsManager",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-10T06:42:13Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-04-28T14:07:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beloglazov/zotero-scholar-citations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwiernik/zotero-shortdoi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zotero/make-it-red",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

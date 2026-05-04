@@ -320,7 +320,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "enzymejs/enzyme",
-      "target": "infernojs/inferno",
+      "target": "producthunt/chai-enzyme",
       "target_type": "repository"
     },
     {
@@ -807,7 +807,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:35:23.110996+00:00",
+  "fetched_at": "2026-05-04T01:51:07.172728+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -881,7 +881,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "infernojs/inferno",
+      "full_name": "producthunt/chai-enzyme",
       "source_file": "README.md"
     }
   ],

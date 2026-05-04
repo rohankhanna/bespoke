@@ -19,6 +19,18 @@
       "source_repo": "ljacobsson/cw-logs-insights-snippets",
       "status": "candidate-context",
       "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogama/incite",
+      "status": "candidate-context",
+      "text": "Hassle-free queries on Amazon CloudWatch Logs Insights in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/incite",
+      "status": "candidate-context",
+      "text": "A native Go library to streamline and supercharge your interactions with the AWS"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ljacobsson/cw-logs-insights-snippets",
       "status": "candidate",
       "text": "[Serverlessland.com/snippets](https://serverlessland.com/snippets) hosts a growing number of community provided snippets. Many of these are useful [CloudWatch Logs Insights](https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/AnalyzingLogData.html) snippets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogama/incite",
+      "status": "candidate",
+      "text": "A native Go library to streamline and supercharge your interactions with the AWS"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "ljacobsson/cw-logs-insights-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gogama/incite"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

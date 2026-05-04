@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "OSPDT Dependency Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate-context",
+      "text": "An Open Framework for Federated Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate-context",
+      "text": "OSPDT Dependency Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "securefederatedai/openfederatedlearning",
+      "status": "candidate",
+      "text": "OSPDT Dependency Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15424,
+      "status": "candidate",
+      "text": "adopting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "accumulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "acrosome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "affluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "alveolar artery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "OSPDT Dependency Workflow",
+  "concept_id": "ospdt-dependency-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ospdt_dependency_workflow.yml",
+      "source_repo": "securefederatedai/openfederatedlearning"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OSPDT Dependency Workflow",
+      "sense_id": "ospdt-dependency-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

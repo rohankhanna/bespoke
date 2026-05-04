@@ -43,6 +43,18 @@
       "source_repo": "eddelbuettel/ldlasb",
       "status": "candidate-context",
       "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isciences/exactextractr",
+      "status": "candidate-context",
+      "text": "R package for fast and accurate raster zonal statistics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextractr",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "eddelbuettel/ldlasb",
       "status": "candidate",
       "text": "This repository contains a short package providing two benchmarks between [Rcpp][1] and [another package][2] on [CRAN][3] which we will refer to just as just 'other'."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isciences/exactextractr",
+      "status": "candidate",
+      "text": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "eddelbuettel/ldlasb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "isciences/exactextractr"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

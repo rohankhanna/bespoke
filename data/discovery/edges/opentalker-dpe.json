@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/DPE",
-      "target": "rotemtzaban/stit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenTalker/DPE",
       "target": "feiiyin/styleheat",
       "target_type": "repository"
     },
@@ -27,8 +20,15 @@
       "source_repo": "OpenTalker/DPE",
       "target": "vinthony/video-retalking",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/DPE",
+      "target": "winfredy/sadtalker",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-03T18:24:01.791245+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "OpenTalker/DPE"
 }

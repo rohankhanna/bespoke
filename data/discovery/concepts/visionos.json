@@ -79,6 +79,18 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate-context",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Your Drag & Drop Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Gladys"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "leetal/ios-cmake",
       "status": "candidate",
       "text": "A CMake toolchain file for iOS (+ Catalyst), watchOS, tvOS and macOS development with full simulator support and toggleable options!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate",
+      "text": "Gladys"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

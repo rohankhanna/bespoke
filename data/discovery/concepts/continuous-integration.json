@@ -2543,6 +2543,54 @@
       "source_repo": "icppWorld/llama2.c",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "Bazel rules that format Swift source files using nicklockwood/SwiftFormat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network,  in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenyangMl/llama2.c-zh",
+      "status": "candidate-context",
+      "text": "\u652f\u6301\u4e2d\u6587\u573a\u666f\u7684\u7684\u5c0f\u8bed\u8a00\u6a21\u578b llama2.c-zh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyangMl/llama2.c-zh",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "epicure/llama2.js",
+      "status": "candidate-context",
+      "text": "Inference Llama 2 in one file of pure JavaScript(HTML)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epicure/llama2.js",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -3821,6 +3869,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "icppWorld/llama2.c",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenyangMl/llama2.c-zh",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epicure/llama2.js",
       "status": "candidate",
       "text": "Continuous Integration"
     }
@@ -5888,11 +5960,59 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/rules_swiftformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lucidrains/DALLE2-pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "chenyangMl/llama2.c-zh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "epicure/llama2.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

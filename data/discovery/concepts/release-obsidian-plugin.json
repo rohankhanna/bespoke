@@ -146,6 +146,18 @@
       "source_repo": "Mara-Li/obsidian-snippet-downloader",
       "status": "candidate-context",
       "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
+      "status": "candidate-context",
+      "text": "Insert and import citations, bibliographies, notes, and PDF annotations from Zotero into Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
+      "status": "candidate-context",
+      "text": "Release Obsidian plugin"
     }
   ],
   "candidate_glosses": [
@@ -218,6 +230,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Mara-Li/obsidian-snippet-downloader",
+      "status": "candidate",
+      "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsidian-community/obsidian-zotero-integration",
       "status": "candidate",
       "text": "Release Obsidian plugin"
     }
@@ -383,11 +401,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Mara-Li/obsidian-snippet-downloader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "obsidian-community/obsidian-zotero-integration"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

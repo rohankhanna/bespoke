@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LiDAR-inertial SLAM: Scan Context + LIO-SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "version 2021-06-24"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "version 2021-06-24"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "place-recognition",
+      "sense_id": "place-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "place-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "place-recognition",
+  "observation_id": "f39f1587cf8f5f9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "place-recognition",
+  "source_context_snippet": "version 2021-06-24",
+  "source_file": null,
+  "source_repo": "gisbi-kim/SC-LIO-SAM",
+  "source_repo_description": "LiDAR-inertial SLAM: Scan Context + LIO-SAM"
+}

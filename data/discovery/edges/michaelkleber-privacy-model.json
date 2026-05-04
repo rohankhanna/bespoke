@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelkleber/privacy-model",
+      "target": "bslassey/privacy-budget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelkleber/privacy-model",
+      "target": "krgovind/first-party-sets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelkleber/privacy-model",
+      "target": "wicg/conversion-measurement-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelkleber/privacy-model",
+      "target": "alxdavids/draft-privacy-pass",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "michaelkleber/privacy-model"
+}

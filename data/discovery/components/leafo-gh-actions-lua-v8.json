@@ -1,7 +1,7 @@
 {
   "component": "leafo/gh-actions-lua@v8",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/luacheck.yml",
       "source_repo": "chentoast/marks.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "alerque/fluent-lua"
     }
   ]
 }

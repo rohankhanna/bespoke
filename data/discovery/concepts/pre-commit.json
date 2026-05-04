@@ -1799,6 +1799,30 @@
       "source_repo": "seaweedfs/seaweedfs-operator",
       "status": "candidate-context",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "triton-inference-server/python_backend",
+      "status": "candidate-context",
+      "text": "Triton backend that enables pre-process, post-processing and other logic to be implemented in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/python_backend",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2707,6 +2731,18 @@
       "source_repo": "seaweedfs/seaweedfs-operator",
       "status": "candidate",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "triton-inference-server/python_backend",
+      "status": "candidate",
+      "text": "pre-commit"
     }
   ],
   "candidate_related_terms": [],
@@ -4262,11 +4298,59 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "seaweedfs/seaweedfs-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "mit-han-lab/spvnas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-inference-server/python_backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

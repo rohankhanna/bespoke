@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "sony/nnabla-nas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "maximintegratedai/ai8x-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "Publish on major commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "edge-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "efficient-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/once-for-all",
+      "target": "tinyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:47:40.910140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11656
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    },
+    {
+      "path": ".github/workflows/publish-on-main-commit.yaml",
+      "size": 902
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR 2020] Once for All: Train One Network and Specialize it for Efficient Deployment",
+    "fork": false,
+    "full_name": "mit-han-lab/once-for-all",
+    "html_url": "https://github.com/mit-han-lab/once-for-all",
+    "language": "Python",
+    "pushed_at": "2023-12-14T04:44:52Z",
+    "stargazers_count": 1947,
+    "topics": [
+      "acceleration",
+      "automl",
+      "edge-ai",
+      "efficient-model",
+      "nas",
+      "tinyml"
+    ],
+    "updated_at": "2026-04-29T01:27:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximintegratedai/ai8x-training",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/nnabla-nas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish on major commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-on-main-commit.yaml",
+      "term": "Publish on major commit"
+    },
+    {
+      "context_snippet": "```BibTex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acceleration"
+    },
+    {
+      "context_snippet": "```BibTex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "```BibTex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-ai"
+    },
+    {
+      "context_snippet": "```BibTex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-model"
+    },
+    {
+      "context_snippet": "```BibTex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyml"
+    }
+  ]
+}

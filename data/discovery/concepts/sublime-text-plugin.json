@@ -55,6 +55,18 @@
       "source_repo": "1000ch/Sublime-csso",
       "status": "candidate-context",
       "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Swift Formatter (Powered by swiftformat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "1000ch/Sublime-csso",
       "status": "candidate",
       "text": "{ \"version\": \"5.0.1\", \"private\": true, \"type\": \"module\", \"scripts\": { \"postversion\": \"git push && git push --tags\" }, \"dependencies\": { \"csso\": \"^5.0.5\", \"get-stdin\": \"^9.0.0\" }, \"engines\": { \"node\": \">=20\", \"npm\": \">=10\" } }"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "1000ch/Sublime-csso"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

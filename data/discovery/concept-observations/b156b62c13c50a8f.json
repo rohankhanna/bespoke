@@ -84,7 +84,7 @@
   "normalized_form": "diff-shades-comment",
   "observation_id": "b156b62c13c50a8f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "diff-shades comment",
   "source_context_snippet": "diff-shades comment",
   "source_file": ".github/workflows/diff_shades_comment.yml",

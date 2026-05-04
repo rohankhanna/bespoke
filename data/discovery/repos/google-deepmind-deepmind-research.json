@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/deepmind-research",
+      "target": "deepmind/dqn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/deepmind-research",
+      "target": "deepmind/dnc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/deepmind-research",
+      "target": "deepmind/lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/deepmind-research",
+      "target": "deepmind/pysc2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:46:49.718324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains implementations and illustrative code to accompany DeepMind publications",
+    "fork": false,
+    "full_name": "google-deepmind/deepmind-research",
+    "html_url": "https://github.com/google-deepmind/deepmind-research",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-21T20:58:05Z",
+    "stargazers_count": 14891,
+    "topics": [],
+    "updated_at": "2026-05-03T23:03:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dnc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dqn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/lab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/pysc2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

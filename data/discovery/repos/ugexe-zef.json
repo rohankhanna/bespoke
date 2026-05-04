@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Raku/setup-raku@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ugexe/zef",
+      "target": "ugexe/raku-distribution--common--remote",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ugexe/zef",
+      "target": "niner/inline-perl5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ugexe/zef",
+      "target": "ugexe/raku-net--http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ugexe/zef",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ugexe/zef",
+      "target": "Raku/setup-raku@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "ugexe/zef",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "meta-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "module-installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "perl6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "raku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ugexe/zef",
+      "target": "toolchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:50:57.416130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19346
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 3562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Raku Module Management",
+    "fork": false,
+    "full_name": "ugexe/zef",
+    "html_url": "https://github.com/ugexe/zef",
+    "language": "Raku",
+    "pushed_at": "2026-03-21T02:58:58Z",
+    "stargazers_count": 221,
+    "topics": [
+      "hacktoberfest",
+      "meta-search",
+      "module-installer",
+      "package-manager",
+      "perl6",
+      "raku",
+      "toolchain"
+    ],
+    "updated_at": "2026-04-11T15:43:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niner/inline-perl5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugexe/raku-distribution--common--remote",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ugexe/raku-net--http",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-search"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "module-installer"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perl6"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raku"
+    },
+    {
+      "context_snippet": "Raku Module Management",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolchain"
+    }
+  ]
+}

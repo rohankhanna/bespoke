@@ -63,13 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "red-data-tools/pycall.rb",
-      "target": "red-data-tools/pycall.rb.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "red-data-tools/pycall.rb",
@@ -168,7 +161,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:34:05.757188+00:00",
+  "fetched_at": "2026-05-04T01:50:53.251922+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -204,13 +197,7 @@
     ],
     "updated_at": "2026-04-28T05:42:48Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "red-data-tools/pycall.rb.",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Windows",

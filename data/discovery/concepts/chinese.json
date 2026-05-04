@@ -475,6 +475,30 @@
       "source_repo": "SUSYUSTC/MathTranslate",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TigerResearch/TigerBot",
+      "status": "candidate-context",
+      "text": "TigerBot: A multi-language multi-task LLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigerResearch/TigerBot",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +735,18 @@
       "source_repo": "SUSYUSTC/MathTranslate",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TigerResearch/TigerBot",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1027,11 +1063,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "SUSYUSTC/MathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TigerResearch/TigerBot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

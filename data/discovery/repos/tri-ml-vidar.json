@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TRI-ML/vidar",
+      "target": "tri-ml/camviz",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:45:49.848050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "TRI-ML/vidar",
+    "html_url": "https://github.com/TRI-ML/vidar",
+    "language": "Python",
+    "pushed_at": "2025-06-07T16:13:14Z",
+    "stargazers_count": 641,
+    "topics": [],
+    "updated_at": "2026-04-27T18:39:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/camviz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

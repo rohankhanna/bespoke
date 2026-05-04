@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
+      "target": "rudrabha/wav2lip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
       "target": "feiiyin/styleheat",
       "target_type": "repository"
     },
@@ -12,7 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
-      "target": "doubiiu/codetalker",
+      "target": "vinthony/video-retalking",
       "target_type": "repository"
     },
     {
@@ -20,13 +27,6 @@
       "source_file": "README.md",
       "source_repo": "OpenTalker/SadTalker",
       "target": "carlyx/dpe",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenTalker/SadTalker",
-      "target": "feiiyin/spi",
       "target_type": "repository"
     },
     {
@@ -93,7 +93,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:56:11.730900+00:00",
+  "fetched_at": "2026-05-04T01:47:24.968592+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,7 +114,7 @@
     "html_url": "https://github.com/OpenTalker/SadTalker",
     "language": "Python",
     "pushed_at": "2024-06-26T12:51:53Z",
-    "stargazers_count": 13773,
+    "stargazers_count": 13774,
     "topics": [
       "audio-driven-talking-face",
       "cvpr2023",
@@ -126,7 +126,7 @@
       "talking-head",
       "talking-heads"
     ],
-    "updated_at": "2026-05-02T12:46:30Z"
+    "updated_at": "2026-05-03T18:13:39Z"
   },
   "repo_links": [
     {
@@ -136,17 +136,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "doubiiu/codetalker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "feiiyin/spi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "feiiyin/styleheat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rudrabha/wav2lip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinthony/video-retalking",
       "source_file": "README.md"
     }
   ],

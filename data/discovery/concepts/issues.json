@@ -328,6 +328,42 @@
       "source_repo": "actions-cool/labels-helper",
       "status": "candidate-context",
       "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Managing Pull Requests and Issues For GitHub & GitHub Enterprise"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate-context",
+      "text": "Trailer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd6A curated list of Awesome LLM/VLM Inference Papers with codes: WINT8/4, FlashAttention, PagedAttention, MLA, Parallelism, etc. \ud83c\udf89\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "status": "candidate-context",
+      "text": "issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "status": "candidate-context",
+      "text": "\ud83d\udcda200+ Tensor/CUDA Cores Kernels, \u26a1\ufe0fflash-attn-mma, \u26a1\ufe0fhgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 \ud83c\udf89\ud83c\udf89)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "status": "candidate-context",
+      "text": "issues"
     }
   ],
   "candidate_glosses": [
@@ -492,6 +528,24 @@
       "source_repo": "actions-cool/labels-helper",
       "status": "candidate",
       "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/trailer",
+      "status": "candidate",
+      "text": "Trailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefTruth/Awesome-LLM-Inference",
+      "status": "candidate",
+      "text": "issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "status": "candidate",
+      "text": "issues"
     }
   ],
   "candidate_related_terms": [
@@ -847,11 +901,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/issues.yml",
       "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/trailer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/Awesome-LLM-Inference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/CUDA-Learn-Notes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

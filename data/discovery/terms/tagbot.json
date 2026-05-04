@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -906,6 +906,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaAnimators/Javis.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/FluxTraining.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Tokazama/StaticRanges.jl"
     }
   ],
   "term": "TagBot"

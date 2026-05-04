@@ -1507,6 +1507,30 @@
       "source_repo": "google/deepvariant",
       "status": "candidate-context",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "Face recognition using Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate-context",
+      "text": "MTCNN face detection implementation for TensorFlow, as a PIP package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
     }
   ],
   "candidate_glosses": [
@@ -2259,6 +2283,18 @@
       "source_repo": "google/deepvariant",
       "status": "candidate",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipazc/mtcnn",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/mtcnn.svg)](https://badge.fury.io/py/mtcnn)"
     }
   ],
   "candidate_related_terms": [
@@ -3646,11 +3682,77 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google/deepvariant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "malaysia-ai/malaya"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ipazc/mtcnn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v8.1.0",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-registry.yml",
       "source_repo": "meridianlabs-ai/inspect_harbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
     }
   ]
 }

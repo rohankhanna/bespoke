@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "thresholding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate-context",
+      "text": "Outlier Detection Thresholding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate-context",
+      "text": "Python Outlier Detection Thresholding (PyThresh) V1"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate",
+      "text": "Python Outlier Detection Thresholding (PyThresh) V1"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940200,
+      "status": "candidate",
+      "text": "doorsill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940119,
+      "status": "candidate",
+      "text": "doorway"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939979,
+      "status": "candidate",
+      "text": "doorstep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938636,
+      "status": "candidate",
+      "text": "door"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922504,
+      "status": "candidate",
+      "text": "brink"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "thresholding",
+  "concept_id": "thresholding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thresholding",
+      "sense_id": "thresholding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

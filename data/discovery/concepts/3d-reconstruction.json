@@ -505,6 +505,30 @@
       "source_repo": "amosgropp/IGR",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "status": "candidate-context",
+      "text": ":dress: [npj AI] 3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective:dress: Single-View 3D Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -759,6 +783,18 @@
       "source_repo": "amosgropp/IGR",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/3D-Magic-Mirror",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -1030,11 +1066,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "amosgropp/IGR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/3D-Magic-Mirror"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

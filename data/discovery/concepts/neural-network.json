@@ -895,6 +895,18 @@
       "source_repo": "Zielon/MICA",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "Transfer Learning library for Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_glosses": [
@@ -1341,6 +1353,12 @@
       "source_repo": "Zielon/MICA",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1984,11 +2002,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Zielon/MICA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "amzn/xfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

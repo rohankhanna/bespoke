@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "target": "idea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "target": "idea-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "target": "yapi-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:58:23.246283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "yapi idea \u4e0a\u4f20\u63d2\u4ef6,\u5feb\u901f\u751f\u6210\u6587\u6863",
+    "fork": false,
+    "full_name": "diwand/YapiIdeaUploadPlugin",
+    "html_url": "https://github.com/diwand/YapiIdeaUploadPlugin",
+    "language": "Java",
+    "pushed_at": "2023-04-16T10:01:07Z",
+    "stargazers_count": 388,
+    "topics": [
+      "document",
+      "idea",
+      "idea-plugin",
+      "java",
+      "yapi-plugin"
+    ],
+    "updated_at": "2026-04-24T06:30:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document"
+    },
+    {
+      "context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idea"
+    },
+    {
+      "context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idea-plugin"
+    },
+    {
+      "context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yapi-plugin"
+    }
+  ]
+}

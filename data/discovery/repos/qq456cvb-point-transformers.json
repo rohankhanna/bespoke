@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:41:16.124098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2157
+    },
+    {
+      "path": "requirements.txt",
+      "size": 43
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Point Transformers",
+    "fork": false,
+    "full_name": "qq456cvb/Point-Transformers",
+    "html_url": "https://github.com/qq456cvb/Point-Transformers",
+    "language": "Python",
+    "pushed_at": "2024-03-13T14:30:55Z",
+    "stargazers_count": 729,
+    "topics": [],
+    "updated_at": "2026-05-01T18:11:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

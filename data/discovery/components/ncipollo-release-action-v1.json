@@ -1,7 +1,7 @@
 {
   "component": "ncipollo/release-action@v1",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -647,6 +647,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "ietf-tools/xml2rfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crosstype/node-html-markdown"
     }
   ]
 }

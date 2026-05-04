@@ -1,7 +1,7 @@
 {
   "component": "ad-m/github-push-action@master",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -387,6 +387,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "ACEnglish/truvari"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "calda/SwiftFormat-nightly"
     }
   ]
 }

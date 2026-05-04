@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Auto-close LLM PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Auto-close LLM PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "Auto-close LLM PRs"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-close LLM PRs",
+  "concept_id": "auto-close-llm-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/auto-close-llm-pr.yml",
+      "source_repo": "scrapy/scrapy"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-close LLM PRs",
+      "sense_id": "auto-close-llm-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

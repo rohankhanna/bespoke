@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml"
+    },
+    {
+      "component": "rlespinasse/github-slug-action@v3.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "rlespinasse/github-slug-action@v3.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "JamesIves/github-pages-deploy-action@4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "gazebo-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "gazebo-simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/gazebo-yarp-plugins",
+      "target": "yarp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:53:36.830235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/conda-ci.yml",
+      "size": 2612
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugins to interface Gazebo with YARP.",
+    "fork": false,
+    "full_name": "robotology/gazebo-yarp-plugins",
+    "html_url": "https://github.com/robotology/gazebo-yarp-plugins",
+    "language": "C++",
+    "pushed_at": "2025-08-21T11:50:52Z",
+    "stargazers_count": 34,
+    "topics": [
+      "gazebo",
+      "gazebo-plugins",
+      "gazebo-simulator",
+      "robotics-simulation",
+      "simulation",
+      "yarp"
+    ],
+    "updated_at": "2025-11-04T14:02:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-ci.yml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo-plugins"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo-simulator"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "gazebo-yarp-plugins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarp"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidsandberg/facenet",
+      "target": "cmusatyalab/openface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidsandberg/facenet",
+      "target": "kpzhang93/mtcnn_face_detection_alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "facenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "mtcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:47:30.667657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5784
+    },
+    {
+      "path": "requirements.txt",
+      "size": 88
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Face recognition using Tensorflow",
+    "fork": false,
+    "full_name": "davidsandberg/facenet",
+    "html_url": "https://github.com/davidsandberg/facenet",
+    "language": "Python",
+    "pushed_at": "2023-07-24T12:43:21Z",
+    "stargazers_count": 14319,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "face-detection",
+      "face-recognition",
+      "facenet",
+      "mtcnn",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-01T21:35:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmusatyalab/openface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kpzhang93/mtcnn_face_detection_alignment",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "facenet"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mtcnn"
+    },
+    {
+      "context_snippet": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

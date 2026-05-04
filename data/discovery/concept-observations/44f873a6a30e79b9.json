@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Declarative state and side effects management for popular JavaScript frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39771613,
+      "status": "candidate",
+      "text": "intellectual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029471,
+      "status": "candidate",
+      "text": "cerebellar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029437,
+      "status": "candidate",
+      "text": "brain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029372,
+      "status": "candidate",
+      "text": "cerebrovascular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29856558,
+      "status": "candidate",
+      "text": "stroke"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cerebral",
+      "sense_id": "cerebral#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "intellectual"
+    }
+  ],
+  "concept_id": "cerebral",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cerebral",
+  "observation_id": "44f873a6a30e79b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "cerebral",
+  "source_context_snippet": "A declarative state and side effects management solution for popular JavaScript frameworks",
+  "source_file": null,
+  "source_repo": "cerebral/cerebral",
+  "source_repo_description": "Declarative state and side effects management for popular JavaScript frameworks"
+}

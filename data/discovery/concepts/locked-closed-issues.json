@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "locked-closed-issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "Industry standard API mocking for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "locked-closed-issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate",
+      "text": "locked-closed-issues"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "locked-closed-issues",
+  "concept_id": "locked-closed-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "mswjs/msw"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "locked-closed-issues",
+      "sense_id": "locked-closed-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

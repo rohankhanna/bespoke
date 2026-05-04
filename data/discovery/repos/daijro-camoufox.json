@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daijro/camoufox",
+      "target": "cloverlabsai/camoufox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daijro/camoufox",
+      "target": "daijro/browserforge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daijro/camoufox",
+      "target": "ghostery/user-agent-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daijro/camoufox",
+      "target": "abrahamjuliot/creepjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "AdityaGarg8/remove-unwanted-software@v4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "daijro/camoufox",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "antidetect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "antidetect-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "fingerprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "scraping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daijro/camoufox",
+      "target": "webscraping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:04:32.809591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30188
+    },
+    {
+      "path": "Dockerfile",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd8a Anti-detect browser",
+    "fork": false,
+    "full_name": "daijro/camoufox",
+    "html_url": "https://github.com/daijro/camoufox",
+    "language": "C++",
+    "pushed_at": "2026-04-29T19:51:44Z",
+    "stargazers_count": 7942,
+    "topics": [
+      "antidetect",
+      "antidetect-browser",
+      "fingerprint",
+      "firefox",
+      "networking",
+      "playwright",
+      "scraping",
+      "webscraping"
+    ],
+    "updated_at": "2026-05-03T23:54:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abrahamjuliot/creepjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloverlabsai/camoufox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daijro/browserforge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghostery/user-agent-desktop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antidetect"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antidetect-browser"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fingerprint"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playwright"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraping"
+    },
+    {
+      "context_snippet": "<img src=\"https://camoufox.com/static/banner.svg\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webscraping"
+    }
+  ]
+}

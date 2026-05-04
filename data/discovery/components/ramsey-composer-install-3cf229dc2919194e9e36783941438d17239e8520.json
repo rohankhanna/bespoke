@@ -1,7 +1,7 @@
 {
   "component": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-identifier-extractor.yml",
       "source_repo": "phpstan/phpstan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src"
     }
   ]
 }

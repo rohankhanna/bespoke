@@ -187,6 +187,18 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate-context",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "Transfer Learning library for Deep Neural Networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate-context",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/xfer",
+      "status": "candidate",
+      "text": "![Xfer](xfer-ml/docs/image/logo_330x200.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -430,11 +448,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "amzn/xfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

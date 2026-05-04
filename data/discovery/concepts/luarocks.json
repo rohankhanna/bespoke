@@ -118,6 +118,18 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate-context",
       "text": "Luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "Lua implementation of Project Fluent https://projectfluent.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate",
       "text": "Luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate",
+      "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -391,11 +409,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "alerque/fluent-lua"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:41:16.792801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch implementation of PCT: Point Cloud Transformer",
+    "fork": false,
+    "full_name": "Strawberry-Eat-Mango/PCT_Pytorch",
+    "html_url": "https://github.com/Strawberry-Eat-Mango/PCT_Pytorch",
+    "language": "Python",
+    "pushed_at": "2021-12-13T07:47:46Z",
+    "stargazers_count": 396,
+    "topics": [],
+    "updated_at": "2026-05-01T06:04:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

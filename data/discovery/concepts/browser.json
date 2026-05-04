@@ -742,6 +742,18 @@
       "source_repo": "filerjs/filer",
       "status": "candidate-context",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mixmark-io/turndown",
+      "status": "candidate-context",
+      "text": "\ud83d\udecf An HTML to Markdown converter written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mixmark-io/turndown",
+      "status": "candidate-context",
+      "text": "Convert HTML into Markdown with JavaScript."
     }
   ],
   "candidate_glosses": [
@@ -1110,6 +1122,12 @@
       "source_repo": "filerjs/filer",
       "status": "candidate",
       "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mixmark-io/turndown",
+      "status": "candidate",
+      "text": "Convert HTML into Markdown with JavaScript."
     }
   ],
   "candidate_related_terms": [
@@ -1989,11 +2007,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

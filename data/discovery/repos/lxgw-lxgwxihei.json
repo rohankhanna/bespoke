@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwXiHei",
+      "target": "lxgw/b5xizhi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwXiHei",
+      "target": "hfhchan/hkcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwXiHei",
+      "target": "guiwonder/huayingmincho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwXiHei",
+      "target": "lxgw/lxgwzhenkai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwXiHei",
+      "target": "ipa-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:57.206071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Chinese sans-serif font derived from IPAex Gothic. \u4e00\u6b3e\u884d\u751f\u4e8e\u300cIPAex\u30b4\u30b7\u30c3\u30af\u300d\u7684\u4e2d\u6587\u9ed1\u4f53\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwXiHei",
+    "html_url": "https://github.com/lxgw/LxgwXiHei",
+    "language": null,
+    "pushed_at": "2026-05-03T17:16:25Z",
+    "stargazers_count": 267,
+    "topics": [
+      "ipa-font",
+      "ttf"
+    ],
+    "updated_at": "2026-05-03T16:43:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guiwonder/huayingmincho",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hfhchan/hkcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/b5xizhi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwzhenkai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*\u539f\u540d\uff1aLXGW (Trad) Clear Gothic / \u971e\u9da9\uff08\u50b3\u627f\uff09\u6670\u9ed1*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipa-font"
+    }
+  ]
+}

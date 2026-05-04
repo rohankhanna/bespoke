@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "swiftformat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned SwiftFormat packages for Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "Bazel rules that format Swift source files using nicklockwood/SwiftFormat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swiftformat",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swiftformat/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "swiftformat",
+  "concept_id": "swiftformat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/rules_swiftformat"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swiftformat",
+      "sense_id": "swiftformat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

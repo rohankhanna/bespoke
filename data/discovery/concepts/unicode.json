@@ -355,6 +355,18 @@
       "source_repo": "satbyy/go-noto-universal",
       "status": "candidate-context",
       "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nushu-script/Nyushu",
+      "status": "candidate-context",
+      "text": "\ud82c\udd81\ud82c\ude2c\ud82c\ude24\ud82c\uded2 | \u5973\u4e66\u5b57\u4f53 | N\u00fcshu fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushu-script/Nyushu",
+      "status": "candidate-context",
+      "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "satbyy/go-noto-universal",
       "status": "candidate",
       "text": "Noto Fonts go universal! Did you ever want \"one font for all languages\"? Download pan-Unicode, [Noto"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nushu-script/Nyushu",
+      "status": "candidate",
+      "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
     }
   ],
   "candidate_related_terms": [
@@ -952,11 +970,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "nushu-script/Nyushu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

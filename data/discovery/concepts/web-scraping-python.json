@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "web-scraping-python"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "Scrapy, a fast high-level web crawling & scraping framework for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate-context",
+      "text": "|logo|"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy/scrapy",
+      "status": "candidate",
+      "text": "|logo|"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "web-scraping-python",
+  "concept_id": "web-scraping-python",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "scrapy/scrapy"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "web-scraping-python",
+      "sense_id": "web-scraping-python#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

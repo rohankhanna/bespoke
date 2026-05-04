@@ -677,6 +677,18 @@
       "source_repo": "pointfreeco/swift-parsing",
       "status": "candidate-context",
       "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pointfreeco/swift-url-routing",
+      "status": "candidate-context",
+      "text": "A bidirectional router with more type safety and less fuss."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-url-routing",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -1013,6 +1025,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pointfreeco/swift-parsing",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pointfreeco/swift-url-routing",
       "status": "candidate",
       "text": "Format"
     }
@@ -1819,11 +1837,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "pointfreeco/swift-parsing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pointfreeco/swift-url-routing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "remix-run/react-router"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

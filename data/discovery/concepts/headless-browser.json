@@ -19,6 +19,18 @@
       "source_repo": "ariya/phantomjs",
       "status": "candidate-context",
       "text": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate-context",
+      "text": "\ud83c\udfad Playwright integration for Scrapy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ariya/phantomjs",
       "status": "candidate",
       "text": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scrapy-plugins/scrapy-playwright",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/scrapy-playwright.svg)](https://pypi.python.org/pypi/scrapy-playwright)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ariya/phantomjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "scrapy-plugins/scrapy-playwright"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

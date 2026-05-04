@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfung/hamlit-rails",
+      "target": "indirect/haml-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfung/hamlit-rails",
+      "target": "hamlit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfung/hamlit-rails",
+      "target": "hamlit-rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:55:32.793346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hamlit (haml) generators for Rails",
+    "fork": false,
+    "full_name": "mfung/hamlit-rails",
+    "html_url": "https://github.com/mfung/hamlit-rails",
+    "language": "Ruby",
+    "pushed_at": "2022-03-21T16:03:21Z",
+    "stargazers_count": 56,
+    "topics": [
+      "hamlit",
+      "hamlit-rails"
+    ],
+    "updated_at": "2023-06-17T14:06:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "indirect/haml-rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Hamlit-rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hamlit"
+    },
+    {
+      "context_snippet": "Hamlit-rails",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hamlit-rails"
+    }
+  ]
+}

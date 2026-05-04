@@ -61,6 +61,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
+      "target": "open-sciencelab/graphgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternScience/GraphGen",
       "target": "hiyouga/llama-factory",
       "target_type": "repository"
     },
@@ -68,21 +75,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "kuzudb/kuzu",
+      "target": "open-sciencelab/seedbench",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "idavidrein/gpqa",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternScience/GraphGen",
-      "target": "jind11/medqa",
+      "target": "open-compass/lawbench",
       "target_type": "repository"
     },
     {
@@ -282,7 +282,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:36:19.686866+00:00",
+  "fetched_at": "2026-05-04T00:49:07.228681+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -364,17 +364,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "idavidrein/gpqa",
+      "full_name": "open-compass/lawbench",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jind11/medqa",
+      "full_name": "open-sciencelab/graphgen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kuzudb/kuzu",
+      "full_name": "open-sciencelab/seedbench",
       "source_file": "README.md"
     }
   ],

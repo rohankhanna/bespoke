@@ -82,6 +82,30 @@
       "source_repo": "bootmortis/ito-gov-mirror",
       "status": "candidate-context",
       "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate-context",
+      "text": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate-context",
+      "text": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fjc0k/docker-YApi",
+      "status": "candidate-context",
+      "text": "\u63a5\u53e3\u7ba1\u7406\u5e73\u53f0 YApi \u7684 Docker \u955c\u50cf\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/docker-YApi",
+      "status": "candidate-context",
+      "text": "Mirror"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "bootmortis/ito-gov-mirror",
       "status": "candidate",
       "text": "This repository is a mirror of `eservices.ito.gov.ir`, which is a publicly available website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "status": "candidate",
+      "text": "\u6e90\u4ed3\u5e93 [Github](https://github.com/DaoCloud/public-image-mirror)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fjc0k/docker-YApi",
+      "status": "candidate",
+      "text": "Mirror"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +241,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "bootmortis/ito-gov-mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "DaoCloud/public-image-mirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "fjc0k/docker-YApi"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

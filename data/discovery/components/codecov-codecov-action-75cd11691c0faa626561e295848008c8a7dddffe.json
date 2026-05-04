@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

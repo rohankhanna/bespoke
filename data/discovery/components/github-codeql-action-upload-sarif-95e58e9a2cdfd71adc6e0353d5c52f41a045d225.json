@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -312,6 +312,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "nodejs/llhttp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "gofrs/flock"
     }
   ]
 }

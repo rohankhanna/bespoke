@@ -13,12 +13,30 @@
       "source_repo": "af-74413592/DeepWerewolf",
       "status": "candidate-context",
       "text": "GPU Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "An implementation of chunked, compressed, N-dimensional arrays for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
+      "status": "candidate-context",
+      "text": "GPU Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "af-74413592/DeepWerewolf",
+      "status": "candidate",
+      "text": "GPU Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarr-developers/zarr-python",
       "status": "candidate",
       "text": "GPU Test"
     }
@@ -70,11 +88,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "af-74413592/DeepWerewolf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/gpu_test.yml",
+      "source_repo": "zarr-developers/zarr-python"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

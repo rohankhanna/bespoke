@@ -1,0 +1,106 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/incite",
+      "target": "cloudwatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/incite",
+      "target": "cloudwatch-logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/incite",
+      "target": "cloudwatchlogs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/incite",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gogama/incite",
+      "target": "insights",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:05:27.512056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5624
+    },
+    {
+      "path": "go.mod",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hassle-free queries on Amazon CloudWatch Logs Insights in Go",
+    "fork": false,
+    "full_name": "gogama/incite",
+    "html_url": "https://github.com/gogama/incite",
+    "language": "Go",
+    "pushed_at": "2025-07-18T15:25:45Z",
+    "stargazers_count": 64,
+    "topics": [
+      "aws",
+      "cloudwatch",
+      "cloudwatch-logs",
+      "cloudwatchlogs",
+      "go",
+      "golang",
+      "insights"
+    ],
+    "updated_at": "2026-04-08T02:19:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudwatch"
+    },
+    {
+      "context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudwatch-logs"
+    },
+    {
+      "context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudwatchlogs"
+    },
+    {
+      "context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "A native Go library to streamline and supercharge your interactions with the AWS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "insights"
+    }
+  ]
+}

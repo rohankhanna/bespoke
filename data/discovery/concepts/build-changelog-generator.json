@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Changelog Generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "PHPStan's source code. This is where development happens. Check https://github.com/phpstan/phpstan for the distribution repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate-context",
+      "text": "\"Build Changelog Generator\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phpstan/phpstan-src",
+      "status": "candidate",
+      "text": "\"Build Changelog Generator\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9734,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9734,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9734,
+      "status": "candidate",
+      "text": "compiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9734,
+      "status": "candidate",
+      "text": "constructive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9734,
+      "status": "candidate",
+      "text": "contractor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Changelog Generator",
+  "concept_id": "build-changelog-generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Changelog Generator",
+      "sense_id": "build-changelog-generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

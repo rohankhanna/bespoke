@@ -84,7 +84,7 @@
   "normalized_form": "rebuild-documentation",
   "observation_id": "0feff1591e872322",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Rebuild documentation",
   "source_context_snippet": "Rebuild documentation",
   "source_file": ".github/workflows/build-docs.yml",

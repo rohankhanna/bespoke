@@ -457,6 +457,18 @@
       "source_repo": "phlegx/money-openexchangerates-bank",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crmne/ruby_llm",
+      "status": "candidate-context",
+      "text": "One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity, Mistral, xAI, GPUStack & OpenAI compatible APIs. Agents, Chat, Vision, Audio, PDF, Images, Embeddings, Tools, Streaming & Rails integration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crmne/ruby_llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -687,6 +699,12 @@
       "source_repo": "phlegx/money-openexchangerates-bank",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crmne/ruby_llm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1021,11 +1039,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "crmne/ruby_llm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

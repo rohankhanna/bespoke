@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:49:17.920018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java Native Access (JNA) for llama.cpp",
+    "fork": false,
+    "full_name": "QuasarByte/llama-cpp-jna",
+    "html_url": "https://github.com/QuasarByte/llama-cpp-jna",
+    "language": "Java",
+    "pushed_at": "2025-09-20T21:53:10Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-24T02:17:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:45:37.493171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "GangZhang842/CPGNet",
+    "html_url": "https://github.com/GangZhang842/CPGNet",
+    "language": "Python",
+    "pushed_at": "2023-07-25T06:26:54Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-01-27T03:34:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

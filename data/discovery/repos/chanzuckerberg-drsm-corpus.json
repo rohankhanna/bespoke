@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:49:16.705925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An annotated literature corpus for NLP studies of 'Disease Research State' based on different categories of research. ",
+    "fork": false,
+    "full_name": "chanzuckerberg/DRSM-corpus",
+    "html_url": "https://github.com/chanzuckerberg/DRSM-corpus",
+    "language": null,
+    "pushed_at": "2023-08-18T23:26:30Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-05-16T12:26:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

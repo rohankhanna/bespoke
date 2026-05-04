@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nelson"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nelson-lang/nelson-minimalist-core",
+      "status": "candidate-context",
+      "text": "Nelson's minimalist core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson-minimalist-core",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nelson-lang/nelson-minimalist-core",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-LGPL3.0-blue.svg)](https://github.com/nelson-lang/nelson-minimalist-core/blob/master/lgpl-3.0.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19779612,
+      "status": "candidate",
+      "text": "rapids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18857229,
+      "status": "candidate",
+      "text": "saskatchewan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18586875,
+      "status": "candidate",
+      "text": "abbotsford"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18579476,
+      "status": "candidate",
+      "text": "dunbar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17662160,
+      "status": "candidate",
+      "text": "nielsen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nelson",
+  "concept_id": "nelson",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "nelson-lang/nelson-minimalist-core"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nelson",
+      "sense_id": "nelson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

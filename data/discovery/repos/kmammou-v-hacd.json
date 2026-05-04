@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:54:15.430666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatically exported from code.google.com/p/v-hacd",
+    "fork": false,
+    "full_name": "kmammou/v-hacd",
+    "html_url": "https://github.com/kmammou/v-hacd",
+    "language": "C++",
+    "pushed_at": "2025-09-18T17:37:25Z",
+    "stargazers_count": 1620,
+    "topics": [],
+    "updated_at": "2026-05-01T07:15:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

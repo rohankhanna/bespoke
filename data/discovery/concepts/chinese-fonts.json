@@ -19,6 +19,18 @@
       "source_repo": "GuiWonder/MoonStarsKai",
       "status": "candidate-context",
       "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate-context",
+      "text": "\u514d\u8cbb\u958b\u6e90\u7684 11\u00d711 \u4e2d\u6587\u9ede\u9663\u9ad4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate-context",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "GuiWonder/MoonStarsKai",
       "status": "candidate",
       "text": "**\u7e41\u9ad4\u4e2d\u6587** [\u7b80\u4f53\u4e2d\u6587](README-SC.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ACh-K/Cubic-11",
+      "status": "candidate",
+      "text": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "GuiWonder/MoonStarsKai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ACh-K/Cubic-11"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

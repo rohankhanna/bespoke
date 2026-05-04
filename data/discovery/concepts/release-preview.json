@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Preview"
+    "Release Preview",
+    "release-preview"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
       "status": "candidate-context",
       "text": "Release Preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "Industry standard API mocking for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate-context",
+      "text": "release-preview"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO",
       "status": "candidate",
       "text": "Release Preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mswjs/msw",
+      "status": "candidate",
+      "text": "release-preview"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/release-preview.yml",
       "source_repo": "AcademySoftwareFoundation/OpenTimelineIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "mswjs/msw"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

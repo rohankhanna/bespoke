@@ -2596,6 +2596,18 @@
       "source_repo": "shadowsocks/libevent",
       "status": "candidate-context",
       "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "A language-agnostic \"shebang interpreter\" that enables you to write scripts in compiled languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
     }
   ],
   "candidate_glosses": [
@@ -3906,6 +3918,12 @@
       "source_repo": "shadowsocks/libevent",
       "status": "candidate",
       "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
     }
   ],
   "candidate_related_terms": [
@@ -6091,11 +6109,59 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "shadowsocks/libevent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookarchive/fbzmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "igor-petruk/scriptisto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

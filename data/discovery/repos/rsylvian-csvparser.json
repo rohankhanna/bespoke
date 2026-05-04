@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsylvian/CSVparser",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsylvian/CSVparser",
+      "target": "parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:16.460247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ parser for CSV file format",
+    "fork": false,
+    "full_name": "rsylvian/CSVparser",
+    "html_url": "https://github.com/rsylvian/CSVparser",
+    "language": "C++",
+    "pushed_at": "2022-03-06T21:49:24Z",
+    "stargazers_count": 74,
+    "topics": [
+      "c-plus-plus",
+      "csv",
+      "parser"
+    ],
+    "updated_at": "2025-12-01T11:36:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CSVparser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "CSVparser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhiSong",
+      "target": "lxgw/b5xizhi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhiSong",
+      "target": "hfhchan/hkcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhiSong",
+      "target": "guiwonder/huayingmincho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwZhiSong",
+      "target": "lxgw/yozai-font",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:03.015372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Chinese sans-serif font derived from IPAex Mincho and IPAmj Mincho. \u300cIPAex\u660e\u671d\u300d\u300cIPAmj\u660e\u671d\u300d\u884d\u751f\u4e2d\u6587\u5b57\u578b\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwZhiSong",
+    "html_url": "https://github.com/lxgw/LxgwZhiSong",
+    "language": null,
+    "pushed_at": "2026-05-03T17:17:15Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-05-03T16:43:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guiwonder/huayingmincho",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hfhchan/hkcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/b5xizhi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/yozai-font",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "mamba-org/setup-micromamba@main",
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_galata_references.yml",
       "source_repo": "jupyter-widgets/ipyleaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pages.yml",
+      "source_repo": "compiler-research/CppInterOp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "compiler-research/CppInterOp"
     }
   ]
 }

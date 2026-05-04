@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mdigger/htmlx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "mdigger/htmlx",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdigger/htmlx",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdigger/htmlx",
+      "target": "golang-html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:58:36.773772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 585
+    },
+    {
+      "path": "go.mod",
+      "size": 182
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "htmlx is a library which provides a set of extensions on go's golang.org/x/net/html library.",
+    "fork": false,
+    "full_name": "mdigger/htmlx",
+    "html_url": "https://github.com/mdigger/htmlx",
+    "language": "Go",
+    "pushed_at": "2025-07-24T12:11:28Z",
+    "stargazers_count": 1,
+    "topics": [
+      "golang",
+      "golang-html"
+    ],
+    "updated_at": "2025-07-24T12:11:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "htmlx is a library which provides a set of extensions on go's `golang.org/x/net/html` library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "htmlx is a library which provides a set of extensions on go's `golang.org/x/net/html` library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-html"
+    }
+  ]
+}

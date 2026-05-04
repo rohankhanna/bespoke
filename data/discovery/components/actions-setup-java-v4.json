@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2257,6 +2257,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trivy.yml",
       "source_repo": "broadinstitute/cromwell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_checks.yml",
+      "source_repo": "nrwl/nx-console"
     }
   ]
 }

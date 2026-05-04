@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build CI"
+    "Build CI",
+    "Build (CI)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ChadKillingsworth/closure-compiler-npm",
       "status": "candidate-context",
       "text": "Build CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crosstype/node-html-markdown",
+      "status": "candidate-context",
+      "text": "Fast HTML to markdown converter for NodeJS or the browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crosstype/node-html-markdown",
+      "status": "candidate-context",
+      "text": "Build (CI)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ChadKillingsworth/closure-compiler-npm",
       "status": "candidate",
       "text": "Build CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crosstype/node-html-markdown",
+      "status": "candidate",
+      "text": "Build (CI)"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 11304,
       "status": "candidate",
       "text": "subscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ChadKillingsworth/closure-compiler-npm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crosstype/node-html-markdown"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

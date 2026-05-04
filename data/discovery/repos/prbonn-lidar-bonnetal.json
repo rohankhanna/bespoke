@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "ptcl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "target": "semantic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:40:07.533057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6438
+    },
+    {
+      "path": "requirements.txt",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving",
+    "fork": false,
+    "full_name": "PRBonn/lidar-bonnetal",
+    "html_url": "https://github.com/PRBonn/lidar-bonnetal",
+    "language": "Python",
+    "pushed_at": "2024-08-05T16:44:00Z",
+    "stargazers_count": 1035,
+    "topics": [
+      "dataset",
+      "deep-learning",
+      "lidar",
+      "ptcl",
+      "segmentation",
+      "semantic"
+    ],
+    "updated_at": "2026-04-20T06:05:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ptcl"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic"
+    }
+  ]
+}

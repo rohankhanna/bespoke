@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:42:04.010894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "auriml/Rx-thorax-automatic-captioning",
+    "html_url": "https://github.com/auriml/Rx-thorax-automatic-captioning",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-21T15:59:08Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2025-10-16T01:43:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

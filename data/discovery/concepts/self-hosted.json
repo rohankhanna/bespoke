@@ -487,6 +487,18 @@
       "source_repo": "go-gitea/gitea",
       "status": "candidate-context",
       "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "go-gitea/gitea",
       "status": "candidate",
       "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "louislam/dockge",
+      "status": "candidate",
+      "text": "<div align=\"center\" width=\"100%\">"
     }
   ],
   "candidate_related_terms": [
@@ -1184,11 +1202,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "louislam/dockge"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

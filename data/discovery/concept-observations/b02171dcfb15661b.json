@@ -84,7 +84,7 @@
   "normalized_form": "publish-kool",
   "observation_id": "b02171dcfb15661b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Publish kool",
   "source_context_snippet": "Publish kool",
   "source_file": ".github/workflows/publish.yml",

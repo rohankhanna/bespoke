@@ -48,7 +48,7 @@
   "normalized_form": "nuscenes",
   "observation_id": "1b1537a4de48605c",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "nuscenes",
   "source_context_snippet": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection.",
   "source_file": null,

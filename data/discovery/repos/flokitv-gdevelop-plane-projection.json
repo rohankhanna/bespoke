@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:54:22.516018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "2D plane projection built over PixiJS and support for GDevelop Engine",
+    "fork": false,
+    "full_name": "FlokiTV/GDevelop-Plane-Projection",
+    "html_url": "https://github.com/FlokiTV/GDevelop-Plane-Projection",
+    "language": null,
+    "pushed_at": "2022-12-03T22:54:12Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-06-30T08:09:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

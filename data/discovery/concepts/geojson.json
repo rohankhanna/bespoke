@@ -79,6 +79,18 @@
       "source_repo": "alltheplaces/alltheplaces",
       "status": "candidate-context",
       "text": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate-context",
+      "text": "Build vector tilesets from large collections of GeoJSON features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate-context",
+      "text": "tippecanoe"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "alltheplaces/alltheplaces",
       "status": "candidate",
       "text": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate",
+      "text": "tippecanoe"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "alltheplaces/alltheplaces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/tippecanoe"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

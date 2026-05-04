@@ -151,6 +151,18 @@
       "source_repo": "Peterande/D-FINE",
       "status": "candidate-context",
       "text": "<!--# [D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement](https://arxiv.org/abs/xxxxxx) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MCG-NJU/AdaMixer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] AdaMixer: A Fast-Converging Query-Based Object Detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NJU/AdaMixer",
+      "status": "candidate-context",
+      "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "Peterande/D-FINE",
       "status": "candidate",
       "text": "<!--# [D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement](https://arxiv.org/abs/xxxxxx) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MCG-NJU/AdaMixer",
+      "status": "candidate",
+      "text": "> [**AdaMixer: A Fast-Converging Query-Based Object Detector**](https://arxiv.org/abs/2203.16507)<br>"
     }
   ],
   "candidate_related_terms": [
@@ -487,11 +505,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Intellindust-AI-Lab/DEIM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MCG-NJU/AdaMixer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Intellindust-AI-Lab/DEIM"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

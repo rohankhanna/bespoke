@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Verify PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Verify PR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "fint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "plot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify PR",
+      "sense_id": "verify-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verify-pr",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify-pr",
+  "observation_id": "9bc2d7b9e5d7eece",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "Verify PR",
+  "source_context_snippet": "Verify PR",
+  "source_file": ".github/workflows/verify-pr.yml",
+  "source_repo": "DaoCloud/public-image-mirror",
+  "source_repo_description": "\u5f88\u591a\u955c\u50cf\u90fd\u5728\u56fd\u5916\u3002\u6bd4\u5982 gcr \u3002\u56fd\u5185\u4e0b\u8f7d\u5f88\u6162\uff0c\u9700\u8981\u52a0\u901f\u3002\u81f4\u529b\u4e8e\u63d0\u4f9b\u8fde\u63a5\u5168\u4e16\u754c\u7684\u7a33\u5b9a\u53ef\u9760\u5b89\u5168\u7684\u5bb9\u5668\u955c\u50cf\u670d\u52a1\u3002"
+}

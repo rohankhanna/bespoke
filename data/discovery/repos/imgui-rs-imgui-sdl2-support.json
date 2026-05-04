@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imgui-rs/imgui-sdl2-support",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:13:12.148962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 466
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sdl2 support for imgui-rs",
+    "fork": false,
+    "full_name": "imgui-rs/imgui-sdl2-support",
+    "html_url": "https://github.com/imgui-rs/imgui-sdl2-support",
+    "language": "Rust",
+    "pushed_at": "2025-01-19T17:39:06Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-02-04T22:43:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

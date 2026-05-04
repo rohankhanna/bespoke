@@ -55,6 +55,18 @@
       "source_repo": "vuejs/eslint-plugin-vue",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate-context",
+      "text": "Declarative state and side effects management for popular JavaScript frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate-context",
+      "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "vuejs/eslint-plugin-vue",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/eslint-plugin-vue.svg?style=flat)](https://npmjs.org/package/eslint-plugin-vue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate",
+      "text": "A declarative state and side effects management solution for popular JavaScript frameworks"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "vuejs/eslint-plugin-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cerebral/cerebral"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

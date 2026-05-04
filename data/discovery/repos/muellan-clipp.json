@@ -1,0 +1,256 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "args",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "argument-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "argv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "argv-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "cmdline-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "commandline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "man-page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "nested-alternatives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "option",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "option-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "muellan/clipp",
+      "target": "options-parsing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:11.706209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation",
+    "fork": false,
+    "full_name": "muellan/clipp",
+    "html_url": "https://github.com/muellan/clipp",
+    "language": "C++",
+    "pushed_at": "2024-05-30T08:13:54Z",
+    "stargazers_count": 1322,
+    "topics": [
+      "args",
+      "argument-parser",
+      "argument-parsing",
+      "argv",
+      "argv-parser",
+      "cli",
+      "cmdline-parser",
+      "command-line",
+      "commandline",
+      "cpp",
+      "cpp11",
+      "header-only",
+      "man-page",
+      "nested-alternatives",
+      "option",
+      "option-parser",
+      "options",
+      "options-parsing"
+    ],
+    "updated_at": "2026-05-02T13:32:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "args"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parsing"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argv"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argv-parser"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmdline-parser"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "man-page"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nested-alternatives"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option-parser"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options"
+    },
+    {
+      "context_snippet": "clipp - command line interfaces for modern C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options-parsing"
+    }
+  ]
+}

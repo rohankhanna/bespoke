@@ -451,6 +451,18 @@
       "source_repo": "google-deepmind/treescope",
       "status": "candidate-context",
       "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official Implement of \"ADBench: Anomaly Detection Benchmark\", NeurIPS 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "google-deepmind/treescope",
       "status": "candidate",
       "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
     }
   ],
   "candidate_related_terms": [],
@@ -1258,11 +1276,35 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Minqi824/ADBench"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

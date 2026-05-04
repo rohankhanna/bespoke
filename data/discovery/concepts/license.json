@@ -70,6 +70,18 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate-context",
       "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/icense",
+      "status": "candidate-context",
+      "text": "MY1License"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/icense",
+      "status": "candidate-context",
+      "text": "<img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/>"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate",
       "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/icense",
+      "status": "candidate",
+      "text": "<img alt=\"\u7dbf\u98f4\u534f\u8bae | MY1License\" src=\"Seal.svg\" align=\"right\" width=\"120\" height=\"64\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/icense"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

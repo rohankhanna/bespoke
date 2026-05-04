@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amzn/xfer",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amzn/xfer",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amzn/xfer",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "amzn/xfer",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:42:01.984410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Transfer Learning library for Deep Neural Networks.",
+    "fork": false,
+    "full_name": "amzn/xfer",
+    "html_url": "https://github.com/amzn/xfer",
+    "language": "Python",
+    "pushed_at": "2025-11-06T09:49:26Z",
+    "stargazers_count": 257,
+    "topics": [
+      "machine-learning",
+      "mxnet",
+      "neural-network",
+      "python",
+      "transfer-learning"
+    ],
+    "updated_at": "2025-12-16T19:56:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Xfer](xfer-ml/docs/image/logo_330x200.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![Xfer](xfer-ml/docs/image/logo_330x200.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "![Xfer](xfer-ml/docs/image/logo_330x200.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "![Xfer](xfer-ml/docs/image/logo_330x200.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

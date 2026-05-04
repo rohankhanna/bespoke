@@ -7363,6 +7363,210 @@
       "source_repo": "google/deepvariant",
       "status": "candidate-context",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate-context",
+      "text": "Semantic and Instance Segmentation of LiDAR point clouds for autonomous driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/MapMOS",
+      "status": "candidate-context",
+      "text": "Building Volumetric Beliefs for Dynamic Environments Exploiting Map-Based Moving Object Segmentation (RAL 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/MapMOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Medical imaging processing for AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "The official repo for [NeurIPS'22] \"ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation\" and [TPAMI'23] \"ViTPose++: Vision Transformer for Generic Body Pose Estimation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate-context",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate-context",
+      "text": "Geometry-Aware Learning of Maps for Camera Localization (CVPR2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "Face recognition using Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "Code base for the precision, recall, density, and coverage metrics for generative models. ICML 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "A simple command line tool for text to image generation, using OpenAI's CLIP and a BigGAN. Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of DALL-E 2, OpenAI's updated text-to-image synthesis neural network,  in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./dalle2.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network). Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of N\u00dcWA, state of the art attention network for text to video synthesis, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgrittner/llama2-rs",
+      "status": "candidate-context",
+      "text": "LLaMA2 + Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgrittner/llama2-rs",
+      "status": "candidate-context",
+      "text": "LLaMA2 port for Rust inspired by `llama2.c`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official Implement of \"ADBench: Anomaly Detection Benchmark\", NeurIPS 2022."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate-context",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "A flexible neural net training library inspired by fast.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)"
     }
   ],
   "candidate_glosses": [
@@ -11049,6 +11253,108 @@
       "source_repo": "google/deepvariant",
       "status": "candidate",
       "text": "<img src=\"docs/images/dv_logo.png\" width=50% height=50%>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/lidar-bonnetal",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/MapMOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/ViTPose",
+      "status": "candidate",
+      "text": "<h1 align=\"left\">ViTPose / ViTPose++: Vision Transformer for Generic Body Pose Estimation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/DALLE2-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./dalle2.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgrittner/llama2-rs",
+      "status": "candidate",
+      "text": "LLaMA2 port for Rust inspired by `llama2.c`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minqi824/ADBench",
+      "status": "candidate",
+      "text": "Official code and data repository of [_**ADBench**: Anomaly Detection Benchmark_](https://arxiv.org/abs/2206.09426) (NeurIPS 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate",
+      "text": "[Docs (master)](https://fluxml.ai/FluxTraining.jl/dev/i)"
     }
   ],
   "candidate_related_terms": [],
@@ -17584,11 +17890,347 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google/deepvariant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/lidar-bonnetal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/MapMOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "black0017/MedicalZooPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TorchIO-project/torchio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/ViTPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/geomapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/big-sleep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/DALLE2-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/nuwa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "danielgrittner/llama2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Minqi824/ADBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/FluxTraining.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

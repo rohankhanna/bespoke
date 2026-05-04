@@ -55,6 +55,18 @@
       "source_repo": "pkgxdev/pkgx",
       "status": "candidate-context",
       "text": "\"agent-boundary-check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/bpb",
+      "status": "candidate-context",
+      "text": "the easiest way to sign your git commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/bpb",
+      "status": "candidate-context",
+      "text": "\"agent-boundary-check\""
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pkgxdev/pkgx",
+      "status": "candidate",
+      "text": "\"agent-boundary-check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/bpb",
       "status": "candidate",
       "text": "\"agent-boundary-check\""
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/agent-boundary-check.yml",
       "source_repo": "pkgxdev/pkgx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/bpb"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -176,6 +176,18 @@
       "source_repo": "apache/horaedb",
       "status": "candidate-context",
       "text": "Check PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "Medical imaging processing for AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate-context",
+      "text": "\"Check PR title\""
     }
   ],
   "candidate_glosses": [
@@ -262,6 +274,12 @@
       "source_repo": "apache/horaedb",
       "status": "candidate",
       "text": "Check PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TorchIO-project/torchio",
+      "status": "candidate",
+      "text": "\"Check PR title\""
     }
   ],
   "candidate_related_terms": [
@@ -401,11 +419,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/check-pr-title.yml",
       "source_repo": "apache/horaedb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/check_pull_request_title.yml",
+      "source_repo": "TorchIO-project/torchio"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

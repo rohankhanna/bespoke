@@ -387,6 +387,18 @@
       "source_repo": "MattiasBuelens/web-streams-polyfill",
       "status": "candidate-context",
       "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate-context",
+      "text": "Outlier Detection Thresholding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -581,6 +593,12 @@
       "source_repo": "MattiasBuelens/web-streams-polyfill",
       "status": "candidate",
       "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KulikDM/pythresh",
+      "status": "candidate",
+      "text": "Publish Release"
     }
   ],
   "candidate_related_terms": [
@@ -936,11 +954,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "KulikDM/pythresh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -163,6 +163,18 @@
       "source_repo": "lukashermann/hulc",
       "status": "candidate-context",
       "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate-context",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "lukashermann/hulc",
       "status": "candidate",
       "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "status": "candidate",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

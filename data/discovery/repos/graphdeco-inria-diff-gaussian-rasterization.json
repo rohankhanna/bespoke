@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:44:56.992833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "graphdeco-inria/diff-gaussian-rasterization",
+    "html_url": "https://github.com/graphdeco-inria/diff-gaussian-rasterization",
+    "language": "Cuda",
+    "pushed_at": "2024-10-21T07:24:49Z",
+    "stargazers_count": 1439,
+    "topics": [],
+    "updated_at": "2026-04-29T14:31:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

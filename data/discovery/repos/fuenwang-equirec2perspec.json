@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "target": "360-photo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "target": "equirectangular-panorama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "target": "opencv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "target": "panorama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuenwang/Equirec2Perspec",
+      "target": "perspective",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:49.907589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tool to project  equirectangular panorama into perspective images",
+    "fork": false,
+    "full_name": "fuenwang/Equirec2Perspec",
+    "html_url": "https://github.com/fuenwang/Equirec2Perspec",
+    "language": "Python",
+    "pushed_at": "2021-10-20T05:19:10Z",
+    "stargazers_count": 328,
+    "topics": [
+      "360-photo",
+      "equirectangular-panorama",
+      "opencv",
+      "panorama",
+      "perspective",
+      "python"
+    ],
+    "updated_at": "2026-04-16T09:24:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "360-photo"
+    },
+    {
+      "context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "equirectangular-panorama"
+    },
+    {
+      "context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv"
+    },
+    {
+      "context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panorama"
+    },
+    {
+      "context_snippet": "<strong>Equirec2Perspec</strong> is a python tool to split equirectangular panorama into normal perspective view.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perspective"
+    }
+  ]
+}

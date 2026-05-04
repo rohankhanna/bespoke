@@ -151,6 +151,18 @@
       "source_repo": "godot-rust/gdnative",
       "status": "candidate-context",
       "text": "\"Publish to crates.io\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/prism",
+      "status": "candidate-context",
+      "text": "Prism Ruby parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/prism",
+      "status": "candidate-context",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "godot-rust/gdnative",
       "status": "candidate",
       "text": "\"Publish to crates.io\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/prism",
+      "status": "candidate",
+      "text": "Publish to crates.io"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +418,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/release-version.yml",
       "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/publish-crate.yml",
+      "source_repo": "ruby/prism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdnative"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

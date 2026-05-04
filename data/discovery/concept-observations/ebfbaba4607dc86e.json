@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MONAI Versatile Imaging Segmentation and Annotation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "premerge-min"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "premerge-min"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "premerge-min",
+      "sense_id": "premerge-min#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "premerge-min",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "premerge-min",
+  "observation_id": "ebfbaba4607dc86e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "premerge-min",
+  "source_context_snippet": "premerge-min",
+  "source_file": ".github/workflows/premerge-py-min.yml",
+  "source_repo": "Project-MONAI/VISTA",
+  "source_repo_description": "MONAI Versatile Imaging Segmentation and Annotation"
+}

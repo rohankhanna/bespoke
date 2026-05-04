@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imgui-rs/imgui-glow-renderer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imgui-rs/imgui-glow-renderer",
+      "target": "hecrj/setup-rust-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "imgui-rs/imgui-glow-renderer",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:13:10.945135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2359
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1801
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A renderer for imgui and glow",
+    "fork": false,
+    "full_name": "imgui-rs/imgui-glow-renderer",
+    "html_url": "https://github.com/imgui-rs/imgui-glow-renderer",
+    "language": "Rust",
+    "pushed_at": "2024-10-02T22:35:21Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-08-09T14:25:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

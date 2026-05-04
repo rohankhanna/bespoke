@@ -445,7 +445,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:39:47.779851+00:00",
+  "fetched_at": "2026-05-04T00:58:15.960457+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -497,8 +497,8 @@
     "full_name": "OAI/OpenAPI-Specification",
     "html_url": "https://github.com/OAI/OpenAPI-Specification",
     "language": "Markdown",
-    "pushed_at": "2026-04-22T07:43:52Z",
-    "stargazers_count": 30901,
+    "pushed_at": "2026-04-30T07:44:03Z",
+    "stargazers_count": 30929,
     "topics": [
       "apis",
       "oas",
@@ -507,7 +507,7 @@
       "rest",
       "webapi"
     ],
-    "updated_at": "2026-04-23T07:52:38Z"
+    "updated_at": "2026-05-03T12:36:27Z"
   },
   "repo_links": [],
   "terms": [

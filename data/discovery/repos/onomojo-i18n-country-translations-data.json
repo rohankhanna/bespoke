@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onomojo/i18n-country-translations-data",
+      "target": "onomojo/i18n-country-translations-ex",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:58:09.231978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5781
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 409
+    },
+    {
+      "path": "go.mod",
+      "size": 66
+    },
+    {
+      "path": "package.json",
+      "size": 379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Canonical country name translations in 168 locales (YAML). CLDR-sourced. Shared source of truth for Ruby and JavaScript packages.",
+    "fork": false,
+    "full_name": "onomojo/i18n-country-translations-data",
+    "html_url": "https://github.com/onomojo/i18n-country-translations-data",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-09T13:12:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-09T13:12:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-ex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onomojo/i18n-country-translations-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

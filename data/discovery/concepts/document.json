@@ -106,6 +106,18 @@
       "source_repo": "liquidz/dad",
       "status": "candidate-context",
       "text": "document"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate-context",
+      "text": "yapi idea \u4e0a\u4f20\u63d2\u4ef6,\u5feb\u901f\u751f\u6210\u6587\u6863"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate-context",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "liquidz/dad",
       "status": "candidate",
       "text": "document"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diwand/YapiIdeaUploadPlugin",
+      "status": "candidate",
+      "text": "\u51cf\u5c11yapi \u5f55\u5165\u65f6\u95f4\uff0c\u901a\u8fc7\u5de5\u5177\u53cd\u5411\u89c4\u8303\u4ee3\u7801\u6ce8\u91ca\uff0c\u548c\u4ee3\u7801\u6574\u6d01"
     }
   ],
   "candidate_related_terms": [
@@ -287,11 +305,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "diwand/YapiIdeaUploadPlugin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

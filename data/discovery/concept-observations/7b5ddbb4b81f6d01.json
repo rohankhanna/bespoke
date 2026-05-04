@@ -84,7 +84,7 @@
   "normalized_form": "format",
   "observation_id": "7b5ddbb4b81f6d01",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "\ud83d\udc54 Format",
   "source_context_snippet": "\ud83d\udc54 Format",
   "source_file": ".github/workflows/format.yml",

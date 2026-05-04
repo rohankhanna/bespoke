@@ -211,6 +211,18 @@
       "source_repo": "mostlygeek/llama-swap",
       "status": "candidate-context",
       "text": "![llama-swap header image](docs/assets/hero3.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate-context",
+      "text": "Swift community driven package for OpenAI public API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate-context",
+      "text": "![logo](https://user-images.githubusercontent.com/1411778/218319355-f56b6bd4-961a-4d8f-82cd-6dbd43111d7f.png)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "mostlygeek/llama-swap",
       "status": "candidate",
       "text": "![llama-swap header image](docs/assets/hero3.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MacPaw/OpenAI",
+      "status": "candidate",
+      "text": "![logo](https://user-images.githubusercontent.com/1411778/218319355-f56b6bd4-961a-4d8f-82cd-6dbd43111d7f.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -586,11 +604,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MacPaw/OpenAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

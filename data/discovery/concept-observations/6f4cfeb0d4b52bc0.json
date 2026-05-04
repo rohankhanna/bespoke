@@ -84,7 +84,7 @@
   "normalized_form": "fast-tests-for-prs",
   "observation_id": "6f4cfeb0d4b52bc0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Fast tests for PRs",
   "source_context_snippet": "Fast tests for PRs",
   "source_file": ".github/workflows/pr_tests.yml",

@@ -484,6 +484,18 @@
       "source_repo": "getgrav/grav",
       "status": "candidate-context",
       "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate-context",
+      "text": "Declarative state and side effects management for popular JavaScript frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate-context",
+      "text": "Website"
     }
   ],
   "candidate_glosses": [
@@ -726,6 +738,12 @@
       "source_repo": "getgrav/grav",
       "status": "candidate",
       "text": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cerebral/cerebral",
+      "status": "candidate",
+      "text": "Website"
     }
   ],
   "candidate_related_terms": [
@@ -1285,11 +1303,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "cerebral/cerebral"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql/graphql-http"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

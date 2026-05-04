@@ -235,6 +235,18 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate-context",
       "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "A language-agnostic \"shebang interpreter\" that enables you to write scripts in compiled languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "ajayd-san/gomanagedocker",
       "status": "candidate",
       "text": "Do Docker commands slip your mind because you don't use Docker often enough? Sick of googling commands for everyday tasks? GoManageDocker is designed to NUKE this annoyance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/scriptisto.svg)](https://crates.io/crates/scriptisto)"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +541,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ajayd-san/gomanagedocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "igor-petruk/scriptisto"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

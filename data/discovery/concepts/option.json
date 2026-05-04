@@ -43,6 +43,18 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "muellan/clipp",
+      "status": "candidate-context",
+      "text": "easy to use, powerful & expressive command line argument parsing for modern C++ / single header / usage & doc generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muellan/clipp",
+      "status": "candidate-context",
+      "text": "clipp - command line interfaces for modern C++"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "cloydlau/vue-global-config",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "muellan/clipp",
+      "status": "candidate",
+      "text": "clipp - command line interfaces for modern C++"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cloydlau/vue-global-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "muellan/clipp"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

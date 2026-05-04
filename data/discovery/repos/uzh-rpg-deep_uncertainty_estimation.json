@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:40:10.371087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3482
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides the code used to implement the framework to provide deep learning models with total uncertainty estimates as described in \"A General Framework for Uncertainty Estimation in Deep Learning\" (Loquercio, Seg\u00f9, Scaramuzza. RA-L 2020).",
+    "fork": false,
+    "full_name": "uzh-rpg/deep_uncertainty_estimation",
+    "html_url": "https://github.com/uzh-rpg/deep_uncertainty_estimation",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:58:59Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-02-22T04:56:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

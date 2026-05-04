@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "activelearning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate-context",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackHC/BatchBALD",
+      "status": "candidate",
+      "text": "**Note:** A more modular re-implementation can be found at https://github.com/BlackHC/batchbald_redux."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "activelearning",
+  "concept_id": "activelearning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "BlackHC/BatchBALD"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "activelearning",
+      "sense_id": "activelearning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

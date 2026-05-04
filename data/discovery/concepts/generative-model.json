@@ -343,6 +343,42 @@
       "source_repo": "FoundationVision/UniTok",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate-context",
+      "text": "Efficient Graph Generation with Graph Recurrent Attention Networks, Deep Generative Model of Graphs, Graph Neural Networks, NeurIPS 2019"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate-context",
+      "text": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZPdesu/II2S",
+      "status": "candidate-context",
+      "text": "Improved StyleGAN Embedding: Where are the Good Latents?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZPdesu/II2S",
+      "status": "candidate-context",
+      "text": "[Peihao Zhu](https://github.com/ZPdesu),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "Code base for the precision, recall, density, and coverage metrics for generative models. ICML 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +549,24 @@
       "source_repo": "FoundationVision/UniTok",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lrjconan/GRAN",
+      "status": "candidate",
+      "text": "This is the official PyTorch implementation of [Efficient Graph Generation with Graph Recurrent Attention Networks](https://arxiv.org/abs/1910.00760) as described in the following NeurIPS 2019 paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZPdesu/II2S",
+      "status": "candidate",
+      "text": "[Peihao Zhu](https://github.com/ZPdesu),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clovaai/generative-evaluation-prdc",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/prdc.svg)](https://badge.fury.io/py/prdc)"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +850,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "zai-org/ImageReward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lrjconan/GRAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZPdesu/II2S"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clovaai/generative-evaluation-prdc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ImageReward"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

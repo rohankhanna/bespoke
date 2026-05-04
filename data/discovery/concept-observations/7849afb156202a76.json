@@ -84,7 +84,7 @@
   "normalized_form": "check-dockerfile-references",
   "observation_id": "7849afb156202a76",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Check Dockerfile References",
   "source_context_snippet": "Check Dockerfile References",
   "source_file": ".github/workflows/check-dockerfile-references.yml",

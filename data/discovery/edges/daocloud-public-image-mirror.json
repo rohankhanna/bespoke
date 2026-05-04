@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "opencidn/ocimirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "wzshiming/repimage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "kubernetes-sigs/kubespray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "daocloud/public-binary-files-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "wzshiming/gh-ci-bot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bot.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "CI Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cidn-runner.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "CIDN Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-image.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-image.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Target Sync Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-allows-list.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-allows-list.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Update allows list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "Verify PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DaoCloud/public-image-mirror",
+      "target": "speedup",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "DaoCloud/public-image-mirror"
+}

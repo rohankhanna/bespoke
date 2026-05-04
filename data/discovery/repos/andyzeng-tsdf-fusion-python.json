@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "andyzeng/tsdf-fusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "3d-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "depth-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "kinect-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "rgbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "tsdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andyzeng/tsdf-fusion-python",
+      "target": "volumetric-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:44.864268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2862
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python code to fuse multiple RGB-D images into a TSDF voxel volume.",
+    "fork": false,
+    "full_name": "andyzeng/tsdf-fusion-python",
+    "html_url": "https://github.com/andyzeng/tsdf-fusion-python",
+    "language": "Python",
+    "pushed_at": "2023-02-18T07:39:49Z",
+    "stargazers_count": 1414,
+    "topics": [
+      "3d",
+      "3d-deep-learning",
+      "3d-reconstruction",
+      "artificial-intelligence",
+      "cuda",
+      "depth-camera",
+      "kinect-fusion",
+      "rgbd",
+      "tsdf",
+      "vision",
+      "volumetric-data"
+    ],
+    "updated_at": "2026-05-02T13:52:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andyzeng/tsdf-fusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-deep-learning"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-camera"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinect-fusion"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgbd"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tsdf"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision"
+    },
+    {
+      "context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volumetric-data"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aicity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aicity",
+  "concept_id": "aicity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aicity",
+      "sense_id": "aicity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

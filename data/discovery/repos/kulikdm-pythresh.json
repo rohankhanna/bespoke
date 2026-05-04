@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "KulikDM/pythresh",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "contamination-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "data-cleaning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "filtering-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "outlier-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "outlier-selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KulikDM/pythresh",
+      "target": "thresholding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:07:01.355446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 37539
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 2184
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 6807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Outlier Detection Thresholding",
+    "fork": false,
+    "full_name": "KulikDM/pythresh",
+    "html_url": "https://github.com/KulikDM/pythresh",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-05-03T03:41:33Z",
+    "stargazers_count": 137,
+    "topics": [
+      "contamination-detection",
+      "data-cleaning",
+      "filtering-algorithm",
+      "outlier-detection",
+      "outlier-selection",
+      "thresholding"
+    ],
+    "updated_at": "2026-05-03T03:41:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contamination-detection"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-cleaning"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filtering-algorithm"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-detection"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outlier-selection"
+    },
+    {
+      "context_snippet": "Python Outlier Detection Thresholding (PyThresh) V1",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thresholding"
+    }
+  ]
+}

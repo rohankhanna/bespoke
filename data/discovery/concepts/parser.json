@@ -955,6 +955,30 @@
       "source_repo": "Dunamis4tw/generate-geoip-geosite",
       "status": "candidate-context",
       "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate-context",
+      "text": "C++ parser for CSV file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate-context",
+      "text": "CSVparser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "A parser combinator library written in the Swift programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate-context",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1431,6 +1455,18 @@
       "source_repo": "Dunamis4tw/generate-geoip-geosite",
       "status": "candidate",
       "text": "Generates GeoIP, Geosite and Rule-Set files (used by Sing-Box to configure routes) from lists of IP addresses and domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate",
+      "text": "CSVparser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davedufresne/SwiftParsec",
+      "status": "candidate",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2032,11 +2068,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "Dunamis4tw/generate-geoip-geosite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "rsylvian/CSVparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davedufresne/SwiftParsec"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

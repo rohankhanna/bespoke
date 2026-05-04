@@ -163,6 +163,18 @@
       "source_repo": "timesler/facenet-pytorch",
       "status": "candidate-context",
       "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "timesler/facenet-pytorch",
       "status": "candidate",
       "text": "*You can also read a translated version of this file [in Chinese \u7b80\u4f53\u4e2d\u6587\u7248](README_cn.md).*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "timesler/facenet-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "black0017/MedicalZooPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

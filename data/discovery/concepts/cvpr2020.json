@@ -127,6 +127,18 @@
       "source_repo": "haofeixu/aanet",
       "status": "candidate-context",
       "text": "PyTorch implementation of our paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": ":red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track (Baidu-UTS submission)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate-context",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "haofeixu/aanet",
       "status": "candidate",
       "text": "PyTorch implementation of our paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/AICIty-reID-2020",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/AICIty-reID-2020/blob/master/heatmap2020.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "haofeixu/aanet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/AICIty-reID-2020"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

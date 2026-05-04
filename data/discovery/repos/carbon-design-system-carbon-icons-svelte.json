@@ -63,13 +63,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-icons-svelte",
-      "target": "carbon-design-system/carbon-preprocess-svelte",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "carbon-design-system/carbon-icons-svelte",
@@ -210,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:35:41.848722+00:00",
+  "fetched_at": "2026-05-04T01:54:21.286324+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,13 +247,7 @@
     ],
     "updated_at": "2026-04-27T14:20:05Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "carbon-design-system/carbon-preprocess-svelte",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "[![NPM][npm]][npm-url]",

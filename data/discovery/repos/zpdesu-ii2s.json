@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZPdesu/II2S",
+      "target": "deeo-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZPdesu/II2S",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZPdesu/II2S",
+      "target": "image-embedding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:47:43.536566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Improved StyleGAN Embedding: Where are the Good Latents?",
+    "fork": false,
+    "full_name": "ZPdesu/II2S",
+    "html_url": "https://github.com/ZPdesu/II2S",
+    "language": "Python",
+    "pushed_at": "2022-04-02T01:02:54Z",
+    "stargazers_count": 120,
+    "topics": [
+      "deeo-learning",
+      "gan",
+      "generative-model",
+      "image-embedding"
+    ],
+    "updated_at": "2026-04-13T11:59:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Peihao Zhu](https://github.com/ZPdesu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeo-learning"
+    },
+    {
+      "context_snippet": "[Peihao Zhu](https://github.com/ZPdesu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "[Peihao Zhu](https://github.com/ZPdesu),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-embedding"
+    }
+  ]
+}

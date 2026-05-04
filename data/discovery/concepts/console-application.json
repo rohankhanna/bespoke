@@ -55,6 +55,18 @@
       "source_repo": "box-project/box",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guysv/ilua",
+      "status": "candidate-context",
+      "text": "Portable Lua kernel for Jupyter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guysv/ilua",
+      "status": "candidate-context",
+      "text": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "box-project/box",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guysv/ilua",
+      "status": "candidate",
+      "text": "*ILua* is a feature-packed, portable console and [Jupyter](http://jupyter.org/) kernel for the [Lua](https://www.lua.org/) language."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "box-project/box"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "guysv/ilua"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "tests-nvm-install-latest-npm",
   "observation_id": "623894d991b5c942",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Tests: `nvm install-latest-npm",
   "source_context_snippet": "'Tests: `nvm install-latest-npm`'",
   "source_file": ".github/workflows/latest-npm.yml",

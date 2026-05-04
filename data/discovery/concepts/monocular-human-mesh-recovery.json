@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "monocular-human-mesh-recovery"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "status": "candidate-context",
+      "text": "[TPAMI 2023] PyMAF-X: Towards Well-aligned Full-body Model Regression from Monocular Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "status": "candidate-context",
+      "text": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HongwenZhang/PyMAF-X",
+      "status": "candidate",
+      "text": "\ud83d\udea9 **[Update]** The face part of PyMAF-X has been updated. See face-only evaluation results on [the NoW benchmark](https://now.is.tue.mpg.de/nonmetricalevaluation.html)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "monocular-human-mesh-recovery",
+  "concept_id": "monocular-human-mesh-recovery",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "HongwenZhang/PyMAF-X"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monocular-human-mesh-recovery",
+      "sense_id": "monocular-human-mesh-recovery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

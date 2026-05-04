@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternScience/ChartVLM",
+      "target": "unimodal4reasoning/chartvlm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:21.376400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8388
+    },
+    {
+      "path": "requirements.txt",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Repository of ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning",
+    "fork": false,
+    "full_name": "InternScience/ChartVLM",
+    "html_url": "https://github.com/InternScience/ChartVLM",
+    "language": "Python",
+    "pushed_at": "2024-09-26T06:43:22Z",
+    "stargazers_count": 257,
+    "topics": [],
+    "updated_at": "2026-04-26T09:01:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unimodal4reasoning/chartvlm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "on-push"
+    "on-push",
+    "On Push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -25,6 +26,18 @@
       "source_repo": "ex-aws/ex_aws_lambda",
       "status": "candidate-context",
       "text": "on-push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "A language-agnostic \"shebang interpreter\" that enables you to write scripts in compiled languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate-context",
+      "text": "On Push"
     }
   ],
   "candidate_glosses": [
@@ -39,9 +52,51 @@
       "source_repo": "ex-aws/ex_aws_lambda",
       "status": "candidate",
       "text": "on-push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-petruk/scriptisto",
+      "status": "candidate",
+      "text": "On Push"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "boost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "button"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "drive"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "on-push",
   "concept_id": "on-push",
@@ -58,11 +113,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/on-push.yml",
       "source_repo": "ex-aws/ex_aws_lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/on-push.yml",
+      "source_repo": "igor-petruk/scriptisto"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

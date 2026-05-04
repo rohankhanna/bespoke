@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v4",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -242,6 +242,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-commits.yml",
       "source_repo": "NVIDIA/VideoProcessingFramework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "pointfreeco/swift-url-routing"
     }
   ]
 }

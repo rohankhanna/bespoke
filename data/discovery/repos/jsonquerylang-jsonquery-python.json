@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:52:20.266705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9100
+    },
+    {
+      "path": "requirements.txt",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, flexible, and expandable JSON query language",
+    "fork": false,
+    "full_name": "jsonquerylang/jsonquery-python",
+    "html_url": "https://github.com/jsonquerylang/jsonquery-python",
+    "language": "Python",
+    "pushed_at": "2026-01-07T10:04:03Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-24T18:12:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

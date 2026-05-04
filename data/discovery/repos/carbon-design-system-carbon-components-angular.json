@@ -468,20 +468,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-angular",
-      "target": "ngx-translate/core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-angular",
-      "target": "ibm-telemetry/telemetry-js",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "carbon-design-system/carbon-components-angular",
@@ -1182,19 +1168,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T16:36:56.997778+00:00",
+  "fetched_at": "2026-05-04T01:54:11.062630+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 10820
+      "size": 10946
     },
     {
       "path": "package.json",
-      "size": 4635
+      "size": 4668
     },
     {
       "path": ".github/workflows/check-build.yml",
-      "size": 1566
+      "size": 1570
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -1222,7 +1208,7 @@
     "full_name": "carbon-design-system/carbon-components-angular",
     "html_url": "https://github.com/carbon-design-system/carbon-components-angular",
     "language": "TypeScript",
-    "pushed_at": "2026-04-28T22:08:26Z",
+    "pushed_at": "2026-05-03T23:36:00Z",
     "stargazers_count": 560,
     "topics": [
       "angular",
@@ -1231,20 +1217,9 @@
       "hacktoberfest",
       "ibm"
     ],
-    "updated_at": "2026-04-30T00:47:04Z"
+    "updated_at": "2026-05-03T23:27:42Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ibm-telemetry/telemetry-js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ngx-translate/core",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check build",

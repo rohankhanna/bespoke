@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T02:11:20.859284+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": "Git extensions to provide high-level repository operations for Vincent Driessen's branching model.",
+    "fork": false,
+    "full_name": "nvie/gitflow",
+    "html_url": "https://github.com/nvie/gitflow",
+    "language": "Shell",
+    "pushed_at": "2025-10-14T09:12:50Z",
+    "stargazers_count": 26843,
+    "topics": [],
+    "updated_at": "2026-05-03T16:06:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

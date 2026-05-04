@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "relekang/python-semantic-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "relekang/python-semantic-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "Test and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "target": "zotero",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:51:35.847804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6357
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1514
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A Python library to retrieve annotations and notes from Zotero and save them into Markdown files.",
+    "fork": false,
+    "full_name": "e-alizadeh/Zotero2MD",
+    "html_url": "https://github.com/e-alizadeh/Zotero2MD",
+    "language": "Python",
+    "pushed_at": "2022-04-24T07:14:04Z",
+    "stargazers_count": 34,
+    "topics": [
+      "markdown",
+      "obsidian",
+      "zotero"
+    ],
+    "updated_at": "2026-02-11T06:04:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test and Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Test and Build"
+    },
+    {
+      "context_snippet": "Generate Markdown files from Zotero annotations and notes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Generate Markdown files from Zotero annotations and notes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "Generate Markdown files from Zotero annotations and notes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zotero"
+    }
+  ]
+}

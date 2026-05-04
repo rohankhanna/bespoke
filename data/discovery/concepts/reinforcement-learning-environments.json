@@ -31,6 +31,18 @@
       "source_repo": "mila-iqia/babyai",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "FurnitureBench: Real-World Furniture Assembly Benchmark (RSS 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate-context",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mila-iqia/babyai",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/mila-iqia/babyai.svg?branch=master)](https://travis-ci.org/mila-iqia/babyai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clvrai/furniture-bench",
+      "status": "candidate",
+      "text": "[**Paper**](http://arxiv.org/abs/2305.12821)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "clvrai/furniture-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml",
+      "source_repo": "Project-MONAI/VISTA",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml",
+      "source_repo": "Project-MONAI/VISTA",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/premerge-py-min.yml",
+      "source_repo": "Project-MONAI/VISTA",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/premerge-py-min.yml",
+      "source_repo": "Project-MONAI/VISTA",
+      "target": "premerge-min",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:02:50.985446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/premerge-py-min.yml",
+      "size": 1783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MONAI Versatile Imaging Segmentation and Annotation",
+    "fork": false,
+    "full_name": "Project-MONAI/VISTA",
+    "html_url": "https://github.com/Project-MONAI/VISTA",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:15:26Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-04-30T09:38:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "premerge-min",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/premerge-py-min.yml",
+      "term": "premerge-min"
+    }
+  ]
+}

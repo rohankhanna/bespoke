@@ -259,6 +259,18 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate-context",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of N\u00dcWA, state of the art attention network for text to video synthesis, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "Vchitect/VBench",
       "status": "candidate",
       "text": "![vbench_logo](https://raw.githubusercontent.com/Vchitect/VBench/master/asset/vbench_logo_github_20240605.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/nuwa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./nuwa.png\" width=\"400px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -628,11 +646,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/nuwa-pytorch"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

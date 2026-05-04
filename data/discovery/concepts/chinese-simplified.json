@@ -115,6 +115,30 @@
       "source_repo": "TakWolf/fusion-pixel-font",
       "status": "candidate-context",
       "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "status": "candidate-context",
+      "text": "\u971e\u9e5c\u81fb\u6977\uff1a\u57fa\u4e8e\u300c\u971e\u9e5c\u6587\u6977\u300d\u884d\u751f\uff0c\u524d\u671f\u624b\u52a8\u52a0\u7c97\u8c03\u6574\u5b57\u5f62\uff0c\u540e\u671f\u7531 AI \u751f\u6210\u5b57\u5f62\u8f85\u52a9\u8865\u5b57\u7684\u5f00\u6e90\u4e2d\u6587\u5b57\u4f53\u3002A bolder weight, AI-assisted font derived from LXGW Wenkai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "![Logo](docs/logo@2x.png)"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +193,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwZhenKai",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "![Logo](docs/logo@2x.png)"
     }
@@ -232,11 +268,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "TakWolf/fusion-pixel-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwZhenKai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

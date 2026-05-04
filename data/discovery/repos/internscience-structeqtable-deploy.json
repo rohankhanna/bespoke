@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternScience/StructEqTable-Deploy",
-      "target": "google-research/pix2struct",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "InternScience/StructEqTable-Deploy",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:37:46.791321+00:00",
+  "fetched_at": "2026-05-04T00:51:22.781529+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -81,11 +74,6 @@
     "updated_at": "2026-05-01T03:49:07Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google-research/pix2struct",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "unimodal4reasoning/chartvlm",

@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isciences/exactextractr",
+      "target": "isciences/exactextract",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isciences/exactextractr",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isciences/exactextractr",
+      "target": "rcpp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:11:10.944810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R package for fast and accurate raster zonal statistics",
+    "fork": false,
+    "full_name": "isciences/exactextractr",
+    "html_url": "https://github.com/isciences/exactextractr",
+    "language": "C++",
+    "pushed_at": "2025-12-01T15:50:27Z",
+    "stargazers_count": 305,
+    "topics": [
+      "gis",
+      "r",
+      "raster",
+      "rcpp"
+    ],
+    "updated_at": "2026-04-24T12:57:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isciences/exactextract",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "[![Build Status](https://gitlab.com/isciences/exactextractr/badges/master/pipeline.svg)](https://gitlab.com/isciences/exactextractr/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rcpp"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "thedatumorg/tsb-autoad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "thedatumorg/tsb-uad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "thedatumorg/vus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "dawnvince/easytsad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thedatumorg/TSB-AD",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:07:12.284337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16560
+    },
+    {
+      "path": "requirements.txt",
+      "size": 215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Time-Series Anomaly Detection | Algorithms + Datasets + Tutorials",
+    "fork": false,
+    "full_name": "thedatumorg/TSB-AD",
+    "html_url": "https://github.com/thedatumorg/TSB-AD",
+    "language": "Python",
+    "pushed_at": "2026-04-28T02:07:35Z",
+    "stargazers_count": 259,
+    "topics": [
+      "anomaly-detection",
+      "benchmark",
+      "time-series"
+    ],
+    "updated_at": "2026-04-30T08:00:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dawnvince/easytsad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thedatumorg/tsb-autoad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thedatumorg/tsb-uad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thedatumorg/vus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

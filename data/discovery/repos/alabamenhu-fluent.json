@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:52:20.917251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of Project Fluent for Perl 6",
+    "fork": false,
+    "full_name": "alabamenhu/Fluent",
+    "html_url": "https://github.com/alabamenhu/Fluent",
+    "language": "Raku",
+    "pushed_at": "2023-05-27T21:33:30Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-05-01T07:52:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -423,6 +423,18 @@
       "source_repo": "ngx-translate/core",
       "status": "candidate-context",
       "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "Lua implementation of Project Fluent https://projectfluent.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
     }
   ],
   "candidate_glosses": [
@@ -635,6 +647,12 @@
       "source_repo": "ngx-translate/core",
       "status": "candidate",
       "text": "The internationalization (i18n) library for Angular."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate",
+      "text": "[![Luacheck](https://github.com/alerque/fluent-lua/workflows/Luacheck/badge.svg)](https://github.com/alerque/fluent-lua/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -1140,11 +1158,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ruby-i18n/i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "alerque/fluent-lua"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

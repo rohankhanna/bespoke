@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/GenoView",
+      "target": "orangeduck/interact-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "orangeduck/GenoView",
+      "target": "orangeduck/genoviewpython",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:54:36.472239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An example raylib application for viewing animation on the Geno character",
+    "fork": false,
+    "full_name": "orangeduck/GenoView",
+    "html_url": "https://github.com/orangeduck/GenoView",
+    "language": "C",
+    "pushed_at": "2025-09-16T23:51:35Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-04-06T11:24:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/genoviewpython",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/interact-retarget",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

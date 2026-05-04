@@ -48,7 +48,7 @@
   "normalized_form": "check-restricted-files",
   "observation_id": "e4091c4f15233db6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "check-restricted-files",
   "source_context_snippet": "check-restricted-files",
   "source_file": ".github/workflows/check-restricted-files.yaml",

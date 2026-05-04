@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pollen - Render website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "A flexible neural net training library inspired by fast.ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate-context",
+      "text": "Pollen - Render website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/FluxTraining.jl",
+      "status": "candidate",
+      "text": "Pollen - Render website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26231,
+      "status": "candidate",
+      "text": "fecundate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18321,
+      "status": "candidate",
+      "text": "swath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18321,
+      "status": "candidate",
+      "text": "tennis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17995,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17995,
+      "status": "candidate",
+      "text": "runs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pollen - Render website",
+  "concept_id": "pollen---render-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pollen.render.yml",
+      "source_repo": "FluxML/FluxTraining.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pollen - Render website",
+      "sense_id": "pollen---render-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

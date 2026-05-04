@@ -67,6 +67,18 @@
       "source_repo": "yuval-alaluf/restyle-encoder",
       "status": "candidate-context",
       "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "A simple command line tool for text to image generation, using OpenAI's CLIP and a BigGAN. Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "yuval-alaluf/restyle-encoder",
       "status": "candidate",
       "text": "> Recently, the power of unconditional image synthesis has significantly advanced through the use of Generative Adversarial Networks (GANs). The task of inverting an image into its corresponding latent code of the trained GAN is of utmost importance as it allows for the manipula\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/big-sleep",
+      "status": "candidate",
+      "text": "<img src=\"./samples/artificial_intelligence.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +232,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/restyle-encoder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/big-sleep"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

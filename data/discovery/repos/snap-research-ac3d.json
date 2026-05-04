@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snap-research/ac3d",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:40.313208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2748
+    },
+    {
+      "path": "requirements.txt",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AC3D: Analyzing and Improving 3D Camera Control in Video Diffusion Transformers",
+    "fork": false,
+    "full_name": "snap-research/ac3d",
+    "html_url": "https://github.com/snap-research/ac3d",
+    "language": "Python",
+    "pushed_at": "2025-09-16T14:43:12Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-04-14T18:04:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

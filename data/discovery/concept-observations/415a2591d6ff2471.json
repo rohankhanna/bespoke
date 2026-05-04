@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud82c\udd81\ud82c\ude2c\ud82c\ude24\ud82c\uded2 | \u5973\u4e66\u5b57\u4f53 | N\u00fcshu fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nushu",
+      "sense_id": "nushu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nushu",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nushu",
+  "observation_id": "415a2591d6ff2471",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "nushu",
+  "source_context_snippet": "\ufeff# \ud82c\udd81\ud82c\ude2c\ud82c\uddcb\ud82c\uded2\uff5c\u5973\u4e66\u67f3\u53f6\uff5cN\u00fcshu Serif",
+  "source_file": null,
+  "source_repo": "nushu-script/Nyushu",
+  "source_repo_description": "\ud82c\udd81\ud82c\ude2c\ud82c\ude24\ud82c\uded2 | \u5973\u4e66\u5b57\u4f53 | N\u00fcshu fonts"
+}

@@ -754,6 +754,30 @@
       "source_repo": "rhysd/vim-clang-format",
       "status": "candidate-context",
       "text": "Format your C family code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned SwiftFormat packages for Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate-context",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Swift Formatter (Powered by swiftformat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
     }
   ],
   "candidate_glosses": [
@@ -1128,6 +1152,18 @@
       "source_repo": "rhysd/vim-clang-format",
       "status": "candidate",
       "text": "Format your C family code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "acevif/swiftformat-nix",
+      "status": "candidate",
+      "text": "Versioned [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) packages for [Nix](https://nixos.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Swift-Format",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS-blue.svg)][packagecontrol]"
     }
   ],
   "candidate_related_terms": [
@@ -1849,11 +1885,41 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "acevif/swiftformat-nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Swift-Format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

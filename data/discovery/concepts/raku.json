@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "raku"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate-context",
+      "text": "Raku Module Management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ugexe/zef",
+      "status": "candidate",
+      "text": "Raku Module Management"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019078,
+      "status": "candidate",
+      "text": "jyo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019076,
+      "status": "candidate",
+      "text": "rakuware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019075,
+      "status": "candidate",
+      "text": "rakugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019074,
+      "status": "candidate",
+      "text": "ryuteki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019073,
+      "status": "candidate",
+      "text": "ramequin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "raku",
+  "concept_id": "raku",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ugexe/zef"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raku",
+      "sense_id": "raku#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A parser combinator library written in the Swift programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parser-combinators",
+      "sense_id": "parser-combinators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "parser-combinators",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parser-combinators",
+  "observation_id": "fad5ee354bbf0f10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "parser-combinators",
+  "source_context_snippet": "SwiftParsec is a Swift port of the [Parsec](https://github.com/aslatter/parsec) parser combinator library. It allows the creation of sophisticated parsers from a set of simple parsers. It is also easy to extend the available parsers. The parsers are fully integrated into the lan\u2026",
+  "source_file": null,
+  "source_repo": "davedufresne/SwiftParsec",
+  "source_repo_description": "A parser combinator library written in the Swift programming language."
+}

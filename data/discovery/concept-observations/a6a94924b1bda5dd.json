@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Logo](docs/logo@2x.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032682,
+      "status": "candidate",
+      "text": "electronic image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032681,
+      "status": "candidate",
+      "text": "raster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006133,
+      "status": "candidate",
+      "text": "offscreen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035698,
+      "status": "candidate",
+      "text": "bit map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035697,
+      "status": "candidate",
+      "text": "bitmapping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitmap",
+      "sense_id": "bitmap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "electronic image"
+    }
+  ],
+  "concept_id": "bitmap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bitmap",
+  "observation_id": "a6a94924b1bda5dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "bitmap",
+  "source_context_snippet": "![Logo](docs/logo@2x.png)",
+  "source_file": null,
+  "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+  "source_repo_description": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+}

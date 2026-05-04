@@ -351,23 +351,16 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PDFMathTranslate/PDFMathTranslate",
-      "target": "susyustc/mathtranslate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PDFMathTranslate/PDFMathTranslate",
-      "target": "satbyy/go-noto-universal",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
-      "target": "satbyy/go-noto-universal",
+      "target": "timelic/source-han-serif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "byaidu/pdfmathtranslate",
       "target_type": "repository"
     },
     {
@@ -728,7 +721,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:37:33.023784+00:00",
+  "fetched_at": "2026-05-04T00:50:59.761445+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -777,7 +770,7 @@
     "html_url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
     "language": "Python",
     "pushed_at": "2026-04-20T15:08:23Z",
-    "stargazers_count": 33489,
+    "stargazers_count": 33490,
     "topics": [
       "chinese",
       "document",
@@ -799,7 +792,7 @@
       "translation",
       "zotero"
     ],
-    "updated_at": "2026-05-03T17:01:00Z"
+    "updated_at": "2026-05-03T23:50:40Z"
   },
   "repo_links": [
     {
@@ -809,18 +802,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "satbyy/go-noto-universal",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "susyustc/mathtranslate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "satbyy/go-noto-universal",
+      "full_name": "timelic/source-han-serif",
       "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byaidu/pdfmathtranslate",
+      "source_file": "pyproject.toml"
     }
   ],
   "terms": [

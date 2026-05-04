@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:05:32.894783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "interactive-instruments/ldproxy-community",
+    "html_url": "https://github.com/interactive-instruments/ldproxy-community",
+    "language": "Java",
+    "pushed_at": "2021-08-04T10:05:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-01-28T01:42:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

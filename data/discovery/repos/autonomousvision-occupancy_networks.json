@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/occupancy_networks",
+      "target": "davidstutz/mesh-fusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:47:02.943831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains the code for the paper \"Occupancy Networks - Learning 3D Reconstruction in Function Space\"",
+    "fork": false,
+    "full_name": "autonomousvision/occupancy_networks",
+    "html_url": "https://github.com/autonomousvision/occupancy_networks",
+    "language": "Python",
+    "pushed_at": "2023-06-27T00:23:54Z",
+    "stargazers_count": 1656,
+    "topics": [],
+    "updated_at": "2026-04-23T08:20:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidstutz/mesh-fusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -343,6 +343,18 @@
       "source_repo": "offline-ai/cli",
       "status": "candidate-context",
       "text": "> \u3010English|[\u4e2d\u6587](./README.cn.md)\u3011"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pythops/tenere",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 TUI for LLMs "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pythops/tenere",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "offline-ai/cli",
       "status": "candidate",
       "text": "> \u3010English|[\u4e2d\u6587](./README.cn.md)\u3011"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pythops/tenere",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +814,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "pythops/tenere"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

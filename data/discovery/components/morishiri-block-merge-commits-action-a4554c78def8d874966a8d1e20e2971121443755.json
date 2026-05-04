@@ -1,0 +1,12 @@
+{
+  "component": "Morishiri/block-merge-commits-action@a4554c78def8d874966a8d1e20e2971121443755",
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/block-merge-commits.yml",
+      "source_repo": "phpstan/phpstan-src"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Luacheck",
-    "LuaCheck"
+    "LuaCheck",
+    "luacheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -104,6 +105,18 @@
       "source_repo": "chentoast/marks.nvim",
       "status": "candidate-context",
       "text": "LuaCheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "Lua implementation of Project Fluent https://projectfluent.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate-context",
+      "text": "luacheck"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +167,12 @@
       "source_repo": "chentoast/marks.nvim",
       "status": "candidate",
       "text": "LuaCheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alerque/fluent-lua",
+      "status": "candidate",
+      "text": "luacheck"
     }
   ],
   "candidate_related_terms": [],
@@ -215,11 +234,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/luacheck.yml",
       "source_repo": "chentoast/marks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "alerque/fluent-lua"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "drag-and-drop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Your Drag & Drop Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate-context",
+      "text": "Gladys"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/Gladys",
+      "status": "candidate",
+      "text": "Gladys"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018831,
+      "status": "candidate",
+      "text": "drag and drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018830,
+      "status": "candidate",
+      "text": "drag-drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018829,
+      "status": "candidate",
+      "text": "draggable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018828,
+      "status": "candidate",
+      "text": "droppable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10018827,
+      "status": "candidate",
+      "text": "sortable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "drag-and-drop",
+  "concept_id": "drag-and-drop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys"
+    }
+  ],
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "drag-and-drop",
+      "sense_id": "drag-and-drop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -115,6 +115,18 @@
       "source_repo": "OpenGVLab/Multi-Modality-Arena",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "Simple command line tool for text to image generation using OpenAI's CLIP and Siren (Implicit neural representation network). Technique was originally created by https://twitter.com/advadnoun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate-context",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "OpenGVLab/Multi-Modality-Arena",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"./CVLAB/style/img/Opengvlab_LOGO.svg\" width=\"400\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/deep-daze",
+      "status": "candidate",
+      "text": "<img src=\"./samples/Mist_over_green_hills.jpg\" width=\"256px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +322,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/deep-daze"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

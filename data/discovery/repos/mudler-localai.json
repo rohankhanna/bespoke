@@ -31,12 +31,12 @@
       "source_file": ".github/workflows/backend.yml"
     },
     {
-      "component": "jlumbroso/free-disk-space@main",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
     {
-      "component": "actions/checkout@v6",
+      "component": "jlumbroso/free-disk-space@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml"
     },
@@ -294,14 +294,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "jlumbroso/free-disk-space@main",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build.yml",
       "source_repo": "mudler/LocalAI",
-      "target": "actions/checkout@v6",
+      "target": "jlumbroso/free-disk-space@main",
       "target_type": "component"
     },
     {
@@ -578,7 +578,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T20:36:36.205544+00:00",
+  "fetched_at": "2026-05-04T01:56:04.292518+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -586,7 +586,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 15158
+      "size": 15770
     },
     {
       "path": "go.mod",
@@ -598,7 +598,7 @@
     },
     {
       "path": ".github/workflows/backend_build.yml",
-      "size": 9974
+      "size": 10084
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
@@ -610,7 +610,7 @@
     },
     {
       "path": ".github/workflows/build-test.yaml",
-      "size": 1633
+      "size": 1731
     },
     {
       "path": ".github/workflows/bump-inference-defaults.yml",
@@ -630,8 +630,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-05-03T20:34:55Z",
-    "stargazers_count": 46030,
+    "pushed_at": "2026-05-03T23:36:48Z",
+    "stargazers_count": 46033,
     "topics": [
       "agents",
       "ai",
@@ -652,7 +652,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-05-03T19:05:01Z"
+    "updated_at": "2026-05-04T01:17:59Z"
   },
   "repo_links": [
     {

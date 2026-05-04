@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tools.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tools.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-tools.yml",
+      "source_repo": "ihmcrobotics/repository-group",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-tools.yml",
+      "source_repo": "ihmcrobotics/repository-group",
+      "target": "Test tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:53:40.266202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3038
+    },
+    {
+      "path": ".github/workflows/test-tools.yml",
+      "size": 1445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Gradle files for importing multi-repository builds into IDEs.",
+    "fork": false,
+    "full_name": "ihmcrobotics/repository-group",
+    "html_url": "https://github.com/ihmcrobotics/repository-group",
+    "language": "Shell",
+    "pushed_at": "2026-04-16T23:46:25Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-03T16:19:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test tools",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-tools.yml",
+      "term": "Test tools"
+    }
+  ]
+}

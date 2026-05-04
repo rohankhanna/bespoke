@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugins to interface Gazebo with YARP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "gazebo-yarp-plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "gazebo-yarp-plugins"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robotics-simulation",
+      "sense_id": "robotics-simulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "robotics-simulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robotics-simulation",
+  "observation_id": "c48463c375233a96",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "robotics-simulation",
+  "source_context_snippet": "gazebo-yarp-plugins",
+  "source_file": null,
+  "source_repo": "robotology/gazebo-yarp-plugins",
+  "source_repo_description": "Plugins to interface Gazebo with YARP."
+}

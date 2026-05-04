@@ -385,6 +385,18 @@
       "source_repo": "daeh/zotero-markdb-connect",
       "status": "candidate-context",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate-context",
+      "text": "A Python library to retrieve annotations and notes from Zotero and save them into Markdown files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate-context",
+      "text": "Generate Markdown files from Zotero annotations and notes."
     }
   ],
   "candidate_glosses": [
@@ -579,6 +591,12 @@
       "source_repo": "daeh/zotero-markdb-connect",
       "status": "candidate",
       "text": "[![GitHub release (latest by date)](https://img.shields.io/github/v/release/daeh/zotero-markdb-connect?style=for-the-badge)](https://github.com/daeh/zotero-markdb-connect/releases/latest) [![GitHub Downloads all releases](https://img.shields.io/github/downloads/daeh/zotero-markd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "e-alizadeh/Zotero2MD",
+      "status": "candidate",
+      "text": "Generate Markdown files from Zotero annotations and notes."
     }
   ],
   "candidate_related_terms": [
@@ -856,11 +874,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "daeh/zotero-markdb-connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "e-alizadeh/Zotero2MD"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

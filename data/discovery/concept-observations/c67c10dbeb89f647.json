@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "architecture-search",
+      "sense_id": "architecture-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "architecture-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "architecture-search",
+  "observation_id": "c67c10dbeb89f647",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "architecture-search",
+  "source_context_snippet": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn).",
+  "source_file": null,
+  "source_repo": "mit-han-lab/spvnas",
+  "source_repo_description": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+}

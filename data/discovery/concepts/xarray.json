@@ -19,6 +19,18 @@
       "source_repo": "cubed-dev/cubed",
       "status": "candidate-context",
       "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate-context",
+      "text": "geospatial xarray extension powered by rasterio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate-context",
+      "text": "================"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cubed-dev/cubed",
       "status": "candidate",
       "text": "![Cubed](docs/_static/cubed-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corteva/rioxarray",
+      "status": "candidate",
+      "text": "================"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "cubed-dev/cubed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "corteva/rioxarray"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

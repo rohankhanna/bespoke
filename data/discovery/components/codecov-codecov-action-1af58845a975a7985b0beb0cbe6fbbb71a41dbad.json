@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@1af58845a975a7985b0beb0cbe6fbbb71a41dbad",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "hypnoglow/helm-s3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "zarr-developers/zarr-python"
     }
   ]
 }

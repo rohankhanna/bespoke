@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikewest/http-state-tokens",
+      "target": "mikewest/cookies-over-http-bad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikewest/http-state-tokens",
+      "target": "mikewest/sec-metadata",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:10:14.653639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Incrementally better HTTP state management.",
+    "fork": false,
+    "full_name": "mikewest/http-state-tokens",
+    "html_url": "https://github.com/mikewest/http-state-tokens",
+    "language": "HTML",
+    "pushed_at": "2022-09-07T15:51:27Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-04-23T11:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikewest/cookies-over-http-bad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikewest/sec-metadata",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

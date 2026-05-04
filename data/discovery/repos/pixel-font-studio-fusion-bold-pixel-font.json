@@ -1,0 +1,430 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "hicchicc/x8y12pxdenkichip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/configure-pages@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/upload-pages-artifact@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/deploy-pages@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "softprops/action-gh-release@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "bitmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "bitmap-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "chinese-simplified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "chinese-traditional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "cjk-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "cjk-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "korean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "pixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "pixel-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "target": "pixel-fonts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:24.023133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2207
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 897
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53",
+    "fork": false,
+    "full_name": "pixel-font-studio/fusion-bold-pixel-font",
+    "html_url": "https://github.com/pixel-font-studio/fusion-bold-pixel-font",
+    "language": "HTML",
+    "pushed_at": "2026-05-02T19:54:40Z",
+    "stargazers_count": 4,
+    "topics": [
+      "bitmap",
+      "bitmap-font",
+      "bitmap-fonts",
+      "chinese",
+      "chinese-simplified",
+      "chinese-traditional",
+      "cjk",
+      "cjk-font",
+      "cjk-fonts",
+      "font",
+      "fonts",
+      "japanese",
+      "korean",
+      "pixel",
+      "pixel-font",
+      "pixel-fonts"
+    ],
+    "updated_at": "2026-05-02T19:54:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hicchicc/x8y12pxdenkichip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Pages"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-fonts"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-simplified"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-traditional"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-font"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-fonts"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "korean"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-font"
+    },
+    {
+      "context_snippet": "![Logo](docs/logo@2x.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-fonts"
+    }
+  ]
+}

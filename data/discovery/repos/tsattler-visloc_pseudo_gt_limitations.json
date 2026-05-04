@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T01:47:01.344721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tsattler/visloc_pseudo_gt_limitations",
+    "html_url": "https://github.com/tsattler/visloc_pseudo_gt_limitations",
+    "language": "Python",
+    "pushed_at": "2022-02-09T10:28:33Z",
+    "stargazers_count": 73,
+    "topics": [],
+    "updated_at": "2026-04-15T02:19:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

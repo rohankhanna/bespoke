@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Set of 14 \u00d7 14 px monochrome CC BY map icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iconset",
+      "sense_id": "iconset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iconset",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iconset",
+  "observation_id": "e56c0a74eb5794a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "iconset",
+  "source_context_snippet": "R\u00f6ntgen is a set of monochrome 14 \u00d7 14 px pixel-aligned icons. All icons are",
+  "source_file": null,
+  "source_repo": "enzet/Roentgen",
+  "source_repo_description": "Set of 14 \u00d7 14 px monochrome CC BY map icons"
+}

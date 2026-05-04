@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "ifromeast/cuda_learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "bruce-lee-ly/cuda_hgemm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "liu-xiandong/how_to_optimize_in_gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "bbuf/how-to-optim-algorithm-in-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "actions/stale@v9.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue.yml",
+      "source_repo": "DefTruth/CUDA-Learn-Notes",
+      "target": "issues",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "DefTruth/CUDA-Learn-Notes"
+}

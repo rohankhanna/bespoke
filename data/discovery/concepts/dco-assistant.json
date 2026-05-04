@@ -67,6 +67,18 @@
       "source_repo": "carbon-design-system/carbon-charts",
       "status": "candidate-context",
       "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibm-telemetry/telemetry-config-schema",
+      "status": "candidate-context",
+      "text": "Config file schema and associated utilities for IBM Telemetry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibm-telemetry/telemetry-config-schema",
+      "status": "candidate-context",
+      "text": "'DCO Assistant'"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "carbon-design-system/carbon-charts",
+      "status": "candidate",
+      "text": "'DCO Assistant'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibm-telemetry/telemetry-config-schema",
       "status": "candidate",
       "text": "'DCO Assistant'"
     }
@@ -172,11 +190,23 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "carbon-design-system/carbon-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "ibm-telemetry/telemetry-config-schema"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

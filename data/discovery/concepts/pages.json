@@ -184,6 +184,18 @@
       "source_repo": "TakWolf/fusion-pixel-font",
       "status": "candidate-context",
       "text": "Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "\u7f1d\u5408\u7c97\u50cf\u7d20\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
+      "status": "candidate-context",
+      "text": "Pages"
     }
   ],
   "candidate_glosses": [
@@ -274,6 +286,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TakWolf/fusion-pixel-font",
+      "status": "candidate",
+      "text": "Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font",
       "status": "candidate",
       "text": "Pages"
     }
@@ -415,11 +433,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "facebook/Rapid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "pixel-font-studio/fusion-bold-pixel-font"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

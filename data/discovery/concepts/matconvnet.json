@@ -43,6 +43,18 @@
       "source_repo": "filipradenovic/cnnimageretrieval",
       "status": "candidate-context",
       "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate-context",
+      "text": "TOMM2017 A Discriminatively Learned CNN Embedding for Person Re-identification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate-context",
+      "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "filipradenovic/cnnimageretrieval",
       "status": "candidate",
       "text": "This is a MATLAB toolbox that implements the training and testing of the approach described in our papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "layumi/2016_person_re-ID",
+      "status": "candidate",
+      "text": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "filipradenovic/cnnimageretrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

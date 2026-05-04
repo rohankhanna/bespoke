@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ACh-K/Cubic-11",
+      "target": "chinese-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ACh-K/Cubic-11",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ACh-K/Cubic-11",
+      "target": "pixel-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:17.673041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u514d\u8cbb\u958b\u6e90\u7684 11\u00d711 \u4e2d\u6587\u9ede\u9663\u9ad4",
+    "fork": false,
+    "full_name": "ACh-K/Cubic-11",
+    "html_url": "https://github.com/ACh-K/Cubic-11",
+    "language": null,
+    "pushed_at": "2025-12-30T04:50:09Z",
+    "stargazers_count": 1641,
+    "topics": [
+      "chinese-fonts",
+      "font",
+      "pixel-font"
+    ],
+    "updated_at": "2026-05-03T16:44:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-fonts"
+    },
+    {
+      "context_snippet": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![\u4fd0\u65b9\u9ad4 1 Cropped](https://user-images.githubusercontent.com/98224334/150672562-738b36e4-35c1-40b4-a2e5-f14f28e7d4cb.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel-font"
+    }
+  ]
+}

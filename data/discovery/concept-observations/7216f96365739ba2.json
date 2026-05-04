@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Industry standard API mocking for JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004974,
+      "status": "candidate",
+      "text": "jeering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004930,
+      "status": "candidate",
+      "text": "gibelike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004631,
+      "status": "candidate",
+      "text": "taunting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004427,
+      "status": "candidate",
+      "text": "teasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003291,
+      "status": "candidate",
+      "text": "derisive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mocking",
+      "sense_id": "mocking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58031,
+      "status": "candidate",
+      "text": "derisive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37031,
+      "status": "candidate",
+      "text": "playful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30024,
+      "status": "candidate",
+      "text": "jeering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26028,
+      "status": "candidate",
+      "text": "teasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23030,
+      "status": "candidate",
+      "text": "quizzical"
+    }
+  ],
+  "concept_id": "mocking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mocking",
+  "observation_id": "7216f96365739ba2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "mocking",
+  "source_context_snippet": "<br />",
+  "source_file": null,
+  "source_repo": "mswjs/msw",
+  "source_repo_description": "Industry standard API mocking for JavaScript."
+}

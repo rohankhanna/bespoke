@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depth-camera",
+      "sense_id": "depth-camera#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "depth-camera",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "depth-camera",
+  "observation_id": "3fd8e4ca626be3bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
+  "observed_text": "depth-camera",
+  "source_context_snippet": "<img src=\"images/fusion-movie.gif\" height=250px align=\"right\"/>",
+  "source_file": null,
+  "source_repo": "andyzeng/tsdf-fusion-python",
+  "source_repo_description": "Python code to fuse multiple RGB-D images into a TSDF voxel volume."
+}

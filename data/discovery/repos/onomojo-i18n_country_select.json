@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:58:09.734327+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rails select form helper using country codes for I18n translations",
+    "fork": true,
+    "full_name": "onomojo/i18n_country_select",
+    "html_url": "https://github.com/onomojo/i18n_country_select",
+    "language": "Ruby",
+    "pushed_at": "2022-02-14T07:46:05Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2023-04-04T19:35:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

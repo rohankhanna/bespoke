@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release Packages",
-    "Release packages"
+    "Release packages",
+    "release-packages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "yamachu/VoicevoxCoreSharp",
       "status": "candidate-context",
       "text": "Release packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "Data annotation component library --provided as NPM packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate-context",
+      "text": "release-packages"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "yamachu/VoicevoxCoreSharp",
       "status": "candidate",
       "text": "Release packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opendatalab/labelU-Kit",
+      "status": "candidate",
+      "text": "release-packages"
     }
   ],
   "candidate_related_terms": [
@@ -149,11 +168,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "yamachu/VoicevoxCoreSharp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/release-packages.yml",
+      "source_repo": "opendatalab/labelU-Kit"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

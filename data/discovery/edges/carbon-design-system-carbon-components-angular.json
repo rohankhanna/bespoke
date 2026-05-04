@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-angular",
-      "target": "ngx-translate/core",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "carbon-design-system/carbon-components-angular",
-      "target": "ibm-telemetry/telemetry-js",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "carbon-design-system/carbon-components-angular",
@@ -715,6 +701,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
   "source_repo": "carbon-design-system/carbon-components-angular"
 }

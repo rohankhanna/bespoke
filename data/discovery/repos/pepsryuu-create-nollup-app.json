@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "PepsRyuu/create-nollup-app",
+      "target": "fs-extra",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:10:00.176494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 654
+    },
+    {
+      "path": "package.json",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "PepsRyuu/create-nollup-app",
+    "html_url": "https://github.com/PepsRyuu/create-nollup-app",
+    "language": "JavaScript",
+    "pushed_at": "2021-09-10T16:29:25Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2022-09-18T07:53:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

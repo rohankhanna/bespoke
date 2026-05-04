@@ -103,6 +103,18 @@
       "source_repo": "gbionics/resolve-robotics-uri-py",
       "status": "candidate-context",
       "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate-context",
+      "text": "Generate URDF models from CREO mechanisms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate-context",
+      "text": "Generate URDF model from CREO Parametric mechanisms."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "gbionics/resolve-robotics-uri-py",
       "status": "candidate",
       "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesh-iit/creo2urdf",
+      "status": "candidate",
+      "text": "Generate URDF model from CREO Parametric mechanisms."
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +262,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mesh-iit/creo2urdf"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

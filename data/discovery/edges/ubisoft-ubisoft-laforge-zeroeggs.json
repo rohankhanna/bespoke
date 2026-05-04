@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ubisoft/ubisoft-laforge-ZeroEGGS",
+      "target": "character-animation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "ubisoft/ubisoft-laforge-ZeroEGGS"
+}

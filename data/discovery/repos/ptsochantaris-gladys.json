@@ -1,0 +1,208 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "ptsochantaris/lista",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "ptsochantaris/semalot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "ptsochantaris/maintini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "cloud-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "cloudkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "drag-and-drop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "ipad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ptsochantaris/Gladys",
+      "target": "watchos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:49:33.372634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Your Drag & Drop Assistant",
+    "fork": false,
+    "full_name": "ptsochantaris/Gladys",
+    "html_url": "https://github.com/ptsochantaris/Gladys",
+    "language": "Swift",
+    "pushed_at": "2026-04-12T20:31:50Z",
+    "stargazers_count": 51,
+    "topics": [
+      "cloud-sync",
+      "cloudkit",
+      "desktop",
+      "drag-and-drop",
+      "ios",
+      "ipad",
+      "macos",
+      "productivity",
+      "swift",
+      "visionos",
+      "watchos"
+    ],
+    "updated_at": "2026-04-12T20:31:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/lista",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/maintini",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/semalot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-sync"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudkit"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drag-and-drop"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipad"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visionos"
+    },
+    {
+      "context_snippet": "Gladys",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    }
+  ]
+}

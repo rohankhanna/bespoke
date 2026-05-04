@@ -84,7 +84,7 @@
   "normalized_form": "dco-assistant",
   "observation_id": "8f6b0007b32ace4b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "DCO Assistant",
   "source_context_snippet": "'DCO Assistant'",
   "source_file": ".github/workflows/dco.yml",

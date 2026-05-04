@@ -84,7 +84,7 @@
   "normalized_form": "cross-agent-integration-tests",
   "observation_id": "3e2db9a8427d7052",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "\ud83d\udd17 Cross-Agent Integration Tests",
   "source_context_snippet": "\ud83d\udd17 Cross-Agent Integration Tests",
   "source_file": ".github/workflows/integration-tests.yml",

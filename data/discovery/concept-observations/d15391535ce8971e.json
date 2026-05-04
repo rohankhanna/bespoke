@@ -84,7 +84,7 @@
   "normalized_form": "publish-any-commit",
   "observation_id": "d15391535ce8971e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T18:24:01.791245+00:00",
+  "observed_at": "2026-05-04T00:37:27.522097+00:00",
   "observed_text": "Publish Any Commit",
   "source_context_snippet": "Publish Any Commit",
   "source_file": ".github/workflows/release-commit.yml",

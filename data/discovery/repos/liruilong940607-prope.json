@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liruilong940607/prope",
+      "target": "multi-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liruilong940607/prope",
+      "target": "positional-encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liruilong940607/prope",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T00:43:38.014701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cameras as Relative Positional Encoding",
+    "fork": false,
+    "full_name": "liruilong940607/prope",
+    "html_url": "https://github.com/liruilong940607/prope",
+    "language": "Python",
+    "pushed_at": "2025-12-18T19:35:23Z",
+    "stargazers_count": 710,
+    "topics": [
+      "multi-view",
+      "positional-encoding",
+      "transformer"
+    ],
+    "updated_at": "2026-04-24T02:35:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "https://www.liruilong.cn/prope/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view"
+    },
+    {
+      "context_snippet": "https://www.liruilong.cn/prope/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positional-encoding"
+    },
+    {
+      "context_snippet": "https://www.liruilong.cn/prope/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

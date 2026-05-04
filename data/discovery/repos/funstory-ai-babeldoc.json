@@ -174,13 +174,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "funstory-ai/BabelDOC",
-      "target": "oleglpts/prioritythreadpoolexecutor",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "funstory-ai/BabelDOC",
@@ -405,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T19:37:49.277934+00:00",
+  "fetched_at": "2026-05-04T00:51:27.312183+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -454,9 +447,9 @@
     "html_url": "https://github.com/funstory-ai/BabelDOC",
     "language": "Python",
     "pushed_at": "2026-04-13T22:19:45Z",
-    "stargazers_count": 8376,
+    "stargazers_count": 8377,
     "topics": [],
-    "updated_at": "2026-05-03T12:19:43Z"
+    "updated_at": "2026-05-03T23:36:27Z"
   },
   "repo_links": [
     {
@@ -472,11 +465,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "multimeric/asynchronize",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oleglpts/prioritythreadpoolexecutor",
       "source_file": "README.md"
     }
   ],

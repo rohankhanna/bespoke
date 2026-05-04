@@ -2929,6 +2929,66 @@
       "source_repo": "Zielon/MICA",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate-context",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate-context",
+      "text": "[ICCV'25 Best Paper Finalist] ReCamMaster: Camera-Controlled Generative Rendering from A Single Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "Implementation of SqueezeSegV2, Improved Model Structure and Unsupervised Domain Adaptation for Road-Object Segmentation from a LiDAR Point Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate-context",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate-context",
+      "text": "Geometry-Aware Learning of Maps for Camera Localization (CVPR2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate-context",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "Face recognition using Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate-context",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -4395,6 +4455,36 @@
       "source_repo": "Zielon/MICA",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>MICA - Towards Metrical Reconstruction of Human Faces</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/spvnas",
+      "status": "candidate",
+      "text": "* **(2023/3)** SPVNAS is integrated into [MMDetection3D](https://github.com/open-mmlab/mmdetection3d/tree/main/configs/spvcnn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KlingAIResearch/ReCamMaster",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuanyuzhou98/SqueezeSegV2",
+      "status": "candidate",
+      "text": "By Bichen Wu, Xuanyu Zhou, Sicheng Zhao, Xiangyu Yue, Kurt Keutzer (UC Berkeley)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVlabs/geomapnet",
+      "status": "candidate",
+      "text": "[![License CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC4.0-blue.svg)](https://raw.githubusercontent.com/NVIDIA/FastPhotoStyle/master/LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidsandberg/facenet",
+      "status": "candidate",
+      "text": "[travis-image]: http://travis-ci.org/davidsandberg/facenet.svg?branch=master"
     }
   ],
   "candidate_related_terms": [],
@@ -6748,11 +6838,131 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/spvnas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "KlingAIResearch/ReCamMaster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xuanyuzhou98/SqueezeSegV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "lukashermann/hulc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "NVlabs/geomapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "davidsandberg/facenet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

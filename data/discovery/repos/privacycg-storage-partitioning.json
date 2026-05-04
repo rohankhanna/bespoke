@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/storage-partitioning",
+      "target": "shivanigithub/http-cache-partitioning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/storage-partitioning",
+      "target": "httpwg/http-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/storage-partitioning",
+      "target": "privacycg/meetings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "privacycg/storage-partitioning",
+      "target": "w3c/fileapi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T02:10:22.088253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Client-Side Storage Partitioning",
+    "fork": false,
+    "full_name": "privacycg/storage-partitioning",
+    "html_url": "https://github.com/privacycg/storage-partitioning",
+    "language": null,
+    "pushed_at": "2023-05-24T03:26:08Z",
+    "stargazers_count": 104,
+    "topics": [],
+    "updated_at": "2026-05-01T19:46:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "httpwg/http-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/meetings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shivanigithub/http-cache-partitioning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/fileapi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

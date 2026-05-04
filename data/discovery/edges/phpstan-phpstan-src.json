@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "jakejarvis/s3-sync-action@be0c4ab89158cac4278689ebedd8407dd5f35a83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "chetan/invalidate-cloudfront-action@12d242edc7752fca9140c2034be28792ad22c5a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "peter-evans/repository-dispatch@ff45666b9427631e3450c54a1bcbee4d9ff4d7c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ScholliYT/Broken-Links-Crawler-Action@21eab52f98097989d343116dbbd46dc4541b849b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apiref.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "API Reference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backward-compatibility.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Backward Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-merge-commits.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/block-merge-commits.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Morishiri/block-merge-commits-action@a4554c78def8d874966a8d1e20e2971121443755",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/block-merge-commits.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Block merge commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-issue-bot.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Build Issue Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "shivammathur/setup-php@44454db4f0199b8b9685a5d763dc37cbf79108e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "ramsey/composer-install@3cf229dc2919194e9e36783941438d17239e8520",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-generator.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Build Changelog Generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review-dispatch.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Claude React On Review Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-react-on-review.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "Claude React On Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-update-config-parameters-docs-on-change.yml",
+      "source_repo": "phpstan/phpstan-src",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-04T00:37:27.522097+00:00",
+  "source_repo": "phpstan/phpstan-src"
+}

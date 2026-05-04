@@ -128,6 +128,18 @@
       "source_repo": "pytorch/rl",
       "status": "candidate-context",
       "text": "PR Label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate-context",
+      "text": "Cleanly startup and shutdown server application, freeing resources in order before exiting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate-context",
+      "text": "PR label"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +202,12 @@
       "source_repo": "pytorch/rl",
       "status": "candidate",
       "text": "PR Label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swift-server/swift-service-lifecycle",
+      "status": "candidate",
+      "text": "PR label"
     }
   ],
   "candidate_related_terms": [
@@ -293,11 +311,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/auto-tag.yml",
       "source_repo": "pytorch/rl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "swift-server/swift-service-lifecycle"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

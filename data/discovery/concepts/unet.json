@@ -67,6 +67,18 @@
       "source_repo": "MrGiovanni/UNetPlusPlus",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">UNet++</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "MrGiovanni/UNetPlusPlus",
       "status": "candidate",
       "text": "<h1 align=\"center\">UNet++</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "black0017/MedicalZooPytorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,29 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "black0017/MedicalZooPytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

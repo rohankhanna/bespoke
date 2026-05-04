@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dvschultz/stylegan2-ada-pytorch",
+      "target": "justinpinkney/awesome-pretrained-stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dvschultz/stylegan2-ada-pytorch",
+      "target": "eps696/stylegan2ada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dvschultz/stylegan2-ada-pytorch",
+      "target": "justinpinkney/stylegan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dvschultz/stylegan2-ada-pytorch",
+      "target": "dvschultz/stylegan2-ada",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:47:46.834712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29672
+    },
+    {
+      "path": "Dockerfile",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "StyleGAN2-ADA - Official PyTorch implementation",
+    "fork": true,
+    "full_name": "dvschultz/stylegan2-ada-pytorch",
+    "html_url": "https://github.com/dvschultz/stylegan2-ada-pytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-05-10T18:13:35Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-01-23T07:03:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvschultz/stylegan2-ada",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eps696/stylegan2ada",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/awesome-pretrained-stylegan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justinpinkney/stylegan2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

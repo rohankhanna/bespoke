@@ -1111,6 +1111,30 @@
       "source_repo": "mapbox/variant",
       "status": "candidate-context",
       "text": "An header-only alternative to `boost::variant` for C++11 and C++14"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate-context",
+      "text": "C++ parser for CSV file format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate-context",
+      "text": "CSVparser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate-context",
+      "text": "Build vector tilesets from large collections of GeoJSON features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate-context",
+      "text": "tippecanoe"
     }
   ],
   "candidate_glosses": [
@@ -1665,6 +1689,18 @@
       "source_repo": "mapbox/variant",
       "status": "candidate",
       "text": "An header-only alternative to `boost::variant` for C++11 and C++14"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsylvian/CSVparser",
+      "status": "candidate",
+      "text": "CSVparser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/tippecanoe",
+      "status": "candidate",
+      "text": "tippecanoe"
     }
   ],
   "candidate_related_terms": [],
@@ -2662,11 +2698,47 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "rsylvian/CSVparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/tippecanoe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-04T00:37:27.522097+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "lexical_providers": [
     "datamuse"
   ],

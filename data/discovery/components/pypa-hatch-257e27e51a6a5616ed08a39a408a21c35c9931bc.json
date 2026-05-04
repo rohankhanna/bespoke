@@ -1,0 +1,22 @@
+{
+  "component": "pypa/hatch@257e27e51a6a5616ed08a39a408a21c35c9931bc",
+  "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "zarr-developers/zarr-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test.yml",
+      "source_repo": "zarr-developers/zarr-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hypothesis.yaml",
+      "source_repo": "zarr-developers/zarr-python"
+    }
+  ]
+}

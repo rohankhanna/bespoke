@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "ahangchen/rank-reid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "layumi/person-reid-verification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "layumi/person-reid_gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "layumi/pedestrian_alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "matconvnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "matlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "re-id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "layumi/2016_person_re-ID",
+      "target": "tomm2017",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-04T01:56:15.867223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TOMM2017 A Discriminatively Learned CNN Embedding for Person Re-identification",
+    "fork": false,
+    "full_name": "layumi/2016_person_re-ID",
+    "html_url": "https://github.com/layumi/2016_person_re-ID",
+    "language": "C",
+    "pushed_at": "2023-12-03T06:14:17Z",
+    "stargazers_count": 264,
+    "topics": [
+      "matconvnet",
+      "matlab",
+      "person-reidentification",
+      "re-id",
+      "reidentification",
+      "tomm2017"
+    ],
+    "updated_at": "2024-10-25T03:48:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahangchen/rank-reid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/pedestrian_alignment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/person-reid-verification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/person-reid_gan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matconvnet"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matlab"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-id"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reidentification"
+    },
+    {
+      "context_snippet": "![](https://github.com/layumi/2016_person_re-ID/blob/master/paper.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tomm2017"
+    }
+  ]
+}

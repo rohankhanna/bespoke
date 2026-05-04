@@ -51,6 +51,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaPy/PyPlot.jl",
+      "target": "stevengj/pycall.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/PyPlot.jl",
       "target": "cjdoris/pythoncall.jl",
       "target_type": "repository"
     },
@@ -59,13 +66,6 @@
       "source_file": "README.md",
       "source_repo": "JuliaPy/PyPlot.jl",
       "target": "luthaf/conda.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPy/PyPlot.jl",
-      "target": "juliagraphics/colortypes.jl",
       "target_type": "repository"
     },
     {
@@ -174,7 +174,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:28:07.590131+00:00",
+  "fetched_at": "2026-05-04T02:07:17.120718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -217,17 +217,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliagraphics/colortypes.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "luthaf/conda.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "stevengj/latexstrings.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevengj/pycall.jl",
       "source_file": "README.md"
     }
   ],

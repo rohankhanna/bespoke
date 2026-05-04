@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-04T00:40:59.125259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2017
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of HighRes3DNet",
+    "fork": false,
+    "full_name": "fepegar/highresnet",
+    "html_url": "https://github.com/fepegar/highresnet",
+    "language": "Python",
+    "pushed_at": "2025-07-19T21:06:35Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-03-16T22:57:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}
