@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 10
-- components: 36
-- concepts: 10
-- observations: 11
+- repos: 11
+- terms: 12
+- components: 42
+- concepts: 12
+- observations: 13
 
 ## Static behavior
 
@@ -29,6 +29,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |
@@ -43,6 +45,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [arckoor/botan-rs](https://github.com/arckoor/botan-rs) | 0 | 2026-03-26T12:38:30Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [beurdouche/nss-gk-api](https://github.com/beurdouche/nss-gk-api) | 0 | 2026-03-25T15:33:55Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [vaporif/rvx](https://github.com/vaporif/rvx) | 0 | 2026-03-20T18:15:45Z | Rust | Infrastructure/tooling | 5 | 11 | 5 | 5 |

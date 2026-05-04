@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 10,
-    "terms": 14
+    "components": 95,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 12,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-compiler",
     "alexpolonsky/agent-skill-maccabi-pharm-search",
     "ansible-community/presentations",
     "apostrophecms/starter-kit-astro-essentials",
+    "browserslist/browserslist-plausible",
     "coderaiser/escover",
     "cpojer/js-codemod",
     "hchiam/chat-app-fcc-react-redux",
     "hchiam/learning-redux",
     "hchiam/react-jexcel-redux",
-    "heshengtao/desktop-for-sap"
+    "heshengtao/desktop-for-sap",
+    "tc39/proposal-intl-keep-trailing-zeros"
   ]
 }

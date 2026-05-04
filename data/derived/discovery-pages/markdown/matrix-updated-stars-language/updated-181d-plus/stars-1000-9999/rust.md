@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 214
-- components: 203
-- concepts: 216
-- observations: 219
+- repos: 55
+- terms: 243
+- components: 226
+- concepts: 245
+- observations: 249
 
 ## Static behavior
 
@@ -32,16 +32,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lnx-search/lnx](https://github.com/lnx-search/lnx) | 1443 | 2025-10-14T23:51:26Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 10 |
 | [autozimu/LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim) | 3556 | 2025-10-09T09:24:43Z | Rust | CLI | 6 | 0 | 6 | 6 |
 | [johnthagen/min-sized-rust](https://github.com/johnthagen/min-sized-rust) | 9737 | 2025-10-03T10:20:49Z | Rust | Infrastructure/tooling | 8 | 2 | 8 | 8 |
+| [cnosdb/cnosdb](https://github.com/cnosdb/cnosdb) | 1751 | 2025-09-26T07:27:53Z | Rust | Infrastructure/tooling | 13 | 8 | 13 | 14 |
 | [ezrosent/frawk](https://github.com/ezrosent/frawk) | 1297 | 2025-09-26T04:45:49Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [stepancheg/rust-protobuf](https://github.com/stepancheg/rust-protobuf) | 2973 | 2025-09-21T22:00:37Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [g1mv/density](https://github.com/g1mv/density) | 1043 | 2025-09-16T09:12:50Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [glium/glium](https://github.com/glium/glium) | 3610 | 2025-08-19T12:13:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [async-rs/async-std](https://github.com/async-rs/async-std) | 4066 | 2025-08-15T01:44:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [risinglightdb/risinglight](https://github.com/risinglightdb/risinglight) | 1833 | 2025-08-10T04:37:32Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [EmbarkStudios/kajiya](https://github.com/EmbarkStudios/kajiya) | 5321 | 2025-07-07T21:27:20Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mooman219/fontdue](https://github.com/mooman219/fontdue) | 1625 | 2025-05-25T08:34:03Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [mtshiba/pylyzer](https://github.com/mtshiba/pylyzer) | 2869 | 2025-05-10T02:10:33Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 8 |
 | [askama-rs/askama-old](https://github.com/askama-rs/askama-old) | 3546 | 2025-03-11T19:57:06Z | Rust | Unknown | 5 | 0 | 5 | 5 |
 | [jrmuizel/raqote](https://github.com/jrmuizel/raqote) | 1177 | 2025-02-11T17:49:11Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [igor-petruk/scriptisto](https://github.com/igor-petruk/scriptisto) | 1083 | 2025-02-08T18:22:28Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [EmbarkStudios/rust-ecosystem](https://github.com/EmbarkStudios/rust-ecosystem) | 1026 | 2025-01-22T14:10:57Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [watchexec/cargo-watch](https://github.com/watchexec/cargo-watch) | 2861 | 2025-01-14T14:57:47Z | Rust | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [BurntSushi/walkdir](https://github.com/BurntSushi/walkdir) | 1499 | 2024-12-31T13:29:59Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -71,6 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [racer-rust/racer](https://github.com/racer-rust/racer) | 3352 | 2023-11-19T23:31:16Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [gfx-rs/naga](https://github.com/gfx-rs/naga) | 1565 | 2023-11-09T17:57:01Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [jameslittle230/stork](https://github.com/jameslittle230/stork) | 2756 | 2023-07-01T14:15:45Z | Rust | Infrastructure/tooling | 9 | 38 | 9 | 9 |
+| [zargony/fuse-rs](https://github.com/zargony/fuse-rs) | 1138 | 2023-05-23T09:19:59Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [japaric/xargo](https://github.com/japaric/xargo) | 1132 | 2023-05-02T22:57:39Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gfx-rs/gfx](https://github.com/gfx-rs/gfx) | 5401 | 2023-02-27T01:05:58Z | Rust | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [vislyhq/stretch](https://github.com/vislyhq/stretch) | 2031 | 2023-01-26T16:14:25Z | Rust | Unknown | 4 | 0 | 4 | 4 |
@@ -110,6 +114,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [BurntSushi/rust-csv](https://github.com/BurntSushi/rust-csv) | 1927 | 2025-10-17T13:56:11Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [chelsea0x3b/dfdx](https://github.com/chelsea0x3b/dfdx) | 1909 | 2024-07-23T02:05:58Z | Rust | Infrastructure/tooling | 18 | 4 | 18 | 18 |
 | [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) | 1835 | 2024-08-14T18:24:30Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [risinglightdb/risinglight](https://github.com/risinglightdb/risinglight) | 1833 | 2025-08-10T04:37:32Z | Rust | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [cnosdb/cnosdb](https://github.com/cnosdb/cnosdb) | 1751 | 2025-09-26T07:27:53Z | Rust | Infrastructure/tooling | 13 | 8 | 13 | 14 |
 | [gfx-rs/wgpu-rs](https://github.com/gfx-rs/wgpu-rs) | 1676 | 2021-06-03T01:59:24Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [RazrFalcon/svgcleaner](https://github.com/RazrFalcon/svgcleaner) | 1669 | 2021-10-30T13:53:34Z | Rust | Unknown | 2 | 0 | 2 | 2 |
 | [mooman219/fontdue](https://github.com/mooman219/fontdue) | 1625 | 2025-05-25T08:34:03Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
@@ -125,8 +131,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jrmuizel/raqote](https://github.com/jrmuizel/raqote) | 1177 | 2025-02-11T17:49:11Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [nvarner/typst-lsp](https://github.com/nvarner/typst-lsp) | 1157 | 2024-11-05T06:22:11Z | Rust | Infrastructure/tooling | 7 | 12 | 7 | 7 |
 | [hecrj/coffee](https://github.com/hecrj/coffee) | 1143 | 2024-03-03T11:30:40Z | Rust | Infrastructure/tooling | 7 | 2 | 8 | 8 |
+| [zargony/fuse-rs](https://github.com/zargony/fuse-rs) | 1138 | 2023-05-23T09:19:59Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [japaric/xargo](https://github.com/japaric/xargo) | 1132 | 2023-05-02T22:57:39Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [koute/cargo-web](https://github.com/koute/cargo-web) | 1112 | 2023-11-29T04:25:09Z | Rust | CLI | 5 | 0 | 5 | 5 |
+| [igor-petruk/scriptisto](https://github.com/igor-petruk/scriptisto) | 1083 | 2025-02-08T18:22:28Z | Rust | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [fcsonline/tmux-thumbs](https://github.com/fcsonline/tmux-thumbs) | 1065 | 2024-04-20T05:12:22Z | Rust | Infrastructure/tooling | 7 | 8 | 7 | 8 |
 | [phsym/prettytable-rs](https://github.com/phsym/prettytable-rs) | 1047 | 2024-09-20T04:41:24Z | Rust | CLI | 3 | 0 | 3 | 3 |
 | [g1mv/density](https://github.com/g1mv/density) | 1043 | 2025-09-16T09:12:50Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |

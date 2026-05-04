@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 17,
-    "terms": 24
+    "components": 20,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 19,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "AppImage/AppImageSpec",
     "aquasecurity/setup-trivy",
     "bpftrace/user-tools",
     "clearml/clearml-fractional-gpu",
@@ -24,12 +25,13 @@
     "cta-wave/WMAS",
     "dragonflyoss/community",
     "getsentry/.github",
-    "googlefonts/emoji-metadata",
     "grpc/grpc-community",
     "ithiria894/awesome-claude-code-hooks",
     "Lynxe-public/Lynxe-public-prompts",
     "marko-js/examples",
     "opencontainers/tob",
-    "operator-framework/community"
+    "operator-framework/community",
+    "robotology/community",
+    "robotology/mesh-support"
   ]
 }

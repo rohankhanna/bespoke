@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 370,
-    "concepts": 158,
-    "observations": 160,
-    "repos": 21,
-    "terms": 158
+    "components": 674,
+    "concepts": 383,
+    "observations": 385,
+    "repos": 30,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "angular/angular-devkit-architect-builds",
     "boa-dev/data",
@@ -20,19 +20,28 @@
     "dwyl/phoenix-papertrail-demo",
     "fontsource/download-stat-aggregator",
     "j9t/compressorjs-next",
-    "j9t/image-guard",
     "j9t/minifier-benchmarks",
     "kkomelin/isomorphic-dompurify-playgrounds",
-    "ksxnodemodules/static-type-assert",
     "maltsev/html-minifiers-benchmark",
     "oscard0m/ts-transformer-remove-named-export",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
-    "stdlib-js/buffer-ctor",
+    "stdlib-js/array-float32",
+    "stdlib-js/array-float64",
+    "stdlib-js/array-int16",
+    "stdlib-js/array-int32",
+    "stdlib-js/array-int8",
+    "stdlib-js/array-shared-buffer",
+    "stdlib-js/array-uint16",
+    "stdlib-js/array-uint32",
+    "stdlib-js/array-uint8",
+    "stdlib-js/array-uint8c",
     "stdlib-js/math-base-special-erf",
     "stdlib-js/math-base-special-erfc",
     "stdlib-js/math-base-special-erfcinv",
+    "stdlib-js/math-base-special-erfcx",
     "stdlib-js/math-base-special-erfinv",
+    "stdlib-js/repl",
     "thetutlage/static",
     "travi/octokit-auth-netrc"
   ]

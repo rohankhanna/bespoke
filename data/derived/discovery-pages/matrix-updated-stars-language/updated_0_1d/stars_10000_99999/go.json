@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 7,
-    "terms": 82
+    "components": 235,
+    "concepts": 123,
+    "observations": 123,
+    "repos": 8,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "containers/podman",
     "gastownhall/beads",
-    "gastownhall/gastown",
-    "helm/helm",
-    "istio/istio",
+    "go-gitea/gitea",
     "mudler/LocalAI",
-    "redis/go-redis"
+    "QuantumNous/new-api",
+    "rqlite/rqlite",
+    "SagerNet/sing-box",
+    "seaweedfs/seaweedfs",
+    "XTLS/Xray-core"
   ]
 }

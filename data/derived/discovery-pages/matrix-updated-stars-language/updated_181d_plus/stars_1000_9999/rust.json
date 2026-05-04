@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 216,
-    "observations": 219,
-    "repos": 51,
-    "terms": 214
+    "components": 226,
+    "concepts": 245,
+    "observations": 249,
+    "repos": 55,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Aloxaf/silicon",
     "asciinema/agg",
@@ -25,6 +25,7 @@
     "BurntSushi/walkdir",
     "cgag/loc",
     "chelsea0x3b/dfdx",
+    "cnosdb/cnosdb",
     "dgrunwald/rust-cpython",
     "dtolnay/serde-yaml",
     "ebkalderon/tower-lsp",
@@ -44,6 +45,7 @@
     "google-research/deduplicate-text-datasets",
     "hecrj/coffee",
     "http-rs/tide",
+    "igor-petruk/scriptisto",
     "jameslittle230/stork",
     "japaric/xargo",
     "johnthagen/min-sized-rust",
@@ -59,11 +61,13 @@
     "phsym/prettytable-rs",
     "racer-rust/racer",
     "RazrFalcon/svgcleaner",
+    "risinglightdb/risinglight",
     "rust-lang/rls",
     "stepancheg/grpc-rust",
     "stepancheg/rust-protobuf",
     "vislyhq/stretch",
     "watchexec/cargo-watch",
+    "zargony/fuse-rs",
     "zhihu/rucene"
   ]
 }

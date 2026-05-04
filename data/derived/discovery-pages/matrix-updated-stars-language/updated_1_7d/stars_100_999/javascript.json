@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 837,
-    "concepts": 201,
-    "observations": 202,
-    "repos": 37,
-    "terms": 199
+    "components": 1040,
+    "concepts": 228,
+    "observations": 230,
+    "repos": 42,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "all-contributors/app",
     "auth0/node-jwks-rsa",
     "auth0/node-jws",
     "avoidwork/tiny-lru",
+    "aws-cloudformation/cfn-lint-visual-studio-code",
     "Brooooooklyn/snappy",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
@@ -25,6 +26,9 @@
     "digitalocean/openapi",
     "electerm/electerm-web",
     "ember-cli/ember-cli-update",
+    "emberjs/ember-test-helpers",
+    "facebook/Rapid",
+    "firebase/snippets-web",
     "hudochenkov/postcss-sorting",
     "hyparam/icebird",
     "j9t/html-minifier-next",
@@ -32,12 +36,12 @@
     "Kilian/electron-to-chromium",
     "kriszyp/msgpackr",
     "lo-th/phy",
-    "matzkoh/prettier-plugin-packagejson",
     "mdn/data",
     "mdn/fred",
     "mdn/mdn-http-observatory",
     "mozilla/addons-linter",
     "octokit/graphql-schema",
+    "oss-serverless/serverless",
     "postcss/postcss-cli",
     "prisma/ecosystem-tests",
     "reviewdog/action-eslint",
@@ -46,6 +50,7 @@
     "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",
+    "validator/grunt-html",
     "vllm-project/recipes",
     "w3c/webref",
     "webtorrent/bittorrent-protocol",

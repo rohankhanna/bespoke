@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 141,
-    "observations": 144,
-    "repos": 34,
-    "terms": 142
+    "components": 171,
+    "concepts": 154,
+    "observations": 157,
+    "repos": 36,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -37,12 +37,14 @@
     "op-rs/kona",
     "orhun/tuitar",
     "pksunkara/cargo-workspaces",
+    "pythops/tenere",
     "Roblox/foreman",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
     "rust-lang/backtrace-rs",
     "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",
+    "shekohex/allo-isolate",
     "stanislav-tkach/os_info",
     "typst/pdf-writer",
     "walles/riff",

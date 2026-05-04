@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 22,
-    "terms": 74
+    "components": 580,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 27,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,29 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alibaizhanov/openclaw-mengram",
     "analyticsinmotion/wake-word",
     "aporthq/aport-spec",
     "Badisi/wdio-harness",
+    "birdofpreyru/react-starter",
+    "birdofpreyru/react-utils",
     "celo-org/SocialConnect-Twitter",
     "celo-org/SocialConnect-Twitter-Server-Side",
     "curiousdannii/asyncglk",
     "danielrosehill/agent-junction",
-    "danielrosehill/GreenInvoice-MCP",
     "dreamiurg/mountaineers-assistant",
     "ember-cli/ember-addon-blueprint",
+    "enxs969/skiller",
     "hchiam/how-draggable",
     "ipfs/helia-remote-pinning",
+    "kimosahy/railroaded",
+    "klodr/mercury-invoicing-mcp",
     "LogtalkDotOrg/logtalk-for-vscode",
     "neuroverseos/neuroverseos-governance",
     "octokit/openapi-webhooks",
+    "saminiscool/twitter-ai-agent",
     "tnc-ca-geo/animl-api",
     "toyamarinyon/giselle",
     "ublacklist/builtin",

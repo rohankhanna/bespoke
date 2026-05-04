@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 90,
-    "observations": 93,
-    "repos": 14,
-    "terms": 90
+    "components": 98,
+    "concepts": 93,
+    "observations": 96,
+    "repos": 15,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "anordal/shellharden",
@@ -23,6 +23,7 @@
     "godot-rust/gdnative",
     "guillaume-be/rust-bert",
     "helix-editor/nucleo",
+    "imgui-rs/imgui-rs",
     "Morganamilo/paru",
     "nagisa/rust_libloading",
     "tarkah/tickrs",

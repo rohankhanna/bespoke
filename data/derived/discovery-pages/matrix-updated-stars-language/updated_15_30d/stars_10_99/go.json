@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 121,
-    "observations": 123,
-    "repos": 35,
-    "terms": 119
+    "components": 191,
+    "concepts": 133,
+    "observations": 135,
+    "repos": 38,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "abhinav/goldmark-anchor",
@@ -22,7 +22,9 @@
     "apache/dubbo-go-pixiu-samples",
     "appleboy/drone-lambda",
     "apptainer/sif",
+    "Asterisk4Magisk/XrayHelper",
     "benchsci/rules_nodejs_gazelle",
+    "blinklabs-io/bluefin",
     "celo-org/op-geth",
     "cloudfoundry/bbs",
     "cmdjulian/mopy",
@@ -38,6 +40,7 @@
     "ionos-cloud/external-dns-ionos-webhook",
     "ipfs/gateway-conformance",
     "joshsymonds/cc-tools",
+    "magodo/aztft",
     "MicahParks/jwkset",
     "MShekow/directory-checksum",
     "notaryproject/notation-core-go",

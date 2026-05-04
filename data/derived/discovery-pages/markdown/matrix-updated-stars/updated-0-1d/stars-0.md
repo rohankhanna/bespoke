@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 0 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -12,10 +12,10 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 ## Counts
 
 - repos: 2
-- terms: 6
-- components: 16
-- concepts: 6
-- observations: 6
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -25,12 +25,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
-| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
+| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
-| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [danielrosehill/Claude-Agent-Relay-Plugin](https://github.com/danielrosehill/Claude-Agent-Relay-Plugin) | 0 | 2026-05-03T18:35:38Z | Python | Service/API | 0 | 0 | 0 | 0 |
+| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-05-03T15:23:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

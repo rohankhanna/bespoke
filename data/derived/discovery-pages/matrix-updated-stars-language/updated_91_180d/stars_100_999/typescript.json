@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 737,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 28,
-    "terms": 126
+    "components": 764,
+    "concepts": 138,
+    "observations": 138,
+    "repos": 30,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "akshaykmr/teletype",
@@ -27,7 +27,9 @@
     "gajus/eslint-plugin-sql",
     "hyperbrew/bolt-cep",
     "jezweb/roo-commander",
+    "jsonquerylang/jsonquery",
     "kepano/obsidian-hider",
+    "LeDDGroup/typescript-transform-paths",
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",

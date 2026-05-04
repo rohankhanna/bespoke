@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 78
-- terms: 301
-- components: 328
-- concepts: 304
-- observations: 305
+- repos: 80
+- terms: 312
+- components: 338
+- concepts: 315
+- observations: 316
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [JetBrains/gradle-changelog-plugin](https://github.com/JetBrains/gradle-changelog-plugin) | 295 | 2026-03-04T13:23:10Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [ericmj/decimal](https://github.com/ericmj/decimal) | 476 | 2026-03-04T10:01:43Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [lambdalisue/vim-nerdfont](https://github.com/lambdalisue/vim-nerdfont) | 148 | 2026-03-04T03:59:14Z | Other | Infrastructure/tooling | 5 | 4 | 5 | 6 |
 | [vlaaad/reveal](https://github.com/vlaaad/reveal) | 629 | 2026-03-03T21:31:11Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [DarthAffe/StableDiffusion.NET](https://github.com/DarthAffe/StableDiffusion.NET) | 106 | 2026-03-03T20:18:26Z | Other | Infrastructure/tooling | 9 | 11 | 9 | 9 |
@@ -37,6 +39,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-samples/prompt-engineering-with-anthropic-claude-v-3](https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3) | 360 | 2026-03-01T16:54:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [csstools/postcss-normalize](https://github.com/csstools/postcss-normalize) | 837 | 2026-03-01T10:33:03Z | Other | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [ahyatt/emacs-websocket](https://github.com/ahyatt/emacs-websocket) | 348 | 2026-03-01T01:57:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [joshuaulrich/TTR](https://github.com/joshuaulrich/TTR) | 343 | 2026-02-28T19:51:20Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [joshuaulrich/xts](https://github.com/joshuaulrich/xts) | 223 | 2026-02-28T15:02:38Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rubocop/rubocop-performance](https://github.com/rubocop/rubocop-performance) | 728 | 2026-02-28T07:32:33Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [JuliaLang/JuliaSyntax.jl](https://github.com/JuliaLang/JuliaSyntax.jl) | 292 | 2026-02-27T18:15:37Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [Embarcadero/P4D-Data-Sciences](https://github.com/Embarcadero/P4D-Data-Sciences) | 107 | 2026-02-27T10:21:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -102,8 +106,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [yogthos/migratus](https://github.com/yogthos/migratus) | 683 | 2026-02-04T23:49:51Z | Other | Unknown | 2 | 0 | 2 | 2 |
 | [rescript-lang/rescript-vscode](https://github.com/rescript-lang/rescript-vscode) | 351 | 2026-02-04T06:35:35Z | Other | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [wjakob/nanobind_example](https://github.com/wjakob/nanobind_example) | 120 | 2026-02-03T13:35:18Z | Other | Infrastructure/tooling | 2 | 6 | 2 | 2 |
-| [rapidsai-community/notebooks-contrib](https://github.com/rapidsai-community/notebooks-contrib) | 554 | 2026-02-03T01:00:26Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [rahul-goel/fused-ssim](https://github.com/rahul-goel/fused-ssim) | 221 | 2026-02-02T20:28:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -127,13 +129,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xoofx/CppAst.NET](https://github.com/xoofx/CppAst.NET) | 602 | 2026-02-10T08:09:38Z | Other | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [tomas-abrahamsson/gpb](https://github.com/tomas-abrahamsson/gpb) | 575 | 2026-02-06T22:56:55Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [NimblePros/eShopOnWeb](https://github.com/NimblePros/eShopOnWeb) | 562 | 2026-03-02T16:27:57Z | Other | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [rapidsai-community/notebooks-contrib](https://github.com/rapidsai-community/notebooks-contrib) | 554 | 2026-02-03T01:00:26Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [BrunoBonacci/mulog](https://github.com/BrunoBonacci/mulog) | 532 | 2026-02-06T13:21:46Z | Other | Library | 6 | 0 | 6 | 6 |
 | [cloojure/tupelo](https://github.com/cloojure/tupelo) | 520 | 2026-02-11T22:44:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [clj-easy/graalvm-clojure](https://github.com/clj-easy/graalvm-clojure) | 518 | 2026-02-08T16:30:48Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [renzmann/treesit-auto](https://github.com/renzmann/treesit-auto) | 513 | 2026-02-10T20:10:35Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [chakravala/Grassmann.jl](https://github.com/chakravala/Grassmann.jl) | 510 | 2026-02-26T14:56:56Z | Other | CLI | 19 | 0 | 19 | 19 |
 | [cjohansen/replicant](https://github.com/cjohansen/replicant) | 489 | 2026-03-02T09:14:08Z | Other | Library | 0 | 0 | 0 | 0 |
+| [ericmj/decimal](https://github.com/ericmj/decimal) | 476 | 2026-03-04T10:01:43Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [JuliaInterop/CxxWrap.jl](https://github.com/JuliaInterop/CxxWrap.jl) | 470 | 2026-02-07T14:16:08Z | Other | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [filiph/linkcheck](https://github.com/filiph/linkcheck) | 467 | 2026-02-16T08:07:48Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Azure/arm-ttk](https://github.com/Azure/arm-ttk) | 458 | 2026-02-13T23:24:56Z | Other | Infrastructure/tooling | 2 | 5 | 2 | 2 |
@@ -149,12 +151,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-samples/prompt-engineering-with-anthropic-claude-v-3](https://github.com/aws-samples/prompt-engineering-with-anthropic-claude-v-3) | 360 | 2026-03-01T16:54:43Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [rescript-lang/rescript-vscode](https://github.com/rescript-lang/rescript-vscode) | 351 | 2026-02-04T06:35:35Z | Other | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [ahyatt/emacs-websocket](https://github.com/ahyatt/emacs-websocket) | 348 | 2026-03-01T01:57:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [joshuaulrich/TTR](https://github.com/joshuaulrich/TTR) | 343 | 2026-02-28T19:51:20Z | Other | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [trptcolin/reply](https://github.com/trptcolin/reply) | 341 | 2026-02-23T17:38:23Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [jtdaugherty/vty](https://github.com/jtdaugherty/vty) | 333 | 2026-02-08T16:14:32Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [JuliaEditorSupport/julia-emacs](https://github.com/JuliaEditorSupport/julia-emacs) | 315 | 2026-02-26T15:42:09Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [loqusion/typix](https://github.com/loqusion/typix) | 312 | 2026-02-07T08:51:26Z | Other | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [swansonk14/admet_ai](https://github.com/swansonk14/admet_ai) | 297 | 2026-02-22T01:11:44Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mathjax/MathJax-demos-web](https://github.com/mathjax/MathJax-demos-web) | 296 | 2026-02-22T12:03:05Z | Other | Unknown | 0 | 6 | 0 | 0 |
+| [JetBrains/gradle-changelog-plugin](https://github.com/JetBrains/gradle-changelog-plugin) | 295 | 2026-03-04T13:23:10Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [JuliaLang/JuliaSyntax.jl](https://github.com/JuliaLang/JuliaSyntax.jl) | 292 | 2026-02-27T18:15:37Z | Other | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [clojure/core.memoize](https://github.com/clojure/core.memoize) | 277 | 2026-02-25T19:22:56Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [clojure/tools.analyzer](https://github.com/clojure/tools.analyzer) | 271 | 2026-02-15T19:12:40Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -165,8 +169,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [elm-explorations/test](https://github.com/elm-explorations/test) | 243 | 2026-02-24T12:07:47Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [thinca/vim-themis](https://github.com/thinca/vim-themis) | 241 | 2026-02-13T11:06:19Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [gfredericks/test.chuck](https://github.com/gfredericks/test.chuck) | 224 | 2026-02-07T17:53:58Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
+| [joshuaulrich/xts](https://github.com/joshuaulrich/xts) | 223 | 2026-02-28T15:02:38Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ropensci/git2r](https://github.com/ropensci/git2r) | 223 | 2026-02-22T19:05:45Z | Other | CLI | 6 | 5 | 6 | 6 |
-| [rahul-goel/fused-ssim](https://github.com/rahul-goel/fused-ssim) | 221 | 2026-02-02T20:28:23Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [emacs-lsp/lsp-dart](https://github.com/emacs-lsp/lsp-dart) | 213 | 2026-02-14T23:54:28Z | Other | CLI | 16 | 4 | 16 | 16 |
 | [tpapp/julia-repl](https://github.com/tpapp/julia-repl) | 184 | 2026-02-11T15:04:10Z | Other | CLI | 1 | 3 | 1 | 1 |
 | [arnetheduck/nim-results](https://github.com/arnetheduck/nim-results) | 171 | 2026-02-10T11:31:06Z | Other | Infrastructure/tooling | 2 | 2 | 2 | 2 |

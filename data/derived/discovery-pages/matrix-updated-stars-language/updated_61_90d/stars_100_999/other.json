@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 304,
-    "observations": 305,
-    "repos": 78,
-    "terms": 301
+    "components": 338,
+    "concepts": 315,
+    "observations": 316,
+    "repos": 80,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
@@ -49,6 +49,7 @@
     "emacs-lsp/lsp-dart",
     "Embarcadero/P4D-Data-Sciences",
     "Embarcadero/python4delphi",
+    "ericmj/decimal",
     "esy/esy",
     "filiph/linkcheck",
     "gfredericks/test.chuck",
@@ -56,7 +57,10 @@
     "havarddj/typst-preview.el",
     "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
+    "JetBrains/gradle-changelog-plugin",
     "JetBrains/intellij-ui-test-robot",
+    "joshuaulrich/TTR",
+    "joshuaulrich/xts",
     "jtdaugherty/vty",
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
@@ -73,8 +77,6 @@
     "prettier/prettier-emacs",
     "pug-php/pug",
     "radian-software/ctrlf",
-    "rahul-goel/fused-ssim",
-    "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
     "rescript-lang/rescript-vscode",
     "ropensci/git2r",

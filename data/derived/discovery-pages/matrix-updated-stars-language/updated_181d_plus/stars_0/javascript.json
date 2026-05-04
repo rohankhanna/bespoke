@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 111,
+    "components": 118,
     "concepts": 27,
     "observations": 27,
-    "repos": 16,
+    "repos": 18,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
@@ -29,6 +29,8 @@
     "ipld/js-blockcodec-to-ipld-format",
     "ipld/js-ipld-format-to-blockcodec",
     "janwilmake/oapis.cli",
+    "nozbe/cavy",
+    "pixielabs/cavy-app",
     "Vchitect/SEINE-project"
   ]
 }

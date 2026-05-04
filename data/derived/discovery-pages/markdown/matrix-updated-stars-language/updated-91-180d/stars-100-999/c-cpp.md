@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 50
-- terms: 191
+- repos: 51
+- terms: 193
 - components: 139
-- concepts: 194
-- observations: 194
+- concepts: 196
+- observations: 196
 
 ## Static behavior
 
@@ -65,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jimporter/mettle](https://github.com/jimporter/mettle) | 125 | 2025-12-13T21:14:57Z | C/C++ | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [birkett/srvany-ng](https://github.com/birkett/srvany-ng) | 129 | 2025-12-11T21:02:52Z | C/C++ | Service/API | 0 | 0 | 0 | 0 |
 | [powervr-graphics/Native_SDK](https://github.com/powervr-graphics/Native_SDK) | 767 | 2025-12-11T15:15:51Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [dthuerck/mapmap_cpu](https://github.com/dthuerck/mapmap_cpu) | 107 | 2025-11-29T07:35:21Z | C/C++ | Infrastructure/tooling | 11 | 1 | 11 | 11 |
 | [gpustack/llama-box](https://github.com/gpustack/llama-box) | 295 | 2025-11-24T00:45:50Z | C/C++ | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [libimobiledevice/libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) | 110 | 2025-11-24T00:34:15Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
@@ -103,6 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ar-Ray-code/YOLOX-ROS](https://github.com/Ar-Ray-code/YOLOX-ROS) | 319 | 2026-01-03T08:26:22Z | C/C++ | Infrastructure/tooling | 9 | 3 | 9 | 9 |
 | [mengyao/Complete-Striped-Smith-Waterman-Library](https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library) | 316 | 2026-01-15T03:00:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [nagisa/rust_tracy_client](https://github.com/nagisa/rust_tracy_client) | 307 | 2026-01-05T01:09:49Z | C/C++ | CLI | 1 | 4 | 1 | 1 |
+| [isciences/exactextractr](https://github.com/isciences/exactextractr) | 305 | 2025-12-01T15:50:27Z | C/C++ | Library | 2 | 0 | 2 | 2 |
 | [intel/isa-l_crypto](https://github.com/intel/isa-l_crypto) | 295 | 2026-01-22T17:04:40Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gpustack/llama-box](https://github.com/gpustack/llama-box) | 295 | 2025-11-24T00:45:50Z | C/C++ | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [ashawkey/cubvh](https://github.com/ashawkey/cubvh) | 287 | 2026-01-27T14:20:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

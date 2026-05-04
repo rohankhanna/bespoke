@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 165,
+    "components": 166,
     "concepts": 211,
     "observations": 212,
     "repos": 26,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -22,6 +22,7 @@
     "apache/pdfbox",
     "apache/poi",
     "besu-eth/besu",
+    "castorini/anserini",
     "codelibs/fess",
     "diffplug/spotless",
     "FasterXML/jackson-annotations",
@@ -30,7 +31,6 @@
     "google/google-java-format",
     "googleapis/google-api-java-client",
     "googleapis/google-http-java-client",
-    "jboss-javassist/javassist",
     "junit-team/junit4",
     "open-telemetry/opentelemetry-java",
     "oshi/oshi",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 22,
-    "terms": 102
+    "components": 103,
+    "concepts": 82,
+    "observations": 82,
+    "repos": 21,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -20,19 +20,18 @@
     "apache/casbin-axum-casbin",
     "celestiaorg/hana",
     "dcampbell24/mdbook-djot",
-    "dgn/oidc-filter",
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
-    "kurrent-io/KurrentDB-Client-Rust",
     "lambdaclass/libssz",
     "microsoft/tracing-etw",
     "neysofu/reltester",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",
+    "raymondshe/matchengine-raft",
     "sigp/rust-libp2p",
     "Turbo87/flat-projection-rs",
     "Vaishnav-Sabari-Girish/Hayasen"

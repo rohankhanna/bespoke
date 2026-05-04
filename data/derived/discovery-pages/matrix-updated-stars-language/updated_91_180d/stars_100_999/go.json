@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 169,
-    "observations": 169,
+    "components": 144,
+    "concepts": 165,
+    "observations": 165,
     "repos": 27,
-    "terms": 168
+    "terms": 164
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
     "aws/amazon-ec2-instance-selector",
     "aws/amazon-ec2-metadata-mock",
+    "blampe/goat",
     "bshuster-repo/logrus-logstash-hook",
     "cloudwego/hertz-examples",
     "connectrpc/grpcreflect-go",
     "containers/storage",
     "cpuguy83/go-md2man",
-    "DyegoCosta/snake-game",
     "ethereum-optimism/asterisc",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",

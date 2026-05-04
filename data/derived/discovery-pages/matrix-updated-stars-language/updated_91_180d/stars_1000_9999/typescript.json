@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 718,
-    "concepts": 138,
-    "observations": 139,
+    "components": 748,
+    "concepts": 135,
+    "observations": 136,
     "repos": 25,
-    "terms": 144
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "blacksmithgu/obsidian-dataview",
+    "eleme/morjs",
     "EventSource/eventsource",
     "glimmerjs/glimmer-vm",
     "google-github-actions/auth",
@@ -31,7 +32,6 @@
     "obsidianmd/obsidian-sample-plugin",
     "omnara-ai/omnara",
     "PaulLeCam/react-leaflet",
-    "piotrostr/listen",
     "ricky0123/vad",
     "shareAI-lab/Kode-Agent",
     "tancredi/fantasticon",

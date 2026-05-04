@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 10,
-    "terms": 22
+    "components": 186,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 12,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alexgorbatchev/typescript-transform-react-jsx-source",
     "cryptonomic/conseiljs-ledgersigner",
     "featherbread/hypcast-v1",
     "Freed-Wu/coc-write-good",
+    "kakajun/simple-panzoom",
     "kong/proxy-wasm-assemblyscript-rate-limiting",
     "mgr0dzicki/cargo-semver-checks-action",
+    "offline-ai/cli-plugin-cmd-brain.js",
     "probe-lab/github-mgmt",
     "threesigmaxyz/filplus-allocator-bot",
     "tnc-ca-geo/animl-ingest-api",

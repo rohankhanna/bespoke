@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 316,
-    "concepts": 539,
-    "observations": 539,
-    "repos": 87,
-    "terms": 535
+    "components": 323,
+    "concepts": 569,
+    "observations": 569,
+    "repos": 90,
+    "terms": 564
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AgentOps-AI/agentops",
     "aigc3d/LHM",
@@ -42,6 +42,7 @@
     "facebookresearch/pytorch3d",
     "facebookresearch/SlowFast",
     "google-deepmind/bsuite",
+    "google/deepvariant",
     "google/ml_collections",
     "graphql-python/gql",
     "gururise/AlpacaDataCleaned",
@@ -55,7 +56,7 @@
     "ionelmc/pytest-benchmark",
     "jeffallan/claude-skills",
     "jiaaro/pydub",
-    "keleshev/schema",
+    "JulietaUla/Montserrat",
     "kislyuk/argcomplete",
     "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
     "linkchecker/linkchecker",
@@ -65,6 +66,7 @@
     "miolini/autoresearch-macos",
     "mosaicml/composer",
     "mosaicml/llm-foundry",
+    "niklasf/python-chess",
     "nunchaku-ai/nunchaku",
     "NVIDIA-AI-IOT/Lidar_AI_Solution",
     "NVIDIA/flownet2-pytorch",
@@ -77,6 +79,7 @@
     "PyCQA/flake8-bugbear",
     "Pylons/pyramid",
     "pytest-dev/pytest-cov",
+    "python-hyper/h2",
     "pyupio/safety",
     "randy3k/radian",
     "rusty1s/pytorch_scatter",
@@ -91,10 +94,10 @@
     "TencentCloudADP/youtu-agent",
     "tensorflow/datasets",
     "Textualize/rich-cli",
+    "The-OpenROAD-Project/OpenLane",
     "themix-project/themix-gui",
     "Thinklab-SJTU/Bench2Drive",
     "trevin-creator/autoresearch-mlx",
-    "turboderp-org/exllamav2",
     "ufoym/deepo",
     "Vchitect/VBench",
     "wenet-e2e/wenet",

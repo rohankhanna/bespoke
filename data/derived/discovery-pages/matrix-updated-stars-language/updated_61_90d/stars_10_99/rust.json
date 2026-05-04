@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 47,
-    "observations": 47,
-    "repos": 19,
-    "terms": 47
+    "components": 97,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 22,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "acw/simple_asn1",
     "alloy-rs/op-alloy",
@@ -21,6 +21,7 @@
     "ClickHouse/ch2rs",
     "Cykooz/libheif-rs",
     "Cykooz/libheif-sys",
+    "dgn/oidc-filter",
     "dsxmachina/rfm",
     "ethereum/eipw",
     "extism/rust-pdk",
@@ -28,6 +29,8 @@
     "googlefonts/shaperglot",
     "hermit-os/rftrace",
     "jakudlaty/tsid",
+    "jasonjmcghee/ron-lsp",
+    "kurrent-io/KurrentDB-Client-Rust",
     "libp2p/if-watch",
     "loyd/fixnum",
     "nebelgrau77/airsniffer-esp32c6",

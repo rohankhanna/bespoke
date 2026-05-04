@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 270,
-    "concepts": 296,
-    "observations": 296,
+    "components": 281,
+    "concepts": 318,
+    "observations": 318,
     "repos": 39,
-    "terms": 294
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "apache/commons-jexl",
+    "allegro/hermes",
     "apache/ignite-3",
     "apache/rocketmq-clients",
     "apache/spark-kubernetes-operator",
@@ -34,9 +34,8 @@
     "FasterXML/jackson-modules-base",
     "googleapis/java-bigtable-hbase",
     "heroku/webapp-runner",
-    "jpmml/jpmml-lightgbm",
+    "ihmcrobotics/ihmc-open-robotics-software",
     "jpmml/jpmml-sklearn",
-    "jpmml/jpmml-xgboost",
     "kirill-grouchnikov/radiance",
     "michel-kraemer/bson4jackson",
     "microsoft/LangChain4j-for-Beginners",
@@ -45,6 +44,7 @@
     "palantir/javapoet",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
+    "reactor/reactor-addons",
     "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
     "SAP/SapMachine",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 76
-- terms: 126
-- components: 347
-- concepts: 107
-- observations: 107
+- repos: 122
+- terms: 177
+- components: 660
+- concepts: 148
+- observations: 148
 
 ## Static behavior
 
@@ -25,6 +25,50 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fabon-f/temporal-polyfill-comparison](https://github.com/fabon-f/temporal-polyfill-comparison) | 0 | 2026-04-20T05:43:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
+| [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [b2agi/exist-is-charter](https://github.com/b2agi/exist-is-charter) | 0 | 2026-04-19T13:51:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [robertabao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | 0 | 2026-04-19T13:37:47Z | Other | Model/data | 0 | 0 | 0 | 0 |
+| [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Career-Plugin](https://github.com/danielrosehill/Claude-Career-Plugin) | 0 | 2026-04-19T13:13:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [firestryk/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | 0 | 2026-04-19T12:58:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Budgeting-Plugin](https://github.com/danielrosehill/Claude-Budgeting-Plugin) | 0 | 2026-04-19T12:51:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
+| [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
+| [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
+| [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
+| [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
+| [gyf0311/lorekit](https://github.com/GYF0311/lorekit) | 0 | 2026-04-19T12:31:05Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
+| [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
+| [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
+| [fekkak1998/scira](https://github.com/fekkak1998/scira) | 0 | 2026-04-19T12:08:41Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
+| [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [gopi2211/ralph](https://github.com/gopi2211/ralph) | 0 | 2026-04-19T11:52:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
+| [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [begmyratb/floweye-yyyxxx.cc](https://github.com/BegmyratB/Floweye-yyyxxx.cc) | 0 | 2026-04-19T11:52:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
@@ -54,6 +98,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -82,6 +128,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
+| [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -89,23 +136,66 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Resource-Maps](https://github.com/danielrosehill/AI-Resource-Maps) | 0 | 2026-04-06T19:02:06Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cmake-wheel/cmeel-example](https://github.com/cmake-wheel/cmeel-example) | 0 | 2026-04-06T18:53:02Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [iandees/scrapy-camoufox](https://github.com/iandees/scrapy-camoufox) | 0 | 2026-04-05T21:47:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kayabaNerve/monero-oxide](https://github.com/kayabaNerve/monero-oxide) | 0 | 2026-04-05T17:02:41Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aldernero/debugui](https://github.com/aldernero/debugui) | 0 | 2026-04-05T00:58:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
-| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [fabon-f/temporal-polyfill-comparison](https://github.com/fabon-f/temporal-polyfill-comparison) | 0 | 2026-04-20T05:43:09Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
+| [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [b2agi/exist-is-charter](https://github.com/b2agi/exist-is-charter) | 0 | 2026-04-19T13:51:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [robertabao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | 0 | 2026-04-19T13:37:47Z | Other | Model/data | 0 | 0 | 0 | 0 |
+| [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Career-Plugin](https://github.com/danielrosehill/Claude-Career-Plugin) | 0 | 2026-04-19T13:13:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [firestryk/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | 0 | 2026-04-19T12:58:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Budgeting-Plugin](https://github.com/danielrosehill/Claude-Budgeting-Plugin) | 0 | 2026-04-19T12:51:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
+| [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
+| [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
+| [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
+| [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
+| [gyf0311/lorekit](https://github.com/GYF0311/lorekit) | 0 | 2026-04-19T12:31:05Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
+| [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
+| [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
+| [fekkak1998/scira](https://github.com/fekkak1998/scira) | 0 | 2026-04-19T12:08:41Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
+| [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [gopi2211/ralph](https://github.com/gopi2211/ralph) | 0 | 2026-04-19T11:52:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
+| [shubishere/ai-drawio](https://github.com/Shubishere/ai-drawio) | 0 | 2026-04-19T11:52:57Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [begmyratb/floweye-yyyxxx.cc](https://github.com/BegmyratB/Floweye-yyyxxx.cc) | 0 | 2026-04-19T11:52:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
+| [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
@@ -135,6 +225,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [damacol/gemma-4-collection](https://github.com/Damacol/gemma-4-collection) | 0 | 2026-04-17T14:08:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ueno/podman-sequoia](https://github.com/ueno/podman-sequoia) | 0 | 2026-04-17T13:25:53Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [danielrosehill/My-Benchmarks](https://github.com/danielrosehill/My-Benchmarks) | 0 | 2026-04-17T12:20:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [stdlib-js/ndarray-dtype-ctor](https://github.com/stdlib-js/ndarray-dtype-ctor) | 0 | 2026-04-17T11:17:11Z | JavaScript | Infrastructure/tooling | 25 | 30 | 25 | 25 |
+| [acevif/swiftformat-nix](https://github.com/acevif/swiftformat-nix) | 0 | 2026-04-17T06:23:08Z | Other | Library | 5 | 0 | 5 | 5 |
 | [danielrosehill/Agent-Assisted-Purchase-Research-Index](https://github.com/danielrosehill/Agent-Assisted-Purchase-Research-Index) | 0 | 2026-04-16T18:00:32Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [cachix/nix-bindings-rust](https://github.com/cachix/nix-bindings-rust) | 0 | 2026-04-16T15:06:49Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [JuliaBinaryWrappers/CUDA_Driver_jll.jl](https://github.com/JuliaBinaryWrappers/CUDA_Driver_jll.jl) | 0 | 2026-04-16T13:43:53Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -163,6 +255,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/superscalar-docs](https://github.com/8144225309/superscalar-docs) | 0 | 2026-04-09T21:20:43Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ashton/neotest-gleam-unitest](https://github.com/ashton/neotest-gleam-unitest) | 0 | 2026-04-09T20:27:40Z | Other | Unknown | 8 | 0 | 8 | 8 |
 | [VOICEVOX/preview-pages](https://github.com/VOICEVOX/preview-pages) | 0 | 2026-04-09T11:24:32Z | TypeScript | Infrastructure/tooling | 4 | 43 | 4 | 4 |
+| [stdlib-js/dstructs-struct](https://github.com/stdlib-js/dstructs-struct) | 0 | 2026-04-09T03:55:27Z | JavaScript | Infrastructure/tooling | 18 | 75 | 18 | 18 |
 | [danielrosehill/Agent-Journal](https://github.com/danielrosehill/Agent-Journal) | 0 | 2026-04-08T14:15:54Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [csjgg/ags-cookbook](https://github.com/csjgg/ags-cookbook) | 0 | 2026-04-08T09:25:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [redai-infra/TransferQueue](https://github.com/redai-infra/TransferQueue) | 0 | 2026-04-08T03:48:14Z | Python | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -170,15 +263,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [semgrep/cursor-plugin](https://github.com/semgrep/cursor-plugin) | 0 | 2026-04-07T14:35:16Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kdn36/arrow-rs-object-store](https://github.com/kdn36/arrow-rs-object-store) | 0 | 2026-04-07T11:45:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [MaterializeInc/duckdb-rs](https://github.com/MaterializeInc/duckdb-rs) | 0 | 2026-04-07T01:52:50Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [aaronrsun/spec-kit-confluence](https://github.com/aaronrsun/spec-kit-confluence) | 0 | 2026-04-06T23:35:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Resource-Maps](https://github.com/danielrosehill/AI-Resource-Maps) | 0 | 2026-04-06T19:02:06Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cmake-wheel/cmeel-example](https://github.com/cmake-wheel/cmeel-example) | 0 | 2026-04-06T18:53:02Z | Other | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [danielrosehill/Israel-Preparedness-Index](https://github.com/danielrosehill/Israel-Preparedness-Index) | 0 | 2026-04-06T14:14:22Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [iandees/scrapy-camoufox](https://github.com/iandees/scrapy-camoufox) | 0 | 2026-04-05T21:47:43Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [kayabaNerve/monero-oxide](https://github.com/kayabaNerve/monero-oxide) | 0 | 2026-04-05T17:02:41Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [caprica/generator-vlcj](https://github.com/caprica/generator-vlcj) | 0 | 2026-04-05T08:38:27Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [aldernero/debugui](https://github.com/aldernero/debugui) | 0 | 2026-04-05T00:58:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/AI-Browser-Tools](https://github.com/danielrosehill/AI-Browser-Tools) | 0 | 2026-04-04T20:58:25Z | Unknown | Framework | 0 | 0 | 0 | 0 |
-| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
-| [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
-| [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |

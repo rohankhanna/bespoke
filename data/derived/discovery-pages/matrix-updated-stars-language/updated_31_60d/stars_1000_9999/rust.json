@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 152,
-    "observations": 154,
-    "repos": 31,
-    "terms": 150
+    "components": 250,
+    "concepts": 185,
+    "observations": 188,
+    "repos": 37,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "arxanas/git-branchless",
@@ -26,18 +26,24 @@
     "emilk/eframe_template",
     "enigo-rs/enigo",
     "extism/extism",
+    "ggez/ggez",
     "google/argh",
     "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
+    "hyperium/http",
+    "hyperledger-solang/solang",
+    "Keats/tera",
     "LaurentMazare/tch-rs",
     "lldap/lldap",
+    "mattsse/chromiumoxide",
     "mitsuhiko/insta",
     "Mooncake-Labs/pg_mooncake",
     "not-fl3/macroquad",
     "parcel-bundler/lightningcss",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",
+    "Rust-SDL2/rust-sdl2",
     "servo/ipc-channel",
     "sharkdp/pastel",
     "simd-lite/simd-json",

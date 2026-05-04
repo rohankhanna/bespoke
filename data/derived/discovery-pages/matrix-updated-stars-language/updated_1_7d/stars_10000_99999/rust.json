@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 572,
-    "concepts": 398,
-    "observations": 398,
-    "repos": 33,
-    "terms": 393
+    "components": 591,
+    "concepts": 439,
+    "observations": 439,
+    "repos": 36,
+    "terms": 434
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
-    "Automattic/harper",
     "biomejs/biome",
     "clap-rs/clap",
     "ClementTsang/bottom",
@@ -31,9 +30,11 @@
     "iced-rs/iced",
     "jj-vcs/jj",
     "juspay/hyperswitch",
+    "LemmyNet/lemmy",
     "oxc-project/oxc",
     "pola-rs/polars",
     "PyO3/pyo3",
+    "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "quickwit-oss/tantivy",
     "ratatui/ratatui",
@@ -41,11 +42,13 @@
     "rust-lang/mdBook",
     "rust-lang/rust-clippy",
     "RustPython/RustPython",
+    "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",
     "swc-project/swc",
     "tracel-ai/burn",
     "vectordotdev/vector",
     "wasmerio/wasmer",
+    "wezterm/wezterm",
     "zed-industries/zed"
   ]
 }

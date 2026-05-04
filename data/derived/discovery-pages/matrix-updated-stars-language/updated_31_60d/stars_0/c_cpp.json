@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "DiligentGraphics/args",
-    "yoshoku/numo-liblinear"
+    "glennhickey/red"
   ]
 }

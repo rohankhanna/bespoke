@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 31,
-    "terms": 135
+    "components": 167,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 30,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "acts-project/traccc",
     "ad-si/FlatCV",
     "AFD-Illinois/kharma",
     "agl/jbig2enc",
+    "akruphi/far2l",
     "apache/pulsar-client-cpp",
     "boostorg/config",
     "BrianPugh/tamp",
@@ -25,9 +26,8 @@
     "DeepLink-org/DLSlime",
     "f32c/tools",
     "gazebosim/gz-fuel-tools",
+    "gazebosim/gz-transport",
     "ICRAR/crc32c",
-    "JFLarvoire/the_silver_searcher",
-    "liangshengyong/lanwan",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "lxqt/liblxqt",
@@ -43,7 +43,6 @@
     "ROCm/ROCgdb",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
-    "yoshoku/numo-narray-alt",
     "yquake2/yquake2remaster"
   ]
 }

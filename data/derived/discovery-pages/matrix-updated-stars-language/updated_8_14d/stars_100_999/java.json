@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 22,
-    "terms": 167
+    "components": 127,
+    "concepts": 168,
+    "observations": 168,
+    "repos": 23,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
+    "apache/commons-jexl",
     "apache/datasketches-java",
     "beehive-lab/GPULlama3.java",
     "connectbot/sshlib",
-    "Cosium/git-code-format-maven-plugin",
     "eclipse-lemminx/lemminx",
     "FasterXML/woodstox",
     "googleapis/google-api-java-client-services",
@@ -27,8 +27,9 @@
     "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
+    "jpmml/jpmml-lightgbm",
+    "jpmml/jpmml-xgboost",
     "microsoft/Generative-AI-for-beginners-java",
-    "microsoft/java-debug",
     "microsoft/semantic-kernel-java",
     "milvus-io/milvus-sdk-java",
     "sevntu-checkstyle/sevntu.checkstyle",

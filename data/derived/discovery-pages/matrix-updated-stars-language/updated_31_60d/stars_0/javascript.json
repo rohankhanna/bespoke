@@ -3,7 +3,7 @@
     "components": 5,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 4,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "danielrosehill/Israel-Alert-Map",
+    "onomojo/i18n-country-translations-data",
+    "onomojo/i18n-timezones-data",
     "Patrick-ring-motive/sval-rhino-gs"
   ]
 }

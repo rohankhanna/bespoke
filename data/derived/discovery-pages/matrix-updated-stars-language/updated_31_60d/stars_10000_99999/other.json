@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 15,
-    "terms": 119
+    "components": 122,
+    "concepts": 149,
+    "observations": 151,
+    "repos": 19,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "CocoaPods/CocoaPods",
     "datawhalechina/happy-llm",
@@ -22,12 +22,16 @@
     "google/dopamine",
     "guzzle/guzzle",
     "Ileriayo/markdown-badges",
+    "koalaman/shellcheck",
     "Kong/kong",
     "LazyVim/LazyVim",
+    "mixmark-io/turndown",
+    "nvim-treesitter/nvim-treesitter",
     "openai/CLIP",
     "reasonml/reason",
     "ryanoasis/nerd-fonts",
     "Swordfish90/cool-retro-term",
+    "TA-Lib/ta-lib-python",
     "tpope/vim-fugitive"
   ]
 }

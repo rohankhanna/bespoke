@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1044,
-    "concepts": 143,
-    "observations": 144,
-    "repos": 42,
-    "terms": 171
+    "components": 1151,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 46,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "9romise/eslint-plugin-import-lite",
     "absolute-version/absolute-version-js",
+    "adyscorpius/logseq-jira",
     "agents-squads/squads-cli",
+    "almogdepaz/wolfpack",
     "ava-labs/avalanche-dapp-sdks",
     "aws-samples/aws-sdk-js-notes-app",
     "awslabs/wdio-aws-device-farm-service",
     "Beaglefoot/prettier-plugin-awk",
+    "bestkolobok/vue3-jsoneditor",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
     "buttondown/cli",
@@ -30,6 +33,7 @@
     "dokploy/cli",
     "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
+    "favware/cliff-jumper",
     "gicentre/prettier-plugin-elm",
     "Godefroy/micdrop",
     "GreptimeTeam/greptimedb-grafana-datasource",
@@ -47,12 +51,12 @@
     "microsoft/vscode-js-debug-companion",
     "ngyewch/smile-js",
     "obi1kenobi/cargo-semver-checks-action",
+    "overseedai/viwo",
     "pinecone-io/pinecone-mcp",
     "Sec-ant/prettier-plugin-embed",
     "sgcarstrends/sgcarstrends",
     "Shougo/ddu-ui-ff",
     "Shougo/dpp-ext-installer",
-    "solidjs-community/storybook",
     "ylsssq926/relic.skill",
     "zhayujie/cow-skill-hub",
     "zuplo/docs"

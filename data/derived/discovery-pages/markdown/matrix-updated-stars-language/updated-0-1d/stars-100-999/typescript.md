@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · TypeScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 34
-- components: 131
-- concepts: 34
-- observations: 34
+- repos: 3
+- terms: 19
+- components: 126
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -26,16 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [unjs/listhen](https://github.com/unjs/listhen) | 582 | 2026-05-03T02:36:55Z | TypeScript | Infrastructure/tooling | 0 | 34 | 0 | 0 |
-| [SkepticMystic/breadcrumbs](https://github.com/SkepticMystic/breadcrumbs) | 776 | 2026-05-02T17:09:23Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
-| [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) | 802 | 2026-05-02T14:09:38Z | TypeScript | CLI | 15 | 5 | 15 | 15 |
-| [sumup-oss/circuit-ui](https://github.com/sumup-oss/circuit-ui) | 970 | 2026-05-02T09:39:15Z | TypeScript | Infrastructure/tooling | 14 | 51 | 14 | 14 |
+| [carbon-design-system/carbon-components-angular](https://github.com/carbon-design-system/carbon-components-angular) | 560 | 2026-05-03T23:36:00Z | TypeScript | Infrastructure/tooling | 9 | 80 | 9 | 9 |
+| [wevm/abitype](https://github.com/wevm/abitype) | 543 | 2026-05-03T19:33:47Z | TypeScript | Infrastructure/tooling | 10 | 23 | 10 | 10 |
+| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-03T05:59:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [sumup-oss/circuit-ui](https://github.com/sumup-oss/circuit-ui) | 970 | 2026-05-02T09:39:15Z | TypeScript | Infrastructure/tooling | 14 | 51 | 14 | 14 |
-| [AgnosticUI/agnosticui](https://github.com/AgnosticUI/agnosticui) | 802 | 2026-05-02T14:09:38Z | TypeScript | CLI | 15 | 5 | 15 | 15 |
-| [SkepticMystic/breadcrumbs](https://github.com/SkepticMystic/breadcrumbs) | 776 | 2026-05-02T17:09:23Z | TypeScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
-| [unjs/listhen](https://github.com/unjs/listhen) | 582 | 2026-05-03T02:36:55Z | TypeScript | Infrastructure/tooling | 0 | 34 | 0 | 0 |
+| [carbon-design-system/carbon-components-angular](https://github.com/carbon-design-system/carbon-components-angular) | 560 | 2026-05-03T23:36:00Z | TypeScript | Infrastructure/tooling | 9 | 80 | 9 | 9 |
+| [wevm/abitype](https://github.com/wevm/abitype) | 543 | 2026-05-03T19:33:47Z | TypeScript | Infrastructure/tooling | 10 | 23 | 10 | 10 |
+| [unplugin/unplugin-imagemin](https://github.com/unplugin/unplugin-imagemin) | 259 | 2026-05-03T05:59:41Z | TypeScript | Unknown | 0 | 23 | 0 | 0 |

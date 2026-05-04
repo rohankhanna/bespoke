@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 17,
-    "terms": 35
+    "components": 38,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 24,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "adamyaxley/Unformat",
     "amerkoleci/Alimer.Bindings",
+    "aseprite/clip",
     "Birch-san/box2d3-wasm",
+    "COMBINE-lab/cuttlefish",
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
+    "engineai-robotics/engineai_ros2_workspace",
     "flatpak/flatpak-xdg-utils",
     "fmtlib/format-benchmark",
     "FourierTransformer/lua-simdjson",
@@ -27,6 +30,10 @@
     "jokkebk/JUnzip",
     "JPEWdev/icecream-sundae",
     "JuliaInterop/libcxxwrap-julia",
+    "jupyter-xeus/xeus-zmq",
+    "o3de/PhysX",
+    "paoloshasta/shasta",
+    "RomanArzumanyan/VALI",
     "smuellerDD/acvpparser",
     "Taritsyn/LibSassHost",
     "vincentbernat/vbeterm",

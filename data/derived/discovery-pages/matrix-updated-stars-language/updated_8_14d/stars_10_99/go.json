@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 243,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 33,
-    "terms": 167
+    "components": 232,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 32,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
@@ -21,7 +21,7 @@
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
-    "blinklabs-io/bluefin",
+    "bootmortis/sing-geosite",
     "cloudfoundry/bpm-release",
     "coder/coder-logstream-kube",
     "connectrpc/conformance",
@@ -39,7 +39,6 @@
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
-    "magodo/aztft",
     "muhlba91/external-dns-provider-adguard",
     "openshift/ci-tools",
     "sigstore/helm-sigstore",

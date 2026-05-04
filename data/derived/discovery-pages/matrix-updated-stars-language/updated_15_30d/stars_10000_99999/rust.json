@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 10,
-    "terms": 74
+    "components": 234,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 15,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
+    "astral-sh/uv",
     "casey/just",
+    "cjpais/Handy",
     "diesel-rs/diesel",
     "eza-community/eza",
+    "huggingface/candle",
     "lsd-rs/lsd",
+    "openai/codex",
     "Schniz/fnm",
     "seanmonstar/reqwest",
     "seanmonstar/warp",
+    "sharkdp/bat",
     "tokio-rs/axum",
     "zeroclaw-labs/zeroclaw"
   ]

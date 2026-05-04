@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 205
-- components: 225
-- concepts: 212
-- observations: 212
+- repos: 52
+- terms: 264
+- components: 258
+- concepts: 271
+- observations: 271
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [olric-data/olric](https://github.com/olric-data/olric) | 3442 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
+| [burke/zeus](https://github.com/burke/zeus) | 3318 | 2026-04-03T21:13:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes) | 4482 | 2026-04-03T11:43:53Z | Go | Unknown | 15 | 0 | 15 | 15 |
 | [mattn/goreman](https://github.com/mattn/goreman) | 2630 | 2026-04-02T16:38:34Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [google/pprof](https://github.com/google/pprof) | 9156 | 2026-04-02T05:17:21Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [azure/aztfexport](https://github.com/Azure/aztfexport) | 1885 | 2026-04-02T01:25:07Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
@@ -34,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smallnest/rpcx](https://github.com/smallnest/rpcx) | 8282 | 2026-04-01T15:34:28Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [itchyny/gojq](https://github.com/itchyny/gojq) | 3747 | 2026-04-01T13:00:02Z | Go | CLI | 3 | 10 | 4 | 4 |
 | [hashicorp/go-version](https://github.com/hashicorp/go-version) | 1760 | 2026-04-01T06:10:38Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks) | 5089 | 2026-03-30T22:13:23Z | Go | Infrastructure/tooling | 19 | 14 | 19 | 19 |
 | [rest-sh/restish](https://github.com/rest-sh/restish) | 1278 | 2026-03-30T16:22:41Z | Go | CLI | 17 | 4 | 20 | 20 |
 | [probonopd/go-appimage](https://github.com/probonopd/go-appimage) | 1130 | 2026-03-30T16:15:29Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [xtaci/kcp-go](https://github.com/xtaci/kcp-go) | 4487 | 2026-03-30T09:59:33Z | Go | Library | 5 | 0 | 5 | 5 |
@@ -42,6 +46,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cenkalti/backoff](https://github.com/cenkalti/backoff) | 3985 | 2026-03-28T17:10:20Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [kubernetes-sigs/krew](https://github.com/kubernetes-sigs/krew) | 6941 | 2026-03-27T01:08:16Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [cortesi/devd](https://github.com/cortesi/devd) | 3467 | 2026-03-26T22:44:00Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) | 4948 | 2026-03-26T15:27:02Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [aquasecurity/starboard](https://github.com/aquasecurity/starboard) | 1374 | 2026-03-26T13:31:58Z | Go | Infrastructure/tooling | 10 | 20 | 10 | 10 |
 | [google/starlark-go](https://github.com/google/starlark-go) | 2670 | 2026-03-26T11:33:12Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [atotto/clipboard](https://github.com/atotto/clipboard) | 1365 | 2026-03-26T01:19:54Z | Go | CLI | 1 | 0 | 1 | 1 |
@@ -64,6 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [xtaci/smux](https://github.com/xtaci/smux) | 1575 | 2026-03-13T09:50:01Z | Go | Library | 1 | 0 | 1 | 1 |
 | [hashicorp/memberlist](https://github.com/hashicorp/memberlist) | 4054 | 2026-03-13T08:31:02Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [hashicorp/go-metrics](https://github.com/hashicorp/go-metrics) | 1566 | 2026-03-13T08:21:32Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [refraction-networking/utls](https://github.com/refraction-networking/utls) | 2353 | 2026-03-11T22:53:20Z | Go | CLI | 10 | 2 | 10 | 10 |
 | [coder/websocket](https://github.com/coder/websocket) | 5153 | 2026-03-11T17:25:38Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [dop251/goja](https://github.com/dop251/goja) | 6838 | 2026-03-11T13:57:34Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [google/go-cmp](https://github.com/google/go-cmp) | 4618 | 2026-03-10T22:00:54Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -71,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dghubble/sling](https://github.com/dghubble/sling) | 1717 | 2026-03-08T12:41:49Z | Go | CLI | 1 | 1 | 1 | 1 |
 | [golang/oauth2](https://github.com/golang/oauth2) | 5845 | 2026-03-08T12:01:22Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [mattn/efm-langserver](https://github.com/mattn/efm-langserver) | 1529 | 2026-03-08T02:08:41Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
+| [spf13/pflag](https://github.com/spf13/pflag) | 2731 | 2026-03-05T10:20:58Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -85,21 +92,28 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [golang/oauth2](https://github.com/golang/oauth2) | 5845 | 2026-03-08T12:01:22Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [hashicorp/hcl](https://github.com/hashicorp/hcl) | 5774 | 2026-04-02T00:16:13Z | Go | Infrastructure/tooling | 3 | 4 | 4 | 4 |
 | [coder/websocket](https://github.com/coder/websocket) | 5153 | 2026-03-11T17:25:38Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [xjasonlyu/tun2socks](https://github.com/xjasonlyu/tun2socks) | 5089 | 2026-03-30T22:13:23Z | Go | Infrastructure/tooling | 19 | 14 | 19 | 19 |
+| [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) | 4948 | 2026-03-26T15:27:02Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [mailru/easyjson](https://github.com/mailru/easyjson) | 4881 | 2026-03-14T14:52:53Z | Go | Infrastructure/tooling | 4 | 3 | 7 | 7 |
 | [yuin/goldmark](https://github.com/yuin/goldmark) | 4734 | 2026-03-25T05:08:07Z | Go | Infrastructure/tooling | 4 | 4 | 5 | 5 |
 | [google/go-cmp](https://github.com/google/go-cmp) | 4618 | 2026-03-10T22:00:54Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [xtaci/kcp-go](https://github.com/xtaci/kcp-go) | 4487 | 2026-03-30T09:59:33Z | Go | Library | 5 | 0 | 5 | 5 |
+| [nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes) | 4482 | 2026-04-03T11:43:53Z | Go | Unknown | 15 | 0 | 15 | 15 |
 | [hashicorp/memberlist](https://github.com/hashicorp/memberlist) | 4054 | 2026-03-13T08:31:02Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cenkalti/backoff](https://github.com/cenkalti/backoff) | 3985 | 2026-03-28T17:10:20Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [itchyny/gojq](https://github.com/itchyny/gojq) | 3747 | 2026-04-01T13:00:02Z | Go | CLI | 3 | 10 | 4 | 4 |
 | [opencontainers/runtime-spec](https://github.com/opencontainers/runtime-spec) | 3603 | 2026-03-17T08:31:31Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [cortesi/devd](https://github.com/cortesi/devd) | 3467 | 2026-03-26T22:44:00Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
+| [olric-data/olric](https://github.com/olric-data/olric) | 3442 | 2026-04-03T22:02:03Z | Go | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | 3420 | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
+| [burke/zeus](https://github.com/burke/zeus) | 3318 | 2026-04-03T21:13:20Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [darccio/mergo](https://github.com/darccio/mergo) | 3100 | 2026-03-23T21:56:10Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [ddworken/hishtory](https://github.com/ddworken/hishtory) | 3073 | 2026-03-18T23:18:46Z | Go | CLI | 10 | 17 | 12 | 12 |
+| [spf13/pflag](https://github.com/spf13/pflag) | 2731 | 2026-03-05T10:20:58Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [google/starlark-go](https://github.com/google/starlark-go) | 2670 | 2026-03-26T11:33:12Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mattn/goreman](https://github.com/mattn/goreman) | 2630 | 2026-04-02T16:38:34Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [hashicorp/yamux](https://github.com/hashicorp/yamux) | 2580 | 2026-03-29T17:52:26Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [refraction-networking/utls](https://github.com/refraction-networking/utls) | 2353 | 2026-03-11T22:53:20Z | Go | CLI | 10 | 2 | 10 | 10 |
 | [bytedance/gopkg](https://github.com/bytedance/gopkg) | 2036 | 2026-03-17T05:35:34Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [azure/aztfexport](https://github.com/Azure/aztfexport) | 1885 | 2026-04-02T01:25:07Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [google/go-jsonnet](https://github.com/google/go-jsonnet) | 1824 | 2026-03-24T16:16:30Z | Go | Infrastructure/tooling | 1 | 10 | 1 | 1 |

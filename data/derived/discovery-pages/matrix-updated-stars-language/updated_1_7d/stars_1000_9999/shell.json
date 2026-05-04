@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 11,
-    "terms": 101
+    "components": 88,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 13,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "bitnami/containers",
     "Botspot/pi-apps",
     "confluentinc/demo-scene",
     "fluxcd/flux2-kustomize-helm-example",
     "heroku/heroku-buildpack-nodejs",
+    "holman/dotfiles",
     "home-assistant/addons",
     "jkroepke/helm-secrets",
     "mlocati/docker-php-extension-installer",

@@ -416,13 +416,14 @@
       "size": 441
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:43:32.899427+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "the underlying support vite plugin for vue-cli-plugin-vite",
     "fork": false,
-    "full_name": "IndexXuan/vite-plugin-vue-cli",
+    "full_name": "indexxuan/vite-plugin-vue-cli",
     "html_url": "https://github.com/IndexXuan/vite-plugin-vue-cli",
     "language": "TypeScript",
     "pushed_at": "2021-09-22T01:45:12Z",

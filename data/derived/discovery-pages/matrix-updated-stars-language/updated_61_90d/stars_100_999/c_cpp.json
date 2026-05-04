@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 143,
-    "observations": 145,
-    "repos": 30,
-    "terms": 138
+    "components": 132,
+    "concepts": 157,
+    "observations": 159,
+    "repos": 35,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,26 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adamritter/fastgron",
     "apache/casbin-cpp",
+    "ARM-software/EndpointAI",
     "arminbiere/aiger",
     "beached/daw_json_link",
     "chfast/intx",
     "CppCXY/EmmyLuaCodeStyle",
     "creachadair/imath",
+    "dacap/clip",
     "devkitPro/libctru",
     "douglascrockford/JSMin",
     "google/effcee",
     "google/ruy",
     "hhyyrylainen/GodotPckTool",
     "InteractiveComputerGraphics/TriangleMeshDistance",
+    "jsk-ros-pkg/jsk_visualization",
     "Kong/ngx_wasm_module",
+    "lexxmark/winflexbison",
     "marbl/canu",
     "martinmoene/lest",
     "mlc-ai/tokenizers-cpp",
@@ -42,6 +46,7 @@
     "starwing/luautf8",
     "swaywm/swaybg",
     "tree-sitter-grammars/tree-sitter-markdown",
+    "ValveSoftware/Fossilize",
     "xtensor-stack/xtl",
     "ZDisket/TensorVox"
   ]

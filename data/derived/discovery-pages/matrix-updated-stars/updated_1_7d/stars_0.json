@@ -1,33 +1,33 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 29,
-    "terms": 57
+    "components": 128,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 31,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "angular/angular-build-builds",
     "arnaud-lb/php-rdkafka-doc",
-    "buty4649/mruby-yyjson",
     "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
-    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
+    "danielrosehill/Claude-CopyQ-Scripting-Plugin",
+    "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Israel-Projects-Index",
     "flagos-ai/verl-FL",
     "getlantern/guide",
@@ -37,9 +37,11 @@
     "hyper-mcp-rs/defuddle-plugin",
     "ipfs-examples/github-mgmt",
     "kalavai-net/kalavai-templates",
+    "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "netdur/imaged-sdk-examples",
     "qiayuanl/unitree_buildfarm",
+    "seanmacavaney/ir-datasets.com",
     "sp1-patches/elliptic-curves",
     "squidowl/iced"
   ]

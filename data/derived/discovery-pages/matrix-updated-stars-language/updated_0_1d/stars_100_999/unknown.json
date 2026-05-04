@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 3,
-    "terms": 22
+    "components": 4,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 4,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T10:43:36.497216+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "box/box-openapi",
-    "getlantern/lantern-binaries",
-    "graalvm/mandrel"
+    "Chocolate4U/Iran-sing-box-rules",
+    "lxgw/LxgwNeoXiZhi-Screen",
+    "lxgw/LxgwXiHei",
+    "lxgw/LxgwZhiSong"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 65,
-    "concepts": 43,
-    "observations": 43,
-    "repos": 14,
-    "terms": 44
+    "components": 58,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 11,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "abraxas-365/claudio",
     "bitrise-io/bitrise-plugins-step",
     "cgrindel/swift_gazelle_plugin",
     "dwyl/learn-go",
-    "erikceballos/nano-banana-cli",
     "goreleaser/sponsors",
-    "k8nstantin/openpraxis",
+    "huggingface/hf-csi-driver",
     "probe-lab/tiros",
-    "serpro69/capy",
     "transparency-dev/armored-witness-boot",
     "transparency-dev/armored-witness-os",
     "transparency-dev/distributor",

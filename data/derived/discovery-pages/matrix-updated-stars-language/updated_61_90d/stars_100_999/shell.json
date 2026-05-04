@@ -3,7 +3,7 @@
     "components": 27,
     "concepts": 40,
     "observations": 41,
-    "repos": 11,
+    "repos": 10,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
@@ -23,7 +23,6 @@
     "nico2sh/semtag",
     "nodejs/unofficial-builds",
     "omerxx/tmux-floax",
-    "squeaky-pl/portable-pypy",
     "tensorflow/build"
   ]
 }

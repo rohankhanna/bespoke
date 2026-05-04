@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 509,
+    "components": 340,
     "concepts": 41,
     "observations": 42,
-    "repos": 5,
-    "terms": 54
+    "repos": 3,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "angular/angular",
     "langgenius/dify",
-    "microsoft/typescript",
-    "microsoft/vscode",
-    "openclaw/openclaw"
+    "microsoft/vscode"
   ]
 }

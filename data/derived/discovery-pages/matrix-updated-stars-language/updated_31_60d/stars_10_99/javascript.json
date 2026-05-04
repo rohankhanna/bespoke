@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 283,
-    "concepts": 102,
-    "observations": 102,
-    "repos": 31,
-    "terms": 102
+    "components": 332,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 37,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,25 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "10up/action-repo-automator",
+    "a5huynh/vscode-ron",
     "ably-labs/realtime-multiplayer-space-invaders",
     "acemir/CSSOM",
+    "AdguardTeam/CodeGuidelines",
     "angular/domino",
     "appwrite/playground-for-node",
     "Azure/azure-api-style-guide",
     "brody2consult/react-native-module-init",
-    "coderaiser/estree-to-babel",
     "csstree/stylelint-validator",
     "dart-lang/site-shared",
+    "dwyl/phoenix-liveview-stopwatch",
+    "eemeli/make-plural",
     "eemeli/prettier-plugin-properties",
     "faressoft/inquirer-checkbox-plus-prompt",
     "gatsbyjs/gatsby-starter-minimal",
+    "gr2m/before-after-hook",
     "graphql/composite-schemas-wg",
     "graphql/graphql-js-wg",
     "haskell-actions/run-fourmolu",
@@ -43,6 +47,8 @@
     "npm/json-parse-even-better-errors",
     "OpenHands/openhands-chrome-extension",
     "Rob--W/proxy-from-env",
+    "ruby/setup-ruby-pkgs",
+    "storybook-community/addon-queryparams",
     "sveltejs/eslint-config",
     "tc39/proposal-immutable-arraybuffer"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 10,
-    "observations": 11,
-    "repos": 9,
-    "terms": 10
+    "components": 42,
+    "concepts": 12,
+    "observations": 13,
+    "repos": 11,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "arckoor/botan-rs",
     "beurdouche/nss-gk-api",
+    "datafuse-extras/dtparse",
+    "drmingdrmer/display-more",
     "firstbatchxyz/dkn-protocol",
     "hermit-os/async-executor",
     "hermit-os/safe-mmio",

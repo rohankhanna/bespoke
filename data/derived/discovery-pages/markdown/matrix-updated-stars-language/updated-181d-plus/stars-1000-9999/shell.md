@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 148
-- components: 53
-- concepts: 166
-- observations: 166
+- repos: 44
+- terms: 151
+- components: 57
+- concepts: 169
+- observations: 169
 
 ## Static behavior
 
@@ -39,6 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eth-p/bat-extras](https://github.com/eth-p/bat-extras) | 1586 | 2025-02-22T03:01:42Z | Shell | CLI | 3 | 3 | 3 | 3 |
 | [kylef/swiftenv](https://github.com/kylef/swiftenv) | 1992 | 2024-12-23T12:19:32Z | Shell | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [justinmayer/virtualfish](https://github.com/justinmayer/virtualfish) | 1095 | 2024-11-27T19:24:18Z | Shell | Infrastructure/tooling | 4 | 2 | 6 | 6 |
+| [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) | 6786 | 2024-11-05T11:40:15Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [docker/docker-bench-security](https://github.com/docker/docker-bench-security) | 9627 | 2024-10-21T07:26:06Z | Shell | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [ekalinin/github-markdown-toc](https://github.com/ekalinin/github-markdown-toc) | 3290 | 2024-10-12T19:30:59Z | Shell | Infrastructure/tooling | 3 | 3 | 5 | 5 |
 | [deluan/zsh-in-docker](https://github.com/deluan/zsh-in-docker) | 1104 | 2024-09-30T19:07:49Z | Shell | Infrastructure/tooling | 5 | 4 | 5 | 5 |
@@ -79,6 +80,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [facebookarchive/caffe2](https://github.com/facebookarchive/caffe2) | 8384 | 2023-02-07T16:51:06Z | Shell | Framework | 5 | 0 | 5 | 5 |
 | [zsh-users/antigen](https://github.com/zsh-users/antigen) | 8307 | 2024-02-18T02:39:21Z | Shell | Unknown | 2 | 0 | 3 | 3 |
 | [AbdBarho/stable-diffusion-webui-docker](https://github.com/AbdBarho/stable-diffusion-webui-docker) | 7324 | 2024-08-18T11:05:13Z | Shell | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [v2fly/fhs-install-v2ray](https://github.com/v2fly/fhs-install-v2ray) | 6786 | 2024-11-05T11:40:15Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [holman/spark](https://github.com/holman/spark) | 6062 | 2022-05-07T10:27:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [aws/containers-roadmap](https://github.com/aws/containers-roadmap) | 5347 | 2025-03-25T18:13:16Z | Shell | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [microsoft/vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers) | 4747 | 2023-11-30T01:20:08Z | Shell | Infrastructure/tooling | 21 | 16 | 21 | 21 |

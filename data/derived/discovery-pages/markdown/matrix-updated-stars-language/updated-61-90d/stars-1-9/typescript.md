@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
+- repos: 7
 - terms: 54
 - components: 54
 - concepts: 54
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [ipfs/helia-delegated-routing-v1-http-api](https://github.com/ipfs/helia-delegated-routing-v1-http-api) | 4 | 2026-03-01T15:58:29Z | TypeScript | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [PBK-B/i18next-cli-vue](https://github.com/PBK-B/i18next-cli-vue) | 2 | 2026-02-27T10:28:34Z | TypeScript | CLI | 6 | 20 | 6 | 6 |
 | [adityasugandhi/skillsync-mcp](https://github.com/adityasugandhi/skillsync-mcp) | 3 | 2026-02-23T02:53:10Z | TypeScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
@@ -42,4 +43,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adityasugandhi/skillsync-mcp](https://github.com/adityasugandhi/skillsync-mcp) | 3 | 2026-02-23T02:53:10Z | TypeScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [PBK-B/i18next-cli-vue](https://github.com/PBK-B/i18next-cli-vue) | 2 | 2026-02-27T10:28:34Z | TypeScript | CLI | 6 | 20 | 6 | 6 |
 | [birdofpreyru/js-utils](https://github.com/birdofpreyru/js-utils) | 2 | 2026-02-22T19:58:37Z | TypeScript | Unknown | 5 | 16 | 5 | 5 |
+| [jspreadsheet/spreadsheet-react-server](https://github.com/jspreadsheet/spreadsheet-react-server) | 1 | 2026-03-02T18:04:45Z | TypeScript | Service/API | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |

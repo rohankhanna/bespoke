@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 225,
-    "concepts": 212,
-    "observations": 212,
-    "repos": 45,
-    "terms": 205
+    "components": 258,
+    "concepts": 271,
+    "observations": 271,
+    "repos": 52,
+    "terms": 264
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "atotto/clipboard",
     "azure/aztfexport",
     "bazelbuild/buildtools",
+    "burke/zeus",
     "bytedance/gopkg",
     "caddyserver/xcaddy",
     "cenkalti/backoff",
@@ -50,12 +51,18 @@
     "mattn/goreman",
     "minio/operator",
     "mozillazg/go-pinyin",
+    "nikolaydubina/go-recipes",
+    "olric-data/olric",
     "opencontainers/runtime-spec",
     "probonopd/go-appimage",
+    "qjfoidnh/BaiduPCS-Go",
+    "refraction-networking/utls",
     "rest-sh/restish",
     "smallnest/rpcx",
     "smtg-ai/claude-squad",
+    "spf13/pflag",
     "stripe/stripe-mock",
+    "xjasonlyu/tun2socks",
     "xtaci/kcp-go",
     "xtaci/smux",
     "yuin/goldmark"

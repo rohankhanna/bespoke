@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 168
-- components: 61
-- concepts: 177
-- observations: 179
+- repos: 79
+- terms: 183
+- components: 66
+- concepts: 194
+- observations: 196
 
 ## Static behavior
 
@@ -28,11 +28,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mpv-player/mpv-build](https://github.com/mpv-player/mpv-build) | 476 | 2025-11-02T20:17:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [calcom/docker](https://github.com/calcom/docker) | 899 | 2025-10-29T15:52:56Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [lxgw/advanced-cjk-font-magisk-module-template](https://github.com/lxgw/advanced-cjk-font-magisk-module-template) | 253 | 2025-10-24T15:54:58Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
 | [belak/zsh-utils](https://github.com/belak/zsh-utils) | 209 | 2025-10-15T18:38:08Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [mattmc3/zsh_unplugged](https://github.com/mattmc3/zsh_unplugged) | 492 | 2025-10-09T12:31:07Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [10up/actions-wordpress](https://github.com/10up/actions-wordpress) | 462 | 2025-10-09T03:12:12Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [joseluisq/gitnow](https://github.com/joseluisq/gitnow) | 476 | 2025-09-17T04:34:05Z | Shell | Infrastructure/tooling | 6 | 2 | 7 | 7 |
 | [ipfs/community](https://github.com/ipfs/community) | 431 | 2025-09-16T01:36:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 480 | 2025-08-31T02:59:38Z | Shell | CLI | 3 | 0 | 5 | 5 |
 | [koalaman/shellcheck-precommit](https://github.com/koalaman/shellcheck-precommit) | 124 | 2025-08-04T03:53:32Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [devcontainers/template-starter](https://github.com/devcontainers/template-starter) | 253 | 2025-08-01T09:07:52Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [AppImageCommunity/pkg2appimage](https://github.com/AppImageCommunity/pkg2appimage) | 771 | 2025-07-21T11:28:59Z | Shell | Infrastructure/tooling | 6 | 1 | 6 | 6 |
@@ -47,6 +49,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lavabit/robox](https://github.com/lavabit/robox) | 663 | 2025-03-01T07:03:11Z | Shell | Infrastructure/tooling | 20 | 2 | 21 | 21 |
 | [27medkamal/tmux-session-wizard](https://github.com/27medkamal/tmux-session-wizard) | 256 | 2025-02-28T05:06:28Z | Shell | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
+| [Asterisk4Magisk/Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk) | 444 | 2024-11-11T15:04:38Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [infusion/udf_infusion](https://github.com/infusion/udf_infusion) | 140 | 2024-08-27T23:10:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [devcontainers/feature-starter](https://github.com/devcontainers/feature-starter) | 419 | 2024-08-22T22:27:04Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -55,6 +58,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chriskempson/base16-shell](https://github.com/chriskempson/base16-shell) | 271 | 2024-06-30T15:55:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [cokebar/gfwlist2dnsmasq](https://github.com/cokebar/gfwlist2dnsmasq) | 899 | 2024-06-25T13:02:01Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [tmux-plugins/tmux-open](https://github.com/tmux-plugins/tmux-open) | 726 | 2024-06-18T05:59:11Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [kward/shflags](https://github.com/kward/shflags) | 303 | 2024-06-12T13:05:52Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [docker-library/healthcheck](https://github.com/docker-library/healthcheck) | 679 | 2024-06-11T11:03:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [vmware-labs/webassembly-language-runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) | 368 | 2024-06-05T20:30:17Z | Shell | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [jcmvbkbc/crosstool-NG](https://github.com/jcmvbkbc/crosstool-NG) | 114 | 2024-06-03T17:19:14Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -71,14 +75,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashicorp/docker-vault](https://github.com/hashicorp/docker-vault) | 502 | 2023-12-06T14:53:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [CrossC2/CrossC2Kit](https://github.com/CrossC2/CrossC2Kit) | 229 | 2023-08-08T19:52:07Z | Shell | Infrastructure/tooling | 9 | 2 | 9 | 9 |
 | [zsh-users/zaw](https://github.com/zsh-users/zaw) | 584 | 2023-08-05T22:37:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [satbyy/go-noto-universal](https://github.com/satbyy/go-noto-universal) | 272 | 2023-08-01T05:19:33Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) | 230 | 2023-07-05T15:23:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [googlefonts/rubik](https://github.com/googlefonts/rubik) | 212 | 2023-06-22T07:57:01Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [tmux-plugins/tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) | 461 | 2023-05-16T17:13:16Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [fsaintjacques/semver-tool](https://github.com/fsaintjacques/semver-tool) | 817 | 2023-02-15T17:40:26Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [lukechilds/gifgen](https://github.com/lukechilds/gifgen) | 565 | 2023-01-22T12:21:49Z | Shell | Unknown | 2 | 0 | 2 | 2 |
+| [lxgw/simple-cjk-font-magisk-module-template](https://github.com/lxgw/simple-cjk-font-magisk-module-template) | 249 | 2023-01-20T04:15:48Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
 | [danhper/fundle](https://github.com/danhper/fundle) | 386 | 2023-01-05T16:21:45Z | Shell | Library | 2 | 0 | 2 | 2 |
 | [Goles/Battery](https://github.com/Goles/Battery) | 268 | 2022-10-31T14:53:41Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [belak/prezto-contrib](https://github.com/belak/prezto-contrib) | 126 | 2022-10-30T18:21:27Z | Shell | Unknown | 1 | 0 | 1 | 1 |
+| [kward/log4sh](https://github.com/kward/log4sh) | 144 | 2022-09-24T20:12:33Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [steeve/cross-compiler](https://github.com/steeve/cross-compiler) | 113 | 2022-09-23T23:02:40Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nightrome/cocostuff](https://github.com/nightrome/cocostuff) | 906 | 2022-09-09T15:04:10Z | Shell | Model/data | 0 | 0 | 0 | 0 |
 | [SanderKnape/github-runner](https://github.com/SanderKnape/github-runner) | 135 | 2022-06-21T06:44:36Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -89,6 +96,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sentriz/fish-pipenv](https://github.com/sentriz/fish-pipenv) | 198 | 2022-04-19T01:25:42Z | Shell | Unknown | 3 | 0 | 4 | 4 |
 | [antfu/dotfiles](https://github.com/antfu/dotfiles) | 287 | 2022-04-04T20:47:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [heroku/heroku-buildpack-multi](https://github.com/heroku/heroku-buildpack-multi) | 155 | 2022-02-12T13:26:57Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [Magisk-Modules-Repo/v2ray](https://github.com/Magisk-Modules-Repo/v2ray) | 340 | 2022-02-10T15:36:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [rbenv/rbenv-default-gems](https://github.com/rbenv/rbenv-default-gems) | 383 | 2022-02-01T23:59:03Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [rbenv/rbenv-gem-rehash](https://github.com/rbenv/rbenv-gem-rehash) | 366 | 2022-01-07T09:21:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [ipfs/infra](https://github.com/ipfs/infra) | 133 | 2021-11-23T22:01:52Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -125,10 +133,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lukechilds/zsh-better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) | 499 | 2024-10-31T09:38:35Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [mattmc3/zsh_unplugged](https://github.com/mattmc3/zsh_unplugged) | 492 | 2025-10-09T12:31:07Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [romkatv/zsh-defer](https://github.com/romkatv/zsh-defer) | 484 | 2024-02-10T06:30:37Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [aidenlab/juicer](https://github.com/aidenlab/juicer) | 480 | 2025-08-31T02:59:38Z | Shell | CLI | 3 | 0 | 5 | 5 |
 | [mpv-player/mpv-build](https://github.com/mpv-player/mpv-build) | 476 | 2025-11-02T20:17:08Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [joseluisq/gitnow](https://github.com/joseluisq/gitnow) | 476 | 2025-09-17T04:34:05Z | Shell | Infrastructure/tooling | 6 | 2 | 7 | 7 |
 | [10up/actions-wordpress](https://github.com/10up/actions-wordpress) | 462 | 2025-10-09T03:12:12Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [tmux-plugins/tmux-sessionist](https://github.com/tmux-plugins/tmux-sessionist) | 461 | 2023-05-16T17:13:16Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [Asterisk4Magisk/Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk) | 444 | 2024-11-11T15:04:38Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dwyl/learn-devops](https://github.com/dwyl/learn-devops) | 439 | 2025-05-10T23:38:37Z | Shell | Infrastructure/tooling | 11 | 2 | 11 | 11 |
 | [ipfs/community](https://github.com/ipfs/community) | 431 | 2025-09-16T01:36:22Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [devcontainers/feature-starter](https://github.com/devcontainers/feature-starter) | 419 | 2024-08-22T22:27:04Z | Shell | Infrastructure/tooling | 3 | 2 | 3 | 3 |
@@ -140,13 +150,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rbenv/rbenv-gem-rehash](https://github.com/rbenv/rbenv-gem-rehash) | 366 | 2022-01-07T09:21:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Azure-Samples/container-apps-store-api-microservice](https://github.com/Azure-Samples/container-apps-store-api-microservice) | 354 | 2024-04-22T07:50:00Z | Shell | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [joshmedeski/t-smart-tmux-session-manager](https://github.com/joshmedeski/t-smart-tmux-session-manager) | 352 | 2024-01-18T21:13:44Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [Magisk-Modules-Repo/v2ray](https://github.com/Magisk-Modules-Repo/v2ray) | 340 | 2022-02-10T15:36:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [chrismytton/shoreman](https://github.com/chrismytton/shoreman) | 336 | 2025-01-30T11:05:25Z | Shell | Infrastructure/tooling | 3 | 2 | 4 | 4 |
 | [jkjung-avt/jetson_nano](https://github.com/jkjung-avt/jetson_nano) | 304 | 2022-05-21T03:52:49Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [kward/shflags](https://github.com/kward/shflags) | 303 | 2024-06-12T13:05:52Z | Shell | Library | 0 | 0 | 0 | 0 |
 | [antfu/dotfiles](https://github.com/antfu/dotfiles) | 287 | 2022-04-04T20:47:25Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [satbyy/go-noto-universal](https://github.com/satbyy/go-noto-universal) | 272 | 2023-08-01T05:19:33Z | Shell | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [chriskempson/base16-shell](https://github.com/chriskempson/base16-shell) | 271 | 2024-06-30T15:55:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [Goles/Battery](https://github.com/Goles/Battery) | 268 | 2022-10-31T14:53:41Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [27medkamal/tmux-session-wizard](https://github.com/27medkamal/tmux-session-wizard) | 256 | 2025-02-28T05:06:28Z | Shell | Infrastructure/tooling | 6 | 0 | 6 | 6 |
+| [lxgw/advanced-cjk-font-magisk-module-template](https://github.com/lxgw/advanced-cjk-font-magisk-module-template) | 253 | 2025-10-24T15:54:58Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
 | [devcontainers/template-starter](https://github.com/devcontainers/template-starter) | 253 | 2025-08-01T09:07:52Z | Shell | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [lxgw/simple-cjk-font-magisk-module-template](https://github.com/lxgw/simple-cjk-font-magisk-module-template) | 249 | 2023-01-20T04:15:48Z | Shell | Template/starter | 3 | 0 | 3 | 3 |
 | [derekstavis/plugin-nvm](https://github.com/derekstavis/plugin-nvm) | 235 | 2024-07-12T02:04:29Z | Shell | Infrastructure/tooling | 4 | 2 | 5 | 5 |
 | [gjaldon/heroku-buildpack-phoenix-static](https://github.com/gjaldon/heroku-buildpack-phoenix-static) | 230 | 2023-07-05T15:23:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [CrossC2/CrossC2Kit](https://github.com/CrossC2/CrossC2Kit) | 229 | 2023-08-08T19:52:07Z | Shell | Infrastructure/tooling | 9 | 2 | 9 | 9 |
@@ -161,6 +176,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [heroku/heroku-buildpack-multi](https://github.com/heroku/heroku-buildpack-multi) | 155 | 2022-02-12T13:26:57Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [sobolevn/misspell-fixer-action](https://github.com/sobolevn/misspell-fixer-action) | 154 | 2024-02-12T16:47:11Z | Shell | Infrastructure/tooling | 6 | 3 | 6 | 7 |
 | [LedgerHQ/udev-rules](https://github.com/LedgerHQ/udev-rules) | 144 | 2024-07-30T22:10:05Z | Shell | Unknown | 2 | 0 | 2 | 2 |
+| [kward/log4sh](https://github.com/kward/log4sh) | 144 | 2022-09-24T20:12:33Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [infusion/udf_infusion](https://github.com/infusion/udf_infusion) | 140 | 2024-08-27T23:10:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [coin-or/COIN-OR-OptimizationSuite](https://github.com/coin-or/COIN-OR-OptimizationSuite) | 137 | 2021-08-04T15:04:55Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [SanderKnape/github-runner](https://github.com/SanderKnape/github-runner) | 135 | 2022-06-21T06:44:36Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |

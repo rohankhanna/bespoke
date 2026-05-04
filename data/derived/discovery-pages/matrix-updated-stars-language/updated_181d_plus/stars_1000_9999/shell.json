@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 43,
-    "terms": 148
+    "components": 57,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 44,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AbdBarho/stable-diffusion-webui-docker",
     "adobe-fonts/source-han-serif",
@@ -56,6 +56,7 @@
     "tmux-plugins/tmux-sensible",
     "tmux-plugins/tmux-yank",
     "trapd00r/LS_COLORS",
+    "v2fly/fhs-install-v2ray",
     "zsh-users/antigen"
   ]
 }

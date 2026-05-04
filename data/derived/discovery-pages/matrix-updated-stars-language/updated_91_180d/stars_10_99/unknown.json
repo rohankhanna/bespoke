@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 15,
-    "concepts": 40,
-    "observations": 40,
-    "repos": 26,
-    "terms": 39
+    "concepts": 43,
+    "observations": 43,
+    "repos": 27,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "airlift/codestyle",
@@ -27,6 +27,7 @@
     "FAIR-IMPACT/MOD",
     "getlantern/lantern-forum-cn",
     "JaeZ1205/PS_NBI2k",
+    "johandahlberg/awesome-10x-genomics",
     "json-schema-org/.github",
     "Level/community",
     "logseq/db-test",

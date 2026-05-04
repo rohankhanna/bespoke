@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 747,
-    "concepts": 819,
-    "observations": 822,
-    "repos": 68,
-    "terms": 811
+    "components": 704,
+    "concepts": 740,
+    "observations": 741,
+    "repos": 63,
+    "terms": 735
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "aden-hive/hive",
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
@@ -23,14 +22,12 @@
     "crewAIInc/crewAI",
     "cvat-ai/cvat",
     "dagster-io/dagster",
+    "Dao-AILab/flash-attention",
     "deepspeedai/DeepSpeed",
     "docling-project/docling",
     "facefusion/facefusion",
-    "fastapi/fastapi",
     "fastapi/typer",
-    "Genesis-Embodied-AI/Genesis",
     "google/magika",
-    "hiyouga/LlamaFactory",
     "huggingface/datasets",
     "huggingface/lerobot",
     "huggingface/pytorch-image-models",
@@ -41,8 +38,8 @@
     "kornia/kornia",
     "kvcache-ai/ktransformers",
     "Lightning-AI/litgpt",
-    "Lightning-AI/pytorch-lightning",
     "locustio/locust",
+    "MetaCubeX/mihomo",
     "microsoft/agent-lightning",
     "microsoft/promptflow",
     "mitmproxy/mitmproxy",
@@ -57,7 +54,6 @@
     "ostris/ai-toolkit",
     "pallets/click",
     "pipecat-ai/pipecat",
-    "PrefectHQ/fastmcp",
     "psf/black",
     "psf/requests",
     "pyg-team/pytorch_geometric",
@@ -69,8 +65,9 @@
     "run-llama/llama_index",
     "scikit-learn/scikit-learn",
     "scipy/scipy",
+    "scrapy/scrapy",
     "Skyvern-AI/skyvern",
-    "state-spaces/mamba",
+    "StevenBlack/hosts",
     "SWE-agent/SWE-agent",
     "sympy/sympy",
     "treeverse/dvc",
@@ -79,8 +76,6 @@
     "unclecode/crawl4ai",
     "vega/altair",
     "verl-project/verl",
-    "wandb/wandb",
-    "wkentaro/labelme",
-    "zhayujie/CowAgent"
+    "wandb/wandb"
   ]
 }

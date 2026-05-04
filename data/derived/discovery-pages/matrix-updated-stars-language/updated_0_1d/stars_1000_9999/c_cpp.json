@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 9,
-    "terms": 63
+    "components": 93,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 8,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "facebookincubator/katran",
-    "GStreamer/gstreamer",
+    "AdaptiveCpp/AdaptiveCpp",
     "harfbuzz/harfbuzz",
-    "heiher/hev-socks5-tunnel",
     "KhronosGroup/KTX-Software",
-    "KratosMultiphysics/Kratos",
-    "libfuse/libfuse",
-    "PoseLib/PoseLib",
-    "swiftlang/swift-llbuild"
+    "libbitcoin/libbitcoin-system",
+    "realsenseai/librealsense",
+    "ultrajson/ultrajson",
+    "uxlfoundation/oneTBB",
+    "xtensor-stack/xtensor"
   ]
 }

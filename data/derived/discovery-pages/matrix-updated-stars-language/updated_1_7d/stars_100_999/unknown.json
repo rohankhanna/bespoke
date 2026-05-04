@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 13,
-    "terms": 57
+    "components": 47,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 12,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "box/box-openapi",
-    "chromedp/cdproto",
     "fluxcd/flux2-multi-tenancy",
     "forcedotcom/cli",
     "getlantern/lantern-binaries",

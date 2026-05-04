@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 37,
+    "components": 20,
     "concepts": 5,
     "observations": 5,
-    "repos": 5,
+    "repos": 1,
     "terms": 5
   },
   "facet_version": 1,
@@ -12,12 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "aaronlamz/navpress",
-    "fabon-f/temporal-polyfill-comparison",
-    "gyf0311/lorekit",
-    "redductive/securepixel",
-    "similar-colpoxerosis201/codex-wechat"
+    "aaronlamz/navpress"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 821,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 50,
-    "terms": 74
+    "components": 994,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 58,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -29,7 +29,10 @@
     "celo-org/emisianto",
     "celo-org/socialconnect-template",
     "ceramicnetwork/js-dag-jose-utils",
+    "Chocolate4U/iwmf.ir-Mirror",
+    "chriskrycho/tracked-draft",
     "clams-tech/ln-ws-proxy",
+    "cloydlau/vue-global-config",
     "coasys/agent-language",
     "codeperate/stencil-windicss",
     "ConsenSys-archive/ganache-plugin-filecoin",
@@ -44,8 +47,10 @@
     "finehow/bingsearch-plugin",
     "hchiam/astro-calendar",
     "hchiam/learning-angular",
+    "hchiam/learning-angular8",
     "hchiam/learning-vite",
     "iansan5653/vscode-format-python-docstrings",
+    "indexxuan/vite-plugin-vue-cli",
     "intlify/eslint-plugin-svelte",
     "janwilmake/oapis.npm",
     "litter-coder/midjourney-proxy-admin",
@@ -53,10 +58,13 @@
     "LuaLS/LLS-Addons-Action",
     "Matts966/efm-langserver-vscode",
     "mcous/testdouble-vitest",
+    "Pablerdo/hexaframe-dark",
+    "pkgxdev/git-gud",
     "plrthink/RNZATestApp",
     "prasek/supergraph-demo-opentelemetry",
     "qri-io/frontend",
     "robb-j/nova-yaml",
+    "sajal353/r3f-jolt",
     "Shougo/dpp-ext-local",
     "Shougo/dpp-ext-toml",
     "startupdevhouse/typescript-functional-extensions-nestjs",

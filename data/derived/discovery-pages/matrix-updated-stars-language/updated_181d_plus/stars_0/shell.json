@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 12,
     "observations": 12,
-    "repos": 5,
+    "repos": 6,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "cgrindel/bazel_shlib",
+    "conda-forge/bloscpack-feedstock",
     "Danau5tin/terminal-bench-fork",
     "danielrosehill/batch-claudemd-repo-creator",
     "flathub/io.github.TTimo.GtkRadiant"

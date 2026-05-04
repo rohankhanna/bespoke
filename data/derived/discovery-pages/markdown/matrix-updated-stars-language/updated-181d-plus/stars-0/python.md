@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Python
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 63
-- terms: 98
-- components: 144
-- concepts: 98
-- observations: 98
+- repos: 68
+- terms: 102
+- components: 155
+- concepts: 102
+- observations: 102
 
 ## Static behavior
 
@@ -40,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [renll/flash-linear-attention](https://github.com/renll/flash-linear-attention) | 0 | 2025-06-25T08:18:12Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [tonysy/opencompass](https://github.com/tonysy/opencompass) | 0 | 2025-06-19T07:16:54Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Natyren/WebShop](https://github.com/Natyren/WebShop) | 0 | 2025-06-10T21:13:16Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Docs-Grabber](https://github.com/danielrosehill/Docs-Grabber) | 0 | 2025-03-13T16:41:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [yinbow/CamoFormer-Jittor](https://github.com/yinbow/CamoFormer-Jittor) | 0 | 2025-02-26T08:54:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [luolin101/Visual-SWE-bench](https://github.com/luolin101/Visual-SWE-bench) | 0 | 2024-12-28T12:50:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [albertogeniola/elmax-api](https://github.com/albertogeniola/elmax-api) | 0 | 2024-12-08T00:07:20Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [brianckeegan/SpotifyUSTop50](https://github.com/brianckeegan/SpotifyUSTop50) | 0 | 2024-12-01T20:41:12Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -65,9 +67,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [IEI-mjx/Yuan-2.0](https://github.com/IEI-mjx/Yuan-2.0) | 0 | 2024-04-08T12:42:11Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [HReynaud/stylegan-v](https://github.com/HReynaud/stylegan-v) | 0 | 2024-03-20T18:36:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [icppWorld/llama2.c](https://github.com/icppWorld/llama2.c) | 0 | 2024-01-12T23:58:12Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [DSaurus/MVDream](https://github.com/DSaurus/MVDream) | 0 | 2023-12-20T06:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [ezhang7423/hulc-baseline](https://github.com/ezhang7423/hulc-baseline) | 0 | 2023-11-13T12:35:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [akamming/domoticz-snapcast](https://github.com/akamming/domoticz-snapcast) | 0 | 2023-11-03T21:14:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [cmacdonald/ANCE](https://github.com/cmacdonald/ANCE) | 0 | 2023-10-27T13:31:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [autodistill/autodistill-azure-vision](https://github.com/autodistill/autodistill-azure-vision) | 0 | 2023-10-27T09:12:55Z | Python | Model/data | 1 | 0 | 1 | 1 |
 | [Charlie-XIAO/ml3m](https://github.com/Charlie-XIAO/ml3m) | 0 | 2023-09-19T08:13:28Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -108,6 +113,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [py-cov-action/python-coverage-comment-action-v3-example](https://github.com/py-cov-action/python-coverage-comment-action-v3-example) | 0 | 2025-07-12T09:20:01Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [elladyr/myo_sim](https://github.com/elladyr/myo_sim) | 0 | 2025-07-10T03:51:47Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [renll/flash-linear-attention](https://github.com/renll/flash-linear-attention) | 0 | 2025-06-25T08:18:12Z | Python | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [tonysy/opencompass](https://github.com/tonysy/opencompass) | 0 | 2025-06-19T07:16:54Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [Natyren/WebShop](https://github.com/Natyren/WebShop) | 0 | 2025-06-10T21:13:16Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [CodeBoarding/atlassian-python-api](https://github.com/CodeBoarding/atlassian-python-api) | 0 | 2025-06-06T15:53:33Z | Python | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [Natyren/alfworld](https://github.com/Natyren/alfworld) | 0 | 2025-05-26T21:13:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
@@ -118,6 +124,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Docs-Grabber](https://github.com/danielrosehill/Docs-Grabber) | 0 | 2025-03-13T16:41:29Z | Python | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [yinbow/CamoFormer-Jittor](https://github.com/yinbow/CamoFormer-Jittor) | 0 | 2025-02-26T08:54:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/better-hashnode-backups](https://github.com/danielrosehill/Better-Hashnode-Backups) | 0 | 2025-01-12T10:41:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
+| [SebastianGrans/Rich-multiprocess-logging](https://github.com/SebastianGrans/Rich-multiprocess-logging) | 0 | 2025-01-07T12:01:25Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [luolin101/Visual-SWE-bench](https://github.com/luolin101/Visual-SWE-bench) | 0 | 2024-12-28T12:50:31Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [albertogeniola/elmax-api](https://github.com/albertogeniola/elmax-api) | 0 | 2024-12-08T00:07:20Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
 | [brianckeegan/SpotifyUSTop50](https://github.com/brianckeegan/SpotifyUSTop50) | 0 | 2024-12-01T20:41:12Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -133,9 +140,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zzowenzz/coco_tiny](https://github.com/zzowenzz/COCO_Tiny) | 0 | 2024-05-02T05:23:59Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [IEI-mjx/Yuan-2.0](https://github.com/IEI-mjx/Yuan-2.0) | 0 | 2024-04-08T12:42:11Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [HReynaud/stylegan-v](https://github.com/HReynaud/stylegan-v) | 0 | 2024-03-20T18:36:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [icppWorld/llama2.c](https://github.com/icppWorld/llama2.c) | 0 | 2024-01-12T23:58:12Z | Python | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [DSaurus/MVDream](https://github.com/DSaurus/MVDream) | 0 | 2023-12-20T06:44:10Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [hashberg-io/multiformats-config](https://github.com/hashberg-io/multiformats-config) | 0 | 2023-12-18T21:34:33Z | Python | Infrastructure/tooling | 2 | 2 | 2 | 2 |
+| [ezhang7423/hulc-baseline](https://github.com/ezhang7423/hulc-baseline) | 0 | 2023-11-13T12:35:23Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [akamming/domoticz-snapcast](https://github.com/akamming/domoticz-snapcast) | 0 | 2023-11-03T21:14:55Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [cmacdonald/ANCE](https://github.com/cmacdonald/ANCE) | 0 | 2023-10-27T13:31:24Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [autodistill/autodistill-azure-vision](https://github.com/autodistill/autodistill-azure-vision) | 0 | 2023-10-27T09:12:55Z | Python | Model/data | 1 | 0 | 1 | 1 |
 | [Charlie-XIAO/ml3m](https://github.com/Charlie-XIAO/ml3m) | 0 | 2023-09-19T08:13:28Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [nim65s/git-archive-all](https://github.com/nim65s/git-archive-all) | 0 | 2023-08-04T13:42:31Z | Python | Unknown | 0 | 0 | 0 | 0 |

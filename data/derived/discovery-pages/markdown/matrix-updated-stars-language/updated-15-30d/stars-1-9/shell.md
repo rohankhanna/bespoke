@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · Shell
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 9
-- components: 19
-- concepts: 11
-- observations: 11
+- repos: 11
+- terms: 10
+- components: 20
+- concepts: 12
+- observations: 12
 
 ## Static behavior
 
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [cdeust/zetetic-team-subagents](https://github.com/cdeust/zetetic-team-subagents) | 2 | 2026-04-17T12:49:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [alvistack/ansible-role-conmon](https://github.com/alvistack/ansible-role-conmon) | 7 | 2026-04-17T04:37:38Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [ihmcrobotics/repository-group](https://github.com/ihmcrobotics/repository-group) | 1 | 2026-04-16T23:46:25Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [HKU-BAL/Clair-skills](https://github.com/HKU-BAL/Clair-skills) | 4 | 2026-04-16T07:26:19Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [chronosphereio/calyptia-cli](https://github.com/chronosphereio/calyptia-cli) | 9 | 2026-04-15T17:14:57Z | Shell | CLI | 1 | 0 | 1 | 1 |
 | [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | 4 | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -51,3 +52,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rapidsai/gha-tools](https://github.com/rapidsai/gha-tools) | 3 | 2026-04-07T19:03:34Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [cdeust/zetetic-team-subagents](https://github.com/cdeust/zetetic-team-subagents) | 2 | 2026-04-17T12:49:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [eea/eea.docker.gitflow](https://github.com/eea/eea.docker.gitflow) | 2 | 2026-04-08T17:49:37Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
+| [ihmcrobotics/repository-group](https://github.com/ihmcrobotics/repository-group) | 1 | 2026-04-16T23:46:25Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |

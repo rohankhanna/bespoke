@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 162
-- components: 546
-- concepts: 163
-- observations: 163
+- repos: 47
+- terms: 183
+- components: 606
+- concepts: 184
+- observations: 184
 
 ## Static behavior
 
@@ -26,7 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [badgen/badgen](https://github.com/badgen/badgen) | 557 | 2026-04-04T00:22:58Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [dwyl/hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2) | 796 | 2026-04-02T23:29:17Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
+| [sveltejs/svelte-loader](https://github.com/sveltejs/svelte-loader) | 603 | 2026-04-02T10:32:37Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [OffchainLabs/arbitrum-tutorials](https://github.com/OffchainLabs/arbitrum-tutorials) | 505 | 2026-04-01T21:24:38Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [dwyl/javascript-todo-list-tutorial](https://github.com/dwyl/javascript-todo-list-tutorial) | 782 | 2026-04-01T20:26:49Z | JavaScript | Infrastructure/tooling | 14 | 11 | 14 | 14 |
 | [kharchenkolab/pagoda2](https://github.com/kharchenkolab/pagoda2) | 253 | 2026-04-01T17:55:18Z | JavaScript | Library | 4 | 0 | 4 | 4 |
@@ -42,6 +44,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mourner/kdbush](https://github.com/mourner/kdbush) | 698 | 2026-03-30T00:53:02Z | JavaScript | Infrastructure/tooling | 5 | 7 | 6 | 6 |
 | [CyberAP/nanoid-dictionary](https://github.com/CyberAP/nanoid-dictionary) | 144 | 2026-03-29T10:37:22Z | JavaScript | Unknown | 0 | 5 | 0 | 0 |
 | [mafintosh/streamx](https://github.com/mafintosh/streamx) | 239 | 2026-03-28T11:37:39Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
+| [w3c/webidl2.js](https://github.com/w3c/webidl2.js) | 273 | 2026-03-27T20:25:45Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [GoogleChromeLabs/wasm-feature-detect](https://github.com/GoogleChromeLabs/wasm-feature-detect) | 633 | 2026-03-27T19:53:12Z | JavaScript | Web app | 0 | 10 | 0 | 0 |
 | [ButTaiwan/bpmfvs](https://github.com/ButTaiwan/bpmfvs) | 260 | 2026-03-27T01:46:45Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fgnass/domino](https://github.com/fgnass/domino) | 787 | 2026-03-26T17:09:50Z | JavaScript | Service/API | 0 | 4 | 0 | 0 |
@@ -53,6 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [gruntjs/grunt-contrib-htmlmin](https://github.com/gruntjs/grunt-contrib-htmlmin) | 421 | 2026-03-25T21:29:22Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [avwo/whistle-client](https://github.com/avwo/whistle-client) | 977 | 2026-03-25T14:43:41Z | JavaScript | CLI | 0 | 15 | 0 | 0 |
 | [AghayeCoder/tx-ui](https://github.com/AghayeCoder/tx-ui) | 452 | 2026-03-25T03:53:46Z | JavaScript | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
@@ -78,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chrisgoringe/cg-use-everywhere](https://github.com/chrisgoringe/cg-use-everywhere) | 969 | 2026-04-01T01:48:09Z | JavaScript | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [hudochenkov/stylelint-order](https://github.com/hudochenkov/stylelint-order) | 955 | 2026-03-25T21:59:42Z | JavaScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [cmake-js/cmake-js](https://github.com/cmake-js/cmake-js) | 950 | 2026-03-09T22:39:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
+| [actions/deploy-pages](https://github.com/actions/deploy-pages) | 899 | 2026-03-25T17:24:12Z | JavaScript | Infrastructure/tooling | 13 | 23 | 13 | 13 |
 | [thejoshwolfe/yauzl](https://github.com/thejoshwolfe/yauzl) | 801 | 2026-04-01T11:46:55Z | JavaScript | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [dwyl/hapi-auth-jwt2](https://github.com/dwyl/hapi-auth-jwt2) | 796 | 2026-04-02T23:29:17Z | JavaScript | Infrastructure/tooling | 1 | 20 | 1 | 1 |
 | [gruntjs/grunt-contrib-cssmin](https://github.com/gruntjs/grunt-contrib-cssmin) | 790 | 2026-03-25T21:51:57Z | JavaScript | Infrastructure/tooling | 1 | 10 | 1 | 1 |
@@ -89,6 +94,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleChromeLabs/wasm-feature-detect](https://github.com/GoogleChromeLabs/wasm-feature-detect) | 633 | 2026-03-27T19:53:12Z | JavaScript | Web app | 0 | 10 | 0 | 0 |
 | [rstudio/DT](https://github.com/rstudio/DT) | 620 | 2026-03-23T18:01:03Z | JavaScript | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [absolute-version/commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) | 618 | 2026-03-30T17:24:37Z | JavaScript | CLI | 9 | 31 | 9 | 9 |
+| [sveltejs/svelte-loader](https://github.com/sveltejs/svelte-loader) | 603 | 2026-04-02T10:32:37Z | JavaScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
+| [badgen/badgen](https://github.com/badgen/badgen) | 557 | 2026-04-04T00:22:58Z | JavaScript | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [ankane/ahoy.js](https://github.com/ankane/ahoy.js) | 509 | 2026-03-25T00:35:41Z | JavaScript | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [OffchainLabs/arbitrum-tutorials](https://github.com/OffchainLabs/arbitrum-tutorials) | 505 | 2026-04-01T21:24:38Z | JavaScript | Infrastructure/tooling | 3 | 21 | 3 | 3 |
 | [protocolbuffers/protobuf-javascript](https://github.com/protocolbuffers/protobuf-javascript) | 460 | 2026-03-26T07:27:46Z | JavaScript | Infrastructure/tooling | 5 | 19 | 5 | 5 |
@@ -103,6 +110,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dwyl/learn-postgresql](https://github.com/dwyl/learn-postgresql) | 335 | 2026-03-25T18:41:04Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [florajs/sql-parser](https://github.com/florajs/sql-parser) | 305 | 2026-04-01T12:10:51Z | JavaScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [toon-format/spec](https://github.com/toon-format/spec) | 282 | 2026-04-01T05:45:18Z | JavaScript | Infrastructure/tooling | 1 | 6 | 1 | 1 |
+| [w3c/webidl2.js](https://github.com/w3c/webidl2.js) | 273 | 2026-03-27T20:25:45Z | JavaScript | Infrastructure/tooling | 2 | 17 | 2 | 2 |
 | [executablebooks/sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton) | 268 | 2026-03-16T16:38:49Z | JavaScript | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [ButTaiwan/bpmfvs](https://github.com/ButTaiwan/bpmfvs) | 260 | 2026-03-27T01:46:45Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [kharchenkolab/pagoda2](https://github.com/kharchenkolab/pagoda2) | 253 | 2026-04-01T17:55:18Z | JavaScript | Library | 4 | 0 | 4 | 4 |

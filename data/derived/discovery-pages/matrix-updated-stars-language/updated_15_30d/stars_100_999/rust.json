@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 274,
-    "observations": 277,
-    "repos": 63,
-    "terms": 284
+    "components": 443,
+    "concepts": 304,
+    "observations": 309,
+    "repos": 67,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,31 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
     "aannoo/hcom",
     "ada-url/rust",
     "agent-sh/agnix",
+    "ajrcarey/pdfium-render",
     "alex/rust-asn1",
     "alexheretic/glyph-brush",
     "alloy-rs/core",
     "alloy-rs/examples",
     "athre0z/color-backtrace",
     "cargo-lambda/cargo-lambda",
+    "cometbft/tendermint-rs",
     "containers/aardvark-dns",
     "crate-ci/committed",
     "criterion-rs/criterion.rs",
     "ctz/graviola",
     "dalance/ptags",
     "denoland/deno_doc",
+    "dimforge/parry",
     "djc/tokio-retry",
     "drahnr/cargo-spellcheck",
+    "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",
     "esp-rs/esp-idf-hal",
     "esp-rs/rust",
@@ -60,9 +64,7 @@
     "psmux/pstop",
     "ramsayleung/rspotify",
     "RazrFalcon/memmap2-rs",
-    "rust-analyzer/rowan",
     "rust-lang/libz-sys",
-    "rust-lang/pkg-config-rs",
     "rust-mobile/rust-android-examples",
     "RustCrypto/AEADs",
     "RustCrypto/RSA",
@@ -75,6 +77,8 @@
     "tekumara/typos-lsp",
     "tikv/jemallocator",
     "tracel-ai/models",
+    "Traverse-Research/gpu-allocator",
+    "untitaker/hyperlink",
     "yeslogic/allsorts",
     "zimbatm/mdsh"
   ]

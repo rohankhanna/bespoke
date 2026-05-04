@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 500,
-    "concepts": 496,
-    "observations": 496,
-    "repos": 35,
-    "terms": 496
+    "components": 521,
+    "concepts": 540,
+    "observations": 540,
+    "repos": 39,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,32 +12,35 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a-h/templ",
     "anchore/grype",
-    "apache/casbin",
-    "apernet/hysteria",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
+    "containers/podman",
     "dagger/dagger",
     "dgraph-io/dgraph",
     "DNSCrypt/dnscrypt-proxy",
     "etcd-io/etcd",
+    "gastownhall/gastown",
     "getsops/sops",
     "git-lfs/git-lfs",
     "go-sql-driver/mysql",
     "goharbor/harbor",
+    "google/gvisor",
     "gotify/server",
     "gravitational/teleport",
     "grpc-ecosystem/grpc-gateway",
     "hajimehoshi/ebiten",
     "hashicorp/nomad",
+    "helm/helm",
     "ipfs/kubo",
+    "istio/istio",
     "moby/moby",
     "navidrome/navidrome",
     "ory/kratos",
@@ -45,9 +48,10 @@
     "pingcap/tidb",
     "pion/webrtc",
     "pulumi/pulumi",
-    "QuantumNous/new-api",
     "rclone/rclone",
-    "schollz/croc",
+    "redis/go-redis",
+    "v2fly/v2ray-core",
+    "VictoriaMetrics/VictoriaMetrics",
     "weaviate/weaviate"
   ]
 }

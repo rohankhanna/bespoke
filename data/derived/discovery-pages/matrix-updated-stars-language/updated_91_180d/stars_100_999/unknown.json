@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 42,
     "observations": 42,
-    "repos": 25,
+    "repos": 27,
     "terms": 54
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
     "AppImageCommunity/awesome-appimage",
     "charm-and-friends/additional-bubbles",
+    "chika0801/Xray-examples",
     "CodeBoarding/GeneratedOnBoardings",
     "deepinsight/inswapper-512-live",
     "deepseek-ai/awesome-deepseek-coder",
@@ -28,6 +29,7 @@
     "IceClear/SeedVR2",
     "langchain4j/awesome-langchain4j",
     "lightning/blips",
+    "michaelkleber/privacy-model",
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",
     "NVIDIA/RTX-AI-Toolkit",

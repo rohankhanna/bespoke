@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
+    "components": 21,
     "concepts": 29,
     "observations": 29,
-    "repos": 9,
-    "terms": 34
+    "repos": 8,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "bunburysniper/bleunova-ai-agent",
     "conda-forge/conda-forge-feedstock-ops",
+    "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Hypothesis-Council",
-    "florisheedless915/grok-register",
     "hauntsaninja/mypy",
     "hmellor/vllm",
-    "l12203685/digital-immortality",
-    "roampal-ai/roampal-labs",
-    "shubishere/ai-drawio"
+    "NightWatcher314/dockgecli",
+    "NightWatcher314/npmctl",
+    "roampal-ai/roampal-labs"
   ]
 }

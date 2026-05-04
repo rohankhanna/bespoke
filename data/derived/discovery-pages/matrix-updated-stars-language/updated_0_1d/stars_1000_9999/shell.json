@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 6,
-    "observations": 6,
+    "components": 2,
+    "concepts": 5,
+    "observations": 5,
     "repos": 1,
-    "terms": 6
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "bitnami/containers"
+    "archlinuxcn/repo"
   ]
 }

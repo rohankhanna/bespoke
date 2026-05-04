@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 56
-- terms: 99
-- components: 192
-- concepts: 96
-- observations: 97
+- repos: 64
+- terms: 108
+- components: 217
+- concepts: 105
+- observations: 106
 
 ## Static behavior
 
@@ -25,12 +25,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
+| [JuliaBinaryWrappers/Cairo_jll.jl](https://github.com/JuliaBinaryWrappers/Cairo_jll.jl) | 0 | 2026-04-02T16:48:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
 | [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AMD-GPU-DP-Hotplug-Fix](https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix) | 0 | 2026-03-30T10:05:12Z | Shell | Unknown | 2 | 0 | 2 | 2 |
@@ -38,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |
@@ -58,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -69,29 +76,35 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [marin-community/harbor](https://github.com/marin-community/harbor) | 0 | 2026-03-18T23:58:58Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bookcars/bookcars.github.io](https://github.com/bookcars/bookcars.github.io) | 0 | 2026-03-18T12:22:22Z | Other | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [Nichaojun/Nichaojun.github.io](https://github.com/Nichaojun/Nichaojun.github.io) | 0 | 2026-03-18T09:39:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [musicman3/r2-d2](https://github.com/musicman3/r2-d2) | 0 | 2026-03-17T15:59:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/async-executor](https://github.com/hermit-os/async-executor) | 0 | 2026-03-17T13:02:52Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-03-17T11:11:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-First-Aid](https://github.com/danielrosehill/Israel-First-Aid) | 0 | 2026-03-16T18:24:56Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [iambriccardo/gcp-bigquery-client](https://github.com/iambriccardo/gcp-bigquery-client) | 0 | 2026-03-16T15:32:50Z | Rust | CLI | 2 | 7 | 2 | 3 |
 | [stable-haskell/stack](https://github.com/stable-haskell/stack) | 0 | 2026-03-13T07:55:18Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [glennhickey/red](https://github.com/glennhickey/red) | 0 | 2026-03-12T13:52:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [onomojo/i18n-country-translations-data](https://github.com/onomojo/i18n-country-translations-data) | 0 | 2026-03-09T13:12:06Z | JavaScript | Library | 0 | 0 | 0 | 0 |
+| [onomojo/i18n-timezones-data](https://github.com/onomojo/i18n-timezones-data) | 0 | 2026-03-09T13:12:02Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
-| [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
+| [stefanlogue/scoops](https://github.com/stefanlogue/scoops) | 0 | 2026-04-03T09:40:21Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [9romise/eslint-config](https://github.com/9romise/eslint-config) | 0 | 2026-04-03T09:28:34Z | TypeScript | Infrastructure/tooling | 2 | 20 | 2 | 2 |
+| [JuliaBinaryWrappers/Cairo_jll.jl](https://github.com/JuliaBinaryWrappers/Cairo_jll.jl) | 0 | 2026-04-02T16:48:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [prisma/cuid-rust](https://github.com/prisma/cuid-rust) | 0 | 2026-04-02T06:41:12Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Sovereign-Labs/reltester](https://github.com/Sovereign-Labs/reltester) | 0 | 2026-04-01T14:27:29Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [hermit-os/safe-mmio](https://github.com/hermit-os/safe-mmio) | 0 | 2026-04-01T13:52:39Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sujithpvarghese/bedrock-agent-core-operations-hub](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub) | 0 | 2026-03-30T22:34:02Z | TypeScript | Web app | 10 | 9 | 10 | 10 |
 | [Patrick-ring-motive/sval-rhino-gs](https://github.com/Patrick-ring-motive/sval-rhino-gs) | 0 | 2026-03-30T17:28:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [drmingdrmer/display-more](https://github.com/drmingdrmer/display-more) | 0 | 2026-03-30T16:49:15Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AMD-GPU-DP-Hotplug-Fix](https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix) | 0 | 2026-03-30T10:05:12Z | Shell | Unknown | 2 | 0 | 2 | 2 |
@@ -99,6 +112,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Patches-Repos-Index](https://github.com/danielrosehill/Patches-Repos-Index) | 0 | 2026-03-30T10:03:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/amd-gpu-fixes](https://github.com/danielrosehill/amd-gpu-fixes) | 0 | 2026-03-30T10:02:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [PetervanLunteren/EcoAssist-metadata](https://github.com/PetervanLunteren/EcoAssist-metadata) | 0 | 2026-03-30T08:33:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [datafuse-extras/dtparse](https://github.com/datafuse-extras/dtparse) | 0 | 2026-03-30T07:40:59Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [adiny/moodtrip-hotel-search](https://github.com/adiny/moodtrip-hotel-search) | 0 | 2026-03-29T20:42:29Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter_kr](https://github.com/b2agi/exist-is-charter_kr) | 0 | 2026-03-29T16:29:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/negotiator](https://github.com/NeuroverseOS/negotiator) | 0 | 2026-03-29T00:37:35Z | TypeScript | Infrastructure/tooling | 1 | 9 | 0 | 0 |
@@ -119,6 +133,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Geopolitical-And-OSINT-Index](https://github.com/danielrosehill/Geopolitical-And-OSINT-Index) | 0 | 2026-03-25T12:10:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/GitHub-Management-Tools-Index](https://github.com/danielrosehill/GitHub-Management-Tools-Index) | 0 | 2026-03-25T12:10:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Linux-Desktop-Tools-Index](https://github.com/danielrosehill/Linux-Desktop-Tools-Index) | 0 | 2026-03-25T12:10:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [JuliaBinaryWrappers/FreeType2_jll.jl](https://github.com/JuliaBinaryWrappers/FreeType2_jll.jl) | 0 | 2026-03-24T20:57:32Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [adipalko/hatraot](https://github.com/adipalko/hatraot) | 0 | 2026-03-24T20:13:43Z | TypeScript | Unknown | 0 | 14 | 0 | 0 |
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Nambers/ssrJSON-benchmark](https://github.com/Nambers/ssrJSON-benchmark) | 0 | 2026-03-23T20:11:45Z | Python | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -130,15 +145,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [marin-community/harbor](https://github.com/marin-community/harbor) | 0 | 2026-03-18T23:58:58Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bookcars/bookcars.github.io](https://github.com/bookcars/bookcars.github.io) | 0 | 2026-03-18T12:22:22Z | Other | Infrastructure/tooling | 2 | 11 | 2 | 2 |
+| [Nichaojun/Nichaojun.github.io](https://github.com/Nichaojun/Nichaojun.github.io) | 0 | 2026-03-18T09:39:41Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [musicman3/r2-d2](https://github.com/musicman3/r2-d2) | 0 | 2026-03-17T15:59:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [hermit-os/async-executor](https://github.com/hermit-os/async-executor) | 0 | 2026-03-17T13:02:52Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-03-17T11:11:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Israel-First-Aid](https://github.com/danielrosehill/Israel-First-Aid) | 0 | 2026-03-16T18:24:56Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [iambriccardo/gcp-bigquery-client](https://github.com/iambriccardo/gcp-bigquery-client) | 0 | 2026-03-16T15:32:50Z | Rust | CLI | 2 | 7 | 2 | 3 |
 | [stable-haskell/stack](https://github.com/stable-haskell/stack) | 0 | 2026-03-13T07:55:18Z | Other | Infrastructure/tooling | 5 | 9 | 5 | 5 |
+| [glennhickey/red](https://github.com/glennhickey/red) | 0 | 2026-03-12T13:52:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [onomojo/i18n-country-translations-data](https://github.com/onomojo/i18n-country-translations-data) | 0 | 2026-03-09T13:12:06Z | JavaScript | Library | 0 | 0 | 0 | 0 |
+| [onomojo/i18n-timezones-data](https://github.com/onomojo/i18n-timezones-data) | 0 | 2026-03-09T13:12:02Z | JavaScript | Library | 0 | 0 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
-| [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
-| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

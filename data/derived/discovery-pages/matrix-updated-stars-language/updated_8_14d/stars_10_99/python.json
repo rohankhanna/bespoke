@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 317,
-    "concepts": 161,
-    "observations": 163,
-    "repos": 47,
-    "terms": 174
+    "components": 274,
+    "concepts": 170,
+    "observations": 172,
+    "repos": 51,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,28 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AFD-Illinois/pyharm",
     "AI-Hypercomputer/pathways-utils",
+    "AIM-Harvard/DINOv2-3D-Med",
+    "allenai/scirepeval",
     "AMD-AGI/torchtitan-amd",
     "angr/archinfo",
     "ansible/ansible-compat",
+    "ant-research/pointelligence",
     "Ascend/TransferQueue",
     "AstarVienna/ScopeSim",
     "atlanhq/application-sdk",
+    "autodeployai/pypmml",
+    "autonomousvision/plant2",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
     "caketop/python-starlark-go",
-    "carstencodes/simplepycons",
     "castorini/anserini-tools",
     "channel-io/ch-tts-llasa-rl-grpo",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
-    "costiash/claude-code-docs",
     "crs4/rocrate-validator",
     "datajuicer/data-juicer-agents",
     "DeterminateSystems/determinate-nix-action",
@@ -44,6 +47,7 @@
     "jxpress/lightning-hydra-template-vertex-ai",
     "Looong01/pyg-rocm-build",
     "mayeut/pep600_compliance",
+    "mesh-iit/cad-libraries",
     "meta-pytorch/MSLK",
     "metatensor/metatensor",
     "ModelCloud/Evalution",
@@ -58,8 +62,8 @@
     "pytest-dev/execnet",
     "ROCm/tritonBLAS",
     "scipy/scipy-stubs",
-    "sliamh11/deus",
     "sublimelsp/LSP-ruff",
+    "symgraph/BinAssistMCP",
     "typeshed-internal/stub_uploader"
   ]
 }

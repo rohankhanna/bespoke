@@ -3,7 +3,7 @@
     "components": 156,
     "concepts": 90,
     "observations": 90,
-    "repos": 67,
+    "repos": 75,
     "terms": 90
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -41,6 +41,8 @@
     "CrackAndDie/Abdrakov.Container",
     "crc-org/engineering-docs",
     "danielrosehill/AI-Friendly-Badge",
+    "diffusion-planning/diffusion-planning.github.io",
+    "diffusion-ppo/diffusion-ppo.github.io",
     "dixyes/ghactionsplay",
     "dom8509/hugo-PaperMod",
     "dop-amin/ches2025-slothy-tutorial",
@@ -53,8 +55,13 @@
     "juharris/dotnet-OptionsProvider",
     "JuliaBinaryWrappers/boost_jll.jl",
     "JuliaBinaryWrappers/Bzip2_jll.jl",
+    "JuliaBinaryWrappers/Fontconfig_jll.jl",
+    "JuliaBinaryWrappers/FriBidi_jll.jl",
+    "JuliaBinaryWrappers/GTK4_jll.jl",
+    "JuliaBinaryWrappers/libadwaita_jll.jl",
     "JuliaBinaryWrappers/LightGBM_jll.jl",
     "JuliaBinaryWrappers/LLVMOpenMP_jll.jl",
+    "JuliaBinaryWrappers/pixi_jll.jl",
     "JuliaBinaryWrappers/yyjson_jll.jl",
     "JuliaDocs/DocumenterInventoryWritingBackport.jl",
     "juliardi/lite-xl-ayu-theme",
@@ -79,6 +86,7 @@
     "userbait/phishing_sites_detector",
     "vany0114/vany0114.github.io",
     "ve-forbryderne/mkultra",
+    "weiyithu/weiyithu.github.io",
     "XcodesOrg/homebrew-cask",
     "yousty/event_store_subscriptions"
   ]

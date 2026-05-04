@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 13,
-    "terms": 16
+    "components": 40,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 15,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "angular/angular-devkit-build-webpack-builds",
+    "calda/SwiftFormat-nightly",
     "csm-actions/demo-server",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "dmBots/DM-J4310-2EC",
-    "hiyouga/llamafactory-community",
+    "haskell/ghcup-www",
     "hybridgroup/llama-cpp-builder",
     "jku/tuf-demo",
     "OpenSC/Nightly",
@@ -26,6 +27,7 @@
     "puppetlabs/.github",
     "sp1-patches/RustCrypto-bigint",
     "sp1-patches/tiny-keccak",
-    "stdlib-js/meetings"
+    "stdlib-js/meetings",
+    "szksh-lab/.github"
   ]
 }

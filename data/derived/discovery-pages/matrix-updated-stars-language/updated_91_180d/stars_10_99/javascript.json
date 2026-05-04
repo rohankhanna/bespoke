@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 35,
-    "observations": 36,
-    "repos": 17,
-    "terms": 35
+    "components": 221,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 23,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "bevry/domain-browser",
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
     "d3x0r/JSOX",
@@ -21,9 +22,14 @@
     "ember-cli/broccoli-caching-writer",
     "freddyaboulton/gradio-pdf",
     "haskell-actions/run-ormolu",
+    "josdejong/typed-function",
+    "jupyter-xeus/xeus-javascript",
     "karma-runner/karma-qunit",
     "LuaLS/vscode-lua-doc",
     "markdown-it/markdown-it-abbr",
+    "markdown-it/markdown-it-cjk-breaks",
+    "markdown-it/markdown-it-deflist",
+    "markdown-it/markdown-it-sub",
     "minikube-ci/examples",
     "nodejs/Gzemnid",
     "Redocly/redocly-cli-cookbook",

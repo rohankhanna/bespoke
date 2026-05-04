@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 287,
-    "concepts": 245,
-    "observations": 246,
-    "repos": 91,
-    "terms": 244
+    "components": 312,
+    "concepts": 258,
+    "observations": 259,
+    "repos": 99,
+    "terms": 257
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "2KAbhishek/pickme.nvim",
     "2KAbhishek/tdo.nvim",
@@ -51,7 +51,9 @@
     "falcoframework/Falco.Htmx",
     "falcoframework/Falco.OpenApi",
     "FFTAI/Wiki-GRx-Gym",
+    "FluxML/DataAugmentation.jl",
     "formigarafa/zxcvbn-rb",
+    "friemen/diffit",
     "geocompx/docker",
     "getumbrel/umbrel-lightning",
     "GoogleCloudPlatform/ai-infra-cluster-provisioning",
@@ -61,6 +63,7 @@
     "jaegertracing/docker-protobuf",
     "JamieMair/MuJoCo.jl",
     "JezerM/oil-lsp-diagnostics.nvim",
+    "jgpc42/lein-jmh",
     "Jorenar/minPlug",
     "JuliaGraphics/ColorTypes.jl",
     "JuliaGtk/Gtk4Makie.jl",
@@ -82,12 +85,14 @@
     "opencontainers/oci-conformance",
     "opensim-org/opensim-models",
     "openxrlab/xrtailor",
+    "OutlierDetectionJL/OutlierDetection.jl",
     "pagedjs/pagedjs-cli",
     "patterns-ai-core/qdrant-ruby",
     "probe-lab/network-measurements",
     "pug-php/js-phpize",
     "reisub/http_cookie",
     "rejeep/ansi.el",
+    "Rhoban/onshape-to-robot-examples",
     "rocker-org/binder",
     "RTBHOUSE/tmux-picker",
     "sbcgua/abap-string-map",
@@ -95,6 +100,7 @@
     "status-im/nim-json-serialization",
     "status-im/nim-nat-traversal",
     "status-im/nim-toml-serialization",
+    "tc39/proposal-smart-unit-preferences",
     "terrierteam/pyterrier_doc2query",
     "travis-ci/travis-hub",
     "travis-ci/travis-listener",
@@ -102,6 +108,8 @@
     "travis-ci/travis-scheduler",
     "viafintech/gcra-ruby",
     "webdataset/WebDataset.jl",
+    "westnordost/osmfeatures",
+    "WICG/crash-reporting",
     "XR-Robotics/XRoboToolkit-Unity-Client",
     "Xuyuanp/yanil",
     "yamachu/VoicevoxEngineSharp"

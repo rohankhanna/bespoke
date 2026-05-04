@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 201,
+    "components": 8,
     "concepts": 10,
     "observations": 10,
-    "repos": 3,
+    "repos": 1,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,10 +12,8 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "8144225309/superscalar-wallet",
-    "fekkak1998/scira",
-    "gopi2211/ralph"
+    "8144225309/superscalar-wallet"
   ]
 }

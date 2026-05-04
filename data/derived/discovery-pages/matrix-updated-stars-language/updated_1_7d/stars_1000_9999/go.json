@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 754,
-    "concepts": 739,
-    "observations": 744,
-    "repos": 73,
-    "terms": 736
+    "components": 792,
+    "concepts": 799,
+    "observations": 804,
+    "repos": 80,
+    "terms": 796
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -24,6 +24,7 @@
     "aws/aws-sdk-go-v2",
     "aws/karpenter-provider-aws",
     "azimjohn/jprq",
+    "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "beclab/Olares",
     "bnb-chain/bsc",
@@ -34,7 +35,7 @@
     "cloudflare/pint",
     "cloudwego/hertz",
     "cockroachdb/pebble",
-    "Consensys/gnark",
+    "crc-org/crc",
     "Dicklesworthstone/beads_viewer",
     "DNSCrypt/dnscrypt-resolvers",
     "dundee/gdu",
@@ -42,11 +43,13 @@
     "elazarl/goproxy",
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
+    "erigontech/erigon",
     "evilmartians/lefthook",
     "external-secrets/external-secrets",
     "filecoin-project/lotus",
     "fluxcd/flux2",
     "go-flutter-desktop/hover",
+    "go-git/go-git",
     "googleapis/google-api-go-client",
     "googleapis/google-cloud-go",
     "goreleaser/nfpm",
@@ -55,12 +58,15 @@
     "ko-build/ko",
     "kserve/kserve",
     "kubeflow/trainer",
+    "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/gateway-api",
     "kubernetes-sigs/karpenter",
     "kubernetes-sigs/node-feature-discovery",
     "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/kubectl",
     "kyverno/kyverno",
+    "Loyalsoldier/geoip",
+    "maragudk/gomponents",
     "mostlygeek/llama-swap",
     "NVIDIA/gpu-operator",
     "NVIDIA/k8s-device-plugin",
@@ -86,6 +92,7 @@
     "supabase/cli",
     "sysadminsmedia/homebox",
     "usbarmory/tamago",
-    "vale-cli/vale"
+    "vale-cli/vale",
+    "XTLS/REALITY"
   ]
 }

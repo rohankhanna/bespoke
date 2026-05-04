@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 16,
-    "terms": 39
+    "components": 16,
+    "concepts": 43,
+    "observations": 44,
+    "repos": 18,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Biscuit-Theme/biscuit",
+    "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
+    "eza-community/eza-themes",
     "googleapis/python-logging",
     "GuiWonder/MoonStarsKai",
     "hashicorp/vault-examples",

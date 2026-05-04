@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 16,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 3,
-    "terms": 14
+    "concepts": 17,
+    "observations": 17,
+    "repos": 4,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "google/auto",
     "google/guava",
+    "NationalSecurityAgency/ghidra",
     "termux/termux-app"
   ]
 }

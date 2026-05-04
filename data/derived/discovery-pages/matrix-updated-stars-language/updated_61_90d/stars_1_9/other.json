@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 19,
-    "terms": 46
+    "components": 92,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 23,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0x2a-42/nvim-lelwel",
     "adobe/spectrum-tokens",
@@ -20,13 +20,17 @@
     "arya-s/phantty",
     "baskeboler/clj-karaoke-lyrics",
     "countries/countries-data-yaml",
+    "empriselab/kortex_description",
     "haya14busa/github-used-by",
     "hchiam/learning-ngrok",
     "hermit-os/hermit-gcc",
+    "ihmcrobotics/ihmc-build",
     "JuliaBinaryWrappers/libcxxwrap_julia_jll.jl",
     "JuliaBinaryWrappers/Zlib_jll.jl",
+    "Jumziey/neotest-nix-unit.nvim",
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
+    "shakacode/package_json",
     "stephanj/sonarlint-devoxxgenie-intellij",
     "SWE-bench/SWE-smith-envs",
     "tensorchord/VectorChord-images",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 7,
-    "terms": 38
+    "components": 114,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 10,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ankane/dist-c",
     "Asmod4n/mruby-fast-json",
-    "datalevin/dlmdb",
     "decibri/decibri.cpp",
+    "gbrobro119-star/darksword-kexploit",
+    "lonewolf-jp/convopeq",
     "mypyc/librt",
+    "openssh/openssh-portable-selfhosted",
     "rapidsai/rapids-logger",
+    "stdlib-js/complex-float32-ctor",
     "stdlib-js/ndarray-ctor"
   ]
 }

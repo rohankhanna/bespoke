@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 7,
-    "terms": 17
+    "components": 33,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 16,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,23 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "8144225309/superscalar-docs",
+    "acevif/swiftformat-nix",
     "ashton/neotest-gleam-unitest",
+    "b2agi/exist-is-charter",
     "cmake-wheel/cmeel-example",
+    "danielrosehill/AI-Ideation-Runs",
+    "danielrosehill/Geopol-Forecast-Council",
+    "danielrosehill/Github-Ideas-And-FRs",
+    "firestryk/chatgpt-website.github.io",
+    "genuslovoacalixtusiii510/ytp-2026",
     "JuliaBinaryWrappers/CUDA_Driver_jll.jl",
     "JuliaBinaryWrappers/CUDA_Runtime_jll.jl",
-    "stefanlogue/scoops",
+    "markoswire/remember-me.ai",
+    "robertabao/grok-nvim",
+    "shoggo-ai/seniorvigil",
     "wblondel/blog"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 171
-- components: 1044
-- concepts: 143
-- observations: 144
+- repos: 46
+- terms: 198
+- components: 1151
+- concepts: 166
+- observations: 167
 
 ## Static behavior
 
@@ -26,6 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [adyscorpius/logseq-jira](https://github.com/adyscorpius/logseq-jira) | 56 | 2026-04-20T00:59:32Z | TypeScript | Infrastructure/tooling | 3 | 32 | 3 | 3 |
+| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
+| [favware/cliff-jumper](https://github.com/favware/cliff-jumper) | 54 | 2026-04-19T13:13:34Z | TypeScript | CLI | 13 | 37 | 13 | 13 |
+| [almogdepaz/wolfpack](https://github.com/almogdepaz/wolfpack) | 27 | 2026-04-19T10:41:57Z | TypeScript | CLI | 7 | 10 | 7 | 7 |
 | [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [ipikuka/rehype-highlight-code-lines](https://github.com/ipikuka/rehype-highlight-code-lines) | 15 | 2026-04-18T09:57:37Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [ipikuka/remark-flexible-containers](https://github.com/ipikuka/remark-flexible-containers) | 23 | 2026-04-18T08:59:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
@@ -51,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [buttondown/cli](https://github.com/buttondown/cli) | 10 | 2026-04-14T17:06:59Z | TypeScript | CLI | 1 | 20 | 1 | 1 |
 | [ngyewch/smile-js](https://github.com/ngyewch/smile-js) | 25 | 2026-04-13T07:33:58Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |
 | [zhayujie/cow-skill-hub](https://github.com/zhayujie/cow-skill-hub) | 19 | 2026-04-12T09:23:38Z | TypeScript | Unknown | 5 | 8 | 5 | 5 |
+| [bestkolobok/vue3-jsoneditor](https://github.com/bestkolobok/vue3-jsoneditor) | 82 | 2026-04-12T00:41:38Z | TypeScript | Infrastructure/tooling | 2 | 42 | 2 | 2 |
 | [ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components) | 26 | 2026-04-11T17:23:43Z | TypeScript | Infrastructure/tooling | 6 | 81 | 6 | 6 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
 | [awslabs/wdio-aws-device-farm-service](https://github.com/awslabs/wdio-aws-device-farm-service) | 25 | 2026-04-10T21:29:33Z | TypeScript | Infrastructure/tooling | 5 | 20 | 5 | 5 |
@@ -67,7 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [obi1kenobi/cargo-semver-checks-action](https://github.com/obi1kenobi/cargo-semver-checks-action) | 75 | 2026-04-05T20:13:37Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
 | [blrchen/chatgpt-minimal](https://github.com/blrchen/chatgpt-minimal) | 73 | 2026-04-05T16:43:34Z | TypeScript | Infrastructure/tooling | 8 | 42 | 8 | 8 |
 | [9romise/eslint-plugin-import-lite](https://github.com/9romise/eslint-plugin-import-lite) | 25 | 2026-04-04T07:31:55Z | TypeScript | Infrastructure/tooling | 3 | 26 | 3 | 3 |
-| [solidjs-community/storybook](https://github.com/solidjs-community/storybook) | 45 | 2026-04-03T13:23:29Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 
 ## Repos sorted by stars
 
@@ -78,6 +82,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aws-samples/aws-sdk-js-notes-app](https://github.com/aws-samples/aws-sdk-js-notes-app) | 87 | 2026-04-07T04:38:09Z | TypeScript | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [cahamilton/stylelint-config-property-sort-order-smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss) | 86 | 2026-04-09T19:01:32Z | TypeScript | Infrastructure/tooling | 12 | 14 | 12 | 12 |
 | [Sec-ant/prettier-plugin-embed](https://github.com/Sec-ant/prettier-plugin-embed) | 82 | 2026-04-15T15:22:45Z | TypeScript | Infrastructure/tooling | 10 | 46 | 10 | 10 |
+| [bestkolobok/vue3-jsoneditor](https://github.com/bestkolobok/vue3-jsoneditor) | 82 | 2026-04-12T00:41:38Z | TypeScript | Infrastructure/tooling | 2 | 42 | 2 | 2 |
 | [darkriszty/MarkdownTablePrettify-VSCodeExt](https://github.com/darkriszty/MarkdownTablePrettify-VSCodeExt) | 79 | 2026-04-17T12:31:38Z | TypeScript | Infrastructure/tooling | 4 | 12 | 6 | 6 |
 | [huangguang1999/ccstatusline-zh](https://github.com/huangguang1999/ccstatusline-zh) | 79 | 2026-04-16T05:47:51Z | TypeScript | CLI | 0 | 30 | 0 | 0 |
 | [obi1kenobi/cargo-semver-checks-action](https://github.com/obi1kenobi/cargo-semver-checks-action) | 75 | 2026-04-05T20:13:37Z | TypeScript | Infrastructure/tooling | 4 | 27 | 4 | 4 |
@@ -88,13 +93,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [Shougo/ddu-ui-ff](https://github.com/Shougo/ddu-ui-ff) | 59 | 2026-04-09T09:40:25Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Godefroy/micdrop](https://github.com/Godefroy/micdrop) | 57 | 2026-04-15T13:33:38Z | TypeScript | Web app | 0 | 2 | 0 | 0 |
+| [adyscorpius/logseq-jira](https://github.com/adyscorpius/logseq-jira) | 56 | 2026-04-20T00:59:32Z | TypeScript | Infrastructure/tooling | 3 | 32 | 3 | 3 |
+| [favware/cliff-jumper](https://github.com/favware/cliff-jumper) | 54 | 2026-04-19T13:13:34Z | TypeScript | CLI | 13 | 37 | 13 | 13 |
 | [ElementsProject/cln-application](https://github.com/ElementsProject/cln-application) | 47 | 2026-04-08T21:30:51Z | TypeScript | Infrastructure/tooling | 4 | 8 | 4 | 4 |
-| [solidjs-community/storybook](https://github.com/solidjs-community/storybook) | 45 | 2026-04-03T13:23:29Z | TypeScript | Infrastructure/tooling | 2 | 34 | 2 | 2 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
 | [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | 41 | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [labring/fastgpt-plugin](https://github.com/labring/fastgpt-plugin) | 39 | 2026-04-16T07:53:33Z | TypeScript | Infrastructure/tooling | 5 | 33 | 5 | 5 |
+| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [codemirror/language](https://github.com/codemirror/language) | 30 | 2026-04-15T10:19:22Z | TypeScript | Unknown | 0 | 8 | 0 | 0 |
+| [almogdepaz/wolfpack](https://github.com/almogdepaz/wolfpack) | 27 | 2026-04-19T10:41:57Z | TypeScript | CLI | 7 | 10 | 7 | 7 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
 | [ipfs/ipld-explorer-components](https://github.com/ipfs/ipld-explorer-components) | 26 | 2026-04-11T17:23:43Z | TypeScript | Infrastructure/tooling | 6 | 81 | 6 | 6 |
 | [ngyewch/smile-js](https://github.com/ngyewch/smile-js) | 25 | 2026-04-13T07:33:58Z | TypeScript | Infrastructure/tooling | 1 | 22 | 1 | 1 |

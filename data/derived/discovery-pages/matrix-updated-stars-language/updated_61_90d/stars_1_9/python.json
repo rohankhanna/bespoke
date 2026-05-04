@@ -3,7 +3,7 @@
     "components": 45,
     "concepts": 43,
     "observations": 43,
-    "repos": 12,
+    "repos": 13,
     "terms": 43
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agents-x-project/PyVision-RL-Eval",
     "alexpolonsky/agent-skill-jlm-coffee",
@@ -25,6 +25,7 @@
     "flagos-ai/vllm-FL",
     "genius-harry/neural-chat",
     "llm-in-sandbox/llm-in-sandbox-rl",
-    "mlfoundations/SkyRL"
+    "mlfoundations/SkyRL",
+    "sylabs/singularity-admindocs"
   ]
 }

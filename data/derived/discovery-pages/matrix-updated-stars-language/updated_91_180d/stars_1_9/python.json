@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 22,
-    "terms": 49
+    "components": 73,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 23,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abersheeran/pdm-version",
     "ai-bot-pro/pipeline-py",
@@ -22,6 +22,7 @@
     "b-data/docker-deployment-jupyter",
     "biocypher/collectri",
     "ca-ruz/bumpit",
+    "cognizant-ai-lab/neuro-san-web-client",
     "Computer-use-agents/GUI-Docker-Env",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "datajuicer/data-juicer-sandbox",

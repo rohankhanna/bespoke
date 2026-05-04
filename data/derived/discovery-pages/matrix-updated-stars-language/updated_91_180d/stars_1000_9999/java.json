@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 3,
-    "terms": 21
+    "concepts": 28,
+    "observations": 28,
+    "repos": 4,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "cjlin1/libsvm",
+    "lz4/lz4-java",
     "PlexPt/chatgpt-java",
     "zeromq/jeromq"
   ]

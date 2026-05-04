@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 6,
-    "terms": 17
+    "components": 24,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 5,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adammes/voyanode",
-    "CharlieFRuan/harbor",
     "marin-community/harbor",
     "Nambers/ssrJSON-benchmark",
     "nibir1/vaultsim",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 248,
+    "components": 279,
     "concepts": 71,
     "observations": 71,
-    "repos": 13,
+    "repos": 15,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Adobe-CEP/CEP-Resources",
     "apostrophecms/sanitize-html",
@@ -25,7 +25,9 @@
     "huggingface/transformers.js-examples",
     "istanbuljs/nyc",
     "microsoft/generative-ai-with-javascript",
+    "paralleldrive/cuid2",
     "remarkjs/remark",
+    "sindresorhus/clipboardy",
     "svg-sprite/svg-sprite"
   ]
 }

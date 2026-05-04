@@ -8,13 +8,14 @@
       "size": 4058
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:42:57.783526+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "ColBERT: Contextualized Late Interaction over BERT (code for SIGIR'20 paper)",
     "fork": true,
-    "full_name": "cmacdonald/ColBERT",
+    "full_name": "cmacdonald/colbert",
     "html_url": "https://github.com/cmacdonald/ColBERT",
     "language": null,
     "pushed_at": "2025-04-03T17:06:45Z",

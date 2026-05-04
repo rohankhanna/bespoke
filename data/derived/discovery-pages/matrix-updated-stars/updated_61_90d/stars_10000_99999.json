@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 520,
-    "concepts": 284,
-    "observations": 288,
-    "repos": 46,
-    "terms": 283
+    "components": 601,
+    "concepts": 312,
+    "observations": 316,
+    "repos": 50,
+    "terms": 312
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -35,19 +35,22 @@
     "google-research/vision_transformer",
     "gulpjs/gulp",
     "i3/i3",
+    "jaredpalmer/tsdx",
     "Jiayi-Pan/TinyZero",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
     "KlingAIResearch/LivePortrait",
     "kyleneideck/backgroundmusic",
+    "logaretm/vee-validate",
     "lucidrains/denoising-diffusion-pytorch",
     "mathjax/MathJax",
+    "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/vscode-extension-samples",
     "minio/minio",
     "modin-project/modin",
     "nikic/PHP-Parser",
-    "NVlabs/instant-ngp",
     "peers/peerjs",
+    "QwenLM/Qwen-Agent",
     "Redocly/redoc",
     "rubocop/ruby-style-guide",
     "sharkdp/hyperfine",
@@ -56,6 +59,7 @@
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
     "unifyai/ivy",
+    "vibrantlabsai/ragas",
     "vitejs/awesome-vite",
     "zsh-users/zsh-syntax-highlighting",
     "zylon-ai/private-gpt"

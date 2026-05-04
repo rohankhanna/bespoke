@@ -66,13 +66,14 @@
       "size": 858
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:43:15.887084+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Simple Python JSON library, based on pybind11_json",
     "fork": false,
-    "full_name": "martinRenou/xjson",
+    "full_name": "martinrenou/xjson",
     "html_url": "https://github.com/martinRenou/xjson",
     "language": "Python",
     "pushed_at": "2021-09-30T06:58:49Z",

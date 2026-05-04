@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 592,
-    "concepts": 505,
-    "observations": 509,
-    "repos": 149,
-    "terms": 498
+    "components": 612,
+    "concepts": 517,
+    "observations": 522,
+    "repos": 153,
+    "terms": 510
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "a-liashenko/TinyPomodoro",
@@ -71,6 +71,7 @@
     "ethereum/trin",
     "facebook/winterfell",
     "feakin/fklang",
+    "fltk-rs/demos",
     "francesca64/hotwatch",
     "frankfralick/dripgrep",
     "frewsxcv/alert-after",
@@ -92,6 +93,7 @@
     "hoodie/toastify",
     "ihrwein/backoff",
     "infinyon/node-bindgen",
+    "informalsystems/ibc-rs",
     "inherd/coco",
     "iomentum/cargo-breaking",
     "iTXTech/mcl-installer",
@@ -156,6 +158,8 @@
     "tafia/quick-protobuf",
     "target/lorri",
     "tazz4843/whisper-rs",
+    "tokio-rs/async-backtrace",
+    "unknownue/vulkan-tutorial-rust",
     "valida-xyz/valida",
     "vmchale/tin-summer",
     "vmware-labs/mod_wasm",

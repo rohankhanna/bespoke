@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 47,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 22,
-    "terms": 24
+    "concepts": 27,
+    "observations": 27,
+    "repos": 21,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
@@ -22,6 +22,7 @@
     "danielrosehill/Backup-Projects-Index",
     "danielrosehill/Bug-Reports-And-Fixes",
     "danielrosehill/Context-Projects-Index",
+    "danielrosehill/Deployments-Index",
     "danielrosehill/Geopolitical-And-OSINT-Index",
     "danielrosehill/GitHub-Management-Tools-Index",
     "danielrosehill/handy-wayland-autostart-fix",
@@ -32,9 +33,7 @@
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
     "hermit-os/tokio",
-    "kleisauke/glib",
     "lakekeeper/nats.rs",
-    "PetervanLunteren/EcoAssist-metadata",
-    "psmux/scoop-tmuxpanel"
+    "PetervanLunteren/EcoAssist-metadata"
   ]
 }

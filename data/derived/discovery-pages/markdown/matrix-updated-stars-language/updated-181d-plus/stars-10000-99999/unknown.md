@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 36
+- repos: 19
+- terms: 43
 - components: 5
-- concepts: 38
-- observations: 38
+- concepts: 45
+- observations: 45
 
 ## Static behavior
 
@@ -42,6 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rwaldron/idiomatic.js](https://github.com/rwaldron/idiomatic.js) | 25697 | 2024-01-08T20:19:45Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [NVIDIA/nvidia-docker](https://github.com/NVIDIA/nvidia-docker) | 17537 | 2023-12-06T09:16:49Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [Homebrew/legacy-homebrew](https://github.com/Homebrew/legacy-homebrew) | 26856 | 2023-05-04T08:15:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [nuxt/framework](https://github.com/nuxt/framework) | 10457 | 2023-04-06T12:07:26Z | Unknown | Framework | 7 | 0 | 7 | 7 |
 | [lukehoban/es6features](https://github.com/lukehoban/es6features) | 29099 | 2023-01-27T13:36:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/corefx](https://github.com/dotnet/corefx) | 17504 | 2023-01-21T00:07:42Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
 
@@ -67,3 +68,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jamiebuilds/babel-handbook](https://github.com/jamiebuilds/babel-handbook) | 12119 | 2024-06-25T15:30:34Z | Unknown | Web app | 2 | 0 | 2 | 2 |
 | [WebAssembly/design](https://github.com/WebAssembly/design) | 11572 | 2025-10-22T02:46:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ulid/spec](https://github.com/ulid/spec) | 10722 | 2024-07-20T13:02:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [nuxt/framework](https://github.com/nuxt/framework) | 10457 | 2023-04-06T12:07:26Z | Unknown | Framework | 7 | 0 | 7 | 7 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,8 +12,8 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 38
-- terms: 16
+- repos: 17
+- terms: 15
 - components: 5
 - concepts: 15
 - observations: 15
@@ -43,27 +43,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Career-Plugin](https://github.com/danielrosehill/Claude-Career-Plugin) | 0 | 2026-04-19T13:13:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Budgeting-Plugin](https://github.com/danielrosehill/Claude-Budgeting-Plugin) | 0 | 2026-04-19T12:51:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
-| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [begmyratb/floweye-yyyxxx.cc](https://github.com/BegmyratB/Floweye-yyyxxx.cc) | 0 | 2026-04-19T11:52:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -86,24 +65,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-Code-Feedback](https://github.com/danielrosehill/Claude-Code-Feedback) | 0 | 2026-04-20T22:19:27Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Geopol-Projects](https://github.com/danielrosehill/AI-Geopol-Projects) | 0 | 2026-04-20T11:43:31Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [danielrosehill/Favorite-Code-Libraries](https://github.com/danielrosehill/Favorite-Code-Libraries) | 0 | 2026-04-20T11:22:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Culmus/hebrew-fonts](https://github.com/Culmus/hebrew-fonts) | 0 | 2026-04-19T21:43:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Arch-And-Interiors-Index](https://github.com/danielrosehill/Arch-And-Interiors-Index) | 0 | 2026-04-19T17:18:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Workspace-Reshaping-190426](https://github.com/danielrosehill/Claude-Workspace-Reshaping-190426) | 0 | 2026-04-19T14:44:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Career-Plugin](https://github.com/danielrosehill/Claude-Career-Plugin) | 0 | 2026-04-19T13:13:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Audio-Production-Plugin](https://github.com/danielrosehill/Claude-Audio-Production-Plugin) | 0 | 2026-04-19T13:02:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-AI-Engineering-Plugin](https://github.com/danielrosehill/Claude-AI-Engineering-Plugin) | 0 | 2026-04-19T12:52:12Z | Unknown | Library | 0 | 0 | 0 | 0 |
-| [danielrosehill/Claude-Budgeting-Plugin](https://github.com/danielrosehill/Claude-Budgeting-Plugin) | 0 | 2026-04-19T12:51:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
-| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
-| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
-| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
-| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [begmyratb/floweye-yyyxxx.cc](https://github.com/BegmyratB/Floweye-yyyxxx.cc) | 0 | 2026-04-19T11:52:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux](https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux) | 0 | 2026-04-19T11:52:36Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux](https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux) | 0 | 2026-04-19T11:52:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [danielrosehill/audio-editing-plugin](https://github.com/danielrosehill/audio-editing-plugin) | 0 | 2026-04-19T11:17:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 152,
-    "observations": 152,
-    "repos": 35,
-    "terms": 151
+    "components": 115,
+    "concepts": 153,
+    "observations": 153,
+    "repos": 38,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abel533/ECharts",
     "alibaba/compileflow",
@@ -39,7 +39,10 @@
     "nitaliano/react-native-mapbox-gl",
     "novicezk/midjourney-proxy",
     "phodal/migration",
+    "processing/processing",
     "pytorch/serve",
+    "reactive-streams/reactive-streams-jvm",
+    "reactor/lite-rx-api-hands-on",
     "remkop/picocli",
     "ronmamo/reflections",
     "SpencerPark/IJava",

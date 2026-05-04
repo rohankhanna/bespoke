@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · Java
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 49
-- components: 53
-- concepts: 49
-- observations: 49
+- repos: 39
+- terms: 50
+- components: 54
+- concepts: 50
+- observations: 50
 
 ## Static behavior
 
@@ -28,6 +28,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [lanthale/LibHeifFX](https://github.com/lanthale/LibHeifFX) | 9 | 2025-11-03T21:10:35Z | Java | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [mikepapadim/devoxx25-demo-gpullama3-langchain4j](https://github.com/mikepapadim/devoxx25-demo-gpullama3-langchain4j) | 5 | 2025-10-10T12:45:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [ihmcrobotics/ihmc-commons](https://github.com/ihmcrobotics/ihmc-commons) | 1 | 2025-10-03T16:19:43Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [QuasarByte/llama-cpp-jna](https://github.com/QuasarByte/llama-cpp-jna) | 6 | 2025-09-20T21:53:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [nativium/nativium-game](https://github.com/nativium/nativium-game) | 3 | 2025-08-30T03:14:41Z | Java | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [XR-Robotics/XRoboToolkit-Native-Video-Viewer](https://github.com/XR-Robotics/XRoboToolkit-Native-Video-Viewer) | 1 | 2025-08-19T00:05:23Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [venkat1701/research4j](https://github.com/venkat1701/research4j) | 1 | 2025-08-15T10:41:14Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -49,8 +51,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redis-developer/redis-om-autocomplete-demo](https://github.com/redis-developer/redis-om-autocomplete-demo) | 6 | 2023-03-30T21:55:54Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [chequer-io/phoenixsql](https://github.com/chequer-io/PhoenixSql) | 8 | 2023-03-10T06:40:54Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [carrotsearch/elasticsearch-lingo3g](https://github.com/carrotsearch/elasticsearch-lingo3g) | 1 | 2023-01-19T08:14:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [fizzed/template-benchmark](https://github.com/fizzed/template-benchmark) | 9 | 2023-01-09T14:58:46Z | Java | Template/starter | 0 | 0 | 0 | 0 |
 | [finefuture/sentinel-dashboard-X](https://github.com/finefuture/sentinel-dashboard-X) | 7 | 2022-12-06T15:20:22Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [norwoodj/hashbash-backend-java](https://github.com/norwoodj/hashbash-backend-java) | 3 | 2022-11-16T11:44:57Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [sa501428/java-straw](https://github.com/sa501428/java-straw) | 2 | 2022-10-17T12:48:52Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [sa501428/hic-emt](https://github.com/sa501428/hic-emt) | 9 | 2022-09-30T06:32:02Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [aidenlab/JuiceboxGUI](https://github.com/aidenlab/JuiceboxGUI) | 8 | 2022-09-29T01:16:38Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [caprica/vlcj-file-filters](https://github.com/caprica/vlcj-file-filters) | 1 | 2022-09-25T13:57:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [takari/m2e-discovery-catalog](https://github.com/takari/m2e-discovery-catalog) | 8 | 2022-09-21T10:13:41Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [cdmikechen/airflow-dag-operator](https://github.com/cdmikechen/airflow-dag-operator) | 3 | 2022-07-15T08:45:10Z | Java | Unknown | 4 | 0 | 4 | 4 |
@@ -66,12 +72,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [lanthale/LibHeifFX](https://github.com/lanthale/LibHeifFX) | 9 | 2025-11-03T21:10:35Z | Java | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [lefou/lambdatest](https://github.com/lefou/LambdaTest) | 9 | 2023-11-23T17:16:50Z | Java | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [fizzed/template-benchmark](https://github.com/fizzed/template-benchmark) | 9 | 2023-01-09T14:58:46Z | Java | Template/starter | 0 | 0 | 0 | 0 |
+| [sa501428/hic-emt](https://github.com/sa501428/hic-emt) | 9 | 2022-09-30T06:32:02Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [alibaba-archive/session-compatible-fast-serializer](https://github.com/alibaba-archive/session-compatible-fast-serializer) | 9 | 2021-10-09T06:14:48Z | Java | Unknown | 2 | 0 | 2 | 2 |
 | [hallvard/etablesaw](https://github.com/hallvard/etablesaw) | 9 | 2021-06-10T13:36:28Z | Java | CLI | 0 | 0 | 0 | 0 |
 | [chequer-io/phoenixsql](https://github.com/chequer-io/PhoenixSql) | 8 | 2023-03-10T06:40:54Z | Java | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [aidenlab/JuiceboxGUI](https://github.com/aidenlab/JuiceboxGUI) | 8 | 2022-09-29T01:16:38Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [takari/m2e-discovery-catalog](https://github.com/takari/m2e-discovery-catalog) | 8 | 2022-09-21T10:13:41Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [coconut2015/cookjson](https://github.com/coconut2015/cookjson) | 7 | 2023-08-11T03:12:28Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [finefuture/sentinel-dashboard-X](https://github.com/finefuture/sentinel-dashboard-X) | 7 | 2022-12-06T15:20:22Z | Java | Unknown | 4 | 0 | 4 | 4 |
+| [QuasarByte/llama-cpp-jna](https://github.com/QuasarByte/llama-cpp-jna) | 6 | 2025-09-20T21:53:10Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [Deep-Symmetry/beat-carabiner-java](https://github.com/Deep-Symmetry/beat-carabiner-java) | 6 | 2024-07-08T12:31:50Z | Java | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [Deep-Symmetry/lib-carabiner](https://github.com/Deep-Symmetry/lib-carabiner) | 6 | 2024-07-08T09:44:15Z | Java | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [peergos/nabu-chat](https://github.com/Peergos/nabu-chat) | 6 | 2024-05-08T21:16:54Z | Java | Unknown | 0 | 0 | 0 | 0 |
@@ -92,6 +102,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cdmikechen/airflow-dag-operator](https://github.com/cdmikechen/airflow-dag-operator) | 3 | 2022-07-15T08:45:10Z | Java | Unknown | 4 | 0 | 4 | 4 |
 | [FasterXML/jackson-1](https://github.com/FasterXML/jackson-1) | 3 | 2022-03-03T11:08:09Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [Kugaaa/langchain4j-langfuse](https://github.com/Kugaaa/langchain4j-langfuse) | 2 | 2024-09-12T03:43:13Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [sa501428/java-straw](https://github.com/sa501428/java-straw) | 2 | 2022-10-17T12:48:52Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [ihmcrobotics/ihmc-commons](https://github.com/ihmcrobotics/ihmc-commons) | 1 | 2025-10-03T16:19:43Z | Java | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [XR-Robotics/XRoboToolkit-Native-Video-Viewer](https://github.com/XR-Robotics/XRoboToolkit-Native-Video-Viewer) | 1 | 2025-08-19T00:05:23Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [venkat1701/research4j](https://github.com/venkat1701/research4j) | 1 | 2025-08-15T10:41:14Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [anjeludo/spring-ai-mcp](https://github.com/anjeludo/spring-ai-mcp) | 1 | 2025-03-23T19:54:59Z | Java | Unknown | 0 | 0 | 0 | 0 |

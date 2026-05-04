@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 41,
-    "observations": 42,
-    "repos": 32,
-    "terms": 41
+    "components": 161,
+    "concepts": 53,
+    "observations": 54,
+    "repos": 40,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -21,19 +21,26 @@
     "byron/cargo-release",
     "CBenoit/diplomat",
     "cgisky1980/hf-hub",
+    "cnoshb/cnosdb",
     "Commit-Boost/blstrs",
     "ComunidadAylas/glsl-lang",
     "databendlabs/state-machine-api",
+    "datafuse-extras/async-backtrace",
+    "datafuse-extras/async-recursion",
+    "datafuse-extras/logforth",
     "delta1/rust-jsonrpc-client",
     "dustinblackman/rust-hello-world",
     "ealmloff/llm-samplers",
     "eigenwallet/bdk-old",
     "eigenwallet/dfx-swiss-rs",
+    "helyim/reed-solomon-erasure",
     "hermit-os/socket2",
     "iambriccardo/rust-postgres",
     "imandra-ai/tldrs",
+    "imgui-rs/imgui-gfx-renderer",
     "lnx-search/memmap2-rs",
     "madsim-rs/getrandom",
+    "MaterializeInc/async-compression",
     "matthme/devhub-dnas",
     "matthme/hc-zome-mere-memory",
     "mikelodder7/blstrs",
@@ -45,6 +52,7 @@
     "passcod/cargo-release-pr-test",
     "ritchie46/simd-json",
     "s3bk/svg",
-    "spacemeshos/randomx-rs"
+    "spacemeshos/randomx-rs",
+    "stefnotch/winit_input_helper"
   ]
 }

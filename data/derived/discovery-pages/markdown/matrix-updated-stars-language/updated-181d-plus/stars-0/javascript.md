@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · JavaScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
+- repos: 18
 - terms: 27
-- components: 111
+- components: 118
 - concepts: 27
 - observations: 27
 
@@ -37,10 +37,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Vchitect/SEINE-project](https://github.com/Vchitect/SEINE-project) | 0 | 2023-11-09T08:02:57Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethanzrd/whisper-playground](https://github.com/ethanzrd/whisper-playground) | 0 | 2023-08-11T07:01:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [nozbe/cavy](https://github.com/Nozbe/cavy) | 0 | 2023-02-04T10:17:19Z | JavaScript | Framework | 0 | 7 | 0 | 0 |
 | [broccolijs/broccoli-output-wrapper](https://github.com/broccolijs/broccoli-output-wrapper) | 0 | 2022-03-24T20:39:34Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [coderaiser/c8-reproduce](https://github.com/coderaiser/c8-reproduce) | 0 | 2022-01-30T16:17:42Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [curiousnoob/lerna-release-workflow](https://github.com/curiousNoob/lerna-release-workflow) | 0 | 2021-12-18T11:09:17Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cccs-jc/sql-formatter](https://github.com/cccs-jc/sql-formatter) | 0 | 2021-12-07T19:56:57Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [pixielabs/cavy-app](https://github.com/pixielabs/cavy-app) | 0 | 2021-10-03T20:21:32Z | JavaScript | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -58,8 +60,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Vchitect/SEINE-project](https://github.com/Vchitect/SEINE-project) | 0 | 2023-11-09T08:02:57Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethanzrd/whisper-playground](https://github.com/ethanzrd/whisper-playground) | 0 | 2023-08-11T07:01:04Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [nozbe/cavy](https://github.com/Nozbe/cavy) | 0 | 2023-02-04T10:17:19Z | JavaScript | Framework | 0 | 7 | 0 | 0 |
 | [broccolijs/broccoli-output-wrapper](https://github.com/broccolijs/broccoli-output-wrapper) | 0 | 2022-03-24T20:39:34Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [coderaiser/c8-reproduce](https://github.com/coderaiser/c8-reproduce) | 0 | 2022-01-30T16:17:42Z | JavaScript | Unknown | 0 | 14 | 0 | 0 |
 | [curiousnoob/lerna-release-workflow](https://github.com/curiousNoob/lerna-release-workflow) | 0 | 2021-12-18T11:09:17Z | JavaScript | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [cccs-jc/sql-formatter](https://github.com/cccs-jc/sql-formatter) | 0 | 2021-12-07T19:56:57Z | JavaScript | Unknown | 0 | 21 | 0 | 0 |
+| [pixielabs/cavy-app](https://github.com/pixielabs/cavy-app) | 0 | 2021-10-03T20:21:32Z | JavaScript | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [ipld/js-ipld-format-to-blockcodec](https://github.com/ipld/js-ipld-format-to-blockcodec) | 0 | 2021-07-28T10:34:43Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |

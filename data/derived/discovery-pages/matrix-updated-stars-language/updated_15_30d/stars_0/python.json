@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
+    "components": 20,
     "concepts": 11,
     "observations": 11,
-    "repos": 9,
-    "terms": 11
+    "repos": 14,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "bunburysniper/bleunova-ai-agent",
     "cdeust/cortex-know-when-to-stop-training-model",
     "danielrosehill/Iran-Israel-Ceasefire-Prediction-090426",
     "danielrosehill/Red-Alert-Monitoring-Stack",
     "FEniCS/spack-fenics",
+    "florisheedless915/grok-register",
+    "iandees/scrapy-camoufox",
     "kidshadow79/ogma",
+    "l12203685/digital-immortality",
     "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
     "piqrypt/piqrypt-mcp-server",
-    "redai-infra/TransferQueue"
+    "redai-infra/TransferQueue",
+    "shubishere/ai-drawio"
   ]
 }

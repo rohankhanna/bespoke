@@ -126,13 +126,14 @@
       "size": 975
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:44:18.368365+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "An integration test framework for React Native.",
     "fork": true,
-    "full_name": "Nozbe/cavy",
+    "full_name": "nozbe/cavy",
     "html_url": "https://github.com/Nozbe/cavy",
     "language": "JavaScript",
     "pushed_at": "2023-02-04T10:17:19Z",

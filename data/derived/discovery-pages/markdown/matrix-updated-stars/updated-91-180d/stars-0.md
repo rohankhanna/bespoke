@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 0 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 55
-- terms: 72
-- components: 236
-- concepts: 72
-- observations: 72
+- repos: 58
+- terms: 73
+- components: 244
+- concepts: 73
+- observations: 73
 
 ## Static behavior
 
@@ -43,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prestodb/presto-dev](https://github.com/prestodb/presto-dev) | 0 | 2026-01-06T17:27:12Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [databendlabs/iceberg-rust](https://github.com/databendlabs/iceberg-rust) | 0 | 2026-01-06T13:07:03Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [llamagate/diff](https://github.com/llamagate/diff) | 0 | 2026-01-02T11:42:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [lishid/cm-language](https://github.com/lishid/cm-language) | 0 | 2025-12-09T17:57:28Z | TypeScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [stainless-api/tsc-multi](https://github.com/stainless-api/tsc-multi) | 0 | 2025-12-05T21:10:25Z | TypeScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
+| [danielrosehill/All-About-MCP](https://github.com/danielrosehill/All-About-MCP) | 0 | 2025-12-04T17:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Virtual-Panel-Configs](https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs) | 0 | 2025-12-02T00:47:03Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
@@ -75,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flageval-baai/LRM-Eval](https://github.com/flageval-baai/LRM-Eval) | 0 | 2025-11-20T02:29:31Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [datafuse-extras/arrow-udf](https://github.com/datafuse-extras/arrow-udf) | 0 | 2025-11-17T10:18:52Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -103,6 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prestodb/presto-dev](https://github.com/prestodb/presto-dev) | 0 | 2026-01-06T17:27:12Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [ved015/CogVideoX-5b-Physics_iq_benchmarking](https://github.com/ved015/CogVideoX-5b-Physics_iq_benchmarking) | 0 | 2026-01-06T14:16:59Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [databendlabs/iceberg-rust](https://github.com/databendlabs/iceberg-rust) | 0 | 2026-01-06T13:07:03Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
+| [llamagate/diff](https://github.com/llamagate/diff) | 0 | 2026-01-02T11:42:26Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Model-Scout-MCP](https://github.com/danielrosehill/Model-Scout-MCP) | 0 | 2026-01-02T00:46:17Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [danielrosehill/BTRFS-Snapper-MCP](https://github.com/danielrosehill/BTRFS-Snapper-MCP) | 0 | 2025-12-30T18:19:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Quick-RMBG](https://github.com/danielrosehill/Quick-RMBG) | 0 | 2025-12-27T12:16:38Z | Python | Unknown | 4 | 0 | 4 | 4 |
@@ -122,6 +126,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Image-Generation-Eval](https://github.com/danielrosehill/Hebrew-Image-Generation-Eval) | 0 | 2025-12-12T00:21:42Z | Python | Model/data | 4 | 0 | 4 | 4 |
 | [lishid/cm-language](https://github.com/lishid/cm-language) | 0 | 2025-12-09T17:57:28Z | TypeScript | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [stainless-api/tsc-multi](https://github.com/stainless-api/tsc-multi) | 0 | 2025-12-05T21:10:25Z | TypeScript | Infrastructure/tooling | 1 | 48 | 1 | 1 |
+| [danielrosehill/All-About-MCP](https://github.com/danielrosehill/All-About-MCP) | 0 | 2025-12-04T17:19:19Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Agent-Virtual-Panel-Configs](https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs) | 0 | 2025-12-02T00:47:03Z | Shell | Unknown | 2 | 0 | 2 | 2 |
 | [asm89/prettytable-rs](https://github.com/asm89/prettytable-rs) | 0 | 2025-11-28T17:25:34Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [biocypher/biocypher-cookiecutter-template](https://github.com/biocypher/biocypher-cookiecutter-template) | 0 | 2025-11-26T19:37:26Z | Python | Template/starter | 0 | 0 | 0 | 0 |
@@ -135,6 +140,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flageval-baai/LRM-Eval](https://github.com/flageval-baai/LRM-Eval) | 0 | 2025-11-20T02:29:31Z | TypeScript | Infrastructure/tooling | 1 | 33 | 1 | 1 |
 | [rose-pine/homebrew-tap](https://github.com/rose-pine/homebrew-tap) | 0 | 2025-11-19T19:53:51Z | Shell | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [hermit-os/newlib](https://github.com/hermit-os/newlib) | 0 | 2025-11-19T12:32:21Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [datafuse-extras/arrow-udf](https://github.com/datafuse-extras/arrow-udf) | 0 | 2025-11-17T10:18:52Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [openobserve/promql-parser](https://github.com/openobserve/promql-parser) | 0 | 2025-11-14T08:05:47Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [radashi-org/radashi-canary](https://github.com/radashi-org/radashi-canary) | 0 | 2025-11-13T19:22:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/A-Better-Jobs-Platform-Notes](https://github.com/danielrosehill/A-Better-Jobs-Platform-Notes) | 0 | 2025-11-11T13:25:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

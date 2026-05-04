@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 154,
-    "observations": 156,
-    "repos": 25,
-    "terms": 147
+    "components": 106,
+    "concepts": 130,
+    "observations": 130,
+    "repos": 21,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,26 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
     "antonbabenko/pre-commit-terraform",
     "aquasecurity/trivy-action",
     "aurutils/aurutils",
     "bblanchon/pdfium-binaries",
     "bioconda/bioconda-recipes",
-    "clangd/clangd",
     "conda-forge/miniforge",
     "devcontainers/images",
     "docker-library/docker",
     "docker-library/docs",
-    "docker-library/golang",
     "docker-library/official-images",
     "docker-library/postgres",
     "dtcooper/raspotify",
     "google/adk-docs",
-    "nodenv/nodenv",
     "pacstall/pacstall",
     "pypa/manylinux",
     "rocker-org/rocker",

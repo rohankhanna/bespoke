@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 259,
-    "concepts": 509,
-    "observations": 509,
-    "repos": 115,
-    "terms": 507
+    "components": 268,
+    "concepts": 537,
+    "observations": 537,
+    "repos": 118,
+    "terms": 535
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
     "aerokube/selenoid",
     "afex/hystrix-go",
+    "ajstarks/svgo",
     "akavel/rsrc",
     "AlecAivazis/survey",
     "alecthomas/go_serialization_benchmarks",
@@ -55,6 +56,7 @@
     "ericfreese/rat",
     "filhodanuvem/gitql",
     "fluxcd/flux",
+    "GeertJohan/go.rice",
     "githubnemo/CompileDaemon",
     "go-bindata/go-bindata",
     "go-yaml/yaml",
@@ -101,6 +103,7 @@
     "nsf/termbox-go",
     "objectbox/objectbox-go",
     "opentracing/opentracing-go",
+    "p4gefau1t/trojan-go",
     "peterbourgon/diskv",
     "pquerna/ffjson",
     "prasmussen/gdrive",

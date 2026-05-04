@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 112,
-    "observations": 113,
-    "repos": 28,
-    "terms": 126
+    "components": 220,
+    "concepts": 122,
+    "observations": 123,
+    "repos": 33,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "64bit/commandOK",
     "alixinne/glsl-lang",
+    "andelf/axcli",
     "andelf/picc",
     "antonWetzel/prettypst",
     "ashvardanian/NumWars",
     "bencevans/camtrap-detector",
+    "bgpkit/bgpkit-broker",
     "BlackDex/rust-musl",
     "Calsign/gazelle_rust",
     "cloudllm-ai/mentisdb",
@@ -41,6 +44,8 @@
     "synadia-io/orbit.rs",
     "tianrking/weixin-agent-rs",
     "tombelieber/claude-view",
-    "tracel-ai/burn-bench"
+    "tracel-ai/burn-bench",
+    "watchexec/clearscreen",
+    "watchexec/process-wrap"
   ]
 }

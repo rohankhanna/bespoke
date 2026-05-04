@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · Python
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 160166 | 2026-05-02T01:38:06Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 160207 | 2026-05-02T22:37:53Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 295043 | 2026-04-27T15:58:22Z | Python | Infrastructure/tooling | 3 | 6 | 6 | 6 |
 
 ## Repos sorted by stars
@@ -34,4 +34,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vinta/awesome-python](https://github.com/vinta/awesome-python) | 295043 | 2026-04-27T15:58:22Z | Python | Infrastructure/tooling | 3 | 6 | 6 | 6 |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | 160166 | 2026-05-02T01:38:06Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 160207 | 2026-05-02T22:37:53Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |

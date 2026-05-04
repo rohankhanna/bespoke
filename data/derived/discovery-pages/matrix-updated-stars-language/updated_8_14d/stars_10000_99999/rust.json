@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 665,
-    "concepts": 401,
-    "observations": 402,
-    "repos": 40,
-    "terms": 397
+    "components": 574,
+    "concepts": 373,
+    "observations": 374,
+    "repos": 35,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
     "analysis-tools-dev/static-analysis",
     "asciinema/asciinema",
     "ast-grep/ast-grep",
-    "astral-sh/uv",
+    "Automattic/harper",
     "bevyengine/bevy",
-    "cjpais/Handy",
     "dani-garcia/vaultwarden",
     "diem/diem",
     "facebook/relay",
@@ -33,18 +32,15 @@
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
-    "huggingface/candle",
     "hyperium/tonic",
     "jdx/mise",
     "launchbadge/sqlx",
     "microsoft/windows-rs",
     "nearai/ironclaw",
-    "openai/codex",
     "orhun/git-cliff",
     "rayon-rs/rayon",
     "rust-lang/cargo",
     "servo/servo",
-    "sharkdp/bat",
     "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
@@ -52,7 +48,6 @@
     "tree-sitter/tree-sitter",
     "typst/typst",
     "vercel-labs/agent-browser",
-    "web-infra-dev/rspack",
-    "wezterm/wezterm"
+    "web-infra-dev/rspack"
   ]
 }

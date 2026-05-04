@@ -30,13 +30,14 @@
       "size": 4569
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:43:27.437496+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "ContinuumIO/blz",
+    "full_name": "continuumio/blz",
     "html_url": "https://github.com/ContinuumIO/blz",
     "language": "C",
     "pushed_at": "2024-08-14T00:43:32Z",

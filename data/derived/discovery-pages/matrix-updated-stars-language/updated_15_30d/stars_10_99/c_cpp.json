@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 116,
-    "concepts": 90,
-    "observations": 90,
-    "repos": 22,
-    "terms": 89
+    "components": 132,
+    "concepts": 110,
+    "observations": 110,
+    "repos": 28,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ada-url/ada-python",
@@ -20,12 +20,17 @@
     "aifoundry-org/et-platform",
     "ankane/stl-cpp",
     "barak/minidjvu",
+    "chusitoo/flatbush",
     "DavidKinder/Windows-Inform7",
+    "fabmax/PhysX",
     "fcambus/bdf2sfd",
     "flatpak/xdg-dbus-proxy",
     "GaoYusong/llm.cpp",
     "go-skynet/go-ggml-transformers.cpp",
     "grain-lang/binaryen.ml",
+    "JFLarvoire/the_silver_searcher",
+    "jupyter-xeus/xeus-lua",
+    "liangshengyong/lanwan",
     "marciogranzotto/clawd-tank",
     "mitsuba-renderer/nanothread",
     "mxmlnkn/indexed_bzip2",
@@ -35,6 +40,7 @@
     "ROCm/roctracer",
     "theimpossibleastronaut/rmw",
     "uael/sv",
+    "yoshoku/numo-narray-alt",
     "yquake2/ref_vk"
   ]
 }

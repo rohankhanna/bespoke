@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 4,
-    "terms": 2
+    "components": 198,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 10,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "caprica/generator-vlcj",
+    "fabon-f/temporal-polyfill-comparison",
+    "gyf0311/lorekit",
     "i18next/i18next-subliminal",
+    "redductive/securepixel",
     "saidudz/chat-ai",
+    "similar-colpoxerosis201/codex-wechat",
+    "stdlib-js/dstructs-struct",
+    "stdlib-js/ndarray-dtype-ctor",
     "tornikepe/ai-chatbot"
   ]
 }

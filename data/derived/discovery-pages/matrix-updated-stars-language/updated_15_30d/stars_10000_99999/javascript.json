@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1101,
-    "concepts": 166,
-    "observations": 167,
-    "repos": 30,
-    "terms": 168
+    "components": 1233,
+    "concepts": 175,
+    "observations": 176,
+    "repos": 33,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ai/nanoid",
     "Automattic/node-canvas",
@@ -25,15 +25,18 @@
     "graphql/graphql-spec",
     "http-party/http-server",
     "immerjs/immer",
+    "infernojs/inferno",
     "jantimon/html-webpack-plugin",
     "jarrodwatts/claude-hud",
     "jashkenas/underscore",
+    "jasmine/jasmine",
+    "josdejong/jsoneditor",
+    "josdejong/mathjs",
     "karma-runner/karma",
     "motdotla/dotenv",
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",
     "postcss/autoprefixer",
-    "preactjs/preact",
     "reactjs/react.dev",
     "svg/svgo",
     "thomaspark/bootswatch",

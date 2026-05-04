@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 8,
-    "terms": 28
+    "components": 48,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "1mb-dev/natcheck",
     "abhinav/goldmark-hashtag",
@@ -20,6 +20,7 @@
     "cloudfoundry/credhub-acceptance-tests",
     "cloudfoundry/runtime-ci",
     "exoscale/karpenter-provider-exoscale",
+    "fluxcd/flux-schema",
     "linode/karpenter-provider-linode",
     "transparency-dev/armored-witness-applet"
   ]

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 45
-- terms: 186
-- components: 309
-- concepts: 186
-- observations: 186
+- repos: 46
+- terms: 197
+- components: 325
+- concepts: 197
+- observations: 197
 
 ## Static behavior
 
@@ -26,8 +26,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
+| [arkworks-rs/std](https://github.com/arkworks-rs/std) | 42 | 2026-04-26T19:08:55Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [eopb/cargo-override](https://github.com/eopb/cargo-override) | 83 | 2026-04-26T00:26:56Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
 | [mrcjkb/vimcats](https://github.com/mrcjkb/vimcats) | 27 | 2026-04-26T00:18:25Z | Rust | CLI | 8 | 9 | 8 | 8 |
+| [napi-rs/mimalloc-safe](https://github.com/napi-rs/mimalloc-safe) | 15 | 2026-04-25T08:43:39Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [Dicklesworthstone/frankensearch](https://github.com/Dicklesworthstone/frankensearch) | 53 | 2026-04-25T02:59:04Z | Rust | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [martinthomson/ohttp](https://github.com/martinthomson/ohttp) | 55 | 2026-04-25T02:30:44Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [hermit-os/loader](https://github.com/hermit-os/loader) | 83 | 2026-04-24T20:31:27Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
@@ -69,8 +72,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GreptimeTeam/promql-parser](https://github.com/GreptimeTeam/promql-parser) | 97 | 2026-04-20T12:06:30Z | Rust | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [filecoin-project/actors-utils](https://github.com/filecoin-project/actors-utils) | 17 | 2026-04-20T10:26:07Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
-| [64bit/commandOK](https://github.com/64bit/commandOK) | 32 | 2026-04-19T22:50:21Z | Rust | CLI | 1 | 3 | 1 | 1 |
-| [andelf/axcli](https://github.com/andelf/axcli) | 21 | 2026-04-19T16:22:04Z | Rust | CLI | 1 | 4 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -101,21 +102,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ClickHouse/clickhousectl](https://github.com/ClickHouse/clickhousectl) | 54 | 2026-04-21T18:13:28Z | Rust | CLI | 4 | 5 | 4 | 4 |
 | [Dicklesworthstone/frankensearch](https://github.com/Dicklesworthstone/frankensearch) | 53 | 2026-04-25T02:59:04Z | Rust | Infrastructure/tooling | 16 | 8 | 16 | 16 |
 | [holochain/holochain-serialization](https://github.com/holochain/holochain-serialization) | 50 | 2026-04-22T17:27:26Z | Rust | Infrastructure/tooling | 4 | 8 | 4 | 4 |
+| [Systemcluster/kitoken](https://github.com/Systemcluster/kitoken) | 49 | 2026-04-26T21:22:23Z | Rust | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [amazon-ion/ion-cli](https://github.com/amazon-ion/ion-cli) | 47 | 2026-04-22T23:55:58Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [foundry-rs/foundry-fork-db](https://github.com/foundry-rs/foundry-fork-db) | 47 | 2026-04-20T09:41:05Z | Rust | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [bitcoindevkit/bdk_wallet](https://github.com/bitcoindevkit/bdk_wallet) | 46 | 2026-04-22T20:18:41Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
+| [arkworks-rs/std](https://github.com/arkworks-rs/std) | 42 | 2026-04-26T19:08:55Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ankane/iceberg-ruby](https://github.com/ankane/iceberg-ruby) | 36 | 2026-04-24T09:14:53Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [ankane/delta-ruby](https://github.com/ankane/delta-ruby) | 34 | 2026-04-24T09:44:05Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
-| [64bit/commandOK](https://github.com/64bit/commandOK) | 32 | 2026-04-19T22:50:21Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [mrcjkb/vimcats](https://github.com/mrcjkb/vimcats) | 27 | 2026-04-26T00:18:25Z | Rust | CLI | 8 | 9 | 8 | 8 |
 | [GreptimeTeam/greptimedb-ingester-rust](https://github.com/GreptimeTeam/greptimedb-ingester-rust) | 24 | 2026-04-23T12:01:44Z | Rust | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [apache/opendal-oli](https://github.com/apache/opendal-oli) | 22 | 2026-04-23T16:46:44Z | Rust | CLI | 4 | 6 | 4 | 4 |
 | [paradigmxyz/stateless](https://github.com/paradigmxyz/stateless) | 22 | 2026-04-23T14:41:37Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [hecrj/iced_palace](https://github.com/hecrj/iced_palace) | 22 | 2026-04-21T11:12:45Z | Rust | Infrastructure/tooling | 3 | 2 | 3 | 3 |
-| [andelf/axcli](https://github.com/andelf/axcli) | 21 | 2026-04-19T16:22:04Z | Rust | CLI | 1 | 4 | 1 | 1 |
 | [janrueth/boring-rustls-provider](https://github.com/janrueth/boring-rustls-provider) | 20 | 2026-04-21T11:25:08Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 5 |
 | [eth-act/zkboost](https://github.com/eth-act/zkboost) | 17 | 2026-04-23T07:53:50Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [filecoin-project/actors-utils](https://github.com/filecoin-project/actors-utils) | 17 | 2026-04-20T10:26:07Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [napi-rs/mimalloc-safe](https://github.com/napi-rs/mimalloc-safe) | 15 | 2026-04-25T08:43:39Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [ankane/safetensors-ruby](https://github.com/ankane/safetensors-ruby) | 15 | 2026-04-23T18:44:46Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [fortanix/rustls-mbedtls-provider](https://github.com/fortanix/rustls-mbedtls-provider) | 14 | 2026-04-20T17:01:52Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [major7apps/pensyve](https://github.com/major7apps/pensyve) | 12 | 2026-04-20T15:16:51Z | Rust | Infrastructure/tooling | 17 | 18 | 17 | 17 |

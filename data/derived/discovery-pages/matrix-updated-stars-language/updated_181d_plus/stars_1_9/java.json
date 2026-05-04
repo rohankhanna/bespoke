@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 33,
-    "terms": 49
+    "components": 54,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 39,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "aidenlab/JuiceboxGUI",
     "alibaba-archive/session-compatible-fast-serializer",
     "anjeludo/spring-ai-mcp",
     "caprica/vlcj-file-filters",
@@ -32,7 +33,9 @@
     "enola-dev/LearningADK",
     "FasterXML/jackson-1",
     "finefuture/sentinel-dashboard-X",
+    "fizzed/template-benchmark",
     "hallvard/etablesaw",
+    "ihmcrobotics/ihmc-commons",
     "jruby/jruby-examples",
     "kokospalme/java-BC",
     "Kugaaa/langchain4j-langfuse",
@@ -42,7 +45,10 @@
     "nativium/nativium-game",
     "norwoodj/hashbash-backend-java",
     "peergos/nabu-chat",
+    "QuasarByte/llama-cpp-jna",
     "redis-developer/redis-om-autocomplete-demo",
+    "sa501428/hic-emt",
+    "sa501428/java-straw",
     "takari/m2e-discovery-catalog",
     "timfel/graalpy-jbang",
     "venkat1701/research4j",

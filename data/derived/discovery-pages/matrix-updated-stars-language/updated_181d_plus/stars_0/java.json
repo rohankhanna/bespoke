@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 4,
     "observations": 4,
-    "repos": 2,
+    "repos": 4,
     "terms": 4
   },
   "facet_version": 1,
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "aidenlab/java-straw",
     "apache/sling-org-apache-sling-feature-modelconverter",
+    "interactive-instruments/ldproxy-community",
     "mikesteglich/jcmpl"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 26,
-    "terms": 20
+    "concepts": 23,
+    "observations": 23,
+    "repos": 27,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "10up/.github",
     "aaronrsun/spec-kit-checkpoint",
     "ada-url/url-various-datasets",
     "addfox/skills",
+    "adobe-type-tools/Adobe-Manga1",
     "autowarefoundation/.github",
     "awni/picochat",
     "cncf/k8s-conformance-archive",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 140,
-    "concepts": 195,
-    "observations": 196,
-    "repos": 27,
-    "terms": 194
+    "concepts": 190,
+    "observations": 191,
+    "repos": 26,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
@@ -39,7 +39,6 @@
     "sczhou/CodeFormer",
     "Stability-AI/generative-models",
     "Tencent-Hunyuan/HunyuanVideo",
-    "yoheinakajima/babyagi",
-    "zai-org/CogVideo"
+    "yoheinakajima/babyagi"
   ]
 }

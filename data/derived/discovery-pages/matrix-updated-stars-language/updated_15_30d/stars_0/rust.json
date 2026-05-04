@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 65,
+    "components": 71,
     "concepts": 19,
     "observations": 19,
-    "repos": 12,
+    "repos": 14,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "aipurposes1587-max/weixin-agent-rs",
     "arckoor/jsonwebtoken",
     "arckoor/jsonwebtoken-botan",
     "eigenwallet/arti",
@@ -22,6 +23,7 @@
     "hyper-mcp-rs/crates-io-plugin",
     "jsleekr/skilldigest",
     "kayabaNerve/monero-oxide",
+    "MaterializeInc/duckdb-rs",
     "mupozg823/codelens-mcp-plugin",
     "netdur/llama_cpp_rust",
     "PrimeIntellect-ai/router",

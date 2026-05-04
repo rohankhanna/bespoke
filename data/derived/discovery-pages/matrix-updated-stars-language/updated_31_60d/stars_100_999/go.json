@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 38,
-    "terms": 184
+    "components": 241,
+    "concepts": 195,
+    "observations": 195,
+    "repos": 40,
+    "terms": 194
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ecs-cni-plugins",
@@ -24,13 +24,13 @@
     "chromedp/chromedp-proxy",
     "cloudwego/kitex-examples",
     "docker-library/bashbrew",
+    "ekalinin/github-markdown-toc.go",
     "erigontech/interfaces",
     "ethereum-optimism/superchain-registry",
     "GFW-knocker/Xray-core",
     "go-chi/docgen",
     "go-gl/glow",
     "google/triage-party",
-    "GoogleCloudPlatform/docker-credential-gcr",
     "gopacket/gopacket",
     "gpustack/gguf-parser-go",
     "hashicorp/hello-vault-go",
@@ -49,7 +49,9 @@
     "notaryproject/notation",
     "opencontainers/runtime-tools",
     "secretflow/scql",
+    "siderolabs/talos-cloud-controller-manager",
     "slsa-framework/slsa-github-generator",
+    "stefanlogue/meteor",
     "stretchr/objx",
     "withastro/compiler"
   ]

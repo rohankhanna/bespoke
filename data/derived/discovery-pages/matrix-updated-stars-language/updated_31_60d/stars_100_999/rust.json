@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
+    "components": 186,
     "concepts": 136,
     "observations": 139,
     "repos": 35,
-    "terms": 135
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "attackgoat/vk-graph",
@@ -31,7 +31,6 @@
     "getsentry/rust-sourcemap",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
-    "IWANABETHATGUY/tower-lsp-boilerplate",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
     "matsadler/magnus",
@@ -42,6 +41,7 @@
     "posit-dev/air",
     "prisma/tiberius",
     "quickwit-oss/tantivy-cli",
+    "rust-analyzer/rowan",
     "rust-lang/crater",
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",

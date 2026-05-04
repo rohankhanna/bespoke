@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 18,
-    "terms": 129
+    "components": 116,
+    "concepts": 204,
+    "observations": 204,
+    "repos": 25,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,22 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xPolygonHermez/pil2-proofman",
     "Antares0982/ssrJSON",
+    "BirolLab/btllib",
     "confluentinc/libserdes",
+    "erigontech/mdbx-go",
     "facebook/fb303",
     "gazebosim/gz-common",
+    "gazebosim/gz-gui",
     "gazebosim/gz-physics",
+    "gazebosim/gz-rendering",
+    "gazebosim/gz-tools",
     "hazelcast/hazelcast-cpp-client",
+    "heiher/hev-socks5-core",
+    "heiher/hev-task-system",
     "jwindgassen/UnrealYAML",
     "kendryte/canmv_k230",
     "LedgerHQ/app-boilerplate",

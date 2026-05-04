@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 236,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 55,
-    "terms": 72
+    "components": 244,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 58,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -27,6 +27,7 @@
     "danielrosehill/AI-Developers-Career-Planning-Notes",
     "danielrosehill/AI-Sysadmin",
     "danielrosehill/ai-tools-plugin",
+    "danielrosehill/All-About-MCP",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Claude-Rescue",
@@ -37,6 +38,7 @@
     "danielrosehill/Model-Scout-MCP",
     "danielrosehill/Quick-RMBG",
     "databendlabs/iceberg-rust",
+    "datafuse-extras/arrow-udf",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "Enselic/cargo-public-api",
@@ -54,6 +56,7 @@
     "KSXGitHub/aur-packages-builder-2",
     "KSXGitHub/personal-crates",
     "lishid/cm-language",
+    "llamagate/diff",
     "LuminalOSS/credstash",
     "maeste/a2a-tck",
     "Mountchicken/Mountchicken",

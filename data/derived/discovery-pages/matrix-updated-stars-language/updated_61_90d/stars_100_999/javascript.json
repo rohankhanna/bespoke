@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 216,
-    "concepts": 46,
-    "observations": 47,
-    "repos": 14,
-    "terms": 46
+    "components": 449,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 20,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,25 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
     "asdf-vm/actions",
     "Calcium-Ion/neko-api-key-tool",
     "codota/tabnine-nvim",
+    "emberjs/ember-cli-babel",
     "faceyspacey/extract-css-chunks-webpack-plugin",
+    "faceyspacey/universal-demo",
+    "kategengler/ember-feature-flags",
+    "latex-lsp/tree-sitter-latex",
+    "lemire/FastPriorityQueue.js",
     "Mario4272/ag_bridge",
     "nodenv/jetbrains-npm",
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
+    "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
     "sindresorhus/multimatch",
     "svg-sprite/gulp-svg-sprite"

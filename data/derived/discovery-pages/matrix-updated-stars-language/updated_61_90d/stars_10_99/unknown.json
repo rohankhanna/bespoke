@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 17,
     "observations": 17,
-    "repos": 12,
+    "repos": 13,
     "terms": 24
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "apache/.github",
     "chaiNNer-org/chaiNNer-nightly",
@@ -20,6 +20,7 @@
     "conda-forge/cfep",
     "datajuicer/data-juicer-hub",
     "ethereum/beacon-metrics",
+    "googlefonts/emoji-metadata",
     "hchiam/learning",
     "HZAI-ZJNU/happy-llm-ppt",
     "LINs-lab/RCGM",

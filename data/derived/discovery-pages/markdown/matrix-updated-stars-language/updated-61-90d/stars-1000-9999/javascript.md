@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · JavaScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
+- repos: 15
 - terms: 70
-- components: 248
+- components: 279
 - concepts: 71
 - observations: 71
 
@@ -26,11 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | 3343 | 2026-03-04T21:32:47Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1555 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
 | [apostrophecms/sanitize-html](https://github.com/apostrophecms/sanitize-html) | 4133 | 2026-02-26T19:54:30Z | JavaScript | Web app | 0 | 15 | 0 | 0 |
 | [remarkjs/remark](https://github.com/remarkjs/remark) | 8842 | 2026-02-24T19:08:59Z | JavaScript | Infrastructure/tooling | 4 | 16 | 5 | 5 |
 | [dherault/serverless-offline](https://github.com/dherault/serverless-offline) | 5260 | 2026-02-24T17:32:50Z | JavaScript | Infrastructure/tooling | 4 | 45 | 4 | 4 |
+| [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy) | 1972 | 2026-02-24T16:06:39Z | JavaScript | CLI | 0 | 10 | 0 | 0 |
 | [appbaseio/dejavu](https://github.com/appbaseio/dejavu) | 8463 | 2026-02-24T14:48:25Z | JavaScript | Infrastructure/tooling | 15 | 45 | 15 | 15 |
 | [istanbuljs/nyc](https://github.com/istanbuljs/nyc) | 5762 | 2026-02-23T14:50:00Z | JavaScript | CLI | 3 | 39 | 3 | 3 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
@@ -52,8 +54,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dherault/serverless-offline](https://github.com/dherault/serverless-offline) | 5260 | 2026-02-24T17:32:50Z | JavaScript | Infrastructure/tooling | 4 | 45 | 4 | 4 |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | 4186 | 2026-02-23T12:48:07Z | JavaScript | Web app | 0 | 8 | 0 | 0 |
 | [apostrophecms/sanitize-html](https://github.com/apostrophecms/sanitize-html) | 4133 | 2026-02-26T19:54:30Z | JavaScript | Web app | 0 | 15 | 0 | 0 |
+| [paralleldrive/cuid2](https://github.com/paralleldrive/cuid2) | 3343 | 2026-03-04T21:32:47Z | JavaScript | Infrastructure/tooling | 0 | 21 | 0 | 0 |
 | [huggingface/transformers.js-examples](https://github.com/huggingface/transformers.js-examples) | 2031 | 2026-02-17T18:29:44Z | JavaScript | Unknown | 2 | 3 | 2 | 2 |
 | [svg-sprite/svg-sprite](https://github.com/svg-sprite/svg-sprite) | 1986 | 2026-02-28T02:34:44Z | JavaScript | Infrastructure/tooling | 9 | 36 | 9 | 9 |
+| [sindresorhus/clipboardy](https://github.com/sindresorhus/clipboardy) | 1972 | 2026-02-24T16:06:39Z | JavaScript | CLI | 0 | 10 | 0 | 0 |
 | [Adobe-CEP/CEP-Resources](https://github.com/Adobe-CEP/CEP-Resources) | 1818 | 2026-02-20T20:59:34Z | JavaScript | Docs/knowledge | 4 | 0 | 4 | 4 |
 | [commonmark/commonmark.js](https://github.com/commonmark/commonmark.js) | 1555 | 2026-03-01T10:10:09Z | JavaScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [microsoft/generative-ai-with-javascript](https://github.com/microsoft/generative-ai-with-javascript) | 1194 | 2026-02-19T10:27:16Z | JavaScript | Infrastructure/tooling | 8 | 14 | 8 | 8 |

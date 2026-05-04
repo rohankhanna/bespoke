@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 35
-- terms: 119
-- components: 171
-- concepts: 121
-- observations: 123
+- repos: 38
+- terms: 131
+- components: 191
+- concepts: 133
+- observations: 135
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [appleboy/drone-lambda](https://github.com/appleboy/drone-lambda) | 27 | 2026-04-18T03:56:18Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [MicahParks/jwkset](https://github.com/MicahParks/jwkset) | 81 | 2026-04-17T23:44:50Z | Go | CLI | 6 | 0 | 6 | 6 |
 | [allenreder/cliproxyapi-quota-inspector](https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector) | 17 | 2026-04-17T06:58:46Z | Go | CLI | 4 | 0 | 4 | 4 |
@@ -51,6 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usbarmory/armory-ums](https://github.com/usbarmory/armory-ums) | 24 | 2026-04-10T07:21:37Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [usbarmory/armory-drive](https://github.com/usbarmory/armory-drive) | 79 | 2026-04-10T07:21:16Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [usbarmory/armory-boot](https://github.com/usbarmory/armory-boot) | 39 | 2026-04-10T07:20:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [Asterisk4Magisk/XrayHelper](https://github.com/Asterisk4Magisk/XrayHelper) | 38 | 2026-04-10T02:43:00Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [tilt-dev/tilt-apiserver](https://github.com/tilt-dev/tilt-apiserver) | 20 | 2026-04-09T15:43:05Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [ipfs/gateway-conformance](https://github.com/ipfs/gateway-conformance) | 18 | 2026-04-08T12:58:43Z | Go | CLI | 10 | 16 | 10 | 10 |
@@ -79,8 +82,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [notaryproject/notation-go](https://github.com/notaryproject/notation-go) | 44 | 2026-04-13T00:42:37Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [depado/smallblog](https://github.com/depado/smallblog) | 42 | 2026-04-17T00:13:47Z | Go | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [usbarmory/armory-boot](https://github.com/usbarmory/armory-boot) | 39 | 2026-04-10T07:20:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [Asterisk4Magisk/XrayHelper](https://github.com/Asterisk4Magisk/XrayHelper) | 38 | 2026-04-10T02:43:00Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [compozy/kb](https://github.com/compozy/kb) | 37 | 2026-04-15T02:46:17Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [MShekow/directory-checksum](https://github.com/MShekow/directory-checksum) | 35 | 2026-04-15T19:46:40Z | Go | CLI | 4 | 12 | 4 | 4 |
+| [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [cloudfoundry/bbs](https://github.com/cloudfoundry/bbs) | 30 | 2026-04-16T18:46:01Z | Go | Service/API | 1 | 0 | 1 | 1 |
 | [getlantern/.github](https://github.com/getlantern/.github) | 30 | 2026-04-07T06:04:55Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -89,6 +94,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [usbarmory/armory-ums](https://github.com/usbarmory/armory-ums) | 24 | 2026-04-10T07:21:37Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [benchsci/rules_nodejs_gazelle](https://github.com/benchsci/rules_nodejs_gazelle) | 22 | 2026-04-14T18:54:48Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ionos-cloud/external-dns-ionos-webhook](https://github.com/ionos-cloud/external-dns-ionos-webhook) | 22 | 2026-04-07T12:15:18Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
+| [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [tilt-dev/tilt-apiserver](https://github.com/tilt-dev/tilt-apiserver) | 20 | 2026-04-09T15:43:05Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [Infisical/go-sdk](https://github.com/Infisical/go-sdk) | 18 | 2026-04-16T01:47:16Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ipfs/gateway-conformance](https://github.com/ipfs/gateway-conformance) | 18 | 2026-04-08T12:58:43Z | Go | CLI | 10 | 16 | 10 | 10 |

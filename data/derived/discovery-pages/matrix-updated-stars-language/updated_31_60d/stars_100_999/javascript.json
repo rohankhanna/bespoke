@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 546,
-    "concepts": 163,
-    "observations": 163,
-    "repos": 43,
-    "terms": 162
+    "components": 606,
+    "concepts": 184,
+    "observations": 184,
+    "repos": 47,
+    "terms": 183
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
+    "actions/deploy-pages",
     "AghayeCoder/tx-ui",
     "ankane/ahoy.js",
     "AssemblyScript/wabt.js",
     "avwo/whistle-client",
+    "badgen/badgen",
     "ButTaiwan/bpmfvs",
     "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",
@@ -53,9 +55,11 @@
     "RichardLitt/generator-standard-readme",
     "rstudio/DT",
     "rtfeldman/node-test-runner",
+    "sveltejs/svelte-loader",
     "terraform-linters/setup-tflint",
     "thejoshwolfe/yauzl",
     "thejoshwolfe/yazl",
-    "toon-format/spec"
+    "toon-format/spec",
+    "w3c/webidl2.js"
   ]
 }

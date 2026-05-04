@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 42,
-    "observations": 43,
-    "repos": 8,
-    "terms": 42
+    "components": 24,
+    "concepts": 45,
+    "observations": 46,
+    "repos": 9,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "apache/camel-quarkus-examples",
     "apache/flink-connector-pulsar",
     "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
+    "codelibs/fess-crawler",
     "codetyio/codety-scanner",
     "google/guava-beta-checker",
     "kurrent-io/KurrentDB-Client-Java",

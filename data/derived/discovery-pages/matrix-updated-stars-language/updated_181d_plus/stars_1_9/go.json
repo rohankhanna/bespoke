@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 110,
-    "observations": 110,
-    "repos": 49,
-    "terms": 109
+    "components": 132,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 53,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
+    "aarondl/authboss-clientstate",
     "adalkiran/go-inventa",
     "adalkiran/inventa-examples",
     "akhettar/gin-jwt-cognito",
@@ -30,6 +31,8 @@
     "bors-ng/dockerize",
     "canidam/echo-scs-session",
     "chawyehsu/nvm-windows",
+    "Chocolate4U/sing-geoip",
+    "Chocolate4U/sing-geosite",
     "cloudfoundry/auctioneer",
     "cloudfoundry/bbl-state-resource",
     "DeprecatedGoModules/redigo",
@@ -50,6 +53,7 @@
     "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
     "lesismal/arpcex",
+    "mdigger/htmlx",
     "MicahParks/jcp",
     "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",

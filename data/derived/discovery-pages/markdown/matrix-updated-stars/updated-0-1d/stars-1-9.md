@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 4
-- terms: 23
-- components: 29
-- concepts: 23
-- observations: 23
+- repos: 2
+- terms: 39
+- components: 49
+- concepts: 39
+- observations: 39
 
 ## Static behavior
 
@@ -25,16 +25,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [suzuki-shunsuke/release-js-action](https://github.com/suzuki-shunsuke/release-js-action) | 3 | 2026-05-02T13:54:29Z | TypeScript | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [haskell/ghcup-www](https://github.com/haskell/ghcup-www) | 2 | 2026-05-02T13:45:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [szksh-lab/.github](https://github.com/szksh-lab/.github) | 2 | 2026-05-02T09:34:00Z | Unknown | Infrastructure/tooling | 4 | 7 | 4 | 4 |
-| [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
+| [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [stdlib-js/ndarray-fancy](https://github.com/stdlib-js/ndarray-fancy) | 2 | 2026-05-03T08:24:57Z | JavaScript | Infrastructure/tooling | 24 | 40 | 24 | 24 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [fluxcd/flux-schema](https://github.com/fluxcd/flux-schema) | 4 | 2026-05-02T09:31:03Z | Go | CLI | 8 | 15 | 8 | 8 |
-| [suzuki-shunsuke/release-js-action](https://github.com/suzuki-shunsuke/release-js-action) | 3 | 2026-05-02T13:54:29Z | TypeScript | Infrastructure/tooling | 10 | 6 | 10 | 10 |
-| [haskell/ghcup-www](https://github.com/haskell/ghcup-www) | 2 | 2026-05-02T13:45:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [szksh-lab/.github](https://github.com/szksh-lab/.github) | 2 | 2026-05-02T09:34:00Z | Unknown | Infrastructure/tooling | 4 | 7 | 4 | 4 |
+| [Evilpasture/Culverin](https://github.com/Evilpasture/Culverin) | 7 | 2026-05-03T12:12:54Z | C/C++ | Infrastructure/tooling | 15 | 9 | 15 | 15 |
+| [stdlib-js/ndarray-fancy](https://github.com/stdlib-js/ndarray-fancy) | 2 | 2026-05-03T08:24:57Z | JavaScript | Infrastructure/tooling | 24 | 40 | 24 | 24 |

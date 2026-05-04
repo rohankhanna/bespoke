@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1389,
-    "concepts": 298,
-    "observations": 298,
+    "components": 1440,
+    "concepts": 309,
+    "observations": 309,
     "repos": 41,
-    "terms": 295
+    "terms": 305
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "amperser/proselint",
     "apache/cordova-android",
     "apache/cordova-ios",
     "Automattic/juice",
     "Blockstream/esplora",
-    "brunch/brunch",
+    "callstack/react-native-builder-bob",
     "coderaiser/cloudcmd",
     "conventional-changelog/standard-version",
-    "DavidAnson/markdownlint",
     "dequelabs/axe-core",
     "eslint/js",
     "expressjs/body-parser",
     "flow-typed/flow-typed",
     "fullstorydev/grpcui",
+    "google/docsy",
     "GoogleChrome/web-vitals",
     "grommet/grommet",
     "i18next/i18next",
@@ -44,7 +44,6 @@
     "postcss/postcss-nested",
     "release-it/release-it",
     "reZach/secure-electron-template",
-    "rullerzhou-afk/clawd-on-desk",
     "SabakiHQ/Sabaki",
     "sindresorhus/np",
     "tc39/test262",
@@ -53,6 +52,7 @@
     "thlorenz/doctoc",
     "tw-in-js/twind",
     "vizzuhq/vizzu-lib",
+    "webpack/webpack-dev-server",
     "webtorrent/bittorrent-dht",
     "yahoo/serialize-javascript"
   ]

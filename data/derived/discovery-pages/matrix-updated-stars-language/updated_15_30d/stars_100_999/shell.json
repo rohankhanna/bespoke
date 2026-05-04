@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 98,
-    "observations": 99,
-    "repos": 20,
-    "terms": 109
+    "components": 79,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 23,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xNyk/council-of-high-intelligence",
+    "actions/upload-pages-artifact",
     "alfredolopez80/multi-agent-ralph-loop",
     "astro-han/claude-pace",
     "chaoss/grimoirelab",
     "cncf/k8s-conformance",
     "codelibs/docker-fess",
     "EmbarkStudios/cargo-deny-action",
+    "ericbuess/claude-code-docs",
     "heroku/heroku-buildpack-apt",
     "heroku/heroku-buildpack-php",
     "kubernetes/sig-release",
@@ -31,6 +33,7 @@
     "rsmdt/the-startup",
     "rz1989s/claude-code-statusline",
     "SamNet-dev/paqctl",
+    "serpro69/claude-toolbox",
     "TexasInstruments/edgeai",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents"

@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 663,
-    "concepts": 437,
-    "observations": 438,
-    "repos": 65,
-    "terms": 435
+    "components": 681,
+    "concepts": 457,
+    "observations": 458,
+    "repos": 67,
+    "terms": 454
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
     "andrewyng/aisuite",
     "anthropics/courses",
+    "aosp-mirror/platform_frameworks_base",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
     "blitz-js/blitz",
@@ -32,7 +33,6 @@
     "cleanlab/cleanlab",
     "deepseek-ai/DeepSeek-Coder",
     "drduh/macOS-Security-and-Privacy-Guide",
-    "emotion-js/emotion",
     "existentialaudio/blackhole",
     "ffmpegwasm/ffmpeg.wasm",
     "folke/lazy.nvim",
@@ -45,6 +45,7 @@
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "JaidedAI/EasyOCR",
+    "jaredpalmer/formik",
     "jsvine/pdfplumber",
     "karpathy/llm-council",
     "karpathy/nanoGPT",
@@ -56,11 +57,13 @@
     "MoonshotAI/Kimi-K2",
     "muesli/duf",
     "Netflix/Hystrix",
+    "NVlabs/instant-ngp",
     "PaddlePaddle/PaddleNLP",
     "QwenLM/Qwen3",
     "QwenLM/Qwen3-VL",
     "ramda/ramda",
     "RasaHQ/rasa",
+    "redux-saga/redux-saga",
     "sczhou/CodeFormer",
     "slatedocs/slate",
     "snarktank/ralph",
@@ -76,7 +79,6 @@
     "winstonjs/winston",
     "XAMPPRocky/tokei",
     "yoheinakajima/babyagi",
-    "zai-org/CogVideo",
     "ziglang/zig"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 12,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 4,
-    "terms": 8
+    "concepts": 24,
+    "observations": 24,
+    "repos": 5,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "github/rest-api-description",
     "GyanD/codexffmpeg",
+    "hxehex/russia-mobile-internet-whitelist",
     "logseq/awesome-logseq",
     "MicrosoftDocs/cpp-docs"
   ]

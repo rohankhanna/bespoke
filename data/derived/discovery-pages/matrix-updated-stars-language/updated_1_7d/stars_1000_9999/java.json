@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 430,
-    "concepts": 536,
-    "observations": 536,
-    "repos": 47,
-    "terms": 532
+    "components": 493,
+    "concepts": 597,
+    "observations": 597,
+    "repos": 51,
+    "terms": 593
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alibaba/spring-ai-alibaba",
     "apache/beam",
@@ -24,7 +24,6 @@
     "apache/phoenix",
     "apache/seatunnel",
     "aws/aws-sdk-java-v2",
-    "castorini/anserini",
     "checkstyle/checkstyle",
     "ClickHouse/clickhouse-java",
     "cloudfoundry/uaa",
@@ -38,11 +37,11 @@
     "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "firebase/firebase-android-sdk",
+    "flyway/flyway",
     "google/conscrypt",
     "google/tsunami-security-scanner-plugins",
     "googleapis/google-cloud-java",
     "hazelcast/hazelcast",
-    "helidon-io/helidon",
     "iterate-ch/cyberduck",
     "JetBrains/JetBrainsRuntime",
     "jhipster/prettier-java",
@@ -57,9 +56,14 @@
     "micronaut-projects/micronaut-core",
     "moyangzhan/langchain4j-aideepin",
     "reactor/BlockHound",
+    "reactor/reactor-core",
     "smithy-lang/smithy",
     "SonarSource/sonar-java",
     "spring-projects/spring-ai",
-    "swagger-api/swagger-core"
+    "sqlancer/sqlancer",
+    "swagger-api/swagger-core",
+    "testng-team/testng",
+    "unicode-org/cldr",
+    "validator/validator"
   ]
 }

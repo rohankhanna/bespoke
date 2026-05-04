@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 39
-- components: 18
-- concepts: 39
-- observations: 39
+- repos: 9
+- terms: 50
+- components: 24
+- concepts: 51
+- observations: 51
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | 17362 | 2026-02-02T12:32:34Z | Other | Infrastructure/tooling | 11 | 6 | 12 | 12 |
 | [QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) | 19102 | 2026-01-30T04:47:30Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [github/copilot.vim](https://github.com/github/copilot.vim) | 11576 | 2026-01-09T20:49:25Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [tachyons-css/tachyons](https://github.com/tachyons-css/tachyons) | 11701 | 2026-01-08T18:51:50Z | Other | Unknown | 8 | 6 | 8 | 8 |
@@ -43,6 +44,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [folke/lazy.nvim](https://github.com/folke/lazy.nvim) | 20759 | 2025-12-17T12:08:49Z | Other | Infrastructure/tooling | 11 | 9 | 11 | 11 |
 | [anthropics/courses](https://github.com/anthropics/courses) | 20695 | 2025-11-13T20:40:51Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [QwenLM/Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) | 19102 | 2026-01-30T04:47:30Z | Other | Model/data | 0 | 0 | 0 | 0 |
+| [NVlabs/instant-ngp](https://github.com/NVlabs/instant-ngp) | 17362 | 2026-02-02T12:32:34Z | Other | Infrastructure/tooling | 11 | 6 | 12 | 12 |
 | [camenduru/stable-diffusion-webui-colab](https://github.com/camenduru/stable-diffusion-webui-colab) | 15943 | 2025-12-16T05:49:10Z | Other | Unknown | 17 | 0 | 17 | 17 |
 | [twbs/bootstrap-sass](https://github.com/twbs/bootstrap-sass) | 12506 | 2026-01-03T08:04:35Z | Other | Unknown | 0 | 3 | 0 | 0 |
 | [tachyons-css/tachyons](https://github.com/tachyons-css/tachyons) | 11701 | 2026-01-08T18:51:50Z | Other | Unknown | 8 | 6 | 8 | 8 |

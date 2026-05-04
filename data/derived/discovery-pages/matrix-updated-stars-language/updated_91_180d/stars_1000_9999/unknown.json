@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 17,
-    "observations": 17,
-    "repos": 9,
-    "terms": 17
+    "components": 17,
+    "concepts": 31,
+    "observations": 31,
+    "repos": 11,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "ACh-K/Cubic-11",
+    "antonbabenko/terraform-skill",
     "datawhalechina/so-large-lm",
     "graalvm/graalvm-ce-builds",
     "jorgebucaran/awsm.fish",

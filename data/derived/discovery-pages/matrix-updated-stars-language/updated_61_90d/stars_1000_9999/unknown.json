@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 63,
-    "observations": 63,
+    "components": 9,
+    "concepts": 52,
+    "observations": 52,
     "repos": 11,
-    "terms": 62
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
-    "antonbabenko/terraform-skill",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
     "docker/for-mac",
@@ -24,6 +23,7 @@
     "obsidianmd/obsidian-api",
     "orogene/orogene",
     "r-lyeh/single_file_libs",
-    "syntax-tree/mdast"
+    "syntax-tree/mdast",
+    "tmux-plugins/list"
   ]
 }

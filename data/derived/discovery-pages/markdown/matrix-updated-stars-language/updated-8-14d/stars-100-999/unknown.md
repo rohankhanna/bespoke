@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 25
-- terms: 86
-- components: 60
-- concepts: 86
-- observations: 87
+- terms: 72
+- components: 61
+- concepts: 72
+- observations: 73
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [LuaLS/LLS-Addons](https://github.com/LuaLS/LLS-Addons) | 113 | 2026-04-26T02:24:01Z | Unknown | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [adoptium/temurin21-binaries](https://github.com/adoptium/temurin21-binaries) | 143 | 2026-04-25T02:09:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -50,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
 | [django/deps](https://github.com/django/deps) | 524 | 2026-04-20T12:11:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eslint/rfcs](https://github.com/eslint/rfcs) | 151 | 2026-04-20T06:46:38Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools) | 388 | 2026-04-19T22:34:27Z | Unknown | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 
 ## Repos sorted by stars
 
@@ -66,10 +66,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [tinted-theming/home](https://github.com/tinted-theming/home) | 425 | 2026-04-21T21:20:23Z | Unknown | Infrastructure/tooling | 6 | 4 | 6 | 7 |
-| [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools) | 388 | 2026-04-19T22:34:27Z | Unknown | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [apappascs/mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub) | 317 | 2026-04-21T15:10:03Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [mason-org/mason-registry](https://github.com/mason-org/mason-registry) | 284 | 2026-04-22T02:21:31Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [CVEProject/automation-working-group](https://github.com/CVEProject/automation-working-group) | 184 | 2026-04-22T00:07:51Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [chromedp/cdproto](https://github.com/chromedp/cdproto) | 178 | 2026-04-27T01:31:51Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [kitknox/rootshell](https://github.com/kitknox/rootshell) | 174 | 2026-04-22T21:07:37Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [oak-security/audit-reports](https://github.com/oak-security/audit-reports) | 168 | 2026-04-20T16:59:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

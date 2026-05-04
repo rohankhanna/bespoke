@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 18,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 10,
-    "terms": 26
+    "concepts": 29,
+    "observations": 29,
+    "repos": 12,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "android/skills",
     "bbatsov/clojure-style-guide",
     "esbatmop/MNBVC",
+    "FasterXML/jackson",
     "FuelLabs/fuel-specs",
     "libp2p/libp2p",
     "libp2p/specs",
+    "macfuse/macfuse",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
     "skills-directory/skill-codex",

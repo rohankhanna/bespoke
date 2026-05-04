@@ -1,39 +1,32 @@
 {
   "counts": {
-    "components": 976,
-    "concepts": 191,
-    "observations": 192,
-    "repos": 22,
-    "terms": 209
+    "components": 741,
+    "concepts": 165,
+    "observations": 166,
+    "repos": 15,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "angular/angular",
     "avelino/awesome-go",
-    "denoland/deno",
     "facebook/react",
     "facebook/react-native",
     "flutter/flutter",
     "golang/go",
     "langgenius/dify",
     "microsoft/terminal",
-    "microsoft/typescript",
     "microsoft/vscode",
     "mrdoob/three.js",
-    "nousresearch/hermes-agent",
     "open-webui/open-webui",
-    "openclaw/openclaw",
-    "rust-lang/rust",
     "Significant-Gravitas/AutoGPT",
-    "sindresorhus/awesome",
     "tauri-apps/tauri",
     "tensorflow/tensorflow",
-    "torvalds/linux",
-    "yt-dlp/yt-dlp"
+    "torvalds/linux"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 51,
-    "terms": 129
+    "components": 279,
+    "concepts": 156,
+    "observations": 156,
+    "repos": 59,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
     "AdaCore/gnatcoll-bindings",
     "adelarsq/vim-emoji-icon-theme",
+    "AghayeCoder/TX-ThemeHub",
     "AliRezaBeigy/paqetNG",
     "andys8/git-brunch",
     "ankane/ml-stack",
@@ -31,6 +32,7 @@
     "co-IT/CSharpFunctionalExtensions.HttpResults",
     "codymikol/neotest-kotlin",
     "DavidKinder/Windows-Glulxe",
+    "devise-i18n/devise-i18n",
     "dspinellis/bibtools",
     "dwyl/elixir-auth-github",
     "eddelbuettel/tinythemes",
@@ -38,16 +40,21 @@
     "Embarcadero/PythonPackages4Delphi",
     "flycheck/flycheck-eglot",
     "FoundationDB/fdb-build-support",
+    "getgrav/grav-theme-learn2",
     "GoogleCloudPlatform/getting-started-dotnet",
     "hedronvision/bazel-make-cc-https-easy",
     "Humans-of-Julia/StaticWebPages.jl",
+    "ImranR98/obtainium.imranr.dev",
+    "informalsystems/audits",
     "jakewvincent/texmagic.nvim",
     "jmespath/jmespath.site",
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
     "JunoLab/Atom.jl",
+    "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
+    "lambdaisland/kaocha-cljs",
     "lumen-oss/rocks-git.nvim",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
@@ -57,13 +64,14 @@
     "ochorocho/franken-typo3",
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
-    "Rhoban/onshape-to-robot-examples",
     "robotology/icub-models",
+    "rojo-rbx/rojo.space",
+    "SchwarzIT/spectral-intellij-plugin",
     "spring-ai-alibaba/website",
     "standardrb/lint_roller",
     "status-im/nim-serialization",
     "tarsius/llama",
-    "WICG/crash-reporting",
+    "timo/json_fast",
     "xie-lab-ml/piecewise-sparse-attention"
   ]
 }

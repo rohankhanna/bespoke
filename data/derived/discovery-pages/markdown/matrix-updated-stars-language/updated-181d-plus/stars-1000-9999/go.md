@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 115
-- terms: 507
-- components: 259
-- concepts: 509
-- observations: 509
+- repos: 118
+- terms: 535
+- components: 268
+- concepts: 537
+- observations: 537
 
 ## Static behavior
 
@@ -83,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vulcand/vulcand](https://github.com/vulcand/vulcand) | 3100 | 2024-07-27T08:36:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [Masterminds/glide](https://github.com/Masterminds/glide) | 8101 | 2024-07-22T15:41:52Z | Go | Library | 3 | 0 | 3 | 3 |
 | [valyala/quicktemplate](https://github.com/valyala/quicktemplate) | 3317 | 2024-07-21T02:16:20Z | Go | Template/starter | 3 | 0 | 3 | 3 |
+| [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) | 8372 | 2024-07-14T08:52:08Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [go-bindata/go-bindata](https://github.com/go-bindata/go-bindata) | 1910 | 2024-07-13T06:20:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [zyedidia/eget](https://github.com/zyedidia/eget) | 1956 | 2024-07-09T06:03:04Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [sorintlab/stolon](https://github.com/sorintlab/stolon) | 4816 | 2024-07-08T16:32:33Z | Go | Infrastructure/tooling | 13 | 0 | 13 | 13 |
@@ -130,6 +131,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dragonflyoss/dragonfly-archived](https://github.com/dragonflyoss/dragonfly-archived) | 5942 | 2023-02-27T11:07:29Z | Go | Infrastructure/tooling | 5 | 0 | 5 | 5 |
 | [codegangsta/gin](https://github.com/codegangsta/gin) | 4249 | 2023-02-18T06:37:34Z | Go | Service/API | 0 | 0 | 0 | 0 |
 | [igrigorik/ga-beacon](https://github.com/igrigorik/ga-beacon) | 3538 | 2023-02-06T10:16:14Z | Go | Service/API | 0 | 0 | 0 | 0 |
+| [ajstarks/svgo](https://github.com/ajstarks/svgo) | 2243 | 2022-12-09T13:57:06Z | Go | Library | 11 | 0 | 11 | 11 |
+| [GeertJohan/go.rice](https://github.com/GeertJohan/go.rice) | 2442 | 2022-11-16T19:08:28Z | Go | Library | 0 | 0 | 0 | 0 |
 | [xlab/android-go](https://github.com/xlab/android-go) | 1087 | 2022-11-06T20:40:36Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [dghubble/go-twitter](https://github.com/dghubble/go-twitter) | 1571 | 2022-11-04T22:44:02Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [fluxcd/flux](https://github.com/fluxcd/flux) | 6868 | 2022-11-01T15:16:50Z | Go | Infrastructure/tooling | 8 | 14 | 8 | 8 |
@@ -152,6 +155,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prasmussen/gdrive](https://github.com/prasmussen/gdrive) | 8972 | 2023-04-19T18:46:51Z | Go | CLI | 1 | 2 | 1 | 1 |
 | [aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) | 8692 | 2025-07-31T16:06:20Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
 | [robertkrimen/otto](https://github.com/robertkrimen/otto) | 8438 | 2025-06-13T16:08:31Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [p4gefau1t/trojan-go](https://github.com/p4gefau1t/trojan-go) | 8372 | 2024-07-14T08:52:08Z | Go | Infrastructure/tooling | 17 | 9 | 17 | 17 |
 | [Masterminds/glide](https://github.com/Masterminds/glide) | 8101 | 2024-07-22T15:41:52Z | Go | Library | 3 | 0 | 3 | 3 |
 | [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure) | 8047 | 2024-06-25T15:17:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Masterminds/squirrel](https://github.com/Masterminds/squirrel) | 7920 | 2024-04-24T05:26:36Z | Go | Unknown | 0 | 0 | 0 | 0 |
@@ -215,8 +219,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aerokube/selenoid](https://github.com/aerokube/selenoid) | 2656 | 2024-12-17T12:13:37Z | Go | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [vmihailenco/msgpack](https://github.com/vmihailenco/msgpack) | 2647 | 2024-06-04T10:05:14Z | Go | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [charmbracelet/charm](https://github.com/charmbracelet/charm) | 2490 | 2025-03-06T13:39:14Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [GeertJohan/go.rice](https://github.com/GeertJohan/go.rice) | 2442 | 2022-11-16T19:08:28Z | Go | Library | 0 | 0 | 0 | 0 |
 | [tidwall/redcon](https://github.com/tidwall/redcon) | 2300 | 2025-05-09T01:28:56Z | Go | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [chzyer/readline](https://github.com/chzyer/readline) | 2283 | 2025-06-20T03:33:30Z | Go | Library | 3 | 0 | 3 | 3 |
+| [ajstarks/svgo](https://github.com/ajstarks/svgo) | 2243 | 2022-12-09T13:57:06Z | Go | Library | 11 | 0 | 11 | 11 |
 | [asdine/storm](https://github.com/asdine/storm) | 2100 | 2024-01-07T00:07:01Z | Go | Unknown | 7 | 0 | 7 | 7 |
 | [divan/expvarmon](https://github.com/divan/expvarmon) | 2046 | 2023-11-14T02:21:16Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [minio/simdjson-go](https://github.com/minio/simdjson-go) | 2021 | 2025-08-26T16:59:04Z | Go | Infrastructure/tooling | 6 | 2 | 8 | 8 |

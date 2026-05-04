@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 191,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 46,
-    "terms": 125
+    "components": 202,
+    "concepts": 154,
+    "observations": 154,
+    "repos": 49,
+    "terms": 152
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "ai4colonoscopy/PraNet-V2",
-    "Alibaba-Quark/SSP",
     "all-the-noises/eval-arena",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
     "Azure-Samples/azureai-travel-agent-python",
     "bentoml/openllm-models",
+    "BirolLab/tigmint",
     "BoosterRobotics/booster_assets",
     "BoosterRobotics/booster_train",
     "c4ffein/realworld-django-ninja",
@@ -35,9 +35,11 @@
     "databrickslabs/pylint-plugin",
     "explosion/weasel",
     "FindDefinition/cumm",
-    "gazebosim/gz-mujoco",
     "googlefonts/nam-files",
+    "idodov/RedAlert",
     "inducer/codepy",
+    "intel/vc-intrinsics",
+    "ironArray/Caterva2",
     "IST-DASLab/Quartet-II",
     "iterate-ch/docs",
     "KratosMultiphysics/Examples",
@@ -54,6 +56,7 @@
     "richardodliu/OpenCodeEval",
     "rstudio/pins-python",
     "ServiceNow/webarena-verified",
+    "seung-lab/cloud-files",
     "talieisin/britfix",
     "TexasInstruments/edgeai-tensorlab",
     "VisionXLab/Rise-Video",

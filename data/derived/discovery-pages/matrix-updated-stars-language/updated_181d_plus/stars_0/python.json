@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 144,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 63,
-    "terms": 98
+    "components": 155,
+    "concepts": 102,
+    "observations": 102,
+    "repos": 68,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "af-74413592/agentscope",
@@ -26,6 +26,7 @@
     "brianckeegan/SpotifyUSTop50",
     "Charlie-XIAO/ml3m",
     "clearbluejar/ghidra-pyi-generator",
+    "cmacdonald/ANCE",
     "cnescatlab/pylint-sonarjson-catlab",
     "CodeBoarding/atlassian-python-api",
     "dani-maarouf/alembic_utils",
@@ -41,11 +42,13 @@
     "elladyr/myo_sim",
     "eric-mitchell/higher",
     "eric-mitchell/transformers",
+    "ezhang7423/hulc-baseline",
     "f-amerehi/eidolon",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
     "HReynaud/stylegan-v",
     "humanpose1/deeppointcloud-benchmarks",
+    "icppWorld/llama2.c",
     "IEI-mjx/Yuan-2.0",
     "ikostrikov/d4rl",
     "jbilcke-hf/finetrainers",
@@ -72,8 +75,10 @@
     "py-cov-action/python-coverage-comment-action-v3-example",
     "redcaps-dataset/pytorch-retinaface",
     "renll/flash-linear-attention",
+    "SebastianGrans/Rich-multiprocess-logging",
     "spencer-tb/ethereum-spec-evm-resolver",
     "thanku-all/parse_answer",
+    "tonysy/opencompass",
     "XuhuiZhou/OpenHands",
     "yinbow/CamoFormer-Jittor",
     "zzowenzz/coco_tiny"

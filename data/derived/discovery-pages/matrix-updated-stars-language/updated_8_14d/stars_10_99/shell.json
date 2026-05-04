@@ -3,7 +3,7 @@
     "components": 111,
     "concepts": 81,
     "observations": 84,
-    "repos": 22,
+    "repos": 23,
     "terms": 79
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AFLplusplus/cov-analysis",
     "apache/arrow-testing",
@@ -31,6 +31,7 @@
     "milvus-io/milvus-proto",
     "NixOS/org",
     "oneclick/rubyinstaller2-packages",
+    "postmodern/ruby-versions",
     "reviewdog/action-black",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",

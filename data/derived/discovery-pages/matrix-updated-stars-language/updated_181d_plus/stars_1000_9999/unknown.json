@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 23,
-    "concepts": 222,
-    "observations": 222,
-    "repos": 91,
-    "terms": 213
+    "concepts": 229,
+    "observations": 229,
+    "repos": 95,
+    "terms": 220
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -52,6 +52,7 @@
     "hal9ai/awesome-dataviz",
     "Homebrew/homebrew-bundle",
     "HumanAIGC/EMO",
+    "iaolo/iA-Fonts",
     "ichitenfont/I.Ming",
     "IDEA-Research/awesome-detection-transformer",
     "integrations/slack",
@@ -61,6 +62,7 @@
     "LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
     "llamastack/llama-stack-apps",
     "lxgw/kose-font",
+    "matthiasn/talk-transcripts",
     "microsoft/live-share",
     "microsoft/nodejs-guidelines",
     "MLNLP-World/Paper-Writing-Tips",
@@ -78,11 +80,13 @@
     "oneredoak/claude-code-workflows",
     "openai/openai-openapi",
     "openai/openai-quickstart-python",
+    "OpenDriveLab/End-to-end-Autonomous-Driving",
     "openlm-research/open_llama",
     "opentracing/specification",
     "phracker/MacOSX-SDKs",
     "promises-aplus/promises-spec",
     "QingyongHu/SoTA-Point-Cloud",
+    "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
     "ray-project/ray-llm",
     "react-native-community/discussions-and-proposals",
     "reactjs/rfcs",

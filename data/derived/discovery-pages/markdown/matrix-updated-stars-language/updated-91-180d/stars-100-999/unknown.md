@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
+- repos: 27
 - terms: 54
 - components: 11
 - concepts: 42
@@ -41,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MME-Benchmarks/Video-MME](https://github.com/MME-Benchmarks/Video-MME) | 762 | 2025-12-08T06:31:55Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [AppImageCommunity/awesome-appimage](https://github.com/AppImageCommunity/awesome-appimage) | 562 | 2025-12-07T12:00:44Z | Unknown | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents) | 170 | 2025-12-02T05:44:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [chika0801/Xray-examples](https://github.com/chika0801/Xray-examples) | 966 | 2025-12-01T17:57:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [CodeBoarding/GeneratedOnBoardings](https://github.com/CodeBoarding/GeneratedOnBoardings) | 102 | 2025-12-01T00:58:46Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit) | 184 | 2025-11-24T18:09:03Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [ethstaker/ethstaker-guides](https://github.com/ethstaker/ethstaker-guides) | 366 | 2025-11-22T11:59:26Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -50,12 +51,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain4j/awesome-langchain4j](https://github.com/langchain4j/awesome-langchain4j) | 163 | 2025-11-14T12:21:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [deepseek-ai/awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) | 773 | 2025-11-11T06:45:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [eryajf/awesome-github-profile-readme-chinese](https://github.com/eryajf/awesome-github-profile-readme-chinese) | 294 | 2025-11-10T01:21:00Z | Unknown | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [michaelkleber/privacy-model](https://github.com/michaelkleber/privacy-model) | 207 | 2025-11-07T21:54:10Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [dotnet/brand](https://github.com/dotnet/brand) | 302 | 2025-11-06T23:25:55Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [chika0801/Xray-examples](https://github.com/chika0801/Xray-examples) | 966 | 2025-12-01T17:57:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sgl-project/sgl-learning-materials](https://github.com/sgl-project/sgl-learning-materials) | 803 | 2026-01-05T04:55:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ahmadawais/shades-of-purple-vscode](https://github.com/ahmadawais/shades-of-purple-vscode) | 774 | 2025-11-21T02:38:58Z | Unknown | Unknown | 7 | 1 | 7 | 7 |
 | [deepseek-ai/awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) | 773 | 2025-11-11T06:45:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -75,6 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oh-my-fish/packages-main](https://github.com/oh-my-fish/packages-main) | 260 | 2026-01-06T17:40:02Z | Unknown | Infrastructure/tooling | 3 | 1 | 5 | 5 |
 | [thibautmelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | 248 | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
 | [deepinsight/inswapper-512-live](https://github.com/deepinsight/inswapper-512-live) | 232 | 2025-11-18T16:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [michaelkleber/privacy-model](https://github.com/michaelkleber/privacy-model) | 207 | 2025-11-07T21:54:10Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [NVIDIA/RTX-AI-Toolkit](https://github.com/NVIDIA/RTX-AI-Toolkit) | 184 | 2025-11-24T18:09:03Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents](https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents) | 170 | 2025-12-02T05:44:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lightning/blips](https://github.com/lightning/blips) | 167 | 2026-01-14T14:28:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

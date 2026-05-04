@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1782,
-    "concepts": 368,
-    "observations": 368,
-    "repos": 54,
-    "terms": 375
+    "components": 1750,
+    "concepts": 391,
+    "observations": 391,
+    "repos": 55,
+    "terms": 394
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
@@ -25,7 +25,6 @@
     "Azure/cli",
     "Azure/login",
     "babel/website",
-    "blrchen/chatgpt-lite",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
     "connectrpc/examples-es",
@@ -37,10 +36,9 @@
     "elizaos/elizaos.github.io",
     "github/local-action",
     "graphprotocol/graph-client",
-    "grubersjoe/github-contributions-api",
-    "grubersjoe/react-activity-calendar",
-    "grubersjoe/react-github-calendar",
+    "harlan-zw/mdream",
     "js-temporal/temporal-polyfill",
+    "julia-actions/setup-julia",
     "Kong/kong-manager",
     "kysely-org/kysely-ctl",
     "lerna-lite/lerna-lite",
@@ -49,6 +47,7 @@
     "microsoft/DefinitelyTyped-tools",
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
+    "microsoft/security-devops-action",
     "microsoft/TypeScript-DOM-lib-generator",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
@@ -57,16 +56,18 @@
     "octokit/webhooks.js",
     "OffchainLabs/arbitrum-sdk",
     "open-telemetry/opentelemetry-js-contrib",
+    "opendatalab/labelU-Kit",
     "OpenZeppelin/openzeppelin-upgrades",
     "optuna/optuna-dashboard",
     "redhat-developer/vscode-xml",
     "safe-global/safe-deployments",
     "sass/embedded-host-node",
+    "sergiodxa/remix-i18next",
     "Softeria/ms-365-mcp-server",
     "strands-agents/sdk-typescript",
     "sveltejs/eslint-plugin-svelte",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
-    "tony1223/better-agent-terminal"
+    "tats-u/markdown-cjk-friendly"
   ]
 }

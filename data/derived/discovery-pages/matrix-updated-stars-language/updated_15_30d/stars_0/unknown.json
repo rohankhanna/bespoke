@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 39,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 31,
-    "terms": 46
+    "concepts": 35,
+    "observations": 35,
+    "repos": 51,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,19 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "aaronrsun/spec-kit-issue",
     "alexcrichton/cc-rs",
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "begmyratb/floweye-yyyxxx.cc",
+    "biparous-blaxploitation156/ciphermind",
     "cachix/nix-bindings-rust",
+    "carloandremoreyra/xx",
+    "chafingdishposition355/go-skills",
     "csjgg/ags-cookbook",
+    "Culmus/hebrew-fonts",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
@@ -34,16 +40,30 @@
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Memory-Planning-0426",
     "danielrosehill/AI-Resource-Maps",
+    "danielrosehill/Arch-And-Interiors-Index",
+    "danielrosehill/audio-editing-plugin",
     "danielrosehill/brainstorm-solutions-plugin",
-    "danielrosehill/Deployments-Index",
+    "danielrosehill/Claude-AI-Engineering-Plugin",
+    "danielrosehill/Claude-Audio-Production-Plugin",
+    "danielrosehill/Claude-Budgeting-Plugin",
+    "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Workspace-Reshaping-190426",
     "danielrosehill/Geopol-Forecasts-Index",
     "danielrosehill/Israel-Preparedness-Index",
     "danielrosehill/My-Benchmarks",
+    "foundersieve687/skill-gateway",
     "kdn36/arrow-rs-object-store",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "narutoxdd6/nyro",
     "piebald-ai/piebald",
+    "pragmatical-transshipment598/claude-code-workflows",
     "psmux/scoop-omp-manager",
     "semgrep/cursor-plugin",
+    "shouted-numberone752/wechat-agent-connector",
     "ublacklist/store-assets",
-    "wencuecryforme/mysoul.skill"
+    "vivianalaced749/vk-calls-tunnel",
+    "wencuecryforme/mysoul.skill",
+    "wendyalbanez/clawui"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10,000 to 99,999 stars · Java
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
+- repos: 2
 - terms: 0
 - components: 3
 - concepts: 0
@@ -27,9 +27,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Netflix/Hystrix](https://github.com/Netflix/Hystrix) | 24460 | 2025-12-17T03:21:02Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base) | 10817 | 2025-11-12T05:57:50Z | Java | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Netflix/Hystrix](https://github.com/Netflix/Hystrix) | 24460 | 2025-12-17T03:21:02Z | Java | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base) | 10817 | 2025-11-12T05:57:50Z | Java | Unknown | 0 | 0 | 0 | 0 |

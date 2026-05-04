@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 31,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 26,
-    "terms": 50
+    "components": 36,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 29,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,21 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
-    "AppImage/AppImageSpec",
     "askroundtable/expert-skills",
     "bleichenbacher-daniel/Rooterberg",
     "bmad-code-org/bmad-plugins-marketplace",
     "cdxeve/awesome-computer-use-agents",
     "cedar-policy/cedar-docs",
     "charmbracelet/scoop-bucket",
+    "Dexters-Hub/Dexters-Hub",
     "eigenfoundation/elips",
     "flinedev/plankit",
     "ganelson/inform-evolution",
+    "GDevelopApp/GDevelop-community-list",
     "Homebrew/.github",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
@@ -39,6 +40,8 @@
     "SeleniumHQ/selenium_manager_artifacts",
     "simonw/simonwillisonblog-backup",
     "tc39/proposal-duplicate-named-capturing-groups",
-    "uxlfoundation/open-source-working-group"
+    "uxlfoundation/open-source-working-group",
+    "w3c/accname",
+    "w3c/core-aam"
   ]
 }

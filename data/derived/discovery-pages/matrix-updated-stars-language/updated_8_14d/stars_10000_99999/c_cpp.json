@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 400,
-    "concepts": 574,
-    "observations": 577,
-    "repos": 54,
-    "terms": 581
+    "components": 401,
+    "concepts": 586,
+    "observations": 589,
+    "repos": 57,
+    "terms": 583
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
     "alibaba/MNN",
     "apache/arrow",
+    "apache/brpc",
     "apple/foundationdb",
     "arangodb/arangodb",
     "aseprite/aseprite",
+    "asmvik/yabai",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "chromium/chromium",
@@ -43,6 +45,7 @@
     "grpc/grpc",
     "Immediate-Mode-UI/Nuklear",
     "jonas/tig",
+    "jqlang/jq",
     "libvips/libvips",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
@@ -57,11 +60,11 @@
     "ocornut/imgui",
     "openssl/openssl",
     "PaddlePaddle/Paddle",
-    "px4/px4-autopilot",
     "qemu/qemu",
     "raysan5/raylib",
     "redis/redis",
     "RPCS3/rpcs3",
+    "swaywm/sway",
     "systemd/systemd",
     "taskflow/taskflow",
     "Tencent/ncnn",

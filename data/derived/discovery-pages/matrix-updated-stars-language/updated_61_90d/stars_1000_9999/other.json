@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 227,
-    "observations": 228,
-    "repos": 42,
-    "terms": 232
+    "components": 189,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 45,
+    "terms": 255
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "3rd/image.nvim",
+    "activerecord-hackery/ransack",
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "artempyanykh/marksman",
@@ -32,8 +33,9 @@
     "Gonzalo-D-Sales/obsidian-velocity",
     "googleapis/elixir-google-api",
     "greggh/claude-code.nvim",
-    "guard/guard",
     "IDEA-Research/Rex-Omni",
+    "javan/whenever",
+    "kaminari/kaminari",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "mdn/webassembly-examples",
@@ -53,6 +55,7 @@
     "steipete/imsg",
     "stevearc/aerial.nvim",
     "stevearc/oil.nvim",
+    "timdorr/tesla-api",
     "touchlab/droidconkotlin",
     "vkhorikov/CSharpFunctionalExtensions",
     "woct0rdho/triton-windows"

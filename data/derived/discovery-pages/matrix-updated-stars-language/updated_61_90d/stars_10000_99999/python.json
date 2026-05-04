@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 87,
-    "observations": 88,
-    "repos": 12,
-    "terms": 87
+    "components": 78,
+    "concepts": 96,
+    "observations": 97,
+    "repos": 14,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
@@ -23,8 +23,10 @@
     "KlingAIResearch/LivePortrait",
     "lucidrains/denoising-diffusion-pytorch",
     "modin-project/modin",
+    "QwenLM/Qwen-Agent",
     "tqdm/tqdm",
     "unifyai/ivy",
+    "vibrantlabsai/ragas",
     "zylon-ai/private-gpt"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 1,
-    "terms": 1
+    "components": 25,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "anthropics/skills"
+    "anthropics/skills",
+    "nousresearch/hermes-agent",
+    "yt-dlp/yt-dlp"
   ]
 }

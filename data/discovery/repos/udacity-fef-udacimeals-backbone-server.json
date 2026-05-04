@@ -16,13 +16,14 @@
       "size": 2320
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:43:22.715234+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Back-end server for use with Udacity's Front-End Frameworks course",
     "fork": true,
-    "full_name": "udacity/FEF-UdaciMeals-Backbone-Server",
+    "full_name": "udacity/fef-udacimeals-backbone-server",
     "html_url": "https://github.com/udacity/FEF-UdaciMeals-Backbone-Server",
     "language": "Go",
     "pushed_at": "2021-10-21T13:33:42Z",

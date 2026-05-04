@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 410,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 21,
-    "terms": 73
+    "components": 541,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 27,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "acro5piano/kysely-migration-cli",
     "aiden0z/pptx-renderer",
     "apache/incubator-devlake-website",
     "automazeio/proof",
+    "dannyhw/react-native-storybook-starter",
     "gnosischain/gbc-deposit-ui",
     "googleapis/google-cloud-node-core",
-    "googleapis/nodejs-error-reporting",
     "gr2m/octokit-oauth-app-now-example",
     "holochain/kangaroo-electron",
     "HoneyLuka/uBlacklist",
@@ -29,9 +29,15 @@
     "literalpie/storybook-framework-qwik",
     "memoryhole/jjo",
     "nanostores/alpine",
+    "pkgxdev/brewkit",
+    "pkgxdev/pkgm",
+    "privatenumber/is-fs-case-sensitive",
     "SchwarzIT/api-linter-rules",
     "Shougo/ddu-filter-matcher_substring",
     "Shougo/ddu-kind-file",
+    "skilld-dev/retriv",
+    "solidjs-community/storybook",
+    "storybookjs/addon-coverage",
     "stx-labs/connect",
     "TravisTheTechie/vscode-write-good",
     "trzsz/tabby-trzsz"

@@ -4,7 +4,7 @@
     "concepts": 17,
     "observations": 17,
     "repos": 1,
-    "terms": 16
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-01T05:46:25.326955+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ohmyzsh/ohmyzsh"
   ]

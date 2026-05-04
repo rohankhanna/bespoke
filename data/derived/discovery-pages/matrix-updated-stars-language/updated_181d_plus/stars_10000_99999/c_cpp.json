@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 101,
-    "observations": 101,
-    "repos": 20,
-    "terms": 101
+    "components": 70,
+    "concepts": 118,
+    "observations": 118,
+    "repos": 22,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "antimatter15/alpaca.cpp",
     "apache/mxnet",
@@ -26,10 +26,12 @@
     "ggreer/the_silver_searcher",
     "karpathy/llama2.c",
     "krallin/tini",
+    "MatsuriDayo/nekoray",
     "microsoft/CNTK",
     "mozilla/DeepSpeech",
     "nomic-ai/gpt4all",
     "pjreddie/darknet",
+    "Qv2ray/Qv2ray",
     "rhasspy/piper",
     "spotify/annoy",
     "Tencent/rapidjson",

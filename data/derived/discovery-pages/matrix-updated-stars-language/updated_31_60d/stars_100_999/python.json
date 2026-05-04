@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 288,
-    "concepts": 421,
-    "observations": 423,
-    "repos": 98,
-    "terms": 422
+    "components": 331,
+    "concepts": 501,
+    "observations": 505,
+    "repos": 110,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "ACEnglish/truvari",
     "actionless/pikaur",
     "Advocate99/DiffGesture",
     "AGI-Arena/MARS",
+    "aigc3d/LHM-plusplus",
     "AIR-Bench/AIR-Bench",
     "akin-ozer/cc-devops-skills",
     "akoumjian/datefinder",
@@ -27,6 +29,7 @@
     "amaranth-lang/amaranth-boards",
     "angr/angrop",
     "astra-vision/MonoScene",
+    "biocypher/biocypher",
     "Blosc/python-blosc",
     "bshall/acoustic-model",
     "BusKill/buskill-app",
@@ -35,6 +38,7 @@
     "citusdata/django-multitenant",
     "clearml/clearml-server",
     "clearml/clearml-serving",
+    "corteva/rioxarray",
     "csslc/PiSA-SR",
     "DanceTrack/DanceTrack",
     "dask/fastparquet",
@@ -50,6 +54,7 @@
     "HazyResearch/zoology",
     "heyoeyo/muggled_dpt",
     "hukkin/mdformat",
+    "hustvl/Senna",
     "jayleicn/moment_detr",
     "jsegov/autoresearch-win-rtx",
     "kandinskylab/kandinsky-5",
@@ -60,12 +65,15 @@
     "lartpang/PySODMetrics",
     "ldayton/dippy",
     "lessw2020/Ranger21",
+    "lxgw/LxgwMarkerGothic",
     "macisamuele/language-formatters-pre-commit-hooks",
     "madebyollin/taehv",
     "MAGREF-Video/MAGREF",
     "matthew-brett/delocate",
     "melMass/comfy_mtb",
+    "meta-pytorch/torchft",
     "mgaitan/sphinxcontrib-mermaid",
+    "MIC-DKFZ/dynamic-network-architectures",
     "microsoft/ArchScale",
     "microsoft/XPretrain",
     "MinimalFuture/AgentMesh",
@@ -82,6 +90,8 @@
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",
     "Osilly/Vision-DeepResearch",
+    "pappasam/jedi-language-server",
+    "pfultz2/cget",
     "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",
@@ -109,8 +119,10 @@
     "WujiangXu/A-mem",
     "WujiangXu/A-mem-sys",
     "xavierpuigf/virtualhome",
+    "xlite-dev/Awesome-DiT-Inference",
     "yanring/Megatron-MoE-ModelZoo",
     "Yelp/aactivator",
+    "yuliangguo/3D_Lane_Synthetic_Dataset",
     "zhijian-liu/torchprofile"
   ]
 }

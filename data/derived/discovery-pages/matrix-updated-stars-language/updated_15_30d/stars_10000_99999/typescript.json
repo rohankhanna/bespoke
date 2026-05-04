@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 884,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 23,
-    "terms": 142
+    "components": 1303,
+    "concepts": 211,
+    "observations": 211,
+    "repos": 33,
+    "terms": 227
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,40 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
+    "badlogic/pi-mono",
     "catppuccin/catppuccin",
-    "changesets/changesets",
     "chatboxai/chatbox",
     "diegomura/react-pdf",
     "everyinc/compound-engineering-plugin",
     "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
-    "googleapis/google-api-nodejs-client",
+    "garrytan/gstack",
+    "iOfficeAI/AionUi",
     "lerna/lerna",
     "microsoft/playwright-mcp",
     "mlc-ai/web-llm",
     "modelcontextprotocol/servers",
+    "multica-ai/multica",
     "neoclide/coc.nvim",
+    "nvidia/nemoclaw",
+    "qwenlm/qwen-code",
+    "qwibitai/nanoclaw",
     "realworld-apps/realworld",
+    "recharts/recharts",
+    "ryoppippi/ccusage",
+    "SBoudrias/Inquirer.js",
     "shareai-lab/learn-claude-code",
     "slopus/happy",
+    "tanweai/pua",
     "tobi/qmd",
     "toon-format/toon",
     "upstash/context7",
     "vadimdemedes/ink",
+    "vercel/swr",
     "Vinzent03/obsidian-git"
   ]
 }

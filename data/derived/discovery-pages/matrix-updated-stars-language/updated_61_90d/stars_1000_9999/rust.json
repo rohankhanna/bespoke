@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 124,
-    "observations": 124,
+    "components": 151,
+    "concepts": 135,
+    "observations": 135,
     "repos": 26,
-    "terms": 123
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
-    "ash-rs/ash",
+    "apache/horaedb",
     "brendanzab/codespan",
     "Byron/dua-cli",
     "Byron/google-apis-rs",

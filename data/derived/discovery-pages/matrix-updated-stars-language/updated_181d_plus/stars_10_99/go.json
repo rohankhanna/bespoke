@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 346,
-    "observations": 349,
-    "repos": 141,
-    "terms": 342
+    "components": 345,
+    "concepts": 374,
+    "observations": 377,
+    "repos": 149,
+    "terms": 370
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xcafed00d/joystick",
     "1set/cronrange",
@@ -42,6 +42,7 @@
     "awakesecurity/csp",
     "Azure/acr-docker-credential-helper",
     "bgokden/veri",
+    "bianjieai/nft-transfer",
     "birkelund/boltdbcache",
     "bozerkins/terraform-provider-dkron",
     "brads3290/cclogviewer",
@@ -70,6 +71,7 @@
     "dpastoor/qvm",
     "dracory/hb",
     "dubbogo/dubbo-go-benchmark",
+    "Dunamis4tw/generate-geoip-geosite",
     "dustinblackman/gomodrun",
     "ergochat/ircdog",
     "ergochat/readline",
@@ -90,6 +92,9 @@
     "go-logr/zerologr",
     "go-sql-driver/sql-benchmark",
     "go-woo/protoc-gen-echo",
+    "gogama/flatgeobuf",
+    "gogama/httpx",
+    "gogama/incite",
     "google/gnostic-go-generator",
     "goradd/html5tag",
     "hertz-contrib/casbin",
@@ -116,6 +121,8 @@
     "mailgun/proxyproto",
     "malfunkt/iprange",
     "maoueh/zap-pretty",
+    "MatsuriDayo/sing-box-extra",
+    "MatsuriDayo/v2ray-core",
     "mholt/caddy-hitcounter",
     "mosn/proxy-wasm-go-host",
     "muesli/ansi",
@@ -147,6 +154,7 @@
     "tidwall/btree-benchmark",
     "tinted-theming/base16-builder-go",
     "trknhr/2048-go",
+    "udacity/fef-udacimeals-backbone-server",
     "urfave/cli-docs",
     "vmihailenco/go-cache-benchmark",
     "vmihailenco/go-tinylfu",

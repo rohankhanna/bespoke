@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1222,
-    "concepts": 252,
-    "observations": 252,
-    "repos": 42,
-    "terms": 264
+    "components": 1400,
+    "concepts": 306,
+    "observations": 306,
+    "repos": 50,
+    "terms": 315
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -25,13 +25,17 @@
     "augmnt/augments-mcp-server",
     "avli/clojureVSCode",
     "aws-samples/dify-self-hosted-on-aws",
+    "carbon-design-system/carbon-icons-svelte",
+    "carbon-design-system/carbon-pictograms-svelte",
     "carlrannaberg/claudekit",
     "Charlie85270/Dorothy",
+    "cloydlau/json-editor-vue",
     "connectrpc/connect-query-es",
     "cztomsik/ava",
+    "embroider-build/ember-auto-import",
     "ethereum/staking-launchpad",
     "fannheyward/coc-sql",
-    "fnando/i18n",
+    "fannheyward/create-coc-extension",
     "graalvm/setup-graalvm",
     "graphql-hive/graphql-eslint",
     "h3js/rou3",
@@ -43,6 +47,7 @@
     "latex-lsp/texlab-vscode",
     "lobehub/lobe-midjourney-webui",
     "microsoft/vscode-debugadapter-node",
+    "nashaofu/screenshots",
     "neoclide/coc-java",
     "ory/hydra-login-consent-node",
     "PanAeon/vscode-tmgrammar-test",
@@ -51,10 +56,13 @@
     "shareai-lab/kode-agent-sdk",
     "solidjs/templates",
     "sudocode-ai/sudocode",
+    "testing-library/angular-testing-library",
     "thesayyn/protoc-gen-ts",
+    "tracked-tools/tracked-built-ins",
     "trzsz/trzsz.js",
     "un-ts/eslint-plugin-import-x",
     "vim-denops/denops.vim",
+    "windingwind/zotero-plugin-template",
     "y-lohse/inkjs"
   ]
 }

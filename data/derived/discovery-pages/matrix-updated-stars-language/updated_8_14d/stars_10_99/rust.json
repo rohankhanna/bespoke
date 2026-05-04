@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 186,
-    "observations": 186,
-    "repos": 45,
-    "terms": 186
+    "components": 325,
+    "concepts": 197,
+    "observations": 197,
+    "repos": 46,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
-    "64bit/commandOK",
     "ai-dynamo/modelexpress",
     "amazon-ion/ion-cli",
-    "andelf/axcli",
     "ankane/delta-ruby",
     "ankane/iceberg-ruby",
     "ankane/safetensors-ruby",
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
+    "arkworks-rs/std",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
@@ -51,11 +50,13 @@
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
     "multiformats/rust-cid",
+    "napi-rs/mimalloc-safe",
     "nico-abram/blondie",
     "paradigmxyz/stateless",
     "rozbb/rust-hpke",
     "Sovereign-Labs/rollup-starter",
     "succinctlabs/network",
+    "Systemcluster/kitoken",
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "zcash/pasta_curves"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 110,
-    "concepts": 136,
-    "observations": 137,
-    "repos": 9,
-    "terms": 133
+    "components": 113,
+    "concepts": 143,
+    "observations": 144,
+    "repos": 10,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "89luca89/distrobox",
     "a2aproject/A2A",
+    "DaoCloud/public-image-mirror",
     "dokku/dokku",
     "google/oss-fuzz",
     "nvm-sh/nvm",

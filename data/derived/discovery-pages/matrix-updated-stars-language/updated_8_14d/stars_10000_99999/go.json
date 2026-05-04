@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 736,
-    "concepts": 710,
-    "observations": 714,
+    "components": 746,
+    "concepts": 714,
+    "observations": 718,
     "repos": 60,
-    "terms": 701
+    "terms": 706
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
+    "apache/casbin",
+    "apernet/hysteria",
     "aquasecurity/trivy",
     "argoproj/argo-cd",
     "asdf-vm/asdf",
-    "Billionmail/BillionMail",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
     "cli/cli",
@@ -29,10 +30,8 @@
     "containers/skopeo",
     "coredns/coredns",
     "dexidp/dex",
-    "dgraph-io/badger",
     "distribution/distribution",
     "docker/compose",
-    "dolthub/dolt",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
     "gin-gonic/gin",
@@ -51,7 +50,6 @@
     "hashicorp/vault",
     "jaegertracing/jaeger",
     "jesseduffield/lazygit",
-    "junegunn/fzf",
     "k3s-io/k3s",
     "kubernetes-sigs/kind",
     "kubernetes/kops",
@@ -68,8 +66,10 @@
     "prometheus/prometheus",
     "quic-go/quic-go",
     "rs/zerolog",
+    "schollz/croc",
     "shirou/gopsutil",
     "slackhq/nebula",
+    "spf13/cobra",
     "syncthing/syncthing",
     "thanos-io/thanos",
     "trufflesecurity/trufflehog",

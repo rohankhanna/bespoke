@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 547,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 19,
-    "terms": 86
+    "components": 589,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 22,
+    "terms": 102
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "actions/checkout",
@@ -20,6 +20,7 @@
     "cosmiconfig/cosmiconfig",
     "flightcontrolhq/superjson",
     "jonaskello/tsconfig-paths",
+    "jupyter-widgets/ipyleaflet",
     "metatool-ai/metamcp",
     "nat/openplayground",
     "peers/peerjs-server",
@@ -30,8 +31,10 @@
     "stravu/crystal",
     "styleguidist/react-docgen-typescript",
     "toddbluhm/env-cmd",
+    "tsconfig/bases",
     "ulid/javascript",
     "unjs/unplugin",
-    "vercel/serve"
+    "vercel/serve",
+    "vite-pwa/vite-plugin-pwa"
   ]
 }

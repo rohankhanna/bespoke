@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 10,
-    "terms": 50
+    "components": 85,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 13,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agent-sh/agent-analyzer",
     "dnvt/burn-speech-training",
+    "eikarna/hermes-rs",
     "EspressoSystems/espresso-example-l2",
     "kensave/agent-memory-rs",
+    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "kurrent-io/KurrentDB-Bridge-Client",
     "Layr-Labs/hokulea",
     "marin-community/kitoken",
     "netdur/hugind",
+    "pkgxdev/bpb",
     "urschrei/polyline-ffi",
     "yhirose/docs-gen"
   ]

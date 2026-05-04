@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 41,
-    "terms": 228
+    "components": 136,
+    "concepts": 238,
+    "observations": 238,
+    "repos": 42,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -38,6 +38,7 @@
     "ianlancetaylor/libbacktrace",
     "InteractiveComputerGraphics/SPlisHSPlasH",
     "jedisct1/minisign",
+    "jkuhlmann/cgltf",
     "jlblancoc/nanoflann",
     "libimobiledevice/libimobiledevice",
     "libimobiledevice/usbmuxd",

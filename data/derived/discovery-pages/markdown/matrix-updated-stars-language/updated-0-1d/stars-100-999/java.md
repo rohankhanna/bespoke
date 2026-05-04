@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Java
 
-Generated at: `2026-05-02T07:31:15.175647+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 6
-- components: 2
-- concepts: 6
-- observations: 6
+- repos: 1
+- terms: 3
+- components: 3
+- concepts: 3
+- observations: 3
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-01T18:56:46Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
-| [microsoft/LangChain4j-for-Beginners](https://github.com/microsoft/LangChain4j-for-Beginners) | 318 | 2026-05-01T07:41:42Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 101 | 2026-05-03T10:57:19Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [microsoft/LangChain4j-for-Beginners](https://github.com/microsoft/LangChain4j-for-Beginners) | 318 | 2026-05-01T07:41:42Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [cloudfoundry/credhub](https://github.com/cloudfoundry/credhub) | 249 | 2026-05-01T18:56:46Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [ldproxy/ldproxy](https://github.com/ldproxy/ldproxy) | 101 | 2026-05-03T10:57:19Z | Java | Infrastructure/tooling | 3 | 3 | 3 | 3 |

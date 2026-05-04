@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 17,
     "observations": 17,
-    "repos": 5,
+    "repos": 6,
     "terms": 17
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "Aedelon/claude-code-blueprint",
     "erikw/tmux-dark-notify",
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",

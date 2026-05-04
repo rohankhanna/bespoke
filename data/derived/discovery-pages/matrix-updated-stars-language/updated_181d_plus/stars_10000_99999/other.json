@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 242,
-    "concepts": 230,
-    "observations": 230,
-    "repos": 53,
-    "terms": 229
+    "components": 251,
+    "concepts": 239,
+    "observations": 239,
+    "repos": 56,
+    "terms": 238
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "AliaksandrSiarohin/first-order-model",
@@ -53,11 +53,14 @@
     "morhetz/gruvbox",
     "mozilla/TTS",
     "nagadomi/waifu2x",
+    "necolas/normalize.css",
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
     "PanJiaChen/vue-element-admin",
     "phillipi/pix2pix",
+    "picturepan2/spectre",
     "preservim/nerdtree",
+    "rlabbe/Kalman-and-Bayesian-Filters-in-Python",
     "salesforce/LAVIS",
     "srush/GPU-Puzzles",
     "Stability-AI/StableLM",

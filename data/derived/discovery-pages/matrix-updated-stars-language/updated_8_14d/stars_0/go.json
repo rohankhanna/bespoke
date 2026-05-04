@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 5,
-    "terms": 10
+    "components": 21,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 3,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "Amtrend/ssh-manager",
     "DataDog/vault",
-    "jonislutheran87/weclaw",
     "kdubbo/xds-api",
     "transparency-dev/armored-witness-common"
   ]

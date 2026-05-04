@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 17
-- components: 39
-- concepts: 17
-- observations: 17
+- repos: 9
+- terms: 18
+- components: 47
+- concepts: 18
+- observations: 18
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [dubbo-go-pixiu/dubbo-go-pixiu](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu) | 0 | 2026-04-16T02:43:04Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
@@ -38,6 +40,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Amtrend/ssh-manager](https://github.com/Amtrend/ssh-manager) | 0 | 2026-04-19T17:00:11Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
+| [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [hyper-mcp-rs/crypto-price-plugin](https://github.com/hyper-mcp-rs/crypto-price-plugin) | 0 | 2026-04-19T04:15:28Z | Go | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [foundry-rs/optimism](https://github.com/foundry-rs/optimism) | 0 | 2026-04-17T17:21:17Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [dubbo-go-pixiu/dubbo-go-pixiu](https://github.com/dubbo-go-pixiu/dubbo-go-pixiu) | 0 | 2026-04-16T02:43:04Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |

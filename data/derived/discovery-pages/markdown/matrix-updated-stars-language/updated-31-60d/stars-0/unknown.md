@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 24
+- repos: 21
+- terms: 27
 - components: 47
-- concepts: 24
-- observations: 24
+- concepts: 27
+- observations: 27
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -44,15 +45,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-03-17T11:11:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
-| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [danielrosehill/Deployments-Index](https://github.com/danielrosehill/Deployments-Index) | 0 | 2026-04-03T14:39:38Z | Unknown | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [danielrosehill/handy-wayland-autostart-fix](https://github.com/danielrosehill/handy-wayland-autostart-fix) | 0 | 2026-03-31T11:35:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/nats.rs](https://github.com/lakekeeper/nats.rs) | 0 | 2026-03-30T10:13:36Z | Unknown | CLI | 2 | 13 | 2 | 2 |
 | [danielrosehill/Bug-Reports-And-Fixes](https://github.com/danielrosehill/Bug-Reports-And-Fixes) | 0 | 2026-03-30T10:05:14Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -71,7 +71,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Hebrew-Tech-Vocab](https://github.com/danielrosehill/Hebrew-Tech-Vocab) | 0 | 2026-03-24T17:27:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cachix/crossterm](https://github.com/cachix/crossterm) | 0 | 2026-03-19T13:56:10Z | Unknown | CLI | 1 | 2 | 1 | 1 |
 | [hermit-os/tokio](https://github.com/hermit-os/tokio) | 0 | 2026-03-17T19:45:58Z | Unknown | Infrastructure/tooling | 5 | 14 | 5 | 5 |
-| [kleisauke/glib](https://github.com/kleisauke/glib) | 0 | 2026-03-17T11:11:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cwfitzgerald/libtest-mimic](https://github.com/cwfitzgerald/libtest-mimic) | 0 | 2026-03-16T16:27:11Z | Unknown | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
-| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

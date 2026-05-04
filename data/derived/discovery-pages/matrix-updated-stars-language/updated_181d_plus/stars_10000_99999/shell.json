@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 13,
-    "terms": 51
+    "concepts": 57,
+    "observations": 57,
+    "repos": 15,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alex000kim/nsfw_data_scraper",
     "aristocratos/bashtop",
@@ -22,6 +22,8 @@
     "k4m4/terminals-are-sexy",
     "kaldi-asr/kaldi",
     "mathiasbynens/dotfiles",
+    "moovweb/gvm",
+    "nvie/gitflow",
     "powerline/fonts",
     "source-foundry/Hack",
     "tmux-plugins/tmux-resurrect",

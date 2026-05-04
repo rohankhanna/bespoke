@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 294,
-    "concepts": 470,
-    "observations": 470,
-    "repos": 116,
-    "terms": 466
+    "components": 297,
+    "concepts": 501,
+    "observations": 501,
+    "repos": 121,
+    "terms": 496
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
@@ -38,7 +38,6 @@
     "ClownsharkBatwing/RES4LYF",
     "crossbario/autobahn-python",
     "crossbario/autobahn-testsuite",
-    "cvg/glue-factory",
     "cvg/Hierarchical-Localization",
     "deepseek-ai/DeepSeek-V3.2-Exp",
     "docker/docker-py",
@@ -61,6 +60,7 @@
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
     "huggingface/Math-Verify",
+    "hustvl/DiffusionDrive",
     "hustvl/LightningDiT",
     "hustvl/VAD",
     "HybridRobotics/whole_body_tracking",
@@ -73,13 +73,16 @@
     "jessevig/bertviz",
     "junyanz/CatPapers",
     "KellerJordan/Muon",
+    "KlingAIResearch/ReCamMaster",
     "LeCAR-Lab/ASAP",
     "LTH14/JiT",
     "lucidrains/tab-transformer-pytorch",
     "MeetKai/functionary",
+    "Minqi824/ADBench",
     "mjpost/sacrebleu",
     "modelscope/3D-Speaker",
     "ModelTC/LightX2V-Qwen-Image-Lightning",
+    "mosaicml/streaming",
     "myhub/tr",
     "mymarilyn/clickhouse-driver",
     "NixOS/nixops",
@@ -110,6 +113,7 @@
     "pytorch/extension-cpp",
     "RUC-NLPIR/Search-o1",
     "RUC-NLPIR/WebThinker",
+    "ShichenLiu/SoftRas",
     "simonw/sqlite-utils",
     "Simple-Efficient/RL-Factory",
     "SublimeLinter/SublimeLinter",
@@ -120,15 +124,16 @@
     "Tencent/MimicMotion",
     "Tencent/TFace",
     "tensorflow/agents",
+    "thu-ml/RoboticsDiffusionTransformer",
     "Trusted-AI/adversarial-robustness-toolbox",
     "uber/petastorm",
     "Visual-Agent/DeepEyes",
+    "ViTAE-Transformer/ViTPose",
     "waymo-research/waymo-open-dataset",
     "web-arena-x/webarena",
     "WenmuZhou/PytorchOCR",
     "willisma/SiT",
     "yeyupiaoling/VoiceprintRecognition-Pytorch",
-    "yifan123/flow_grpo",
     "Yuliang-Liu/Monkey"
   ]
 }

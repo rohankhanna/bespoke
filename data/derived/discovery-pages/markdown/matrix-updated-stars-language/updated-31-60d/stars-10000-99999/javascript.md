@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
-- terms: 74
-- components: 403
-- concepts: 67
-- observations: 67
+- repos: 13
+- terms: 78
+- components: 422
+- concepts: 71
+- observations: 71
 
 ## Static behavior
 
@@ -27,6 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
+| [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [jquery/jquery-ui](https://github.com/jquery/jquery-ui) | 11342 | 2026-04-01T18:13:06Z | JavaScript | Infrastructure/tooling | 5 | 22 | 5 | 5 |
 | [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |
 | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
@@ -51,6 +52,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [pugjs/pug](https://github.com/pugjs/pug) | 21849 | 2026-03-13T15:12:43Z | JavaScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [markdown-it/markdown-it](https://github.com/markdown-it/markdown-it) | 21334 | 2026-03-26T17:26:45Z | JavaScript | Infrastructure/tooling | 1 | 40 | 2 | 2 |
 | [hapijs/joi](https://github.com/hapijs/joi) | 21195 | 2026-03-30T17:24:52Z | JavaScript | Infrastructure/tooling | 3 | 16 | 3 | 3 |
+| [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library) | 19580 | 2026-04-02T07:04:36Z | JavaScript | Infrastructure/tooling | 4 | 19 | 4 | 4 |
 | [auth0/node-jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) | 18167 | 2026-03-30T18:59:54Z | JavaScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [hapijs/hapi](https://github.com/hapijs/hapi) | 14784 | 2026-04-02T08:28:56Z | JavaScript | Infrastructure/tooling | 5 | 31 | 5 | 5 |
 | [debug-js/debug](https://github.com/debug-js/debug) | 11442 | 2026-04-01T12:03:30Z | JavaScript | Web app | 6 | 12 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Shell
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 147
-- components: 127
-- concepts: 154
-- observations: 156
+- repos: 21
+- terms: 126
+- components: 106
+- concepts: 130
+- observations: 130
 
 ## Static behavior
 
@@ -47,10 +47,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | 3694 | 2026-04-21T05:15:18Z | Shell | Infrastructure/tooling | 14 | 19 | 14 | 14 |
 | [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries) | 1340 | 2026-04-20T08:12:19Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
-| [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [alrra/dotfiles](https://github.com/alrra/dotfiles) | 1526 | 2026-04-20T04:01:41Z | Shell | Infrastructure/tooling | 6 | 1 | 8 | 10 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2374 | 2026-04-20T02:54:17Z | Shell | Infrastructure/tooling | 8 | 13 | 9 | 9 |
-| [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -66,14 +62,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [void-linux/void-packages](https://github.com/void-linux/void-packages) | 3172 | 2026-04-22T18:16:44Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [sublimehq/Packages](https://github.com/sublimehq/Packages) | 3005 | 2026-04-25T18:52:18Z | Shell | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [docker-library/postgres](https://github.com/docker-library/postgres) | 2470 | 2026-04-21T22:02:34Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [nodenv/nodenv](https://github.com/nodenv/nodenv) | 2374 | 2026-04-20T02:54:17Z | Shell | Infrastructure/tooling | 8 | 13 | 9 | 9 |
-| [clangd/clangd](https://github.com/clangd/clangd) | 2155 | 2026-04-19T23:51:29Z | Shell | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [devcontainers/images](https://github.com/devcontainers/images) | 2004 | 2026-04-22T05:52:08Z | Shell | Infrastructure/tooling | 9 | 9 | 9 | 9 |
 | [bioconda/bioconda-recipes](https://github.com/bioconda/bioconda-recipes) | 1805 | 2026-04-23T19:19:52Z | Shell | Infrastructure/tooling | 10 | 7 | 10 | 10 |
 | [pypa/manylinux](https://github.com/pypa/manylinux) | 1738 | 2026-04-24T23:35:07Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [pacstall/pacstall](https://github.com/pacstall/pacstall) | 1608 | 2026-04-21T17:41:47Z | Shell | Infrastructure/tooling | 15 | 8 | 18 | 18 |
-| [docker-library/golang](https://github.com/docker-library/golang) | 1554 | 2026-04-20T04:42:31Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
-| [alrra/dotfiles](https://github.com/alrra/dotfiles) | 1526 | 2026-04-20T04:01:41Z | Shell | Infrastructure/tooling | 6 | 1 | 8 | 10 |
 | [rocker-org/rocker](https://github.com/rocker-org/rocker) | 1506 | 2026-04-24T21:53:09Z | Shell | Unknown | 1 | 0 | 1 | 1 |
 | [docker-library/docker](https://github.com/docker-library/docker) | 1442 | 2026-04-20T19:01:50Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries) | 1340 | 2026-04-20T08:12:19Z | Shell | Infrastructure/tooling | 6 | 7 | 6 | 6 |

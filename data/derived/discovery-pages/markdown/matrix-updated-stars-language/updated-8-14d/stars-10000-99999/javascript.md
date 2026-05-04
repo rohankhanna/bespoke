@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · JavaScript
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 324
-- components: 1633
-- concepts: 330
-- observations: 332
+- repos: 32
+- terms: 313
+- components: 1533
+- concepts: 319
+- observations: 321
 
 ## Static behavior
 
@@ -31,7 +31,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js) | 10521 | 2026-04-24T06:50:48Z | JavaScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [zloirock/core-js](https://github.com/zloirock/core-js) | 25486 | 2026-04-23T21:57:30Z | JavaScript | Infrastructure/tooling | 11 | 53 | 11 | 11 |
 | [lovell/sharp](https://github.com/lovell/sharp) | 32171 | 2026-04-23T21:06:56Z | JavaScript | Infrastructure/tooling | 14 | 33 | 14 | 14 |
-| [eslint/eslint](https://github.com/eslint/eslint) | 27211 | 2026-04-23T20:34:20Z | JavaScript | Infrastructure/tooling | 11 | 100 | 11 | 11 |
 | [rollup/rollup](https://github.com/rollup/rollup) | 26267 | 2026-04-23T19:34:58Z | JavaScript | Infrastructure/tooling | 3 | 106 | 3 | 3 |
 | [expressjs/express](https://github.com/expressjs/express) | 68974 | 2026-04-23T17:50:10Z | JavaScript | Infrastructure/tooling | 6 | 59 | 6 | 6 |
 | [cure53/DOMPurify](https://github.com/cure53/DOMPurify) | 16918 | 2026-04-23T14:29:58Z | JavaScript | Infrastructure/tooling | 14 | 38 | 14 | 15 |
@@ -76,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [fastify/fastify](https://github.com/fastify/fastify) | 36109 | 2026-04-22T13:23:17Z | JavaScript | Infrastructure/tooling | 12 | 59 | 12 | 12 |
 | [lovell/sharp](https://github.com/lovell/sharp) | 32171 | 2026-04-23T21:06:56Z | JavaScript | Infrastructure/tooling | 14 | 33 | 14 | 14 |
 | [jashkenas/backbone](https://github.com/jashkenas/backbone) | 28079 | 2026-04-22T17:12:03Z | JavaScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
-| [eslint/eslint](https://github.com/eslint/eslint) | 27211 | 2026-04-23T20:34:20Z | JavaScript | Infrastructure/tooling | 11 | 100 | 11 | 11 |
 | [ajaxorg/ace](https://github.com/ajaxorg/ace) | 27131 | 2026-04-21T19:31:34Z | JavaScript | Infrastructure/tooling | 5 | 18 | 5 | 5 |
 | [remy/nodemon](https://github.com/remy/nodemon) | 26697 | 2026-04-22T11:54:12Z | JavaScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
 | [badges/shields](https://github.com/badges/shields) | 26483 | 2026-04-23T01:02:18Z | JavaScript | Infrastructure/tooling | 13 | 111 | 13 | 13 |

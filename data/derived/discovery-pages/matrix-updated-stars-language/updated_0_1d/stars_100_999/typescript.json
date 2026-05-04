@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 4,
-    "terms": 34
+    "components": 126,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "AgnosticUI/agnosticui",
-    "SkepticMystic/breadcrumbs",
-    "sumup-oss/circuit-ui",
-    "unjs/listhen"
+    "carbon-design-system/carbon-components-angular",
+    "unplugin/unplugin-imagemin",
+    "wevm/abitype"
   ]
 }

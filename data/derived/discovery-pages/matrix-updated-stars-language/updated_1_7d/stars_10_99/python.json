@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 213,
-    "observations": 213,
-    "repos": 50,
-    "terms": 209
+    "components": 271,
+    "concepts": 209,
+    "observations": 209,
+    "repos": 51,
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
     "agno-agi/coda",
@@ -20,7 +20,6 @@
     "allenai/cached_path",
     "arcaputo3/mcp-server-whisper",
     "AstraZeneca/runnable",
-    "autodeployai/pypmml",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
@@ -34,11 +33,11 @@
     "dbfixtures/mirakuru",
     "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
+    "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
+    "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
-    "intel-staging/text-generation-webui",
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
@@ -54,13 +53,15 @@
     "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",
+    "rwightman/timm",
     "scaleway/serverless-functions-python",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
-    "symgraph/BinAssistMCP",
+    "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
     "theupdateframework/tuf-on-ci",
+    "Thinklab-SJTU/Bench2Drive-Speed",
     "TigreGotico/phoonnx",
     "xhluca/bm25-benchmarks",
     "zen-xu/pytest-modern"

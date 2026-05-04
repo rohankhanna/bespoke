@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 135
-- components: 173
-- concepts: 139
-- observations: 139
+- repos: 36
+- terms: 137
+- components: 203
+- concepts: 141
+- observations: 141
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [bet4it/udbserver](https://github.com/bet4it/udbserver) | 427 | 2026-03-04T06:42:43Z | Rust | Infrastructure/tooling | 12 | 7 | 12 | 12 |
 | [Kampfkarren/selene](https://github.com/Kampfkarren/selene) | 763 | 2026-03-03T21:50:32Z | Rust | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [rust3ds/ctru-rs](https://github.com/rust3ds/ctru-rs) | 174 | 2026-03-02T21:52:14Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
@@ -47,12 +48,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [smol-rs/async-executor](https://github.com/smol-rs/async-executor) | 442 | 2026-02-18T19:59:44Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [rust-native-tls/rust-native-tls](https://github.com/rust-native-tls/rust-native-tls) | 543 | 2026-02-18T18:37:12Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [hecrj/icebreaker](https://github.com/hecrj/icebreaker) | 430 | 2026-02-16T17:27:22Z | Rust | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [risinglightdb/sqllogictest-rs](https://github.com/risinglightdb/sqllogictest-rs) | 226 | 2026-02-14T06:35:12Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [ratatui/templates](https://github.com/ratatui/templates) | 389 | 2026-02-12T22:25:53Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [jimblandy/perf-event](https://github.com/jimblandy/perf-event) | 129 | 2026-02-12T19:11:57Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ImageOptim/libimagequant](https://github.com/ImageOptim/libimagequant) | 906 | 2026-02-11T02:56:21Z | Rust | Infrastructure/tooling | 13 | 3 | 13 | 13 |
 | [georust/proj](https://github.com/georust/proj) | 176 | 2026-02-11T00:08:22Z | Rust | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [MSxDOS/ntapi](https://github.com/MSxDOS/ntapi) | 127 | 2026-02-10T09:33:35Z | Rust | Service/API | 0 | 0 | 0 | 0 |
 | [dtolnay/prettyplease](https://github.com/dtolnay/prettyplease) | 761 | 2026-02-09T02:38:31Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [dimforge/simba](https://github.com/dimforge/simba) | 335 | 2026-02-07T15:46:08Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [callum-oakley/json5-rs](https://github.com/callum-oakley/json5-rs) | 232 | 2026-02-07T15:06:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [cuviper/autocfg](https://github.com/cuviper/autocfg) | 112 | 2026-02-05T23:34:11Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [zonyitoo/rust-ini](https://github.com/zonyitoo/rust-ini) | 345 | 2026-02-04T06:32:20Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -79,9 +82,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [blyxxyz/lexopt](https://github.com/blyxxyz/lexopt) | 387 | 2026-02-28T22:40:58Z | Rust | CLI | 4 | 1 | 4 | 4 |
 | [zkcrypto/bls12_381](https://github.com/zkcrypto/bls12_381) | 360 | 2026-02-25T03:11:36Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [zonyitoo/rust-ini](https://github.com/zonyitoo/rust-ini) | 345 | 2026-02-04T06:32:20Z | Rust | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [dimforge/simba](https://github.com/dimforge/simba) | 335 | 2026-02-07T15:46:08Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | 298 | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [IWANABETHATGUY/tower-lsp-boilerplate](https://github.com/IWANABETHATGUY/tower-lsp-boilerplate) | 282 | 2026-03-04T13:35:04Z | Rust | Infrastructure/tooling | 0 | 19 | 0 | 0 |
 | [cormacrelf/dark-notify](https://github.com/cormacrelf/dark-notify) | 240 | 2026-02-21T06:47:33Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [callum-oakley/json5-rs](https://github.com/callum-oakley/json5-rs) | 232 | 2026-02-07T15:06:44Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [risinglightdb/sqllogictest-rs](https://github.com/risinglightdb/sqllogictest-rs) | 226 | 2026-02-14T06:35:12Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [tsonglew/dutis](https://github.com/tsonglew/dutis) | 209 | 2026-02-04T06:28:06Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [gwihlidal/vk-mem-rs](https://github.com/gwihlidal/vk-mem-rs) | 201 | 2026-02-23T20:57:57Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [KyleMayes/clang-rs](https://github.com/KyleMayes/clang-rs) | 200 | 2026-02-25T21:34:02Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

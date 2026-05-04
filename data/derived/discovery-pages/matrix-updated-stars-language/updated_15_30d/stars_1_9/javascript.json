@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 271,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 28,
-    "terms": 188
+    "components": 533,
+    "concepts": 325,
+    "observations": 325,
+    "repos": 39,
+    "terms": 327
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -24,6 +24,7 @@
     "agent-sh/perf",
     "agent-sh/repo-intel",
     "agent-sh/sync-docs",
+    "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "ChadKillingsworth/closure-compiler-npm",
     "collective/mrs-developer",
@@ -31,16 +32,26 @@
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
     "erichlof/Glider-Ball-3D",
+    "gauravrathod674/custom-chatbot",
     "gr2m/octokit-oauth-app-begin-example",
-    "graphql/community-wg",
     "hchiam/code-inspiration",
     "hchiam/learning-js",
+    "ibm-telemetry/telemetry-config-schema",
     "ipfs-shipyard/js-mock-ipfs-pinning-service",
     "ipld/js-bitcoin",
     "istanbuljs/schema",
+    "kellyselden/boilerplate-update",
     "poolifier/tatami-ng",
     "seunghunbae-3svs/solo-cto-agent",
+    "stdlib-js/array-complex128",
+    "stdlib-js/complex-cmplx",
+    "stdlib-js/complex-float32-reviver",
     "stdlib-js/ndarray-array",
+    "stdlib-js/ndarray-dtypes",
+    "stdlib-js/ndarray-index-modes",
+    "stdlib-js/streams-node-stdin",
+    "stdlib-js/streams-node-stdout",
+    "stealabra5019/grok-enhancer",
     "Taritsyn/AutoprefixerHost"
   ]
 }

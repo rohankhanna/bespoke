@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 79,
-    "observations": 80,
-    "repos": 28,
-    "terms": 78
+    "components": 121,
+    "concepts": 86,
+    "observations": 88,
+    "repos": 31,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
     "algorealmInc/SwarmNL",
-    "AndersTrier/reed-solomon-simd",
     "apache/opendal-ofs",
     "ArjunNair/egui_sdl2_gl",
     "ashvardanian/StringTape",
@@ -25,6 +24,7 @@
     "BoltzExchange/hold",
     "catch-twenty-two/rust-ssd",
     "chrisguida/smaug",
+    "databendlabs/opensrv",
     "datafusion-contrib/hdfs-native-object-store",
     "Dzordzu/rust-apache-age",
     "EricLBuehler/candle",
@@ -38,7 +38,10 @@
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
+    "rukai/winit_input_helper",
+    "rust-lang/gccjit.rs",
     "spacemeshos/post-rs",
+    "spyoungtech/json-five-rs",
     "suo/lintrunner",
     "zakarumych/mev",
     "zeng3ld/claude-session-restore"

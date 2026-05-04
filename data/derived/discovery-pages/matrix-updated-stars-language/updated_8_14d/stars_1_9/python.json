@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 21,
-    "terms": 56
+    "components": 74,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 13,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,20 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
     "andriykohut/pdm-readiness",
     "arielagor/jetbrains-mono-hebrew",
     "astropy/repo_stats",
-    "beneadie/DeepDog_1",
-    "caesar0301/soothe",
-    "cafitac/hermit-agent",
     "conda-forge/threadpoolctl-feedstock",
     "dreamiurg/peakbagger-cli",
     "flagos-ai/TransformerEngine-FL",
-    "floxym/financial-chat",
-    "frank-syncmarket/skills",
     "kalavai-net/kube-watcher",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
-    "momentique/source-code-security-audit-reviewer",
-    "penpoen/llm-sugarscape",
-    "piqrypt/aiss-standard",
+    "onicai/IConfucius",
     "pyrtlsdr/pyrtlsdrlib",
-    "rrsaldanha/burp-mcp-agents",
     "TJC-LP/sanzaru"
   ]
 }

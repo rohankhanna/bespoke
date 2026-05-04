@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 74,
-    "concepts": 72,
-    "observations": 73,
-    "repos": 15,
-    "terms": 71
+    "components": 79,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 16,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "akarnokd/RxJavaFiberInterop",
     "apache/datasketches-hive",
     "apache/datasketches-pig",
     "bobbylight/RSTALanguageSupport",

@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 14
-- terms: 90
-- components: 94
-- concepts: 90
-- observations: 93
+- repos: 15
+- terms: 93
+- components: 98
+- concepts: 93
+- observations: 96
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3003 | 2026-01-25T23:41:47Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [helix-editor/nucleo](https://github.com/helix-editor/nucleo) | 1413 | 2026-01-21T07:01:38Z | Rust | Infrastructure/tooling | 5 | 5 | 5 | 5 |
 | [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) | 3057 | 2026-01-13T19:54:39Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
 | [geiger-rs/cargo-geiger](https://github.com/geiger-rs/cargo-geiger) | 1573 | 2026-01-11T08:36:51Z | Rust | Infrastructure/tooling | 4 | 9 | 4 | 4 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [godot-rust/gdnative](https://github.com/godot-rust/gdnative) | 3633 | 2025-12-31T11:42:26Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [atanunq/viu](https://github.com/atanunq/viu) | 3156 | 2025-12-15T10:20:59Z | Rust | CLI | 3 | 5 | 3 | 4 |
 | [guillaume-be/rust-bert](https://github.com/guillaume-be/rust-bert) | 3057 | 2026-01-13T19:54:39Z | Rust | Infrastructure/tooling | 15 | 4 | 15 | 15 |
+| [imgui-rs/imgui-rs](https://github.com/imgui-rs/imgui-rs) | 3003 | 2026-01-25T23:41:47Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [erg-lang/erg](https://github.com/erg-lang/erg) | 2855 | 2025-12-04T02:20:50Z | Rust | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [dtolnay/case-studies](https://github.com/dtolnay/case-studies) | 2011 | 2025-12-20T05:11:26Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [tarkah/tickrs](https://github.com/tarkah/tickrs) | 1576 | 2025-12-15T20:40:25Z | Rust | CLI | 8 | 7 | 8 | 8 |

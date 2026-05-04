@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 228
-- components: 135
-- concepts: 231
-- observations: 231
+- repos: 42
+- terms: 235
+- components: 136
+- concepts: 238
+- observations: 238
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | 1872 | 2026-02-02T20:32:49Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [emersion/slurp](https://github.com/emersion/slurp) | 1230 | 2026-02-01T19:46:00Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
 | [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) | 2022 | 2026-01-30T20:52:36Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [colmap/glomap](https://github.com/colmap/glomap) | 2309 | 2026-01-30T12:16:05Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
@@ -96,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [EKA2L1/EKA2L1](https://github.com/EKA2L1/EKA2L1) | 1930 | 2026-01-02T18:07:40Z | C/C++ | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ashvardanian/less_slow.cpp](https://github.com/ashvardanian/less_slow.cpp) | 1913 | 2025-12-23T14:38:25Z | C/C++ | Infrastructure/tooling | 17 | 2 | 17 | 17 |
 | [codeplea/tinyexpr](https://github.com/codeplea/tinyexpr) | 1878 | 2025-12-12T13:47:05Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | 1872 | 2026-02-02T20:32:49Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [InteractiveComputerGraphics/SPlisHSPlasH](https://github.com/InteractiveComputerGraphics/SPlisHSPlasH) | 1835 | 2025-11-28T15:47:16Z | C/C++ | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [NVlabs/nvdiffrast](https://github.com/NVlabs/nvdiffrast) | 1828 | 2025-12-08T13:25:14Z | C/C++ | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nvim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim) | 1748 | 2025-11-07T13:16:17Z | C/C++ | Infrastructure/tooling | 4 | 4 | 4 | 4 |

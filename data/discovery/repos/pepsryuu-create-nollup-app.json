@@ -26,13 +26,14 @@
       "size": 450
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:43:56.302582+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "PepsRyuu/create-nollup-app",
+    "full_name": "pepsryuu/create-nollup-app",
     "html_url": "https://github.com/PepsRyuu/create-nollup-app",
     "language": "JavaScript",
     "pushed_at": "2021-09-10T16:29:25Z",

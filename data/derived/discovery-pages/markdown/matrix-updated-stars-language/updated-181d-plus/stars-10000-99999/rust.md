@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Rust
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -26,7 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rust-bakery/nom](https://github.com/rust-bakery/nom) | 10380 | 2025-08-26T11:10:34Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [rust-bakery/nom](https://github.com/rust-bakery/nom) | 10381 | 2025-08-26T11:10:34Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [BurntSushi/xsv](https://github.com/BurntSushi/xsv) | 10758 | 2025-04-24T13:09:22Z | Rust | CLI | 2 | 0 | 2 | 2 |
 | [ogham/exa](https://github.com/ogham/exa) | 24426 | 2024-09-24T15:18:09Z | Rust | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) | 19148 | 2024-04-04T15:03:12Z | Rust | CLI | 8 | 6 | 8 | 8 |
@@ -40,4 +40,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Rigellute/spotify-tui](https://github.com/Rigellute/spotify-tui) | 19148 | 2024-04-04T15:03:12Z | Rust | CLI | 8 | 6 | 8 | 8 |
 | [fdehau/tui-rs](https://github.com/fdehau/tui-rs) | 10878 | 2023-08-06T07:35:02Z | Rust | CLI | 3 | 3 | 3 | 3 |
 | [BurntSushi/xsv](https://github.com/BurntSushi/xsv) | 10758 | 2025-04-24T13:09:22Z | Rust | CLI | 2 | 0 | 2 | 2 |
-| [rust-bakery/nom](https://github.com/rust-bakery/nom) | 10380 | 2025-08-26T11:10:34Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |
+| [rust-bakery/nom](https://github.com/rust-bakery/nom) | 10381 | 2025-08-26T11:10:34Z | Rust | Infrastructure/tooling | 8 | 11 | 8 | 8 |

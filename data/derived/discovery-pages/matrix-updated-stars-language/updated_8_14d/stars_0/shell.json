@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 6,
-    "terms": 15
+    "components": 16,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 8,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "conda-forge/blis-feedstock",
     "conda-forge/bottom-feedstock",
     "conda-forge/diffutils-feedstock",
+    "conda-forge/ergocub-software-feedstock",
+    "conda-forge/xeus-cpp-feedstock",
     "DeepWok/mase-docker",
-    "gerardtschanz/revenue-os",
+    "kyverno/.github",
     "nodenv/node-build-prerelease"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 29,
-    "terms": 59
+    "components": 122,
+    "concepts": 56,
+    "observations": 56,
+    "repos": 38,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -24,8 +24,10 @@
     "apptainer/apptainer-userdocs",
     "ashvardanian/ashvardanian",
     "audeering/audonnx",
-    "axolotl-ai-cloud/ml-cross-entropy",
+    "beneadie/DeepDog_1",
     "bryanh9111/engram",
+    "caesar0301/soothe",
+    "cafitac/hermit-agent",
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "chaoss/grimoirelab-toolkit",
@@ -33,12 +35,19 @@
     "CoolCat467/idlemypyextension",
     "danielrosehill/Geopol-Forecaster",
     "etanhey/brainlayer",
+    "floxym/financial-chat",
+    "frank-syncmarket/skills",
     "gibdd-dps/prizolov-agent-os",
+    "jupyter-xeus/xeus-python-shell",
     "justinchuby/lintrunner-adapters",
     "kelp/webdown",
+    "lxgw/LxgwWenKai-shared",
     "Mbed-TLS/mbedtls-framework",
+    "momentique/source-code-security-audit-reviewer",
+    "penpoen/llm-sugarscape",
+    "piqrypt/aiss-standard",
     "piqrypt/piqrypt",
-    "ROCm/rbuild",
+    "rrsaldanha/burp-mcp-agents",
     "sunthinks/kvmind",
     "TexasInstruments/edgeai-tidlrunner",
     "verkyyi/tokenman",

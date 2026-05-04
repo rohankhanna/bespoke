@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 773,
-    "concepts": 119,
-    "observations": 120,
-    "repos": 27,
-    "terms": 129
+    "components": 903,
+    "concepts": 130,
+    "observations": 131,
+    "repos": 32,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,22 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
     "addyosmani/chatty",
+    "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
     "antfu/eslint-plugin-command",
     "aymenfurter/ralph",
     "castwide/vscode-solargraph",
     "eckardt/cchistory",
+    "fnando/i18n",
     "googleapis/nodejs-datastore",
     "googleapis/nodejs-logging-winston",
     "import-js/eslint-import-resolver-typescript",
+    "inciteful-xyz/inciteful-zotero-plugin",
     "janwilmake/openapi-mcp-server",
     "kamranahmedse/claude-run",
     "kutsan/stylelint-config-clean-order",
@@ -32,8 +35,10 @@
     "lobehub/lobe-charts",
     "lobehub/lobe-cli-toolbox",
     "lobehub/lobe-tts",
+    "microsoft/BotFramework-DirectLineJS",
     "multiformats/js-multiformats",
     "niieani/gpt-tokenizer",
+    "nodejs/llparse",
     "priceline/design-system",
     "sveltejs/prettier-plugin-svelte",
     "unplugin/unplugin-vue-markdown",

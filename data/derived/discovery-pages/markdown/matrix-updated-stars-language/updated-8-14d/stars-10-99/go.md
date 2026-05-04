@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 167
-- components: 243
-- concepts: 169
-- observations: 169
+- repos: 32
+- terms: 158
+- components: 232
+- concepts: 160
+- observations: 160
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [bootmortis/sing-geosite](https://github.com/bootmortis/sing-geosite) | 14 | 2026-04-27T01:19:07Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [cloudfoundry/bpm-release](https://github.com/cloudfoundry/bpm-release) | 33 | 2026-04-25T10:36:33Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [sigstore/k8s-manifest-sigstore](https://github.com/sigstore/k8s-manifest-sigstore) | 87 | 2026-04-24T20:52:26Z | Go | Infrastructure/tooling | 4 | 9 | 4 | 4 |
@@ -57,8 +58,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gopasspw/git-credential-gopass](https://github.com/gopasspw/git-credential-gopass) | 73 | 2026-04-20T17:00:44Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [transparency-dev/armored-witness](https://github.com/transparency-dev/armored-witness) | 31 | 2026-04-20T12:48:50Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
-| [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
-| [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -87,12 +86,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cloudfoundry/bpm-release](https://github.com/cloudfoundry/bpm-release) | 33 | 2026-04-25T10:36:33Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [abhinav/goldmark-frontmatter](https://github.com/abhinav/goldmark-frontmatter) | 32 | 2026-04-21T19:45:54Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |
 | [transparency-dev/armored-witness](https://github.com/transparency-dev/armored-witness) | 31 | 2026-04-20T12:48:50Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
-| [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [apache/datasketches-go](https://github.com/apache/datasketches-go) | 26 | 2026-04-25T06:17:17Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
-| [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
 | [kubernetes-sigs/provider-aws-test-infra](https://github.com/kubernetes-sigs/provider-aws-test-infra) | 19 | 2026-04-23T13:18:48Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [dlclark/regexp2cg](https://github.com/dlclark/regexp2cg) | 19 | 2026-04-22T02:34:26Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [bootmortis/sing-geosite](https://github.com/bootmortis/sing-geosite) | 14 | 2026-04-27T01:19:07Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [davidkarlsen/flyway-operator](https://github.com/davidkarlsen/flyway-operator) | 12 | 2026-04-21T23:39:12Z | Go | Infrastructure/tooling | 12 | 17 | 12 | 12 |
 | [aspect-build/aspect-gazelle](https://github.com/aspect-build/aspect-gazelle) | 11 | 2026-04-23T04:27:08Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [kubernetes-sigs/verify-conformance](https://github.com/kubernetes-sigs/verify-conformance) | 10 | 2026-04-22T18:56:28Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 91
-- terms: 213
+- repos: 95
+- terms: 220
 - components: 23
-- concepts: 222
-- observations: 222
+- concepts: 229
+- observations: 229
 
 ## Static behavior
 
@@ -33,13 +33,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [react-native-community/discussions-and-proposals](https://github.com/react-native-community/discussions-and-proposals) | 1815 | 2025-09-26T13:26:02Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [oneredoak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | 3782 | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lxgw/kose-font](https://github.com/lxgw/kose-font) | 2168 | 2025-09-10T06:15:38Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
+| [matthiasn/talk-transcripts](https://github.com/matthiasn/talk-transcripts) | 3054 | 2025-09-05T16:12:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [nanotee/nvim-lua-guide](https://github.com/nanotee/nvim-lua-guide) | 5946 | 2025-09-02T22:39:09Z | Unknown | Docs/knowledge | 5 | 0 | 5 | 5 |
 | [showlab/Awesome-GUI-Agent](https://github.com/showlab/Awesome-GUI-Agent) | 1171 | 2025-08-17T15:58:09Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [bincode-org/bincode](https://github.com/bincode-org/bincode) | 3073 | 2025-08-15T11:21:51Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [AdrienTorris/awesome-blazor](https://github.com/AdrienTorris/awesome-blazor) | 9330 | 2025-08-14T14:08:38Z | Unknown | Framework | 20 | 0 | 20 | 20 |
-| [ogx-ai/llama-stack-apps](https://github.com/ogx-ai/llama-stack-apps) | 4304 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [ogx-ai/llama-stack-apps](https://github.com/ogx-ai/llama-stack-apps) | 4302 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [llamastack/llama-stack-apps](https://github.com/llamastack/llama-stack-apps) | 4300 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [MoonshotAI/Moonlight](https://github.com/MoonshotAI/Moonlight) | 1468 | 2025-08-03T06:31:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | 3601 | 2025-07-02T05:27:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [integrations/slack](https://github.com/integrations/slack) | 3448 | 2025-06-19T08:37:47Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [anthropics/hh-rlhf](https://github.com/anthropics/hh-rlhf) | 1840 | 2025-06-17T15:43:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [openai/openai-openapi](https://github.com/openai/openai-openapi) | 2363 | 2025-06-17T14:47:31Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
@@ -59,6 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sindresorhus/guides](https://github.com/sindresorhus/guides) | 2521 | 2024-10-20T10:13:43Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [dwyl/start-here](https://github.com/dwyl/start-here) | 1856 | 2024-10-16T22:51:40Z | Unknown | Docs/knowledge | 6 | 0 | 6 | 6 |
 | [github/roadmap](https://github.com/github/roadmap) | 8701 | 2024-10-15T17:31:37Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
+| [r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets) | 1418 | 2024-10-11T08:23:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [deepseek-ai/DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2) | 5007 | 2024-09-25T10:23:55Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [tc39/proposal-decorators](https://github.com/tc39/proposal-decorators) | 2945 | 2024-09-05T13:52:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO) | 7623 | 2024-08-21T09:40:06Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
@@ -98,6 +101,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [promises-aplus/promises-spec](https://github.com/promises-aplus/promises-spec) | 1840 | 2023-08-02T03:40:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [thunlp/PromptPapers](https://github.com/thunlp/PromptPapers) | 4302 | 2023-07-17T09:54:36Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [openlm-research/open_llama](https://github.com/openlm-research/open_llama) | 7530 | 2023-07-16T13:42:13Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
+| [iaolo/iA-Fonts](https://github.com/iaolo/iA-Fonts) | 4066 | 2023-06-16T16:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dwyl/Javascript-the-Good-Parts-notes](https://github.com/dwyl/Javascript-the-Good-Parts-notes) | 1221 | 2023-06-05T09:02:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [styled-components/awesome-styled-components](https://github.com/styled-components/awesome-styled-components) | 3451 | 2023-05-19T07:07:41Z | Unknown | Unknown | 5 | 0 | 5 | 5 |
 | [mypyc/mypyc](https://github.com/mypyc/mypyc) | 1984 | 2023-04-17T10:24:19Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
@@ -147,12 +151,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vuejs/rfcs](https://github.com/vuejs/rfcs) | 4944 | 2025-01-08T09:33:49Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [MLNLP-World/Paper-Writing-Tips](https://github.com/MLNLP-World/Paper-Writing-Tips) | 4434 | 2022-05-29T15:45:52Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [hal9ai/awesome-dataviz](https://github.com/hal9ai/awesome-dataviz) | 4319 | 2024-01-26T12:36:48Z | Unknown | Infrastructure/tooling | 7 | 2 | 7 | 7 |
-| [ogx-ai/llama-stack-apps](https://github.com/ogx-ai/llama-stack-apps) | 4304 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [ogx-ai/llama-stack-apps](https://github.com/ogx-ai/llama-stack-apps) | 4302 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [thunlp/PromptPapers](https://github.com/thunlp/PromptPapers) | 4302 | 2023-07-17T09:54:36Z | Unknown | Model/data | 7 | 0 | 7 | 7 |
 | [llamastack/llama-stack-apps](https://github.com/llamastack/llama-stack-apps) | 4300 | 2025-08-05T14:49:58Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [17mon/china_ip_list](https://github.com/17mon/china_ip_list) | 4086 | 2025-03-04T12:11:59Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [iaolo/iA-Fonts](https://github.com/iaolo/iA-Fonts) | 4066 | 2023-06-16T16:21:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [oneredoak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | 3782 | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sporto/awesome-elm](https://github.com/sporto/awesome-elm) | 3684 | 2025-10-13T06:18:11Z | Unknown | Unknown | 7 | 0 | 7 | 7 |
+| [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving) | 3601 | 2025-07-02T05:27:46Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [dk-liang/Awesome-Visual-Transformer](https://github.com/dk-liang/Awesome-Visual-Transformer) | 3582 | 2025-01-07T01:59:49Z | Unknown | Unknown | 6 | 0 | 6 | 6 |
 | [octocat/Hello-World](https://github.com/octocat/Hello-World) | 3566 | 2024-08-20T23:54:42Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide) | 3487 | 2024-12-03T22:54:05Z | Unknown | Infrastructure/tooling | 4 | 2 | 4 | 4 |
@@ -160,6 +166,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [integrations/slack](https://github.com/integrations/slack) | 3448 | 2025-06-19T08:37:47Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words](https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words) | 3348 | 2024-08-05T08:32:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bincode-org/bincode](https://github.com/bincode-org/bincode) | 3073 | 2025-08-15T11:21:51Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
+| [matthiasn/talk-transcripts](https://github.com/matthiasn/talk-transcripts) | 3054 | 2025-09-05T16:12:17Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/standard](https://github.com/dotnet/standard) | 3042 | 2022-09-12T20:18:34Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tc39/proposal-decorators](https://github.com/tc39/proposal-decorators) | 2945 | 2024-09-05T13:52:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [edn-format/edn](https://github.com/edn-format/edn) | 2753 | 2022-01-15T06:14:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -195,6 +202,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ecomfe/awesome-echarts](https://github.com/ecomfe/awesome-echarts) | 1552 | 2025-01-16T04:29:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best) | 1538 | 2024-03-09T10:04:45Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [MoonshotAI/Moonlight](https://github.com/MoonshotAI/Moonlight) | 1468 | 2025-08-03T06:31:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets) | 1418 | 2024-10-11T08:23:47Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [IDEA-Research/awesome-detection-transformer](https://github.com/IDEA-Research/awesome-detection-transformer) | 1399 | 2024-07-04T09:42:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Computer-Vision-in-the-Wild/CVinW_Readings](https://github.com/Computer-Vision-in-the-Wild/CVinW_Readings) | 1368 | 2024-03-14T18:59:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/announcements](https://github.com/dotnet/announcements) | 1368 | 2022-06-29T17:39:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

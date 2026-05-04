@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 8,
     "observations": 8,
-    "repos": 7,
+    "repos": 8,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "biocypher/biocypher-cookiecutter-template",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
+    "danielrosehill/All-About-MCP",
     "danielrosehill/BTRFS-Snapper-MCP",
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Quick-RMBG",

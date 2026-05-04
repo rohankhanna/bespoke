@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 44
-- components: 53
-- concepts: 46
-- observations: 46
+- repos: 19
+- terms: 59
+- components: 69
+- concepts: 61
+- observations: 61
 
 ## Static behavior
 
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [apache/incubator-seata-go-samples](https://github.com/apache/incubator-seata-go-samples) | 44 | 2026-01-31T08:59:35Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [doraemonkeys/paddleocr](https://github.com/doraemonkeys/paddleocr) | 33 | 2026-01-29T02:28:55Z | Go | Unknown | 2 | 0 | 2 | 2 |
+| [evmos/os](https://github.com/evmos/os) | 18 | 2026-01-23T16:57:48Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [extism/go-pdk](https://github.com/extism/go-pdk) | 89 | 2026-01-22T16:56:46Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [urfave/cli-altsrc](https://github.com/urfave/cli-altsrc) | 39 | 2026-01-19T14:05:56Z | Go | CLI | 5 | 2 | 7 | 7 |
 | [bombsimon/logrusr](https://github.com/bombsimon/logrusr) | 34 | 2026-01-15T22:18:23Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 2 |
@@ -64,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google/gnostic-models](https://github.com/google/gnostic-models) | 20 | 2025-11-19T16:49:05Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mikespook/possum](https://github.com/mikespook/possum) | 19 | 2026-01-05T03:26:27Z | Go | Library | 0 | 0 | 0 | 0 |
 | [FiloSottile/hpke](https://github.com/FiloSottile/hpke) | 19 | 2025-12-08T00:07:14Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [evmos/os](https://github.com/evmos/os) | 18 | 2026-01-23T16:57:48Z | Go | Infrastructure/tooling | 15 | 16 | 15 | 15 |
 | [cloudfoundry/bosh-deployment-resource](https://github.com/cloudfoundry/bosh-deployment-resource) | 12 | 2025-11-21T22:21:53Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [vmware/pmd-next-gen](https://github.com/vmware/pmd-next-gen) | 10 | 2025-11-24T17:21:10Z | Go | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [spacemeshos/smcli](https://github.com/spacemeshos/smcli) | 10 | 2025-11-21T09:06:36Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |

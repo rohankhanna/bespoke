@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 11,
-    "terms": 32
+    "components": 59,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 12,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "Ayaginu-Sue/Astalia",
     "BioContainers/multi-package-containers",
     "elastic/logstash-docs",
     "filecoin-project/Allocator-Registry",
     "jupyterlab/frontends-team-compass",
+    "microsoft/microsoft-foundry-for-vscode",
     "NightWatcher314/zotero-pdf2zh-server",
     "prefix-dev/rattler-build-action",
     "sigstore/root-signing-staging",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 6,
-    "terms": 37
+    "components": 25,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 8,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "bats-core/bats-core",
     "blader/claudeception",
     "erikw/tmux-powerline",
     "just-containers/s6-overlay",
     "oschwartz10612/poppler-windows",
-    "Pal3love/dream-han-cjk"
+    "Pal3love/dream-han-cjk",
+    "tianon/gosu",
+    "zplug/zplug"
   ]
 }

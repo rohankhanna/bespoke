@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 172,
-    "concepts": 313,
-    "observations": 314,
-    "repos": 58,
-    "terms": 302
+    "components": 181,
+    "concepts": 326,
+    "observations": 327,
+    "repos": 61,
+    "terms": 318
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -30,6 +30,7 @@
     "BlinkDL/ChatRWKV",
     "breezedeus/CnOCR",
     "brycedrennan/imaginAIry",
+    "bytetriper/RAE",
     "ChenmienTan/RL2",
     "CLUEbenchmark/CLUE",
     "CrazyBoyM/llama3-Chinese-chat",
@@ -44,12 +45,13 @@
     "graphql-python/graphene-django",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
+    "keleshev/schema",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
+    "layumi/Person_reID_baseline_pytorch",
     "LTH14/mar",
     "lyuwenyu/RT-DETR",
     "meta-llama/llama-models",
-    "mosaicml/streaming",
     "mozillazg/pinyin-data",
     "novnc/websockify",
     "nunchaku-ai/ComfyUI-nunchaku",
@@ -67,6 +69,7 @@
     "shibing624/text2vec",
     "simonw/claude-code-transcripts",
     "toshas/torch-fidelity",
+    "turboderp-org/exllamav2",
     "weaviate/elysia",
     "webdataset/webdataset",
     "YosysHQ/icestorm",

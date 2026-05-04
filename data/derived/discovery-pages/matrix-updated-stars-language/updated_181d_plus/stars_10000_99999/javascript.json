@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1258,
-    "concepts": 137,
-    "observations": 138,
-    "repos": 34,
-    "terms": 134
+    "components": 1561,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 41,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,21 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "acdlite/recompose",
     "adam-p/markdown-here",
     "adobe/brackets",
     "agalwood/Motrix",
+    "amfe/lib-flexible",
     "angular/angular.js",
     "atom/atom",
     "bower/bower",
     "browserify/browserify",
     "chjj/blessed",
+    "eligrey/FileSaver.js",
+    "emotion-js/emotion",
+    "enzymejs/enzyme",
     "facebookarchive/prepack",
     "faressoft/terminalizer",
     "feathericons/feather",
@@ -43,10 +48,12 @@
     "request/request",
     "restify/node-restify",
     "ryanmcdermott/clean-code-javascript",
+    "SimulatedGREG/electron-vue",
     "standard/standard",
     "statsd/statsd",
     "vuejs/vue-cli",
     "yaronn/blessed-contrib",
+    "YMFE/yapi",
     "zalmoxisus/redux-devtools-extension"
   ]
 }

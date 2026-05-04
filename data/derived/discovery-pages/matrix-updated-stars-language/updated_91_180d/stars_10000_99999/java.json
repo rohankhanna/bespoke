@@ -3,7 +3,7 @@
     "components": 3,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
+    "repos": 2,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
+    "aosp-mirror/platform_frameworks_base",
     "Netflix/Hystrix"
   ]
 }

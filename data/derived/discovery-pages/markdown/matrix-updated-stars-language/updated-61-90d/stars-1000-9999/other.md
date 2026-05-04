@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 232
-- components: 176
-- concepts: 227
-- observations: 228
+- repos: 45
+- terms: 255
+- components: 189
+- concepts: 250
+- observations: 251
 
 ## Static behavior
 
@@ -26,10 +26,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [activerecord-hackery/ransack](https://github.com/activerecord-hackery/ransack) | 5853 | 2026-03-04T15:27:04Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
+| [timdorr/tesla-api](https://github.com/timdorr/tesla-api) | 2055 | 2026-03-04T13:42:11Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [facebookresearch/co-tracker](https://github.com/facebookresearch/co-tracker) | 4925 | 2026-03-03T21:51:22Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [salesforce/BLIP](https://github.com/salesforce/BLIP) | 5698 | 2026-03-03T12:43:12Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [vkhorikov/CSharpFunctionalExtensions](https://github.com/vkhorikov/CSharpFunctionalExtensions) | 2797 | 2026-03-02T15:22:16Z | Other | Infrastructure/tooling | 6 | 0 | 6 | 6 |
 | [pry/pry](https://github.com/pry/pry) | 6819 | 2026-03-02T03:40:39Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [javan/whenever](https://github.com/javan/whenever) | 8871 | 2026-03-02T03:08:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [steipete/imsg](https://github.com/steipete/imsg) | 1005 | 2026-03-02T03:07:02Z | Other | CLI | 2 | 2 | 2 | 2 |
 | [formtastic/formtastic](https://github.com/formtastic/formtastic) | 5205 | 2026-02-28T05:30:10Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [googleapis/elixir-google-api](https://github.com/googleapis/elixir-google-api) | 1074 | 2026-02-27T22:11:06Z | Other | CLI | 6 | 3 | 6 | 6 |
@@ -47,6 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [IDEA-Research/Rex-Omni](https://github.com/IDEA-Research/Rex-Omni) | 1327 | 2026-02-22T02:59:06Z | Other | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [3rd/image.nvim](https://github.com/3rd/image.nvim) | 1962 | 2026-02-21T15:06:58Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [rails/tailwindcss-rails](https://github.com/rails/tailwindcss-rails) | 1584 | 2026-02-20T03:41:57Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [kaminari/kaminari](https://github.com/kaminari/kaminari) | 8670 | 2026-02-20T00:33:30Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [woct0rdho/triton-windows](https://github.com/woct0rdho/triton-windows) | 1915 | 2026-02-18T16:59:37Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mdn/webassembly-examples](https://github.com/mdn/webassembly-examples) | 1202 | 2026-02-18T09:22:56Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [parruda/swarm](https://github.com/parruda/swarm) | 1708 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
@@ -67,18 +71,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) | 3102 | 2026-02-07T11:13:23Z | Other | Model/data | 9 | 0 | 10 | 10 |
 | [greggh/claude-code.nvim](https://github.com/greggh/claude-code.nvim) | 2007 | 2026-02-04T14:44:51Z | Other | CLI | 2 | 8 | 0 | 0 |
 | [rails/spring](https://github.com/rails/spring) | 2815 | 2026-02-03T22:38:00Z | Other | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [guard/guard](https://github.com/guard/guard) | 6479 | 2026-02-02T11:47:38Z | Other | CLI | 1 | 2 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [javan/whenever](https://github.com/javan/whenever) | 8871 | 2026-03-02T03:08:54Z | Other | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) | 8833 | 2026-02-11T13:55:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [kaminari/kaminari](https://github.com/kaminari/kaminari) | 8670 | 2026-02-20T00:33:30Z | Other | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [omniauth/omniauth](https://github.com/omniauth/omniauth) | 8068 | 2026-02-27T14:56:33Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 7 |
 | [krzysztofzablocki/Sourcery](https://github.com/krzysztofzablocki/Sourcery) | 7984 | 2026-02-11T11:16:30Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [pry/pry](https://github.com/pry/pry) | 6819 | 2026-03-02T03:40:39Z | Other | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [stevearc/oil.nvim](https://github.com/stevearc/oil.nvim) | 6521 | 2026-02-24T06:31:21Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
-| [guard/guard](https://github.com/guard/guard) | 6479 | 2026-02-02T11:47:38Z | Other | CLI | 1 | 2 | 1 | 1 |
+| [activerecord-hackery/ransack](https://github.com/activerecord-hackery/ransack) | 5853 | 2026-03-04T15:27:04Z | Other | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [salesforce/BLIP](https://github.com/salesforce/BLIP) | 5698 | 2026-03-03T12:43:12Z | Other | Unknown | 7 | 0 | 7 | 7 |
 | [formtastic/formtastic](https://github.com/formtastic/formtastic) | 5205 | 2026-02-28T05:30:10Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [Deci-AI/super-gradients](https://github.com/Deci-AI/super-gradients) | 5026 | 2026-02-24T12:31:01Z | Other | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -93,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [bakpakin/Fennel](https://github.com/bakpakin/Fennel) | 2727 | 2026-02-08T04:40:28Z | Other | Unknown | 3 | 0 | 3 | 3 |
 | [preservim/vimux](https://github.com/preservim/vimux) | 2275 | 2026-02-27T20:30:36Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim) | 2269 | 2026-02-25T17:22:33Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
+| [timdorr/tesla-api](https://github.com/timdorr/tesla-api) | 2055 | 2026-03-04T13:42:11Z | Other | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [greggh/claude-code.nvim](https://github.com/greggh/claude-code.nvim) | 2007 | 2026-02-04T14:44:51Z | Other | CLI | 2 | 8 | 0 | 0 |
 | [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) | 1984 | 2026-02-11T10:45:39Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [3rd/image.nvim](https://github.com/3rd/image.nvim) | 1962 | 2026-02-21T15:06:58Z | Other | Infrastructure/tooling | 4 | 4 | 4 | 4 |

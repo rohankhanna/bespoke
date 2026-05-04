@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 28,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 2,
-    "terms": 35
+    "components": 13,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "qdrant/qdrant",
     "rust-lang/rust-analyzer"
   ]
 }

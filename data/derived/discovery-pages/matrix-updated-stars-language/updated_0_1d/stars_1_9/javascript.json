@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 102,
-    "concepts": 18,
-    "observations": 20,
-    "repos": 5,
-    "terms": 18
+    "components": 40,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 1,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "dwyl/phoenix-papertrail-demo",
-    "kkomelin/isomorphic-dompurify-playgrounds",
-    "rvagg/js-bitcoin-block",
-    "sapphiredev/.github",
-    "travi/octokit-auth-netrc"
+    "stdlib-js/ndarray-fancy"
   ]
 }

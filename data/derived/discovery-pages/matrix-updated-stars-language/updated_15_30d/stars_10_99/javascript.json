@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 510,
-    "concepts": 153,
-    "observations": 153,
-    "repos": 35,
-    "terms": 153
+    "components": 545,
+    "concepts": 159,
+    "observations": 159,
+    "repos": 38,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
-    "AdguardTeam/CodeGuidelines",
     "ahmadnassri/node-glob-promise",
     "andylockran/spectral-aws-apigateway-ruleset",
     "berty/www.berty.tech",
@@ -24,7 +23,6 @@
     "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
     "dwyl/hapi-postgres-connection",
-    "dwyl/phoenix-liveview-stopwatch",
     "ehmicky/all-node-versions",
     "ehmicky/get-node",
     "ehmicky/node-version-alias",
@@ -34,19 +32,24 @@
     "erichlof/PathTracedPong",
     "erichlof/TheSentinel-2nd-Look",
     "evenchange4/graphql.macro-example",
-    "gr2m/before-after-hook",
+    "GDevelopApp/GDevelop-tutorials",
     "grommet/grommet-site",
     "hectorm/chafa-wasm",
     "i18next/i18next-icu",
     "i18next/i18next-resources-to-backend",
     "ipfs/js-ipfs-utils",
+    "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
     "mapbox/point-geometry",
     "npm/types",
+    "nrwl/nx-ai-agents-config",
     "peergos/web-ui",
+    "reZach/i18next-electron-fs-backend",
+    "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
+    "validator/gulp-html",
     "webtorrent/bittorrent-peerid",
     "winstonjs/winston-transport"
   ]

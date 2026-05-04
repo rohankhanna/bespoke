@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
+    "repos": 3,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-confluence",
-    "danielrosehill/Claude-Calls-The-Shots"
+    "danielrosehill/Claude-Calls-The-Shots",
+    "gerardtschanz/revenue-os"
   ]
 }

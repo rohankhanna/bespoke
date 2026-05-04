@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 86,
-    "observations": 87,
+    "components": 61,
+    "concepts": 72,
+    "observations": 73,
     "repos": 25,
-    "terms": 86
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
     "antonbabenko/awesome-terraform-compliance",
     "apappascs/mcp-servers-hub",
     "bitrise-io/bitrise-steplib",
+    "chromedp/cdproto",
     "cisagov/vulnrichment",
     "CVEProject/automation-working-group",
     "django/deps",
     "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "eslint/rfcs",
-    "eudk/awesome-ai-tools",
     "ghimiresunil/Top-AI-Tools",
     "google/agents-cli",
     "googlefonts/RobotoMono",

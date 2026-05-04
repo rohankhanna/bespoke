@@ -33,13 +33,14 @@
       "size": 204
     }
   ],
+  "metadata_refreshed_at": "2026-05-04T05:42:54.936793+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "A generic interface to indices in Julia with additional concrete types specified.",
     "fork": false,
-    "full_name": "Tokazama/AbstractIndices.jl",
+    "full_name": "tokazama/abstractindices.jl",
     "html_url": "https://github.com/Tokazama/AbstractIndices.jl",
     "language": "Julia",
     "pushed_at": "2022-11-04T14:45:35Z",

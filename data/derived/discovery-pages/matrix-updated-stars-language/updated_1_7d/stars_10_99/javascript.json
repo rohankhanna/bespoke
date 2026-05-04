@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 351,
-    "concepts": 105,
-    "observations": 107,
-    "repos": 24,
-    "terms": 105
+    "components": 375,
+    "concepts": 117,
+    "observations": 119,
+    "repos": 27,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
+    "aidenlab/hic-straw",
     "alangdm/helium-animated-pages",
     "apollographql/connectors-community",
     "aws-samples/aws-sdk-js-tests",
@@ -26,6 +27,7 @@
     "hudochenkov/postcss-styled-syntax",
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
+    "ideditor/schema-builder",
     "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
     "julia-actions/cache",
@@ -35,8 +37,9 @@
     "npm/package-json",
     "octokit/create-octokit-project.js",
     "readthedocs/addons",
-    "rescript-lang/tree-sitter-rescript",
     "rstackjs/agent-skills",
-    "stdlib-js/google-summer-of-code"
+    "stdlib-js/google-summer-of-code",
+    "tracked-tools/tracked-toolbox",
+    "wyyazlz/sheetnext"
   ]
 }

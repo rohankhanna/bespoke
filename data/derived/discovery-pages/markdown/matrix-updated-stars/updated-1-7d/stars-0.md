@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 29
-- terms: 57
-- components: 117
-- concepts: 57
-- observations: 57
+- repos: 31
+- terms: 60
+- components: 128
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -35,6 +37,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -45,6 +48,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Business-Idea-Eval-Plugin](https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin) | 0 | 2026-04-28T12:18:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Data-Annotation-Plugin](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) | 0 | 2026-04-27T17:37:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [hyper-mcp-rs/context7-plugin](https://github.com/hyper-mcp-rs/context7-plugin) | 0 | 2026-04-27T16:00:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -52,13 +56,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-ADB-Ops-Plugin](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) | 0 | 2026-04-27T15:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lakekeeper/iceberg-rust](https://github.com/lakekeeper/iceberg-rust) | 0 | 2026-05-02T22:52:17Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
+| [seanmacavaney/ir-datasets.com](https://github.com/seanmacavaney/ir-datasets.com) | 0 | 2026-05-02T08:34:01Z | Python | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [angular/angular-build-builds](https://github.com/angular/angular-build-builds) | 0 | 2026-05-01T17:59:20Z | JavaScript | Unknown | 0 | 42 | 0 | 0 |
 | [kalavai-net/kalavai-templates](https://github.com/kalavai-net/kalavai-templates) | 0 | 2026-05-01T07:45:12Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [getlantern/guide](https://github.com/getlantern/guide) | 0 | 2026-05-01T05:03:06Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -69,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [netdur/imaged-sdk-examples](https://github.com/netdur/imaged-sdk-examples) | 0 | 2026-04-30T17:13:46Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Batch-Optical-Archivist-Plugin](https://github.com/danielrosehill/Claude-Batch-Optical-Archivist-Plugin) | 0 | 2026-04-30T17:12:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [csm-actions/demo-client](https://github.com/csm-actions/demo-client) | 0 | 2026-04-30T16:35:51Z | Unknown | CLI | 2 | 4 | 2 | 2 |
+| [danielrosehill/Claude-CopyQ-Scripting-Plugin](https://github.com/danielrosehill/Claude-CopyQ-Scripting-Plugin) | 0 | 2026-04-30T15:38:33Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [lakekeeper/lakekeeper-operator](https://github.com/lakekeeper/lakekeeper-operator) | 0 | 2026-04-30T11:30:58Z | Go | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [flagos-ai/verl-FL](https://github.com/flagos-ai/verl-FL) | 0 | 2026-04-30T03:04:30Z | Python | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [sp1-patches/elliptic-curves](https://github.com/sp1-patches/elliptic-curves) | 0 | 2026-04-29T21:30:13Z | Unknown | Infrastructure/tooling | 8 | 4 | 8 | 8 |
@@ -79,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hermit-os/.github](https://github.com/hermit-os/.github) | 0 | 2026-04-28T13:11:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Business-Idea-Eval-Plugin](https://github.com/danielrosehill/Claude-Business-Idea-Eval-Plugin) | 0 | 2026-04-28T12:18:41Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Browser-Data-Capture-Plugin](https://github.com/danielrosehill/Claude-Browser-Data-Capture-Plugin) | 0 | 2026-04-28T11:47:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [danielrosehill/Claude-Data-Annotation-Plugin](https://github.com/danielrosehill/Claude-Data-Annotation-Plugin) | 0 | 2026-04-27T17:37:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [arnaud-lb/php-rdkafka-doc](https://github.com/arnaud-lb/php-rdkafka-doc) | 0 | 2026-04-27T16:20:34Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [hyper-mcp-rs/context7-plugin](https://github.com/hyper-mcp-rs/context7-plugin) | 0 | 2026-04-27T16:00:56Z | Rust | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [hyper-mcp-rs/defuddle-plugin](https://github.com/hyper-mcp-rs/defuddle-plugin) | 0 | 2026-04-27T15:59:10Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
@@ -86,5 +92,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/Claude-ADB-Ops-Plugin](https://github.com/danielrosehill/Claude-ADB-Ops-Plugin) | 0 | 2026-04-27T15:50:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Awesome-Hebrew-Fonts](https://github.com/danielrosehill/Awesome-Hebrew-Fonts) | 0 | 2026-04-27T08:54:47Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/Israel-Projects-Index](https://github.com/danielrosehill/Israel-Projects-Index) | 0 | 2026-04-27T08:39:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
-| [danielrosehill/Claude-AI-Video-Producer-Plugin](https://github.com/danielrosehill/Claude-AI-Video-Producer-Plugin) | 0 | 2026-04-26T18:37:27Z | Python | Model/data | 0 | 0 | 0 | 0 |

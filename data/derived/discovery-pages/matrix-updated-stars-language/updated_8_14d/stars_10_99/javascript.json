@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 530,
-    "concepts": 116,
-    "observations": 116,
-    "repos": 29,
-    "terms": 116
+    "components": 553,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 30,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alexellis/arkade-get",
     "browserslist/lint",
@@ -20,12 +20,12 @@
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
-    "itsrishika/payment-bypass-bug-lab",
     "locize/i18next-locize-backend",
     "locize/locize",
     "locize/locize-cli",
     "locize/locizify",
     "mainmatter/ember-vite-codemod",
+    "mapbox/vtvalidate",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
     "newrelic/newrelic-node-apollo-server-plugin",
@@ -37,6 +37,7 @@
     "patrik-csak/auto-terminal-profile",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
+    "rescript-lang/tree-sitter-rescript",
     "semantic-release/error",
     "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",

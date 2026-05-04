@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1314,
-    "concepts": 299,
-    "observations": 300,
-    "repos": 40,
-    "terms": 322
+    "components": 1521,
+    "concepts": 315,
+    "observations": 316,
+    "repos": 44,
+    "terms": 337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "aleclarson/vite-tsconfig-paths",
@@ -32,7 +32,9 @@
     "infinitered/nsfwjs",
     "Ironclad/rivet",
     "isaacs/node-glob",
+    "jamiebrynes7/obsidian-todoist-plugin",
     "jnsahaj/tweakcn",
+    "josdejong/svelte-jsoneditor",
     "josStorer/RWKV-Runner",
     "LekoArts/gatsby-themes",
     "lobehub/lobe-chat-agents",
@@ -42,7 +44,9 @@
     "microsoft/tsdoc",
     "Myriad-Dreamin/typst.ts",
     "nanbingxyz/5ire",
+    "obsidian-community/obsidian-kanban",
     "obsidian-community/obsidian-style-settings",
+    "obsidian-community/obsidian-zotero-integration",
     "peter-evans/repository-dispatch",
     "pillarjs/path-to-regexp",
     "react-native-webview/react-native-webview",
@@ -51,8 +55,8 @@
     "standard-schema/standard-schema",
     "stephenh/ts-proto",
     "TfTHacker/obsidian42-brat",
+    "TypeStrong/ts-loader",
     "unplugin/unplugin-vue-components",
-    "vercel/next-learn",
-    "vite-pwa/vite-plugin-pwa"
+    "vercel/next-learn"
   ]
 }

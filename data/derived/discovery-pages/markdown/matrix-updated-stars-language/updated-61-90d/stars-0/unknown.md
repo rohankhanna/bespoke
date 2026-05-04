@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Unknown
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
+- repos: 8
 - terms: 18
 - components: 36
 - concepts: 18
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DiligentGraphics/json](https://github.com/DiligentGraphics/json) | 0 | 2026-03-03T03:22:26Z | Unknown | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [guaguastandup/guaguastandup](https://github.com/guaguastandup/guaguastandup) | 0 | 2026-02-25T18:50:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |
@@ -38,6 +39,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [DiligentGraphics/json](https://github.com/DiligentGraphics/json) | 0 | 2026-03-03T03:22:26Z | Unknown | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [guaguastandup/guaguastandup](https://github.com/guaguastandup/guaguastandup) | 0 | 2026-02-25T18:50:51Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kitknox/helix](https://github.com/kitknox/helix) | 0 | 2026-02-16T05:27:20Z | Unknown | Infrastructure/tooling | 4 | 12 | 4 | 4 |

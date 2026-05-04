@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1633,
-    "concepts": 330,
-    "observations": 332,
-    "repos": 33,
-    "terms": 324
+    "components": 1533,
+    "concepts": 319,
+    "observations": 321,
+    "repos": 32,
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "arkenfox/user.js",
@@ -24,7 +24,6 @@
     "decaporg/decap-cms",
     "electerm/electerm",
     "electron/minimal-repro",
-    "eslint/eslint",
     "expressjs/express",
     "fastify/fastify",
     "google/zx",

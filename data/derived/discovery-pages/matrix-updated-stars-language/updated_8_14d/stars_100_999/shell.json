@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 168,
-    "observations": 171,
-    "repos": 30,
-    "terms": 168
+    "components": 122,
+    "concepts": 150,
+    "observations": 153,
+    "repos": 28,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "alexmyczko/fnt",
     "alpinelinux/aports",
@@ -21,7 +21,6 @@
     "denysdovhan/dotfiles",
     "docker-library/drupal",
     "docker-library/ruby",
-    "ericbuess/claude-code-docs",
     "gentoo/guru",
     "getsolus/packages",
     "git-friendly/git-friendly",
@@ -39,7 +38,6 @@
     "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-python-container",
-    "serpro69/claude-toolbox",
     "termux/repology-metadata",
     "tinted-theming/schemes",
     "tonistiigi/xx",

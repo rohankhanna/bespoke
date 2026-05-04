@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 432,
-    "concepts": 604,
-    "observations": 604,
-    "repos": 152,
-    "terms": 595
+    "components": 449,
+    "concepts": 635,
+    "observations": 635,
+    "repos": 159,
+    "terms": 626
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
     "99designs/keyring",
+    "aarondl/authboss-sample",
     "abs-lang/abs",
     "AbsaOSS/golic",
     "adonovan/spaghetti",
@@ -76,6 +77,7 @@
     "docker-archive-public/docker.compose-ecs",
     "docker-archive/compose-cli",
     "dsnet/compress",
+    "DyegoCosta/snake-game",
     "evanmiller/hecate",
     "fasmide/remotemoe",
     "fasthttp/websocket",
@@ -105,6 +107,7 @@
     "josephspurrier/goversioninfo",
     "jsonnet-bundler/jsonnet-bundler",
     "karrick/godirwalk",
+    "KatelynHaworth/go-tproxy",
     "klauspost/asmfmt",
     "kubernetes-sigs/apiserver-builder-alpha",
     "layr-labs/incredible-squaring-avs",
@@ -115,6 +118,7 @@
     "lyft/cni-ipvlan-vpc-k8s",
     "maaslalani/gambit",
     "maaslalani/glyphs",
+    "maddalax/htmgo",
     "mailhog/mhsendmail",
     "mailru/dbr",
     "mattn/go-colorable",
@@ -143,9 +147,12 @@
     "scottwinkler/terraform-provider-shell",
     "shurcooL/markdownfmt",
     "sipin/gorazor",
+    "skaji/remote-pbcopy-iterm2",
     "songquanpeng/wechat-server",
     "soulteary/amazing-openai-api",
+    "spf13/cobra-cli",
     "starlight-go/starlight",
+    "stephenlacy/daz",
     "sugarme/gotch",
     "sugarme/transformer",
     "summerwind/h2spec",

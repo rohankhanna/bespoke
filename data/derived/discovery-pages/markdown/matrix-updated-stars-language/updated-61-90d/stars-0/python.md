@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 0 stars · Python
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 3
-- components: 2
-- concepts: 3
-- observations: 3
+- repos: 3
+- terms: 7
+- components: 6
+- concepts: 7
+- observations: 7
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |
 
@@ -33,5 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [1000ch/Sublime-csso](https://github.com/1000ch/Sublime-csso) | 0 | 2026-02-09T23:03:59Z | Python | Unknown | 3 | 2 | 3 | 3 |

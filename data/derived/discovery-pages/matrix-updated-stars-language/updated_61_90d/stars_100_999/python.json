@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 237,
-    "observations": 237,
-    "repos": 71,
-    "terms": 237
+    "components": 168,
+    "concepts": 254,
+    "observations": 254,
+    "repos": 75,
+    "terms": 254
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -56,6 +56,7 @@
     "intel/ai-reference-models",
     "IST-DASLab/FP-Quant",
     "j-bennet/wharfee",
+    "magic-wormhole/magic-wormhole-transit-relay",
     "metauto-ai/GPTSwarm",
     "MMMU-Benchmark/MMMU",
     "ModelTC/GenRL",
@@ -63,6 +64,7 @@
     "MyoHub/myo_sim",
     "naver/multi-hmr",
     "nixprime/cpsm",
+    "NVlabs/GTRS",
     "NVlabs/OmniVinci",
     "OpenBMB/infllmv2_cuda_impl",
     "OpenDriveLab/DriveAGI",
@@ -71,13 +73,15 @@
     "OpenSparseLLMs/MoM",
     "pypa/get-pip",
     "quanhaol/MagicMotion",
+    "radekd91/inferno",
     "ronaldoussoren/py2app",
     "SAML-Toolkits/python-saml",
+    "securefederatedai/openfederatedlearning",
     "ShenhanQian/GaussianAvatars",
     "speechbrain/benchmarks",
     "superclaude-org/supergemini_framework",
     "TencentCloudADP/youtu-tip",
-    "thorstenMueller/Thorsten-Voice",
+    "TRI-ML/dgp",
     "tulerfeng/OneThinker",
     "vietanhdev/samexporter",
     "Visual-Agent/DeepEyesV2",

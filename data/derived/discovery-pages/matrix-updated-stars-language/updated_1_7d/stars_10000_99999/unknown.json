@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 45,
-    "observations": 45,
+    "components": 17,
+    "concepts": 61,
+    "observations": 61,
     "repos": 4,
-    "terms": 45
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "firstcontributions/first-contributions",
-    "matiassingers/awesome-readme",
+    "Loyalsoldier/v2ray-rules-dat",
     "obsidianmd/obsidian-releases",
     "veggiemonk/awesome-docker"
   ]

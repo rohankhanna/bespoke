@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
+    "components": 185,
     "concepts": 188,
     "observations": 188,
-    "repos": 26,
-    "terms": 179
+    "repos": 27,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
@@ -35,6 +35,7 @@
     "opencv/opencv_contrib",
     "openresty/lua-nginx-module",
     "pgvector/pgvector",
+    "px4/px4-autopilot",
     "pybind/pybind11",
     "taichi-dev/taichi",
     "tmux/tmux",

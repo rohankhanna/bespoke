@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 293,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 17,
-    "terms": 39
+    "components": 360,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 20,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
     "aaaaalexis/obsidian-pseudo-mica",
-    "androidStern-personal/openclaw-mcp-adapter",
     "br14n-sol/inquirer-file-selector",
     "c2corg/browserslist-update-action",
+    "googleapis/nodejs-error-reporting",
     "googleapis/nodejs-logging-bunyan",
     "holochain/hc-spin",
     "hsimpson/vscode-glsllint",
@@ -30,6 +30,9 @@
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
     "nulone/claude-rules-doctor",
-    "omril321/automated-notebooklm"
+    "omril321/automated-notebooklm",
+    "pkgxdev/dev",
+    "pkgxdev/pkgo",
+    "windsonR/vite-plugin-virtual-html"
   ]
 }

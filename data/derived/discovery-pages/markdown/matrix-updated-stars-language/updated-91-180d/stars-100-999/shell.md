@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-05-03T07:46:29.058247+00:00`
+Generated at: `2026-05-04T05:44:20.763558+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
+- repos: 23
 - terms: 98
 - components: 32
 - concepts: 99
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [squeaky-pl/portable-pypy](https://github.com/squeaky-pl/portable-pypy) | 477 | 2026-02-02T09:36:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [apollographql/supergraph-demo](https://github.com/apollographql/supergraph-demo) | 139 | 2026-02-01T17:30:51Z | Shell | Infrastructure/tooling | 23 | 9 | 23 | 23 |
 | [bluzername/claude-code-terminal-title](https://github.com/bluzername/claude-code-terminal-title) | 110 | 2026-01-31T13:03:48Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [apollographql/supergraph-demo-fed2](https://github.com/apollographql/supergraph-demo-fed2) | 171 | 2026-01-31T00:30:51Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
@@ -62,6 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asdf-community/asdf-direnv](https://github.com/asdf-community/asdf-direnv) | 573 | 2025-11-21T01:11:24Z | Shell | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [coredns/deployment](https://github.com/coredns/deployment) | 571 | 2025-11-10T12:52:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [acomagu/fish-async-prompt](https://github.com/acomagu/fish-async-prompt) | 520 | 2026-01-05T12:09:06Z | Shell | Unknown | 0 | 0 | 0 | 0 |
+| [squeaky-pl/portable-pypy](https://github.com/squeaky-pl/portable-pypy) | 477 | 2026-02-02T09:36:22Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [agrimsingh/ralph-wiggum-cursor](https://github.com/agrimsingh/ralph-wiggum-cursor) | 473 | 2026-01-26T12:52:40Z | Shell | CLI | 0 | 0 | 0 | 0 |
 | [jandamm/zgenom](https://github.com/jandamm/zgenom) | 422 | 2026-01-01T13:22:10Z | Shell | Unknown | 5 | 0 | 6 | 6 |
 | [pyenv/pyenv-update](https://github.com/pyenv/pyenv-update) | 384 | 2026-01-10T02:57:24Z | Shell | Unknown | 0 | 0 | 0 | 0 |

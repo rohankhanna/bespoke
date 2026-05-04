@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1106,
-    "concepts": 197,
-    "observations": 199,
-    "repos": 36,
-    "terms": 201
+    "components": 1082,
+    "concepts": 181,
+    "observations": 183,
+    "repos": 34,
+    "terms": 181
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-04T05:44:20.763558+00:00",
   "repo_ids": [
     "52-entertainment/vite-plugin-oxlint",
-    "adyscorpius/logseq-jira",
-    "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
     "Azure/bicep-deploy",
     "Azure/powershell",
@@ -25,10 +23,10 @@
     "cargo-bins/release-pr",
     "celo-org/developer-tooling",
     "celo-org/social-connect",
+    "dannyhw/expo-storybook-starter",
     "electron/windows-sign",
     "ethereum/eip-review-bot",
     "fannheyward/coc-xml",
-    "favware/cliff-jumper",
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
     "hairyf/genapi",
@@ -43,9 +41,9 @@
     "oclif/plugin-help",
     "oclif/plugin-plugins",
     "oclif/plugin-update",
+    "oclif/test",
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
-    "overseedai/viwo",
     "patrickkabwe/create-nitro-module",
     "slopus/slopus.github.io",
     "vaultwarden/vw_web_builds",
