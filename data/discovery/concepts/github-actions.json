@@ -1139,6 +1139,18 @@
       "source_repo": "cpisciotta/xcbeautify",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "GitHub Action using Docker-Coq [maintainers=@Justme0606,@Zimmi48]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
     }
   ],
   "candidate_glosses": [
@@ -1711,6 +1723,12 @@
       "source_repo": "cpisciotta/xcbeautify",
       "status": "candidate",
       "text": "[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fcpisciotta%2Fxcbeautify%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/cpisciotta/xcbeautify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate",
+      "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
     }
   ],
   "candidate_related_terms": [
@@ -2552,11 +2570,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "cpisciotta/xcbeautify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

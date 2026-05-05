@@ -84,7 +84,7 @@
   "normalized_form": "build-and-push-cluster-docker-image",
   "observation_id": "09517d3e37df80c4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Build and Push Cluster Docker Image",
   "source_context_snippet": "Build and Push Cluster Docker Image",
   "source_file": ".github/workflows/docker-cluster-image.yaml",

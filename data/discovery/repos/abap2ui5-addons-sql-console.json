@@ -78,6 +78,16 @@
     {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ABAP_STANDARD.yaml"
     },
     {
@@ -211,6 +221,20 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ABAP_CLOUD.yaml",
+      "source_repo": "abap2UI5-addons/sql-console",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ABAP_STANDARD.yaml",
       "source_repo": "abap2UI5-addons/sql-console",
       "target": "actions/checkout@v3",
@@ -287,7 +311,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T15:46:35.757107+00:00",
+  "fetched_at": "2026-05-05T18:54:09.355554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -296,6 +320,10 @@
     {
       "path": "package.json",
       "size": 1392
+    },
+    {
+      "path": ".github/workflows/ABAP_CLOUD.yaml",
+      "size": 343
     },
     {
       "path": ".github/workflows/ABAP_STANDARD.yaml",

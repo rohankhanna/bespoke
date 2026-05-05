@@ -120,7 +120,7 @@
   "normalized_form": "rust",
   "observation_id": "cb0b619980f36ad1",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "rust",
   "source_context_snippet": "[![CI status on main branch](https://github.com/watchexec/watchexec/actions/workflows/tests.yml/badge.svg)](https://github.com/watchexec/watchexec/actions/workflows/tests.yml)",
   "source_file": null,

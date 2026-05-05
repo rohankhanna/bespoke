@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rbi-files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rbi-files",
+  "concept_id": "rbi-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbi-files",
+      "sense_id": "rbi-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -48,7 +48,7 @@
   "normalized_form": "auto-label-ok-to-test-cherrypick-bot",
   "observation_id": "9ef876830ae4e8c0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Auto-label ok-to-test (cherrypick bot)",
   "source_context_snippet": "Auto-label ok-to-test (cherrypick bot)",
   "source_file": ".github/workflows/cherrypick-bot-ok-to-test.yaml",

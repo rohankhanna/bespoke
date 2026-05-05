@@ -921,6 +921,18 @@
       "source_repo": "azdavis/ungrammar-tools",
       "status": "candidate-context",
       "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Don't let the cursor slow you down"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1385,6 +1397,12 @@
       "source_repo": "azdavis/ungrammar-tools",
       "status": "candidate",
       "text": "Tools for [ungrammar][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -2196,11 +2214,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

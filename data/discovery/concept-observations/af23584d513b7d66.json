@@ -84,7 +84,7 @@
   "normalized_form": "publish-crc-choco-to-community-feed",
   "observation_id": "af23584d513b7d66",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Publish CRC choco to community feed",
   "source_context_snippet": "Publish CRC choco to community feed",
   "source_file": ".github/workflows/choco-release.yml",

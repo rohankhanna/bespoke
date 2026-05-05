@@ -1304,6 +1304,18 @@
       "source_repo": "melix/jmh-gradle-plugin",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate-context",
+      "text": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate-context",
+      "text": "main"
     }
   ],
   "candidate_glosses": [
@@ -1960,6 +1972,12 @@
       "source_repo": "melix/jmh-gradle-plugin",
       "status": "candidate",
       "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate",
+      "text": "main"
     }
   ],
   "candidate_related_terms": [
@@ -3059,11 +3077,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VictoriaMetrics/fastcache"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

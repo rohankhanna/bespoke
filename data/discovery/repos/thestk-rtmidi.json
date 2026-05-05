@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thestk/rtmidi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:19.845232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2883
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of C++ classes that provide a common API for realtime MIDI input/output across Linux (ALSA & JACK), Macintosh OS X (CoreMIDI) and Windows (Multimedia)",
+    "fork": false,
+    "full_name": "thestk/rtmidi",
+    "html_url": "https://github.com/thestk/rtmidi",
+    "language": "C++",
+    "pushed_at": "2025-11-27T14:24:14Z",
+    "stargazers_count": 1177,
+    "topics": [],
+    "updated_at": "2026-05-04T23:47:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

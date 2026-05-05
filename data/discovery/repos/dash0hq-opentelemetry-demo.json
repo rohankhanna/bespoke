@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "markdown-link-check",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-toc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@kt3k/license-checker",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "google-github-actions/auth@71f986410dfbc7added4569d411d040a91dc6935",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "datadog/opentelemetry-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "elastic/opentelemetry-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "googlecloudplatform/opentelemetry-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "getsentry/opentelemetry-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "markdown-link-check",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "@kt3k/license-checker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "google-github-actions/auth@71f986410dfbc7added4569d411d040a91dc6935",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "docker/build-push-action@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Build and Push Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "gradle/wrapper-validation-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Gradle wrapper validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Publish Images & Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "target": "Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:06:43.538192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8771
+    },
+    {
+      "path": "package.json",
+      "size": 170
+    },
+    {
+      "path": ".github/workflows/build-images.yml",
+      "size": 7942
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1420
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/nightly-release.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1384
+    },
+    {
+      "path": ".github/workflows/run-integration-tests.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment.",
+    "fork": true,
+    "full_name": "dash0hq/opentelemetry-demo",
+    "html_url": "https://github.com/dash0hq/opentelemetry-demo",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-24T08:23:22Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-23T12:13:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datadog/opentelemetry-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/opentelemetry-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getsentry/opentelemetry-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/opentelemetry-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "term": "Build and Push Images"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Gradle wrapper validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Gradle wrapper validation"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release.yml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "\"Publish Images & Deploy\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish Images & Deploy"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "term": "Integration Tests"
+    }
+  ]
+}

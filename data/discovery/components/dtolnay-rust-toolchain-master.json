@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@master",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2072,6 +2072,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "paradigmxyz/solar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "near/near-abi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/unicode-bidi"
     }
   ]
 }

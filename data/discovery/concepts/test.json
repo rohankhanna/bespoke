@@ -11735,6 +11735,126 @@
       "source_repo": "davidmigloz/langchain_dart",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/near-abi-client-rs",
+      "status": "candidate-context",
+      "text": "Library to generate Rust client code from NEAR ABI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-abi-client-rs",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "status": "candidate-context",
+      "text": "temp project to become part of `cargo near new` command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/besu-qbft-elc",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp-go",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp-solidity",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moment/luxon",
+      "status": "candidate-context",
+      "text": "\u23f1 A library for working with dates and times in JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moment/luxon",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coocood/freecache",
+      "status": "candidate-context",
+      "text": "A cache library for Go with zero GC overhead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coocood/freecache",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "didip/errstack",
+      "status": "candidate-context",
+      "text": "A very small library to combine errors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didip/errstack",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "makew0rld/dither",
+      "status": "candidate-context",
+      "text": "A fast, correct image dithering library in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "makew0rld/dither",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -17669,6 +17789,78 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "davidmigloz/langchain_dart",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/near-abi-client-rs",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/besu-qbft-elc",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp-go",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datachainlab/lcp-solidity",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moment/luxon",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coocood/freecache",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "didip/errstack",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "makew0rld/dither",
       "status": "candidate",
       "text": "Test"
     }
@@ -27865,11 +28057,281 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "skilld-dev/skilld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mixmark-io/turndown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "near/near-abi-client-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "njelich/cargo-near-new-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-qbft-elc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp-solidity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moment/luxon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "coocood/freecache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "didip/errstack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "makew0rld/dither"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

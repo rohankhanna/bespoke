@@ -1045,6 +1045,54 @@
       "source_repo": "JettHu/ComfyUI-TCD",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "Official Repository of the paper \"Trajectory Consistency Distillation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate-context",
+      "text": "ELLA nodes for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1569,6 +1617,30 @@
       "source_repo": "JettHu/ComfyUI-TCD",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -3064,11 +3136,95 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Skimmed_CFG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/Awesome-DiT-Inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

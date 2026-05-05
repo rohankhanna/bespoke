@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "abi version updater"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "abi version updater"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "agnate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14304,
+      "status": "candidate",
+      "text": "agnatic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "abi version updater",
+      "sense_id": "abi-version-updater#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abi-version-updater",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abi-version-updater",
+  "observation_id": "e71e5faa5acbb108",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "abi version updater",
+  "source_context_snippet": "abi version updater",
+  "source_file": ".github/workflows/abi-version.yml",
+  "source_repo": "gpac/gpac",
+  "source_repo_description": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+}

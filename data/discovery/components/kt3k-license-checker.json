@@ -1,7 +1,7 @@
 {
   "component": "@kt3k/license-checker",
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -12,6 +12,31 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dash0hq/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "DataDog/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "honeycombio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/opentelemetry-demo"
     }
   ]
 }

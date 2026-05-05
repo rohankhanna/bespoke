@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "hkust-aerial-robotics/a-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "hyye/lio-mapping",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "3d-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "lidar-inertial-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "lidar-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "livox-horizon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "livox-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "sensor-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "solid-state-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "velodyne-slam",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "KIT-ISAS/lili-om"
+}

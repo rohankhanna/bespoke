@@ -84,7 +84,7 @@
   "normalized_form": "update-version-string-in-rocks.nvim-code",
   "observation_id": "354db69339bb5054",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Update Version String in `rocks.nvim` Code",
   "source_context_snippet": "Update Version String in `rocks.nvim` Code",
   "source_file": ".github/workflows/version_in_code.yml",

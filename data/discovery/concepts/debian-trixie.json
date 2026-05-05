@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "debian-trixie"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "<div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "<div>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "debian-trixie",
+  "concept_id": "debian-trixie",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "debian-trixie",
+      "sense_id": "debian-trixie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

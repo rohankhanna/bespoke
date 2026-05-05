@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "devel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "devel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19847051,
+      "status": "candidate",
+      "text": "opment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19847050,
+      "status": "candidate",
+      "text": "oping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19847049,
+      "status": "candidate",
+      "text": "deve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19847048,
+      "status": "candidate",
+      "text": "trac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19847047,
+      "status": "candidate",
+      "text": "phing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "devel",
+      "sense_id": "devel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "devel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "devel",
+  "observation_id": "1b5320c9da0a8f94",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "devel",
+  "source_context_snippet": "devel",
+  "source_file": ".github/workflows/devel.yml",
+  "source_repo": "joseluisq/rust-linux-darwin-builder",
+  "source_repo_description": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+}

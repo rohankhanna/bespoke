@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tiny but mighty 3kb list virtualization library, with zero dependencies \ud83d\udcaa Supports variable heights/widths, sticky items, scrolling to index, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\" style=\"margin-bottom: 30px;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 30px;\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919330,
+      "status": "candidate",
+      "text": "windowpane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919725,
+      "status": "candidate",
+      "text": "glazing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919724,
+      "status": "candidate",
+      "text": "loop-window"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919723,
+      "status": "candidate",
+      "text": "windowframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19919722,
+      "status": "candidate",
+      "text": "bay window"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windowing",
+      "sense_id": "windowing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windowing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windowing",
+  "observation_id": "26f3eff49915d6cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "windowing",
+  "source_context_snippet": "<div align=\"center\" style=\"margin-bottom: 30px;\">",
+  "source_file": null,
+  "source_repo": "clauderic/react-tiny-virtual-list",
+  "source_repo_description": "A tiny but mighty 3kb list virtualization library, with zero dependencies \ud83d\udcaa Supports variable heights/widths, sticky items, scrolling to index, and more!"
+}

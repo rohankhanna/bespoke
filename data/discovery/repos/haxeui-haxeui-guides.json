@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T18:49:12.665010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haxeui/haxeui-guides",
+    "html_url": "https://github.com/haxeui/haxeui-guides",
+    "language": "Haxe",
+    "pushed_at": "2026-03-31T14:29:59Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-03-31T14:30:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

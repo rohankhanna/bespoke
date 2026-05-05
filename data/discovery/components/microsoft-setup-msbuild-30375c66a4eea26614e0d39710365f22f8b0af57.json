@@ -1,7 +1,7 @@
 {
   "component": "microsoft/setup-msbuild@30375c66a4eea26614e0d39710365f22f8b0af57",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

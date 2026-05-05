@@ -2705,6 +2705,30 @@
       "source_repo": "koide3/small_gicp",
       "status": "candidate-context",
       "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -4081,6 +4105,18 @@
       "source_repo": "koide3/small_gicp",
       "status": "candidate",
       "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate",
+      "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [
@@ -6374,11 +6410,71 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/build-macos.yml",
       "source_repo": "koide3/small_gicp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dothq/browser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "gumob/PunycodeSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

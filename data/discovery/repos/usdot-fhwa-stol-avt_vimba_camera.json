@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "target": "srv/avt_vimba_camera",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:17:57.402682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3632
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1879
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 166
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "ROS Driver for AVT cameras using VIMBA SDK",
+    "fork": true,
+    "full_name": "usdot-fhwa-stol/avt_vimba_camera",
+    "html_url": "https://github.com/usdot-fhwa-stol/avt_vimba_camera",
+    "language": "C++",
+    "pushed_at": "2025-05-28T17:49:45Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-05-09T13:17:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srv/avt_vimba_camera",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    }
+  ]
+}

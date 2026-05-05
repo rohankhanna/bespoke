@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "penumbra-zone/jmt",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "penumbra-zone/jmt",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "penumbra-zone/jmt",
+      "target": "Swatinem/rust-cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "penumbra-zone/jmt",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "penumbra-zone/jmt",
+      "target": "Rust CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "penumbra-zone/jmt",
+      "target": "merkle-tree",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "penumbra-zone/jmt"
+}

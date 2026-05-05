@@ -715,6 +715,18 @@
       "source_repo": "LibreTranslate/Locomotive",
       "status": "candidate-context",
       "text": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "status": "candidate-context",
+      "text": "RoFormer V1 & V2 pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "status": "candidate-context",
+      "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1083,12 @@
       "source_repo": "LibreTranslate/Locomotive",
       "status": "candidate",
       "text": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "status": "candidate",
+      "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
     }
   ],
   "candidate_related_terms": [],
@@ -2110,11 +2128,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JunnYu/RoFormer_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

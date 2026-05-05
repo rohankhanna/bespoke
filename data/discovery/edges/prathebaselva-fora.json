@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "faster-sampling",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "prathebaselva/FORA"
+}

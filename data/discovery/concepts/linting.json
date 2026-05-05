@@ -1915,11 +1915,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/vale"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

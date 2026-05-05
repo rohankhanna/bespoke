@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "haxeui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate-context",
+      "text": "The core library of the HaxeUI framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate-context",
+      "text": "`haxeui-core` is a users universal entry point into the HaxeUI framework and allows for the same user interface code (either with markup or via `haxe` source code) to be used to build a user interface on various platforms using various HaxeUI `backends`. Below is a general overv\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate",
+      "text": "`haxeui-core` is a users universal entry point into the HaxeUI framework and allows for the same user interface code (either with markup or via `haxe` source code) to be used to build a user interface on various platforms using various HaxeUI `backends`. Below is a general overv\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "haxeui",
+  "concept_id": "haxeui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-core"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haxeui",
+      "sense_id": "haxeui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -211,6 +211,18 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate-context",
+      "text": "AMD GPU  (ROCm) programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate-context",
+      "text": "*AMD GPU (ROCm) programming in Julia*"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "ROCm/hipBLASLt",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate",
+      "text": "*AMD GPU (ROCm) programming in Julia*"
     }
   ],
   "candidate_related_terms": [
@@ -610,11 +628,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGPU/AMDGPU.jl"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

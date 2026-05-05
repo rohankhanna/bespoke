@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RoFormer V1 & V2 pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-model",
+      "sense_id": "language-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-model",
+  "observation_id": "e41355d90e499b54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "language-model",
+  "source_context_snippet": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b",
+  "source_file": null,
+  "source_repo": "JunnYu/RoFormer_pytorch",
+  "source_repo_description": "RoFormer V1 & V2 pytorch"
+}

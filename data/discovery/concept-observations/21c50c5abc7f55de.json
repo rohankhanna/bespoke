@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minecraft-server",
+      "sense_id": "minecraft-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minecraft-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minecraft-server",
+  "observation_id": "21c50c5abc7f55de",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "minecraft-server",
+  "source_context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+  "source_file": null,
+  "source_repo": "itzg/docker-minecraft-server",
+  "source_repo_description": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+}

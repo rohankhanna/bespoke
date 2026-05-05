@@ -84,7 +84,7 @@
   "normalized_form": "scala-steward",
   "observation_id": "1f98c805c41a883b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Scala Steward",
   "source_context_snippet": "Scala Steward",
   "source_file": ".github/workflows/scala-steward.yml",

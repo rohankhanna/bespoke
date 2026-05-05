@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "zenengeo/github-auto-release-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "SethCohen/github-releases-to-discord@v1.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-label.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "itzg/docker-minecraft-bedrock-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "creeperhost/log4jpatcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "zenengeo/github-auto-release-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Auto release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/metadata-action@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/setup-buildx-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/setup-qemu-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/build-push-action@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/login-action@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "SethCohen/github-releases-to-discord@v1.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Ilshidur/action-discord@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Discord notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-label.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "itzg/github-workflows/.github/workflows/issues-notify-discord.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-label.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Issues notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-check.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-check.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Stale Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/setup-buildx-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker/build-push-action@v7.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "Verify PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "dockerfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server",
+      "target": "minecraft-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:52.759856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3686
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4096
+    },
+    {
+      "path": ".github/workflows/auto-release.yml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8773
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 1386
+    },
+    {
+      "path": ".github/workflows/issue-label.yml",
+      "size": 332
+    },
+    {
+      "path": ".github/workflows/stale-check.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/verify-pr.yml",
+      "size": 3201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup",
+    "fork": false,
+    "full_name": "itzg/docker-minecraft-server",
+    "html_url": "https://github.com/itzg/docker-minecraft-server",
+    "language": "Shell",
+    "pushed_at": "2026-05-04T14:42:41Z",
+    "stargazers_count": 13618,
+    "topics": [
+      "docker-image",
+      "dockerfiles",
+      "hacktoberfest",
+      "java",
+      "minecraft-server"
+    ],
+    "updated_at": "2026-05-05T19:01:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itzg/docker-minecraft-bedrock-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creeperhost/log4jpatcher",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yml",
+      "term": "Auto release"
+    },
+    {
+      "context_snippet": "Build and Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Publish"
+    },
+    {
+      "context_snippet": "Discord notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "Discord notifications"
+    },
+    {
+      "context_snippet": "Issues notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-label.yml",
+      "term": "Issues notify"
+    },
+    {
+      "context_snippet": "Stale Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-check.yml",
+      "term": "Stale Check"
+    },
+    {
+      "context_snippet": "Verify PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "term": "Verify PR"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfiles"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minecraft-server"
+    }
+  ]
+}

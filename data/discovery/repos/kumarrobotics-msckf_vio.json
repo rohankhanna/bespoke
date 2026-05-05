@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KumarRobotics/msckf_vio",
+      "target": "stereo-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KumarRobotics/msckf_vio",
+      "target": "visual-inertial-odometry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:48.625647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight",
+    "fork": false,
+    "full_name": "KumarRobotics/msckf_vio",
+    "html_url": "https://github.com/KumarRobotics/msckf_vio",
+    "language": "C++",
+    "pushed_at": "2023-11-22T09:11:28Z",
+    "stargazers_count": 1935,
+    "topics": [
+      "ros",
+      "stereo-vision",
+      "visual-inertial-odometry"
+    ],
+    "updated_at": "2026-05-03T13:48:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    },
+    {
+      "context_snippet": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-inertial-odometry"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "zhuiyitechnology/gau-alpha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "pengming617/bert_classification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "lonepatient/nezha_chinese_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "lonepatient/torchblocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "roformer-v1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JunnYu/RoFormer_pytorch",
+      "target": "roformer-v2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:39:39.642752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15753
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "roformer_v2",
+    "description": "RoFormer V1 & V2 pytorch",
+    "fork": false,
+    "full_name": "JunnYu/RoFormer_pytorch",
+    "html_url": "https://github.com/JunnYu/RoFormer_pytorch",
+    "language": "Python",
+    "pushed_at": "2022-05-18T04:48:18Z",
+    "stargazers_count": 524,
+    "topics": [
+      "language-model",
+      "pytorch",
+      "roformer-v1",
+      "roformer-v2"
+    ],
+    "updated_at": "2026-04-09T03:12:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lonepatient/nezha_chinese_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lonepatient/torchblocks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengming617/bert_classification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuiyitechnology/gau-alpha",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roformer-v1"
+    },
+    {
+      "context_snippet": "RoFormer\u6a21\u578b\u548cRoFormer-V2\u6a21\u578b",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roformer-v2"
+    }
+  ]
+}

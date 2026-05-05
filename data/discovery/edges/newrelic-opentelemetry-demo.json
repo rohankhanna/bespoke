@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "@kt3k/license-checker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "@umbrelladocs/linkspector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "dyladan/component-owners@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviewers.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "Assign reviewers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "Test image generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "docker/build-push-action@v6.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-update-protobuf-diff.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "fossas/fossa-action@3ebcea1862c6ffbd5cf1b4d0bd6b3fe7bd6f2cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "FOSSA scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "gradle/actions/wrapper-validation@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "Gradle wrapper validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-pr.yml",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "target": "Label Pull Requests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "newrelic/opentelemetry-demo"
+}

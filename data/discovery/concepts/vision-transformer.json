@@ -535,6 +535,18 @@
       "source_repo": "hila-chefer/Transformer-Explainability",
       "status": "candidate-context",
       "text": "Faster, more general, and can be applied to *any* type of attention!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "hila-chefer/Transformer-Explainability",
       "status": "candidate",
       "text": "Faster, more general, and can be applied to *any* type of attention!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_related_terms": [],
@@ -1108,11 +1126,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "hila-chefer/Transformer-Explainability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxvit"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

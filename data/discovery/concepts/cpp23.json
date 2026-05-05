@@ -43,6 +43,18 @@
       "source_repo": "arturbac/simple_enum",
       "status": "candidate-context",
       "text": "![BSL](https://img.shields.io/badge/license-BSL1.0-blue.svg) [![CI](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml/badge.svg)](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "status": "candidate-context",
+      "text": "Extended Vim syntax highlighting for C and C++ (C++11..26)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "status": "candidate-context",
+      "text": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "arturbac/simple_enum",
       "status": "candidate",
       "text": "![BSL](https://img.shields.io/badge/license-BSL1.0-blue.svg) [![CI](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml/badge.svg)](https://github.com/arturbac/simple_enum/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "status": "candidate",
+      "text": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,23 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -6973,6 +6973,18 @@
       "source_repo": "mds1/multicall3",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "status": "candidate-context",
+      "text": "Fast, general, and tested differentiable structured prediction in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -10519,6 +10531,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mds1/multicall3",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harvardnlp/pytorch-struct",
       "status": "candidate",
       "text": "Tests"
     }
@@ -16593,11 +16611,161 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "mds1/multicall3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb_rails"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "source_repo": "harvardnlp/pytorch-struct"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "nvim-neotest/neotest-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mds1/multicall3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "apalache-mc/apalache-tests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TA-Lib/ta-lib-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

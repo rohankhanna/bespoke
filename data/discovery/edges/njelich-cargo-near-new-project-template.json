@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-production.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "Deploy to production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-staging.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "Deploy to staging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "njelich/cargo-near-new-project-template",
+      "target": "Undeploy staging",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "njelich/cargo-near-new-project-template"
+}

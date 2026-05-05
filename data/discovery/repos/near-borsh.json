@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/borsh",
+      "target": "dao-xyz/borsh-ts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/borsh",
+      "target": "etodanik/borsh-cpp20",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/borsh",
+      "target": "alexfilatov/borsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "near/borsh",
+      "target": "dryruby/borsh.rb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:26.254796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Binary Object Representation Serializer for Hashing",
+    "fork": false,
+    "full_name": "near/borsh",
+    "html_url": "https://github.com/near/borsh",
+    "language": null,
+    "pushed_at": "2026-03-21T12:03:55Z",
+    "stargazers_count": 611,
+    "topics": [],
+    "updated_at": "2026-05-04T05:49:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexfilatov/borsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-xyz/borsh-ts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dryruby/borsh.rb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etodanik/borsh-cpp20",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

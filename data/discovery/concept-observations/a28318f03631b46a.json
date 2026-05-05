@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "spellchecker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "spellchecker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029965,
+      "status": "candidate",
+      "text": "spell-checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029964,
+      "status": "candidate",
+      "text": "factchecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029963,
+      "status": "candidate",
+      "text": "wordprocessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029962,
+      "status": "candidate",
+      "text": "puter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029961,
+      "status": "candidate",
+      "text": "keylogger"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "spellchecker",
+      "sense_id": "spellchecker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spellchecker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spellchecker",
+  "observation_id": "a28318f03631b46a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "spellchecker",
+  "source_context_snippet": "spellchecker",
+  "source_file": ".github/workflows/spellcheck.yml",
+  "source_repo": "near/NEPs",
+  "source_repo_description": "The Near Enhancement Proposals repository"
+}

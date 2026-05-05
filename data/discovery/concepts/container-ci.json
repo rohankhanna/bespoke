@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Container CI"
+    "Container CI",
+    "container-ci"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate-context",
       "text": "Container CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "GitHub Action using Docker-Coq [maintainers=@Justme0606,@Zimmi48]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate",
       "text": "Container CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate",
+      "text": "[![reviewdog][reviewdog-badge]][reviewdog-link]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/container-ci.yaml",
       "source_repo": "intel/ai-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

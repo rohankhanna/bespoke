@@ -48,7 +48,7 @@
   "normalized_form": "semantic-segmentation",
   "observation_id": "20428b235d3d948a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "semantic-segmentation",
   "source_context_snippet": "Official PyTorch implementation of [**Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs**](https://arxiv.org/abs/2212.00785), *Junbum Cha, Jonghwan Mun, Byungseok Roh*, CVPR 2023.",
   "source_file": null,

@@ -19,6 +19,18 @@
       "source_repo": "near/near-sdk-rs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "near/near-sdk-rs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate",
+      "text": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "near/near-sdk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "near/NEPs"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

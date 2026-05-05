@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Upstream gecko-dev release repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Pull from upstream\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Pull from upstream\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26652,
+      "status": "candidate",
+      "text": "ascend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25702,
+      "status": "candidate",
+      "text": "crop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25702,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25702,
+      "status": "candidate",
+      "text": "retrograde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25702,
+      "status": "candidate",
+      "text": "rise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull from upstream",
+      "sense_id": "pull-from-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-from-upstream",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-from-upstream",
+  "observation_id": "92090d5d53db88fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Pull from upstream",
+  "source_context_snippet": "\"Pull from upstream\"",
+  "source_file": ".github/workflows/pull-upstream.yml",
+  "source_repo": "dothq/gecko-dev",
+  "source_repo_description": "Upstream gecko-dev release repository"
+}

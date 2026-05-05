@@ -224,6 +224,24 @@
       "source_repo": "open-telemetry/weaver",
       "status": "candidate-context",
       "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
     }
   ],
   "candidate_glosses": [
@@ -338,6 +356,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/weaver",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/opentelemetry-demo",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opentelemetry-demo",
       "status": "candidate",
       "text": "FOSSA scanning"
     }
@@ -497,11 +527,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/weaver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "elastic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "newrelic/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

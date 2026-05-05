@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DEPRECATED: Collection of math-related utilities developed at Body Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "blmath"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "blmath"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "units-of-measure",
+      "sense_id": "units-of-measure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "units-of-measure",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "units-of-measure",
+  "observation_id": "5715a543da838cd0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "units-of-measure",
+  "source_context_snippet": "blmath",
+  "source_file": null,
+  "source_repo": "lace/blmath",
+  "source_repo_description": "DEPRECATED: Collection of math-related utilities developed at Body Labs"
+}

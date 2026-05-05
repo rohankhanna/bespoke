@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "errata-ai/vale-action@reviewdog",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqua.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "aqua-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc_cleanup.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_cleanup.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "Doc Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "errata-ai/vale-action@reviewdog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "extension-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "Package Compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "conic-programs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "linear-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "mathematical-modelling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "mathematical-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "mixed-integer-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "modeling-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "nonlinear-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl",
+      "target": "semidefinite-programming",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:17:04.756771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5457
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/aqua.yml",
+      "size": 547
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2364
+    },
+    {
+      "path": ".github/workflows/doc_cleanup.yml",
+      "size": 800
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/extension-tests.yml",
+      "size": 1239
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/package_compiler.yml",
+      "size": 1269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)",
+    "fork": false,
+    "full_name": "jump-dev/JuMP.jl",
+    "html_url": "https://github.com/jump-dev/JuMP.jl",
+    "language": "Julia",
+    "pushed_at": "2026-05-05T16:39:06Z",
+    "stargazers_count": 2433,
+    "topics": [
+      "conic-programs",
+      "julia",
+      "linear-programming",
+      "mathematical-modelling",
+      "mathematical-programming",
+      "mixed-integer-programming",
+      "modeling-language",
+      "nonlinear-programming",
+      "optimization",
+      "semidefinite-programming"
+    ],
+    "updated_at": "2026-05-04T03:29:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "aqua-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqua.yml",
+      "term": "aqua-lint"
+    },
+    {
+      "context_snippet": "Doc Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc_cleanup.yml",
+      "term": "Doc Preview Cleanup"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "extension-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extension-tests.yml",
+      "term": "extension-tests"
+    },
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "Package Compiler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "term": "Package Compiler"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conic-programs"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-programming"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-modelling"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematical-programming"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed-integer-programming"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling-language"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nonlinear-programming"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semidefinite-programming"
+    }
+  ]
+}

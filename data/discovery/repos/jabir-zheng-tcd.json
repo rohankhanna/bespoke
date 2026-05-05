@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jabir-zheng/TCD",
+      "target": "sony/ctm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "consistency-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "fast-sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "score-based-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD",
+      "target": "text-to-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:47:15.127161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Repository of the paper \"Trajectory Consistency Distillation\"",
+    "fork": false,
+    "full_name": "jabir-zheng/TCD",
+    "html_url": "https://github.com/jabir-zheng/TCD",
+    "language": "Python",
+    "pushed_at": "2024-04-28T12:50:56Z",
+    "stargazers_count": 364,
+    "topics": [
+      "consistency-models",
+      "diffusion",
+      "fast-sampling",
+      "score-based-models",
+      "stable-diffusion",
+      "text-to-image"
+    ],
+    "updated_at": "2026-05-02T14:17:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sony/ctm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistency-models"
+    },
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast-sampling"
+    },
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-based-models"
+    },
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    }
+  ]
+}

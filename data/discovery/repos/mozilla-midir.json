@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:00:37.400206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1450
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "firefox-vendoring",
+    "description": "Cross-platform realtime MIDI processing in Rust.",
+    "fork": true,
+    "full_name": "mozilla/midir",
+    "html_url": "https://github.com/mozilla/midir",
+    "language": "Rust",
+    "pushed_at": "2026-01-12T16:21:40Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-16T03:11:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

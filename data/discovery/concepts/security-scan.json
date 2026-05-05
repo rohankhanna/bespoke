@@ -31,6 +31,18 @@
       "source_repo": "aws-cloudformation/rain",
       "status": "candidate-context",
       "text": "Security Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Roblox/SmoothCache",
+      "status": "candidate-context",
+      "text": "Implementation of SmoothCache, a project aimed at speeding-up Diffusion Transformer (DiT) based GenAI models with error-guided caching."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/SmoothCache",
+      "status": "candidate-context",
+      "text": "Security Scan"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-cloudformation/rain",
+      "status": "candidate",
+      "text": "Security Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Roblox/SmoothCache",
       "status": "candidate",
       "text": "Security Scan"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "aws-cloudformation/rain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "source_repo": "Roblox/SmoothCache"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

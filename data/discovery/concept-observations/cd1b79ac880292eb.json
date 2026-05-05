@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gas"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028345,
+      "status": "candidate",
+      "text": "natural gas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028283,
+      "status": "candidate",
+      "text": "gasoline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028269,
+      "status": "candidate",
+      "text": "petrol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025290,
+      "status": "candidate",
+      "text": "gasolene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017892,
+      "status": "candidate",
+      "text": "swash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gas",
+      "sense_id": "gas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32034,
+      "status": "candidate",
+      "text": "bluster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24047,
+      "status": "candidate",
+      "text": "tout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "swash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20039,
+      "status": "candidate",
+      "text": "boast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "throttle"
+    }
+  ],
+  "concept_id": "gas",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gas",
+  "observation_id": "cd1b79ac880292eb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Gas",
+  "source_context_snippet": "Gas",
+  "source_file": ".github/workflows/gas.yml",
+  "source_repo": "cowprotocol/contracts",
+  "source_repo_description": "Smart contracts for the Gnosis Protocol v2"
+}

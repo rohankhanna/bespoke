@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T18:39:13.601275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal example for using cpr via FetchContent in CMake.",
+    "fork": false,
+    "full_name": "libcpr/example-cmake-fetch-content",
+    "html_url": "https://github.com/libcpr/example-cmake-fetch-content",
+    "language": "CMake",
+    "pushed_at": "2024-10-13T06:08:35Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-01-03T15:37:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

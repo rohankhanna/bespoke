@@ -80,6 +80,18 @@
       "source_repo": "tw93/Pake",
       "status": "candidate-context",
       "text": "Update Contributors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "Update contributors"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "tw93/Pake",
       "status": "candidate",
       "text": "Update Contributors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate",
+      "text": "Update contributors"
     }
   ],
   "candidate_related_terms": [
@@ -311,11 +329,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/update-contributors.yml",
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "dothq/browser"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

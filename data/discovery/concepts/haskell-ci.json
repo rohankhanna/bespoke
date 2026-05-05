@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Haskell-CI"
+    "Haskell-CI",
+    "Haskell CI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -97,6 +98,18 @@
       "source_repo": "haskell/parsec",
       "status": "candidate-context",
       "text": "Haskell-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/semantic",
+      "status": "candidate-context",
+      "text": "Parsing, analyzing, and comparing source code across many languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/semantic",
+      "status": "candidate-context",
+      "text": "Haskell CI"
     }
   ],
   "candidate_glosses": [
@@ -147,9 +160,51 @@
       "source_repo": "haskell/parsec",
       "status": "candidate",
       "text": "Haskell-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/semantic",
+      "status": "candidate",
+      "text": "Haskell CI"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4664,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4554,
+      "status": "candidate",
+      "text": "bayard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4110,
+      "status": "candidate",
+      "text": "arnold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4110,
+      "status": "candidate",
+      "text": "blake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4110,
+      "status": "candidate",
+      "text": "boyle"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Haskell-CI",
   "concept_id": "haskell-ci",
@@ -256,11 +311,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/haskell-ci.yml",
       "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/haskell.yml",
+      "source_repo": "github/semantic"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -703,6 +703,18 @@
       "source_repo": "zcash/zips",
       "status": "candidate-context",
       "text": ".. Title: Specifications and Zcash Improvement Proposals"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -1059,6 +1071,12 @@
       "source_repo": "zcash/zips",
       "status": "candidate",
       "text": ".. Title: Specifications and Zcash Improvement Proposals"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
     }
   ],
   "candidate_related_terms": [
@@ -1792,11 +1810,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

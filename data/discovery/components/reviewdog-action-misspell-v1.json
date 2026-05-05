@@ -1,7 +1,7 @@
 {
   "component": "reviewdog/action-misspell@v1",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "microsoft/onnxscript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "near/NEPs"
     }
   ]
 }

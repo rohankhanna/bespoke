@@ -1099,6 +1099,18 @@
       "source_repo": "dapphub/dappsys",
       "status": "candidate-context",
       "text": "Dappsys"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "Codec library for protobuf3 in Solidity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
     }
   ],
   "candidate_glosses": [
@@ -1647,6 +1659,12 @@
       "source_repo": "dapphub/dappsys",
       "status": "candidate",
       "text": "Dappsys"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate",
+      "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
     }
   ],
   "candidate_related_terms": [
@@ -3856,11 +3874,107 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

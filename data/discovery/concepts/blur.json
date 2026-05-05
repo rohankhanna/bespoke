@@ -19,6 +19,18 @@
       "source_repo": "WillBrennan/BlurDetection2",
       "status": "candidate-context",
       "text": "Blur Detection works using the total variance of the laplacian of an"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "WillBrennan/BlurDetection2",
       "status": "candidate",
       "text": "Blur Detection works using the total variance of the laplacian of an"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "WillBrennan/BlurDetection2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "disintegration/imaging"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

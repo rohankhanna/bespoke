@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml"
+    },
+    {
+      "component": "dgraph-io/.github/.github/workflows/trunk.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "dgraph-io/dgraph-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "ci-ristretto-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "dgraph-io/.github/.github/workflows/trunk.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/ristretto",
+      "target": "Trunk Code Quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:36.288033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6868
+    },
+    {
+      "path": "go.mod",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/ci-ristretto-tests.yml",
+      "size": 776
+    },
+    {
+      "path": ".github/workflows/trunk.yml",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high performance memory-bound Go cache",
+    "fork": false,
+    "full_name": "dgraph-io/ristretto",
+    "html_url": "https://github.com/dgraph-io/ristretto",
+    "language": "Go",
+    "pushed_at": "2026-01-21T22:05:50Z",
+    "stargazers_count": 6884,
+    "topics": [
+      "cache",
+      "go",
+      "golang",
+      "library",
+      "performance"
+    ],
+    "updated_at": "2026-05-05T18:45:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dgraph-io/dgraph-benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-ristretto-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-ristretto-tests.yml",
+      "term": "ci-ristretto-tests"
+    },
+    {
+      "context_snippet": "Trunk Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trunk.yml",
+      "term": "Trunk Code Quality"
+    },
+    {
+      "context_snippet": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

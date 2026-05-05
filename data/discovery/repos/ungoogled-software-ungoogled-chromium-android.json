@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-webview.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "wchen342/android-rebuilds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "wchen342/chromium-android-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "xsmile/ungoogled-chromium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "dvalter/chromium-android-ext-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-webview.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-webview.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "Ungoogled-chromium-android-webview-build-dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "Ungoogled-chromium-android-build-dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "target": "ungoogled-chromium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:07.466659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6957
+    },
+    {
+      "path": ".github/workflows/build-webview.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 671
+    },
+    {
+      "path": ".github/workflows/dispatch-request.sh",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Android build for ungoogled-chromium",
+    "fork": true,
+    "full_name": "ungoogled-software/ungoogled-chromium-android",
+    "html_url": "https://github.com/ungoogled-software/ungoogled-chromium-android",
+    "language": "Shell",
+    "pushed_at": "2023-04-19T22:40:06Z",
+    "stargazers_count": 612,
+    "topics": [
+      "android",
+      "apk",
+      "chromium",
+      "ungoogled-chromium"
+    ],
+    "updated_at": "2026-05-01T01:12:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvalter/chromium-android-ext-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wchen342/android-rebuilds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wchen342/chromium-android-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xsmile/ungoogled-chromium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ungoogled-chromium-android-webview-build-dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-webview.yml",
+      "term": "Ungoogled-chromium-android-webview-build-dispatch"
+    },
+    {
+      "context_snippet": "Ungoogled-chromium-android-build-dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Ungoogled-chromium-android-build-dispatch"
+    },
+    {
+      "context_snippet": "Please see [CHANGELOG](CHANGELOG.md) for latest updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Please see [CHANGELOG](CHANGELOG.md) for latest updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromium"
+    },
+    {
+      "context_snippet": "Please see [CHANGELOG](CHANGELOG.md) for latest updates.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ungoogled-chromium"
+    }
+  ]
+}

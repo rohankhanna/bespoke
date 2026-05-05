@@ -191,14 +191,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "undreamai/llamalib",
+      "target": "utilityai/llama-cpp-rs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "undreamai/llmunity",
+      "target": "vietanhdev/llama-assistant",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:50:24.208357+00:00",
+  "fetched_at": "2026-05-05T20:11:27.717479+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-05T16:43:04Z",
-    "stargazers_count": 108400,
+    "pushed_at": "2026-05-05T17:51:38Z",
+    "stargazers_count": 108425,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-05T16:43:11Z"
+    "updated_at": "2026-05-05T20:10:50Z"
   },
   "repo_links": [
     {
@@ -505,12 +505,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "undreamai/llamalib",
+      "full_name": "utilityai/llama-cpp-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "undreamai/llmunity",
+      "full_name": "vietanhdev/llama-assistant",
       "source_file": "README.md"
     }
   ],

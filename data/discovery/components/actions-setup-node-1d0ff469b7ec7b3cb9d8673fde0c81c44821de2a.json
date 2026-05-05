@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

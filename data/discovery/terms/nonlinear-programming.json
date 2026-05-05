@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jump-dev/NLopt.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jump-dev/JuMP.jl"
     }
   ],
   "term": "nonlinear-programming"

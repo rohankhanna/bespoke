@@ -9462,6 +9462,78 @@
       "source_repo": "crazy-max/yasu",
       "status": "candidate-context",
       "text": "codeql"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/entente",
+      "status": "candidate-context",
+      "text": "Polygonal meshes in vertex-wise correspondence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/entente",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/hobart",
+      "status": "candidate-context",
+      "text": "Obtain cross sections of polygonal meshes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate-context",
+      "text": "Read and write MeshLab picked point (.pp) files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Don't let the cursor slow you down"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gookit/color",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Terminal color rendering library, support 8/16 colors, 256 colors, RGB color rendering output, support Print/Sprintf methods, compatible with Windows. GO CLI \u63a7\u5236\u53f0\u989c\u8272\u6e32\u67d3\u5de5\u5177\u5e93\uff0c\u652f\u630116\u8272\uff0c256\u8272\uff0cRGB\u8272\u5f69\u6e32\u67d3\u8f93\u51fa\uff0c\u4f7f\u7528\u7c7b\u4f3c\u4e8e Print/Sprintf\uff0c\u517c\u5bb9\u5e76\u652f\u6301 Windows \u73af\u5883\u7684\u8272\u5f69\u6e32\u67d3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/color",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -14234,6 +14306,42 @@
       "source_repo": "crazy-max/yasu",
       "status": "candidate",
       "text": "codeql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/entente",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gookit/color",
+      "status": "candidate",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_related_terms": [],
@@ -22293,11 +22401,233 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yaml",
+      "source_repo": "aws/karpenter-provider-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "windsonR/vite-plugin-virtual-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/entente"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/hobart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "erigontech/silkpre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "edenhill/kcat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "uxlfoundation/oneTBB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

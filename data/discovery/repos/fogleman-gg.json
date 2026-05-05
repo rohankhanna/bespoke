@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fogleman/gg",
+      "target": "2d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fogleman/gg",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fogleman/gg",
+      "target": "rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:23.217863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Graphics - 2D rendering in Go with a simple API.",
+    "fork": false,
+    "full_name": "fogleman/gg",
+    "html_url": "https://github.com/fogleman/gg",
+    "language": "Go",
+    "pushed_at": "2023-12-14T12:59:35Z",
+    "stargazers_count": 4772,
+    "topics": [
+      "2d",
+      "2d-graphics",
+      "go",
+      "graphics",
+      "rendering"
+    ],
+    "updated_at": "2026-05-03T21:24:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "`gg` is a library for rendering 2D graphics in pure Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-graphics"
+    },
+    {
+      "context_snippet": "`gg` is a library for rendering 2D graphics in pure Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "`gg` is a library for rendering 2D graphics in pure Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendering"
+    }
+  ]
+}

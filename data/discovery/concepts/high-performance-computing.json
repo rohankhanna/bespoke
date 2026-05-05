@@ -163,6 +163,18 @@
       "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
       "status": "candidate-context",
       "text": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions][github-badge]][github-link]"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "Liu-xiandong/How_to_optimize_in_GPU",
       "status": "candidate",
       "text": "This is a series of GPU optimization topics. Here we will introduce how to optimize the program on the GPU in detail. Here, I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. All the following performance data are run on V100 \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate",
+      "text": "[![GitHub Actions][github-badge]][github-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +574,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/libhermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "CEED/libCEED"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

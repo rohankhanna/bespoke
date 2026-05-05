@@ -1,0 +1,12 @@
+{
+  "component": "rlalik/setup-cpp-compiler@e312c52f6d9664049d97c75ab084c895d9733c0c",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua"
+    }
+  ]
+}

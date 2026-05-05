@@ -84,7 +84,7 @@
   "normalized_form": "optimization",
   "observation_id": "9a6e33c3e5a7808a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "optimization",
   "source_context_snippet": "![CI status](https://github.com/google-deepmind/optax/actions/workflows/tests.yml/badge.svg?branch=main)",
   "source_file": null,

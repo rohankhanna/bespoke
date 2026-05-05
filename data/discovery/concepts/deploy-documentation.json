@@ -554,6 +554,18 @@
       "source_repo": "agenda/agenda",
       "status": "candidate-context",
       "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Velesio/velesio-aiserver",
+      "status": "candidate-context",
+      "text": "Conveniently self host AI Inference for various Unity Integrations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Velesio/velesio-aiserver",
+      "status": "candidate-context",
+      "text": "Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -830,6 +842,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agenda/agenda",
+      "status": "candidate",
+      "text": "Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Velesio/velesio-aiserver",
       "status": "candidate",
       "text": "Deploy Documentation"
     }
@@ -1463,11 +1481,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "agenda/agenda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Velesio/velesio-aiserver"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

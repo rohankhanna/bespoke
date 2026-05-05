@@ -2045,6 +2045,30 @@
       "source_repo": "box2ai-robotics/robosuite-joycon",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Don't let the cursor slow you down"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tier4/ndt_omp",
+      "status": "candidate-context",
+      "text": "Multi-threaded and SSE friendly NDT algorithm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tier4/ndt_omp",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -3077,6 +3101,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "box2ai-robotics/robosuite-joycon",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tier4/ndt_omp",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -5024,11 +5060,53 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "box2ai-robotics/robosuite-joycon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "tier4/ndt_omp"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

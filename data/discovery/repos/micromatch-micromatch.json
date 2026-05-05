@@ -265,7 +265,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:01:37.099743+00:00",
+  "fetched_at": "2026-05-05T19:55:42.237733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -290,7 +290,7 @@
     "html_url": "https://github.com/micromatch/micromatch",
     "language": "JavaScript",
     "pushed_at": "2024-08-26T23:15:58Z",
-    "stargazers_count": 3025,
+    "stargazers_count": 3026,
     "topics": [
       "bash",
       "extended-glob",
@@ -313,7 +313,7 @@
       "wildcard",
       "wildmat"
     ],
-    "updated_at": "2026-05-03T21:21:57Z"
+    "updated_at": "2026-05-05T16:23:12Z"
   },
   "repo_links": [
     {

@@ -1,7 +1,7 @@
 {
   "component": "mocha",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -3142,6 +3142,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "bamboo/idris2-lsp-vscode"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Lusito/forget-me-not"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date"
     }
   ]
 }

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A protocol that implement IBC atomic swap"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A protocol that implement IBC atomic swap"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39827934,
+      "status": "candidate",
+      "text": "universe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749334,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39737383,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39708964,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39706286,
+      "status": "candidate",
+      "text": "nature"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cosmos",
+      "sense_id": "cosmos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34042,
+      "status": "candidate",
+      "text": "existence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28035,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "nature"
+    }
+  ],
+  "concept_id": "cosmos",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cosmos",
+  "observation_id": "7dae081b70cc0a92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "cosmos",
+  "source_context_snippet": "A protocol that implement IBC atomic swap",
+  "source_file": null,
+  "source_repo": "sideprotocol/ibcswap",
+  "source_repo_description": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+}

@@ -1,0 +1,349 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "abseil-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite-bin.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite-bin.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite-bin.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite-bin.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cromite-bin.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "cromite-bin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cromite.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "cromite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/electron.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "electron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/element-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "element-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-web.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-web.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-web.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/element-web.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/element-web.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "element-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-manager.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-manager.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-manager.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/font-manager.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/font-manager.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "font-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-chroot.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-chroot.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-chroot.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-chroot.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gb-chroot.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "gb-chroot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "pf4public/gentoo-docker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jupyterlab-desktop.yml",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "target": "jupyterlab-desktop",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "PF4Public/gentoo-overlay"
+}

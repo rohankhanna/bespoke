@@ -1507,6 +1507,30 @@
       "source_repo": "gnosis/gp-v2-contracts",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "Codec library for protobuf3 in Solidity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -2257,6 +2281,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gnosis/gp-v2-contracts",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -3682,11 +3718,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "gnosis/gp-v2-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

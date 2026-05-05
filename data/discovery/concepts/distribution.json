@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "distribution"
+    "distribution",
+    "Distribution"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -37,6 +40,18 @@
       "source_repo": "OpenCIDN/ocimirror",
       "status": "candidate-context",
       "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "Distribution"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +72,12 @@
       "source_repo": "OpenCIDN/ocimirror",
       "status": "candidate",
       "text": "**ocimirror** is an [OCI (Open Container Initiative)](https://opencontainers.org/) image registry mirror and proxy, providing a transparent caching layer for container images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate",
+      "text": "Distribution"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +153,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "OpenCIDN/ocimirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/distribution.yml",
+      "source_repo": "gpac/gpac"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

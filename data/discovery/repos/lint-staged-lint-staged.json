@@ -694,7 +694,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T15:49:24.446801+00:00",
+  "fetched_at": "2026-05-05T18:57:50.736573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -702,7 +702,7 @@
     },
     {
       "path": "package.json",
-      "size": 2244
+      "size": 2243
     },
     {
       "path": ".github/workflows/default-branch-push.yml",
@@ -734,8 +734,8 @@
     "full_name": "lint-staged/lint-staged",
     "html_url": "https://github.com/lint-staged/lint-staged",
     "language": "JavaScript",
-    "pushed_at": "2026-05-02T11:16:44Z",
-    "stargazers_count": 14602,
+    "pushed_at": "2026-05-05T17:29:40Z",
+    "stargazers_count": 14603,
     "topics": [
       "developer-experience",
       "eslint",
@@ -745,7 +745,7 @@
       "stylelint",
       "workflow"
     ],
-    "updated_at": "2026-05-05T09:28:15Z"
+    "updated_at": "2026-05-05T18:54:38Z"
   },
   "repo_links": [
     {

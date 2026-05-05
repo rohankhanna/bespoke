@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Filters used by Bromite AdBlock engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Filters used by Bromite AdBlock engine"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Filters used by Bromite AdBlock engine"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024909,
+      "status": "candidate",
+      "text": "bromyl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024908,
+      "status": "candidate",
+      "text": "bromate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024907,
+      "status": "candidate",
+      "text": "bromous acid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024906,
+      "status": "candidate",
+      "text": "perbromate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024905,
+      "status": "candidate",
+      "text": "bromonium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bromite",
+      "sense_id": "bromite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bromite",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bromite",
+  "observation_id": "ad8040d09c792fef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "bromite",
+  "source_context_snippet": "Filters used by Bromite AdBlock engine",
+  "source_file": null,
+  "source_repo": "bromite/filters",
+  "source_repo_description": "Filters used by Bromite AdBlock engine"
+}

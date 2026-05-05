@@ -55,6 +55,18 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate-context",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hku-mars/FAST-LIVO2",
       "status": "candidate",
       "text": "- \ud83d\udd13 **2025-01-23**: Code released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "hku-mars/FAST-LIVO2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -346,6 +346,18 @@
       "source_repo": "ungoogled-software/ungoogled-chromium",
       "status": "candidate-context",
       "text": "*A lightweight approach to removing Google web service dependency*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate-context",
+      "text": "Android build for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate-context",
+      "text": "Please see [CHANGELOG](CHANGELOG.md) for latest updates."
     }
   ],
   "candidate_glosses": [
@@ -516,6 +528,12 @@
       "source_repo": "ungoogled-software/ungoogled-chromium",
       "status": "candidate",
       "text": "*A lightweight approach to removing Google web service dependency*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate",
+      "text": "Please see [CHANGELOG](CHANGELOG.md) for latest updates."
     }
   ],
   "candidate_related_terms": [
@@ -920,11 +938,47 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "browserslist/map-to-chrome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/ThoriumOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/thorium-legacy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ungoogled-software/ungoogled-chromium-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/pkg",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/pkg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml",
+      "source_repo": "minio/pkg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml",
+      "source_repo": "minio/pkg",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ldap.yaml",
+      "source_repo": "minio/pkg",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ldap.yaml",
+      "source_repo": "minio/pkg",
+      "target": "LDAP Config Validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/pkg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/pkg",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/pkg",
+      "target": "VulnCheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:49.705019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 226
+    },
+    {
+      "path": "go.mod",
+      "size": 13158
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 845
+    },
+    {
+      "path": ".github/workflows/ldap.yaml",
+      "size": 1334
+    },
+    {
+      "path": ".github/workflows/vulncheck.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository to hold all the common packages imported by MinIO projects",
+    "fork": false,
+    "full_name": "minio/pkg",
+    "html_url": "https://github.com/minio/pkg",
+    "language": "Go",
+    "pushed_at": "2026-04-22T00:58:54Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-04-22T00:58:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LDAP Config Validator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ldap.yaml",
+      "term": "LDAP Config Validator"
+    },
+    {
+      "context_snippet": "VulnCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "term": "VulnCheck"
+    }
+  ]
+}

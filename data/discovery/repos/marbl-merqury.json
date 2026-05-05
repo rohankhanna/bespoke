@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/merqury",
+      "target": "marbl/meryl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:20.014109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "k-mer based assembly evaluation",
+    "fork": false,
+    "full_name": "marbl/merqury",
+    "html_url": "https://github.com/marbl/merqury",
+    "language": "Shell",
+    "pushed_at": "2024-06-28T19:13:08Z",
+    "stargazers_count": 343,
+    "topics": [],
+    "updated_at": "2026-04-27T00:38:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marbl/meryl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

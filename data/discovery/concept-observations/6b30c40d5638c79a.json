@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-accuracy NLP parser with models for 11 languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957111,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953661,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29953193,
+      "status": "candidate",
+      "text": "analyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946718,
+      "status": "candidate",
+      "text": "analyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917077,
+      "status": "candidate",
+      "text": "profiler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parser",
+      "sense_id": "parser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "parser",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parser",
+  "observation_id": "6b30c40d5638c79a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "parser",
+  "source_context_snippet": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026",
+  "source_file": null,
+  "source_repo": "nikitakit/self-attentive-parser",
+  "source_repo_description": "High-accuracy NLP parser with models for 11 languages."
+}

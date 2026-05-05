@@ -19,6 +19,30 @@
       "source_repo": "google/trillian",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/google/trillian)](https://goreportcard.com/report/github.com/google/trillian)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "penumbra-zone/jmt",
+      "status": "candidate-context",
+      "text": "An async-friendly sparse merkle tree implementation based on Diem's Jellyfish Merkle Tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/jmt",
+      "status": "candidate-context",
+      "text": "This repository is a fork of the [Diem Jellyfish Merkle Tree](https://github.com/diem/diem/tree/main/storage/jellyfish-merkle)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "google/trillian",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/google/trillian)](https://goreportcard.com/report/github.com/google/trillian)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/github/tag/cosmos/iavl.svg)](https://github.com/cosmos/iavl/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "penumbra-zone/jmt",
+      "status": "candidate",
+      "text": "This repository is a fork of the [Diem Jellyfish Merkle Tree](https://github.com/diem/diem/tree/main/storage/jellyfish-merkle)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "google/trillian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "penumbra-zone/jmt"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

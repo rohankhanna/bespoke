@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "source_repo": "Roblox/SmoothCache",
+      "target": "Roblox/security-workflows/.github/workflows/oss-security-sast.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "source_repo": "Roblox/SmoothCache",
+      "target": "Security Scan",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "Roblox/SmoothCache"
+}

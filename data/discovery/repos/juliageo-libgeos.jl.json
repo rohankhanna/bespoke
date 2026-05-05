@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "juliabinarywrappers/geos_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "jw3126/libgeosmakie.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "geos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:52:50.861099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5352
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1336
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Julia package for manipulation and analysis of planar geometric objects",
+    "fork": false,
+    "full_name": "JuliaGeo/LibGEOS.jl",
+    "html_url": "https://github.com/JuliaGeo/LibGEOS.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-22T04:32:44Z",
+    "stargazers_count": 83,
+    "topics": [
+      "computational-geometry",
+      "geo",
+      "geometry",
+      "geos",
+      "geospatial",
+      "gis",
+      "julia",
+      "vector"
+    ],
+    "updated_at": "2026-04-23T22:27:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/geos_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jw3126/libgeosmakie.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geos"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "LibGEOS.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

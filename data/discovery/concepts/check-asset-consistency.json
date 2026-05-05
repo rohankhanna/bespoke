@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Asset Consistency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/fluentui-emoji",
+      "status": "candidate-context",
+      "text": "A collection of familiar, friendly, and modern emoji from Microsoft"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-emoji",
+      "status": "candidate-context",
+      "text": "Check Asset Consistency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/fluentui-emoji",
+      "status": "candidate",
+      "text": "Check Asset Consistency"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18833,
+      "status": "candidate",
+      "text": "oil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18179,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18084,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18084,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18084,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Asset Consistency",
+  "concept_id": "check-asset-consistency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/check_assets.yml",
+      "source_repo": "microsoft/fluentui-emoji"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Asset Consistency",
+      "sense_id": "check-asset-consistency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

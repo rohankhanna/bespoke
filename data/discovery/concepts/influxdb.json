@@ -43,6 +43,18 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate-context",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate-context",
+      "text": "Scalable datastore for metrics, events, and real-time analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "VictoriaMetrics/VictoriaMetrics",
       "status": "candidate",
       "text": "[![Latest Release](https://img.shields.io/github/v/release/VictoriaMetrics/VictoriaMetrics?sort=semver&label=&filter=!*-victorialogs&logo=github&labelColor=gray&color=gray&link=https%3A%2F%2Fgithub.com%2FVictoriaMetrics%2FVictoriaMetrics%2Freleases%2Flatest)](https://github.com/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

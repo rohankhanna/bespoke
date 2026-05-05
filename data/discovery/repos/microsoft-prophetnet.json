@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T18:40:27.071360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A research project for natural language generation, containing the official implementations by MSRA NLC team.",
+    "fork": false,
+    "full_name": "microsoft/ProphetNet",
+    "html_url": "https://github.com/microsoft/ProphetNet",
+    "language": "Python",
+    "pushed_at": "2024-07-25T11:27:09Z",
+    "stargazers_count": 745,
+    "topics": [],
+    "updated_at": "2026-05-02T15:49:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

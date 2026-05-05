@@ -76,6 +76,18 @@
       "source_repo": "danmayer/coverband",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "Coverage report"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +126,12 @@
       "source_repo": "danmayer/coverband",
       "status": "candidate",
       "text": "<img src=\"https://raw.github.com/danmayer/coverband/main/docs/assets/logo/heads.svg?sanitize=true\" width='300'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate",
+      "text": "Coverage report"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +265,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

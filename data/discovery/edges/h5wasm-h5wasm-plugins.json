@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "hdfgroup/hdf5_plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "h5wasm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "h5wasm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "build test and publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bitgroom.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bitgroom.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bitgroom.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "bitgroom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bitround.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bitround.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bitround.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "bitround",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-blosc.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "blosc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-blosc2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "blosc2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bshuf.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bshuf.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bshuf.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "bshuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bz2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-bz2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-bz2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "bz2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpeg.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-jpeg.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-jpeg.yml",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "target": "jpeg",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "h5wasm/h5wasm-plugins"
+}

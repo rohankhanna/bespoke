@@ -685,6 +685,30 @@
       "source_repo": "Saalvage/AssimpNetter",
       "status": "candidate-context",
       "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fogleman/gg",
+      "status": "candidate-context",
+      "text": "Go Graphics - 2D rendering in Go with a simple API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogleman/gg",
+      "status": "candidate-context",
+      "text": "`gg` is a library for rendering 2D graphics in pure Go."
     }
   ],
   "candidate_glosses": [
@@ -1029,6 +1053,18 @@
       "source_repo": "Saalvage/AssimpNetter",
       "status": "candidate",
       "text": "![alt text](https://raw.githubusercontent.com/Saalvage/AssimpNetter/master/logo.png \"AssimpNet Logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogleman/gg",
+      "status": "candidate",
+      "text": "`gg` is a library for rendering 2D graphics in pure Go."
     }
   ],
   "candidate_related_terms": [
@@ -1664,11 +1700,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "gpac/gpac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/wayang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "fogleman/gg"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -529,6 +529,18 @@
       "source_repo": "wemake-services/wemake-frontend-styleguide",
       "status": "candidate-context",
       "text": "[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAj\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "Code quality"
     }
   ],
   "candidate_glosses": [
@@ -789,6 +801,12 @@
       "source_repo": "wemake-services/wemake-frontend-styleguide",
       "status": "candidate",
       "text": "[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAj\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate",
+      "text": "Code quality"
     }
   ],
   "candidate_related_terms": [
@@ -1354,11 +1372,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

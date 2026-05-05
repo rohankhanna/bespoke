@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libcpr/example-cmake-conan",
+      "target": "conan-io/cmake-conan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:39:12.906864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A minimal example for using cpr via conan in CMake.",
+    "fork": false,
+    "full_name": "libcpr/example-cmake-conan",
+    "html_url": "https://github.com/libcpr/example-cmake-conan",
+    "language": "CMake",
+    "pushed_at": "2023-05-21T10:41:46Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-01-02T05:49:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conan-io/cmake-conan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

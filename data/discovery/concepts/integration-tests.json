@@ -678,6 +678,42 @@
       "source_repo": "informalsystems/basecoin-rs",
       "status": "candidate-context",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "This repository contains the OpenTelemetry Astronomy Shop, a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near real-world environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -1022,6 +1058,24 @@
       "source_repo": "informalsystems/basecoin-rs",
       "status": "candidate",
       "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dash0hq/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Integration Tests"
     }
   ],
   "candidate_related_terms": [
@@ -1845,11 +1899,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "dash0hq/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "DataDog/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Test example contracts verify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "status": "candidate-context",
+      "text": "Test example contracts verify"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "status": "candidate",
+      "text": "Test example contracts verify"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46308,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45468,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45468,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35668,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35668,
+      "status": "candidate",
+      "text": "prove"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test example contracts verify",
+  "concept_id": "test-example-contracts-verify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test example contracts verify",
+      "sense_id": "test-example-contracts-verify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

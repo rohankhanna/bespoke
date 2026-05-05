@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024968,
+      "status": "candidate",
+      "text": "run batted in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024978,
+      "status": "candidate",
+      "text": "obp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024977,
+      "status": "candidate",
+      "text": "second base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024976,
+      "status": "candidate",
+      "text": "homeruns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024975,
+      "status": "candidate",
+      "text": "homers"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbis",
+      "sense_id": "rbis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rbis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rbis",
+  "observation_id": "941ba123f0ca7025",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "rbis",
+  "source_context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+  "source_file": null,
+  "source_repo": "Shopify/tapioca",
+  "source_repo_description": "The swiss army knife of RBI generation"
+}

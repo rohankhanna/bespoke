@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:09:06.674417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "lunacookies/vim-sh",
+    "html_url": "https://github.com/lunacookies/vim-sh",
+    "language": "Vim script",
+    "pushed_at": "2022-10-19T13:51:18Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-25T15:24:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

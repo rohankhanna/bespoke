@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/unicode-bidi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/unicode-bidi",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/unicode-bidi",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:38.613682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 566
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1582
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the Unicode Bidirection Algorithm in Rust",
+    "fork": false,
+    "full_name": "servo/unicode-bidi",
+    "html_url": "https://github.com/servo/unicode-bidi",
+    "language": "Rust",
+    "pushed_at": "2025-11-11T17:53:27Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-05-03T13:56:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

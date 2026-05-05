@@ -1,0 +1,215 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/maxvit",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/maxvit",
+      "target": "google-research/hit-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "transformer-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxvit",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:17:53.903264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9095
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling...",
+    "fork": false,
+    "full_name": "google-research/maxvit",
+    "html_url": "https://github.com/google-research/maxvit",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-02T00:28:27Z",
+    "stargazers_count": 499,
+    "topics": [
+      "architecture",
+      "classification",
+      "cnn",
+      "computer-vision",
+      "image",
+      "image-processing",
+      "mlp",
+      "object-detection",
+      "resnet",
+      "segmentation",
+      "transformer",
+      "transformer-architecture",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-05-02T04:02:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/hit-gan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "architecture"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classification"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-architecture"
+    },
+    {
+      "context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

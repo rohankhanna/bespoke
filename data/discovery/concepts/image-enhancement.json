@@ -115,6 +115,18 @@
       "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
       "status": "candidate-context",
       "text": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official repository for \"MAXIM: Multi-Axis MLP for Image Processing\". SOTA for denoising, deblurring, deraining, dehazing, and enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "yunxiaoshi/Neural-IMage-Assessment",
       "status": "candidate",
       "text": "[![Python 3.6+](https://img.shields.io/badge/Python-3.6%2B-blue)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "yunxiaoshi/Neural-IMage-Assessment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

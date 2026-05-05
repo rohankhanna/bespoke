@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "libxsmm/libxsmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "chip-spv/chipstar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "jeremylt/ceedsamplemeshes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "IBM Power",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "rscohn2/setup-oneapi@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "ICX and IFX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-linux-osx.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "ceed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "exascale-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "high-order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "linear-algebra",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "CEED/libCEED"
+}

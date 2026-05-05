@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v2",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1317,6 +1317,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "matafokka/geotiff-3d-dem-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agenda/agendash"
     }
   ]
 }

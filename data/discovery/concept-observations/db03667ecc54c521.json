@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scalable datastore for metrics, events, and real-time analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Semantic PR and Commit Messages\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Semantic PR and Commit Messages\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17719,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17639,
+      "status": "candidate",
+      "text": "meaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17386,
+      "status": "candidate",
+      "text": "harmony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17386,
+      "status": "candidate",
+      "text": "suffix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17351,
+      "status": "candidate",
+      "text": "intent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic PR and Commit Messages",
+      "sense_id": "semantic-pr-and-commit-messages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semantic-pr-and-commit-messages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semantic-pr-and-commit-messages",
+  "observation_id": "db03667ecc54c521",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Semantic PR and Commit Messages",
+  "source_context_snippet": "\"Semantic PR and Commit Messages\"",
+  "source_file": ".github/workflows/semantic.yml",
+  "source_repo": "influxdata/influxdb",
+  "source_repo_description": "Scalable datastore for metrics, events, and real-time analytics"
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Hopper",
+      "target": "danielrosehill/claude-rudder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Hopper",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Hopper",
+      "target": "session-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Hopper",
+      "target": "workarounds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:02:09.174575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Skills for hopping between Claude Code sessions on Linux: spawn, handover, resume.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Hopper",
+    "html_url": "https://github.com/danielrosehill/Claude-Hopper",
+    "language": null,
+    "pushed_at": "2026-04-29T12:39:24Z",
+    "stargazers_count": 0,
+    "topics": [
+      "claude-code",
+      "session-transfer",
+      "workarounds"
+    ],
+    "updated_at": "2026-04-29T12:39:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-rudder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Claude Hopper banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![Claude Hopper banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "session-transfer"
+    },
+    {
+      "context_snippet": "![Claude Hopper banner](banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workarounds"
+    }
+  ]
+}

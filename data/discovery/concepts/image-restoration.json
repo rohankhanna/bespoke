@@ -343,6 +343,18 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate-context",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official repository for \"MAXIM: Multi-Axis MLP for Image Processing\". SOTA for denoising, deblurring, deraining, dehazing, and enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "Algolzw/daclip-uir",
       "status": "candidate",
       "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
     }
   ],
   "candidate_related_terms": [],
@@ -694,11 +712,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Algolzw/daclip-uir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

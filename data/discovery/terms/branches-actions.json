@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/branches.yml",
+      "source_repo": "gpac/gpac"
+    }
+  ],
+  "term": "branches actions"
+}

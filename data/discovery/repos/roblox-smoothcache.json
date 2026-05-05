@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "Roblox/security-workflows/.github/workflows/oss-security-sast.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "source_repo": "Roblox/SmoothCache",
+      "target": "Roblox/security-workflows/.github/workflows/oss-security-sast.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "source_repo": "Roblox/SmoothCache",
+      "target": "Security Scan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:47:21.261592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9391
+    },
+    {
+      "path": ".github/workflows/security-scan.yaml",
+      "size": 436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of SmoothCache, a project aimed at speeding-up Diffusion Transformer (DiT) based GenAI models with error-guided caching.",
+    "fork": false,
+    "full_name": "Roblox/SmoothCache",
+    "html_url": "https://github.com/Roblox/SmoothCache",
+    "language": "Python",
+    "pushed_at": "2025-07-17T19:51:13Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-02-27T02:35:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Security Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yaml",
+      "term": "Security Scan"
+    }
+  ]
+}

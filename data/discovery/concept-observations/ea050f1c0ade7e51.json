@@ -84,7 +84,7 @@
   "normalized_form": "benchmark.net-example",
   "observation_id": "ea050f1c0ade7e51",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Benchmark.Net Example",
   "source_context_snippet": "Benchmark.Net Example",
   "source_file": ".github/workflows/benchmarkdotnet.yml",

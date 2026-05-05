@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lidar-point-cloud",
+      "sense_id": "lidar-point-cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lidar-point-cloud",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lidar-point-cloud",
+  "observation_id": "7d7262b88892de93",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "lidar-point-cloud",
+  "source_context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+  "source_file": null,
+  "source_repo": "libLAS/libLAS",
+  "source_repo_description": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+}

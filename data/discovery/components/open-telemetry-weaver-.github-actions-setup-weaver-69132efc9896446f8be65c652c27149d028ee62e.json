@@ -1,0 +1,27 @@
+{
+  "component": "open-telemetry/weaver/.github/actions/setup-weaver@69132efc9896446f8be65c652c27149d028ee62e",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-code.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-examples.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    }
+  ]
+}

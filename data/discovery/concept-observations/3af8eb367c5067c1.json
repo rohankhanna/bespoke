@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799711,
+      "status": "candidate",
+      "text": "structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832767,
+      "status": "candidate",
+      "text": "architectural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832154,
+      "status": "candidate",
+      "text": "arch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832106,
+      "status": "candidate",
+      "text": "edifice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832086,
+      "status": "candidate",
+      "text": "framework"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "architecture",
+      "sense_id": "architecture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22065,
+      "status": "candidate",
+      "text": "structure"
+    }
+  ],
+  "concept_id": "architecture",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "architecture",
+  "observation_id": "3af8eb367c5067c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "architecture",
+  "source_context_snippet": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)",
+  "source_file": null,
+  "source_repo": "google-research/maxvit",
+  "source_repo_description": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+}

@@ -1,0 +1,185 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "smrt-aist/fast_gicp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "3d-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "lidar-inertial-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "lidar-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:41.029728+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IEEE RA-L & ICRA'22] A lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization.",
+    "fork": false,
+    "full_name": "vectr-ucla/direct_lidar_odometry",
+    "html_url": "https://github.com/vectr-ucla/direct_lidar_odometry",
+    "language": "C++",
+    "pushed_at": "2024-06-08T17:36:29Z",
+    "stargazers_count": 1029,
+    "topics": [
+      "3d-mapping",
+      "imu",
+      "lidar",
+      "lidar-inertial-odometry",
+      "lidar-odometry",
+      "lidar-slam",
+      "localization",
+      "mapping",
+      "odometry",
+      "robotics",
+      "ros",
+      "slam"
+    ],
+    "updated_at": "2026-05-05T00:07:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smrt-aist/fast_gicp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mapping"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial-odometry"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-odometry"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odometry"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

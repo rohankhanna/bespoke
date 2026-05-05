@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u23f1 A library for working with dates and times in JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839527,
+      "status": "candidate",
+      "text": "zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881307,
+      "status": "candidate",
+      "text": "time zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881305,
+      "status": "candidate",
+      "text": "clock time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881304,
+      "status": "candidate",
+      "text": "time being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9881303,
+      "status": "candidate",
+      "text": "timekeeping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timezones",
+      "sense_id": "timezones#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "timezones",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "timezones",
+  "observation_id": "828154d1c0d2e66f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "timezones",
+  "source_context_snippet": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]",
+  "source_file": null,
+  "source_repo": "moment/luxon",
+  "source_repo_description": "\u23f1 A library for working with dates and times in JS"
+}

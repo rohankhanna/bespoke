@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 Terminal color rendering library, support 8/16 colors, 256 colors, RGB color rendering output, support Print/Sprintf methods, compatible with Windows. GO CLI \u63a7\u5236\u53f0\u989c\u8272\u6e32\u67d3\u5de5\u5177\u5e93\uff0c\u652f\u630116\u8272\uff0c256\u8272\uff0cRGB\u8272\u5f69\u6e32\u67d3\u8f93\u51fa\uff0c\u4f7f\u7528\u7c7b\u4f3c\u4e8e Print/Sprintf\uff0c\u517c\u5bb9\u5e76\u652f\u6301 Windows \u73af\u5883\u7684\u8272\u5f69\u6e32\u67d3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "action-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "action-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "action-tests",
+      "sense_id": "action-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "action-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "action-tests",
+  "observation_id": "cf995fefbb0e356a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "action-tests",
+  "source_context_snippet": "action-tests",
+  "source_file": ".github/workflows/go.yml",
+  "source_repo": "gookit/color",
+  "source_repo_description": "\ud83c\udfa8 Terminal color rendering library, support 8/16 colors, 256 colors, RGB color rendering output, support Print/Sprintf methods, compatible with Windows. GO CLI \u63a7\u5236\u53f0\u989c\u8272\u6e32\u67d3\u5de5\u5177\u5e93\uff0c\u652f\u630116\u8272\uff0c256\u8272\uff0cRGB\u8272\u5f69\u6e32\u67d3\u8f93\u51fa\uff0c\u4f7f\u7528\u7c7b\u4f3c\u4e8e Print/Sprintf\uff0c\u517c\u5bb9\u5e76\u652f\u6301 Windows \u73af\u5883\u7684\u8272\u5f69\u6e32\u67d3"
+}

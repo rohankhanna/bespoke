@@ -1,0 +1,579 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "coq-community/docker-coq-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-shellcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-coq-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-rocq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-coq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "Docker-Coq CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gha-rt.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha-rt.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "Regression Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "coq-community/docker-coq-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-demo.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "Docker-based CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "reviewdog/action-shellcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "container-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "continuous-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "docker-coq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "docker-coq-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-prover/docker-opam-action",
+      "target": "opam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:34.691497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27948
+    },
+    {
+      "path": "Dockerfile",
+      "size": 149
+    },
+    {
+      "path": ".github/workflows/coq-demo.yml",
+      "size": 15430
+    },
+    {
+      "path": ".github/workflows/gha-rt.yml",
+      "size": 2391
+    },
+    {
+      "path": ".github/workflows/python-demo.yml",
+      "size": 3498
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GitHub Action using Docker-Coq [maintainers=@Justme0606,@Zimmi48]",
+    "fork": false,
+    "full_name": "rocq-prover/docker-opam-action",
+    "html_url": "https://github.com/rocq-prover/docker-opam-action",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T10:59:59Z",
+    "stargazers_count": 15,
+    "topics": [
+      "action",
+      "container-ci",
+      "continuous-integration",
+      "coq",
+      "docker-coq",
+      "docker-coq-action",
+      "github-actions",
+      "opam"
+    ],
+    "updated_at": "2026-04-30T08:11:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-rocq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker-Coq CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq-demo.yml",
+      "term": "Docker-Coq CI"
+    },
+    {
+      "context_snippet": "Regression Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gha-rt.yml",
+      "term": "Regression Test"
+    },
+    {
+      "context_snippet": "Docker-based CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-demo.yml",
+      "term": "Docker-based CI"
+    },
+    {
+      "context_snippet": "reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "reviewdog"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-ci"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-integration"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-coq"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-coq-action"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![reviewdog][reviewdog-badge]][reviewdog-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opam"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Distribute (Linux)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "Build & Distribute (Linux)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate",
+      "text": "Build & Distribute (Linux)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11650,
+      "status": "candidate",
+      "text": "bridging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11650,
+      "status": "candidate",
+      "text": "lot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11650,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "lots"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Distribute (Linux)",
+  "concept_id": "build-distribute-linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/dist-linux.yml",
+      "source_repo": "gpac/gpac"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Distribute (Linux)",
+      "sense_id": "build-distribute-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -286,6 +286,18 @@
       "source_repo": "MisanthropicBit/neotest-busted",
       "status": "candidate-context",
       "text": "style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "Style"
     }
   ],
   "candidate_glosses": [
@@ -432,6 +444,12 @@
       "source_repo": "MisanthropicBit/neotest-busted",
       "status": "candidate",
       "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate",
+      "text": "Style"
     }
   ],
   "candidate_related_terms": [
@@ -931,11 +949,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "nvim-neotest/neotest-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "source_repo": "CEED/libCEED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

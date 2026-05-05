@@ -1,7 +1,7 @@
 {
   "component": "stylelint",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -702,6 +702,16 @@
       "discovered_via": "package-json:peerDependencies",
       "source_file": "package.json",
       "source_repo": "stylelint/stylelint-config-recommended"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dothq/gecko-dev"
     }
   ]
 }

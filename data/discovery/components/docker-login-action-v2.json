@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v2",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1062,6 +1062,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cw-metric-stream-exporter-docker.yml",
       "source_repo": "aws-observability/observability-best-practices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lightstep/opentelemetry-demo"
     }
   ]
 }

@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "hkust-aerial-robotics/a-loam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "hyye/lio-mapping",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "3d-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "lidar-inertial-odometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "lidar-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "livox-horizon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "livox-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "loam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "loam-velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "sensor-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "solid-state-lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "velodyne",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om",
+      "target": "velodyne-slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:45.518568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs. ",
+    "fork": false,
+    "full_name": "KIT-ISAS/lili-om",
+    "html_url": "https://github.com/KIT-ISAS/lili-om",
+    "language": "C++",
+    "pushed_at": "2023-03-18T12:52:43Z",
+    "stargazers_count": 607,
+    "topics": [
+      "3d-mapping",
+      "lidar-inertial-odometry",
+      "lidar-mapping",
+      "livox-horizon",
+      "livox-lidar",
+      "loam",
+      "loam-velodyne",
+      "pose-estimation",
+      "ros",
+      "sensor-fusion",
+      "slam",
+      "solid-state-lidar",
+      "velodyne",
+      "velodyne-slam"
+    ],
+    "updated_at": "2026-05-04T11:33:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/a-loam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyye/lio-mapping",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mapping"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-inertial-odometry"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-mapping"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livox-horizon"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livox-lidar"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loam-velodyne"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensor-fusion"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solid-state-lidar"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne"
+    },
+    {
+      "context_snippet": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "velodyne-slam"
+    }
+  ]
+}

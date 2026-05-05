@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nearprotocol",
+      "sense_id": "nearprotocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nearprotocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nearprotocol",
+  "observation_id": "0a97aa55764cbdae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "nearprotocol",
+  "source_context_snippet": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)",
+  "source_file": null,
+  "source_repo": "near/NEPs",
+  "source_repo_description": "The Near Enhancement Proposals repository"
+}

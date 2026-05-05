@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "score-based-models"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "Official Repository of the paper \"Trajectory Consistency Distillation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "score-based-models",
+  "concept_id": "score-based-models",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "score-based-models",
+      "sense_id": "score-based-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

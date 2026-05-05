@@ -2974,6 +2974,18 @@
       "source_repo": "mapsforge/mapsforge",
       "status": "candidate-context",
       "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
     }
   ],
   "candidate_glosses": [
@@ -4458,6 +4470,12 @@
       "source_repo": "mapsforge/mapsforge",
       "status": "candidate",
       "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
     }
   ],
   "candidate_related_terms": [
@@ -7167,11 +7185,83 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "mapsforge/mapsforge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

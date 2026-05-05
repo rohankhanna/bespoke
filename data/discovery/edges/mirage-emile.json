@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mirage/emile",
-      "target": "mirage/mrmime",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mirage/emile",
-      "target": "dinosaure/unstrctrd",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "mirage/emile",
@@ -64,6 +50,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
   "source_repo": "mirage/emile"
 }

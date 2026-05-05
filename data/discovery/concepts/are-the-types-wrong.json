@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Are the types wrong?"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "Are the types wrong?"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate",
+      "text": "Are the types wrong?"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28008,
+      "status": "candidate",
+      "text": "eating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "backup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11621,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11621,
+      "status": "candidate",
+      "text": "everything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11621,
+      "status": "candidate",
+      "text": "hat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Are the types wrong?",
+  "concept_id": "are-the-types-wrong",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/attw_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Are the types wrong?",
+      "sense_id": "are-the-types-wrong#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bitgroom"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "Compression plugins for h5wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "bitgroom"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate",
+      "text": "bitgroom"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bitgroom",
+  "concept_id": "bitgroom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test-bitgroom.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bitgroom",
+      "sense_id": "bitgroom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

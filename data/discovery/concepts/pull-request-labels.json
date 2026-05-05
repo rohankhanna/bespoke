@@ -19,12 +19,30 @@
       "source_repo": "emilk/egui",
       "status": "candidate-context",
       "text": "Pull Request Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "Pull Request Labels"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "emilk/egui",
+      "status": "candidate",
+      "text": "Pull Request Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
       "status": "candidate",
       "text": "Pull Request Labels"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/labels.yml",
       "source_repo": "emilk/egui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/require_label.yml",
+      "source_repo": "Shopify/tapioca"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

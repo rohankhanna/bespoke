@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml"
+    },
+    {
+      "component": "rscohn2/setup-oneapi@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-linux-osx.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "libxsmm/libxsmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "chip-spv/chipstar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CEED/libCEED",
+      "target": "jeremylt/ceedsamplemeshes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "IBM Power",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "rscohn2/setup-oneapi@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "ICX and IFX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-linux-osx.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "source_repo": "CEED/libCEED",
+      "target": "Style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "ceed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "exascale-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "high-order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "high-performance-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CEED/libCEED",
+      "target": "linear-algebra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:18:21.489400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20857
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 364
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 465
+    },
+    {
+      "path": "requirements.txt",
+      "size": 11
+    },
+    {
+      "path": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/c-fortran-test-arm64.yml",
+      "size": 447
+    },
+    {
+      "path": ".github/workflows/c-fortran-test-icc.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/c-fortran-test-linux-osx.yml",
+      "size": 1194
+    },
+    {
+      "path": ".github/workflows/c-fortran-test-style.yml",
+      "size": 752
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CEED Library: Code for Efficient Extensible Discretizations",
+    "fork": false,
+    "full_name": "CEED/libCEED",
+    "html_url": "https://github.com/CEED/libCEED",
+    "language": "C",
+    "pushed_at": "2026-05-05T14:51:09Z",
+    "stargazers_count": 253,
+    "topics": [
+      "api",
+      "ceed",
+      "cuda",
+      "ecp",
+      "exascale-computing",
+      "gpu",
+      "high-order",
+      "high-performance-computing",
+      "hpc",
+      "julia",
+      "linear-algebra"
+    ],
+    "updated_at": "2026-05-05T14:56:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chip-spv/chipstar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremylt/ceedsamplemeshes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libxsmm/libxsmm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "IBM Power",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "term": "IBM Power"
+    },
+    {
+      "context_snippet": "ARM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+      "term": "ARM"
+    },
+    {
+      "context_snippet": "ICX and IFX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-icc.yml",
+      "term": "ICX and IFX"
+    },
+    {
+      "context_snippet": "Style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/c-fortran-test-style.yml",
+      "term": "Style"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ceed"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exascale-computing"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-order"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance-computing"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][github-badge]][github-link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "release-to-clojars",
   "observation_id": "3832b4407703ced7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Release to Clojars",
   "source_context_snippet": "Release to Clojars",
   "source_file": ".github/workflows/release.yml",

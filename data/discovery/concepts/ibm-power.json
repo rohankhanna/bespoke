@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "IBM Power"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "IBM Power"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate",
+      "text": "IBM Power"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "mac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "nec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "cpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17334,
+      "status": "candidate",
+      "text": "think"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "blue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "IBM Power",
+  "concept_id": "ibm-power",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/c-fortan-test-ppc64le.yml",
+      "source_repo": "CEED/libCEED"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "IBM Power",
+      "sense_id": "ibm-power#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

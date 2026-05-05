@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:00:31.269028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 352
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Program for generating data tables for an encoding detector",
+    "fork": false,
+    "full_name": "hsivonen/traindet",
+    "html_url": "https://github.com/hsivonen/traindet",
+    "language": "Rust",
+    "pushed_at": "2021-06-15T11:40:25Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-11-26T22:22:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

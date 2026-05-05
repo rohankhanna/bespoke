@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/evm-semantics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/k5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/k-editor-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "ethereum/vyper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:08:20.715598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7362
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Smart contracts which are formally verified",
+    "fork": false,
+    "full_name": "runtimeverification/verified-smart-contracts",
+    "html_url": "https://github.com/runtimeverification/verified-smart-contracts",
+    "language": "Solidity",
+    "pushed_at": "2022-08-28T02:08:14Z",
+    "stargazers_count": 744,
+    "topics": [],
+    "updated_at": "2026-05-05T18:58:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/vyper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kframework/evm-semantics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kframework/k-editor-support",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kframework/k5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

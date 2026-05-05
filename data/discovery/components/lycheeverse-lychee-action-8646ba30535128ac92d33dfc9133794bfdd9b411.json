@@ -1,7 +1,7 @@
 {
   "component": "lycheeverse/lychee-action@8646ba30535128ac92d33dfc9133794bfdd9b411",
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "open-telemetry/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "elastic/opentelemetry-demo"
     }
   ]
 }

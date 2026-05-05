@@ -175,6 +175,12 @@
       "source_repo": "open-telemetry/weaver",
       "status": "candidate-context",
       "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "status": "candidate-context",
+      "text": "OSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +265,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/weaver",
+      "status": "candidate",
+      "text": "OSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
       "status": "candidate",
       "text": "OSSF Scorecard"
     }
@@ -400,11 +412,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/ossf-scorecard.yml",
       "source_repo": "open-telemetry/weaver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ossf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneTBB"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

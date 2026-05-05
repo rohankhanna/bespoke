@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parsing, analyzing, and comparing source code across many languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**NOTE**: _This repository is no longer supported or updated by GitHub. If you wish to continue to develop this code yourself, we recommend you fork it._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**NOTE**: _This repository is no longer supported or updated by GitHub. If you wish to continue to develop this code yourself, we recommend you fork it._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046262,
+      "status": "candidate",
+      "text": "keep on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045426,
+      "status": "candidate",
+      "text": "continue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044967,
+      "status": "candidate",
+      "text": "sustain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044591,
+      "status": "candidate",
+      "text": "retain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044535,
+      "status": "candidate",
+      "text": "support"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keep",
+      "sense_id": "keep#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54046,
+      "status": "candidate",
+      "text": "sustain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51065,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34075,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34041,
+      "status": "candidate",
+      "text": "retain"
+    }
+  ],
+  "concept_id": "keep",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keep",
+  "observation_id": "0990d4d602ad87c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "keep",
+  "source_context_snippet": "**NOTE**: _This repository is no longer supported or updated by GitHub. If you wish to continue to develop this code yourself, we recommend you fork it._",
+  "source_file": null,
+  "source_repo": "github/semantic",
+  "source_repo_description": "Parsing, analyzing, and comparing source code across many languages"
+}

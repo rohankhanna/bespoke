@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/undeploy-staging.yml",
       "source_repo": "near/cargo-near-new-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/undeploy-staging.yml",
+      "source_repo": "njelich/cargo-near-new-project-template"
     }
   ],
   "term": "Undeploy staging"

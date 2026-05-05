@@ -84,7 +84,7 @@
   "normalized_form": "build-docker-image",
   "observation_id": "5ebd6586ed7b1afe",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Build Docker Image",
   "source_context_snippet": "Build Docker Image",
   "source_file": ".github/workflows/build-docker.yml",

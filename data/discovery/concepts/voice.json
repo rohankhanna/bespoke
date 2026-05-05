@@ -43,6 +43,18 @@
       "source_repo": "pipecat-ai/pipecat",
       "status": "candidate-context",
       "text": "<h1><div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Don't let the cursor slow you down"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pipecat-ai/pipecat",
       "status": "candidate",
       "text": "<h1><div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Welcome to Cursorless!</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "pipecat-ai/pipecat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cursorless-dev/cursorless"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

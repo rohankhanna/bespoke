@@ -1179,6 +1179,18 @@
       "source_repo": "Vinyzu/chrome-fingerprints",
       "status": "candidate-context",
       "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datitran/raccoon_dataset",
+      "status": "candidate-context",
+      "text": "The dataset is used to train my own raccoon detector and I blogged about it on Medium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datitran/raccoon_dataset",
+      "status": "candidate-context",
+      "text": "This is a dataset that I collected to train my own Raccoon detector with [TensorFlow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). Images are from Google and Pixabay. In total, there are 200 images (160 are used for training\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1769,6 +1781,12 @@
       "source_repo": "Vinyzu/chrome-fingerprints",
       "status": "candidate",
       "text": "![Tests & Linting](https://github.com/Vinyzu/chrome-fingerprints/actions/workflows/tests.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datitran/raccoon_dataset",
+      "status": "candidate",
+      "text": "This is a dataset that I collected to train my own Raccoon detector with [TensorFlow's Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection). Images are from Google and Pixabay. In total, there are 200 images (160 are used for training\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -2490,11 +2508,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Vinyzu/chrome-fingerprints"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "datitran/raccoon_dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

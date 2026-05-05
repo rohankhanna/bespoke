@@ -139,6 +139,30 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate-context",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sonicdoe/ced",
+      "status": "candidate-context",
+      "text": "Detect the character encoding using Google\u2019s compact_enc_det library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonicdoe/ced",
+      "status": "candidate-context",
+      "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonicdoe/ced",
+      "status": "candidate",
+      "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
     }
   ],
   "candidate_related_terms": [
@@ -588,11 +624,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "sonicdoe/ced"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

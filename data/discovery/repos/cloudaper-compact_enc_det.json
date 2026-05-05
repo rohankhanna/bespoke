@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "cloudaper/compact_enc_det_fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "Build & push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "Build & test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "charset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "charset-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "charset-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "encoding-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "encoding-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:26.374237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2493
+    },
+    {
+      "path": ".github/workflows/build-and-push.yaml",
+      "size": 1747
+    },
+    {
+      "path": ".github/workflows/build-and-test.yaml",
+      "size": 1277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby bindings for Google's Compact Encoding Detection C++ library",
+    "fork": false,
+    "full_name": "cloudaper/compact_enc_det",
+    "html_url": "https://github.com/cloudaper/compact_enc_det",
+    "language": "C++",
+    "pushed_at": "2025-12-26T10:37:21Z",
+    "stargazers_count": 8,
+    "topics": [
+      "charset",
+      "charset-detection",
+      "charset-detector",
+      "encoding",
+      "encoding-detection",
+      "encoding-detector",
+      "ruby"
+    ],
+    "updated_at": "2025-12-26T10:36:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudaper/compact_enc_det_fork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yaml",
+      "term": "Build & push"
+    },
+    {
+      "context_snippet": "Build & test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "term": "Build & test"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-detection"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset-detector"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding-detection"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding-detector"
+    },
+    {
+      "context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

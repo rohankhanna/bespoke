@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/lcp-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/lcp-solidity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/parlia-elc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/ibc-parlia-relay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/rust-cache@allow_registry_src_caching",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "datachainlab/rust-cache@allow_registry_src_caching",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "datachainlab/cosmos-bsc-ibc-lcp"
+}

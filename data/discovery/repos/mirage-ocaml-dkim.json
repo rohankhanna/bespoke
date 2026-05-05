@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/ocaml-dkim",
+      "target": "mirage/ptt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/ocaml-dkim",
+      "target": "dinosaure/blaze",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:42:25.566941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DKIM support on e-mail",
+    "fork": false,
+    "full_name": "mirage/ocaml-dkim",
+    "html_url": "https://github.com/mirage/ocaml-dkim",
+    "language": "OCaml",
+    "pushed_at": "2026-04-21T13:33:18Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-21T13:33:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/blaze",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/ptt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

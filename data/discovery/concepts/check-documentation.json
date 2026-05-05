@@ -31,6 +31,12 @@
       "source_repo": "Breakthrough/PySceneDetect",
       "status": "candidate-context",
       "text": "Check Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "status": "candidate-context",
+      "text": "Check Documentation"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Breakthrough/PySceneDetect",
+      "status": "candidate",
+      "text": "Check Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
       "status": "candidate",
       "text": "Check Documentation"
     }
@@ -100,11 +112,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": ".github/workflows/check-docs.yml",
       "source_repo": "Breakthrough/PySceneDetect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

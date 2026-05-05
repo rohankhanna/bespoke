@@ -1,27 +1,7 @@
 {
-  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fletcher/MultiMarkdown-6"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-jekyll-builder"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "clayrisser/sphinx-markdown-builder"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -30,7 +10,7 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "preservim/vim-markdown"
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
     }
   ],
   "term": "markdown"

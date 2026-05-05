@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "drahnr/cargo-spellcheck",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "spellchecker"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "drahnr/cargo-spellcheck",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate",
+      "text": "spellchecker"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +96,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "drahnr/cargo-spellcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "near/NEPs"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

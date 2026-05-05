@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040508,
+      "status": "candidate",
+      "text": "sized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039181,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036329,
+      "status": "candidate",
+      "text": "adjustment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035915,
+      "status": "candidate",
+      "text": "adjust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011223,
+      "status": "candidate",
+      "text": "size"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resize",
+      "sense_id": "resize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "resize",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "resize",
+  "observation_id": "880af5344f548772",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "resize",
+  "source_context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+  "source_file": null,
+  "source_repo": "disintegration/imaging",
+  "source_repo_description": "Imaging is a simple image processing package for Go"
+}

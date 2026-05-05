@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release (Beta)"
+    "Release (Beta)",
+    "release-beta"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate-context",
       "text": "Release (Beta)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "release-beta"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate",
       "text": "Release (Beta)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "release-beta"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/releaseBeta.yml",
       "source_repo": "LucasGinard/AireLibre-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

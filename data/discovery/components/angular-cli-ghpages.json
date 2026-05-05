@@ -1,12 +1,17 @@
 {
   "component": "angular-cli-ghpages",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "maplibre/ngx-maplibre-gl"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "google/mysteryofthreebots"
     }
   ]
 }

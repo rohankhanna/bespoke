@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ungoogled-software/contrib",
+      "target": "eloston/ungoogled-chromium",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:15.526744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Community contributions for ungoogled-chromium",
+    "fork": false,
+    "full_name": "ungoogled-software/contrib",
+    "html_url": "https://github.com/ungoogled-software/contrib",
+    "language": null,
+    "pushed_at": "2024-08-16T00:10:34Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-06-08T11:24:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eloston/ungoogled-chromium",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

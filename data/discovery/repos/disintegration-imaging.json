@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "disintegration/imaging",
+      "target": "disintegration/gift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "blur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "brightness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "contrast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "convolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "crop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "gamma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "resize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "rotate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "disintegration/imaging",
+      "target": "sharpness",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:20.200494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9579
+    },
+    {
+      "path": "go.mod",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Imaging is a simple image processing package for Go",
+    "fork": false,
+    "full_name": "disintegration/imaging",
+    "html_url": "https://github.com/disintegration/imaging",
+    "language": "Go",
+    "pushed_at": "2023-09-21T02:16:10Z",
+    "stargazers_count": 5716,
+    "topics": [
+      "blur",
+      "brightness",
+      "contrast",
+      "convolution",
+      "crop",
+      "gamma",
+      "image",
+      "resize",
+      "rotate",
+      "sharpness"
+    ],
+    "updated_at": "2026-05-05T11:12:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "disintegration/gift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blur"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brightness"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrast"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolution"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crop"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamma"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resize"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rotate"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharpness"
+    }
+  ]
+}

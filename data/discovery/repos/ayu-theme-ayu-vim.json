@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayu-theme/ayu-vim",
+      "target": "yggdroot/indentline",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:09:07.637601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern theme for modern VIMs",
+    "fork": false,
+    "full_name": "ayu-theme/ayu-vim",
+    "html_url": "https://github.com/ayu-theme/ayu-vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-15T05:05:45Z",
+    "stargazers_count": 1770,
+    "topics": [],
+    "updated_at": "2026-04-30T18:00:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yggdroot/indentline",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -211,6 +211,18 @@
       "source_repo": "root-project/cling",
       "status": "candidate-context",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate-context",
+      "text": "Neovim as Lua interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate-context",
+      "text": "Lua script that lets you use Neovim as a Lua interpreter."
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "root-project/cling",
       "status": "candidate",
       "text": "Cling - The Interactive C++ Interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate",
+      "text": "Lua script that lets you use Neovim as a Lua interpreter."
     }
   ],
   "candidate_related_terms": [
@@ -706,11 +724,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "mfussenegger/nlua"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Time zone tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "Time zone tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate",
+      "text": "Time zone tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36115,
+      "status": "candidate",
+      "text": "est"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31328,
+      "status": "candidate",
+      "text": "cst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30515,
+      "status": "candidate",
+      "text": "pst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30128,
+      "status": "candidate",
+      "text": "mst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29328,
+      "status": "candidate",
+      "text": "eastern"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Time zone tests",
+  "concept_id": "time-zone-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/tz_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Time zone tests",
+      "sense_id": "time-zone-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

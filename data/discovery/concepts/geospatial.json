@@ -367,6 +367,30 @@
       "source_repo": "Fil/d3-geo-voronoi",
       "status": "candidate-context",
       "text": "This module adapts [d3-delaunay](https://github.com/d3/d3-delaunay) for spherical data. Given a set of objects in spherical coordinates, it computes their Delaunay triangulation and its dual, the Voronoi diagram."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "Julia package for manipulation and analysis of planar geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "LibGEOS.jl"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "Fil/d3-geo-voronoi",
       "status": "candidate",
       "text": "This module adapts [d3-delaunay](https://github.com/d3/d3-delaunay) for spherical data. Given a set of objects in spherical coordinates, it computes their Delaunay triangulation and its dual, the Voronoi diagram."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate",
+      "text": "LibGEOS.jl"
     }
   ],
   "candidate_related_terms": [
@@ -826,11 +862,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

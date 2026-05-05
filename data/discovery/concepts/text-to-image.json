@@ -343,6 +343,18 @@
       "source_repo": "czg1225/AsyncDiff",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "Official Repository of the paper \"Trajectory Consistency Distillation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate-context",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "czg1225/AsyncDiff",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jabir-zheng/TCD",
+      "status": "candidate",
+      "text": "[![Arxiv](https://img.shields.io/badge/arXiv-2402.19159-b31b1b)](https://arxiv.org/abs/2402.19159)"
     }
   ],
   "candidate_related_terms": [],
@@ -838,11 +856,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "yuval-alaluf/Attend-and-Excite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "yuval-alaluf/Attend-and-Excite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

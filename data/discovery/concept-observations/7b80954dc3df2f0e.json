@@ -84,7 +84,7 @@
   "normalized_form": "sync-to-remote-site",
   "observation_id": "7b80954dc3df2f0e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Sync to remote site",
   "source_context_snippet": "Sync to remote site",
   "source_file": ".github/workflows/auto-sync.yaml",

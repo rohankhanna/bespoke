@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Seedloaf/mc-router-discovery",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:58.575439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4164
+    },
+    {
+      "path": "Dockerfile",
+      "size": 787
+    },
+    {
+      "path": "go.mod",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 915
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight service to sync mc-router's state with your own.",
+    "fork": false,
+    "full_name": "Seedloaf/mc-router-discovery",
+    "html_url": "https://github.com/Seedloaf/mc-router-discovery",
+    "language": "Go",
+    "pushed_at": "2026-04-30T14:32:00Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-30T14:29:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

@@ -5,28 +5,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ideas-index",
+      "target": "danielrosehill/n8n-workflows-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/mcp-projects-index",
+      "target": "danielrosehill/networking-and-infrastructure-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/mcp-server-ideas",
+      "target": "danielrosehill/networking-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/my-benchmarks",
+      "target": "danielrosehill/open-research-workspaces-index",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T02:48:12.563501+00:00",
+  "fetched_at": "2026-05-05T20:02:16.391324+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,22 +71,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ideas-index",
+      "full_name": "danielrosehill/n8n-workflows-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/mcp-projects-index",
+      "full_name": "danielrosehill/networking-and-infrastructure-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/mcp-server-ideas",
+      "full_name": "danielrosehill/networking-projects-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/my-benchmarks",
+      "full_name": "danielrosehill/open-research-workspaces-index",
       "source_file": "README.md"
     }
   ],

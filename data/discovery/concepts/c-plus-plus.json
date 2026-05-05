@@ -1315,6 +1315,18 @@
       "source_repo": "libcpr/cpr",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_glosses": [
@@ -1971,6 +1983,12 @@
       "source_repo": "libcpr/cpr",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/badge/docs-online-informational?style=flat&link=https://docs.libcpr.dev/)](https://docs.libcpr.dev/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_related_terms": [],
@@ -3244,11 +3262,47 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

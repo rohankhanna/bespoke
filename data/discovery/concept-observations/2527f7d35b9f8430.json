@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37258,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37257,
+      "status": "candidate",
+      "text": "certified check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37256,
+      "status": "candidate",
+      "text": "blank check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37255,
+      "status": "candidate",
+      "text": "staleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37254,
+      "status": "candidate",
+      "text": "in check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Check",
+      "sense_id": "stale-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-check",
+  "observation_id": "2527f7d35b9f8430",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Stale Check",
+  "source_context_snippet": "Stale Check",
+  "source_file": ".github/workflows/stale-check.yml",
+  "source_repo": "itzg/docker-minecraft-server",
+  "source_repo_description": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+}

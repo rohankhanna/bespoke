@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs",
+      "target": "Test example contracts verify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:11.939404+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 655
+    },
+    {
+      "path": ".github/workflows/test_examples.yml",
+      "size": 1653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "dj8yfo/near-verify-rs",
+    "html_url": "https://github.com/dj8yfo/near-verify-rs",
+    "language": null,
+    "pushed_at": "2025-05-22T11:11:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-01T15:49:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test example contracts verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_examples.yml",
+      "term": "Test example contracts verify"
+    }
+  ]
+}

@@ -1327,6 +1327,18 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE RA-L & ICRA'22] A lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1989,6 +2001,12 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3178,11 +3196,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "petercorke/robotics-toolbox-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "keenan-burnett/yeti_radar_odometry"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

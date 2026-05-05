@@ -535,6 +535,18 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate-context",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "This repository contains code and checkpoints for **CPT**."
     }
   ],
   "candidate_glosses": [
@@ -801,6 +813,12 @@
       "source_repo": "huawei-noah/Pretrained-Language-Model",
       "status": "candidate",
       "text": "This repository provides the latest pretrained language models and its related optimization techniques developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate",
+      "text": "This repository contains code and checkpoints for **CPT**."
     }
   ],
   "candidate_related_terms": [],
@@ -1708,11 +1726,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleClas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleClas"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

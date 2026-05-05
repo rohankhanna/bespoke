@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ARM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ARM"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947265,
+      "status": "candidate",
+      "text": "branch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909168,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900035,
+      "status": "candidate",
+      "text": "gird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851880,
+      "status": "candidate",
+      "text": "weapon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39825546,
+      "status": "candidate",
+      "text": "fortify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ARM",
+      "sense_id": "arm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "fortify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7047,
+      "status": "candidate",
+      "text": "subdivision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6038,
+      "status": "candidate",
+      "text": "gird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4046,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1041,
+      "status": "candidate",
+      "text": "weapon"
+    }
+  ],
+  "concept_id": "arm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arm",
+  "observation_id": "0294c1bf5901af1e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "ARM",
+  "source_context_snippet": "ARM",
+  "source_file": ".github/workflows/c-fortran-test-arm64.yml",
+  "source_repo": "CEED/libCEED",
+  "source_repo_description": "CEED Library: Code for Efficient Extensible Discretizations"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add new issues to project board"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add new issues to project board"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55538,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55352,
+      "status": "candidate",
+      "text": "projects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 55270,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54722,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43391,
+      "status": "candidate",
+      "text": "registration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add new issues to project board",
+      "sense_id": "add-new-issues-to-project-board#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-new-issues-to-project-board",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-new-issues-to-project-board",
+  "observation_id": "934690723091ddc5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Add new issues to project board",
+  "source_context_snippet": "Add new issues to project board",
+  "source_file": ".github/workflows/add-action-project.yml",
+  "source_repo": "cowprotocol/contracts",
+  "source_repo_description": "Smart contracts for the Gnosis Protocol v2"
+}

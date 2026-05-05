@@ -91,6 +91,18 @@
       "source_repo": "Shopify/rbi-central",
       "status": "candidate-context",
       "text": "Contributor License Agreement (CLA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "Contributor License Agreement (CLA)"
     }
   ],
   "candidate_glosses": [
@@ -139,6 +151,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Shopify/rbi-central",
+      "status": "candidate",
+      "text": "Contributor License Agreement (CLA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
       "status": "candidate",
       "text": "Contributor License Agreement (CLA)"
     }
@@ -244,11 +262,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "Shopify/rbi-central"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/erb_lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/tapioca"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

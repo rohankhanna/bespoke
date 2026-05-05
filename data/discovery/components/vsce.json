@@ -1,7 +1,7 @@
 {
   "component": "vsce",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -107,6 +107,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "PraneshASP/vscode-foundry-test-runner"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode"
     }
   ]
 }

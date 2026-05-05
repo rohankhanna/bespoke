@@ -355,6 +355,42 @@
       "source_repo": "JettHu/ComfyUI-TCD",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate-context",
+      "text": "ELLA nodes for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +567,24 @@
       "source_repo": "JettHu/ComfyUI-TCD",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1066,11 +1120,47 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Skimmed_CFG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

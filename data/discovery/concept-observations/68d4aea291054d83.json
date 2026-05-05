@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003541,
+      "status": "candidate",
+      "text": "bitmap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998088,
+      "status": "candidate",
+      "text": "matrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990751,
+      "status": "candidate",
+      "text": "tracing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988564,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979911,
+      "status": "candidate",
+      "text": "framing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raster",
+      "sense_id": "raster#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "raster",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raster",
+  "observation_id": "68d4aea291054d83",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "raster",
+  "source_context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+  "source_file": null,
+  "source_repo": "JuliaGeo/GDAL.jl",
+  "source_repo_description": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+}

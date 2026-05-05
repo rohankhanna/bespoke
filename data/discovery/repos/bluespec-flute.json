@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T19:13:44.640266+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISC-V CPU, simple 5-stage in-order pipeline, for low-end applications needing MMUs and some performance",
+    "fork": false,
+    "full_name": "bluespec/Flute",
+    "html_url": "https://github.com/bluespec/Flute",
+    "language": "Bluespec",
+    "pushed_at": "2023-10-19T02:54:21Z",
+    "stargazers_count": 379,
+    "topics": [],
+    "updated_at": "2026-04-09T05:59:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

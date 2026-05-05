@@ -43,6 +43,18 @@
       "source_repo": "nix-darwin/nix-darwin",
       "status": "candidate-context",
       "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "nix-darwin/nix-darwin",
       "status": "candidate",
       "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

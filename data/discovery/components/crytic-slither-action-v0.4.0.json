@@ -1,12 +1,17 @@
 {
   "component": "crytic/slither-action@v0.4.0",
   "first_seen_at": "2026-05-04T12:47:39.186442+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "hyperledger-labs/yui-ibc-solidity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp-solidity"
     }
   ]
 }

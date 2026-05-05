@@ -1,7 +1,7 @@
 {
   "component": "supercharge/mongodb-github-action@315db7fe45ac2880b7758f1933e6e5d59afd5e94",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

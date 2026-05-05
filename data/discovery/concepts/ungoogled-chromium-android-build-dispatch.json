@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Ungoogled-chromium-android-build-dispatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate-context",
+      "text": "Android build for ungoogled-chromium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate-context",
+      "text": "Ungoogled-chromium-android-build-dispatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android",
+      "status": "candidate",
+      "text": "Ungoogled-chromium-android-build-dispatch"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Ungoogled-chromium-android-build-dispatch",
+  "concept_id": "ungoogled-chromium-android-build-dispatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ungoogled-software/ungoogled-chromium-android"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ungoogled-chromium-android-build-dispatch",
+      "sense_id": "ungoogled-chromium-android-build-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

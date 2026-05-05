@@ -151,6 +151,18 @@
       "source_repo": "iamkun/dayjs",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ufe0f **NEW**: [date-fns v4.0 with first-class time zone support is out!](https://blog.date-fns.org/v40-with-time-zone-support/)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "iamkun/dayjs",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./docs/zh-cn/README.zh-CN.md) | [\u65e5\u672c\u8a9e](./docs/ja/README-ja.md) | [Portugu\u00eas Brasileiro](./docs/pt-br/README-pt-br.md) | [\ud55c\uad6d\uc5b4](./docs/ko/README-ko.md) | [Espa\u00f1ol (Espa\u00f1a)](./docs/es-es/README-es-es.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](./docs/ru/README-ru.md) | [T\u00fcrk\u00e7e](./docs/tr/READM\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "date-fns/date-fns",
+      "status": "candidate",
+      "text": "\ud83d\udd25\ufe0f **NEW**: [date-fns v4.0 with first-class time zone support is out!](https://blog.date-fns.org/v40-with-time-zone-support/)"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +496,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "iamkun/dayjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "date-fns/date-fns"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

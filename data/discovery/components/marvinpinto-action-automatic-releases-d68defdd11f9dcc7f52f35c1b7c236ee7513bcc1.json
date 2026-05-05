@@ -1,0 +1,12 @@
+{
+  "component": "marvinpinto/action-automatic-releases@d68defdd11f9dcc7f52f35c1b7c236ee7513bcc1",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ff.yml",
+      "source_repo": "dothq/gecko-dev"
+    }
+  ]
+}

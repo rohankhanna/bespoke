@@ -19,6 +19,18 @@
       "source_repo": "nickspring/charset-normalizer-rs",
       "status": "candidate-context",
       "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nickspring/charset-normalizer-rs",
       "status": "candidate",
       "text": "[![charset-normalizer-rs on docs.rs][docsrs-image]][docsrs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "nickspring/charset-normalizer-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

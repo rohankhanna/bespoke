@@ -84,7 +84,7 @@
   "normalized_form": "building-man-page-man.test-manonig.test",
   "observation_id": "947f786d8360541f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Building man page, man.test, manonig.test",
   "source_context_snippet": "Building man page, man.test, manonig.test",
   "source_file": ".github/workflows/manpage.yml",

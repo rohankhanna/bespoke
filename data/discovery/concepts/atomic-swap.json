@@ -19,6 +19,18 @@
       "source_repo": "comit-network/xmr-btc-swap",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sideprotocol/ibcswap",
+      "status": "candidate-context",
+      "text": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sideprotocol/ibcswap",
+      "status": "candidate-context",
+      "text": "A protocol that implement IBC atomic swap"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "comit-network/xmr-btc-swap",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sideprotocol/ibcswap",
+      "status": "candidate",
+      "text": "A protocol that implement IBC atomic swap"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "sideprotocol/ibcswap"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

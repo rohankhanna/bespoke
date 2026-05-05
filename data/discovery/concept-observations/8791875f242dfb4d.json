@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comfyui",
+      "sense_id": "comfyui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "comfyui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "comfyui",
+  "observation_id": "8791875f242dfb4d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "comfyui",
+  "source_context_snippet": "A set of nodes to prepare the noise predictions before the CFG function",
+  "source_file": null,
+  "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+  "source_repo_description": "A set of nodes to prepare the noise predictions before the CFG function"
+}

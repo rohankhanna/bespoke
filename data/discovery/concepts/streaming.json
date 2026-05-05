@@ -451,6 +451,18 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +687,12 @@
       "source_repo": "Cysharp/MagicOnion",
       "status": "candidate",
       "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -962,11 +980,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "gpac/gpac"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

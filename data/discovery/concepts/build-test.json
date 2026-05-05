@@ -729,6 +729,30 @@
       "source_repo": "tlaplus-community/tree-sitter-tlaplus",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tlaplus-community/tlauc",
+      "status": "candidate-context",
+      "text": "Rewrites TLA\u207a specs to use Unicode symbols instead of ASCII, and vice-versa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tlauc",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Build & test"
     }
   ],
   "candidate_glosses": [
@@ -1097,6 +1121,18 @@
       "source_repo": "tlaplus-community/tree-sitter-tlaplus",
       "status": "candidate",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tlaplus-community/tlauc",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate",
+      "text": "Build & test"
     }
   ],
   "candidate_related_terms": [
@@ -2268,11 +2304,65 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/build-test.yml",
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tlaplus-community/tlauc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "cloudaper/compact_enc_det"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Google"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

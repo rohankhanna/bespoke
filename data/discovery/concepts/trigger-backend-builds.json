@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trigger backend builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate-context",
+      "text": "The core library of the HaxeUI framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate-context",
+      "text": "Trigger backend builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haxeui/haxeui-core",
+      "status": "candidate",
+      "text": "Trigger backend builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22464,
+      "status": "candidate",
+      "text": "balkline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22464,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22464,
+      "status": "candidate",
+      "text": "rebound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22464,
+      "status": "candidate",
+      "text": "rebounding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22464,
+      "status": "candidate",
+      "text": "refuse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger backend builds",
+  "concept_id": "trigger-backend-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-core"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger backend builds",
+      "sense_id": "trigger-backend-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

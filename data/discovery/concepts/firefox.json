@@ -448,6 +448,18 @@
       "source_repo": "pulse-browser/gluon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "The browser that fights for your privacy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate-context",
+      "text": "The browser that fights for your privacy."
     }
   ],
   "candidate_glosses": [
@@ -672,6 +684,12 @@
       "source_repo": "pulse-browser/gluon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/browser",
+      "status": "candidate",
+      "text": "The browser that fights for your privacy."
     }
   ],
   "candidate_related_terms": [
@@ -1171,11 +1189,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "pulse-browser/gluon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dothq/browser"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

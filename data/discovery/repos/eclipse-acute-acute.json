@@ -7,9 +7,16 @@
       "source_repo": "eclipse-acute/aCute",
       "target": "eclipse/acute",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "omnisharp/omnisharp-node-client",
+      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-05T15:54:40.305970+00:00",
+  "fetched_at": "2026-05-05T19:06:08.269020+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -34,6 +41,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "eclipse/acute",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omnisharp/omnisharp-node-client",
       "source_file": "README.md"
     }
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "verify-antithesis-docker-compose-pipeline",
   "observation_id": "cdf69c23ac1bbd01",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Verify Antithesis Docker Compose Pipeline",
   "source_context_snippet": "Verify Antithesis Docker Compose Pipeline",
   "source_file": ".github/workflows/antithesis-verify.yml",

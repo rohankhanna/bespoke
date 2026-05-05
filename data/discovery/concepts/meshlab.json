@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "meshlab"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate-context",
+      "text": "Read and write MeshLab picked point (.pp) files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/meshlab-pickedpoints?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/meshlab-pickedpoints?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "assembly modelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "digital sculpting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "computer-aided manufacturing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "modelica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "mathcad"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "meshlab",
+  "concept_id": "meshlab",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lace/meshlab-pickedpoints"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meshlab",
+      "sense_id": "meshlab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

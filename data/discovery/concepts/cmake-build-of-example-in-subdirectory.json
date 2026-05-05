@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CMake build of example in subdirectory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate-context",
+      "text": "SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate-context",
+      "text": "CMake build of example in subdirectory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate",
+      "text": "CMake build of example in subdirectory"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "pyramiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26252,
+      "status": "candidate",
+      "text": "pyramids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26240,
+      "status": "candidate",
+      "text": "thought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26131,
+      "status": "candidate",
+      "text": "contoured"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CMake build of example in subdirectory",
+  "concept_id": "cmake-build-of-example-in-subdirectory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/cmake_subdir_example.yml",
+      "source_repo": "SRombauts/SQLiteCpp"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake build of example in subdirectory",
+      "sense_id": "cmake-build-of-example-in-subdirectory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

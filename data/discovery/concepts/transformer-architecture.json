@@ -43,6 +43,30 @@
       "source_repo": "google-research/human-scene-transformer",
       "status": "candidate-context",
       "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "This repository contains code and checkpoints for **CPT**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "google-research/human-scene-transformer",
       "status": "candidate",
       "text": ":trophy: Winner of the [2023 JRDB Trajectory Prediction Challenge](https://jrdb.erc.monash.edu/leaderboards/trajectory) - [Reproduce](#jrdb-trajectory-prediction-challenge-results) our Result!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate",
+      "text": "This repository contains code and checkpoints for **CPT**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "google-research/human-scene-transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxvit"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

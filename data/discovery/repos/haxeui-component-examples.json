@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T18:49:04.516796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 629
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "haxeui/component-examples",
+    "html_url": "https://github.com/haxeui/component-examples",
+    "language": "Haxe",
+    "pushed_at": "2024-02-22T08:31:51Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2025-01-06T02:47:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

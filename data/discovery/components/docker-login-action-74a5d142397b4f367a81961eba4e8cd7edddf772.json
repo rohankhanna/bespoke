@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "chaoss/grimoirelab-sortinghat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo"
     }
   ]
 }

@@ -420,7 +420,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:06:15.124295+00:00",
+  "fetched_at": "2026-05-05T20:01:03.137953+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -432,7 +432,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 12700
+      "size": 12762
     },
     {
       "path": ".github/workflows/decnum.yml",
@@ -468,12 +468,12 @@
     "full_name": "jqlang/jq",
     "html_url": "https://github.com/jqlang/jq",
     "language": "C",
-    "pushed_at": "2026-04-26T14:00:59Z",
-    "stargazers_count": 34605,
+    "pushed_at": "2026-05-05T13:48:30Z",
+    "stargazers_count": 34624,
     "topics": [
       "jq"
     ],
-    "updated_at": "2026-05-01T03:22:46Z"
+    "updated_at": "2026-05-05T15:02:26Z"
   },
   "repo_links": [],
   "terms": [

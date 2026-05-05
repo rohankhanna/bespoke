@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sharpness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34950535,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34835228,
+      "status": "candidate",
+      "text": "keenness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34679747,
+      "status": "candidate",
+      "text": "bite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34673652,
+      "status": "candidate",
+      "text": "distinctness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34663622,
+      "status": "candidate",
+      "text": "pungency"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41044,
+      "status": "candidate",
+      "text": "acuity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30037,
+      "status": "candidate",
+      "text": "asperity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27074,
+      "status": "candidate",
+      "text": "edge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15060,
+      "status": "candidate",
+      "text": "bite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12023,
+      "status": "candidate",
+      "text": "keenness"
+    }
+  ],
+  "canonical_name": "sharpness",
+  "concept_id": "sharpness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "disintegration/imaging"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sharpness",
+      "sense_id": "sharpness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

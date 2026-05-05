@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Gas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Gas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate",
+      "text": "Gas"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028345,
+      "status": "candidate",
+      "text": "natural gas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028283,
+      "status": "candidate",
+      "text": "gasoline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028269,
+      "status": "candidate",
+      "text": "petrol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025290,
+      "status": "candidate",
+      "text": "gasolene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017892,
+      "status": "candidate",
+      "text": "swash"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32034,
+      "status": "candidate",
+      "text": "bluster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24047,
+      "status": "candidate",
+      "text": "tout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22031,
+      "status": "candidate",
+      "text": "swash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20039,
+      "status": "candidate",
+      "text": "boast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "throttle"
+    }
+  ],
+  "canonical_name": "Gas",
+  "concept_id": "gas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/gas.yml",
+      "source_repo": "cowprotocol/contracts"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gas",
+      "sense_id": "gas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

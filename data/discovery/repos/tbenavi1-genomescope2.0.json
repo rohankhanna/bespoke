@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tbenavi1/genomescope2.0",
+      "target": "kamilsjaron/smudgeplot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:21.028221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference-free profiling of polyploid genomes",
+    "fork": true,
+    "full_name": "tbenavi1/genomescope2.0",
+    "html_url": "https://github.com/tbenavi1/genomescope2.0",
+    "language": "R",
+    "pushed_at": "2025-10-02T18:01:47Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-15T10:46:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kamilsjaron/smudgeplot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977457,
+      "status": "candidate",
+      "text": "demarcation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968162,
+      "status": "candidate",
+      "text": "dividing line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909545,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39853241,
+      "status": "candidate",
+      "text": "counterpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030275,
+      "status": "candidate",
+      "text": "direct contrast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "contrast",
+      "sense_id": "contrast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34091,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33037,
+      "status": "candidate",
+      "text": "demarcation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "counterpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "dividing line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "direct contrast"
+    }
+  ],
+  "concept_id": "contrast",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contrast",
+  "observation_id": "b83e65f33936543f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "contrast",
+  "source_context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+  "source_file": null,
+  "source_repo": "disintegration/imaging",
+  "source_repo_description": "Imaging is a simple image processing package for Go"
+}

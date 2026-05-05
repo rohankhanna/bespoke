@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/shared_models_galleries",
+      "target": "extraltodeus/conditioning-token-experiments-for-comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:47:12.072036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Extraltodeus/shared_models_galleries",
+    "html_url": "https://github.com/Extraltodeus/shared_models_galleries",
+    "language": null,
+    "pushed_at": "2025-06-08T22:14:03Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-08T22:14:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/conditioning-token-experiments-for-comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

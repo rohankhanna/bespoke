@@ -733,7 +733,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T14:58:22.829315+00:00",
+  "fetched_at": "2026-05-05T18:43:23.423416+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -786,7 +786,7 @@
     "html_url": "https://github.com/vitejs/vite",
     "language": "TypeScript",
     "pushed_at": "2026-05-05T14:41:42Z",
-    "stargazers_count": 80401,
+    "stargazers_count": 80403,
     "topics": [
       "build-tool",
       "dev-server",
@@ -794,7 +794,7 @@
       "hmr",
       "vite"
     ],
-    "updated_at": "2026-05-05T13:37:25Z"
+    "updated_at": "2026-05-05T18:04:52Z"
   },
   "repo_links": [],
   "terms": [

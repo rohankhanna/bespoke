@@ -84,7 +84,7 @@
   "normalized_form": "comment-on-the-pull-request",
   "observation_id": "f64079a7dd836762",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Comment on the pull request",
   "source_context_snippet": "Comment on the pull request",
   "source_file": ".github/workflows/post_summaries.yaml",

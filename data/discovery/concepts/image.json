@@ -333,6 +333,42 @@
       "source_repo": "crazy-max/xgo",
       "status": "candidate-context",
       "text": "image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official repository for \"MAXIM: Multi-Axis MLP for Image Processing\". SOTA for denoising, deblurring, deraining, dehazing, and enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_glosses": [
@@ -497,6 +533,24 @@
       "source_repo": "crazy-max/xgo",
       "status": "candidate",
       "text": "image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_related_terms": [
@@ -906,11 +960,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "DaoCloud/crproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "disintegration/imaging"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

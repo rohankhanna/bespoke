@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gem-rbis",
+      "sense_id": "gem-rbis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gem-rbis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gem-rbis",
+  "observation_id": "ee5eeffadf620668",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "gem-rbis",
+  "source_context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+  "source_file": null,
+  "source_repo": "Shopify/tapioca",
+  "source_repo_description": "The swiss army knife of RBI generation"
+}

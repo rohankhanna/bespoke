@@ -79,6 +79,18 @@
       "source_repo": "i3/i3",
       "status": "candidate-context",
       "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "i3/i3",
       "status": "candidate",
       "text": "![Logo](docs/logo-30.png) i3: A tiling window manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gpac/gpac",
+      "status": "candidate",
+      "text": "[![Build Status](https://tests.gpac.io/testres/badge/build/ubuntu64)](https://buildbot.gpac.io/#/grid?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/mac2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "gpac/gpac"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

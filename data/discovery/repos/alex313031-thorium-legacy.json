@@ -19,14 +19,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "bromite/bromite",
+      "target": "eloston/ungoogled-chromium",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Alex313031/thorium-legacy",
-      "target": "eloston/ungoogled-chromium",
+      "target": "grapheneos/vanadium",
       "target_type": "repository"
     },
     {
@@ -170,7 +170,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T16:04:26.471521+00:00",
+  "fetched_at": "2026-05-05T19:59:52.242795+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -225,12 +225,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bromite/bromite",
+      "full_name": "eloston/ungoogled-chromium",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "eloston/ungoogled-chromium",
+      "full_name": "grapheneos/vanadium",
       "source_file": "README.md"
     }
   ],

@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "undreamai/llamalib",
+      "target": "utilityai/llama-cpp-rs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "undreamai/llmunity",
+      "target": "vietanhdev/llama-assistant",
       "target_type": "repository"
     },
     {
@@ -246,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
   "source_repo": "ggml-org/llama.cpp"
 }

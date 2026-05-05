@@ -32,6 +32,18 @@
       "source_repo": "lindera/lindera",
       "status": "candidate-context",
       "text": "Regression Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "GitHub Action using Docker-Coq [maintainers=@Justme0606,@Zimmi48]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "Regression Test"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lindera/lindera",
+      "status": "candidate",
+      "text": "Regression Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
       "status": "candidate",
       "text": "Regression Test"
     }
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "lindera/lindera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/gha-rt.yml",
+      "source_repo": "rocq-prover/docker-opam-action"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

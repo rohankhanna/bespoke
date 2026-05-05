@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "srombauts/sqlitecpp_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "iwongu/sqlite3pp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "keramer/sqlite_modern_cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "CMake build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_builtin_lib.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_builtin_lib.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "CMake SQLite3 builtin library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_subdir_example.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_subdir_example.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "CMake build of example in subdirectory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "target": "Meson build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "SRombauts/SQLiteCpp"
+}

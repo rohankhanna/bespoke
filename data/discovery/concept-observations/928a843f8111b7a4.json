@@ -84,7 +84,7 @@
   "normalized_form": "build-macos-installer",
   "observation_id": "928a843f8111b7a4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Build macOS installer",
   "source_context_snippet": "Build macOS installer",
   "source_file": ".github/workflows/macos-installer.yml",

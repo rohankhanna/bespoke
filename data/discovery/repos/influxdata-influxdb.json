@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "influxdata/validate-semantic-github-messages/.github/workflows/semantic.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "influxdata/influxdb",
+      "target": "influxdata/datafusion-udf-wasm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "influxdata/influxdb",
+      "target": "influxdata/arrow-datafusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "influxdata/influxdb",
+      "target": "influxdata/validate-semantic-github-messages/.github/workflows/semantic.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "influxdata/influxdb",
+      "target": "Semantic PR and Commit Messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "influxdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:39.369054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4690
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 11247
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3910
+    },
+    {
+      "path": ".github/workflows/semantic.yml",
+      "size": 226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scalable datastore for metrics, events, and real-time analytics",
+    "fork": false,
+    "full_name": "influxdata/influxdb",
+    "html_url": "https://github.com/influxdata/influxdb",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T20:18:05Z",
+    "stargazers_count": 31486,
+    "topics": [
+      "database",
+      "go",
+      "influxdb",
+      "metrics",
+      "monitoring",
+      "react",
+      "rust",
+      "time-series"
+    ],
+    "updated_at": "2026-05-05T19:42:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "influxdata/arrow-datafusion",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "influxdata/datafusion-udf-wasm",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Semantic PR and Commit Messages\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "term": "Semantic PR and Commit Messages"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "influxdb"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

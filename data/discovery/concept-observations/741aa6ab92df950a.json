@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detect the character encoding using Google\u2019s compact_enc_det library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025705,
+      "status": "candidate",
+      "text": "encryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027955,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027787,
+      "status": "candidate",
+      "text": "coder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027481,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027427,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "encoding",
+      "sense_id": "encoding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2042,
+      "status": "candidate",
+      "text": "encryption"
+    }
+  ],
+  "concept_id": "encoding",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "encoding",
+  "observation_id": "741aa6ab92df950a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "encoding",
+  "source_context_snippet": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library",
+  "source_file": null,
+  "source_repo": "sonicdoe/ced",
+  "source_repo_description": "Detect the character encoding using Google\u2019s compact_enc_det library"
+}

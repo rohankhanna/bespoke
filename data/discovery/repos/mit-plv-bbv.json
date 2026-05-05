@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coq.yml",
+      "source_repo": "mit-plv/bbv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq.yml",
+      "source_repo": "mit-plv/bbv",
+      "target": "CI (Coq)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:46.569786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/coq.yml",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bedrock Bit Vector Library",
+    "fork": false,
+    "full_name": "mit-plv/bbv",
+    "html_url": "https://github.com/mit-plv/bbv",
+    "language": "Rocq Prover",
+    "pushed_at": "2026-03-18T15:22:44Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-03-18T15:21:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI (Coq)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coq.yml",
+      "term": "CI (Coq)"
+    }
+  ]
+}

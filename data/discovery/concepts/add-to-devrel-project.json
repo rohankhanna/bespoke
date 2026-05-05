@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add to DevRel Project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "'Add to DevRel Project'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate",
+      "text": "'Add to DevRel Project'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "flanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11636,
+      "status": "candidate",
+      "text": "friends"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add to DevRel Project",
+  "concept_id": "add-to-devrel-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/add-to-devrel.yml",
+      "source_repo": "near/NEPs"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to DevRel Project",
+      "sense_id": "add-to-devrel-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

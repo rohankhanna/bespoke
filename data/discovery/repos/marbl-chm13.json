@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "marbl/CHM13",
-      "target": "marbl/t2t-browser",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-05T13:49:46.239234+00:00",
+  "edges": [],
+  "fetched_at": "2026-05-05T20:13:17.373880+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -30,12 +22,6 @@
     "topics": [],
     "updated_at": "2026-05-02T22:52:44Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "marbl/t2t-browser",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

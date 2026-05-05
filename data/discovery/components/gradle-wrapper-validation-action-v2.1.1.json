@@ -1,0 +1,17 @@
+{
+  "component": "gradle/wrapper-validation-action@v2.1.1",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "dash0hq/opentelemetry-demo"
+    }
+  ]
+}

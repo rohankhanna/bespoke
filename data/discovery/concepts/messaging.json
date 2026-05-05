@@ -229,6 +229,18 @@
       "source_repo": "allegro/hermes",
       "status": "candidate-context",
       "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serversideup/webext-bridge",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Messaging in Web Extensions made easy. Batteries included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/webext-bridge",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
       "source_repo": "allegro/hermes",
       "status": "candidate",
       "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serversideup/webext-bridge",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +586,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "serversideup/webext-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

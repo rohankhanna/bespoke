@@ -237,6 +237,18 @@
       "source_repo": "Alex313031/Thorium-MacOS",
       "status": "candidate-context",
       "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -353,6 +365,12 @@
       "source_repo": "Alex313031/Thorium-MacOS",
       "status": "candidate",
       "text": "![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/alex313031/thorium-macos?label=Version%3A) &nbsp;![GitHub](https://img.shields.io/github/license/alex313031/thorium-macos?color=green&label=License%3A) &nbsp;![GitHub commit activity](https://img.shields.io/github\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -720,11 +738,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Alex313031/Thorium-MacOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

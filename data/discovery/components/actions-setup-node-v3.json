@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3577,6 +3577,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/markdown-link-check.yaml",
       "source_repo": "aws-observability/observability-best-practices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moment/luxon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sonicdoe/ced"
     }
   ]
 }

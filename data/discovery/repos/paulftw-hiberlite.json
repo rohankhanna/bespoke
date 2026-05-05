@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T18:39:07.994473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ ORM for SQLite",
+    "fork": false,
+    "full_name": "paulftw/hiberlite",
+    "html_url": "https://github.com/paulftw/hiberlite",
+    "language": "C++",
+    "pushed_at": "2023-07-24T17:16:55Z",
+    "stargazers_count": 722,
+    "topics": [],
+    "updated_at": "2026-03-13T03:12:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

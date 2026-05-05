@@ -84,7 +84,7 @@
   "normalized_form": "failpoint-test",
   "observation_id": "a7930b5547982e9d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Failpoint test",
   "source_context_snippet": "Failpoint test",
   "source_file": ".github/workflows/failpoint_test.yaml",

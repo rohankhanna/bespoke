@@ -19,6 +19,18 @@
       "source_repo": "grafana/grafana-plugin-sdk-go",
       "status": "candidate-context",
       "text": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/semantic",
+      "status": "candidate-context",
+      "text": "Parsing, analyzing, and comparing source code across many languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/semantic",
+      "status": "candidate-context",
+      "text": "**NOTE**: _This repository is no longer supported or updated by GitHub. If you wish to continue to develop this code yourself, we recommend you fork it._"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "grafana/grafana-plugin-sdk-go",
       "status": "candidate",
       "text": "This SDK enables building [Grafana](https://github.com/grafana/grafana) backend plugins using Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/semantic",
+      "status": "candidate",
+      "text": "**NOTE**: _This repository is no longer supported or updated by GitHub. If you wish to continue to develop this code yourself, we recommend you fork it._"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "grafana/grafana-plugin-sdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "github/semantic"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

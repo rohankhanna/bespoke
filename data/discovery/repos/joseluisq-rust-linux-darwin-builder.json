@@ -1,0 +1,845 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "devel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "release-beta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "aarch64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "arm64v8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "darwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "darwin-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "debian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "debian-bookworm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "debian-bullseye",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "debian-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "debian-trixie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "linux-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "musl-gcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "musl-libc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "osxcross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "target": "x86-64",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:01:07.835600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9175
+    },
+    {
+      "path": ".github/workflows/devel.yml",
+      "size": 10404
+    },
+    {
+      "path": ".github/workflows/release-beta.yml",
+      "size": 16138
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 7016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross).",
+    "fork": false,
+    "full_name": "joseluisq/rust-linux-darwin-builder",
+    "html_url": "https://github.com/joseluisq/rust-linux-darwin-builder",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-23T00:30:22Z",
+    "stargazers_count": 147,
+    "topics": [
+      "aarch64",
+      "amd64",
+      "arm64",
+      "arm64v8",
+      "darwin",
+      "darwin-builder",
+      "debian",
+      "debian-bookworm",
+      "debian-bullseye",
+      "debian-linux",
+      "debian-trixie",
+      "docker-image",
+      "linux",
+      "linux-image",
+      "macos",
+      "musl-gcc",
+      "musl-libc",
+      "osxcross",
+      "rust-lang",
+      "x86-64"
+    ],
+    "updated_at": "2026-05-04T08:38:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "devel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devel.yml",
+      "term": "devel"
+    },
+    {
+      "context_snippet": "release-beta",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-beta.yml",
+      "term": "release-beta"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aarch64"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd64"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64v8"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darwin"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darwin-builder"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian-bookworm"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian-bullseye"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian-linux"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debian-trixie"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-image"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musl-gcc"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musl-libc"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "osxcross"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-64"
+    }
+  ]
+}

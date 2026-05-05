@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/evm-semantics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/k5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "kframework/k-editor-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runtimeverification/verified-smart-contracts",
+      "target": "ethereum/vyper",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "runtimeverification/verified-smart-contracts"
+}

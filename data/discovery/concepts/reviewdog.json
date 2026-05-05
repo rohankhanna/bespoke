@@ -532,6 +532,18 @@
       "source_repo": "preservim/vim-markdown",
       "status": "candidate-context",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "GitHub Action using Docker-Coq [maintainers=@Justme0606,@Zimmi48]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate-context",
+      "text": "reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -822,6 +834,12 @@
       "source_repo": "preservim/vim-markdown",
       "status": "candidate",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocq-prover/docker-opam-action",
+      "status": "candidate",
+      "text": "reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -1777,11 +1795,53 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "preservim/vim-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "rocq-prover/docker-opam-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "nutsdb/nutsdb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "pydantic-version-testing",
   "observation_id": "a8decc2d2ac2c86d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "\ud83d\udc0d Pydantic Version Testing",
   "source_context_snippet": "\"\ud83d\udc0d Pydantic Version Testing\"",
   "source_file": ".github/workflows/_test_pydantic.yml",

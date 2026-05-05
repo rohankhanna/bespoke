@@ -454,6 +454,30 @@
       "source_repo": "NoakLiu/FastCache-xDiT",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate-context",
+      "text": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)"
     }
   ],
   "candidate_glosses": [
@@ -678,6 +702,18 @@
       "source_repo": "NoakLiu/FastCache-xDiT",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -1117,11 +1153,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/cache.yml",
       "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

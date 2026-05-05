@@ -1721,6 +1721,36 @@
       "source_repo": "chris-zen/coremidi",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdbetancourt/eslint-plugin-neverthrow",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "viperproject/axiom-profiler",
+      "status": "candidate-context",
+      "text": "The axiom profiler for exploring and visualizing SMT solver quantifier instantiations (made via E-matching)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/axiom-profiler",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Don't let the cursor slow you down"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
+      "status": "candidate-context",
+      "text": "Deploy"
     }
   ],
   "candidate_glosses": [
@@ -2591,6 +2621,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chris-zen/coremidi",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdbetancourt/eslint-plugin-neverthrow",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "viperproject/axiom-profiler",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cursorless-dev/cursorless",
       "status": "candidate",
       "text": "Deploy"
     }
@@ -4723,11 +4771,71 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mdbetancourt/eslint-plugin-neverthrow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "viperproject/axiom-profiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "apalache-mc/apalache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "cursorless-dev/cursorless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml.orig",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "MetaCubeX/Yacd-meta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "privacycg/template"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

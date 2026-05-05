@@ -84,7 +84,7 @@
   "normalized_form": "github-pages",
   "observation_id": "71817df5af64a941",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "github pages",
   "source_context_snippet": "github pages",
   "source_file": ".github/workflows/gh-pages.yml",

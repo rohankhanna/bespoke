@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -10082,6 +10082,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "bamboo/idris2-lsp-vscode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/attw_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tz_tests.yaml",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp-solidity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gas.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-bitgroom.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-bitround.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-blosc2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-bshuf.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-bz2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-jpeg.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "usnistgov/libhdf5-wasm"
     }
   ]
 }

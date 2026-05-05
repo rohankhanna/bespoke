@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "extraltodeus/uncond-zero-for-comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "Comfy-Org/publish-node-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+}

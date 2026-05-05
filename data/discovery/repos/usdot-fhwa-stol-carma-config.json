@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "usdot-fhwa-stol/cdasim-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "usdot-fhwa-stol/actions/docker-org-and-tag@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:18:03.814828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6792
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2222
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 7116
+    },
+    {
+      "path": ".github/workflows/issue-notification.yml",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "System configuration data for CARMA vehicle/vehicle-class deployments",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-config",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-config",
+    "language": "Python",
+    "pushed_at": "2026-04-30T18:18:33Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-30T18:18:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/cdasim-config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    },
+    {
+      "context_snippet": "Issue Notification Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "term": "Issue Notification Dispatcher"
+    }
+  ]
+}

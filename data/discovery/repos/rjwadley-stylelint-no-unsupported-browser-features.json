@@ -427,7 +427,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T08:17:47.367072+00:00",
+  "fetched_at": "2026-05-05T18:54:37.748553+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -456,7 +456,7 @@
     "html_url": "https://github.com/RJWadley/stylelint-no-unsupported-browser-features",
     "language": "JavaScript",
     "pushed_at": "2026-02-03T18:34:40Z",
-    "stargazers_count": 449,
+    "stargazers_count": 450,
     "topics": [
       "browserslist",
       "css",
@@ -464,7 +464,7 @@
       "stylelint",
       "stylelint-plugin"
     ],
-    "updated_at": "2026-04-02T20:40:13Z"
+    "updated_at": "2026-05-05T18:16:39Z"
   },
   "repo_links": [
     {

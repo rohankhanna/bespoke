@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18367,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17347,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17347,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17307,
+      "status": "candidate",
+      "text": "newscast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16305,
+      "status": "candidate",
+      "text": "lottery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Release",
+      "sense_id": "nightly-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-release",
+  "observation_id": "c25eb2b50e8e844c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Nightly Release",
+  "source_context_snippet": "Nightly Release",
+  "source_file": ".github/workflows/nightly-release.yml",
+  "source_repo": "honeycombio/opentelemetry-demo",
+  "source_repo_description": "OpenTelemetry Community Demo Application"
+}

@@ -398,13 +398,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vuejs/core",
-      "target": "vuejs/awesome-vue",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vuejs/core",
@@ -965,7 +958,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:38:31.599906+00:00",
+  "fetched_at": "2026-05-05T18:43:19.086663+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1017,18 +1010,12 @@
     "full_name": "vuejs/core",
     "html_url": "https://github.com/vuejs/core",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T03:39:46Z",
-    "stargazers_count": 53505,
+    "pushed_at": "2026-05-05T13:16:09Z",
+    "stargazers_count": 53603,
     "topics": [],
-    "updated_at": "2026-04-23T04:49:53Z"
+    "updated_at": "2026-05-05T15:10:56Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vuejs/awesome-vue",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "autofix.ci",

@@ -19,6 +19,18 @@
       "source_repo": "bromite/bromite",
       "status": "candidate-context",
       "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bromite/filters",
+      "status": "candidate-context",
+      "text": "Filters used by Bromite AdBlock engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/filters",
+      "status": "candidate-context",
+      "text": "Filters used by Bromite AdBlock engine"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bromite/bromite",
       "status": "candidate",
       "text": "[![Stand With Ukraine](./banner2-direct.svg)](https://stand-with-ukraine.pp.ua/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bromite/filters",
+      "status": "candidate",
+      "text": "Filters used by Bromite AdBlock engine"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "bromite/bromite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "bromite/filters"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

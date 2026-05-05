@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "better-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "browserify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date",
+      "target": "better-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date",
+      "target": "browserify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matthewmueller/date",
+      "target": "uglify-js",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:51.509294+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Date() for humans",
+    "fork": false,
+    "full_name": "matthewmueller/date",
+    "html_url": "https://github.com/matthewmueller/date",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-15T02:18:59Z",
+    "stargazers_count": 1480,
+    "topics": [],
+    "updated_at": "2026-04-30T06:25:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

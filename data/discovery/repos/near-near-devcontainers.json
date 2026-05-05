@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml"
+    },
+    {
+      "component": "devcontainers-community/publish-feature@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml"
+    },
+    {
+      "component": "devcontainers-community/publish-feature@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "Publish Devcontainer Prebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "devcontainers-community/publish-feature@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "Publish Devcontainer Features",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:13.745332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/publish-devcontainer.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/publish-features.yml",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "near/near-devcontainers",
+    "html_url": "https://github.com/near/near-devcontainers",
+    "language": "Dockerfile",
+    "pushed_at": "2025-05-09T11:40:30Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-30T13:15:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Publish Devcontainer Prebuild\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "term": "Publish Devcontainer Prebuild"
+    },
+    {
+      "context_snippet": "\"Publish Devcontainer Features\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-features.yml",
+      "term": "Publish Devcontainer Features"
+    }
+  ]
+}

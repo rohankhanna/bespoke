@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxelime/lime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxenme/nme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxeui/haxeui-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxeui/haxeui-guides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "haxeui/haxeui-core",
+      "target": "Trigger backend builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxeui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haxeui/haxeui-core",
+      "target": "haxeui-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:49:11.049058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12449
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The core library of the HaxeUI framework",
+    "fork": false,
+    "full_name": "haxeui/haxeui-core",
+    "html_url": "https://github.com/haxeui/haxeui-core",
+    "language": "Haxe",
+    "pushed_at": "2026-03-25T17:47:31Z",
+    "stargazers_count": 386,
+    "topics": [
+      "gui",
+      "haxe",
+      "haxeui",
+      "haxeui-framework"
+    ],
+    "updated_at": "2026-04-26T22:16:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxelime/lime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxenme/nme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeui/haxeui-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeui/haxeui-guides",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Trigger backend builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Trigger backend builds"
+    },
+    {
+      "context_snippet": "`haxeui-core` is a users universal entry point into the HaxeUI framework and allows for the same user interface code (either with markup or via `haxe` source code) to be used to build a user interface on various platforms using various HaxeUI `backends`. Below is a general overv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxe"
+    },
+    {
+      "context_snippet": "`haxeui-core` is a users universal entry point into the HaxeUI framework and allows for the same user interface code (either with markup or via `haxe` source code) to be used to build a user interface on various platforms using various HaxeUI `backends`. Below is a general overv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxeui"
+    },
+    {
+      "context_snippet": "`haxeui-core` is a users universal entry point into the HaxeUI framework and allows for the same user interface code (either with markup or via `haxe` source code) to be used to build a user interface on various platforms using various HaxeUI `backends`. Below is a general overv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxeui-framework"
+    }
+  ]
+}

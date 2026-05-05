@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "dothq/browser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "source_repo": "dothq/browser",
+      "target": "Update contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "gecko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dothq/browser",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:39.815705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 766
+    },
+    {
+      "path": ".github/workflows/update-contributors.yml",
+      "size": 1098
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The browser that fights for your privacy.",
+    "fork": false,
+    "full_name": "dothq/browser",
+    "html_url": "https://github.com/dothq/browser",
+    "language": null,
+    "pushed_at": "2024-12-25T12:14:58Z",
+    "stargazers_count": 1089,
+    "topics": [
+      "android",
+      "browser",
+      "desktop",
+      "firefox",
+      "gecko",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "updated_at": "2026-05-03T01:49:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-contributors.yml",
+      "term": "Update contributors"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gecko"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "The browser that fights for your privacy.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

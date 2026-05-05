@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "grafana/grafana-plugin-sdk-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "github/semantic"
     }
   ],
   "term": "keep"

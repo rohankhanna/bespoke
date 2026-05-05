@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "harvardnlp/genbmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "source_repo": "harvardnlp/pytorch-struct",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:40:20.014656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4107
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1177
+    },
+    {
+      "path": ".github/workflows/torch-struct.yml",
+      "size": 1423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast, general, and tested differentiable structured prediction in PyTorch",
+    "fork": false,
+    "full_name": "harvardnlp/pytorch-struct",
+    "html_url": "https://github.com/harvardnlp/pytorch-struct",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-20T08:21:20Z",
+    "stargazers_count": 1128,
+    "topics": [],
+    "updated_at": "2026-04-10T04:55:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harvardnlp/genbmm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/torch-struct.yml",
+      "term": "Tests"
+    }
+  ]
+}

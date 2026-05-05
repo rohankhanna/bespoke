@@ -19,6 +19,18 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate-context",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "TixiaoShan/LIO-SAM",
       "status": "candidate",
       "text": "**A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": null,
       "source_repo": "TixiaoShan/LIO-SAM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

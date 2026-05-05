@@ -24,43 +24,7 @@
     }
   ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [
-    {
-      "provider": "datamuse",
-      "relation": "meaning-like",
-      "score": 24999,
-      "status": "candidate",
-      "text": "mintty"
-    },
-    {
-      "provider": "datamuse",
-      "relation": "meaning-like",
-      "score": 24998,
-      "status": "candidate",
-      "text": "putty"
-    },
-    {
-      "provider": "datamuse",
-      "relation": "meaning-like",
-      "score": 24997,
-      "status": "candidate",
-      "text": "tera term"
-    },
-    {
-      "provider": "datamuse",
-      "relation": "meaning-like",
-      "score": 24996,
-      "status": "candidate",
-      "text": "terminal"
-    },
-    {
-      "provider": "datamuse",
-      "relation": "meaning-like",
-      "score": 24995,
-      "status": "candidate",
-      "text": "matchbox"
-    }
-  ],
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -77,14 +41,12 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [
-    "datamuse"
-  ],
+  "lexical_providers": [],
   "lexical_status": "unresolved",
   "normalized_form": "tmux",
   "observation_id": "0086269e122bbd31",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "tmux",
   "source_context_snippet": "Tmux completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp).",
   "source_file": null,

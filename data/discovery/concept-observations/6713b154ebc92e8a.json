@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Generated Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Generated Code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26202,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "hacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18142,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18142,
+      "status": "candidate",
+      "text": "parity check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Generated Code",
+      "sense_id": "check-generated-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-generated-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-generated-code",
+  "observation_id": "6713b154ebc92e8a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Check Generated Code",
+  "source_context_snippet": "Check Generated Code",
+  "source_file": ".github/workflows/check-generated-code.yml",
+  "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+  "source_repo_description": null
+}

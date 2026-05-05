@@ -415,6 +415,18 @@
       "source_repo": "DOCGroup/ACE_TAO",
       "status": "candidate-context",
       "text": "[![Lastest release](https://img.shields.io/github/release/docgroup/ace_tao.svg)](https://github.com/DOCGroup/ACE_TAO/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agenda/agendash",
+      "status": "candidate-context",
+      "text": "Agenda Dashboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agendash",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "DOCGroup/ACE_TAO",
       "status": "candidate",
       "text": "[![Lastest release](https://img.shields.io/github/release/docgroup/ace_tao.svg)](https://github.com/DOCGroup/ACE_TAO/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agenda/agendash",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
     }
   ],
   "candidate_related_terms": [
@@ -1168,11 +1186,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "agenda/agendash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "vscode-debugadapter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/vscode",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-to-lua",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "vscode-debugadapter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "@types/vscode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "typescript-to-lua",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomblind/local-lua-debugger-vscode",
+      "target": "vsce",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:08:10.908252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10100
+    },
+    {
+      "path": "package.json",
+      "size": 9470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Local Lua Debugger for VSCode",
+    "fork": false,
+    "full_name": "tomblind/local-lua-debugger-vscode",
+    "html_url": "https://github.com/tomblind/local-lua-debugger-vscode",
+    "language": "TypeScript",
+    "pushed_at": "2023-04-30T22:19:09Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-05-04T04:40:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

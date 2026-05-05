@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "metabolize/lace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/meshlab-pickedpoints",
+      "target": "meshlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:56:25.541304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2219
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read and write MeshLab picked point (.pp) files",
+    "fork": false,
+    "full_name": "lace/meshlab-pickedpoints",
+    "html_url": "https://github.com/lace/meshlab-pickedpoints",
+    "language": "Python",
+    "pushed_at": "2022-12-22T15:48:15Z",
+    "stargazers_count": 4,
+    "topics": [
+      "landmarks",
+      "meshlab"
+    ],
+    "updated_at": "2024-12-02T02:07:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metabolize/lace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/meshlab-pickedpoints?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landmarks"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/meshlab-pickedpoints?style=flat-square)][pypi]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meshlab"
+    }
+  ]
+}

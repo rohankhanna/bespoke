@@ -55,6 +55,18 @@
       "source_repo": "gisbi-kim/mini-kitti-publisher",
       "status": "candidate-context",
       "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "gisbi-kim/mini-kitti-publisher",
       "status": "candidate",
       "text": "A very simple KITTI odometry dataset's images and velodyne points publisher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "gisbi-kim/mini-kitti-publisher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om"
     }
   ],
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

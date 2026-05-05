@@ -245,7 +245,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T15:52:10.102253+00:00",
+  "fetched_at": "2026-05-05T19:01:40.409127+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -270,7 +270,7 @@
     "html_url": "https://github.com/snapcast/snapcast",
     "language": "C++",
     "pushed_at": "2026-03-10T14:27:11Z",
-    "stargazers_count": 7611,
+    "stargazers_count": 7612,
     "topics": [
       "audio",
       "audio-player",
@@ -281,7 +281,7 @@
       "sonos",
       "synchronous"
     ],
-    "updated_at": "2026-05-04T15:14:23Z"
+    "updated_at": "2026-05-05T18:14:09Z"
   },
   "repo_links": [
     {

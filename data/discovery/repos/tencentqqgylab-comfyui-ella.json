@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "tencentqqgylab/ella",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "exponentialml/comfyui_ella",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "comfy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "ella",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:47:18.316286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6574
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 45
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ELLA nodes for ComfyUI",
+    "fork": false,
+    "full_name": "TencentQQGYLab/ComfyUI-ELLA",
+    "html_url": "https://github.com/TencentQQGYLab/ComfyUI-ELLA",
+    "language": "Python",
+    "pushed_at": "2024-08-16T11:21:10Z",
+    "stargazers_count": 385,
+    "topics": [
+      "comfy",
+      "comfyui",
+      "ella",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-30T14:11:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exponentialml/comfyui_ella",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencentqqgylab/ella",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfy"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ella"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

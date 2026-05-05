@@ -1063,6 +1063,18 @@
       "source_repo": "allenai/aokvqa",
       "status": "candidate-context",
       "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate-context",
+      "text": "High-accuracy NLP parser with models for 11 languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate-context",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1605,12 @@
       "source_repo": "allenai/aokvqa",
       "status": "candidate",
       "text": "Official repository for **A-OKVQA: A Benchmark for Visual Question Answering using World Knowledge**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -2752,11 +2770,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "nikitakit/self-attentive-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio-transformers"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

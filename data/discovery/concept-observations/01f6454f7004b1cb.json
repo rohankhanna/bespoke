@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate Examples"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "okay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11422,
+      "status": "candidate",
+      "text": "seal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Examples",
+      "sense_id": "validate-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-examples",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-examples",
+  "observation_id": "01f6454f7004b1cb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Validate Examples",
+  "source_context_snippet": "Validate Examples",
+  "source_file": ".github/workflows/validate-examples.yml",
+  "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+  "source_repo_description": null
+}

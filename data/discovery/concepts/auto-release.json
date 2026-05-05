@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Auto Release",
-    "auto-release"
+    "auto-release",
+    "Auto release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -218,6 +219,18 @@
       "source_repo": "yatsuki/v2ray",
       "status": "candidate-context",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Auto release"
     }
   ],
   "candidate_glosses": [
@@ -334,6 +347,12 @@
       "source_repo": "yatsuki/v2ray",
       "status": "candidate",
       "text": "Auto Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate",
+      "text": "Auto release"
     }
   ],
   "candidate_related_terms": [
@@ -917,11 +936,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "itzg/docker-minecraft-server"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

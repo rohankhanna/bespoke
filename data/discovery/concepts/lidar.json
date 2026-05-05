@@ -247,6 +247,30 @@
       "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
       "status": "candidate-context",
       "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE RA-L & ICRA'22] A lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "vectr-ucla/direct_lidar_inertial_odometry",
       "status": "candidate",
       "text": "DLIO is a new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction. It features several algorithmic improvements over its predecessor, [DLO](https://github.com/vectr-ucla/dir\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +604,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "vectr-ucla/direct_lidar_inertial_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

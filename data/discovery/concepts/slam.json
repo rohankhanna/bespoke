@@ -283,6 +283,30 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "[IEEE RA-L & ICRA'22] A lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate-context",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate-context",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "petercorke/robotics-toolbox-matlab",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/petercorke/robotics-toolbox-matlab.svg?branch=master)](https://travis-ci.com/petercorke/robotics-toolbox-matlab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vectr-ucla/direct_lidar_odometry",
+      "status": "candidate",
+      "text": "DLO is a lightweight and computationally-efficient frontend LiDAR odometry solution with consistent and accurate localization. It features several algorithmic innovations that increase speed, accuracy, and robustness of pose estimation in perceptually-challenging environments an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KIT-ISAS/lili-om",
+      "status": "candidate",
+      "text": "This is the code repository of LiLi-OM, a real-time tightly-coupled LiDAR-inertial odometry and mapping system for solid-state LiDAR (Livox Horizon) and conventional LiDARs (e.g., Velodyne). It has two variants as shown in the folder:"
     }
   ],
   "candidate_related_terms": [
@@ -640,11 +676,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "petercorke/robotics-toolbox-matlab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "vectr-ucla/direct_lidar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "KIT-ISAS/lili-om"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

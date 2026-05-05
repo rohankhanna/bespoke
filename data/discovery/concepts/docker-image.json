@@ -431,6 +431,30 @@
       "source_repo": "itzg/mc-router",
       "status": "candidate-context",
       "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "Use the same Docker image to cross-compile Rust x86_64/ARM64 programs for Linux and macOS (osxcross)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
     }
   ],
   "candidate_glosses": [
@@ -643,6 +667,18 @@
       "source_repo": "itzg/mc-router",
       "status": "candidate",
       "text": "[![GitHub issues](https://img.shields.io/github/issues/itzg/mc-router.svg)](https://github.com/itzg/mc-router/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joseluisq/rust-linux-darwin-builder",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/itzg/minecraft-server.svg?logo=docker)](https://hub.docker.com/r/itzg/minecraft-server/)"
     }
   ],
   "candidate_related_terms": [
@@ -1010,11 +1046,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "itzg/mc-router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-coq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "itzg/docker-minecraft-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

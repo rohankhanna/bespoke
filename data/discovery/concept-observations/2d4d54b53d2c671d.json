@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Style"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Style"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040187,
+      "status": "candidate",
+      "text": "stylus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003234,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002889,
+      "status": "candidate",
+      "text": "way"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992319,
+      "status": "candidate",
+      "text": "elan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984142,
+      "status": "candidate",
+      "text": "cut"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Style",
+      "sense_id": "style#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30058,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29039,
+      "status": "candidate",
+      "text": "panache"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17041,
+      "status": "candidate",
+      "text": "flair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13088,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12084,
+      "status": "candidate",
+      "text": "mode"
+    }
+  ],
+  "concept_id": "style",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "style",
+  "observation_id": "2d4d54b53d2c671d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Style",
+  "source_context_snippet": "Style",
+  "source_file": ".github/workflows/c-fortran-test-style.yml",
+  "source_repo": "CEED/libCEED",
+  "source_repo_description": "CEED Library: Code for Efficient Extensible Discretizations"
+}

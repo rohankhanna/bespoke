@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Forward Mode Automatic Differentiation for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19361135,
+      "status": "candidate",
+      "text": "julie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19346417,
+      "status": "candidate",
+      "text": "jules"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19323882,
+      "status": "candidate",
+      "text": "kelly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18645031,
+      "status": "candidate",
+      "text": "julian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18616782,
+      "status": "candidate",
+      "text": "mrs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "julia",
+      "sense_id": "julia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "julia",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "julia",
+  "observation_id": "7f9104b1486c8138",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "julia",
+  "source_context_snippet": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "JuliaDiff/ForwardDiff.jl",
+  "source_repo_description": "Forward Mode Automatic Differentiation for Julia"
+}

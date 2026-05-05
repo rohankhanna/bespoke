@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -187,6 +189,18 @@
       "source_repo": "grizzlypeak3d/DJV",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "Compression plugins for h5wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "jpeg"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +293,12 @@
       "source_repo": "grizzlypeak3d/DJV",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate",
+      "text": "jpeg"
     }
   ],
   "candidate_related_terms": [
@@ -494,11 +514,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/test-jpeg.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "size-data",
   "observation_id": "d8e095e727d91503",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "size data",
   "source_context_snippet": "size data",
   "source_file": ".github/workflows/size-data.yml",

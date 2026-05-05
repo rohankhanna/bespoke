@@ -231,6 +231,18 @@
       "source_repo": "jump-dev/NLopt.jl",
       "status": "candidate-context",
       "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "format-check"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +357,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate",
+      "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
       "status": "candidate",
       "text": "format-check"
     }
@@ -636,11 +654,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/format_check.yml",
       "source_repo": "jump-dev/NLopt.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/check-format.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "jump-dev/JuMP.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

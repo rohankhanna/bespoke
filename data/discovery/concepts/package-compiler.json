@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package Compiler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "Package Compiler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate",
+      "text": "Package Compiler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10836,
+      "status": "candidate",
+      "text": "compiling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10809,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10761,
+      "status": "candidate",
+      "text": "collector"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package Compiler",
+  "concept_id": "package-compiler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/package_compiler.yml",
+      "source_repo": "jump-dev/JuMP.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Compiler",
+      "sense_id": "package-compiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

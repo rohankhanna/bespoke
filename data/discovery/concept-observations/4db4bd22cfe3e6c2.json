@@ -48,7 +48,7 @@
   "normalized_form": "fargate",
   "observation_id": "4db4bd22cfe3e6c2",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "fargate",
   "source_context_snippet": "Docker Compose's integration for ECS and ACI retired in November 2023. For now, our main priority in this repository are critical security fixes.",
   "source_file": null,

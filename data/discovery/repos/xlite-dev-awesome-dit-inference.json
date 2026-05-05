@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "prathebaselva/fora",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "liewfeng/teacache",
       "target_type": "repository"
     },
@@ -19,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "roblox/smoothcache",
+      "target": "shenyi-z/duca",
       "target_type": "repository"
     },
     {
@@ -27,6 +20,13 @@
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "mit-han-lab/nunchaku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "shawnricecake/draft-attention",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T15:02:26.816583+00:00",
+  "fetched_at": "2026-05-05T18:47:26.913362+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,12 +147,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "prathebaselva/fora",
+      "full_name": "shawnricecake/draft-attention",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "roblox/smoothcache",
+      "full_name": "shenyi-z/duca",
       "source_file": "README.md"
     }
   ],

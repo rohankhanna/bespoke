@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "abseil-cpp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "status": "candidate-context",
+      "text": "Personal Gentoo overlay"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "status": "candidate-context",
+      "text": "abseil-cpp"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PF4Public/gentoo-overlay",
+      "status": "candidate",
+      "text": "abseil-cpp"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "abseil-cpp",
+  "concept_id": "abseil-cpp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/abseil-cpp.yml",
+      "source_repo": "PF4Public/gentoo-overlay"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "abseil-cpp",
+      "sense_id": "abseil-cpp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

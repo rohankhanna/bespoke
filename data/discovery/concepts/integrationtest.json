@@ -175,6 +175,18 @@
       "source_repo": "mcabbott/AxisKeys.jl",
       "status": "candidate-context",
       "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "IntegrationTest"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +271,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate",
+      "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
       "status": "candidate",
       "text": "IntegrationTest"
     }
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/downstream.yml",
       "source_repo": "mcabbott/AxisKeys.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

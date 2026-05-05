@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "unikernels"
+    "unikernels",
+    "Unikernels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "hermit-os/hermit-playground",
       "status": "candidate-context",
       "text": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/ptt",
+      "status": "candidate-context",
+      "text": "Postes, T\u00e9l\u00e9graphes et T\u00e9l\u00e9phones"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ptt",
+      "status": "candidate-context",
+      "text": "Unikernels"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "hermit-os/hermit-playground",
       "status": "candidate",
       "text": "<img width=\"100\" align=\"right\" src=\"img/hermitcore_logo.png\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/ptt",
+      "status": "candidate",
+      "text": "Unikernels"
     }
   ],
   "candidate_related_terms": [
@@ -92,11 +113,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "hermit-os/kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mirage/ptt"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

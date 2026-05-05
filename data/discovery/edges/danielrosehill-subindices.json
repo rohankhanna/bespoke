@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/ideas-index",
+      "target": "danielrosehill/n8n-workflows-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/mcp-projects-index",
+      "target": "danielrosehill/networking-and-infrastructure-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/mcp-server-ideas",
+      "target": "danielrosehill/networking-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/my-benchmarks",
+      "target": "danielrosehill/open-research-workspaces-index",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
   "source_repo": "danielrosehill/Subindices"
 }

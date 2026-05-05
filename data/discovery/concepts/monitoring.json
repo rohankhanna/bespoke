@@ -685,6 +685,18 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate-context",
       "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate-context",
+      "text": "Scalable datastore for metrics, events, and real-time analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1029,6 +1041,12 @@
       "source_repo": "appsignal/appsignal-ruby",
       "status": "candidate",
       "text": "AppSignal solves all your Ruby monitoring needs in a single tool. You and your"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "influxdata/influxdb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1660,11 +1678,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

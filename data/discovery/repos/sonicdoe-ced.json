@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "bindings",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ava",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clang-format",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sonicdoe/ced",
+      "target": "bindings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sonicdoe/ced",
+      "target": "ava",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sonicdoe/ced",
+      "target": "clang-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sonicdoe/ced",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sonicdoe/ced",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "sonicdoe/ced",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonicdoe/ced",
+      "target": "charset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonicdoe/ced",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonicdoe/ced",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:29.846046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 910
+    },
+    {
+      "path": "package.json",
+      "size": 763
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Detect the character encoding using Google\u2019s compact_enc_det library",
+    "fork": false,
+    "full_name": "sonicdoe/ced",
+    "html_url": "https://github.com/sonicdoe/ced",
+    "language": "C++",
+    "pushed_at": "2022-12-21T16:12:23Z",
+    "stargazers_count": 18,
+    "topics": [
+      "charset",
+      "encoding",
+      "nodejs"
+    ],
+    "updated_at": "2026-02-25T18:59:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charset"
+    },
+    {
+      "context_snippet": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "> Detect the character encoding using Google\u2019s [compact_enc_det](https://github.com/google/compact_enc_det) library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "makew0rld/dither",
+      "target": "joshdk/quantize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "makew0rld/dither",
+      "target": "crispybaguette/wasm-palette-converter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "makew0rld/dither",
+      "target": "brouxco/dithering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "makew0rld/dither",
+      "target": "esimov/dithergo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "makew0rld/dither",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "makew0rld/dither",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "makew0rld/dither",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "makew0rld/dither",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "makew0rld/dither",
+      "target": "dithering-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "makew0rld/dither",
+      "target": "dithering-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "makew0rld/dither",
+      "target": "ordered-dithering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:38.170136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10335
+    },
+    {
+      "path": "go.mod",
+      "size": 106
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast, correct image dithering library in Go.",
+    "fork": false,
+    "full_name": "makew0rld/dither",
+    "html_url": "https://github.com/makew0rld/dither",
+    "language": "Go",
+    "pushed_at": "2025-02-25T22:08:01Z",
+    "stargazers_count": 455,
+    "topics": [
+      "dithering-algorithms",
+      "dithering-images",
+      "ordered-dithering"
+    ],
+    "updated_at": "2026-04-25T22:15:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brouxco/dithering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crispybaguette/wasm-palette-converter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esimov/dithergo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshdk/quantize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![go reportcard](https://goreportcard.com/badge/github.com/makeworld-the-better-one/dither)](https://goreportcard.com/report/github.com/makeworld-the-better-one/dither)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dithering-algorithms"
+    },
+    {
+      "context_snippet": "[![go reportcard](https://goreportcard.com/badge/github.com/makeworld-the-better-one/dither)](https://goreportcard.com/report/github.com/makeworld-the-better-one/dither)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dithering-images"
+    },
+    {
+      "context_snippet": "[![go reportcard](https://goreportcard.com/badge/github.com/makeworld-the-better-one/dither)](https://goreportcard.com/report/github.com/makeworld-the-better-one/dither)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ordered-dithering"
+    }
+  ]
+}

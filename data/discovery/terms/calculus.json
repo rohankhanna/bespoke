@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mentat-collective/emmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ForwardDiff.jl"
     }
   ],
   "term": "calculus"

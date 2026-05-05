@@ -163,6 +163,18 @@
       "source_repo": "ouster-lidar/ouster-ros",
       "status": "candidate-context",
       "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "status": "candidate-context",
+      "text": "Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "status": "candidate-context",
+      "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
     }
   ],
   "candidate_glosses": [
@@ -255,6 +267,12 @@
       "source_repo": "ouster-lidar/ouster-ros",
       "status": "candidate",
       "text": "[ROS1 (melodic/noetic)](https://github.com/ouster-lidar/ouster-ros/tree/master) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "status": "candidate",
+      "text": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended)."
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "ouster-lidar/ouster-ros"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

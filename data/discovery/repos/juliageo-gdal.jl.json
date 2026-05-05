@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "yeesian/archgdal.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "juliabinarywrappers/gdal_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Integrations.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "IntegrationTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "gdal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "satellite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:52:44.985099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5545
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1550
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/Integrations.yml",
+      "size": 2137
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library",
+    "fork": false,
+    "full_name": "JuliaGeo/GDAL.jl",
+    "html_url": "https://github.com/JuliaGeo/GDAL.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-17T12:02:39Z",
+    "stargazers_count": 95,
+    "topics": [
+      "gdal",
+      "geo",
+      "geospatial",
+      "io",
+      "julia",
+      "ogr",
+      "raster",
+      "satellite",
+      "vector"
+    ],
+    "updated_at": "2026-04-17T12:02:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/gdal_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeesian/archgdal.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "IntegrationTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Integrations.yml",
+      "term": "IntegrationTest"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdal"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "satellite"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

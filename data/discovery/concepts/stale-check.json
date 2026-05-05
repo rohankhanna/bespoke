@@ -55,6 +55,18 @@
       "source_repo": "tianocore/edk2",
       "status": "candidate-context",
       "text": "Stale Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Docker image that provides a Minecraft Server for Java Edition that automatically installs/upgrades versions, modloaders, modpacks and more at startup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
+      "status": "candidate-context",
+      "text": "Stale Check"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tianocore/edk2",
+      "status": "candidate",
+      "text": "Stale Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itzg/docker-minecraft-server",
       "status": "candidate",
       "text": "Stale Check"
     }
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "tianocore/edk2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/stale-check.yml",
+      "source_repo": "itzg/docker-minecraft-server"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

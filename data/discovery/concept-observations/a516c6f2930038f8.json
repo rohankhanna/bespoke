@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "branches actions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "branches actions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11635,
+      "status": "candidate",
+      "text": "stocks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11616,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11616,
+      "status": "candidate",
+      "text": "log"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11560,
+      "status": "candidate",
+      "text": "arts"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "branches actions",
+      "sense_id": "branches-actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "branches-actions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "branches-actions",
+  "observation_id": "a516c6f2930038f8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "branches actions",
+  "source_context_snippet": "branches actions",
+  "source_file": ".github/workflows/branches.yml",
+  "source_repo": "gpac/gpac",
+  "source_repo_description": "GPAC Ultramedia OSS for Video Streaming & Next-Gen Multimedia Transcoding, Packaging & Delivery"
+}

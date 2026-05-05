@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sky-ecosystem/multicall",
+      "target": "makerdao/multicall.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:08:12.347114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Multicall: Aggregate multiple constant function call results into one",
+    "fork": false,
+    "full_name": "sky-ecosystem/multicall",
+    "html_url": "https://github.com/sky-ecosystem/multicall",
+    "language": "Solidity",
+    "pushed_at": "2023-03-26T08:19:51Z",
+    "stargazers_count": 867,
+    "topics": [],
+    "updated_at": "2026-04-26T14:47:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "makerdao/multicall.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

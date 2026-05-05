@@ -259,6 +259,30 @@
       "source_repo": "lace/vg",
       "status": "candidate-context",
       "text": "vg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/blmath",
+      "status": "candidate-context",
+      "text": "DEPRECATED: Collection of math-related utilities developed at Body Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/blmath",
+      "status": "candidate-context",
+      "text": "blmath"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "CEED Library: Code for Efficient Extensible Discretizations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions][github-badge]][github-link]"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "lace/vg",
       "status": "candidate",
       "text": "vg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/blmath",
+      "status": "candidate",
+      "text": "blmath"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CEED/libCEED",
+      "status": "candidate",
+      "text": "[![GitHub Actions][github-badge]][github-link]"
     }
   ],
   "candidate_related_terms": [],
@@ -526,11 +562,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "lace/vg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lace/blmath"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "CEED/libCEED"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

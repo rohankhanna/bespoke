@@ -1390,6 +1390,30 @@
       "source_repo": "Boddlnagg/midir",
       "status": "candidate-context",
       "text": "Cross-platform, realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_glosses": [
@@ -2082,6 +2106,18 @@
       "source_repo": "Boddlnagg/midir",
       "status": "candidate",
       "text": "Cross-platform, realtime MIDI processing in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_related_terms": [
@@ -3094,11 +3130,41 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "Boddlnagg/midir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

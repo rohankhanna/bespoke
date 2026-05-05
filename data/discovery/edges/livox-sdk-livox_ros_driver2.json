@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "livox-sdk/livox-sdk2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "mid-360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "ros2",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "Livox-SDK/livox_ros_driver2"
+}

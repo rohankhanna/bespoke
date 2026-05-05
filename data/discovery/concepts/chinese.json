@@ -511,6 +511,18 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate-context",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate-context",
+      "text": "This repository contains code and checkpoints for **CPT**."
     }
   ],
   "candidate_glosses": [
@@ -765,6 +777,12 @@
       "source_repo": "CLUEbenchmark/CLUEDatasetSearch",
       "status": "candidate",
       "text": "\u4e2d\u82f1\u6587NLP\u6570\u636e\u96c6\u3002\u53ef\u4ee5\u70b9\u51fb[\u641c\u7d22](https://www.cluebenchmarks.com/dataSet_search.html)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastnlp/CPT",
+      "status": "candidate",
+      "text": "This repository contains code and checkpoints for **CPT**."
     }
   ],
   "candidate_related_terms": [
@@ -1129,11 +1147,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

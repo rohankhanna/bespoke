@@ -67,6 +67,18 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate-context",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clauderic/react-tiny-virtual-list",
+      "status": "candidate-context",
+      "text": "A tiny but mighty 3kb list virtualization library, with zero dependencies \ud83d\udcaa Supports variable heights/widths, sticky items, scrolling to index, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-tiny-virtual-list",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"margin-bottom: 30px;\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clauderic/react-tiny-virtual-list",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"margin-bottom: 30px;\">"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,17 @@
       "observed_at": "2026-05-05T06:54:34.093705+00:00",
       "source_file": null,
       "source_repo": "bvaughn/react-virtualized"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "clauderic/react-tiny-virtual-list"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

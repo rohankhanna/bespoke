@@ -31,6 +31,42 @@
       "source_repo": "usdot-fhwa-stol/carma-platform",
       "status": "candidate-context",
       "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "status": "candidate-context",
+      "text": "ROS Driver for AVT cameras using VIMBA SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "status": "candidate-context",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "status": "candidate-context",
+      "text": "Now available! Cloud-based open source software (OSS) that enables infrastructure cooperation with automated driving technology through Transportation Systems Management and Operations (TSMO). Doxygen Source Code Documentation : https://usdot-fhwa-stol.github.io/documentation/carma-cloud/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "status": "candidate-context",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "status": "candidate-context",
+      "text": "System configuration data for CARMA vehicle/vehicle-class deployments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-config",
+      "status": "candidate-context",
+      "text": "Docker Hub build"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "usdot-fhwa-stol/carma-platform",
+      "status": "candidate",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera",
+      "status": "candidate",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "status": "candidate",
+      "text": "Docker Hub build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "usdot-fhwa-stol/carma-config",
       "status": "candidate",
       "text": "Docker Hub build"
     }
@@ -100,11 +154,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/dockerhub.yml",
       "source_repo": "usdot-fhwa-stol/carma-platform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/avt_vimba_camera"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

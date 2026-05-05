@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "allegro/bigcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "codecov/codecov-action@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "caching-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VictoriaMetrics/fastcache",
+      "target": "inmemory-cache",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:13:42.200637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6385
+    },
+    {
+      "path": "go.mod",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast thread-safe inmemory cache for big number of entries in Go. Minimizes GC overhead",
+    "fork": false,
+    "full_name": "VictoriaMetrics/fastcache",
+    "html_url": "https://github.com/VictoriaMetrics/fastcache",
+    "language": "Go",
+    "pushed_at": "2026-04-15T19:47:09Z",
+    "stargazers_count": 2351,
+    "topics": [
+      "cache",
+      "caching",
+      "caching-library",
+      "fast",
+      "go",
+      "golang",
+      "inmemory-cache"
+    ],
+    "updated_at": "2026-05-03T05:30:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegro/bigcache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/VictoriaMetrics/fastcache/workflows/main/badge.svg)](https://github.com/VictoriaMetrics/fastcache/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inmemory-cache"
+    }
+  ]
+}

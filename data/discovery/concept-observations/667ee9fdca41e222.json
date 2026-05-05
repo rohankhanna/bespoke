@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ci-ristretto-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ci-ristretto-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-ristretto-tests",
+      "sense_id": "ci-ristretto-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-ristretto-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-ristretto-tests",
+  "observation_id": "667ee9fdca41e222",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "ci-ristretto-tests",
+  "source_context_snippet": "ci-ristretto-tests",
+  "source_file": ".github/workflows/ci-ristretto-tests.yml",
+  "source_repo": "dgraph-io/ristretto",
+  "source_repo_description": "A high performance memory-bound Go cache"
+}

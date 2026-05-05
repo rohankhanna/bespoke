@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OCaml promises and concurrent I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946108,
+      "status": "candidate",
+      "text": "futurity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945272,
+      "status": "candidate",
+      "text": "hereafter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945195,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944864,
+      "status": "candidate",
+      "text": "subsequent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39944663,
+      "status": "candidate",
+      "text": "later"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "futures",
+      "sense_id": "futures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "futures",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "futures",
+  "observation_id": "020bd44006d3aa46",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "futures",
+  "source_context_snippet": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]",
+  "source_file": null,
+  "source_repo": "ocsigen/lwt",
+  "source_repo_description": "OCaml promises and concurrent I/O"
+}

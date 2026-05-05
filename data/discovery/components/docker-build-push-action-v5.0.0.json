@@ -1,0 +1,27 @@
+{
+  "component": "docker/build-push-action@v5.0.0",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "dash0hq/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "DataDog/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component_build-images.yml",
+      "source_repo": "honeycombio/opentelemetry-demo"
+    }
+  ]
+}

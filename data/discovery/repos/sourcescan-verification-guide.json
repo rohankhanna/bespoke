@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SourceScan/verification-guide",
+      "target": "near/near-cli-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SourceScan/verification-guide",
+      "target": "near/neps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SourceScan/verification-guide",
+      "target": "canvinus/cargo-near-new-example",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:10.712549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Verifying Smart Contracts on NEAR: Step-by-Step Guide",
+    "fork": false,
+    "full_name": "SourceScan/verification-guide",
+    "html_url": "https://github.com/SourceScan/verification-guide",
+    "language": null,
+    "pushed_at": "2024-12-19T21:10:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-07T21:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "canvinus/cargo-near-new-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/near-cli-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "near/neps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

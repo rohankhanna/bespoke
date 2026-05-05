@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepdialog/CPM-LM-TF2",
+      "target": "tsinghuaai/cpm-generate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:40:28.616759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2404
+    },
+    {
+      "path": "Dockerfile",
+      "size": 775
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "deepdialog/CPM-LM-TF2",
+    "html_url": "https://github.com/deepdialog/CPM-LM-TF2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-21T12:08:50Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-04-07T10:48:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-generate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -48,7 +48,7 @@
   "normalized_form": "automerge-pre-commit-ci",
   "observation_id": "780bbf3e7a4f9408",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "automerge-pre-commit-ci",
   "source_context_snippet": "automerge-pre-commit-ci",
   "source_file": ".github/workflows/automerge-pre-commit-ci.yml",

@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "octol/vim-cpp-enhanced-highlight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "cpp23",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfrg/vim-c-cpp-modern",
+      "target": "syntax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:09:08.644140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extended Vim syntax highlighting for C and C++ (C++11..26)",
+    "fork": false,
+    "full_name": "bfrg/vim-c-cpp-modern",
+    "html_url": "https://github.com/bfrg/vim-c-cpp-modern",
+    "language": "Vim Script",
+    "pushed_at": "2025-12-25T22:00:56Z",
+    "stargazers_count": 606,
+    "topics": [
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "cpp23",
+      "highlighting",
+      "syntax",
+      "vim"
+    ],
+    "updated_at": "2026-05-01T19:18:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octol/vim-cpp-enhanced-highlight",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp23"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "Keyword and regex-based syntax highlighting for C and C++11..26 in Vim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax"
+    }
+  ]
+}

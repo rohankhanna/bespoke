@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Simd Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Simd Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18485,
+      "status": "candidate",
+      "text": "binary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18485,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18485,
+      "status": "candidate",
+      "text": "decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18485,
+      "status": "candidate",
+      "text": "linear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10411,
+      "status": "candidate",
+      "text": "address"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Simd Image",
+      "sense_id": "build-simd-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-simd-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-simd-image",
+  "observation_id": "428c78b233307a2c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Build Simd Image",
+  "source_context_snippet": "Build Simd Image",
+  "source_file": ".github/workflows/build-simd-image-from-tag.yaml",
+  "source_repo": "sideprotocol/ibcswap",
+  "source_repo_description": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+}

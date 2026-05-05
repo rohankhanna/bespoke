@@ -2228,6 +2228,66 @@
       "source_repo": "jump-dev/NLopt.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "Julia package for manipulation and analysis of planar geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate-context",
+      "text": "AMD GPU  (ROCm) programming in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "status": "candidate-context",
+      "text": "Forward Mode Automatic Differentiation for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -3368,6 +3428,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jump-dev/NLopt.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jump-dev/JuMP.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -5117,11 +5207,95 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "jump-dev/NLopt.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Cairo.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStrings/LibTeXPrintf.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/GDAL.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGeo/LibGEOS.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jump-dev/JuMP.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

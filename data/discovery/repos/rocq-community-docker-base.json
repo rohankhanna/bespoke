@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-base",
+      "target": "coq-community/docker-base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-base",
+      "target": "coq-community/docker-coq-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocq-community/docker-base",
+      "target": "coq-community/docker-rocq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocq-community/docker-base",
+      "target": "docker-coq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:27.774953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parent image for Docker images of the Coq proof assistant [maintainer=@Justme0606]",
+    "fork": false,
+    "full_name": "rocq-community/docker-base",
+    "html_url": "https://github.com/rocq-community/docker-base",
+    "language": "Dockerfile",
+    "pushed_at": "2026-03-30T14:25:20Z",
+    "stargazers_count": 4,
+    "topics": [
+      "coq",
+      "docker-coq"
+    ],
+    "updated_at": "2026-03-30T14:26:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-base",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-coq-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coq-community/docker-rocq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![tags](https://img.shields.io/badge/tags%20on-docker%20hub-blue.svg)](https://hub.docker.com/r/rocq/base#supported-tags \"Supported tags on Docker Hub\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-coq"
+    }
+  ]
+}

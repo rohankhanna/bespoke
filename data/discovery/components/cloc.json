@@ -1,7 +1,7 @@
 {
   "component": "cloc",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -17,6 +17,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "luciopaiva/heapify"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "date-fns/date-fns"
     }
   ]
 }

@@ -635,6 +635,18 @@
       "source_repo": "ZcashFoundation/zebra",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -947,6 +959,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ZcashFoundation/zebra",
+      "status": "candidate",
+      "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
       "status": "candidate",
       "text": "Benchmarks"
     }
@@ -1633,11 +1651,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "preactjs/preact"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

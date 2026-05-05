@@ -1,7 +1,7 @@
 {
   "component": "datachainlab/rust-cache@allow_registry_src_caching",
   "first_seen_at": "2026-05-05T00:36:37.683079+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "datachainlab/lcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/besu-qbft-elc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hf_switching_test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "datachainlab/cosmos-bsc-ibc-lcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "datachainlab/lcp-go"
     }
   ]
 }

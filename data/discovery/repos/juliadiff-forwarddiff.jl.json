@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "juliadiff/diffrules.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "automatic-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "calculus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDiff/ForwardDiff.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:17:01.658924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3514
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Forward Mode Automatic Differentiation for Julia",
+    "fork": false,
+    "full_name": "JuliaDiff/ForwardDiff.jl",
+    "html_url": "https://github.com/JuliaDiff/ForwardDiff.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-23T19:07:15Z",
+    "stargazers_count": 989,
+    "topics": [
+      "automatic-differentiation",
+      "calculus",
+      "julia"
+    ],
+    "updated_at": "2026-04-30T08:45:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliadiff/diffrules.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-differentiation"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calculus"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

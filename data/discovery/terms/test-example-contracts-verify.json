@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test_examples.yml",
+      "source_repo": "dj8yfo/near-verify-rs"
+    }
+  ],
+  "term": "Test example contracts verify"
+}

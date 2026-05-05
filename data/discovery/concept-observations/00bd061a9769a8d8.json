@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enforce Review Rules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enforce Review Rules"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36106,
+      "status": "candidate",
+      "text": "referee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35328,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35328,
+      "status": "candidate",
+      "text": "umpire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19041,
+      "status": "candidate",
+      "text": "correct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19028,
+      "status": "candidate",
+      "text": "discipline"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce Review Rules",
+      "sense_id": "enforce-review-rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-review-rules",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-review-rules",
+  "observation_id": "00bd061a9769a8d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "Enforce Review Rules",
+  "source_context_snippet": "Enforce Review Rules",
+  "source_file": ".github/workflows/review-check.yml",
+  "source_repo": "cowprotocol/contracts",
+  "source_repo_description": "Smart contracts for the Gnosis Protocol v2"
+}

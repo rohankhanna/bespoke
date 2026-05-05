@@ -271,6 +271,18 @@
       "source_repo": "arktypeio/arktype",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">ArkType</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate-context",
+      "text": "High-accuracy NLP parser with models for 11 languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate-context",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "arktypeio/arktype",
       "status": "candidate",
       "text": "<h1 align=\"center\">ArkType</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikitakit/self-attentive-parser",
+      "status": "candidate",
+      "text": "A high-accuracy parser with models for 11 languages, implemented in Python. Based on [Constituency Parsing with a Self-Attentive Encoder](https://arxiv.org/abs/1805.01052) from ACL 2018, with additional changes described in [Multilingual Constituency Parsing with Self-Attention \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +688,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "nikitakit/self-attentive-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "pydantic/pydantic"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

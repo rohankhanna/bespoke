@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -61,6 +61,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Algolzw/image-restoration-sde"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/maxim"
     }
   ],
   "term": "denoising"

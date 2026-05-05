@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -441,6 +441,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "JettHu/ComfyUI-TCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Extraltodeus/Skimmed_CFG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jabir-zheng/TCD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "TencentQQGYLab/ComfyUI-ELLA"
     }
   ],
   "term": "stable-diffusion"

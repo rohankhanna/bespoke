@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "octopus-network/ibc-spec-cn",
+      "target": "octopus-network/ibc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:00.724131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chinese translation of Cosmos IBC spec: https://github.com/cosmos/ibc/tree/main/spec",
+    "fork": false,
+    "full_name": "octopus-network/ibc-spec-cn",
+    "html_url": "https://github.com/octopus-network/ibc-spec-cn",
+    "language": null,
+    "pushed_at": "2022-08-08T07:47:00Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-04-29T11:17:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octopus-network/ibc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

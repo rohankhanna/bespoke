@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment_test.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml"
+    },
+    {
+      "component": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mattnotmitt/doxygen-action@v1.9.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "apache/tomcat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deployment_test.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment_test.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "Deployment Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/docker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/dockerhub.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "Docker Hub build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "usdot-fhwa-stol/actions/.github/workflows/issue-notification.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "Issue Notification Dispatcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "mattnotmitt/doxygen-action@v1.9.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "usdot-fhwa-stol/carma-cloud",
+      "target": "Doxygen Action",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:18:00.458606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16270
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1251
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/deployment_test.yml",
+      "size": 2330
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/dockerhub.yml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/issue-notification.yml",
+      "size": 198
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Now available! Cloud-based open source software (OSS) that enables infrastructure cooperation with automated driving technology through Transportation Systems Management and Operations (TSMO). Doxygen Source Code Documentation : https://usdot-fhwa-stol.github.io/documentation/carma-cloud/",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-cloud",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-cloud",
+    "language": "Java",
+    "pushed_at": "2026-04-29T23:52:57Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-29T20:54:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/tomcat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deployment Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deployment_test.yml",
+      "term": "Deployment Test"
+    },
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "Docker Hub build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "term": "Docker Hub build"
+    },
+    {
+      "context_snippet": "Issue Notification Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-notification.yml",
+      "term": "Issue Notification Dispatcher"
+    },
+    {
+      "context_snippet": "Doxygen Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Doxygen Action"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-devrel.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "reviewdog/action-misspell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-devrel.yml",
+      "source_repo": "near/NEPs",
+      "target": "actions/add-to-project@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-devrel.yml",
+      "source_repo": "near/NEPs",
+      "target": "Add to DevRel Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "DavidAnson/markdownlint-cli2-action@v19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "near/NEPs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "near/NEPs",
+      "target": "reviewdog/action-misspell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "near/NEPs",
+      "target": "spellchecker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "near/NEPs",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "near/NEPs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "near/NEPs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "near/NEPs",
+      "target": "nearprotocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:12:19.204564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12982
+    },
+    {
+      "path": ".github/workflows/add-to-devrel.yml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1098
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Near Enhancement Proposals repository",
+    "fork": false,
+    "full_name": "near/NEPs",
+    "html_url": "https://github.com/near/NEPs",
+    "language": null,
+    "pushed_at": "2026-05-05T10:18:36Z",
+    "stargazers_count": 237,
+    "topics": [
+      "blockchain",
+      "documentation",
+      "hacktoberfest",
+      "nearprotocol"
+    ],
+    "updated_at": "2026-05-01T01:23:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Add to DevRel Project'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-devrel.yml",
+      "term": "Add to DevRel Project"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "spellchecker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "spellchecker"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![project chat](https://img.shields.io/badge/zulip-join_chat-brightgreen.svg)](https://near.zulipchat.com/#narrow/stream/320497-nep-standards)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearprotocol"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "celestiaorg/protobuf3-solidity",
       "status": "candidate-context",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/lazyledger/protobuf3-solidity)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "Codec library for protobuf3 in Solidity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate-context",
+      "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "celestiaorg/protobuf3-solidity",
       "status": "candidate",
       "text": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/lazyledger/protobuf3-solidity)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib",
+      "status": "candidate",
+      "text": "[![NPM Package](https://img.shields.io/npm/v/@lazyledger/protobuf3-solidity-lib)](https://www.npmjs.org/package/@lazyledger/protobuf3-solidity-lib)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

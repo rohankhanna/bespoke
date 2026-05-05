@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-03T18:24:01.791245+00:00",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ironArray/Caterva2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-blosc2.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
     }
   ],
   "term": "blosc2"

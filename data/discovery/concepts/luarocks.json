@@ -142,6 +142,18 @@
       "source_repo": "MisanthropicBit/neotest-busted",
       "status": "candidate-context",
       "text": "luarocks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate-context",
+      "text": "Neovim as Lua interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate-context",
+      "text": "\"luarocks\""
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "MisanthropicBit/neotest-busted",
       "status": "candidate",
       "text": "luarocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mfussenegger/nlua",
+      "status": "candidate",
+      "text": "\"luarocks\""
     }
   ],
   "candidate_related_terms": [],
@@ -505,11 +523,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "MisanthropicBit/neotest-busted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/nurr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mfussenegger/nlua"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -641,6 +641,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "gnosis/gp-v2-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "celestiaorg/protobuf3-solidity-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cowprotocol/contracts"
     }
   ],
   "term": "Node.js CI"

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "cross-section"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/hobart",
+      "status": "candidate-context",
+      "text": "Obtain cross sections of polygonal meshes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/hobart?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/hobart",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/hobart?style=flat-square)][pypi]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005600,
+      "status": "candidate",
+      "text": "crosswise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011613,
+      "status": "candidate",
+      "text": "cross-shaped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009829,
+      "status": "candidate",
+      "text": "transect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008644,
+      "status": "candidate",
+      "text": "transverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007420,
+      "status": "candidate",
+      "text": "transversal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "cross-sectional"
+    }
+  ],
+  "canonical_name": "cross-section",
+  "concept_id": "cross-section",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "lace/hobart"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-section",
+      "sense_id": "cross-section#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

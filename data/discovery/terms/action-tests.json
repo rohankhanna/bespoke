@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/action-tests.yml",
       "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/color"
     }
   ],
   "term": "Action Tests"

@@ -84,7 +84,7 @@
   "normalized_form": "tests",
   "observation_id": "5e063ac08c3f8eb2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Tests",
   "source_context_snippet": "Tests",
   "source_file": ".github/workflows/tests.yml",

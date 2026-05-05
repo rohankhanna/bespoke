@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "juliagpu/cuda.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "maleadt/llvm.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "amdgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGPU/AMDGPU.jl",
+      "target": "rocm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:52:55.598843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2721
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AMD GPU  (ROCm) programming in Julia",
+    "fork": false,
+    "full_name": "JuliaGPU/AMDGPU.jl",
+    "html_url": "https://github.com/JuliaGPU/AMDGPU.jl",
+    "language": "Julia",
+    "pushed_at": "2026-05-01T22:59:04Z",
+    "stargazers_count": 333,
+    "topics": [
+      "amdgpu",
+      "gpu",
+      "gpu-programming",
+      "julia",
+      "rocm"
+    ],
+    "updated_at": "2026-05-01T22:54:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagpu/cuda.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maleadt/llvm.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "*AMD GPU (ROCm) programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amdgpu"
+    },
+    {
+      "context_snippet": "*AMD GPU (ROCm) programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "*AMD GPU (ROCm) programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "*AMD GPU (ROCm) programming in Julia*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    }
+  ]
+}

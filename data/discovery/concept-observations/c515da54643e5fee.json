@@ -84,7 +84,7 @@
   "normalized_form": "test-suite",
   "observation_id": "c515da54643e5fee",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Test suite",
   "source_context_snippet": "Test suite",
   "source_file": ".github/workflows/tests.yml",

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4707,6 +4707,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-docs.yaml",
       "source_repo": "box2ai-robotics/robosuite-joycon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/entente"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/hobart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "lace/meshlab-pickedpoints"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_assets.yml",
+      "source_repo": "microsoft/fluentui-emoji"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "lightstep/opentelemetry-demo"
     }
   ]
 }

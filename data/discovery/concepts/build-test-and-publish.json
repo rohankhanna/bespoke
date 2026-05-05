@@ -2,7 +2,8 @@
   "aliases": [
     "Build, test and publish",
     "Build test and publish",
-    "Build, Test and Publish"
+    "Build, Test and Publish",
+    "build test and publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -63,6 +64,18 @@
       "source_repo": "emscripten-forge/mambajs",
       "status": "candidate-context",
       "text": "Build, test and publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "Compression plugins for h5wasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate-context",
+      "text": "\"build test and publish\""
     }
   ],
   "candidate_glosses": [
@@ -95,6 +108,12 @@
       "source_repo": "emscripten-forge/mambajs",
       "status": "candidate",
       "text": "Build, test and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h5wasm/h5wasm-plugins",
+      "status": "candidate",
+      "text": "\"build test and publish\""
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +187,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "emscripten-forge/mambajs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

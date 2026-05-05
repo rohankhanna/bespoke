@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-devcontainer.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "Publish Devcontainer Prebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "devcontainers-community/publish-feature@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-features.yml",
+      "source_repo": "near/near-devcontainers",
+      "target": "Publish Devcontainer Features",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "near/near-devcontainers"
+}

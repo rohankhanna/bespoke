@@ -63,11 +63,15 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-05T16:47:45.121195+00:00",
+  "fetched_at": "2026-05-05T20:07:31.534467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 1668
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 198
     },
     {
       "path": ".github/workflows/ci.yaml",

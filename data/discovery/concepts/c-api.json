@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "C++ API"
+    "C++ API",
+    "c-api"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "PRBonn/kiss-icp",
       "status": "candidate-context",
       "text": "C++ API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate-context",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "PRBonn/kiss-icp",
       "status": "candidate",
       "text": "C++ API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libLAS/libLAS",
+      "status": "candidate",
+      "text": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-05-04T00:37:27.522097+00:00",
       "source_file": ".github/workflows/cpp.yml",
       "source_repo": "PRBonn/kiss-icp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS"
     }
   ],
   "first_seen_at": "2026-05-04T00:37:27.522097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T00:37:27.522097+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

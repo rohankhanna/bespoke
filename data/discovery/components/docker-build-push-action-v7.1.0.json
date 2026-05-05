@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v7.1.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-catnip-docker-image.yml",
       "source_repo": "cloudfoundry/cf-acceptance-tests"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "itzg/docker-minecraft-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr.yml",
+      "source_repo": "itzg/docker-minecraft-server"
     }
   ]
 }

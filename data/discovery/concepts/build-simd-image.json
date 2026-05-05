@@ -19,12 +19,30 @@
       "source_repo": "cosmos/ibc-go",
       "status": "candidate-context",
       "text": "Build Simd Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sideprotocol/ibcswap",
+      "status": "candidate-context",
+      "text": "Implementations of IBC-based inter-blockchain swap application protocols, built and maintained by Side Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sideprotocol/ibcswap",
+      "status": "candidate-context",
+      "text": "Build Simd Image"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cosmos/ibc-go",
+      "status": "candidate",
+      "text": "Build Simd Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sideprotocol/ibcswap",
       "status": "candidate",
       "text": "Build Simd Image"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": ".github/workflows/build-simd-image-from-tag.yml",
       "source_repo": "cosmos/ibc-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-simd-image-from-tag.yaml",
+      "source_repo": "sideprotocol/ibcswap"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

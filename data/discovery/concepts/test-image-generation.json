@@ -43,6 +43,36 @@
       "source_repo": "apache/doris-opentelemetry-demo",
       "status": "candidate-context",
       "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "honeycombio/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honeycombio/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Community Demo Application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opentelemetry-demo",
+      "status": "candidate-context",
+      "text": "Test image generation"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +91,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/doris-opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elastic/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "honeycombio/opentelemetry-demo",
+      "status": "candidate",
+      "text": "Test image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "newrelic/opentelemetry-demo",
       "status": "candidate",
       "text": "Test image generation"
     }
@@ -124,11 +172,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/build-images.yml",
       "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-images-elastic.yml",
+      "source_repo": "elastic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "elastic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "honeycombio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo"
     }
   ],
   "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

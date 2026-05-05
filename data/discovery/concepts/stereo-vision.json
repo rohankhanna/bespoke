@@ -91,6 +91,18 @@
       "source_repo": "cogsys-tuebingen/mobilestereonet",
       "status": "candidate-context",
       "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KumarRobotics/msckf_vio",
+      "status": "candidate-context",
+      "text": "Robust Stereo Visual Inertial Odometry for Fast Autonomous Flight"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KumarRobotics/msckf_vio",
+      "status": "candidate-context",
+      "text": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "cogsys-tuebingen/mobilestereonet",
       "status": "candidate",
       "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KumarRobotics/msckf_vio",
+      "status": "candidate",
+      "text": "The `MSCKF_VIO` package is a stereo version of MSCKF. The software takes in synchronized stereo images and IMU messages and generates real-time 6DOF pose estimation of the IMU frame."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "cogsys-tuebingen/mobilestereonet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "KumarRobotics/msckf_vio"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "open-telemetry/weaver/.github/actions/setup-weaver@69132efc9896446f8be65c652c27149d028ee62e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "Check Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-code.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-code.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "open-telemetry/weaver/.github/actions/setup-weaver@69132efc9896446f8be65c652c27149d028ee62e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated-code.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "Check Generated Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "open-telemetry/weaver/.github/actions/setup-weaver@69132efc9896446f8be65c652c27149d028ee62e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "OSSF Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-examples.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-examples.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "open-telemetry/weaver/.github/actions/setup-weaver@69132efc9896446f8be65c652c27149d028ee62e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-examples.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "target": "Validate Examples",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
+  "source_repo": "open-telemetry/opentelemetry-weaver-examples"
+}

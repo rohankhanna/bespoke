@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:18:05.218349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3021
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Driver wrapper for Delphi SRR2 radar system for usage with the CARMA Platform",
+    "fork": false,
+    "full_name": "usdot-fhwa-stol/carma-delphi-srr2-driver",
+    "html_url": "https://github.com/usdot-fhwa-stol/carma-delphi-srr2-driver",
+    "language": "C++",
+    "pushed_at": "2024-04-11T19:27:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-09-12T19:14:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

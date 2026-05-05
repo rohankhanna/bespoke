@@ -84,7 +84,7 @@
   "normalized_form": "install-from-conda-forge",
   "observation_id": "282760c2e7e8e349",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "Install from conda-forge",
   "source_context_snippet": "Install from conda-forge",
   "source_file": ".github/workflows/install-from-conda.yml",

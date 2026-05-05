@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/filters",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bromite/filters",
+      "target": "bromite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:02.613985+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Filters used by Bromite AdBlock engine",
+    "fork": false,
+    "full_name": "bromite/filters",
+    "html_url": "https://github.com/bromite/filters",
+    "language": "HTML",
+    "pushed_at": "2022-12-14T21:12:04Z",
+    "stargazers_count": 61,
+    "topics": [
+      "adblock",
+      "bromite"
+    ],
+    "updated_at": "2026-04-13T09:51:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Filters used by Bromite AdBlock engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "Filters used by Bromite AdBlock engine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bromite"
+    }
+  ]
+}

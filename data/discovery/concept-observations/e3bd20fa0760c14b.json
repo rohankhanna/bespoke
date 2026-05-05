@@ -84,7 +84,7 @@
   "normalized_form": "joss-draft-pdf",
   "observation_id": "e3bd20fa0760c14b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-05T12:38:52.093380+00:00",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
   "observed_text": "JOSS Draft PDF",
   "source_context_snippet": "JOSS Draft PDF",
   "source_file": ".github/workflows/joss-draft-pdf.yml",

@@ -19,12 +19,30 @@
       "source_repo": "dgraph-io/badger",
       "status": "candidate-context",
       "text": "Trunk Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "Trunk Code Quality"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dgraph-io/badger",
+      "status": "candidate",
+      "text": "Trunk Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
       "status": "candidate",
       "text": "Trunk Code Quality"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/trunk.yml",
       "source_repo": "dgraph-io/badger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/trunk.yml",
+      "source_repo": "dgraph-io/ristretto"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

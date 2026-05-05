@@ -1,22 +1,7 @@
 {
-  "first_seen_at": "2026-05-05T12:38:52.093380+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "unum-cloud/UStore"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "fastapi/full-stack-fastapi-template"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "dwyl/quotes"
-    },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
@@ -30,12 +15,12 @@
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "jzelinskie/faq"
+      "source_repo": "unum-cloud/UStore"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "ultrajson/ultrajson"
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "term": "json"

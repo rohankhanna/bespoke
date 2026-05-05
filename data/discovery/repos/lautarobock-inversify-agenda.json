@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "agenda",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/agenda",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inversify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-bump",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "reflect-metadata",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "inversify/inversifyjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "agenda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "@types/agenda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "@types/jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "inversify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "jasmine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "npm-bump",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "reflect-metadata",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lautarobock/inversify-agenda",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:50.884537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2695
+    },
+    {
+      "path": "package.json",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Some utilities for the development of agenda workers with Inversify.",
+    "fork": false,
+    "full_name": "lautarobock/inversify-agenda",
+    "html_url": "https://github.com/lautarobock/inversify-agenda",
+    "language": "TypeScript",
+    "pushed_at": "2023-03-04T03:55:15Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-03-25T20:15:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inversify/inversifyjs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

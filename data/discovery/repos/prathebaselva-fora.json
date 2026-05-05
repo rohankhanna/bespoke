@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "diffusion-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prathebaselva/FORA",
+      "target": "faster-sampling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:47:19.659820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FORA introduces simple yet effective caching mechanism in Diffusion Transformer Architecture for faster inference sampling.",
+    "fork": false,
+    "full_name": "prathebaselva/FORA",
+    "html_url": "https://github.com/prathebaselva/FORA",
+    "language": "Python",
+    "pushed_at": "2024-07-08T19:25:27Z",
+    "stargazers_count": 55,
+    "topics": [
+      "caching",
+      "diffusion-transformer",
+      "faster-sampling"
+    ],
+    "updated_at": "2026-03-26T15:11:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caching"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-transformer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faster-sampling"
+    }
+  ]
+}

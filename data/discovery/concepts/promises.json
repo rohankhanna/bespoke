@@ -43,6 +43,18 @@
       "source_repo": "pburtchaell/redux-promise-middleware",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "OCaml promises and concurrent I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "pburtchaell/redux-promise-middleware",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/redux-promise-middleware.svg?style=flat)](https://www.npmjs.com/package/redux-promise-middleware)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "pburtchaell/redux-promise-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ocsigen/lwt"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

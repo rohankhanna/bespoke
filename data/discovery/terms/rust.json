@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -3946,6 +3946,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Boddlnagg/midir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "iqlusioninc/canister"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "iqlusioninc/cosmon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/stdarch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "influxdata/influxdb"
     }
   ],
   "term": "Rust"

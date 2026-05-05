@@ -970,6 +970,18 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate-context",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate-context",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
     }
   ],
   "candidate_glosses": [
@@ -1452,6 +1464,12 @@
       "source_repo": "bvaughn/react-virtualized",
       "status": "candidate",
       "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dgraph-io/ristretto",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
     }
   ],
   "candidate_related_terms": [
@@ -2443,11 +2461,35 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "dgraph-io/ristretto"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

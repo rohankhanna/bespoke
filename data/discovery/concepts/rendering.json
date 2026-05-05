@@ -343,6 +343,18 @@
       "source_repo": "glumpy/glumpy",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fogleman/gg",
+      "status": "candidate-context",
+      "text": "Go Graphics - 2D rendering in Go with a simple API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogleman/gg",
+      "status": "candidate-context",
+      "text": "`gg` is a library for rendering 2D graphics in pure Go."
     }
   ],
   "candidate_glosses": [
@@ -513,6 +525,12 @@
       "source_repo": "glumpy/glumpy",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogleman/gg",
+      "status": "candidate",
+      "text": "`gg` is a library for rendering 2D graphics in pure Go."
     }
   ],
   "candidate_related_terms": [
@@ -868,11 +886,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "fogleman/gg"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

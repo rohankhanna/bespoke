@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "emscripten-forge/mambajs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "h5wasm/h5wasm-plugins"
     }
   ],
   "term": "Build, test and publish"

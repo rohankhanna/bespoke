@@ -5849,6 +5849,66 @@
       "source_repo": "stefan-hoeck/idris2-pack",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "OCaml promises and concurrent I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "The Near Enhancement Proposals repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Merkleized IAVL+ Tree implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coocood/freecache",
+      "status": "candidate-context",
+      "text": "A cache library for Go with zero GC overhead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coocood/freecache",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -8819,6 +8879,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stefan-hoeck/idris2-pack",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "near/NEPs",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/iavl",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/contracts",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coocood/freecache",
       "status": "candidate",
       "text": "Lint"
     }
@@ -15613,11 +15703,173 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ocsigen/lwt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Vimjas/vint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "etcd-io/bbolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "near/NEPs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cosmos/iavl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "cowprotocol/contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ColemanGariety/gulp-nodemon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "coocood/freecache"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

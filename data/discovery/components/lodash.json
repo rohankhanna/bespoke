@@ -1,7 +1,7 @@
 {
   "component": "lodash",
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -1332,6 +1332,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "React9k/react-timeline-9000"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "date-fns/date-fns"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "parlez-vous/server"
     }
   ]
 }

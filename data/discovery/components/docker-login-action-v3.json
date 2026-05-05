@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2367,6 +2367,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/component-build-images.yml",
       "source_repo": "apache/doris-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-beta.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joseluisq/rust-linux-darwin-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "Azure/Azure-kusto-opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component_build-images-elastic.yml",
+      "source_repo": "elastic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-images.yml",
+      "source_repo": "DataDog/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component_build-images.yml",
+      "source_repo": "honeycombio/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/component-build-images.yml",
+      "source_repo": "newrelic/opentelemetry-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JLSchuler99/svc-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Seedloaf/mc-router-discovery"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerhub.yml",
+      "source_repo": "usdot-fhwa-stol/carma-config"
     }
   ]
 }

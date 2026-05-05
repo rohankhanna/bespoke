@@ -247,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:51:56.215386+00:00",
+  "fetched_at": "2026-05-05T20:00:55.085781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -259,7 +259,7 @@
     },
     {
       "path": "go.mod",
-      "size": 4731
+      "size": 4719
     },
     {
       "path": ".github/workflows/OWNERS",
@@ -299,8 +299,8 @@
     "full_name": "etcd-io/etcd",
     "html_url": "https://github.com/etcd-io/etcd",
     "language": "Go",
-    "pushed_at": "2026-04-29T16:33:36Z",
-    "stargazers_count": 51661,
+    "pushed_at": "2026-05-05T17:43:42Z",
+    "stargazers_count": 51668,
     "topics": [
       "cncf",
       "consensus",
@@ -313,7 +313,7 @@
       "kubernetes",
       "raft"
     ],
-    "updated_at": "2026-04-30T14:22:48Z"
+    "updated_at": "2026-05-05T19:34:38Z"
   },
   "repo_links": [
     {

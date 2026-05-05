@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "livox-sdk/livox-sdk2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "mid-360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Livox-SDK/livox_ros_driver2",
+      "target": "ros2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:39.997268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Livox device driver under Ros(Compatible with ros and ros2), support Lidar HAP and Mid-360.",
+    "fork": false,
+    "full_name": "Livox-SDK/livox_ros_driver2",
+    "html_url": "https://github.com/Livox-SDK/livox_ros_driver2",
+    "language": "C++",
+    "pushed_at": "2026-04-14T03:33:34Z",
+    "stargazers_count": 729,
+    "topics": [
+      "hap",
+      "mid-360",
+      "ros",
+      "ros2"
+    ],
+    "updated_at": "2026-05-04T08:55:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livox-sdk/livox-sdk2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mid-360"
+    },
+    {
+      "context_snippet": "Livox ROS Driver 2 is the 2nd-generation driver package used to connect LiDAR products produced by Livox, applicable for ROS (noetic recommended) and ROS2 (foxy or humble recommended).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "rotate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate-context",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "disintegration/imaging",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955314,
+      "status": "candidate",
+      "text": "go around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916178,
+      "status": "candidate",
+      "text": "revolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957314,
+      "status": "candidate",
+      "text": "rotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956968,
+      "status": "candidate",
+      "text": "rotational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955403,
+      "status": "candidate",
+      "text": "slue"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9036,
+      "status": "candidate",
+      "text": "revolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1033,
+      "status": "candidate",
+      "text": "go around"
+    }
+  ],
+  "canonical_name": "rotate",
+  "concept_id": "rotate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "disintegration/imaging"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rotate",
+      "sense_id": "rotate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

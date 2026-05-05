@@ -878,7 +878,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T15:07:46.477128+00:00",
+  "fetched_at": "2026-05-05T18:53:45.854109+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -886,7 +886,7 @@
     },
     {
       "path": "package.json",
-      "size": 4047
+      "size": 4054
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -930,8 +930,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-05T15:01:32Z",
-    "stargazers_count": 42862,
+    "pushed_at": "2026-05-05T17:58:09Z",
+    "stargazers_count": 43222,
     "topics": [
       "agentic-ai",
       "agentic-engineering",
@@ -954,7 +954,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-05T15:07:33Z"
+    "updated_at": "2026-05-05T18:53:20Z"
   },
   "repo_links": [
     {

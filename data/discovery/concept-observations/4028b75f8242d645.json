@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Forward Mode Automatic Differentiation for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044410,
+      "status": "candidate",
+      "text": "infinitesimal calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39770227,
+      "status": "candidate",
+      "text": "tartar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047622,
+      "status": "candidate",
+      "text": "the calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047621,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047604,
+      "status": "candidate",
+      "text": "calculated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "calculus",
+      "sense_id": "calculus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20051,
+      "status": "candidate",
+      "text": "tartar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "infinitesimal calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5,
+      "status": "candidate",
+      "text": "the calculus"
+    }
+  ],
+  "concept_id": "calculus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "calculus",
+  "observation_id": "4028b75f8242d645",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "calculus",
+  "source_context_snippet": "[![CI](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/JuliaDiff/ForwardDiff.jl/actions/workflows/ci.yml?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "JuliaDiff/ForwardDiff.jl",
+  "source_repo_description": "Forward Mode Automatic Differentiation for Julia"
+}

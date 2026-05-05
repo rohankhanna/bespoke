@@ -303,13 +303,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "will62794/spectacle",
-      "target": "tlaplus-community/tree-sitter-tlaplus",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "will62794/spectacle",
@@ -779,7 +772,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-05T12:50:40.500205+00:00",
+  "fetched_at": "2026-05-05T19:53:24.440400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -816,13 +809,7 @@
     ],
     "updated_at": "2026-04-25T06:08:39Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tlaplus-community/tree-sitter-tlaplus",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Playwright Tests",

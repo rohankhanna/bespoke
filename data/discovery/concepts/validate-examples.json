@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Validate examples"
+    "Validate examples",
+    "Validate Examples"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate-context",
       "text": "Validate examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "status": "candidate-context",
+      "text": "Validate Examples"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "cloudflare/pint",
       "status": "candidate",
       "text": "Validate examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples",
+      "status": "candidate",
+      "text": "Validate Examples"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +89,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "cloudflare/pint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/validate-examples.yml",
+      "source_repo": "open-telemetry/opentelemetry-weaver-examples"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

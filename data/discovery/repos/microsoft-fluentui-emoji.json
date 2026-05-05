@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets.yml",
+      "source_repo": "microsoft/fluentui-emoji",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_assets.yml",
+      "source_repo": "microsoft/fluentui-emoji",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_assets.yml",
+      "source_repo": "microsoft/fluentui-emoji",
+      "target": "Check Asset Consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/fluentui-emoji",
+      "target": "emoji",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:00:46.580095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 792
+    },
+    {
+      "path": ".github/workflows/check_assets.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of familiar, friendly, and modern emoji from Microsoft",
+    "fork": false,
+    "full_name": "microsoft/fluentui-emoji",
+    "html_url": "https://github.com/microsoft/fluentui-emoji",
+    "language": "Python",
+    "pushed_at": "2025-01-30T19:33:58Z",
+    "stargazers_count": 9941,
+    "topics": [
+      "emoji"
+    ],
+    "updated_at": "2026-05-05T16:49:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Asset Consistency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_assets.yml",
+      "term": "Check Asset Consistency"
+    },
+    {
+      "context_snippet": "Fluent Emoji are a collection of familiar, friendly, and modern emoji from Microsoft.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji"
+    }
+  ]
+}

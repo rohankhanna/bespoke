@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Imaging is a simple image processing package for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985909,
+      "status": "candidate",
+      "text": "luminousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985792,
+      "status": "candidate",
+      "text": "luminosity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985069,
+      "status": "candidate",
+      "text": "luminance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938166,
+      "status": "candidate",
+      "text": "cleverness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936622,
+      "status": "candidate",
+      "text": "smartness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brightness",
+      "sense_id": "brightness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58089,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "luminance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "luminosity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5026,
+      "status": "candidate",
+      "text": "cleverness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "smartness"
+    }
+  ],
+  "concept_id": "brightness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brightness",
+  "observation_id": "50821d0366a64e32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "brightness",
+  "source_context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/disintegration/imaging)](https://pkg.go.dev/github.com/disintegration/imaging)",
+  "source_file": null,
+  "source_repo": "disintegration/imaging",
+  "source_repo_description": "Imaging is a simple image processing package for Go"
+}

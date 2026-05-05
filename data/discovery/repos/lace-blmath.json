@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/blmath",
+      "target": "lace/hyla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/blmath",
+      "target": "lace/ounce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lace/blmath",
+      "target": "metabolize/blmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "euclidean-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "numerics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lace/blmath",
+      "target": "units-of-measure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:56:27.217028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7712
+    },
+    {
+      "path": "requirements.txt",
+      "size": 131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED: Collection of math-related utilities developed at Body Labs",
+    "fork": false,
+    "full_name": "lace/blmath",
+    "html_url": "https://github.com/lace/blmath",
+    "language": "Python",
+    "pushed_at": "2023-02-03T21:06:36Z",
+    "stargazers_count": 8,
+    "topics": [
+      "euclidean-geometry",
+      "geometry",
+      "linear-algebra",
+      "math",
+      "numerics",
+      "units-of-measure"
+    ],
+    "updated_at": "2025-05-01T11:04:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/hyla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lace/ounce",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metabolize/blmath",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "euclidean-geometry"
+    },
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "math"
+    },
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerics"
+    },
+    {
+      "context_snippet": "blmath",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "units-of-measure"
+    }
+  ]
+}

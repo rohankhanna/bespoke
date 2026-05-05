@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Smart contracts for the Gnosis Protocol v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"cla\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"cla\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29544523,
+      "status": "candidate",
+      "text": "ica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29542389,
+      "status": "candidate",
+      "text": "tla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29541715,
+      "status": "candidate",
+      "text": "asd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29540146,
+      "status": "candidate",
+      "text": "nsa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29538154,
+      "status": "candidate",
+      "text": "cpa"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cla",
+      "sense_id": "cla#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cla",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cla",
+  "observation_id": "f0397a21d23e098f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "cla",
+  "source_context_snippet": "\"cla\"",
+  "source_file": ".github/workflows/cla.yml",
+  "source_repo": "cowprotocol/contracts",
+  "source_repo_description": "Smart contracts for the Gnosis Protocol v2"
+}

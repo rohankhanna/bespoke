@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4112,6 +4112,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-kimi-cli.yml",
       "source_repo": "MoonshotAI/kimi-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "near/near-abi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iqlusioninc/tmkms"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/unicode-bidi"
     }
   ]
 }

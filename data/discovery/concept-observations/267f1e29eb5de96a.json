@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A high performance memory-bound Go cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "267f1e29eb5de96a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "[![GitHub License](https://img.shields.io/github/license/dgraph-io/ristretto)](https://github.com/dgraph-io/ristretto?tab=Apache-2.0-1-ov-file#readme)",
+  "source_file": null,
+  "source_repo": "dgraph-io/ristretto",
+  "source_repo_description": "A high performance memory-bound Go cache"
+}

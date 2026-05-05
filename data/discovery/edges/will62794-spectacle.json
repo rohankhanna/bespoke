@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "will62794/spectacle",
-      "target": "tlaplus-community/tree-sitter-tlaplus",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "will62794/spectacle",
@@ -477,6 +470,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-05T12:38:52.093380+00:00",
+  "generated_at": "2026-05-05T18:38:09.351693+00:00",
   "source_repo": "will62794/spectacle"
 }

@@ -505,7 +505,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T21:50:40.867072+00:00",
+  "fetched_at": "2026-05-05T20:16:15.139051+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -545,8 +545,8 @@
     "full_name": "uxlfoundation/oneTBB",
     "html_url": "https://github.com/uxlfoundation/oneTBB",
     "language": "C++",
-    "pushed_at": "2026-05-03T18:17:24Z",
-    "stargazers_count": 6636,
+    "pushed_at": "2026-05-05T19:12:41Z",
+    "stargazers_count": 6635,
     "topics": [
       "composability",
       "flowgraph",
@@ -558,7 +558,7 @@
       "tbbmalloc",
       "threading"
     ],
-    "updated_at": "2026-05-01T23:08:37Z"
+    "updated_at": "2026-05-05T18:11:31Z"
   },
   "repo_links": [],
   "terms": [

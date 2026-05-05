@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "charset-detector",
+      "sense_id": "charset-detector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "charset-detector",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "charset-detector",
+  "observation_id": "742ea035f9aa70b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "charset-detector",
+  "source_context_snippet": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library",
+  "source_file": null,
+  "source_repo": "cloudaper/compact_enc_det",
+  "source_repo_description": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+}

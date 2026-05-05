@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:07:07.270942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example code for KubeCon Observability by Design talk.",
+    "fork": false,
+    "full_name": "jsuereth/o11y-by-design",
+    "html_url": "https://github.com/jsuereth/o11y-by-design",
+    "language": "Jinja",
+    "pushed_at": "2025-04-07T15:32:36Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-02-14T16:10:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

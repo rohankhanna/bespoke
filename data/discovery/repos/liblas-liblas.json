@@ -1,0 +1,213 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "c-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "cplusplus-03",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "file-format-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "liblas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "lidar-point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "point-cloud-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "point-cloud-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libLAS/libLAS",
+      "target": "programs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:49.665632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ library and programs for reading and writing ASPRS LAS format with LiDAR data",
+    "fork": false,
+    "full_name": "libLAS/libLAS",
+    "html_url": "https://github.com/libLAS/libLAS",
+    "language": "C++",
+    "pushed_at": "2026-04-13T07:57:37Z",
+    "stargazers_count": 330,
+    "topics": [
+      "c-api",
+      "c-plus-plus",
+      "cplusplus",
+      "cplusplus-03",
+      "file-format-library",
+      "liblas",
+      "library",
+      "lidar",
+      "lidar-point-cloud",
+      "point-cloud",
+      "point-cloud-library",
+      "point-cloud-processing",
+      "programs",
+      "python"
+    ],
+    "updated_at": "2026-04-13T07:57:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-api"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-03"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-format-library"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liblas"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-point-cloud"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-library"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-processing"
+    },
+    {
+      "context_snippet": "> **STATUS NOTICE**: As of 2018, libLAS has been replaced by the [PDAL](https://pdal.io) and it is in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programs"
+    }
+  ]
+}

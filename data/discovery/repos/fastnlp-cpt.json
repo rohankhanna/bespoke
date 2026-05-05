@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "ptms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "text-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastnlp/CPT",
+      "target": "transformer-architecture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:40:25.292794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CPT: A Pre-Trained Unbalanced Transformer for Both Chinese Language Understanding and Generation",
+    "fork": false,
+    "full_name": "fastnlp/CPT",
+    "html_url": "https://github.com/fastnlp/CPT",
+    "language": "Python",
+    "pushed_at": "2022-12-30T13:30:06Z",
+    "stargazers_count": 496,
+    "topics": [
+      "chinese",
+      "language-understanding",
+      "pretrained-models",
+      "ptms",
+      "text-generation",
+      "transformer-architecture"
+    ],
+    "updated_at": "2026-03-16T03:45:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-understanding"
+    },
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ptms"
+    },
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-generation"
+    },
+    {
+      "context_snippet": "This repository contains code and checkpoints for **CPT**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-architecture"
+    }
+  ]
+}

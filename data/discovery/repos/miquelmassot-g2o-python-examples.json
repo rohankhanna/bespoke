@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T20:16:02.305862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "miquelmassot/g2o-python-examples",
+    "html_url": "https://github.com/miquelmassot/g2o-python-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-16T09:22:57Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-02-19T17:00:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

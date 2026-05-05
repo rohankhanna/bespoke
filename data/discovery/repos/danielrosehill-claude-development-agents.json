@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Development-Agents",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:02:08.469663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Updated and consolidated list of agents that I use and reuse across projects",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Development-Agents",
+    "html_url": "https://github.com/danielrosehill/Claude-Development-Agents",
+    "language": null,
+    "pushed_at": "2026-01-03T08:40:05Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-13T11:40:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

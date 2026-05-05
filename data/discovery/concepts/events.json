@@ -163,6 +163,18 @@
       "source_repo": "BrunoBonacci/mulog",
       "status": "candidate-context",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "OCaml promises and concurrent I/O"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate-context",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "BrunoBonacci/mulog",
       "status": "candidate",
       "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/lwt",
+      "status": "candidate",
+      "text": "[![version][version]][releases] [![GitHub Actions status][github-actions-img]][github-actions]"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +454,17 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "ocsigen/lwt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

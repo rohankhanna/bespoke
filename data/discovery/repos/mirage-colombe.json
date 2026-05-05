@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/colombe",
+      "target": "ocsigen/lwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/colombe",
+      "target": "dinosaure/facteur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/colombe",
+      "target": "dinosaure/ptt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:42:29.341167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of SMTP protocols in OCaml",
+    "fork": false,
+    "full_name": "mirage/colombe",
+    "html_url": "https://github.com/mirage/colombe",
+    "language": "OCaml",
+    "pushed_at": "2026-04-26T08:44:15Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-26T08:44:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/facteur",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/ptt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocsigen/lwt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

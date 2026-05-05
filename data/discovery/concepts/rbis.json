@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rbis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024968,
+      "status": "candidate",
+      "text": "run batted in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024978,
+      "status": "candidate",
+      "text": "obp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024977,
+      "status": "candidate",
+      "text": "second base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024976,
+      "status": "candidate",
+      "text": "homeruns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024975,
+      "status": "candidate",
+      "text": "homers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rbis",
+  "concept_id": "rbis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rbis",
+      "sense_id": "rbis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -259,6 +259,30 @@
       "source_repo": "mapsforge/mapsforge",
       "status": "candidate-context",
       "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "Thin Julia wrapper for GDAL - Geospatial Data Abstraction Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "Julia package for manipulation and analysis of planar geometric objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate-context",
+      "text": "LibGEOS.jl"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +411,18 @@
       "source_repo": "mapsforge/mapsforge",
       "status": "candidate",
       "text": "[![](https://jitpack.io/v/mapsforge/mapsforge.svg)](https://jitpack.io/#mapsforge/mapsforge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/GDAL.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaGeo/GDAL.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGeo/LibGEOS.jl",
+      "status": "candidate",
+      "text": "LibGEOS.jl"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +604,23 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "mapsforge/mapsforge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/GDAL.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGeo/LibGEOS.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

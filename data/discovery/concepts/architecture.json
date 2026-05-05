@@ -175,6 +175,30 @@
       "source_repo": "trailblazer/trailblazer",
       "status": "candidate-context",
       "text": "_Battle-tested Ruby framework to help structuring your business logic._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[CVPR 2022 Oral] Official repository for \"MAXIM: Multi-Axis MLP for Image Processing\". SOTA for denoising, deblurring, deraining, dehazing, and enhancement."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Official repository for \"MaxViT: Multi-Axis Vision Transformer\". SOTA foundation models for classification, detection, segmentation, image quality, and generative modeling..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate-context",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "trailblazer/trailblazer",
       "status": "candidate",
       "text": "_Battle-tested Ruby framework to help structuring your business logic._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxim",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/maxim-multi-axis-mlp-for-image-processing/deblurring-on-hide-trained-on-gopro)](https://paperswithcode.com/sota/deblurring-on-hide-trained-on-gopro?p=maxim-multi-axis-mlp-for-image-processing)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/maxvit",
+      "status": "candidate",
+      "text": "[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2204.01697)"
     }
   ],
   "candidate_related_terms": [
@@ -666,11 +702,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "trailblazer/trailblazer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "trailblazer/trailblazer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "google-research/maxvit"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

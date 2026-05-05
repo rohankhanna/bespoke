@@ -16,13 +16,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "trailblazer/cells",
-      "target": "trailblazer/trailblazer-cells",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "trailblazer/cells",
       "target": "apotonick/trailblazer",
       "target_type": "repository"
     },
@@ -48,7 +41,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-05T14:59:19.617211+00:00",
+  "fetched_at": "2026-05-05T18:44:17.945964+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -82,11 +75,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apotonick/trailblazer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "trailblazer/trailblazer-cells",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CMake SQLite3 builtin library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate-context",
+      "text": "SQLiteC++ (SQLiteCpp) is a smart and easy to use C++ SQLite3 wrapper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate-context",
+      "text": "CMake SQLite3 builtin library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SRombauts/SQLiteCpp",
+      "status": "candidate",
+      "text": "CMake SQLite3 builtin library"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "bible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "extract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "national bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "state bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "sutra"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CMake SQLite3 builtin library",
+  "concept_id": "cmake-sqlite3-builtin-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/cmake_builtin_lib.yml",
+      "source_repo": "SRombauts/SQLiteCpp"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake SQLite3 builtin library",
+      "sense_id": "cmake-sqlite3-builtin-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

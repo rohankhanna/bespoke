@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ELLA nodes for ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28108488,
+      "status": "candidate",
+      "text": "greece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28108487,
+      "status": "candidate",
+      "text": "fitzgerald"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27371203,
+      "status": "candidate",
+      "text": "she"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26938581,
+      "status": "candidate",
+      "text": "thereto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26937574,
+      "status": "candidate",
+      "text": "therefrom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ella",
+      "sense_id": "ella#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ella",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ella",
+  "observation_id": "ea2249d1d38a480a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "ella",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "TencentQQGYLab/ComfyUI-ELLA",
+  "source_repo_description": "ELLA nodes for ComfyUI"
+}

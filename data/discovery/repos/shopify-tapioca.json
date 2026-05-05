@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Shopify/shopify-cla-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require_label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/tapioca",
+      "target": "sorbet/sorbet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/tapioca",
+      "target": "shopify/measured",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shopify/tapioca",
+      "target": "angellist/boba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "ruby/setup-ruby@c4e5b1316158f92e3d49443a9d58b31d25ac0f8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "rubygems/release-gem@6317d8d1f7e28c24d28f6eff169ea854948bd9f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require_label.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require_label.yml",
+      "source_repo": "Shopify/tapioca",
+      "target": "Pull Request Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "gem-rbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "rbi-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "rbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "ruby-gems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca",
+      "target": "sorbet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T18:44:22.548029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50779
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2569
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 593
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/require_label.yml",
+      "size": 476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The swiss army knife of RBI generation",
+    "fork": false,
+    "full_name": "Shopify/tapioca",
+    "html_url": "https://github.com/Shopify/tapioca",
+    "language": "Ruby",
+    "pushed_at": "2026-05-05T17:43:00Z",
+    "stargazers_count": 854,
+    "topics": [
+      "gem-rbis",
+      "rbi-files",
+      "rbis",
+      "ruby",
+      "ruby-gems",
+      "sorbet"
+    ],
+    "updated_at": "2026-05-05T17:38:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angellist/boba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/measured",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sorbet/sorbet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Contributor License Agreement (CLA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "Contributor License Agreement (CLA)"
+    },
+    {
+      "context_snippet": "Pull Request Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require_label.yml",
+      "term": "Pull Request Labels"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gem-rbis"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbi-files"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbis"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gems"
+    },
+    {
+      "context_snippet": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sorbet"
+    }
+  ]
+}

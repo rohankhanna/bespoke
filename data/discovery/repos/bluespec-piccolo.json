@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluespec/Piccolo",
+      "target": "bluespec/toooba",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:13:45.533094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RISC-V CPU, simple 3-stage pipeline, for low-end applications (e.g., embedded, IoT)",
+    "fork": false,
+    "full_name": "bluespec/Piccolo",
+    "html_url": "https://github.com/bluespec/Piccolo",
+    "language": "Verilog",
+    "pushed_at": "2022-01-23T23:41:45Z",
+    "stargazers_count": 336,
+    "topics": [],
+    "updated_at": "2026-03-29T12:02:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bluespec/toooba",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

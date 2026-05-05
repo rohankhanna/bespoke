@@ -1,0 +1,445 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "WillAbides/setup-go-faster@v1.15.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "shogo82148/actions-goveralls@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/color",
+      "target": "delta456/box-cli-maker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/color",
+      "target": "flipped-aurora/gin-vue-admin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/color",
+      "target": "gookit/cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gookit/color",
+      "target": "beego/bee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "gookit/color",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/color",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/color",
+      "target": "WillAbides/setup-go-faster@v1.15.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/color",
+      "target": "shogo82148/actions-goveralls@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "gookit/color",
+      "target": "action-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/color",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/color",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gookit/color",
+      "target": "Tag-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "256-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "cli-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "color-rgb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "console-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "go-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "gookit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "rgb-color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "terminal-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gookit/color",
+      "target": "true-color",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T20:16:31.714988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17496
+    },
+    {
+      "path": "go.mod",
+      "size": 171
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2721
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1542
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfa8 Terminal color rendering library, support 8/16 colors, 256 colors, RGB color rendering output, support Print/Sprintf methods, compatible with Windows. GO CLI \u63a7\u5236\u53f0\u989c\u8272\u6e32\u67d3\u5de5\u5177\u5e93\uff0c\u652f\u630116\u8272\uff0c256\u8272\uff0cRGB\u8272\u5f69\u6e32\u67d3\u8f93\u51fa\uff0c\u4f7f\u7528\u7c7b\u4f3c\u4e8e Print/Sprintf\uff0c\u517c\u5bb9\u5e76\u652f\u6301 Windows \u73af\u5883\u7684\u8272\u5f69\u6e32\u67d3",
+    "fork": false,
+    "full_name": "gookit/color",
+    "html_url": "https://github.com/gookit/color",
+    "language": "Go",
+    "pushed_at": "2026-05-01T15:13:20Z",
+    "stargazers_count": 1584,
+    "topics": [
+      "256-colors",
+      "cli",
+      "cli-color",
+      "color",
+      "color-rgb",
+      "colors",
+      "command-line",
+      "console",
+      "console-color",
+      "go-color",
+      "gookit",
+      "rgb-color",
+      "terminal",
+      "terminal-colors",
+      "true-color"
+    ],
+    "updated_at": "2026-05-02T15:31:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beego/bee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "delta456/box-cli-maker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flipped-aurora/gin-vue-admin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gookit/cache",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "action-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go.yml",
+      "term": "action-tests"
+    },
+    {
+      "context_snippet": "Tag-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Tag-release"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "256-colors"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-color"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-rgb"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console-color"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-color"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gookit"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgb-color"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-colors"
+    },
+    {
+      "context_snippet": "![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/gookit/color?style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "true-color"
+    }
+  ]
+}

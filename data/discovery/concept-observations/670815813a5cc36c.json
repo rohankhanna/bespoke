@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udd25\ufe0f **NEW**: [date-fns v4.0 with first-class time zone support is out!](https://blog.date-fns.org/v40-with-time-zone-support/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udd25\ufe0f **NEW**: [date-fns v4.0 with first-class time zone support is out!](https://blog.date-fns.org/v40-with-time-zone-support/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38955644,
+      "status": "candidate",
+      "text": "go steady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38948669,
+      "status": "candidate",
+      "text": "escort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38920462,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38892119,
+      "status": "candidate",
+      "text": "go out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38827812,
+      "status": "candidate",
+      "text": "appointment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "date",
+      "sense_id": "date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28051,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "escort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9042,
+      "status": "candidate",
+      "text": "appointment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "go out"
+    }
+  ],
+  "concept_id": "date",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "date",
+  "observation_id": "670815813a5cc36c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "date",
+  "source_context_snippet": "\ud83d\udd25\ufe0f **NEW**: [date-fns v4.0 with first-class time zone support is out!](https://blog.date-fns.org/v40-with-time-zone-support/)",
+  "source_file": null,
+  "source_repo": "date-fns/date-fns",
+  "source_repo_description": "\u23f3 Modern JavaScript date utility library \u231b\ufe0f"
+}

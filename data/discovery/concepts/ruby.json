@@ -2284,6 +2284,30 @@
       "source_repo": "sorbet/sorbet-typed",
       "status": "candidate-context",
       "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "The swiss army knife of RBI generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate-context",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for Google's Compact Encoding Detection C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate-context",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
     }
   ],
   "candidate_glosses": [
@@ -3450,6 +3474,18 @@
       "source_repo": "sorbet/sorbet-typed",
       "status": "candidate",
       "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/tapioca",
+      "status": "candidate",
+      "text": "> :warning: **Note**: This software is currently under active development. The API and interface should be considered unstable until a v1.0.0 release."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudaper/compact_enc_det",
+      "status": "candidate",
+      "text": "Ruby bindings for [Google's Compact Encoding Detection](https://github.com/google/compact_enc_det) (CED for short) C++ library"
     }
   ],
   "candidate_related_terms": [
@@ -5149,11 +5185,53 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": null,
       "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/tapioca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "cloudaper/compact_enc_det"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "bryanp/llhttp"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

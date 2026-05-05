@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "times"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moment/luxon",
+      "status": "candidate-context",
+      "text": "\u23f1 A library for working with dates and times in JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moment/luxon",
+      "status": "candidate-context",
+      "text": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moment/luxon",
+      "status": "candidate",
+      "text": "[![MIT License][license-image]][license] [![Build Status][github-action-image]][github-action-url] [![NPM version][npm-version-image]][npm-url] [![Coverage Status][test-coverage-image]][test-coverage-url] [![PRs welcome][contributing-image]][contributing-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39850110,
+      "status": "candidate",
+      "text": "multiplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39751879,
+      "status": "candidate",
+      "text": "modern times"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29850950,
+      "status": "candidate",
+      "text": "contemporary world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29850950,
+      "status": "candidate",
+      "text": "modern world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29850950,
+      "status": "candidate",
+      "text": "present time"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2008,
+      "status": "candidate",
+      "text": "contemporary world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1039,
+      "status": "candidate",
+      "text": "multiplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "modern times"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "modern world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6,
+      "status": "candidate",
+      "text": "present time"
+    }
+  ],
+  "canonical_name": "times",
+  "concept_id": "times",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": null,
+      "source_repo": "moment/luxon"
+    }
+  ],
+  "first_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "times",
+      "sense_id": "times#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

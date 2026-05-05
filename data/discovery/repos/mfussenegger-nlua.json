@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@e312c52f6d9664049d97c75ab084c895d9733c0c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "leso-kn/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfussenegger/nlua",
+      "target": "nvim-lua/nvim-lua-plugin-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mfussenegger/nlua",
+      "target": "tomblind/local-lua-debugger-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "rlalik/setup-cpp-compiler@e312c52f6d9664049d97c75ab084c895d9733c0c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "leso-kn/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "luarocks/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mfussenegger/nlua",
+      "target": "luarocks test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfussenegger/nlua",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mfussenegger/nlua",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T19:08:08.639339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3877
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neovim as Lua interpreter",
+    "fork": false,
+    "full_name": "mfussenegger/nlua",
+    "html_url": "https://github.com/mfussenegger/nlua",
+    "language": "Lua",
+    "pushed_at": "2026-03-04T12:15:06Z",
+    "stargazers_count": 83,
+    "topics": [
+      "interpreter",
+      "lua",
+      "neovim"
+    ],
+    "updated_at": "2026-03-14T16:25:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-lua/nvim-lua-plugin-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomblind/local-lua-debugger-vscode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"luarocks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "luarocks"
+    },
+    {
+      "context_snippet": "luarocks test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "luarocks test"
+    },
+    {
+      "context_snippet": "Lua script that lets you use Neovim as a Lua interpreter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "Lua script that lets you use Neovim as a Lua interpreter.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

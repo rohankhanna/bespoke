@@ -500,6 +500,30 @@
       "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
       "status": "candidate-context",
       "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "A set of nodes to prepare the noise predictions before the CFG function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "A powerful anti-burn allowing much higher CFG scales for latent diffusion models (for ComfyUI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
+      "status": "candidate-context",
+      "text": "Publish to Comfy registry"
     }
   ],
   "candidate_glosses": [
@@ -800,6 +824,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Extraltodeus/ComfyUI-AutomaticCFG",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Extraltodeus/Skimmed_CFG",
       "status": "candidate",
       "text": "Publish to Comfy registry"
     }
@@ -1337,11 +1373,29 @@
       "observed_at": "2026-05-05T12:38:52.093380+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/pre_cfg_comfy_nodes_for_ComfyUI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Extraltodeus/Skimmed_CFG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T12:38:52.093380+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -152,6 +152,18 @@
       "source_repo": "symfony/contracts",
       "status": "candidate-context",
       "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dothq/gecko-dev",
+      "status": "candidate-context",
+      "text": "Upstream gecko-dev release repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/gecko-dev",
+      "status": "candidate-context",
+      "text": "close pull request"
     }
   ],
   "candidate_glosses": [
@@ -232,6 +244,12 @@
       "source_repo": "symfony/contracts",
       "status": "candidate",
       "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dothq/gecko-dev",
+      "status": "candidate",
+      "text": "close pull request"
     }
   ],
   "candidate_related_terms": [
@@ -353,11 +371,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/close-pull-request.yml",
       "source_repo": "symfony/contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T18:38:09.351693+00:00",
+      "source_file": ".github/workflows/close-pr.yml",
+      "source_repo": "dothq/gecko-dev"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T18:38:09.351693+00:00",
   "lexical_providers": [
     "datamuse"
   ],

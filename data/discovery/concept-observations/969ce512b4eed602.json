@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DEPRECATED: Collection of math-related utilities developed at Body Labs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "blmath"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "blmath"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985933,
+      "status": "candidate",
+      "text": "numeral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982280,
+      "status": "candidate",
+      "text": "numerical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971688,
+      "status": "candidate",
+      "text": "quantitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954208,
+      "status": "candidate",
+      "text": "denotative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952492,
+      "status": "candidate",
+      "text": "denotive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "numerics",
+      "sense_id": "numerics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "numerics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "numerics",
+  "observation_id": "969ce512b4eed602",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T18:38:09.351693+00:00",
+  "observed_text": "numerics",
+  "source_context_snippet": "blmath",
+  "source_file": null,
+  "source_repo": "lace/blmath",
+  "source_repo_description": "DEPRECATED: Collection of math-related utilities developed at Body Labs"
+}
