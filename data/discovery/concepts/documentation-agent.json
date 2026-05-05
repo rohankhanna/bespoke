@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation Agent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "status": "candidate-context",
+      "text": "Next generation HelixToolkit Graphics Engine based on Vulkan."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "status": "candidate-context",
+      "text": "Documentation Agent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "status": "candidate",
+      "text": "Documentation Agent"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12456,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "documents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation Agent",
+  "concept_id": "documentation-agent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Agent",
+      "sense_id": "documentation-agent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

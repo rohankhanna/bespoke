@@ -31,6 +31,30 @@
       "source_repo": "darwinai/covidnet_ui",
       "status": "candidate-context",
       "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darwinai/pl-covidnet",
+      "status": "candidate-context",
+      "text": "ChRIS Plugin for COVID-Net."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/pl-covidnet",
+      "status": "candidate-context",
+      "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "status": "candidate-context",
+      "text": "ChRIS Plugin for Explainable AI visualization using the Grad-CAM algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "status": "candidate-context",
+      "text": "CI to Docker Hub"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "darwinai/covidnet_ui",
+      "status": "candidate",
+      "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/pl-covidnet",
+      "status": "candidate",
+      "text": "CI to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
       "status": "candidate",
       "text": "CI to Docker Hub"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/github-ci.yml",
       "source_repo": "darwinai/covidnet_ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam"
     }
   ],
   "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,54 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate-context",
+      "text": "Undetected .NET version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate-context",
+      "text": "\ufeff<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate-context",
+      "text": "Patching CDP (Chrome DevTools Protocol) leaks on OS level. Easy to use with Playwright, Selenium, and other web automation tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate-context",
+      "text": "Undetected NodeJS version of the Playwright testing and automation library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "Undetected Python version of the Playwright testing and automation library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +91,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate",
+      "text": "\ufeff<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
     }
@@ -108,11 +180,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

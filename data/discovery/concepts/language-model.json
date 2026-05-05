@@ -703,6 +703,18 @@
       "source_repo": "salesforce/awd-lstm-lm",
       "status": "candidate-context",
       "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreTranslate/Locomotive",
+      "status": "candidate-context",
+      "text": "Toolkit for training/converting LibreTranslate compatible language models \ud83d\ude82"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/Locomotive",
+      "status": "candidate-context",
+      "text": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1065,12 @@
       "source_repo": "salesforce/awd-lstm-lm",
       "status": "candidate",
       "text": "This repository contains the code used for two [Salesforce Research](https://einstein.ai/) papers:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreTranslate/Locomotive",
+      "status": "candidate",
+      "text": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82"
     }
   ],
   "candidate_related_terms": [],
@@ -2008,11 +2026,53 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/PhiCookBook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "LibreTranslate/Locomotive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

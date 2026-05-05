@@ -118,6 +118,21 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml"
     },
     {
@@ -404,121 +419,6 @@
       "component": "actions/setup-node@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/validate-marketplace.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/cache@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/setup-node@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/download-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
-    },
-    {
-      "component": "actions/upload-artifact@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml"
     }
   ],
   "edges": [
@@ -626,6 +526,34 @@
       "source_repo": "ruvnet/ruflo",
       "target": "actions/download-artifact@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "cost-tracker-smoke",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -824,48 +752,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/setup-node@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/cache@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "source_repo": "ruvnet/ruflo",
-      "target": "\ud83d\udd0d Verification Pipeline",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/ruflo",
@@ -992,7 +878,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T20:58:06.800584+00:00",
+  "fetched_at": "2026-05-05T08:16:41.049252+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1005,6 +891,10 @@
     {
       "path": ".github/workflows/ci.yml",
       "size": 6031
+    },
+    {
+      "path": ".github/workflows/cost-tracker-smoke.yml",
+      "size": 2659
     },
     {
       "path": ".github/workflows/integration-tests.yml",
@@ -1029,10 +919,6 @@
     {
       "path": ".github/workflows/validate-marketplace.yml",
       "size": 2179
-    },
-    {
-      "path": ".github/workflows/verification-pipeline.yml",
-      "size": 12753
     }
   ],
   "related_repositories": [],
@@ -1044,8 +930,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-05-04T20:47:54Z",
-    "stargazers_count": 41109,
+    "pushed_at": "2026-05-05T04:16:17Z",
+    "stargazers_count": 42124,
     "topics": [
       "agentic-ai",
       "agentic-engineering",
@@ -1068,7 +954,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-04T20:57:31Z"
+    "updated_at": "2026-05-05T08:16:26Z"
   },
   "repo_links": [
     {
@@ -1083,6 +969,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "cost-tracker-smoke",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cost-tracker-smoke.yml",
+      "term": "cost-tracker-smoke"
+    },
     {
       "context_snippet": "\ud83d\udd17 Cross-Agent Integration Tests",
       "edge_type": "workflow-name",
@@ -1112,12 +1004,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/validate-marketplace.yml",
       "term": "Validate Marketplace"
-    },
-    {
-      "context_snippet": "\ud83d\udd0d Verification Pipeline",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/verification-pipeline.yml",
-      "term": "\ud83d\udd0d Verification Pipeline"
     },
     {
       "context_snippet": "<div align=\"center\">",

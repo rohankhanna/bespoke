@@ -27,8 +27,29 @@
       "source_repo": "Lightning-AI/lit-llama",
       "target": "lightning-ai/lightning-llama",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "CPU tests",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
   "source_repo": "Lightning-AI/lit-llama"
 }

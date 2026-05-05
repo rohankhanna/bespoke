@@ -429,6 +429,30 @@
       "source_repo": "marcoonroad/ocaml-cuid",
       "status": "candidate-context",
       "text": "CUID generator for OCaml."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mirage/emile",
+      "status": "candidate-context",
+      "text": "& images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/emile",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate-context",
+      "text": "Static website generator based on HTML element tree rewriting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate-context",
+      "text": "soupault"
     }
   ],
   "candidate_glosses": [
@@ -641,6 +665,18 @@
       "source_repo": "marcoonroad/ocaml-cuid",
       "status": "candidate",
       "text": "CUID generator for OCaml."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mirage/emile",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate",
+      "text": "soupault"
     }
   ],
   "candidate_related_terms": [
@@ -1296,11 +1332,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "marcoonroad/ocaml-cuid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "rescript-lang/reanalyze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mirage/emile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

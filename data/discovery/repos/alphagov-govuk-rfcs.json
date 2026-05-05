@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk-rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk-rfcs",
+      "target": "alphagov/govuk-infrastructure/.github/actions/actionlint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk-rfcs",
+      "target": "Lint GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/govuk-rfcs",
+      "target": "govuk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:05:00.853723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4038
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " GOV.UK staff use this repository as a forum to discuss and make technical decisions",
+    "fork": false,
+    "full_name": "alphagov/govuk-rfcs",
+    "html_url": "https://github.com/alphagov/govuk-rfcs",
+    "language": null,
+    "pushed_at": "2026-04-28T10:22:54Z",
+    "stargazers_count": 73,
+    "topics": [
+      "govuk"
+    ],
+    "updated_at": "2026-04-28T10:22:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Lint GitHub Actions"
+    },
+    {
+      "context_snippet": "GOV.UK staff use this repository as a forum to discuss and make technical decisions. The outcomes of these discussions can be either an action plan, or a new standard that GOV.UK should follow. This repository is open as a reference for other teams within GDS and wider governmen\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "govuk"
+    }
+  ]
+}

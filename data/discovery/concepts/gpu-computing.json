@@ -163,6 +163,18 @@
       "source_repo": "AmesingFlank/taichi.js",
       "status": "candidate-context",
       "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "CUDA integration for Python, plus shiny features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "AmesingFlank/taichi.js",
       "status": "candidate",
       "text": "`taichi.js` is a modern GPU computing framework for Javascript. It transforms Javascript functions into WebGPU Compute Shaders for massive parallelization. It is a Javascript version of the Python library [Taichi](https://github.com/taichi-dev/taichi)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
     }
   ],
   "candidate_related_terms": [],
@@ -454,11 +472,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "inducer/pycuda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

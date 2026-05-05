@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adlik/model_optimizer",
+      "target": "hustzxd/efficientpytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adlik/model_optimizer",
+      "target": "modeltc/mqbench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:08:57.984816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12450
+    },
+    {
+      "path": "requirements.txt",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Adlik/model_optimizer",
+    "html_url": "https://github.com/Adlik/model_optimizer",
+    "language": "Python",
+    "pushed_at": "2023-06-14T02:55:35Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2025-07-09T02:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustzxd/efficientpytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/mqbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

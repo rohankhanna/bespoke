@@ -427,6 +427,18 @@
       "source_repo": "avikeid2007/KaiROS-AI",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": " Chat with multiple PDFs locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +651,12 @@
       "source_repo": "avikeid2007/KaiROS-AI",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1444,11 +1462,47 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "chatboxai/chatbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

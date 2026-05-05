@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lima - Demultiplex Barcoded PacBio Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917513,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024726,
+      "status": "candidate",
+      "text": "bar code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024725,
+      "status": "candidate",
+      "text": "symbology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024724,
+      "status": "candidate",
+      "text": "quiet zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024723,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "barcode",
+      "sense_id": "barcode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "barcode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "barcode",
+  "observation_id": "ea9c01fb1eab3bd7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "barcode",
+  "source_context_snippet": "<a href=\"https://lima.how/\">",
+  "source_file": null,
+  "source_repo": "PacificBiosciences/barcoding",
+  "source_repo_description": "Lima - Demultiplex Barcoded PacBio Samples"
+}

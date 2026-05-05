@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2"
+    }
+  ],
+  "term": "Idris2 and External Libs"
+}

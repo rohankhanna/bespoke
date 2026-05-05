@@ -259,6 +259,18 @@
       "source_repo": "11ty/eleventy",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate-context",
+      "text": "Static website generator based on HTML element tree rewriting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate-context",
+      "text": "soupault"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +399,12 @@
       "source_repo": "11ty/eleventy",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PataphysicalSociety/soupault",
+      "status": "candidate",
+      "text": "soupault"
     }
   ],
   "candidate_related_terms": [],
@@ -628,11 +646,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

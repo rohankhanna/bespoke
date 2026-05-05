@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T07:17:59.477594+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4519
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 98
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "socket for handling chrome-developer-protocol connections",
+    "fork": false,
+    "full_name": "ttlns/CDP-Socket",
+    "html_url": "https://github.com/ttlns/CDP-Socket",
+    "language": "Python",
+    "pushed_at": "2024-04-28T09:58:01Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-02T00:27:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

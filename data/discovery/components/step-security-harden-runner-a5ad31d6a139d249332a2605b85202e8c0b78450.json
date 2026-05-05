@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@a5ad31d6a139d249332a2605b85202e8c0b78450",
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

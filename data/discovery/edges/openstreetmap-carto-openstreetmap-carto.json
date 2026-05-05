@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "cartocss/carto",
+      "target": "kosmtik/kosmtik",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "geofabrik/osm-bright",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "cquest/osmfr-cartocss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "giggls/openstreetmap-carto-de",
+      "target": "openstreetmap/mapnik-stylesheets",
       "target_type": "repository"
     },
     {
@@ -50,6 +36,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-05-04T07:12:05.012081+00:00",
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
   "source_repo": "openstreetmap-carto/openstreetmap-carto"
 }

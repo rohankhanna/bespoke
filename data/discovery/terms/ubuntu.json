@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -166,6 +166,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/Ubuntu.yml",
       "source_repo": "compiler-research/CPyCppyy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "bitwizeshift/string_view-standalone"
     }
   ],
   "term": "ubuntu"

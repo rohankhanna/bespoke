@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CUDA integration for Python, plus shiny features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pycuda",
+      "sense_id": "pycuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pycuda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pycuda",
+  "observation_id": "7b44c8f566a7ee24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "pycuda",
+  "source_context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+  "source_file": null,
+  "source_repo": "inducer/pycuda",
+  "source_repo_description": "CUDA integration for Python, plus shiny features"
+}

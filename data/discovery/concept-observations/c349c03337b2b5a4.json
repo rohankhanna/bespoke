@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Cucumber organisation on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041941,
+      "status": "candidate",
+      "text": "cuke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047310,
+      "status": "candidate",
+      "text": "cucumber vine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047310,
+      "status": "candidate",
+      "text": "cucumis sativus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047309,
+      "status": "candidate",
+      "text": "lettuce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29503148,
+      "status": "candidate",
+      "text": "choice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cucumber",
+      "sense_id": "cucumber#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "cuke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "cucumis sativus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cucumber vine"
+    }
+  ],
+  "concept_id": "cucumber",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cucumber",
+  "observation_id": "c349c03337b2b5a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "cucumber",
+  "source_context_snippet": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub.",
+  "source_file": null,
+  "source_repo": "cucumber/.github",
+  "source_repo_description": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Cucumber organisation on GitHub."
+}

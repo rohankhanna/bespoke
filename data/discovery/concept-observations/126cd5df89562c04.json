@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ROS 2 bridge for LeRobot mobile base, arm and sensors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885181,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976100,
+      "status": "candidate",
+      "text": "bots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976100,
+      "status": "candidate",
+      "text": "robots"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976099,
+      "status": "candidate",
+      "text": "robotology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19976098,
+      "status": "candidate",
+      "text": "three laws of robotics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "robotics",
+      "sense_id": "robotics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "robotics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "robotics",
+  "observation_id": "126cd5df89562c04",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "robotics",
+  "source_context_snippet": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem.",
+  "source_file": null,
+  "source_repo": "astroyat/lerobot-ros",
+  "source_repo_description": "ROS 2 bridge for LeRobot mobile base, arm and sensors."
+}

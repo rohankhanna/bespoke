@@ -84,7 +84,7 @@
   "normalized_form": "lint-and-test",
   "observation_id": "a226973e995548ed",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Lint and test",
   "source_context_snippet": "Lint and test",
   "source_file": ".github/workflows/lint-and-test.yaml",

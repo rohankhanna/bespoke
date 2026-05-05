@@ -547,6 +547,30 @@
       "source_repo": "haibo-qiu/GFNet",
       "status": "candidate-context",
       "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CloudCompare/CloudCompare",
+      "status": "candidate-context",
+      "text": "CloudCompare main repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudCompare/CloudCompare",
+      "status": "candidate-context",
+      "text": "CloudCompare"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "Point Cloud Library (PCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +843,18 @@
       "source_repo": "haibo-qiu/GFNet",
       "status": "candidate",
       "text": "This is the Pytorch implementation of our following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CloudCompare/CloudCompare",
+      "status": "candidate",
+      "text": "CloudCompare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -1234,11 +1270,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "CloudCompare/CloudCompare"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

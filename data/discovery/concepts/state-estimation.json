@@ -19,6 +19,30 @@
       "source_repo": "utiasASRL/hero_radar_odometry",
       "status": "candidate-context",
       "text": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "status": "candidate-context",
+      "text": "A Robust and Versatile Monocular Visual-Inertial State Estimator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "status": "candidate-context",
+      "text": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "utiasASRL/steam",
+      "status": "candidate-context",
+      "text": "The Simultaneous Trajectory Estimation and Mapping (STEAM) Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/steam",
+      "status": "candidate-context",
+      "text": "STEAM (Simultaneous Trajectory Estimation and Mapping) Engine is an optimization library aimed at solving batch nonlinear optimization problems involving both SO(3)/SE(3), SO(2)/SE(2), and continuous-time components. This is accomplished by using an iterative Gauss-Newton-style \u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "utiasASRL/hero_radar_odometry",
       "status": "candidate",
       "text": "HERO (Hybrid-Estimate Radar Odometry) combines probabilistic state estimation and deep learned features. The network is trained in an unsupervised fashion. Deep learning is leveraged to process rich sensor data while classic state estimation is used to handle probabilities and o\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "status": "candidate",
+      "text": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "utiasASRL/steam",
+      "status": "candidate",
+      "text": "STEAM (Simultaneous Trajectory Estimation and Mapping) Engine is an optimization library aimed at solving batch nonlinear optimization problems involving both SO(3)/SE(3), SO(2)/SE(2), and continuous-time components. This is accomplished by using an iterative Gauss-Newton-style \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "utiasASRL/hero_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "utiasASRL/steam"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

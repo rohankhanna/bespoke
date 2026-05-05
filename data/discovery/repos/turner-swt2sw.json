@@ -5,18 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "turner/swt2sw",
-      "target": "jrobinso/hdf5-indexer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "turner/swt2sw",
       "target": "turner/sw2swb",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T18:54:57.488016+00:00",
+  "fetched_at": "2026-05-05T06:56:41.286575+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -38,11 +31,6 @@
     "updated_at": "2025-08-01T14:33:09Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jrobinso/hdf5-indexer",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "turner/sw2swb",

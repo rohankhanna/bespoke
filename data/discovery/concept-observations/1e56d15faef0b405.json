@@ -84,7 +84,7 @@
   "normalized_form": "integration-tests-amd",
   "observation_id": "1e56d15faef0b405",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Integration Tests AMD",
   "source_context_snippet": "Integration Tests AMD",
   "source_file": ".github/workflows/integration-tests-amd.yml",

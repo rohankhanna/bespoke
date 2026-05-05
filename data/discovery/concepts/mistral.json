@@ -277,6 +277,18 @@
       "source_repo": "crmne/ruby_llm",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": " Chat with multiple PDFs locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +429,12 @@
       "source_repo": "crmne/ruby_llm",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -910,11 +928,29 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

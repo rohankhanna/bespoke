@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "humbletim/setup-vulkan-sdk@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "gittools/actions/gitversion/setup@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "gittools/actions/gitversion/execute@v3.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "Documentation Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex",
+      "target": "Build and Deploy Documentation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "helix-toolkit/helix-toolkit-nex"
+}

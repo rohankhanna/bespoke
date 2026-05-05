@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "harmonization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jiupinjia/SkyAR",
+      "status": "candidate-context",
+      "text": "Official Pytorch implementation of the preprint paper \"Castle in the Sky: Dynamic Sky Replacement and Harmonization in Videos\", in arXiv:2010.11800."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiupinjia/SkyAR",
+      "status": "candidate-context",
+      "text": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jiupinjia/SkyAR",
+      "status": "candidate",
+      "text": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29905570,
+      "status": "candidate",
+      "text": "harmonisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984279,
+      "status": "candidate",
+      "text": "the"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983187,
+      "status": "candidate",
+      "text": "coordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981564,
+      "status": "candidate",
+      "text": "pairing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981111,
+      "status": "candidate",
+      "text": "concerted"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "harmonisation"
+    }
+  ],
+  "canonical_name": "harmonization",
+  "concept_id": "harmonization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "jiupinjia/SkyAR"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "harmonization",
+      "sense_id": "harmonization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

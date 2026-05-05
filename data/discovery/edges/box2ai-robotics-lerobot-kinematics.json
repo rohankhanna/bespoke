@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "petercorke/robotics-toolbox-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "therobotstudio/so-arm100",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "box2ai-robotics/joycon-robotics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "box2ai-robotics/lerobot-joycon",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "box2ai-robotics/lerobot-kinematics"
+}

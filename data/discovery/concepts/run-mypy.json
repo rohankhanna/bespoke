@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Run mypy",
-    "Run MyPy"
+    "Run MyPy",
+    "Run Mypy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "ipython/ipython",
       "status": "candidate-context",
       "text": "Run MyPy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "panda3d/panda3d",
+      "status": "candidate-context",
+      "text": "Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panda3d/panda3d",
+      "status": "candidate-context",
+      "text": "Run Mypy"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "ipython/ipython",
       "status": "candidate",
       "text": "Run MyPy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "panda3d/panda3d",
+      "status": "candidate",
+      "text": "Run Mypy"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +126,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/mypy.yml",
       "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "panda3d/panda3d"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

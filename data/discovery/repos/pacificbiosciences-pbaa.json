@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:56:09.692375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "PacificBiosciences/pbAA",
+    "html_url": "https://github.com/PacificBiosciences/pbAA",
+    "language": null,
+    "pushed_at": "2025-12-22T12:07:24Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-12-22T12:07:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

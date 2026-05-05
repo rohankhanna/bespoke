@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "polishing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "status": "candidate-context",
+      "text": "Iso-Seq - Scalable De Novo Isoform Discovery from Single-Molecule PacBio Reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972276,
+      "status": "candidate",
+      "text": "shining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992656,
+      "status": "candidate",
+      "text": "buffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986901,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986362,
+      "status": "candidate",
+      "text": "grinding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984804,
+      "status": "candidate",
+      "text": "varnish"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9031,
+      "status": "candidate",
+      "text": "shining"
+    }
+  ],
+  "canonical_name": "polishing",
+  "concept_id": "polishing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polishing",
+      "sense_id": "polishing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

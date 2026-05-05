@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:03:31.410435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "EmileTrotignon/embedded_ocaml_templates",
+    "html_url": "https://github.com/EmileTrotignon/embedded_ocaml_templates",
+    "language": "OCaml",
+    "pushed_at": "2023-03-30T15:06:02Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-10-26T17:55:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

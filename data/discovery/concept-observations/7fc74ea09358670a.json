@@ -84,7 +84,7 @@
   "normalized_form": "release-snapshot",
   "observation_id": "7fc74ea09358670a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Release Snapshot",
   "source_context_snippet": "Release Snapshot",
   "source_file": ".github/workflows/release-snapshot.yaml",

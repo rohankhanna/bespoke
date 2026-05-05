@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate coverage report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/lacecore",
+      "status": "candidate-context",
+      "text": "Polygonal meshes optimized for cloud computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lacecore",
+      "status": "candidate-context",
+      "text": "Generate coverage report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lacecore",
+      "status": "candidate",
+      "text": "Generate coverage report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18439,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "breed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "earn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18413,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate coverage report",
+  "concept_id": "generate-coverage-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/coverage-report.yml",
+      "source_repo": "lace/lacecore"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate coverage report",
+      "sense_id": "generate-coverage-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

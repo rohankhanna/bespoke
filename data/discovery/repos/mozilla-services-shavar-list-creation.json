@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "mozilla/remote-settings/.github/workflows/ingestion-job-publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "mozilla-services/shavar-list-creation-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "mozilla/remote-settings/.github/workflows/ingestion-job-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "Continuous Deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:17:23.535195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2093
+    },
+    {
+      "path": "Dockerfile",
+      "size": 570
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    },
+    {
+      "path": ".github/workflows/cd.yaml",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Script to transform the Disconnect block-list into Safebrowsing v2 format for Firefox Tracking Protection",
+    "fork": false,
+    "full_name": "mozilla-services/shavar-list-creation",
+    "html_url": "https://github.com/mozilla-services/shavar-list-creation",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:30:44Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-02-24T10:31:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-services/shavar-list-creation-config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "term": "Continuous Deployment"
+    }
+  ]
+}

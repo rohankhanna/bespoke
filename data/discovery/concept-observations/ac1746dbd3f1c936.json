@@ -84,7 +84,7 @@
   "normalized_form": "code-generation",
   "observation_id": "ac1746dbd3f1c936",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T12:47:39.186442+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Code Generation",
   "source_context_snippet": "Code Generation",
   "source_file": ".github/workflows/code-generation.yml",

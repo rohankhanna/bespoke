@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/emile",
+      "target": "mirage/mrmime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mirage/emile",
+      "target": "dinosaure/unstrctrd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "e-mail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "rfc2822",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "rfc5321",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "rfc5322",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mirage/emile",
+      "target": "rfc822",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:03:26.365659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "& images",
+    "fork": false,
+    "full_name": "mirage/emile",
+    "html_url": "https://github.com/mirage/emile",
+    "language": "OCaml",
+    "pushed_at": "2025-01-08T12:56:54Z",
+    "stargazers_count": 32,
+    "topics": [
+      "e-mail",
+      "ocaml",
+      "parser",
+      "rfc2822",
+      "rfc5321",
+      "rfc5322",
+      "rfc822"
+    ],
+    "updated_at": "2025-01-08T12:56:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dinosaure/unstrctrd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/mrmime",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "e-mail"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc2822"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc5321"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc5322"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dinosaure/emile.svg?branch=master)](https://travis-ci.org/dinosure/emile)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc822"
+    }
+  ]
+}

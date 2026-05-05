@@ -1,5 +1,16 @@
 {
-  "components": [],
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    }
+  ],
   "edges": [
     {
       "edge_type": "explicit-github-link",
@@ -28,9 +39,30 @@
       "source_repo": "Lightning-AI/lit-llama",
       "target": "lightning-ai/lightning-llama",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama",
+      "target": "CPU tests",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:03:53.400975+00:00",
+  "fetched_at": "2026-05-05T07:03:31.108469+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -39,6 +71,10 @@
     {
       "path": "pyproject.toml",
       "size": 1319
+    },
+    {
+      "path": ".github/workflows/cpu-tests.yml",
+      "size": 1501
     }
   ],
   "related_repositories": [],
@@ -77,5 +113,12 @@
       "source_file": "README.md"
     }
   ],
-  "terms": []
+  "terms": [
+    {
+      "context_snippet": "CPU tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "term": "CPU tests"
+    }
+  ]
 }

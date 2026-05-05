@@ -257,7 +257,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:54:15.667297+00:00",
+  "fetched_at": "2026-05-05T06:55:44.041430+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -309,7 +309,7 @@
     "full_name": "pyg-team/pytorch_geometric",
     "html_url": "https://github.com/pyg-team/pytorch_geometric",
     "language": "Python",
-    "pushed_at": "2026-04-30T04:00:34Z",
+    "pushed_at": "2026-05-04T20:08:04Z",
     "stargazers_count": 23717,
     "topics": [
       "deep-learning",

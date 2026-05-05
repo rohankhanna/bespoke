@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "hkust-aerial-robotics/fuel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "sysu-star/racer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "hkust-aerial-robotics/topotraj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "stevengj/nlopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "aerial-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "autonomous-navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "target": "motion-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:56.567909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Robust and Efficient Trajectory Planner for Quadrotors",
+    "fork": false,
+    "full_name": "HKUST-Aerial-Robotics/Fast-Planner",
+    "html_url": "https://github.com/HKUST-Aerial-Robotics/Fast-Planner",
+    "language": "C++",
+    "pushed_at": "2024-10-24T13:12:43Z",
+    "stargazers_count": 3279,
+    "topics": [
+      "aerial-robotics",
+      "autonomous-navigation",
+      "motion-planning",
+      "uav"
+    ],
+    "updated_at": "2026-05-05T00:06:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/fuel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/topotraj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevengj/nlopt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sysu-star/racer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aerial-robotics"
+    },
+    {
+      "context_snippet": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-navigation"
+    },
+    {
+      "context_snippet": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    }
+  ]
+}

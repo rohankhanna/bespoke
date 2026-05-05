@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official implementation for Pseudo Numerical Methods for Diffusion Models on Manifolds (PNDM, PLMS | ICLR2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generative-models",
+      "sense_id": "generative-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generative-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generative-models",
+  "observation_id": "492479f9e60b44d1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "generative-models",
+  "source_context_snippet": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm",
+  "source_file": null,
+  "source_repo": "luping-liu/PNDM",
+  "source_repo_description": "The official implementation for Pseudo Numerical Methods for Diffusion Models on Manifolds (PNDM, PLMS | ICLR2022)"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:59:02.458821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Global LiDAR-Visual Bundle Adjustment",
+    "fork": false,
+    "full_name": "xuankuzcr/Global-LVBA",
+    "html_url": "https://github.com/xuankuzcr/Global-LVBA",
+    "language": "C++",
+    "pushed_at": "2026-03-08T14:22:05Z",
+    "stargazers_count": 377,
+    "topics": [],
+    "updated_at": "2026-05-02T11:34:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T07:07:40.244966+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Download aligned text automatly.",
+    "fork": false,
+    "full_name": "Interaction-Bot/opus-nlp-downloader",
+    "html_url": "https://github.com/Interaction-Bot/opus-nlp-downloader",
+    "language": "Python",
+    "pushed_at": "2023-01-02T13:18:38Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-07-28T06:49:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

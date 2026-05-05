@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/relabel_imagenet",
+      "target": "clovaai/cutmix-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/relabel_imagenet",
+      "target": "clovaai/adamp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/relabel_imagenet",
+      "target": "google-research/reassessed-imagenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver-ai/relabel_imagenet",
+      "target": "clovaai/rexnet",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "naver-ai/relabel_imagenet"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeremyAnsel/SharpAssimp",
+      "target": "saalvage/assimpnetter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JeremyAnsel/SharpAssimp",
+      "target": "saalvage/assimp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:00:49.988153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Maintained fork of AssimpNet that adds better interop with modern C#",
+    "fork": false,
+    "full_name": "JeremyAnsel/SharpAssimp",
+    "html_url": "https://github.com/JeremyAnsel/SharpAssimp",
+    "language": "C#",
+    "pushed_at": "2026-05-03T15:03:52Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-05-04T13:03:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saalvage/assimp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saalvage/assimpnetter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

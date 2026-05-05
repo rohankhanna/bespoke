@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "adamspannbauer/python_video_stab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "google/sky-optimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "dynamic-sky-replacement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "harmonization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "sky-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jiupinjia/SkyAR",
+      "target": "skyar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:08.561235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pytorch implementation of the preprint paper \"Castle in the Sky: Dynamic Sky Replacement and Harmonization in Videos\", in arXiv:2010.11800.",
+    "fork": false,
+    "full_name": "jiupinjia/SkyAR",
+    "html_url": "https://github.com/jiupinjia/SkyAR",
+    "language": "Python",
+    "pushed_at": "2022-08-04T12:29:18Z",
+    "stargazers_count": 2030,
+    "topics": [
+      "dynamic-sky-replacement",
+      "harmonization",
+      "sky-matting",
+      "skyar"
+    ],
+    "updated_at": "2026-04-21T00:50:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamspannbauer/python_video_stab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/sky-optimization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-sky-replacement"
+    },
+    {
+      "context_snippet": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "harmonization"
+    },
+    {
+      "context_snippet": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sky-matting"
+    },
+    {
+      "context_snippet": "[Preprint](<https://arxiv.org/abs/2010.11800>) | [Project Page](<https://jiupinjia.github.io/skyar/>) | [Google Colab](https://colab.research.google.com/github/jiupinjia/SkyAR/blob/main/colab_demo.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skyar"
+    }
+  ]
+}

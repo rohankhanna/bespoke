@@ -1,0 +1,52 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/covidnet_integration",
+      "target": "covid-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:59:28.208857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17802
+    },
+    {
+      "path": "Dockerfile",
+      "size": 497
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COVID-Net Integration Repo to upload plugings to ChRIS and to upload sample DICOM images to COVID-Net.",
+    "fork": false,
+    "full_name": "darwinai/covidnet_integration",
+    "html_url": "https://github.com/darwinai/covidnet_integration",
+    "language": "Python",
+    "pushed_at": "2021-11-24T15:18:06Z",
+    "stargazers_count": 1,
+    "topics": [
+      "covid-net"
+    ],
+    "updated_at": "2021-11-24T15:16:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo is an integration to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-net"
+    }
+  ]
+}

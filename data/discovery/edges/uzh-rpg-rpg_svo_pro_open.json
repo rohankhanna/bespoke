@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "ethz-asl/okvis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "dorian3d/dbow2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "dirk-thomas/vcstool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "ethz-asl/eigen_catkin",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "uzh-rpg/rpg_svo_pro_open"
+}

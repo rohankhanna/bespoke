@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-services/shavar",
+      "target": "mozilla-services/shavar-list-creation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-services/shavar",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-services/shavar",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:17:21.169006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5705
+    },
+    {
+      "path": "Dockerfile",
+      "size": 282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tracking Protection update service for Firefox based on Safe Browsing protocol",
+    "fork": false,
+    "full_name": "mozilla-services/shavar",
+    "html_url": "https://github.com/mozilla-services/shavar",
+    "language": "Python",
+    "pushed_at": "2026-04-07T11:54:53Z",
+    "stargazers_count": 21,
+    "topics": [
+      "privacy",
+      "python",
+      "security"
+    ],
+    "updated_at": "2025-03-23T20:28:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-services/shavar-list-creation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "shavar - a service that speaks Google's safe browsing protocol",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "shavar - a service that speaks Google's safe browsing protocol",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

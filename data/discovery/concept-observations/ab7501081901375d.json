@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Pending changes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Pending changes\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12357,
+      "status": "candidate",
+      "text": "transitional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12303,
+      "status": "candidate",
+      "text": "matters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "suspended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10992,
+      "status": "candidate",
+      "text": "abrupt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pending changes",
+      "sense_id": "pending-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pending-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pending-changes",
+  "observation_id": "ab7501081901375d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Pending changes",
+  "source_context_snippet": "\"Pending changes\"",
+  "source_file": ".github/workflows/pending-changes.yml",
+  "source_repo": "bvaughn/react-window",
+  "source_repo_description": "React components for efficiently rendering large lists and tabular data"
+}

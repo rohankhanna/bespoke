@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/CHM13-issues",
+      "target": "arangrhie/t2t-polish",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:02.718390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CHM13 human reference genome issue tracking",
+    "fork": false,
+    "full_name": "marbl/CHM13-issues",
+    "html_url": "https://github.com/marbl/CHM13-issues",
+    "language": "HTML",
+    "pushed_at": "2024-01-18T04:31:57Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2025-03-07T08:29:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arangrhie/t2t-polish",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

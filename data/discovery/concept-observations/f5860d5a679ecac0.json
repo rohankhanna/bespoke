@@ -84,7 +84,7 @@
   "normalized_form": "npm-publish-nightly",
   "observation_id": "f5860d5a679ecac0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "NPM Publish Nightly",
   "source_context_snippet": "NPM Publish Nightly",
   "source_file": ".github/workflows/npm-publish-nightly.yml",

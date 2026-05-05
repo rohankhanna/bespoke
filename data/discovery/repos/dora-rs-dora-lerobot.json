@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dora-rs/dora-lerobot",
+      "target": "dora-rs/dora",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:07.018959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2693
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lerobot boosted with dora",
+    "fork": false,
+    "full_name": "dora-rs/dora-lerobot",
+    "html_url": "https://github.com/dora-rs/dora-lerobot",
+    "language": "Python",
+    "pushed_at": "2025-01-08T12:41:33Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-04-25T07:36:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dora-rs/dora",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

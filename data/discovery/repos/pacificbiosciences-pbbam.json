@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbam",
+      "target": "pacificbiosciences/pacbiofileformats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PacificBiosciences/pbbam",
+      "target": "pacificbiosciences/unanimity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:11.047525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3911
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "develop",
+    "description": "PacBio BAM C++ library",
+    "fork": false,
+    "full_name": "PacificBiosciences/pbbam",
+    "html_url": "https://github.com/PacificBiosciences/pbbam",
+    "language": "C++",
+    "pushed_at": "2023-08-14T07:15:37Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-01-31T21:20:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/pacbiofileformats",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/unanimity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "sanctuary-either",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-show",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-type-classes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-type-identifiers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-descending",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-identity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-maybe",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-pair",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sanctuary-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-js/sanctuary-descending",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-js/sanctuary-either",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-js/sanctuary-maybe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-js/sanctuary-pair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-either",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-show",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-type-classes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-type-identifiers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-descending",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-identity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-maybe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-pair",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "fantasy-land",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "target": "sanctuary",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:02:45.826860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37585
+    },
+    {
+      "path": "package.json",
+      "size": 1019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run-time type system for JavaScript",
+    "fork": false,
+    "full_name": "sanctuary-js/sanctuary-def",
+    "html_url": "https://github.com/sanctuary-js/sanctuary-def",
+    "language": "JavaScript",
+    "pushed_at": "2024-11-10T15:41:37Z",
+    "stargazers_count": 293,
+    "topics": [
+      "fantasy-land",
+      "sanctuary"
+    ],
+    "updated_at": "2026-02-14T12:22:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-descending",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-either",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-maybe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanctuary-js/sanctuary-pair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "sanctuary-def is a run-time type system for JavaScript. It facilitates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fantasy-land"
+    },
+    {
+      "context_snippet": "sanctuary-def is a run-time type system for JavaScript. It facilitates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanctuary"
+    }
+  ]
+}

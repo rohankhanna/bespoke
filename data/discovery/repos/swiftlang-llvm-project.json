@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:54:50.607010+00:00",
+  "fetched_at": "2026-05-05T07:19:00.182152+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,7 +212,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 160
+      "size": 492
     },
     {
       "path": ".github/workflows/README.md",
@@ -256,10 +256,10 @@
     "full_name": "swiftlang/llvm-project",
     "html_url": "https://github.com/swiftlang/llvm-project",
     "language": "LLVM",
-    "pushed_at": "2026-05-04T19:54:37Z",
+    "pushed_at": "2026-05-05T07:18:36Z",
     "stargazers_count": 1225,
     "topics": [],
-    "updated_at": "2026-05-04T19:17:29Z"
+    "updated_at": "2026-05-05T06:23:11Z"
   },
   "repo_links": [
     {

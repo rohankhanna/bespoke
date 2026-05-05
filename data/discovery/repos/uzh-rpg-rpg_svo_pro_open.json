@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "ethz-asl/okvis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "dorian3d/dbow2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "dirk-thomas/vcstool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "uzh-rpg/rpg_svo_pro_open",
+      "target": "ethz-asl/eigen_catkin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:59.985091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "uzh-rpg/rpg_svo_pro_open",
+    "html_url": "https://github.com/uzh-rpg/rpg_svo_pro_open",
+    "language": "C++",
+    "pushed_at": "2024-01-19T05:56:46Z",
+    "stargazers_count": 1569,
+    "topics": [],
+    "updated_at": "2026-05-01T11:28:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirk-thomas/vcstool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dorian3d/dbow2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethz-asl/eigen_catkin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethz-asl/okvis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

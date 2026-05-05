@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stylesheet-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "less/less.js",
+      "status": "candidate-context",
+      "text": "Less. The dynamic stylesheet language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"http://lesscss.org/public/img/less_logo.png\" width=\"264\" height=\"117\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less.js",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"http://lesscss.org/public/img/less_logo.png\" width=\"264\" height=\"117\"></p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stylesheet-language",
+  "concept_id": "stylesheet-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "less/less.js"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylesheet-language",
+      "sense_id": "stylesheet-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

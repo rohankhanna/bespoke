@@ -5,20 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "keenan-burnett/yeti_radar_odometry",
-      "target": "utiasasrl/hero_radar_odometry",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "keenan-burnett/yeti_radar_odometry",
-      "target": "utiasasrl/pyboreas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "keenan-burnett/yeti_radar_odometry",
       "target": "keenan-burnett/yeti",
       "target_type": "repository"
     },
@@ -44,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T18:56:49.507779+00:00",
+  "fetched_at": "2026-05-05T06:59:04.310026+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,28 +47,18 @@
     "html_url": "https://github.com/keenan-burnett/yeti_radar_odometry",
     "language": "C++",
     "pushed_at": "2021-12-15T01:15:28Z",
-    "stargazers_count": 154,
+    "stargazers_count": 152,
     "topics": [
       "autonomous-vehicles",
       "radar",
       "robotics"
     ],
-    "updated_at": "2025-10-15T18:53:15Z"
+    "updated_at": "2026-05-05T00:06:51Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "keenan-burnett/yeti",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "utiasasrl/hero_radar_odometry",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "utiasasrl/pyboreas",
       "source_file": "README.md"
     }
   ],

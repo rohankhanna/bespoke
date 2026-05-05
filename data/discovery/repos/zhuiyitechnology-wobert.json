@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhuiyiTechnology/WoBERT",
+      "target": "huawei-noah/pretrained-language-model",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:18.899736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4ee5\u8bcd\u4e3a\u57fa\u672c\u5355\u4f4d\u7684\u4e2d\u6587BERT",
+    "fork": false,
+    "full_name": "ZhuiyiTechnology/WoBERT",
+    "html_url": "https://github.com/ZhuiyiTechnology/WoBERT",
+    "language": "Python",
+    "pushed_at": "2021-11-18T03:38:20Z",
+    "stargazers_count": 476,
+    "topics": [],
+    "updated_at": "2026-04-21T13:14:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huawei-noah/pretrained-language-model",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

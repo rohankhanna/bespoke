@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "insikk/grad-cam-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "CI to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "chris-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "covid-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "explainable-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet-grad-cam",
+      "target": "gradcam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:59:31.837671+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2443
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1277
+    },
+    {
+      "path": "requirements.txt",
+      "size": 37
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChRIS Plugin for Explainable AI visualization using the Grad-CAM algorithm.",
+    "fork": false,
+    "full_name": "darwinai/pl-covidnet-grad-cam",
+    "html_url": "https://github.com/darwinai/pl-covidnet-grad-cam",
+    "language": "Python",
+    "pushed_at": "2021-11-16T19:36:04Z",
+    "stargazers_count": 2,
+    "topics": [
+      "chris-plugin",
+      "covid-net",
+      "explainable-ai",
+      "gradcam",
+      "xai"
+    ],
+    "updated_at": "2023-10-09T15:51:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "insikk/grad-cam-tensorflow",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI to Docker Hub"
+    },
+    {
+      "context_snippet": "pl-covidnet-grad-cam",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chris-plugin"
+    },
+    {
+      "context_snippet": "pl-covidnet-grad-cam",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-net"
+    },
+    {
+      "context_snippet": "pl-covidnet-grad-cam",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainable-ai"
+    },
+    {
+      "context_snippet": "pl-covidnet-grad-cam",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradcam"
+    }
+  ]
+}

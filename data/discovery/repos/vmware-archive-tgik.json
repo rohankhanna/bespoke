@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vmware-archive/tgik",
+      "target": "vmware-tanzu/tgik",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:07:21.264033+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Official repository for TGI Kubernetes (TGIK)!",
+    "fork": false,
+    "full_name": "vmware-archive/tgik",
+    "html_url": "https://github.com/vmware-archive/tgik",
+    "language": "Shell",
+    "pushed_at": "2023-01-06T21:43:28Z",
+    "stargazers_count": 830,
+    "topics": [],
+    "updated_at": "2026-04-26T07:52:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vmware-tanzu/tgik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

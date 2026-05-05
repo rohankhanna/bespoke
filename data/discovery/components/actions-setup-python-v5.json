@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -8392,6 +8392,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/alpha.yml",
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fern-docs.yml",
+      "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-fern-checks.yml",
+      "source_repo": "ai-dynamo/aiperf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-integration-tests.yml",
+      "source_repo": "ai-dynamo/aiperf"
     }
   ]
 }

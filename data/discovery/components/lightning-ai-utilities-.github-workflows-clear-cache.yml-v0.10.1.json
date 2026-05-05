@@ -1,0 +1,12 @@
+{
+  "component": "Lightning-AI/utilities/.github/workflows/clear-cache.yml@v0.10.1",
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "source_repo": "hipudding/pytorch-lightning"
+    }
+  ]
+}

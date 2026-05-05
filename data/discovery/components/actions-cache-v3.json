@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2797,6 +2797,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/alpha.yml",
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "ant-design/ant-design-mobile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-site.yml",
+      "source_repo": "ant-design/ant-design-mobile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "ant-design/ant-design-mobile"
     }
   ]
 }

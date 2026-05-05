@@ -84,7 +84,7 @@
   "normalized_form": "bazel-checks",
   "observation_id": "c7243927618c00ac",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Bazel Checks",
   "source_context_snippet": "Bazel Checks",
   "source_file": ".github/workflows/bazel-checks.yml",

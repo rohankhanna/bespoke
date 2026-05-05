@@ -84,7 +84,7 @@
   "normalized_form": "auto-fix",
   "observation_id": "6d24861b38a690df",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T07:12:05.012081+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Auto Fix",
   "source_context_snippet": "Auto Fix",
   "source_file": ".github/workflows/auto-fix.yml",

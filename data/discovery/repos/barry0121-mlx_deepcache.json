@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:09:10.573370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2191
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Barry0121/mlx_deepcache",
+    "html_url": "https://github.com/Barry0121/mlx_deepcache",
+    "language": "Python",
+    "pushed_at": "2024-04-09T23:13:27Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-12-14T01:32:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

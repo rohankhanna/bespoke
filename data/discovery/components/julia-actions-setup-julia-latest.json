@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/setup-julia@latest",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -432,6 +432,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pollen.build.yml",
       "source_repo": "FluxML/FluxTraining.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "rdeits/MeshCat.jl"
     }
   ]
 }

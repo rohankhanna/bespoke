@@ -1,0 +1,22 @@
+{
+  "component": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:00:48.760374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "web site and documentation",
+    "fork": false,
+    "full_name": "helix-toolkit/helix-toolkit.github.io",
+    "html_url": "https://github.com/helix-toolkit/helix-toolkit.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-04-10T04:53:20Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-10T04:53:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

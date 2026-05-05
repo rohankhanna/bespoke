@@ -570,7 +570,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T21:00:59.202256+00:00",
+  "fetched_at": "2026-05-05T08:20:45.143962+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -607,7 +607,7 @@
     "html_url": "https://github.com/graphql-hive/graphql-eslint",
     "language": "TypeScript",
     "pushed_at": "2026-03-18T17:19:45Z",
-    "stargazers_count": 833,
+    "stargazers_count": 834,
     "topics": [
       "eslint",
       "eslint-graphql",
@@ -618,7 +618,7 @@
       "graphql-rules",
       "linter"
     ],
-    "updated_at": "2026-04-29T09:39:51Z"
+    "updated_at": "2026-05-05T05:52:23Z"
   },
   "repo_links": [
     {

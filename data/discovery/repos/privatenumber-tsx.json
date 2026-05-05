@@ -527,7 +527,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T14:35:18.639365+00:00",
+  "fetched_at": "2026-05-05T08:04:20.414554+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -560,7 +560,7 @@
     "html_url": "https://github.com/privatenumber/tsx",
     "language": "TypeScript",
     "pushed_at": "2026-04-25T16:04:48Z",
-    "stargazers_count": 11960,
+    "stargazers_count": 11967,
     "topics": [
       "cli",
       "esbuild",
@@ -571,7 +571,7 @@
       "typescript",
       "watch"
     ],
-    "updated_at": "2026-05-03T08:56:21Z"
+    "updated_at": "2026-05-05T06:07:19Z"
   },
   "repo_links": [],
   "terms": [

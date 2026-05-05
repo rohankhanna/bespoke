@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrYxJ/calculate-flops.pytorch",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrYxJ/calculate-flops.pytorch",
+      "target": "calflops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrYxJ/calculate-flops.pytorch",
+      "target": "flops-counter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrYxJ/calculate-flops.pytorch",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrYxJ/calculate-flops.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:08.217302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The calflops is designed to calculate FLOPs\u3001MACs and Parameters in all various neural networks, such as Linear\u3001 CNN\u3001 RNN\u3001 GCN\u3001Transformer(Bert\u3001LlaMA etc Large Language Model)",
+    "fork": false,
+    "full_name": "MrYxJ/calculate-flops.pytorch",
+    "html_url": "https://github.com/MrYxJ/calculate-flops.pytorch",
+    "language": "Python",
+    "pushed_at": "2024-06-27T19:39:38Z",
+    "stargazers_count": 937,
+    "topics": [
+      "calflops",
+      "flops-counter",
+      "large-language-models",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-30T20:30:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "calflops"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flops-counter"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

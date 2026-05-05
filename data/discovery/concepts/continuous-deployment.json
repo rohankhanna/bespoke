@@ -239,6 +239,18 @@
       "source_repo": "flyway/flyway-community-db-support",
       "status": "candidate-context",
       "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "status": "candidate-context",
+      "text": "Script to transform the Disconnect block-list into Safebrowsing v2 format for Firefox Tracking Protection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_glosses": [
@@ -355,6 +367,12 @@
       "source_repo": "flyway/flyway-community-db-support",
       "status": "candidate",
       "text": "This repository was created to simplify open source contributions to the databases that Flyway supports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "status": "candidate",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_related_terms": [
@@ -505,11 +523,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

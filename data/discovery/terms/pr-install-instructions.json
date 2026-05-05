@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-install-instructions.yaml",
+      "source_repo": "ai-dynamo/aiperf"
+    }
+  ],
+  "term": "PR Install Instructions"
+}

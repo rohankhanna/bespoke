@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "kaliiiiiiiiii-vinyzu/patchright-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "kaliiiiiiiiii-vinyzu/patchright-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "Build and Publish Patchright .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_test.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_test.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patchright_test.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patchright_test.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "Test Patchright .NET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "botting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "cloudflare-bypass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "playwright",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "stealth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "undeteced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "undetectable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "web-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "web-scraping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "webautomation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "webdriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "target": "webscraping",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "DevEnterpriseSoftware/patchright-dotnet"
+}

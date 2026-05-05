@@ -973,6 +973,18 @@
       "source_repo": "ttlns/Selenium-Driverless",
       "status": "candidate-context",
       "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
     }
   ],
   "candidate_glosses": [
@@ -1455,6 +1467,12 @@
       "source_repo": "ttlns/Selenium-Driverless",
       "status": "candidate",
       "text": "Note: This project is moving away from the selenium syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
     }
   ],
   "candidate_related_terms": [],
@@ -2488,11 +2506,59 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "thedatumorg/VUS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "RealFerdinandDeSaussure/base16-builder-python"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

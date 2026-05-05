@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsthomas/dream-email-example",
+      "target": "oxidizing/letters",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:03:32.332580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jsthomas/dream-email-example",
+    "html_url": "https://github.com/jsthomas/dream-email-example",
+    "language": "OCaml",
+    "pushed_at": "2021-07-24T22:15:40Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-02-03T22:07:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oxidizing/letters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

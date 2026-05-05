@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "chatbot-ui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": " Chat with multiple PDFs locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": "![alt text](assets/demo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate",
+      "text": "![alt text](assets/demo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "chatbot-ui",
+  "concept_id": "chatbot-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbot-ui",
+      "sense_id": "chatbot-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -7,23 +7,9 @@
       "source_repo": "privacycg/CHIPS",
       "target": "privacycg/first-party-sets",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "privacycg/CHIPS",
-      "target": "wanderview/quota-storage-partitioning",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "privacycg/CHIPS",
-      "target": "sbingler/origin-bound-cookies",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-04T12:51:56.380571+00:00",
+  "fetched_at": "2026-05-05T08:17:31.010954+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,16 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "privacycg/first-party-sets",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sbingler/origin-bound-cookies",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wanderview/quota-storage-partitioning",
       "source_file": "README.md"
     }
   ],

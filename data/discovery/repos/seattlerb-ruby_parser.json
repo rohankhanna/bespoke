@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T07:12:31.391893+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ruby_parser is a ruby parser written in pure ruby. It outputs s-expressions which can be manipulated and converted back to ruby via the ruby2ruby gem.",
+    "fork": false,
+    "full_name": "seattlerb/ruby_parser",
+    "html_url": "https://github.com/seattlerb/ruby_parser",
+    "language": "Ruby",
+    "pushed_at": "2025-12-21T02:02:20Z",
+    "stargazers_count": 483,
+    "topics": [],
+    "updated_at": "2026-04-13T12:38:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

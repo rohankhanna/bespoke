@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "CI to Docker Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "chris-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darwinai/pl-covidnet",
+      "target": "covid-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:59:29.559206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1722
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1968
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    },
+    {
+      "path": ".github/workflows/github-ci.yml",
+      "size": 1471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ChRIS Plugin for COVID-Net.",
+    "fork": false,
+    "full_name": "darwinai/pl-covidnet",
+    "html_url": "https://github.com/darwinai/pl-covidnet",
+    "language": "Python",
+    "pushed_at": "2021-11-24T15:19:56Z",
+    "stargazers_count": 4,
+    "topics": [
+      "chris-plugin",
+      "covid-net"
+    ],
+    "updated_at": "2021-12-11T08:49:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI to Docker Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-ci.yml",
+      "term": "CI to Docker Hub"
+    },
+    {
+      "context_snippet": "pl-covidnet",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chris-plugin"
+    },
+    {
+      "context_snippet": "pl-covidnet",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-net"
+    }
+  ]
+}

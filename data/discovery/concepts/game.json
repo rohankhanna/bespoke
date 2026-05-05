@@ -199,6 +199,18 @@
       "source_repo": "4ian/GDevelop",
       "status": "candidate-context",
       "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "4ian/GDevelop",
       "status": "candidate",
       "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +676,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "glumpy/glumpy"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

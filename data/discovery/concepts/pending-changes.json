@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pending changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "\"Pending changes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate",
+      "text": "\"Pending changes\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12357,
+      "status": "candidate",
+      "text": "transitional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12303,
+      "status": "candidate",
+      "text": "matters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "suspended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10992,
+      "status": "candidate",
+      "text": "abrupt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pending changes",
+  "concept_id": "pending-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/pending-changes.yml",
+      "source_repo": "bvaughn/react-window"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pending changes",
+      "sense_id": "pending-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

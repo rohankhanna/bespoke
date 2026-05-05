@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39799992,
+      "status": "candidate",
+      "text": "locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811459,
+      "status": "candidate",
+      "text": "locomotive engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811459,
+      "status": "candidate",
+      "text": "railway locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811458,
+      "status": "candidate",
+      "text": "crankcase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811301,
+      "status": "candidate",
+      "text": "powertrain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "engine",
+      "sense_id": "engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5041,
+      "status": "candidate",
+      "text": "locomotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "locomotive engine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "railway locomotive"
+    }
+  ],
+  "concept_id": "engine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "engine",
+  "observation_id": "bbe1746ddf67e194",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "engine",
+  "source_context_snippet": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png",
+  "source_file": null,
+  "source_repo": "glumpy/glumpy",
+  "source_repo_description": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+}

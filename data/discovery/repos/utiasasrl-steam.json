@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "utiasASRL/steam",
+      "target": "utiasasrl/lgmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/steam",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/steam",
+      "target": "state-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:59:06.407435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3495
+    },
+    {
+      "path": "Dockerfile",
+      "size": 203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Simultaneous Trajectory Estimation and Mapping (STEAM) Engine.",
+    "fork": false,
+    "full_name": "utiasASRL/steam",
+    "html_url": "https://github.com/utiasASRL/steam",
+    "language": "C++",
+    "pushed_at": "2025-10-23T19:28:43Z",
+    "stargazers_count": 115,
+    "topics": [
+      "cpp",
+      "robotics",
+      "state-estimation"
+    ],
+    "updated_at": "2026-04-24T20:58:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "utiasasrl/lgmath",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "STEAM (Simultaneous Trajectory Estimation and Mapping) Engine is an optimization library aimed at solving batch nonlinear optimization problems involving both SO(3)/SE(3), SO(2)/SE(2), and continuous-time components. This is accomplished by using an iterative Gauss-Newton-style \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "STEAM (Simultaneous Trajectory Estimation and Mapping) Engine is an optimization library aimed at solving batch nonlinear optimization problems involving both SO(3)/SE(3), SO(2)/SE(2), and continuous-time components. This is accomplished by using an iterative Gauss-Newton-style \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-estimation"
+    }
+  ]
+}

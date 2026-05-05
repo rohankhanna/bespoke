@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_black.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "sigsep/open-unmix-nnabla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "sigsep/sigsep-mus-db",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "sigsep/sigsep-mus-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "faroit/stempeg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_black.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_black.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_black.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_cli.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "UMX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/open-unmix-pytorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:28.976320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15785
+    },
+    {
+      "path": "Dockerfile",
+      "size": 312
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/test_black.yml",
+      "size": 257
+    },
+    {
+      "path": ".github/workflows/test_cli.yml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/test_unittests.yml",
+      "size": 1527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-Unmix - Music Source Separation for PyTorch",
+    "fork": false,
+    "full_name": "sigsep/open-unmix-pytorch",
+    "html_url": "https://github.com/sigsep/open-unmix-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-06-17T23:15:26Z",
+    "stargazers_count": 1478,
+    "topics": [],
+    "updated_at": "2026-05-05T00:30:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "faroit/stempeg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/open-unmix-nnabla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-db",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_black.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "UMX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_cli.yml",
+      "term": "UMX"
+    }
+  ]
+}

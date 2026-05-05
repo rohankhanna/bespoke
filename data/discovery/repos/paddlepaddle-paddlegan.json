@@ -1,0 +1,286 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "wzmsltw/painttransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "animeganv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "basicvsrplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "cyclegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "edvr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "first-order-motion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "gpen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "motion-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "photo2cartoon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "pix2pix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "psgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "realsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "stylegan2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "target": "wav2lip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:13.630348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13529
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "PaddlePaddle GAN library, including lots of interesting applications like First-Order motion transfer,  Wav2Lip, picture repair, image editing, photo2cartoon, image style transfer, GPEN, and so on.",
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleGAN",
+    "html_url": "https://github.com/PaddlePaddle/PaddleGAN",
+    "language": "Python",
+    "pushed_at": "2024-07-03T15:05:24Z",
+    "stargazers_count": 8057,
+    "topics": [
+      "animeganv2",
+      "basicvsrplusplus",
+      "cyclegan",
+      "edvr",
+      "first-order-motion-model",
+      "gan",
+      "gpen",
+      "image-editing",
+      "image-generation",
+      "motion-transfer",
+      "photo2cartoon",
+      "pix2pix",
+      "psgan",
+      "realsr",
+      "resolution",
+      "stylegan2",
+      "super-resolution",
+      "wav2lip"
+    ],
+    "updated_at": "2026-05-04T15:18:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wzmsltw/painttransformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animeganv2"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basicvsrplusplus"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclegan"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edvr"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-order-motion-model"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpen"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-transfer"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photo2cartoon"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psgan"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realsr"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resolution"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan2"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wav2lip"
+    }
+  ]
+}

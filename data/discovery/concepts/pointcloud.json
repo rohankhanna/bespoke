@@ -151,6 +151,18 @@
       "source_repo": "meidachen/STPLS3D",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "Point Cloud Library (PCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "meidachen/STPLS3D",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.09065-b31b1b.svg)](https://arxiv.org/abs/2203.09065)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +430,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

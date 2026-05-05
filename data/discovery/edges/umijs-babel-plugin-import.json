@@ -2,13 +2,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "umijs/babel-plugin-import",
-      "target": "ant-design/ant-design-mobile",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "umijs/babel-plugin-import",
       "target": "ant-design/babel-plugin-import",
@@ -176,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
   "source_repo": "umijs/babel-plugin-import"
 }

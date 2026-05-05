@@ -84,7 +84,7 @@
   "normalized_form": "ci---bazel-cpu-tests",
   "observation_id": "9f82a4a30124d0ad",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "CI - Bazel CPU tests",
   "source_context_snippet": "CI - Bazel CPU tests",
   "source_file": ".github/workflows/bazel_cpu_presubmit.yml",

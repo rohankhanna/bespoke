@@ -283,6 +283,18 @@
       "source_repo": "opendatacube/datacube-core",
       "status": "candidate-context",
       "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "CUDA integration for Python, plus shiny features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "opendatacube/datacube-core",
       "status": "candidate",
       "text": "Open Data Cube Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate",
+      "text": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms"
     }
   ],
   "candidate_related_terms": [],
@@ -640,11 +658,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "inducer/pycuda"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

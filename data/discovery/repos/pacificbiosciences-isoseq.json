@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "target": "discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "target": "isoforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "target": "pacbio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/IsoSeq",
+      "target": "polishing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:07.951420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Iso-Seq - Scalable De Novo Isoform Discovery from Single-Molecule PacBio Reads",
+    "fork": false,
+    "full_name": "PacificBiosciences/IsoSeq",
+    "html_url": "https://github.com/PacificBiosciences/IsoSeq",
+    "language": null,
+    "pushed_at": "2025-07-09T14:36:05Z",
+    "stargazers_count": 236,
+    "topics": [
+      "clustering",
+      "discovery",
+      "isoforms",
+      "pacbio",
+      "polishing",
+      "rna"
+    ],
+    "updated_at": "2026-04-27T02:19:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discovery"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isoforms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"><img width=\"300px\" src=\"doc/img/isoseq.png\"/></h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polishing"
+    }
+  ]
+}

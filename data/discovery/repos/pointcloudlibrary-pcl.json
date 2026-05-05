@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "pointcloudlibrary/pointcloudlibrary.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl",
+      "target": "pointcloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:48.437738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7061
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Point Cloud Library (PCL)",
+    "fork": false,
+    "full_name": "PointCloudLibrary/pcl",
+    "html_url": "https://github.com/PointCloudLibrary/pcl",
+    "language": "C++",
+    "pushed_at": "2026-05-01T15:28:24Z",
+    "stargazers_count": 10974,
+    "topics": [
+      "c-plus-plus",
+      "computer-vision",
+      "cpp",
+      "pcl",
+      "point-cloud",
+      "pointcloud"
+    ],
+    "updated_at": "2026-05-04T17:18:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pointcloudlibrary/pointcloudlibrary.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"pcl.png\" height=\"100\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "so100"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astroyat/lerobot-ros",
+      "status": "candidate-context",
+      "text": "ROS 2 bridge for LeRobot mobile base, arm and sensors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot-ros",
+      "status": "candidate-context",
+      "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astroyat/lerobot-ros",
+      "status": "candidate",
+      "text": "ROS 2 bridge for [LeRobot](https://github.com/huggingface/lerobot) \u2014 enabling seamless control of [LeRobot\u2019s mobile base, arm, and sensors](https://github.com/astroyat/lerobot-ros/blob/main/media/lidar.jpg) within the ROS 2 ecosystem."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "so100",
+  "concept_id": "so100",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "astroyat/lerobot-ros"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "so100",
+      "sense_id": "so100#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

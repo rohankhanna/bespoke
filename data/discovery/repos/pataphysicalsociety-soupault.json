@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "linux-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "macos-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "windows-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "html-processor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PataphysicalSociety/soupault",
+      "target": "static-site-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:03:29.358840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4868
+    },
+    {
+      "path": ".github/workflows/linux-release.yml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/macos-release.yml",
+      "size": 1300
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/windows-release.yml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Static website generator based on HTML element tree rewriting",
+    "fork": false,
+    "full_name": "PataphysicalSociety/soupault",
+    "html_url": "https://github.com/PataphysicalSociety/soupault",
+    "language": "OCaml",
+    "pushed_at": "2026-04-24T20:02:28Z",
+    "stargazers_count": 427,
+    "topics": [
+      "hacktoberfest",
+      "html-processor",
+      "lua",
+      "ocaml",
+      "static-site-generator",
+      "web"
+    ],
+    "updated_at": "2026-04-29T18:08:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linux-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "term": "linux-release"
+    },
+    {
+      "context_snippet": "macos-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "term": "macos-release"
+    },
+    {
+      "context_snippet": "windows-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "term": "windows-release"
+    },
+    {
+      "context_snippet": "soupault",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "soupault",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-processor"
+    },
+    {
+      "context_snippet": "soupault",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "soupault",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-site-generator"
+    }
+  ]
+}

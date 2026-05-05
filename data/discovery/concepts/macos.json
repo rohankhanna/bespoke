@@ -2621,6 +2621,18 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate-context",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "A custom implementation of the C++17 'string_view' back-ported to c++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -3955,6 +3967,12 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate",
+      "text": "macOS"
     }
   ],
   "candidate_related_terms": [
@@ -6122,11 +6140,59 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "srgtuszy/llama-cpp-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "bitwizeshift/string_view-standalone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

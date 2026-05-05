@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -191,6 +191,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Minqi824/ADBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexSWong/COVID-Net"
     }
   ],
   "term": "neural-networks"

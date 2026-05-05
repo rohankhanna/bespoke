@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/.github",
+      "target": "zizmorcore/zizmor-action@b1d7e1fb5de872772f31590499237e7cce841e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/.github",
+      "target": "GitHub Actions Security Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/.github",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cucumber/.github",
+      "target": "cucumber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:04:56.180156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 221
+    },
+    {
+      "path": ".github/workflows/zizmor-analysis.yaml",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Cucumber organisation on GitHub.",
+    "fork": false,
+    "full_name": "cucumber/.github",
+    "html_url": "https://github.com/cucumber/.github",
+    "language": "Shell",
+    "pushed_at": "2026-04-30T08:25:34Z",
+    "stargazers_count": 2,
+    "topics": [
+      "bdd",
+      "community",
+      "cucumber"
+    ],
+    "updated_at": "2026-04-30T08:25:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub Actions Security Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "term": "GitHub Actions Security Analysis"
+    },
+    {
+      "context_snippet": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cucumber"
+    }
+  ]
+}

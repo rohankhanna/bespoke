@@ -48,7 +48,7 @@
   "normalized_form": "long-video-generation",
   "observation_id": "477e2412cdeaf358",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "long-video-generation",
   "source_context_snippet": "This repository provides the official implementation of [RIFLEx](https://arxiv.org/abs/2502.15894) **(ICML 2025)**, [UltraViCo](https://arxiv.org/abs/2511.20123) **(ICLR 2026)** and [UltraImage](https://arxiv.org/abs/2512.04504) , which achieve diffusion-transformer extrapolatio\u2026",
   "source_file": null,

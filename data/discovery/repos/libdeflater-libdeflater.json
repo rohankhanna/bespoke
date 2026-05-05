@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libdeflater/libdeflater",
+      "target": "alexcrichton/flate2-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:28.464220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7571
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust bindings to libdeflate. \ud83d\udddc\ufe0f",
+    "fork": false,
+    "full_name": "libdeflater/libdeflater",
+    "html_url": "https://github.com/libdeflater/libdeflater",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T18:45:13Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-25T18:45:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexcrichton/flate2-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

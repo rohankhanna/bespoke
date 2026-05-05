@@ -127,6 +127,18 @@
       "source_repo": "msmsajjadi/precision-recall-distributions",
       "status": "candidate-context",
       "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luping-liu/PNDM",
+      "status": "candidate-context",
+      "text": "The official implementation for Pseudo Numerical Methods for Diffusion Models on Manifolds (PNDM, PLMS | ICLR2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luping-liu/PNDM",
+      "status": "candidate-context",
+      "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "msmsajjadi/precision-recall-distributions",
       "status": "candidate",
       "text": "Official code for [Assessing Generative Models via Precision and Recall](https://arxiv.org/abs/1806.00035) by [Mehdi S. M. Sajjadi](http://msajjadi.com), [Olivier Bachem](http://olivierbachem.ch/), [Mario Lucic](https://ai.google/research/people/MarioLucic), [Olivier Bousquet](h\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luping-liu/PNDM",
+      "status": "candidate",
+      "text": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-03T18:24:01.791245+00:00",
       "source_file": null,
       "source_repo": "msmsajjadi/precision-recall-distributions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "luping-liu/PNDM"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T18:24:01.791245+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

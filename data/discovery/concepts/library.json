@@ -1354,6 +1354,18 @@
       "source_repo": "d99kris/rapidcsv",
       "status": "candidate-context",
       "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate-context",
+      "text": "Go wrapper for the C libdeflate library, supporting super fast zlib, gzip, and deflate compression, using cgo. Use case: in-memory, whole-buffered data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -2028,6 +2040,12 @@
       "source_repo": "d99kris/rapidcsv",
       "status": "candidate",
       "text": "Rapidcsv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -2998,11 +3016,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "4kills/go-libdeflate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

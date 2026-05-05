@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -96,6 +96,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "flyway/flyway-community-db-support"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation"
     }
   ],
   "term": "Continuous Deployment"

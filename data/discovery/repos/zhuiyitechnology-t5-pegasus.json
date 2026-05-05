@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhuiyiTechnology/t5-pegasus",
+      "target": "renmada/t5-pegasus-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:17.910859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e2d\u6587\u751f\u6210\u5f0f\u9884\u8bad\u7ec3\u6a21\u578b",
+    "fork": false,
+    "full_name": "ZhuiyiTechnology/t5-pegasus",
+    "html_url": "https://github.com/ZhuiyiTechnology/t5-pegasus",
+    "language": "Python",
+    "pushed_at": "2022-04-03T02:23:53Z",
+    "stargazers_count": 571,
+    "topics": [],
+    "updated_at": "2026-04-14T14:55:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renmada/t5-pegasus-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

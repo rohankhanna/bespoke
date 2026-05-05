@@ -766,6 +766,30 @@
       "source_repo": "wemake-services/wemake-frontend-styleguide",
       "status": "candidate-context",
       "text": "[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAj\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "\"ESLint\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate-context",
+      "text": "InfiniteLoader component inspired by react-virtualized but for use with react-window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate-context",
+      "text": "\"ESLint\""
     }
   ],
   "candidate_glosses": [
@@ -1146,6 +1170,18 @@
       "source_repo": "wemake-services/wemake-frontend-styleguide",
       "status": "candidate",
       "text": "[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAj\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate",
+      "text": "\"ESLint\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate",
+      "text": "\"ESLint\""
     }
   ],
   "candidate_related_terms": [
@@ -2119,11 +2155,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

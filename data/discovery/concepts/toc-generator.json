@@ -82,6 +82,18 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate-context",
       "text": "TOC Generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "Append supplemental methods(WhenAny, WhenAll, Lazy) to ValueTask."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "TOC Generator"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "TOC Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
       "status": "candidate",
       "text": "TOC Generator"
     }
@@ -199,11 +217,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/toc.yaml",
       "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

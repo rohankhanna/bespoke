@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Run for Document Generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Unified Realtime/API framework for .NET platform and Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Test Run for Document Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate",
+      "text": "Test Run for Document Generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43390,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43390,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33293,
+      "status": "candidate",
+      "text": "flagpole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33218,
+      "status": "candidate",
+      "text": "feeler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27832,
+      "status": "candidate",
+      "text": "powered"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Run for Document Generation",
+  "concept_id": "test-run-for-document-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Run for Document Generation",
+      "sense_id": "test-run-for-document-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

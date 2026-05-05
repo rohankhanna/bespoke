@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "usdot-fhwa-stol/carma-simulation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "derrickxunu/opencood",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "automated-driving-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "connected-and-automated-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "cooperative-driving-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ucla-mobility/OpenCDA",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:00:05.224353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9012
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6571
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A generalized framework for prototyping full-stack cooperative driving automation applications under CARLA+SUMO.",
+    "fork": false,
+    "full_name": "ucla-mobility/OpenCDA",
+    "html_url": "https://github.com/ucla-mobility/OpenCDA",
+    "language": "Python",
+    "pushed_at": "2025-05-25T10:54:01Z",
+    "stargazers_count": 1152,
+    "topics": [
+      "automated-driving-systems",
+      "autonomous-driving",
+      "connected-and-automated-vehicles",
+      "cooperative-driving-automation",
+      "simulation"
+    ],
+    "updated_at": "2026-05-05T06:36:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrickxunu/opencood",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usdot-fhwa-stol/carma-simulation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-driving-systems"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connected-and-automated-vehicles"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cooperative-driving-automation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/ucla-mobility/OpenCDA.svg?branch=develop)](https://travis-ci.com/ucla-mobility/OpenCDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

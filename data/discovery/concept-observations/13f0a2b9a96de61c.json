@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Compressed Size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Compressed Size"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28615,
+      "status": "candidate",
+      "text": "decompress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12226,
+      "status": "candidate",
+      "text": "compress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12226,
+      "status": "candidate",
+      "text": "tabloid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12182,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12062,
+      "status": "candidate",
+      "text": "rudd"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compressed Size",
+      "sense_id": "compressed-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "compressed-size",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compressed-size",
+  "observation_id": "13f0a2b9a96de61c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Compressed Size",
+  "source_context_snippet": "Compressed Size",
+  "source_file": ".github/workflows/compressed-size.yml",
+  "source_repo": "ant-design/ant-design-mobile",
+  "source_repo_description": "Essential UI blocks for building mobile web apps."
+}

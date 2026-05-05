@@ -115,6 +115,18 @@
       "source_repo": "kwea123/nerf_Unity",
       "status": "candidate-context",
       "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lace/lacecore",
+      "status": "candidate-context",
+      "text": "Polygonal meshes optimized for cloud computation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lacecore",
+      "status": "candidate-context",
+      "text": "[![version](https://img.shields.io/pypi/v/lacecore?style=flat-square)][pypi]"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "kwea123/nerf_Unity",
       "status": "candidate",
       "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lace/lacecore",
+      "status": "candidate",
+      "text": "[![version](https://img.shields.io/pypi/v/lacecore?style=flat-square)][pypi]"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "kwea123/nerf_Unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "lace/lacecore"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

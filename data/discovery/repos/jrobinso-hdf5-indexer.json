@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrobinso/hdf5-indexer",
+      "target": "jrobinso/hdf5-indexed-reader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrobinso/hdf5-indexer",
+      "target": "jjhelmus/pyfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrobinso/hdf5-indexer",
+      "target": "usnistgov/jsfive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "jrobinso/hdf5-indexer",
+      "target": "jjhelmus/pyfive",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:40.091141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2912
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jrobinso/hdf5-indexer",
+    "html_url": "https://github.com/jrobinso/hdf5-indexer",
+    "language": "Python",
+    "pushed_at": "2024-02-21T20:56:25Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2023-07-07T00:33:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jjhelmus/pyfive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrobinso/hdf5-indexed-reader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/jsfive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jjhelmus/pyfive",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

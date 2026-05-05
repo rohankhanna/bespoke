@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22367,6 +22367,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yaml",
       "source_repo": "open-telemetry/opentelemetry-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cucumber/cucumber-js-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-javascript.yaml",
+      "source_repo": "cucumber/cucumber-js-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor-analysis.yaml",
+      "source_repo": "cucumber/cucumber-js-examples"
     }
   ]
 }

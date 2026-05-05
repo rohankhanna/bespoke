@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:00:52.277363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Patchworked DocFX v2 template for Cysharp",
+    "fork": false,
+    "full_name": "Cysharp/DocfxTemplate",
+    "html_url": "https://github.com/Cysharp/DocfxTemplate",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-19T09:48:53Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-12-19T03:27:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

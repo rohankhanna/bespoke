@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewiji/MiDaS",
+      "target": "intel-isl/midas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewiji/MiDaS",
+      "target": "intel-isl/dpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewiji/MiDaS",
+      "target": "alexeyab/midas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewiji/MiDaS",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:00.084994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6849
+    },
+    {
+      "path": "Dockerfile",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for robust monocular depth estimation described in \"Ranftl et. al., Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer, TPAMI 2022\"",
+    "fork": true,
+    "full_name": "lewiji/MiDaS",
+    "html_url": "https://github.com/lewiji/MiDaS",
+    "language": "Java",
+    "pushed_at": "2022-12-01T15:12:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-10-10T08:26:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexeyab/midas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-isl/dpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-isl/midas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

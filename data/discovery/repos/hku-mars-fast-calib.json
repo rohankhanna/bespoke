@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-Calib",
+      "target": "beltransen/velo2cam_calibration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hku-mars/FAST-Calib",
+      "target": "xuankuzcr/fast-calib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:59:01.868492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Handy Extrinsic Calibration Tool for LiDAR-camera Systems.",
+    "fork": false,
+    "full_name": "hku-mars/FAST-Calib",
+    "html_url": "https://github.com/hku-mars/FAST-Calib",
+    "language": "C++",
+    "pushed_at": "2026-04-19T15:44:05Z",
+    "stargazers_count": 861,
+    "topics": [],
+    "updated_at": "2026-05-05T00:07:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beltransen/velo2cam_calibration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuankuzcr/fast-calib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

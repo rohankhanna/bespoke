@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "@vue/composition-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/cli-plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/cli-service",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-template-compiler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "antfu/vueuse-next-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "antfu/vite-vueuse-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "@vue/composition-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "@vue/cli-plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "@vue/cli-service",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vue2-example",
+      "target": "vue-template-compiler",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:04:18.720861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 598
+    },
+    {
+      "path": "package.json",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VueUse + Vue 2 + Vue CLI working example",
+    "fork": false,
+    "full_name": "vueuse/vueuse-vue2-example",
+    "html_url": "https://github.com/vueuse/vueuse-vue2-example",
+    "language": "Vue",
+    "pushed_at": "2023-06-02T23:21:01Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2025-11-14T07:25:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vite-vueuse-starter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vueuse-next-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

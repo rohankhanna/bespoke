@@ -1,12 +1,17 @@
 {
   "component": "sanctuary-maybe",
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "sanctuary-js/sanctuary-type-classes"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-def"
     }
   ]
 }

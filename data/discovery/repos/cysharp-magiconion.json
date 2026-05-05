@@ -1,0 +1,601 @@
+{
+  "components": [
+    {
+      "component": "Cysharp/Actions/.github/workflows/benchmark-loader.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/benchmark-execute.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/benchmark-cleanup.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/download-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/check-metas@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-translation.yaml"
+    },
+    {
+      "component": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-translation.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/increment-version.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/update-packagejson.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "aspnet/aspnetcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/benchmark-loader.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/benchmark-execute.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/benchmark-cleanup.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/download-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Build Canary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Test Run for Document Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/check-metas@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/actions-timeline.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-translation.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "1password/load-secrets-action@92467eb28f72e8255933372f1e0707c567ce2259",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-translation.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Document translation update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/increment-version.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-release.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Cysharp/Actions/.github/workflows/update-packagejson.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-release.yaml",
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "Post Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "swagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:00:55.085861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7511
+    },
+    {
+      "path": ".github/workflows/benchmark.yaml",
+      "size": 3097
+    },
+    {
+      "path": ".github/workflows/build-canary.yaml",
+      "size": 2630
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 891
+    },
+    {
+      "path": ".github/workflows/build-release.yaml",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/build-update-sourcegenerator-for-unity.yaml",
+      "size": 341
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 5265
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4811
+    },
+    {
+      "path": ".github/workflows/docs-translation.yaml",
+      "size": 2798
+    },
+    {
+      "path": ".github/workflows/post-release.yaml",
+      "size": 992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified Realtime/API framework for .NET platform and Unity.",
+    "fork": false,
+    "full_name": "Cysharp/MagicOnion",
+    "html_url": "https://github.com/Cysharp/MagicOnion",
+    "language": "C#",
+    "pushed_at": "2026-04-24T06:24:07Z",
+    "stargazers_count": 4379,
+    "topics": [
+      "c-sharp",
+      "grpc",
+      "rpc",
+      "streaming",
+      "swagger",
+      "unity"
+    ],
+    "updated_at": "2026-05-05T06:29:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspnet/aspnetcore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Build Canary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "term": "Build Canary"
+    },
+    {
+      "context_snippet": "Test Run for Document Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "Test Run for Document Generation"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Document translation update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-translation.yaml",
+      "term": "Document translation update"
+    },
+    {
+      "context_snippet": "Post Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-release.yaml",
+      "term": "Post Release"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

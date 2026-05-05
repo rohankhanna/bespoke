@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lima - Demultiplex Barcoded PacBio Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047092,
+      "status": "candidate",
+      "text": "capital of peru"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047091,
+      "status": "candidate",
+      "text": "bean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972175,
+      "status": "candidate",
+      "text": "lime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19876503,
+      "status": "candidate",
+      "text": "lema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19613671,
+      "status": "candidate",
+      "text": "peru"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lima",
+      "sense_id": "lima#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of peru"
+    }
+  ],
+  "concept_id": "lima",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lima",
+  "observation_id": "530ec70bd6f225da",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "lima",
+  "source_context_snippet": "<a href=\"https://lima.how/\">",
+  "source_file": null,
+  "source_repo": "PacificBiosciences/barcoding",
+  "source_repo_description": "Lima - Demultiplex Barcoded PacBio Samples"
+}

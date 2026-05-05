@@ -1188,7 +1188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T20:59:14.646452+00:00",
+  "fetched_at": "2026-05-05T08:18:29.372912+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1241,13 +1241,13 @@
     "html_url": "https://github.com/benchmark-action/github-action-benchmark",
     "language": "TypeScript",
     "pushed_at": "2026-04-23T02:02:38Z",
-    "stargazers_count": 1223,
+    "stargazers_count": 1224,
     "topics": [
       "benchmark",
       "ci",
       "github-action"
     ],
-    "updated_at": "2026-05-04T09:13:16Z"
+    "updated_at": "2026-05-05T06:13:08Z"
   },
   "repo_links": [
     {

@@ -307,6 +307,18 @@
       "source_repo": "metosin/ring-swagger",
       "status": "candidate-context",
       "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "\u2728 JSON schema matcher for Jest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +471,12 @@
       "source_repo": "metosin/ring-swagger",
       "status": "candidate",
       "text": "[Swagger](http://swagger.io/) 2.0/[OpenApi](https://spec.openapis.org/oas/v3.0.3.html) 3.0 implementation for Clojure/Ring using [Plumatic Schema](https://github.com/Plumatic/schema) (support for [clojure.spec](http://clojure.org/about/spec) via [spec-tools](https://github.com/m\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
     }
   ],
   "candidate_related_terms": [],
@@ -1198,11 +1216,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "americanexpress/jest-json-schema"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "inducer/pycuda",
+      "target": "scipy/oldest-supported-numpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/pycuda",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/pycuda",
+      "target": "Gitlab mirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pycuda",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "inducer/pycuda",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "gpu-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "multidimensional-arrays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "pycuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inducer/pycuda",
+      "target": "scientific-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:00:11.005670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1893
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2437
+    },
+    {
+      "path": ".github/workflows/autopush.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 458
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CUDA integration for Python, plus shiny features",
+    "fork": false,
+    "full_name": "inducer/pycuda",
+    "html_url": "https://github.com/inducer/pycuda",
+    "language": "Python",
+    "pushed_at": "2026-03-27T19:17:38Z",
+    "stargazers_count": 2039,
+    "topics": [
+      "array",
+      "cuda",
+      "gpu",
+      "gpu-computing",
+      "multidimensional-arrays",
+      "pycuda",
+      "python",
+      "scientific-computing"
+    ],
+    "updated_at": "2026-04-29T21:11:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scipy/oldest-supported-numpy",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gitlab mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autopush.yml",
+      "term": "Gitlab mirror"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-computing"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multidimensional-arrays"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pycuda"
+    },
+    {
+      "context_snippet": "PyCUDA: Pythonic Access to CUDA, with Arrays and Algorithms",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    }
+  ]
+}

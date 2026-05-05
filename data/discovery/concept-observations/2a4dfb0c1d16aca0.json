@@ -84,7 +84,7 @@
   "normalized_form": "update-template-ci",
   "observation_id": "2a4dfb0c1d16aca0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Update Template CI",
   "source_context_snippet": "Update Template CI",
   "source_file": ".github/workflows/update-template.yml",

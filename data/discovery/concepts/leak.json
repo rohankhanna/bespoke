@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "leak"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate-context",
+      "text": "Patching CDP (Chrome DevTools Protocol) leaks on OS level. Easy to use with Playwright, Selenium, and other web automation tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005379,
+      "status": "candidate",
+      "text": "leakage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004128,
+      "status": "candidate",
+      "text": "leak out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003556,
+      "status": "candidate",
+      "text": "wetting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000204,
+      "status": "candidate",
+      "text": "outflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927769,
+      "status": "candidate",
+      "text": "escape"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20055,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "leak out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "wetting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3046,
+      "status": "candidate",
+      "text": "leakage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "outflow"
+    }
+  ],
+  "canonical_name": "leak",
+  "concept_id": "leak",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/CDP-Patches"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "leak",
+      "sense_id": "leak#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

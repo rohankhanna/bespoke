@@ -19,12 +19,30 @@
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
       "status": "candidate-context",
       "text": "Patchright Chromium Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "Undetected Python version of the Playwright testing and automation library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "Patchright Chromium Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "status": "candidate",
+      "text": "Patchright Chromium Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
       "status": "candidate",
       "text": "Patchright Chromium Tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/patchright_tests.yml",
       "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/patchright_tests.yml",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

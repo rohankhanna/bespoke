@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close Inactive Pending Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close Inactive Pending Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30423,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30191,
+      "status": "candidate",
+      "text": "remains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30173,
+      "status": "candidate",
+      "text": "rested"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013,
+      "status": "candidate",
+      "text": "afar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886,
+      "status": "candidate",
+      "text": "chokehold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close Inactive Pending Issues",
+      "sense_id": "close-inactive-pending-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-inactive-pending-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-inactive-pending-issues",
+  "observation_id": "eb2cca864e9ba624",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Close Inactive Pending Issues",
+  "source_context_snippet": "Close Inactive Pending Issues",
+  "source_file": ".github/workflows/close-inactive-pending-issues.yml",
+  "source_repo": "ant-design/ant-design-mobile",
+  "source_repo_description": "Essential UI blocks for building mobile web apps."
+}

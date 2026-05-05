@@ -43,6 +43,18 @@
       "source_repo": "enzymejs/enzyme-matchers",
       "status": "candidate-context",
       "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "Snapshot test your Enzyme wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "enzymejs/enzyme-matchers",
       "status": "candidate",
       "text": "![License](https://img.shields.io/npm/l/chai-enzyme.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme-matchers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "adriantoine/enzyme-to-json"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

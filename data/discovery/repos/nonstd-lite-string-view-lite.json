@@ -40,7 +40,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nonstd-lite/string-view-lite",
-      "target": "bitwizeshift/string_view-standalone",
+      "target": "satoren/string_view",
       "target_type": "repository"
     },
     {
@@ -107,7 +107,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:47:29.297674+00:00",
+  "fetched_at": "2026-05-05T07:09:17.349584+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -143,11 +143,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bitwizeshift/string_view-standalone",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cppcon/cppcon2015",
       "source_file": "README.md"
     },
@@ -159,6 +154,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "mclow/string_view",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "satoren/string_view",
       "source_file": "README.md"
     }
   ],

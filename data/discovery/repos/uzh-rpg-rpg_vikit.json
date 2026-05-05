@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:59:00.616164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vision-Kit provides some tools for your vision/robotics project.",
+    "fork": false,
+    "full_name": "uzh-rpg/rpg_vikit",
+    "html_url": "https://github.com/uzh-rpg/rpg_vikit",
+    "language": "C++",
+    "pushed_at": "2024-03-25T18:36:50Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-04-21T21:50:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

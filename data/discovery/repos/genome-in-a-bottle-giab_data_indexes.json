@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:55:59.842224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36983
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains data indexes from NIST's Genome in a Bottle project.",
+    "fork": false,
+    "full_name": "genome-in-a-bottle/giab_data_indexes",
+    "html_url": "https://github.com/genome-in-a-bottle/giab_data_indexes",
+    "language": "Roff",
+    "pushed_at": "2023-11-30T15:46:45Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-04-21T07:23:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

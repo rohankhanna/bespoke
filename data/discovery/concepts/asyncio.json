@@ -295,6 +295,18 @@
       "source_repo": "pallets/quart",
       "status": "candidate-context",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate-context",
+      "text": "Python client and types generator for the Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate-context",
+      "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "pallets/quart",
       "status": "candidate",
       "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate",
+      "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
     }
   ],
   "candidate_related_terms": [],
@@ -778,11 +796,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

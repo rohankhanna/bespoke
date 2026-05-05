@@ -187,6 +187,18 @@
       "source_repo": "101arrowz/fflate",
       "status": "candidate-context",
       "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate-context",
+      "text": "Go wrapper for the C libdeflate library, supporting super fast zlib, gzip, and deflate compression, using cgo. Use case: in-memory, whole-buffered data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "101arrowz/fflate",
       "status": "candidate",
       "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4kills/go-libdeflate",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -484,11 +502,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "4kills/go-libdeflate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

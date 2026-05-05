@@ -67,6 +67,18 @@
       "source_repo": "inducer/pymbolic",
       "status": "candidate-context",
       "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "CUDA integration for Python, plus shiny features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
+      "status": "candidate-context",
+      "text": "Gitlab mirror"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "inducer/pymbolic",
+      "status": "candidate",
+      "text": "Gitlab mirror"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inducer/pycuda",
       "status": "candidate",
       "text": "Gitlab mirror"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/autopush.yml",
       "source_repo": "inducer/pymbolic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/autopush.yml",
+      "source_repo": "inducer/pycuda"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

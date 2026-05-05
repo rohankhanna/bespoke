@@ -798,6 +798,18 @@
       "source_repo": "inokawa/virtua",
       "status": "candidate-context",
       "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -1202,6 +1214,12 @@
       "source_repo": "inokawa/virtua",
       "status": "candidate",
       "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate",
+      "text": "Check"
     }
   ],
   "candidate_related_terms": [
@@ -1988,11 +2006,41 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/check.yaml",
       "source_repo": "PistonDevelopers/glfw-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "ant-design/ant-design-mobile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

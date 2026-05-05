@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "mmark-md/mmark-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "flycheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmark-md/flycheck-mmark",
+      "target": "mmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:19:29.335496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flycheck checker for the MMark markdown processor",
+    "fork": false,
+    "full_name": "mmark-md/flycheck-mmark",
+    "html_url": "https://github.com/mmark-md/flycheck-mmark",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-11-26T20:21:10Z",
+    "stargazers_count": 6,
+    "topics": [
+      "emacs",
+      "flycheck",
+      "markdown",
+      "mmark"
+    ],
+    "updated_at": "2025-11-26T20:21:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmark-md/mmark-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flycheck"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmark"
+    }
+  ]
+}

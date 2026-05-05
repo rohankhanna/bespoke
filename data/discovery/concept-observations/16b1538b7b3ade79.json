@@ -84,7 +84,7 @@
   "normalized_form": "create-legacy-ckpts",
   "observation_id": "16b1538b7b3ade79",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Create Legacy Ckpts",
   "source_context_snippet": "Create Legacy Ckpts",
   "source_file": ".github/workflows/_legacy-checkpoints.yml",

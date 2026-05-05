@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giraud/bs-css",
+      "target": "robinweser/fela",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giraud/bs-css",
+      "target": "sentiaanalytics/bs-css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giraud/bs-css",
+      "target": "poeschko/bs-glamor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:03:34.348314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9097
+    },
+    {
+      "path": "package.json",
+      "size": 258
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Statically typed DSL for writing css in reason.",
+    "fork": false,
+    "full_name": "giraud/bs-css",
+    "html_url": "https://github.com/giraud/bs-css",
+    "language": "ReScript",
+    "pushed_at": "2025-07-16T07:12:58Z",
+    "stargazers_count": 589,
+    "topics": [],
+    "updated_at": "2026-03-11T11:29:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "poeschko/bs-glamor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robinweser/fela",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sentiaanalytics/bs-css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

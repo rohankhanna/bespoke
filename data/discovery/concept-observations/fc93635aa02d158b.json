@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Call building packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Call building packages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34975,
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23929,
+      "status": "candidate",
+      "text": "packaging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23884,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23884,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23783,
+      "status": "candidate",
+      "text": "mail"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Call building packages",
+      "sense_id": "call-building-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "call-building-packages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "call-building-packages",
+  "observation_id": "fc93635aa02d158b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Call building packages",
+  "source_context_snippet": "Call building packages",
+  "source_file": ".github/workflows/_build-packages.yml",
+  "source_repo": "hipudding/pytorch-lightning",
+  "source_repo_description": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puffyyy/PCSim",
+      "target": "ucla-mobility/opencda",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:00:03.455988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A new LiDAR Simulation Library! Code of \"Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library\" (ICRA 2023)",
+    "fork": true,
+    "full_name": "puffyyy/PCSim",
+    "html_url": "https://github.com/puffyyy/PCSim",
+    "language": "Python",
+    "pushed_at": "2025-12-18T08:39:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-18T08:39:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ucla-mobility/opencda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

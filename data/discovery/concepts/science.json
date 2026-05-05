@@ -199,6 +199,18 @@
       "source_repo": "google/deepsomatic",
       "status": "candidate-context",
       "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "google/deepsomatic",
       "status": "candidate",
       "text": "[![release](https://img.shields.io/badge/release-v1.10.0-green?logo=github)](https://github.com/google/deepvariant/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_related_terms": [
@@ -464,11 +482,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "BirolLab/arcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "glumpy/glumpy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

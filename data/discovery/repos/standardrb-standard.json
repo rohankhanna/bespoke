@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml"
     },
@@ -43,7 +43,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "standardrb/standard",
-      "target": "step-security/harden-runner@e3f713f2d8f53843e71c69a996d56f51aa9adfb9",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
       "target_type": "component"
     },
     {
@@ -124,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:52:23.836784+00:00",
+  "fetched_at": "2026-05-05T07:15:44.418335+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -148,15 +148,15 @@
     "full_name": "standardrb/standard",
     "html_url": "https://github.com/standardrb/standard",
     "language": "Ruby",
-    "pushed_at": "2026-05-02T02:11:30Z",
-    "stargazers_count": 2893,
+    "pushed_at": "2026-05-05T01:03:36Z",
+    "stargazers_count": 2894,
     "topics": [
       "formatter",
       "linter",
       "rubocop",
       "ruby"
     ],
-    "updated_at": "2026-05-03T13:48:33Z"
+    "updated_at": "2026-05-05T01:03:40Z"
   },
   "repo_links": [
     {

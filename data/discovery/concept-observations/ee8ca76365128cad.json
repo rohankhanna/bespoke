@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS 2024]OmniTokenizer: one model and one weight for image-video joint tokenization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official pytorch implementation of the following paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official pytorch implementation of the following paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012392,
+      "status": "candidate",
+      "text": "tokening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012391,
+      "status": "candidate",
+      "text": "lexicalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012390,
+      "status": "candidate",
+      "text": "zeroization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012389,
+      "status": "candidate",
+      "text": "assetization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012388,
+      "status": "candidate",
+      "text": "nominalization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tokenization",
+      "sense_id": "tokenization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tokenization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tokenization",
+  "observation_id": "ee8ca76365128cad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "tokenization",
+  "source_context_snippet": "Official pytorch implementation of the following paper:",
+  "source_file": null,
+  "source_repo": "FoundationVision/OmniTokenizer",
+  "source_repo_description": "[NeurIPS 2024]OmniTokenizer: one model and one weight for image-video joint tokenization."
+}

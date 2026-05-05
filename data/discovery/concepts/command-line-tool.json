@@ -367,6 +367,18 @@
       "source_repo": "vi/websocat",
       "status": "candidate-context",
       "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "status": "candidate-context",
+      "text": "Command Line tools for HaxeFlixel, create demos, templates and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "status": "candidate-context",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-tools.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +561,12 @@
       "source_repo": "vi/websocat",
       "status": "candidate",
       "text": "Netcat, curl and socat for [WebSockets](https://en.wikipedia.org/wiki/WebSocket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "status": "candidate",
+      "text": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-tools.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +790,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": null,
       "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-tools"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

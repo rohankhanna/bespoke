@@ -1,0 +1,148 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HMaker/python-cdp",
+      "target": "chromedevtools/devtools-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HMaker/python-cdp",
+      "target": "hyperiongray/trio-chrome-devtools-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "chromedebugprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "chromedriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "twisted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp",
+      "target": "webdriver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:17:57.219091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7317
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 974
+    },
+    {
+      "path": "requirements.txt",
+      "size": 848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python client and types generator for the Chrome DevTools Protocol (CDP)",
+    "fork": false,
+    "full_name": "HMaker/python-cdp",
+    "html_url": "https://github.com/HMaker/python-cdp",
+    "language": "Python",
+    "pushed_at": "2025-10-03T22:31:33Z",
+    "stargazers_count": 106,
+    "topics": [
+      "asyncio",
+      "chrome",
+      "chromedebugprotocol",
+      "chromedriver",
+      "python",
+      "twisted",
+      "webdriver"
+    ],
+    "updated_at": "2026-04-27T02:23:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chromedevtools/devtools-protocol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperiongray/trio-chrome-devtools-protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromedebugprotocol"
+    },
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromedriver"
+    },
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twisted"
+    },
+    {
+      "context_snippet": "Python CDP Generator (shortened to PyCDP) is a library that provides",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdriver"
+    }
+  ]
+}

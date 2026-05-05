@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "distil"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989590,
+      "status": "candidate",
+      "text": "distill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909820,
+      "status": "candidate",
+      "text": "extract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29937277,
+      "status": "candidate",
+      "text": "condense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933657,
+      "status": "candidate",
+      "text": "disseminate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29930260,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "extract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4039,
+      "status": "candidate",
+      "text": "distill"
+    }
+  ],
+  "canonical_name": "distil",
+  "concept_id": "distil",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "distil",
+      "sense_id": "distil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

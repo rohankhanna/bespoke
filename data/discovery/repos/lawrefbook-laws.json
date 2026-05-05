@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/repository-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_page.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_page.yml",
+      "source_repo": "LawRefBook/Laws",
+      "target": "peter-evans/repository-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_page.yml",
+      "source_repo": "LawRefBook/Laws",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:05:33.718319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 612
+    },
+    {
+      "path": "requirements.txt",
+      "size": 201
+    },
+    {
+      "path": ".github/workflows/build_page.yml",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "LawRefBook/Laws",
+    "html_url": "https://github.com/LawRefBook/Laws",
+    "language": "Python",
+    "pushed_at": "2026-04-24T01:06:41Z",
+    "stargazers_count": 1788,
+    "topics": [],
+    "updated_at": "2026-05-04T10:17:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_page.yml",
+      "term": "build"
+    }
+  ]
+}

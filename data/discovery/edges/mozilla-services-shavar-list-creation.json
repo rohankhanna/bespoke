@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "mozilla-services/shavar-list-creation-config",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "mozilla/remote-settings/.github/workflows/ingestion-job-publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yaml",
+      "source_repo": "mozilla-services/shavar-list-creation",
+      "target": "Continuous Deployment",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "mozilla-services/shavar-list-creation"
+}

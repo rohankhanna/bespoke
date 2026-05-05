@@ -1,0 +1,17 @@
+{
+  "component": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@main",
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge_to_main.yml",
+      "source_repo": "swiftlang/swift-corelibs-foundation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automerge_to_release.yml",
+      "source_repo": "swiftlang/swift-corelibs-foundation"
+    }
+  ]
+}

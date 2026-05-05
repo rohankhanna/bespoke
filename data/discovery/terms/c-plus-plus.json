@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -526,6 +526,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "osmcode/libosmium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PointCloudLibrary/pcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "panda3d/panda3d"
     }
   ],
   "term": "c-plus-plus"

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alphagov/.github",
+      "target": "cross-gds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:04:59.563090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Alphagov organisation health files",
+    "fork": false,
+    "full_name": "alphagov/.github",
+    "html_url": "https://github.com/alphagov/.github",
+    "language": null,
+    "pushed_at": "2025-11-10T14:11:22Z",
+    "stargazers_count": 6,
+    "topics": [
+      "cross-gds"
+    ],
+    "updated_at": "2025-04-08T05:52:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Alphagov organisation health files",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-gds"
+    }
+  ]
+}

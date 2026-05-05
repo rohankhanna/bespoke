@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate legacy ckpts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Validate legacy ckpts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate",
+      "text": "Validate legacy ckpts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10879,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10879,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10832,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10832,
+      "status": "candidate",
+      "text": "vet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10762,
+      "status": "candidate",
+      "text": "recommissioned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate legacy ckpts",
+  "concept_id": "validate-legacy-ckpts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ci-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate legacy ckpts",
+      "sense_id": "validate-legacy-ckpts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

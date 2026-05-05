@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "pbaylies/stylegan2-ada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "duchesneaumathieu/pyperlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "l4rz/practical-aspects-of-stylegan2-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "aydao/stylegan2-surgery",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:44.573898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38488
+    },
+    {
+      "path": "Dockerfile",
+      "size": 717
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modifications of the official PyTorch implementation of StyleGAN3. Let's easily generate images and videos with StyleGAN2/2-ADA/3!",
+    "fork": true,
+    "full_name": "PDillis/stylegan3-fun",
+    "html_url": "https://github.com/PDillis/stylegan3-fun",
+    "language": "Python",
+    "pushed_at": "2025-11-26T02:16:25Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-03-24T21:42:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aydao/stylegan2-surgery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "duchesneaumathieu/pyperlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l4rz/practical-aspects-of-stylegan2-training",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pbaylies/stylegan2-ada",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

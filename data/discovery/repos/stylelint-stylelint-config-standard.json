@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "stylelint-config-recommended",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stylelint/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stylelint/remark-preset",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint/.github/.github/workflows/call-lint.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "stylelint/.github/.github/workflows/call-test.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "stylelint/.github/.github/workflows/call-dependency-review.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "stylelint/.github/.github/workflows/call-release-pr.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "stylelint/.github/.github/workflows/call-release.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/stylelint-config-recommended",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint-config-recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "@stylelint/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "@stylelint/remark-preset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "eslint-config-stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/.github/.github/workflows/call-lint.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/.github/.github/workflows/call-test.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/.github/.github/workflows/call-dependency-review.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/.github/.github/workflows/call-release-pr.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint/.github/.github/workflows/call-release.yml@61e84671c2d4d7af47353e7f5289a2df81bd681d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stylelint/stylelint-config-standard",
+      "target": "stylelint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:05:03.995973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3068
+    },
+    {
+      "path": "package.json",
+      "size": 1744
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 636
+    },
+    {
+      "path": ".github/workflows/release-pr.yml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The standard shareable config for Stylelint",
+    "fork": false,
+    "full_name": "stylelint/stylelint-config-standard",
+    "html_url": "https://github.com/stylelint/stylelint-config-standard",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-05T08:03:07Z",
+    "stargazers_count": 1418,
+    "topics": [
+      "stylelint"
+    ],
+    "updated_at": "2026-05-04T10:00:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stylelint/stylelint-config-recommended",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "term": "Release PR"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![NPM version](https://img.shields.io/npm/v/stylelint-config-standard.svg)](https://www.npmjs.org/package/stylelint-config-standard) [![Build Status](https://github.com/stylelint/stylelint-config-standard/workflows/CI/badge.svg)](https://github.com/stylelint/stylelint-config-st\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint"
+    }
+  ]
+}

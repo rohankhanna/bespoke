@@ -55,6 +55,18 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "status": "candidate-context",
+      "text": "A Robust and Efficient Trajectory Planner for Quadrotors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "status": "candidate-context",
+      "text": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "stack-of-tasks/pinocchio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner",
+      "status": "candidate",
+      "text": "**Fast-Planner** is developed aiming to enable quadrotor fast flight in complex unknown environments. It contains a rich set of carefully designed planning algorithms. It also provides a foundational code framework and algorithms that support several popular open-source drone pr\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -148,11 +166,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/Fast-Planner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

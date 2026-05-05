@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dongjae0107/ELite",
+      "target": "koide3/fast_gicp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dongjae0107/ELite",
+      "target": "lifelong-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dongjae0107/ELite",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:44.638132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5414
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICRA 2025] ELite: Ephemerality meets LiDAR-based Lifelong Mapping",
+    "fork": false,
+    "full_name": "dongjae0107/ELite",
+    "html_url": "https://github.com/dongjae0107/ELite",
+    "language": "Python",
+    "pushed_at": "2026-02-13T12:15:33Z",
+    "stargazers_count": 158,
+    "topics": [
+      "lifelong-mapping",
+      "robotics"
+    ],
+    "updated_at": "2026-04-23T08:32:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koide3/fast_gicp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lifelong-mapping"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

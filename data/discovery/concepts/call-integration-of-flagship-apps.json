@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Call integration of flagship Apps"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Call integration of flagship Apps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hipudding/pytorch-lightning",
+      "status": "candidate",
+      "text": "Call integration of flagship Apps"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "adhesion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "bruckner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "diapason"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "graft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22200,
+      "status": "candidate",
+      "text": "spaak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Call integration of flagship Apps",
+  "concept_id": "call-integration-of-flagship-apps",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/_flagship-apps.yml",
+      "source_repo": "hipudding/pytorch-lightning"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Call integration of flagship Apps",
+      "sense_id": "call-integration-of-flagship-apps#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

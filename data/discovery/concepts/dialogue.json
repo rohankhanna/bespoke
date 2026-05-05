@@ -43,6 +43,18 @@
       "source_repo": "microsoft/DialoGPT",
       "status": "candidate-context",
       "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-coai/CDial-GPT",
+      "status": "candidate-context",
+      "text": " A Large-scale Chinese Short-Text Conversation Dataset and Chinese pre-training dialog models "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-coai/CDial-GPT",
+      "status": "candidate-context",
+      "text": "* \u672c\u9879\u76ee\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5927\u89c4\u6a21\u4e2d\u6587\u5bf9\u8bdd\u6570\u636e\u96c6\uff0c\u5e76\u63d0\u4f9b\u4e86\u5728\u6b64\u6570\u636e\u96c6\u4e0a\u7684\u4e2d\u6587\u5bf9\u8bdd\u9884\u8bad\u7ec3\u6a21\u578b\uff08\u4e2d\u6587GPT\u6a21\u578b\uff09\uff0c\u66f4\u591a\u4fe1\u606f\u53ef\u53c2\u8003\u6211\u4eec\u7684[\u8bba\u6587](https://arxiv.org/abs/2008.03946)\u3002"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "microsoft/DialoGPT",
       "status": "candidate",
       "text": "This repository contains the source code and trained model for a large-scale pretrained dialogue response generation model. The [human evaluation results](#human_eval) indicate that the response generated from DialoGPT is comparable to human response quality under a single-turn \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-coai/CDial-GPT",
+      "status": "candidate",
+      "text": "* \u672c\u9879\u76ee\u63d0\u4f9b\u4e86\u4e00\u4e2a\u5927\u89c4\u6a21\u4e2d\u6587\u5bf9\u8bdd\u6570\u636e\u96c6\uff0c\u5e76\u63d0\u4f9b\u4e86\u5728\u6b64\u6570\u636e\u96c6\u4e0a\u7684\u4e2d\u6587\u5bf9\u8bdd\u9884\u8bad\u7ec3\u6a21\u578b\uff08\u4e2d\u6587GPT\u6a21\u578b\uff09\uff0c\u66f4\u591a\u4fe1\u606f\u53ef\u53c2\u8003\u6211\u4eec\u7684[\u8bba\u6587](https://arxiv.org/abs/2008.03946)\u3002"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "microsoft/DialoGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "thu-coai/CDial-GPT"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

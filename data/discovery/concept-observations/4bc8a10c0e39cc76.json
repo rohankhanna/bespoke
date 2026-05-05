@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clear cache weekly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clear cache weekly"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20169,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20169,
+      "status": "candidate",
+      "text": "rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20169,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20169,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12348,
+      "status": "candidate",
+      "text": "lode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clear cache weekly",
+      "sense_id": "clear-cache-weekly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clear-cache-weekly",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clear-cache-weekly",
+  "observation_id": "4bc8a10c0e39cc76",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Clear cache weekly",
+  "source_context_snippet": "Clear cache weekly",
+  "source_file": ".github/workflows/call-clear-cache.yml",
+  "source_repo": "hipudding/pytorch-lightning",
+  "source_repo_description": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes."
+}

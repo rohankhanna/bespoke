@@ -48,7 +48,7 @@
   "normalized_form": "test-mim",
   "observation_id": "1ca9da61c88160f2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "test-mim",
   "source_context_snippet": "test-mim",
   "source_file": ".github/workflows/test_mim.yml",

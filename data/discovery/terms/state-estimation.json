@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "utiasASRL/hero_radar_odometry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "utiasASRL/steam"
     }
   ],
   "term": "state-estimation"

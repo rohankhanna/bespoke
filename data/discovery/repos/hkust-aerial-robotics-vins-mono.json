@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "hkust-aerial-robotics/vins-fusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "hkust-aerial-robotics/vins-mobile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "dorian3d/dbow2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "hengli/camodocal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "state-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+      "target": "vins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:38.192147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Robust and Versatile Monocular Visual-Inertial State Estimator",
+    "fork": false,
+    "full_name": "HKUST-Aerial-Robotics/VINS-Mono",
+    "html_url": "https://github.com/HKUST-Aerial-Robotics/VINS-Mono",
+    "language": "C++",
+    "pushed_at": "2024-08-14T17:28:14Z",
+    "stargazers_count": 5880,
+    "topics": [
+      "state-estimation",
+      "vins",
+      "vio"
+    ],
+    "updated_at": "2026-05-05T04:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dorian3d/dbow2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hengli/camodocal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/vins-fusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-aerial-robotics/vins-mobile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-estimation"
+    },
+    {
+      "context_snippet": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vins"
+    }
+  ]
+}

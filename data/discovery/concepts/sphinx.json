@@ -190,6 +190,18 @@
       "source_repo": "apache/datasketches-python",
       "status": "candidate-context",
       "text": "Sphinx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idris-lang/Idris2",
+      "status": "candidate-context",
+      "text": "A purely functional programming language with first class types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-lang/Idris2",
+      "status": "candidate-context",
+      "text": "Sphinx"
     }
   ],
   "candidate_glosses": [
@@ -280,6 +292,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/datasketches-python",
+      "status": "candidate",
+      "text": "Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-lang/Idris2",
       "status": "candidate",
       "text": "Sphinx"
     }
@@ -595,11 +613,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "source_repo": "idris-lang/Idris2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

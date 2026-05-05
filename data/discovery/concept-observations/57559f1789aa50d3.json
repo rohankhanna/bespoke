@@ -120,7 +120,7 @@
   "normalized_form": "build",
   "observation_id": "57559f1789aa50d3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Build",
   "source_context_snippet": "Build",
   "source_file": ".github/workflows/go.yml",

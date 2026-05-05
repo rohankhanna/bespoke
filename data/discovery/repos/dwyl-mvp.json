@@ -324,7 +324,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:52:59.369636+00:00",
+  "fetched_at": "2026-05-05T07:16:25.503845+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -356,7 +356,7 @@
     "full_name": "dwyl/mvp",
     "html_url": "https://github.com/dwyl/mvp",
     "language": "Elixir",
-    "pushed_at": "2026-03-24T17:46:41Z",
+    "pushed_at": "2026-05-04T20:26:32Z",
     "stargazers_count": 96,
     "topics": [
       "alpinejs",

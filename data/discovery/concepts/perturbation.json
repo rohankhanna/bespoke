@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "perturbation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "status": "candidate-context",
+      "text": "[CVPR 2021] Official PyTorch implementation for Transformer Interpretability Beyond Attention Visualization, a novel method to visualize classifications by Transformer based networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "status": "candidate-context",
+      "text": "Faster, more general, and can be applied to *any* type of attention!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "status": "candidate",
+      "text": "Faster, more general, and can be applied to *any* type of attention!"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012941,
+      "status": "candidate",
+      "text": "disturbance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012749,
+      "status": "candidate",
+      "text": "upset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000485,
+      "status": "candidate",
+      "text": "disruption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39671390,
+      "status": "candidate",
+      "text": "fluster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011547,
+      "status": "candidate",
+      "text": "turmoil"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20042,
+      "status": "candidate",
+      "text": "upset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15039,
+      "status": "candidate",
+      "text": "disruption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "disturbance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7034,
+      "status": "candidate",
+      "text": "fluster"
+    }
+  ],
+  "canonical_name": "perturbation",
+  "concept_id": "perturbation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perturbation",
+      "sense_id": "perturbation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

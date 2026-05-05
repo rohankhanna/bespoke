@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "triton-inference-server/model_navigator",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "triton-inference-server/model_navigator",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/model_navigator",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "triton-inference-server/model_navigator",
+      "target": "inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:11:31.455994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11148
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5328
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 1602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Triton Model Navigator is an inference toolkit designed for optimizing and deploying Deep Learning models with a focus on NVIDIA GPUs.",
+    "fork": false,
+    "full_name": "triton-inference-server/model_navigator",
+    "html_url": "https://github.com/triton-inference-server/model_navigator",
+    "language": "Python",
+    "pushed_at": "2026-02-03T23:47:05Z",
+    "stargazers_count": 221,
+    "topics": [
+      "deep-learning",
+      "gpu",
+      "inference"
+    ],
+    "updated_at": "2026-03-29T10:52:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    }
+  ]
+}

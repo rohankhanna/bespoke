@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PJLab-ADG/NeuS2_TCNN",
+      "target": "19reborn/neus2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PJLab-ADG/NeuS2_TCNN",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:00:17.376313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1211
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "PJLab-ADG/NeuS2_TCNN",
+    "html_url": "https://github.com/PJLab-ADG/NeuS2_TCNN",
+    "language": null,
+    "pushed_at": "2023-09-01T04:35:28Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-07-10T12:06:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "19reborn/neus2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "hila-chefer/transformer-mm-explainability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "jayded/eraserbenchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "jiesutd/text-attention-heatmap-visualization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "attention-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "attention-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "bert-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "explainability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "perturbation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "transformer-interpretability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hila-chefer/Transformer-Explainability",
+      "target": "visualize-classifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:02:01.213417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7737
+    },
+    {
+      "path": "requirements.txt",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021] Official PyTorch implementation for Transformer Interpretability Beyond Attention Visualization, a novel method to visualize classifications by Transformer based networks.",
+    "fork": false,
+    "full_name": "hila-chefer/Transformer-Explainability",
+    "html_url": "https://github.com/hila-chefer/Transformer-Explainability",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-24T05:59:39Z",
+    "stargazers_count": 1994,
+    "topics": [
+      "attention-matrix",
+      "attention-visualization",
+      "bert",
+      "bert-model",
+      "cvpr2021",
+      "deep-learning",
+      "explainability",
+      "perturbation",
+      "transformer-interpretability",
+      "vision-transformer",
+      "visualize-classifications",
+      "vit"
+    ],
+    "updated_at": "2026-05-04T06:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hila-chefer/transformer-mm-explainability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayded/eraserbenchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiesutd/text-attention-heatmap-visualization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-matrix"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-visualization"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-model"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainability"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perturbation"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-interpretability"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "Faster, more general, and can be applied to *any* type of attention!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualize-classifications"
+    }
+  ]
+}

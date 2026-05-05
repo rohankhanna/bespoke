@@ -5,21 +5,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "luping-liu/pndm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
-      "target": "liuzuyan/elasticcache",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xlite-dev/Awesome-DiT-Inference",
       "target": "liewfeng/teacache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "opensparsellms/skip-dit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xlite-dev/Awesome-DiT-Inference",
+      "target": "noakliu/fastcache-xdit",
       "target_type": "repository"
     },
     {
@@ -100,7 +100,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T20:52:28.808139+00:00",
+  "fetched_at": "2026-05-05T08:09:22.335139+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -142,17 +142,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "liuzuyan/elasticcache",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "luping-liu/pndm",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "mit-han-lab/nunchaku",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "noakliu/fastcache-xdit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opensparsellms/skip-dit",
       "source_file": "README.md"
     }
   ],

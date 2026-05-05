@@ -103,6 +103,18 @@
       "source_repo": "jspreadsheet/ce",
       "status": "candidate-context",
       "text": "<b>Jexcel CE</b> has been renamed to <b>Jspreadsheet CE</b><br><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate-context",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "jspreadsheet/ce",
       "status": "candidate",
       "text": "<b>Jexcel CE</b> has been renamed to <b>Jspreadsheet CE</b><br><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate",
+      "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,17 @@
       "observed_at": "2026-05-03T12:28:59.064965+00:00",
       "source_file": null,
       "source_repo": "jspreadsheet/ce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "bvaughn/react-virtualized"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

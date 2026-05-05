@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ruby-syntax"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbj/unparser",
+      "status": "candidate-context",
+      "text": "Turn Ruby AST into semantically equivalent Ruby source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbj/unparser",
+      "status": "candidate-context",
+      "text": "unparser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbj/unparser",
+      "status": "candidate",
+      "text": "unparser"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ruby-syntax",
+  "concept_id": "ruby-syntax",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mbj/unparser"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ruby-syntax",
+      "sense_id": "ruby-syntax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -505,6 +505,18 @@
       "source_repo": "juxt/yada",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Unified Realtime/API framework for .NET platform and Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
     }
   ],
   "candidate_glosses": [
@@ -759,6 +771,12 @@
       "source_repo": "juxt/yada",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/juxt/yada.svg?style=svg)](https://circleci.com/gh/juxt/yada)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1342,11 +1360,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

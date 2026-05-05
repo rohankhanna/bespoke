@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ethz-asl/coin-lio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ntnu-arl/lidar_degeneracy_datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "kafeiyin00/whu-helmetdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ctu-mrs/slam_datasets",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "PengYu-Team/GEODE_dataset"
+}

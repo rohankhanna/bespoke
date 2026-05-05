@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "mreichhoff/requestStorageAccessForOrigin",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "mreichhoff/requestStorageAccessForOrigin",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:17:25.120174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24328
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A proposed extension to the Storage Access API and discussion of how it may be integrated with First-Party Sets.",
+    "fork": true,
+    "full_name": "mreichhoff/requestStorageAccessForOrigin",
+    "html_url": "https://github.com/mreichhoff/requestStorageAccessForOrigin",
+    "language": "Bikeshed",
+    "pushed_at": "2023-03-21T21:49:49Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-28T21:15:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

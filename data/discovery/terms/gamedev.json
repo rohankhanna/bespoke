@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -206,6 +206,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "openfl/openfl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "panda3d/panda3d"
     }
   ],
   "term": "gamedev"

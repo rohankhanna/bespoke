@@ -75,14 +75,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "superfarther/k2v",
+      "target": "open-sciencelab/seedbench",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "open-sciencelab/seedbench",
+      "target": "tpoisonooo/rograg",
       "target_type": "repository"
     },
     {
@@ -282,7 +282,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:44:38.647576+00:00",
+  "fetched_at": "2026-05-05T07:05:23.826467+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -374,7 +374,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "superfarther/k2v",
+      "full_name": "tpoisonooo/rograg",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,426 @@
+{
+  "components": [
+    {
+      "component": "ansi-styles",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-spawn",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "memorystream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pidtree",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "read-pkg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shell-quote",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string.prototype.padend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-async-to-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-power-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mysticatea",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-queue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "power-assert",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "ansi-styles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "cross-spawn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "memorystream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "pidtree",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "read-pkg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "shell-quote",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "string.prototype.padend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "babel-plugin-transform-async-to-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "babel-preset-power-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "babel-register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "eslint-config-mysticatea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "p-queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "power-assert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "yarn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "cli-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "cli-commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "multi-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "npm-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "npm-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "npm-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mysticatea/npm-run-all",
+      "target": "series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:04:26.764811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3047
+    },
+    {
+      "path": "package.json",
+      "size": 2127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CLI tool to run multiple npm-scripts in parallel or sequential.",
+    "fork": false,
+    "full_name": "mysticatea/npm-run-all",
+    "html_url": "https://github.com/mysticatea/npm-run-all",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-15T05:51:28Z",
+    "stargazers_count": 5838,
+    "topics": [
+      "cli",
+      "cli-command",
+      "cli-commands",
+      "javascript",
+      "multi-platform",
+      "npm",
+      "npm-module",
+      "npm-package",
+      "npm-scripts",
+      "parallel",
+      "series"
+    ],
+    "updated_at": "2026-05-05T00:30:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-command"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-commands"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-platform"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-module"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-package"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-scripts"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "series"
+    }
+  ]
+}

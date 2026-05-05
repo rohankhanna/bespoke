@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "chatbot-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "chatbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "llama-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "mistral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot",
+      "target": "question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:57:36.710669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2535
+    },
+    {
+      "path": "Dockerfile",
+      "size": 865
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1570
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Chat with multiple PDFs locally",
+    "fork": false,
+    "full_name": "datvodinh/rag-chatbot",
+    "html_url": "https://github.com/datvodinh/rag-chatbot",
+    "language": "Python",
+    "pushed_at": "2025-10-23T02:41:40Z",
+    "stargazers_count": 656,
+    "topics": [
+      "chatbot",
+      "chatbot-ui",
+      "chatbots",
+      "gradio",
+      "llama-index",
+      "llama3",
+      "llm",
+      "mistral",
+      "ollama",
+      "question-answering",
+      "rag"
+    ],
+    "updated_at": "2026-05-04T05:46:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot-ui"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbots"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-index"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mistral"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "![alt text](assets/demo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    }
+  ]
+}

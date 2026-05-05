@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "lix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "krdlab/setup-haxe@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "HaxeFlixel/setup-flixel@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "haxeflixel/haxeflixel.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "haxeflixel/flixel-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "lix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "krdlab/setup-haxe@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "HaxeFlixel/setup-flixel@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "haxeflixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaxeFlixel/flixel-tools",
+      "target": "haxelib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:11:07.612633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1257
+    },
+    {
+      "path": "package.json",
+      "size": 118
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Command Line tools for HaxeFlixel, create demos, templates and more.",
+    "fork": false,
+    "full_name": "HaxeFlixel/flixel-tools",
+    "html_url": "https://github.com/HaxeFlixel/flixel-tools",
+    "language": "Haxe",
+    "pushed_at": "2025-03-27T13:54:52Z",
+    "stargazers_count": 52,
+    "topics": [
+      "command-line-tool",
+      "haxeflixel",
+      "haxelib"
+    ],
+    "updated_at": "2025-04-16T14:04:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/flixel-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxeflixel/haxeflixel.com",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-tools.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-tools.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxeflixel"
+    },
+    {
+      "context_snippet": "![](https://github.com/HaxeFlixel/haxeflixel.com/blob/dev/content/_static/images/flixel-logos/flixel-tools.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxelib"
+    }
+  ]
+}

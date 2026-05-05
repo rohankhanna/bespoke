@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-remove-inactive.yml",
       "source_repo": "element-plus/element-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-remove-inactive.yml",
+      "source_repo": "ant-design/ant-design-mobile"
     }
   ],
   "term": "Issue Remove Inactive"

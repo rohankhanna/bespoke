@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kakaobrain/rq-vae-transformer",
+      "target": "kakaobrain/mindall-e",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:00:00.085254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16917
+    },
+    {
+      "path": "requirements.txt",
+      "size": 242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official implementation of Autoregressive Image Generation using Residual Quantization (CVPR '22)",
+    "fork": false,
+    "full_name": "kakaobrain/rq-vae-transformer",
+    "html_url": "https://github.com/kakaobrain/rq-vae-transformer",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-03T07:12:24Z",
+    "stargazers_count": 1016,
+    "topics": [],
+    "updated_at": "2026-04-26T11:19:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakaobrain/mindall-e",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

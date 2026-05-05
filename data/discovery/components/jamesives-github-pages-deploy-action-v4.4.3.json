@@ -1,12 +1,17 @@
 {
   "component": "JamesIves/github-pages-deploy-action@v4.4.3",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/api-doc.yml",
       "source_repo": "bernedom/SI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2"
     }
   ]
 }

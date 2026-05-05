@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/check-metas@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/update-packagejson.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/check-metas@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/create-release.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/clean-packagejson-branch.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/prevent-github-change.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prevent-github-change.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/stale-issue.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/check-metas@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Build-Debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/workflows/update-packagejson.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "1password/load-secrets-action@581a835fb51b8e7ec56b71cf2ffddd7e68bb25e0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/unity-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/check-metas@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/workflows/create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/workflows/clean-packagejson-branch.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Build-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/workflows/prevent-github-change.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Prevent github change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Cysharp/Actions/.github/workflows/stale-issue.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "il2cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "testing-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "unit-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:00:59.722601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7550
+    },
+    {
+      "path": ".github/workflows/build-debug.yaml",
+      "size": 4726
+    },
+    {
+      "path": ".github/workflows/build-release.yaml",
+      "size": 3593
+    },
+    {
+      "path": ".github/workflows/prevent-github-change.yaml",
+      "size": 245
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLI/GUI Frontend of Unity Test Runner to test on any platform.",
+    "fork": false,
+    "full_name": "Cysharp/RuntimeUnitTestToolkit",
+    "html_url": "https://github.com/Cysharp/RuntimeUnitTestToolkit",
+    "language": "C#",
+    "pushed_at": "2026-04-07T05:53:21Z",
+    "stargazers_count": 320,
+    "topics": [
+      "csharp",
+      "il2cpp",
+      "testing-tools",
+      "unit-testing",
+      "unity"
+    ],
+    "updated_at": "2026-03-16T03:02:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build-Debug",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "term": "Build-Debug"
+    },
+    {
+      "context_snippet": "Build-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yaml",
+      "term": "Build-Release"
+    },
+    {
+      "context_snippet": "Prevent github change",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prevent-github-change.yaml",
+      "term": "Prevent github change"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "RuntimeUnitTestToolkit(v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "RuntimeUnitTestToolkit(v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "il2cpp"
+    },
+    {
+      "context_snippet": "RuntimeUnitTestToolkit(v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    },
+    {
+      "context_snippet": "RuntimeUnitTestToolkit(v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    },
+    {
+      "context_snippet": "RuntimeUnitTestToolkit(v2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

@@ -121,6 +121,30 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate-context",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate-context",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -183,6 +207,18 @@
       "source_repo": "enzymejs/enzyme",
       "status": "candidate",
       "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-virtualized",
+      "status": "candidate",
+      "text": "[<img src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" alt=\"React virtualized\" data-canonical-src=\"https://cloud.githubusercontent.com/assets/29597/11737732/0ca1e55e-9f91-11e5-97f3-098f2f8ed866.png\" width=\"330\" height=\"100\"\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +340,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mui/material-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "bvaughn/react-virtualized"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ant-design/ant-design-mobile"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

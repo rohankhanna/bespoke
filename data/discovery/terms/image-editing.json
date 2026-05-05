@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "mit-han-lab/anycost-gan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN"
     }
   ],
   "term": "image-editing"

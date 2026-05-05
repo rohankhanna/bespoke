@@ -127,6 +127,18 @@
       "source_repo": "Saganaki22/OrpheusTTS-WebUI",
       "status": "candidate-context",
       "text": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": " Chat with multiple PDFs locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "Saganaki22/OrpheusTTS-WebUI",
       "status": "candidate",
       "text": "This is a fork of the [Orpheus TTS](https://github.com/canopyai/Orpheus-TTS) project, adding a Gradio WebUI that runs smoothly on WSL and CUDA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +358,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

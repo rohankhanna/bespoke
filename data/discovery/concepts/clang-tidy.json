@@ -203,6 +203,18 @@
       "source_repo": "osmcode/libosmium",
       "status": "candidate-context",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "Point Cloud Library (PCL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
+      "status": "candidate-context",
+      "text": "clang-tidy"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +311,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "osmcode/libosmium",
+      "status": "candidate",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PointCloudLibrary/pcl",
       "status": "candidate",
       "text": "clang-tidy"
     }
@@ -530,11 +548,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "osmcode/libosmium"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "PointCloudLibrary/pcl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "doctest/doctest"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

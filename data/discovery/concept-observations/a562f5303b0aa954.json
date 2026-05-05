@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A CLI tool to run multiple npm-scripts in parallel or sequential."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cli-command",
+      "sense_id": "cli-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cli-command",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cli-command",
+  "observation_id": "a562f5303b0aa954",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "cli-command",
+  "source_context_snippet": "| index | [npm-run-all] | [run-s] | [run-p] | [Node API] |",
+  "source_file": null,
+  "source_repo": "mysticatea/npm-run-all",
+  "source_repo_description": "A CLI tool to run multiple npm-scripts in parallel or sequential."
+}

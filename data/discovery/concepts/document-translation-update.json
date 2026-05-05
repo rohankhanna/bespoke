@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Document translation update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Unified Realtime/API framework for .NET platform and Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Document translation update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate",
+      "text": "Document translation update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26300,
+      "status": "candidate",
+      "text": "targeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18730,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18730,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18730,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18550,
+      "status": "candidate",
+      "text": "douay bible"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Document translation update",
+  "concept_id": "document-translation-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/docs-translation.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Document translation update",
+      "sense_id": "document-translation-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

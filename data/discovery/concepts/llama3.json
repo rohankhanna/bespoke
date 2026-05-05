@@ -319,6 +319,18 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate-context",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": " Chat with multiple PDFs locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate-context",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "srgtuszy/llama-cpp-swift",
       "status": "candidate",
       "text": "Build Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datvodinh/rag-chatbot",
+      "status": "candidate",
+      "text": "![alt text](assets/demo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -952,11 +970,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "srgtuszy/llama-cpp-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Llama3.2-Vision-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "datvodinh/rag-chatbot"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

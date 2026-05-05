@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "barcode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PacificBiosciences/barcoding",
+      "status": "candidate-context",
+      "text": "Lima - Demultiplex Barcoded PacBio Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/barcoding",
+      "status": "candidate-context",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PacificBiosciences/barcoding",
+      "status": "candidate",
+      "text": "<a href=\"https://lima.how/\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917513,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024726,
+      "status": "candidate",
+      "text": "bar code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024725,
+      "status": "candidate",
+      "text": "symbology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024724,
+      "status": "candidate",
+      "text": "quiet zone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024723,
+      "status": "candidate",
+      "text": "code"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "barcode",
+  "concept_id": "barcode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "barcode",
+      "sense_id": "barcode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

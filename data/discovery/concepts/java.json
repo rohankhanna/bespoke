@@ -2926,6 +2926,18 @@
       "source_repo": "square/retrofit",
       "status": "candidate-context",
       "text": "Retrofit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gstreamer-java/gst1-java-core",
+      "status": "candidate-context",
+      "text": "Java bindings for GStreamer 1.x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gstreamer-java/gst1-java-core",
+      "status": "candidate-context",
+      "text": "GStreamer 1.x Java Core (gst1-java-core)"
     }
   ],
   "candidate_glosses": [
@@ -4386,6 +4398,12 @@
       "source_repo": "square/retrofit",
       "status": "candidate",
       "text": "Retrofit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gstreamer-java/gst1-java-core",
+      "status": "candidate",
+      "text": "GStreamer 1.x Java Core (gst1-java-core)"
     }
   ],
   "candidate_related_terms": [
@@ -6999,11 +7017,23 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "gstreamer-java/gst1-java-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

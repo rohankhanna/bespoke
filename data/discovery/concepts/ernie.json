@@ -55,6 +55,18 @@
       "source_repo": "yeyupiaoling/PunctuationModel",
       "status": "candidate-context",
       "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate-context",
+      "text": "The official repository for ERNIE 4.5 and ERNIEKit \u2013 its industrial-grade development toolkit based on PaddlePaddle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "yeyupiaoling/PunctuationModel",
       "status": "candidate",
       "text": "\u57fa\u4e8eErnie\u5f00\u53d1\u7684\u4e2d\u6587\u6807\u70b9\u7b26\u53f7\u6a21\u578b\uff0c\u9ed8\u8ba4\u4f7f\u7528\u7684\u9884\u8bad\u7ec3\u6a21\u578b\u4e3a`ernie-3.0-medium-zh`\uff0c\u8be5\u6a21\u578b\u53ef\u4ee5\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7ed3\u679c\u6dfb\u52a0\u6807\u70b9\u7b26\u53f7\uff0c\u4f7f\u7528\u6848\u4f8b[PPASR](https://github.com/yeyupiaoling/PPASR)\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "yeyupiaoling/PunctuationModel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/ERNIE"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "weisongwen/GraphGNSSLib",
+      "target": "nobleo/rviz_satellite",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:39.736789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9265
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization",
+    "fork": false,
+    "full_name": "weisongwen/GraphGNSSLib",
+    "html_url": "https://github.com/weisongwen/GraphGNSSLib",
+    "language": "C",
+    "pushed_at": "2022-12-29T04:13:20Z",
+    "stargazers_count": 613,
+    "topics": [],
+    "updated_at": "2026-04-26T04:51:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nobleo/rviz_satellite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

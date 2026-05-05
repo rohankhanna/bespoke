@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/create-release.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/stale-issue.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "Cysharp/Actions/.github/workflows/toc-generator.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Build-Debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/actions/setup-dotnet@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/workflows/create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Build-Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/workflows/stale-issue.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "Cysharp/Actions/.github/workflows/toc-generator.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "target": "TOC Generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:03.119225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5283
+    },
+    {
+      "path": ".github/workflows/build-debug.yaml",
+      "size": 630
+    },
+    {
+      "path": ".github/workflows/build-release.yaml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 256
+    },
+    {
+      "path": ".github/workflows/toc.yaml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Append supplemental methods(WhenAny, WhenAll, Lazy) to ValueTask.",
+    "fork": false,
+    "full_name": "Cysharp/ValueTaskSupplement",
+    "html_url": "https://github.com/Cysharp/ValueTaskSupplement",
+    "language": "C#",
+    "pushed_at": "2026-02-25T09:05:05Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-03-19T02:27:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build-Debug",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "term": "Build-Debug"
+    },
+    {
+      "context_snippet": "Build-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yaml",
+      "term": "Build-Release"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "TOC Generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yaml",
+      "term": "TOC Generator"
+    }
+  ]
+}

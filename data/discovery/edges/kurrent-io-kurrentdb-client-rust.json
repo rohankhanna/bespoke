@@ -78,17 +78,10 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-macros.yml",
-      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
-      "target": "rust-lang/crates-io-auth-action@v1",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-macros.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust",
-      "target": "Publish eventstore-macros",
+      "target": "Publish kurrentdb-macros",
       "target_type": "term"
     },
     {
@@ -183,6 +176,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
   "source_repo": "kurrent-io/KurrentDB-Client-Rust"
 }

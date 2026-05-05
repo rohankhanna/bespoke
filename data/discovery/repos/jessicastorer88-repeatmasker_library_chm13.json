@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jessicaStorer88/RepeatMasker_library_CHM13",
+      "target": "dfam-consortium/famdb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:00.654082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jessicaStorer88/RepeatMasker_library_CHM13",
+    "html_url": "https://github.com/jessicaStorer88/RepeatMasker_library_CHM13",
+    "language": null,
+    "pushed_at": "2024-11-19T16:52:32Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-08-13T10:47:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dfam-consortium/famdb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

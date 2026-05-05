@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -3457,6 +3457,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/alpha.yml",
       "source_repo": "pulse-browser/browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "kosmtik/kosmtik"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pending-changes.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vitest.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typescript.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vitest.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-site.yml",
+      "source_repo": "ant-design/ant-design-mobile"
     }
   ]
 }

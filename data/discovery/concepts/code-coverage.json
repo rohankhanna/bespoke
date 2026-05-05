@@ -425,6 +425,18 @@
       "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "A custom implementation of the C++17 'string_view' back-ported to c++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "\"Code Coverage\""
     }
   ],
   "candidate_glosses": [
@@ -637,6 +649,12 @@
       "source_repo": "vincentlaucsb/csv-parser",
       "status": "candidate",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate",
+      "text": "\"Code Coverage\""
     }
   ],
   "candidate_related_terms": [
@@ -1274,11 +1292,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "bitwizeshift/string_view-standalone"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

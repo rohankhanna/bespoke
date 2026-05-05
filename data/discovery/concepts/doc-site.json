@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Doc Site"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Doc Site"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate",
+      "text": "Doc Site"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13091,
+      "status": "candidate",
+      "text": "faq"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12839,
+      "status": "candidate",
+      "text": "haiti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12797,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12111,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12111,
+      "status": "candidate",
+      "text": "hmo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Doc Site",
+  "concept_id": "doc-site",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/doc-site.yml",
+      "source_repo": "ant-design/ant-design-mobile"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doc Site",
+      "sense_id": "doc-site#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

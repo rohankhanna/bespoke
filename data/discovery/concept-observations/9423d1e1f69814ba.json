@@ -48,7 +48,7 @@
   "normalized_form": "elasticsearch-client",
   "observation_id": "9423d1e1f69814ba",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "elasticsearch-client",
   "source_context_snippet": "Searchbox is a lightweight and performance focused search UI component library to query and display results from your ElasticSearch index using declarative props. It's available for React, Vue, React Native and Flutter.",
   "source_file": null,

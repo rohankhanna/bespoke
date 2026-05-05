@@ -84,7 +84,7 @@
   "normalized_form": "release-candidate",
   "observation_id": "6801de2948a86f26",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Release Candidate",
   "source_context_snippet": "Release Candidate",
   "source_file": ".github/workflows/release-candidate.yml",

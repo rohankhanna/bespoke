@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baidu/DDParser",
+      "target": "yzhangcs/parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/DDParser",
+      "target": "chinese-dependency-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/DDParser",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/DDParser",
+      "target": "dependency-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/DDParser",
+      "target": "dependency-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/DDParser",
+      "target": "syntax-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:06.335957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9523
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u767e\u5ea6\u5f00\u6e90\u7684\u4f9d\u5b58\u53e5\u6cd5\u5206\u6790\u7cfb\u7edf",
+    "fork": false,
+    "full_name": "baidu/DDParser",
+    "html_url": "https://github.com/baidu/DDParser",
+    "language": "Python",
+    "pushed_at": "2023-02-05T03:09:55Z",
+    "stargazers_count": 1000,
+    "topics": [
+      "chinese-dependency-parser",
+      "chinese-nlp",
+      "dependency-parser",
+      "dependency-parsing",
+      "python",
+      "syntax-parser"
+    ],
+    "updated_at": "2026-05-01T02:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yzhangcs/parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- \u5e94\u7528\u5de5\u5177",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-dependency-parser"
+    },
+    {
+      "context_snippet": "- \u5e94\u7528\u5de5\u5177",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "- \u5e94\u7528\u5de5\u5177",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-parser"
+    },
+    {
+      "context_snippet": "- \u5e94\u7528\u5de5\u5177",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-parsing"
+    },
+    {
+      "context_snippet": "- \u5e94\u7528\u5de5\u5177",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-parser"
+    }
+  ]
+}

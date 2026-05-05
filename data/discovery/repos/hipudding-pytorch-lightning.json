@@ -1,0 +1,325 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_flagship-apps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_flagship-apps.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_flagship-apps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/clear-cache.yml@v0.10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/clear-cache.yml@v0.10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@v0.10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-md-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Call building packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_flagship-apps.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_flagship-apps.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_flagship-apps.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Call integration of flagship Apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Create Legacy Ckpts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Lightning-AI/utilities/.github/workflows/clear-cache.yml@v0.10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Clear cache weekly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-md-links.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@v0.10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checkpoints.yml",
+      "source_repo": "hipudding/pytorch-lightning",
+      "target": "Validate legacy ckpts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:57.313871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23948
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10487
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 8001
+    },
+    {
+      "path": ".github/workflows/_build-packages.yml",
+      "size": 1930
+    },
+    {
+      "path": ".github/workflows/_flagship-apps.yml",
+      "size": 4030
+    },
+    {
+      "path": ".github/workflows/_legacy-checkpoints.yml",
+      "size": 5566
+    },
+    {
+      "path": ".github/workflows/call-clear-cache.yml",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/ci-check-md-links.yml",
+      "size": 561
+    },
+    {
+      "path": ".github/workflows/ci-checkpoints.yml",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrain, finetune and deploy AI models on multiple GPUs, TPUs with zero code changes.",
+    "fork": true,
+    "full_name": "hipudding/pytorch-lightning",
+    "html_url": "https://github.com/hipudding/pytorch-lightning",
+    "language": null,
+    "pushed_at": "2024-02-20T02:26:57Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-12-15T08:01:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Call building packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "term": "Call building packages"
+    },
+    {
+      "context_snippet": "Call integration of flagship Apps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_flagship-apps.yml",
+      "term": "Call integration of flagship Apps"
+    },
+    {
+      "context_snippet": "Create Legacy Ckpts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "term": "Create Legacy Ckpts"
+    },
+    {
+      "context_snippet": "Clear cache weekly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "term": "Clear cache weekly"
+    },
+    {
+      "context_snippet": "Validate legacy ckpts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checkpoints.yml",
+      "term": "Validate legacy ckpts"
+    }
+  ]
+}

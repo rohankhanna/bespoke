@@ -26,28 +26,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "cartocss/carto",
+      "target": "kosmtik/kosmtik",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "geofabrik/osm-bright",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "cquest/osmfr-cartocss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "openstreetmap-carto/openstreetmap-carto",
-      "target": "giggls/openstreetmap-carto-de",
+      "target": "openstreetmap/mapnik-stylesheets",
       "target_type": "repository"
     },
     {
@@ -72,7 +58,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T11:31:27.091443+00:00",
+  "fetched_at": "2026-05-05T07:17:26.582387+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -104,22 +90,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cartocss/carto",
+      "full_name": "kosmtik/kosmtik",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cquest/osmfr-cartocss",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "geofabrik/osm-bright",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "giggls/openstreetmap-carto-de",
+      "full_name": "openstreetmap/mapnik-stylesheets",
       "source_file": "README.md"
     }
   ],

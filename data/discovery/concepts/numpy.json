@@ -463,6 +463,18 @@
       "source_repo": "pydata/xarray",
       "status": "candidate-context",
       "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +705,12 @@
       "source_repo": "pydata/xarray",
       "status": "candidate",
       "text": "[![Xarray](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydata/xarray/refs/heads/main/doc/badge.json)](https://xarray.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_related_terms": [
@@ -1246,11 +1264,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "glumpy/glumpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

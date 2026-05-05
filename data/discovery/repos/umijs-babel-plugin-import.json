@@ -114,13 +114,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "umijs/babel-plugin-import",
-      "target": "ant-design/ant-design-mobile",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "umijs/babel-plugin-import",
       "target": "ant-design/babel-plugin-import",
@@ -288,7 +281,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T20:48:03.753834+00:00",
+  "fetched_at": "2026-05-05T08:04:40.579407+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -318,11 +311,6 @@
     "updated_at": "2026-04-28T10:46:43Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ant-design/ant-design-mobile",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ant-design/babel-plugin-import",

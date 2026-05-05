@@ -301,6 +301,18 @@
       "source_repo": "mapbox/pixelmatch",
       "status": "candidate-context",
       "text": "[![Node](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "CLI/GUI Frontend of Unity Test Runner to test on any platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "RuntimeUnitTestToolkit(v2)"
     }
   ],
   "candidate_glosses": [
@@ -447,6 +459,12 @@
       "source_repo": "mapbox/pixelmatch",
       "status": "candidate",
       "text": "[![Node](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pixelmatch/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate",
+      "text": "RuntimeUnitTestToolkit(v2)"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +628,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "mapbox/pixelmatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

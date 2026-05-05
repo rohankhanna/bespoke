@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T07:17:32.984277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Carto template for OpenStreetMap data",
+    "fork": false,
+    "full_name": "mapbox/osm-bright",
+    "html_url": "https://github.com/mapbox/osm-bright",
+    "language": "CartoCSS",
+    "pushed_at": "2025-10-07T19:16:12Z",
+    "stargazers_count": 702,
+    "topics": [],
+    "updated_at": "2026-04-11T06:47:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

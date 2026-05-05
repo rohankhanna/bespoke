@@ -443,7 +443,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:54:40.574576+00:00",
+  "fetched_at": "2026-05-05T07:18:46.770037+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -455,7 +455,7 @@
     },
     {
       "path": ".github/workflows/check-determinism.yml",
-      "size": 2196
+      "size": 4234
     },
     {
       "path": ".github/workflows/check-libktx-only.yml",
@@ -495,7 +495,7 @@
     "full_name": "KhronosGroup/KTX-Software",
     "html_url": "https://github.com/KhronosGroup/KTX-Software",
     "language": "C++",
-    "pushed_at": "2026-05-04T12:59:07Z",
+    "pushed_at": "2026-05-05T06:03:30Z",
     "stargazers_count": 1244,
     "topics": [
       "ktx",
@@ -503,7 +503,7 @@
       "opengl",
       "textures"
     ],
-    "updated_at": "2026-05-04T07:55:10Z"
+    "updated_at": "2026-05-05T06:03:34Z"
   },
   "repo_links": [
     {

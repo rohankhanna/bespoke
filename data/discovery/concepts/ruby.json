@@ -2242,6 +2242,48 @@
       "source_repo": "AaronC81/sord",
       "status": "candidate-context",
       "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mbj/unparser",
+      "status": "candidate-context",
+      "text": "Turn Ruby AST into semantically equivalent Ruby source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbj/unparser",
+      "status": "candidate-context",
+      "text": "unparser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/better-html",
+      "status": "candidate-context",
+      "text": "(DEPRECATED) Better HTML for Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/better-html",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorbet/sorbet-typed",
+      "status": "candidate-context",
+      "text": "A central repository for sharing type definitions for Ruby gems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet-typed",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet-typed",
+      "status": "candidate-context",
+      "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -3384,6 +3426,30 @@
       "source_repo": "AaronC81/sord",
       "status": "candidate",
       "text": "Sord is a [**So**rbet](https://sorbet.org) and [YA**RD**](https://yardoc.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mbj/unparser",
+      "status": "candidate",
+      "text": "unparser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/better-html",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet-typed",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorbet/sorbet-typed",
+      "status": "candidate",
+      "text": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -5005,11 +5071,53 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "bryanp/llhttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mbj/unparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "Shopify/better-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "sorbet/sorbet-typed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet-typed"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

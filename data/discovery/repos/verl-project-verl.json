@@ -275,14 +275,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "table-r1/table-r1",
+      "target": "nus-trail/noisyrollout",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "nus-trail/noisyrollout",
+      "target": "tencentyouturesearch/spear",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T19:45:11.670786+00:00",
+  "fetched_at": "2026-05-05T07:06:06.014567+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,9 +584,9 @@
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
     "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21071,
+    "stargazers_count": 21080,
     "topics": [],
-    "updated_at": "2026-05-04T19:39:42Z"
+    "updated_at": "2026-05-05T06:37:33Z"
   },
   "repo_links": [
     {
@@ -606,7 +606,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "table-r1/table-r1",
+      "full_name": "tencentyouturesearch/spear",
       "source_file": "README.md"
     }
   ],

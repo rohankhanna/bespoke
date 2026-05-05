@@ -1,12 +1,17 @@
 {
   "component": "ytanikin/pr-conventional-commits@b628c5a234cc32513014b7bfdd1e47b532124d98",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "ai-dynamo/modelexpress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yaml",
+      "source_repo": "ai-dynamo/aiperf"
     }
   ]
 }

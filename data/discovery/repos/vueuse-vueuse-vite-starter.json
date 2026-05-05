@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vue/compiler-sfc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vuejs/vite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vueuse/vueuse-vue3-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "antfu/vitesse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "@vue/compiler-sfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "starter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vue3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "target": "vueuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:04:16.096873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 681
+    },
+    {
+      "path": "package.json",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1\ufe0f Starter for Vite + VueUse + TypeScript",
+    "fork": false,
+    "full_name": "vueuse/vueuse-vite-starter",
+    "html_url": "https://github.com/vueuse/vueuse-vite-starter",
+    "language": "Vue",
+    "pushed_at": "2024-08-01T17:44:59Z",
+    "stargazers_count": 235,
+    "topics": [
+      "starter",
+      "starter-template",
+      "vite",
+      "vue",
+      "vue3",
+      "vueuse"
+    ],
+    "updated_at": "2026-03-28T12:37:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vitesse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vuejs/vite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vueuse/vueuse-vue3-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter"
+    },
+    {
+      "context_snippet": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-template"
+    },
+    {
+      "context_snippet": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vite"
+    },
+    {
+      "context_snippet": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue3"
+    },
+    {
+      "context_snippet": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vueuse"
+    }
+  ]
+}

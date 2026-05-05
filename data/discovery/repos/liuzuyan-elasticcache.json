@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:09:13.894863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3030
+    },
+    {
+      "path": "requirements.txt",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Efficient Inference of Vision Instruction-Following Models with Elastic Cache",
+    "fork": false,
+    "full_name": "liuzuyan/ElasticCache",
+    "html_url": "https://github.com/liuzuyan/ElasticCache",
+    "language": "Python",
+    "pushed_at": "2024-07-26T07:32:47Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-01-22T07:31:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

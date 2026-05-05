@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ethz-asl/coin-lio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ntnu-arl/lidar_degeneracy_datasets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "kafeiyin00/whu-helmetdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PengYu-Team/GEODE_dataset",
+      "target": "ctu-mrs/slam_datasets",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:58:47.241962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extending the Robustness of LiDAR SLAM to Geometrically Degenerate Scenarios",
+    "fork": false,
+    "full_name": "PengYu-Team/GEODE_dataset",
+    "html_url": "https://github.com/PengYu-Team/GEODE_dataset",
+    "language": "Python",
+    "pushed_at": "2025-10-17T04:01:46Z",
+    "stargazers_count": 197,
+    "topics": [],
+    "updated_at": "2026-04-28T03:45:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ctu-mrs/slam_datasets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethz-asl/coin-lio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kafeiyin00/whu-helmetdataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntnu-arl/lidar_degeneracy_datasets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

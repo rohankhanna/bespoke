@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "idris-lang/Idris2",
+      "target": "idris-community/idris2-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "idris-lang/Idris2",
+      "target": "edwinb/splv20",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "idris-lang/Idris2",
+      "target": "alexhumphreys/idris2-dockerfile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "idris-lang/Idris2",
+      "target": "dgellow/idris-docker-image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bootstrap.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bootstrap.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "cachix/install-nix-action@v18",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Bogdanp/setup-racket@v1.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-idris2-and-libs.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Idris2 and External Libs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Lint the sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-sphinx.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Sphinx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "github/super-linter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-super-linter.yml",
+      "source_repo": "idris-lang/Idris2",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idris-lang/Idris2",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idris-lang/Idris2",
+      "target": "dependent-types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idris-lang/Idris2",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "idris-lang/Idris2"
+}

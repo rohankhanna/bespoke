@@ -787,6 +787,18 @@
       "source_repo": "cpmech/vismatrix",
       "status": "candidate-context",
       "text": "<img src=\"figs/fig00a.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": "Python+Numpy+OpenGL: fast, scalable and beautiful scientific visualization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_glosses": [
@@ -1179,6 +1191,12 @@
       "source_repo": "cpmech/vismatrix",
       "status": "candidate",
       "text": "<img src=\"figs/fig00a.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glumpy/glumpy",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/rougier/glumpy/master/doc/_static/glumpy-teaser.png"
     }
   ],
   "candidate_related_terms": [
@@ -1825,11 +1843,35 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "glumpy/glumpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

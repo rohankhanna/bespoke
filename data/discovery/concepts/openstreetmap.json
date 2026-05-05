@@ -199,6 +199,18 @@
       "source_repo": "osmcode/libosmium",
       "status": "candidate-context",
       "text": "https://osmcode.org/libosmium"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kosmtik/kosmtik",
+      "status": "candidate-context",
+      "text": "Make maps with OpenStreetMap and Mapnik"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosmtik/kosmtik",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/kosmtik/kosmtik](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kosmtik/kosmtik?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "osmcode/libosmium",
       "status": "candidate",
       "text": "https://osmcode.org/libosmium"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kosmtik/kosmtik",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/kosmtik/kosmtik](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kosmtik/kosmtik?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [
@@ -442,11 +460,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "osmcode/libosmium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "kosmtik/kosmtik"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

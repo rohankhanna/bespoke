@@ -84,7 +84,7 @@
   "normalized_form": "pylint",
   "observation_id": "36d9c78be14a8904",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Pylint",
   "source_context_snippet": "Pylint",
   "source_file": ".github/workflows/pylint.yml",

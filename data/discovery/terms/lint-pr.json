@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "cosmos/chain-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yaml",
+      "source_repo": "ai-dynamo/aiperf"
     }
   ],
   "term": "Lint PR"

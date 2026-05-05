@@ -84,7 +84,7 @@
   "normalized_form": "issue-checker",
   "observation_id": "3a08a560ac39f9a5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Issue Checker",
   "source_context_snippet": "Issue Checker",
   "source_file": ".github/workflows/issue_checker.yaml",

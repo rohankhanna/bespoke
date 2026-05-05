@@ -19,6 +19,18 @@
       "source_repo": "FStarLang/FStar",
       "status": "candidate-context",
       "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idris-lang/Idris2",
+      "status": "candidate-context",
+      "text": "A purely functional programming language with first class types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-lang/Idris2",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/idris2/badge/?version=latest)](https://idris2.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FStarLang/FStar",
       "status": "candidate",
       "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idris-lang/Idris2",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/idris2/badge/?version=latest)](https://idris2.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "FStarLang/FStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "idris-lang/Idris2"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

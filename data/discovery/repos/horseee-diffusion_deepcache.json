@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/configure-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "horseee/Diffusion_DeepCache",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "horseee/Diffusion_DeepCache",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "horseee/Diffusion_DeepCache",
+      "target": "actions/upload-pages-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "horseee/Diffusion_DeepCache",
+      "target": "actions/deploy-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "source_repo": "horseee/Diffusion_DeepCache",
+      "target": "Deploy static content to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:12.609943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2871
+    },
+    {
+      "path": ".github/workflows/static.yml",
+      "size": 1252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "horseee/Diffusion_DeepCache",
+    "html_url": "https://github.com/horseee/Diffusion_DeepCache",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-29T14:00:29Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2023-12-30T03:26:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy static content to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static.yml",
+      "term": "Deploy static content to Pages"
+    }
+  ]
+}

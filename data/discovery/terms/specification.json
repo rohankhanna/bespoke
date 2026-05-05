@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-05-04T12:47:39.186442+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tlaplus/vscode-tlaplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-identifiers"
     }
   ],
   "term": "specification"

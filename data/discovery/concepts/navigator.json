@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "navigator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048540,
+      "status": "candidate",
+      "text": "sailing master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048539,
+      "status": "candidate",
+      "text": "skipper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048472,
+      "status": "candidate",
+      "text": "nav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048231,
+      "status": "candidate",
+      "text": "sailor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048151,
+      "status": "candidate",
+      "text": "seafarer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sailing master"
+    }
+  ],
+  "canonical_name": "navigator",
+  "concept_id": "navigator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "navigator",
+      "sense_id": "navigator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

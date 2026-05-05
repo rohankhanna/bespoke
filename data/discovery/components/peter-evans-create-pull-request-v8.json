@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -727,6 +727,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-data.yml",
       "source_repo": "allenai/vla-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-agent.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex"
     }
   ]
 }

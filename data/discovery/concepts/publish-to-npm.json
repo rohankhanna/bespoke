@@ -412,6 +412,18 @@
       "source_repo": "chaijs/check-error",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "less/less.js",
+      "status": "candidate-context",
+      "text": "Less. The dynamic stylesheet language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less.js",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +636,12 @@
       "source_repo": "chaijs/check-error",
       "status": "candidate",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "less/less.js",
+      "status": "candidate",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_related_terms": [
@@ -1021,11 +1039,29 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "chaijs/check-error"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/github-action-publish-npm.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "less/less.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

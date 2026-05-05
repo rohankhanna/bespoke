@@ -57,6 +57,18 @@
       "source_repo": "ilyachur/gtest-vim",
       "status": "candidate-context",
       "text": "CodeStyle"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate-context",
+      "text": "The official repository for ERNIE 4.5 and ERNIEKit \u2013 its industrial-grade development toolkit based on PaddlePaddle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate-context",
+      "text": "Codestyle"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "ilyachur/gtest-vim",
       "status": "candidate",
       "text": "CodeStyle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/ERNIE",
+      "status": "candidate",
+      "text": "Codestyle"
     }
   ],
   "candidate_related_terms": [],
@@ -114,11 +132,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "ilyachur/gtest-vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PaddlePaddle/ERNIE"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

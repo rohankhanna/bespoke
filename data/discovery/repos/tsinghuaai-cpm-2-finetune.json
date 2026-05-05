@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM-2-Finetune",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:27.712194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3392
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Finetune CPM-2",
+    "fork": false,
+    "full_name": "TsinghuaAI/CPM-2-Finetune",
+    "html_url": "https://github.com/TsinghuaAI/CPM-2-Finetune",
+    "language": "Python",
+    "pushed_at": "2023-03-18T14:59:06Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-05-02T21:26:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1990,6 +1990,18 @@
       "source_repo": "badmojr/1Hosts",
       "status": "candidate-context",
       "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-services/shavar",
+      "status": "candidate-context",
+      "text": "Tracking Protection update service for Firefox based on Safe Browsing protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-services/shavar",
+      "status": "candidate-context",
+      "text": "shavar - a service that speaks Google's safe browsing protocol"
     }
   ],
   "candidate_glosses": [
@@ -2976,6 +2988,12 @@
       "source_repo": "badmojr/1Hosts",
       "status": "candidate",
       "text": "***Safeguard your device(s) against pesky ads, trackers, and malware.***<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-services/shavar",
+      "status": "candidate",
+      "text": "shavar - a service that speaks Google's safe browsing protocol"
     }
   ],
   "candidate_related_terms": [
@@ -4663,11 +4681,35 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-services/shavar"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

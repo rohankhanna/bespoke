@@ -376,6 +376,18 @@
       "source_repo": "compiler-research/CPyCppyy",
       "status": "candidate-context",
       "text": "Ubuntu"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "A custom implementation of the C++17 'string_view' back-ported to c++11"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
+      "status": "candidate-context",
+      "text": "Ubuntu"
     }
   ],
   "candidate_glosses": [
@@ -574,6 +586,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "compiler-research/CPyCppyy",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwizeshift/string_view-standalone",
       "status": "candidate",
       "text": "Ubuntu"
     }
@@ -889,11 +907,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/ubuntu.yml",
       "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-ubuntu.yml",
+      "source_repo": "bitwizeshift/string_view-standalone"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "robotics-simulation",
   "observation_id": "50913eab70128d00",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "robotics-simulation",
   "source_context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
   "source_file": null,

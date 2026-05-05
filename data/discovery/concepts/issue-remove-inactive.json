@@ -31,6 +31,18 @@
       "source_repo": "element-plus/element-plus",
       "status": "candidate-context",
       "text": "Issue Remove Inactive"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Essential UI blocks for building mobile web apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
+      "status": "candidate-context",
+      "text": "Issue Remove Inactive"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "Issue Remove Inactive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ant-design/ant-design-mobile",
       "status": "candidate",
       "text": "Issue Remove Inactive"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/issue-remove-inactive.yml",
       "source_repo": "element-plus/element-plus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/issue-remove-inactive.yml",
+      "source_repo": "ant-design/ant-design-mobile"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate-context",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexSWong/COVID-Net",
+      "status": "candidate-context",
+      "text": "Launched in March 2020 in response to the coronavirus disease 2019 (COVID-19) pandemic, COVID-Net is a global open source, open access initiative dedicated to accelerating advancement in machine learning to aid front-line healthcare workers and clinical institutions around the world fighting the continuing pandemic. Towards this goal, our global multi-disciplinary team of researchers, developers, and clinicians have made publicly available a suite of tailored deep neural network models for tackling different challenges ranging from screening to risk stratification to treatment planning for patients with the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Furthermore, we have made available fully curated, open access benchmark datasets comprised of some of the largest, most diverse patient cohorts from around the world."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexSWong/COVID-Net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexSWong/COVID-Net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "AlexSWong/COVID-Net"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

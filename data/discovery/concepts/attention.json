@@ -187,6 +187,18 @@
       "source_repo": "akurniawan/pytorch-transformer",
       "status": "candidate-context",
       "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/performer-pytorch",
+      "status": "candidate-context",
+      "text": "An implementation of Performer, a linear attention-based transformer, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/performer-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "akurniawan/pytorch-transformer",
       "status": "candidate",
       "text": "**WARNING! Still in the middle of refactoring, please revert to bb88f0a for the latest working version of this repo**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/performer-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./favor+.png\" width=\"500px\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -489,11 +507,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "flagos-ai/FlagAttention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/performer-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

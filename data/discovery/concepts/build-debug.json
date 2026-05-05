@@ -19,12 +19,48 @@
       "source_repo": "Cysharp/UniTask",
       "status": "candidate-context",
       "text": "Build-Debug"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "CLI/GUI Frontend of Unity Test Runner to test on any platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "Build-Debug"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "Append supplemental methods(WhenAny, WhenAll, Lazy) to ValueTask."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "Build-Debug"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Cysharp/UniTask",
+      "status": "candidate",
+      "text": "Build-Debug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate",
+      "text": "Build-Debug"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
       "status": "candidate",
       "text": "Build-Debug"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/build-debug.yaml",
       "source_repo": "Cysharp/UniTask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-debug.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement"
     }
   ],
   "first_seen_at": "2026-05-04T18:39:47.264597+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

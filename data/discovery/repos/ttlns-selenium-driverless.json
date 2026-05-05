@@ -34,13 +34,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ttlns/Selenium-Driverless",
-      "target": "hmaker/python-cdp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "ttlns/Selenium-Driverless",
@@ -132,7 +125,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:54:03.592243+00:00",
+  "fetched_at": "2026-05-05T07:18:02.384994+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -178,11 +171,6 @@
     "updated_at": "2026-05-02T14:39:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hmaker/python-cdp",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "kaliiiiiiiiii/cdp-socket",

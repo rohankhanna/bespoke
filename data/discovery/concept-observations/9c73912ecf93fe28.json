@@ -84,7 +84,7 @@
   "normalized_form": "contributor-license-agreement-cla",
   "observation_id": "9c73912ecf93fe28",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Contributor License Agreement (CLA)",
   "source_context_snippet": "Contributor License Agreement (CLA)",
   "source_file": ".github/workflows/cla.yml",

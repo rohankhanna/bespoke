@@ -31,11 +31,6 @@
       "source_file": ".github/workflows/publish-macros.yml"
     },
     {
-      "component": "rust-lang/crates-io-auth-action@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-macros.yml"
-    },
-    {
       "component": "actions/checkout@v3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust.yml"
@@ -165,17 +160,10 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/publish-macros.yml",
-      "source_repo": "kurrent-io/KurrentDB-Client-Rust",
-      "target": "rust-lang/crates-io-auth-action@v1",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-macros.yml",
       "source_repo": "kurrent-io/KurrentDB-Client-Rust",
-      "target": "Publish eventstore-macros",
+      "target": "Publish kurrentdb-macros",
       "target_type": "term"
     },
     {
@@ -270,7 +258,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T19:55:46.624377+00:00",
+  "fetched_at": "2026-05-05T07:20:12.660975+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,7 +266,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 139
+      "size": 138
     },
     {
       "path": ".github/workflows/build-docs.yml",
@@ -298,7 +286,7 @@
     },
     {
       "path": ".github/workflows/publish-macros.yml",
-      "size": 970
+      "size": 862
     },
     {
       "path": ".github/workflows/rust.yml",
@@ -322,7 +310,7 @@
     "full_name": "kurrent-io/KurrentDB-Client-Rust",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Rust",
     "language": "Rust",
-    "pushed_at": "2026-05-04T14:25:13Z",
+    "pushed_at": "2026-05-05T07:18:16Z",
     "stargazers_count": 62,
     "topics": [
       "cqrs",
@@ -333,7 +321,7 @@
       "rust",
       "rust-lang"
     ],
-    "updated_at": "2026-05-04T13:14:20Z"
+    "updated_at": "2026-05-05T07:18:18Z"
   },
   "repo_links": [
     {
@@ -368,10 +356,10 @@
       "term": "Get ESDB Docker repo"
     },
     {
-      "context_snippet": "Publish eventstore-macros",
+      "context_snippet": "Publish kurrentdb-macros",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish-macros.yml",
-      "term": "Publish eventstore-macros"
+      "term": "Publish kurrentdb-macros"
     },
     {
       "context_snippet": "\"Dispatch\"",

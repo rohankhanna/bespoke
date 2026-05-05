@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "jetthu/comfyui-tcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "extraltodeus/comfyui-automaticcfg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "mryxj/calculate-flops.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JettHu/ComfyUI_TGate",
+      "target": "t-gate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:05.787596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8556
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "T-GATE implementation for ComfyUI.",
+    "fork": false,
+    "full_name": "JettHu/ComfyUI_TGate",
+    "html_url": "https://github.com/JettHu/ComfyUI_TGate",
+    "language": "Python",
+    "pushed_at": "2026-01-06T02:23:54Z",
+    "stargazers_count": 103,
+    "topics": [
+      "comfyui",
+      "comfyui-nodes",
+      "diffusion",
+      "stable-diffusion",
+      "t-gate"
+    ],
+    "updated_at": "2026-04-28T09:51:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extraltodeus/comfyui-automaticcfg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetthu/comfyui-tcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mryxj/calculate-flops.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "t-gate"
+    }
+  ]
+}

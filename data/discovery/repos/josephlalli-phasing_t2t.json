@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:56:01.804775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26579
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5195
+    },
+    {
+      "path": "requirements.txt",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for code to produce phased 1000 Genomes Project haplotypes called against the CHM13v2 T2T reference genome.",
+    "fork": false,
+    "full_name": "JosephLalli/phasing_T2T",
+    "html_url": "https://github.com/JosephLalli/phasing_T2T",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-28T20:42:46Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-28T20:42:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

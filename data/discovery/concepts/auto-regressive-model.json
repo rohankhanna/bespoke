@@ -55,6 +55,18 @@
       "source_repo": "FoundationVision/Infinity",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024]OmniTokenizer: one model and one weight for image-video joint tokenization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate-context",
+      "text": "Official pytorch implementation of the following paper:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "FoundationVision/Infinity",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate",
+      "text": "Official pytorch implementation of the following paper:"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/Infinity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

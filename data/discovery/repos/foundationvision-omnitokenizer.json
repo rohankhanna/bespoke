@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "songweige/tats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "auto-regressive-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "tokenization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "target": "vqvae",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:53.823560+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7340
+    },
+    {
+      "path": "requirements.txt",
+      "size": 165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024]OmniTokenizer: one model and one weight for image-video joint tokenization.",
+    "fork": false,
+    "full_name": "FoundationVision/OmniTokenizer",
+    "html_url": "https://github.com/FoundationVision/OmniTokenizer",
+    "language": "Python",
+    "pushed_at": "2024-07-09T17:00:57Z",
+    "stargazers_count": 323,
+    "topics": [
+      "auto-regressive-model",
+      "image-generation",
+      "tokenization",
+      "vae",
+      "video-generation",
+      "vqvae"
+    ],
+    "updated_at": "2026-04-09T09:10:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songweige/tats",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-regressive-model"
+    },
+    {
+      "context_snippet": "Official pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "Official pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenization"
+    },
+    {
+      "context_snippet": "Official pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "Official pytorch implementation of the following paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vqvae"
+    }
+  ]
+}

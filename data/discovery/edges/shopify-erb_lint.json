@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Shopify/erb_lint",
-      "target": "shopify/better-html",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Shopify/erb_lint",
       "target": "shopify/erb-lint",
       "target_type": "repository"
     },
@@ -71,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-04T18:39:47.264597+00:00",
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
   "source_repo": "Shopify/erb_lint"
 }

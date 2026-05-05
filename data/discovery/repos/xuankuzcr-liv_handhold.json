@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:58:58.318661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hardware-synchronized device for FAST-LIVO (Handheld & UAV).",
+    "fork": false,
+    "full_name": "xuankuzcr/LIV_handhold",
+    "html_url": "https://github.com/xuankuzcr/LIV_handhold",
+    "language": "C",
+    "pushed_at": "2025-05-19T09:21:25Z",
+    "stargazers_count": 808,
+    "topics": [],
+    "updated_at": "2026-05-04T14:50:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

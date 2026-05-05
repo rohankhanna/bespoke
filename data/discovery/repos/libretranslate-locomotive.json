@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LibreTranslate/Locomotive",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LibreTranslate/Locomotive",
+      "target": "libretranslate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LibreTranslate/Locomotive",
+      "target": "train",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:07:40.997561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9098
+    },
+    {
+      "path": "requirements.txt",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Toolkit for training/converting LibreTranslate compatible language models \ud83d\ude82",
+    "fork": false,
+    "full_name": "LibreTranslate/Locomotive",
+    "html_url": "https://github.com/LibreTranslate/Locomotive",
+    "language": "Python",
+    "pushed_at": "2025-06-23T15:24:45Z",
+    "stargazers_count": 81,
+    "topics": [
+      "language-model",
+      "libretranslate",
+      "nlp",
+      "train"
+    ],
+    "updated_at": "2026-04-30T18:16:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libretranslate"
+    },
+    {
+      "context_snippet": "Easy to use, cross-platform toolkit to train [argos-translate](https://github.com/argosopentech/argos-translate) models, which can be used by [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) \ud83d\ude82",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "train"
+    }
+  ]
+}

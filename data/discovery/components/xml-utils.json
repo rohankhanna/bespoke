@@ -1,0 +1,12 @@
+{
+  "component": "xml-utils",
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "geotiffjs/geotiff.js"
+    }
+  ]
+}

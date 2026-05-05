@@ -139,6 +139,18 @@
       "source_repo": "refcell/femplate",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Starter for Vite + VueUse + TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "refcell/femplate",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"150\" height=\"150\" top=\"100\" src=\"./public/readme.jpg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "refcell/femplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

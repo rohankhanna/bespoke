@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opensciencemap/vtm",
+      "target": "mapsforge/vtm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opensciencemap/vtm",
+      "target": "cscheid/tessellate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:18:18.158219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "a vector-tile map library written in java - running on android, desktop and within the browser",
+    "fork": false,
+    "full_name": "opensciencemap/vtm",
+    "html_url": "https://github.com/opensciencemap/vtm",
+    "language": "Java",
+    "pushed_at": "2021-05-17T13:20:17Z",
+    "stargazers_count": 242,
+    "topics": [],
+    "updated_at": "2025-12-29T11:56:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cscheid/tessellate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapsforge/vtm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

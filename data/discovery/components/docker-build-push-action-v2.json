@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v2",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -387,6 +387,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/github-ci.yml",
       "source_repo": "darwinai/covidnet_ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-ci.yml",
+      "source_repo": "darwinai/pl-covidnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "darwinai/pl-covidnet-grad-cam"
     }
   ]
 }

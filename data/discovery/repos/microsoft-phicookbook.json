@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-04T11:25:11.897476+00:00",
+  "fetched_at": "2026-05-05T07:06:58.157573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +103,7 @@
     "html_url": "https://github.com/microsoft/PhiCookBook",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-26T13:17:43Z",
-    "stargazers_count": 3729,
+    "stargazers_count": 3731,
     "topics": [
       "cookbook",
       "language-model",
@@ -119,7 +119,7 @@
       "slm",
       "small-language-model"
     ],
-    "updated_at": "2026-05-03T08:31:51Z"
+    "updated_at": "2026-05-05T06:15:51Z"
   },
   "repo_links": [],
   "terms": [

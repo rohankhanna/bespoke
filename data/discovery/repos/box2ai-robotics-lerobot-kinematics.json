@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "petercorke/robotics-toolbox-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "therobotstudio/so-arm100",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "box2ai-robotics/joycon-robotics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "box2ai-robotics/lerobot-kinematics",
+      "target": "box2ai-robotics/lerobot-joycon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:05.357441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4899
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple and Accurate Forward and Inverse Kinematics Examples for the Lerobot SO100 ARM",
+    "fork": false,
+    "full_name": "box2ai-robotics/lerobot-kinematics",
+    "html_url": "https://github.com/box2ai-robotics/lerobot-kinematics",
+    "language": "C++",
+    "pushed_at": "2025-08-16T07:07:30Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-04-29T04:20:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "box2ai-robotics/joycon-robotics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "box2ai-robotics/lerobot-joycon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petercorke/robotics-toolbox-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "therobotstudio/so-arm100",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -271,6 +271,18 @@
       "source_repo": "antfu-collective/vitesse-webext",
       "status": "candidate-context",
       "text": "A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Starter for Vite + VueUse + TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "antfu-collective/vitesse-webext",
       "status": "candidate",
       "text": "A [Vite](https://vitejs.dev/) powered WebExtension ([Chrome](https://developer.chrome.com/docs/extensions/reference/), [FireFox](https://addons.mozilla.org/en-US/developers/), etc.) starter template."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -676,11 +694,41 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse-webext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

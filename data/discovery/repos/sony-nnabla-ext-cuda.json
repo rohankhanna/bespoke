@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T07:59:34.640517+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CUDA Extension of Neural Network Libraries",
+    "fork": false,
+    "full_name": "sony/nnabla-ext-cuda",
+    "html_url": "https://github.com/sony/nnabla-ext-cuda",
+    "language": "Cuda",
+    "pushed_at": "2025-06-30T10:04:47Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-23T10:06:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

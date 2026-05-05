@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "sanctuary-scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sanctuary-js/sanctuary-type-identifiers",
+      "target": "sanctuary-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-identifiers",
+      "target": "sanctuary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-type-identifiers",
+      "target": "specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:02:47.212514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3510
+    },
+    {
+      "path": "package.json",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":scroll: Specification for type identifiers",
+    "fork": false,
+    "full_name": "sanctuary-js/sanctuary-type-identifiers",
+    "html_url": "https://github.com/sanctuary-js/sanctuary-type-identifiers",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-27T11:47:34Z",
+    "stargazers_count": 21,
+    "topics": [
+      "sanctuary",
+      "specification"
+    ],
+    "updated_at": "2024-10-27T11:47:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A type is a set of values. Boolean, for example, is the type comprising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanctuary"
+    },
+    {
+      "context_snippet": "A type is a set of values. Boolean, for example, is the type comprising",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    }
+  ]
+}

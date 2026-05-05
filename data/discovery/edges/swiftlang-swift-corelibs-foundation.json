@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge_to_main.yml",
+      "source_repo": "swiftlang/swift-corelibs-foundation",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/automerge_to_release.yml",
+      "source_repo": "swiftlang/swift-corelibs-foundation",
+      "target": "swiftlang/github-workflows/.github/workflows/create_automerge_pr.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "swiftlang/swift-corelibs-foundation"
+}

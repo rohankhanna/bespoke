@@ -175,6 +175,66 @@
       "source_repo": "clj-commons/etaoin",
       "status": "candidate-context",
       "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate-context",
+      "text": "Undetected .NET version of the Playwright testing and automation library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate-context",
+      "text": "\ufeff<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate-context",
+      "text": "Undetected NodeJS version of the Playwright testing and automation library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "Undetected Python version of the Playwright testing and automation library. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate-context",
+      "text": "Python client and types generator for the Chrome DevTools Protocol (CDP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate-context",
+      "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate-context",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "clj-commons/etaoin",
       "status": "candidate",
       "text": "FROM clojure:temurin-21-tools-deps-bullseye-slim RUN apt-get -yqq update && \\ apt-get -yqq upgrade && \\ apt-get -yqq install sudo && \\ apt-get -yqq install procps && \\ apt-get -yqq install libnss3 && \\ apt-get -yqq install bzip2 && \\ apt-get -yqq install imagemagick && \\ apt-get\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet",
+      "status": "candidate",
+      "text": "\ufeff<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HMaker/python-cdp",
+      "status": "candidate",
+      "text": "Python CDP Generator (shortened to PyCDP) is a library that provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver",
+      "status": "candidate",
+      "text": "https://github.com/ultrafunkamsterdam/undetected-chromedriver"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +442,47 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "clj-commons/etaoin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Kaliiiiiiiiii-Vinyzu/patchright-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "HMaker/python-cdp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ttlns/Selenium-Driverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "ultrafunkamsterdam/undetected-chromedriver"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -517,6 +517,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/manual-build.yml",
       "source_repo": "helix-toolkit/helix-toolkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_release.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/patchright_test.yml",
+      "source_repo": "DevEnterpriseSoftware/patchright-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "helix-toolkit/helix-toolkit-nex"
     }
   ]
 }

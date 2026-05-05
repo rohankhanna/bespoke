@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM",
+      "target": "tsinghuaai/cpm-1-pretrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM",
+      "target": "tsinghuaai/cpm-1-finetune",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM",
+      "target": "tsinghuaai/cpm-1-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TsinghuaAI/CPM",
+      "target": "tsinghuaai/cpm-1-distill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:01:26.491513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Introduction to CPM",
+    "fork": false,
+    "full_name": "TsinghuaAI/CPM",
+    "html_url": "https://github.com/TsinghuaAI/CPM",
+    "language": null,
+    "pushed_at": "2021-09-26T05:05:59Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2025-12-16T02:47:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-1-distill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-1-finetune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-1-generate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghuaai/cpm-1-pretrain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

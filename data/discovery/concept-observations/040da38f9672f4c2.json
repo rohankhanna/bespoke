@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CloudCompare main repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create Source Bundle"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create Source Bundle"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26143,
+      "status": "candidate",
+      "text": "generics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18888,
+      "status": "candidate",
+      "text": "vein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18513,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18382,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18382,
+      "status": "candidate",
+      "text": "profile"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Source Bundle",
+      "sense_id": "create-source-bundle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-source-bundle",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-source-bundle",
+  "observation_id": "040da38f9672f4c2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "Create Source Bundle",
+  "source_context_snippet": "Create Source Bundle",
+  "source_file": ".github/workflows/source-release.yml",
+  "source_repo": "CloudCompare/CloudCompare",
+  "source_repo_description": "CloudCompare main repository"
+}

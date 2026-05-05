@@ -16,14 +16,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "trailblazer/cells",
-      "target": "trailblazer/cells-rails",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "trailblazer/cells",
-      "target": "trailblazer/cells-slim",
+      "target": "trailblazer/trailblazer-cells",
       "target_type": "repository"
     },
     {
@@ -55,7 +48,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-04T20:49:34.161445+00:00",
+  "fetched_at": "2026-05-05T08:05:55.092779+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -93,12 +86,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "trailblazer/cells-rails",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "trailblazer/cells-slim",
+      "full_name": "trailblazer/trailblazer-cells",
       "source_file": "README.md"
     }
   ],

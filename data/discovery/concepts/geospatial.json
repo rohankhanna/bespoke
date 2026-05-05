@@ -355,6 +355,18 @@
       "source_repo": "proj4js/proj4js",
       "status": "candidate-context",
       "text": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Fil/d3-geo-voronoi",
+      "status": "candidate-context",
+      "text": "Voronoi / Delaunay tessellations on the sphere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fil/d3-geo-voronoi",
+      "status": "candidate-context",
+      "text": "This module adapts [d3-delaunay](https://github.com/d3/d3-delaunay) for spherical data. Given a set of objects in spherical coordinates, it computes their Delaunay triangulation and its dual, the Voronoi diagram."
     }
   ],
   "candidate_glosses": [
@@ -531,6 +543,12 @@
       "source_repo": "proj4js/proj4js",
       "status": "candidate",
       "text": "Proj4js is a JavaScript library to transform point coordinates from one coordinate system to another, including datum transformations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Fil/d3-geo-voronoi",
+      "status": "candidate",
+      "text": "This module adapts [d3-delaunay](https://github.com/d3/d3-delaunay) for spherical data. Given a set of objects in spherical coordinates, it computes their Delaunay triangulation and its dual, the Voronoi diagram."
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +814,17 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Fil/d3-geo-voronoi"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -53,6 +53,18 @@
       "source_repo": "americanexpress/jest-image-snapshot",
       "status": "candidate-context",
       "text": "Health Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "\u2728 JSON schema matcher for Jest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "Health Check"
     }
   ],
   "candidate_glosses": [
@@ -77,6 +89,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "americanexpress/jest-image-snapshot",
+      "status": "candidate",
+      "text": "Health Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
       "status": "candidate",
       "text": "Health Check"
     }
@@ -146,11 +164,17 @@
       "observed_at": "2026-05-04T07:12:05.012081+00:00",
       "source_file": ".github/workflows/health-check.yml",
       "source_repo": "americanexpress/jest-image-snapshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/health-check.yml",
+      "source_repo": "americanexpress/jest-json-schema"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T07:12:05.012081+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

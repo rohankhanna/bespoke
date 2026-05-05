@@ -31,6 +31,18 @@
       "source_repo": "alphagov/rubocop-govuk",
       "status": "candidate-context",
       "text": "Lint GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alphagov/govuk-rfcs",
+      "status": "candidate-context",
+      "text": " GOV.UK staff use this repository as a forum to discuss and make technical decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-rfcs",
+      "status": "candidate-context",
+      "text": "Lint GitHub Actions"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alphagov/rubocop-govuk",
+      "status": "candidate",
+      "text": "Lint GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alphagov/govuk-rfcs",
       "status": "candidate",
       "text": "Lint GitHub Actions"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "alphagov/rubocop-govuk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "alphagov/govuk-rfcs"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

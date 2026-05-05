@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Canary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Unified Realtime/API framework for .NET platform and Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Build Canary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate",
+      "text": "Build Canary"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11558,
+      "status": "candidate",
+      "text": "nest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "beeswax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "cootie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10736,
+      "status": "candidate",
+      "text": "canaries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10676,
+      "status": "candidate",
+      "text": "serin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Canary",
+  "concept_id": "build-canary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/build-canary.yaml",
+      "source_repo": "Cysharp/MagicOnion"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Canary",
+      "sense_id": "build-canary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -55,6 +55,18 @@
       "source_repo": "nix-community/namaka",
       "status": "candidate-context",
       "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "Snapshot test your Enzyme wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nix-community/namaka",
       "status": "candidate",
       "text": "[![release](https://img.shields.io/github/v/release/nix-community/namaka?logo=github&style=flat-square)](https://github.com/nix-community/namaka/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "adriantoine/enzyme-to-json"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

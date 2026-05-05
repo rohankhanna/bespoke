@@ -67,6 +67,18 @@
       "source_repo": "cucumber/cucumber-js",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cucumber/.github",
+      "status": "candidate-context",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Cucumber organisation on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/.github",
+      "status": "candidate-context",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "cucumber/cucumber-js",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cucumber/.github",
+      "status": "candidate",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for the Cucumber organisation on GitHub."
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "cucumber/cucumber-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "cucumber/.github"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

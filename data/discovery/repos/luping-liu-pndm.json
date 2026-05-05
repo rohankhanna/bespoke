@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luping-liu/PNDM",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luping-liu/PNDM",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luping-liu/PNDM",
+      "target": "numerical-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luping-liu/PNDM",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:14.525439+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official implementation for Pseudo Numerical Methods for Diffusion Models on Manifolds (PNDM, PLMS | ICLR2022)",
+    "fork": false,
+    "full_name": "luping-liu/PNDM",
+    "html_url": "https://github.com/luping-liu/PNDM",
+    "language": "Python",
+    "pushed_at": "2023-04-25T08:00:04Z",
+    "stargazers_count": 355,
+    "topics": [
+      "diffusion-models",
+      "generative-models",
+      "numerical-methods",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-21T05:09:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-methods"
+    },
+    {
+      "context_snippet": "torch>=1.7.0 tensorboard pytorch-fid PyYAML mpi4py scipy numpy lmdb tqdm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

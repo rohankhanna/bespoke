@@ -79,6 +79,18 @@
       "source_repo": "jarcane/clojurice",
       "status": "candidate-context",
       "text": "![clojurice](resources/brand/clojurice-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f Starter for Vite + VueUse + TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "jarcane/clojurice",
       "status": "candidate",
       "text": "![clojurice](resources/brand/clojurice-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vueuse-vite-starter",
+      "status": "candidate",
+      "text": "<h1 align='center'>\u26a1\ufe0f VueUse Vite Starter</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "jarcane/clojurice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "vueuse/vueuse-vite-starter"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

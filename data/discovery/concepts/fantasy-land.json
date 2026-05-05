@@ -43,6 +43,18 @@
       "source_repo": "sanctuary-js/sanctuary-type-classes",
       "status": "candidate-context",
       "text": "The [Fantasy Land Specification][FL] \"specifies interoperability of common"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "status": "candidate-context",
+      "text": "Run-time type system for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "status": "candidate-context",
+      "text": "sanctuary-def is a run-time type system for JavaScript. It facilitates"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "sanctuary-js/sanctuary-type-classes",
       "status": "candidate",
       "text": "The [Fantasy Land Specification][FL] \"specifies interoperability of common"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanctuary-js/sanctuary-def",
+      "status": "candidate",
+      "text": "sanctuary-def is a run-time type system for JavaScript. It facilitates"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "sanctuary-js/sanctuary-type-classes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "sanctuary-js/sanctuary-def"
     }
   ],
   "first_seen_at": "2026-05-04T07:12:05.012081+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

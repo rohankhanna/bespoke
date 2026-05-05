@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "pbaylies/stylegan2-ada",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "duchesneaumathieu/pyperlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "l4rz/practical-aspects-of-stylegan2-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDillis/stylegan3-fun",
+      "target": "aydao/stylegan2-surgery",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-05T06:54:34.093705+00:00",
+  "source_repo": "PDillis/stylegan3-fun"
+}

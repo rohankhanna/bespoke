@@ -79,7 +79,7 @@
   "normalized_form": "node.js-ci---windows-latest",
   "observation_id": "570a919319d380b7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Node.js CI - windows-latest",
   "source_context_snippet": "Node.js CI - windows-latest",
   "source_file": ".github/workflows/nodejs-windows-latest.yml",

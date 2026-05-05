@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official repository for ERNIE 4.5 and ERNIEKit \u2013 its industrial-grade development toolkit based on PaddlePaddle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28374307,
+      "status": "candidate",
+      "text": "hobo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28225156,
+      "status": "candidate",
+      "text": "bum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26930770,
+      "status": "candidate",
+      "text": "bernie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26910630,
+      "status": "candidate",
+      "text": "ernest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26890808,
+      "status": "candidate",
+      "text": "eddie"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ernie",
+      "sense_id": "ernie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ernie",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ernie",
+  "observation_id": "f2f8a2128a238773",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "ernie",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "PaddlePaddle/ERNIE",
+  "source_repo_description": "The official repository for ERNIE 4.5 and ERNIEKit \u2013 its industrial-grade development toolkit based on PaddlePaddle."
+}

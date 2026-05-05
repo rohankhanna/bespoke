@@ -244,6 +244,30 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate-context",
       "text": "Prettier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "React components for efficiently rendering large lists and tabular data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate-context",
+      "text": "\"Prettier\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate-context",
+      "text": "InfiniteLoader component inspired by react-virtualized but for use with react-window"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate-context",
+      "text": "\"Prettier\""
     }
   ],
   "candidate_glosses": [
@@ -366,6 +390,18 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate",
       "text": "Prettier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window",
+      "status": "candidate",
+      "text": "\"Prettier\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bvaughn/react-window-infinite-loader",
+      "status": "candidate",
+      "text": "\"Prettier\""
     }
   ],
   "candidate_related_terms": [
@@ -541,11 +577,23 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": ".github/workflows/prettier.yml",
       "source_repo": "seamapi/node-websocat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "bvaughn/react-window"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "bvaughn/react-window-infinite-loader"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

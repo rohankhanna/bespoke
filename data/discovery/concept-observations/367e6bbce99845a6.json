@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " GOV.UK staff use this repository as a forum to discuss and make technical decisions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GOV.UK staff use this repository as a forum to discuss and make technical decisions. The outcomes of these discussions can be either an action plan, or a new standard that GOV.UK should follow. This repository is open as a reference for other teams within GDS and wider governmen\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GOV.UK staff use this repository as a forum to discuss and make technical decisions. The outcomes of these discussions can be either an action plan, or a new standard that GOV.UK should follow. This repository is open as a reference for other teams within GDS and wider governmen\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "govuk",
+      "sense_id": "govuk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "govuk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "govuk",
+  "observation_id": "367e6bbce99845a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "govuk",
+  "source_context_snippet": "GOV.UK staff use this repository as a forum to discuss and make technical decisions. The outcomes of these discussions can be either an action plan, or a new standard that GOV.UK should follow. This repository is open as a reference for other teams within GDS and wider governmen\u2026",
+  "source_file": null,
+  "source_repo": "alphagov/govuk-rfcs",
+  "source_repo_description": " GOV.UK staff use this repository as a forum to discuss and make technical decisions"
+}

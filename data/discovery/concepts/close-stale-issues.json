@@ -1839,6 +1839,30 @@
       "source_repo": "cucumber/cucumber-js",
       "status": "candidate-context",
       "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "CLI/GUI Frontend of Unity Test Runner to test on any platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "Append supplemental methods(WhenAny, WhenAll, Lazy) to ValueTask."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
     }
   ],
   "candidate_glosses": [
@@ -2795,6 +2819,18 @@
       "source_repo": "cucumber/cucumber-js",
       "status": "candidate",
       "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/ValueTaskSupplement",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
     }
   ],
   "candidate_related_terms": [
@@ -4770,11 +4806,77 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/RuntimeUnitTestToolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "Cysharp/ValueTaskSupplement"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

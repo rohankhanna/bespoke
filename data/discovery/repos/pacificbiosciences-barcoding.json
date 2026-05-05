@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding",
+      "target": "barcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding",
+      "target": "demultiplexing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding",
+      "target": "lima",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding",
+      "target": "pacbio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PacificBiosciences/barcoding",
+      "target": "single-molecule",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T06:56:06.104116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lima - Demultiplex Barcoded PacBio Samples",
+    "fork": false,
+    "full_name": "PacificBiosciences/barcoding",
+    "html_url": "https://github.com/PacificBiosciences/barcoding",
+    "language": "R",
+    "pushed_at": "2025-05-08T14:03:36Z",
+    "stargazers_count": 67,
+    "topics": [
+      "barcode",
+      "demultiplexing",
+      "lima",
+      "pacbio",
+      "single-molecule"
+    ],
+    "updated_at": "2026-04-17T14:06:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://lima.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "barcode"
+    },
+    {
+      "context_snippet": "<a href=\"https://lima.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demultiplexing"
+    },
+    {
+      "context_snippet": "<a href=\"https://lima.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lima"
+    },
+    {
+      "context_snippet": "<a href=\"https://lima.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    },
+    {
+      "context_snippet": "<a href=\"https://lima.how/\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-molecule"
+    }
+  ]
+}

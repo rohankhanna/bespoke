@@ -113,7 +113,7 @@
   "normalized_form": "evaluate",
   "observation_id": "37f59e9b396330db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Evaluate",
   "source_context_snippet": "Evaluate",
   "source_file": ".github/workflows/evaluate.yml",

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T06:59:03.072319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "xuankuzcr/rpg_vikit",
+    "html_url": "https://github.com/xuankuzcr/rpg_vikit",
+    "language": "C++",
+    "pushed_at": "2025-03-24T09:08:45Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-28T14:40:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

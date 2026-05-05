@@ -1,0 +1,231 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "faroit/stempeg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "sigsep/sigsep-mus-io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "sigsep/sigsep-mus-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "sigsep/sigsep-mus-oracle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "Latest docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_unittests.yml",
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "musdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "sisec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sigsep/sigsep-mus-db",
+      "target": "stems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:59:31.922662+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9566
+    },
+    {
+      "path": ".github/workflows/test_docs.yml",
+      "size": 2287
+    },
+    {
+      "path": ".github/workflows/test_unittests.yml",
+      "size": 1206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python parser and tools for MUSDB18 Music Separation Dataset",
+    "fork": false,
+    "full_name": "sigsep/sigsep-mus-db",
+    "html_url": "https://github.com/sigsep/sigsep-mus-db",
+    "language": "Python",
+    "pushed_at": "2025-05-28T09:08:15Z",
+    "stargazers_count": 199,
+    "topics": [
+      "dataset",
+      "mus",
+      "musdb",
+      "python",
+      "sisec",
+      "stems"
+    ],
+    "updated_at": "2026-05-02T04:59:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "faroit/stempeg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigsep/sigsep-mus-oracle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Latest docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "term": "Latest docs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/sigsep/sigsep-mus-db/workflows/CI/badge.svg)](https://github.com/sigsep/sigsep-mus-db/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/sigsep/sigsep-mus-db/workflows/CI/badge.svg)](https://github.com/sigsep/sigsep-mus-db/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musdb"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/sigsep/sigsep-mus-db/workflows/CI/badge.svg)](https://github.com/sigsep/sigsep-mus-db/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sisec"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/sigsep/sigsep-mus-db/workflows/CI/badge.svg)](https://github.com/sigsep/sigsep-mus-db/actions?query=workflow%3ACI+branch%3Amaster+event%3Apush)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stems"
+    }
+  ]
+}

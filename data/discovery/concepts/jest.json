@@ -307,6 +307,30 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate-context",
       "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "Snapshot test your Enzyme wrappers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "\u2728 JSON schema matcher for Jest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +483,18 @@
       "source_repo": "jest-community/awesome-jest",
       "status": "candidate",
       "text": "> An awesome list of [Jest](https://jestjs.io) packages and resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adriantoine/enzyme-to-json",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/travis/adriantoine/enzyme-to-json.svg?branch=master&style=flat-square)](https://travis-ci.org/adriantoine/enzyme-to-json)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "americanexpress/jest-json-schema",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/jest-json-schema.svg)](https://badge.fury.io/js/jest-json-schema)"
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +832,41 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "jest-community/awesome-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme-matchers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "adriantoine/enzyme-to-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "americanexpress/jest-json-schema"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

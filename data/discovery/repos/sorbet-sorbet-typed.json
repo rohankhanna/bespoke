@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "shopify/rbi-central",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "ruby-json-schema/json-schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "sorbet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorbet/sorbet-typed",
+      "target": "types",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:05:58.232673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5105
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A central repository for sharing type definitions for Ruby gems",
+    "fork": false,
+    "full_name": "sorbet/sorbet-typed",
+    "html_url": "https://github.com/sorbet/sorbet-typed",
+    "language": "Ruby",
+    "pushed_at": "2024-02-29T19:08:59Z",
+    "stargazers_count": 391,
+    "topics": [
+      "ruby",
+      "sorbet",
+      "types"
+    ],
+    "updated_at": "2026-03-26T10:01:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruby-json-schema/json-schema",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shopify/rbi-central",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sorbet"
+    },
+    {
+      "context_snippet": "![Ruby](https://github.com/sorbet/sorbet-typed/workflows/Ruby/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    }
+  ]
+}

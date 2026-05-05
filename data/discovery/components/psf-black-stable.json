@@ -1,7 +1,7 @@
 {
   "component": "psf/black@stable",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -147,6 +147,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "python-rope/rope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_black.yml",
+      "source_repo": "sigsep/open-unmix-pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sony/nnabla-rl"
     }
   ]
 }

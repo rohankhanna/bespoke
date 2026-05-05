@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Robust and Versatile Monocular Visual-Inertial State Estimator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980747,
+      "status": "candidate",
+      "text": "aux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980747,
+      "status": "candidate",
+      "text": "wine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980747,
+      "status": "candidate",
+      "text": "wines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980746,
+      "status": "candidate",
+      "text": "fromage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980745,
+      "status": "candidate",
+      "text": "truffe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vins",
+      "sense_id": "vins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vins",
+  "observation_id": "5967b860f7b846b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
+  "observed_text": "vins",
+  "source_context_snippet": "**11 Jan 2019**: An extension of **VINS**, which supports stereo cameras / stereo cameras + IMU / mono camera + IMU, is published at [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion)",
+  "source_file": null,
+  "source_repo": "HKUST-Aerial-Robotics/VINS-Mono",
+  "source_repo_description": "A Robust and Versatile Monocular Visual-Inertial State Estimator"
+}

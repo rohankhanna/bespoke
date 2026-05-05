@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joto/gdalcpp",
+      "target": "osmcode/osm-gis-export",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-05T07:18:19.055382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++11 GDAL wrapper",
+    "fork": false,
+    "full_name": "joto/gdalcpp",
+    "html_url": "https://github.com/joto/gdalcpp",
+    "language": "C++",
+    "pushed_at": "2021-09-25T19:50:39Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-08-01T10:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmcode/osm-gis-export",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

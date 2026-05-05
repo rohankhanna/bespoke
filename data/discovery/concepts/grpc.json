@@ -691,6 +691,18 @@
       "source_repo": "aleskxyz/reality-ezpz",
       "status": "candidate-context",
       "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "Unified Realtime/API framework for .NET platform and Unity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1047,12 @@
       "source_repo": "aleskxyz/reality-ezpz",
       "status": "candidate",
       "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cysharp/MagicOnion",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yaml/badge.svg)](https://github.com/Cysharp/MagicOnion/actions/workflows/build.yml) [![Build Canary](https://github.com/Cysharp/MagicOnion/actions/workflows/build-canary.yaml/badge.svg)](https://github.com/C\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1996,11 +2014,53 @@
       "observed_at": "2026-05-05T00:36:37.683079+00:00",
       "source_file": null,
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "CuatroElixir/spear"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "Cysharp/MagicOnion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-05T00:36:37.683079+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

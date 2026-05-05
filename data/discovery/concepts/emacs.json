@@ -757,6 +757,18 @@
       "source_repo": "radian-software/radian",
       "status": "candidate-context",
       "text": "**Radian**: dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "status": "candidate-context",
+      "text": "Flycheck checker for the MMark markdown processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "status": "candidate-context",
+      "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
     }
   ],
   "candidate_glosses": [
@@ -1137,6 +1149,12 @@
       "source_repo": "radian-software/radian",
       "status": "candidate",
       "text": "**Radian**: dotfiles that marry elegance and practicality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmark-md/flycheck-mmark",
+      "status": "candidate",
+      "text": "[![License GPL 3](https://img.shields.io/badge/license-GPL_3-green.svg)](http://www.gnu.org/licenses/gpl-3.0.txt)"
     }
   ],
   "candidate_related_terms": [
@@ -1672,11 +1690,17 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mmark-md/flycheck-mmark"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

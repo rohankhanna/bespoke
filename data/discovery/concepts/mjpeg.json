@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mjpeg"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "status": "candidate-context",
+      "text": "App showcasing multiple real-time diffusion models pipelines with Diffusers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "status": "candidate-context",
+      "text": "---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "status": "candidate",
+      "text": "---"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006328,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006327,
+      "status": "candidate",
+      "text": "metafile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006326,
+      "status": "candidate",
+      "text": "intraframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006325,
+      "status": "candidate",
+      "text": "interframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006324,
+      "status": "candidate",
+      "text": "keyframe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mjpeg",
+  "concept_id": "mjpeg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model"
+    }
+  ],
+  "first_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mjpeg",
+      "sense_id": "mjpeg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

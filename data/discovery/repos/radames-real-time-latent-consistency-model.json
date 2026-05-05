@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "latent-consistency-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "mjpeg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "mjpeg-stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radames/Real-Time-Latent-Consistency-Model",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-05T08:09:00.890402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5648
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "App showcasing multiple real-time diffusion models pipelines with Diffusers",
+    "fork": false,
+    "full_name": "radames/Real-Time-Latent-Consistency-Model",
+    "html_url": "https://github.com/radames/Real-Time-Latent-Consistency-Model",
+    "language": "Python",
+    "pushed_at": "2025-09-27T00:20:14Z",
+    "stargazers_count": 916,
+    "topics": [
+      "diffusers",
+      "diffusion-models",
+      "latent-consistency-model",
+      "machine-learning",
+      "mjpeg",
+      "mjpeg-stream",
+      "real-time",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-05-04T19:35:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latent-consistency-model"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mjpeg"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mjpeg-stream"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

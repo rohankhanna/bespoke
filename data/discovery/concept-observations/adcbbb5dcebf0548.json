@@ -84,7 +84,7 @@
   "normalized_form": "deploy-datafusion-ballista-site",
   "observation_id": "adcbbb5dcebf0548",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-04T18:39:47.264597+00:00",
+  "observed_at": "2026-05-05T06:54:34.093705+00:00",
   "observed_text": "Deploy DataFusion Ballista site",
   "source_context_snippet": "Deploy DataFusion Ballista site",
   "source_file": ".github/workflows/docs.yaml",

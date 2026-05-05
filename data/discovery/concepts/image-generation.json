@@ -703,6 +703,30 @@
       "source_repo": "EndlessSora/DeceiveD",
       "status": "candidate-context",
       "text": "![teaser](./resources/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024]OmniTokenizer: one model and one weight for image-video joint tokenization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate-context",
+      "text": "Official pytorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "status": "candidate-context",
+      "text": "PaddlePaddle GAN library, including lots of interesting applications like First-Order motion transfer,  Wav2Lip, picture repair, image editing, photo2cartoon, image style transfer, GPEN, and so on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -1053,6 +1077,18 @@
       "source_repo": "EndlessSora/DeceiveD",
       "status": "candidate",
       "text": "![teaser](./resources/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/OmniTokenizer",
+      "status": "candidate",
+      "text": "Official pytorch implementation of the following paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleGAN",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README_cn.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -1672,11 +1708,41 @@
       "observed_at": "2026-05-04T18:39:47.264597+00:00",
       "source_file": null,
       "source_repo": "showlab/VisorGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/OmniTokenizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-05T06:54:34.093705+00:00",
+      "source_file": null,
+      "source_repo": "showlab/VisorGPT"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-04T18:39:47.264597+00:00",
+  "last_seen_at": "2026-05-05T06:54:34.093705+00:00",
   "lexical_providers": [
     "datamuse"
   ],

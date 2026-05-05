@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-05T08:19:34.925518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Experimentation framework for probe-based lighting",
+    "fork": false,
+    "full_name": "kayru/Probulator",
+    "html_url": "https://github.com/kayru/Probulator",
+    "language": "Mathematica",
+    "pushed_at": "2025-10-08T04:02:04Z",
+    "stargazers_count": 436,
+    "topics": [],
+    "updated_at": "2026-04-23T06:07:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}
