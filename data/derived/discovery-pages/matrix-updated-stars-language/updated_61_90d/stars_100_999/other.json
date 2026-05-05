@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 339,
-    "concepts": 316,
-    "observations": 317,
-    "repos": 82,
-    "terms": 313
+    "components": 352,
+    "concepts": 332,
+    "observations": 333,
+    "repos": 87,
+    "terms": 329
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
@@ -22,6 +22,7 @@
     "archguard/archguard",
     "arnetheduck/nim-results",
     "arnetheduck/nph",
+    "aserafin/grape_logging",
     "astral-sh/uv-docker-example",
     "autodeployai/ai-serving",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
@@ -30,12 +31,14 @@
     "babashka/scittle",
     "beam-telemetry/telemetry_metrics",
     "BrunoBonacci/mulog",
+    "caddyserver/caddy-docker",
     "chakravala/Grassmann.jl",
     "cjohansen/replicant",
     "clj-easy/graalvm-clojure",
     "clojure-emacs/inf-clojure",
     "clojure/core.memoize",
     "clojure/tools.analyzer",
+    "clojure/tools.analyzer.jvm",
     "cloojure/tupelo",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
@@ -54,6 +57,7 @@
     "esy/esy",
     "filiph/linkcheck",
     "gfredericks/test.chuck",
+    "google-research/nested-transformer",
     "google/CommonLoopUtils",
     "havarddj/typst-preview.el",
     "hollowstrawberry/kohya-colab",
@@ -68,6 +72,7 @@
     "JuliaGizmos/Blink.jl",
     "JuliaInterop/CxxWrap.jl",
     "JuliaLang/JuliaSyntax.jl",
+    "kowainik/summoner",
     "lambdalisue/vim-nerdfont",
     "lite-xl/lite-xl-plugin-manager",
     "loqusion/typix",
@@ -93,7 +98,7 @@
     "tpapp/julia-repl",
     "trptcolin/reply",
     "vlaaad/reveal",
-    "wjakob/nanobind_example",
+    "WebAssembly/esm-integration",
     "xoofx/CppAst.NET",
     "yogthos/migratus"
   ]

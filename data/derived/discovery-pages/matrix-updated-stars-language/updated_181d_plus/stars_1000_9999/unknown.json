@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 240,
-    "observations": 240,
-    "repos": 99,
-    "terms": 231
+    "components": 29,
+    "concepts": 244,
+    "observations": 244,
+    "repos": 104,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
     "17mon/china_ip_list",
     "623637646/996.Leave",
     "addyosmani/gemini-cli-tips",
+    "AdguardTeam/AdGuardExtra",
     "AdrienTorris/awesome-blazor",
     "airbnb/css",
     "ali-vilab/composer",
@@ -30,6 +31,7 @@
     "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
     "aws-cloudformation/cloudformation-coverage-roadmap",
     "aws-samples/aws-serverless-airline-booking",
+    "baidu/bfe-book",
     "bincode-org/bincode",
     "bnb-chain/whitepaper",
     "callbag/callbag",
@@ -65,6 +67,7 @@
     "llamastack/llama-stack-apps",
     "lxgw/kose-font",
     "lxgw/yozai-font",
+    "marbl/CHM13",
     "matthiasn/talk-transcripts",
     "microsoft/live-share",
     "microsoft/nodejs-guidelines",
@@ -94,6 +97,7 @@
     "react-native-community/discussions-and-proposals",
     "reactjs/rfcs",
     "seebye/ueberzug",
+    "semver/semver",
     "shenweichen/AlgoNotes",
     "showlab/Awesome-GUI-Agent",
     "sindresorhus/guides",
@@ -112,6 +116,7 @@
     "withfig/fig",
     "xaoyaoo/pywxdump",
     "zapret-info/z-i",
+    "ZhuiyiTechnology/pretrained-models",
     "zksync/credo"
   ]
 }

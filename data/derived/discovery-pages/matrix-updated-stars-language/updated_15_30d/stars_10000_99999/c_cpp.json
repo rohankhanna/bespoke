@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 185,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 27,
-    "terms": 189
+    "components": 213,
+    "concepts": 224,
+    "observations": 224,
+    "repos": 32,
+    "terms": 224
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,26 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ApolloAuto/apollo",
     "aristocratos/btop",
     "Cyan4973/xxHash",
     "davatorium/rofi",
     "deepseek-ai/FlashMLA",
+    "fmtlib/fmt",
     "g-truc/glm",
     "gabime/spdlog",
+    "git/git",
+    "google/benchmark",
     "google/flatbuffers",
     "google/sanitizers",
     "google/skia",
     "haiwen/seafile",
     "jedisct1/libsodium",
+    "jonas/tig",
     "mawww/kakoune",
+    "microsoft/WSL2-Linux-Kernel",
     "microsoft/wslg",
     "ninja-build/ninja",
     "nlohmann/json",

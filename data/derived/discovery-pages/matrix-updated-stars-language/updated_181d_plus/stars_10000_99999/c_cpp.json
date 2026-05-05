@@ -3,7 +3,7 @@
     "components": 70,
     "concepts": 118,
     "observations": 118,
-    "repos": 22,
+    "repos": 23,
     "terms": 118
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "antimatter15/alpaca.cpp",
     "apache/mxnet",
@@ -24,6 +24,7 @@
     "cocos2d/cocos2d-x",
     "DayBreak-u/chineseocr_lite",
     "ggreer/the_silver_searcher",
+    "JoeyDeVries/LearnOpenGL",
     "karpathy/llama2.c",
     "krallin/tini",
     "MatsuriDayo/nekoray",

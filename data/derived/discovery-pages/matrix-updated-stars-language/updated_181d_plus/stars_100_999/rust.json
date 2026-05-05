@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 648,
-    "concepts": 542,
-    "observations": 547,
-    "repos": 161,
-    "terms": 535
+    "components": 669,
+    "concepts": 557,
+    "observations": 563,
+    "repos": 165,
+    "terms": 550
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xProject/OpenZKP",
     "10XGenomics/vartrix",
@@ -60,6 +60,7 @@
     "comit-network/xmr-btc-swap",
     "cowprotocol/ethcontract-rs",
     "CurrySoftware/rust-stemmers",
+    "dalek-cryptography/x25519-dalek",
     "danburkert/memmap-rs",
     "davidpdrsn/juniper-from-schema",
     "dcchut/async-recursion",
@@ -120,6 +121,7 @@
     "mcgoo/vcpkg-rs",
     "mdrokz/rust-llama.cpp",
     "Michael-F-Bryan/include_dir",
+    "Michael-F-Bryan/mdbook-linkcheck",
     "microsoft/Spartan",
     "microsoft/vscode-remote-try-rust",
     "Misterio77/flavours",
@@ -130,6 +132,7 @@
     "njsmith/posy",
     "numToStr/lemmy-help",
     "paradigmxyz/mev-share-rs",
+    "prataprc/xorfilter",
     "programatik29/rust-web-benchmarks",
     "ralexstokes/ethereum-consensus",
     "ralexstokes/mev-rs",
@@ -167,6 +170,7 @@
     "target/lorri",
     "tazz4843/whisper-rs",
     "tokio-rs/async-backtrace",
+    "Twinklebear/tobj",
     "unknownue/vulkan-tutorial-rust",
     "valida-xyz/valida",
     "vmchale/tin-summer",

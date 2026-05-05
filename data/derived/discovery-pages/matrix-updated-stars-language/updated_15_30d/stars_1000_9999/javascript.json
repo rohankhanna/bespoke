@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1331,
-    "concepts": 274,
-    "observations": 274,
-    "repos": 46,
-    "terms": 274
+    "components": 1484,
+    "concepts": 317,
+    "observations": 317,
+    "repos": 51,
+    "terms": 317
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
     "ai/size-limit",
     "archiverjs/node-archiver",
     "asciinema/asciinema-player",
+    "Automattic/juice",
     "bcoe/c8",
     "brunch/brunch",
     "codemirror/dev",
@@ -52,12 +53,16 @@
     "rullerzhou-afk/clawd-on-desk",
     "serverless-operations/serverless-step-functions",
     "sindresorhus/hyper-snazzy",
+    "sindresorhus/np",
     "tc39/agendas",
     "tomas/needle",
+    "tw-in-js/twind",
+    "vizzuhq/vizzu-lib",
     "vueform/vueform",
     "webpack/css-loader",
     "webpack/postcss-loader",
     "webpack/sass-loader",
+    "webtorrent/bittorrent-dht",
     "webtorrent/webtorrent-cli",
     "yeoman/yo"
   ]

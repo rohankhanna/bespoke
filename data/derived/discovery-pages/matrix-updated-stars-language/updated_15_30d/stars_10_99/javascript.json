@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 594,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 41,
-    "terms": 170
+    "components": 663,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 46,
+    "terms": 188
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
+    "alexellis/arkade-get",
     "andylockran/spectral-aws-apigateway-ruleset",
     "berty/www.berty.tech",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "bufbuild/protobuf-conformance",
     "C-Lodder/grunt-postcss",
     "coderaiser/supertape",
     "dwyl/aws-ses-lambda",
@@ -42,13 +44,16 @@
     "jasmine/jasmine-browser-runner",
     "mapbox/point-geometry",
     "mapbox/tiletype",
+    "newrelic/newrelic-node-apollo-server-plugin",
     "npm/types",
     "nrwl/nx-ai-agents-config",
+    "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",
     "semantic-release/error",
+    "Taritsyn/DartSassHost",
     "tc39/proposal-iterator-includes",
     "TrigenSoftware/simple-release-action",
     "validator/gulp-html",

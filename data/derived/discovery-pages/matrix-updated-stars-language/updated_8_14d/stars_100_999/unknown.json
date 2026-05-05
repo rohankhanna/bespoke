@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 71,
-    "observations": 72,
-    "repos": 25,
-    "terms": 71
+    "components": 51,
+    "concepts": 64,
+    "observations": 65,
+    "repos": 22,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
@@ -22,8 +22,6 @@
     "chromedp/cdproto",
     "cisagov/vulnrichment",
     "CVEProject/automation-working-group",
-    "django/deps",
-    "emberjs/rfcs",
     "eryajf/awesome-stars-eryajf",
     "ghimiresunil/Top-AI-Tools",
     "google/agents-cli",
@@ -33,11 +31,10 @@
     "kubernetes-sigs/krew-index",
     "LemmyNet/lemmy-docs",
     "LuaLS/LLS-Addons",
+    "luau-lang/rfcs",
     "mason-org/mason-registry",
     "NuGet/docs.microsoft.com-nuget",
-    "oak-security/audit-reports",
     "ocaml/opam-repository",
-    "stripe/openapi",
     "tinted-theming/home"
   ]
 }

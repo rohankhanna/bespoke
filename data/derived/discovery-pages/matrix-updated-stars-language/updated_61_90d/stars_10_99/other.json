@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 159,
-    "observations": 159,
-    "repos": 61,
-    "terms": 158
+    "components": 313,
+    "concepts": 155,
+    "observations": 155,
+    "repos": 63,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -48,15 +48,16 @@
     "ImranR98/obtainium.imranr.dev",
     "informalsystems/audits",
     "jakewvincent/texmagic.nvim",
+    "jfmengels/elm-review-unused",
     "jmespath/jmespath.site",
     "jpmml/r2pmml",
     "jruby/maven-tools",
     "JuliaGraphics/Cairo.jl",
+    "JuliaGtk/Gtk4.jl",
     "JunoLab/Atom.jl",
     "jupyter-xeus/xeus-python-wheel",
     "kahliburke/MCPRepl.jl",
     "lambdaisland/kaocha-cljs",
-    "lumen-oss/rocks-git.nvim",
     "microsoft/windows-host-process-containers-base-image",
     "MicrosoftDocs/vcpkg-docs",
     "newtheatre/history-project",
@@ -66,6 +67,7 @@
     "PacktPublishing/Natural-Language-Processing-with-Flair",
     "padreati/rapaio-jupyter-kernel",
     "patrickgold/jetpref",
+    "revfactory/claude-code-harness",
     "robotology/icub-models",
     "rojo-rbx/rojo.space",
     "SchwarzIT/spectral-intellij-plugin",

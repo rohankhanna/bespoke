@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 202,
-    "concepts": 140,
-    "observations": 140,
+    "components": 200,
+    "concepts": 130,
+    "observations": 130,
     "repos": 36,
-    "terms": 136
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Ai00-X/ai00_server",
     "arkworks-rs/r1cs-std",
@@ -35,13 +35,13 @@
     "Kampfkarren/selene",
     "KyleMayes/clang-rs",
     "KyleMayes/clang-sys",
+    "matsadler/magnus",
     "MSxDOS/ntapi",
     "pdf-rs/pdf_render",
     "ratatui/templates",
     "risinglightdb/sqllogictest-rs",
     "rust-native-tls/rust-native-tls",
     "rust3ds/ctru-rs",
-    "sagiegurari/duckscript",
     "smol-rs/async-executor",
     "SunDoge/simdjson-rust",
     "tsonglew/dutis",

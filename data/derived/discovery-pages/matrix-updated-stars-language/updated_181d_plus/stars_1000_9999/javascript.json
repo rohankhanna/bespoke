@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3925,
-    "concepts": 744,
-    "observations": 745,
-    "repos": 220,
-    "terms": 739
+    "components": 3966,
+    "concepts": 766,
+    "observations": 767,
+    "repos": 226,
+    "terms": 761
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "28mm/blast-radius",
     "afc163/fanyi",
     "aheckmann/gm",
     "alex-seville/blanket",
+    "Alex313031/Mercury",
     "alexpinel/Dot",
     "amsul/pickadate.js",
     "andersontr15/clean-code-javascript-es",
@@ -86,6 +87,7 @@
     "fgnass/node-dev",
     "filamentgroup/loadCSS",
     "fkling/astexplorer",
+    "fregante/GhostText",
     "fridays/next-routes",
     "frostney/react-native-create-library",
     "gajus/eslint-plugin-flowtype",
@@ -116,9 +118,11 @@
     "isaacs/node-graceful-fs",
     "jackspirou/clientjs",
     "JaneaSystems/nodejs-mobile",
+    "jankovicsandras/imagetracerjs",
     "jaredpalmer/backpack",
     "jaydenseric/graphql-upload",
     "jnordberg/gif.js",
+    "joewalnes/reconnecting-websocket",
     "jonschlinkert/markdown-toc",
     "jquery-archive/jquery-mobile",
     "jshint/jshint",
@@ -155,6 +159,7 @@
     "mkkellogg/GaussianSplats3D",
     "mobz/elasticsearch-head",
     "MohammadYounes/rtlcss",
+    "mourner/simplify-js",
     "mozilla/gecko-dev",
     "mozilla/hawk",
     "mozilla/source-map",
@@ -219,6 +224,7 @@
     "topojson/topojson",
     "trentm/node-bunyan",
     "umdjs/umd",
+    "umijs/babel-plugin-import",
     "vercel/styled-jsx",
     "vitalets/react-native-extended-stylesheet",
     "vshymanskyy/StandWithUkraine",

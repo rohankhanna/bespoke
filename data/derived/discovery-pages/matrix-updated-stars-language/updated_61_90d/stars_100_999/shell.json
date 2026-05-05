@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 27,
-    "concepts": 55,
-    "observations": 56,
-    "repos": 11,
-    "terms": 54
+    "components": 21,
+    "concepts": 31,
+    "observations": 32,
+    "repos": 9,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "agkozak/zcomet",
     "alirezarezvani/claude-code-tresor",
     "asdf-vm/asdf-nodejs",
     "docker-library/buildpack-deps",
-    "get-gah/gah",
     "helm/kind-action",
-    "lynxthecat/adblock-lean",
     "nico2sh/semtag",
     "nodejs/unofficial-builds",
     "omerxx/tmux-floax",

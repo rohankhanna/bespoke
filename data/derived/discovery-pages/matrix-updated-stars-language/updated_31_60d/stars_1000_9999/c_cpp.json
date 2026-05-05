@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 292,
-    "observations": 292,
+    "components": 204,
+    "concepts": 319,
+    "observations": 319,
     "repos": 57,
-    "terms": 290
+    "terms": 316
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alembic/alembic",
+    "Alex313031/thorium",
     "AlibabaResearch/AdvancedLiterateMachinery",
     "apache/singa",
     "arrayfire/arrayfire",
@@ -23,18 +24,18 @@
     "bugaevc/wl-clipboard",
     "cameron314/readerwriterqueue",
     "cdown/clipmenu",
-    "Chlumsky/msdf-atlas-gen",
-    "Chlumsky/msdfgen",
     "coin-or/Ipopt",
     "containers/bubblewrap",
     "CVCUDA/CV-CUDA",
     "duckdb/pg_duckdb",
+    "ebiggers/libdeflate",
     "eclipse-paho/paho.mqtt.c",
     "felt/tippecanoe",
     "go-gl/gl",
     "google/double-conversion",
     "google/snappy",
     "gperftools/gperftools",
+    "hku-mars/FAST-LIVO2",
     "hufrea/byedpi",
     "ioquake/ioq3",
     "leethomason/tinyxml2",
@@ -69,7 +70,6 @@
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "xlite-dev/lite.ai.toolkit",
-    "zardus/preeny",
     "zeromq/cppzmq"
   ]
 }

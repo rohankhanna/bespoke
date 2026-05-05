@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 86,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 19,
-    "terms": 71
+    "components": 88,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 21,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "AbsaOSS/external-dns-infoblox-webhook",
     "alexellis/fstail",
     "apache/incubator-seata-k8s",
+    "aws-controllers-k8s/runtime",
+    "bfenetworks/conf-agent",
     "bored-engineer/github-conditional-http-transport",
     "caltechlibrary/datatools",
     "casparwylie/cascii-server",

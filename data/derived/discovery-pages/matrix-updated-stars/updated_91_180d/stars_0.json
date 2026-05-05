@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 247,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 61,
-    "terms": 74
+    "components": 257,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 65,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "aldernero/spider",
@@ -40,6 +40,8 @@
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
     "datafuse-extras/pprof-rs",
+    "datafuse-extras/tantivy",
+    "datafuse-extras/tantivy-jieba",
     "DiligentGraphics/glslang",
     "DiligentGraphics/googletest",
     "Enselic/cargo-public-api",
@@ -47,6 +49,7 @@
     "faradayio/compose_yml",
     "flageval-baai/LRM-Eval",
     "forcedotcom/change-case-management",
+    "get-gah/gah-db",
     "haoxiangsnr/IntelNeuromorphicDNSChallenge",
     "hermit-os/newlib",
     "Hitesh-Aggarwal/dotfiles",
@@ -73,6 +76,7 @@
     "smallscientist1/tilelang",
     "stainless-api/tsc-multi",
     "ved015/CogVideoX-5b-Physics_iq_benchmarking",
-    "wintercg/fetch"
+    "wintercg/fetch",
+    "youngsofun/rust-csv"
   ]
 }

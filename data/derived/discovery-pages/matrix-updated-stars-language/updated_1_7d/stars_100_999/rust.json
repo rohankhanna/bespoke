@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 694,
-    "concepts": 452,
-    "observations": 456,
-    "repos": 67,
-    "terms": 449
+    "components": 639,
+    "concepts": 398,
+    "observations": 402,
+    "repos": 59,
+    "terms": 396
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xPolygonHermez/zisk",
     "a16z/jolt",
     "A2-ai/rv",
     "akiomik/mado",
-    "ankane/tokenizers-ruby",
-    "Anush008/fastembed-rs",
     "apache/hudi-rs",
     "apollographql/router",
     "apollographql/rover",
@@ -31,7 +29,6 @@
     "cobalt-org/liquid-rust",
     "conda/rattler",
     "cosmos/solidity-ibc-eureka",
-    "deven96/ahnlich",
     "Dicklesworthstone/asupersync",
     "Dicklesworthstone/beads_rust",
     "Dicklesworthstone/coding_agent_session_search",
@@ -44,16 +41,14 @@
     "esp-rs/std-training",
     "evaera/moonwave",
     "facebookexperimental/rust-shed",
-    "filecoin-project/filecoin-ffi",
     "GitoxideLabs/cargo-smart-release",
+    "google/mdbook-i18n-helpers",
     "hermit-os/uhyve",
     "huggingface/hf-mount",
-    "huggingface/nfsserve",
     "huggingface/xet-core",
     "hyper-mcp-rs/hyper-mcp",
     "istio/ztunnel",
     "kpcyrd/rebuilderd",
-    "KSXGitHub/parallel-disk-usage",
     "ldclabs/anda",
     "left-curve/left-curve",
     "libbpf/blazesym",
@@ -65,14 +60,10 @@
     "oxc-project/oxc-resolver",
     "posit-dev/ark",
     "prefix-dev/rattler-build",
-    "pubgrub-rs/pubgrub",
     "quickwit-oss/tantivy-py",
     "rust-diplomat/diplomat",
-    "rust-random/getrandom",
     "RustCrypto/crypto-bigint",
     "RustCrypto/elliptic-curves",
-    "RustCrypto/MACs",
-    "RustCrypto/password-hashes",
     "RustCrypto/traits",
     "supabase/wrappers",
     "tensorchord/VectorChord-bm25",
@@ -80,6 +71,7 @@
     "vectordotdev/vrl",
     "z-galaxy/zbus",
     "zaeleus/noodles",
+    "ZcashFoundation/zebra",
     "zip-rs/zip2"
   ]
 }

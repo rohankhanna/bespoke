@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 55,
-    "concepts": 26,
-    "observations": 27,
-    "repos": 8,
-    "terms": 26
+    "components": 69,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 10,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "curiousdannii/remglk-rs",
     "EspressoSystems/tide-disco",
@@ -20,7 +20,9 @@
     "facebookexperimental/cxx",
     "foundry-rs/foundry-core",
     "huggingface/fuser",
+    "image-rs/image-extras",
     "juharris/optify",
+    "oxc-project/oxc-index-vec",
     "tremby/snapmixer"
   ]
 }

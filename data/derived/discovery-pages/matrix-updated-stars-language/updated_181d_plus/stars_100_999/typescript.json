@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4469,
-    "concepts": 675,
-    "observations": 677,
-    "repos": 181,
-    "terms": 686
+    "components": 4538,
+    "concepts": 684,
+    "observations": 686,
+    "repos": 185,
+    "terms": 695
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -32,6 +32,7 @@
     "apache/dubbo-js",
     "apisyouwonthate/style-guide",
     "Arachnid/deterministic-deployment-proxy",
+    "arcanis/typanion",
     "argoproj-labs/argocd-extension-metrics",
     "ariya/esprima",
     "asg017/sqlite-ecosystem",
@@ -67,6 +68,7 @@
     "danibram/mocker-data-generator",
     "deathau/sliding-panes-obsidian",
     "delashum/obsidian-checklist-plugin",
+    "dimforge/rapier.js",
     "Dogtiti/AutoGPT-Next-Web",
     "dracula/dracula-ui",
     "dsherret/ts-nameof",
@@ -137,6 +139,7 @@
     "morrys/wora",
     "mostjs/core",
     "neoclide/coc-css",
+    "neoclide/coc-emmet",
     "neoclide/coc-eslint",
     "neoclide/coc-git",
     "neoclide/coc-tabnine",
@@ -146,6 +149,7 @@
     "node-lightning/node-lightning",
     "nothingislost/obsidian-dynamic-highlights",
     "notiz-dev/prisma-dbml-generator",
+    "obartra/ssim",
     "Obsidian-TTRPG-Community/dice-roller",
     "openupm/openupm-cli",
     "placemark/flat-drop-files",

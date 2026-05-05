@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 77,
-    "observations": 78,
-    "repos": 25,
-    "terms": 75
+    "components": 70,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 27,
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "3dfxdev/EDGE",
     "AdaCore/gnatcoll-db",
@@ -35,6 +35,8 @@
     "osvenskan/sysv_ipc",
     "probonopd/static-tools",
     "r-spatial/lwgeom",
+    "Taritsyn/LibSassHost",
+    "triton-inference-server/tensorflow_backend",
     "XR-Robotics/XRoboToolkit-PC-Service-Pybind",
     "xtensor-stack/xtensor-r",
     "Yepkit/ykush",

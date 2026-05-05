@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 629,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 48,
-    "terms": 184
+    "components": 649,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 49,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/deploy-pages",
@@ -25,6 +25,7 @@
     "chrisgoringe/cg-use-everywhere",
     "cmake-js/cmake-js",
     "CyberAP/nanoid-dictionary",
+    "d3/d3-geo-polygon",
     "dwyl/hapi-auth-jwt2",
     "dwyl/javascript-todo-list-tutorial",
     "dwyl/learn-postgresql",

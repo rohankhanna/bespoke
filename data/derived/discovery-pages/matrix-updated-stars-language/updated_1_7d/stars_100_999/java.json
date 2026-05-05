@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 309,
-    "observations": 309,
-    "repos": 39,
-    "terms": 307
+    "components": 242,
+    "concepts": 301,
+    "observations": 301,
+    "repos": 37,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "apache/ignite-3",
     "apache/rocketmq-clients",
@@ -22,11 +22,9 @@
     "aws/smithy-go",
     "bazel-contrib/rules_jvm_external",
     "bndtools/bnd",
-    "cloudfoundry/credhub",
     "confluentinc/kafka-streams-examples",
     "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
-    "eclipse-wildwebdeveloper/wildwebdeveloper",
     "FasterXML/jackson-dataformat-xml",
     "FasterXML/jackson-dataformats-binary",
     "FasterXML/jackson-dataformats-text",
@@ -41,10 +39,10 @@
     "microsoft/LangChain4j-for-Beginners",
     "operator-framework/java-operator-sdk",
     "palantir/javapoet",
+    "processing/processing4",
     "quarkiverse/quarkus-langchain4j",
     "quarkiverse/quarkus-operator-sdk",
     "reactor/reactor-addons",
-    "revelc/formatter-maven-plugin",
     "saalfeldlab/n5",
     "samtools/htsjdk",
     "SAP/SapMachine",

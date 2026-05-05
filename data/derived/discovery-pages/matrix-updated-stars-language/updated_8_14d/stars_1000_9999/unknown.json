@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 76,
-    "observations": 76,
-    "repos": 17,
-    "terms": 76
+    "components": 34,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 16,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xNyk/awesome-hermes-agent",
-    "alchaincyf/zhangxuefeng-skill",
     "aws-controllers-k8s/community",
     "CocoaPods/Specs",
     "CVEProject/cvelistV5",
     "dotnet/docs",
     "Efficient-ML/Awesome-Model-Quantization",
     "flathub/flathub",
-    "godotengine/awesome-godot",
+    "logseq/awesome-logseq",
     "mapbox/awesome-vector-tiles",
     "meituan-longcat/LongCat-Flash-Chat",
+    "MicrosoftDocs/cpp-docs",
     "QwenLM/Qwen3.6",
-    "ratatui/awesome-ratatui",
     "rust-embedded/awesome-embedded-rust",
     "rust-embedded/wg",
     "rustsec/advisory-db",

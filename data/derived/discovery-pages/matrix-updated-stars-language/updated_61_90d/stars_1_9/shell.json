@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 4,
-    "terms": 15
+    "components": 8,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 5,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "hchiam/learning-https-server",
+    "alonw0/cc-redalerts-statusline",
+    "bendrucker/terraform-configuration-aliases-action",
     "tianon/fake-git",
     "tombelieber/claude-backup",
     "tzachar/sqlite_skim"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 10,
-    "terms": 63
+    "components": 44,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "bobbylight/RSyntaxTextArea",
-    "locationtech/jts",
     "msgpack/msgpack-java",
     "ninjaframework/ninja",
     "objectbox/objectbox-java",

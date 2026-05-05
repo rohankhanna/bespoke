@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 477,
-    "observations": 477,
-    "repos": 90,
-    "terms": 472
+    "components": 239,
+    "concepts": 494,
+    "observations": 494,
+    "repos": 91,
+    "terms": 489
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
     "albumentations-team/albumentations",
+    "aleju/imgaug",
     "allenai/allennlp",
     "Anjok07/ultimatevocalremovergui",
     "apple/ml-stable-diffusion",

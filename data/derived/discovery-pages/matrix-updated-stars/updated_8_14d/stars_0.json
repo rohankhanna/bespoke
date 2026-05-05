@@ -1,23 +1,21 @@
 {
   "counts": {
-    "components": 143,
-    "concepts": 132,
-    "observations": 132,
-    "repos": 53,
-    "terms": 132
+    "components": 142,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 55,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
-    "8144225309/superscalar-wallet",
     "aaronlamz/navpress",
-    "AdaCore/vss-extra",
-    "arnaud-lb/php-rdkafka",
+    "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
     "cachix/serde-envfile",
     "conda-forge/blis-feedstock",
@@ -38,9 +36,11 @@
     "danielrosehill/AI-Safety-Projects-Index",
     "danielrosehill/Awesome-Hebrew-Fonts",
     "danielrosehill/Backup-Planner",
+    "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
+    "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
-    "danielrosehill/Claude-Code-Feedback",
+    "danielrosehill/Claude-Data-Annotation-Plugin",
     "danielrosehill/Claude-Data-Visualisation-And-Publishing-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Hypothesis-Council",
@@ -53,6 +53,9 @@
     "guoqingbao/candle",
     "hauntsaninja/mypy",
     "hmellor/vllm",
+    "hyper-mcp-rs/context7-plugin",
+    "hyper-mcp-rs/defuddle-plugin",
+    "JuliaBinaryWrappers/Expat_jll.jl",
     "kdubbo/xds-api",
     "kyverno/.github",
     "mukel/gptoss.java",
@@ -62,7 +65,6 @@
     "nodenv/node-build-prerelease",
     "regro/cf-graph-countyfair",
     "rltakashige/mlx-jaccl-fix-small-recv",
-    "roampal-ai/roampal-labs",
     "stable-haskell/haskell-language-server",
     "Strivin0311/strivin0311.github.io",
     "TransferQueue/community_doc"

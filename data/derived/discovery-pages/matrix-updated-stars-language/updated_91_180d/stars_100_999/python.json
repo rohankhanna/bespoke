@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 324,
-    "concepts": 659,
-    "observations": 660,
-    "repos": 175,
+    "components": 330,
+    "concepts": 661,
+    "observations": 662,
+    "repos": 179,
     "terms": 652
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -34,6 +34,7 @@
     "AnonymouX47/term-image",
     "apache/rocketmq-client-python",
     "apple/ToolSandbox",
+    "argosopentech/argos-train",
     "arsenetar/send2trash",
     "ashvardanian/less_slow.py",
     "autonomousvision/carla_garage",
@@ -133,6 +134,7 @@
     "OpenGVLab/GUI-Odyssey",
     "OpenGVLab/OmniQuant",
     "OpenHands/ToM-SWE",
+    "OpenSparseLLMs/MoM",
     "OpenTeleVision/AMO",
     "OSU-NLP-Group/TravelPlanner",
     "p-doom/jasmine",
@@ -159,7 +161,9 @@
     "ServiceNow/TapeAgents",
     "SLDGroup/EMCAD",
     "sony/nnabla-examples",
+    "speechbrain/benchmarks",
     "strands-agents/agent-builder",
+    "superclaude-org/supergemini_framework",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
     "Tsinghua-MARS-Lab/CVT-Occ",

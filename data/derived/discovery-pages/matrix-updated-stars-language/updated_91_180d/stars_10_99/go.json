@@ -3,7 +3,7 @@
     "components": 71,
     "concepts": 68,
     "observations": 68,
-    "repos": 21,
+    "repos": 22,
     "terms": 66
   },
   "facet_version": 1,
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "apache/incubator-seata-go-samples",
+    "bfenetworks/api-server",
     "bombsimon/logrusr",
     "cloudfoundry/bosh-deployment-resource",
     "cloudwego/netpoll-benchmark",

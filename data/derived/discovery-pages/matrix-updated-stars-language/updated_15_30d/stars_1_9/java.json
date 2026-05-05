@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 8,
-    "terms": 10
+    "components": 25,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 9,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "bndtools/workspace-templates",
     "codelibs/fess-ds-atlassian",
@@ -21,6 +21,7 @@
     "konsoletyper/teavm-site",
     "revelc/formatter-m2e-configurator",
     "saalfeldlab/n5-aws-s3",
+    "vegardit/vegardit-maven-parent",
     "wildfly-extras/a2a-java-sdk-server-jakarta"
   ]
 }

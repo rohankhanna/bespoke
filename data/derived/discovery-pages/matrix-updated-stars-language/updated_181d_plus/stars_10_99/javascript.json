@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2691,
-    "concepts": 562,
-    "observations": 562,
-    "repos": 240,
-    "terms": 556
+    "components": 2727,
+    "concepts": 564,
+    "observations": 564,
+    "repos": 246,
+    "terms": 557
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "71/logseq-snippets",
@@ -41,6 +41,7 @@
     "appbaseio/appbase-js",
     "arcanis/jest-pnp-resolver",
     "areweai/tsgram-mcp",
+    "argosopentech/argospm-index",
     "ariesjia/vue-composition-test-utils",
     "Armour/vue-typescript-admin-mock-server",
     "atom/archive-view",
@@ -67,6 +68,7 @@
     "calvinmetcalf/chacha20poly1305",
     "camdencheek/tree-sitter-go-mod",
     "carbon-design-system/carbon-icons-angular",
+    "chaijs/chaijs.github.io",
     "chainer/chainerrl-visualizer",
     "chancejs/chance-cli",
     "chaosprint/vite-plugin-cross-origin-isolation",
@@ -91,6 +93,7 @@
     "digitalbazaar/cborld",
     "dimitrinicolas/postcss-import-ext-glob",
     "dominictarr/charwise",
+    "dropzone/dropzone-examples",
     "dwyl/aguid",
     "dwyl/goodparts",
     "dwyl/hapi-error",
@@ -113,6 +116,7 @@
     "flekschas/hipiler",
     "fnproject/ui",
     "fontello/cubic2quad",
+    "gabmontes/source-map-cli",
     "gautamkrishnar/refined-github-feeds",
     "giuseppeg/styled-jsx-plugin-postcss",
     "gja/create-cloudflare-worker",
@@ -126,6 +130,7 @@
     "highlightjs/cdn-release",
     "holochain/zome-mere-memory",
     "hyparam/hyparquet-compressors",
+    "ideditor/id-area-keys",
     "ideditor/nsi-collector",
     "imcuttle/remark-heading-id",
     "infofarmer/eslint-plugin-jsx-a11y",
@@ -214,6 +219,7 @@
     "respond-framework/rudy",
     "reZach/secure-electron-license-keys",
     "reZach/secure-electron-license-keys-cli",
+    "rose-pine/build",
     "SabakiHQ/go-board",
     "sanctuary-js/sanctuary-identity",
     "scripting/feedRead",
@@ -239,7 +245,7 @@
     "tommasongr/nova-vue",
     "topojson/topojson-simplify",
     "TritonDataCenter/node-extsprintf",
-    "TritonDataCenter/node-getopt",
+    "tritondatacenter/node-getopt",
     "udacity/FEF-UdaciMeals-Backbone",
     "un-ts/toml-tools",
     "unlight/postcss-import-url",

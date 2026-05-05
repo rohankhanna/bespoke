@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 711,
-    "concepts": 669,
-    "observations": 673,
-    "repos": 76,
-    "terms": 699
+    "components": 746,
+    "concepts": 724,
+    "observations": 728,
+    "repos": 81,
+    "terms": 754
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -25,6 +25,8 @@
     "anthropics/claude-plugins-official",
     "astral-sh/ty",
     "benoitc/gunicorn",
+    "bentoml/OpenLLM",
+    "BlinkDL/RWKV-LM",
     "browser-use/browser-use",
     "camel-ai/owl",
     "caronc/apprise",
@@ -59,6 +61,8 @@
     "microsoft/autogen",
     "microsoft/pyright",
     "mingrammer/diagrams",
+    "mlfoundations/open_clip",
+    "modelcontextprotocol/python-sdk",
     "nginx-proxy/nginx-proxy",
     "onyx-dot-app/onyx",
     "openai/evals",
@@ -72,6 +76,7 @@
     "pandas-dev/pandas",
     "pre-commit/pre-commit",
     "pydantic/pydantic-ai",
+    "pytest-dev/pytest",
     "python/mypy",
     "qubvel-org/segmentation_models.pytorch",
     "ranger/ranger",

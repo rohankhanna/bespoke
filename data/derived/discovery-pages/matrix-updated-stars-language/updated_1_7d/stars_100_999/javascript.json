@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 987,
-    "concepts": 191,
-    "observations": 192,
-    "repos": 38,
-    "terms": 189
+    "components": 947,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 33,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "AdguardTeam/Scriptlets",
     "all-contributors/app",
     "auth0/node-jwks-rsa",
-    "auth0/node-jws",
     "avoidwork/tiny-lru",
-    "aws-cloudformation/cfn-lint-visual-studio-code",
-    "Brooooooklyn/snappy",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
     "electerm/electerm-web",
@@ -32,7 +30,6 @@
     "hyparam/icebird",
     "keithamus/sort-package-json",
     "Kilian/electron-to-chromium",
-    "kriszyp/msgpackr",
     "lo-th/phy",
     "mdn/data",
     "mdn/fred",
@@ -40,7 +37,6 @@
     "mozilla/addons-linter",
     "octokit/graphql-schema",
     "oss-serverless/serverless",
-    "postcss/postcss-cli",
     "prisma/ecosystem-tests",
     "ruby/setup-ruby",
     "rvagg/github-webhook",
@@ -50,7 +46,6 @@
     "vllm-project/recipes",
     "w3c/webref",
     "webtorrent/bittorrent-protocol",
-    "webtorrent/ut_metadata",
-    "ztoben/assets-webpack-plugin"
+    "webtorrent/ut_metadata"
   ]
 }

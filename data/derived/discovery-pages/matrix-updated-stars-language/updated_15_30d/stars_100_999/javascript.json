@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1434,
-    "concepts": 366,
-    "observations": 371,
-    "repos": 78,
-    "terms": 398
+    "components": 1540,
+    "concepts": 376,
+    "observations": 381,
+    "repos": 80,
+    "terms": 408
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
+    "AdguardTeam/HostlistCompiler",
     "adobe/spectrum-design-data",
     "agent-sh/agentsys",
     "anonrig/fast-querystring",
@@ -54,6 +55,7 @@
     "graphql/graphql-wg",
     "gruntjs/grunt-contrib-connect",
     "gruntjs/grunt-contrib-qunit",
+    "higlass/higlass",
     "hyparam/hyparquet",
     "i18next/i18next-browser-languageDetector",
     "ipld/explore.ipld.io",

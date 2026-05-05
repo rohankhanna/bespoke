@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 849,
-    "concepts": 656,
-    "observations": 657,
-    "repos": 62,
-    "terms": 650
+    "components": 842,
+    "concepts": 640,
+    "observations": 641,
+    "repos": 56,
+    "terms": 634
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -20,9 +20,7 @@
     "alpinejs/alpine",
     "apache/apisix",
     "autowarefoundation/autoware",
-    "aws/amazon-sagemaker-examples",
     "BasedHardware/omi",
-    "bitcoin/bips",
     "bitnami/charts",
     "bitwarden/server",
     "Blinue/Magpie",
@@ -30,7 +28,6 @@
     "coollabsio/coolify",
     "crystal-lang/crystal",
     "Devolutions/UniGetUI",
-    "doomemacs/doomemacs",
     "exelban/stats",
     "getgrav/grav",
     "getlantern/lantern",
@@ -38,11 +35,11 @@
     "golang-standards/project-layout",
     "gradle/gradle",
     "hadolint/hadolint",
+    "hagezi/dns-blocklists",
     "Heapy/awesome-kotlin",
     "Homebrew/homebrew-cask",
     "IBM/plex",
     "jellyfin/jellyfin",
-    "JetBrains/compose-multiplatform",
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
@@ -55,26 +52,23 @@
     "mmistakes/minimal-mistakes",
     "mozilla-mobile/firefox-ios",
     "neovim/nvim-lspconfig",
-    "NickeManarin/ScreenToGif",
     "nim-lang/Nim",
     "OAI/OpenAPI-Specification",
     "phoenixframework/phoenix",
+    "phpstan/phpstan",
     "PowerShell/PowerShell",
     "rapid7/metasploit-framework",
     "rubocop/rubocop",
     "ruby/ruby",
-    "ScoopInstaller/Scoop",
     "sebastianbergmann/phpunit",
     "shadowsocks/shadowsocks-android",
     "Shopify/liquid",
     "square/moshi",
-    "square/okhttp",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
     "symfony/symfony",
     "tiann/KernelSU",
     "vbenjs/vue-vben-admin",
-    "vim-airline/vim-airline",
     "xmake-io/xmake"
   ]
 }

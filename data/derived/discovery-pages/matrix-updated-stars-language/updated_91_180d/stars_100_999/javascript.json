@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 424,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 35,
-    "terms": 78
+    "components": 472,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 38,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "attractivechaos/k8",
     "ayoubben18/ab-method",
     "bramstein/url-template",
+    "chaijs/deep-eql",
     "charmbracelet/tree-sitter-vhs",
     "d3/d3-delaunay",
     "dcoapp/app",
@@ -39,10 +40,12 @@
     "omnidan/redux-undo-boilerplate",
     "pmndrs/three-stdlib",
     "restify/errors",
+    "RJWadley/stylelint-no-unsupported-browser-features",
     "RReverser/wasm-bindgen-rayon",
     "rust-lang/lang-team",
     "scripting/reallysimple",
     "sindresorhus/env-paths",
+    "stsquad/emacs_chrome",
     "sveltejs/rollup-plugin-svelte",
     "tonyganch/gonzales-pe",
     "tree-sitter/tree-sitter-javascript",

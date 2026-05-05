@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 4,
-    "terms": 25
+    "components": 40,
+    "concepts": 42,
+    "observations": 42,
+    "repos": 5,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "containrrr/watchtower",
     "fsnotify/fsnotify",
     "fullstorydev/grpcurl",
     "muesli/duf",

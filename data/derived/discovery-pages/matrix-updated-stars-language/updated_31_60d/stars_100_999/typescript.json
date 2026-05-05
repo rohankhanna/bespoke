@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1416,
-    "concepts": 314,
-    "observations": 314,
-    "repos": 51,
-    "terms": 323
+    "components": 1334,
+    "concepts": 313,
+    "observations": 313,
+    "repos": 50,
+    "terms": 322
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "43081j/picoquery",
@@ -33,7 +33,6 @@
     "connectrpc/connect-query-es",
     "cztomsik/ava",
     "embroider-build/ember-auto-import",
-    "ethereum/staking-launchpad",
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "graalvm/setup-graalvm",

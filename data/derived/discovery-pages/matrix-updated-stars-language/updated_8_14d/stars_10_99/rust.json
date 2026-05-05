@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 321,
-    "concepts": 201,
-    "observations": 201,
-    "repos": 46,
-    "terms": 201
+    "components": 274,
+    "concepts": 173,
+    "observations": 173,
+    "repos": 41,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "0x676e67/wreq-util",
     "ai-dynamo/modelexpress",
     "amazon-ion/ion-cli",
     "ankane/delta-ruby",
@@ -23,31 +22,28 @@
     "apache/opendal-oli",
     "arkworks-rs/spongefish",
     "arkworks-rs/std",
+    "astral-sh/pubgrub",
     "bitcoindevkit/bdk_wallet",
     "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
-    "boundless-xyz/steel",
     "celo-org/celo-threshold-bls-rs",
-    "chrisjsewell/markdown-it-pyrs",
     "ClickHouse/clickhousectl",
     "Dicklesworthstone/frankensearch",
     "eopb/cargo-override",
     "eth-act/ere",
     "eth-act/zkboost",
-    "fortanix/rustls-mbedtls-provider",
     "GreptimeTeam/greptimedb-ingester-rust",
-    "GreptimeTeam/promql-parser",
     "hecrj/iced_palace",
     "hermit-os/loader",
+    "heroku/buildpacks-dotnet",
+    "heroku/buildpacks-go",
     "holochain/holochain-serialization",
     "holochain/holochain-wasmer",
     "janrueth/boring-rustls-provider",
     "KWARC/rust-libxml",
-    "major7apps/pensyve",
     "martinthomson/ohttp",
     "mpizenberg/elm-test-rs",
     "mrcjkb/vimcats",
-    "multiformats/rust-cid",
     "napi-rs/mimalloc-safe",
     "nico-abram/blondie",
     "paradigmxyz/stateless",
@@ -58,7 +54,6 @@
     "tracel-ai/burn-onnx",
     "tracel-ai/cubek",
     "typst/typst-assets",
-    "urschrei/rdp",
-    "zcash/pasta_curves"
+    "urschrei/rdp"
   ]
 }

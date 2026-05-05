@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 328,
-    "concepts": 674,
-    "observations": 674,
-    "repos": 184,
-    "terms": 667
+    "concepts": 679,
+    "observations": 679,
+    "repos": 186,
+    "terms": 671
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -22,6 +22,7 @@
     "adishavit/argh",
     "agauniyal/rang",
     "aklomp/base64",
+    "ambrop72/badvpn",
     "AnswerDotAI/gpu.cpp",
     "apache/mesos",
     "AppImage/AppImageKit",
@@ -85,6 +86,7 @@
     "GPUOpen-LibrariesAndSDKs/RadeonRays_SDK",
     "hholtmann/smcFanControl",
     "hiroi-sora/PaddleOCR-json",
+    "hku-mars/FAST-LIVO",
     "hku-mars/FAST_LIO",
     "hyperic/sigar",
     "id-Software/Quake-III-Arena",

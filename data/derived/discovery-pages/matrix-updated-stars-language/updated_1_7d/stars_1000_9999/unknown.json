@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 61,
-    "observations": 61,
+    "components": 13,
+    "concepts": 66,
+    "observations": 66,
     "repos": 8,
-    "terms": 61
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "github/rest-api-description",
     "GyanD/codexffmpeg",
     "hxehex/russia-mobile-internet-whitelist",
-    "logseq/awesome-logseq",
-    "MicrosoftDocs/cpp-docs",
+    "lxgw/LxgwNeoXiHei",
+    "lxgw/LxgwNeoZhiSong",
     "runetfreedom/russia-v2ray-rules-dat",
     "yokoffing/filterlists",
     "yokoffing/NextDNS-Config"

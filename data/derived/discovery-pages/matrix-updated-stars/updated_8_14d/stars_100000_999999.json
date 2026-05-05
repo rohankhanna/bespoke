@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 751,
-    "concepts": 174,
-    "observations": 175,
-    "repos": 16,
-    "terms": 174
+    "components": 757,
+    "concepts": 180,
+    "observations": 181,
+    "repos": 17,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "angular/angular",
     "avelino/awesome-go",
@@ -28,6 +28,7 @@
     "Significant-Gravitas/AutoGPT",
     "tauri-apps/tauri",
     "tensorflow/tensorflow",
-    "torvalds/linux"
+    "torvalds/linux",
+    "vinta/awesome-python"
   ]
 }

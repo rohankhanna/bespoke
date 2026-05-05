@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 23,
-    "observations": 24,
-    "repos": 4,
-    "terms": 23
+    "components": 78,
+    "concepts": 51,
+    "observations": 52,
+    "repos": 7,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "adamchainz/blacken-docs",
     "AI-Hypercomputer/maxdiffusion",
     "cosmos/chain-registry",
+    "gbionics/adam",
     "jupyter-server/jupyter_server",
-    "pyrtlsdr/pyrtlsdr"
+    "scverse/rapids-singlecell",
+    "tox-dev/filelock"
   ]
 }

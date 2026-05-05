@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 590,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 23,
-    "terms": 48
+    "components": 598,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 24,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adevinta/actions-lighthouseci-compare",
     "aigc3d/LAM_WebRender",
     "androidStern-personal/openclaw-mcp-adapter",
     "atom-yang/aumi",
     "cahamilton/css-property-sort-order-smacss",
+    "chaijs/assertion-error",
     "connectrpc/connect-playwright-es",
     "CyanSalt/commas",
     "dylibso/xtp-bindgen",
@@ -28,12 +29,12 @@
     "ipfs/helia-http-gateway",
     "isaacs/clock-mock",
     "janwilmake/oapis",
+    "joliss/node-walk-sync",
     "luizbarboza/polyclip-ts",
     "nanostores/angular",
     "PhoenixIllusion/babylonjs-jolt-physics-plugin",
     "redhat-developer/vscode-redhat-telemetry",
     "remotion-dev/brand",
-    "rose-pine/rose-pine-palette",
     "sculptdotfun/viberank",
     "storybookjs/addon-cssresources",
     "tracked-tools/ember-async-data"

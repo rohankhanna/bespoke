@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 622,
-    "concepts": 530,
-    "observations": 530,
-    "repos": 38,
-    "terms": 530
+    "components": 658,
+    "concepts": 589,
+    "observations": 589,
+    "repos": 42,
+    "terms": 589
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "a-h/templ",
     "anchore/grype",
     "argoproj/argo-workflows",
     "authelia/authelia",
     "bufbuild/buf",
+    "cert-manager/cert-manager",
     "cloudflare/cloudflared",
     "cloudwego/eino",
     "cockroachdb/cockroach",
@@ -28,7 +28,6 @@
     "DNSCrypt/dnscrypt-proxy",
     "etcd-io/etcd",
     "gastownhall/gastown",
-    "getsops/sops",
     "git-lfs/git-lfs",
     "go-gitea/gitea",
     "go-sql-driver/mysql",
@@ -43,6 +42,7 @@
     "ipfs/kubo",
     "istio/istio",
     "navidrome/navidrome",
+    "oauth2-proxy/oauth2-proxy",
     "ory/kratos",
     "php/frankenphp",
     "pingcap/tidb",
@@ -50,7 +50,11 @@
     "pulumi/pulumi",
     "rclone/rclone",
     "redis/go-redis",
+    "rqlite/rqlite",
+    "SagerNet/sing-box",
+    "seaweedfs/seaweedfs",
     "v2fly/v2ray-core",
-    "VictoriaMetrics/VictoriaMetrics"
+    "VictoriaMetrics/VictoriaMetrics",
+    "XTLS/Xray-core"
   ]
 }

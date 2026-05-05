@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-05-04T11:50:57.944186+00:00`
+Generated at: `2026-05-05T05:30:34.648225+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 107
-- components: 87
-- concepts: 107
-- observations: 109
+- repos: 9
+- terms: 129
+- components: 91
+- concepts: 132
+- observations: 133
 
 ## Static behavior
 
@@ -26,24 +26,26 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72591 | 2026-05-04T11:27:11Z | Python | CLI | 13 | 12 | 13 | 13 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35542 | 2026-05-04T09:04:21Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31105 | 2026-05-04T01:17:23Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 46931 | 2026-05-04T00:57:28Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 10222 | 2026-05-03T18:45:40Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27674 | 2026-05-03T15:01:44Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43994 | 2026-05-03T14:29:17Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97866 | 2026-05-03T13:45:04Z | Python | Infrastructure/tooling | 25 | 17 | 25 | 25 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35543 | 2026-05-04T20:16:35Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72614 | 2026-05-04T19:58:02Z | Python | CLI | 13 | 12 | 13 | 13 |
+| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17165 | 2026-05-04T19:41:17Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10225 | 2026-05-04T19:36:32Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97885 | 2026-05-04T18:58:41Z | Python | Infrastructure/tooling | 22 | 17 | 25 | 25 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 33500 | 2026-05-04T16:35:29Z | Python | CLI | 20 | 21 | 20 | 20 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 13996 | 2026-05-04T16:16:30Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 49125 | 2026-05-04T15:53:13Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18633 | 2026-05-04T14:31:14Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97866 | 2026-05-03T13:45:04Z | Python | Infrastructure/tooling | 25 | 17 | 25 | 25 |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72591 | 2026-05-04T11:27:11Z | Python | CLI | 13 | 12 | 13 | 13 |
-| [oobabooga/textgen](https://github.com/oobabooga/textgen) | 46931 | 2026-05-04T00:57:28Z | Python | Infrastructure/tooling | 7 | 3 | 7 | 7 |
-| [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) | 43994 | 2026-05-03T14:29:17Z | Python | Infrastructure/tooling | 15 | 7 | 15 | 16 |
-| [jax-ml/jax](https://github.com/jax-ml/jax) | 35542 | 2026-05-04T09:04:21Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
-| [Lightning-AI/pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | 31105 | 2026-05-04T01:17:23Z | Python | Infrastructure/tooling | 10 | 8 | 10 | 10 |
-| [pydantic/pydantic](https://github.com/pydantic/pydantic) | 27674 | 2026-05-03T15:01:44Z | Python | Infrastructure/tooling | 17 | 27 | 17 | 17 |
-| [aden-hive/hive](https://github.com/aden-hive/hive) | 10222 | 2026-05-03T18:45:40Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |
+| [fastapi/fastapi](https://github.com/fastapi/fastapi) | 97885 | 2026-05-04T18:58:41Z | Python | Infrastructure/tooling | 22 | 17 | 25 | 25 |
+| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | 72614 | 2026-05-04T19:58:02Z | Python | CLI | 13 | 12 | 13 | 13 |
+| [run-llama/llama_index](https://github.com/run-llama/llama_index) | 49125 | 2026-05-04T15:53:13Z | Python | Infrastructure/tooling | 15 | 8 | 15 | 15 |
+| [jax-ml/jax](https://github.com/jax-ml/jax) | 35543 | 2026-05-04T20:16:35Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 5 |
+| [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate) | 33500 | 2026-05-04T16:35:29Z | Python | CLI | 20 | 21 | 20 | 20 |
+| [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | 18633 | 2026-05-04T14:31:14Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [NVIDIA-NeMo/NeMo](https://github.com/NVIDIA-NeMo/NeMo) | 17165 | 2026-05-04T19:41:17Z | Python | Infrastructure/tooling | 14 | 12 | 14 | 14 |
+| [modelscope/ms-swift](https://github.com/modelscope/ms-swift) | 13996 | 2026-05-04T16:16:30Z | Python | Infrastructure/tooling | 22 | 4 | 22 | 22 |
+| [aden-hive/hive](https://github.com/aden-hive/hive) | 10225 | 2026-05-04T19:36:32Z | Python | Infrastructure/tooling | 16 | 9 | 16 | 16 |

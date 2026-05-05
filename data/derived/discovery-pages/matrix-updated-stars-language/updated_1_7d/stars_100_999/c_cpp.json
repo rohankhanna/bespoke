@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 572,
-    "observations": 573,
-    "repos": 91,
-    "terms": 570
+    "components": 501,
+    "concepts": 523,
+    "observations": 524,
+    "repos": 88,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
@@ -27,10 +27,9 @@
     "boostorg/math",
     "boostorg/multiprecision",
     "ClickHouse/clickhouse-cpp",
+    "coin-or/CppAD",
     "ddemidov/amgcl",
-    "DiligentGraphics/DiligentCore",
     "DiligentGraphics/DiligentFX",
-    "dmlc/treelite",
     "DrTimothyAldenDavis/GraphBLAS",
     "enjoy-digital/litex_m2sdr",
     "f32c/f32c",
@@ -39,7 +38,6 @@
     "flagos-ai/FlagTree",
     "flexivrobotics/flexiv_rdk",
     "freetype/freetype",
-    "garglk/garglk",
     "gazebosim/sdformat",
     "go-skynet/go-llama.cpp",
     "googleapis/google-cloud-cpp",
@@ -49,7 +47,6 @@
     "heiher/hev-socks5-server",
     "heiher/hev-socks5-tproxy",
     "HybridRobotics/motion_tracking_controller",
-    "iamaisim/ProjectAirSim",
     "intel/intel-graphics-compiler",
     "intel/llm-scaler",
     "intel/ScalableVectorSearch",
@@ -59,7 +56,6 @@
     "jellyfin/jellyfin-ffmpeg",
     "k2-fsa/sherpa",
     "KDE/breeze-icons",
-    "KhronosGroup/Vulkan-Loader",
     "KhronosGroup/Vulkan-ValidationLayers",
     "kokkos/kokkos-kernels",
     "LedgerHQ/speculos",
@@ -103,6 +99,7 @@
     "todbot/hidapitester",
     "trealla-prolog/trealla",
     "triton-inference-server/onnxruntime_backend",
+    "ucscGenomeBrowser/kent",
     "uxlfoundation/oneDAL",
     "uxlfoundation/oneDPL"
   ]

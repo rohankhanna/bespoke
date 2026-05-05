@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1136,
-    "concepts": 753,
-    "observations": 756,
-    "repos": 114,
-    "terms": 759
+    "components": 1151,
+    "concepts": 737,
+    "observations": 740,
+    "repos": 113,
+    "terms": 741
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "3b1b/videos",
     "666ghj/MiroFish",
@@ -58,15 +58,14 @@
     "googleapis/google-api-nodejs-client",
     "GoogleChromeLabs/squoosh",
     "gruns/icecream",
-    "guzzle/guzzle",
     "hapijs/hapi",
     "hapijs/joi",
     "huggingface/open-r1",
     "huggingface/text-generation-inference",
     "humanlayer/humanlayer",
     "hyperium/hyper",
+    "ianyh/Amethyst",
     "Ileriayo/markdown-badges",
-    "jart/cosmopolitan",
     "jquery/jquery-ui",
     "karpathy/autoresearch",
     "knownsec/404StarLink",
@@ -101,7 +100,6 @@
     "powerline/powerline",
     "prompt-toolkit/python-prompt-toolkit",
     "pugjs/pug",
-    "QwenLM/Qwen",
     "QwenLM/Qwen3-TTS",
     "rbenv/rbenv",
     "ReactiveX/RxAndroid",
@@ -121,6 +119,7 @@
     "thu-ml/tianshou",
     "tpope/vim-fugitive",
     "typicode/husky",
+    "typicode/json-server",
     "uber-go/zap",
     "vercel/satori",
     "videojs/video.js",

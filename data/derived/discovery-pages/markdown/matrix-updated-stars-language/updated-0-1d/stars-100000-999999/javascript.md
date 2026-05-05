@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · JavaScript
 
-Generated at: `2026-05-04T11:50:57.944186+00:00`
+Generated at: `2026-05-05T05:30:34.648225+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 33
-- components: 261
-- concepts: 33
-- observations: 33
+- repos: 1
+- terms: 21
+- components: 210
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,12 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/next.js](https://github.com/vercel/next.js) | 139269 | 2026-05-04T10:01:51Z | JavaScript | Infrastructure/tooling | 21 | 210 | 21 | 21 |
-| [axios/axios](https://github.com/axios/axios) | 109040 | 2026-05-03T12:03:55Z | JavaScript | CLI | 12 | 51 | 12 | 12 |
+| [vercel/next.js](https://github.com/vercel/next.js) | 139272 | 2026-05-04T23:34:45Z | JavaScript | Infrastructure/tooling | 21 | 210 | 21 | 21 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/next.js](https://github.com/vercel/next.js) | 139269 | 2026-05-04T10:01:51Z | JavaScript | Infrastructure/tooling | 21 | 210 | 21 | 21 |
-| [axios/axios](https://github.com/axios/axios) | 109040 | 2026-05-03T12:03:55Z | JavaScript | CLI | 12 | 51 | 12 | 12 |
+| [vercel/next.js](https://github.com/vercel/next.js) | 139272 | 2026-05-04T23:34:45Z | JavaScript | Infrastructure/tooling | 21 | 210 | 21 | 21 |

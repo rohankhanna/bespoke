@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 18,
-    "observations": 19,
-    "repos": 2,
-    "terms": 18
+    "components": 7,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "fallow-rs/oxc-coverage-instrument",
     "kurrent-io/KurrentDB-Client-Rust"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 140,
-    "concepts": 105,
-    "observations": 106,
-    "repos": 22,
-    "terms": 105
+    "components": 111,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 20,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,20 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "AbdelrhmanHamouda/locust-k8s-operator",
     "ankitpokhrel/shopctl",
     "bitrise-io/stepman",
     "cloudfoundry/bosh-backup-and-restore",
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
-    "cloudfoundry/credhub-cli",
+    "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "EngFlow/gazelle_cc",
     "golangci/go-printf-func-name",
     "golangci/misspell",
-    "ipfs/ipfs-check",
     "Kong/kong-operator",
     "kubernetes-sigs/karpenter-provider-ibm-cloud",
     "openshift/kubernetes",

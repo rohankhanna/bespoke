@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "repo_ids": [
+    "arnaud-lb/php-rdkafka"
+  ]
+}

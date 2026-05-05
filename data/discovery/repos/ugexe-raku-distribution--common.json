@@ -8,13 +8,14 @@
       "size": 2215
     }
   ],
+  "metadata_refreshed_at": "2026-05-05T05:30:23.294728+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Create an installable Distribution from common local sources",
     "fork": false,
-    "full_name": "ugexe/Raku-Distribution--Common",
+    "full_name": "ugexe/raku-distribution--common",
     "html_url": "https://github.com/ugexe/Raku-Distribution--Common",
     "language": "Raku",
     "pushed_at": "2022-09-06T02:37:15Z",

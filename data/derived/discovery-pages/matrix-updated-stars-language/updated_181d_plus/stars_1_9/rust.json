@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 245,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 80,
-    "terms": 95
+    "components": 263,
+    "concepts": 101,
+    "observations": 101,
+    "repos": 83,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adambiltcliffe/macroquad-jfa",
     "adamgreig/spi-flash-rs",
@@ -23,6 +23,7 @@
     "apache/casbin-rust-actix-postgresql-simple",
     "apache/casbin-rust-axum-middleware-example",
     "artempyanykh/zeta-note",
+    "azdavis/c0ls",
     "baehyunsol/Quoridor-rs",
     "bnb-chain/greenfield-cometbft-rs",
     "bnb-chain/tendermint-rs-parlia",
@@ -40,6 +41,7 @@
     "databendlabs/map-api",
     "databendlabs/sub-cache",
     "datafuse-extras/clickhouse_driver",
+    "datafuse-extras/sled",
     "dathere/qsv-easy-windows-installer",
     "Dherse/comemo",
     "Electron-Labs/tendermint-rs",
@@ -59,6 +61,7 @@
     "imgui-rs/imgui-glium-renderer",
     "imgui-rs/imgui-glow-renderer",
     "imgui-rs/imgui-sdl2-support",
+    "informalsystems/cosmwasm-ibc",
     "JackLiar/rust-llhttp",
     "jasilven/bencode_rs",
     "kivikakk/kivikakk",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 5,
-    "terms": 8
+    "components": 11,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 4,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "arnaud-lb/php-rdkafka-doc",
+    "danielrosehill/Claude-Decision-Evaluation-Framework-Plugin",
     "getlantern/guide",
     "HumanSignal/label-studio-client-generator",
-    "JuliaBinaryWrappers/Expat_jll.jl",
     "netdur/imaged-sdk-examples"
   ]
 }

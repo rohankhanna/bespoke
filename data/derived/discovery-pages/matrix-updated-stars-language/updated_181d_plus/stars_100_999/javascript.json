@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4415,
-    "concepts": 1002,
-    "observations": 1002,
-    "repos": 346,
-    "terms": 990
+    "components": 4490,
+    "concepts": 1028,
+    "observations": 1028,
+    "repos": 353,
+    "terms": 1015
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "14nrv/buefy-shop",
     "2createStudio/postcss-sprites",
@@ -192,6 +192,7 @@
     "Intellicode/eslint-plugin-react-native",
     "investtools/extensible-duck",
     "inxilpro/node-app-root-path",
+    "iov-one/iov-core",
     "ipfs-examples/js-ipfs-examples",
     "ipfs/team-mgmt",
     "ipld/js-ipld",
@@ -273,6 +274,7 @@
     "nijikokun/minami",
     "nordtheme/dircolors",
     "novnc/websockify-js",
+    "numirias/paxmod",
     "open-cli-tools/chokidar-cli",
     "OvermindDL1/bucklescript-tea",
     "paulirish/devtools-timeline-model",
@@ -287,6 +289,7 @@
     "prebuild/prebuildify",
     "project-mirai/awesome-mirai",
     "promises-aplus/promises-tests",
+    "pulse-browser/browser",
     "pvdlg/conventional-changelog-metahub",
     "q77190858/zotero-pdf-background",
     "queryverse/DataVoyager.jl",
@@ -299,6 +302,7 @@
     "rpl/flow-coverage-report",
     "SafetyCulture/grpc-web-devtools",
     "saharan/OimoPhysics",
+    "sanctuary-js/sanctuary-type-classes",
     "SassNinja/media-query-plugin",
     "scarf-sh/scarf-js",
     "scijs/get-pixels",
@@ -307,6 +311,7 @@
     "serverless/containers",
     "shuckster/match-iz",
     "sindresorhus/find-cache-directory",
+    "sindresorhus/junk",
     "sindresorhus/strip-json-comments",
     "smartscenes/sstk",
     "songquanpeng/gin-template",
@@ -329,6 +334,7 @@
     "swagger-api/swagger-samples",
     "swagger-autogen/swagger-autogen",
     "swinton/github-rest-apis-for-insomnia",
+    "tangledgroup/llama-cpp-wasm",
     "tc39/eshost",
     "tc39/proposal-operator-overloading",
     "tc39/template-for-proposals",
@@ -358,6 +364,7 @@
     "webpack/node-libs-browser",
     "winstonjs/logform",
     "wix-incubator/wml",
+    "xfumihiro/jest-puppeteer-example",
     "xinntao/HandyFigure",
     "zhipeng-jia/snappyjs"
   ]

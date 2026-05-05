@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1385,
-    "concepts": 275,
-    "observations": 276,
+    "components": 1397,
+    "concepts": 281,
+    "observations": 282,
     "repos": 52,
-    "terms": 275
+    "terms": 281
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "1-Platform/op-components",
-    "abaplint/transpiler",
-    "addfox/addfox",
     "aggre/ullr",
     "appsignal/appsignal-javascript",
     "carbon-design-system/carbon-preprocess-svelte",
@@ -28,6 +26,7 @@
     "fabon-f/temporal-polyfill-lite",
     "favware/esbuild-plugin-version-injector",
     "forcedotcom/agents",
+    "ghostery/broken-page-reports",
     "ibm-telemetry/telemetry-js",
     "iconify/iconify-tailwind",
     "iconify/tools",
@@ -40,8 +39,8 @@
     "jbaubree/vite-plugin-pages-sitemap",
     "jest-community/eslint-plugin-jest-extended",
     "ldclabs/KIP",
+    "maplibre/maplibre-gl-inspect",
     "microsoft/Agents-for-js",
-    "NullVoxPopuli/ember-deep-tracked",
     "nuxt-modules/emotion",
     "obsidianmd/eslint-plugin",
     "octokit/auth-action.js",
@@ -52,7 +51,6 @@
     "octokit/oauth-authorization-url.js",
     "OffchainLabs/arbitrum-chain-sdk",
     "OffchainLabs/nitro-testnode",
-    "ogx-ai/ogx-client-typescript",
     "openwebdocs/mdn-bcd-collector",
     "prefix-dev/setup-pixi",
     "prisma-labs/bema",
@@ -65,6 +63,8 @@
     "SemiAnalysisAI/InferenceX-app",
     "seung-lab/neuroglancer",
     "suzuki-shunsuke/pinact-action",
-    "TrigenSoftware/simple-release"
+    "TrigenSoftware/simple-release",
+    "universal-ember/reactiveweb",
+    "vincentlaucsb/experiencer"
   ]
 }

@@ -16,13 +16,14 @@
       "size": 4389
     }
   ],
+  "metadata_refreshed_at": "2026-05-05T05:29:59.416651+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": ":see_no_evil:  We added our attacking method ODFA (https://arxiv.org/abs/1809.02681). The performance drops from 88.2% to 2.24% on Oxford.  :hear_no_evil:",
     "fork": false,
-    "full_name": "layumi/Oxford-Paris-Attack",
+    "full_name": "layumi/oxford-paris-attack",
     "html_url": "https://github.com/layumi/Oxford-Paris-Attack",
     "language": "Python",
     "pushed_at": "2022-07-09T16:51:45Z",

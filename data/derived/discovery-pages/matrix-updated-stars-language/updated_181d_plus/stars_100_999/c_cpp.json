@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 597,
-    "concepts": 1068,
-    "observations": 1071,
-    "repos": 327,
-    "terms": 1055
+    "concepts": 1085,
+    "observations": 1088,
+    "repos": 331,
+    "terms": 1071
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -25,6 +25,7 @@
     "adafruit/Adafruit_BME280_Library",
     "adafruit/Adafruit_BNO055",
     "adafruit/Adafruit_BusIO",
+    "Adlik/Adlik",
     "AirGuanZ/imgui-filebrowser",
     "alecazam/kram",
     "alecthomas/ondir",
@@ -157,6 +158,7 @@
     "hermit-os/libhermit",
     "hiroi-sora/RapidOCR-json",
     "hiroi-sora/Umi-OCR_runtime_windows",
+    "hku-mars/dyn_small_obs_avoidance",
     "hogliux/bomutils",
     "htkseason/VOLDOR",
     "huawei-noah/bolt",
@@ -196,11 +198,11 @@
     "kherud/java-llama.cpp",
     "KlugerLab/FIt-SNE",
     "Koihik/LuaFormatter",
-    "KonanM/tser",
     "kondrak/vkQuake2",
     "Konstanty/libmodplug",
     "koron/cmigemo",
     "kylebgorman/swipe",
+    "lac-dcc/llvm-course",
     "lavoiesl/osx-cpu-temp",
     "layumi/2016_person_re-ID",
     "lbcb-sci/racon",
@@ -214,6 +216,7 @@
     "librtlsdr/librtlsdr",
     "libsndfile/libsamplerate",
     "likle/cwalk",
+    "Livox-SDK/Livox-SDK",
     "Livox-SDK/livox_ros_driver",
     "lostromb/concentus",
     "louisdx/cxx-prettyprint",
@@ -313,6 +316,7 @@
     "teaxyz/teaBASE",
     "Tessil/hopscotch-map",
     "thlorenz/learnuv",
+    "TixiaoShan/imaging_lidar_place_recognition",
     "tjdevries/tree-sitter-lua",
     "Tobski/simple_vulkan_synchronization",
     "tsattler/RansacLib",

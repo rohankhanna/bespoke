@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 362,
-    "observations": 363,
-    "repos": 215,
-    "terms": 362
+    "components": 116,
+    "concepts": 377,
+    "observations": 378,
+    "repos": 220,
+    "terms": 377
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -22,6 +22,7 @@
     "acmi-lab/cmu-10717-the-art-of-the-paper",
     "Adamdad/Awesome-ComposableAI",
     "adidas/api-guidelines",
+    "agl/ed25519",
     "agnostic-apollo/Android-Docs",
     "aialt/awesome-mobile-agents",
     "aigc3d/AniGS",
@@ -30,6 +31,7 @@
     "Alamofire/Foundation",
     "alvations/sacremoses",
     "analogdevicesinc/MaximAI_Documentation",
+    "antfu/vueuse",
     "antirez/RESP3",
     "antonbabenko/serverless.tf",
     "aws-cloudformation/awesome-cloudformation",
@@ -142,6 +144,7 @@
     "libp2p/go-libp2p-examples",
     "litter-coder/midjourney-proxy-plus",
     "logux/logux",
+    "mala-lab/ADBenchmarks-anomaly-detection-datasets",
     "mannaandpoem/OpenManus",
     "mapbox/simplestyle-spec",
     "mapbox/vector-tile-spec",
@@ -168,6 +171,7 @@
     "mundimark/awesome-markdown-alternatives",
     "ndjson/ndjson-spec",
     "nicolas-chaulet/torch-points3d",
+    "nicoth-in/Dark-Space-Theme",
     "nim-lang/RFCs",
     "nlpxucan/evol-instruct",
     "notaryproject/specifications",
@@ -183,6 +187,7 @@
     "openxla/community",
     "OS-Agent-Survey/OS-Agent-Survey",
     "ozkriff/awesome-quads",
+    "PacificBiosciences/pbbioconda",
     "pdm-project/awesome-pdm",
     "pi0/config-dir",
     "pickhardt/maintainers-wanted",

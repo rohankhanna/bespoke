@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 167,
-    "observations": 167,
-    "repos": 39,
-    "terms": 166
+    "components": 36,
+    "concepts": 169,
+    "observations": 169,
+    "repos": 41,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "actions/partner-runner-images",
     "adoptium/adoptium",
-    "agamm/claude-code-owasp",
     "ailev/fpf",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
@@ -29,9 +28,10 @@
     "bloomberg/clang-p2996",
     "cloudflare/skills",
     "cncf/artwork",
+    "django/deps",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
-    "e18e/ecosystem-issues",
+    "emberjs/rfcs",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "gautamkrishnar/gautamkrishnar",
@@ -40,6 +40,7 @@
     "integrations/microsoft-teams",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
+    "oak-security/audit-reports",
     "piebald-ai/awesome-gemini-cli",
     "preactjs/awesome-preact",
     "pyOpenSci/software-submission",
@@ -48,6 +49,7 @@
     "SamurAIGPT/awesome-openclaw",
     "sedyh/awesome-ebitengine",
     "servo/project",
+    "stripe/openapi",
     "tc39/how-we-work",
     "Uzaaft/awesome-libghostty",
     "web-platform-tests/rfcs",

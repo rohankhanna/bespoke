@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 17,
-    "terms": 77
+    "components": 58,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 19,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "48Club/bsc-snapshots",
     "box/box-openapi",
@@ -23,7 +23,9 @@
     "github/copilot-language-server-release",
     "graalvm/graalvm-ce-dev-builds",
     "graalvm/mandrel",
-    "luau-lang/rfcs",
+    "lxgw/LxgwNeoXiZhi-Screen",
+    "lxgw/LxgwXiHei",
+    "lxgw/LxgwZhiSong",
     "maplibre/awesome-maplibre",
     "mdn/mdn-community",
     "openjs-foundation/cross-project-council",

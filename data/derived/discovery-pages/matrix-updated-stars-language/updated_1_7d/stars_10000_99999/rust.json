@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 587,
-    "concepts": 442,
-    "observations": 442,
-    "repos": 36,
-    "terms": 437
+    "components": 582,
+    "concepts": 421,
+    "observations": 421,
+    "repos": 33,
+    "terms": 416
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
     "biomejs/biome",
-    "clap-rs/clap",
     "ClementTsang/bottom",
     "DioxusLabs/dioxus",
     "emilk/egui",
@@ -27,7 +26,6 @@
     "GitoxideLabs/gitoxide",
     "google/comprehensive-rust",
     "helix-editor/helix",
-    "huggingface/tokenizers",
     "iced-rs/iced",
     "jj-vcs/jj",
     "juspay/hyperswitch",
@@ -38,14 +36,13 @@
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
     "quickwit-oss/tantivy",
-    "ratatui/ratatui",
     "rolldown/rolldown",
-    "rust-lang/mdBook",
     "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",
     "surrealdb/surrealdb",
     "swc-project/swc",
     "tracel-ai/burn",
+    "tw93/Pake",
     "vectordotdev/vector",
     "wasmerio/wasmer",
     "wezterm/wezterm",

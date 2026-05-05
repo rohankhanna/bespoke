@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 533,
-    "concepts": 325,
-    "observations": 325,
-    "repos": 39,
-    "terms": 327
+    "components": 608,
+    "concepts": 366,
+    "observations": 366,
+    "repos": 42,
+    "terms": 368
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "agent-sh/agent-core",
     "agent-sh/audit-project",
@@ -32,6 +32,7 @@
     "ehmicky/get-node-cli",
     "ehmicky/normalize-node-version",
     "erichlof/Glider-Ball-3D",
+    "f3liz-casa/noraneko-runtime",
     "gauravrathod674/custom-chatbot",
     "gr2m/octokit-oauth-app-begin-example",
     "hchiam/code-inspiration",
@@ -49,6 +50,8 @@
     "stdlib-js/ndarray-array",
     "stdlib-js/ndarray-dtypes",
     "stdlib-js/ndarray-index-modes",
+    "stdlib-js/ndarray-orders",
+    "stdlib-js/proxy-ctor",
     "stdlib-js/streams-node-stdin",
     "stdlib-js/streams-node-stdout",
     "stealabra5019/grok-enhancer",

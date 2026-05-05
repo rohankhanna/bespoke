@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 33,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 4,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "databendlabs/databend-base",
-    "guoqingbao/candle"
+    "guoqingbao/candle",
+    "hyper-mcp-rs/context7-plugin",
+    "hyper-mcp-rs/defuddle-plugin"
   ]
 }

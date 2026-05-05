@@ -3,8 +3,8 @@
     "components": 152,
     "concepts": 86,
     "observations": 86,
-    "repos": 69,
-    "terms": 86
+    "repos": 73,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -37,6 +37,10 @@
     "Clemapfel/mousetrap_julia_binding",
     "cpmech/vismatrix",
     "cycleg/far-gvfs",
+    "Cydral/BAREL",
+    "Cydral/Colorify",
+    "Cydral/Dlib-ImageNet-Datasets",
+    "Cydral/dlib-models-training",
     "d99kris/doxygenmd",
     "DOGEwbx/llama.cpp",
     "dwyl/flutter-stopwatch-tutorial",

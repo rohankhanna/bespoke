@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 26,
-    "concepts": 45,
-    "observations": 45,
+    "concepts": 44,
+    "observations": 44,
     "repos": 30,
-    "terms": 45
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -24,7 +24,6 @@
     "ai-dynamo/enhancements",
     "canonical/ubuntu-desktop-provision-screenshots",
     "danielrosehill/Agent-Handover-Demo",
-    "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/Awesome-Red-Alerts",
@@ -36,6 +35,7 @@
     "dpc/crev-proofs",
     "eslint/.github",
     "eternahybridexchange/eterna-mcp",
+    "flathub/org.gnome.eog",
     "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "graveyardsfocrdpktv/ethereum-mempool-bot",

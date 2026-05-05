@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 43,
-    "observations": 44,
-    "repos": 17,
-    "terms": 40
+    "components": 21,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 18,
+    "terms": 56
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Biscuit-Theme/biscuit",
     "Calcium-Ion/new-api-horizon",
     "docker-library/faq",
     "eza-community/eza-themes",
+    "google/deepsomatic",
     "googleapis/python-logging",
     "GuiWonder/MoonStarsKai",
     "hashicorp/vault-examples",
@@ -26,8 +27,8 @@
     "libp2p/js-libp2p-examples",
     "lintool/guide",
     "lxgw/lxgw",
-    "microsoft/foss-fund",
     "pbatard/UEFI-Shell",
+    "peter-evans/enable-pull-request-automerge",
     "shadowspawn/node-version-usage",
     "TencentCloudADP/youtu-vl",
     "TimoBolkart/FLAME-Universe"

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 195,
-    "concepts": 157,
-    "observations": 160,
-    "repos": 36,
-    "terms": 157
+    "concepts": 159,
+    "observations": 162,
+    "repos": 37,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ashvardanian/StringWars",
     "attackgoat/vk-graph",
     "cedar-policy/cedar-examples",
     "cryscan/web-rwkv",
     "dfrg/swash",
+    "dimforge/parry",
     "DoumanAsh/xxhash-rust",
     "dtolnay/readonly",
     "dtolnay/ref-cast",
@@ -33,7 +34,6 @@
     "gimli-rs/addr2line",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",
-    "matsadler/magnus",
     "mitsuhiko/similar-asserts",
     "mozilla/dump_syms",
     "Nugine/simd",
@@ -46,6 +46,7 @@
     "rust-lang/rfcbot-rs",
     "rust-nvml/nvml-wrapper",
     "rustmailer/rustmailer",
+    "saghen/frizbee",
     "servo/rust-cssparser",
     "sparsemat/sprs",
     "typst/comemo",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 666,
-    "concepts": 540,
-    "observations": 541,
-    "repos": 70,
-    "terms": 540
+    "components": 626,
+    "concepts": 502,
+    "observations": 503,
+    "repos": 65,
+    "terms": 502
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aliyun/aliyun-cli",
     "apache/dubbo-go-hessian2",
     "apache/iceberg-go",
-    "apache/pulsar-client-go",
     "aquasecurity/trivy-db",
     "argoproj-labs/argocd-agent",
     "argoproj-labs/argocd-operator",
@@ -26,7 +25,6 @@
     "Azure/azure-storage-azcopy",
     "Azure/azure-storage-fuse",
     "Azure/karpenter-provider-azure",
-    "bitrise-io/bitrise",
     "buildpacks/lifecycle",
     "celzero/firestack",
     "ClickHouse/ch-go",
@@ -43,9 +41,9 @@
     "cosmos/interchain-security",
     "dydxprotocol/v4-chain",
     "fnproject/cli",
-    "go-logr/zapr",
     "go-openapi/strfmt",
     "gofiber/contrib",
+    "gofrs/flock",
     "google/oss-rebuild",
     "grafana/grafana-plugin-sdk-go",
     "helmfile/vals",
@@ -61,7 +59,6 @@
     "oracle/oci-go-sdk",
     "pion/ice",
     "pion/interceptor",
-    "pion/mediadevices",
     "pion/rtp",
     "pion/stun",
     "pulumi/pulumi-aws",
@@ -75,12 +72,10 @@
     "seaweedfs/seaweedfs-operator",
     "sergelogvinov/karpenter-provider-proxmox",
     "sergelogvinov/proxmox-cloud-controller-manager",
-    "SpecterOps/AzureHound",
     "suzuki-shunsuke/ghalint",
     "suzuki-shunsuke/ghtkn",
     "suzuki-shunsuke/pinact",
     "sylabs/singularity",
-    "theupdateframework/go-tuf",
     "toml-lang/toml-test",
     "usbarmory/go-boot",
     "web-infra-dev/rslint"

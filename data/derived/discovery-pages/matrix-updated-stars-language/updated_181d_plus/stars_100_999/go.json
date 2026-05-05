@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 480,
-    "concepts": 662,
-    "observations": 662,
-    "repos": 165,
-    "terms": 653
+    "concepts": 667,
+    "observations": 667,
+    "repos": 168,
+    "terms": 658
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "1player/host-spawn",
     "76creates/stickers",
@@ -42,6 +42,7 @@
     "argoproj-labs/argocd-extensions",
     "argoproj-labs/argocd-vault-plugin",
     "armon/go-radix",
+    "artyom/leproxy",
     "asg017/sqlite-html",
     "asg017/sqlite-http",
     "atsaki/termeter",
@@ -63,6 +64,7 @@
     "containers/common",
     "containers/dnsname",
     "containers/image",
+    "cosmos/mainnet",
     "cosmos/relayer",
     "creasty/defaults",
     "cruise-automation/isopod",
@@ -103,6 +105,7 @@
     "hashicorp/terraform-provider-scaffolding",
     "Iceber/iouring-go",
     "inetaf/netaddr",
+    "isovalent/eCHO",
     "jackpal/gateway",
     "Jille/raft-grpc-example",
     "jjf012/gopoc",

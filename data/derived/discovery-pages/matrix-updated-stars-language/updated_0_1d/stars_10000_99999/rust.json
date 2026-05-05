@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 27,
-    "observations": 27,
+    "components": 19,
+    "concepts": 12,
+    "observations": 12,
     "repos": 2,
-    "terms": 27
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "rust-lang/rust-analyzer",
-    "tw93/Pake"
+    "rust-lang/mdBook",
+    "rust-lang/rust-analyzer"
   ]
 }

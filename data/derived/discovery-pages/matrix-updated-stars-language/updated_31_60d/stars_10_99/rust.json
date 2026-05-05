@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 21,
-    "terms": 82
+    "components": 132,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 25,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
     "apache/casbin-actix-casbin-auth",
     "apache/casbin-axum-casbin",
+    "Calsign/gazelle_rust",
     "celestiaorg/hana",
+    "datafusion-contrib/datafusion-orc",
     "dcampbell24/mdbook-djot",
     "filecoin-project/blstrs",
     "filecoin-project/rust-filecoin-proofs-api",
     "fortanix/rust-mbedtls",
     "hermit-os/hermit-rs-template",
     "jiegec/tantivy-jieba",
+    "Kimahriman/hdfs-native",
     "lambdaclass/libssz",
     "microsoft/tracing-etw",
     "neysofu/reltester",
+    "omerbenamram/pyo3-file",
     "psmux/psnet",
     "psmux/Tmux-Plugin-Panel",
     "randombit/botan-rs",

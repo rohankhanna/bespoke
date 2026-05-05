@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 107,
-    "observations": 109,
-    "repos": 8,
-    "terms": 107
+    "components": 91,
+    "concepts": 132,
+    "observations": 133,
+    "repos": 9,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "fastapi/fastapi",
+    "huggingface/sentence-transformers",
     "jax-ml/jax",
-    "Lightning-AI/pytorch-lightning",
-    "oobabooga/textgen",
+    "modelscope/ms-swift",
+    "NVIDIA-NeMo/NeMo",
     "OpenHands/OpenHands",
-    "pydantic/pydantic",
-    "zhayujie/CowAgent"
+    "PDFMathTranslate/PDFMathTranslate",
+    "run-llama/llama_index"
   ]
 }

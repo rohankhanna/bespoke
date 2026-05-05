@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 328,
-    "concepts": 371,
-    "observations": 373,
-    "repos": 81,
-    "terms": 369
+    "components": 332,
+    "concepts": 372,
+    "observations": 374,
+    "repos": 82,
+    "terms": 370
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "ankane/dexter",
@@ -77,6 +77,7 @@
     "phar-io/manifest",
     "rafamadriz/friendly-snippets",
     "rails/importmap-rails",
+    "rails/spring",
     "reagent-project/reagent",
     "richfelker/musl-cross-make",
     "ruby-i18n/i18n",

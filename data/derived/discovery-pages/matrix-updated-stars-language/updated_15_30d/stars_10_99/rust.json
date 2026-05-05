@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 233,
-    "concepts": 125,
-    "observations": 126,
-    "repos": 36,
-    "terms": 139
+    "components": 293,
+    "concepts": 172,
+    "observations": 173,
+    "repos": 43,
+    "terms": 186
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "0x676e67/wreq-util",
     "64bit/commandOK",
     "alixinne/glsl-lang",
     "andelf/axcli",
@@ -23,22 +24,26 @@
     "bencevans/camtrap-detector",
     "bgpkit/bgpkit-broker",
     "BlackDex/rust-musl",
-    "Calsign/gazelle_rust",
+    "boundless-xyz/steel",
+    "chrisjsewell/markdown-it-pyrs",
     "cloudllm-ai/mentisdb",
     "cometbft/cometbft-rs",
     "cpmech/gemlab",
     "crate-ci/imperative",
     "filecoin-project/actors-utils",
+    "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "google/safe-mmio",
+    "GreptimeTeam/promql-parser",
     "hagan/claudia-statusline",
     "hpkewg/hpke-pq",
     "idanarye/nu_plugin_skim",
-    "Kimahriman/hdfs-native",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
     "ldclabs/ic-tee",
+    "major7apps/pensyve",
     "messense/py-promql-parser",
+    "multiformats/rust-cid",
     "open-telemetry/opentelemetry-rust-contrib",
     "phiat/claude-esp-rs",
     "psmux/omp-manager",
@@ -49,6 +54,8 @@
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "watchexec/clearscreen",
-    "watchexec/process-wrap"
+    "watchexec/process-wrap",
+    "Xuanwo/serde-env",
+    "zcash/pasta_curves"
   ]
 }

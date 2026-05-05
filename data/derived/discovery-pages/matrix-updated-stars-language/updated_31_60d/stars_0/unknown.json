@@ -3,7 +3,7 @@
     "components": 47,
     "concepts": 27,
     "observations": 27,
-    "repos": 21,
+    "repos": 22,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,11 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cachix/crossterm",
     "cwfitzgerald/libtest-mimic",
+    "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Projects-Index",
     "danielrosehill/amd-gpu-fixes",
     "danielrosehill/Backup-Projects-Index",

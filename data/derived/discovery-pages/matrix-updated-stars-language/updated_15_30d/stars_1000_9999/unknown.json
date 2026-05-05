@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 13,
-    "terms": 37
+    "components": 23,
+    "concepts": 48,
+    "observations": 48,
+    "repos": 16,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,21 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "alchaincyf/zhangxuefeng-skill",
     "android/skills",
     "bbatsov/clojure-style-guide",
     "esbatmop/MNBVC",
     "FasterXML/jackson",
     "FuelLabs/fuel-specs",
+    "godotengine/awesome-godot",
     "libp2p/libp2p",
     "libp2p/specs",
     "macfuse/macfuse",
     "MicrosoftDocs/WSL",
     "pditommaso/awesome-pipeline",
+    "ratatui/awesome-ratatui",
     "shuaibiyy/awesome-tf",
     "skills-directory/skill-codex",
     "tmstack/awesome-persona-skills"

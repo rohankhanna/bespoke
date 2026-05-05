@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 164,
-    "concepts": 53,
-    "observations": 54,
-    "repos": 42,
-    "terms": 53
+    "components": 186,
+    "concepts": 62,
+    "observations": 63,
+    "repos": 45,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "a-liashenko/egui",
     "adiSuper94/dns-rs",
@@ -24,6 +24,7 @@
     "cnoshb/cnosdb",
     "Commit-Boost/blstrs",
     "ComunidadAylas/glsl-lang",
+    "CyberHoward/cw-plus-plus",
     "databendlabs/state-machine-api",
     "datafuse-extras/async-backtrace",
     "datafuse-extras/async-recursion",
@@ -40,6 +41,7 @@
     "iambriccardo/rust-postgres",
     "imandra-ai/tldrs",
     "imgui-rs/imgui-gfx-renderer",
+    "informalsystems/tower-abci",
     "lnx-search/memmap2-rs",
     "madsim-rs/getrandom",
     "MaterializeInc/async-compression",
@@ -55,6 +57,7 @@
     "ritchie46/simd-json",
     "s3bk/svg",
     "spacemeshos/randomx-rs",
+    "srdtrk/ibc-rs",
     "stefnotch/winit_input_helper"
   ]
 }

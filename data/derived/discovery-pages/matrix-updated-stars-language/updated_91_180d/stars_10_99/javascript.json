@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 234,
-    "concepts": 41,
-    "observations": 42,
+    "components": 231,
+    "concepts": 43,
+    "observations": 44,
     "repos": 24,
-    "terms": 41
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Arthy000/gherkin-testcafe",
     "bevry/domain-browser",
+    "chaijs/check-error",
     "CheckerNetwork/spark-checker",
     "coderaiser/estrace",
     "d3x0r/JSOX",
@@ -34,7 +35,6 @@
     "minikube-ci/examples",
     "nodejs/Gzemnid",
     "Redocly/redocly-cli-cookbook",
-    "rose-pine/build",
     "salesforcecli/status",
     "tc39/proposal-native-promise-predicate",
     "ykdojo/cc-safe"

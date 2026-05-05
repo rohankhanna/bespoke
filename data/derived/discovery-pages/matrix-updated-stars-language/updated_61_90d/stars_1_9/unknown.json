@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 9,
-    "terms": 15
+    "components": 33,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 10,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "adonisjs/.github",
     "aifoundry-org/et-man",
     "alexpolonsky/agent-skills",
     "alexpolonsky/awesome-agent-skills-israel",
+    "gakonst/foundry",
     "jsdom/.github",
     "orlp/color-backtrace",
     "piebald-ai/.github",

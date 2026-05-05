@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 445,
-    "concepts": 364,
-    "observations": 367,
-    "repos": 166,
-    "terms": 358
+    "components": 465,
+    "concepts": 372,
+    "observations": 375,
+    "repos": 174,
+    "terms": 366
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xPlaygrounds/rig-onchain-kit",
     "16arpi/meteo-tui",
@@ -25,6 +25,7 @@
     "andreivasiliu/cybersub",
     "antoyo/rustc_codegen_gcc",
     "apache/casbin-rust-actix-casbin",
+    "arcnmx/serde-value",
     "argmin-rs/modcholesky",
     "arkworks-rs/gm17",
     "arkworks-rs/spartan",
@@ -103,6 +104,7 @@
     "HorizenLabs/poseidon2",
     "imgui-rs/imgui-winit-support",
     "informalsystems/basecoin-rs",
+    "informalsystems/sovereign-ibc",
     "inherd/forming",
     "intuis/mnyaoo32",
     "jokemanfire/mcp-containerd",
@@ -137,14 +139,17 @@
     "nlordell/solabi-rs",
     "not-fl3/quad-net",
     "nuxy/no-ai-badge",
+    "octopus-network/near-ibc",
     "op-rs/maili",
     "optozorax/quad-storage",
+    "orlp/recursive",
     "OutThereLabs/actix-web-opentelemetry",
     "pangenome/vcfbub",
     "paritytech/bn",
     "paritytech/cargo-unleash",
     "paritytech/unsigned-varint",
     "pdf-rs/font",
+    "penumbra-zone/ed25519-consensus",
     "penumbra-zone/tower-abci",
     "pinecone-io/assistant-mcp",
     "pisa-engine/ciff",
@@ -162,6 +167,7 @@
     "sayanarijit/jf",
     "softprops/envy-store",
     "sonhal/wasm-oauth-filter",
+    "srcres258/learnopengl-rust",
     "stainless-steel/md5",
     "tari-project/randomx-rs",
     "tensorchord/pg_tokenizer.rs",
@@ -178,6 +184,8 @@
     "wngr/async-datachannel",
     "xetdata/xet-core",
     "xiaoxin-sky/lapce-vue",
+    "Xuanwo/serde-bridge",
+    "Xuanwo/serfig",
     "yuyang0/rrqlite",
     "zakarumych/sierra"
   ]

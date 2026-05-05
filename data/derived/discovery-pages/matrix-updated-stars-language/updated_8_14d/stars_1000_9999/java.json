@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 214,
-    "observations": 215,
-    "repos": 26,
-    "terms": 214
+    "components": 188,
+    "concepts": 250,
+    "observations": 251,
+    "repos": 28,
+    "terms": 250
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
@@ -21,16 +21,18 @@
     "apache/pdfbox",
     "apache/poi",
     "besu-eth/besu",
+    "bonigarcia/webdrivermanager",
     "castorini/anserini",
     "codelibs/fess",
+    "confluentinc/examples",
     "diffplug/spotless",
+    "dylibso/chicory",
     "FasterXML/jackson-annotations",
     "flyway/flyway",
     "google/adk-java",
     "google/error-prone",
     "google/google-java-format",
-    "googleapis/google-api-java-client",
-    "googleapis/google-http-java-client",
+    "google/tsunami-security-scanner-plugins",
     "jhipster/prettier-java",
     "junit-team/junit4",
     "open-telemetry/opentelemetry-java",

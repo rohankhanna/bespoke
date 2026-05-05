@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 124,
+    "components": 130,
     "concepts": 75,
     "observations": 75,
-    "repos": 93,
+    "repos": 96,
     "terms": 75
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "5sControl/.github",
     "5scontrol/5s-dev-documentation",
@@ -50,9 +50,12 @@
     "danielrosehill/HA-Red-Alert-News-Dash",
     "danielrosehill/HA-Red-Alerts-Model-Automations",
     "datafuse-extras/async-compression",
+    "datafuse-extras/serde-bridge",
+    "datafuse-extras/serde-env",
     "devongovett/html5ever",
     "diffeqml/diffeqml-media",
     "dstein64/media",
+    "erew123/screenshots",
     "expenses/trystero",
     "filecoin-project/fvm-test-vectors",
     "flashinfer-ai/web-data",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 3,
-    "concepts": 20,
-    "observations": 20,
+    "concepts": 10,
+    "observations": 10,
     "repos": 1,
-    "terms": 20
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-03T07:46:29.058247+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "Loyalsoldier/v2ray-rules-dat"
+    "brave/brave-browser"
   ]
 }

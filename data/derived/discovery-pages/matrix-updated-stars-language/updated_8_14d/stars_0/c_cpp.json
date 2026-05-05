@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 5,
-    "terms": 19
+    "components": 15,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
-    "arnaud-lb/php-rdkafka",
     "buty4649/mruby-yyjson",
     "conda-forge/cppinterop-feedstock",
     "rltakashige/mlx-jaccl-fix-small-recv"

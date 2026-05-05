@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 555,
-    "concepts": 119,
-    "observations": 119,
+    "components": 594,
+    "concepts": 129,
+    "observations": 129,
     "repos": 30,
-    "terms": 119
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "alexellis/arkade-get",
+    "AdguardTeam/FiltersCompiler",
     "browserslist/lint",
-    "bufbuild/protobuf-conformance",
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
+    "ionide/tree-sitter-fsharp",
     "j9t/obsohtml",
     "locize/i18next-locize-backend",
     "locize/locize",
@@ -29,20 +29,20 @@
     "mapbox/vtvalidate",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
-    "newrelic/newrelic-node-apollo-server-plugin",
     "newrelic/newrelic-node-examples",
     "oclif/oclif.github.io",
     "octokit/app-permissions",
     "octokit/openapi",
     "octokit/openapi-types.ts",
-    "patrik-csak/auto-terminal-profile",
     "r-lyeh/gamebook",
     "rashfael/eslint-plugin-vue-pug",
+    "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
-    "Taritsyn/DartSassHost",
     "tnc-ca-geo/animl-frontend",
+    "tracked-tools/tracked-toolbox",
     "ultralytics/llm",
     "web-platform-tests/results-analysis",
-    "webtorrent/bittorrent-lsd"
+    "webtorrent/bittorrent-lsd",
+    "wyyazlz/sheetnext"
   ]
 }

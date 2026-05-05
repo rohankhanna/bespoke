@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 4,
-    "terms": 44
+    "components": 45,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 6,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aws/karpenter-provider-aws",
-    "cosmos/cosmos-sdk",
     "crc-org/crc",
-    "elastic/cloud-on-k8s"
+    "elastic/cloud-on-k8s",
+    "googleapis/google-cloud-go",
+    "letsencrypt/boulder",
+    "open-telemetry/opentelemetry-operator"
   ]
 }

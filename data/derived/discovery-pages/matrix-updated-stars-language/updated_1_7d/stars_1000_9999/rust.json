@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 754,
-    "concepts": 601,
-    "observations": 602,
-    "repos": 67,
-    "terms": 598
+    "components": 695,
+    "concepts": 537,
+    "observations": 537,
+    "repos": 57,
+    "terms": 536
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,25 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0x676e67/wreq-python",
     "AccessKit/accesskit",
     "actix/examples",
+    "apache/datafusion",
     "apache/iceberg-rust",
-    "ash-rs/ash",
     "askama-rs/askama",
     "aws-cloudformation/cloudformation-guard",
     "cachix/devenv",
     "cargo-bins/cargo-binstall",
-    "cargo-generate/cargo-generate",
-    "ccbrown/iocraft",
-    "chelsea0x3b/cudarc",
-    "cobalt-org/cobalt.rs",
     "crate-ci/cargo-release",
+    "databendlabs/openraft",
     "delta-io/delta-rs",
     "Devolutions/IronRDP",
     "dimforge/kiss3d",
-    "eycorsican/leaf",
     "facebook/buck2",
     "facebook/pyrefly",
     "facebook/sapling",
-    "fitzgen/bumpalo",
     "floneum/floneum",
     "georust/geo",
     "graphql-rust/juniper",
@@ -46,14 +41,12 @@
     "huggingface/text-embeddings-inference",
     "image-rs/image",
     "intentee/paddler",
-    "kivikakk/comrak",
     "lakekeeper/lakekeeper",
     "MaterializeInc/materialize",
     "mozilla/cbindgen",
     "mozilla/uniffi-rs",
     "nats-io/nats.rs",
     "notify-rs/notify",
-    "pkgxdev/pkgx",
     "prefix-dev/pixi",
     "prisma/prisma-engines",
     "pykeio/ort",
@@ -69,8 +62,6 @@
     "rust-lang/rustup",
     "rust-openssl/rust-openssl",
     "RustAudio/cpal",
-    "RustAudio/rodio",
-    "skim-rs/skim",
     "Splode/pomotroid",
     "squidowl/halloy",
     "supabase/etl",
@@ -79,7 +70,6 @@
     "unicode-org/icu4x",
     "VOICEVOX/voicevox_core",
     "wasm-bindgen/wasm-bindgen",
-    "wasm-bindgen/wasm-pack",
-    "watchexec/watchexec"
+    "wasm-bindgen/wasm-pack"
   ]
 }

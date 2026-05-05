@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 115,
-    "observations": 117,
-    "repos": 26,
-    "terms": 115
+    "components": 297,
+    "concepts": 92,
+    "observations": 94,
+    "repos": 22,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "4catalyzer/javascript",
     "aidenlab/hic-straw",
@@ -28,17 +28,13 @@
     "hyparam/hyparquet-writer",
     "hyparam/squirreling",
     "ideditor/schema-builder",
-    "ionide/tree-sitter-fsharp",
     "julia-actions/cache",
     "kitconcept/volto-light-theme",
     "lm-sys/lm-sys.github.io",
     "nodejs/nodejs-dist-indexer",
     "npm/package-json",
     "octokit/create-octokit-project.js",
-    "readthedocs/addons",
     "rstackjs/agent-skills",
-    "stdlib-js/google-summer-of-code",
-    "tracked-tools/tracked-toolbox",
-    "wyyazlz/sheetnext"
+    "stdlib-js/google-summer-of-code"
   ]
 }

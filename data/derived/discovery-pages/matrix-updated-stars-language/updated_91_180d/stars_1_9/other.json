@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 160,
+    "components": 165,
     "concepts": 68,
     "observations": 68,
-    "repos": 45,
+    "repos": 46,
     "terms": 70
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -29,6 +29,7 @@
     "erwin-kok/multiformat",
     "evoskuil/visual-studio-template",
     "haskell-compat/base-orphans",
+    "hchiam/learning-ngrok",
     "hden/cuid",
     "hden/cuid2",
     "hedronvision/bazel-cc-filesystem-backport",

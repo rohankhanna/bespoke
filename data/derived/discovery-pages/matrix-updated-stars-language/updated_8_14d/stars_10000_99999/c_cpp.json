@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 401,
-    "concepts": 586,
-    "observations": 589,
-    "repos": 57,
-    "terms": 583
+    "components": 376,
+    "concepts": 564,
+    "observations": 567,
+    "repos": 53,
+    "terms": 562
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abseil/abseil-cpp",
     "Alexays/Waybar",
@@ -25,6 +25,7 @@
     "asmvik/yabai",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
+    "catchorg/Catch2",
     "chromium/chromium",
     "citusdata/citus",
     "ClickHouse/ClickHouse",
@@ -35,16 +36,12 @@
     "facebook/hhvm",
     "facebook/rocksdb",
     "facebookresearch/faiss",
-    "fmtlib/fmt",
     "FreeRDP/FreeRDP",
-    "git/git",
     "gnachman/iTerm2",
-    "google/benchmark",
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
     "Immediate-Mode-UI/Nuklear",
-    "jonas/tig",
     "jqlang/jq",
     "libvips/libvips",
     "microsoft/mimalloc",
@@ -53,7 +50,6 @@
     "microsoft/STL",
     "microsoft/winget-cli",
     "microsoft/WSL",
-    "microsoft/WSL2-Linux-Kernel",
     "ml-explore/mlx",
     "mpv-player/mpv",
     "NixOS/nix",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 186,
-    "observations": 186,
-    "repos": 25,
-    "terms": 186
+    "components": 154,
+    "concepts": 165,
+    "observations": 165,
+    "repos": 21,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "allegro/hermes",
@@ -23,19 +23,15 @@
     "eclipse-lemminx/lemminx",
     "FasterXML/woodstox",
     "googleapis/google-api-java-client-services",
-    "googleapis/google-auth-library-java",
-    "googleapis/google-oauth-java-client",
-    "graalvm/graal-languages-demos",
     "graalvm/graalvm-demos",
     "graalvm/native-build-tools",
     "jpmml/jpmml-lightgbm",
     "jpmml/jpmml-xgboost",
-    "microsoft/Generative-AI-for-beginners-java",
     "microsoft/semantic-kernel-java",
     "microsoft/vscode-java-test",
     "milvus-io/milvus-sdk-java",
+    "revelc/formatter-maven-plugin",
     "sevntu-checkstyle/sevntu.checkstyle",
-    "spotbugs/sonar-findbugs",
     "swagger-api/swagger-inflector",
     "Waffle/waffle",
     "zilliztech/vts"

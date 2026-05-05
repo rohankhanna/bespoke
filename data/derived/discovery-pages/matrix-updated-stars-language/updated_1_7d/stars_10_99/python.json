@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 285,
-    "concepts": 216,
-    "observations": 216,
-    "repos": 53,
-    "terms": 214
+    "components": 219,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 40,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,26 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "a2aproject/a2a-tck",
-    "agno-agi/coda",
     "All-Hands-AI/OpenHands-Cloud",
-    "allenai/cached_path",
     "arcaputo3/mcp-server-whisper",
-    "AstraZeneca/runnable",
     "autowarefoundation/autoware_launch",
     "awslabs/nx-neptune",
     "Azure-Samples/openai-chat-app-entra-auth-builtin",
     "beclab/apps",
-    "bghira/CaptionFlow",
     "carstencodes/pdm-bump",
     "cloudfoundry/community",
     "conda-forge/conda-forge-pinning-feedstock",
     "conservationtechlab/animl-py",
-    "DanielNoord/pydocstringformatter",
-    "dbfixtures/mirakuru",
     "espressif/esp-idf-monitor",
-    "executablebooks/mdit-py-plugins",
     "flagos-ai/vllm-plugin-FL",
     "gentoo/api-gentoo-org",
     "gordon-code/cuid2",
     "graalvm/oracle-graalvm-ea-builds",
     "Hiroshiba/voicevox_engine",
     "HKU-BAL/ClairS-TO",
+    "intel-staging/text-generation-webui",
     "jfly/shtuff",
     "LedgerHQ/ragger",
     "MGenAI/GRN",
@@ -47,7 +40,6 @@
     "neo4j/neo4j-python-driver-rust-ext",
     "NVIDIA/multi-storage-client",
     "open-edge-platform/physical-ai-studio",
-    "pdm-project/tox-pdm",
     "pipecat-ai/pipecat-cli",
     "pre-commit/sync-pre-commit-deps",
     "py-pdf/sample-files",
@@ -55,17 +47,12 @@
     "qiayuanl/unitree_bringup",
     "redis/docs",
     "regro/cf-scripts",
-    "rwightman/timm",
-    "scaleway/serverless-functions-python",
     "scipy/scipy.org",
     "sigstore/sigstore-conformance",
     "sublimelsp/LSP-volar",
     "TaWald/nnUNet",
     "terrierteam/pyterrier_pisa",
-    "theupdateframework/tuf-on-ci",
     "Thinklab-SJTU/Bench2Drive-Speed",
-    "TigreGotico/phoonnx",
-    "xhluca/bm25-benchmarks",
-    "zen-xu/pytest-modern"
+    "xhluca/bm25-benchmarks"
   ]
 }

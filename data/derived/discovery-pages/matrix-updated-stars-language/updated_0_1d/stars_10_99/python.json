@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 2,
-    "terms": 8
+    "components": 9,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "hiddenswitch/pip-and-uv-installable-ComfyUI",
-    "intel-staging/text-generation-webui"
+    "hiddenswitch/pip-and-uv-installable-ComfyUI"
   ]
 }

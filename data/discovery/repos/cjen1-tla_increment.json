@@ -8,13 +8,14 @@
       "size": 879
     }
   ],
+  "metadata_refreshed_at": "2026-05-05T05:30:25.436282+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": null,
     "fork": false,
-    "full_name": "Cjen1/tla_increment",
+    "full_name": "cjen1/tla_increment",
     "html_url": "https://github.com/Cjen1/tla_increment",
     "language": "TLA",
     "pushed_at": "2022-04-28T23:22:09Z",

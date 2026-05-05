@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1562,
-    "concepts": 175,
-    "observations": 176,
-    "repos": 42,
-    "terms": 172
+    "components": 1591,
+    "concepts": 180,
+    "observations": 181,
+    "repos": 43,
+    "terms": 177
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "acdlite/recompose",
     "adam-p/markdown-here",
@@ -24,6 +24,7 @@
     "bower/bower",
     "browserify/browserify",
     "chjj/blessed",
+    "dropzone/dropzone",
     "eligrey/FileSaver.js",
     "emotion-js/emotion",
     "enzymejs/enzyme",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 189,
-    "concepts": 254,
-    "observations": 255,
+    "components": 195,
+    "concepts": 266,
+    "observations": 267,
     "repos": 46,
-    "terms": 259
+    "terms": 271
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "activerecord-hackery/ransack",
@@ -20,6 +20,7 @@
     "analysis-tools-dev/dynamic-analysis",
     "artempyanykh/marksman",
     "bakpakin/Fennel",
+    "black7375/Firefox-UI-Fix",
     "breezedeus/Pix2Text",
     "cognitect/transit-format",
     "dashbitco/mox",
@@ -47,7 +48,6 @@
     "parruda/swarm",
     "preservim/vimux",
     "pry/pry",
-    "rails/spring",
     "rails/tailwindcss-rails",
     "salesforce/BLIP",
     "sbt/sbt-native-packager",

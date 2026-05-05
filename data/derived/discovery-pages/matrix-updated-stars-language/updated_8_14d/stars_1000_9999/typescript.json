@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3519,
-    "concepts": 597,
-    "observations": 600,
-    "repos": 72,
-    "terms": 595
+    "components": 3355,
+    "concepts": 576,
+    "observations": 579,
+    "repos": 69,
+    "terms": 574
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "a-ghorbani/pocketpal-ai",
     "actions/cache",
     "actions/setup-java",
     "actions/setup-node",
@@ -24,18 +23,17 @@
     "ai-that-works/ai-that-works",
     "antfu-collective/vite-plugin-inspect",
     "artifacthub/hub",
-    "aws-actions/configure-aws-credentials",
     "Azure/azure-sdk-for-js",
     "benchmark-action/github-action-benchmark",
     "bluesky-social/atproto",
     "bufbuild/protobuf-es",
+    "callstack/react-native-testing-library",
     "ChainSafe/lodestar",
     "Chevrotain/chevrotain",
     "ChromeDevTools/devtools-frontend",
     "civitai/civitai",
     "clerk/javascript",
     "cloudflare/agents",
-    "cloudflare/agents-starter",
     "coder/mux",
     "Comfy-Org/ComfyUI_frontend",
     "Comfy-Org/desktop",
@@ -68,8 +66,6 @@
     "open-telemetry/opentelemetry-js",
     "ory/polis",
     "peter-evans/create-pull-request",
-    "prettier/prettier-vscode",
-    "privatenumber/esbuild-loader",
     "react-native-community/cli",
     "redhat-developer/yaml-language-server",
     "safe-fndn/safe-smart-account",
@@ -80,6 +76,7 @@
     "tensorflow/tensorboard",
     "thomasloven/lovelace-card-mod",
     "ts-safeql/safeql",
+    "Urigo/graphql-cli",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
     "vuejs/router",

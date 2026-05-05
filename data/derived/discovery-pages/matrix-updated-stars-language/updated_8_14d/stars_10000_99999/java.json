@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 139,
-    "concepts": 174,
-    "observations": 174,
+    "components": 150,
+    "concepts": 182,
+    "observations": 182,
     "repos": 13,
-    "terms": 172
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alibaba/druid",
     "alibaba/nacos",
     "apache/doris",
     "apache/incubator-seata",
+    "apache/rocketmq",
     "apple/pkl",
     "bazelbuild/bazel",
     "ben-manes/caffeine",
@@ -25,7 +26,6 @@
     "JetBrains/intellij-community",
     "OpenAPITools/openapi-generator",
     "prestodb/presto",
-    "resilience4j/resilience4j",
     "SeleniumHQ/selenium"
   ]
 }

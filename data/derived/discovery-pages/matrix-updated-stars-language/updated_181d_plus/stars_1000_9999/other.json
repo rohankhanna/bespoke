@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1176,
-    "concepts": 1367,
-    "observations": 1369,
-    "repos": 374,
-    "terms": 1357
+    "components": 1178,
+    "concepts": 1373,
+    "observations": 1375,
+    "repos": 376,
+    "terms": 1363
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
-    "2d-inc/developer_quest",
     "2d-inc/HistoryOfEverything",
     "aagarwal1012/Animated-Text-Kit",
     "aagarwal1012/Liquid-Pull-To-Refresh",
@@ -154,6 +153,7 @@
     "hyperhype/hyperscript",
     "Hzzone/pytorch-openpose",
     "ibm-aur-nlp/PubLayNet",
+    "idris-lang/Idris-dev",
     "ieee8023/covid-chestxray-dataset",
     "IgnaceMaes/MaterialSkin",
     "inkle/ink",
@@ -280,6 +280,7 @@
     "rails/webpacker",
     "railsadminteam/rails_admin",
     "Raimondi/delimitMate",
+    "RanKKI/LawRefBook",
     "rcarriga/nvim-notify",
     "rebelot/heirline.nvim",
     "redplanetlabs/specter",
@@ -300,6 +301,7 @@
     "sdras/sample-vue-shop",
     "sds/scss-lint",
     "seebi/dircolors-solarized",
+    "shadowsocks/luci-app-shadowsocks",
     "sheerun/vim-polyglot",
     "Shougo/dein.vim",
     "Shougo/neocomplcache.vim",

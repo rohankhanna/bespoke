@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Rust
 
-Generated at: `2026-05-04T11:50:57.944186+00:00`
+Generated at: `2026-05-05T05:30:34.648225+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 42
-- terms: 53
-- components: 164
-- concepts: 53
-- observations: 54
+- repos: 45
+- terms: 62
+- components: 186
+- concepts: 62
+- observations: 63
 
 ## Static behavior
 
@@ -44,10 +44,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [CBenoit/diplomat](https://github.com/CBenoit/diplomat) | 0 | 2025-03-25T22:17:05Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [datafuse-extras/logforth](https://github.com/datafuse-extras/logforth) | 0 | 2025-03-21T08:34:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [srdtrk/ibc-rs](https://github.com/srdtrk/ibc-rs) | 0 | 2025-02-09T17:26:25Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [eigenwallet/bdk-old](https://github.com/eigenwallet/bdk-old) | 0 | 2024-12-10T15:54:37Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
+| [informalsystems/tower-abci](https://github.com/informalsystems/tower-abci) | 0 | 2024-11-08T19:02:16Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [datafuse-extras/async-recursion](https://github.com/datafuse-extras/async-recursion) | 0 | 2024-09-25T10:40:21Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [datafuse-extras/async-backtrace](https://github.com/datafuse-extras/async-backtrace) | 0 | 2024-09-25T10:36:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [CyberHoward/cw-plus-plus](https://github.com/CyberHoward/cw-plus-plus) | 0 | 2024-08-14T14:59:14Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mikelodder7/blstrs](https://github.com/mikelodder7/blstrs) | 0 | 2024-07-11T13:29:15Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
@@ -91,10 +94,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [CBenoit/diplomat](https://github.com/CBenoit/diplomat) | 0 | 2025-03-25T22:17:05Z | Rust | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [datafuse-extras/logforth](https://github.com/datafuse-extras/logforth) | 0 | 2025-03-21T08:34:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [srdtrk/ibc-rs](https://github.com/srdtrk/ibc-rs) | 0 | 2025-02-09T17:26:25Z | Rust | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [eigenwallet/bdk-old](https://github.com/eigenwallet/bdk-old) | 0 | 2024-12-10T15:54:37Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
+| [informalsystems/tower-abci](https://github.com/informalsystems/tower-abci) | 0 | 2024-11-08T19:02:16Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [datafuse-extras/async-recursion](https://github.com/datafuse-extras/async-recursion) | 0 | 2024-09-25T10:40:21Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [datafuse-extras/async-backtrace](https://github.com/datafuse-extras/async-backtrace) | 0 | 2024-09-25T10:36:23Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [CyberHoward/cw-plus-plus](https://github.com/CyberHoward/cw-plus-plus) | 0 | 2024-08-14T14:59:14Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [mikelodder7/blstrs](https://github.com/mikelodder7/blstrs) | 0 | 2024-07-11T13:29:15Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |

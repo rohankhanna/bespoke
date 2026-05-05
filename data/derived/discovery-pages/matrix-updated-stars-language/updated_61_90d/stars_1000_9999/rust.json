@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 151,
+    "components": 149,
     "concepts": 135,
     "observations": 135,
-    "repos": 26,
-    "terms": 134
+    "repos": 25,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
@@ -23,13 +23,12 @@
     "crossbeam-rs/crossbeam",
     "dtolnay/cargo-expand",
     "fschutt/printpdf",
-    "GREsau/schemars",
     "ImageOptim/gifski",
     "librespot-org/librespot",
     "linebender/tiny-skia",
+    "pdf-rs/pdf",
     "rojo-rbx/rojo",
     "rust-fuzz/cargo-fuzz",
-    "rust-headless-chrome/rust-headless-chrome",
     "rust-lang/regex",
     "sachaos/viddy",
     "sagiegurari/cargo-make",

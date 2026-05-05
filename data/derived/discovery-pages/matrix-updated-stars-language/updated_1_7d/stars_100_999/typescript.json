@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2732,
-    "concepts": 556,
-    "observations": 558,
-    "repos": 84,
-    "terms": 554
+    "components": 2900,
+    "concepts": 586,
+    "observations": 588,
+    "repos": 86,
+    "terms": 584
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "AgnosticUI/agnosticui",
     "antfu/eslint-flat-config-utils",
@@ -22,6 +22,7 @@
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
+    "carbon-design-system/carbon-components-angular",
     "carbon-design-system/sveld",
     "chainguard-dev/actions",
     "ClickHouse/clickhouse-js",
@@ -39,7 +40,7 @@
     "flathub-infra/website",
     "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
-    "fsouza/prettierd",
+    "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
     "glassflow/clickhouse-etl",
     "gradle/actions",
@@ -55,13 +56,13 @@
     "jsonwebtoken/jsonwebtoken.github.io",
     "jurplel/install-qt-action",
     "kkomelin/isomorphic-dompurify",
+    "LemmyNet/lemmy-js-client",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
     "microsoft/vscode-java-debug",
-    "mightyiam/eslint-config-love",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
-    "nene/prettier-plugin-sql-cst",
+    "mswjs/interceptors",
     "nene/sql-parser-cst",
     "nonara/ts-patch",
     "nuxt/bridge",
@@ -71,7 +72,6 @@
     "octokit/auth-app.js",
     "octokit/graphql.js",
     "ory/docs",
-    "oxc-project/eslint-plugin-oxlint",
     "privatenumber/get-tsconfig",
     "radashi-org/radashi",
     "redhat-developer/vscode-yaml",
@@ -89,6 +89,7 @@
     "TanStack/pacer",
     "TanStack/store",
     "tinylibs/tinyexec",
+    "tlaplus/vscode-tlaplus",
     "un-ts/prettier",
     "un-ts/synckit",
     "unjs/c12",
@@ -97,6 +98,7 @@
     "unjs/unimport",
     "unplugin/unplugin-imagemin",
     "web-infra-dev/rslib",
-    "web-infra-dev/rstest"
+    "web-infra-dev/rstest",
+    "wevm/abitype"
   ]
 }

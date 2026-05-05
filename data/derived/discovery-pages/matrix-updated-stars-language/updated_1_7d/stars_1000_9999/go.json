@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 763,
-    "concepts": 763,
-    "observations": 767,
-    "repos": 77,
-    "terms": 761
+    "components": 741,
+    "concepts": 741,
+    "observations": 745,
+    "repos": 75,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -32,6 +32,7 @@
     "cloudflare/pint",
     "cloudwego/hertz",
     "cockroachdb/pebble",
+    "cosmos/cosmos-sdk",
     "Dicklesworthstone/beads_viewer",
     "DNSCrypt/dnscrypt-resolvers",
     "dundee/gdu",
@@ -46,8 +47,6 @@
     "go-flutter-desktop/hover",
     "go-git/go-git",
     "googleapis/google-api-go-client",
-    "googleapis/google-cloud-go",
-    "goreleaser/nfpm",
     "hashicorp/terraform-provider-helm",
     "helmfile/helmfile",
     "ko-build/ko",
@@ -58,7 +57,6 @@
     "kubernetes-sigs/gateway-api",
     "kubernetes-sigs/karpenter",
     "kubernetes-sigs/node-feature-discovery",
-    "kubernetes-sigs/sig-storage-local-static-provisioner",
     "kubernetes/kubectl",
     "kyverno/kyverno",
     "Loyalsoldier/geoip",

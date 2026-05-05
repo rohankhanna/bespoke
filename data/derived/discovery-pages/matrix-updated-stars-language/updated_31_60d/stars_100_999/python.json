@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 345,
-    "concepts": 511,
-    "observations": 515,
-    "repos": 115,
-    "terms": 512
+    "components": 338,
+    "concepts": 510,
+    "observations": 514,
+    "repos": 114,
+    "terms": 511
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -102,7 +102,6 @@
     "pnkraemer/matfree",
     "psf/pyperf",
     "PyCQA/modernize",
-    "python-hyper/brotlicffi",
     "ronaldoussoren/pyobjc",
     "rosetta-rs/argparse-rosetta-rs",
     "RUC-NLPIR/Tool-Star",

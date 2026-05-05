@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 122,
-    "concepts": 156,
-    "observations": 159,
-    "repos": 28,
-    "terms": 153
+    "components": 116,
+    "concepts": 142,
+    "observations": 145,
+    "repos": 27,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alexmyczko/fnt",
     "alpinelinux/aports",
@@ -30,17 +30,16 @@
     "lovell/sharp-libvips",
     "opea-project/GenAIExamples",
     "openshift/release",
+    "pacstall/pacstall-programs",
     "pion/awesome-pion",
     "reviewdog/action-shellcheck",
     "reviewdog/action-suggester",
     "rocker-org/rocker-versioned2",
     "rust-cross/rust-musl-cross",
-    "sclorg/mysql-container",
     "sclorg/s2i-nodejs-container",
     "sclorg/s2i-python-container",
     "termux/repology-metadata",
     "tinted-theming/schemes",
-    "tonistiigi/xx",
-    "unixorn/zsh-quickstart-kit"
+    "tonistiigi/xx"
   ]
 }

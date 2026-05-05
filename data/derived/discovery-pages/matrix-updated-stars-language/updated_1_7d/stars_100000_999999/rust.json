@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
-    "concepts": 14,
-    "observations": 14,
+    "components": 7,
+    "concepts": 6,
+    "observations": 6,
     "repos": 1,
-    "terms": 14
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,8 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "tauri-apps/tauri"
+    "rust-lang/rust"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 270,
-    "observations": 270,
-    "repos": 79,
-    "terms": 270
+    "components": 175,
+    "concepts": 269,
+    "observations": 269,
+    "repos": 77,
+    "terms": 269
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -72,8 +72,8 @@
     "OpenDriveLab/DriveAGI",
     "OpenDriveLab/LaneSegNet",
     "OpenMOSS/FRoM-W1",
-    "OpenSparseLLMs/MoM",
     "pypa/get-pip",
+    "python-hyper/brotlicffi",
     "quanhaol/MagicMotion",
     "radekd91/inferno",
     "ronaldoussoren/py2app",
@@ -81,8 +81,6 @@
     "securefederatedai/openfederatedlearning",
     "ShenhanQian/GaussianAvatars",
     "shibing624/similarities",
-    "speechbrain/benchmarks",
-    "superclaude-org/supergemini_framework",
     "TencentCloudADP/youtu-tip",
     "TRI-ML/dgp",
     "tulerfeng/OneThinker",

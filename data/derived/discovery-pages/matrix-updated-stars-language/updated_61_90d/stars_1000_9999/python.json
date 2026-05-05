@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 336,
-    "observations": 336,
-    "repos": 63,
-    "terms": 328
+    "components": 169,
+    "concepts": 312,
+    "observations": 312,
+    "repos": 60,
+    "terms": 304
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
     "AIDC-AI/Marco-o1",
     "AIDC-AI/Ovis",
-    "alteryx/featuretools",
     "AmberSahdev/Open-Interface",
-    "andreafrancia/trash-cli",
     "anthropics/claude-code-security-review",
     "ARISE-Initiative/robomimic",
     "ARISE-Initiative/robosuite",
@@ -44,7 +42,6 @@
     "facebookresearch/habitat-lab",
     "google-deepmind/sonnet",
     "google/vizier",
-    "graphql-python/graphene-django",
     "isl-org/Open3D-ML",
     "jaredks/rumps",
     "keleshev/schema",

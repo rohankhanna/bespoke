@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 29,
-    "terms": 54
+    "concepts": 49,
+    "observations": 49,
+    "repos": 32,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "Ableton/push-interface",
     "ahmadawais/shades-of-purple-vscode",
@@ -20,6 +20,7 @@
     "charm-and-friends/additional-bubbles",
     "chika0801/Xray-examples",
     "CodeBoarding/GeneratedOnBoardings",
+    "dalek-cryptography/ed25519-dalek",
     "DaoCloud/public-binary-files-mirror",
     "deepinsight/inswapper-512-live",
     "deepseek-ai/awesome-deepseek-coder",
@@ -27,10 +28,12 @@
     "eryajf/awesome-github-profile-readme-chinese",
     "ethstaker/ethstaker-guides",
     "filecoin-project/devgrants",
+    "GraphBLAS/GraphBLAS-Pointers",
     "IceClear/SeedVR2",
     "langchain4j/awesome-langchain4j",
     "lightning/blips",
     "michaelkleber/privacy-model",
+    "microsoft/foss-fund",
     "MiniMax-AI/MiniMax-M2.1",
     "MME-Benchmarks/Video-MME",
     "NVIDIA/RTX-AI-Toolkit",

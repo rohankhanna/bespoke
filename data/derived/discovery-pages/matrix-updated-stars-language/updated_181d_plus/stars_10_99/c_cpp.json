@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 449,
-    "concepts": 531,
-    "observations": 531,
-    "repos": 242,
-    "terms": 528
+    "concepts": 536,
+    "observations": 536,
+    "repos": 245,
+    "terms": 533
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "2shady4u/godot-cpp-ci",
@@ -91,6 +91,7 @@
     "EdVince/diffusers-ncnn",
     "ekovac/x86term",
     "electronicsguy/HTTPSRedirect",
+    "elem-azar-unis/CRDT-Redis",
     "eliabieri/blnscpp",
     "eliemichel/sdl2webgpu",
     "eliemichel/sdl3webgpu",
@@ -176,6 +177,7 @@
     "madler/brotli",
     "Maher4Ever/wdm",
     "mapbox/node-cpp-skel",
+    "mapbox/vector-tile",
     "marijnheule/drat-trim",
     "Martinsos/opal",
     "mathworks-robotics/mujoco-simulink-blockset",
@@ -217,6 +219,7 @@
     "rsylvian/CSVparser",
     "ruby-debug/ruby-debug-base19",
     "rvagg/rpi-newer-crosstools",
+    "S95Sedan/Deepspeed-Windows",
     "sainttttt/gemmaJSON",
     "saleyn/simdjsone",
     "salmanali96/Trimming-the-Fat",

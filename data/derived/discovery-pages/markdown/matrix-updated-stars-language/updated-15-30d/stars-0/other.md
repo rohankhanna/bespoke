@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 0 stars · Other
 
-Generated at: `2026-05-04T11:50:57.944186+00:00`
+Generated at: `2026-05-05T05:30:34.648225+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 23
-- components: 33
-- concepts: 17
-- observations: 17
+- repos: 20
+- terms: 27
+- components: 38
+- concepts: 21
+- observations: 21
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [AdaCore/vss-extra](https://github.com/AdaCore/vss-extra) | 0 | 2026-04-20T16:15:56Z | Other | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [danielrosehill/Geopol-Forecast-Council](https://github.com/danielrosehill/Geopol-Forecast-Council) | 0 | 2026-04-19T23:55:51Z | Other | Model/data | 3 | 0 | 3 | 3 |
 | [danielrosehill/Github-Ideas-And-FRs](https://github.com/danielrosehill/Github-Ideas-And-FRs) | 0 | 2026-04-19T14:44:04Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/AI-Ideation-Runs](https://github.com/danielrosehill/AI-Ideation-Runs) | 0 | 2026-04-19T14:44:03Z | Other | Unknown | 0 | 0 | 0 | 0 |

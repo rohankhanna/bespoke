@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 93,
-    "concepts": 105,
-    "observations": 105,
-    "repos": 16,
-    "terms": 105
+    "components": 87,
+    "concepts": 92,
+    "observations": 92,
+    "repos": 15,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aria2/aria2",
     "bellard/quickjs",
@@ -23,7 +23,6 @@
     "glfw/glfw",
     "google/googletest",
     "google/leveldb",
-    "jart/cosmopolitan",
     "libevent/libevent",
     "libgit2/libgit2",
     "lz4/lz4",

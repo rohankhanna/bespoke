@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 54,
-    "observations": 54,
+    "components": 14,
+    "concepts": 58,
+    "observations": 58,
     "repos": 12,
-    "terms": 53
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "akuity/awesome-argo",
     "brightmart/nlp_chinese_corpus",
     "CLUEbenchmark/CLUECorpus2020",
     "docker/for-mac",
     "estree/estree",
-    "facebookresearch/moco",
+    "jest-community/awesome-jest",
     "obsidianmd/obsidian-api",
     "orogene/orogene",
     "r-lyeh/single_file_libs",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2885,
-    "concepts": 1366,
-    "observations": 1368,
-    "repos": 289,
-    "terms": 1341
+    "components": 2920,
+    "concepts": 1388,
+    "observations": 1390,
+    "repos": 292,
+    "terms": 1363
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -23,6 +23,7 @@
     "ageitgey/face_recognition",
     "albumentations-team/albumentations",
     "alebcay/awesome-shell",
+    "aleju/imgaug",
     "alex000kim/nsfw_data_scraper",
     "AliaksandrSiarohin/first-order-model",
     "alibaba/formily",
@@ -84,6 +85,7 @@
     "dotnet-architecture/eShopOnWeb",
     "dotnet/corefx",
     "dropbox/zxcvbn",
+    "dropzone/dropzone",
     "dwyl/english-words",
     "earthly/earthly",
     "ElemeFE/element",
@@ -142,6 +144,7 @@
     "jina-ai/clip-as-service",
     "jina-ai/serve",
     "jmoiron/sqlx",
+    "JoeyDeVries/LearnOpenGL",
     "json-iterator/go",
     "julienschmidt/httprouter",
     "junyanz/CycleGAN",

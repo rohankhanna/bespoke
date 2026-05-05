@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 11,
     "observations": 11,
-    "repos": 15,
+    "repos": 14,
     "terms": 11
   },
   "facet_version": 1,
@@ -12,21 +12,20 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "csm-actions/demo-client",
     "danielrosehill/Air-Quality-Toolkit-Plugin",
-    "danielrosehill/Claude-ADB-Ops-Plugin",
     "danielrosehill/Claude-AI-Model-Research-Plugin",
     "danielrosehill/Claude-Background-Removal-Plugin",
-    "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Batch-Optical-Archivist-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
     "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Buttondown-Mgmt-Plugin",
     "danielrosehill/Claude-CopyQ-Scripting-Plugin",
-    "danielrosehill/Claude-Data-Annotation-Plugin",
+    "danielrosehill/Claude-Declutter-Genie-Plugin",
     "hermit-os/.github",
+    "kleisauke/glib",
     "qiayuanl/unitree_buildfarm",
     "sp1-patches/elliptic-curves"
   ]

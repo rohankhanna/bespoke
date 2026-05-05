@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 308,
-    "concepts": 211,
-    "observations": 211,
+    "components": 316,
+    "concepts": 207,
+    "observations": 207,
     "repos": 20,
-    "terms": 211
+    "terms": 207
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
-    "actions-cool/.github",
     "actions-cool/test-issues-helper",
     "agent-sh/deslop",
     "agent-sh/ship",
+    "aidenlab/juicebox-web",
     "brody2consult/react-native-init-func",
     "Deep-Symmetry/asciidoctor-bytefield",
     "fishballapp/inquirer-cli",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 46,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 7,
-    "terms": 15
+    "components": 54,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 9,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "databendlabs/iceberg-rust",
     "datafuse-extras/arrow-udf",
+    "datafuse-extras/tantivy",
+    "datafuse-extras/tantivy-jieba",
     "espressosystems/espresso-systems-common",
     "faradayio/compose_yml",
     "Keats/os_info",

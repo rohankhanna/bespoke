@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 149,
-    "concepts": 169,
-    "observations": 169,
-    "repos": 28,
-    "terms": 168
+    "components": 154,
+    "concepts": 171,
+    "observations": 171,
+    "repos": 29,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alexkohler/nakedret",
     "aws-observability/aws-otel-collector",
@@ -26,6 +26,7 @@
     "cpuguy83/go-md2man",
     "DaoCloud/crproxy",
     "ethereum-optimism/asterisc",
+    "FastFilter/xorfilter",
     "fastschema/fastschema",
     "firecracker-microvm/firectl",
     "github/smimesign",

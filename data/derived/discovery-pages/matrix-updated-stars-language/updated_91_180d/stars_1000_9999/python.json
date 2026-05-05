@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 306,
-    "concepts": 515,
-    "observations": 516,
-    "repos": 122,
-    "terms": 510
+    "components": 313,
+    "concepts": 536,
+    "observations": 537,
+    "repos": 125,
+    "terms": 528
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
-    "allenai/dolma",
     "allenai/OLMo",
+    "alteryx/featuretools",
     "andialbrecht/sqlparse",
+    "andreafrancia/trash-cli",
     "AnswerDotAI/rerankers",
     "apple/ml-hypersim",
     "aqlaboratory/openfold",
@@ -54,6 +55,7 @@
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
+    "graphql-python/graphene-django",
     "gusye1234/nano-graphrag",
     "hako-mikan/sd-webui-regional-prompter",
     "harbor-framework/terminal-bench",
@@ -124,6 +126,7 @@
     "Tencent-Hunyuan/HunyuanVideo-Avatar",
     "Tencent/MimicMotion",
     "Tencent/TFace",
+    "TencentARC/SEED-Voken",
     "tensorflow/agents",
     "thu-ml/RoboticsDiffusionTransformer",
     "Trusted-AI/adversarial-robustness-toolbox",

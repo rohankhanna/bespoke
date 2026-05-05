@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 162,
-    "observations": 165,
-    "repos": 38,
-    "terms": 163
+    "components": 230,
+    "concepts": 175,
+    "observations": 178,
+    "repos": 41,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -28,6 +28,7 @@
     "guillaume-be/rust-tokenizers",
     "harfbuzz/ttf-parser",
     "kata-containers/cgroups-rs",
+    "kwonoj/swc-plugin-coverage-instrument",
     "lerouxrgd/datachannel-rs",
     "lquerel/gcp-bigquery-client",
     "Lutetium-Vanadium/requestty",
@@ -39,12 +40,14 @@
     "pksunkara/cargo-workspaces",
     "pythops/tenere",
     "Roblox/foreman",
+    "rust-analyzer/ungrammar",
     "rust-bio/rust-htslib",
     "rust-bitcoin/rust-bitcoincore-rpc",
     "rust-embedded-community/serde-json-core",
     "rust-lang/backtrace-rs",
     "rust-windowing/gl-rs",
     "rusticstuff/simdutf8",
+    "sagiegurari/duckscript",
     "scopedb/percas",
     "shekohex/allo-isolate",
     "stanislav-tkach/os_info",

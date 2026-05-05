@@ -3,7 +3,7 @@
     "components": 156,
     "concepts": 90,
     "observations": 90,
-    "repos": 79,
+    "repos": 80,
     "terms": 90
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "2KAbhishek/exercism-fetcher",
     "3b/cl-vulkan",
@@ -33,6 +33,7 @@
     "bluebear94/Terminal-WCWidth",
     "bnosac/audio.vadsilero",
     "bnosac/images",
+    "bogireddytejareddy/vus",
     "bronter/wgpu-native-zig-windows-test",
     "chrisguida/nix-dell",
     "cjnolet/atacworks",
@@ -75,7 +76,7 @@
     "locize/locize-i18next-vue-example",
     "madhephaestus/MuJoCoTest",
     "maxxnino/good-stuff",
-    "MolotovCherry/tree-sitter-wasm",
+    "molotovcherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
     "oneflow-inc/docker-images",
     "pgvector/pgvector-ada",

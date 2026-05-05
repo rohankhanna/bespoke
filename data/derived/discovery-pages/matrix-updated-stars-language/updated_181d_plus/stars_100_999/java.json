@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 73,
-    "concepts": 143,
-    "observations": 143,
-    "repos": 59,
-    "terms": 143
+    "concepts": 154,
+    "observations": 154,
+    "repos": 61,
+    "terms": 154
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -28,6 +28,7 @@
     "btkelly/gnag",
     "Byte-Lab/JCoz",
     "carrot2/elasticsearch-carrot2",
+    "citiususc/calendula",
     "cyberphone/json-canonicalization",
     "Datomic/fressian",
     "dirs-dev/directories-jvm",
@@ -62,6 +63,7 @@
     "ning/jvm-compressor-benchmark",
     "processing/processing-android",
     "processing/processing-sound",
+    "processing/processing-video",
     "redisson/redisson-examples",
     "relaxng/jing-trang",
     "rpcx-ecosystem/rpcx-benchmark",

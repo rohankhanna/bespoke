@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1402,
-    "concepts": 213,
-    "observations": 215,
-    "repos": 36,
-    "terms": 213
+    "components": 1466,
+    "concepts": 229,
+    "observations": 231,
+    "repos": 39,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ai/nanoid",
+    "arkenfox/user.js",
     "Automattic/node-canvas",
     "avajs/ava",
     "avwo/whistle",
@@ -34,6 +35,8 @@
     "josdejong/jsoneditor",
     "josdejong/mathjs",
     "karma-runner/karma",
+    "Leaflet/Leaflet",
+    "markedjs/marked",
     "motdotla/dotenv",
     "openai/codex-plugin-cc",
     "parcel-bundler/parcel",

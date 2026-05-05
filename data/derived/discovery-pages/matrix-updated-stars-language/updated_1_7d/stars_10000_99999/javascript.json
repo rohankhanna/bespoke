@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1899,
-    "concepts": 281,
-    "observations": 281,
-    "repos": 32,
-    "terms": 278
+    "components": 1550,
+    "concepts": 296,
+    "observations": 296,
+    "repos": 33,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "11ty/eleventy",
+    "4ian/GDevelop",
     "acornjs/acorn",
     "addyosmani/critical",
-    "ampproject/amphtml",
     "Automattic/mongoose",
     "CesiumGS/cesium",
     "easydiffusion/easydiffusion",
@@ -26,6 +26,7 @@
     "faisalman/ua-parser-js",
     "gatsbyjs/gatsby",
     "GoogleChrome/lighthouse",
+    "gorhill/uBlock",
     "http-party/node-http-proxy",
     "jsdoc/jsdoc",
     "jsdom/jsdom",
@@ -34,17 +35,17 @@
     "lutzroeder/netron",
     "MagicMirrorOrg/MagicMirror",
     "mdx-js/mdx",
-    "microsoft/monaco-editor",
     "mochajs/mocha",
     "mozilla/pdf.js",
     "novnc/noVNC",
+    "nwjs/nw.js",
     "plotly/plotly.js",
     "preactjs/preact",
     "SillyTavern/SillyTavern",
     "stylelint/stylelint",
     "sveltejs/kit",
     "sveltejs/svelte",
-    "swagger-api/swagger-ui",
-    "Unitech/pm2"
+    "Unitech/pm2",
+    "yokoffing/Betterfox"
   ]
 }

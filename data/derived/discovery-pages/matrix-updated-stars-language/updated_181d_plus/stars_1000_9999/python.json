@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 801,
-    "concepts": 3444,
-    "observations": 3446,
-    "repos": 884,
-    "terms": 3383
+    "components": 809,
+    "concepts": 3452,
+    "observations": 3454,
+    "repos": 887,
+    "terms": 3389
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -51,6 +51,7 @@
     "Alir3z4/html2text",
     "alisen39/TrWebOCR",
     "allenai/bi-att-flow",
+    "allenai/dolma",
     "allenai/longformer",
     "allenai/natural-instructions",
     "allenai/objaverse-xl",
@@ -475,6 +476,7 @@
     "lucidrains/imagen-pytorch",
     "lucidrains/make-a-video-pytorch",
     "lucidrains/musiclm-pytorch",
+    "lucidrains/reformer-pytorch",
     "lucidrains/soundstorm-pytorch",
     "lucidrains/video-diffusion-pytorch",
     "Luolc/AdaBound",
@@ -747,6 +749,7 @@
     "snap-stanford/ogb",
     "snap-stanford/pretrain-gnns",
     "sniklaus/sepconv-slomo",
+    "sony/nnabla",
     "SonyResearch/micro_diffusion",
     "sovrasov/flops-counter.pytorch",
     "Stability-AI/sd3.5",

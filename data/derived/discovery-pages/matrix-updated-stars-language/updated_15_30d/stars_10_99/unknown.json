@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 30,
-    "terms": 69
+    "components": 46,
+    "concepts": 75,
+    "observations": 75,
+    "repos": 31,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -27,6 +27,7 @@
     "flinedev/plankit",
     "ganelson/inform-evolution",
     "GDevelopApp/GDevelop-community-list",
+    "google/oss-policies-info",
     "Homebrew/.github",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
@@ -35,7 +36,6 @@
     "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
     "kubernetes/steering",
     "ocaml/platform-blog",
-    "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
     "pre-commit/mirrors-eslint",
     "SeleniumHQ/selenium_manager_artifacts",
@@ -43,6 +43,7 @@
     "tc39/proposal-duplicate-named-capturing-groups",
     "uxlfoundation/open-source-working-group",
     "w3c/accname",
-    "w3c/core-aam"
+    "w3c/core-aam",
+    "webdriverio/awesome-webdriverio"
   ]
 }

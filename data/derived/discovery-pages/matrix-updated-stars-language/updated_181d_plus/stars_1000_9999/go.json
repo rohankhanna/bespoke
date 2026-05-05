@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 282,
-    "concepts": 555,
-    "observations": 555,
-    "repos": 121,
-    "terms": 553
+    "concepts": 558,
+    "observations": 558,
+    "repos": 123,
+    "terms": 556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -79,6 +79,7 @@
     "jaegertracing/jaeger-client-go",
     "jaegertracing/jaeger-operator",
     "Jeffail/gabs",
+    "jetstack/kube-lego",
     "jsha/minica",
     "julienschmidt/go-http-routing-benchmark",
     "justinas/alice",
@@ -130,6 +131,7 @@
     "vmihailenco/msgpack",
     "vmihailenco/taskq",
     "vulcand/vulcand",
+    "WireGuard/wireguard-go",
     "xlab/android-go",
     "xxxserxxx/gotop",
     "yannh/kubeconform",

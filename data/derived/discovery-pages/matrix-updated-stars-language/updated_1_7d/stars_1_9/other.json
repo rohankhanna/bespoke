@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 23,
-    "terms": 82
+    "components": 65,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 17,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,28 +12,22 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "appsignal/appsignal-elixir-plug",
-    "beeware/beeware-docs-tools",
     "benjamimgois/pascube",
     "bennyyip/dot-vim",
     "Blosc/blogsite",
     "cosmos/security",
-    "dotenvx/homebrew-brew",
     "fern-api/docs",
     "fluent-vue/examples",
     "googleapis/google-cloud-php-compute",
-    "hao-ai-lab/flash-attention-fp4",
     "holochain/holonix",
-    "Humans-of-Julia/BibInternal.jl",
     "jfmengels/elm-review-config",
     "jk10001/aquainsightai",
     "JuliaCI/rootfs-images",
     "lintnet-modules/ghalint",
     "localstack/homebrew-tap",
-    "mozilla-mobile/fxios-ctl",
-    "php-rdkafka/php-rdkafka-doc",
     "pixel-font-studio/fusion-bold-pixel-font",
     "stable-haskell/cabal",
     "standardrb/standard-sorbet"

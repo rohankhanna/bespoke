@@ -4,13 +4,13 @@
     "concepts": 552,
     "observations": 555,
     "repos": 59,
-    "terms": 587
+    "terms": 586
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "2dust/v2rayN",
     "996icu/996.ICU",

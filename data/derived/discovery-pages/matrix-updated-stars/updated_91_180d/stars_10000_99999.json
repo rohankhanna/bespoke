@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 757,
-    "concepts": 459,
-    "observations": 461,
-    "repos": 68,
-    "terms": 456
+    "components": 771,
+    "concepts": 476,
+    "observations": 478,
+    "repos": 69,
+    "terms": 473
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "AlexeyAB/darknet",
@@ -31,6 +31,7 @@
     "ChatGPTNextWeb/NextChat",
     "CISOfy/lynis",
     "cleanlab/cleanlab",
+    "containrrr/watchtower",
     "deepseek-ai/DeepSeek-Coder",
     "drduh/macOS-Security-and-Privacy-Guide",
     "existentialaudio/blackhole",

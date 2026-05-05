@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 601,
-    "concepts": 314,
-    "observations": 318,
-    "repos": 51,
-    "terms": 314
+    "components": 612,
+    "concepts": 342,
+    "observations": 346,
+    "repos": 54,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -34,8 +34,10 @@
     "go-chi/chi",
     "google-research/vision_transformer",
     "gulpjs/gulp",
+    "guzzle/guzzle",
     "i3/i3",
     "jaredpalmer/tsdx",
+    "jart/cosmopolitan",
     "Jiayi-Pan/TinyZero",
     "jtoy/awesome-tensorflow",
     "junegunn/vim-plug",
@@ -50,6 +52,7 @@
     "modin-project/modin",
     "nikic/PHP-Parser",
     "peers/peerjs",
+    "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
     "Redocly/redoc",
     "rubocop/ruby-style-guide",

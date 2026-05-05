@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 466,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 21,
-    "terms": 61
+    "components": 438,
+    "concepts": 55,
+    "observations": 56,
+    "repos": 20,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adobe-photoshop/generator-core",
     "appbaseio/searchbox",
@@ -30,7 +30,6 @@
     "prebuild/prebuild",
     "prebuild/prebuild-install",
     "raywo/MMM-NowPlayingOnSpotify",
-    "RJWadley/stylelint-no-unsupported-browser-features",
     "runegan/jsxbin",
     "sindresorhus/multimatch",
     "svg-sprite/gulp-svg-sprite",

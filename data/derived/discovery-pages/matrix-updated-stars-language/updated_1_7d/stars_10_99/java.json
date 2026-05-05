@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 55,
-    "observations": 55,
+    "components": 52,
+    "concepts": 50,
+    "observations": 50,
     "repos": 12,
-    "terms": 55
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "Accla/graphulo",
     "BerkleyTechnologyServices/restdocs-spec-example",
     "confluentinc/common",
     "confluentinc/rest-utils",
     "flyway/flyway-community-db-support",
     "googleapis/java-bigtable",
-    "googleapis/java-cloud-bom",
     "googleapis/sdk-platform-java",
     "heroku/heroku-jvm-application-deployer",
     "opensim-org/opensim-gui",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 31,
-    "observations": 31,
+    "components": 11,
+    "concepts": 30,
+    "observations": 30,
     "repos": 11,
-    "terms": 31
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,17 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "ACh-K/Cubic-11",
     "antonbabenko/terraform-skill",
     "datawhalechina/so-large-lm",
+    "facebookresearch/moco",
     "graalvm/graalvm-ce-builds",
     "jorgebucaran/awsm.fish",
     "msgpack/msgpack-c",
     "NVIDIA/Cosmos",
     "rose-pine/rose-pine-theme",
-    "semver/semver",
     "sindresorhus/ponyfill",
     "tc39/proposal-signals"
   ]

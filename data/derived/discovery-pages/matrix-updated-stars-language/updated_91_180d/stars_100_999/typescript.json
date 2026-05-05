@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 764,
-    "concepts": 138,
-    "observations": 138,
+    "components": 806,
+    "concepts": 140,
+    "observations": 140,
     "repos": 30,
-    "terms": 137
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "akshaykmr/teletype",
@@ -22,7 +22,6 @@
     "axel-op/googlejavaformat-action",
     "celo-org/celo-composer",
     "cocos/cocos-test-projects",
-    "dimforge/rapier.js",
     "enisdenjo/graphql-sse",
     "gajus/eslint-plugin-sql",
     "hyperbrew/bolt-cep",
@@ -33,6 +32,7 @@
     "ManuelHentschel/VSCode-R-Debugger",
     "matrix-org/matrix-appservice-slack",
     "microsoft/botbuilder-js",
+    "microsoft/BotFramework-DirectLineJS",
     "morrys/react-relay-offline",
     "nanbingxyz/mcpsvr",
     "Obsidian-TTRPG-Community/fantasy-statblocks",

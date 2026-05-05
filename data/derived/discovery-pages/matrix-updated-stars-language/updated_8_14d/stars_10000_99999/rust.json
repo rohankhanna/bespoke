@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 583,
-    "concepts": 376,
-    "observations": 377,
-    "repos": 35,
-    "terms": 372
+    "components": 524,
+    "concepts": 383,
+    "observations": 384,
+    "repos": 33,
+    "terms": 379
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "actix/actix-web",
@@ -20,9 +20,9 @@
     "ast-grep/ast-grep",
     "Automattic/harper",
     "bevyengine/bevy",
+    "clap-rs/clap",
     "dani-garcia/vaultwarden",
     "diem/diem",
-    "facebook/relay",
     "fish-shell/fish-shell",
     "foundry-rs/foundry",
     "FuelLabs/fuel-core",
@@ -31,23 +31,21 @@
     "gitui-org/gitui",
     "gleam-lang/gleam",
     "googleworkspace/cli",
+    "huggingface/tokenizers",
     "hyperium/tonic",
     "jdx/mise",
     "launchbadge/sqlx",
     "microsoft/windows-rs",
     "nearai/ironclaw",
     "orhun/git-cliff",
+    "ratatui/ratatui",
     "rayon-rs/rayon",
-    "rust-lang/cargo",
     "rust-lang/rust-clippy",
     "servo/servo",
-    "sharkdp/fd",
     "Spotifyd/spotifyd",
     "starship/starship",
-    "tokio-rs/tokio",
     "tree-sitter/tree-sitter",
     "typst/typst",
-    "vercel-labs/agent-browser",
     "web-infra-dev/rspack"
   ]
 }

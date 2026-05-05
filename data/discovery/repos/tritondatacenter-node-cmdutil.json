@@ -78,13 +78,14 @@
       "size": 442
     }
   ],
+  "metadata_refreshed_at": "2026-05-05T05:30:09.758101+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "common command-line program functions",
     "fork": false,
-    "full_name": "TritonDataCenter/node-cmdutil",
+    "full_name": "tritondatacenter/node-cmdutil",
     "html_url": "https://github.com/TritonDataCenter/node-cmdutil",
     "language": "Shell",
     "pushed_at": "2021-11-02T21:55:37Z",

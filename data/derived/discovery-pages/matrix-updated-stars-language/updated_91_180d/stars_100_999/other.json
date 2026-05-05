@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 696,
-    "concepts": 646,
-    "observations": 647,
-    "repos": 163,
-    "terms": 643
+    "components": 716,
+    "concepts": 664,
+    "observations": 665,
+    "repos": 165,
+    "terms": 660
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "2KAbhishek/nerdy.nvim",
     "3ddelano/discord.gd",
@@ -42,8 +42,8 @@
     "bioinf-jku/TTUR",
     "BlinkDL/RWKV-CUDA",
     "chakravala/Reduce.jl",
-    "chrisbra/NrrwRgn",
     "cleanlab/examples",
+    "clj-commons/etaoin",
     "clojure/core.unify",
     "clojure/data.fressian",
     "clojure/data.json",
@@ -137,6 +137,7 @@
     "ocaml-wasm/wasm_of_ocaml",
     "OpenBMB/CPM.cu",
     "OrleansContrib/OrleansDashboard",
+    "PaulRBerg/foundry-template",
     "phillbaker/capybara-mechanize",
     "phodal/chapi",
     "phodal/shire",
@@ -174,6 +175,7 @@
     "WICG/first-party-sets",
     "WICG/layout-instability",
     "wilkerlucio/pathom3",
+    "wjakob/nanobind_example",
     "XingangPan/SCNN",
     "yaml/yaml-test-suite",
     "ymoslem/OpenNMT-Tutorial"

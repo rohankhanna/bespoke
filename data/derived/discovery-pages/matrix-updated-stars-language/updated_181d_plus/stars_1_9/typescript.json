@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1011,
+    "components": 1023,
     "concepts": 94,
     "observations": 94,
-    "repos": 59,
+    "repos": 60,
     "terms": 92
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "1000ch/vscode-csso",
@@ -24,6 +24,7 @@
     "arthwang/vsc-logtalk",
     "arvinxx/lobe-plugin-tikzjax",
     "asonnleitner/highwayhash-wasm",
+    "azdavis/sml-libs-scraper",
     "Azure/actions-toolkit",
     "CatchTheTornado/text-extract-api-client",
     "celo-org/emisianto",
@@ -48,7 +49,6 @@
     "finehow/bingsearch-plugin",
     "hchiam/astro-calendar",
     "hchiam/learning-angular",
-    "hchiam/learning-angular8",
     "hchiam/learning-vite",
     "iansan5653/vscode-format-python-docstrings",
     "indexxuan/vite-plugin-vue-cli",
@@ -62,6 +62,7 @@
     "Pablerdo/hexaframe-dark",
     "pkgxdev/git-gud",
     "plrthink/RNZATestApp",
+    "PraneshASP/vscode-foundry-test-runner",
     "prasek/supergraph-demo-opentelemetry",
     "qri-io/frontend",
     "robb-j/nova-yaml",

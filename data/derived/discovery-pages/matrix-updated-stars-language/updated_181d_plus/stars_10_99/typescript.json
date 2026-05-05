@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3465,
-    "concepts": 448,
-    "observations": 449,
-    "repos": 156,
-    "terms": 459
+    "components": 3574,
+    "concepts": 455,
+    "observations": 456,
+    "repos": 160,
+    "terms": 466
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "101arrowz/compression-streams-polyfill",
     "6/openai-caching-proxy-worker",
@@ -28,6 +28,7 @@
     "alixdehghani/echarts-for-angular",
     "alonronin/react-tailwind-rsbuild-boilerplate",
     "amilajack/ast-metadata-inferer",
+    "anatol-grabowski/datatransfer-files-promise",
     "andreock/AdguardHomeAPI",
     "anselanza/parse-strings-in-object",
     "Applelo/unplugin-inject-preload",
@@ -62,6 +63,7 @@
     "cyrilluce/saga-duck",
     "danielnappa/tweakgc-cli",
     "dannyhw/expo-template-storybook",
+    "darwinai/covidnet_ui",
     "DefinitelyTyped/dts-critic",
     "devcontainers/action",
     "DiFuks/ts-overrides-plugin",
@@ -144,6 +146,7 @@
     "remotion-dev/github-unwrapped-2021",
     "ricmoo/multicall",
     "Roblox/setup-foreman",
+    "rose-pine/rose-pine-palette",
     "rygwdn/slack-tools",
     "sawhney17/logseq-citation-manager",
     "seangwright/typescript-functional-extensions",
@@ -157,6 +160,7 @@
     "steadycursor/steadystart",
     "stoplightio/vscode-spectral",
     "streamich/linkfs",
+    "streamich/react-universal-interface",
     "SysCV/nutsh",
     "tatethurston/ProtoScript",
     "tillahoffmann/obsidian-file-include",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2358,
-    "concepts": 401,
-    "observations": 401,
-    "repos": 83,
-    "terms": 405
+    "components": 2432,
+    "concepts": 414,
+    "observations": 414,
+    "repos": 86,
+    "terms": 418
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "101arrowz/fflate",
@@ -20,6 +20,7 @@
     "alibaba/designable",
     "anse-app/anse",
     "anse-app/chatgpt-demo",
+    "antfu/esno",
     "apollographql/graphql-tag",
     "apollographql/subscriptions-transport-ws",
     "appbaseio/mirage",
@@ -57,6 +58,7 @@
     "improbable-eng/grpc-web",
     "inkline/inkline",
     "itsdouges/typescript-transformer-handbook",
+    "jaredpalmer/react-fns",
     "jaredpalmer/the-platform",
     "jhurliman/node-rate-limiter",
     "jquery/esprima",
@@ -92,6 +94,7 @@
     "Uniswap/web3-react",
     "vercel/modelfusion",
     "vuejs/composition-api",
+    "vuejs/vetur",
     "vuejs/vue-class-component",
     "vuejs/vue-loader",
     "vueuse/motion",

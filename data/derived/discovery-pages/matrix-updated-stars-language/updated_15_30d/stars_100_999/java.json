@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 15,
-    "terms": 99
+    "components": 109,
+    "concepts": 126,
+    "observations": 126,
+    "repos": 20,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "apache/camel-examples",
     "apache/doris-flink-connector",
@@ -21,13 +21,18 @@
     "carrot2/carrot2",
     "Cosium/git-code-format-maven-plugin",
     "fabmax/physx-jni",
+    "googleapis/google-auth-library-java",
+    "googleapis/google-oauth-java-client",
     "GoogleCloudPlatform/cloud-opensource-java",
+    "graalvm/graal-languages-demos",
     "higress-group/higress-console",
     "jpmml/jpmml-sparkml",
+    "microsoft/Generative-AI-for-beginners-java",
     "microsoft/java-debug",
     "mockingbot/react-native-zip-archive",
     "mukel/llama3.java",
     "redis/redis-om-spring",
+    "spotbugs/sonar-findbugs",
     "ysbing/YADB"
   ]
 }

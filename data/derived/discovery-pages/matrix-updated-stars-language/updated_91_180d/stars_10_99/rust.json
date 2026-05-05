@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 134,
-    "concepts": 98,
-    "observations": 101,
-    "repos": 35,
-    "terms": 96
+    "components": 143,
+    "concepts": 103,
+    "observations": 106,
+    "repos": 38,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "adamgreig/ecpdap",
@@ -32,6 +32,7 @@
     "EricLBuehler/candle",
     "fengkx/jieba-wasm",
     "georust/wkt",
+    "germangb/minimp3-rs",
     "ifsheldon/async-openai-wasm",
     "informalsystems/quint-connect",
     "informalsystems/quint-trace-explorer",
@@ -39,11 +40,13 @@
     "joseluisq/paket",
     "lindera/lindera-tantivy",
     "linebender/simplecss",
+    "loyd/fixnum",
     "LuisaGroup/luisa-compute-rs",
     "MaterializeInc/rust-postgres",
     "microsoft/LinuxTracepoints-Rust",
     "rukai/winit_input_helper",
     "rust-lang/gccjit.rs",
+    "RustCrypto/nacl-compat",
     "spacemeshos/post-rs",
     "spyoungtech/json-five-rs",
     "suo/lintrunner",

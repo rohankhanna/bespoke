@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 96,
-    "observations": 96,
+    "components": 121,
+    "concepts": 95,
+    "observations": 95,
     "repos": 25,
-    "terms": 99
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "aquasecurity/k8s-node-collector",
     "astro-han/diffpane",
-    "aws-controllers-k8s/runtime",
     "aws/amazon-network-policy-controller-k8s",
     "aws/amazon-vpc-cni-plugins",
     "aws/aws-ebpf-sdk-go",
@@ -28,6 +27,7 @@
     "containerd/release-tool",
     "ctoth/claudio",
     "cyberark/conjur-api-go",
+    "datachainlab/ethereum-ibc-relay-chain",
     "depado/bfchroma",
     "GFW-knocker/AndroidLibXrayLite",
     "gopasspw/gopass-jsonapi",

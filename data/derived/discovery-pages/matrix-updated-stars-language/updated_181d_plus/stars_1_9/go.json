@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 132,
-    "concepts": 112,
-    "observations": 112,
-    "repos": 55,
-    "terms": 111
+    "components": 146,
+    "concepts": 121,
+    "observations": 121,
+    "repos": 57,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
@@ -35,6 +35,7 @@
     "Chocolate4U/sing-geosite",
     "cloudfoundry/auctioneer",
     "cloudfoundry/bbl-state-resource",
+    "datachainlab/besu-ibc-relay-prover",
     "DeprecatedGoModules/redigo",
     "docker-archive-public/atomisthq.pod-atomisthq-tools.docker",
     "dubbo-go-pixiu/pixiu-api",
@@ -67,6 +68,7 @@
     "retracedhq/retraced-go",
     "rpcxio/rpcx-consul",
     "sourcegraph/godockerize",
+    "srdtrk/cw-ibc-lite",
     "tidwall/gjson-benchmarks",
     "usbarmory/armory-drive-log"
   ]

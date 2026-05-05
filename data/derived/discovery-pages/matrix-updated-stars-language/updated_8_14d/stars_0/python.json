@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 21,
-    "concepts": 29,
-    "observations": 29,
-    "repos": 8,
-    "terms": 29
+    "concepts": 12,
+    "observations": 12,
+    "repos": 7,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "conda-forge/conda-forge-feedstock-ops",
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
@@ -20,7 +20,6 @@
     "hauntsaninja/mypy",
     "hmellor/vllm",
     "NightWatcher314/dockgecli",
-    "NightWatcher314/npmctl",
-    "roampal-ai/roampal-labs"
+    "NightWatcher314/npmctl"
   ]
 }

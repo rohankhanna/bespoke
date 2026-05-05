@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 166,
-    "observations": 166,
-    "repos": 33,
-    "terms": 164
+    "components": 228,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 30,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
+    "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
     "abhinav/tmux-fastcopy",
     "apache/datasketches-go",
@@ -24,8 +25,6 @@
     "bootmortis/sing-geosite",
     "cloudfoundry/bpm-release",
     "cloudfoundry/cf-smoke-tests",
-    "connectrpc/conformance",
-    "connectrpc/grpchealth-go",
     "containers/container-libs",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
@@ -33,8 +32,7 @@
     "defilantech/LLMKube",
     "dlclark/regexp2cg",
     "ebitengine/debugui",
-    "gopasspw/git-credential-gopass",
-    "gopasspw/gopass-hibp",
+    "ipfs/ipfs-check",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/apiserver-runtime",
     "kubernetes-sigs/provider-aws-test-infra",
@@ -45,7 +43,6 @@
     "sigstore/k8s-manifest-sigstore",
     "sigstore/rekor-tiles",
     "terraform-linters/tflint-ruleset-google",
-    "transparency-dev/armored-witness",
     "transparency-dev/witness"
   ]
 }

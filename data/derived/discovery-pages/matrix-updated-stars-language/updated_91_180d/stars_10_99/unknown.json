@@ -3,7 +3,7 @@
     "components": 15,
     "concepts": 43,
     "observations": 43,
-    "repos": 28,
+    "repos": 29,
     "terms": 41
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-04T11:50:57.944186+00:00",
+  "generated_at": "2026-05-05T05:30:34.648225+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "Adlik/model_zoo",
@@ -27,6 +27,7 @@
     "eric-haibin-lin/verl-community",
     "FAIR-IMPACT/MOD",
     "getlantern/lantern-forum-cn",
+    "HZAI-ZJNU/happy-llm-ppt",
     "JaeZ1205/PS_NBI2k",
     "johandahlberg/awesome-10x-genomics",
     "json-schema-org/.github",
