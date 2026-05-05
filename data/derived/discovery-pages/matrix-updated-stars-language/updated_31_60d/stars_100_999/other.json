@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 820,
-    "concepts": 621,
-    "observations": 624,
-    "repos": 154,
-    "terms": 614
+    "components": 823,
+    "concepts": 624,
+    "observations": 627,
+    "repos": 155,
+    "terms": 617
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "2KAbhishek/seeker.nvim",
     "actboy168/json.lua",
@@ -92,6 +92,7 @@
     "google/protobuf.dart",
     "haskell-nix/hnix",
     "HaxeFlixel/flixel-demos",
+    "HaxeFlixel/flixel-ui",
     "IAPark/tiktoken_ruby",
     "iftheshoefritz/solargraph-rails",
     "IST-DASLab/Quartet",

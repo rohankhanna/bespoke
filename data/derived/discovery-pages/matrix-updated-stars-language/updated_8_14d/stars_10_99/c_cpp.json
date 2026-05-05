@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 152,
-    "concepts": 135,
-    "observations": 135,
-    "repos": 25,
-    "terms": 135
+    "components": 153,
+    "concepts": 137,
+    "observations": 137,
+    "repos": 26,
+    "terms": 137
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "acts-project/traccc",
     "ad-si/FlatCV",
@@ -27,6 +27,7 @@
     "gazebosim/gz-fuel-tools",
     "gazebosim/gz-transport",
     "ICRAR/crc32c",
+    "kendryte/canmv_k230",
     "libbitcoin/libbitcoin-database",
     "libbitcoin/libbitcoin-network",
     "Mbed-TLS/TF-PSA-Crypto",

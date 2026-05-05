@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 352,
-    "concepts": 332,
-    "observations": 333,
+    "components": 341,
+    "concepts": 334,
+    "observations": 335,
     "repos": 87,
-    "terms": 329
+    "terms": 331
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "4d49/scene-library",
     "ahyatt/emacs-websocket",
@@ -42,6 +42,7 @@
     "cloojure/tupelo",
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
+    "Cysharp/ValueTaskSupplement",
     "DarthAffe/StableDiffusion.NET",
     "DL3DV-10K/Dataset",
     "domluna/JuliaFormatter.jl",
@@ -85,7 +86,6 @@
     "pug-php/pug",
     "radian-software/ctrlf",
     "renzmann/treesit-auto",
-    "rescript-lang/rescript-vscode",
     "ropensci/git2r",
     "rubocop/rubocop-performance",
     "scribd/Weaver",

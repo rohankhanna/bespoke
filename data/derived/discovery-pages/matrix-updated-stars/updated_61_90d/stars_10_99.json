@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1348,
-    "concepts": 691,
-    "observations": 692,
-    "repos": 254,
-    "terms": 694
+    "components": 1369,
+    "concepts": 707,
+    "observations": 708,
+    "repos": 256,
+    "terms": 710
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
@@ -52,6 +52,7 @@
     "apostrophecms/apostrophe-astro",
     "aseprite/clip",
     "asg017/sqlite-hello",
+    "astroyat/lerobot-ros",
     "autokitteh/kittehub",
     "avelino/monotropic-theme-vscode",
     "aws-controllers-k8s/runtime",
@@ -143,6 +144,7 @@
     "graphql/composite-schemas-spec",
     "GuiWonder/HuayingMincho",
     "Han-Cao/collapse-bubble",
+    "HaxeFlixel/haxeflixel.com",
     "hbenl/vscode-mocha-test-adapter",
     "hchiam/learning",
     "hchiam/learning-lighthouse-ci",

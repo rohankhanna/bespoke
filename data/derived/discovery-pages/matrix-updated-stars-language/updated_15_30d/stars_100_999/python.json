@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 910,
-    "concepts": 956,
-    "observations": 959,
-    "repos": 200,
-    "terms": 966
+    "components": 927,
+    "concepts": 968,
+    "observations": 971,
+    "repos": 204,
+    "terms": 978
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "abey79/vpype",
@@ -43,6 +43,7 @@
     "Azure/WALinuxAgent",
     "Backblaze/b2-sdk-python",
     "baidu-baige/LoongFlow",
+    "bastibe/python-soundfile",
     "beamuswayne/simp-skill",
     "BlackHC/BatchBALD",
     "BlinkDL/Albatross",
@@ -86,6 +87,7 @@
     "Farama-Foundation/Shimmy",
     "fatiando/pooch",
     "fcakyon/claude-codex-settings",
+    "flageval-baai/FlagEvalMM",
     "FlagOpen/Robo-Dopamine",
     "FoundationVision/InfinityStar",
     "fzyzcjy/torch_memory_saver",
@@ -124,8 +126,10 @@
     "JUNJIE99/MLVU",
     "justinfx/fileseq",
     "kata-containers/community",
+    "langchain-ai/langgraph-bigtool",
     "LedgerHQ/blue-loader-python",
     "letmaik/rawpy",
+    "lightningd/plugins",
     "likaixin2000/ScreenSpot-Pro-GUI-Grounding",
     "llama-farm/llamafarm",
     "llm-in-sandbox/llm-in-sandbox",

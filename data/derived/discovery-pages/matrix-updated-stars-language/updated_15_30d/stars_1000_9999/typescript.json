@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3374,
-    "concepts": 705,
-    "observations": 706,
-    "repos": 103,
-    "terms": 817
+    "components": 3397,
+    "concepts": 711,
+    "observations": 712,
+    "repos": 104,
+    "terms": 823
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
@@ -68,6 +68,7 @@
     "jupyter-lsp/jupyterlab-lsp",
     "Kaliiiiiiiiii-Vinyzu/patchright",
     "kirodotdev/Kiro",
+    "langchain-ai/deepagentsjs",
     "langchain-ai/langgraphjs",
     "letta-ai/claude-subconscious",
     "letta-ai/letta-code",

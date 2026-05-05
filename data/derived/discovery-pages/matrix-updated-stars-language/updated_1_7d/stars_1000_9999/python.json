@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1350,
-    "concepts": 1425,
-    "observations": 1426,
+    "components": 1355,
+    "concepts": 1438,
+    "observations": 1440,
     "repos": 143,
-    "terms": 1415
+    "terms": 1428
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "1andrevich/Re-filter-lists",
     "AcademySoftwareFoundation/OpenTimelineIO",
@@ -64,19 +64,17 @@
     "galaxyproject/galaxy",
     "geopandas/geopandas",
     "getmoto/moto",
-    "git-cola/git-cola",
     "google-deepmind/dm-haiku",
     "google-deepmind/dm_control",
     "google-deepmind/mujoco_warp",
-    "google-deepmind/optax",
     "gpustack/gpustack",
     "h5py/h5py",
     "hao-ai-lab/FastVideo",
-    "harbor-framework/harbor",
     "HumanSignal/label-studio-ml-backend",
     "inclusionAI/AWorld",
     "InternLM/lagent",
     "isaac-sim/IsaacLab",
+    "Kaliiiiiiiiii-Vinyzu/patchright-python",
     "kijai/ComfyUI-KJNodes",
     "kubeflow/pipelines",
     "kubeflow/spark-operator",
@@ -85,6 +83,7 @@
     "LoRexxar/Kunlun-M",
     "mapillary/OpenSfM",
     "mesonbuild/meson",
+    "meta-pytorch/captum",
     "meta-pytorch/data",
     "meta-pytorch/torchrec",
     "microsoft/agent-framework",
@@ -131,6 +130,7 @@
     "pytorch/rl",
     "pytorch/tensordict",
     "readthedocs/readthedocs.org",
+    "redis/redis-om-python",
     "RLinf/RLinf",
     "roboflow/inference",
     "roboflow/maestro",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1130,
-    "concepts": 273,
-    "observations": 278,
-    "repos": 51,
-    "terms": 272
+    "components": 1147,
+    "concepts": 274,
+    "observations": 279,
+    "repos": 52,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aadsm/jschardet",
     "actions/create-github-app-token",
@@ -59,6 +59,7 @@
     "reviewdog/action-eslint",
     "rooklift/ogatak",
     "rubyjs/mini_racer",
+    "rvagg/github-webhook",
     "speced/respec",
     "Taritsyn/BundleTransformer",
     "tc39/notes",

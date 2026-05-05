@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 214,
+    "components": 202,
     "concepts": 27,
     "observations": 27,
-    "repos": 7,
+    "repos": 6,
     "terms": 35
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "alibaba/ice",
     "AndyMik90/Aperant",
     "googleapis/google-api-nodejs-client",
     "GoogleChromeLabs/squoosh",
     "humanlayer/humanlayer",
-    "lokesh/color-thief",
     "vercel/satori"
   ]
 }

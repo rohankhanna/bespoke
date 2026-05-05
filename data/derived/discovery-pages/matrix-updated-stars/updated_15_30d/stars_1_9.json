@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1836,
-    "concepts": 800,
-    "observations": 800,
-    "repos": 236,
-    "terms": 830
+    "components": 1844,
+    "concepts": 802,
+    "observations": 802,
+    "repos": 239,
+    "terms": 832
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0ghny/shellx",
     "0xPolygonHermez/pil2-proofman-js",
@@ -145,6 +145,7 @@
     "hchiam/convenience",
     "hchiam/how-draggable",
     "hchiam/learning-js",
+    "helix-toolkit/helix-toolkit.github.io",
     "hermit-os/rust-std-hermit",
     "HKU-BAL/Clair-skills",
     "ibm-telemetry/telemetry-config-schema",
@@ -231,6 +232,7 @@
     "sunthinks/kvmind",
     "tarikmanoar/tarikmanoar",
     "Taritsyn/AutoprefixerHost",
+    "Tengfei-Wang/Tengfei-Wang.github.io",
     "TexasInstruments/edgeai-tidlrunner",
     "tnc-ca-geo/animl-api",
     "tnc-ca-geo/animl-ml",
@@ -246,6 +248,7 @@
     "Venly/web3-react-venly",
     "verkyyi/tokenman",
     "vincent-k2026/codachi",
+    "wavelens/gobgp.nix",
     "wildfly-extras/a2a-java-sdk-server-jakarta",
     "xiaochu-1208/interview-assistant-cli",
     "yhirose/docs-gen"

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 30,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 29,
-    "terms": 21
+    "concepts": 23,
+    "observations": 23,
+    "repos": 30,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "airowe/claude-a11y-skill",
+    "alphagov/.github",
     "apollographql/.github",
     "avivshafir/israeli-corporate-law-skill",
     "buttercannfly/AIPex",

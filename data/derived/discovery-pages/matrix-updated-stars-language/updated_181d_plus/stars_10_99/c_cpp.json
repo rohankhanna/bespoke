@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 536,
-    "observations": 536,
-    "repos": 245,
-    "terms": 533
+    "components": 461,
+    "concepts": 543,
+    "observations": 543,
+    "repos": 251,
+    "terms": 540
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "13thsymphony/HDRImageViewer",
     "2shady4u/godot-cpp-ci",
@@ -47,6 +47,7 @@
     "BestBurning/platform_device_id",
     "bioinfologics/w2rap-contigger",
     "BirolLab/btl_bloomfilter",
+    "bitwizeshift/string_view-standalone",
     "blackhole89/autopen",
     "bnoordhuis/punycode",
     "BoukeHaarsma23/zenergy",
@@ -74,6 +75,7 @@
     "danielbernalb/LibreCO2",
     "DanielSarmiento04/yolov10cpp",
     "darrenyao87/tnn-models",
+    "dcwatson/deflate",
     "deepspeedai/DeepSpeed-Kernels",
     "DefTruth/lite.ai.toolkit",
     "deni2312/prisma-engine",
@@ -153,6 +155,7 @@
     "JohnnyMorganz/luau-analyze-rojo",
     "JokerJohn/LIO-SAM-6AXIS-INTENSITY",
     "jolibrain/caffe",
+    "joto/gdalcpp",
     "judofyr/duktape.rb",
     "kagiannis/FPC",
     "kendryte/K230_training_scripts",
@@ -197,6 +200,7 @@
     "novnc/websockify-other",
     "ohler55/perfer",
     "openxrlab/xrprimer",
+    "PacificBiosciences/pbbam",
     "pellepl/spiflash_driver",
     "pipecat-ai/pipecat-esp32",
     "pplux/wgpu.hpp",
@@ -228,6 +232,7 @@
     "sewenew/tokenizer",
     "shadowsocks/libevent",
     "snej/nimdbx",
+    "sony/nnabla-c-runtime",
     "sophgo/ChatGLM2-TPU",
     "taichi-dev/taichi-aot-demo",
     "TAPZCREW/xmake-project-manager",
@@ -255,6 +260,7 @@
     "XR-Robotics/XRoboToolkit-PC-Service",
     "xtensor-stack/xtensor-io",
     "xtensor-stack/xtensor-julia",
+    "xuankuzcr/rpg_vikit",
     "y-chan/node-voicevox-engine",
     "YuliangXiu/bvh-distance-queries",
     "YuzukiTsuru/World.JS",

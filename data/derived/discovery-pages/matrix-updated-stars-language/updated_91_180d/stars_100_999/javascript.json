@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 472,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 38,
-    "terms": 88
+    "components": 500,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 39,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
+    "adriantoine/enzyme-to-json",
     "attractivechaos/k8",
     "ayoubben18/ab-method",
     "bramstein/url-template",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1791,
-    "concepts": 2654,
-    "observations": 2673,
-    "repos": 659,
-    "terms": 2587
+    "components": 1794,
+    "concepts": 2657,
+    "observations": 2676,
+    "repos": 661,
+    "terms": 2602
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0ghny/asdf-gitconfig",
     "0ghny/asdf-gobackup",
@@ -220,6 +220,7 @@
     "cri-o/packaging",
     "CrossC2/CrossC2Kit",
     "crosstool-ng/crosstool-ng",
+    "cucumber/.github",
     "cvdfoundation/kinetics-dataset",
     "d3/d3",
     "Danau5tin/terminal-bench-fork",
@@ -649,6 +650,7 @@
     "v2fly/fhs-install-v2ray",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
     "videojs/admin",
+    "vmware-archive/tgik",
     "vmware-labs/webassembly-language-runtimes",
     "VOICEVOX/onnxruntime-builder",
     "void-linux/void-packages",

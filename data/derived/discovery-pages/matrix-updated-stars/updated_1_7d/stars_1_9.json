@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 1436,
+    "components": 1434,
     "concepts": 824,
     "observations": 827,
-    "repos": 134,
+    "repos": 132,
     "terms": 821
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "3mdeb/3mdeb-secpack",
     "8hobbies/vite-plugin-year",
@@ -29,7 +29,6 @@
     "bennyyip/dot-vim",
     "black-desk/djotfmt",
     "Blosc/blogsite",
-    "bnb-chain/reth-bsc-triedb",
     "boa-dev/data",
     "bourumir-wyngs/saphyr",
     "Cebeerre/dnsblocklists",
@@ -40,6 +39,7 @@
     "criccomini/uniffi-bindgen-node-js",
     "csm-actions/demo-server",
     "csm-actions/update-branch-action",
+    "cucumber/.github",
     "danielbernalb/AireCiudadano",
     "danielrosehill/Claude-Content-Writing-Plugin",
     "danielrosehill/Claude-Debugging-Plugin",
@@ -48,7 +48,6 @@
     "decibri/decibri",
     "demonatic/flash-attention",
     "Dicklesworthstone/franken_agent_detection",
-    "dmBots/DM-J4310-2EC",
     "dreamscached/i18next-cli-plugin-svelte",
     "dwyl/phoenix-papertrail-demo",
     "dydxprotocol/v4-localization",
@@ -82,7 +81,7 @@
     "ipfs-shipyard/github-mgmt",
     "ipld/github-mgmt",
     "ipshipyard/github-mgmt",
-    "jfmengels/elm-review-config",
+    "JeremyAnsel/SharpAssimp",
     "jk10001/aquainsightai",
     "jku/tuf-demo",
     "JuliaCI/rootfs-images",
@@ -105,7 +104,6 @@
     "oscard0m/ts-transformer-remove-named-export",
     "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
     "pacstall/pacup",
-    "ParisNeo/lollms_client",
     "pixel-font-studio/fusion-bold-pixel-font",
     "psmux/scoop-psmux",
     "puppetlabs/.github",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 785,
-    "concepts": 785,
-    "observations": 787,
-    "repos": 104,
-    "terms": 789
+    "components": 842,
+    "concepts": 831,
+    "observations": 833,
+    "repos": 108,
+    "terms": 835
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xERR0R/blocky",
     "1Password/for-open-source",
     "alecthomas/chroma",
     "alexellis/arkade",
+    "alibaba/higress",
     "appleboy/gorush",
     "apptainer/apptainer",
     "ariga/atlas",
@@ -50,6 +51,7 @@
     "docker/cli",
     "expr-lang/expr",
     "fatih/color",
+    "flannel-io/flannel",
     "fnproject/fn",
     "fsouza/go-dockerclient",
     "gin-gonic/examples",
@@ -71,6 +73,7 @@
     "hashicorp/go-retryablehttp",
     "hashicorp/raft",
     "helm-unittest/helm-unittest",
+    "helm/chart-testing",
     "istio/community",
     "klauspost/compress",
     "korotovsky/slack-mcp-server",
@@ -86,6 +89,7 @@
     "libp2p/go-libp2p",
     "madneal/gshark",
     "mark3labs/mcp-go",
+    "Masterminds/semver",
     "maypok86/otter",
     "mvdan/sh",
     "nginx-proxy/docker-gen",

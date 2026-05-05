@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5155,
-    "concepts": 990,
-    "observations": 992,
-    "repos": 111,
-    "terms": 985
+    "components": 5214,
+    "concepts": 1003,
+    "observations": 1005,
+    "repos": 113,
+    "terms": 998
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "acacode/swagger-typescript-api",
     "AdguardTeam/AdguardBrowserExtension",
@@ -50,6 +50,7 @@
     "fi3ework/vite-plugin-checker",
     "firebase/firebase-js-sdk",
     "firebase/quickstart-js",
+    "Floorp-Projects/Floorp",
     "ggml-org/llama.vscode",
     "google/neuroglancer",
     "graphql-hive/graphql-inspector",
@@ -120,6 +121,7 @@
     "VOICEVOX/voicevox",
     "vuejs/babel-plugin-jsx",
     "vuejs/devtools",
+    "vuejs/language-tools",
     "web-infra-dev/rsbuild",
     "web-infra-dev/rsdoctor",
     "web-infra-dev/rspress",

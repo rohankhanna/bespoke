@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 4,
-    "terms": 5
+    "components": 18,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 5,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "danielrosehill/Claude-Agent-Relay-Plugin",
     "flagos-ai/verl-FL",
+    "lace/lacecore",
     "seanmacavaney/ir-datasets.com",
     "superfarther/K2V"
   ]

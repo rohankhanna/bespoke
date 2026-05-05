@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 223,
-    "concepts": 104,
-    "observations": 105,
-    "repos": 9,
-    "terms": 104
+    "components": 244,
+    "concepts": 101,
+    "observations": 102,
+    "repos": 11,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "ashvardanian/NumKong",
     "brave/brave-core",
+    "CloudCompare/CloudCompare",
     "harfbuzz/harfbuzz",
     "KhronosGroup/KTX-Software",
     "luau-lang/luau",
     "Mithril-mine/libmdbx",
     "NVIDIA/DALI",
     "riscv-collab/riscv-gnu-toolchain",
-    "stack-of-tasks/pinocchio"
+    "swiftlang/swift-corelibs-foundation",
+    "ultrajson/ultrajson"
   ]
 }

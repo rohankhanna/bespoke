@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1903,
-    "concepts": 1121,
-    "observations": 1123,
-    "repos": 330,
-    "terms": 1119
+    "components": 1906,
+    "concepts": 1114,
+    "observations": 1116,
+    "repos": 332,
+    "terms": 1112
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -41,6 +41,7 @@
     "akarnokd/RxJavaFiberInterop",
     "alfaix/neotest-gtest",
     "all-the-noises/eval-arena",
+    "allenporter/python-google-nest-sdm",
     "am-kantox/md",
     "amiable-dev/llm-council",
     "andyluo7/autoresearch",
@@ -125,6 +126,7 @@
     "csstree/stylelint-validator",
     "cta-wave/WMAS",
     "ctoth/claudio",
+    "curiosity-ai/hnsw-sharp",
     "cvat-ai/datumaro",
     "cyberark/conjur-api-go",
     "dacap/observable",
@@ -152,7 +154,6 @@
     "dwyl/fields",
     "dwyl/learn-alpine.js",
     "dwyl/learn-payment-processing",
-    "dwyl/mvp",
     "dwyl/phoenix-liveview-stopwatch",
     "edge-classic/EDGE-classic",
     "eemeli/make-plural",
@@ -238,6 +239,7 @@
     "Level/browser-level",
     "Level/classic-level",
     "Level/memory-level",
+    "libdeflater/libdeflater",
     "liquidev/lintplus",
     "liran-funaro/sphinx-markdown-builder",
     "literalpie/storybook-framework-qwik",

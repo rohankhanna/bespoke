@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 88,
+    "components": 89,
     "concepts": 143,
     "observations": 143,
-    "repos": 166,
+    "repos": 168,
     "terms": 142
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -102,6 +102,7 @@
     "Jaylen-Lee/image-demo",
     "jcmorrow/seoul256-ghostty",
     "jcmorrow/seoul256-zed",
+    "jessicaStorer88/RepeatMasker_library_CHM13",
     "jiweimaster/lfs",
     "jphall663/basic_data_viz_rules_and_links",
     "jupyter/notebook-team-compass",
@@ -127,6 +128,7 @@
     "patmyron/cfn-lint-online",
     "philips-labs/about-this-organization",
     "pimlie/geekworm-x-c1",
+    "PJLab-ADG/NeuS2_TCNN",
     "podman-desktop/community",
     "prisma/barrel",
     "prisma/presskit",

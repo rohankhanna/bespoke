@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 228,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 30,
-    "terms": 158
+    "components": 233,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 31,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
     "abhinav/goldmark-frontmatter",
@@ -28,6 +28,7 @@
     "containers/container-libs",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
+    "datachainlab/cosmos-ethereum-ibc-lcp",
     "davidkarlsen/flyway-operator",
     "defilantech/LLMKube",
     "dlclark/regexp2cg",

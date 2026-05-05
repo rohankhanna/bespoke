@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 447,
-    "concepts": 363,
-    "observations": 366,
-    "repos": 59,
-    "terms": 363
+    "components": 425,
+    "concepts": 335,
+    "observations": 338,
+    "repos": 56,
+    "terms": 335
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "2dust/AndroidLibXrayLite",
     "a2aproject/a2a-go",
@@ -24,7 +24,6 @@
     "apache/dubbo-kubernetes",
     "apache/pulsar-client-go",
     "awslabs/soci-snapshotter",
-    "Azure/terraform-provider-azapi",
     "bazel-contrib/rules_img",
     "bitrise-io/bitrise",
     "boj/redistore",
@@ -37,7 +36,6 @@
     "Consensys/gnark-crypto",
     "CosmWasm/wasmvm",
     "docker/model-runner",
-    "etclabscore/core-geth",
     "ethereum/hive",
     "go-git/go-billy",
     "go-logr/zapr",
@@ -59,7 +57,6 @@
     "maragudk/gomponents-starter-kit",
     "mattn/go-isatty",
     "microsoft/dcp",
-    "microsoft/hcsshim",
     "monitoring-mixins/mixtool",
     "moul/gotty-client",
     "openshift/enhancements",

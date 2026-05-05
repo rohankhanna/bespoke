@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 239,
-    "concepts": 494,
-    "observations": 494,
-    "repos": 91,
-    "terms": 489
+    "components": 243,
+    "concepts": 511,
+    "observations": 511,
+    "repos": 92,
+    "terms": 506
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "ageitgey/face_recognition",
@@ -98,6 +98,7 @@
     "TencentARC/GFPGAN",
     "tensorflow/tensor2tensor",
     "THU-MIG/yolov10",
+    "ultrafunkamsterdam/undetected-chromedriver",
     "Vision-CAIR/MiniGPT-4",
     "waditu/tushare",
     "XingangPan/DragGAN",

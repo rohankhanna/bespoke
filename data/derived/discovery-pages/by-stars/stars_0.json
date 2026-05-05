@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2600,
-    "concepts": 1023,
-    "observations": 1026,
-    "repos": 745,
-    "terms": 1054
+    "components": 2606,
+    "concepts": 1027,
+    "observations": 1030,
+    "repos": 749,
+    "terms": 1058
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "0xBigBoss/ghostty-web",
@@ -111,6 +111,7 @@
     "base24/.github",
     "Bearer/homebrew-tap",
     "begmyratb/floweye-yyyxxx.cc",
+    "benkasminbullock/gzip-libdeflate",
     "benwmills/core-sass-compiler",
     "beurdouche/nss-gk-api",
     "bfshi/llava_next_s2_integration",
@@ -361,6 +362,7 @@
     "Dustinpro/Dustinpro",
     "ealmloff/llm-samplers",
     "eaplatanios/triton",
+    "edstoica/stylegan3",
     "eigenwallet/arti",
     "eigenwallet/bdk-old",
     "eigenwallet/dfx-swiss-rs",
@@ -525,6 +527,7 @@
     "kylebarron/pyo3-file",
     "kyverno/.github",
     "l12203685/digital-immortality",
+    "lace/lacecore",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "lakekeeper/nats.rs",
@@ -645,6 +648,7 @@
     "probe-lab/github-mgmt",
     "psmux/scoop-omp-manager",
     "psmux/scoop-tmuxpanel",
+    "puffyyy/PCSim",
     "py-cov-action/python-coverage-comment-action-v3-example",
     "qiayuanl/unitree_buildfarm",
     "QuantuMope/GroundingDINO",

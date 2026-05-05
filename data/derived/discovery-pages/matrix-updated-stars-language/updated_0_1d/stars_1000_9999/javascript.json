@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 159,
-    "concepts": 50,
-    "observations": 51,
+    "components": 154,
+    "concepts": 48,
+    "observations": 49,
     "repos": 6,
-    "terms": 50
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
-    "chaijs/chai",
     "endojs/endo",
     "ghostery/ghostery-extension",
     "googleapis/google-cloud-node",
     "openwrt/luci",
+    "stylelint/stylelint-config-standard",
     "uBlockOrigin/uBOL-home"
   ]
 }

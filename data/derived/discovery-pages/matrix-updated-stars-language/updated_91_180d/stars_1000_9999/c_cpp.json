@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 136,
-    "concepts": 238,
-    "observations": 238,
-    "repos": 42,
-    "terms": 235
+    "components": 148,
+    "concepts": 255,
+    "observations": 255,
+    "repos": 43,
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "ashvardanian/less_slow.cpp",
     "asmvik/skhd",
@@ -52,6 +52,7 @@
     "NVlabs/nvdiffrast",
     "Oneflow-Inc/oneflow",
     "openMVG/openMVG",
+    "OpenNMT/CTranslate2",
     "pothosware/SoapySDR",
     "rurban/smhasher",
     "sysstat/sysstat",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 313,
-    "concepts": 155,
-    "observations": 155,
-    "repos": 63,
-    "terms": 154
+    "components": 334,
+    "concepts": 161,
+    "observations": 161,
+    "repos": 64,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "AceCHQ/TransMatting",
@@ -43,6 +43,7 @@
     "FoundationDB/fdb-build-support",
     "getgrav/grav-theme-learn2",
     "GoogleCloudPlatform/getting-started-dotnet",
+    "HaxeFlixel/haxeflixel.com",
     "hedronvision/bazel-make-cc-https-easy",
     "Humans-of-Julia/StaticWebPages.jl",
     "ImranR98/obtainium.imranr.dev",

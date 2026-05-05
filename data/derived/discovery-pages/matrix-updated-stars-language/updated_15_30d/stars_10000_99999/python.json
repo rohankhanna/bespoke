@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 746,
-    "concepts": 724,
-    "observations": 728,
-    "repos": 81,
-    "terms": 754
+    "components": 772,
+    "concepts": 757,
+    "observations": 761,
+    "repos": 83,
+    "terms": 787
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "2noise/ChatTTS",
@@ -30,6 +30,7 @@
     "browser-use/browser-use",
     "camel-ai/owl",
     "caronc/apprise",
+    "Chia-Network/chia-blockchain",
     "codelucas/newspaper",
     "danielgatis/rembg",
     "dask/dask",
@@ -77,9 +78,11 @@
     "pre-commit/pre-commit",
     "pydantic/pydantic-ai",
     "pytest-dev/pytest",
+    "python/cpython",
     "python/mypy",
     "qubvel-org/segmentation_models.pytorch",
     "ranger/ranger",
+    "ray-project/ray",
     "sanic-org/sanic",
     "searxng/searxng",
     "sgl-project/sglang",
@@ -87,7 +90,6 @@
     "simonw/datasette",
     "spotify/luigi",
     "squidfunk/mkdocs-material",
-    "subframe7536/maple-font",
     "Textualize/rich",
     "titanwings/colleague-skill",
     "vllm-project/vllm",

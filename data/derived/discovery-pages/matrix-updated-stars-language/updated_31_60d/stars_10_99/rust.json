@@ -3,7 +3,7 @@
     "components": 132,
     "concepts": 88,
     "observations": 88,
-    "repos": 25,
+    "repos": 26,
     "terms": 88
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "agentclientprotocol/symposium-acp",
     "Anush008/tokenizers",
@@ -29,6 +29,7 @@
     "jiegec/tantivy-jieba",
     "Kimahriman/hdfs-native",
     "lambdaclass/libssz",
+    "libdeflater/libdeflater",
     "microsoft/tracing-etw",
     "neysofu/reltester",
     "omerbenamram/pyo3-file",

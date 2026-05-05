@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 947,
-    "concepts": 172,
-    "observations": 173,
+    "components": 957,
+    "concepts": 182,
+    "observations": 183,
     "repos": 33,
-    "terms": 170
+    "terms": 180
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AdguardTeam/Scriptlets",
     "all-contributors/app",
+    "americanexpress/jest-json-schema",
     "auth0/node-jwks-rsa",
     "avoidwork/tiny-lru",
     "commitizen/cz-conventional-changelog",
@@ -39,7 +40,6 @@
     "oss-serverless/serverless",
     "prisma/ecosystem-tests",
     "ruby/setup-ruby",
-    "rvagg/github-webhook",
     "rvagg/github-webhook-handler",
     "sveltejs/dts-buddy",
     "validator/grunt-html",

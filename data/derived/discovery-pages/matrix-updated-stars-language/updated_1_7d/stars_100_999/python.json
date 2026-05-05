@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 672,
-    "concepts": 609,
-    "observations": 610,
-    "repos": 100,
-    "terms": 607
+    "components": 648,
+    "concepts": 582,
+    "observations": 584,
+    "repos": 95,
+    "terms": 580
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aboutcode-org/scancode.io",
     "ag2ai/build-with-ag2",
-    "agentscope-ai/Trinity-RFT",
     "AgileRL/AgileRL",
     "agno-agi/scout",
     "aigc3d/LAM",
@@ -43,6 +42,7 @@
     "ComparativeGenomicsToolkit/cactus",
     "conda/conda-build",
     "conda/conda-libmamba-solver",
+    "cosmos/chain-registry",
     "Dao-AILab/quack",
     "Dao-AILab/sonic-moe",
     "databrickslabs/ucx",
@@ -56,7 +56,6 @@
     "Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project",
     "flagos-ai/FlagGems",
     "fsspec/gcsfs",
-    "galaxyproject/planemo",
     "gbionics/jaxsim",
     "GNOME/adwaita-icon-theme",
     "google/fiddle",
@@ -83,14 +82,12 @@
     "microsoft/dion",
     "mozilla-services/shavar-prod-lists",
     "mozilla/addons-server",
-    "neo4j-examples/movies-python-bolt",
     "NVIDIA/JAX-Toolbox",
     "NVIDIA/NeMo-text-processing",
     "NVIDIA/nvidia-resiliency-ext",
     "ogx-ai/ogx-client-python",
     "onnx/turnkeyml",
     "open-telemetry/opentelemetry-cpp-contrib",
-    "opendatacube/datacube-core",
     "PetervanLunteren/AddaxAI",
     "plotly/Kaleido",
     "Project-MONAI/model-zoo",
@@ -100,7 +97,6 @@
     "pyrtlsdr/pyrtlsdr",
     "RDFLib/pyLODE",
     "robometer/robometer",
-    "ScoopInstaller/Nirsoft",
     "sigstore/sigstore-python",
     "sp-nitech/diffsptk",
     "spack/spack-packages",
@@ -112,7 +108,6 @@
     "triton-inference-server/perf_analyzer",
     "ttktjmt/mjswan",
     "UKGovernmentBEIS/inspect_evals",
-    "unitreerobotics/unitree_sdk2_python",
-    "Yuliang-Liu/MultimodalOCR"
+    "unitreerobotics/unitree_sdk2_python"
   ]
 }

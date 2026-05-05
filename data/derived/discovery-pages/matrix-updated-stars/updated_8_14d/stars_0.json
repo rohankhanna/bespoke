@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 142,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 55,
-    "terms": 104
+    "components": 122,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 54,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "8144225309/superscalar-cln",
-    "aaronlamz/navpress",
     "arnaud-lb/php-rdkafka-doc",
     "buty4649/mruby-yyjson",
     "cachix/serde-envfile",

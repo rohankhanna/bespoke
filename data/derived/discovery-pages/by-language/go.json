@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 9621,
-    "concepts": 9341,
-    "observations": 9373,
-    "repos": 1595,
-    "terms": 9306
+    "concepts": 9353,
+    "observations": 9385,
+    "repos": 1596,
+    "terms": 9318
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/tlsg10x-cli",
@@ -30,6 +30,7 @@
     "2dust/AndroidLibXrayLite",
     "39george/scs_gin_adapter",
     "3rd/syslang",
+    "4kills/go-libdeflate",
     "5c077m4n/pikud-haoref-api-go",
     "5sControl/5s-onvif-finder",
     "76creates/stickers",

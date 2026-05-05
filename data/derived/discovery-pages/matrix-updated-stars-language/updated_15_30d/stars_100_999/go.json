@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 515,
-    "concepts": 411,
-    "observations": 414,
-    "repos": 68,
-    "terms": 421
+    "components": 537,
+    "concepts": 439,
+    "observations": 442,
+    "repos": 71,
+    "terms": 449
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "2dust/AndroidLibV2rayLite",
     "AdguardTeam/AdGuardDNS",
@@ -24,6 +24,7 @@
     "aws/amazon-vpc-resource-controller-k8s",
     "aws/credentials-fetcher",
     "Azure/azure-workload-identity",
+    "Azure/terraform-provider-azapi",
     "bernardo-bruning/ollama-copilot",
     "bitrise-io/envman",
     "bluesky-social/goat",
@@ -41,6 +42,7 @@
     "dependabot/cli",
     "devgianlu/go-librespot",
     "estesp/manifest-tool",
+    "etclabscore/core-geth",
     "ethereum-optimism/op-geth",
     "foxj77/claudectx",
     "go-openapi/swag",
@@ -67,6 +69,7 @@
     "letsencrypt/pebble",
     "mailru/go-clickhouse",
     "microsoft/cognitive-services-speech-sdk-go",
+    "microsoft/hcsshim",
     "open-telemetry/opentelemetry-collector-releases",
     "openshift/library",
     "phiat/claude-esp",

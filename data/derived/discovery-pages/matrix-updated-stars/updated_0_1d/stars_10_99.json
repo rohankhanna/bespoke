@@ -1,27 +1,31 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 89,
-    "observations": 89,
-    "repos": 10,
-    "terms": 89
+    "components": 174,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 14,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "analogdevicesinc/msdk",
     "cloudfoundry/credhub-cli",
     "CuatroElixir/spear",
+    "cucumber/cucumber-js-examples",
+    "dwyl/mvp",
+    "helix-toolkit/helix-toolkit-nex",
     "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "karafka/example-apps",
     "kurrent-io/KurrentDB-Client-Rust",
-    "lumen-oss/luarocks-tag-release",
+    "nuxt-modules/emotion",
     "ogx-ai/ogx-client-typescript",
-    "pivotal/credhub-release"
+    "pivotal/credhub-release",
+    "TrigenSoftware/simple-release"
   ]
 }

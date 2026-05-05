@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 582,
-    "concepts": 421,
-    "observations": 421,
-    "repos": 33,
-    "terms": 416
+    "components": 559,
+    "concepts": 403,
+    "observations": 403,
+    "repos": 31,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "alacritty/alacritty",
     "astral-sh/ruff",
     "biomejs/biome",
-    "ClementTsang/bottom",
     "DioxusLabs/dioxus",
     "emilk/egui",
     "facebook/flow",
@@ -35,7 +34,6 @@
     "PyO3/pyo3",
     "qdrant/qdrant",
     "quickwit-oss/quickwit",
-    "quickwit-oss/tantivy",
     "rolldown/rolldown",
     "RustPython/RustPython",
     "shadowsocks/shadowsocks-rust",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 4,
-    "terms": 32
+    "components": 35,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 6,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "CuatroElixir/spear",
+    "cucumber/cucumber-js-examples",
+    "dwyl/mvp",
+    "helix-toolkit/helix-toolkit-nex",
     "karafka/example-apps",
-    "lumen-oss/luarocks-tag-release",
     "pivotal/credhub-release"
   ]
 }

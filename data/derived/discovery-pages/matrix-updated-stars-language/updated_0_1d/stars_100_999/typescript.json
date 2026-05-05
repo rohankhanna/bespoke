@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 227,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 4,
-    "terms": 37
+    "components": 281,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 6,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "ansible/vscode-ansible",
+    "fluent-vue/fluent-vue",
     "mightyiam/eslint-config-love",
+    "unplugin/unplugin-imagemin",
     "victorgarciaesgi/regle"
   ]
 }

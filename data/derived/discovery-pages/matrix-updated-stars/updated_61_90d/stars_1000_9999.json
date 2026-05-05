@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1799,
-    "concepts": 1308,
-    "observations": 1310,
-    "repos": 255,
-    "terms": 1301
+    "components": 1845,
+    "concepts": 1295,
+    "observations": 1297,
+    "repos": 256,
+    "terms": 1289
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "2ndalpha/gasmask",
@@ -34,6 +34,7 @@
     "amebalabs/TRex",
     "analysis-tools-dev/dynamic-analysis",
     "antfu-collective/vitesse",
+    "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
     "anthropics/claude-code-security-review",
     "anthropics/claudes-c-compiler",
@@ -166,6 +167,7 @@
     "mitsuba-renderer/nanogui",
     "mmorise/World",
     "mono/CppSharp",
+    "mozilla/webextension-polyfill",
     "mozillazg/pinyin-data",
     "msasanmh/DNSveil",
     "nat/openplayground",
@@ -179,7 +181,6 @@
     "open-webui/mcpo",
     "OpenBMB/MiniCPM",
     "opencontainers/image-spec",
-    "OpenNMT/CTranslate2",
     "orogene/orogene",
     "oschwartz10612/poppler-windows",
     "PaddlePaddle/PaddleSeg",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 175,
-    "observations": 178,
-    "repos": 41,
-    "terms": 173
+    "components": 238,
+    "concepts": 178,
+    "observations": 181,
+    "repos": 43,
+    "terms": 176
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "alexheretic/ab-glyph",
     "astro/deadnix",
@@ -51,9 +51,11 @@
     "scopedb/percas",
     "shekohex/allo-isolate",
     "stanislav-tkach/os_info",
+    "tsonglew/dutis",
     "typst/pdf-writer",
     "walles/riff",
     "yaahc/displaydoc",
-    "zippoxer/recall"
+    "zippoxer/recall",
+    "zonyitoo/rust-ini"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 116,
-    "concepts": 377,
-    "observations": 378,
-    "repos": 220,
-    "terms": 377
+    "concepts": 382,
+    "observations": 383,
+    "repos": 223,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -68,6 +68,7 @@
     "cooelf/PaperWritingTips",
     "coqui-ai/TTS-papers",
     "crev-dev/crev",
+    "CSCSX/LeRobotTutorial-CN",
     "cstrap/python-snippets",
     "cuilimeng/CoAID",
     "darkpgmr/DarkLabel",
@@ -187,6 +188,7 @@
     "openxla/community",
     "OS-Agent-Survey/OS-Agent-Survey",
     "ozkriff/awesome-quads",
+    "PacificBiosciences/IsoSeq",
     "PacificBiosciences/pbbioconda",
     "pdm-project/awesome-pdm",
     "pi0/config-dir",
@@ -226,6 +228,7 @@
     "tinted-theming/base16-schemes",
     "TooTallNate/node-http-proxy-agent",
     "TooTallNate/node-socks-proxy-agent",
+    "TsinghuaAI/CPM",
     "unified-font-repository/Unified-Font-Repository",
     "unitycontainer/container",
     "uxlfoundation/awesome-oneapi",

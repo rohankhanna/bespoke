@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 986,
-    "concepts": 437,
-    "observations": 438,
-    "repos": 129,
-    "terms": 435
+    "components": 982,
+    "concepts": 438,
+    "observations": 439,
+    "repos": 131,
+    "terms": 436
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xble/dotagent.nvim",
     "1mb-dev/natcheck",
@@ -29,6 +29,7 @@
     "bell-sw/osv-database",
     "bitrise-io/bitrise-plugins-step",
     "bladeacer/obsi-snip-coll",
+    "bnb-chain/reth-bsc-triedb",
     "cachix/iocraft",
     "cake-contrib/Cake.Markdownlint",
     "calda/SwiftFormat-nightly",
@@ -59,6 +60,7 @@
     "danielrosehill/Claude-Data-Wrangler-plugin",
     "danielrosehill/Subindices",
     "DavidKinder/inform",
+    "dmBots/DM-J4310-2EC",
     "dotenvx/homebrew-brew",
     "eddelbuettel/r2u-config",
     "eea/bise-frontend",
@@ -86,6 +88,7 @@
     "j9t/htaccess-punk",
     "j9t/image-guard",
     "j9t/minifier-benchmarks",
+    "jfmengels/elm-review-config",
     "jhugestar/jhugestar.github.io",
     "jpmml/jpmml-statsmodels",
     "juharris/optify",
@@ -113,6 +116,7 @@
     "oobabooga/screenshots",
     "openwebdocs/mdn-bcd-results",
     "oxc-project/oxc-index-vec",
+    "ParisNeo/lollms_client",
     "php-rdkafka/php-rdkafka-doc",
     "plone/cookieplone-templates",
     "probe-lab/tiros",
@@ -129,7 +133,6 @@
     "stdlib-js/buffer-ctor",
     "stdlib-js/complex-float64-ctor",
     "stdlib-js/complex-float64-reviver",
-    "Tengfei-Wang/Tengfei-Wang.github.io",
     "tinted-theming/base16-waybar",
     "TJC-LP/sanzaru",
     "transparency-dev/armored-witness-applet",
@@ -139,7 +142,6 @@
     "v-iashin/v-iashin.github.io",
     "walbourn/directxtk12test",
     "walles/ftop",
-    "wavelens/gobgp.nix",
     "web-platform-tests/results-analysis-cache",
     "yoshoku/numo-linalg-alt"
   ]

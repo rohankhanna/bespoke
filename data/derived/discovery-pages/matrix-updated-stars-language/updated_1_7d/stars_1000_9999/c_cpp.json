@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 847,
-    "concepts": 929,
-    "observations": 929,
-    "repos": 105,
-    "terms": 921
+    "components": 813,
+    "concepts": 894,
+    "observations": 894,
+    "repos": 101,
+    "terms": 887
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "AcademySoftwareFoundation/OpenImageIO",
@@ -86,7 +86,6 @@
     "open-telemetry/opentelemetry-go-instrumentation",
     "OpenMathLib/OpenBLAS",
     "opensim-org/opensim-core",
-    "openucx/ucx",
     "optiscaler/OptiScaler",
     "oracle/graaljs",
     "php-rdkafka/php-rdkafka",
@@ -94,21 +93,18 @@
     "PoseLib/PoseLib",
     "qt-creator/qt-creator",
     "realsenseai/librealsense",
-    "red-data-tools/pycall.rb",
     "RobotLocomotion/drake",
-    "sail-sg/envpool",
     "samtools/samtools",
     "SchedMD/slurm",
     "sparkle-project/Sparkle",
+    "stack-of-tasks/pinocchio",
     "stephenberry/glaze",
     "swiftlang/swift-llbuild",
     "Taywee/args",
     "Themaister/Granite",
     "tianocore/edk2",
     "TrenchBroom/TrenchBroom",
-    "ultrajson/ultrajson",
     "unicode-org/icu",
-    "unitreerobotics/unitree_sdk2",
     "uxlfoundation/oneDNN",
     "uxlfoundation/oneTBB",
     "vincentlaucsb/csv-parser",

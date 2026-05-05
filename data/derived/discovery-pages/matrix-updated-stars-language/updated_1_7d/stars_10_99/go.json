@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 82,
-    "observations": 83,
-    "repos": 20,
-    "terms": 82
+    "components": 106,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 19,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "ankitpokhrel/shopctl",
     "bitrise-io/stepman",
@@ -20,7 +20,6 @@
     "cloudfoundry/bosh-google-cpi-release",
     "cloudfoundry/cf-acceptance-tests",
     "cloudfoundry/cf-networking-release",
-    "datachainlab/cosmos-ethereum-ibc-lcp",
     "DevExpGbb/gh-devlake",
     "dianlight/gollama.cpp",
     "EngFlow/gazelle_cc",

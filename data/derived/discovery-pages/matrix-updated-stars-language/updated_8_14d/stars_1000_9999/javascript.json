@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1654,
-    "concepts": 328,
-    "observations": 328,
-    "repos": 46,
-    "terms": 324
+    "components": 1736,
+    "concepts": 346,
+    "observations": 346,
+    "repos": 48,
+    "terms": 342
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
+    "amannn/action-semantic-pull-request",
     "americanexpress/jest-image-snapshot",
     "amperser/proselint",
     "apache/cordova-android",
     "apache/cordova-ios",
+    "appium/appium-inspector",
     "Blockstream/esplora",
     "BrowserWorks/waterfox",
     "coderaiser/cloudcmd",

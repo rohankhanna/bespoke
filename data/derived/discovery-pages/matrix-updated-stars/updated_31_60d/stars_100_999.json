@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3929,
-    "concepts": 2529,
-    "observations": 2540,
-    "repos": 556,
-    "terms": 2525
+    "components": 3942,
+    "concepts": 2538,
+    "observations": 2549,
+    "repos": 559,
+    "terms": 2535
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0no-co/wonka",
     "2KAbhishek/seeker.nvim",
@@ -52,7 +52,6 @@
     "anacrolix/dht",
     "anacrolix/go-libutp",
     "andyferris/Dictionaries.jl",
-    "angr/angrop",
     "ankane/active_median",
     "ankane/ahoy.js",
     "ankane/blind_index",
@@ -210,6 +209,7 @@
     "fannheyward/coc-sql",
     "fannheyward/create-coc-extension",
     "fgnass/domino",
+    "Fil/d3-geo-voronoi",
     "filecoin-project/bellperson",
     "filecoin-project/community",
     "filecoin-project/rust-fil-proofs",
@@ -260,6 +260,7 @@
     "hashicorp/raft-boltdb",
     "haskell-nix/hnix",
     "HaxeFlixel/flixel-demos",
+    "HaxeFlixel/flixel-ui",
     "hazelcast/hazelcast-nodejs-client",
     "HazyResearch/legalbench",
     "HazyResearch/zoology",
@@ -428,6 +429,7 @@
     "opencontainers/runtime-tools",
     "openlawlibrary/pygls",
     "ory/hydra-login-consent-node",
+    "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "osmcode/libosmium",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
@@ -563,6 +565,7 @@
     "xavierpuigf/virtualhome",
     "xlite-dev/Awesome-DiT-Inference",
     "xtensor-stack/xtensor-python",
+    "xuankuzcr/Global-LVBA",
     "y-lohse/inkjs",
     "YaLTeR/wl-clipboard-rs",
     "yanring/Megatron-MoE-ModelZoo",

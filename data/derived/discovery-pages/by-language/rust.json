@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 10904,
-    "concepts": 7468,
-    "observations": 7525,
-    "repos": 1611,
+    "components": 10906,
+    "concepts": 7469,
+    "observations": 7526,
+    "repos": 1612,
     "terms": 7470
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "01mf02/jaq",
@@ -963,6 +963,7 @@
     "LemmyNet/lemmy",
     "lerouxrgd/datachannel-rs",
     "libbpf/blazesym",
+    "libdeflater/libdeflater",
     "libp2p/if-watch",
     "libp2p/rust-libp2p",
     "librespot-org/librespot",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1573,
-    "concepts": 236,
-    "observations": 236,
-    "repos": 37,
-    "terms": 251
+    "components": 1886,
+    "concepts": 280,
+    "observations": 282,
+    "repos": 42,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "actions/starter-workflows",
     "airbnb/visx",
+    "ant-design/ant-design-mobile",
     "apollographql/apollo-client",
     "badlogic/pi-mono",
+    "browserless/browserless",
+    "bvaughn/react-window",
     "catppuccin/catppuccin",
     "chatboxai/chatbox",
     "diegomura/react-pdf",
@@ -34,6 +37,7 @@
     "multica-ai/multica",
     "neoclide/coc.nvim",
     "nvidia/nemoclaw",
+    "openai/openai-node",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
     "realworld-apps/realworld",
@@ -42,6 +46,7 @@
     "SBoudrias/Inquirer.js",
     "shareai-lab/learn-claude-code",
     "shikijs/shiki",
+    "sindresorhus/got",
     "slopus/happy",
     "tanweai/pua",
     "tobi/qmd",

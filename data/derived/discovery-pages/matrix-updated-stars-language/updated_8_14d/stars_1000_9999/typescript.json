@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3355,
-    "concepts": 576,
-    "observations": 579,
-    "repos": 69,
-    "terms": 574
+    "components": 3332,
+    "concepts": 570,
+    "observations": 573,
+    "repos": 68,
+    "terms": 568
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "actions/cache",
     "actions/setup-java",
@@ -52,7 +52,6 @@
     "ipfs/helia",
     "jaegertracing/jaeger-ui",
     "kulshekhar/ts-jest",
-    "langchain-ai/deepagentsjs",
     "lewish/asciiflow",
     "messageformat/messageformat",
     "microsoft/rnx-kit",

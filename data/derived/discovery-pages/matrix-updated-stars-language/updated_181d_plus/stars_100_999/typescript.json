@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4538,
-    "concepts": 684,
-    "observations": 686,
-    "repos": 185,
-    "terms": 695
+    "components": 4586,
+    "concepts": 688,
+    "observations": 690,
+    "repos": 186,
+    "terms": 698
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "101arrowz/fzstd",
     "1hanzla100/developer-portfolio",
@@ -182,6 +182,7 @@
     "Tarektouati/vue-use-web",
     "tatethurston/TwirpScript",
     "TrueFiEng/Waffle",
+    "u3u/vue-hooks",
     "underfin/vite-plugin-vue2",
     "vbenjs/vite-plugin-imagemin",
     "Vinzent03/obsidian-hotkeys-for-templates",

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 51,
-    "concepts": 64,
-    "observations": 65,
-    "repos": 22,
-    "terms": 64
+    "concepts": 70,
+    "observations": 71,
+    "repos": 23,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abhisheknaiidu/abhisheknaiidu",
     "adoptium/temurin21-binaries",
@@ -35,6 +35,7 @@
     "mason-org/mason-registry",
     "NuGet/docs.microsoft.com-nuget",
     "ocaml/opam-repository",
+    "smithy-lang/awesome-smithy",
     "tinted-theming/home"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 519,
-    "concepts": 355,
-    "observations": 361,
-    "repos": 76,
-    "terms": 365
+    "components": 525,
+    "concepts": 357,
+    "observations": 363,
+    "repos": 77,
+    "terms": 367
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0x2a-42/lelwel",
     "a1phyr/assets_manager",
@@ -37,6 +37,7 @@
     "dalance/ptags",
     "denoland/deno_doc",
     "djc/tokio-retry",
+    "djkoloski/rust_serialization_benchmark",
     "drahnr/cargo-spellcheck",
     "dtolnay/proc-macro2",
     "dtormoen/tsk-tsk",

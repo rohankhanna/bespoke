@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 269,
-    "observations": 269,
-    "repos": 77,
-    "terms": 269
+    "components": 179,
+    "concepts": 273,
+    "observations": 273,
+    "repos": 79,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -22,6 +22,7 @@
     "amaranth-lang/amaranth-soc",
     "AMD-AGI/Nitro-E",
     "amd/Quark",
+    "angr/angrop",
     "araffin/sbx",
     "aws-samples/sample-agentic-ai-demos",
     "berkerpeksag/astor",
@@ -35,6 +36,7 @@
     "danielward27/flowjax",
     "dbeley/awesome-lemmy",
     "deepbeepmeep/mmgp",
+    "dongjae0107/ELite",
     "drivendataorg/zamba",
     "dualverse-ai/station",
     "enjoy-digital/litesata",

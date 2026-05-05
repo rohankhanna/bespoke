@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1452,
-    "concepts": 1244,
-    "observations": 1245,
-    "repos": 231,
-    "terms": 1271
+    "components": 1483,
+    "concepts": 1269,
+    "observations": 1271,
+    "repos": 235,
+    "terms": 1295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "2KAbhishek/nvim2k",
     "actboy168/luamake",
@@ -51,6 +51,7 @@
     "babashka/fs",
     "babashka/nbb",
     "babashka/neil",
+    "babashka/pod-registry",
     "basf/MolPipeline",
     "bazel-contrib/rules_foreign_cc",
     "bazel-contrib/rules_nodejs",
@@ -85,6 +86,7 @@
     "coredns/helm",
     "creativenull/efmls-configs-nvim",
     "cshum/vipsgen",
+    "Cysharp/RuntimeUnitTestToolkit",
     "dart-lang/test",
     "dashbitco/nimble_totp",
     "dcampos/nvim-snippy",
@@ -110,6 +112,7 @@
     "firebase/FirebaseUI-Flutter",
     "FluxML/NNlib.jl",
     "fourmolu/fourmolu",
+    "fsprojects/fantomas",
     "fsprojects/FSharp.Data.GraphQL",
     "fukamachi/fast-http",
     "fzyzcjy/dart_interactive",
@@ -207,6 +210,7 @@
     "robur-coop/albatross",
     "Roshanjossey/code-contributions",
     "rrrene/html_sanitize_ex",
+    "ruby/psych",
     "ruby/ruby-bench",
     "ruby/spec",
     "rust-lang/compiler-team",

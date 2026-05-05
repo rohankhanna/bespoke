@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 612,
-    "concepts": 342,
-    "observations": 346,
-    "repos": 54,
-    "terms": 342
+    "components": 634,
+    "concepts": 361,
+    "observations": 365,
+    "repos": 57,
+    "terms": 361
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
     "Alibaba-NLP/DeepResearch",
@@ -44,7 +44,9 @@
     "KlingAIResearch/LivePortrait",
     "kyleneideck/backgroundmusic",
     "logaretm/vee-validate",
+    "lokesh/color-thief",
     "lucidrains/denoising-diffusion-pytorch",
+    "macrozheng/mall",
     "mathjax/MathJax",
     "MatsuriDayo/NekoBoxForAndroid",
     "microsoft/vscode-extension-samples",
@@ -56,6 +58,7 @@
     "QwenLM/Qwen-Agent",
     "Redocly/redoc",
     "rubocop/ruby-style-guide",
+    "serde-rs/serde",
     "sharkdp/hyperfine",
     "sql-js/sql.js",
     "TabbyML/tabby",

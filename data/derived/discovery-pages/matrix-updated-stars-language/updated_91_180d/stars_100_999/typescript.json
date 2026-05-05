@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 806,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 30,
-    "terms": 139
+    "components": 838,
+    "concepts": 144,
+    "observations": 144,
+    "repos": 31,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "adaltas/node-http-status",
     "akshaykmr/teletype",
@@ -20,6 +20,7 @@
     "antfu/vscode-icons-carbon",
     "Anush008/fastembed-js",
     "axel-op/googlejavaformat-action",
+    "bvaughn/react-window-infinite-loader",
     "celo-org/celo-composer",
     "cocos/cocos-test-projects",
     "enisdenjo/graphql-sse",

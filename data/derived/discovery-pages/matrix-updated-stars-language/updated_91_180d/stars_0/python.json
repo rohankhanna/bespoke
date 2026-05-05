@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 8,
     "observations": 8,
-    "repos": 8,
+    "repos": 9,
     "terms": 8
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "biocypher/biocypher-cookiecutter-template",
     "danielrosehill/AI-Developers-Career-Planning-Notes",
@@ -21,6 +21,7 @@
     "danielrosehill/Hebrew-Image-Generation-Eval",
     "danielrosehill/Quick-RMBG",
     "maeste/a2a-tck",
+    "puffyyy/PCSim",
     "sarlinpe/pybind11-stubgen"
   ]
 }

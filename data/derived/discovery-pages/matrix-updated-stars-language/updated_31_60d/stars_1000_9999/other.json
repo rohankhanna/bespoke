@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 517,
-    "concepts": 636,
-    "observations": 638,
-    "repos": 108,
-    "terms": 636
+    "components": 521,
+    "concepts": 641,
+    "observations": 643,
+    "repos": 109,
+    "terms": 641
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -98,6 +98,7 @@
     "ptsochantaris/trailer",
     "puppetlabs/puppet",
     "r-lib/lintr",
+    "rcarriga/nvim-dap-ui",
     "rjpcomputing/luaforwindows",
     "rmcelreath/rethinking",
     "roboflow/notebooks",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2900,
-    "concepts": 586,
-    "observations": 588,
-    "repos": 86,
-    "terms": 584
+    "components": 2792,
+    "concepts": 552,
+    "observations": 554,
+    "repos": 81,
+    "terms": 551
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AgnosticUI/agnosticui",
     "antfu/eslint-flat-config-utils",
     "apollographql/federation",
     "appium/appium-xcuitest-driver",
-    "appwrite/sdk-for-web",
     "astahmer/typed-openapi",
     "bitwarden/directory-connector",
     "browserslist/browserslist-useragent-regexp",
@@ -28,7 +27,6 @@
     "ClickHouse/clickhouse-js",
     "cocos/cocos-docs",
     "cosmos/cosmjs",
-    "daeh/zotero-markdb-connect",
     "danielroe/beasties",
     "decentralized-identity/did-resolver",
     "dydxprotocol/v4-web",
@@ -38,7 +36,6 @@
     "embroider-build/embroider",
     "engine262/engine262",
     "flathub-infra/website",
-    "fluent-vue/fluent-vue",
     "folke/esbuild-runner",
     "ftonato/nope-validator",
     "fullcalendar/temporal-polyfill",
@@ -59,7 +56,6 @@
     "LemmyNet/lemmy-js-client",
     "microsoft/ai-chat-protocol",
     "microsoft/cognitive-services-speech-sdk-js",
-    "microsoft/vscode-java-debug",
     "milvus-io/milvus-sdk-node",
     "mmkal/expect-type",
     "mswjs/interceptors",
@@ -96,7 +92,6 @@
     "unjs/get-port-please",
     "unjs/listhen",
     "unjs/unimport",
-    "unplugin/unplugin-imagemin",
     "web-infra-dev/rslib",
     "web-infra-dev/rstest",
     "wevm/abitype"

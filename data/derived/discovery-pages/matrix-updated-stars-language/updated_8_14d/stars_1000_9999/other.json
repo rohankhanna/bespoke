@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1469,
-    "concepts": 1270,
-    "observations": 1273,
+    "components": 1491,
+    "concepts": 1284,
+    "observations": 1286,
     "repos": 171,
-    "terms": 1258
+    "terms": 1272
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xAX/asm",
     "a2aproject/a2a-samples",
@@ -53,6 +53,7 @@
     "coursier/coursier",
     "crosire/reshade-shaders",
     "csstools/postcss-plugins",
+    "Cysharp/MagicOnion",
     "danger/danger",
     "dart-lang/site-www",
     "dcloudio/hello-uniapp",
@@ -82,6 +83,7 @@
     "facebook/ktfmt",
     "facebook/react-native-website",
     "florisboard/florisboard",
+    "fluentassertions/fluentassertions",
     "fluentribbon/Fluent.Ribbon",
     "flutter/website",
     "flyerhzm/rails_best_practices",
@@ -105,7 +107,6 @@
     "jrblevin/markdown-mode",
     "jruby/jruby",
     "JuliaData/DataFrames.jl",
-    "JuliaLang/IJulia.jl",
     "JuliaPy/PythonCall.jl",
     "k2-fsa/k2",
     "knative/docs",
@@ -117,13 +118,13 @@
     "mason-org/mason-lspconfig.nvim",
     "mdn/browser-compat-data",
     "MeanderingProgrammer/render-markdown.nvim",
+    "microsoft/aspire-samples",
     "microsoft/azurelinux",
     "microsoft/BotFramework-WebChat",
     "microsoft/CsWin32",
     "microsoft/Generative-AI-for-beginners-dotnet",
     "microsoft/PhiCookBook",
     "microsoft/vscode-docs",
-    "modelscope/modelscope-classroom",
     "mpv-android/mpv-android",
     "NeogitOrg/neogit",
     "NethermindEth/nethermind",
@@ -160,7 +161,6 @@
     "rapidsai/cugraph",
     "Reference-LAPACK/lapack",
     "ruby/rake",
-    "ruby/rbs",
     "saghen/blink.cmp",
     "sass/dart-sass",
     "ScoopInstaller/Main",

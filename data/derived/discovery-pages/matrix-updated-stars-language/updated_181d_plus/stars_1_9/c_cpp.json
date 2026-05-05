@@ -3,7 +3,7 @@
     "components": 152,
     "concepts": 86,
     "observations": 86,
-    "repos": 73,
+    "repos": 74,
     "terms": 85
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/zzz",
     "abhilash1910/llm.tpc",
@@ -41,6 +41,7 @@
     "Cydral/Colorify",
     "Cydral/Dlib-ImageNet-Datasets",
     "Cydral/dlib-models-training",
+    "Cydral/FFspider",
     "d99kris/doxygenmd",
     "DOGEwbx/llama.cpp",
     "dwyl/flutter-stopwatch-tutorial",

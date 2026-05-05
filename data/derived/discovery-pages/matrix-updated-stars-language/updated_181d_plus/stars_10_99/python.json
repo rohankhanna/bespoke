@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 628,
-    "concepts": 1353,
-    "observations": 1355,
-    "repos": 763,
-    "terms": 1332
+    "concepts": 1356,
+    "observations": 1358,
+    "repos": 768,
+    "terms": 1337
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "072jiajia/Image-Text-Co-Decomposition",
     "0xWJ/code-judge",
@@ -44,6 +44,7 @@
     "acpopescu/bitsandbytes",
     "ActiveVisionLab/direct-posenet",
     "ActiveVisionLab/NeFeS",
+    "Adlik/model_optimizer",
     "Adlik/smoothquantplus",
     "Advocate99/DragDiffusion",
     "adzierzanowski/timg",
@@ -496,8 +497,10 @@
     "layumi/U_turn",
     "leogao2/lm_dataformat",
     "libjxl/conformance",
+    "LibreTranslate/Locomotive",
     "linonetwo/MOSS-DockerFile",
     "liuh127/NTIRE-2021-Dehazing-Two-branch",
+    "liuzuyan/ElasticCache",
     "LiveCodeBench/submissions",
     "ljzycmd/T2I-Adapter-w-MasaCtrl",
     "lllyasviel/webui-controlnet-v1-archived",
@@ -724,6 +727,8 @@
     "TonyCrane/manim_projects",
     "TREMA-UNH/trec-car-tools",
     "tsattler/visloc_pseudo_gt_limitations",
+    "TsinghuaAI/CPM-2-Finetune",
+    "ttlns/CDP-Socket",
     "ttlns/undetected-playwright-python",
     "TTPlanetPig/Comfyui_TTP_CN_Preprocessor",
     "tuneflow/AudioLDM",

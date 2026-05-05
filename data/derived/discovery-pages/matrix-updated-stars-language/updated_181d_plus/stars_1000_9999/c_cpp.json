@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 328,
-    "concepts": 679,
-    "observations": 679,
-    "repos": 186,
-    "terms": 671
+    "concepts": 684,
+    "observations": 684,
+    "repos": 189,
+    "terms": 676
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aantron/better-enums",
     "aappleby/smhasher",
@@ -88,6 +88,8 @@
     "hiroi-sora/PaddleOCR-json",
     "hku-mars/FAST-LIVO",
     "hku-mars/FAST_LIO",
+    "HKUST-Aerial-Robotics/Fast-Planner",
+    "HKUST-Aerial-Robotics/VINS-Mono",
     "hyperic/sigar",
     "id-Software/Quake-III-Arena",
     "id-Software/quake2-rerelease-dll",
@@ -193,6 +195,7 @@
     "torch/torch7",
     "tronkko/dirent",
     "unum-cloud/UCall",
+    "uzh-rpg/rpg_svo_pro_open",
     "veandco/go-sdl2",
     "vimpunk/mio",
     "vit-vit/CTPL",

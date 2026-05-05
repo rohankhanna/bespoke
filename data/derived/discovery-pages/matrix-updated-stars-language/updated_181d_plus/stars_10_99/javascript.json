@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2727,
-    "concepts": 564,
-    "observations": 564,
-    "repos": 246,
-    "terms": 557
+    "components": 2731,
+    "concepts": 566,
+    "observations": 566,
+    "repos": 249,
+    "terms": 559
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xPolygon/pilcom",
     "71/logseq-snippets",
@@ -25,6 +25,7 @@
     "abilian/abilian-core",
     "ably-labs/multiplayer-games-scalable-networking-framework",
     "adorsys/encrypt-down",
+    "adri326/wombot",
     "agershun/llamajs",
     "AleshaOleg/postcss-sass",
     "alexhoma/routex.js",
@@ -86,6 +87,7 @@
     "ctrlaltdev/pug-server",
     "curiousdannii/ifvms.js",
     "CyberAP/nanoid-generate",
+    "Cysharp/DocfxTemplate",
     "danielgindi/node-autodetect-decoder-stream",
     "dcloudio/hello-uvue",
     "developit/preact-in-es3",
@@ -222,6 +224,7 @@
     "rose-pine/build",
     "SabakiHQ/go-board",
     "sanctuary-js/sanctuary-identity",
+    "sanctuary-js/sanctuary-type-identifiers",
     "scripting/feedRead",
     "scripting/tinyFeedReader",
     "Sean-Miningah/realWorld-DjangoRestFramework",

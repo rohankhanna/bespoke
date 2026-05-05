@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 663,
-    "concepts": 188,
-    "observations": 188,
-    "repos": 46,
-    "terms": 188
+    "components": 701,
+    "concepts": 189,
+    "observations": 189,
+    "repos": 48,
+    "terms": 189
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "ahmadnassri/node-glob-promise",
     "alexellis/arkade-get",
@@ -42,6 +42,7 @@
     "ipfs/js-ipfs-utils",
     "itsrishika/payment-bypass-bug-lab",
     "jasmine/jasmine-browser-runner",
+    "mapbox/node-srs",
     "mapbox/point-geometry",
     "mapbox/tiletype",
     "newrelic/newrelic-node-apollo-server-plugin",
@@ -49,6 +50,7 @@
     "nrwl/nx-ai-agents-config",
     "patrik-csak/auto-terminal-profile",
     "peergos/web-ui",
+    "rashfael/eslint-plugin-vue-pug",
     "reZach/i18next-electron-fs-backend",
     "reZach/secure-electron-context-menu",
     "scaleway/serverless-scaleway-functions",

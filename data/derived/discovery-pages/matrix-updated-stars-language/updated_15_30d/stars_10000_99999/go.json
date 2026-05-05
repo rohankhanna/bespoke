@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 413,
-    "concepts": 429,
-    "observations": 432,
-    "repos": 43,
-    "terms": 421
+    "components": 436,
+    "concepts": 438,
+    "observations": 441,
+    "repos": 44,
+    "terms": 430
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abiosoft/colima",
@@ -31,6 +31,7 @@
     "containers/skopeo",
     "coreybutler/nvm-windows",
     "danielmiessler/fabric",
+    "dexidp/dex",
     "dgraph-io/badger",
     "dolthub/dolt",
     "ent/ent",

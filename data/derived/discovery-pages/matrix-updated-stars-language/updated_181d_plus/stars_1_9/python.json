@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 411,
-    "concepts": 290,
-    "observations": 290,
-    "repos": 240,
-    "terms": 293
+    "components": 421,
+    "concepts": 299,
+    "observations": 299,
+    "repos": 247,
+    "terms": 302
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0cc4m/hf_bleeding_edge",
     "0delta/longdog",
@@ -64,6 +64,7 @@
     "autodistill/autodistill-blip",
     "autodistill/autodistill-clip",
     "Aviksaikat/cookiecutter-pdm-pypackage",
+    "Barry0121/mlx_deepcache",
     "basf/neural-fingerprint-uncertainty",
     "bentoml/BentoBark",
     "bentoml/BentoInfinity",
@@ -103,6 +104,9 @@
     "danielrosehill/AI-Agent-UN",
     "danielrosehill/AI-Assistant-Template",
     "danielrosehill/AI-Dev-Prompts-Example",
+    "darwinai/covidnet_integration",
+    "darwinai/pl-covidnet",
+    "darwinai/pl-covidnet-grad-cam",
     "di/packaging_legacy",
     "echo-yiyiyi/cube",
     "elementai/spider",
@@ -140,6 +144,7 @@
     "ichard26/blackbench",
     "ignorejjj/HiRA",
     "intel-staging/DockerHub-API",
+    "Interaction-Bot/opus-nlp-downloader",
     "isl-org/next-vit",
     "j0826/PlainTextResultsParser",
     "jatentaki/torch-dimcheck",
@@ -149,6 +154,7 @@
     "jina-ai/glid-3-xl",
     "jina-ai/swinir",
     "jllllll/AutoGPTQ",
+    "jrobinso/hdf5-indexer",
     "jupyter-contrib/jupyter_contrib_core",
     "justfoxing/jfx_bridge",
     "JustinLin610/AutoGPTQ",
@@ -163,6 +169,7 @@
     "koute/rwkv_tokenizer",
     "kushaldas/cpython",
     "lawrence-cj/ComfyUI_ExtraModels",
+    "layumi/dgcnn",
     "layumi/oxford-paris-attack",
     "LBG21/diffusion_policy",
     "leizhao1234/cogvlm2",

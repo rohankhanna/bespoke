@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 962,
-    "concepts": 848,
-    "observations": 852,
-    "repos": 150,
-    "terms": 843
+    "components": 974,
+    "concepts": 855,
+    "observations": 859,
+    "repos": 151,
+    "terms": 850
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
-    "15r10nk/inline-snapshot",
     "aaronjmars/MiroShark",
     "agencyenterprise/PromptInject",
     "agentscope-ai/agentscope-runtime",
+    "agentscope-ai/Trinity-RFT",
     "agiresearch/Cerebrum",
     "AgnostiqHQ/covalent",
     "ai-dynamo/aiconfigurator",
@@ -36,7 +36,6 @@
     "aws/aws-lambda-builders",
     "Azure/azure-cli-extensions",
     "Azure/azure-linux-extensions",
-    "bastibe/python-soundfile",
     "blepping/ComfyUI-bleh",
     "bonfy/github-trending",
     "bootmortis/iran-hosted-domains",
@@ -68,9 +67,9 @@
     "Farama-Foundation/Minari",
     "feluelle/airflow-diagrams",
     "fla-org/flame",
-    "flageval-baai/FlagEvalMM",
     "flagos-ai/FlagScale",
     "fsspec/universal_pathlib",
+    "galaxyproject/planemo",
     "gmberton/VPR-methods-evaluation",
     "godotengine/godot-builds",
     "google-deepmind/xmanager",
@@ -96,9 +95,7 @@
     "kjd/idna",
     "Kludex/python-multipart",
     "kubernetes-sigs/jobset",
-    "langchain-ai/langgraph-bigtool",
     "LedgerHQ/app-bitcoin",
-    "lightningd/plugins",
     "llamastack/llama-stack-client-python",
     "lmcinnes/pynndescent",
     "marbl/verkko",
@@ -109,6 +106,7 @@
     "microsoft/RedStone",
     "mujocolab/mjviser",
     "neggles/animatediff-cli",
+    "neo4j-examples/movies-python-bolt",
     "nodejs/gyp-next",
     "notofonts/notofonts.github.io",
     "notofonts/nototools",
@@ -120,6 +118,7 @@
     "opea-project/GenAIComps",
     "open-thoughts/OpenThoughts-Agent",
     "OpenBMB/BMTrain",
+    "opendatacube/datacube-core",
     "OpenHands/OpenHands-CLI",
     "OpenHands/software-agent-sdk",
     "OSU-NLP-Group/GUI-Agents-Paper-List",
@@ -143,6 +142,7 @@
     "ROCm/TheRock",
     "scicode-bench/SciCode",
     "scikit-build/scikit-build-core",
+    "ScoopInstaller/Nirsoft",
     "scrapinghub/article-extraction-benchmark",
     "searxng/searx-instances",
     "SemiAnalysisAI/InferenceX",
@@ -162,6 +162,7 @@
     "volcengine/volcengine-python-sdk",
     "voxel51/fiftyone-brain",
     "YosysHQ/sby",
+    "Yuliang-Liu/MultimodalOCR",
     "ZhuoZhuoCrayon/throttled-py",
     "zopefoundation/RestrictedPython"
   ]

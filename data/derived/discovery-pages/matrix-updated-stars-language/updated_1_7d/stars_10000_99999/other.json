@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 842,
-    "concepts": 640,
-    "observations": 641,
+    "components": 804,
+    "concepts": 630,
+    "observations": 631,
     "repos": 56,
-    "terms": 634
+    "terms": 624
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "2dust/v2rayNG",
     "actions/runner-images",
@@ -43,6 +43,7 @@
     "keeweb/keeweb",
     "koreader/koreader",
     "Kotlin/kotlinx.coroutines",
+    "kubernetes-sigs/kubespray",
     "logseq/logseq",
     "MagicStack/uvloop",
     "MaterialDesignInXAML/MaterialDesignInXamlToolkit",
@@ -68,7 +69,6 @@
     "swiftlang/swift-package-manager",
     "symfony/symfony",
     "tiann/KernelSU",
-    "vbenjs/vue-vben-admin",
     "xmake-io/xmake"
   ]
 }

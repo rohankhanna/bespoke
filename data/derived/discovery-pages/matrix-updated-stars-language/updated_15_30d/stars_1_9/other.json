@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 31,
-    "terms": 51
+    "components": 102,
+    "concepts": 53,
+    "observations": 53,
+    "repos": 34,
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xPolygonHermez/stark-recurser",
     "alstafeev/midscene-java",
@@ -30,6 +30,7 @@
     "floxym/financial-chat-finance-nlp-chatbots",
     "gusztavvargadr/aws-vault-chocolatey",
     "hchiam/convenience",
+    "helix-toolkit/helix-toolkit.github.io",
     "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "JuliaCI/julia-buildkite",
@@ -44,6 +45,8 @@
     "Shougo/dpp-ext-lazy",
     "standardrb/standard-custom",
     "tarikmanoar/tarikmanoar",
-    "tnc-ca-geo/animl-ml"
+    "Tengfei-Wang/Tengfei-Wang.github.io",
+    "tnc-ca-geo/animl-ml",
+    "wavelens/gobgp.nix"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 289,
-    "observations": 289,
-    "repos": 261,
-    "terms": 289
+    "components": 194,
+    "concepts": 307,
+    "observations": 307,
+    "repos": 263,
+    "terms": 307
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0nutation/SLMTokBench",
     "0nutation/SpeechAgents",
@@ -29,6 +29,7 @@
     "ahmadawais/base16-shades-of-purple",
     "ajjimeno/icdar-task-b",
     "ajlende/base16-atlas-scheme",
+    "AlexSWong/COVID-Net",
     "alpha-vllm/wemix-llm",
     "ampproject/meta",
     "ampproject/meta-ac",
@@ -141,6 +142,7 @@
     "heliconialabs/steampunkification",
     "heshengtao/Let-LLM-party",
     "high-moctane/nextword-data",
+    "hipudding/pytorch-lightning",
     "human-pangenomics/HG002_Data_Freeze_v1.0",
     "ichitenfont/suppchara",
     "imgui-rs/imgui-examples",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 70,
-    "observations": 70,
+    "components": 85,
+    "concepts": 80,
+    "observations": 80,
     "repos": 7,
-    "terms": 70
+    "terms": 80
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "anthropics/claude-cookbooks",
     "JetBrains/compose-multiplatform",
-    "kubernetes-sigs/kubespray",
     "MudBlazor/MudBlazor",
     "swiftlang/swift",
     "triton-lang/triton",
-    "upptime/upptime"
+    "upptime/upptime",
+    "vbenjs/vue-vben-admin"
   ]
 }

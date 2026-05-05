@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 30,
-    "terms": 51
+    "components": 137,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 31,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aidenlab/spacewalk",
     "aidenlab/swtool",
@@ -35,6 +35,7 @@
     "ipfs-examples/github-mgmt",
     "kalavai-net/kalavai-templates",
     "kleisauke/glib",
+    "lace/lacecore",
     "lakekeeper/iceberg-rust",
     "lakekeeper/lakekeeper-operator",
     "netdur/imaged-sdk-examples",

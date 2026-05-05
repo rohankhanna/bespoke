@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 597,
-    "concepts": 1085,
-    "observations": 1088,
-    "repos": 331,
-    "terms": 1071
+    "concepts": 1087,
+    "observations": 1090,
+    "repos": 336,
+    "terms": 1073
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "a-e-k/canvas_ity",
     "a-n-t-h-o-n-y/TermOx",
@@ -62,6 +62,7 @@
     "binspector/binspector",
     "Blosc/bcolz",
     "BlueBrain/HighFive",
+    "box2ai-robotics/lerobot-kinematics",
     "bramstein/sfnt2woff-zopfli",
     "breadwallet/breadwallet-core",
     "BrutPitt/imGuIZMO.quat",
@@ -325,6 +326,8 @@
     "unittest-cpp/unittest-cpp",
     "unum-cloud/UStore",
     "url-kaist/outlier-robust-radar-odometry",
+    "utiasASRL/steam",
+    "uzh-rpg/rpg_vikit",
     "vacancy/PreciseRoIPooling",
     "vibansal/HapCUT2",
     "vinniefalco/CppCon2018",
@@ -333,12 +336,14 @@
     "voutcn/megahit",
     "vulkan-go/vulkan",
     "wadey/node-microtime",
+    "weisongwen/GraphGNSSLib",
     "WL-Amigo/waifu2x-converter-cpp",
     "WojciechMula/base64simd",
     "xiongzhu666/Sky-Segmentation-and-Post-processing",
     "xlab/libvpx-go",
     "xlite-dev/RVM-Inference",
     "xtensor-stack/xtensor-blas",
+    "xuankuzcr/LIV_handhold",
     "yuanming-hu/taichi",
     "YukihoAA/waifu2x_snowshell",
     "YuvalNirkin/face_segmentation",

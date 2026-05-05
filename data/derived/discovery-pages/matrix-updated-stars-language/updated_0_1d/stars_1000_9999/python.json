@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 92,
-    "concepts": 59,
-    "observations": 60,
+    "components": 87,
+    "concepts": 53,
+    "observations": 53,
     "repos": 8,
-    "terms": 59
+    "terms": 53
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aws-cloudformation/cfn-lint",
-    "meta-pytorch/captum",
+    "google-deepmind/optax",
+    "harbor-framework/harbor",
     "meta-pytorch/torchcodec",
     "meta-pytorch/torchtune",
     "ogx-ai/ogx",
     "PrimeIntellect-ai/verifiers",
-    "redis/redis-om-python",
     "safetensors/safetensors"
   ]
 }

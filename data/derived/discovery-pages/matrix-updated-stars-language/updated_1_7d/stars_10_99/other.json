@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 795,
-    "concepts": 366,
-    "observations": 369,
-    "repos": 88,
-    "terms": 364
+    "components": 805,
+    "concepts": 397,
+    "observations": 400,
+    "repos": 89,
+    "terms": 395
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AarshBatra/biteSizedAQ",
     "abarisani/abarisani.github.io",
     "Accla/d4m",
-    "AdguardTeam/SafariConverterLib",
     "alphagov/govuk_publishing_components",
     "alphagov/rubocop-govuk",
     "angular/angular-devkit-build-angular-builds",
     "apache/ignite-website",
     "apollographql/apollo-ios-dev",
     "arkime/arkimeweb",
-    "arktekk/sbt-aether-deploy",
     "ArmandPhilippot/coldark",
     "bladeacer/flexcyon",
     "brave-intl/publishers",
@@ -38,6 +36,7 @@
     "countries/countries-data-json",
     "davidanthoff/Electron.jl",
     "day8/re-frame-debux",
+    "DevEnterpriseSoftware/patchright-dotnet",
     "dwyl/elixir-auth-github-demo",
     "dwyl/learn-tailwind",
     "eea/eea.rancher.catalog",
@@ -56,6 +55,7 @@
     "heroku/buildpacks",
     "heroku/cnb-builder-images",
     "IBM/hello-carbon-vue3",
+    "JosephLalli/phasing_T2T",
     "JuliaAI/LearnAPI.jl",
     "JuliaArrays/StaticArrayInterface.jl",
     "JuliaCI/Nanosoldier.jl",
@@ -71,6 +71,7 @@
     "LedgerHQ/ledger-app-builder",
     "liuliu/s4nnc",
     "localstack/localstack-cli",
+    "lumen-oss/luarocks-tag-release",
     "lumen-oss/nurr",
     "melpa/package-build",
     "mesh-iit/ergocub-software",

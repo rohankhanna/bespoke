@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 78,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 7,
-    "terms": 51
+    "components": 84,
+    "concepts": 66,
+    "observations": 66,
+    "repos": 9,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "adamchainz/blacken-docs",
+    "ai-dynamo/aiperf",
     "AI-Hypercomputer/maxdiffusion",
-    "cosmos/chain-registry",
     "gbionics/adam",
     "jupyter-server/jupyter_server",
     "scverse/rapids-singlecell",
+    "sigsep/norbert",
     "tox-dev/filelock"
   ]
 }

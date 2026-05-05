@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 1698,
-    "concepts": 907,
-    "observations": 913,
-    "repos": 364,
-    "terms": 907
+    "concepts": 919,
+    "observations": 925,
+    "repos": 366,
+    "terms": 919
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -21,6 +21,7 @@
     "2KAbhishek/tmux-tea",
     "2U1/Gemma3-Finetune",
     "3dfxdev/EDGE",
+    "4kills/go-libdeflate",
     "64327069/LVAgent",
     "aarroyoc/djota",
     "aarroyoc/doclog",
@@ -284,6 +285,7 @@
     "openxrlab/xrtailor",
     "osvenskan/sysv_ipc",
     "OutlierDetectionJL/OutlierDetection.jl",
+    "PacificBiosciences/pbAA",
     "pagedjs/pagedjs-cli",
     "paleolimbot/geos",
     "panmari/cuckoofilter",

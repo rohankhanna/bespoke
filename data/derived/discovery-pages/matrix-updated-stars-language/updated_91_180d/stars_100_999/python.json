@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 330,
-    "concepts": 661,
-    "observations": 662,
-    "repos": 179,
-    "terms": 652
+    "components": 331,
+    "concepts": 669,
+    "observations": 670,
+    "repos": 182,
+    "terms": 662
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0k/shyaml",
     "23andMe/Yamale",
@@ -94,6 +94,7 @@
     "InternRobotics/VLAC",
     "InternScience/SciReason",
     "InternScience/StructEqTable-Deploy",
+    "JettHu/ComfyUI_TGate",
     "jimmyyhwu/tidybot2",
     "joblib/threadpoolctl",
     "JunyaoHu/common_metrics_on_video_quality",
@@ -139,6 +140,7 @@
     "OSU-NLP-Group/TravelPlanner",
     "p-doom/jasmine",
     "Parallel-Reasoning/APR",
+    "PDillis/stylegan3-fun",
     "perrygeo/python-rasterstats",
     "Phhofm/models",
     "pinokiofactory/cogstudio",
@@ -166,6 +168,7 @@
     "superclaude-org/supergemini_framework",
     "theupdateframework/specification",
     "thorstenMueller/Thorsten-Voice",
+    "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",
     "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",

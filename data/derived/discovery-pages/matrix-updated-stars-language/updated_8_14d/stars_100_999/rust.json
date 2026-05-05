@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 682,
-    "concepts": 479,
-    "observations": 480,
+    "components": 692,
+    "concepts": 484,
+    "observations": 485,
     "repos": 83,
-    "terms": 474
+    "terms": 479
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "actix/actix-net",
@@ -40,7 +40,6 @@
     "deven96/ahnlich",
     "DioxusLabs/docsite",
     "diwic/dbus-rs",
-    "djkoloski/rust_serialization_benchmark",
     "eigenwallet/core",
     "eitsupi/arf",
     "EmbarkStudios/cargo-about",
@@ -62,6 +61,7 @@
     "KSXGitHub/parallel-disk-usage",
     "lambdaclass/ethrex",
     "LaurenzV/krilla",
+    "libbpf/blazesym",
     "lu-zero/cargo-c",
     "microsoft/python-environment-tools",
     "mongodb/bson-rust",

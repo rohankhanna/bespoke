@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 677,
-    "concepts": 700,
-    "observations": 702,
-    "repos": 60,
-    "terms": 694
+    "components": 618,
+    "concepts": 623,
+    "observations": 624,
+    "repos": 53,
+    "terms": 616
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,19 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "agentscope-ai/agentscope",
     "agentscope-ai/QwenPaw",
     "agno-agi/agno",
     "axolotl-ai-cloud/axolotl",
     "certbot/certbot",
-    "Comfy-Org/ComfyUI-Manager",
     "crewAIInc/crewAI",
     "cvat-ai/cvat",
     "dagster-io/dagster",
-    "Dao-AILab/flash-attention",
-    "deepspeedai/DeepSpeed",
     "docling-project/docling",
     "facefusion/facefusion",
     "fastapi/typer",
-    "google/magika",
     "hiyouga/LlamaFactory",
     "huggingface/datasets",
     "huggingface/lerobot",
@@ -48,14 +44,12 @@
     "mlflow/mlflow",
     "modelscope/DiffSynth-Studio",
     "networkx/networkx",
-    "oobabooga/textgen",
     "opendatalab/MinerU",
     "ostris/ai-toolkit",
     "pallets/click",
     "pipecat-ai/pipecat",
     "psf/requests",
     "pydantic/pydantic",
-    "pyg-team/pytorch_geometric",
     "pypa/pipenv",
     "pypa/pipx",
     "python-pillow/Pillow",
@@ -72,7 +66,6 @@
     "vega/altair",
     "verl-project/verl",
     "wandb/wandb",
-    "wkentaro/labelme",
-    "zhayujie/CowAgent"
+    "wkentaro/labelme"
   ]
 }

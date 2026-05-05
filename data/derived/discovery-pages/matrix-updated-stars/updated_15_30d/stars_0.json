@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 698,
-    "concepts": 187,
-    "observations": 187,
-    "repos": 132,
-    "terms": 216
+    "components": 718,
+    "concepts": 192,
+    "observations": 192,
+    "repos": 133,
+    "terms": 221
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-docs",
     "8144225309/superscalar-wallet",
+    "aaronlamz/navpress",
     "aaronrsun/spec-kit-confluence",
     "aaronrsun/spec-kit-issue",
     "abraxas-365/claudio-screenshot",

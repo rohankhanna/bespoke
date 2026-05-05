@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 741,
-    "concepts": 741,
-    "observations": 745,
-    "repos": 75,
-    "terms": 739
+    "components": 702,
+    "concepts": 714,
+    "observations": 717,
+    "repos": 72,
+    "terms": 712
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "akvorado/akvorado",
     "anthropics/anthropic-sdk-go",
@@ -25,7 +25,6 @@
     "bazel-contrib/bazel-gazelle",
     "bazel-contrib/rules_go",
     "beclab/Olares",
-    "bnb-chain/bsc",
     "btcsuite/btcwallet",
     "buger/jsonparser",
     "C2SP/wycheproof",
@@ -37,6 +36,7 @@
     "DNSCrypt/dnscrypt-resolvers",
     "dundee/gdu",
     "dunglas/mercure",
+    "elastic/cloud-on-k8s",
     "elazarl/goproxy",
     "envoyproxy/ai-gateway",
     "envoyproxy/gateway",
@@ -55,8 +55,6 @@
     "kubeovn/kube-ovn",
     "kubernetes-sigs/cluster-api",
     "kubernetes-sigs/gateway-api",
-    "kubernetes-sigs/karpenter",
-    "kubernetes-sigs/node-feature-discovery",
     "kubernetes/kubectl",
     "kyverno/kyverno",
     "Loyalsoldier/geoip",
@@ -81,7 +79,6 @@
     "redis/rueidis",
     "replicate/cog",
     "reviewdog/reviewdog",
-    "securego/gosec",
     "spiffe/spire",
     "supabase/cli",
     "sysadminsmedia/homebox",

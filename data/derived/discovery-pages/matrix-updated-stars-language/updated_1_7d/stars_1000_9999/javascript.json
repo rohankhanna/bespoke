@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2256,
-    "concepts": 353,
-    "observations": 354,
-    "repos": 49,
-    "terms": 351
+    "components": 2194,
+    "concepts": 340,
+    "observations": 341,
+    "repos": 48,
+    "terms": 338
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "alphagov/govuk-frontend",
-    "amannn/action-semantic-pull-request",
     "antfu/eslint-config",
     "apollographql/eslint-plugin-graphql",
     "apostrophecms/apostrophe",
-    "appium/appium-inspector",
     "callstack/react-native-builder-bob",
     "carbon-design-system/carbon",
+    "chaijs/chai",
     "GoogleChromeLabs/clooney",
     "GoogleCloudPlatform/nodejs-docs-samples",
     "heshengtao/super-agent-party",

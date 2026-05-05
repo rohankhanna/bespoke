@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5567,
-    "concepts": 583,
-    "observations": 590,
-    "repos": 54,
-    "terms": 581
+    "components": 5445,
+    "concepts": 559,
+    "observations": 564,
+    "repos": 51,
+    "terms": 556
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -21,7 +21,6 @@
     "babel/babel",
     "bitwarden/clients",
     "bluesky-social/social-app",
-    "browserless/browserless",
     "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
@@ -49,7 +48,6 @@
     "lit/lit",
     "louislam/dockge",
     "microsoft/playwright",
-    "openai/openai-node",
     "paulmillr/chokidar",
     "pnpm/pnpm",
     "postcss/postcss",
@@ -59,7 +57,6 @@
     "reduxjs/redux-toolkit",
     "renovatebot/renovate",
     "sass/sass",
-    "sindresorhus/got",
     "sindresorhus/ky",
     "sindresorhus/type-fest",
     "typescript-eslint/typescript-eslint",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 594,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 30,
-    "terms": 129
+    "components": 558,
+    "concepts": 128,
+    "observations": 128,
+    "repos": 29,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersCompiler",
     "browserslist/lint",
@@ -35,7 +35,6 @@
     "octokit/openapi",
     "octokit/openapi-types.ts",
     "r-lyeh/gamebook",
-    "rashfael/eslint-plugin-vue-pug",
     "readthedocs/addons",
     "rescript-lang/tree-sitter-rescript",
     "tnc-ca-geo/animl-frontend",

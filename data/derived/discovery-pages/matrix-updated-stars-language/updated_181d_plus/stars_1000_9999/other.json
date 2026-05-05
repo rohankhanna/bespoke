@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 1178,
-    "concepts": 1373,
-    "observations": 1375,
-    "repos": 376,
-    "terms": 1363
+    "concepts": 1384,
+    "observations": 1386,
+    "repos": 379,
+    "terms": 1374
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "1eez/103976",
@@ -77,6 +77,7 @@
     "cocodataset/cocoapi",
     "coderjojo/creative-profile-readme",
     "cohama/lexima.vim",
+    "CommunityToolkit/WindowsCommunityToolkit",
     "CompVis/taming-transformers",
     "creaktive/rainbarf",
     "csstools/postcss-preset-env",
@@ -148,6 +149,7 @@
     "harvardnlp/im2markup",
     "haya14busa/incsearch.vim",
     "hexops-graveyard/dockerfile",
+    "hila-chefer/Transformer-Explainability",
     "honza/vim-snippets",
     "hrsh7th/nvim-compe",
     "hyperhype/hyperscript",
@@ -178,6 +180,7 @@
     "justinpinkney/stable-diffusion",
     "jwiegley/use-package",
     "k8gege/Ladon",
+    "kakaobrain/rq-vae-transformer",
     "kan-bayashi/ParallelWaveGAN",
     "kassio/neoterm",
     "KhronosGroup/glTF-Sample-Models",

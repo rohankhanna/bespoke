@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 338,
+    "components": 337,
     "concepts": 510,
     "observations": 514,
     "repos": 114,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "ACEnglish/truvari",
     "actionless/pikaur",
@@ -28,7 +28,6 @@
     "altendky/pyqt-tools",
     "amap-cvlab/ABot-Manipulation",
     "amaranth-lang/amaranth-boards",
-    "angr/angrop",
     "astra-vision/MonoScene",
     "biocypher/biocypher",
     "Blosc/python-blosc",
@@ -96,6 +95,7 @@
     "objectbox/objectbox-python",
     "open-tinker/OpenTinker",
     "openlawlibrary/pygls",
+    "OSGeo/PROJ-data",
     "Osilly/Vision-DeepResearch",
     "pappasam/jedi-language-server",
     "pfultz2/cget",

@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 329,
+    "components": 341,
     "concepts": 67,
     "observations": 67,
-    "repos": 8,
+    "repos": 9,
     "terms": 67
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "egoist/tsup",
     "floating-ui/floating-ui",
     "jaredpalmer/tsdx",
     "logaretm/vee-validate",
+    "lokesh/color-thief",
     "microsoft/vscode-extension-samples",
     "peers/peerjs",
     "Redocly/redoc",

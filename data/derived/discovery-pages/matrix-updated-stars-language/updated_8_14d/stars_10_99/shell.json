@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 101,
-    "observations": 104,
-    "repos": 27,
-    "terms": 99
+    "components": 120,
+    "concepts": 89,
+    "observations": 92,
+    "repos": 26,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "acmesh-official/acmetest",
     "AFLplusplus/cov-analysis",
@@ -39,7 +39,6 @@
     "reviewdog/action-black",
     "reviewdog/action-hadolint",
     "reviewdog/action-shfmt",
-    "sclorg/mariadb-container",
     "tinted-theming/tinted-shell"
   ]
 }

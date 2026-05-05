@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2496,
-    "concepts": 1317,
-    "observations": 1325,
+    "components": 2481,
+    "concepts": 1320,
+    "observations": 1328,
     "repos": 342,
-    "terms": 1316
+    "terms": 1319
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "4d49/scene-library",
@@ -33,6 +33,7 @@
     "AMD-AGI/Nitro-E",
     "amd/Quark",
     "AndrewRadev/switch.vim",
+    "angr/angrop",
     "ankane/kms_encrypted",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu/changelogithub",
@@ -102,6 +103,7 @@
     "csstools/postcss-normalize",
     "CSU-Radarmet/CSU_RadarTools",
     "cuviper/autocfg",
+    "Cysharp/ValueTaskSupplement",
     "dacap/clip",
     "DanCardin/cappa",
     "danielward27/flowjax",
@@ -114,6 +116,7 @@
     "docker-library/buildpack-deps",
     "docker-library/faq",
     "domluna/JuliaFormatter.jl",
+    "dongjae0107/ELite",
     "dop251/goja_nodejs",
     "douglascrockford/JSMin",
     "drivendataorg/zamba",
@@ -285,7 +288,6 @@
     "ratatui/templates",
     "raywo/MMM-NowPlayingOnSpotify",
     "renzmann/treesit-auto",
-    "rescript-lang/rescript-vscode",
     "risinglightdb/sqllogictest-rs",
     "ronaldoussoren/py2app",
     "ropensci/git2r",
@@ -328,7 +330,6 @@
     "tree-sitter-grammars/tree-sitter-markdown",
     "TRI-ML/dgp",
     "trptcolin/reply",
-    "tsonglew/dutis",
     "tulerfeng/OneThinker",
     "typstyle-rs/typstyle",
     "unicode-rs/unicode-width",
@@ -353,7 +354,6 @@
     "zhixuan-lin/forgetting-transformer",
     "zkcrypto/bls12_381",
     "zkcrypto/jubjub",
-    "zonyitoo/rust-ini",
     "zsviczian/excalibrain"
   ]
 }

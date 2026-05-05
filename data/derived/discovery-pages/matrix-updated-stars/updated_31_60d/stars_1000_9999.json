@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 4245,
-    "concepts": 2659,
-    "observations": 2667,
-    "repos": 456,
-    "terms": 2666
+    "components": 4274,
+    "concepts": 2674,
+    "observations": 2682,
+    "repos": 458,
+    "terms": 2680
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aaaaalexis/obsidian-cupertino",
     "abarichello/godot-ci",
@@ -34,7 +34,6 @@
     "ankane/chartkick",
     "ankane/groupdate",
     "antfu-collective/vite-ssg",
-    "antfu-collective/vitesse-lite",
     "antfu/vitesse-nuxt",
     "anvaka/panzoom",
     "apache/casbin-Casbin.NET",
@@ -162,6 +161,7 @@
     "FunnyWolf/Viper",
     "garybernhardt/selecta",
     "geocompx/geocompr",
+    "geotiffjs/geotiff.js",
     "ggez/ggez",
     "ggml-org/llama.vim",
     "gjtorikian/html-proofer",
@@ -218,6 +218,7 @@
     "hyperium/http",
     "hyperledger-solang/solang",
     "hyperopt/hyperopt",
+    "inducer/pycuda",
     "infinitered/nsfwjs",
     "intel/intel-extension-for-pytorch",
     "Intellindust-AI-Lab/DEIM",
@@ -363,6 +364,7 @@
     "qjfoidnh/BaiduPCS-Go",
     "r-lib/lintr",
     "randy3k/radian",
+    "rcarriga/nvim-dap-ui",
     "react-native-webview/react-native-webview",
     "redis/hiredis",
     "REditorSupport/vscode-R",

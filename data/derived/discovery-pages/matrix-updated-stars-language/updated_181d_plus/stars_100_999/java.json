@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 154,
-    "observations": 154,
-    "repos": 61,
-    "terms": 154
+    "components": 75,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 63,
+    "terms": 157
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "aidenlab/Juicebox",
@@ -45,6 +45,7 @@
     "google/osdetector-gradle-plugin",
     "googleapis/gapic-generator",
     "GoSimpleLLC/nbvcxz",
+    "gstreamer-java/gst1-java-core",
     "howiehu/ddd-architecture-samples",
     "iTXTech/mirai-console-loader",
     "jmockit/jmockit1",
@@ -61,6 +62,7 @@
     "mukel/llama2.java",
     "netplex/json-smart-v2",
     "ning/jvm-compressor-benchmark",
+    "opensciencemap/vtm",
     "processing/processing-android",
     "processing/processing-sound",
     "processing/processing-video",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 31972,
-    "concepts": 14592,
-    "observations": 14647,
-    "repos": 1639,
-    "terms": 14548
+    "components": 32255,
+    "concepts": 14649,
+    "observations": 14704,
+    "repos": 1646,
+    "terms": 14608
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "0xJacky/nginx-ui",
@@ -107,6 +107,7 @@
     "Anjok07/ultimatevocalremovergui",
     "ansible/ansible",
     "ant-design/ant-design",
+    "ant-design/ant-design-mobile",
     "anthropics/claude-cookbooks",
     "anthropics/claude-plugins-official",
     "anthropics/claude-quickstarts",
@@ -245,6 +246,8 @@
     "bumptech/glide",
     "burntsushi/ripgrep",
     "BurntSushi/xsv",
+    "bvaughn/react-virtualized",
+    "bvaughn/react-window",
     "BVLC/caffe",
     "bytebot-ai/bytebot",
     "bytedance/UI-TARS",
@@ -885,6 +888,7 @@
     "Leaflet/Leaflet",
     "LemmyNet/lemmy",
     "lerna/lerna",
+    "less/less.js",
     "letta-ai/letta",
     "libevent/libevent",
     "libgit2/libgit2",
@@ -1212,6 +1216,7 @@
     "pmndrs/react-three-fiber",
     "pmndrs/zustand",
     "pnpm/pnpm",
+    "PointCloudLibrary/pcl",
     "pola-rs/polars",
     "postcss/autoprefixer",
     "postcss/postcss",
@@ -1282,6 +1287,7 @@
     "rapid7/metasploit-framework",
     "RasaHQ/rasa",
     "ratatui/ratatui",
+    "raulmur/ORB_SLAM2",
     "ray-project/ray",
     "rayon-rs/rayon",
     "raysan5/raylib",
@@ -1532,6 +1538,7 @@
     "typst/typst",
     "uber-go/zap",
     "ulid/spec",
+    "ultrafunkamsterdam/undetected-chromedriver",
     "ultralytics/ultralytics",
     "ultralytics/yolov3",
     "ultralytics/yolov5",

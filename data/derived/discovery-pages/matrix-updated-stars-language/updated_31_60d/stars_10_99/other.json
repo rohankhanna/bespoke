@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 309,
-    "concepts": 319,
-    "observations": 320,
+    "components": 299,
+    "concepts": 308,
+    "observations": 309,
     "repos": 89,
-    "terms": 317
+    "terms": 306
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
@@ -45,6 +45,7 @@
     "clearml/clearml-helm-charts",
     "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
+    "curiosity-ai/hnsw-sharp",
     "DamageLabs/paper_trail_manager",
     "dharrigan/startrek",
     "dominique-unruh/scala-isabelle",
@@ -58,7 +59,6 @@
     "dwyl/fields",
     "dwyl/learn-alpine.js",
     "dwyl/learn-payment-processing",
-    "dwyl/mvp",
     "FluxML/fluxml.github.io",
     "GaloisInc/cryptol-specs",
     "google/litmus",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 626,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 23,
-    "terms": 103
+    "components": 653,
+    "concepts": 104,
+    "observations": 104,
+    "repos": 24,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "21st-dev/magic-mcp",
     "antfu-collective/vitesse",
+    "antfu-collective/vitesse-lite",
     "antfu-collective/vitesse-webext",
     "arktypeio/arktype",
     "cosmiconfig/cosmiconfig",

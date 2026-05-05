@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2995,
-    "concepts": 2407,
-    "observations": 2412,
-    "repos": 611,
-    "terms": 2397
+    "components": 3081,
+    "concepts": 2433,
+    "observations": 2438,
+    "repos": 620,
+    "terms": 2426
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0k/shyaml",
     "10up/action-wordpress-plugin-asset-update",
@@ -26,6 +26,7 @@
     "acl-org/aclpubcheck",
     "acomagu/fish-async-prompt",
     "adaltas/node-http-status",
+    "adriantoine/enzyme-to-json",
     "aesalazar/AsteroidsWasm",
     "agiresearch/A-mem",
     "agrimsingh/ralph-wiggum-cursor",
@@ -131,6 +132,7 @@
     "buildpacks/spec",
     "burningwave/core",
     "BurntSushi/rebar",
+    "bvaughn/react-window-infinite-loader",
     "bytedance/BindWeave",
     "bytedance/SandboxFusion",
     "caiyuanhao1998/MST-plus-plus",
@@ -303,6 +305,7 @@
     "izelnakri/paper_trail",
     "jandamm/zgenom",
     "jayli/vim-easycomplete",
+    "JettHu/ComfyUI_TGate",
     "jezweb/roo-commander",
     "jgpc42/jmh-clojure",
     "jimmyyhwu/tidybot2",
@@ -461,6 +464,7 @@
     "Parallel-Reasoning/APR",
     "ParRes/Kernels",
     "PaulRBerg/foundry-template",
+    "PDillis/stylegan3-fun",
     "perrygeo/python-rasterstats",
     "pganalyze/pg_query",
     "Phhofm/models",
@@ -499,6 +503,7 @@
     "ranahaani/GNews",
     "rapidsai-community/notebooks-contrib",
     "reasonml/reasonml.github.io",
+    "rescript-lang/rescript-vscode",
     "resemble-ai/Perth",
     "restify/errors",
     "RJWadley/stylelint-no-unsupported-browser-features",
@@ -533,6 +538,7 @@
     "scopecraft/command",
     "scopedb/percas",
     "scripting/reallysimple",
+    "seattlerb/ruby_parser",
     "ServiceNow/TapeAgents",
     "sgl-project/sgl-learning-materials",
     "shekohex/allo-isolate",
@@ -576,8 +582,10 @@
     "travis-ci/travis-build",
     "tree-sitter/tree-sitter-javascript",
     "tree-sitter/tree-sitter-julia",
+    "triton-inference-server/model_navigator",
     "Tsinghua-MARS-Lab/CVT-Occ",
     "TsinghuaDatabaseGroup/DB-GPT",
+    "tsonglew/dutis",
     "TTPlanetPig/Comfyui_TTP_Toolset",
     "tulerfeng/Video-R1",
     "tvogels/pyexr",
@@ -623,6 +631,7 @@
     "ZhangXJ199/TinyLLaVA-Video-R1",
     "zhiyuanyou/DeQA-Score",
     "zippoxer/recall",
-    "zixaphir/Stable-Diffusion-Webui-Civitai-Helper"
+    "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
+    "zonyitoo/rust-ini"
   ]
 }

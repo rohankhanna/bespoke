@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 501,
-    "concepts": 523,
-    "observations": 524,
-    "repos": 88,
-    "terms": 521
+    "components": 497,
+    "concepts": 520,
+    "observations": 521,
+    "repos": 86,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "Alpine-DAV/ascent",
     "amerkoleci/joltc",
@@ -67,7 +67,6 @@
     "logicalclocks/rondb",
     "LunarG/gfxreconstruct",
     "LunarG/VulkanTools",
-    "mapnik/node-mapnik",
     "Mercury13/unicodia",
     "msoos/cryptominisat",
     "nelson-lang/nelson",
@@ -83,7 +82,6 @@
     "pygobject/pycairo",
     "RcppCore/Rcpp",
     "ROCm/AMDMIGraphX",
-    "ROCm/hipBLAS",
     "ROCm/rccl",
     "ROCm/rocBLAS",
     "ROCm/rocm-systems",

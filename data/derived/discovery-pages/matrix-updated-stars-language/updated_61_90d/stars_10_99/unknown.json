@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 11,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 14,
-    "terms": 27
+    "concepts": 30,
+    "observations": 30,
+    "repos": 15,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "apache/.github",
+    "astroyat/lerobot-ros",
     "chaiNNer-org/chaiNNer-nightly",
     "cloudrepo-io/founder-os",
     "conda-forge/cfep",

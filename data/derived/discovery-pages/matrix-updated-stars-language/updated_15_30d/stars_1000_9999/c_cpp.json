@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 524,
-    "concepts": 605,
-    "observations": 611,
-    "repos": 86,
-    "terms": 600
+    "components": 531,
+    "concepts": 613,
+    "observations": 619,
+    "repos": 87,
+    "terms": 608
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "Ableton/link",
     "ada-url/ada",
@@ -88,6 +88,7 @@
     "sebastianstarke/AI4Animation",
     "soramimi/guitar",
     "stevenlovegrove/Pangolin",
+    "strukturag/libheif",
     "sveinbjornt/Platypus",
     "syoyo/tinygltf",
     "tsujan/Kvantum",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2586,
-    "concepts": 1871,
-    "observations": 1881,
-    "repos": 385,
-    "terms": 1847
+    "components": 2599,
+    "concepts": 1894,
+    "observations": 1904,
+    "repos": 387,
+    "terms": 1873
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -292,6 +292,8 @@
     "open-mmlab/mmengine",
     "opencv/opencv-python",
     "openMVG/openMVG",
+    "OpenNMT/CTranslate2",
+    "PaddlePaddle/ERNIE",
     "PaddlePaddle/PaddleSlim",
     "pallets-eco/blinker",
     "Paper2Poster/Paper2Poster",

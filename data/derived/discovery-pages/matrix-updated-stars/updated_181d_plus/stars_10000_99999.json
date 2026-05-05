@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 2920,
-    "concepts": 1388,
-    "observations": 1390,
-    "repos": 292,
-    "terms": 1363
+    "components": 2998,
+    "concepts": 1415,
+    "observations": 1417,
+    "repos": 295,
+    "terms": 1390
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0voice/from_coder_to_expert",
     "acdlite/recompose",
@@ -54,6 +54,7 @@
     "browserify/browserify",
     "bulletphysics/bullet3",
     "BurntSushi/xsv",
+    "bvaughn/react-virtualized",
     "BVLC/caffe",
     "bytebot-ai/bytebot",
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
@@ -243,6 +244,7 @@
     "preservim/nerdtree",
     "pytorch/examples",
     "Qv2ray/Qv2ray",
+    "raulmur/ORB_SLAM2",
     "ReactiveX/rxjs",
     "reduxjs/redux-thunk",
     "reduxjs/reselect",
@@ -282,6 +284,7 @@
     "tpope/vim-pathogen",
     "TypeStrong/ts-node",
     "ulid/spec",
+    "ultrafunkamsterdam/undetected-chromedriver",
     "vim-syntastic/syntastic",
     "Vision-CAIR/MiniGPT-4",
     "vuejs/devtools-v6",

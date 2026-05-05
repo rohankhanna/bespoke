@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 631,
-    "concepts": 380,
-    "observations": 380,
-    "repos": 86,
-    "terms": 378
+    "concepts": 384,
+    "observations": 384,
+    "repos": 87,
+    "terms": 382
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,19 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
     "AdaCore/langkit",
+    "AdguardTeam/SafariConverterLib",
     "alexrudall/midjourney",
     "ankane/blazer-dev",
     "ankane/blazer-docker",
     "apache/arrow-dotnet",
     "apache/superset-site",
     "apollographql/apollo-ios-codegen",
+    "arktekk/sbt-aether-deploy",
     "ast-grep/ast-grep.github.io",
     "aws-otel/aws-otel.github.io",
     "b-data/jupyterlab-python-docker-stack",
@@ -48,7 +50,6 @@
     "guoqingbao/attention.rs",
     "habamax/vim-habamax",
     "hashicorp/web-unified-docs",
-    "hexaeder/MCPRepl.jl",
     "Humans-of-Julia/BibParser.jl",
     "ipfs/distributions",
     "jfmengels/node-elm-review",

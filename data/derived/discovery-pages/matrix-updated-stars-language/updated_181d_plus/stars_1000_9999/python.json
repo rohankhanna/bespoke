@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 809,
-    "concepts": 3452,
-    "observations": 3454,
-    "repos": 887,
-    "terms": 3389
+    "components": 815,
+    "concepts": 3502,
+    "observations": 3504,
+    "repos": 895,
+    "terms": 3441
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "0nutation/SpeechGPT",
     "3DTopia/OpenLRM",
@@ -96,6 +96,7 @@
     "baichuan-inc/Baichuan-13B",
     "baichuan-inc/Baichuan-7B",
     "baichuan-inc/Baichuan2",
+    "baidu/DDParser",
     "baidu/DuReader",
     "baowenbo/DAIN",
     "BayesWitnesses/m2cgen",
@@ -311,6 +312,7 @@
     "genforce/interfacegan",
     "GFW-knocker/gfw_resist_tls_proxy",
     "gligen/GLIGEN",
+    "glumpy/glumpy",
     "GOATmessi8/RFBNet",
     "google-deepmind/dnc",
     "google-deepmind/graph_nets",
@@ -409,6 +411,7 @@
     "JingyunLiang/SwinIR",
     "JingyunLiang/VRT",
     "Jittor/JittorLLMs",
+    "jiupinjia/SkyAR",
     "jkjung-avt/tensorrt_demos",
     "jmoiron/humanize",
     "JohannesBuchner/imagehash",
@@ -476,6 +479,7 @@
     "lucidrains/imagen-pytorch",
     "lucidrains/make-a-video-pytorch",
     "lucidrains/musiclm-pytorch",
+    "lucidrains/performer-pytorch",
     "lucidrains/reformer-pytorch",
     "lucidrains/soundstorm-pytorch",
     "lucidrains/video-diffusion-pytorch",
@@ -649,6 +653,7 @@
     "osmr/imgclsmob",
     "ototadana/sd-face-editor",
     "PaddlePaddle/models",
+    "PaddlePaddle/PaddleGAN",
     "pallets/itsdangerous",
     "pallets/quart",
     "pengzhiliang/MAE-pytorch",
@@ -742,6 +747,7 @@
     "showlab/Tune-A-Video",
     "shunsukesaito/PIFu",
     "sicxu/Deep3DFaceRecon_pytorch",
+    "sigsep/open-unmix-pytorch",
     "sihyun-yu/REPA",
     "simonw/files-to-prompt",
     "SkyworkAI/Skywork",
@@ -784,6 +790,7 @@
     "TensorSpeech/TensorFlowTTS",
     "Textualize/textual-web",
     "Theano/Theano",
+    "thu-coai/CDial-GPT",
     "thu-ml/unidiffuser",
     "THUDM/CogDL",
     "THUDM/GLM",
@@ -822,6 +829,7 @@
     "tysam-code/hlb-CIFAR10",
     "ubisoft/ubisoft-laforge-animation-dataset",
     "ucbdrive/few-shot-object-detection",
+    "ucla-mobility/OpenCDA",
     "UN-GCPDS/qt-material",
     "Unakar/Logic-RL",
     "unitreerobotics/unitree_rl_gym",

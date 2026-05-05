@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1538,
-    "concepts": 375,
-    "observations": 375,
-    "repos": 52,
-    "terms": 372
+    "components": 1562,
+    "concepts": 385,
+    "observations": 385,
+    "repos": 54,
+    "terms": 381
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "1mcp-app/agent",
     "abaplint/abaplint",
     "alexlafroscia/vite-plugin-handlebars",
     "antfu/starter-ts",
+    "appwrite/sdk-for-web",
     "astral-sh/ruff-action",
     "aws-samples/swift-chat",
     "aws/aws-iot-device-sdk-js-v2",
@@ -27,6 +28,7 @@
     "babel/website",
     "charmbracelet/vhs-action",
     "circlefin/stablecoin-evm",
+    "daeh/zotero-markdb-connect",
     "decentralized-identity/did-jwt",
     "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
@@ -47,11 +49,11 @@
     "microsoft/playwright-vscode",
     "microsoft/react-native-gallery",
     "microsoft/security-devops-action",
+    "microsoft/vscode-java-debug",
     "nene/prettier-plugin-sql-cst",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
-    "octokit/webhooks",
     "octokit/webhooks.js",
     "opendatalab/labelU-Kit",
     "OpenZeppelin/openzeppelin-upgrades",

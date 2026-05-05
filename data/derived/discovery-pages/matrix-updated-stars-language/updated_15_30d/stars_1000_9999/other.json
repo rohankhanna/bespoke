@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1046,
-    "concepts": 1030,
-    "observations": 1038,
-    "repos": 168,
-    "terms": 1024
+    "components": 1071,
+    "concepts": 1048,
+    "observations": 1057,
+    "repos": 171,
+    "terms": 1042
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "abo-abo/swiper",
     "actions/runner",
@@ -89,6 +89,7 @@
     "hrbrmstr/hrbrthemes",
     "httprb/http",
     "hugoduncan/criterium",
+    "idris-lang/Idris2",
     "intel/BigDL",
     "ipfs/specs",
     "ipld/ipld",
@@ -98,6 +99,7 @@
     "jpsim/SourceKitten",
     "jpsim/Yams",
     "JuliaDocs/Franklin.jl",
+    "JuliaLang/IJulia.jl",
     "JuliaPlots/UnicodePlots.jl",
     "junegunn/seoul256.vim",
     "KhronosGroup/glTF",
@@ -122,6 +124,7 @@
     "minad/vertico",
     "ml-explore/mlx-swift-examples",
     "moby/vpnkit",
+    "modelscope/modelscope-classroom",
     "Morantron/tmux-fingers",
     "numtide/devshell",
     "NVIDIA/nccl-tests",
@@ -150,13 +153,13 @@
     "rack/rack",
     "radian-software/straight.el",
     "rails/propshaft",
-    "rcarriga/nvim-dap-ui",
     "reasonml/reason-react",
     "revfactory/harness",
     "ring-clojure/ring",
     "ROCm/MIOpen",
     "rstudio/cheatsheets",
     "ruby/debug",
+    "ruby/rbs",
     "rust-lang/rfcs",
     "rust-lang/rust-by-example",
     "rust-lang/rust-mode",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 48,
-    "observations": 48,
+    "components": 154,
+    "concepts": 52,
+    "observations": 52,
     "repos": 7,
-    "terms": 47
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AdguardTeam/FiltersRegistry",
     "ChristopherHX/runner.server",
-    "danielrosehill/Claude-Code-Projects-Index",
     "intel/ipex-llm-tutorial",
     "karafka/rdkafka-ruby",
     "LibreChat-AI/librechat.ai",
-    "open-telemetry/opentelemetry-helm-charts"
+    "open-telemetry/opentelemetry-helm-charts",
+    "ROCm/hipBLASLt"
   ]
 }

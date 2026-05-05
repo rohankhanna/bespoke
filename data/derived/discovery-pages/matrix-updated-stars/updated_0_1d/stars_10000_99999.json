@@ -1,23 +1,26 @@
 {
   "counts": {
-    "components": 1020,
-    "concepts": 525,
-    "observations": 530,
-    "repos": 40,
-    "terms": 531
+    "components": 1117,
+    "concepts": 605,
+    "observations": 611,
+    "repos": 47,
+    "terms": 611
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "aden-hive/hive",
     "anthropics/claude-cookbooks",
     "argotorg/solidity",
     "brave/brave-browser",
     "cilium/cilium",
+    "Comfy-Org/ComfyUI-Manager",
+    "Dao-AILab/flash-attention",
+    "deepspeedai/DeepSpeed",
     "fastapi/fastapi",
     "gastownhall/beads",
     "google-ai-edge/mediapipe",
@@ -27,7 +30,6 @@
     "jax-ml/jax",
     "jestjs/jest",
     "JetBrains/compose-multiplatform",
-    "kubernetes-sigs/kubespray",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "moby/moby",
@@ -37,12 +39,15 @@
     "mudler/LocalAI",
     "mui/material-ui",
     "NVIDIA-NeMo/NeMo",
+    "oobabooga/textgen",
     "OpenHands/OpenHands",
     "openjdk/jdk",
     "PDFMathTranslate/PDFMathTranslate",
     "protocolbuffers/protobuf",
     "puppeteer/puppeteer",
+    "pyg-team/pytorch_geometric",
     "QuantumNous/new-api",
+    "quickwit-oss/tantivy",
     "run-llama/llama_index",
     "rust-lang/mdBook",
     "rust-lang/rust-analyzer",
@@ -51,7 +56,9 @@
     "swiftlang/swift",
     "triton-lang/triton",
     "upptime/upptime",
+    "vbenjs/vue-vben-admin",
     "weaviate/weaviate",
-    "Z3Prover/z3"
+    "Z3Prover/z3",
+    "zhayujie/CowAgent"
   ]
 }

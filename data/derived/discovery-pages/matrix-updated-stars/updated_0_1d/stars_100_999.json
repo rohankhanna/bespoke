@@ -1,22 +1,24 @@
 {
   "counts": {
-    "components": 622,
-    "concepts": 225,
-    "observations": 226,
-    "repos": 33,
-    "terms": 224
+    "components": 666,
+    "concepts": 249,
+    "observations": 249,
+    "repos": 37,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
+    "15r10nk/inline-snapshot",
     "a2aproject/a2a-js",
     "adamchainz/blacken-docs",
     "AdguardTeam/FiltersRegistry",
     "AdguardTeam/HostlistsRegistry",
+    "ai-dynamo/aiperf",
     "AI-Hypercomputer/maxdiffusion",
     "alloy-rs/svm-rs",
     "ansible/vscode-ansible",
@@ -24,11 +26,9 @@
     "ChristopherHX/runner.server",
     "cloudfoundry/credhub",
     "confluentinc/librdkafka",
-    "cosmos/chain-registry",
-    "CosmWasm/wasmd",
-    "danielrosehill/Claude-Code-Projects-Index",
     "digitalocean/openapi",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
+    "fluent-vue/fluent-vue",
     "gbionics/adam",
     "GDevelopApp/GDevelop-extensions",
     "intel/ipex-llm-tutorial",
@@ -39,12 +39,16 @@
     "mightyiam/eslint-config-love",
     "open-telemetry/opentelemetry-dotnet-instrumentation",
     "open-telemetry/opentelemetry-helm-charts",
+    "ROCm/hipBLAS",
+    "ROCm/hipBLASLt",
     "scverse/rapids-singlecell",
     "servo/stylo",
+    "sigsep/norbert",
     "SpecterOps/AzureHound",
     "tox-dev/filelock",
     "triton-inference-server/core",
     "triton-inference-server/pytorch_backend",
+    "unplugin/unplugin-imagemin",
     "victorgarciaesgi/regle"
   ]
 }

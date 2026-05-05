@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 766,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 33,
-    "terms": 189
+    "components": 815,
+    "concepts": 196,
+    "observations": 196,
+    "repos": 34,
+    "terms": 196
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "Adobe-CEP/Samples",
     "amqp-node/amqplib",
@@ -25,6 +25,7 @@
     "dooy/chatgpt-web-midjourney-proxy",
     "engineer-man/piston",
     "ethereum/devp2p",
+    "geotiffjs/geotiff.js",
     "GoogleChrome/lighthouse-ci",
     "hughsk/flat",
     "isaacs/minimatch",

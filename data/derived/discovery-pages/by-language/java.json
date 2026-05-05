@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2723,
-    "concepts": 3380,
-    "observations": 3387,
-    "repos": 600,
-    "terms": 3359
+    "components": 2725,
+    "concepts": 3383,
+    "observations": 3390,
+    "repos": 603,
+    "terms": 3362
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "abapGit/ADT_Frontend",
@@ -318,6 +318,7 @@
     "graalvm/native-build-tools",
     "grpc/grpc-java",
     "grpc/grpc-java-api-checker",
+    "gstreamer-java/gst1-java-core",
     "guyboertje/jrjackson",
     "h2oai/h2o-2",
     "h2oai/h2o-droplets",
@@ -406,6 +407,7 @@
     "LaurieWired/GhidraMCP",
     "ldproxy/ldproxy",
     "lefou/lambdatest",
+    "lewiji/MiDaS",
     "librespot-org/librespot-java",
     "lightbend/config",
     "locationtech/jts",
@@ -469,6 +471,7 @@
     "OpenAPITools/openapi-generator",
     "openjdk/jdk",
     "openjdk/jmh",
+    "opensciencemap/vtm",
     "opensim-org/opensim-gui",
     "operator-framework/java-operator-sdk",
     "oracle/graal",

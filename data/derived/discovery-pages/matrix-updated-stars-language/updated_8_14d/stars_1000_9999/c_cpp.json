@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 853,
-    "concepts": 873,
-    "observations": 874,
-    "repos": 106,
-    "terms": 868
+    "components": 877,
+    "concepts": 920,
+    "observations": 921,
+    "repos": 110,
+    "terms": 915
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AcademySoftwareFoundation/OpenShadingLanguage",
@@ -95,23 +95,27 @@
     "open-quantum-safe/liboqs",
     "open-source-parsers/jsoncpp",
     "OpenSC/OpenSC",
+    "openucx/ucx",
     "openxla/xla",
+    "panda3d/panda3d",
     "paullouisageneau/libdatachannel",
     "pnggroup/libpng",
     "PRBonn/kiss-icp",
     "pytorch/FBGEMM",
     "rapidsai/cudf",
     "rapidsai/cuml",
+    "red-data-tools/pycall.rb",
     "RoaringBitmap/CRoaring",
+    "sail-sg/envpool",
     "saitoha/libsixel",
     "shader-slang/slang",
     "simdutf/simdutf",
     "sqlite/sqlite",
-    "strukturag/libheif",
     "tevador/RandomX",
     "the-tcpdump-group/libpcap",
     "uccl-project/uccl",
     "uNetworking/uWebSockets.js",
+    "unitreerobotics/unitree_sdk2",
     "util-linux/util-linux",
     "WebAssembly/wasi-libc",
     "wireshark/wireshark",

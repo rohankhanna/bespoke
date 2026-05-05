@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 58522,
-    "concepts": 9977,
-    "observations": 10011,
-    "repos": 1762,
-    "terms": 10287
+    "components": 58813,
+    "concepts": 10024,
+    "observations": 10058,
+    "repos": 1768,
+    "terms": 10331
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "typescript"
   },
-  "generated_at": "2026-05-05T05:30:34.648225+00:00",
+  "generated_at": "2026-05-05T08:29:41.606128+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "0h7z/vscode-julia-format",
@@ -44,6 +44,7 @@
     "a2aproject/a2a-inspector",
     "a2aproject/a2a-js",
     "aaaaalexis/obsidian-pseudo-mica",
+    "aabccd021/vanilla-virtua",
     "aaronlamz/vue-next-i18n",
     "aave/protocol-v2",
     "abaplint/abaplint",
@@ -145,6 +146,7 @@
     "ansible/ansible-language-server",
     "ansible/vscode-ansible",
     "ant-design/ant-design",
+    "ant-design/ant-design-mobile",
     "antfu-collective/bumpp",
     "antfu-collective/eslint-vitest-rule-tester",
     "antfu-collective/vite-plugin-inspect",
@@ -328,6 +330,8 @@
     "BuilderIO/mitosis",
     "butlerx/wetty",
     "buttondown/cli",
+    "bvaughn/react-window",
+    "bvaughn/react-window-infinite-loader",
     "byte-fe/react-model",
     "bytebot-ai/bytebot",
     "bytedance/UI-TARS-desktop",
@@ -911,6 +915,7 @@
     "kadiryazici/vite-ssr-middleware",
     "kakajun/simple-panzoom",
     "Kaliiiiiiiiii-Vinyzu/patchright",
+    "Kaliiiiiiiiii-Vinyzu/patchright-nodejs",
     "kamranahmedse/claude-run",
     "Kastalien-Research/thoughtbox",
     "KaTeX/KaTeX",
@@ -1633,6 +1638,7 @@
     "TypeStrong/ts-node",
     "typings/typings",
     "typstyle-rs/typstyle-tampermonkey",
+    "u3u/vue-hooks",
     "ublacklist/builtin",
     "ublacklist/ublacklist.github.io",
     "uga-rosa/denippet.vim",
